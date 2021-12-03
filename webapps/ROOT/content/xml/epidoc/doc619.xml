@@ -4,7 +4,8 @@
             <teiHeader xml:lang="en">
                 <fileDesc>
                     <titleStmt>
-                        <title>ASDL, AAL, D, ++ F 62 (n. 1133)</title>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    Diplomatico, ++ F 62</title>
                     </titleStmt>
                     <editionStmt>
                         <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
@@ -13,7 +14,7 @@
                         </editionStmt>
                     <publicationStmt>
                         <publisher>Fiscus - DISCI UniBo</publisher>
-                        <idno type="filename">doc130</idno>
+                        <idno type="filename">doc619</idno>
                         <availability xml:lang="en" status="free">
                             <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                                 texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
@@ -30,10 +31,10 @@
                             </msIdentifier>
                             <msContents>
                                 <summary>
-                                    <rs type="text_type" ref="#">Cartula ordinationis</rs>
-                                    <rs type="record_source" ref="#"/>
-                                    <rs type="document_tradition" ref="#"/>
-                                    <rs type="fiscal_property"/>
+                                    <rs type="text_type" ref="#">--Ordinatio</rs>
+                                    <rs type="record_source" ref="#">Original document</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">No</rs>
                                 </summary>
                                 <msItem xml:id="msItem1">
                                     <textLang mainLang="" otherLangs=""/>
@@ -41,12 +42,12 @@
                             </msContents>
                             <history>
                                 <origin>
-                                    <origDate notBefore="0001" notAfter="0001" when="0001">
-                                    <note type="displayed_date">0907/07/24</note>
-                                    <note type="dating_elements"></note>
-                                    <note type="topical_date">Actum Luca (Lucca)</note>
-                                        <note type="redaction_date"/>
-                             </origDate>
+                                    <origDate when="0907-07-24">
+                                <note type="displayed_date">907 July 24</note>
+                                <note type="dating_elements">Stile dell’incarnazione</note>
+                                <note type="topical_date">Lucca</note>
+                                <note type="redaction_date"/>
+                            </origDate>
                                     <origPlace/>
                                 </origin>
                                 <provenance>
@@ -73,7 +74,7 @@
                 </profileDesc>
                 <revisionDesc>
                     <listChange>
-                        <change when="2021-01-06" who="ptomei">creation of record</change>
+                        <change when="2021-12-03" who="ptomei">creation of record</change>
                     </listChange>
                 </revisionDesc>
             </teiHeader>
@@ -81,19 +82,46 @@
                 <body>
                     <div type="edition">
                         <div type="textpart">
-                            <ab>
-                                Il vescovo di Lucca Pietro, con il consenso sacerdotum meorum seo filli ipsius ecclesie, ordina il prete Lorenzo figlio di Teudipranda nella pieve di San Pietro sita loco et finibus Martiana, con tutte le sue dipendenze.
-Chiede al notaio e scabino Pietro la stesura di due cartulas.
-                                <persName>Autori: Pietro episcopus, Lorenzo presbiter di Teudipranda.
-Scrittore: Pietro notarius et schabinus.
-Testimoni sottoscrittori: Vivenzio archipresbiter et vicedominus, Eripaldo presbiter et cardinalis, Sicardo presbiter et cardinalis et primicerius, Ghisolfo presbiter et cardinalis, Benedetto presbiter, Ropprando presbiter et cardinalis, Suntripaldo presbiter et cardinalis, Stefano presbiter et cantor, Leone presbiter, Ghisalprando presbiter, ... presbiter, ... presbiter, ... presbiter, Ildeberto ... , Andrea diaconus et cardinalis, Teupaldo diaconus et cardinalis, Raipodo diaconus, Andrea diaconus, Andrea presbiter, Grasolfo diaconus et cardinalis.</persName>
-                                <placeName>Luca (Lucca), Martiana (Poderi Pieve, Cerreto Guidi).</placeName>
-                                <orgName>San Pietro di Ripoli (chiesa battesimale), San Martino di Lucca (chiesa matrice).</orgName>
-                            </ab>
+                            <ab>Il <rs key="#Bishops">vescovo</rs> di Lucca <persName
+                            ref="#people/213" key="#Bishops">Pietro</persName>, con il consenso
+                        sacerdotum meorum seo filli ipsius ecclesie, ordina il <rs key="#Priests"
+                            >prete</rs>
+                        <persName key="#Priests"><name ref="Laurentius">Lorenzo</name></persName>
+                        <rs key="#Clerical_concubinage">figlio di <persName
+                                key="#Clerical_concubinage"><name ref="Teudebranda"
+                                    >Teudipranda</name></persName></rs> nella <orgName><rs
+                                key="#Baptismal_churches">pieve</rs> di San Pietro sita loco et
+                            finibus <placeName key="#Baptismal_churches"
+                            >Martiana</placeName></orgName>, con tutte le sue dipendenze. Chiede al
+                            <rs key="#Writer #Notary">notaio</rs> e <rs key="#Scabini">scabino</rs>
+                        <persName key="#Writer #Notary #Scabini"><name ref="Petrus"
+                            >Pietro</name></persName> la stesura di due <rs key="#Ordinatio"
+                            >cartulas</rs>. Actum <placeName ref="#places/4" key="#Bishops"
+                            >Luca</placeName>. <rs key="#Witness">Testimoni</rs> sottoscrittori:
+                            <persName key="#Witness #Archpriests"><name ref="Viventius"
+                                >Vivenzio</name></persName>
+                        <rs key="#Archpriests">archipresbiter et vicedominus</rs>, <persName
+                            key="#Witness #Priests #Cardinals"><name ref="Eribaldus"
+                            >Eripaldo</name></persName>
+                        <rs key="#Priests">presbiter</rs> et <rs key="#Cardinals">cardinalis</rs>,
+                            <persName key="#Witness #Priests #Cardinals"><name ref="Sicardus"
+                                >Sicardo</name></persName>
+                        <rs key="#Priests">presbiter</rs> et <rs key="#Cardinals">cardinalis</rs> et
+                        primicerius, <persName key="#Witness #Priests #Cardinals"><name
+                                ref="Ghisulfus">Ghisolfo</name></persName>
+                        <rs key="#Priests">presbiter</rs> et <rs key="#Cardinals">cardinalis</rs>,
+                            <persName key="#Witness #Priests"><name ref="Benedictus"
+                                >Benedetto</name></persName>
+                        <rs key="#Priests">presbiter</rs>, Ropprando presbiter et cardinalis,
+                        Suntripaldo presbiter et cardinalis, Stefano presbiter et cantor, Leone
+                        presbiter, Ghisalprando presbiter, ... presbiter, ... presbiter, ...
+                        presbiter, Ildeberto ... , Andrea diaconus et cardinalis, Teupaldo diaconus
+                        et cardinalis, Raipodo diaconus, Andrea diaconus, Andrea presbiter, Grasolfo
+                        diaconus et cardinalis.</ab>
                         </div>
                     </div>
                     <div type="bibliography" subtype="editions">
-                        <p>MDL, V/3, n. 1006, p. 43</p>
+                        <p>MDL, 5/3, n. 1006, p. 43.</p>
                     </div>
                     <div type="bibliography" subtype="additional">
                         <p/>
@@ -102,10 +130,14 @@ Testimoni sottoscrittori: Vivenzio archipresbiter et vicedominus, Eripaldo presb
                         <p/>
                     </div>
                     <div type="commentary">
-                        <p>Stile dell’incarnazione.
-Matronimico. Doppia dedicazione pieve.
-Nota dorsale X sec.: ordina(...) de Ripule.</p>
-                        <p><note>Mod_id: 14</note></p>
+                        <p>Nota dorsale X sec.: ordina(...) de Ripule. Sottoscrizioni autografe: il
+                    vescovo Pietro, l'arciprete e visdomino Vivenzio, il prete e cardinale Eripaldo,
+                    il prete, cardinale e primicerio Sicardo, il prete e cardinale Ghisolfo, il
+                    prete Benedetto, il prete e cardinale Ropprando, Suntripaldo presbiter et
+                    cardinalis, Stefano presbiter et cantor, Leone presbiter, Ghisalprando
+                    presbiter, ... presbiter, ... presbiter, ... presbiter, Ildeberto ... , Andrea
+                    diaconus et cardinalis, Teupaldo diaconus et cardinalis, Raipodo diaconus,
+                    Andrea diaconus, Andrea presbiter, Grasolfo diaconus et cardinalis</p>
                     </div>
                 </body>
             </text>
