@@ -30,10 +30,10 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="#"/>
-                            <rs type="record_source" ref="#"/>
-                            <rs type="document_tradition" ref="#"/>
-                            <rs type="fiscal_property"/>
+                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -41,13 +41,13 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate notBefore="0001" notAfter="0001" when="0001"> 
-                                <note type="displayed_date"></note>
-                                <note type="dating_elements"></note>
-                                <note type="topical_date"></note>
-                                <note type="redaction_date"></note>
+                            <origDate when="0868-04-28">
+                                <note type="displayed_date">868 April 28</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Venosa (Potenza)</note>
+                                <note type="redaction_date">IX-X</note>
                             </origDate>
-                            <origPlace/>
+                            <origPlace>Sanctus Sixtus; monasterium (Piacenza)</origPlace>
                         </origin>
                         <provenance>
                             <location>
@@ -73,7 +73,7 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2021-02-08">creation of record</change>
+                <change when="2021-12-08" who="ltabarrini">creation of record</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -82,25 +82,27 @@
             <div type="edition">
                 <div type="textpart">
                     <ab>In nomine domini nostri Iesu Christi dei aeterni. Hludouuicus divina
-                        ordinante providentia imperator augustus. Si aliorum nostrorum fidelium
-                        utilitatibus pio consulimus affectu eorumque profectus aequo stabilimus
-                        libramine, decentissimum ante omnia et super omnia est ipsius specialiter
-                        prae ceteris omnibus honorem et utilitatem futuris manentem temporibus pro
-                        eius incomparabili amore praemeditando atque praevidendo stabilire, quae
-                        consors et adiutrix regni pariter a deo nobis commissi extat, quatinus,
-                        cuius providentia nobis iuncta est, eius et gubernatione honorifice degere
-                        queat. Unde illum, quicumque fuerit, nostrum successorem per ineffabilem
-                        sanctae et individuae trinitatis maiestatem adiuramus et obtestamur, ut,
-                        sicut sua voluerit stabilia permanere, ita nostra irrefragabiliter sinat
-                        secundum nostram distributionem perdurare. Qua de re comperiat universorum
-                        sanctae dei ecclesiae fidelium tam praesentium videlicet quamque et
-                        futurorum solertia nos una cum fidelium nostrorum consultu concessisse
-                        dilectissimae coniugi nostrae, clarissimae scilicet augustae Angilbergae,
-                        cunctis diebus vitae suae monasterium domini Saluatoris intra moenia
-                        civitatis Brixiae constructum, quod dicitur Nouum, cum omnibus suis
-                        appendiciis tam mobilibus quamque et immobilibus, cum omnibus videlicet
-                        monasteriis et xenodochiis seu cortibus ad ipsum aspicientibus, hoc est
-                        Alinam, Campora, Sextuno, monasterium in Luca, quod Aldo dux aedificavit, et
+                        ordinante providentia <rs key="#Emperor/king">imperator</rs> augustus. Si
+                        aliorum nostrorum fidelium utilitatibus pio consulimus affectu eorumque
+                        profectus aequo stabilimus libramine, decentissimum ante omnia et super
+                        omnia est ipsius specialiter prae ceteris omnibus honorem et utilitatem
+                        futuris manentem temporibus pro eius incomparabili amore praemeditando atque
+                        praevidendo stabilire, quae consors et adiutrix regni pariter a deo nobis
+                        commissi extat, quatinus, cuius providentia nobis iuncta est, eius et
+                        gubernatione honorifice degere queat. Unde illum, quicumque fuerit, nostrum
+                        successorem per ineffabilem sanctae et individuae trinitatis maiestatem
+                        adiuramus et obtestamur, ut, sicut sua voluerit stabilia permanere, ita
+                        nostra irrefragabiliter sinat secundum nostram distributionem perdurare. Qua
+                        de re comperiat universorum sanctae dei ecclesiae fidelium tam praesentium
+                        videlicet quamque et futurorum solertia nos una cum fidelium nostrorum
+                        consultu concessisse dilectissimae coniugi nostrae, clarissimae scilicet <rs
+                            key="#Queen">augustae</rs> Angilbergae, cunctis diebus vitae suae <rs
+                            key="#Monasteries">monasterium</rs> domini Saluatoris intra moenia <rs
+                            key="#Cities">civitatis</rs> Brixiae constructum, quod dicitur Nouum,
+                        cum omnibus suis appendiciis tam mobilibus quamque et immobilibus, cum
+                        omnibus videlicet monasteriis et <rs key="#Hospitals">xenodochiis</rs> seu
+                            <rs key="#Curtes">cortibus</rs> ad ipsum aspicientibus, hoc est Alinam,
+                        Campora, Sextuno, monasterium in Luca, quod Aldo dux aedificavit, et
                         monasterium in Papia, quod vocatur Reginae, et xenodochium sanctae Mariae
                         cum hospitali sancti Benedicti in monte Longo nec non et monasterium situm
                         in Sirmione seu xenodochium sanctae Mariae in Papia situm, quod dicitur
@@ -139,7 +141,7 @@
                 <p/>
             </div>
             <div type="commentary">
-                <p/>
+                <p>Muratori: 'ex tabulario... monasterii Placentini Sancti Sixti'.</p>
             </div>
         </body>
     </text>
