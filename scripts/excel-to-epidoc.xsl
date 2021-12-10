@@ -124,7 +124,7 @@
                 <p></p>
             </div>
             <div type="bibliography" subtype="links">
-                <p>Lodovico Media Library Online: <ref>https://lodovico.medialibrary.it/media/schedadl.aspx?id=<xsl:value-of select="./Cell[3]/Data"/></ref></p>
+                <p>Lodovico Media Library: <ref>https://lodovico.medialibrary.it/media/schedadl.aspx?id=<xsl:value-of select="./Cell[3]/Data"/></ref></p>
             </div>
             <div type="commentary">
                  <p><xsl:apply-templates select="./Cell[1]/Data"/>. <xsl:apply-templates select="./Cell[4]/Data"/>. <xsl:apply-templates select="substring-before(./Cell[15]/Data, 'https://fiscus.unibo.it/en/documents/')"/></p>
