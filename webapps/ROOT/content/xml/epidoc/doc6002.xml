@@ -4,7 +4,7 @@
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
-                <title>Nonantola, Archivio Abbaziale, Pergamene II, 09</title>
+                <title>Archivio Abbaziale di Nonantola, Pergamene, II 9</title>
             </titleStmt>
             <editionStmt>
                 <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
@@ -41,13 +41,13 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate notBefore="0824-12-01" notAfter="0824-12-31" when="0001">
-                                <note type="displayed_date">824, December 1/31</note>
+                            <origDate notBefore="0824-12-01" notAfter="0824-12-31">
+                                <note type="displayed_date">824 December 1/31</note>
                                 <note type="dating_elements"/>
-                                <note type="topical_date">Reggio (Reggio Emilia)</note>
-                                <note type="redaction_date">IX</note>
+                                <note type="topical_date">Reggio Emilia</note>
+                                <note type="redaction_date"/>
                             </origDate>
-                            <origPlace>Nonantola, Archivio Abbaziale</origPlace>
+                            <origPlace/>
                         </origin>
                         <provenance>
                             <location>
@@ -73,7 +73,7 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2021-11-29">creation of record</change>
+                <change when="2021-12-11" who="emanarini">creation of record</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -82,19 +82,21 @@
             <div type="edition">
                 <div type="textpart">
                   
-                        <ab>Notitia recordationis, qualiter cum nos <persName
-                            key="#Other_palatine_officer">Vuala</persName> redeuntibus <placeName
-                            key="#Cities" ref="#places/52">Roma</placeName> in servitio d[omni
-                        imperat ]oris <rs key="#Cities">civitate</rs>
+                        <ab><rs key="#Placitum/iudicatum">Notitia recordationis</rs>, qualiter cum
+                        nos <persName key="#Other_palatine_officer">Vuala</persName> redeuntibus
+                            <placeName key="#Cities" ref="#places/52">Roma</placeName> in servitio
+                        domni imperatoris <rs key="#Scabini #Cities">civitate</rs>
                         <placeName key="#Cities" ref="#places/191">Regio</placeName> coniunxissemus
                         cum <persName key="#Bishops">Nortperto</persName> et <persName
                             key="#Bishops">Stephano</persName>
-                        <rs key="#Bishops">episcopis</rs>, <persName key="#Abbots">Petro</persName>
+                        <rs key="#Bishops">episcopis</rs>, <persName key="#Abbots" ref="#people/119"
+                            >Petro</persName>
                         <rs key="#Abbots">abbate</rs>
                         <rs key="#Monasteries">monasterii</rs>
                         <orgName key="#Imperial/royal_diploma #Advocatus #Monasteries #Abbots"
-                            ref="#juridical_persons/47"><placeName>No|nantole</placeName></orgName>,
-                            <persName key="#Other_clerics">Magno</persName>
+                            ref="#juridical_persons/47"><placeName ref="#places/15"
+                                >No|nantole</placeName></orgName>, <persName key="#Other_clerics"
+                            >Magno</persName>
                         <rs key="#Other_clerics">capellano</rs>, <persName key="#Count"
                             >Leone</persName>
                         <rs key="#Count">comite</rs>, erantque nobiscum <persName key="#Judge"
@@ -108,10 +110,9 @@
                             ref="#places/53">Parma</placeName>, <persName
                             key="#Gastaldus/vicegastaldus">Mauringus</persName>
                         <rs key="#Gastaldus/vicegastaldus">gas|taldius</rs>, <persName
-                            key="#Scabini">Percthani</persName> scavinus de <placeName
-                            key="#Cities #Scabini">Regio</placeName>, et reliqui plures. Ibidem ad
-                        nos venerunt <persName key="#Local_elites">Martinus</persName>, <persName
-                            key="#Notary">Theodepertus</persName>
+                            key="#Scabini">Perethani</persName> scavinus de Regio, et reliqui
+                        plures. Ibidem ad nos venerunt <persName key="#Local_elites"
+                            >Martinus</persName>, <persName key="#Notary">Theodepertus</persName>
                         <rs key="#Notary">notarius</rs>, <persName>Adam</persName>,
                             <persName>Gillus</persName>, <persName>Martinus</persName>,
                             <persName>Iustoli</persName>, <persName>Iohannes</persName>,
@@ -226,7 +227,7 @@
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p/>
+                <p>Manaresi n. 36.</p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p/>
