@@ -30,10 +30,10 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="#"/>
-                            <rs type="record_source" ref="#"/>
+                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Uncertain tradition</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Uncertain</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -41,11 +41,11 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate notBefore="0001" notAfter="0001" when="0001"> 
-                                <note type="displayed_date"></note>
-                                <note type="dating_elements"></note>
-                                <note type="topical_date"></note>
-                                <note type="redaction_date"></note>
+                            <origDate when="0870-06-03">
+                                <note type="displayed_date">870 June 3</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Venosa (Potenza)</note>
+                                <note type="redaction_date">IX-XI</note>
                             </origDate>
                             <origPlace>Sanctus Sixtus; monasterium (Piacenza)</origPlace>
                         </origin>
@@ -81,68 +81,126 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab> In nomine domini nostri Iesu Christi dei aeterni. Hludouuicus divina
-                        ordinante providentia imperator augustus. Si liberalitatis imperialis
-                        munificentiam fidelibus quibusque nostris benigne concedimus, quanto potius
-                        dilectae nobis coniugi, quam divinitus in adiutorium commissi nobis imperii
-                        percepimus sociam, cunctae dapsilitatis commoda conferre nos convenit.
-                        Quapropter omnium fidelium Christi sanctaeque ipsius ecclesiae comperiat
-                        generalitas, quoniam cum tractatu et consilio atque unanimitate imperii
-                        nostri primorum Angilbergae serenissimae augustae et imperatrici atque
-                        desiderabilissimae coniugi nostrae per huius auctoritatis nostrae preceptum
-                        tribuimus quandam abbaciam in honore beati Petri celestis regni clavigeri
-                        dicatam et fundatam non procul a Placentina urbe in loco, qui nuncupatur
-                        Caput Trebiae, seu etiam quasdam cortes, videlicet Uuardistallam, Luciariam,
-                        Litora Palludiana, Campum Miliacium, Sextum, Iuerne, Massini et Leocarni,
-                        cum omnibus rebus mobilibus et immobilibus ac familiis utriusque sexus seu
+                    <ab> In nomine domini nostri Iesu Christi dei aeterni. <persName
+                            ref="#people/110" key="#Emperor/king">Hludouuicus</persName> divina
+                        ordinante providentia <rs key="#Emperor/king">imperator</rs> augustus. Si
+                        liberalitatis imperialis munificentiam fidelibus quibusque nostris benigne
+                        concedimus, quanto potius dilectae nobis coniugi, quam divinitus in
+                        adiutorium commissi nobis imperii percepimus sociam, cunctae dapsilitatis
+                        commoda conferre nos convenit. Quapropter omnium fidelium Christi sanctaeque
+                        ipsius ecclesiae comperiat generalitas, quoniam cum tractatu et consilio
+                        atque unanimitate imperii nostri primorum <persName
+                            key="#Curtes #Queen #Monasteries">Angilbergae</persName> serenissimae
+                        augustae et <rs key="#Queen">imperatrici</rs> atque desiderabilissimae
+                        coniugi nostrae per huius auctoritatis nostrae preceptum tribuimus quandam
+                            <rs key="#Monasteries">abbaciam</rs> in honore <orgName
+                            ref="#juridical_persons/1503" key="#Monasteries #Royal_slave">beati
+                            Petri celestis regni clavigeri</orgName> dicatam et fundatam non procul
+                        a <placeName ref="#places/43">Placentina</placeName>
+                        <rs key="#Cities">urbe</rs> in loco, qui nuncupatur <placeName
+                            key="#Diploma #Cartula #Venditio #Offersio/donatio #Curtes #Royal_slave"
+                            ref="#places/14"><geogName ref="#estates/76"
+                                key="#Diploma #Cartula #Venditio #Offersio/donatio #Curtes #Royal_slave"
+                                >Caput Trebiae</geogName></placeName>, seu etiam quasdam <rs
+                            key="#Curtes">cortes</rs>, videlicet <placeName ref="#places/33"
+                            key="#Diploma #Cartula #Venditio #Offersio/donatio #Curtes #Royal_slave"
+                                ><geogName ref="#estates/40"
+                                key="#Diploma #Cartula #Venditio #Offersio/donatio #Curtes #Royal_slave"
+                                >Uuardistallam</geogName></placeName>, <placeName ref="#places/32"
+                            key="#Diploma #Cartula #Venditio #Offersio/donatio #Curtes #Royal_slave"
+                                ><geogName ref="#estates/38"
+                                key="#Diploma #Cartula #Venditio #Offersio/donatio #Curtes #Royal_slave"
+                                >Luciariam</geogName></placeName>, <geogName ref="#estates/77"
+                            key="#Diploma #Cartula #Venditio #Offersio/donatio #Curtes #Royal_slave"
+                                ><placeName ref="#places/361"
+                                key="#Diploma #Cartula #Venditio #Offersio/donatio #Curtes #Royal_slave"
+                                >Litora Palludiana</placeName></geogName>, <geogName
+                            ref="#estates/110"
+                            key="#Diploma #Cartula #Venditio #Offersio/donatio #Curtes #Royal_slave"
+                                ><placeName ref="#places/141"
+                                key="#Diploma #Cartula #Venditio #Offersio/donatio #Curtes #Royal_slave"
+                                >Campum Miliacium</placeName></geogName>, <placeName
+                            ref="#places/354"
+                            key="#Diploma #Cartula #Venditio #Offersio/donatio #Curtes #Royal_slave"
+                                ><geogName ref="#estates/112"
+                                key="#Diploma #Cartula #Venditio #Offersio/donatio #Curtes #Royal_slave"
+                                >Sextum</geogName></placeName>, <placeName ref="#places/278"
+                            key="#Diploma #Cartula #Venditio #Offersio/donatio #Curtes #Royal_slave"
+                                ><geogName ref="#estates/113"
+                                key="#Diploma #Cartula #Venditio #Offersio/donatio #Curtes #Royal_slave"
+                                >Iuerne</geogName></placeName>, <geogName ref="#estates/114"
+                            key="#Diploma #Cartula #Venditio #Offersio/donatio #Curtes #Royal_slave"
+                            >Massini</geogName> et <placeName ref="#places/1908"
+                            key="#Diploma #Cartula #Venditio #Offersio/donatio #Curtes #Royal_slave"
+                                ><geogName ref="#estates/115"
+                                key="#Diploma #Cartula #Venditio #Offersio/donatio #Curtes #Royal_slave"
+                                >Leocarni</geogName></placeName>, cum omnibus rebus mobilibus et
+                        immobilibus ac <rs key="#Royal_slave">familiis</rs> utriusque sexus seu
                         etiam cum omnibus, quae dici aut nominari possunt, ad predictam abbaciam vel
                         easdem cortes pertinentibus in integrum - tam ad utilitatem ipsius coniugis
                         nostrae quamque ad alimenta monacharum, quae pro tempore famulabuntur domino
                         in monesterio, quod nunc noviter ab eadem coniuge nostra construitur infra
                         eandem urbem Placentinam. Insuper et roboramus ei omnes res tam mobiles quam
                         immobiles nec non et familias utriusque sexus una cum acquisitis rebus et
-                        acquirendis, quas sive per largitionis nostrae diverso tempore emissa
-                        precepta sive collata sibi ab aliis monumenta cartarum, donationum scilicet
-                        vel venditionum sive per quemcumque alium modum acquisisse sive possedisse
-                        dinoscitur, omnia haec in perpetuum stabilientes ei et, ut prediximus,
-                        roborantes. Similiter autem donamus ei a presenti die atque concedimus in
-                        perpetuum, quaecumque ex superius comprehensis rebus vel familiis per
-                        quaecumque legum iura ad nos pertinere comprobantur sive deinceps pertinere
-                        noscentur, ita ut et haec cum illis presenti imperiali munificentia et
-                        auctoritate munita perpetualiter pociatur et suo semper iuri vindicet ac
-                        defendat, ad possidendum videlicet et utendum omnibus his in perpetuum atque
-                        donandum ac relinquendum, cui voluerit, et de his omnibus agendum, quod sibi
-                        placuerit. Quisquis autem successorum nostrorum imperatorum vel alterius
-                        cuiusque dignitatis aut conditionis hominum contra huius imperialis precepti
-                        ser[ie]m in toto vel in parte agere temptaverit et de his omnibus quicquam
-                        auferre vel minuere aut ab aliquo sibi quocumque modo dandum postulare
-                        presumpserit sibique usurpare vel vindicare quolibet ingenio conatus
-                        extiterit aut illi super his omnibus vel eis, quibus ipsa horum aliquid
-                        contulerit, molestiam aliquam inferre presumpserit, primo quidem nisus eius
-                        nullas vires habeat, deinde vero pro solo presumptuoso conamine auri obrizi
-                        duo milia librarum exsolvere compellatur, quarum dimidia pars prefatae
+                        acquirendis, quas sive per largitionis nostrae diverso tempore emissa <rs
+                            key="#Diploma">precepta</rs> sive collata sibi ab aliis <rs
+                            key="#Cartula">monumenta cartarum</rs>, <rs key="#Offersio/donatio"
+                            >donationum</rs> scilicet vel <rs key="#Venditio">venditionum</rs> sive
+                        per quemcumque alium modum acquisisse sive possedisse dinoscitur, omnia haec
+                        in perpetuum stabilientes ei et, ut prediximus, roborantes. Similiter autem
+                        donamus ei a presenti die atque concedimus in perpetuum, quaecumque ex
+                        superius comprehensis rebus vel familiis per quaecumque legum iura ad nos
+                        pertinere comprobantur sive deinceps pertinere noscentur, ita ut et haec cum
+                        illis presenti imperiali munificentia et auctoritate munita perpetualiter
+                        pociatur et suo semper iuri vindicet ac defendat, ad possidendum videlicet
+                        et utendum omnibus his in perpetuum atque donandum ac relinquendum, cui
+                        voluerit, et de his omnibus agendum, quod sibi placuerit. Quisquis autem
+                        successorum nostrorum imperatorum vel alterius cuiusque dignitatis aut
+                        conditionis hominum contra huius imperialis precepti ser[ie]m in toto vel in
+                        parte agere temptaverit et de his omnibus quicquam auferre vel minuere aut
+                        ab aliquo sibi quocumque modo dandum postulare presumpserit sibique usurpare
+                        vel vindicare quolibet ingenio conatus extiterit aut illi super his omnibus
+                        vel eis, quibus ipsa horum aliquid contulerit, molestiam aliquam inferre
+                        presumpserit, primo quidem nisus eius nullas vires habeat, deinde vero pro
+                        solo presumptuoso conamine <rs key="#Penalty">auri obrizi duo milia
+                            librarum</rs> exsolvere compellatur, quarum dimidia pars prefatae
                         augustae tribuatur, dimidia vero a principe, qui per tempus fuerit,
                         exigatur. Utque haec nostrae donationis et confirmationis auctoritas firmior
                         habeatur et in futura tempora inviolabiliter conservetur, manu propria
                         subter signavimus et de bulla nostra insigniri precepimus.   Signum (M.)
-                        Hludouici serenissimi imperatoris augusti.   Ego Leudoinus archipresbiter
-                        palatinus iussu imperatorio advicem Farmundi recognovi et (SR.)   Datum anno
-                        domni Hludouuici serenissimi imperatoris augusti XXI, indictione III, III
-                        non. iun., anno incarnationis DCCCXXXX; actum civitate Uenusia; in dei
+                        Hludouici serenissimi imperatoris augusti.   Ego <persName><name
+                                ref="Leodoinus">Leudoinus</name></persName>
+                        <rs key="#Archpriests">archipresbiter palatinus</rs> iussu imperatorio
+                        advicem <persName><name ref="Farimundus">Farmundi</name></persName>
+                        recognovi et (SR.)  Datum anno domni Hludouuici serenissimi imperatoris
+                        augusti XXI, indictione III, III non. iun., anno incarnationis DCCCXXXX;
+                        actum civitate <placeName ref="#places/1858">Uenusia</placeName>; in dei
                         nomine feliciter amen. (B. D.)</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p/>
+                <p>ChLA 93, n. 14.</p>
             </div>
             <div type="bibliography" subtype="additional">
-                <p/>
+                <p>Pölnitz-Kehr 1940.</p>
             </div>
             <div type="bibliography" subtype="links">
                 <p/>
             </div>
             <div type="commentary">
-                <p/>
+                <p>Falso, secondo l'editore MGH. La rigatura, come negli altri 'presunti originali'
+                    di S. Sisto, termina con un occhiello tanto sulla sinistra, quanto sulla destra.
+                    Il pezzo sembra una goffa imitazione di MGH DD Lu II, n. 51. Lo ritengono
+                    originale, invece, gli editori ChLA, che escludono l'ipotesi che si tratti di
+                    una copia di X secolo, sostenuta da Benassi, o che sia un falso (MGH). Secondo
+                    Mantegna, che segue l'interpretazione di Pölnitz-Kehr, il diploma sarebbe stato
+                    redatto verso la fine del secolo IX nell'ambiente di Angelberga e San Sisto,
+                    forse all'epoca di Berengario I (cf. ChLA 93, n. 32). Così suggerirebbero le
+                    caratteristiche grafiche e diplomatistiche. Si ipotizza dunque uno 'iato
+                    temporale tra azione e documentazione'. Certo, però, che il riferimento alla
+                    costruzione di S. Sisto (non ancora iniziata a quest'epoca) e l'attribuzione
+                    (non la riconferma) di varie <foreign>curtes</foreign> già attribuite in
+                    precedenza ad Angelberga non possono che lasciare perplessi.</p>
             </div>
         </body>
     </text>
