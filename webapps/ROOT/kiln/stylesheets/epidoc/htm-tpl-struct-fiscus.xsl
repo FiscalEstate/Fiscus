@@ -291,6 +291,26 @@
     </xsl:choose>
   </xsl:template>
 
+  <xsl:template priority="10" match="t:ab[@type='level2']">
+    <p class="ab2"><span class="ab"><xsl:apply-templates/></span></p>
+  </xsl:template>
+  
+  <xsl:template priority="10" match="t:ab[@type='level3']">
+    <p class="ab3"><span class="ab"><xsl:apply-templates/></span></p>
+  </xsl:template>
+  
+  <xsl:template priority="10" match="t:ab[@type='level4']">
+    <p class="ab4"><span class="ab"><xsl:apply-templates/></span></p>
+  </xsl:template>
+  
+  <xsl:template priority="10" match="t:ab[@type='level5']">
+    <p class="ab5"><span class="ab"><xsl:apply-templates/></span></p>
+  </xsl:template>
+  
+  <xsl:template priority="10" match="t:ab[@type='level6']">
+    <p class="ab6"><span class="ab"><xsl:apply-templates/></span></p>
+  </xsl:template>
+  
   <xsl:template match="t:div//t:ref[not(@corresp)][starts-with(., 'http')]">
     <a>
       <xsl:attribute name="href">
