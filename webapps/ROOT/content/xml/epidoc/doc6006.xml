@@ -4,7 +4,7 @@
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
-                <title>Nonantola, Archivio Abbaziale, Pergamene, III, 27</title>
+                <title>Archivio Abbaziale di Nonantola, Pergamene, III 27</title>
             </titleStmt>
             <editionStmt>
                 <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
@@ -13,7 +13,7 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DISCI UniBo</publisher>
-                <idno type="filename">doc. 6006</idno>
+                <idno type="filename">doc6006</idno>
                 <availability xml:lang="en" status="free">
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                         texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
@@ -33,7 +33,7 @@
                             <rs type="text_type" ref="#">-Placitum/iudicatum</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Copy</rs>
-                            <rs type="fiscal_property">Yes</rs>
+                            <rs type="fiscal_property"/>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -41,11 +41,11 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate notBefore="0001" notAfter="0001" when="0898-07">
-                                <note type="displayed_date">898 July (1-31)</note>
+                            <origDate notBefore="0898-07-01" notAfter="0898-07-31">
+                                <note type="displayed_date">898 July 1/31</note>
                                 <note type="dating_elements"/>
-                                <note type="topical_date">"Villa Quingentas", comitatus of Modena
-                                    (Cinquanta, San Giorgio di Piano; Bologna)</note>
+                                <note type="topical_date">Cinquanta (San Giorgio di Piano;
+                                    Bologna)</note>
                                 <note type="redaction_date">XI </note>
                             </origDate>
                             <origPlace/>
@@ -74,7 +74,7 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2021-11-29">creation of record</change>
+                <change when="2021-12-13" who="emanarini">creation of record</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -83,120 +83,109 @@
             <div type="edition">
                 <div type="textpart">
                     <ab> Dum in Dei nomine <rs key="#Villas">villa</rs> que dicitur <placeName
-                            key="#Houses #Villas">Quingentas</placeName> intus <rs key="#Houses"
-                            >casa</rs>
-                        <persName key="#Local_elites">Geminiano</persName>, ubi domnus <persName
-                            key="#Count #seniorOf"><placeName key="#Comitatus" ref="#places/38"
-                                >Vuidus</placeName></persName>
+                            key="#Houses #Villas #Assembly">Quingentas</placeName> intus <rs
+                            key="#Houses">casa</rs>
+                        <persName key="#Houses #Local_elites">Geminiano</persName>, ubi domnus
+                            <persName key="#Count #Placitum/iudicatum #seniorOf">Vuidus</persName>
                         <rs key="#Count">comes</rs>
-                        <placeName key="#Comitatus" ref="#places/38">Mutinensis</placeName>
-                        resedebat ad singulis iustitias faciendas ac deliberandas, resedebant cum
-                        eos <persName key="#vassusOf">Agino</persName>
-                        <rs key="#vassusOf">vasso</rs>
-                        <persName key="#Emperor/king #seniorOf">domni imperatoris</persName> et
-                            <persName key="#Viscount"><placeName key="#Comitatus" ref="#places/40"
-                                >Bertulfo</placeName></persName>
+                        <placeName key="#Cities #Comitatus" ref="#places/38"><geogName
+                                key="#Comitatus #Gastaldus/vicegastaldus #Count #Placitum/iudicatum"
+                                ref="#estates/208">Mutinensis</geogName></placeName>
+                        <rs key="#Placitum/iudicatum">resedebat ad singulis iustitias faciendas ac
+                            deliberandas</rs>, <rs key="#Assembly">resedebant cum eos</rs>
+                        <persName key="#vassusOf">Agino</persName>
+                        <rs key="#vassusOf">vasso</rs> domni imperatoris et <persName
+                            key="#Viscount">Bertulfo</persName>
                         <rs key="#Viscount">vicecomite</rs>
-                        <placeName key="#Comitatus" ref="#places/40">Civitate Nova</placeName>,
-                            <persName key="#Gastaldus/vicegastaldus #vassusOf">Geilo</persName> et
-                            <persName key="#Gastaldus/vicegastaldus #vassusOf">Oso</persName> adque
-                            <persName key="#Gastaldus/vicegastaldus #vassusOf">Isoardo</persName>
+                        <placeName key="#Viscount #Local_elites #Judge" ref="#places/40">Civitate
+                            Nova</placeName>, <persName key="#Gastaldus/vicegastaldus #vassusOf"
+                            >Geilo</persName> et <persName key="#Gastaldus/vicegastaldus #vassusOf"
+                            >Oso</persName> adque <persName key="#Gastaldus/vicegastaldus #vassusOf"
+                            >Isoardo</persName>
                         <rs key="#Gastaldus/vicegastaldus">castaldiis</rs> et vassis ipsius comiti,
-                        item et <persName key="#Notary #Scabini"><placeName key="#Cities"
-                                ref="#places/38">Paulo</placeName></persName> et <persName
-                            key="#Notary #Scabini"><placeName key="#Cities" ref="#places/38"
-                                >Lupicino</placeName></persName> seu et <persName
-                            key="#Notary #Scabini"><placeName key="#Cities" ref="#places/38"
-                                >Giseberto</placeName></persName>
+                        item et <persName key="#Notary #Scabini">Paulo</persName> et <persName
+                            key="#Notary #Scabini">Lupicino</persName> seu et <persName
+                            key="#Notary #Scabini">Giseberto</persName>
                         <rs key="#Notary">notariis</rs> et <rs key="#Scabini">scavinis</rs>
-                        <rs key="#Cities">civitate</rs>
-                        <placeName key="#Cities" ref="#places/38">Mutine</placeName> et <persName
-                            key="#Castle #Scabini">Rascauso</persName> scavino de <placeName
-                            key="#Castle #Scabini">Castello Olariano</placeName> adque <persName
-                            key="#Scabini">Costantino</persName> et <persName key="#Scabini"
-                            >Venerio</persName> et <persName key="#Scabini">Iohannes</persName>
-                        scavinis de <placeName key="#Villages/settlements #Scabini"
-                            >Verabulo</placeName> et <persName key="#Notary #Scabini"><placeName
-                                key="#Pagus" ref="#places/27">Ermenaldus</placeName></persName> et
-                            <persName key="#Notary #Scabini"><placeName ref="#places/27"
-                                >Martinus</placeName></persName> notariis et scavinis de <rs
-                            key="#Pagus">pago</rs>
+                        <rs key="#Cities">civitate</rs> Mutine et <persName key="#Scabini"
+                            >Rascauso</persName> scavino de <placeName key="#Castle #Scabini"
+                            >Castello Olariano</placeName> adque <persName key="#Scabini"
+                            >Costantino</persName> et <persName key="#Scabini">Venerio</persName> et
+                            <persName key="#Scabini">Iohannes</persName> scavinis de <placeName
+                            key="#Scabini">Verabulo</placeName> et <persName key="#Notary #Scabini"
+                            >Ermenaldus</persName> et <persName key="#Notary #Scabini"
+                            >Martinus</persName> notariis et scavinis de <rs key="#Pagus">pago</rs>
                         <placeName key="#Notary #Pagus #Scabini" ref="#places/27"
                             >Persicete</placeName>, <persName key="#Notary">Gregorius </persName>et
                             <persName key="#Notary">Lupus</persName>, notariis et <rs
-                            key="#Professional_writer">dativis</rs> da <placeName
-                            key="#Professional_writer #Notary #Other_administrative_unit"
-                            >Salto</placeName>, <persName key="#Scabini">Iohannes</persName> de
-                        quondam Constantino scavinus de <placeName
-                            key="#Other_administrative_unit #Scabini">Brento</placeName>, <persName
+                            key="#Local_elites">dativis</rs> da <placeName
+                            key="#Local_elites #Notary">Salto</placeName>, <persName key="#Scabini"
+                            >Iohannes</persName> de quondam <persName>Constantino</persName>
+                        scavinus de <placeName key="#Scabini">Brento</placeName>, <persName
                             key="#Scabini">Apolenaris</persName> scavinus de <placeName
-                            key="#Other_administrative_unit #Scabini">Mesturiano</placeName>,
-                            <persName key="#Scabini">Lupicinus</persName> scavinus de <placeName
-                            key="#Other_administrative_unit #Scabini">Feroniano</placeName>, itemque
-                            <persName key="#Local_elites"><placeName key="#Comitatus"
-                                ref="#places/38">Ingo</placeName></persName> filio Vualperti de <rs
-                            key="#Comitatus">comitato</rs>
-                        <placeName key="#Comitatus #Local_elites" ref="#places/38"
-                            >Motinensi</placeName> , <persName key="#Local_elites"><placeName
-                                ref="#places/446">Reginaldo</placeName></persName> et <persName
-                            key="#Local_elites"><placeName ref="#places/446"
-                            >loannes</placeName></persName> de Petronilla de <placeName
-                            ref="#places/446" key="#Villages/settlements #Local_elites"
-                            >Montevelio</placeName>, <persName key="#Local_elites"
-                            >Dagipertus</persName> et <persName key="#Local_elites"
-                            >Teutelmus</persName> et <persName key="#Local_elites">Leo</persName> de
-                        Entruda et <persName key="#Local_elites">Recuino</persName>
-                        <rs key="#brotherOf">germanis</rs> et <persName key="#Local_elites"
-                            >Petro</persName> de condam Paulini et <persName key="#Local_elites"
+                            key="#Scabini">Mesturiano</placeName>, <persName key="#Scabini"
+                            >Lupicinus</persName> scavinus de <placeName key="#Scabini"
+                            >Feroniano</placeName>, itemque <persName>Ingo</persName> filio
+                            <persName>Vualperti</persName> de comitato Motinensi, <persName
+                            key="#Local_elites">Reginaldo</persName> et <persName
+                            key="#Local_elites">Ioannes de
+                            <persName>Petronilla</persName></persName> de <placeName
+                            ref="#places/446" key="#Local_elites">Montevelio</placeName>, <persName
+                            key="#Local_elites">Dagipertus</persName> et <persName
+                            key="#Local_elites">Teutelmus</persName> et <persName
+                            key="#Local_elites">Leo de <persName>Entruda</persName></persName> et
+                            <persName key="#Local_elites">Recuino</persName> germanis et <persName
+                            key="#Local_elites">Petro</persName> de condam
+                            <persName>Paulini</persName> et <persName key="#Local_elites"
                             >Lando</persName>, <persName key="#Local_elites">Taxemanno</persName>
-                        filio quondam Ariperte, <persName key="#Local_elites">Totila</persName> et
-                            <persName key="#Local_elites">Eriberto</persName> germanis, <persName
-                            key="#Local_elites">lohannes</persName> fìlio quondam Petri Dominici et
-                            <persName key="#Local_elites">Rimpaldo</persName> et <persName
-                            key="#Local_elites">Blanca</persName> fìlio quondam Dominici, itemque
-                        ibi aderant cum eis <persName key="#Local_elites">Vuillibaldo</persName>,
-                            <persName key="#Local_elites"><placeName ref="#places/40"
-                                >Geminiano</placeName></persName> de <placeName key="#Local_elites"
-                            ref="#places/40">Civiitate Nova</placeName>, <persName key="#Scabini"
-                            >Bonipertus</persName> scavinus de <placeName
-                            key="#Villages/settlements #Scabini">Saliceto</placeName>,<persName
-                            key="#Local_elites">Natalis</persName>,<persName key="#Notary"
-                            >Agriprandus</persName> notarius et <persName key="#Local_elites"
-                            >Benedicto</persName> de <placeName><placeName key="#Dioecesis"
-                                ref="#places/191">Glandito</placeName></placeName>, <persName
-                            key="#Local_elites">Aripaldo</persName>, <persName key="#Local_elites"
-                            >Aldroaldo</persName>, <persName key="#Local_elites">Bando</persName>,
-                            <persName key="#Local_elites">Martinus</persName> de Luponi, <persName
-                            key="#Arimannus">Iohannes</persName>
-                        <rs key="#Arimannus">arimani</rs> et <persName key="#Local_elites"
-                            >lohannes</persName> filio Petro Longo, <persName key="#Local_elites"
-                            >Radberto</persName> filio quondam Gariberti, <persName
-                            key="#Local_elites">Arimundo</persName> de <placeName
-                            key="#Villages/settlements #Local_elites #Rural_communities"
-                            >Sorbaria</placeName>, <persName key="#Local_elites">Martinus</persName>
-                        filio quondam lohannis de ….…. fìlio quondam Luponi ..., ... geberto,
+                        filio quondam <persName>Ariperte</persName>, <persName key="#Local_elites"
+                            >Totila</persName> et <persName key="#Local_elites">Eriberto</persName>
+                        germanis, <persName key="#Local_elites">Iohannes</persName> filio quondam
+                            <persName>Petri Dominici</persName> et <persName key="#Local_elites"
+                            >Rimpaldo</persName> et Blanca filio quondam
+                            <persName>Dominici</persName>, itemque ibi aderant cum eis <persName
+                            key="#Local_elites">Vuillibaldo</persName>, <persName
+                            key="#Local_elites">Geminiano</persName> de Civitate Nova, <persName
+                            key="#Scabini">Bonipertus</persName> scavinus de <placeName
+                            key="#Scabini">Saliceto</placeName>,<persName key="#Local_elites"
+                            >Natalis</persName>,<persName key="#Notary">Agriprandus</persName>
+                        notarius et <persName key="#Local_elites">Benedicto</persName> de <placeName
+                            key="#Notary #Local_elites">Glandito</placeName>, <persName
+                            key="#Local_elites #Rural_communities">Aripaldo</persName>, <persName
+                            key="#Local_elites #Rural_communities">Aldroaldo</persName>, <persName
+                            key="#Local_elites #Rural_communities">Bando</persName>, <persName
+                            key="#Local_elites #Rural_communities">Martinus</persName> de
+                            <persName>Luponi</persName>, <persName
+                            key="#Arimannus #Rural_communities">Iohannes</persName>
+                        <rs key="#Arimannus">arimani</rs> et <persName
+                            key="#Local_elites #Rural_communities">Iohannes</persName> filio
+                            <persName>Petro Longo</persName>, <persName
+                            key="#Local_elites #Rural_communities">Radberto</persName> filio quondam
+                            <persName>Gariberti</persName>, <persName
+                            key="#Local_elites #Rural_communities">Arimundo</persName> de <placeName
+                            key="#Local_elites #Rural_communities #Arimannus">Sorbaria</placeName>,
+                            <persName key="#Local_elites #Rural_communities">Martinus</persName>
+                        filio quondam <persName>Iohannis</persName> de ... filio quondam
+                            <persName>Luponi</persName> ..., <persName>...geberto</persName>,
                             <persName key="#Local_elites #Rural_communities">Adroaldo</persName>,
                             <persName key="#Local_elites #Rural_communities">Gaidaldo</persName>,
                             <persName key="#Local_elites #Rural_communities">Leontardo</persName>,
                         et <persName key="#Local_elites #Rural_communities">Agimundo</persName>
-                        <placeName key="#Local_elites #Rural_communities">toti de</placeName>
-                        Sorbaria, <persName key="#Local_elites #Villages/settlements"
-                            >Andrea</persName> de <placeName
-                            key="#Villages/settlements #Local_elites">Riparia</placeName>, <persName
-                            key="#Local_elites">Iohanens Mauri</persName>, <persName
-                            key="#Local_elites">lohanes Fileradi</persName>, <persName
-                            key="#Local_elites">Urso</persName> de Stephano, <persName
-                            key="#Local_elites">Vuido</persName> ….…... , <persName
+                        <rs key="#Local_elites #Rural_communities">toti de</rs> Sorbaria, <persName
+                            key="#Local_elites">Andrea</persName> de <placeName key="#Local_elites"
+                            >Riparia</placeName>, <persName key="#Local_elites">Iohannes
+                                <persName>Mauri</persName></persName>, <persName key="#Local_elites"
+                            >lohannes <persName>Fileradi</persName></persName>, <persName
+                            key="#Local_elites">Urso de <persName>Stephano</persName></persName>,
+                            <persName key="#Local_elites">Vuido</persName> ... , <persName
                             key="#Local_elites">Bonifredus</persName> de <placeName
-                            key="#Villages/settlements #Local_elites">Linare</placeName>, <persName
-                            key="#Local_elites #Rural_communities">Ansulfo</persName>, <persName
-                            key="#Local_elites #Rural_communities">Lupo</persName>, <persName
-                            key="#Local_elites #Rural_communities">Teoperto</persName>, <rs
-                            key="#Local_elites #Rural_communities">toti tres</rs> de <placeName
-                            key="#Villages/settlements #Local_elites">Baise</placeName>, <persName
-                            key="#Local_elites">Lupo</persName> de <placeName
-                            key="#Villages/settlements #Local_elites">Colina</placeName>, <persName
-                            key="#Local_elites">Upaldo</persName> filio quondam <persName
+                            key="#Local_elites">Linare</placeName>, <persName key="#Local_elites"
+                            >Ansulfo</persName>, <persName key="#Local_elites">Lupo</persName>,
+                            <persName key="#Local_elites #Rural_communities">Teoperto</persName>,
+                        toti tres de <placeName key="#Villages/settlements #Local_elites"
+                            >Baise</placeName>, <persName key="#Local_elites">Lupo</persName> de
+                            <placeName key="#Villages/settlements #Local_elites">Colina</placeName>,
+                            <persName key="#Local_elites">Upaldo</persName> filio quondam <persName
                             key="#Scabini">Adelprandi</persName> scavini, <persName
                             key="#Local_elites">Iohannes</persName> filio Lupicini de <placeName
                             key="#Villages/settlements #Local_elites">Liviciano</placeName>,
@@ -404,76 +393,62 @@
                         scavinus ibi fuit. Ego Lopicinus scavinus ibi fui. Ego Gregorius scavinus
                         ibi fui. Ego Iohannes scavinus ibi fui. Ego Apolenaris scavinus ibi fui. Ego
                         Costantino scavimus ibi fui. Ego Venerio scavimus ibi fui. Ego Iohannes
-                        scavimus ibi fuit. Ego Upaldo scavinus
-                        ibi fui. Ego Leo ibi fui. Ego 
-                            lngo ibi fui. Ego Leo
-                        ibi fui. Ego Madelaldo ibi fui. Ego
-                            <persName key="#Scabini">Giseverto</persName> scavinus ibi fui. Ego
-                            <persName key="#Scabini">Garimundo</persName> scavinus ibi fui. Signo
-                        manus <persName key="#Scabini">Stephanus</persName> scavinus de Solaria, qui
-                        ibi fuit.Ego Vuillibaldo ibi fui. Ego
-                            Natale scavinus ibi fui. Ego
-                            <persName key="#Witness">Ansaldus</persName> ibi fui. Ego 
-                            Roperto ibi fui. Ego <persName key="#Witness"
-                            >Gauderigo</persName> ibi fui. Ego 
-                            Teoperto ibi fui. Ego <persName key="#Witness"
-                            >Fluro</persName> ibi fui. Ego 
-                            Benedicto ibi fui.Ego 
-                            Ansulfo ibi fui. Ego <persName key="#Witness"
-                            >Ariberto</persName> ibi fui. Ego 
-                            Actio ibi fui. Ego lohannes de
-                            Sorbaria ibi fui. Ego <persName key="#Witness"
-                            >Rimpaldo</persName> ibi fui. Ego <persName key="#Notary"
-                            >Restano</persName> notarius ibi fui. Ego <persName key="#Notary"
-                            >Agiprando</persName> notarius ibi fui. Ego <persName key="#Notary"
-                            >Desiderio</persName> notarius ibi fui. Signo manus <persName
-                            key="#Witness">Taxemanno</persName>, qui ibi fuit. Signo manus <persName
-                            key="#Witness">Aimo</persName>, qui ibi fuit. Signo manus <persName
-                            key="#Witness">Lederado de Regiensi</persName> genus Alemannorum, qui
-                        ibi fuit . Signo manus <persName key="#Witness">Recuino</persName>, qui ibi
-                        fuit. Signo manus <persName key="#Witness">Vuarimbaldo</persName>, qui ibi
-                        fuit. Ego <persName key="#Witness">lohannes</persName> ibi fuit. Signo manus
-                            <persName key="#Witness">Iohannes de Petronilla</persName>, qui ibi
-                        fuit. Signo manus <persName key="#Witness">Lando</persName>, qui ibi fuit.
-                        Signo manus <persName key="#Witness">Ilderato de Casale</persName>, qui ibi
-                        fuit. Signo manus <persName key="#Witness">Bonifredo de Linare</persName>,
-                        qui ibi fuit. Signo manus <persName key="#Witness">Fulterodo de
-                            Verabula</persName>, qui ibi fuit. Signo manus <persName key="#Witness"
-                            >Tatio</persName> filio Ermemfredi, qui ibi fuit. Signo manus <persName
-                            key="#Witness">Totile</persName>, qui ibi fuit. Signo manus <persName
-                            key="#Witness">Ildeverti de Pantiano</persName>, qui ibi fuit. Signo
-                        manus <persName key="#Witness">Adroaldo de Sorbaria</persName>, qui ibi
-                        fuit. Signo manus <persName key="#Witness">lohannis</persName> qui vocatur
-                        lohannito, qui ibi fuit. Signo manus <persName key="#Witness"
-                            >Arimodo</persName> et <persName key="#Local_elites">Nobilis de
-                            Solaria</persName>, qui ibi fuerunt. Signo manus <persName
-                            key="#Witness">Heila</persName> et <persName key="#Witness"
-                            >Lupo</persName> et <persName key="#Witness">Martino</persName>, toti de
-                        Solaria, qui ibi fuerunt. Signo manus <persName key="#Witness">lohannis
-                            Mauri de Solaria</persName>, qui ibi fuit. Signo manus <persName
-                            key="#Witness">Iohannis Fileradi</persName>, qui ibi fuit. Ego <persName
-                            key="#Notary">Lupus</persName> notarius dativo ibi fui et hanc notitiam
-                        scripsi.
-
- </ab>
+                        scavimus ibi fuit. Ego Upaldo scavinus ibi fui. Ego Leo ibi fui. Ego lngo
+                        ibi fui. Ego Leo ibi fui. Ego Madelaldo ibi fui. Ego <persName
+                            key="#Scabini">Giseverto</persName> scavinus ibi fui. Ego <persName
+                            key="#Scabini">Garimundo</persName> scavinus ibi fui. Signo manus
+                            <persName key="#Scabini">Stephanus</persName> scavinus de Solaria, qui
+                        ibi fuit.Ego Vuillibaldo ibi fui. Ego Natale scavinus ibi fui. Ego <persName
+                            key="#Witness">Ansaldus</persName> ibi fui. Ego Roperto ibi fui. Ego
+                            <persName key="#Witness">Gauderigo</persName> ibi fui. Ego Teoperto ibi
+                        fui. Ego <persName key="#Witness">Fluro</persName> ibi fui. Ego Benedicto
+                        ibi fui.Ego Ansulfo ibi fui. Ego <persName key="#Witness"
+                            >Ariberto</persName> ibi fui. Ego Actio ibi fui. Ego Iohannes de
+                        Sorbaria ibi fui. Ego <persName key="#Witness">Rimpaldo</persName> ibi fui.
+                        Ego <persName key="#Notary">Restano</persName> notarius ibi fui. Ego
+                            <persName key="#Notary">Agiprando</persName> notarius ibi fui. Ego
+                            <persName key="#Notary">Desiderio</persName> notarius ibi fui. Signo
+                        manus <persName key="#Witness">Taxemanno</persName>, qui ibi fuit. Signo
+                        manus <persName key="#Witness">Aimo</persName>, qui ibi fuit. Signo manus
+                            <persName key="#Witness">Lederado de Regiensi</persName> genus
+                        Alemannorum, qui ibi fuit . Signo manus <persName key="#Witness"
+                            >Recuino</persName>, qui ibi fuit. Signo manus <persName key="#Witness"
+                            >Vuarimbaldo</persName>, qui ibi fuit. Ego <persName key="#Witness"
+                            >Iohannes</persName> ibi fuit. Signo manus <persName key="#Witness"
+                            >Iohannes de Petronilla</persName>, qui ibi fuit. Signo manus <persName
+                            key="#Witness">Lando</persName>, qui ibi fuit. Signo manus <persName
+                            key="#Witness">Ilderato de Casale</persName>, qui ibi fuit. Signo manus
+                            <persName key="#Witness">Bonifredo de Linare</persName>, qui ibi fuit.
+                        Signo manus <persName key="#Witness">Fulterodo de Verabula</persName>, qui
+                        ibi fuit. Signo manus <persName key="#Witness">Tatio</persName> filio
+                        Ermemfredi, qui ibi fuit. Signo manus <persName key="#Witness"
+                            >Totile</persName>, qui ibi fuit. Signo manus <persName key="#Witness"
+                            >Ildeverti de Pantiano</persName>, qui ibi fuit. Signo manus <persName
+                            key="#Witness">Adroaldo de Sorbaria</persName>, qui ibi fuit. Signo
+                        manus <persName key="#Witness">Iohannis</persName> qui vocatur Iohannito,
+                        qui ibi fuit. Signo manus <persName key="#Witness">Arimodo</persName> et
+                            <persName key="#Local_elites">Nobilis de Solaria</persName>, qui ibi
+                        fuerunt. Signo manus <persName key="#Witness">Heila</persName> et <persName
+                            key="#Witness">Lupo</persName> et <persName key="#Witness"
+                            >Martino</persName>, toti de Solaria, qui ibi fuerunt. Signo manus
+                            <persName key="#Witness">Iohannis Mauri de Solaria</persName>, qui ibi
+                        fuit. Signo manus <persName key="#Witness">Iohannis Fileradi</persName>, qui
+                        ibi fuit. Ego <persName key="#Notary">Lupus</persName> notarius dativo ibi
+                        fui et hanc notitiam scripsi. </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p>Gaudenzi, Il monastero (1916); Hubner; Manaresi, I placiti; Muratori; Antiq.
-                    Ital. V, 673</p>
+                <p>Manaresi n. 106.</p>
             </div>
             <div type="bibliography" subtype="additional">
-                <p/>
+                <p>Lazzari 2006; Manarini 2017.</p>
             </div>
             <div type="bibliography" subtype="links">
                 <p/>
             </div>
             <div type="commentary">
-                <p>Il missus
-                    regis che presiedette il placito dell'811 era Adalardo, abate di Corbie (780-824). Secondo Manaresi, p. 388 (che riprende Bresslau, Handbuch, I, p. 385), Elisachar
-                    non sarebbe altro che l'arcicancelliere dell'Impero dall'814 all'819. </p>
+                <p></p>
             </div>
         </body>
     </text>
 </TEI>
-
