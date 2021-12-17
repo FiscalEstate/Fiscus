@@ -72,7 +72,7 @@
           
           <xsl:variable name="all_keys">
             <xsl:for-each select="$root//tei:placeName[translate(replace(@ref, ' #', '; '), '#', '')=$el-id][@key]">
-              <xsl:value-of select="replace(replace(replace(lower-case(@key), '#', ''), ' ', ', '), '_', ' ')"/>
+              <xsl:value-of select="replace(replace(replace(lower-case(replace(@key, '([a-z]{1})([A-Z]{1})', '$1_$2')), '#', ''), ' ', ', '), '_', ' ')"/>
               <xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if>
             </xsl:for-each>
           </xsl:variable>

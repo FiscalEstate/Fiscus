@@ -141,7 +141,7 @@
       <div id="keywords">
         <xsl:variable name="doc_keys">
           <xsl:for-each select="//t:div[@type='edition']//t:rs[@key!='']">
-            <xsl:value-of select="lower-case(translate(@key, '#', ''))"/><xsl:if test="position()!=last()"><xsl:text> </xsl:text></xsl:if>
+            <xsl:value-of select="lower-case(translate(replace(@key, '([a-z]{1})([A-Z]{1})', '$1_$2'), '#', ''))"/><xsl:if test="position()!=last()"><xsl:text> </xsl:text></xsl:if>
           </xsl:for-each>
         </xsl:variable>
         <xsl:variable name="unique_keys" select="distinct-values(tokenize($doc_keys, '\s+?'))"/>
@@ -345,28 +345,50 @@
       <xsl:apply-templates/>
     </i>
   </xsl:template>
+  
+  
+  
+  
 
   <xsl:template match="t:persName[ancestor::t:div[@type = 'edition']]">
-    <span class="persName"><xsl:apply-templates/></span>
+    <span class="popup_box">
+      <span class="persName popup_term"><xsl:apply-templates/></span>
+      <xsl:if test="./@key!=''"><span class="popup"><xsl:value-of select="lower-case(translate(replace(translate(replace(./@key, '([a-z]{1})([A-Z]{1})', '$1_$2'), '#', ''), ' ', ', '), '_', ' '))"/></span></xsl:if>
+    </span>
     <xsl:if test="@ref !=''"><a target="_blank" class="links hidden"><xsl:attribute name="href"><xsl:value-of select="concat('../people.html#', substring-after(translate(@ref, '#', ''), 'people/'))"/></xsl:attribute> ➚</a></xsl:if>
   </xsl:template>
   <xsl:template match="t:placeName[ancestor::t:div[@type = 'edition']]">
-    <span class="placeName"><xsl:apply-templates/></span>
+    <span class="popup_box">
+      <span class="placeName popup_term"><xsl:apply-templates/></span>
+      <xsl:if test="./@key!=''"><span class="popup"><xsl:value-of select="lower-case(translate(replace(translate(replace(./@key, '([a-z]{1})([A-Z]{1})', '$1_$2'), '#', ''), ' ', ', '), '_', ' '))"/></span></xsl:if>
+    </span>
     <xsl:if test="@ref !=''"><a target="_blank" class="links hidden"><xsl:attribute name="href"><xsl:value-of select="concat('../places.html#', substring-after(translate(@ref, '#', ''), 'places/'))"/></xsl:attribute> ➚</a></xsl:if>
   </xsl:template>
   <xsl:template match="t:orgName[ancestor::t:div[@type = 'edition']]">
-    <span class="orgName"><xsl:apply-templates/></span>
+    <span class="popup_box">
+      <span class="orgName popup_term"><xsl:apply-templates/></span>
+      <xsl:if test="./@key!=''"><span class="popup"><xsl:value-of select="lower-case(translate(replace(translate(replace(./@key, '([a-z]{1})([A-Z]{1})', '$1_$2'), '#', ''), ' ', ', '), '_', ' '))"/></span></xsl:if>
+    </span>
     <xsl:if test="@ref !=''"><a target="_blank" class="links hidden"><xsl:attribute name="href"><xsl:value-of select="concat('../juridical_persons.html#', substring-after(translate(@ref, '#', ''), 'juridical_persons/'))"/></xsl:attribute> ➚</a></xsl:if>
   </xsl:template>
   
   <xsl:template match="t:geogName[ancestor::t:div[@type = 'edition']]">
-    <span class="geogName"><xsl:apply-templates/></span>
+    <span class="popup_box">
+      <span class="geogName popup_term"><xsl:apply-templates/></span>
+      <xsl:if test="./@key!=''"><span class="popup"><xsl:value-of select="lower-case(translate(replace(translate(replace(./@key, '([a-z]{1})([A-Z]{1})', '$1_$2'), '#', ''), ' ', ', '), '_', ' '))"/></span></xsl:if>
+    </span>
     <xsl:if test="@ref !=''"><a target="_blank" class="links hidden"><xsl:attribute name="href"><xsl:value-of select="concat('../estates.html#', substring-after(translate(@ref, '#', ''), 'estates/'))"/></xsl:attribute> ➚</a></xsl:if>
   </xsl:template>
   
   <xsl:template match="t:rs[ancestor::t:div[@type = 'edition']]">
-    <span class="rs"><xsl:apply-templates/></span>
+    <span class="popup_box">
+      <span class="rs popup_term"><xsl:apply-templates/></span>
+      <xsl:if test="./@key!=''"><span class="popup"><xsl:value-of select="lower-case(translate(replace(translate(replace(./@key, '([a-z]{1})([A-Z]{1})', '$1_$2'), '#', ''), ' ', ', '), '_', ' '))"/></span></xsl:if>
+    </span>
   </xsl:template>
+  
+  
+  
   
   <xsl:template match="t:date[ancestor::t:div[@type = 'edition']]">
     <span class="date"><xsl:apply-templates/></span>
