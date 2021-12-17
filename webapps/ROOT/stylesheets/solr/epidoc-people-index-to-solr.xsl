@@ -96,8 +96,8 @@
                 <xsl:value-of select="$people/tei:person[child::tei:idno=$link][1]/tei:idno"/><xsl:text> </xsl:text></xsl:for-each></xsl:for-each>
           </xsl:variable>
           <xsl:variable name="linking_people">
-            <xsl:for-each select="$people/tei:person/tei:link/@corresp[.!='']"><xsl:variable name="link" select="."/>
-              <xsl:if test="contains(concat($link, ' '), concat($idno, ' '))"><xsl:value-of select="$link/parent::tei:person/tei:idno"/><xsl:text> </xsl:text></xsl:if></xsl:for-each>
+            <xsl:for-each select="$people/tei:person/tei:link[@corresp[.!='']]">
+              <xsl:if test="contains(concat(@corresp, ' '), concat($idno, ' '))"><xsl:value-of select="parent::tei:person/tei:idno"/><xsl:text> </xsl:text></xsl:if></xsl:for-each>
           </xsl:variable>
           <xsl:variable name="linked_places">
             <xsl:for-each select="$links[@type='places']/@corresp[.!='']"><xsl:variable name="links1" select="distinct-values(tokenize(., '\s+'))"/>
@@ -105,16 +105,16 @@
                 <xsl:value-of select="$places/tei:place[child::tei:idno=$link][1]/tei:idno"/><xsl:text> </xsl:text></xsl:for-each></xsl:for-each>
           </xsl:variable>
           <xsl:variable name="linking_places">
-            <xsl:for-each select="$places/tei:place/tei:link/@corresp[.!='']"><xsl:variable name="link" select="."/>
-              <xsl:if test="contains(concat($link, ' '), concat($idno, ' '))"><xsl:value-of select="$link/parent::tei:place/tei:idno"/><xsl:text> </xsl:text></xsl:if></xsl:for-each>
+            <xsl:for-each select="$places/tei:place/tei:link[@corresp[.!='']]">
+              <xsl:if test="contains(concat(@corresp, ' '), concat($idno, ' '))"><xsl:value-of select="parent::tei:place/tei:idno"/><xsl:text> </xsl:text></xsl:if></xsl:for-each>
           </xsl:variable>
           <xsl:variable name="linked_jp">
             <xsl:for-each select="$links[@type='juridical_persons']/@corresp[.!='']"><xsl:variable name="links1" select="distinct-values(tokenize(., '\s+'))"/>
               <xsl:for-each select="$links1"><xsl:variable name="link" select="translate(., '#', '')"/><xsl:value-of select="$juridical_persons/tei:org[child::tei:idno=$link][1]/tei:idno"/><xsl:text> </xsl:text></xsl:for-each></xsl:for-each>
           </xsl:variable>
           <xsl:variable name="linking_jp">
-            <xsl:for-each select="$juridical_persons/tei:org/tei:link/@corresp[.!='']"><xsl:variable name="link" select="."/>
-              <xsl:if test="contains(concat($link, ' '), concat($idno, ' '))"><xsl:value-of select="$link/parent::tei:org/tei:idno"/><xsl:text> </xsl:text></xsl:if></xsl:for-each>
+            <xsl:for-each select="$juridical_persons/tei:org/tei:link[@corresp[.!='']]">
+              <xsl:if test="contains(concat(@corresp, ' '), concat($idno, ' '))"><xsl:value-of select="parent::tei:org/tei:idno"/><xsl:text> </xsl:text></xsl:if></xsl:for-each>
           </xsl:variable>
           <xsl:variable name="linked_estates">
             <xsl:for-each select="$links[@type='estates']/@corresp[.!='']"><xsl:variable name="links1" select="distinct-values(tokenize(., '\s+'))"/>
@@ -122,8 +122,8 @@
                 <xsl:value-of select="$estates/tei:place[child::tei:idno=$link][1]/tei:idno"/><xsl:text> </xsl:text></xsl:for-each></xsl:for-each>
           </xsl:variable>
           <xsl:variable name="linking_estates">
-            <xsl:for-each select="$estates/tei:place/tei:link/@corresp[.!='']"><xsl:variable name="link" select="."/>
-              <xsl:if test="contains(concat($link, ' '), concat($idno, ' '))"><xsl:value-of select="$link/parent::tei:place/tei:idno"/><xsl:text> </xsl:text></xsl:if></xsl:for-each>
+            <xsl:for-each select="$estates/tei:place/tei:link[@corresp[.!='']]">
+              <xsl:if test="contains(concat(@corresp, ' '), concat($idno, ' '))"><xsl:value-of select="parent::tei:place/tei:idno"/><xsl:text> </xsl:text></xsl:if></xsl:for-each>
           </xsl:variable>
           <xsl:variable name="links_est"><xsl:for-each select="$linked_estates|$linking_estates"><xsl:value-of select="." /><xsl:text> </xsl:text></xsl:for-each></xsl:variable>
           <xsl:variable name="linkedest" select="distinct-values(tokenize(normalize-space($links_est), '\s+'))" />
