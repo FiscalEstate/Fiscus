@@ -350,41 +350,56 @@
   
   
 
-  <xsl:template match="t:persName[ancestor::t:div[@type = 'edition']]">
+  <xsl:template match="t:persName[ancestor::t:div[@type = 'edition']]|t:placeName[ancestor::t:div[@type = 'edition']]|t:orgName[ancestor::t:div[@type = 'edition']]|t:geogName[ancestor::t:div[@type = 'edition']]|t:rs[ancestor::t:div[@type = 'edition']]">
     <span class="popup_box">
-      <span class="persName popup_term"><xsl:apply-templates/></span>
-      <xsl:if test="./@key!=''"><span class="popup"><xsl:value-of select="lower-case(translate(replace(translate(replace(./@key, '([a-z]{1})([A-Z]{1})', '$1_$2'), '#', ''), ' ', ', '), '_', ' '))"/></span></xsl:if>
+      <span>
+        <xsl:attribute name="class">
+          <xsl:choose>
+            <xsl:when test="self::t:persName"><xsl:text>persName</xsl:text></xsl:when>
+            <xsl:when test="self::t:placeName"><xsl:text>placeName</xsl:text></xsl:when>
+            <xsl:when test="self::t:orgName"><xsl:text>orgName</xsl:text></xsl:when>
+            <xsl:when test="self::t:geogName"><xsl:text>geogName</xsl:text></xsl:when>
+            <xsl:when test="self::t:rs"><xsl:text>rs</xsl:text></xsl:when>
+          </xsl:choose>
+        </xsl:attribute>
+        <xsl:apply-templates/>
+      </span>
+      <xsl:if test="./@key!='' and not(ancestor::t:persName[@key!=''] or ancestor::t:placeName[@key!=''] or ancestor::t:orgName[@key!=''] or ancestor::t:geogName[@key!=''] or ancestor::t:rs[@key!=''])">
+        <span class="popup">
+          <xsl:if test="descendant::t:*[@key!='']">
+            <xsl:choose>
+              <xsl:when test="self::t:persName"><xsl:text>PERSON: </xsl:text></xsl:when>
+              <xsl:when test="self::t:placeName"><xsl:text>PLACE: </xsl:text></xsl:when>
+              <xsl:when test="self::t:orgName"><xsl:text>JURIDICAL PERSON: </xsl:text></xsl:when>
+              <xsl:when test="self::t:geogName"><xsl:text>ESTATE: </xsl:text></xsl:when>
+              <xsl:when test="self::t:rs"><xsl:text>KEYWORD: </xsl:text></xsl:when>
+            </xsl:choose>
+          </xsl:if>
+        <xsl:value-of select="lower-case(translate(replace(translate(replace(./@key, '([a-z]{1})([A-Z]{1})', '$1_$2'), '#', ''), ' ', ', '), '_', ' '))"/>
+          <xsl:if test="descendant::t:*[@key!='']">
+            <xsl:for-each select="descendant::t:*[@key!='']">
+              <xsl:text>; </xsl:text>
+              <xsl:choose>
+                <xsl:when test="self::t:persName"><xsl:text>PERSON: </xsl:text></xsl:when>
+                <xsl:when test="self::t:placeName"><xsl:text>PLACE: </xsl:text></xsl:when>
+                <xsl:when test="self::t:orgName"><xsl:text>JURIDICAL PERSON: </xsl:text></xsl:when>
+                <xsl:when test="self::t:geogName"><xsl:text>ESTATE: </xsl:text></xsl:when>
+                <xsl:when test="self::t:rs"><xsl:text>KEYWORD: </xsl:text></xsl:when>
+              </xsl:choose>
+              <xsl:value-of select="lower-case(translate(replace(translate(replace(./@key, '([a-z]{1})([A-Z]{1})', '$1_$2'), '#', ''), ' ', ', '), '_', ' '))"/>
+            </xsl:for-each>
+          </xsl:if>
+      </span>
+      </xsl:if>
     </span>
-    <xsl:if test="@ref !=''"><a target="_blank" class="links hidden"><xsl:attribute name="href"><xsl:value-of select="concat('../people.html#', substring-after(translate(@ref, '#', ''), 'people/'))"/></xsl:attribute> ➚</a></xsl:if>
-  </xsl:template>
-  <xsl:template match="t:placeName[ancestor::t:div[@type = 'edition']]">
-    <span class="popup_box">
-      <span class="placeName popup_term"><xsl:apply-templates/></span>
-      <xsl:if test="./@key!=''"><span class="popup"><xsl:value-of select="lower-case(translate(replace(translate(replace(./@key, '([a-z]{1})([A-Z]{1})', '$1_$2'), '#', ''), ' ', ', '), '_', ' '))"/></span></xsl:if>
-    </span>
-    <xsl:if test="@ref !=''"><a target="_blank" class="links hidden"><xsl:attribute name="href"><xsl:value-of select="concat('../places.html#', substring-after(translate(@ref, '#', ''), 'places/'))"/></xsl:attribute> ➚</a></xsl:if>
-  </xsl:template>
-  <xsl:template match="t:orgName[ancestor::t:div[@type = 'edition']]">
-    <span class="popup_box">
-      <span class="orgName popup_term"><xsl:apply-templates/></span>
-      <xsl:if test="./@key!=''"><span class="popup"><xsl:value-of select="lower-case(translate(replace(translate(replace(./@key, '([a-z]{1})([A-Z]{1})', '$1_$2'), '#', ''), ' ', ', '), '_', ' '))"/></span></xsl:if>
-    </span>
-    <xsl:if test="@ref !=''"><a target="_blank" class="links hidden"><xsl:attribute name="href"><xsl:value-of select="concat('../juridical_persons.html#', substring-after(translate(@ref, '#', ''), 'juridical_persons/'))"/></xsl:attribute> ➚</a></xsl:if>
-  </xsl:template>
-  
-  <xsl:template match="t:geogName[ancestor::t:div[@type = 'edition']]">
-    <span class="popup_box">
-      <span class="geogName popup_term"><xsl:apply-templates/></span>
-      <xsl:if test="./@key!=''"><span class="popup"><xsl:value-of select="lower-case(translate(replace(translate(replace(./@key, '([a-z]{1})([A-Z]{1})', '$1_$2'), '#', ''), ' ', ', '), '_', ' '))"/></span></xsl:if>
-    </span>
-    <xsl:if test="@ref !=''"><a target="_blank" class="links hidden"><xsl:attribute name="href"><xsl:value-of select="concat('../estates.html#', substring-after(translate(@ref, '#', ''), 'estates/'))"/></xsl:attribute> ➚</a></xsl:if>
-  </xsl:template>
-  
-  <xsl:template match="t:rs[ancestor::t:div[@type = 'edition']]">
-    <span class="popup_box">
-      <span class="rs popup_term"><xsl:apply-templates/></span>
-      <xsl:if test="./@key!=''"><span class="popup"><xsl:value-of select="lower-case(translate(replace(translate(replace(./@key, '([a-z]{1})([A-Z]{1})', '$1_$2'), '#', ''), ' ', ', '), '_', ' '))"/></span></xsl:if>
-    </span>
+    <xsl:if test="@ref !='' and not(self::t:rs)"><a target="_blank" class="links hidden"><xsl:attribute name="href">
+      <xsl:choose>
+        <xsl:when test="self::t:persName"><xsl:value-of select="concat('../people.html#', substring-after(translate(@ref, '#', ''), 'people/'))"/></xsl:when>
+        <xsl:when test="self::t:placeName"><xsl:value-of select="concat('../places.html#', substring-after(translate(@ref, '#', ''), 'places/'))"/></xsl:when>
+        <xsl:when test="self::t:orgName"><xsl:value-of select="concat('../juridical_persons.html#', substring-after(translate(@ref, '#', ''), 'juridical_persons/'))"/></xsl:when>
+        <xsl:when test="self::t:geogName"><xsl:value-of select="concat('../estates.html#', substring-after(translate(@ref, '#', ''), 'estates/'))"/></xsl:when>
+      </xsl:choose>
+    </xsl:attribute> ➚</a></xsl:if>
   </xsl:template>
   
   
