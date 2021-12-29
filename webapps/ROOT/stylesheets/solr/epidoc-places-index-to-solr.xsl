@@ -31,7 +31,7 @@
       <xsl:for-each select="$ids">
         <xsl:variable name="el-id" select="."/>
         <xsl:variable name="element-id" select="$places/tei:place[translate(translate(child::tei:idno, '#', ''), ' ', '')=$el-id][child::tei:placeName!=''][1]"/>
-        <xsl:variable name="item" select="$root//tei:placeName[ancestor::tei:div/@type='edition'][@ref!=''][contains(concat(' ', translate(@ref, '#', ''), ' '), $el-id)]|$not_mentioned"/>
+        <xsl:variable name="item" select="$root//tei:placeName[ancestor::tei:div/@type='edition'][@ref!=''][contains(concat(' ', translate(@ref, '#', ''), ' '), concat(' ', $el-id, ' '))]|$not_mentioned"/>
         <doc>
           <field name="document_type">
             <xsl:value-of select="$subdirectory" />
@@ -63,9 +63,11 @@
               <xsl:apply-templates mode="italics" select="$element-id/tei:note"/>
             </field>
           </xsl:if>
+          <xsl:if test="$element-id/tei:geogName[@type='coord']//text()">
           <field name="index_coordinates">
             <xsl:value-of select="$element-id/tei:geogName[@type='coord']"/>
           </field>
+          </xsl:if>
           <xsl:if test="$element-id/tei:idno='places/1'"><!-- to prevent having this indexed for all instances -->
             <field name="index_total_items"><xsl:value-of select="string(count($places/tei:place[not(child::tei:placeName='XXX')]))"/></field>
           </xsl:if>
