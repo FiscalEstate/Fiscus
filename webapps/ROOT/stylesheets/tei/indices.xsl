@@ -20,8 +20,8 @@
 
   <xsl:template match="index_metadata" mode="head">
     <xsl:apply-templates select="tei:div/tei:head/node()" />
-  </xsl:template>
-
+  </xsl:template> 
+  
   <xsl:template match="response/result">
     <!-- scrolling down button -->
     <button type="button" onclick="topFunction()" id="scroll" title="Go to top">⬆  </button>
@@ -412,7 +412,9 @@
     <xsl:variable name="item" select="tokenize(substring-after(., '~'), '£')"/>
     <div class="linked_elements">
       <h4 class="inline"><xsl:text>Linked places: </xsl:text></h4>
+      <xsl:if test="contains(., '€coord')">
       <a target="_blank" href="{concat('map.html#', substring-before(substring-after(., 'map.html#'), '~'))}" class="open_link">See on map</a>
+      </xsl:if>
       <xsl:text> </xsl:text>
       <button type="button" class="expander" onclick="$(this).next().toggleClass('hidden'); $(this).text($(this).next().hasClass('hidden') ? 'Show' : 'Hide');">Show</button>
     <ul class="expanded hidden">
@@ -424,7 +426,7 @@
               <xsl:matching-substring><i><xsl:value-of select="regex-group(1)"/></i></xsl:matching-substring>
               <xsl:non-matching-substring><xsl:value-of select="."/></xsl:non-matching-substring>
             </xsl:analyze-string>
-            <span class="link_type"><xsl:value-of select="substring-after(., '@')"/></span>
+            <span class="link_type"><xsl:value-of select="substring-before(substring-after(., '@'), '€')"/></span>
           </a>
         </li>
       </xsl:for-each>
