@@ -31,7 +31,7 @@
       <xsl:for-each select="$ids">
         <xsl:variable name="el-id" select="."/>
         <xsl:variable name="element-id" select="$juridical_persons/tei:org[translate(translate(child::tei:idno, '#', ''), ' ', '')=$el-id][child::tei:orgName!=''][1]"/>
-        <xsl:variable name="item" select="$root//tei:orgName[ancestor::tei:div/@type='edition'][@ref!=''][contains(concat(' ', translate(@ref, '#', ''), ' '), $el-id)]|$not_mentioned"/>
+        <xsl:variable name="item" select="$root//tei:orgName[ancestor::tei:div/@type='edition'][@ref!=''][contains(concat(' ', translate(@ref, '#', ''), ' '), concat(' ', $el-id, ' '))]|$not_mentioned"/>
         <doc>
           <field name="document_type">
             <xsl:value-of select="$subdirectory" />
