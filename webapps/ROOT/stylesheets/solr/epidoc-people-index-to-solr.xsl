@@ -31,7 +31,7 @@
       <xsl:for-each select="$ids">
         <xsl:variable name="el-id" select="."/>
         <xsl:variable name="element-id" select="$people/tei:person[translate(translate(child::tei:idno, '#', ''), ' ', '')=$el-id][child::tei:persName!=''][1]"/>
-        <xsl:variable name="item" select="$root//tei:persName[ancestor::tei:div/@type='edition'][@ref!=''][contains(concat(' ', translate(@ref, '#', ''), ' '), $el-id)]|$not_mentioned"/>
+        <xsl:variable name="item" select="$root//tei:persName[ancestor::tei:div/@type='edition'][@ref!=''][contains(concat(' ', translate(@ref, '#', ''), ' '), concat(' ', $el-id, ' '))]|$not_mentioned"/>
         <doc>
           <field name="document_type">
             <xsl:value-of select="$subdirectory" />
@@ -229,6 +229,9 @@
                 </xsl:variable>
                 <xsl:if test="$subtype"><xsl:text> (</xsl:text><xsl:value-of select="$subtype"/><xsl:text>)</xsl:text></xsl:if>
                 <xsl:if test="$links[contains(concat(@corresp, ' '), concat($key, ' '))][@cert='low'] or $all_items/tei:*[child::tei:idno=$key][1]/tei:link[contains(concat(translate(@corresp, '#', ''), ' '), concat($idno, ' '))][@cert='low']"><xsl:text> [</xsl:text>from uncertain tradition<xsl:text>]</xsl:text></xsl:if>
+                <xsl:text>€</xsl:text>
+                <!-- check if at least one of the linked places has coordinates, in order to display the 'see on map' button -->
+                <xsl:if test="$all_items/tei:*[child::tei:idno=$key][1]/tei:geogName[@type='coord']/tei:geo//text()"><xsl:text>coord</xsl:text></xsl:if>
                 <xsl:if test="position()!=last()"><xsl:text>£</xsl:text></xsl:if>
               </xsl:for-each>
             </field>
