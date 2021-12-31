@@ -130,7 +130,7 @@
             <xsl:for-each select="$linking_estates|$links[@type='estates'][@subtype='correspondsTo']/@corresp[.!='']">
               <xsl:for-each select="distinct-values(tokenize(., '\s+'))">
                 <xsl:variable name="link" select="translate(., '#', '')"/>
-                <xsl:for-each select="$estates/tei:place[translate(child::tei:idno, ' ', '')=$link]/tei:link[@type='places']/@corresp">
+                <xsl:for-each select="$estates/tei:place[translate(child::tei:idno, ' ', '')=$link]/tei:link[@type='places'][@subtype='correspondsTo']/@corresp">
                   <xsl:for-each select="distinct-values(tokenize(., '\s+'))">
                     <xsl:variable name="link1" select="translate(., '#', '')"/>
                     <xsl:value-of select="$places/tei:place[translate(child::tei:idno, ' ', '')=$link1]/tei:idno"/><xsl:text> </xsl:text>
