@@ -92,10 +92,12 @@
         <rule context="//t:link[ancestor::t:listPlace or ancestor::t:listOrg or ancestor::t:listPerson]">
             <report test="not(@corresp)">one or more links are pointing to nothing</report>
             <report test="ends-with(@corresp, ' ')">one or more links have extra spaces</report>
+            <!-- the following rules have been commented out because were causing issues on some Oxygen versions -->
             <!--<report test="@type='places' and not(matches(concat(' ', @corresp), '^(((\s+?)#places/(\d+?))+?)$'))">one or more links to places are not correct</report>
             <report test="@type='estates' and not(matches(concat(' ', @corresp), '^(((\s+?)#estates/(\d+?))+?)$'))">one or more links to estates are not correct</report>
             <report test="@type='people' and not(matches(concat(' ', @corresp), '^(((\s+?)#people/(\d+?))+?)$'))">one or more links to people are not correct</report>
             <report test="@type='juridical_persons' and not(matches(concat(' ', @corresp), '^(((\s+?)#juridical_persons/(\d+?))+?)$'))">one or more links to juridical persons are not correct</report>-->
+            <!-- the following rules replace *partly* the commented-out rules above -->
             <report test="@type='places' and not(contains(@corresp, '#places/'))">one or more links to places are not correct</report>
             <report test="@type='estates' and not(contains(@corresp, '#estates/'))">one or more links to estates are not correct</report>
             <report test="@type='people' and not(contains(@corresp, '#people/'))">one or more links to people are not correct</report>
