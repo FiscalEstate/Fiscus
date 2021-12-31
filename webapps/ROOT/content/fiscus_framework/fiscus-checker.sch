@@ -96,6 +96,10 @@
             <report test="@type='estates' and not(matches(concat(' ', @corresp), '^(((\s+?)#estates/(\d+?))+?)$'))">one or more links to estates are not correct</report>
             <report test="@type='people' and not(matches(concat(' ', @corresp), '^(((\s+?)#people/(\d+?))+?)$'))">one or more links to people are not correct</report>
             <report test="@type='juridical_persons' and not(matches(concat(' ', @corresp), '^(((\s+?)#juridical_persons/(\d+?))+?)$'))">one or more links to juridical persons are not correct</report>-->
+            <report test="@type='places' and not(contains(@corresp, '#places/'))">one or more links to places are not correct</report>
+            <report test="@type='estates' and not(contains(@corresp, '#estates/'))">one or more links to estates are not correct</report>
+            <report test="@type='people' and not(contains(@corresp, '#people/'))">one or more links to people are not correct</report>
+            <report test="@type='juridical_persons' and not(contains(@corresp, '#juridical_persons/'))">one or more links to juridical persons are not correct</report>
         </rule>
     </pattern>
     
