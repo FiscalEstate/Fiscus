@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio di Stato di Siena, Diplomatico, Città di Massa, 1015
+                    settembre 11</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc1460</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">--Offersio/donatio</rs>
+                                    <rs type="record_source" ref="#">Original document</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate when="1015-09-11"> 
+                                        <note type="displayed_date">1015 September 11</note>
+                                        <note type="dating_elements">Anno d’impero di Enrico.</note>
+                                        <note type="topical_date">S. Pietro di Monteverdi</note>
+                                        <note type="redaction_date"/>
+                             </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-04-02" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab><persName><name ref="Gotelmus">Gotielmo</name></persName> filio bone
+                        memorie <persName><name ref="Bonuccius">Bonucci</name></persName> offre pro
+                        anima (…) <rs>monasterio</rs>
+                        <orgName key="#Monasteries" ref="#juridical_persons/79">Sancti
+                            Petri</orgName> sito loco <placeName key="#Monasteries"
+                            ref="#places/285">Palatiolo</placeName> prope <placeName
+                            key="#Monasteries" ref="#places/85">Monte Virde</placeName>, la sua
+                        quota de tres inter <rs key="#Casae/cassinae_massaricie">casis et rebus
+                            massariciis</rs> qui sunt positis in loco et finibus ubi dicitur unam ex
+                        ipsis casis et rebus in <placeName key="#Casae/cassinae_massaricie"
+                            ref="#places/286">Veclinne</placeName>, rectam fuit per bone memorie
+                                <persName><name ref="Lamusus">Lumisio</name></persName> massario; et
+                        illa alia est in <placeName key="#Casae/cassinae_massaricie"
+                            >Flainne</placeName> detinet <persName><name ref="Lambertus"
+                                >Lamberti</name></persName>; tertia in <placeName
+                            key="#Casae/cassinae_massaricie">Tegugnano</placeName> recta fuit per
+                                <persName><name ref="Leo">Leo</name></persName>, con tutte le loro
+                        dipendenze. Chiede a <persName key="#Writer #Notary #Judge"><name
+                                ref="Rodulfus">Rodulfo</name></persName>
+                        <rs key="#Notary">notario</rs> et <rs key="#Judge">iudex</rs> domni
+                        imperatoris la stesura della cartula. Actum loco monasterio Sancti Petri.
+                        Testimoni: <persName key="#Witness"><name ref="Albertus"
+                            >Alberti</name></persName>
+                        <persName key="#Witness"><name ref="Rodulfus">Rodulfi</name></persName> et
+                            <persName key="#Witness"><name ref="Teutius">Teuti</name></persName>
+                        germani filii bone memorie <persName><name ref="Teutius"
+                            >Teuti</name></persName>.</ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>Reg. Lisini 1908: 508</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                <p>foto disponibile inserire link.</p>
+                    </div>
+                    <div type="commentary">
+                        <p/>
+                    </div>
+                </body>
+            </text>
+        </TEI>

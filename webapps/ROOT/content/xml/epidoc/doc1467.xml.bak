@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio di Stato di Siena, Diplomatico, S. Agostino, 1038 dicembre
+                    21</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc1467</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">--Offersio/donatio</rs>
+                                    <rs type="record_source" ref="#">Original document</rs>
+                                    <rs type="document_tradition" ref="#">Copy</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate when="1038-12-21"> 
+                                        <note type="displayed_date">1038 December 21</note>
+                                        <note type="dating_elements">Anno dell’incarnazione. Anno
+                                    d’impero di Corrado. </note>
+                                        <note type="topical_date">Sestinga</note>
+                                        <note type="redaction_date"/>
+                             </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-04-06" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab><persName><name ref="Berno">Berno</name></persName> filius
+                                <persName><name ref="Berno">Berni</name></persName>
+                        <persName><name ref="Iohannes">Iohanni</name></persName> (…) pro redemptione
+                        dona in <rs key="#Churches">ecclesia</rs> que est <rs key="#Monasteries"
+                            >monasterium</rs>
+                        <orgName key="#Churches #Monasteries" ref="#juridical_persons/126">Sancti
+                            Bartholomei</orgName> apostoli qui ponitur in <placeName
+                            key="#Monasteries" ref="#places/281">Sestinge Curte
+                            Maymbertii</placeName> de omnibus rebus meis <rs key="#Demesnes"
+                            >donnicatis</rs> et <rs key="#Casae/cassinae_massaricie"
+                            >massaritiis</rs> quanticunque habere (…) visum sum infra <rs
+                            key="#Comitatus">comitatu et territorio</rs>
+                        <geogName key="#Comitatus" ref="#estates/154">Rosellensi</geogName> in loco
+                        ubi dicitur <placeName key="#Demesnes #Casae/cassinae_massaricie">Valle
+                            Petrosula</placeName> sive per aliis locis (…) ubicumque de mea
+                        hereditate inventa fuerit, con le pertinenze, sicut michi evenit per
+                        successionem de quondam genitore meo et genitrice mea. Pena del doppio.
+                        Chiede a <persName key="#Writer #Notary #Judge"><name ref="Romanus"
+                                >Romanum</name></persName>
+                        <rs key="#Notary">notarium</rs> et <rs key="#Judge">iudicem</rs> donni
+                        imperatoris la stesura della cartula. Actum <placeName ref="#places/281"
+                            >Sestinge</placeName>. Testimoni: <persName key="#Witness"><name
+                                ref="Pepo">Pepi</name></persName> filii <persName><name ref="Berno"
+                                >Berni</name></persName>
+                        <persName><name ref="Raccorus">Raccori</name></persName>; <persName
+                            key="#Witness"><name ref="Rustichellus">Rustichelli</name></persName>
+                        germano suo; <persName key="#Witness"><name ref="Corbulus"
+                            >Corbuli</name></persName> filii <persName><name ref="Berno"
+                                >Berni</name></persName>
+                        <persName><name ref="Martinus">Martini</name></persName>. Scrive: Romanus
+                        notarius et iudex donni imperatoris.</ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>Lisini 1908: 514</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                        <p>Copia del 1265/09/03. Copiatore: Upezzino di Bonaccorso Frederici
+                    Romanorum imperatoris notarius, auctoritate dominorum Gattosi Uberti Gattosi et
+                    Lupi de Navacchio publicorum iudicum curie legis Pisane civitatis, Pisis in
+                    predicta curia que est in domo filiorum quondam Dati Consorti iudicis,
+                    presentibus domno Nicholao de Vico iudice filio Benigni Bonaccurso notario filio
+                    quondam Ildebrandini et Iohanne Scatsagalli notario suprascripte curie.
+                    Testimoni sottoscrittori: Bonaccurso del fu Ildebrandino domni Frederici Dei
+                    gratia Romanorum imperatoris Sycilie atque Jerusalem regis notarius, Bonamico
+                    del fu Merguliense de Peccioli imperiali auctoritate notarius.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio di Stato di Siena, Diplomatico, Bichi Borghesi, 1051 luglio
+                    17, exemplar XIII sec.</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc1485</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">Praeceptum</rs>
+                                    <rs type="record_source" ref="#">Original document</rs>
+                                    <rs type="document_tradition" ref="#">Copy</rs>
+                                    <rs type="fiscal_property">Yes</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate when="1051-07-17"> 
+                                        <note type="displayed_date">1051 July 17</note>
+                                        <note type="dating_elements">Anno dell’incarnazione. Anno
+                                    d’impero di Enrico.</note>
+                                        <note type="topical_date">Kaufungen</note>
+                                        <note type="redaction_date"/>
+                             </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-04-02" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab><persName key="#Emperor/king" ref="#people/237">Enrico
+                            III</persName>
+                        <rs key="#Emperor/king">imperatore</rs> conferma a dominus <persName
+                            key="#Abbots" ref="#people/238">Teuzo</persName> venerabilis <rs
+                            key="#Abbots">abbas</rs>
+                        <rs key="#Monasteries">monasterii</rs>
+                        <orgName key="#Monasteries" ref="#juridical_persons/131">beatorum martyrum
+                            Christi Anthimi et Sebastiani</orgName> quod a bone memorie <persName
+                            key="#Emperor/king" ref="#people/14">Carolo</persName>
+                        <rs key="#Emperor/king">imperatore</rs> constructum est in <rs
+                            key="#Comitatus">comitato</rs>
+                        <geogName key="#Comitatus" ref="#estates/174">Clusino</geogName>
+                        <placeName key="#Monasteries" ref="#places/316">loco qui dicitur Vallis
+                            Starcia</placeName>, (…) predecessorum nostrorum <rs
+                            key="#Imperial/royal_diploma">precepta</rs>, regum videlicet et
+                        imperatorum <persName
+                            key="#Imperial/royal_diploma #Fiscal_property #Object #Redistributive #Allocation_to_churches #Emperor/king"
+                            ref="#people/14">Caroli</persName>, <persName
+                            key="#Imperial/royal_diploma #Fiscal_property #Object #Redistributive #Allocation_to_churches #Emperor/king"
+                            ref="#people/118">Lodouuici</persName> et <persName
+                            key="#Imperial/royal_diploma #Fiscal_property #Object #Redistributive #Allocation_to_churches #Emperor/king"
+                            ref="#people/9">Lottarii</persName> et trium <persName
+                            key="#Imperial/royal_diploma #Fiscal_property #Object #Redistributive #Allocation_to_churches #Emperor/king"
+                            ref="#people/173 #people/239 #people/7">Ottonum</persName> (…). Conferma
+                        perciò i beni del monastero cioè: <rs key="#Curtes">corte</rs>
+                        <placeName
+                            key="#Curtes #Fiscal_property #Object #Redistributive #Allocation_to_churches #Churches"
+                            ref="#places/409"><geogName
+                                key="#Curtes #Fiscal_property #Object #Redistributive #Allocation_to_churches"
+                                ref="#estates/186"><orgName
+                                    key="#Fiscal_property #Object #Redistributive #Allocation_to_churches #Churches"
+                                    ref="#juridical_persons/169">Sancte Marie que dicitur Mater
+                                    ecclesia</orgName></geogName></placeName>, cum <rs
+                            key="#Baptismal_churches">plebibus</rs>
+                        <orgName
+                            key="#Fiscal_property #Object #Redistributive #Allocation_to_churches #Baptismal_churches"
+                            ref="#juridical_persons/167">Sancti Salvatoris</orgName> et <orgName
+                            key="#Fiscal_property #Object #Redistributive #Allocation_to_churches #Baptismal_churches"
+                            ref="#juridical_persons/168">Sancti Iohannis Baptiste</orgName> et
+                            <orgName
+                            key="#Fiscal_property #Object #Redistributive #Allocation_to_churches #Churches"
+                            ref="#juridical_persons/171">Sancte Christine</orgName> in <placeName
+                            key="#Churches" ref="#places/410">Caio</placeName> et <orgName
+                            key="#Fiscal_property #Object #Redistributive #Allocation_to_churches #Churches"
+                            ref="#juridical_persons/170">Sancti Marci</orgName> cum omnibus
+                        pertinentiis et aiacentiis suis; <rs key="#Churches">ecclesiam</rs>
+                        <orgName
+                            key="#Fiscal_property #Object #Redistributive #Allocation_to_churches #Churches"
+                            ref="#juridical_persons/200">Sancte Marie</orgName> in <placeName
+                            key="#Churches">Buble</placeName> et <orgName
+                            key="#Fiscal_property #Object #Redistributive #Allocation_to_churches #Churches"
+                            ref="#juridical_persons/172">Sancti Gregorii</orgName> et <orgName
+                            key="#Fiscal_property #Object #Redistributive #Allocation_to_churches #Churches"
+                            ref="#juridical_persons/173">Sancti Petri</orgName> in <placeName
+                            key="#Churches" ref="#places/411">Gre</placeName>; et <geogName
+                            ref="#estates/177"
+                            key="#Landed_possessions #Fiscal_property #Object #Redistributive #Allocation_to_churches"
+                                ><placeName key="#Landed_possessions">Adrina</placeName></geogName>
+                        et <placeName
+                            key="#Landed_possessions #Fiscal_property #Object #Redistributive #Allocation_to_churches"
+                            >Cipolonam</placeName> et <placeName
+                            key="#Landed_possessions #Fiscal_property #Object #Redistributive #Allocation_to_churches"
+                            ref="#places/412">Cignanum</placeName> cum omnibus pertinentiis et
+                        aiacentiis suis; ecclesiam <orgName
+                            key="#Fiscal_property #Object #Redistributive #Allocation_to_churches #Churches"
+                            ref="#juridical_persons/174">Sancti Desiderii</orgName> infra <rs
+                            key="#Cities">civitatem</rs>
+                        <placeName key="#Cities #Churches" ref="#places/164">Senensem</placeName> et
+                            <orgName
+                            key="#Fiscal_property #Object #Redistributive #Allocation_to_churches #Churches"
+                            ref="#juridical_persons/175">Sancti Adriani</orgName> in <placeName
+                            key="#Churches">Larciano</placeName> et <orgName
+                            key="#Fiscal_property #Object #Redistributive #Allocation_to_churches #Churches"
+                            ref="#juridical_persons/176">Sanctum Iustum</orgName> in <placeName
+                            key="#Churches" ref="#places/413">Guistrigona</placeName>, <orgName
+                            key="#Fiscal_property #Object #Redistributive #Allocation_to_churches #Churches"
+                            ref="#juridical_persons/177">Sanctum Laurentium</orgName> in <placeName
+                            key="#Churches" ref="#places/414">Corno</placeName>, <orgName
+                            key="#Fiscal_property #Object #Redistributive #Allocation_to_churches #Churches"
+                            ref="#juridical_persons/178">Sanctum Stefanum</orgName> in <placeName
+                            key="#Churches">Monte</placeName> cum omnibus pertinentiis et aiacentiis
+                        suis; <orgName
+                            key="#Fiscal_property #Object #Redistributive #Allocation_to_churches #Churches"
+                            ref="#juridical_persons/181">Sanctum Petrum</orgName> in <placeName
+                            key="#Churches" ref="#places/415">Monticellum</placeName> in <rs
+                            key="#Comitatus">comitatu</rs>
+                        <geogName key="#Comitatus" ref="#estates/83">Florentino</geogName> et
+                            <orgName
+                            key="#Fiscal_property #Object #Redistributive #Allocation_to_churches #Churches"
+                            ref="#juridical_persons/182">Sanctum Petrum</orgName> in <placeName
+                            key="#Churches" ref="#places/429">Buita</placeName>, <rs key="#Curtes"
+                            >corte</rs> de <geogName
+                            key="#Curtes #Fiscal_property #Object #Redistributive #Allocation_to_churches"
+                            ref="#estates/176"><placeName key="#Curtes" ref="#places/398">Valle
+                                Fabrice</placeName></geogName> et <placeName
+                            key="#Landed_possessions #Fiscal_property #Object #Redistributive #Allocation_to_churches"
+                            ref="#places/416">Turrita</placeName> et ecclesiam <orgName
+                            key="#Fiscal_property #Object #Redistributive #Allocation_to_churches #Churches"
+                            ref="#juridical_persons/183">Sancti Iohannis</orgName> in <placeName
+                            key="#Churches" ref="#places/417">Piscaria</placeName>, <rs
+                            key="#Fisheries">anguillaria</rs> de <placeName
+                            key="#Landed_possessions #Fisheries" ref="#places/418"
+                            >Mortaria</placeName> cum barcariis et pertinentiis suis; ecclesiam
+                            <orgName
+                            key="#Fiscal_property #Object #Redistributive #Allocation_to_churches #Churches"
+                            ref="#juridical_persons/193">Sancte Marie</orgName> in <placeName
+                            key="#Churches" ref="#places/143">Arcione</placeName>, <orgName
+                            key="#Fiscal_property #Object #Redistributive #Allocation_to_churches #Churches"
+                            ref="#juridical_persons/194">Sanctum Petrum</orgName> in <placeName
+                            key="#Churches" ref="#places/419">Quintiano</placeName> et triginta <rs
+                            key="#Saltworks">salinas</rs> in <placeName
+                            key="#Saltworks #Sea_salt #Fiscal_property #Object #Redistributive #Allocation_to_churches"
+                            ref="#places/420">Campo Albiniano</placeName> et ecclesiam <orgName
+                            key="#Fiscal_property #Object #Redistributive #Allocation_to_churches #Churches"
+                            ref="#juridical_persons/195">Sancte Severe</orgName>, <rs
+                            key="#Landed_possessions">terra</rs> que nuncupatur <placeName
+                            key="#Landed_possessions #Fiscal_property #Object #Redistributive #Allocation_to_churches"
+                            ref="#places/292">Perito</placeName> et <placeName
+                            key="#Landed_possessions #Fiscal_property #Object #Redistributive #Allocation_to_churches"
+                            ref="#places/427">Oliveto</placeName>
+                        <rs key="#Casalia">casale</rs> iuxta <rs key="#Rivers">fluvium</rs>
+                        <placeName key="#Rivers #Casalia">Osa</placeName>, <rs key="#Curtes"
+                            >corte</rs> de <geogName
+                            key="#Curtes #Fiscal_property #Object #Redistributive #Allocation_to_churches"
+                            ref="#estates/188"><placeName
+                                key="#Curtes #Fiscal_property #Object #Redistributive #Allocation_to_churches"
+                                ref="#places/421">Arena</placeName></geogName> et <orgName
+                            key="#Fiscal_property #Object #Redistributive #Allocation_to_churches #Churches"
+                            ref="#juridical_persons/196">Sanctum Liberum</orgName> in <placeName
+                            key="#Churches" ref="#places/66">Pisa</placeName> cum omnibus suis
+                        pertinentiis; <rs key="#Curtes">corte</rs> de <geogName
+                            key="#Curtes #Fiscal_property #Object #Redistributive #Allocation_to_churches"
+                            ref="#estates/187"><placeName
+                                key="#Curtes #Fiscal_property #Object #Redistributive #Allocation_to_churches"
+                                ref="#places/422">Cellena</placeName></geogName> et <placeName
+                            key="#Mountains #Landed_possessions #Fiscal_property #Object #Redistributive #Allocation_to_churches #Castle #Churches"
+                            >Lavinum</placeName> cum ecclesiis et <rs key="#Castle">castello</rs>
+                        cum una parte de <rs key="#Mountains">monte</rs> usque ad cacumen ipsius,
+                            <rs key="#Castle">castrum</rs> etiam de <placeName
+                            key="#Landed_possessions #Fiscal_property #Object #Redistributive #Allocation_to_churches #Castle"
+                            ref="#places/423">Avignone</placeName> cum omnibus suis pertinentiis et
+                        aiacentiis; <rs key="#Castle">castrum</rs> super <placeName
+                            key="#Landed_possessions #Fiscal_property #Object #Redistributive #Allocation_to_churches #Castle"
+                            ref="#places/424">Sarturianella</placeName> in <rs key="#Comitatus"
+                            >comitatu</rs>
+                        <geogName key="#Comitatus" ref="#estates/175">Senensi</geogName> integrum
+                        cum medietate ad eum pertinentium; <rs key="#Monasteries">monasterium</rs>
+                        quoque <placeName key="#Monasteries" ref="#places/425"><orgName
+                                key="#Fiscal_property #Object #Redistributive #Allocation_to_churches #Monasteries"
+                                ref="#juridical_persons/197">Sancti Thome
+                            apostoli</orgName></placeName> (quod) <persName key="#Abbots"><name
+                                ref="Tao">Taio</name></persName>
+                        <rs key="#Abbots">abbas</rs> construxit in <rs key="#Fines">finibus</rs>
+                        <geogName key="#Fines" ref="#estates/185">Pistoriensibus</geogName>
+                        confirmamus eidem venerabili loco secundum quod senior noster <persName
+                            key="#Emperor/king" ref="#people/7">Otto</persName> bone memorie <rs
+                            key="#Emperor/king">imperator</rs> augustus et <persName
+                            key="#Marquis/duke" ref="#people/3">Hugo</persName>
+                        <rs key="#Marquis/duke">marchio</rs> ordinaverunt, ea videlicet ratione ut
+                        abbas qui pro tempore fuerit habeat potestatem ibidem ordinandi monachis et
+                        ipsum locum prout ei oportunum visum fuerit; <orgName
+                            key="#Fiscal_property #Object #Redistributive #Allocation_to_churches #Churches"
+                            ref="#juridical_persons/198">Sanctum Antimum</orgName> in <placeName
+                            key="#Churches" ref="#places/414">Locornio</placeName>; <rs
+                            key="#Churches">ecclesiam</rs> de <placeName
+                            key="#Fiscal_property #Object #Redistributive #Allocation_to_churches #Churches"
+                            >Poiolo</placeName>; confirmamus adque imperiali auctoritate
+                        corroboramus predicte ecclesie omnem hereditatem <persName><name ref="Hugo"
+                                >Ugonis</name></persName> filii bone memorie item <persName><name
+                                ref="Hugo de Sciscano">Ugonis</name></persName> de <placeName
+                            ref="#places/426">Sciscano</placeName> que illi provenerat ex parte
+                        genitoris et genitricis sue; confirmamus similiter prefato monasterio omnem
+                        hereditatem <persName><name ref="Corbulinus">Corbulini</name></persName>
+                        filii bone memorie <persName><name ref="Maria">Marie</name></persName> que
+                        data est predicte ecclesie; <rs key="#Churches">ecclesiam</rs> quoque
+                            <orgName
+                            key="#Fiscal_property #Object #Redistributive #Allocation_to_churches #Churches"
+                            ref="#juridical_persons/199">Sancti Brasii</orgName> de <placeName
+                            key="#Churches" ref="#places/430">Cornieto</placeName>. Hec omnia
+                        suprascripta confirmamus prenominato cenobio sicut continetur in preceptis
+                        antecessorum nostrorum et in hoc nostro sunt augmentata, videlicet cum
+                        omnibus rebus mobilibus et inmobilibus, cum plebibus, cellulis, castris,
+                        domibus, edificiis, servis, anciliis, aldiis et famulis utriusque sexus,
+                        libellariis, precariis, cartulariis, massaritiis, campis, vineis, pratis,
+                        pascuis, silvis, aquis aquarumque decursibus, piscationibus, venationibus,
+                        montibus, alpibus, vallibus, planietibus, salectis, olivetis, cannetis,
+                        molendinis, cultis et incultis; confirmamus etiam (…) <rs key="#Decima"
+                            >decimas</rs> et primitias de suis hominibus secundum <rs
+                            key="#Papal_concession">privilegia apostolicorum Romane sedis</rs> et
+                        precepta predecessorum nostrorum imperatorum. Confirmamus quoque ut idem
+                        venerabile monasterium quinque <rs
+                            key="#Advocatus_of_other_public_authorities">advocatores</rs> liceat
+                        habere; illis autem adiungimus XII liberos homines cum quibus rem prelibati
+                        monasterii sacramento aquirant et defendant ut nullum tortum malli adiciant.
+                        Precipientes insuper iubemus ut nullus episcopus dux marchio comes vicecomes
+                        sculdascio nullaque imperii nostri magna parvaque persona predictum
+                        venerabilem abbatem vel eius successores aut monachos ibidem deo famulantes
+                        de prenominatis cortibus et decimis primitiis vel <rs key="#Slave"
+                            >familiis</rs> utriusque sexus seu de omnibus supradictis rebus
+                        inquietare aut molestare sive disvestire sine legali iudicio temerario ausu
+                        presumat aut <rs key="#Teloneum">teloneum</rs> sive aliquam publicam
+                        functionem ab eis exigat nullumque <rs key="#Fodrum">fodrum</rs> vel censum
+                        aut paratam persolvere cogantur, sed liceat illis sub nostra <rs
+                            key="#Tuitio/bannum/mundeburdium">tuitione et defensione</rs> quiete et
+                        pacifice vivere (…). Conferma infine la licenza ai monaci di scegliere fra
+                        loro l’abate. Stabilisce una pena auri obrizi libras mille, medietatem
+                        camere nostre et medietatem prefato abbati aut eis successoribus; e fa
+                        apporre il proprio sigillo. Recognitio del <rs key="#Chancellor"
+                            >cancelliere</rs>
+                        <persName key="#Chancellor"><name ref="Obizo">Opizzo</name></persName> ad
+                        vicem dell’<rs key="#Archbishops">arcivescovo</rs> e <rs
+                            key="#Archchancellor">arcicancelliere</rs>
+                        <persName key="#Archchancellor #Archbishops"><name ref="Ermannus"
+                                >Ermanno</name></persName>. Actum
+                        <placeName>Chouphungin</placeName>. </ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>MGH DD H IIII, n. 271, pp. 360-362; Lisini 1908: 516.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                        <p/>
+                    </div>
+                </body>
+            </text>
+        </TEI>

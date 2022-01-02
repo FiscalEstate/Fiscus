@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Archivio di Stato di Siena, Diplomatico, San Salvatore al Monte Amiata, 1143
+                    dicembre 5</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus
+                        Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc1451</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">-Papal concession</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property">Yes</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="1143-12-05">
+                                <note type="displayed_date">1143 December 5</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Roma</note>
+                                <note type="redaction_date"/>
+                             </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-03-27" who="scollavini">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab><persName key="#Popes" ref="#people/259">Celestinus</persName>
+                        <rs key="#Popes">episcopus</rs>, servus servorum Dei, dilecto filio
+                            <persName key="#Abbots" ref="#people/258">Alberto</persName>
+                        <rs key="#Abbots">abbati</rs>
+                        <rs key="#Monasteries">monasterii</rs>
+                        <orgName key="#Monasteries" ref="#juridical_persons/78">Sancti Salvatoris et
+                            beati Quirici</orgName>
+                        <placeName ref="#places/86" key="#Monasteries">Populoniensis</placeName>
+                        eiusque successoribus regulariter substituendis in perpetuum. Officii nostri
+                        nos ortatur auctoritas, ut religiosas personas, et loca eorum regimini
+                        deputata paternis affectibus diligamus, et ipsorum quieti salubriter
+                        auxiliante Domino providere curemus. Proinde, dilecte in Domino fili Alberte
+                        abbas, tuis rationabilibus postulationibus clementer annuendum duximus, et
+                        Salvatoris Domini nostri Iesu Christi ac sancti Quirici monasterium, cui Deo
+                        auctore presse dinosceris, sub beati Petri tutelam protectionemque
+                        suscipimus, et apostolice sedis privilegio communimus, statuentes, ut
+                        quascumque <rs key="#Landed_possessions">possessiones</rs>, quecumque bona
+                        idem monasterium in presentiarum iuste et legitime possidet, aut in futurum
+                        concessione pontificum, largitione regum vel principum, oblatione fidelium,
+                        seu aliis iusitis modis prestante Domino poterit adipisci, firma tibi
+                        tuisque succesoribus illibata permaneant. In quibus hec propriis nominibus
+                        duximus annotanda: totam videlicet <rs
+                            key="#Landed_possessions #Fiscal_property #Object #Redistributive #Allocation_to_churches #Popes"
+                            >terram</rs> illam, que est <placeName
+                            key="#Landed_possessions #Fiscal_property #Object #Redistributive #Allocation_to_churches #Popes"
+                            >a cala Sancti Ambrosii usque ad collem Scultatorii</placeName>, quem
+                        admodum usque ad hec tempora cum silvis vineis terris, cultis vel incultis,
+                        pacifice videmini possedise; <rs key="#Mountains">montem</rs> videlicet
+                        civitatis destructe, que antiquitus Populonia vocata est, cum omnibus suis
+                        apendiciis omnibusque ibidem consistentibus; <rs key="#Churches"
+                            >ecclesiam</rs>
+                        <orgName key="#Churches" ref="#juridical_persons/145">Sancti
+                            Christofori</orgName> cum omnibus suis pertinentiis, que <placeName
+                            ref="#places/134" key="#Churches">Livellario</placeName> sita est; <rs
+                            key="#Churches">ecclesiam</rs>
+                        <orgName key="#Churches" ref="#juridical_persons/202">Sancti
+                            Blasii</orgName>, ques sita est in <placeName ref="#places/266"
+                            key="#Churches">Laboscone</placeName> cum omnibus suis pertinentiis; in
+                            <placeName>Corsica</placeName>
+                        <rs key="#Churches">ecclesiam</rs>
+                        <orgName key="#Churches">Sancti Nicolai</orgName> in
+                            <placeName>Moriano</placeName>, cum omnibus suis pertinentiis et
+                        edeficiis; <placeName key="#Landed_possessions" ref="#places/130">Piscina
+                            Lifredi</placeName>, <placeName key="#Landed_possessions"
+                            >Falconaia</placeName>, <placeName key="#Landed_possessions"
+                            ref="#places/89">Franciola</placeName>; <placeName
+                            key="#Landed_possessions #Castle" ref="#places/268"
+                            >Castellare</placeName> cum omnibus suis pertinentiis; <rs key="#Mills"
+                            >molendinum</rs> de <placeName key="#Mills">Guidalto</placeName>;
+                            <placeName key="#Landed_possessions">la Casella</placeName> , <placeName
+                            key="#Landed_possessions" ref="#places/247">Fabrucianum</placeName>, <rs
+                            key="#Saltworks #Sea_salt">Saline</rs>, <rs>caldanelle</rs>. <rs
+                            key="#Decima">decimas</rs> quoque possessionum vestrarum, sicut hactenus
+                        quiete possidetis, vobis nichilominus confirmamus. Porro ordinationes
+                        clericorum, seu monachorum vestrorum, qui ad sacros ordines fuerint
+                        promovendi, pro libertate et reverentia eiusdem loci hoc decreto nostro
+                        indulgemus, ut quem mallueritis adeatis antistitem, siquidem Catholicus
+                        fuerit, et gratiam apostolice sedis habuerit, eaque gratis et absque
+                        pravitate aliqua voluerit exhibere. Qui nimirum nostra fultus auctoritate
+                        quod postulatur indulgeat. Item constituimus, ut, obeunte abbate, non alius
+                        ibi, quacumque obreptionis astu[ti]a ordinetur, nisi quem fratres eiusdem
+                        cenobii cum comuni consensu secundum timorem Dei elegerint, maxime si de
+                        eadem congregatione idoneus inventus fuerit. Quod si talis, qui huic
+                        regimini congruat, inter eos inveniri non possit, aliunde sibi patrem et
+                        magistrum expectant. Decernimus ergo, ut nulli omnino hominum liceat
+                        prefatum monasterium temere perturbare aut eius possessiones auferre vel
+                        ablatas retinere minuere aut aliquibus vexationibus fatigare, set omnia
+                        integra conserventur eorum, pro quorum gubernatione et substentatione
+                        concessa sunt, usibus omnimodis profutura. Si quis igitur in futurum,
+                        ecclesiastica secularisve persona hanc nostre constitutionis paginam sciens
+                        contra eam temere venire temptaverit, secundo tertiove comonita, si non
+                        satisfactione congrue emendaverit, potestatis honorisque sui careat,
+                        rerumque se divino iudicio existere de perpetrata iniquitate cognoscat et a
+                        sacratissimo corpore hac sanguine Dei et domini nostri Ihesu Christi alienus
+                        fiat adque in extremo examine districte ultionis subiaceat. Cunctis autem
+                        eiusdem loco sua iura servantibus sit pax domini nostri Ihesu Christi.
+                        Quatenus et hic fructum bone actionis percipiant et aput districtum iudicem
+                        premia eterne pacis inveniantur; amen, amen, amen. (…) Datum Laterani, per
+                        manum <persName key="#Writer #Priests #Cardinals"><name ref="Gherardus"
+                                >Gerardi</name></persName> Sancte Romane ecclesie <rs key="#Priests"
+                            >presbiteri</rs> cardinalis et bibliothecarii, nonas decembris,
+                        indictione VI, incarnationis dominice anno M°C°XL°III°, pontificatus vero
+                        domni Celestini II pape anno I. </ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>Ughelli, <foreign>IS</foreign>: III, 787; Ughelli, <foreign>IS</foreign>2, III ,
+                    711; Cambiagi 1770: 716-717 (parz.); <foreign>CDA</foreign>, II: 314-316, n.
+                    336;</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p>Kehr, IP, III: 272 n. 1</p>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

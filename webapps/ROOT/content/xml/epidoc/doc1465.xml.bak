@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio di Stato di Siena, Diplomatico, S. Agostino, 1032 aprile
+                    29</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc1465</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">--Venditio</rs>
+                                    <rs type="record_source" ref="#">Original document</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">Uncertain</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate when="1032-04-29"> 
+                                        <note type="displayed_date">1032 April 29</note>
+                                        <note type="dating_elements">Anno dell’incarnazione. Anno
+                                    d’impero di Corrado. </note>
+                                        <note type="topical_date">Pieve di Morrano</note>
+                                        <note type="redaction_date"/>
+                             </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-04-05" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab><persName><name ref="Bonitius/Bonodie">Bonitio qui Bonodie
+                                vocor</name></persName> filio bone memorie <persName><name
+                                ref="Teutius">Teutii</name></persName> vende in <rs key="#Churches"
+                            >ecclesia</rs> que est <rs key="#Monasteries">monasterio</rs>
+                        <orgName key="#Churches #Monasteries" ref="#juridical_persons/126">Sancti
+                            Bartholomei</orgName> apostoli qui ponitur in <placeName
+                            key="#Monasteries" ref="#places/281">Sestinge</placeName> et vocitatur
+                            <placeName ref="#places/281">Curte Maiberti</placeName>, et in <persName
+                            key="#Abbots" ref="#people/210">Andrea</persName>
+                        <rs key="#Abbots">abb(ate)</rs> et in omnes suos successores (…) integra mea
+                        portione de <rs key="#Landed_possessions">terra</rs> qui est pos(ita) intro
+                            <rs key="#Comitatus">comitatu</rs>
+                        <geogName key="#Comitatus" ref="#estates/154">Rosellensi</geogName>
+                        <placeName key="#Curtes" ref="#places/293"><geogName
+                                key="#Mountains #Curtes #Carbonaria" ref="#estates/156"><rs
+                                    key="#Curtes">Curte</rs> Sancti Fridiani</geogName></placeName>
+                        cum omni sua pertinentia, essepto et antepono summitate de <rs
+                            key="#Mountains #Defensive_elements">monte</rs> infra <rs
+                            key="#Carbonaria">carbonaria</rs> permanente; ipsa terra posita est in
+                            <placeName key="#Mountains #Landed_possessions #Carbonaria"
+                            ref="#places/281">Sestinge</placeName> prope predicto monasterio Sancti
+                        Bartholomei, sicut mihi per <rs key="#Venditio">chartula comparationis</rs>
+                        evenit da <persName ref="#people/284">Raineri</persName> et <persName
+                            ref="#people/285">Fralmi</persName> germani filiorum bone memorie
+                            <persName ref="#people/286">Alberici qui Albitio</persName> vocabatur;
+                        prezzo argentum mensuratos solidos quadraginta. Chiede a <persName
+                            key="#Writer #Notary #Judge"><name ref="Romanus"
+                            >Romano</name></persName>
+                        <rs key="#Notary">notarius</rs> et <rs key="#Judge">iudex</rs> domni
+                        imperatoris la stesura della cartula. Actum ante <orgName
+                            key="#Baptismal_churches" ref="#juridical_persons/125"><rs
+                                key="#Baptismal_churches">plebe</rs> de <placeName
+                                key="#Baptismal_churches" ref="#places/274"
+                            >Morrano</placeName></orgName>. Testimoni: <persName key="#Witness"
+                                ><name ref="Gherardus">Girardi</name></persName> filii
+                                <persName><name ref="Cuneradus">Conradi</name></persName>; <persName
+                            key="#Witness"><name ref="Ilditius">Ilditii</name></persName> filii bone
+                        memorie <persName><name ref="Rotius">Roitii</name></persName>; <persName
+                            key="#Witness"><name ref="Pepo">Pepi</name></persName> filii bone
+                        memorie <persName><name ref="Raterius">Rateri</name></persName>. </ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>Lisini 1908: 512</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                        <p>Nota dorsale XII sec.: carta de Sestinga in comitatu Rosellense.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

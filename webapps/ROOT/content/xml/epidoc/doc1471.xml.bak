@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio di Stato di Siena, Diplomatico, Bichi Borghesi, 1025 luglio
+                    20</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc1471</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#"
+                                >--Libellus/precaria/emphyteusis</rs>
+                                    <rs type="record_source" ref="#">Original document</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate when="1025-07-20"> 
+                                        <note type="displayed_date">1025 July 20</note>
+                                        <note type="dating_elements">Anno dell’incarnazione.</note>
+                                        <note type="topical_date">Fosso dell’Acqua Nera</note>
+                                        <note type="redaction_date"/>
+                             </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-04-02" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab>[<persName><name ref="Valisianus">Valisiano</name></persName>] (...)
+                                <persName><name ref="Benedictus">Benedicto</name></persName> (...) e
+                                [<persName><name ref="Petrus">Pietro</name></persName> del fu
+                                <persName><name ref="Romaldus">Romaldo</name></persName>] ricevono
+                        in livello da <persName key="#Abbots" ref="#people/210">Andrea</persName>
+                        […] <rs key="#Abbots">abbas</rs>
+                        <rs key="#Monasteries">monasterii</rs>
+                        <orgName key="#Monasteries" ref="#juridical_persons/126">Sancti
+                            Bartholomei</orgName> apostoli sito loco <placeName key="#Monasteries"
+                            ref="#places/281">Sestinghe</placeName>, (…) medietatem integra de <rs
+                            key="#Churches">ecclesia</rs> [<orgName key="#Churches"
+                            ref="#juridical_persons/159">Sancti Pancratii</orgName> cuius vo]cabulu
+                        est […]bbamcaitii sui est [in loco et fi]nibus ubi dicitur <placeName
+                            key="#Petiae #Churches" ref="#places/313">Portilione</placeName> cum duo
+                            <rs key="#Petiae">petie</rs> [de terra] (…) in suprascripto loco: il
+                        primo confinante uno capo cum uno lato […] alio capo in fossa, alio lato
+                        […]; il secondo confinante (...) alio capo con terra (...) ambas lateras con
+                        terra (...) con tutte le loro dipendenze. Si impegnano affinché per loro
+                        disposizione nella chiesa si tengano (...) luminaria seo incensum solennium
+                        (...). Si impegnano a versare pro omni censum et iustitiam all’abate e ai
+                        suoi successori ogni mese di agosto al monastero il censo annuale di (...)
+                        denari d’argento. Se non rispetteranno i suddetti impegni, promettono con i
+                        loro eredi di versare all’abate e ai suoi successori la pena di 50 soldi
+                        d’argento. Chiedono <persName key="#Writer #Notary #Judge"><name
+                                ref="Rodulfus">Rodolfo</name></persName>
+                        <rs key="#Notary">notario</rs> et <rs key="#Judge">iudex</rs> [domni
+                        imperatoris] la stesura di due cartulas. Actuum loco <rs key="#Rivers"
+                            >rivo</rs> de <placeName key="#Rivers" ref="#places/312">Aqua
+                            Nira</placeName> prope <rs key="#Villages/settlements">villa</rs> de
+                            <placeName key="#Villages/settlements" ref="#places/282"
+                            >Va[lle]</placeName>. Testimoni: <persName key="#Witness"><name
+                                ref="Iohannes">Iohannes</name></persName> filio bone memorie […];
+                            <persName key="#Witness"><name ref="Christianus">Cristianus</name> qui
+                            […] vocatur</persName> filio bone memorie […].</ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>Lisini 1908: 510.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                        <p>Anno dell’incarnazione. Molto danneggiata e di difficilissima
+                    lettura.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>
