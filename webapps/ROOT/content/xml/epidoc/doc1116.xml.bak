@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Archivio abbaziale di Nonantola, <foreign>secolo IX</foreign></title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc1116</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property">Uncertain</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate notBefore="0896" notAfter="0899">
+                                <note type="displayed_date">Between 896 and 899</note>
+                                <note type="dating_elements">Emanato durante il vescovato di
+                                    Landolfo I di Milano.</note>
+                                <note type="topical_date"/>
+                                <note type="redaction_date">X exeunte</note>
+                             </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-02-08" who="cstedile">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine domini nostri Iesu Christi Dei aeterni. <persName
+                            key="#Emperor/king" ref="#people/21">Berengarius</persName> divina
+                        favente clementia <rs key="#Emperor/king">rex</rs>. Si liberalitatis nostre
+                        munere locis Deo dicatis quiddam conferimus beneficii et necessitates
+                        ecclesiasticas ac religiones servorum Dei nostro relevamus iuvamine atque
+                        regali tuemur munimine, id nobis et ad mortalem vita temporaliter
+                        transiendam et ad eternam feliciter obtinendam liquido credimus profuturum.
+                        Quapropter omnium fidelium sancte Dei Eclesie nostrorumque presencium
+                        scilicet et futurorum noverit industria, quia vir venerabilis <persName
+                            key="#Abbots"><name ref="Leopardus">Leopardus</name></persName>
+                        <rs key="#Abbots">abbas</rs> ex <orgName
+                            key="#Curtes #Landed_possessions #Privileges #Immunity #Monasteries #Cells/hermitages"
+                            ref="#juridical_persons/47">cenobio Nonantulensi</orgName> per <persName
+                            key="#Intercessory #Consiliarius_regis #Archbishops" ref="#people/228"
+                            >Landulfum</persName> reverentissimum <rs key="#Archbishops"
+                            >archipresulem</rs> nec non etiam <persName
+                            key="#Intercessory #Consiliarius_regis #Bishops" ref="#people/123"
+                            >Adelardum</persName> venerabilem <rs key="#Bishops">aepiscopum</rs>
+                        dilectissimos <rs key="#Consiliarius_regis">consiliarios nostros</rs>
+                        imploratus est nostram magnificentiam, quatenus pro amore Dei omnipotentis
+                        nostreque mercedis intuitu omnia <rs key="#Privileges">privilegia</rs>
+                        pontificum Romanorum et precepta regum Langobardorum Francorumque
+                        imperatorum predecessorum nostrorum, quibus illi seu et ceteri fideles ad
+                        predictam aeclesiam donacionem largiti sunt et res fidelium eiusdem aeclesie
+                        per eadem precepta auctoritatis oraculo confirmaverunt, nec non et omnia
+                        memoratorum precepta nostra auctoritate vel liberalitate firmaremus, simul
+                        et privilegia Romanorum pontificum. Cuius peticionem, quia iusta et
+                        racionabilis nobis esse videbatur, recipiendam atque implendam iudicavimus,
+                        et ei suisque successoribus hoc nostrum regale preceptum prout petierat
+                        confirmari fecimus. Ita iubentes atque nostra auctoritate precipientes, ut
+                        quicquid christianissimi pontifices seu reges, imperatores vel quilibet vir
+                        catholicus in prefato sancto cenobio aliquid largiti sunt, nullus quolibet
+                        ingenio abstraere vel minuere audeat, set perpetuis temporibus cunctis
+                        deinceps seculis nostro permaneat testamento solidatum, ea videlicet
+                        auctoritate nostre regalis preceptionis, ut nullus iudex publicus vel
+                        quilibet christianus in supradicto monasterio aut <rs
+                            key="#Cells/hermitages">cellulis suis</rs>, <rs key="#Curtes"
+                            >curtibus</rs>, <rs key="#Landed_possessions">agris, locis, seu et
+                            reliquis possessionibus</rs> que ad cenobium tam de <rs
+                            key="#Fiscal_property #Textual_occurrence #Object #Fiscal_reserve #Gift"
+                            >donacione <rs key="#Emperor/king">regum</rs> quam <rs key="#Queen"
+                                >reginarum</rs> quam etiam relicorum virorum Deum timentium</rs>
+                        legitime pervenerunt, vel que deinceps supradicto monasterio Deo favente
+                        addantur vel amplificentur ingredi audeat. <rs key="#Immunity">Nullus iudex
+                            inde neque aliquis ex iudiciaria potestate ad causas audiendas vel freda
+                            exigenda aut mansiones parandas seu et parafredos aut fideiussores
+                            tollendos aut homines tam ingenuos quam et servos super terram ipsius
+                            monasterii commanentes ullo modo distringendos nec ullas publicas
+                            functiones aut redibiciones vel occasiones requirendas consurgere
+                            audeat, set liceat predicto abbati successoribusque eius cum omnibus
+                            subiectis sibi rebus iuxta illorum privilegia et precepta sub
+                            immunitatem nostram quieto ordine consistere.</rs>
+                        <rs key="#Uncertain_tradition">Volumus quoque et concedimus, ut quandoquidem
+                            divina vocatione abbas ipsius monasterii eiusque successores de ac luce
+                            migraverint, ipsi <rs key="#Monks">monachi</rs> de ipsa congregatione
+                            qualem inter se digniorem invenerint licentiam habeant eligendi
+                            abbatem.</rs> Et ut firmum et stabile hoc nostrum regale preceptum
+                        permaneat, propria manu firmavimus et anulo nostro iussimus
+                        sigillari...</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>DD B I, pp. 85-88, n° XXIX</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>La copia pervenutaci è scorretta e incompleta e il passaggio che regola
+                    l'elezione dell'abate è aggiunta in calce da prima mano. Questo diploma potrebbe
+                    essere considerato il modello del diploma falsificato datato 19 agosto 988 (DD B
+                    I, pp. 373-375, Falsificazioni n° IV), ma Schiaparelli ritiene più probabile che
+                    entrambi dipendessero da una copia (o dall'originale) andata perduta, poiché DD
+                    B I, pp. 373-375, Falsificazioni n° IV presenta nelle formule una dizione più
+                    corretta e completa.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

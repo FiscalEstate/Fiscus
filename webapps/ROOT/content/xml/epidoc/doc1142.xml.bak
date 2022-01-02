@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Archivio Abbaziale di Nonantola, cartella secolo IX.</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc1142</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property">Uncertain</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate notBefore="0907" notAfter="0913">
+                                <note type="displayed_date">Between 907 and 913</note>
+                                <note type="dating_elements">Per la datazione si fa riferimento agli
+                                    anni di Pietro III, che fu abate a Nonantola tra il 907 e il
+                                    913.</note>
+                                <note type="topical_date"/>
+                                <note type="redaction_date"/>
+                             </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-02-08" who="cstedile">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine domini nostri Iesu Christi Dei aeterni. <persName
+                            key="#Emperor/king" ref="#people/21">Berengarius</persName> divi[na
+                        favente cle]mentia <rs key="#Emperor/king">rex</rs>. Quia ubique regalis
+                        tuitio et totius protectionis umbraculum persistere [co]nvenit praecipue
+                        sacris ac venerabilibus locis regia defens[io pro regni nostri augmentu]
+                        adhibenda censetur. Ideoque noverit omnium fidelium sanctae Dei Aeclesiae
+                        nostrorumque presenitum scilicet ac futurorum industria, quoniam <persName
+                            key="#Intercessory #Abbots" ref="#people/354">Petrus</persName>
+                        venerabilis <rs key="#Abbots">abbas</rs>
+                        <rs key="#Monasteries">mo[naster]ii</rs> [siti] in <orgName
+                            key="#Monasteries" ref="#juridical_persons/47">N[onantula</orgName>
+                        nostr]am <rs key="#Intercessory">clementiam</rs> enixius postulaverit,
+                        quatenus se eiusque omnia sui monasterii <rs key="#Monks">monachis</rs> cum
+                        universis <rs key="#Churches">aeclesiis atque capellis</rs> suis tota[que
+                        domo] cultili praecipue aeccle[siam <orgName key="#Churches">Sanctae Ma]riae
+                            goe[ni]tricis domini nostri Iesu Christi</orgName> sitam super ripam <rs
+                            key="#Rivers">fluvii Burriane</rs> ubi vocatur Piscariam praedicti
+                        monasterii cum universis aedificiis suis [et] omnium suorum hominum ibi
+                        aspi[cien]tium cum paludibus et piscariis a <rs key="#Rivers">fluvio
+                            Bundino</rs> usque in <placeName>loco qui dicitur Spino</placeName>, <rs
+                            key="#Coloni/tenants">colonis</rs> et omnibus <rs
+                            key="#Agricultural_workers">massariciis</rs> cum ceteris <rs
+                            key="#Curtes">curtibus</rs> atque cum omnibus earum appendiciis, <rs
+                            key="#Slave">servis et ancillis</rs>, <rs key="#Aldius">aldionibus et
+                            ald[iani]s</rs> cu[nc]isque ad se pertinentibus pro Dei amore et
+                        beatissimi confessoris atque pontificis Silvestri corporis devotissima
+                        veneratio[ne] et cum omni integritate usque ad finem presen[tis vitae] sub
+                        nostra regia auctoritate recipere dignaremur. Quod tam pro Dei amore quamque
+                        pro iam dicti sancti Silvestri devo[ta int]ercessione audientes, cuius sacri
+                        corporis gl[eba i]n eclesia prefati monasterii humata quiescit, eundem
+                        abbatem suosque monachos et familiam atque massarios seu colonos libe[ros]
+                        et servos, masculos et foeminas utriusque sexus, praecipue praenominatam
+                        Piscariam pertinentem ad <geogName key="#Curtes" ref="#estates/294">curtem
+                            Sancte Mariae</geogName> super ripam Burriane fluvii de iam dicta
+                        abbatia sub nostra defensione perenniter recepimus, quatenus nullus <rs
+                            key="#Marquis/duke">marchio</rs>, <rs key="#Count">comes</rs>, <rs
+                            key="#Bishops">episcopus</rs> aut alicuis ordinis vel dignitatis magna
+                        parvaque persona praenominatum abbatem aut suos monachos eiusque familiam
+                        qualibet iniusta occasione molestare praesumat, aut in rebus vel praediis
+                        atque possessionibus ipsius coenobii aliquam audeat facere controversiam.
+                        Nullus quoque Papiensis, aut Cremonensis, Ferariensis vel Comaclensis, sive
+                        Veneticus aut aliquis magnus vel parvus milister cuiuslibet ordinis in toto
+                        nostro Italico regno existens in eiusdem monasterii <rs
+                            key="#Marshes/lagoons/tombolos">paludes</rs> vel <rs key="#Fisheries"
+                            >piscariis</rs> aut c[u]culariis <rs
+                            key="#Rights_of_use_on_woods/pastures/waters">navigando transire vel
+                            quascumque piscationes cum alico piscationis argumento introire</rs>
+                        praesumat, nisi forte ad abbate illius monasterii vel a praeposito qui in
+                        praedictam Piscariam pro tempore ordinatus fuerit eis ire aut piscare
+                        concesserit. Sed liceat praedicto abb[ati] et praepositi iam dicte celle cum
+                        universis possessionibus predicti monasterii quieto et pacifico ordine usque
+                        in perpetuum nullo contradicente permanere. Si quis vero contra has [nostre]
+                        co[ncess]ionis litteras ire vel aliquas molestationes facere praesumpserit,
+                            <rs key="#Immunity">inmunitatem nostram</rs>, hoc est <rs key="#Penalty"
+                            >triginta libras argenti optimi</rs> persolvere eis regali nost[ra
+                        au]ct[oritate precipimu]s, <rs key="#Camera_regis">medietatem palatii
+                            nostri</rs> et <rs key="#Camera_of_other_public_authorities">medietatem
+                            praedicti coenobii</rs>. Ut autem cercius credatur et ab omnibus
+                        diligentius observetur, anuli nostri inpressione subter adsig[nari
+                        iussimus]. (SI D) [Data...gloriosi]ssimi[...] fe[licite]r, amen.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>DD B I, pp. 217-220, n° LXXXI</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>Schiaparelli afferma che l'abate Pietro III sia stato in carica fino al 911,
+                    proponendo tale anno come termine <foreign>ante quem</foreign> per la
+                    datazione.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

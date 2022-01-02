@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Archivio Abbaziale di Nonantola, Pergamene, II 3</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus
+                        Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc702</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property">Uncertain</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0814-08-01">
+                                <note type="displayed_date">814 August 1</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Aachen (DE)</note>
+                                <note type="redaction_date"/>
+                             </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-03-05" who="emanarini">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomini domini Dei et salvatoris nostri Iesu Christi. <persName
+                            key="#Emperor/king">Hludovvicus</persName> divina ordinante providentia
+                            <rs key="#Emperor/king">imperator</rs> Augustus. Si enim ea quae fideles
+                        regni nostri pro eorum oportunitatibus inter se <rs key="#Commutatio"
+                            >commutaverint</rs> vel concambiaverint, nostris confirmamus edictis,
+                        imperialem exercemus consuetudinem et hoc in postmodum iuse finissimo
+                        mansurum esse credimus. Igitur notum sit omnium fidelium nostrorum
+                        sollertiae, praesentium scilicet et futurorum, qualiter vir venerabilis
+                            <persName ref="#people/119"
+                            key="#Commutatio #Monasteries #Abbots">Petrus</persName>
+                        <rs key="#Abbots">abbas</rs> ex <rs key="#Monasteries">monasterio</rs>
+                        <placeName ref="#places/15" key="#Monasteries"
+                            >Nonantulo</placeName>, quod est constructum in honore beatorum
+                        apostolorum et <orgName ref="#juridical_persons/47"
+                            key="#Commutatio #Monasteries #Abbots">Sancti Silvestri
+                        </orgName>confessoris, ad nostram accedens clementiam innotuit serenitati
+                        nostrae eo quod aliquas res cum <persName
+                            ref="#people/120"
+                            key="#Commutatio #Monasteries #Prevosts">Hrodulfo</persName>
+                        <rs key="#Prevosts">rectore</rs> monasterii quod est constructum intra muros
+                        civitatis <placeName ref="#places/7"
+                            key="#Monasteries">Brixiae</placeName> in honore domini et salvatori
+                        nostri Iesu Christi, quod vulgo appellatur <orgName
+                            ref="#juridical_persons/30"
+                            key="#Commutatio #Monasteries #Prevosts">monasterium Novum</orgName>,
+                        concambiasset. Dedit itaque vir venerabilis Petrus memoratus abbas de parte
+                        monasterii sui praedicto Hrodulfo ad partem praefati monasterii <rs
+                            key="#Villas">villas</rs> nuncupantes <placeName key="#Villas"
+                            >Castellione</placeName>, <placeName key="#Villas"
+                        >Calcinato</placeName>, <placeName key="#Villas">Silviniano</placeName>,
+                            <placeName key="#Villas">Monticulo</placeName> sicut eidem Hrodulfo pro
+                        oportunitate monasterii recipere placuit. E contra in conpensatione huius
+                        meriti dedit iam dictus Hrodulfus praescripto venerabili Petro abbati ad
+                        partem monasterii sui pro oportunitate servorum Dei in eodem coenobio
+                        commorantium villam nuncupantem <placeName
+                            ref="#places/94" key="#Villas"
+                            >Reddudum</placeName>, quae dicitur supernomen <placeName key="#Villas"
+                            >Curticella</placeName>, in <rs key="#Pagus">pago</rs>
+                        <placeName ref="#places/27" key="#Pagus"
+                            >Persiceta</placeName>, cum omni integritate vel soliditate sua. Unde et
+                        commutationem de praedictis locis nostris obtutibus ostendit ad relegendum.
+                        Sed pro integra firmitate petiit celsitudinem nostram, ut in aelemosina
+                        nostra ipsam commutationem denuo per nostrum mansuetudinis praeceptum
+                        plenius confirmare deberemus. Cuius petitionem denegare noluimus, sed sicut
+                        unicuique fidelium nostrorum iuste rationabiliter alteri contulit parti,
+                        deinceps per hanc nostram auctoritatem iure firmissimo teneant atque
+                        possideant; et quicquid exinde facere voluerint, libero in omnibus
+                        perfruantur arbitrio. Et ut haec auctoritas firmior habeatur et per futura
+                        tempora plenius conservetur, manu propria subscripsimus et de anulo nostro
+                        subter sigillari iussimus NT. Signum MF Hludovvici serenissimi imperatoris.
+                            <persName key="#Chancellor">Helisachar</persName> recognovi et SR NT
+                        SID. <date>Data kalendas augusti, anno primo Christo propritio Imperii
+                            nostri, indictione septima</date>. Actum <placeName
+                            ref="#places/83" key="#Palatium"
+                            >Aquisgrani</placeName>
+                        <rs key="#Palatium">palatio regio</rs> in Dei nomine feliciter. Amen. </ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>CHLA 88, n. 30.</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p>Manarini 2017.</p>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
