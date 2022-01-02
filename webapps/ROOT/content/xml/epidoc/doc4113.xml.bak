@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    +G.17</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc4113</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">--Offersio/donatio</rs>
+                                    <rs type="record_source" ref="#">Critical edition</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate notBefore="0767-11-01" notAfter="0767-11-30">
+                                <note type="displayed_date">767 November</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Lunata</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-06-26" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab><persName key="#Vir_devotus/vir_honestus"><name ref="Fridulus"
+                                >Fredulo</name></persName>
+                        <rs key="#Vir_devotus/vir_honestus">vir devotus</rs> filio quondam
+                                <persName><name ref="Teudo">Tiuti</name></persName>
+                        <foreign>si rivolge alla</foreign>
+                        <rs key="#Mother_churches">eclesia</rs>
+                        <orgName key="#Mother_churches" ref="#juridical_persons/68">beatissimi
+                            Sancti Martini</orgName>. <foreign>Offre alla chiesa</foreign> ubi
+                            <persName key="#Priests"><name ref="Teutelmus"
+                            >Teuselmi</name></persName>
+                        <rs key="#Priests">presbiter</rs> esse videtor (…) pro anima de filio
+                                <persName><name ref="Adrebertus">Atripertu</name></persName>, id est
+                        una <rs key="#Petiae">petia de terra</rs>, cot est super <rs key="#Wine"
+                            >vitis</rs> positas, quem avire visu sum in locho <placeName
+                            key="#Petiae #Wine #Fruits/vegetables" ref="#places/677"
+                            >Civiliano</placeName>: qui uno capo tene in via publica, alio capo tene
+                        in <rs key="#Wine">vinea</rs>
+                        <persName key="#Confinia #Wine"><name ref="Albertus"
+                            >Aliperti</name></persName>, et latere ambas tene in <rs key="#Cereals"
+                            >terra</rs> et in <rs key="#Wine">vinea</rs>
+                        <persName key="#Confinia #Cereals #Wine"><name ref="Teutelmus">tua qui
+                                supra</name></persName> (…), mea portione in integrum unam cum <rs
+                            key="#Fruits/vegetables">arboribus</rs> qui inivi sunt. (…) Actum in <rs
+                            key="#Vici">vicho</rs>
+                        <placeName key="#Vici" ref="#places/473">Lunata</placeName>.
+                            <foreign>Sottoscrizioni</foreign>: + Freduli viri devoti; + <persName
+                            key="#Witness #Vir_devotus/vir_honestus"><name ref="Tassilo"
+                                >Tassuli</name></persName>
+                        <rs key="#Vir_devotus/vir_honestus">viri devoti</rs> de <placeName
+                            ref="#places/473">Lunatas</placeName> testis; + <persName
+                            key="#Witness #Vir_devotus/vir_honestus"><name ref="Emmo"
+                            >Aimi</name></persName>
+                        <rs key="#Vir_devotus/vir_honestus">viri devoti</rs> filio <persName><name
+                                ref="Guntulo">Guntuloni</name></persName> testis; + <persName
+                            key="#Witness #Vir_devotus/vir_honestus"><name ref="Prandulus"
+                                >Pranduli</name></persName>
+                        <rs key="#Vir_devotus/vir_honestus">viri devoti</rs> filio <persName><name
+                                ref="Gundipertus">Guntiperti</name></persName> testis; (ss)
+                            <persName key="#Witness #Vir_devotus/vir_honestus"><name ref="Tao"
+                                >Tao</name></persName> filio <persName><name ref="Guntulo"
+                                >Guntuli</name></persName>. <foreign>Scrive</foreign>: <persName
+                            key="#Writer"><name ref="Gisbertus">Ghisipertu</name></persName>.</ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>MDL V/2, n. 105; CDL II, 211, pp. 230-231; ChLA, XXXIV, 999.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                         <p><foreign>Nota dorsale (sec. VIII-IX)</foreign>: Cartula dotale de
+                    Fridulo. <foreign>Nota dorsale (sec. VIII-IX)</foreign>: Offersio in Sancto
+                    Martino de casa et rebus in Pescia minore loco Civiliano.  </p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

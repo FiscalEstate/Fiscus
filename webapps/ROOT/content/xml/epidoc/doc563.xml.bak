@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    Diplomatico, + L 8</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                        </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc563</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#"
+                                >--Libellus/precaria/emphyteusis</rs>
+                                    <rs type="record_source" ref="#">Original document</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate notBefore="0895-11-19" notAfter="0935-05-29">
+                                <note type="displayed_date">895 November 19 - 935 May 29</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Lucca</note>
+                                <note type="redaction_date"/>
+                             </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance>
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                            <place></place>
+                        </listPlace>
+                        <listPerson>
+                            <person></person>
+                        </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-04-28" who="ptomei">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab>Il <rs key="#Subdeacons">suddiacono</rs>
+                        <persName key="#Subdeacons"><name ref="Teudebertus"
+                            >Teuperto</name></persName> di (...) riceve in livello dal <rs
+                            key="#Bishops">vescovo</rs> di Lucca <persName ref="#people/213"
+                            key="#Bishops">Pietro</persName>, la <orgName key="#Churches"
+                            ref="#juridical_persons/267"><rs key="#Churches">chiesa</rs> di
+                                <placeName ref="#places/499" key="#Churches">San
+                            Giorgio</placeName></orgName> e la <orgName key="#Churches"
+                            ref="#juridical_persons/268"><rs key="#Churches">chiesa</rs> di
+                                <placeName ref="#places/500" key="#Churches"
+                            >Sant’Ilario</placeName></orgName> di (...), di pertinenza (...), con
+                        tutte le sue dipendenze, tra cui un fundamento tenuto da <persName><name
+                                ref="Tassilo">Tassilo</name></persName>. Ottiene la potestas di
+                        suballivellare le chiese con i loro beni. Si impegna affinché per sua
+                        disposizione nelle chiese si tengano officium Dei et luminaria seo missarum
+                        solemnia. Si impegna a versare pro omni censum et iustitiam al vescovo e ai
+                        suoi successori ad ipsa ecclesia Sancte Marie ogni mese di gennaio il censo
+                        annuale di 24 denari d’argento ad pars iam dicte <orgName
+                            key="#Baptismal_churches" ref="#juridical_persons/269">ecclesie
+                                <placeName ref="#places/165" key="#Baptismal_churches">Sancte
+                                Marie</placeName></orgName>, quod est <rs key="#Baptismal_churches"
+                            >plebe battismalis</rs>. Se non rispetterà i suddetti impegni, promette
+                        di versare al vescovo e ai suoi successori la pena di 200 soldi d’argento.
+                        Chiede al <rs key="#Writer #Notary">notaio</rs>
+                        <persName key="#Writer #Notary"><name ref="Petrus">Pietro</name></persName>
+                        la stesura di due <rs key="#Libellus/precaria/emphyteusis">cartulas</rs>.
+                        Actum <placeName ref="#places/4" key="#Bishops">Luca</placeName>. <rs
+                            key="#Witness">Testimoni</rs> sottoscrittori: <persName key="#Witness"
+                                ><name ref="Allo">Alone</name></persName> del <persName>fu <name
+                                ref="Angelbertus">Angalperto</name></persName>, <persName
+                            key="#Witness"><name ref="Teudebertus">Teuperto</name></persName>,
+                            <persName key="#Witness"><name ref="Fraolmus">Fraolmi</name></persName>,
+                            <persName key="#Witness" ref="#people/149">Cunimundo</persName>,
+                            <persName key="#Witness"><name ref="Benedictus"
+                            >Benedetto</name></persName>, <persName key="#Witness #Scabini"><name
+                                ref="Benedictus">Benedetto</name></persName>
+                        <rs key="#Scabini">schabinus</rs>.</ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>MDL, 5/3, n. 1767, pp. 638-639.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                        <p>Nota dorsale X sec.: libello da Teuperto subdiacono de Parma de ecclesie
+                    de Brancalo. Sottoscrizioni autografe: il suddiacono Teuperto, Teuperto,
+                    Fraolmi, Cunimundo, Benedetto, lo scabino Benedetto.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

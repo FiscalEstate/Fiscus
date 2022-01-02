@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    +I.57</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc4091</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">--Ordinatio</rs>
+                                    <rs type="record_source" ref="#">Critical edition</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate when="0763-04-17"> 
+                                        <note type="displayed_date">763 April 17</note>
+                                        <note type="dating_elements"/>
+                                        <note type="topical_date">Lucca</note>
+                                        <note type="redaction_date"/>
+                             </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-06-17" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab><persName><name key="#Priests" ref="Ratepertus"
+                            >Ratpert</name></persName>
+                        <rs key="#Priests">presbitero</rs> filio quondam <persName><name
+                                ref="Ansfrit">Ansifridi</name></persName>, <foreign>ha chiesto
+                            a</foreign> domno et viro beatissimo <persName ref="#people/343"
+                            >Peredeo</persName> in Dei nomine <rs key="#Bishops">episcopo</rs> ut me
+                        rectore ordinare iubiuris in <rs key="#Casae/cassinae_massaricie">casa</rs>
+                        <rs key="#Churches">eclesiae</rs>
+                        <orgName key="#Casae/cassinae_massaricie #Churches"
+                            ref="#juridical_persons/261">Sancti Genesi</orgName> in loco et plebe ad
+                            <placeName key="#Vici #Casae/cassinae_massaricie #Churches"
+                            ref="#places/465"><rs key="#Vici">vico</rs> Walari</placeName>,
+                            <foreign>ottenendone il consenso. Promette</foreign> ut die vite meae
+                        omnia quolibet res adquirere potuero per quolibet ordine, volo ut sit in
+                        potestate suprascripte eclesie; et die vite mee ividem semper habitare et
+                        officio ecclesiastico legibus et luminaria facere promitto, die noctuque
+                        omni tempore et legibus nostre sancte cannonice tibi oboedire et servire. Et
+                        in omnibus voluntate facere promitto et numquam contra te agere debeam, nec
+                        cum tuo inimico me adunare aut consiliare contra te presumam, nec aliqua
+                        peculiarina vel subtractione de quolibet res in alio loco faciam. Et omnes
+                        res eidem eclesie pertenente in omnibus meliorare promitto.
+                            <foreign>Pena</foreign>: in auro soledos ducenti. (…) Actum <placeName
+                            ref="#places/4">Luca</placeName>. <foreign>Sottoscrizioni</foreign>:
+                        (ss) Ratpert presbiter; + <persName key="#Witness #Priests"><name
+                                ref="Maurizo">Maurici</name></persName>
+                        <rs key="#Priests">presbiteri</rs> testis; (ss) <persName
+                            key="#Witness #Priests"><name ref="Liutbrandus"
+                            >Liusprand</name></persName> vir venerabilis <rs key="#Priests"
+                            >presbitero</rs>; (ss) <persName key="#Witness #Priests"><name
+                                ref="Soldulus">Soldulo</name></persName>
+                        <rs key="#Priests">presbiter</rs>; (ss) <persName
+                            key="#Witness #Other_clerics"><name ref="Homulus"
+                            >Homulo</name></persName>
+                        <rs key="#Other_clerics">clericus</rs>; + <persName
+                            key="#Witness #Other_clerics"><name ref="Aldiolus"
+                            >Altioli</name></persName>
+                        <rs key="#Other_clerics">clerici</rs> filii <persName>[…]an[…]i</persName>
+                        testis. <foreign>Scrive</foreign>: <persName key="#Writer #Deacons"><name
+                                ref="Osprandus">Osprandus</name></persName>
+                        <rs key="#Deacons">diaconus</rs>.</ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>MDL IV/1, n. 1; reg. MDL V/2, n. 83; CDL II, 173, pp. 133-135; ChLA,
+                    XXXIII, 978.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                         <p><foreign>Nota dorsale (sec. VIII, Osprandus)</foreign>: + Cartola
+                    promissionis da Ratpert presbitero de vico Walari. <foreign>Nota dorsale (sec.
+                        XI-XII)</foreign>: Repromissio de plebe Sancti Genesii.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

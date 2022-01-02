@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    Diplomatico, * M 44</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus
+                        Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc504</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Venditio</rs>
+                            <rs type="record_source" ref="#">Original document</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property">No</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0896-12-31">
+                                <note type="displayed_date">896 December 31</note>
+                                <note type="dating_elements">Anno d’impero di Lamberto</note>
+                                <note type="topical_date"><foreign>Cornio</foreign> (Prato)</note>
+                                <note type="redaction_date"/>
+                             </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-03-24" who="ptomei">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab><persName><name ref="Iohannes">Giovanni</name></persName> del <persName>fu
+                                <name ref="Petrus">Pietro</name></persName> vende a <persName><name
+                                ref="Ansegisus">Ansighisi</name></persName> del <persName>fu <name
+                                ref="Teudegisus">Teudighisi</name></persName> un appezzamento di
+                        terra posto in loco qui dicitur <placeName ref="#places/156">Canpo
+                            Vitallani</placeName> ubi <placeName ref="#places/156"
+                            >Valiano</placeName> vocatur, <rs key="#Confinia #Landed_possessions"
+                            >confinante</rs> da oriente con terra di <persName
+                            key="#Confinia #Landed_possessions"><name ref="Isalbertus"
+                                >Isalberto</name></persName>, da aquilone et occidente con terra di
+                            <persName key="#Confinia #Landed_possessions"><name ref="Teudegrimus"
+                                >Teudelgrimo</name></persName> del <persName>fu <name
+                                ref="Teudegrimus">Teudelgrimo</name></persName>, da meridie via
+                        publica decurrente, della misura per longo di 19 pertiche, per extraverso di
+                        6 pertiche, per il prezzo di 20 soldi d’argento. Chiede al <rs
+                            key="#Writer #Notary">notaio</rs>
+                        <persName key="#Writer #Notary"><name ref="Walbrandus"
+                            >Walprando</name></persName> la stesura della cartula. Actum ad loco
+                            <placeName ref="#places/155">Cornio</placeName>. <rs key="#Witness"
+                            >Testimoni</rs> sottoscrittori: <persName key="#Witness #Scabini"><name
+                                ref="Wideradus">Witterado</name></persName>
+                        <rs key="#Scabini">schabinus</rs>, <persName key="#Witness"><name
+                                ref="Petrus">Pietro</name></persName>, <persName key="#Witness"
+                                ><name ref="Adroaldus">Atrualdo</name></persName>, <persName
+                            key="#Witness"><name ref="Ursus">Orso</name></persName> del <persName>fu
+                                <name ref="Willeradus">Willerado</name></persName>.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>MDL, 5/2, n. 1000, p. 618; ChLA 86, n. 44, pp. 134-136.</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>L'anno di impero è calcolato dalla morte del padre, l'imperatore Guido. Nota
+                    dorsale X sec.: libelario. Nota dorsale moderna: 894 pro Tegrimi (nel testo la
+                    stessa mano ha sottolineato il nome di Teudelgrimo del fu Teudelgrimo).
+                    Sottoscrizioni autografe: lo scabino Witterado, Pietro, Atrualdo.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

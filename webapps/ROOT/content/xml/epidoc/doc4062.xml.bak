@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    +G.94 (copia ultimo terzo del secolo VIII)</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc4062</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">--Ordinatio</rs>
+                                    <rs type="record_source" ref="#">Critical edition</rs>
+                                    <rs type="document_tradition" ref="#">Copy</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate notBefore="0759-01-01" notAfter="0759-01-31">
+                                <note type="displayed_date">759 January</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Lucca</note>
+                                <note type="redaction_date"/>
+                             </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-06-04" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab><persName key="#Other_clerics"><name ref="Ildebrandus"
+                                >Ilprand</name></persName>
+                        <rs key="#Other_clerics">clericus</rs>
+                        <foreign>ha chiesto al</foreign> viro beatissimo <persName key="#Bishops"
+                            ref="#people/343">Peredeo</persName> in Dei nomine <rs key="#Bishops"
+                            >episcopo</rs>, ut me ordinare digneris rectore in <rs
+                            key="#Casae/cassinae_massaricie">casa</rs>
+                        <rs key="#Churches">eclesie</rs>
+                        <orgName key="#Casae/cassinae_massaricie #Landed_possessions #Churches"
+                            ref="#juridical_persons/299">Sancti Thome</orgName>, ubi quondam
+                            <persName key="#Priests"><name ref="Silveradus"
+                            >Silverad</name></persName>
+                        <rs key="#Priests">presbiter</rs> ordinatus fuit, seu in <rs
+                            key="#Landed_possessions">omnes res</rs> ividem pertenente.
+                            <foreign>Peredeo ha acconsentito e quindi</foreign> per cartis volumine
+                        ipsa eclesia cum res ividem pertenente tam in meo dominio quam et in
+                        potestate de filio meo dedisti, si ipse tonso capite ad episcopo, qui hic
+                        Luca fuerit, deservire voluerit, ut nos in ipsa eclesia rectori et
+                        guvernatori esse debeamus. <foreign>Promette per sé e per il figlio di non
+                            tentare di sottrarre la chiesa al vescovato</foreign>. Et sicut expedit
+                        ita promitto ut ividem luminaria faciat et missarum precum et officium
+                        ecclesiasticum pleniter fieri per nostra ordinatione; et ipsas res ividem
+                        pertenente meliorare promitto et de ipsas res eclesie voluntate tua
+                        faciendum, ut visum fuerit. <foreign>Pena</foreign>: soledos tricenti,
+                        qualis in die illa facti fuerint. (…) Actum <placeName ref="#places/42"
+                            >Luca</placeName>. <foreign>Sottoscrizioni</foreign>: Ilprandus clericus
+                                (ss); <persName key="#Witness #Priests"><name ref="Gaido">Gaido</name></persName>
+                                <rs key="#Priests">presbiter</rs> (ss); <persName key="#Witness #Priests"><name ref="Sicardus"
+                                >Sicherad</name></persName>
+                                <rs key="#Priests">presbiter</rs> (ss); <persName key="#Witness #Priests"><name ref="Filosofronius"
+                                >Filosofronius</name></persName>
+                                <rs key="#Priests">presbiter</rs> (ss); + <persName key="#Witness #Other_clerics"><name ref="Guntelmus"
+                                >Guntelmi</name></persName>
+                                <rs key="#Other_clerics">clerici</rs> testis; + <persName key="#Witness #Other_clerics"><name
+                                ref="Teuspertus">Teuspert</name></persName>
+                        <rs key="#Other_clerics">clerici</rs> testis. <foreign>Scrive</foreign>:
+                                <persName key="#Writer #Deacons"><name ref="Osprandus"
+                            >Osprandus</name></persName>
+                        <rs key="#Deacons">diaconus</rs>. <foreign>Copia</foreign>: <persName
+                            key="#Copyist #Priests"><name ref="Ragibrandus">Rachiprandus</name></persName>
+                        <rs key="#Priests">presbiter</rs>.</ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>MDL IV/1, n. 50; reg. MDL V/2, n. 57; CDL II, n. 132, pp. 19-21; ChLA,
+                    XXXII, 949.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                         <p>Persone: Desiderio re; Ilprand cler; Peredeo ep. [di Lucca]; Silverad
+                    pbr; Gaido pbr; Sicherad pbr; Filosofrosius pbr; Guntelmi cler; Teuspert cler;
+                    Osprandus diac; Rachiprandus pbr. Luoghi: Luca [Lucca]. Chiese: eclesie Sancti
+                    Thome [S. Tommaso di Lucca]; eclesie Sancti Martini [S. Martino di Lucca,
+                    vescovato]. Cariche: . Note: . Indice: ordinazione - domo episcopi - fam.
+                    Peredeo. <foreign>Nota dorsale (sec. XI-XII)</foreign>: Ordinatio ecclesie
+                    Sancti Thome. Forse Ilprando I Aldobrandeschi(?).</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    +K.10</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc4055</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">--Offersio/donatio</rs>
+                                    <rs type="record_source" ref="#">Critical edition</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate notBefore="0755-08-01" notAfter="0755-08-31">
+                                <note type="displayed_date">755 August</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date"><foreign>Griciano</foreign></note>
+                                <note type="redaction_date"/>
+                             </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-06-01" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab><persName key="#Vir_devotus/vir_honestus"><name ref="Rotgaidus"
+                                >Rotcauido</name></persName> filio quondam <persName><name
+                                ref="Gaido">Cheidi</name></persName> havitator in <placeName
+                            ref="#places/750">Griciano</placeName>
+                        <foreign>dona</foreign> Deo et tebi <orgName key="#Churches"
+                            ref="#juridical_persons/254"><rs key="#Churches">domino sancto
+                                Fridiano</rs></orgName>
+                        <rs key="#Petiae">petzas de terra</rs>, qui est insula, ubi vocabulum est in
+                            <placeName key="#Petiae" ref="#places/750">Debla</placeName>, ipsa
+                        hinsula in integrum; et <rs key="#Petiae">unas petzas de terra</rs> qui est
+                            <placeName key="#Petiae" ref="#places/750">ad Piro</placeName>,
+                        similiter in integrum parte mea; et alias tertias <rs key="#Petiae"
+                            >petzas</rs>
+                        <placeName key="#Petiae" ref="#places/750">ad Salici</placeName>, qui est
+                        circa ipsa petzas ad Piro. <foreign>Se ne riserva l’usufrutto vitalizio.
+                            Scrive:</foreign>
+                        <persName key="#Writer #Notary"><name ref="Gaidoinus"
+                            >Gaiduin</name></persName>
+                        <rs key="#Notary">notario</rs>. (…) Actum in <placeName ref="#places/750"
+                            >Griciano</placeName>. <foreign>Sottoscrizioni</foreign>: + Rorchiado
+                            <rs key="#Vir_devotus/vir_honestus">viri devoti</rs>; + <persName
+                            key="#Witness #Priests #Vir_devotus/vir_honestus"><name ref="Ferrutius"
+                                >Ferrucio</name></persName> viri venerabilis <rs key="#Priests"
+                            >presbiter</rs> de <orgName key="#Churches" ref="#juridical_persons/254"
+                            >Sancto Fridiano</orgName>
+                        <rs key="#Vir_devotus/vir_honestus">vir devotus</rs> testis; + <persName
+                            key="#Witness #Vir_devotus/vir_honestus"><name
+                                ref="Iohannes de Griciano">Iohanni</name></persName> filio quondam
+                                <persName><name ref="Paulus">Pauli</name></persName> de <placeName
+                            ref="#places/750">Griciano</placeName>
+                        <rs key="#Vir_devotus/vir_honestus">vir devotus</rs> testis; + <persName
+                            key="#Witness #Vir_devotus/vir_honestus"><name ref="Gausbertus"
+                                >Cospertu</name></persName> germano ipsius Rotchaidi <rs
+                            key="#Vir_devotus/vir_honestus">vir devotus</rs> testis.
+                            <foreign>Scrive</foreign>: Gaiduin.</ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>MDL V/2, n. 50; CDL I, n. 118, pp. 355-357; ChLA, XXXII, 941.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                         <p>Persone: Astolfo re; Rotcauido / Rotchaido v. dev. [Rotcaudo] havitator
+                    in Griciano (f. Cheidi; fr. Cospertu); Cheidi (p. Ratcauido); Gaiduin not.;
+                    Ferrucio v. ven. pbr de Sancto Fridiano v. dev.; Iohanni [Giovanni] v. dev. de
+                    Griciano (f. Pauli); Pauli (p. Iohanni); Cospertu v. dev. (fr. Rochaidi).
+                    Luoghi: Griciano [c/o Pedona]; Debla; ad Piro; ad Salici. Chiese: sancto
+                    Fridiano [S. Frediano c/o Pedona]. Cariche: . Note: Debla. Indice: dissodamenti
+                    - donazione - versilia. <foreign>Nota dorsale (sec. XI-XII):</foreign> Offersio
+                    in Sancto Frigiano de terris in Griciano de terra in eodem loco.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

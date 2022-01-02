@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    *K.88</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc4042</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">--Offersio/donatio</rs>
+                                    <rs type="record_source" ref="#">Critical edition</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate notBefore="0748-03-01" notAfter="0748-03-31">
+                                <note type="displayed_date">748 March</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Lucca</note>
+                                <note type="redaction_date"/>
+                             </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-05-29" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab><persName key="#Deacons"><name ref="Gallus">Gallus</name></persName>
+                        vir venerabilis <rs key="#Deacons">diaconus</rs>
+                        <foreign>si indirizza alla</foreign>
+                        <rs key="#Churches">eclesie</rs> Dei adque <orgName key="#Churches"
+                            ref="#juridical_persons/243">beatissimi Sancti Reguli</orgName> loco in
+                            <placeName ref="#places/673" key="#Churches">Vualdo</placeName>.
+                            <foreign>Offre a S. Regolo</foreign>: idest una <rs
+                            key="#Casae/cassinae_massaricie">casa</rs> mea, quas havere videor in
+                        loco <placeName key="#Casae/cassinae_massaricie">Germaniano</placeName>, qui
+                        regitor per <persName><name ref="Cioddolus">Cioddolo</name></persName> et
+                                <persName><name ref="Teudericulus">Teudericulo</name></persName>
+                        massariis, <foreign>riservandosene l’usufrutto vitalizio; dopo la morte la
+                            casa e i massari</foreign> aliut redditum non facias nec <rs
+                            key="#Operae">angarias</rs> nec nulla <rs
+                            key="#Scufiae/transport_service">scufias</rs> ad ipsa suprascripta Dei
+                        eclesia, nisi tantum per singulus annus quattuor modia granu, uno animale
+                        quale abuerit, pro camisia tremmisse uno, una libra cera, uno sistario mel
+                        et amplius nulla dationem aut scufia perexolvant. (…) et sacerdus qui ividem
+                        deservierit, pro meis delictos, facinoribus incensanter Dominum deprecare
+                        diveas et luminaria sanctorum Dei facias. <foreign>Chiede di scrivere (in
+                            doppia copia) a</foreign>
+                        <persName key="#Writer #Priests"><name ref="Gaudentius"
+                            >Gaudentium</name></persName> indignus <rs key="#Priests"
+                            >presbiterus</rs>. (…) Actum <placeName ref="#places/4"
+                        >Luca</placeName>, <foreign>Sottoscrizioni:</foreign> Gallus diaconus (ss);
+                        + <persName key="#Witness #Archdeacons"><name ref="Thepingtus"
+                                >Theopigntus</name></persName>
+                        <rs key="#Archdeacons">arcidiaconus</rs> testis; + <persName
+                            key="#Witness #Priests"><name ref="Milo">Milonia</name></persName> viri
+                        venerabilis <rs key="#Priests">presbitero</rs> testis; + <persName
+                            key="#Witness #Priests"><name ref="Deusdedit">Deusdede</name></persName>
+                        viri venerabilis <rs key="#Priests">presbitero</rs> magistro soli testis; +
+                            <persName key="#Witness #Other_clerics"><name ref="Aluarius"
+                                >Alvari</name></persName>
+                        <rs key="#Other_clerics">clerici</rs> testis; + <persName
+                            key="#Witness #Other_clerics"><name ref="Gumpulus"
+                            >Gunpulu</name></persName>
+                        <rs key="#Other_clerics">clerici</rs> filio <persName><name ref="Munipertus"
+                                >Munipert</name></persName> testis; <foreign>Scrive</foreign>:
+                        Gaudentius presbiterus </ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>MDL V/2, n. 40; CDL I, n. 94, pp. 272-274; ChLA, XXXI, 930.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                         <p><foreign>Nota dorsale (sec. VIII):</foreign> carta de [Gemini]ano sancti
+                    Reculli. <foreign>Nota dorsale (sec XIIex):</foreign> Offersio in Sancto Regulo
+                    de casa et terra in Germaniano.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

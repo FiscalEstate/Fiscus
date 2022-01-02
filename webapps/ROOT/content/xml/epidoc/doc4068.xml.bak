@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    +N.79</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc4068</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">--Promissio</rs>
+                                    <rs type="record_source" ref="#">Critical edition</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate notBefore="0759-10-01" notAfter="0759-10-31">
+                                <note type="displayed_date">759 October</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Lucca</note>
+                                <note type="redaction_date"/>
+                             </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-06-05" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab><persName><name ref="Gunfredus">Gumfrid</name></persName> et
+                                <persName><name ref="Baruncius">Baruncio</name></persName> germani
+                        filii quondam <persName><name ref="Baroccius">Baruccii</name></persName>
+                        <foreign>promettono a</foreign>
+                        <persName key="#Bishops" ref="#people/343">Peredeo</persName> in Dei nomine
+                            <rs key="#Bishops">episcopo</rs> de <rs key="#Casae/cassinae_massaricie"
+                            >casa</rs> seo et res illa quem nobis ad resedendo dedisti in loco
+                            <placeName ref="#places/36"
+                            key="#Casae/cassinae_massaricie #Cereals #Wine #Oil #Fruits/vegetables #Acorns"
+                            >Saltuclo</placeName>, casa cum curte, <rs key="#Fruits/vegetables"
+                            >orto</rs>, <rs key="#Wine">vineis</rs>, <rs key="#Cereals">terris</rs>,
+                            <rs key="#Acorns">silvis</rs>, <rs key="#Oil">olivitis</rs>, omnia ad
+                        ipsa casa pertenente, qualiter ipsa casa Baruccio ad manum suam habuit,
+                        nobis ad resedendo et melliorando dedisti, in tali tenure, ut per omne annum
+                        tibi reddere debeamus <rs key="#Rent_in_money">uno soldo bono
+                            expendibile</rs> et <rs key="#Rent_in_kind">medietate vino</rs> et <rs
+                            key="#Operae">angaria</rs> ad <rs key="#Demesnes">sundro domnico</rs>
+                        facere debeamus, qualis ibidem utilitas fuerit in ipso loco <rs
+                            key="#Demesnes #Operae">Saltuclo</rs>. <foreign>Pena in caso di
+                            inadempienza alle promesse o</foreign> se aut ipsa casa vel res
+                        meliorata non fuerit, aut nos de ipsa casa exierimus alibi habitando,
+                        spondemus (…) essemus conpunituri pena nomine auri soldos viginti, et
+                        exeamus de ipsa res nanis et vacui. <foreign>Peredeo promette ai due
+                            fratelli in base alle stesse clausole e di non</foreign> de predicta
+                        casa vel res foris mittere (…) aut aliqua superpositione facere (…) pena
+                        nomine auri soldos numero viginti. Et duas pagina un tenure conscripte
+                            <persName key="#Writer #Subdeacons"><name ref="Fratellus"
+                                >Fratellus</name></persName>
+                        <rs key="#Subdeacons">subdiaconus</rs> scrivere rogavimus. Actum <placeName
+                            ref="#places/4">Luca</placeName>. <foreign>Sottoscrizioni</foreign>: +
+                        Gunfrid promissoris; + Baruncio germano eius promissoris; + <persName
+                            key="#Witness"><name ref="Gumbrandus">Gumprandi</name></persName> filio
+                        quondam <persName><name ref="Auselmus">Auselmi</name></persName> testis; +
+                            <persName key="#Witness"><name ref="Aregis">Aruchis</name></persName>
+                        germani eius testis; + <persName key="#Witness"><name ref="Georgius"
+                                >Georgi</name></persName> filio <persName><name ref="Rotius"
+                                >Rotti</name></persName> testis. <foreign>Scrive</foreign>:
+                        Fratellus subdiaconus.</ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>MDL V/2, n. 63; CDL II, n. 139, pp. 37-40; ChLA, XXXII, 955.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                         <p><foreign>Nota dorsale (sec. XI-XII)</foreign>: Libellus unius case et
+                    rei in Saltoclo.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

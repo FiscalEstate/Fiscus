@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    +B.71</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc4047</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">--Venditio</rs>
+                                    <rs type="record_source" ref="#">Critical edition</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">Uncertain</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate notBefore="0752-06-01" notAfter="0752-06-30">
+                                <note type="displayed_date">752 June</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date"/>
+                                <note type="redaction_date"/>
+                             </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-05-29" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab><persName key="#Vir_magnificus" ref="#people/386"
+                            >Perprand</persName>
+                        <rs key="#Vir_magnificus">virum magnificum</rs> filio bone memorie domni
+                            <persName key="#Marquis/duke" ref="#people/314">Walpert</persName>
+                        <rs key="#Marquis/duke">duci</rs>
+                        <foreign>vende</foreign> tibi domno <persName key="#Bishops"
+                            ref="#people/320">Walprand</persName> gratias Deo <rs key="#Bishops"
+                            >episcopo</rs> parte mea de <rs key="#Salae #Demesnes">sala
+                            sundriale</rs>, quam avire visum sum in loco qui dicitur <placeName
+                            key="#Salae #Demesnes #Casae/cassinae_massaricie #Landed_possessions #Cereals #Wine #Oil #Fruits/vegetables #Acorns #Slave_labour #Slave"
+                            ref="#places/749">Tocciano</placeName>, cum <rs
+                            key="#Landed_possessions #Cereals">terra</rs> et <rs key="#Wine"
+                            >vinea</rs>, <rs key="#Acorns">silvis</rs>, vergaria, <rs key="#Oil"
+                            >olivis</rs>, <rs key="#Fruits/vegetables">pumis, arboribus</rs>; simol
+                        et <rs key="#Casae/cassinae_massaricie">casas massaricia</rs> in ipso loco
+                        Tocciano, cum territurii, vineis, silvis, vergarias, olivis, pumis,
+                        arboribus, cum cultum et incultum, cum movile vel inmovile seo
+                        semmoventibus, cum <rs key="#Slave_labour #Slave">serbus vel ancella</rs>,
+                        quem avire visus sum in ipso loco, omnia et in omnebus mea portione in
+                        integrus, excepto <persName key="#Slave_labour #Slave"><name
+                                ref="Teofridulus">Teudifridulo</name></persName> cum muliere sua et
+                        uno filius suum nomine <persName key="#Slave_labour #Slave"><name
+                                ref="Personula">Personula</name></persName>, alii infantis sui.
+                            <foreign>Prezzo</foreign>: auri soledos nomero tricenti. <foreign>Con la
+                            clausola che se i beni </foreign>anplius adpretiata fueret super
+                        tricenti soledos <foreign>Walprando </foreign><foreign>avrebbe pagato la
+                            differenza; se al contrario sarebbe stata valutata meno, Perprando
+                            avrebbe reso la differenza a Walprando. Pena in duplum.
+                        Scrive</foreign>: <persName key="#Writer #Vir_devotus/vir_honestus"><name
+                                ref="Teudebertus">Teutpert</name></persName>
+                        <rs key="#Vir_devotus/vir_honestus">viro devoto</rs>. (…) Actum <placeName
+                            ref="#places/4">Luca</placeName>. <foreign>Sottoscrizioni:</foreign> +
+                        Perprand viri magnifici venditori; + <persName
+                            key="#Witness #Vir_devotus/vir_honestus"><name ref="Sintrualdus"
+                                >Suintroaldi</name></persName>
+                        <rs key="#Vir_devotus/vir_honestus">viri devoti</rs> filio <persName><name
+                                ref="Ansualdus">Ansualdi</name></persName> testis; + <persName
+                            key="#Witness #Vir_devotus/vir_honestus"><name ref="Fratellus"
+                                >Fratelli</name></persName>
+                        <rs key="#Vir_devotus/vir_honestus">viri devoti</rs> filio <persName><name
+                                ref="Albertus">Alipert</name></persName> testis: + <persName
+                            key="#Witness #Vir_devotus/vir_honestus"><name ref="Ermiteulus"
+                                >Ermiteulo</name></persName>
+                        <rs key="#Vir_devotus/vir_honestus">viri devoti</rs> filio quondam
+                                <persName><name ref="Eriteus">Aritheo</name></persName> testis.
+                            <foreign>Scrive:</foreign> Teupert.</ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>Muratori 1738-1742, V, 1011; MDL V/2, n. 44; CDL I, n. 105, pp. 301-303;
+                    ChLA, XXXI, 935.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                         <p><foreign>Note dorsali (sec VIII)</foreign>: XXVII; Cartula de Tocciano …
+                    Perprandi vinditionis. <foreign>Nota dorsale (sec XI-XII):</foreign> Carta
+                    vendicionis de curte de Tutiano in comitatu Suanensi comparata a Walperto
+                    episcopus Lucensi trecentorum solidorum auri. <foreign>Nota dorsale (sec
+                        XIIex):</foreign> Emptione Walpert episcopi in comitatu. </p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

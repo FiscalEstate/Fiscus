@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    Diplomatico, * E 20</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                        </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc573</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">--Promissio</rs>
+                                    <rs type="record_source" ref="#">Original document</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate when="0902-06-22">
+                                <note type="displayed_date">902 June 22</note>
+                                <note type="dating_elements">Anno d’impero di Ludovico</note>
+                                <note type="topical_date">Lucca</note>
+                                <note type="redaction_date"/>
+                             </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance>
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                            <place></place>
+                        </listPlace>
+                        <listPerson>
+                            <person></person>
+                        </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-06-01" who="ptomei">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab>Il <rs key="#Priests">prete</rs>
+                        <persName><name ref="Autarius">Audicari</name></persName> del <persName>fu
+                                <name ref="Liudarius de loco Cumpito">Liudicari</name> de loco
+                                <placeName ref="#places/721">Cumpito</placeName></persName> promette
+                        vita natural durante al <rs key="#Bishops">vescovo</rs> di Lucca <persName
+                            ref="#people/213" key="#Bishops">Pietro</persName> e ai suoi successori,
+                        di versare nel mese di maggio 60 soldi d’argento. Chiede al <rs
+                            key="#Writer #Notary">notaio</rs>
+                        <persName key="#Writer #Notary"><name ref="Petrus">Pietro</name></persName>
+                        la stesura della cartula. Actum <placeName key="#Mother_churches #Bishops"
+                            ref="#places/4">Luca</placeName>. <rs key="#Witness">Testimoni</rs>
+                        sottoscrittori: <persName key="#Witness #Notary"><name ref="Ostribertus"
+                                >Ostriperto</name></persName>
+                        <rs key="#Notary">notarius</rs>, <persName key="#Witness #Notary"><name
+                                ref="Ghismundus">Ghisimundo</name></persName>
+                        <rs key="#Notary">notarius</rs>, <persName key="#Witness #Notary"><name
+                                ref="Adroaldus">Atrualdo</name></persName>
+                        <rs key="#Notary">notarius</rs>, <persName key="#Witness #Notary"><name
+                                ref="Tassimannus">Tassimanno</name></persName>
+                        <rs key="#Notary">notarius</rs>.</ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>MDL, 5/3, n. 1060, pp. 14-15.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                        <p>Sottoscrizioni autografe: il prete Audicari, il notaio Ostriperto, il
+                    notaio Ghisimundo, il notaio Atrualdo, il notaio Tassimanno.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

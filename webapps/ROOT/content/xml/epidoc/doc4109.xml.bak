@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    +N.83</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc4019</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">--Offersio/donatio</rs>
+                                    <rs type="record_source" ref="#">Critical edition</rs>
+                                    <rs type="document_tradition" ref="#">Copy</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate notBefore="0767-02-01" notAfter="0767-02-28">
+                                <note type="displayed_date">767 February</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Novali</note>
+                                <note type="redaction_date">Secolo VIII (seconda metà).</note>
+                            </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-06-26" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab><persName><name ref="Gaidoinus">Gaidoin</name></persName> filio bone
+                        memorie <persName><name ref="Filimari">Filimari</name></persName>
+                        <foreign>pro anima</foreign> a fundamentis <rs key="#Private_foundations"
+                            >construxi</rs>
+                        <rs key="#Churches">ecclesiam</rs> in onure <orgName
+                            key="#Churches #Private_foundations" ref="#juridical_persons/616">Domini
+                            et Salvaturis nostri Iesu Christi</orgName> in territurio meo in loco
+                            <placeName key="#Churches #Private_foundations" ref="#places/1020"
+                            >Nobule</placeName>; <foreign>ed ora la dota di beni</foreign>: in
+                        primis <rs key="#Casalini/fundamenta">fundamento</rs> ubi ipsa ecclesia
+                        supraposita est, cum <rs key="#Casae/cassinae_massaricie">casis</rs> et
+                        omnibus edificiis et fundamentis, una cum curte, <rs
+                            key="#Fruits/vegetables">orto</rs>, <rs key="#Cereals">terris</rs>, <rs
+                            key="#Wine">vineis</rs>, <rs key="#Oil">olivetis</rs>, <rs
+                            key="#Hay/fodder">pratis, pascuis</rs>, <rs key="#Acorns">silvis,
+                            virgareis,</rs>
+                        <rs key="#Chestnuts">castanatis</rs>, cultum adque incultum, <rs
+                            key="#Casae/cassinae_massaricie">casas massaricias et aldionales</rs>,
+                        cum omnem rem ad ipsas casas pertinentes (…) <rs key="#Slave_labour #Slave"
+                            >servos, ancillas</rs>, <rs key="#Aldius">aldionibus et aldianes</rs>
+                        mihi pertenentibus, omnia quidquid in quemlibet loco aliquid havire visu sum
+                        pertenentes ad <rs key="#Curtes">curte</rs> mea in predicto loco <placeName
+                            key="#Curtes #Casae/cassinae_massaricie #Casalini/fundamenta #Cereals #Wine #Oil #Fruits/vegetables #Chestnuts #Acorn #Hay/fodder #Slave_labour #Slave #Aldius"
+                            ref="#places/1020">Nobule</placeName> (…). Insimul et una <rs
+                            key="#Casae/cassinae_massaricie">casa</rs> mea massaricia in <placeName
+                            key="#Casae/cassinae_massaricie" ref="#places/1018">Quesa</placeName>,
+                            <placeName key="#Vici #Casae/cassinae_massaricie" ref="#places/1019"><rs
+                                key="#Vici">vico</rs> ubi dicitur Piniano</placeName>, qui regitur
+                        per <persName key="#Freeborn"><name ref="Pettulus">Pettulo</name></persName>
+                        <rs key="#Freeborn">homo liver</rs>, cum omnia pertenente ad ipsa casa, una
+                        cum muliere ipsius Pettuli et infantes eius. Pro remedium anime quondam
+                        filii mei <persName><name ref="Filo">Filoni</name></persName>
+                        <foreign>fa questa donazione, riservandosi la gestione vitalizia dei
+                            beni</foreign>. Et si post decesso meo ipsa ecclesia inordinata
+                        remanseret, volo ut quis de filiis et nepotibus meis tonso capite cum omnem
+                        rem suam in integrum in ipsa Dei ecclesia se offerre voluerit, caste et
+                        recte moderamine Deo et ad ipsa ecclesia servire ligibus voluerit,
+                            <foreign>possa reggere la chiesa e i suoi beni</foreign> et susceptione
+                        peregrinorum et elemosina faciendi. <foreign>Altrimenti i suoi eredi abbiano
+                            facoltà di scegliere un degno prete per reggerla, ma non di esercitare
+                            potere sulla chiesa. Pena per gli eredi se non lo faranno o cercheranno
+                            di sottrarre i beni della chiesa</foreign>: ad <rs key="#Bishops"
+                            >episcopum</rs>, qui tunc in <rs key="#Cities">civitate </rs><placeName
+                            ref="#places/4">Lucense</placeName> ordinatus fuerit, auri solidos
+                        numero quadringenti, quod sunt quattuor centinaria. (…) Actum in
+                        suprascripto loco <placeName ref="#places/1020">Nobule</placeName>.
+                            <foreign>Sottoscrizioni</foreign>: + Gaidoin; (ss) <persName
+                            key="#Witness #Priests"><name ref="Deusdedit"
+                            >Deusdedit</name></persName>
+                        <rs key="#Priests">presbitero</rs> filio quondam <persName><name
+                                ref="Ansfrit">Ansfrid</name></persName>; (ss) <persName
+                            key="#Witness #Priests"><name ref="Filosofronius"
+                            >Filosofronius</name></persName>
+                        <rs key="#Priests">presbitero</rs>; + <persName
+                            key="#Witness #Vir_devotus/vir_honestus"><name ref="Gumbertus"
+                                >Gunpert</name></persName> filio quondam <persName><name
+                                ref="Firmus">Fermuns</name></persName>
+                        <rs key="#Vir_devotus/vir_honestus">vir devotus</rs> testis; + <persName
+                            key="#Witness"><name ref="Richibrandus">Richiprand</name></persName>
+                        filio quondam <persName><name ref="Deusdedit">Deusdedi</name></persName>
+                        testis; (ss) <persName key="#Witness"><name ref="Teudebertus"
+                                >Teudipert</name></persName> filius <persName><name
+                                ref="Gairepertus">Gairepert</name></persName>;.
+                            <foreign>Scrive</foreign>: <persName key="#Writer"><name
+                                ref="Sigebrandus">Sichiprand</name></persName>.
+                            <foreign>Copia</foreign>: <persName key="#Copyist"><name
+                                ref="Sigebrandus">Sichiprand</name></persName>. </ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>MDL IV/1, n. 65; reg. MDL V/2, n. 101; CDL II, 204, pp. 212-215; ChLA,
+                    XXXIV, 995.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                         <p><foreign>Nota dorsale (sec. VIII-IX)</foreign>: + Exemplar dotali de
+                    ecclesia Gaidoin. <foreign>Nota dorsale (sec. VIII-IX)</foreign>: + est dote
+                    ecclesie Sancti Salvatori de Nobule. <foreign>Nota dorsale (sec. XII)</foreign>:
+                    Dos ecclesie Sancti Salvatoris site in loco Novale in Brancalo. <foreign>Nota
+                        dorsale (sec. XI-XII)</foreign>: Cartula Sancti Quirici.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

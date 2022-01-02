@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    Diplomatico, ++ F 42</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                        </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc574</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#"
+                                >--Libellus/precaria/emphyteusis</rs>
+                                    <rs type="record_source" ref="#">Original document</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate when="0902-07-18">
+                                <note type="displayed_date">902 July 18</note>
+                                <note type="dating_elements">Anno d’impero di Ludovico</note>
+                                <note type="topical_date">Lucca</note>
+                                <note type="redaction_date"/>
+                             </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance>
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                            <place></place>
+                        </listPlace>
+                        <listPerson>
+                            <person></person>
+                        </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-06-02" who="ptomei">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab>Il <rs key="#Notary">notaio</rs> e <rs key="#Scabini">scabino</rs>
+                        <persName key="#Notary #Scabini"><name ref="Giselfredus"
+                            >Ghisalfridi</name></persName> del <persName>fu <name ref="Rofredus"
+                                >Roffridi</name></persName> riceve in livello dal <rs key="#Bishops"
+                            >vescovo</rs> di Lucca <persName ref="#people/213" key="#Bishops"
+                            >Pietro</persName>, una casa et res posta in loco ubi dicitur <placeName
+                            ref="#places/729">Castelione</placeName> prope <orgName key="#Churches"
+                            ref="#juridical_persons/262"><rs key="#Churches">ecclesia</rs>
+                            <placeName key="#Churches" ref="#places/730">Sancti
+                            Miniati</placeName></orgName> et prope <orgName
+                            key="#Baptismal_churches" ref="#juridical_persons/261"><rs
+                                key="#Baptismal_churches">plebe</rs>
+                            <placeName key="#Baptismal_churches" ref="#places/465">Sancti
+                                Genesi</placeName></orgName>, di pertinenza della <orgName
+                            key="#Churches" ref="#juridical_persons/72"><rs key="#Churches"
+                                >chiesa</rs> di Santa Maria</orgName> sita loco et finibus ubi
+                        dicitur <placeName key="#Churches" ref="#places/63">a Monte</placeName> e
+                        della <orgName key="#Baptismal_churches" ref="#juridical_persons/264"><rs
+                                key="#Baptismal_churches">chiesa</rs> di <placeName
+                                key="#Baptismal_churches" ref="#places/152"
+                                >Sant’Ippolito</placeName></orgName> qui sunt de subpotestate del
+                            <orgName key="#Mother_churches" ref="#juridical_persons/68"><rs
+                                key="#Mother_churches">vescovato</rs> di San Martino</orgName>, in
+                        precedenza tenuta dal <persName>fu <name ref="Iordanus"
+                            >Giordano</name></persName> e ora dal figlio, con tutte le sue
+                        dipendenze. Si impegna a versare pro omni censum et iustitia al vescovo e ai
+                        suoi successori per i successivi 29 anni ad ipsa ecclesie Sancte Marie il
+                        censo annuale di 24 denari d’argento ad pars della stessa chiesa. Se non
+                        rispetterà i suddetti impegni, promette con i suoi eredi e illas personas
+                        homini cui nos suprascripta casa et res libellario nomine dederimus di
+                        versare al vescovo e ai suoi successori la pena di 50 soldi d’argento.
+                        Chiede al <rs key="#Writer #Notary">notaio</rs>
+                        <persName key="#Writer #Notary"><name ref="Leo">Leone</name></persName> la
+                        stesura di due <rs key="#Libellus/precaria/emphyteusis">cartulas</rs>. Actum
+                            <placeName key="#Mother_churches #Bishops" ref="#places/4"
+                            >Luca</placeName>. <rs key="#Witness">Testimoni</rs> sottoscrittori:
+                            <persName ref="#people/149" key="#Witness">Cunimundo</persName>,
+                            <persName key="#Witness"><name ref="Aemilius">Emillo</name></persName>,
+                            <persName key="#Witness"><name ref="Imelfredus"
+                            >Imalfridi</name></persName>, <persName key="#Witness"><name
+                                ref="Iohannes">Giovanni</name></persName>, <persName key="#Witness"
+                                ><name ref="Ildebrandus">Ildiprando</name></persName>,
+                                <persName><name ref="Vitus">Vito</name></persName>, <persName
+                            key="#Witness #Notary #Scabini"><name ref="Adalbertus"
+                            >Adalperto</name></persName>
+                        <rs key="#Notary">notarius</rs> et <rs key="#Scabini">schabinus</rs>.</ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>MDL, 5/3, n. 1061, p. 15.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                        <p>Sottoscrizioni autografe: il notaio e scabino Ghisalfridi, Cunimundo,
+                    Emillo, Imalfridi, Giovanni, Ildiprando, Vito, il notaio e scabino
+                    Adalperto.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

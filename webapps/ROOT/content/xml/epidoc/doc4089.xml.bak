@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    ++M.1</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc4089</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">--Venditio</rs>
+                                    <rs type="record_source" ref="#">Critical edition</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate when="0763-02-04">
+                                <note type="displayed_date">763 February 4</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">S. Maria di Sesto</note>
+                                <note type="redaction_date"/>
+                             </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-06-17" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab><persName><name ref="Baroccius">Baruccio</name></persName>,
+                            <persName key="#Priests"><name ref="Teuderacis"
+                            >Teuderisci</name></persName>
+                        <rs key="#Priests">presbiter</rs> germanis filii quondam <persName><name
+                                ref="Donatus">Donati</name></persName>, et <persName><name
+                                ref="Auderacis">Auderisci</name></persName> nepus eorum filio
+                        quondam <persName><name ref="Magnenti">Magnenti</name></persName>
+                        <foreign>vendono a</foreign>
+                        <persName key="#Priests"><name ref="Ragibrandus"
+                            >Rachiprand</name></persName>
+                        <rs key="#Priests">presbitero</rs>
+                        <rs key="#Baptismal_churches">eclesie</rs>
+                        <orgName key="#Baptismal_churches" ref="#juridical_persons/269">Sancte
+                            Mariae</orgName>
+                        <rs key="#Casae/cassinae_massaricie">casa habitationis</rs> nostre cum <rs
+                            key="#Casalini/fundamenta">fundamento</rs>, curte, in loco <placeName
+                            ref="#places/1014"
+                            key="#Casae/cassinae_massaricie #Casalini/fundamenta #Cereals #Wine #Fruits/vegetables #Chestnuts #Acorns #Hay/fodder"
+                            >Orticaria</placeName>, <rs key="#Fruits/vegetables">orto</rs> et alia
+                        ividem edificia, cum <rs key="#Cereals">terris</rs>, <rs key="#Wine"
+                            >vineis</rs>, <rs key="#Hay/fodder">pratis, pascuis</rs>, <rs
+                            key="#Acorns">silvis, virgariis</rs>, <rs key="#Chestnuts"
+                            >castanaetis</rs>, cultum adque incultum. <foreign>Prezzo</foreign>:
+                        auri soledos boni nomero octuaginta. <foreign>Pena in duplum</foreign>.
+                        Actum ad <rs key="#Baptismal_churches">eclesia</rs>
+                        <orgName key="#Baptismal_churches" ref="#juridical_persons/269">Sancte
+                            Marie</orgName> in <placeName key="#Baptismal_churches"
+                            ref="#places/165">Sesto</placeName>. <foreign>Sottoscrizioni</foreign>:
+                        + Barucci vinditori; + Teuderisci presbiteri idem vinditori; + Auderisci
+                        idem vinditori; + <persName key="#Witness"><name
+                                ref="Gaifredus de Branchalo">Gaifred</name></persName> de <placeName
+                            ref="#places/499">Branchalo</placeName> testis; + <persName
+                            key="#Witness #Other_clerics"><name ref="Micciolus de Castronovo"
+                                >Miccioli</name></persName>
+                        <rs key="#Other_clerics">clerici</rs> de <placeName ref="#places/443"
+                            >Castronovo</placeName> testis; + <persName key="#Witness"><name
+                                ref="Aldulus">Altuli</name></persName> filio quondam <persName><name
+                                ref="Warnefredus">Warnifridi</name></persName> testis; + <persName
+                            key="#Witness #Moneyers"><name ref="Cinulus">Cinuli</name></persName>
+                        <rs key="#Moneyers">monitari</rs> testis. <foreign>Scrive</foreign>:
+                            <persName key="#Writer #Deacons"><name ref="Osprandus"
+                            >Osprandus</name></persName>
+                        <rs key="#Deacons">diaconus</rs>.</ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>MDL V/2, n. 81; CDL II, 169, pp. 124-126; ChLA, XXXIII, 975.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                         <p><foreign>Nota dorsale (sec. VIII, Osprandus)</foreign>: + Cartula da
+                    Barucci et Teuderisci presbitero et Auderisci. <foreign>Nota dorsale (sec.
+                        XI-XIII)</foreign>: Emptio cuiusdam presbiteri Sancte Marie de Sexto de casa
+                    in Urticaria.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

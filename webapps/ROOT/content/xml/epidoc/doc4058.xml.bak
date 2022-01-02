@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    +L.6 </title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc4058</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">--Offersio/donatio</rs>
+                                    <rs type="record_source" ref="#">Critical edition</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate notBefore="0757-10-01" notAfter="0757-10-31">
+                                <note type="displayed_date">757 October</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Pieve San Paolo (<foreign>Vico
+                                        Gurgite</foreign>)</note>
+                                <note type="redaction_date"/>
+                             </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-06-02" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab><persName key="#Vir_devotus/vir_honestus"><name
+                                ref="Eonandus de Corgite">Eonandu</name></persName> filio quondam
+                                <persName><name ref="Babe">Babe</name></persName> de <placeName
+                            ref="#places/691">Corgite</placeName>
+                        <foreign>si rivolge alla</foreign>
+                        <rs key="#Churches">eclesie</rs> Dei adque <orgName key="#Churches"
+                            ref="#juridical_persons/259">beatissimi Sancti Pauli</orgName>. Eonandu
+                            <rs key="#Vir_devotus/vir_honestus">vir devotus</rs>
+                        <foreign>dona</foreign> Deo et tibi eclesie beatissimi Sancti Pauli uno
+                        fuscione de <rs key="#Petiae">terra</rs> mea quem abire visu sum prope
+                            <placeName key="#Petiae #Cereals" ref="#places/745"
+                            >Tripuntio</placeName> qui uno caput tenet in via publica, alio caput
+                        tenet in <rs key="#Cereals">campo</rs>
+                        <persName key="#Confinia #Cereals"><name ref="Filimari"
+                            >Filimari</name></persName>, uno latere in <rs key="#Petiae">terra</rs>
+                        <placeName key="#Confinia #Petiae #Common_land">Filictise</placeName>, alio
+                        latere tenet in <rs key="#Petiae">terra</rs> quem offerevi <orgName
+                            key="#Confinia #Petiae #Churches">Sancti Petri</orgName>. <foreign>Si
+                            riserva l’usufrutto vitalizio della terra donata; vincola i preti alla
+                            preghiera per i suoi peccati</foreign>. Et pro confirmatione Tanipertu
+                        presbitero scrivere rogavi. Actum in <placeName ref="#places/691"><rs
+                                key="#Vici">vico</rs> Corgite</placeName>.
+                            <foreign>Sottoscrizioni</foreign>: + Eonandi viri devoti; + <persName
+                            key="#Witness #Vir_devotus/vir_honestus"><name
+                                ref="Anspertus de Corgite">Ansiperti</name></persName> filio quondam
+                                <persName><name ref="Asus">Asi</name></persName> de <placeName
+                            ref="#places/691">Corgite</placeName>
+                        <rs key="#Vir_devotus/vir_honestus">viri devoti</rs> testis; + <persName
+                            key="#Witness #Vir_devotus/vir_honestus"><name
+                                ref="Garibaldus de Corgite">Gheiripaldu</name></persName> filio
+                        quondam <persName><name ref="Marignanus">Marignani</name></persName> de
+                            <placeName ref="#places/691">Corgite</placeName>
+                        <rs key="#Vir_devotus/vir_honestus">viri devoti</rs> testis; + <persName
+                            key="#Witness #Other_clerics"><name ref="Lambertus de Corgite"
+                                >Lamperti</name></persName>
+                        <rs key="#Other_clerics">clerici</rs> filio quondam <persName
+                            key="#Vir_devotus/vir_honestus"><name ref="Gotefredus"
+                            >Gudifrit</name></persName> de <placeName ref="#places/691"
+                            >Corgite</placeName>
+                        <rs key="#Vir_devotus/vir_honestus">viri devoti</rs> testis.
+                            <foreign>Scrive</foreign>: <persName key="#Writer #Notary #Priests"
+                                ><name ref="Tanipertus">Tanipertu</name></persName>
+                        <rs key="#Priests">presbitero</rs>
+                        <rs key="#Notary">notario</rs> scriptor </ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>MDL V/2, n. 54; CDL II, n. 126, pp. 5-6; ChLA, XXXII, 945.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p><foreign>Nota dorsale (sec. XI-XII):</foreign> Offersio in plebe Sancti
+                    Pauli de una petia terre prope Trepontho.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>
