@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Archivio di Stato di Firenze, Diplomatico, Riformagioni. Atti Pubblici, 1029
+                    gennaio 3, n. 26 (Giorgetti, n. 46)</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus
+                        Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc1426</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Offersio/donatio</rs>
+                            <rs type="record_source" ref="#">Original document</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property">Uncertain</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="1127-02-20">
+                                <note type="displayed_date">1127 February 20</note>
+                                <note type="dating_elements">La carta è datata secondo l’anno
+                                    dell’incarnazione, stile pisano. Giorgetti la data al
+                                    1128.</note>
+                                <note type="topical_date"><foreign>Livellaria</foreign></note>
+                                <note type="redaction_date"/>
+                             </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-03-20" who="scollavini">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>De Livellaria de tres petiis de terris et vineis; una est in Ribocco. In
+                        nomine sancte et individue Trinitatis. Anno ab incarnatione domini nostri
+                        Iesu Christi millesimo centesimo vicesimo VIIo, decimo kalendas martii,
+                        indictione Va. Quisquis in sac(ra)tis hac venerabilibus locis de suis bonis
+                        aliquid [contulerit], iuxta vocem Redemptoris, centuplum recipiet et in
+                        futuro vitam consequetur eternam. Quapropter ego <persName><name
+                                ref="Trainellus">Trainellus</name></persName> et <persName><name
+                                ref="Ildebrandus">Ildebrandus</name></persName> et <persName><name
+                                ref="Galganus">Galganus</name></persName> et <persName><name
+                                ref="Berullus">Berullus</name></persName>, germani filii bone
+                        memorie <persName key="#Count"><name ref="Hugo">Ugonis</name></persName>
+                        <rs key="#Count">comitis</rs>, per hanc cartam dona[re et] tradere et
+                        offerre previdimus ad honorem Dei, <rs key="#Churches">ecclesie</rs> et <rs
+                            key="#Monasteries">monasterii</rs>
+                        <orgName key="#Churches #Monasteries" ref="#juridical_persons/78">Sancti
+                            Salvatoris et Sancti Quirici</orgName> sito <placeName ref="#places/86"
+                            key="#Monasteries">Populonio</placeName> per manum domini <persName
+                            key="#Abbots" ref="#people/103">Mauri</persName>
+                        <rs key="#Abbots">abbatis</rs>, videlicet tres <rs key="#Petiae">petias</rs>
+                        de terra, una quarum posita est prope <placeName key="#Petiae #Wine"
+                            ref="#places/134">Livellaria</placeName>, quem iam recta fuit per
+                                <persName><name ref="Martinus">Martinum</name></persName> villanum,
+                        et est ab omni circuitu sic designata: cui ex ambobus capitibus et ex uno
+                        latere est terra <orgName key="#Confinia #Petiae"
+                            ref="#juridical_persons/78">predicti monasterii</orgName>, alio vero
+                        latere est terra nostra; secunda vero petia de terra cum <rs key="#Wine"
+                            >vinea</rs> quam supra se habet, est posita in eadem Livellaria, capud
+                        unum tenet in via puplica, aliud in terra nostra, latus unum iuxta vineam
+                            <persName key="#Confinia #Petiae #Wine"><name ref="Gotegrdus"
+                                >Gottifredi</name></persName>, et aliud in via puplica; tertia vero
+                        petie terre cum vinea, quam supra se habet, est posita in <placeName
+                            key="#Petiae #Wine #Fruits/vegetables" ref="#places/134"
+                            >Ribocco</placeName>, cui ex uno latere currit <rs key="#Rivers"
+                            >fluvium</rs>
+                        <placeName key="#Rivers">Corgne</placeName>, capud unum in terra <orgName
+                            key="#Confinia #Petiae #Monasteries" ref="#juridical_persons/79">Sancti
+                            Petri</orgName> de <placeName ref="#places/85" key="#Monasteries"
+                            >Monteviridi</placeName>, aliud capud in terra <persName
+                            key="#Confinia #Petiae"><name ref="Gezo">Gethi</name></persName>. Ex
+                        quibus duobus petiis terrarum, vineas super se habentibus, integram nostram
+                        medietatem, sicut nobis pertinet, predicto monasterio offerimus; tertiam
+                        vero totam pro remedio anime nostre hac parentum nostrorum et proprie pro
+                        anima <persName><name ref="Teudicius">Tedici</name></persName> fratris
+                        nostris. Quas autem terras et vineas cum omnibus rebus seu <rs
+                            key="#Fruits/vegetables">arboribus</rs>, quas super se et infra se
+                        habent, in integrum donamus, tradimus et concedimus ad onorem Dei et
+                        predicti monasterii, ad habendum, tenendum, regendum, colendum, fruendum,
+                        faciendum exinde rectores et gubernatores eiusdem monasterii, qui modo ibi
+                        sunt vel qui pro tempore ibi fuerint, iure proprietatis quicquid voluerint
+                        ad onorem Dei et eiusdem ecclesie, sine nostra nostrorumque heredum
+                        contradictione aliqua. Et hoc pro[mittimus] nos iamdicti fratres una cum
+                        nostris heredibus tibi predicto Mauro tuisque successoribus predicta nostram
+                        offersionem ab omni homine defendere. Quod si ab omnibus hominibus non
+                        defensaverimus vel si nos ipsi vobis vel ecclesie [tollere] vel contendere
+                        vel subtraere quesierimus, ingenio qualicumque, tunc in dupplum in predicto
+                        cenobio restituamus. Tamen si nos inde auctores seu defensores querere seu
+                        dare voluerint rectores et gubernatores […ec]clesie, qui modo ibi sunt vel
+                        qui in tempore ibi fuerint, et minime habere potuerint; si non taliter nobis
+                        placuit, hanc enim cartam offertionis et obligationis qualiter supra legitur
+                            <persName key="#Writer #Notary"><name ref="Petrus"
+                            >Petrum</name></persName> domni regis <rs key="#Notary">notarium</rs>
+                        scribere [rogavi]mus. Acta sunt hec in <rs key="#Dioecesis">episcopatu</rs>
+                        <geogName key="#Dioecesis" ref="#estates/87">Populoniensi</geogName>, in
+                        loco ubi dicitur Livellaria. Signa manuum supradictorum fratrum Trainelli et
+                        Ildibrandi et Galgani et Berulli qui hanc cartam, prout superius legitur,
+                        rogaverunt scribere. Signa manuum <persName key="#Witness"><name
+                                ref="Gherardus">Gerardi</name></persName> filii bone memorie
+                                <persName><name ref="Rainerius">Raineri</name></persName> et
+                            <persName key="#Witness"><name ref="Rusticus">Rustici</name></persName>
+                        filii quondam <persName><name ref="Heinricus">Enrici</name></persName> et
+                            <persName key="#Witness"><name ref="Algerius">Algieri</name></persName>
+                        filii bone memorie <persName><name ref="Albertus">Alberti</name></persName>
+                        et <persName key="#Witness"><name ref="Rogerius">Rogeri</name></persName>
+                        filii quondam <persName><name ref="Brunectus">Brunetti</name></persName> et
+                            <persName key="#Witness"><name ref="Wido/Preitefue">Widonis, qui
+                                P(re)itefue vocabatur</name></persName>; rogati sunt testes omnes
+                        hii. Ego <persName key="#Writer #Notary"><name ref="Berardus"
+                                >Berardus</name></persName> domini <rs key="#Marquis/duke"
+                            >marchionis</rs>
+                        <persName key="#Marquis/duke"><name ref="Cuneradus"
+                            >Curradi</name></persName>
+                        <rs key="#Notary">notarius</rs> scripsi hanc cartam, sicut a Petro notario
+                        adbreviatam inveni. </ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>Giorgetti, n. 46</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
