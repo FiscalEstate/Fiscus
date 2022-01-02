@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Archivio di Stato di Milano, Museo Diplomatico, Pergamene-S.Benedetto,
+                    596/261</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc5021</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Venditio</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property"/>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate notBefore="1036-02-01" notAfter="1036-02-29">
+                                <note type="displayed_date">1036 Februar</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Gonzaga (Mantova)</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace>Sanctus Benedictus in Pado Lironi; monasterium
+                                (Mantova)</origPlace>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-10-18" who="bferretti">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>(S.) In nomine Dei eterni. <date><persName key="#Emperor/king"
+                                ref="#people/261">Chuonradus</persName> gratia Dei <rs
+                                key="#Emperor/king">imperator</rs> augustus, anno inperii eius Deo
+                            propicio hic in Italia nono, mense februarii, indicione quarta</date>.
+                        Constat nos <persName
+                            key="#Marquis/duke #Lombard #sonOf #legallyRecognisedUnionWith #Venditio #Witness #Landed_possessions #Houses"
+                            ref="#people/1">Bonefacius</persName>
+                        <rs key="#Marquis/duke">marchio et dux</rs>
+                        <rs key="#sonOf">filio</rs> quondam <persName
+                            key="#Marquis/duke #Lombard #fatherOf" ref="#people/2122"
+                            >Teudaldi</persName> itemque marchio et <persName
+                            key="#Countess #Lombard #daughterOf #legallyRecognisedUnionWith #Venditio #Witness #Landed_possessions #Houses"
+                            ref="#people/2132">Richelda</persName>
+                        <rs key="#Countess">cometissa</rs>
+                        <rs key="#legallyRecognisedUnionWith">iugalibus</rs> filia quondam <persName
+                            key="#Palatine_count #Lombard #fatherOf" ref="#people/2133"
+                            >Giselberti</persName>
+                        <rs key="#Palatine_count">comes palacii</rs> qui professi sumus ex nacione
+                        nostra lege vivimus <rs key="#Lombard">Langobardorum</rs>, ipso namque
+                        iugale meo qui supra Richelde cometisse mihi consenciente et iusta lege, una
+                        cum noticia et interrogatione de propinquioribus parentibus meis, it sunt.
+                            <persName key="#cousinOf #nephewOf #Venditio #Witness"
+                            ref="#people/2139">Lanfranco</persName> et <persName
+                            key="#cousinOf #nephewOf #Venditio #Witness">Henricus</persName>
+                        <rs key="#cousinOf">consobrinis</rs>
+                        <rs key="#nephewOf">nepotibus</rs> meis, in quorum presentia vel testium
+                        certa facio professione quod nulla me pati violencia ad quispiam homine nec
+                        ab ipso iugale et mundoaldo meo nisi mea bona et spontanea voluntatem,
+                        accipissemus nos suprascriptis iugalibus comuniter sicuti et in presentia
+                        testium accepimus ad te <persName key="#Priests #sonOf #Venditio"><name
+                                ref="Adalbertus">Adelbertus</name></persName>
+                        <rs key="#Priests">presbiter</rs> de ordine et <orgName
+                            key="#Churches/religious_bodies #Baptismal_churches #Landed_possessions #Houses"
+                            >canonice <orgName key="#Baptismal_churches"
+                                ref="#juridical_persons/2000"> sancte <placeName
+                                    key="#Churches/religious_bodies" ref="#places/275"
+                                    >Mantuanensis</placeName> ecclesie</orgName></orgName> et filis
+                        quondam <persName key="#fatherOf"><name ref="Rigitius"
+                            >Rigizoni</name></persName> per <rs
+                            key="#Missus_of_other_public_authorities">misso</rs> tuo <persName
+                            key="#Missus_of_other_public_authorities #Judge #Venditio #Witness"
+                                ><name ref="Lanfrancus">Lanfrancus</name></persName>
+                        <rs key="#Judge">iudex</rs> in adpreciatum valentem <rs key="#Price">solidos
+                            quinquaginta</rs>, finitum precio pro <rs key="#Landed_possessions"
+                            >pecia una de terra</rs> cum <rs key="#Houses">casa teranea</rs> super
+                        se abente iuris nostris que esse videtur infra <rs key="#Cities"
+                            >civitate</rs>
+                        <placeName key="#Cities" ref="#places/275">Mantue</placeName>, quod est per
+                        mensura iusta tabulas dues. Quoerit ei fines: de mane via, de meridie
+                        heredes quondam Andree Cacarello, de sera Resola, de montis Rozo presbiter
+                        cum fratribus suis abet, sibeque alii sunt adfines. Que autem suprascripta
+                        pecia terra cum casa in suprascripta civitate una cum haccessione et
+                        ingresso suo, seu cum superiore et inferiore suo qualiter supra mensuras et
+                        coherencias legitur in integrum ab hac die tibi qui supra Adelberti
+                        presbiter pro suprascripto precio vendimus, tradamus, mancipamus, et nulli
+                        alii vendita, donata, alienata, obnoxiata vel tradita nisi tibi. Et facies
+                        exinde a presenti die tu et cui tu dederis vestrisque heredibus iure
+                        proprietario nomine quicquit volueritis sine omni nostra et heredum
+                        nostrorum contradicione. Quidem etspondimus adque promittimus nos corum
+                        supra Bonefacius marchio et dux et Richelde cometisse iugalibus et nostri
+                        heredibus tibi qui supra Adelberti presbiteri tuique heredibus aut cui vos
+                        dederitis suprascripta pecia terra cum casa qualiter supra legitur in
+                        integrum ab omne contradicentes homines defensare; quod si defendere non
+                        potuerimus aut si vobis exinde aliquit per quovis ingenio subtrahere
+                        quesierimus tunc <rs key="#Penalty">in dublum</rs> eadem vendita ut supra
+                        legitur vobis restituamus, sicut pro tempore fuerit meliorata aut valuerit
+                        sub estimacione in consimile locum; et nichil nobis ex ipsum precio amplius
+                        aliquit redebere diximus. Acto loco ubi dicitur <placeName
+                            ref="#places/2414">Gunziaga</placeName> feliciter. + Signum ++ manibus
+                        suprascriptis Bonefacius marchio et dux seu Richelda cometissa iugalibus qui
+                        hac <rs key="#Venditio">cartula vindicionis</rs> fieri rogaverunt et ipse
+                        Bofefacius marchio eidem coniux sua consensit ut supra. Signum ++ manibus
+                        suprascriptorum Lanfrancus et Henricus qui suprascripta Richelda ametanea
+                        eorum interrogaverunt ut supra. Signum +++ manibus <persName
+                            key="#Witness #Venditio"><name ref="Benzo">Benzoni</name></persName> et
+                            <persName key="#Witness #Venditio"><name ref="Ardoinus"
+                            >Ardoini</name></persName> seu <persName key="#Witness #Venditio"><name
+                                ref="Ingitius">Ingezoni</name></persName> lege viventes
+                        Langobardorum rogatis <rs key="#Witness">testis</rs>. (S.) Ego <persName
+                            key="#Judge #Notary #Writer #Venditio"><name ref="Odalbertus"
+                                >Odelbertus</name></persName>
+                        <rs key="#Notary">notarius</rs> et iudex <rs key="#Writer">scriptor</rs>
+                        huius cartula vindicionis post tradita complevi et dedi. </ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>CDP I n. 21, pp. 115-116.</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

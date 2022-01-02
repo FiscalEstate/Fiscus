@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Archivio di Stato di Milano, Museo Diplomatico, 256/124</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc5011</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">-Placitum/iudicatum</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property"/>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0976-07-23">
+                                <note type="displayed_date">976 July 23</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Castel Venzago (Brescia)</note>
+                                <note type="redaction_date">XII</note>
+                            </origDate>
+                            <origPlace>Sanctus Benedictus in Pado Lironi; monasterium
+                                (Mantova)</origPlace>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-09-03" who="bferretti">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>(S.) Dum in Dei nomine, <placeName key="#Villas" ref="#places/2486"><rs
+                                key="#Villas">villa</rs> Venzago</placeName>
+                        <geogName key="#Comitatus"><rs key="#Comitatus">comitatu</rs>
+                            Mantuense</geogName>, in <rs key="#Curtes">curte</rs> propria
+                                <persName><name ref="Ermenpertus">Ermenperti</name></persName> de
+                        ipso loco, per eius data licentia in iudicio resideret <persName
+                            key="#Placitum/iudicatum #Witness #Judge #Missus_regis"><name
+                                ref="Walpertus">Walpertus</name></persName>
+                        <rs key="#Judge">iudex</rs> et <rs key="#Missus_regis">missus</rs> domni
+                        imperatoris iustitiam faciendam ac deliberandam, residentibus cum eo
+                            <persName key="#Placitum/iudicatum #Witness #Judge"><name ref="Astulfus"
+                                >Astulfus</name></persName>, <persName
+                            key="#Placitum/iudicatum #Witness #Judge"><name ref="Adelmus"
+                                >Adelmus</name></persName>, <persName
+                            key="#Placitum/iudicatum #Witness #Judge"><name ref="Lanfrancus"
+                                >Lanfrancus</name></persName>, <persName
+                            key="#Placitum/iudicatum #Witness #Judge"><name ref="Aginulfus"
+                                >Ginulfus</name></persName>, <persName
+                            key="#Placitum/iudicatum #Witness #Judge"><name ref="Giselbertus"
+                                >Giselbertus</name></persName>, <persName
+                            key="#Placitum/iudicatum #Witness #Judge"><name ref="Giselmundus"
+                                >Giselmundus</name></persName>, <persName
+                            key="#Placitum/iudicatum #Witness #Judge"><name ref="Walpertus"
+                                >Walpertus</name></persName> et <persName
+                            key="#Placitum/iudicatum #Witness #Judge"><name ref="Manipertus"
+                                >Manipertus</name></persName> iudices Sacri Palatii et reliqui
+                        plures. Ibique in eorum veniens presentia <persName
+                            key="#Placitum/iudicatum #Venditio #Curtes #Domuscultae #Casae/cassinae_massaricie #Landed_possessions #Forests #Cereals #Wine #Hay/fodder #Castle #Count #Cells/hermitages #sonOf"
+                            ref="#people/2100">Adelbertus qui et Atto</persName>
+                        <rs key="#Count">comes</rs> filius bone memorie <persName ref="#people/2101"
+                            key="#fatherOf">Sigefredi</persName> et ostensa ibi <rs key="#Venditio"
+                            >cartula una vendicionis</rs> ubi continebatur in ea ab ordine sicut
+                        subter legitur: «In nomine domini Dei et salvatoris nostri Iesu Christi.
+                                <date><persName key="#Emperor/king" ref="#people/173"
+                                >Otto</persName> gratia Dei <rs key="#Emperor/king">imperator</rs>
+                            augustus, anno imperi eius nono, duodecimo kalendas augusti, indicione
+                            quarta</date>. Constat nos <persName
+                            key="#Venditio #Witness #Curtes #Domuscultae #Casae/cassinae_massaricie #Landed_possessions #Forests #Cereals #Wine #Hay/fodder #Castle #Cells/hermitages #Lombard #legallyRecognisedUnionWith #sonOf #brotherOf"
+                                ><name ref="Roduinus/Rozo">Rodoinus qui et Rozo</name></persName>
+                        filius bone memorie <persName key="#Lombard #fatherOf"><name ref="Lambertus"
+                                >Lamberti</name></persName> de loco <placeName ref="#places/2487"
+                            key="#Castle">Aquafrigida</placeName> et <persName
+                            key="#Venditio #Witness #Curtes #Domuscultae #Casae/cassinae_massaricie #Landed_possessions #Forests #Cereals #Wine #Hay/fodder #Castle #Cells/hermitages #Lombard #legallyRecognisedUnionWith #daughterOf"
+                                ><name ref="Walperga">Wadelberga</name></persName> filia quondam
+                            <persName key="#Lombard #fatherOf"><name ref="Garibaldus"
+                                >Garibaldi</name></persName>
+                        <rs key="#legallyRecognisedUnionWith">iugalibus</rs>, seu item <persName
+                            key="#Placitum/iudicatum #Venditio #Witness #Curtes #Domuscultae #Casae/cassinae_massaricie #Landed_possessions #Forests #Cereals #Wine #Hay/fodder #Castle #Cells/hermitages #Lombard #legallyRecognisedUnionWith #sonOf #brotherOf"
+                                ><name ref="Garibaldus">Garibaldus</name></persName> germanus ipsius
+                        Rodoini et <persName
+                            key="#Venditio #Witness #Curtes #Domuscultae #Casae/cassinae_massaricie #Landed_possessions #Forests #Cereals #Wine #Hay/fodder #Castle #Cells/hermitages #Roman #legallyRecognisedUnionWith #daughterOf"
+                                ><name ref="Suana/Suanilda">Suana quae et Suanilda</name></persName>
+                        iugalibus filia quondam <persName key="#Roman #fatherOf"><name
+                                ref="Ardebertus">Ardeberti</name></persName>, qui professi sumus nos
+                        germanis et Wadelberga ex nacione nostra lege vivere <rs key="#Lombard"
+                            >Longobardorum</rs>, et ego Suana quae professa sum lege vivere <rs
+                            key="#Roman">Romana</rs>, ipsos namque viros et mundoaldos nostros nobis
+                        suprascripte femine consentientes et subter confirmantes, et iuxta legem
+                        Longobardorum una cum notitia de propinquioribus parentibus nostris qui sunt
+                        Waldeberge, hii sunt <persName
+                            key="#Venditio #Witness #Lombard #kinOf #sonOf"><name ref="Umbertus"
+                                >Umbertus</name></persName> filius <persName key="#fatherOf"><name
+                                ref="Adalbertus">Adhelberti</name></persName> et <persName
+                            key="#Venditio #Witness #Lombard #kinOf #sonOf" ref="#people/2146"
+                            >Auprandus</persName> filius <persName key="#fatherOf"><name
+                                ref="Tunibertus">Tuniberti</name></persName>, seu <persName
+                            key="#Venditio #Witness #Lombard #kinOf"><name ref="Odalricus"
+                                >Odelricus</name></persName>, et ego quae supra Suana una cum
+                        notitia de propinquioribus parentibus meis, hii sunt <persName
+                            key="#Venditio #Witness #Roman #cousinOf"><name ref="Liutfredus"
+                                >Liutefredus</name></persName>
+                        <rs>consobrinus</rs> meus et <persName
+                            key="#Venditio #Witness #Roman #nephewOf #brotherOf"><name ref="Hugo"
+                                >Ugo</name></persName> et <persName
+                            key="#Venditio #Witness #Roman #nephewOf #brotherOf"><name ref="Wido"
+                                >Wido</name></persName>
+                        <rs key="#brotherOf">germani</rs> et <rs key="#nephewOf">nepotis</rs> meis,
+                        in quorum presentia vel testium certam facimus professionem quod nulla nos
+                        pati violentiam a quoquam homine nec ab ipsis iugalibus nostris, nisi nostra
+                        bona et spontanea voluntate, accepissemus nos ipsis omnes iugalibus
+                        communiter sicuti in presentia testium accepimus ad te Adhelbertus qui et
+                        Atto comes, filius bone memor[ie] Sigifredi, <rs key="#Price">argenti
+                            denarios bonos libras centum</rs>, finitum pretium pro <rs
+                            key="#Curtes #Domuscultae">cortem unam domuicoltilem</rs> iuris nostri
+                        quam haberen visi sumus super <rs key="#Rivers">f[l]uvium Padi</rs> in loco
+                        et <rs key="#Fundi">fundo</rs>
+                        <geogName
+                            key="#Venditio #Curtes #Domuscultae #Casae/cassinae_massaricie #Landed_possessions #Forests #Cereals #Wine #Hay/fodder #Castle #Cells/hermitages"
+                            ref="#estates/2004"><placeName ref="#places/2490"
+                                key="#Curtes #Castle #Cells/hermitages"
+                            >Marmoriolo</placeName></geogName> cum <rs key="#Castle">castro</rs>
+                        inibi constructo et <rs key="#Cells/hermitages">capella</rs> inibi edificata
+                        in honore <orgName key="#Cells/hermitages" ref="#juridical_persons/2402"
+                            >sancte Margarite</orgName>, seu <rs key="#Casae/cassinae_massaricie"
+                            >casis masericiis</rs> et omnibus rebus ad eandem curtem et castrum et
+                        capellam pertinentibus; quod est curtem ipsam domuicoltilem cum predicto
+                        castro et capella seu casis massariciis et omnibus rebus ad eos
+                        pertinentibus per mensuram iustam inter areis, castrum et ex ea capella sunt
+                        iuges quattuor, de <rs key="#Landed_possessions">sediminas</rs> et <rs
+                            key="#Wine">vineis</rs> cum <rs key="#Landed_possessions">areis</rs>
+                        suarum sunt iuges quindecim, de <rs key="#Cereals">terris arabilis</rs> et
+                            <rs key="#Hay/fodder">pratis</rs> sunt iuges quadraginta, de <rs
+                            key="#Forests">silvis</rs> cum areis suarum et <rs key="#Hay/fodder"
+                            >gerbis</rs> iuges triginta. Simulque vendimus nos qui supra Rodoinus et
+                        Vuadelberga iugalibus seu Garibaldus et Suana itemque iugalibus tibi qui
+                        supra Adhelberti comiti per hanc cartulam et pro eodem pretio, id sunt
+                        omnibus rebus illis similque iuris nostris iugalibus quam habere visi sumus
+                            <placeName
+                            key="#Venditio #Landed_possessions #Forests #Cereals #Hay/fodder"
+                            ref="#places/2488">ubi Runco de Rolando dicitur</placeName>, iacente
+                        super <rs key="#Rivers">f[l]uvium Padi</rs> non longe a castro <placeName
+                            key="#Castle" ref="#places/34">Pigoniaca</placeName> et in loco
+                            <placeName key="#Venditio #Landed_possessions #Cereals #Hay/fodder"
+                            ref="#places/2489">Campedello</placeName> quod est iuxta <rs
+                            key="#Rivers">fluvium Ollium</rs>; predictis rebus in suprascripto loco
+                        ubi Runco de Rolando dicitur sunt per mensura iusta de terris arabilis et
+                        gerbis seu silvis cum areis suarum iuges duocenti, suprascriptis rebus in
+                        predicto loco Campedello sunt per mensura iusta de terris arabilis et gerbis
+                        seu silvis cum areis suarum iuges centum. Et si amplius de nostro quam supra
+                        iugalibus iuris de suprascripta curte et castro seu capella et de predictis
+                        rebus sicut supra legitur inventum fuerit, quam ut supra mensura legitur,
+                        per hanc cartulam et pro eodem pretio in tua conscripti Adhelberti comitis
+                        et de tuis heredibus persistat potestate proprietario iure ut dictum est,
+                        tam predictam curtem domuicultilem in suprascripto loco Marmirolo cum
+                        predicto castro et capella inibi edificata seu iam dictis casis masariciis
+                        et omnibus rebus ad eam pertinentibus, et suprascriptis rebus in locas et
+                        fundas ubi Runco de Rolando dicitur et in predicto loco Campedello, tam
+                        terris arabilis et gerbis, pratis, <rs key="#Hay/fodder #Animals"
+                            >pascuis</rs>, silvis maioribus ac <rs key="#Forests">stallariis</rs>,
+                        rivis, rupinis ac <rs key="#Marshes/lagoons/tombolos">paludibus</rs>, cultis
+                        et incultis, divisis et indivisis, una cum finibus, terminibus,
+                        accessionibus et <rs key="#Rights_of_use_on_woods/pastures/waters">usibus
+                            aquarum</rs> aquarumque ductibus, et cum omni iure adiacentiis et
+                        pertinentiis earum rerum per locas et vocabulas ad ipsam curtem et castrum
+                        seu capellam et predictis casis et rebus pertinentibus omnia in integrum.
+                        Quod autem suprascriptam curtem domuicultilem in suprascripto loco et fundo
+                        Marmirolo cum predicto castro et iam diecta capella inibi edificata in
+                        honore sancte Margante cum areis suarum et cum iam dictis casis massericiis
+                        ad eam pertinentibus, quod predictis rebus in loco ubi Runco de Rolando
+                        dicitur et in iam dicto Campedello iuris nostris iugalibus superius
+                        nominatis, una cum accessionibus et ingressoras earum seu cum superioribus
+                        et inferioribus earum qualiter supra mensura et est comprehensa in integrum,
+                        ab hac die tibi conscripti Adhelperti comiti pro suprascripto pretio
+                        vendimus tradimus et mancipamus, nulli alii venditis, donatis, obnoxiatis,
+                        alienatis vel traditis nisi tibi, et facias exinde a presenti die tu et
+                        heredibus tuis iure proprietario nomine quicquit volueritis sine omni nostra
+                        quem supra iugales et heredum nostrorum contradicione. Quidem et spondimus
+                        atque promittimus nos ipsi Rodoinus et Vuadeberga iugales seu Garibaldus et
+                        Suana quae et Suanilda itemque iugales una cum nostris heredibus tibi
+                        conscripti Adhelberti comiti tuisque heredibus aut cui vos dederitis vel
+                        habere statueritis suprascriptam cortem domuicultilem cum predicto castro et
+                        iam dicta capella in iam dicto loco Marmoriolo seu supradictis casis
+                        massericiis et omnibus rebus ad eam pertinentibus, cum predictis rebus in
+                        iam dicto loco ubi Runco Rolandi dicitur et in predicto loco Campedello
+                        qualiter supra legitur in integrum ab omni homine defensare; quod si
+                        defendere non potuerimus aut si vobis exinde aliquid per quodvis ingenium
+                        subtrahere quesierimus, tunc in duplum suprascripta vendita restituamus
+                        sicut pro tempore fuerit meliorata aut valuerit sub estimatione in
+                        consimiles locas. Et nec michi conscripte Suane quae et Suanilde liceat ullo
+                        tempore nolle quod volui sed quod a me semel factum vel conscriptum est, sub
+                        iusiurandum inviolabiliter conservare promitto cum stipulatione subnixa. Et
+                        nichil nobis iugalibus ex ipso pretio aliquit redebere diximus. Actum castro
+                        Aquafrigida feliciter. Signum ++ manibus suprascriptorum Rodoini qui et
+                        Rozoni seu Vuadelberge iugalibus qui hanc cartulam venditionis fieri
+                        rogaverunt et suprascriptum pretium acceperunt, et ipse Rodoinus
+                        consentiente eidem Vuadelberge conuigi sue ut supra. Ego Garibaldus a nobis
+                        facta subscripsi et suprascriptum pretium accepimus et eadem Suana coniux
+                        mea consensit ut supra. Signum + manus suprascripte Suane et Suanilde qui
+                        hanc cartulam venditionis fieri rogavit et suprascriptum pretium accepit et
+                        quae relecta est. Signum +++ manibus suprascriptorum Umberti et Auprandi seu
+                        Odelrici qui eadem Vuadelbergam propinqua parente suorum interrogaverunt ut
+                        supra. + Litefredus qui eadem Suana consobrina mea interrogavi ut supra.
+                        Signum ++ suprascriptorum Ugoni et Widoni germanis qui eadem Suana amita
+                        suorum interrogaverunt ut supra. <persName key="#Venditio #Witness"><name
+                                ref="Landulfus">Landulfus</name></persName> rogatus subscripsi.
+                            <persName key="#Venditio #Witness #Notary"><name ref="Aimo"
+                            >Aimo</name></persName>
+                        <rs key="#Notary">notario</rs> domni imperatoris rogatus subscripsi. Signum
+                        + manus <persName key="#Venditio #Witness"><name ref="Artegherius"
+                                >Altegherii</name></persName> filius quondam <persName><name
+                                ref="Garifusus">Garifusi</name></persName> de loco Farsengo testis.
+                        Signum ++ manibus <persName key="#Venditio #Witness #Roman"><name
+                                ref="Urbinus">Urbini</name></persName> filius quondam
+                                <persName><name ref="Martinus">Martini</name></persName> et
+                            <persName key="#Venditio #Witness #Roman"><name ref="Petrus"
+                                >Petroni</name></persName> filius quondam <persName><name
+                                ref="Ursebertus">Urseverti</name></persName> isti habitantes in
+                        suprascripto loco Aquafrigida viventes lege Romana testes. Ego <persName
+                            key="#Venditio #Writer #Witness #Notary #Judge"><name ref="Walpertus"
+                                >Walpertus</name></persName> notarius et iudex Sacri Palatii
+                        scriptor huius cartule venditionis post traditam complevi et dedi». Cartula
+                        ipsa ostensa et ab ordine lecta, interrogatus est ipse Adhelbertus qui et
+                        Atto comes pro quo cartula ipsa ostenderet, qui dixit: «Vere ideo cartulam
+                        istam in vestri ostendi presentia ne silens appareat rebus ipsis omnibus et
+                        castro seu capella quod ista legitur cartula ad meam habeo et teneo
+                        proprietatem, et si quislibet homo adversum me exinde aliquid dicere vult,
+                        paratus sum cum eo exinde in ratione standum, et quod plus est querimus ut
+                        dicant isti Rodoinus et Garibaldus germani qui hic comprehensi sunt si
+                        cartula ista quam hic ostensi bona et vera est aut si eam fieri rogaverunt
+                        et firmaverunt, vel si rebus ipsis castro et capella que in ipsa legitur
+                        cartula michi contradicere aut subtrahere querunt, vel si meis propriis esse
+                        debent an non». Cum ipse Adhelbertus comes taliter retulisset, ad hec
+                        responderunt ipsi Rodoinus et Garibaldus germani, dixerunt et professi sunt:
+                        «Vere cartula ista quam hic ostendisti, bona et vera est, et nos ipsi
+                        germani cum coniugis nostris fieri rogavimus et firmavimus, et rebus ipsis
+                        et castro seu capella quae in ipsa legitur cartula tibi non contradicimus
+                        neque contradicere querimus, quia cum lege non possumus, eo quod tui proprii
+                        sunt et esse debent cum lege et nobis ad habendum nec requirendum nichil
+                        pertinet nec pertinere debent cum lege». Et sponderunt se ipsi Rodoinus et
+                        Garibaldus germani adversus eundem Adhelbertum comitem ut si unquam in
+                        tempore de predictis rebus castro et capella quod in ipsa legitur cartula
+                        agere aut causare vel removere presumpserint, per se ipsos aut eorum heredes
+                        vel eorum submittentes personas et omni tempore exinde taciti et contenti
+                        non permanserint, aut si apparuerit ullum eorum datum aut factum quod ipsi
+                        exinde in aliam partem fecissent et claruerit, tunc componant ipse Rodoinus
+                        qui et Rozo et Garibaldus suorumque heredes eidem Adhelberti comiti suisque
+                        heredibus aut cui ipse dederit rem duplicem ipsis rebus et castrum et
+                        capellam in easdem loca, insuper penam argenti libras centum. His actis et
+                        manifestatio ut supra facta rectum eorum iudicum et auditoribus paruit esse,
+                        et iudicaverunt ut iusta eorum altercatione et eorum Rodoini et Garibaldi
+                        manifestatione et ipse Adhelpertus comes predictis omnibus rebus castro et
+                        capella ad suam proprietatem habere et detinere deberet, et ipse Rodoinus
+                        qui et Rozo et Garibaldus et suorum heredes manerent exinde omni tempore
+                        taciti et contenti. Et in eo modo finita est causa, et hanc notitiam pro
+                        securitate eidem Adhelberti comiti fieri ammonuerunt. Quidem et ego
+                            <persName key="#Placitum/iudicatum #Writer #Notary #Judge"><name
+                                ref="Walfredus">Vualfredus</name></persName> notarius et iudex Sacri
+                        Palacii ex iussione suprascripti missi et iudicis ammonitione scripsi.
+                            <date>Anno imperii domni Ottonis Deo propicio nono, decimo kalendas
+                            augusti, indicione quarta</date>. (S.) Walpertus iudex et missus domni
+                        imperatoris interfuit et subscripsit. (S.) Astulfus iudex domni imperatoris
+                        interfui et subscripsi. (S.) Lanfrancus iudex Sacri Palatii interfui. (S.)
+                        Adelmus iudex Sacri Palacii interfui et subscripsi. (S.) Giselbertus iudex
+                        Sacri Palacii interfui. (S.) Heginulfus iudex domni imperatoris interfui.
+                        (S.) Manipertus iudex domni imperatoris interfui. (S.) Walpertus iudex Sacri
+                        Palatii interfui. </ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>CDP I n. 11, pp. 87-91; Manaresi II/1 n. 178, pp. 151-156.</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p>Bertolini 1960; Fumagalli 1971; Rinaldi 2003.</p>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

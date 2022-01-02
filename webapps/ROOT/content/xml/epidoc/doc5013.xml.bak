@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Archivio di Stato di Milano, Museo Diplomatico, Pergamene-S.Benedetto,
+                    374/31</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc5013</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Offersio/donatio</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property"/>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="1007-04-02">
+                                <note type="displayed_date">1007 April 2</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Canossa (Reggio Emilia)</note>
+                                <note type="redaction_date">XII</note>
+                            </origDate>
+                            <origPlace>Sanctus Benedictus in Pado Lironi; monasterium
+                                (Mantova)</origPlace>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-09-07" who="bferretti">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>(S.) In nomine domini Dei et salvatori nostri Iesu Christi. <date>Anno
+                            millesimo VII indictione quinta, secundo die intrante mense
+                            aprilis</date>. Ego in Dei nomine <persName
+                            key="#Offersio/donatio #Landed_possessions #Marquis/duke #Churches #Lombard #sonOf"
+                            ref="#people/2122">Teudaldus</persName>
+                        <rs>marchio</rs> filio quondam <persName
+                            key="#Marquis/duke #Lombard #fatherOf" ref="#people/2100"
+                            >Adelberti</persName> itemque marchio qui profeso sum ex nacione mea
+                        lege vivere <rs key="#Lombard">Langobardorum</rs> presentibus dixi: Duro in
+                        statu sanitatis humane vite cursus peragitur necesse est ut ea que anime
+                        profutura sunt indesinenter agamus. Manifestus sum michi qui supra Tedaldus
+                        marchio eo quod volo pro anime mee mercede et parentum meorum <rs
+                            key="#Churches">basilice</rs> ille quam edificavi in loco proprietatis
+                        mee factae in honore Sancti Benedicti et Sancte Marie et Sancte Michaelis
+                        Archangeli que est sita <placeName key="#Islands" ref="#places/2400"><rs
+                                key="#Islands">insula</rs> Sancti Benedicti</placeName>
+                        <rs key="#Landed_possessions">campum</rs> Sancte Marie et alias quasdam res
+                        meas sicut continetur in cartula quadam offersionis mee in qua multa
+                        delegavi predicte basilice Sancti Benedicti qui est positus iuxta <placeName
+                            key="#Canals" ref="#places/2901"><rs key="#Canals">foveam</rs>
+                            Gabianam</placeName> dare et offerre cum omni iure meo pro anima mea et
+                        parentum meorum. Quem predictum campum qui dicitur campum Sancte Marie a
+                        presenti die in antea dono et offero pro anima mea et parentum meorum ut
+                        supra legitur in basilica Sancti Benedicti ut supra, eo modo ut habeat et
+                        teneat ipsa ecclesia cum ingressionibus et egressionibus superioribus et
+                        inferioribus suis in integrum; et faciat omnem suam hutilitatem sine mea et
+                        heredum meorum contradictione. Actum est hoc in <rs key="#Fortress"
+                            >rocca</rs>
+                        <placeName key="#Fortress" ref="#places/2415">Canusia</placeName> feliciter.
+                        Signum +++++++++ manibus <persName key="#Offersio/donatio #Witness"
+                            ref="#people/2148">Vuido</persName> de <placeName ref="#places/2903"
+                            >Palude</placeName> et <persName key="#Offersio/donatio #Witness"><name
+                                ref="Bonitius">Bonizo</name></persName> seu <persName
+                            key="#Offersio/donatio #Witness"><name ref="Martinus"
+                            >Martino</name></persName> et <persName
+                            key="#Offersio/donatio #Witness #Judge"><name ref="Hugo"
+                            >Ugo</name></persName>
+                        <rs key="#Judge">iudex</rs> de <placeName ref="#places/53">Parma</placeName>
+                        et <persName key="#Offersio/donatio #Witness"><name ref="Boso"
+                            >Boso</name></persName> de <placeName>Carpineta</placeName> et alii
+                        rogati sunt <rs key="#Witness">testes</rs>. (S.) Ego <persName
+                            key="#Offersio/donatio #Writer #Notary"><name ref="Iohannes"
+                                >Iohannes</name></persName>
+                        <rs key="#Notary">notarius</rs> Sacri Palacii scripsi et dedi. </ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>CDP I n. 13, pp. 94-96.</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p>Bonacini 2000.</p>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

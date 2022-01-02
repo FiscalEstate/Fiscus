@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Archivio di Stato di Milano, <foreign>Museo diplom. Atti pagensi</foreign>,
+                    sec. X, a. 906-912</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc1138</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">-Placitum/iudicatum</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property"/>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate notBefore="0906" notAfter="0910">
+                                <note type="displayed_date">Between 906 and 910</note>
+                                <note type="dating_elements">Il termine <foreign>post quem</foreign>
+                                    è il 906, ossia il primo anno di vescovato di Aicone di Milano,
+                                    il termine <foreign>ante quem</foreign> è il 910 che, come
+                                    riportato da Schiaparelli, sarebbe il primo anno dell'abate di
+                                    Sant'Ambrogio Ragiberto.</note>
+                                <note type="topical_date">Pavia</note>
+                                <note type="redaction_date"/>
+                             </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-02-08" who="cstedile">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>Dum in Dei nomine civitate <placeName ref="#places/65">Papia</placeName> in
+                        sacro palacio hubi domnus <persName key="#Emperor/king" ref="#people/21"
+                            >Berengarius</persName>
+                        <rs key="#Emperor/king">rex</rs> preerat, in laubia magiore ubi sub
+                            <persName key="#Emperor/king" ref="#people/322">[Teu]derico</persName>
+                        dicitur, in iudicio resederent <persName key="#Witness #Bishops"
+                            ref="#people/253">Iohannes</persName> venerabilis <rs key="#Bishops"
+                            >episcopus</rs> sancte <orgName ref="#juridical_persons/220">Ticinensis
+                            ecclesie</orgName> et <persName key="#Witness #Bishops" ref="#people/78"
+                            >Adelbertus</persName> sancte <orgName ref="#juridical_persons/189"
+                            >Bergomate ecclesie</orgName> [missi ex hac causa] ab ipso pri[n]cipe
+                        constit[uti], una cum domno <persName key="#Witness #Archbishops"
+                            ref="#people/323">Aihone</persName>
+                        <rs key="#Archbishops">archiepiscopo</rs> sancte <orgName
+                            ref="#juridical_persons/221">Mediolanensis ecclesie</orgName>,
+                        resedentibus cum eis <persName key="#Witness #Bishops"><name ref="Petrus"
+                                >Petrus</name></persName> et <persName key="#Witness #Bishops"><name
+                                ref="Adalmannus">Adelmannus</name></persName>
+                        <rs key="#Bishops">episcopis</rs>, <persName key="#Witness #Count"><name
+                                ref="Gunthardus">G[un]tardus</name></persName> et <persName
+                            key="#Witness #Count"><name ref="Dido">Dido</name></persName>
+                        <rs key="#Count">comitibus</rs>, <persName key="#Witness #vassusOf"><name
+                                ref="Gausus">Gausus</name></persName>
+                        <rs key="#vassusOf">vassus</rs> domni regi[s.....]dus, <persName
+                            key="#Witness #Judge"><name ref="Adelgrausus"
+                            >Adelgrausus</name></persName>, <persName key="#Witness #Judge"><name
+                                ref="Walpertus">Vualpertus</name></persName>, <persName
+                            key="#Witness #Judge"><name ref="Adalbertus"
+                            >Adelbertus</name></persName>, <persName key="#Witness #Judge"><name
+                                ref="Farimundus">Farimundus</name></persName>, P[.......], <persName
+                            key="#Witness #Judge"><name ref="Donumdei">Don[um]dei</name></persName>,
+                            <persName key="#Witness #Judge"><name ref="Iohannes"
+                            >Iohannes</name></persName>, item <persName key="#Witness #Judge"><name
+                                ref="Iohannes">Iohannes</name></persName>, <persName
+                            key="#Witness #Judge"><name ref="Stabilis">Stabilis</name></persName>,
+                            <persName key="#Witness #Judge"><name ref="Thomas"
+                            >Thomas</name></persName>, <persName key="#Witness #Judge"><name
+                                ref="Leo">Leo</name></persName>, <persName key="#Witness #Judge"
+                                ><name ref="Rofredus">Rotfredus</name></persName>, <persName
+                            key="#Witness #Judge"><name ref="Ragifredus"
+                            >Ragifredus</name></persName>, <persName key="#Witness #Judge"><name
+                                ref="Adalgisus">Adelgisus</name></persName>, <persName
+                            key="#Witness #Judge"><name ref="Gaidaldus">Gaidoaldus</name></persName>
+                        et item <persName key="#Witness #Judge"><name ref="Ragifredus"
+                                >Ragifredus</name></persName>
+                        <rs key="#Judge">iudices</rs> domni re[gi]s, <persName key="#Witness #Judge"
+                                ><name ref="Audobaldus Mediolanensis">Aupaldus</name></persName>
+                        <rs key="#Judge">iudex</rs>
+                        <placeName ref="#places/147">Mediolanensis</placeName>, <persName
+                            key="#Witness #Notary"><name ref="Eribaldus">Aribaldus</name></persName>,
+                        <persName key="#Witness #Notary"><name ref="Leopertus"
+                            >Leopertus</name></persName> et <persName key="#Witness #Notary"><name
+                                ref="Petrus de Papia">Petrus</name></persName> de civitate P[a]pia, <persName
+                                    key="#Witness #Notary"><name ref="Aribrandus de Blasonno">Ariprandus</name></persName> de
+                        <placeName>Blasonno</placeName>, <persName key="#Witness #Notary"><name ref="Arialdus"
+                            >Arialdus</name></persName> filius Tazo[nis..........]dus, <persName
+                                key="#Witness #Notary"><name ref="Sicardus">Sihardus</name></persName>, <persName
+                                    key="#Witness #Notary"><name ref="Ildebertus">Ildebertus</name></persName> et
+                        <persName key="#Witness #Notary"><name ref="Giselbertus"
+                            >Giselbertus</name></persName>
+                        <rs key="#Notary">notariis</rs> et reliqui multis; ibique eorum venerunt
+                        presencia <persName key="#Abbots"><name ref="Gaidulfus"
+                            >Gaidulfus</name></persName>
+                        <rs key="#Abbots">abba</rs>
+                        <rs key="#Monasteries">monasterii</rs>
+                        <orgName key="#Monasteries #Royal_slave" ref="#juridical_persons/95">Sancti
+                            Christi confessoris Ambrosii</orgName> ubi eius sanctum quiesscit
+                        corpus, situm [in] suburbium civitatis <placeName ref="#places/147"
+                            >Mediolani</placeName> et <persName
+                            key="#Judge #Advocatus_of_other_public_authorities"><name
+                                ref="Boniprandus">Boniprandus</name></persName>
+                        <rs key="#Judge">iudex</rs> do[mni] regis [et <rs
+                            key="#Advocatus_of_other_public_authorities">advocatus monaste]rii</rs>
+                        Sancti Ambrosii, nec n[o]n <persName><name ref="Stefanus"
+                            >Stefanus</name></persName>, <persName><name ref="Iohannes"
+                                >Iohannes</name></persName>, item Iohannes, <persName><name
+                                ref="Lupus">Lupus</name></persName>, <persName><name ref="Ambrosius"
+                                >Ambrosius</name></persName>, Lupus, <persName><name ref="Befanius"
+                                >Befanius</name></persName>, <persName><name ref="Theuderius"
+                                >Teoderus</name></persName>, Ambrosius, <persName><name ref="Ursus"
+                                >Ursus</name></persName>, <persName><name ref="Rimolo"
+                            >Rimolo</name></persName>, Iohannes et item Iohannes de <placeName
+                            ref="#places/574"><geogName ref="#estates/2380"
+                            >Ce[v]enna</geogName></placeName>, <persName><name ref="Priectus"
+                                >Precto</name></persName>, Lupus, <persName><name ref="Laurentius"
+                                >Laurencius</name></persName>, <persName><name ref="Madrebertus"
+                                >Madrevertus</name></persName>, Ursus et <persName><name
+                                ref="Ursacius">Ursaci[o]</name></persName> de loco
+                                <placeName><geogName ref="#estates/2377"
+                            >Madronino</geogName></placeName>, Iohannes, <persName><name
+                                ref="Ursebertus">Ursevert[us</name></persName>, Petrus,
+                                <persName><name ref="Dominicus">Dominicus</name></persName>,
+                                <persName><name ref="Luvaldus">Luv]aldus</name></persName>,
+                                <persName><name ref="Raginaldus">Raginaldus</name></persName> et
+                        Ursus de <placeName><geogName ref="#estates/2376"
+                            >Salvaniate</geogName></placeName>, <persName><name ref="Munaldus"
+                                >Munaldus</name></persName>, <persName><name ref="Mauricius"
+                                >Mauricio</name></persName>, Dominicus, <persName><name
+                                ref="Iohannacis">Iohannace</name></persName>, <persName><name
+                                ref="Stevanacis">Stevanace</name></persName> et Laurencius de
+                                <placeName><geogName ref="#estates/2378"
+                            >C[a]l[to]nico</geogName></placeName> locus qui dicitur <geogName
+                            key="#Curtes" ref="#estates/260"><placeName ref="#places/573"
+                                >Lem[onta]s</placeName></geogName> non longe a <rs key="#Lakes"
+                            >L[a]cu [C]o[men]se</rs> intencionem [a]bentes. Dicebant ipsi Gaidulfus
+                        ab[bas et Boniprandus a]dvocatus: Isti Stefanus, Lupus, Iohannes, item
+                        Iohannes, Ambrosius, Lupus, Befanius, Teoderus, Ambrosius, Ursus, Rimolo,
+                        Iohannes, item Iohannes de Cevenna abitantes non longe ad curte Sancti
+                        Ambrosii que dicitur Lemuntas, Precto, Lupus, Laurencius, Ma[d]re[vertus,
+                        ursus, Urs]acio resedentibus in Madronino, Iohannes, Ursevertus, Petrus,
+                        Dominicus, Luvaldus, Raginaldus, Ursus abitantes loco Salvaniate, Munaldus,
+                        Mauricio, Dominicus, Iohannace, Stefanace et Laurencius abitantes locus qui
+                        dic[i]tur [Caltonico, isti] omnes <rs key="#Slave">servi</rs> cum lege esse
+                        debent monasterii Sancti Ambrosii et curtis Lemontas, set nessimus qua
+                        racionem se subtraere querant de servicio eiusdem monasterii et curtis et
+                        dicant se <rs key="#Aldius">aldii</rs> esse. Unde iam ante os dies ad
+                        racionem edo Gaidullfu[s abba et Boniprandus advocatus] eiusdem monasterii
+                        presencia domni <persName key="#Missus_regis #Archbishops" ref="#people/333"
+                            >Andrei</persName>
+                        <rs key="#Archbishops">archiepiscopo</rs> et isti <persName
+                            key="#Judge #Missus_regis"><name ref="Ragifredus"
+                            >Ragifredi</name></persName> iudici, qui <rs key="#Missus_regis">missi
+                            domni imperatoris</rs> erant, et iudicum seu relicorum stetimus, et ibi
+                        eos in iudicio servi a parte eiusdem monasterii conquisivimus. Set dum ic in
+                        palacio a domno et [iudice inquisiti dixissent ips]i aldii esse deberent et
+                        non servi, dedi ego Boniprandus advocatus vuadiam eorum per iudices
+                        recordatores aut noticiam probandum, qualiter iam ante [os] dies presencia
+                        iam dictis domno Andrei archiepiscopi et isti Ragifredi [iudici non aldii
+                        set serv]i eiusdem monasterii se manifestasent, et ipsi dederunt mihi
+                        vuadiam de placitum, ecce nos parati et in presencia abemus noticiam
+                        firmatam, qualiter isti omnes servi eiusdem monasterii et curtis Lemonta
+                        esse manifestaverunt. [Ad hec responderunt ipsi Stefanu]s, Lupus, Iohannes,
+                        item Iohannes, Lupus, Ambrosius, Befanius, Teoderus, Ambrosius, Ursus,
+                        Rimolo, Iohannes, item Iohannes, Ursevertus, Petrus, Dominicus, Luvaldus,
+                        Raginal[dua, Ursus, Munaldus, Mauricio, Dominicus, Ioha]nnace, Stefanace et
+                        Laurencius: Vere, sicut vos Gaidulfus aba et Boniprandus advocatus dixistis,
+                        ita per omnia actum est et taliter nobis per iudices recordatores aut
+                        noticia ad probandum vuadiam dedisti, sicut […..........con]stitutum est
+                        placitum per iudices recordatores aut noticiam a probandum et finem
+                        legiptimam faciendum. Cum ipsi taliter egissent, fecerunt auditores ipsi
+                        n[oticiam conscribi], que ut supra ipsi ab [ordine ostens]a et relecta,
+                        continebatur in ea inter cetera, qualiter villa Bellano in laubia solarii
+                        Sancti Ambrosii cu[rti]s ipsius i[n] iudicio presencia domni Andrei [sancte
+                        Mediolanensis ecclesie archiepiscopi et Ragifredi iudicis sancri palatii
+                        missi domni imperatori]s et […......no]biles omines intencionem abuisent
+                        Gaidulfus aba monasterii Sancti Ambrosii et Adelricus notarius advocatus
+                        ipsius [nec non L]upone, Stefa[nu]s, Ioh[annes,] i[tem Iohannes, Lupone,
+                        Ambrosio, Lupone, Bevanio, Teodero, Ambrosio, Ursone et Rimolo germani,
+                        Iohannes, item Iohannes de Civenn]a, Dagnolino, Prectone, Lupone,
+                        Laurencionem, Madreverto, Ursone [et Ursacione de loco Madronino, Iohannes,
+                        Urseverto, Petr]us, Dominicus, Lu[valdus, Raginaldus, Ursus de Selvaniate,
+                        Munaldus, Mauritio, Magioriano, Dominicus, Iohannes, Stevanace et Laurentius
+                        de Caltonico pago co dicitur Lemontas prope laco Comacino. Quesierunt ipsi
+                        Gaidulfus abba et <persName
+                            key="#Notary #Advocatus_of_other_public_authorities"><name
+                                ref="Adalricus">Adelricus</name></persName> notarius et advocatus
+                        ipsius monasterii qua] rencione de servicium eorum supradicti ominibus quod
+                        [...se subtrahere vellent. Ad hec responderunt ipsi omines se esse servi]
+                        eiusdem curtis Lemontes et [monasterii Sancti Ambrosii, eo quod...]</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>DD B I, pp. 188-192, n° LXX</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p>Castagnetti 1968; Padoa Schioppa 2015, pp. 120-121.</p>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

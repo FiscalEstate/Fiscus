@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Archivio di Stato di Milano, Museo Diplomatico, Pergamene-S.Benedetto,
+                    235/98</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc5009</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Commutatio</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property"/>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0966-11-14">
+                                <note type="displayed_date">966 November 14</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Gonzaga (Mantova)</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace>Sanctus Benedictus in Pado Lironi; monasterium
+                                (Mantova)</origPlace>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-08-30" who="bferretti">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>(S.) In nomine domini nostri Iesu Christi. <date><persName
+                                key="#Emperor/king" ref="#people/173">Otto</persName> gratia Dei <rs
+                                key="#Emperor/king">imperator</rs>, anno imperii eius quinto,
+                            d[eci]mo quarto die mensis novembris, indictione decima.</date>
+                        <rs key="#Commutatio">Comutacio</rs> bo[ne] fidei nossitur esse contractum
+                        [ut vi]cem emcionis obtineat firmitatem eodemque nexu obligant contraentes.
+                        Placuit itaque et bona[m] convenit voluntatem inter domnus <persName
+                            key="#Mother_churches #Bishops" ref="#people/2124">Gumbaldus</persName>
+                        <rs key="#Bishops">episcopus</rs>
+                        <orgName
+                            key="#Mother_churches #Bishops #Areas #Houses #Casae/cassinae_massaricie #Landed_possessions #Forests #Cereals #Wine #Hay/fodder #Coloni/tenants #Cells/hermitages"
+                            ref="#juridical_persons/2000">sancte Mantuanensis eclesiae</orgName> nec
+                        non et inter <persName
+                            key="#Areas #Houses #Casae/cassinae_massaricie #Landed_possessions #Forests #Cereals #Wine #Hay/fodder #Coloni/tenants #Cells/hermitages"
+                            ref="#people/2100">Adelbertus qui et Otto</persName>
+                        <rs>comes</rs> filius bone memorie <persName ref="#people/2101"
+                            >Siefredi</persName> qui se profitebat lege vivere <rs key="#Lombard"
+                            >Langobardorum</rs>, ut in Dei nomine debeant dare sicut a presenti
+                        dederunt ac tradiderunt sibi unus alteri in Domini nomine. In primis dedi
+                        ipse domnus Gumbaldus episcopus eidem domni Adelberti comiti in causa
+                        comutacionis, id sunt rebus illis iuris ipsius sui episcopii quibus sunt
+                        positis in <rs key="#Areas">locas et fundas</rs>
+                        <placeName
+                            key="#Areas #Landed_possessions #Cereals #Wine #Hay/fodder #Cells/hermitages"
+                            >Garfaniana</placeName> et est in <geogName key="#Comitatus"
+                            ref="#estates/193"><rs key="#Comitatus">comitatu</rs> Regense</geogName>
+                        et in loco <placeName
+                            key="#Casae/cassinae_massaricie #Landed_possessions #Forests #Cereals #Wine #Hay/fodder #Coloni/tenants"
+                            >Siniano</placeName>, quod est <rs key="#Casae/cassinae_massaricie"
+                            >massaricia</rs> una fuit rectum per <persName><name ref="Petrus"
+                                >Petrum</name></persName>
+                        <rs key="#Coloni/tenants">massario</rs>, seo in loco
+                            <placeName>Nuvellare</placeName>. Predictis rebus in eodem loco
+                        Garfaniana sunt per mensura iusta inter <rs key="#Landed_possessions"
+                            >sediminas</rs> et <rs key="#Wine">vineis</rs> cum <rs
+                            key="#Landed_possessions">areis</rs> suarum seu <rs key="#Cereals"
+                            >terris arabilis</rs> et <rs key="#Hay/fodder">pratis</rs> iugias decem;
+                        iam nominatis rebus in eodem loco Siniano sunt per mensura iusta inter
+                        sediminas et vineis cum areis suarum seu pratis iugias ses, terris arabilis
+                        iugias viginti due, de <rs key="#Forests">silvis et buscaliis</rs> iugias
+                        quindecim; superscriptis rebus in eodem loco Nuvellare sunt per mensura
+                        iusta de <rs>terris arabilis</rs> iugias quattuor. Nam ceteris rebus in
+                        eodem loco Garfaniana quod est <rs key="#Cells/hermitages">capella</rs> una
+                        que est edificata in onore sancte Possedone, est area sua per mensura iusta
+                        tabulas decem, et in predicto loco Nuvellare rebus ipsius nostri episcopii a
+                        parte ipsius episcopii reservo potestatem proprietario iuris. Quidem et ad
+                        vicem recepit ipse domnus Gumbaldus episcopus ad parte ipsius sui episcopi
+                        ab eundem Adelbertus qui et Otto comes melioratam rem sicut lex abet, id
+                        sunt pecia una de terra infra eodem <rs key="#Cities">civitate</rs>
+                        <placeName key="#Cities" ref="#places/275">Mantue</placeName> prope
+                            <placeName>locus ubi Sancta Maria Vicedomino dicitur</placeName>, et <rs
+                            key="#Houses">casis</rs> et omnibus rebus illis hec omnia iuris ipsius
+                        Adelberti quibus sunt positis in locas et fundas ubi <placeName
+                            key="#Areas #Houses #Landed_possessions #Forests #Cereals #Wine #Hay/fodder"
+                            >Pecorile</placeName> dicitur et in loco <placeName
+                            key="#Landed_possessions #Cereals #Wine #Hay/fodder"
+                            >Fraseneta</placeName>. Predicta pecia de terra infra eadem civitate est
+                        per mensura iusta tabulas septem; coerit ei: da mane terra <persName><name
+                                ref="Dominicus/Gonteramus">Dominici Gonterami</name></persName>, da
+                        meridie ingresso comune, da sera terra ipsius episcopio, sibique alii sunt
+                        coerentes. Predictis rebus in eodem loco Pecorile sunt per mensura iusta
+                        inter sediminas cum <rs key="#Processing_units">torculo</rs> et casa super
+                        [se] abente seo vites cum areis suarum iuges quattuor, de terris arabilis et
+                        pratis iuges tres, de silvis cum areis suarum iuges tres. Iam dictis rebus
+                        in eodem loco Fraseneda sunt per mensura iusta de sedimen et vitis cum areis
+                        suarum iugias duas, de terris arabilis et pratis sunt iugias quattuor. As
+                        denimque predictis rebus in easdem locas et fundas Garfaniana, Siniano,
+                        Nuvellare seo infra eadem civitate Mantue et in locas et fundas Peccorile,
+                        Fraseneta superius nominatis vel comutatis, una cum accessionibus et
+                        ingressoras earum seo superioribus et inferioribus suis qualiter superius
+                        mensura legitur sibi unus alteri per as pagina comutacionis nomine
+                        tradiderunt, facientes exinde a presenti die tam ipsi quamque et successores
+                        vel heredes eorum legaliter proprietario nomine quicquit voluerint aut
+                        previderint sine omni uni alteris contradicione. Et sponderunt se ipsi
+                        comutatores sibi ad invicem quis ea dederunt in integrum omni tempore ab
+                        omni omine defensare. Quidem et ut ordo legis Langobardorum depossit et ad
+                        hanc previdendam comutacionem accesserunt super ipsis rebus ad previdendum,
+                        idest <persName
+                            key="#Commutatio #Witness  #Missus_of_other_public_authorities #Mother_churches #Bishops #Deacons #Prevosts"
+                                ><name ref="Walterius">Vualterius</name></persName>
+                        <rs key="#Deacons">diaconus</rs> et <rs key="#Prevosts">prepositus</rs> de
+                        ordine ipsius episcopio <rs key="#Missus_of_other_public_authorities"
+                            >misso</rs> domni Gumbaldi episcopi ab eo directo, simul cum <rs
+                            key="#Local_elites #Boni_viri/boni_homines">viri et bonos omines
+                            estimatores</rs> qui estimarent, id sunt <persName
+                            key="#Commutatio #Witness #Local_elites #Boni_viri/boni_homines"><name
+                                ref="Walpertus">Vualpertus</name></persName> filius quondam
+                                <persName><name ref="Danihel">Daniel</name></persName>, <persName
+                            key="#Commutatio #Witness  #Local_elites #Boni_viri/boni_homines"><name
+                                ref="Arulfus">Ariulfuls</name></persName> filius quondam
+                                <persName><name ref="Arulfus">Ariulfi</name></persName>, <persName
+                            key="#Commutatio #Witness  #Local_elites #Boni_viri/boni_homines"><name
+                                ref="Benedictus">Benedictus</name></persName> filio quondam
+                                <persName><name ref="Gisalbertus">Ghiselbertus</name></persName>,
+                        quibus omnibus estimantibus comparuit eorum et estimaverunt quod melioratam
+                        rem reciperet ipse domno Gumbaldo episcopus a parte ipsius sui episcopio
+                        quam daret et legibus comutacio hec fieri poteret. De quibus et pena inter
+                        se posuerunt ut quis ex ipsis aut successores vel heredes eorum set de hanc
+                        comutacio removere quesierint et non permanserint in ea omnia qualiter
+                        superius legitur vel si ab unumquemque hominem quis ea dederunt in integrum
+                        non defensaverint, componant pars partis fidem servandi pena duplis ipsis
+                        rebus sicut pro tempore fuerit melioratis aut valuerint, sub estimacione tam
+                        infra eadem civitate quamque et foris in consimilis locis; et pro onore
+                        ipsius episcopii nec eum licead ullo tempore nolle quod voluit set quod ad
+                        eum semel factum vel conscriptum est inviolabiliter conservare promiserunt
+                        curo stipulacione subnixxa. Unde due cartule comutacionis uno tenore scripte
+                        sunt. Acto in <rs key="#Castle">castro</rs>
+                        <placeName key="#Castle" ref="#places/2414">Gunzagha</placeName> feliciter.
+                        Ego Gumbaldus indignus episcopus in hanc commutacionem a me facta
+                        subscripsi. Ego Vualterius diaconus adque prepositus missus fui ut supra.
+                        Signum manibus suprascriptorum Vualpertus, Ariulfus, Benedictus qui super
+                        ipsas res accesserunt et estimaverunt ut supra. (S.) <persName
+                            key="#Commutatio #Witness #Judge"><name ref="Teutius"
+                            >Teuzo</name></persName>
+                        <rs key="#Judge">iudex</rs> Sacri Palacii subscripsi. (S.) <persName
+                            key="#Commutatio #Witness #Judge"><name ref="Petrus"
+                            >Petrus</name></persName> iudex Sacri Palacii subscripsi. (S.) <persName
+                            key="#Commutatio #Witness #Judge"><name ref="Eribertus"
+                            >Eribertus</name></persName> iudex Sacri Palacii subscripsi. (S.)
+                            <persName key="#Commutatio #Witness #Judge"><name ref="Anto"
+                            >Anto</name></persName> iudex Sacri Palacii subscripsi. Signum manus
+                        Albericus filius Eimericus testis. (S.) <persName
+                            key="#Commutatio #Writer #Witness #Notary #Judge"><name ref="Alpertus"
+                                >Alipertus</name></persName>
+                        <rs key="#Notary">notarius</rs> et iudex Sacri Palacii per data licencia
+                        predicto Adelberto comes rogatus scripsi post tradita complevi et dedi. </ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>CDP I n. 9, pp. 80-82 </p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p>Bertolini 1960; Fumagalli 1971; Rinaldi 2003.</p>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
