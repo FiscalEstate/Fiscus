@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Biblioteca Apostolica Vaticana, Vat. Lat. 3833, f. 86r (Deusdedit, nr.
+                    188)</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc20</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">Literary sources</rs>
+                            <rs type="record_source" ref="#">Original document</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property">yes</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate notBefore="0741" notAfter="0752">
+                                <note type="displayed_date">741-752</note>
+                                <note type="dating_elements"></note>
+                                <note type="topical_date"></note>
+                                <note type="redaction_date">1083-1087</note>
+                             </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                   <place></place>
+                </listPlace>
+            <listPerson>
+                <person></person>
+            </listPerson>
+              </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change who="dinternullo" when="2021-01-14">creation of record</change>
+           <change when="2021-01-17" who="dinternullo"/>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>
+                        <persName key="#Popes" ref="#people/69">Zacharias</persName>
+                        <rs key="#Popes">pontifex</rs> accepit a <persName key="#Emperor/king"><name
+                                ref="Constantinus">Constantino [V]</name></persName>
+                        <rs key="#Emperor/king">principe</rs>
+                        <rs key="#Imperial/royal_diploma">donationem in scriptis</rs> perpetuo iuri
+                        Romanae aecclesiae <rs key="#Massae">de duabus massis</rs>, quae <geogName
+                            key="#Massae #Fiscal_property #Object #Inflow #Gift" ref="#estates/108"
+                                ><placeName key="#Massae #Fiscal_property #Object #Inflow #Gift"
+                                ref="#places/137">Nymphas</placeName></geogName> et <geogName
+                            key="#Massae #Fiscal_property #Object #Inflow #Gift" ref="#estates/109"
+                                ><placeName key="#Massae #Fiscal_property #Object #Inflow #Gift"
+                                ref="#places/138">Normias</placeName></geogName> appellantur, quae
+                        iuris publici erant. Huius temporibus <persName><name ref="Theodorus"
+                                >Theodorus</name></persName> filius <persName><name
+                                ref="Megistus Catacsanti">Megesti Catacsanti</name></persName> dedit
+                        beato Petro apostolo patrimonium suum situm .V. miliario ab <placeName
+                            ref="#places/52" key="#Cities">hac Romana urbe</placeName> via
+                        Tyburtina, quod <rs key="#Domuscultae">domusculta</rs>
+                        <geogName key="#Domuscultae #Fiscal_property #Object #Inflow #Gift"
+                            ref="#estates/117"><placeName
+                                key="#Domuscultae #Fiscal_property #Object #Inflow #Gift"
+                                ref="#places/159">sanctae Ceciliae</placeName></geogName> dicitur.
+                        Hic constituit aliam <rs key="#Domuscultae">domumcultam</rs>
+                        <geogName key="#Domuscultae #Fiscal_property #Object" ref="#estates/118"
+                                ><placeName key="#Domuscultae #Fiscal_property #Object"
+                                ref="#places/136">.XIIII. miliario</placeName>
+                        </geogName><placeName ref="#places/52" key="#Cities">ab urbe
+                            Roma</placeName>
+                        <rs key="#Patrimonium">patrimoniae</rs>
+                        <geogName key="#Patrimonium" ref="#estates/103">Tusciae</geogName>, obligans
+                        eandem perpetuo usui Romanae aecclesiae, et <rs key="#Domuscultae"
+                            >domumcultam</rs>
+                        <geogName key="#Domuscultae #Fiscal_property #Object" ref="#estates/119"
+                                ><placeName key="#Domuscultae #Fiscal_property #Object"
+                                ref="#places/160">Lauretum</placeName></geogName> et <rs
+                            key="#Massae">massam</rs>
+                        <geogName key="#Massae #Fiscal_property #Object" ref="#estates/120"
+                                ><placeName key="#Massae #Fiscal_property #Object" ref="#places/300"
+                                >Fontinianam</placeName>, quae dicitur Paonaria</geogName>, et <rs
+                            key="#Massae">massas</rs>, quae vocantur <geogName
+                            key="#Massae #Fiscal_property #Object" ref="#estates/157"><placeName
+                                key="#Massae #Fiscal_property #Object" ref="#places/301"
+                                >Antius</placeName></geogName> et <geogName
+                            key="#Massae #Fiscal_property #Object" ref="#estates/158"><placeName
+                                key="#Massae #Fiscal_property #Object" ref="#places/302"
+                                >Formias</placeName></geogName>, beato Petro acquisivit.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p> Deusdedit, Collectio Canonum, nr. 188, p. 351</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p><ref corresp="https://digi.vatlib.it/view/MSS_Vat.lat.3833">https://digi.vatlib.it/view/MSS_Vat.lat.3833</ref></p>
+            </div>
+            <div type="commentary">
+                <p>Estratti dal <foreign>Liber Pontificalis</foreign>, 
+                    come si evince anche dalla rubrica a margine di f. 85v:
+                    <foreign>ex Romano pontificali</foreign>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>
