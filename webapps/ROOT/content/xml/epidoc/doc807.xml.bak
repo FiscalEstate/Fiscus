@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Archivio di Stato di Parma, Diplomatico, Atti privati (Drei, <foreign>Le
+                        carte</foreign> III/2, n. 687, pp. 515-6)</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus
+                        Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc807</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Judicial breve</rs>
+                            <rs type="record_source" ref="#">Document summary</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property"/>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="1190-10-23">
+                                <note type="displayed_date">1190 October 23</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Reggio Emilia, <foreign>in palacio domini
+                                        episcopi in porticu novo</foreign></note>
+                                <note type="redaction_date"/>
+                             </origDate>
+                            <origPlace>Sanctus Sixtus; monasterium (Piacenza)</origPlace>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-02-08" who="ltabarrini">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>Ego <persName key="#Bishops" ref="#people/163">Petrus</persName>
+                        <placeName ref="#places/191" key="#Bishops">Regimus</placeName>
+                        <rs key="#Bishops">episcopus</rs> ex delegatione domini <rs key="#Popes"
+                            >pape</rs> Innocentii cognitor litis quam faciebat dominus <persName
+                            ref="#people/16" key="#Abbots">Gandulfus</persName>
+                        <rs key="#Abbots">abbas</rs>
+                        <orgName ref="#juridical_persons/53" key="#Monasteries">Sancti
+                            Sisti</orgName> de <placeName ref="#places/43">Placentia</placeName>
+                        nomine dicti <rs key="#Monasteries">monasterii</rs> que talis erat. Petebat
+                        namque dictus abbas a <rs key="#Potestas">potestate</rs> Cremonensium a
+                            <orgName ref="#juridical_persons/99"
+                            key="#Local_institutions #City_authorities #Potestas">comuni <placeName
+                                ref="#places/58"
+                                key="#Local_institutions #City_authorities #Potestas"
+                                >Cremone</placeName></orgName> restitutionem possessionis <rs
+                            key="#Landed_possessions #Districtio">duarum partium</rs>
+                        <geogName ref="#estates/40"
+                            key="#Curtes #Landed_possessions #Fortifications #Districtio">castri et
+                            curtis <placeName ref="#places/33">Guarstalle</placeName></geogName> cum
+                        plena iurisdictione que ablata fuit predicto monesterio, item petebat idem
+                        abbas a predicto comuni aliam <rs key="#Landed_possessions #Districtio"
+                            >tertiam partem eiusdem curtis et castri</rs> que ad ipsum monasterium
+                        pertinet. Vocatis potestate et comuni Cremone legittime ut venient ad
+                        iusticiam faciendam et eis contemnentibus et nolentibus venire dictum
+                        dominum Gandulfum pronuncio fore mittendum in possessione dictarum curtium
+                        et castri et iurisdictione earum et do <persName><name ref="Furminellus"
+                                >Furminellum</name></persName> sibi eum meum nuntium facio ut mittat
+                        dictum abbatem in possessionem dictarum, salvo iure <orgName
+                            key="#Mother_churches" ref="#juridical_persons/108"><rs
+                                key="#Mother_churches">ecclesie</rs> Regine</orgName> si quod habet
+                        in <placeName ref="#places/32">Luzaria</placeName>. Datum Regii in palacio
+                        domini episcopi in porticu novo, coram domino <persName key="#Judge"><name
+                                ref="Columbus">Columbo</name></persName>, <persName key="#Judge"
+                            >Einrico Ratalti</persName>, <persName key="#Notary #Judge"><name
+                                ref="Lombardus">Lombardo</name></persName>
+                        <rs key="#Notary">notario</rs>
+                        <rs key="#Judge">iudicibus</rs>, <persName key="#Advocatus"><name
+                                ref="Hubaldus">Ubaldo</name></persName>, <persName key="#Advocatus"
+                            >Ariberto</persName>, <persName key="#Advocatus"><name ref="Ursus"
+                                >Urso</name></persName>
+                        <rs key="#Advocatus">advocatis</rs>, <persName><name ref="Obertus"
+                                >Oberto</name></persName>, <persName>Diano Caxolo</persName>,
+                                <persName><name ref="Luca de Sancto Iermano">Luca de Sancto
+                                Iermano</name></persName>, <persName key="#Other_clerics"><name
+                                ref="Albertus de Sablono">Alberto de Sablono</name></persName>
+                        <rs key="#Other_clerics">sacerdote</rs>, <persName key="#Chaplain"><name
+                                ref="Bernardus">Bernardo</name></persName>
+                        <rs key="#Chaplain">capellano</rs>. Data e luogo. <persName key="#Notary"
+                                ><name ref="Iannellus">Ianellus</name></persName>
+                        <rs key="#Notary">notarius</rs>
+                    </ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>Drei, <foreign>Le carte</foreign> III/2, n. 687, pp. 515-6.</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>Documento che si trova in un registro di S. Sisto, conservato all'archivio di
+                    Stato di Parma (ma che gli archivisti non hanno saputo indicarmi). Copia del
+                    XIII secolo.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

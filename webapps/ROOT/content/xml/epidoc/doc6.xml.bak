@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Archivio di Stato di Parma, Diplomatico, Atti privati (Drei, <foreign>Le
+                        carte</foreign> III/2, n. 677, pp. 510-511)</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2020">2020</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc6</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2020"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">Cartula</rs>
+                            <rs type="record_source" ref="#">Document summary</rs>
+                            <rs type="document_tradition" ref="#"></rs>
+                            <rs type="fiscal_property">Yes</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="1190-07-26">
+                                <note type="displayed_date">1190 July 26</note>
+                                <note type="dating_elements"></note>
+                                <note type="topical_date">Piacenza, in claustro Sancti Sisti</note>
+                                <note type="redaction_date"/>
+                             </origDate>
+                            <origPlace>Sanctus Sixtus; monasterium (Piacenza)</origPlace>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                   <place></place>
+                </listPlace>
+            <listPerson>
+                <person></person>
+            </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change who="ltabarrini" when="2020-12-21">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab> Die iovis, VII kal. agusti, in claustro <orgName
+                            ref="#juridical_persons/53">Sancti
+                            Sisti</orgName>. <persName>Ercarius Ferrarius</persName> et
+                            <persName>Robertus filii</persName> quondam <persName
+                            >Roberti Ferrarii</persName> atque <persName>Iohannes</persName>
+                        et <persName>Gerardus Obertus</persName> atque <persName
+                            >Bernardus Ferrarius</persName> inter se consentientes fecerunt finem et
+                        datum domino <persName key="#Abbots" ref="#people/16"
+                            >Gandulfo</persName>
+                        <rs key="#Abbots">abbati</rs> Sancti Sisti de <rs key="#Landed_possessions"
+                            >XXV iugeris terre</rs> posite ad <placeName
+                            key="#Curtes #Landed_possessions #Fiscal_property #Textual_occurrence #Object #Purchase"
+                            ref="#places/14"><geogName
+                                ref="#estates/76"
+                                key="#Curtes #Fiscal_property #Textual_occurrence #Object #Inflow #Purchase"
+                                >Cotreviam</geogName></placeName> que ab eodem monesterio tenebant.
+                        Gerardus vero et Obertus Iohannes et Bernardus fecerunt hanc finem quia
+                        receperunt <rs key="#Feudum">cambium de feudo</rs> eorum comuni quod tenent
+                            <rs key="#Local_elites">a dominis de Arcellis</rs>, nominatim pro his
+                        XXV iugeris ab Ercario et Roberto Ferrario. Et pro hac fine Ercarius et
+                        Robertus acceperunt a domino Gandulfo CXVI libras Placentinas. Actum cum
+                        stipulatione anno MCXC, indictione VIII. Testes: <persName key="#witness"
+                            >Obertus filius domini Oberti de Porta</persName>, <persName
+                            >magister Petrus de Castro Arquato</persName>, <persName
+                            >Pelegrinus de Marracio</persName>, <persName>Carpinus</persName>
+                        et <persName>Gualengus Belengarius</persName>. <persName
+                            key="#notary">Petrus Lachetta</persName>
+                        <rs key="#Notary">notarius</rs></ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>Drei, <foreign>Le carte</foreign> III/2, no. 677, pp. 510-1</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p>Zaninoni 2001</p>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+           
+        </body>
+    </text>
+</TEI>
