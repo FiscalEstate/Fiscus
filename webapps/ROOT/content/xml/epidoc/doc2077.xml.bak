@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Roma, Biblioteca Vaticana, Cod. Barb. lat. 2724, cc. 208r-210r
+                        (<foreign>Chronicon Vulturnense</foreign>, II, n. 132)</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc2077</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">-Placitum/iudicatum</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property">Uncertain</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0980-08">
+                                <note type="displayed_date">980 August</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Benevento</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-11-05" who="gzornetta">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine Domini. <date>Anno tricesimo septimo principatus domni <persName
+                                key="#Princeps" ref="#people/157">Pandulfi</persName> gloriosi <rs
+                                key="#Princeps">principis</rs>, et duodecimo anno principatus domni
+                                <persName key="#Princeps" ref="#people/167">Landolfi</persName>
+                            magni principis filio eius, mense augusto, ottava indiccione</date>.
+                        Memoratorium factum a nobis <persName key="#Prevosts #Priests"
+                            ref="#people/2407">Sadi</persName>, venerabili <rs key="#Priests"
+                            >presbitero</rs> atque <rs key="#Prevosts">preposito</rs>
+                        <rs key="#Monasteries">monasterio</rs>
+                        <orgName key="#Monasteries #Abbots" ref="#juridical_persons/1900">Sancti
+                            Vincencii</orgName>, situs supra fontem <placeName key="#Rivers"
+                            ref="#places/609">Vulturni</placeName>
+                        <rs key="#Rivers">fluminis</rs> mecum habentem <persName key="#Advocatus"
+                            ref="#people/1972">Audoaldus</persName>
+                        <rs key="#Advocatus">advocatorem</rs> ipsius monasterii, de hoc quod in
+                        sacratissimo archiepiscopio Sancte Beneventane Sedis, ante presenciam domni
+                            <persName key="#Archbishops" ref="#people/1977">Landolfi</persName>
+                        almifici <rs key="#Archbishops">archiepiscopi</rs> eiusdem sedis, ubi coram
+                        eo presencia residebat <persName key="#Gastaldus/vicegastaldus"
+                            ref="#people/2403">Ludovicus</persName>, et <persName
+                            key="#Gastaldus/vicegastaldus #Judge" ref="#people/2404"
+                            >Dauferi</persName>
+                        <rs key="#Gastaldus/vicegastaldus">gastaldeus</rs> atque <rs key="#Judge"
+                            >iudex</rs> eiusdem <placeName
+                            key="#Cities #Assembly #Judge #Gastaldus/vicegastaldus"
+                            ref="#places/110">Beneventane</placeName>
+                        <rs key="#Cities">civitatis</rs>, ibique adessent <persName
+                            key="#Gastaldus/vicegastaldus #Witness" ref="#people/2405"
+                            >Dauferi</persName>
+                        <rs key="#Gastaldus/vicegastaldus">gastaldeus</rs>, et <persName
+                            key="#Count #Witness" ref="#people/2406">Adelmari</persName>
+                        <rs key="#Count #Witness">comes</rs>, et <persName key="#Witness"><name
+                                ref="Radelchis">Radelchis</name></persName>
+                        <rs key="#Assembly">aliosque</rs> nobiles <rs key="#Witness">testes</rs>,
+                        adiuncximus nos in iudicio cum <persName><name ref="Falco"
+                            >Falco</name></persName> filio <persName key="#Bishops"><name
+                                ref="Dardanus Iohannes">Dardani</name></persName>
+                        <rs key="#Bishops">episcopi</rs>, qui et Iohannes vocatur, commorantes de
+                            <rs key="#Cities">civitate</rs>
+                        <placeName key="#Cities" ref="#places/554">Lisine</placeName>; et dum
+                        coniuncti fuissemus, ideo ostendimus ei una scripcione, que est <rs
+                            key="#Placitum/iudicatum">iudicato</rs> continentes inter cetera,
+                        quomodo presencia <persName><name key="#Judge" ref="Maio"
+                            >Maionis</name></persName>
+                        <rs key="#Judge">iudicis</rs>, qui aderant ante vestigia supradicti domni
+                        Pandulfi gloriosi principis, venerat domnus <persName key="#Abbots"
+                            ref="#people/1955">Paulus</persName>
+                        <rs key="#Abbots">abbas</rs> ipsius monasterii, erga se habentem <persName
+                            key="#Advocatus #Notary" ref="#people/2408">Iaquintum</persName>
+                        <rs key="#Notary">notarium</rs>
+                        <rs key="#Advocatus">advocatorem</rs> predicti monasterii; ex parte enim
+                        altera venerat ipse prenominatus Falco, adversus quem ipse supradictus
+                        domnus Paulus abbas cum predicto suo advocatore, ostenderat sex scripciones
+                        ipsius monasterii, que supradicta gloriosa potestas per ordinem relegere
+                        fecerat. Prima ex ipse scripciones continebat, quomodo his dictus domnus
+                        Paulus abbas una cum <persName key="#Other_clerics #Notary #Advocatus"
+                            ref="#people/2401">Madelfrid</persName>
+                        <rs key="#Other_clerics">clericus</rs> et <rs key="#Notary">notarius</rs>
+                        atque scriba, <rs key="#Advocatus">advocatore</rs> predicti monasterii, in
+                        sacratissimo Beneventano <rs>palacio</rs>, presencia supradicti domni
+                        Pandulfi eximii principis, ubi ante eum aderant <persName key="#Judge"
+                            ref="#people/1978">Pando</persName>
+                        <rs key="#Judge">iudici</rs>, e talios <rs key="#Assembly">eius
+                            magnates</rs>, coniuncxerat se ad legem cum ipso qui supra Falco, et
+                                <persName><name ref="Pao">Paone</name></persName> germani filii
+                        quondam Iohannis episcopi, et causaverat cum eis, dicendo: ut a plures annos
+                        tenerent ipsis <rs key="#Churches">ecclesia</rs>
+                        <orgName
+                            key="#Churches #Landed_possessions #Wine #Fisheries #Fish #Mills #Castle #Houses #Curtes #Slave #Slave_labour"
+                            ref="#juridical_persons/1927">Sancti Iohannis</orgName> in finibus
+                        eiusdem civitatis Lisine, ubi dicitur Caldole cum <rs
+                            key="#Landed_possessions">terris</rs> et <rs key="#Wine">vineis</rs>, et
+                        muricetis suis, et ipsa foce de <placeName key="#Fisheries #Fish"
+                            ref="#places/2827">Sancto Focato</placeName> cum pertinenciis suis, et
+                            <rs key="#Fisheries #Fish">piscaciones</rs> suas, et cum ipso <rs
+                            key="#Rivers">fluvio</rs>
+                        <placeName key="#Rivers #Fisheries #Fish" ref="#places/2828"
+                            >Sagri</placeName>, cum <rs key="#Fisheries #Fish">piscacione</rs>, et
+                        cum pertinenciis suis, et cum aliis omnibus aquis, et pertinenciis suis, et
+                        cum <rs key="#Castle">castellis</rs>, et <rs key="#Houses">casis</rs>, et
+                            <rs key="#Curtes">curtis</rs> suis, quante intus eadem civitate Lisine,
+                        et a foras eadem civitate Lisine pertinerent iam dicti sui monasterii; et
+                        cum ipsum castellum, qui est supra ipsum montem supradicte ecclesie cum
+                        pertinenciis suis, et <rs key="#Slave #Slave_labour">servos</rs>, et
+                        ancillas pertinentes eiusdem ecclesie, et cum ipso <rs key="#Mills"
+                            >molino</rs>, et pertinenciis suis, qui est edificato in <rs
+                                key="#Rivers #Mills">fluvio</rs>
+                        <placeName key="#Rivers" ref="#places/685">Caldole</placeName>; et ille illud eorum
+                        contrasse; ob quam causam ab eis quesierat responsum audire, et legaliter
+                        inde cum eis finem facere eo quod dicebat per scripciones totum illud
+                        tenerent a parte ipsius monasterii. Quo audientes illi responderunt illorum,
+                        et dixerunt ut ostenderent eorum scripciones, quas dicebant inde habere, eo
+                        quod iam completum essent ipsum constitutum, quod illis eos tenere
+                        debuissent. Illi autem dixerunt, ut ipse scripciones habere non poterent, ut
+                        eis ostendere valeret. Ad hec supradicta gloriosa potestas dum taliter eodem
+                        Falconem et Paonem germani dicentes audissent, dixit illis, ut guadiam
+                        darent inter se et ponerent mediatorem, ut ubi illi redirent in
+                        civitate Lisine et inquirerent, et si invenire poterent ipse scripciones,
+                        quod exinde dicebant habuisse, coniungerent se cum parte predicti
+                        monasterii, et sic facerent inde finem secundum legem. Illi autem dixerunt
+                        ut nullo modo ipse scripciones habere poterant. Insuper voluntarie sue
+                        remiserant ad partem iam dicti monasterii habendum supradicta ecclesia
+                        Sancti Iohannis, et castellum, et vineis, et terris, et ipsa foce de Sancto
+                        Focato cum pertinenciis suis, et piscaciones suas cum ipso fluvio Sagri cum
+                        pertinenciis suis, et cum ipsis omnibus aliis aquis, curtis, casis, intus
+                        eadem civitate Lisine, et a foras eadem civitate pertinentes eiusdem
+                        monasterii, et ipsis servis, et ancillis cum ipso molino, sicut illum in
+                        integrum remiserant ad partem ipsius monasterii habendum, quomodo illud
+                        dixerant a parte eiusdem monasterii usque tando tenerent, de quibus per
+                        bonam <rs key="#Convenentia">convenienciam</rs> obligaverat 
+                        se iam dictus Falco, et Pao cum suis
+                        heredibus superius dicto domno Paulo venerabili abbati, et successoribus
+                        suis, seu ad partem ipsius monasterii, et illius homini, qui a parte eiusdem
+                        inde tenuerit. Quod si aliquando adveniente tempore ipsis, aut illorum
+                        heredibus cum eo, aut cum successoribus suis, vel cum parte eiusdem
+                        monasterii causare, aut contendere quesierint per qualiscumque inventa
+                        racione, volendum inde eis tollere, vel minuare; aut si aliqua intencione
+                        inde eis preponeret presumpserit, vel si aliqua scripcione inde eis
+                        ostenserit, trecentos solidos Constantinos ad partem ipsius monasterii
+                        componere obligavit et in antea exinde taciti permaneret. et ipse alie
+                        scripciones in ipso iudicio relecte fuerant, sicut in eodem iudicato
+                        continere videtur. Cum autem predicte scripciones per ordinem, ante
+                        supradicta potestas, relecte fuissent tunc ipse donnus Paulus venerabilis
+                        abbas contra predictum Falconem causaverat, dicendo, ut postquam cum
+                        predicto Paone germano suo se manifestasset, et conclusisset de supradicta
+                        ecclesia Sancti Iohannis, et de omnibus rebus, quas supra legitur, postea
+                        illud contrasset eidem domnus abbas, et ad partem ipsius monasterii,
+                        et unde ipse Falco manifestaverat, dicendo: ut ea omnia supradicta ei, nec
+                        ad partem ipsius monasterii numquam contrasse. Insuper voluntarie sue cepit
+                        se manifestare, et dicere, ut predicte scripciones, que ipse domnus Paulus
+                        abbas ostenserat, in omnibus, sicut continunt, veritose essent, et de
+                        omnibus supradictis rebus, et substanciis, seu de continenciis, et
+                        pertinenciis suis, que ipse scripciones continunt, nullam ei pertinerent, et
+                        non haberent scripcionem, nec racionem, per quam ille, vel heredes suos de
+                        omnibus supradictis rebus causare, aut contendere posset; et obligaverat se,
+                        et suis heredibus ipsius domnus abbas, et ad partem ipsius monasterii,
+                        quatenus semper inde taciti permanerent, et nec per scripciones, nec per
+                        hereditacionem, nec per possessionem, nec per nullam inventa racione
+                        adversus ipsum domnus Paulum abbatem, vel eius successoribus, nec ad partem
+                        ipsius monasterii inde causare, non quererent per pena obligata solidos
+                        mille bisantos, et cetera que in eodem iudicato legitur, scriptum eodem
+                        iudicato per <persName key="#Notary"><name
+                            ref="Iohannes">Iohannem</name></persName> <rs key="#Notary">notarium</rs>, 
+                        qui interfuerant in <date>anno tricesimo quarto
+                        principatus supradicti domni Pandulfi gloriosi principis, et octavo anno
+                        principatus domni Landolfi filii eius, mense septembrio, quinta indiccione</date>;
+                        et ibi sunt roborati supradictus Maio iudex, et Audoaldus, et <persName key="#Witness #Count"><name
+                            ref="Pandolfus">Pandolfus</name></persName>
+                            <rs key="#Count">comes</rs>, et <persName key="#Witness"><name
+                            ref="Nantarius">Nantari</name></persName>. Cumque iam dicto iudicato ostenso, et coram predicto
+                        domno Landolfo almifico archiepiscopo, et coram ipsis iudicibus, ceterisque
+                        viris ibi astantibus, relectum fuissent in auribus predicti Falconis: tunc
+                        ego prenominatus Sadi venerabilis presbiter, adque prepositus, una cum
+                        predicto advocatorem meum causavimus contra eum dicentes, ut vos
+                        contradiceretis ipsum iudicatum, et omnia, que continet ipsum iudicatum, ut
+                        diceretis falsum esse, et non veritosum. Ad hec interrogavit eum ipse domnus
+                        archiepiscopus, et ipsi iudices, quid inde dicerent. Ille autem cum hec
+                        audissent, voluntarie manifestavit, et dixit, ut ipsum iudicatum in omnibus
+                        sicut continet veritosum esse, et eum contradicere nullo modo valeret.
+                        Insuper voluntarie sue obligavit se, et suis heredibus, ut si aliquando
+                        tempore per quolibet ingenium, aut humana astucia ipsum iudicatum irritum
+                        facere quesierit, aut contradiceret omnia, que continet ipsum iudicatum, aut
+                        si hoc retornare, seu removere voluerit, centum libras auri ipse, et suos
+                        heredes ad partem ipsius monasterii Sancti Vincencii, eiusque abbatibus,
+                        atque rectoribus componere obligavit penam [...] seu illius homini, qui hec
+                        scripcione, pro parte ipsius monasterii, illorum ostenderit, et in antea
+                        omni tempore exinde taciti permaneamus. Ego <persName key="#Notary"><name
+                                ref="Balsamus">Balsamus</name></persName>
+                        <rs key="#Notary">notarius</rs> interfui et scripsi in eodem sacratissimo
+                            <orgName ref="#juridical_persons/1913">archiepiscopio
+                            Beneventano</orgName>. Ego qui supra Ludovicus. Ego qui supra Dauferi me
+                        subscripsi. Ego qui supra Radelchis me subscripsi. Ego qui supra
+                        Teudelgrimus. Ego qui supra Adelmari comite. Ego qui supra Dauferi. Ego
+                            <persName key="#Witness"><name ref="Guisenolfus"
+                            >Guisenolfus</name></persName>. Ego <persName key="#Witness"><name
+                                ref="Madelfrit">Madelfrit</name></persName>. Ego <persName
+                            key="#Witness"><name ref="Gondelgardus"
+                        >Gondelgardus</name></persName>.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>CV II, n. 132, pp. 186-190</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

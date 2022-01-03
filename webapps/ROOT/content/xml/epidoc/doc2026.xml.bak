@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Roma, Biblioteca Vaticana, Cod. Barb. lat. 2724, cc. 105v-106r
+                        (<foreign>Chronicon Vulturnense</foreign>, I, n. 57)</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc2026</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property">Yes</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0833-08">
+                                <note type="displayed_date">833 August</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Benevento</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-07-15" who="gzornetta">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine domini Dei salvatoris Iesu Christi. Nos <rs
+                            key="#Vir_gloriosus/vir_sublimis">vir gloriosissimus</rs>
+                        <persName key="#Princeps #Vir_gloriosus/vir_sublimis" ref="#people/186"
+                            >Sicardus</persName>, Dei providencia, Beneventane provincie <rs
+                            key="#Princeps">princeps</rs>, per rogum <persName
+                            key="#Intercessory #Other_palatine_officer" ref="#people/1905"
+                            >Roffrid</persName>, <rs key="#Other_palatine_officer">referendarii</rs>
+                        nostri, firmamus in <rs key="#Monasteries">monasterio</rs>
+                        <orgName
+                            key="#Monasteries #Abbots #Churches #Landed_possessions #Slave_labour #Slave"
+                            ref="#juridical_persons/1900">Beatissimi Vincencii</orgName>, ubi
+                            <rs>venerabilis vir</rs>
+                        <persName key="#Abbots" ref="#people/1903">Epyphanius</persName>
+                        <rs key="#Abbots">abbas</rs>, orator noster, preesse videtur, <rs
+                            key="#Churches">ecclesiam</rs>
+                        <orgName key="#Churches #Landed_possessions" ref="#juridical_persons/1903"
+                            >Sancti Secundini</orgName>, cum integris suis <rs
+                            key="#Landed_possessions">pertinenciis</rs>, <rs key="#Fines"
+                            >finibus</rs>
+                        <geogName key="#Fines #Churches #Landed_possessions" ref="#estates/1907"
+                            >Acerentinis</geogName>, quam <persName key="#Bishops"
+                            ref="#people/1904">Petrus</persName>
+                        <rs key="#Bishops">episcopus</rs> per suam offercionem ibidem dedit; seu et
+                        confirmamus in predicto cenobio <rs
+                            key="#Landed_possessions #Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Allocation_to_churches"
+                            >substanciam</rs>
+                        <persName key="#Landed_possessions"><name ref="Iohannes"
+                            >Iohannis</name></persName> et <persName key="#Landed_possessions"><name
+                                ref="Radoaldus">Radoaldi</name></persName>, filii <persName><name
+                                ref="Pico">Piconis</name></persName>; et substanciam <persName
+                            key="#Landed_possessions"><name ref="Ermelgrimus"
+                            >Ermelgrimi</name></persName>, filio <persName><name ref="Ratepertus"
+                                >Rapperti</name></persName>; tam et <persName
+                            key="#Landed_possessions"><name ref="Stephanus"
+                            >Stephani</name></persName>, filii <persName><name ref="Paldo"
+                                >Paldonis</name></persName>; simulque et <persName
+                            key="#Landed_possessions"><name ref="Truppoaldus"
+                            >Truppoaldi</name></persName>, filii <persName><name ref="Andreas"
+                                >Andree</name></persName>; quam et substaticiam <persName
+                            key="#Landed_possessions"><name ref="Ragibertus"
+                            >Ragimberti</name></persName>, <persName key="#Landed_possessions"><name
+                                ref="Radoaldus">Radoald</name></persName>, filii <persName><name
+                                ref="Radipertus">Radiperti</name></persName>; et substanciam
+                            <persName key="#Landed_possessions"><name ref="Trasmundus"
+                                >Trasemundi</name></persName>, filio <persName><name ref="Lupinus"
+                                >Lupini</name></persName>, que vestro monasterio date sunt; simulque
+                        inibi confirmamus omnes <rs
+                            key="#Fiscal_property #Textual_occurrence #Function #Redistributive #Outflow #Allocation_to_churches #Slave_labour #Slave"
+                            >servos et ancillas</rs> eorum, cum filiis, filiabus, cum nuris et
+                        nepotibus, et cum universis cespitibus eorum in iam dicto monasterio
+                        confirmamus, omnia possidenda in integrum, qualiter pro culpa, meritis
+                        eorum, <rs
+                            key="#Fiscal_property #Textual_occurrence #Mention #Inflow #Inheritance #Confiscation"
+                            >ad sacrum nostrum palacium evenire</rs> debuerunt. in ea videlicet
+                        racione, ut a modo et deinceps, per hoc nostrum roboratum preceptum, cuncta,
+                        ut superius leguntur, rectores eiusdem cenobii securiter habere et possidere
+                        valeant, et a nullis ex nostris iudicibus, idest comitibus, gastaldeis, vel
+                        a quibuscumque agentibus habeant aliquam requisicionem, sed perpetuis
+                        temporibus possideant. Quod vero <rs key="#Marquis’/ducal/princely_diploma"
+                            >preceptum</rs> firmitatis, ex iussione suprascripte potestatis, scripsi
+                        ego <persName key="#Notary"><name ref="Leo">Leo</name></persName>
+                        <rs key="#Notary">notarius</rs>. <date>Actum <placeName key="#Palatium"
+                                ref="#places/110">Benevento</placeName>, in <rs key="#Palatium"
+                                >sacro palacio</rs>, primo anno, mense augusto, undecima
+                            indiccione</date>, feliciter.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>CV I, n. 57, pp. 292-293; Voigt 1902: n. 44</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

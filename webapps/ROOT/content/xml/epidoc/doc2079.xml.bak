@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Roma, Biblioteca Vaticana, Cod. Barb. lat. 2724, cc. 178r-178v
+                        (<foreign>Chronicon Vulturnense</foreign>, II, n. 106)</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc2079</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">-Papal concession</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property">Uncertain</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0944-03">
+                                <note type="displayed_date">944 March</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Roma</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-12-06" who="gzornetta">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab><persName key="#Popes" ref="#people/300">Marinus</persName>
+                        <rs key="#Popes">episcopus</rs> servus servorum Dei. <persName key="#Abbots"
+                            ref="#people/1939">Leoni</persName> venerabili <rs key="#Abbots"
+                            >abbati</rs> ex <rs key="#Monasteries">monasterio</rs>
+                        <orgName key="#Monasteries #Abbots" ref="#juridical_persons/1900">Christi
+                            martyris Vincencii</orgName>, quod situm est in partibus Samnie,
+                        territorio <geogName key="#Monasteries #Abbots" ref="#estates/1902"
+                            >Beneventano</geogName>, super fontem <placeName key="#Rivers"
+                            ref="#places/609">Vulturni</placeName>
+                        <rs key="#Rivers">fluminis</rs>, et per te cunctis successoribus tuis in
+                        eodem venerabili monasterio regulariter promovendis in perpetuum. Quoniam
+                        pia sollicitudine convenit nos, pro universis Dei ecclesiis, semper
+                        invigilare, et tota mentis intencione venerabilium locorum integritates
+                        procurare, ideo utilitati illorum, et maxime pro quiete monachorum, optamus
+                        subsidia conferre, ut divine misericordie remuneracionem in sidereis arcibus
+                        consequamur. Igitur quia petistis a nobis, ut monasterium Beati Vincencii
+                        martyris, una cum omnibus sibi pertinentibus, monasteriis, cellis,
+                        cappellis, terris et castellis, servis et ancillis, cum universis
+                        reddiccionibus suis sub iurisdicione sancte Romane Ecclesie, cui Deo auctore
+                        deservimus, nostri privilegii auctoritate muniremus, iccirco tibi, tuisque
+                        successoribus legitimis abbatibus illud <rs key="#Papal_concession"
+                            >concedimus</rs> detinendum, ut nullius alterius ecclesie dicionibus
+                        submittatur, sed cum omnibus sibi subiectis monasteriis, et cellis,
+                        videlicet <rs key="#Monasteries">monasterium</rs>
+                        <orgName key="#Monasteries" ref="#juridical_persons/1922">Beati Petri
+                            apostoli</orgName>, positum iuxta <rs key="#Rivers">fluvium</rs>
+                        <placeName key="#Rivers" ref="#places/2348">Sabbati</placeName>, territorio
+                        iam dicto Beneventano; <rs key="#Monasteries">monasterium</rs> <orgName key="#Monasteries" ref="#juridical_persons/1901">Sancte Dei
+                            genitricis Marie</orgName> in <placeName key="#Monasteries"
+                                ref="#places/2301">Loco Sano</placeName>; <rs key="#Monasteries">monasterium</rs>
+                        <orgName key="#Monasteries" ref="#juridical_persons/1912">Domini
+                            Salvùtoris</orgName>, quod positum est in <placeName key="#Monasteries"
+                            ref="#places/112">Alife</placeName>; <rs key="#Monasteries"
+                            >monasterium</rs>
+                        <orgName key="#Monasteries" ref="#juridical_persons/1940">Sancte
+                            Marie</orgName> in loco Apinianici, territorio Marsicano; <rs
+                            key="#Monasteries">monasterium</rs>
+                        <orgName key="#Monasteries" ref="#juridical_persons/1956">Sancte
+                            Marie</orgName> in Duas Basilicas; <rs key="#Monasteries"
+                            >monasterium</rs>
+                        <orgName key="#Monasteries" ref="#juridical_persons/1908">Sancte
+                            Marie</orgName> in Castanieto; <rs key="#Monasteries">monasterium</rs>
+                        <orgName key="#Monasteries" ref="#juridical_persons/2306">Sancte
+                            Marie</orgName> in <placeName key="#Monasteries" ref="#places/2829"
+                            >Palene</placeName>, territorio Domo; <rs key="#Monasteries"
+                            >monasterium</rs>
+                        <orgName key="#Monasteries" ref="#juridical_persons/1928">Sancte
+                            Marie</orgName> in <placeName key="#Monasteries" ref="#places/2352"
+                            >Planisi</placeName>; <rs key="#Monasteries">monasterium</rs>
+                        <orgName key="#Monasteries #Casalia" ref="#juridical_persons/1929">Sancti
+                            Petri</orgName> in Vipera, cum ipso <rs key="#Casalia">casale</rs>
+                        <geogName key="#Casalia" ref="#estates/1917">Leonis</geogName>; <rs
+                            key="#Monasteries">monasterium</rs>
+                        <orgName key="#Monasteries" ref="#juridical_persons/1937">Sancti
+                            Petri</orgName> in Tontole; <rs key="#Monasteries">monasterium</rs>
+                        <orgName key="#Monasteries" ref="#juridical_persons/1967">Sancti
+                            Petri</orgName> in <placeName key="#Monasteries" ref="#places/2357"
+                            >Trite</placeName>; <rs key="#Monasteries">monasterium</rs>
+                        <orgName key="#Monasteries" ref="#juridical_persons/1974">Sancte
+                            Marie</orgName> in Musano; <rs key="#Monasteries">monasterium</rs>
+                        <orgName key="#Monasteries" ref="#juridical_persons/2307">Sancte
+                            Marie</orgName> in <placeName key="#Monasteries" ref="#places/2806"
+                            >Arole</placeName>; <rs key="#Monasteries">monasterium</rs>
+                        <orgName key="#Monasteries" ref="#juridical_persons/1925">Sancti
+                            Georgii</orgName> in <placeName key="#Monasteries" ref="#places/84"
+                            >Salerno</placeName>; <rs key="#Monasteries">monasterium</rs>
+                        <orgName key="#Monasteries" ref="#juridical_persons/1909">Sancti
+                            Vincencii</orgName> in <placeName key="#Monasteries" ref="#places/173"
+                            >Capua</placeName>; <rs key="#Monasteries">monasterium</rs>
+                        <orgName key="#Monasteries" ref="#juridical_persons/1918">Sancti Martini</orgName>, et <rs
+                            key="#Monasteries">monasterium</rs>
+                        <orgName key="#Monasteries" ref="#juridical_persons/1919">Sancte Crucis</orgName> in <placeName
+                            key="#Monasteries" ref="#places/2345">monte Marsico</placeName>; <rs key="#Monasteries"
+                            >monasterium</rs>
+                        <orgName key="#Monasteries" ref="#juridical_persons/1938">Sancte Columbe</orgName> in
+                        <placeName key="#Monasteries" ref="#places/2001">Sora</placeName>; <rs key="#Monasteries"
+                            >monasterium</rs>
+                        <orgName key="#Monasteries" ref="#juridical_persons/2309">Sancti Mauri, et Sancti Valentini</orgName> in <placeName
+                            key="#Monasteries" ref="#places/705">Atine</placeName>; <rs key="#Monasteries"
+                            >monasterium</rs>
+                        <orgName key="#Monasteries" ref="#juridical_persons/2308">Sancti Donati</orgName>, cum inclita
+                        <placeName key="#Monasteries" ref="#places/2819">valle Sorana</placeName>: et hec omnia cum
+                        omnibus sibi iure pertinentibus rebus sub tutela Sedis Apostolice
+                        permaneant. Concedimus eciam vobis vestrisque successoribus abbatibus
+                        licenciam Apostolice Sedis nostre, ut quamlibet Christianitatem indigentibus
+                        in predicto venerabili monasterio, qualis episcopus ad invitandum ire
+                        volueritis, habeatis omnimodo potestatem. similiter ad ecclesias
+                        consecrandas, et ordinacionem de sacerdotibus, et diaconibus per tempora
+                        faciendam, et de omni gradu ibidem adimplendum. Protestamus eciam, ut nullus
+                        episcopus debeat exinde sacerdotem, vel diaconem ad suam synodum provocare,
+                        nisi sua fuerit propria voluntas; aut abbatem, vel monachos quoquomodo
+                        iudicare, vel excommunicare. Volumus eciam, et apostolicam iniungimus
+                        auctoritatem vobis vestrisque suprascriptis abbatibus, ut de qualicumque
+                        ecclesia sacerdotes, vel clericos si venerint ad habitandum in congregacione
+                        fratrum, sive monasticum suscipiendi habitum se contulerint, statim
+                        recipiantur. chrisma vero et firmatas a quali episcopo vobis voluntas fuerit
+                        impetrandi, liceat semper, secundum quod diximus, sub apostolica nostra
+                        potestate. et omnem cuiuslibet ecclesie sacerdotem in prefato venerabili
+                        monasterio quamlibet dicionem habere, preter Sedem Apostolicam prohibemus,
+                        ita ut nisi ab abbate monasterii fuerit invitatus, nec missarum sollempnia
+                        ibidem celebrare presumat. statuentes apostolica insuper censura, sub divini
+                        iudicii obtestacione, sed et validis atque atrocioribus anathematis
+                        interdiccionibus prohibemus, ut nullus umquam presumat cuiuscumque
+                        dignitatis preditus potestate, vel in eodem venerabili monasterio, vel eius
+                        causis incumbere, aut de rebus, et possessionibus, vel ecclesiis subiectis,
+                        vel quicquid de his, que eius esse videntur, quoquomodo auferre, aut
+                        alienare, sed nec quamlibet maliciam, aut iacture molestiam ibidem, sive
+                        pacis, sive barbarici temporis aliquo modo inferre, dum prefatum perenniter,
+                        ut dictum est, monasterium firma stabilitate decernimus sub iurisdicione
+                        Sancte Romane Ecclesie permanendum. promulgantes nempe, et hoc auctoritate
+                        beati Petri apostolorum principis. coram Deo, et eius terribili examine, per
+                        huius nostri privilegii constitucione sancimus ac decernimus, ut loca, que a
+                        quolibet episcopo, vel abbate commutata sunt, nec non et diversorum locorum
+                        possessiones, que a regibus, ducibus, principibus, castaldeis, et a ceteris
+                        christianis concessa, largita, vel oblata sunt in eodem sancto et venerabili
+                        loco, aut in postmodum concessa, vel oblata fuerint, ipsius iure monasterii
+                        in perpetuum permanenda statuimus. nec licencia sit, ut dictum est, ex eius,
+                        vel omnibus eiusdem monasterii pertinentibus cuiquam, magne parveque persone
+                        auferre, ut pro recto, iuxta id, quod subiectum idem venerabile monasterium
+                        apostolicis constitutis, atque privilegiis consistit, inconcusse permaneat.
+                        et liceat eosdem monachos de sua congregacione abbatem semper eligere; et
+                        liceat ipsi abbati suos monachos iudicare, non solum virile, sed et muliebre
+                        monasterium sibi subiectum. Si quis autem, quod non obtamus, nefario ausu
+                        presumpserit hec que a nobis ad laudem Dei nostri pro stabilitate iam dicti
+                        venerabiiis monasterii statuta sunt, refragare, aut in quoquam transilire
+                        voluerit, anathematis vinculo innodatus, et cum diabolo et angelis eius,
+                        atque Iuda traditore domini nostri Iesu Christi eterno incendio concremandus
+                        deputetur. at vero qui pio intuitu observator in omnibus extiterit,
+                        custodiens huius nostri privilegii constitutum ad cultum Dei respicientem,
+                        benediccionis graciam a domino Deo nostro misericordissimo multipliciter
+                        consequatur, et vite eterne particeps fieri mereatur. Bene Valete. Scriptum
+                        per manum <persName key="#Scriniarius"><name ref="Adrianus"
+                            >Adriani</name></persName>, <rs key="#Scriniarius">scriniarii</rs>
+                        Sancte Romane Ecclesie, in mense marcio, indiccione .IIa. <date>Data per
+                            manum <persName key="#Papal_court_officer"><name ref="Stephanus"
+                                    >Stephanii</name></persName>, <rs key="#Papal_court_officer"
+                                >primicerii</rs> defensorum summe Apostolice Sedis, anno
+                            pontificatus domni Marini summi pontificis secundi secundo in
+                            sacratissima Sede beati Petri apostoli</date>. </ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>CV II, n. 106, pp. 103-109</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

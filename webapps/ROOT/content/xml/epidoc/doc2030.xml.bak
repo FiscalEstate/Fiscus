@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Roma, Biblioteca Vaticana, Cod. Barb. lat. 2724, cc. 115v-116r
+                        (<foreign>Chronicon Vulturnense</foreign>, I, n. 67)</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc2030</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property">Yes</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate notAfter="0774">
+                                <note type="displayed_date">ante 774</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Benevento</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-07-15" who="gzornetta">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine domini Dei et salvatoris nostri Iesu Christi. Concessimus nos <rs
+                            key="#Vir_gloriosus/vir_sublimis">gloriosissimus</rs> domnus Grimoald,
+                        summus <rs key="#Marquis/duke">dux</rs> gentis Longobardorum, tibi Iohanni,
+                            <rs key="#Abbots">abbati</rs>
+                        <orgName key="#Monasteries #Abbots #Casalia #Coloni/tenants"
+                            ref="#juridical_persons/1900">Christi martiris Vincencii</orgName>
+                        <rs key="#Monasteries">monasterii</rs>, <rs key="#Casalia">casalem</rs>
+                        nomine <geogName
+                            key="#Casalia #Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Allocation_to_churches #Coloni/tenants"
+                            ref="#estates/1908">Casa Summi</geogName>, qui fuit de <persName
+                            key="#Coloni/tenants"><name ref="Vitalianus">Vitaliano</name></persName>
+                        <rs key="#Coloni/tenants">colono</rs> nostro, quatenus ab hac die habeatis
+                        et possideatis, et a nullo quemquam homine numquam habeatis aliquam
+                        questionem aut reprehensionem, sed, sicut superius diximus, perpetuis
+                        temporibus securi valeatis possidere ipsum supranominatum casale. Quam vero
+                        membrana concessionis dictavi ego <persName
+                            key="#Subdeacons #Professional_writer"><name ref="Wizo"
+                            >Vuiso</name></persName>
+                        <rs key="#Subdeacons">subdiaconus,</rs> ex iussione suprascripte potestatis,
+                        tibi <persName key="#Notary"><name ref="Pergoaldus"
+                            >Pergoaldo</name></persName>
+                        <rs key="#Notary">notario</rs> scribendum. <date>Actum <placeName
+                                key="#Palatium" ref="#places/110">Benevento</placeName>, in <rs
+                                key="#Palatium">palacio</rs>, mense augusti, per indiccione
+                            prima</date>, feliciter.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>CV I, n. 67, pp. 319-320; CDL IV/2, n. 46, pp. 154-157; Voigt 1902: n. 29</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p>Zielinski 2003: 127-128</p>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>This document is a transcript of an authentic preceptum from the ducal period of
+                    the chancery of Benevento and contains mutilations and interpolations. The
+                    interpolations refer to the names of Prince Grimoald and Abbot John. According
+                    to Zielinski,  the praeceptum may have been issued by Arechis and date back to
+                    763, during the abbacy of John I (CDL VI/2, p. 156).</p>
+            </div>
+        </body>
+    </text>
+</TEI>

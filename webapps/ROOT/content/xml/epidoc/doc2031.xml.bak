@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Roma, Biblioteca Vaticana, Cod. Barb. lat. 2724, cc. 116r-v
+                        (<foreign>Chronicon Vulturnense</foreign>, I, n. 68)</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc2031</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property">Uncertain</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0858-04">
+                                <note type="displayed_date">858 April</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Salerno</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-07-18" who="gzornetta">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine Domini. <date>Quinto anno principatus domni nostri Ademari, mense
+                            aprilis, sexta indiccione</date>. Ideoque ego supradictus domnus
+                            <persName key="#Princeps" ref="#people/1913">Ademari</persName>
+                        <rs key="#Princeps">princeps</rs> declaro quia intencionem habuit nobiscum
+                            <persName key="#Prevosts" ref="#people/1916">Artefusus</persName>, <rs
+                            key="#Prevosts">prepositus</rs> maior, et <persName ref="#people/1925"
+                            >Cumprando</persName>, manipulus maior, qui pertinentes sunt in <rs
+                            key="#Monasteries">monasterio</rs>
+                        <orgName key="#Monasteries #Abbots" ref="#juridical_persons/1900">Sancti
+                            Vincencii</orgName>, ubi nunc domnus <persName key="#Abbots"
+                            ref="#people/1915">Iohannes</persName> humilis <rs key="#Abbots"
+                            >abbas</rs> regimen tenere videtur, de quarta illa, quam domnus
+                            <persName ref="#people/1914">Petrus</persName>, genitor meus, emisit ac
+                        dedit, et de <rs key="#Casae/cassinae_massaricie">casis</rs> et de <rs
+                            key="#Curtes">curte</rs>, et <rs key="#Churches">ecclesia</rs> atque
+                        edificiis, que sunt infra <rs key="#Cities">civitate</rs>
+                        <placeName
+                            key="#Cities #Curtes #Casae/cassinae_massaricie #Churches #Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Allocation_to_churches"
+                            ref="#places/84">Salernitana</placeName>, ubi predictus genitor meus et
+                        ipsa <persName ref="#people/1912">Audperga</persName> usque ad diem obitus
+                        sui residentes fuerunt, et dum per partes <rs key="#Convenentia"
+                            >conveniencie</rs> mihi eundem relaxasti quantum in vestro monasterio
+                        per ipsa Audperga eundem fuit pertinentem et scriptum mihi inde emisistis.
+                        Propterea ego nominatus domnus Ademari princeps, per hoc scriptum, trado
+                        vobis Artefuso et Cuniprando, in parte vestri monasterii habendum, <rs
+                            key="#Casae/cassinae_massaricie">casa</rs> cum <rs key="#Storage_units"
+                            >sedimen</rs>, et sedimen et <rs key="#Curtes">curtem</rs> suam, infra
+                        civitatem novam <placeName
+                            key="#Curtes #Casae/cassinae_massaricie #Landed_possessions #Storage_units #Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Allocation_to_churches"
+                            ref="#places/84">Salernitanam</placeName> quam emptam habeo a filiis
+                                <persName><name ref="Ursus">Ursi</name></persName>, et est ipsa casa
+                        in longitudine pedes quadraginta octo, et in latitudine pedes quadraginta
+                        tres, scepto inde ipsa casa lignicicia, nam illo alio cum ipsa casa
+                        fabritta, et cum finis et mensuris, et cum curte et andito suo in integrum,
+                        in parte conveniencie vobis <rs key="#Offersio/donatio">tradidi</rs> ad pars
+                        supradicti monasterii securiter habenda, ea racione, ut amodo et semper vos
+                        nominati et posteri vestri predictam casam et <rs key="#Landed_possessions"
+                            >terram</rs>, qualiter superius legitur, in predicto vestro monasterio
+                        habere et possidere valeatis, de qua me repromitto et heredes meos obligo
+                        vobis et ad posteros vestros supradictam terram et casam ab omnes homines in
+                        antestare et defendere quod si non potuerimus, aut si nos ipsi forsitan per
+                        quodlibet ingenium retornare quesierimus, ante omnia a parte nostra,
+                        secundum legem, sacramenta vobis inde fiant persolta, ut nostro non fiat
+                        colludio, et ferquidam terrain et casas cum suis edificiis in eadem civitate
+                        vobis dare promittimus, qualis ista nostra dacione in illo die paruerit.
+                        Quod tibi <persName key="#Notary"><name ref="Rageprandus"
+                            >Ragemprando</name></persName>
+                        <rs key="#Notary">notario</rs> scribere iussimus. <date>Actum <placeName
+                                key="#Palatium" ref="#places/84">Salerno</placeName>, in sacro <rs
+                                key="#Palatium">palacio</rs>, mense et indiccione
+                            suprascripta</date>, feliciter.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>CV I, n. 68, pp. 320-321</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

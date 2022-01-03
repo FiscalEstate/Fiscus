@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Roma, Biblioteca Vaticana, Cod. Barb. lat. 2724, cc. 92r-v
+                        (<foreign>Chronicon Vulturnense</foreign>, I, n. 36)</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc2025</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Offersio/donatio</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property">Yes</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0815-09">
+                                <note type="displayed_date">815 September</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date"/>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-07-06" who="gzornetta">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine Domini. <date>Temporibus domni nostri viri
+                                precellentissimi
+                            <persName ref="#people/2000" key="#Princeps">Grimoaldi</persName>, Dei
+                            providencia, Beneventane provincie <rs key="#Princeps">principis</rs>,
+                            mense septembris, VIIII. indiccione</date>. Ideoque ego <persName
+                            ref="#people/1902">Alahis</persName>, filius bone memorie
+                                <persName><name ref="Arichis">Arichis</name></persName>, benigno
+                        desiderio, pro me redepmcione anime, per hanc meam <rs
+                            key="#Offersio/donatio">chartulam conscripcionis</rs>, offero in <rs
+                                key="#Monasteries #Abbots #Landed_possessions #Slave_labour #Slave #Forests #Horses #Pigs #Goats #Cow #Sheep #Fruits/vegetables #Curtes #Houses #Casae/cassinae_massaricie">monasterio</rs>
+                        <orgName ref="#juridical_persons/1900" key="#Monasteries #Abbots">Beati
+                            Vincencii</orgName>, ubi Deo favente, <persName ref="#people/2001"
+                            key="#Abbots">Iosue</persName>
+                        <rs key="#Abbots">abbas</rs> preest, omnes <rs key="#Landed_possessions"
+                            >rebus</rs> substancie mee, que habeo in <rs key="#Fines">finibus</rs>
+                        <geogName key="#Fines #Landed_possessions" ref="#estates/1902"
+                            >Benevento</geogName> et in <geogName key="#Fines #Landed_possessions"
+                            ref="#estates/1903">Salerno</geogName>; et rem meam quam habeo non longe
+                        ab <rs key="#Churches">ecclesia</rs>
+                        <orgName key="#Churches" ref="#juridical_persons/1902">Sancti
+                            Medici</orgName>, ubi <placeName key="#Churches #Landed_possessions"
+                            ref="#places/2306">Forano</placeName> dicitur, vel que cetera nomina ibi
+                        vocatur, queque michi ibi a singulis hominibus datum fuit; simulque et <rs
+                            key="#Landed_possessions">rem</rs> meam quam habeo in <rs key="#Fines"
+                            >finibus</rs>
+                        <geogName key="#Fines #Landed_possessions" ref="#estates/1906"
+                            >Capue</geogName>, seu et in <geogName key="#Fines #Landed_possessions"
+                            ref="#estates/1904">Telesinis</geogName> et <geogName
+                            key="#Fines #Landed_possessions" ref="#estates/1905">Alifanis</geogName>
+                        <rs key="#Fines">finibus</rs>; simulque et <rs key="#Forests">silvam</rs>
+                        meam, que vocatur <placeName
+                            key="#Landed_possessions #Forests #Fiscal_property #Textual_occurrence #Mention #Function #Exceptive #Outflow #Allocation_to_individuals"
+                            ref="#places/2307">Silva Nigra</placeName>, cum <rs
+                            key="#Landed_possessions">terra vacua</rs> in integrum, quam a parte
+                        bone memorie domni <persName ref="#people/373">Grimoaldi</persName>
+                        concessam habui; nec non et <rs key="#Mills">molinum</rs> meum in <placeName
+                            key="#Rivers #Mills #Oil" ref="#places/2305">Teonsa</placeName> in
+                        integrum, cum <rs key="#Oil">oliveto</rs> quem a singulos homines comparatum
+                        et cambiatum habui; quam et insimul in prefato cenobio optuli omnes <rs
+                            key="#Slave_labour #Slave">servos et ancillas</rs> meas, cum cespitibus
+                        et conquisitibus eorum; simulque et <rs key="#Houses"
+                            >casas</rs> meas in civitatibus, tam in veteri Benevento quam et in
+                            <placeName key="#Cities #Houses #Fruits/vegetables"
+                            ref="#places/84">Salerno</placeName> cum <rs key="#Fruits/vegetables"
+                            >berzario</rs>; et intus hanc <placeName
+                            key="#Cities #Houses #Fruits/vegetables"
+                            ref="#places/110">Beneventum</placeName>
+                        <rs key="#Cities">civitatem</rs>, tam de iuri parentum quam et quod ego emi,
+                        quam et ipsam <rs key="#Casae/cassinae_massaricie">casam novam</rs> quam ego
+                        condidi, <rs key="#Curtes">casam cum curte</rs> et <rs
+                            key="#Fruits/vegetables">berzario</rs>; quam eciam et omnia peculia mea,
+                        tam <rs key="#Horses">caballos</rs> domitos et indomitos, <rs key="#Cows"
+                            >iumenta, bacce</rs>, <rs key="#Pigs">porcos</rs>, <rs key="#Sheep"
+                            >pecudes</rs>, <rs key="#Goats">capras</rs>; quam et insimul omnem rem
+                        meam quicquid per diversa loca habeo vel habiturus fuero in iam dicto Sancti
+                        Vincencii eveniant monasterio possidendum, sine heredum meorum vel
+                        cuiuslibet requisicione. Et hanc cartulam eo tenore <persName key="#Notary"
+                                ><name ref="Tundipertus">Tundipertum</name></persName>
+                        <rs key="#Notary">notarium</rs> scribere rogavi.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>CV I, n. 36, pp. 253-254</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
