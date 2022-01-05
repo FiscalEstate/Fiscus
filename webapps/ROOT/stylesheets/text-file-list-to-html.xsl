@@ -7,20 +7,9 @@
     <table class="tablesorter">
       <thead>
         <tr>
-          <!-- Let us assume that all texts have a filename, ID, and
-               title. -->
           <th>ID</th>
-          <!--<th>ID</th>-->
           <th>Title</th>
-          <!--<xsl:if test="result/doc/arr[@name='author']/str">
-            <th>Author</th>
-          </xsl:if>
-          <xsl:if test="result/doc/arr[@name='editor']/str">
-            <th>Editor</th>
-          </xsl:if>
-          <xsl:if test="result/doc/str[@name='publication_date']">
-            <th>Publication Date</th>
-          </xsl:if>-->
+          <th>Date</th>
         </tr>
       </thead>
       <tbody>
@@ -48,11 +37,8 @@
   <xsl:template match="result/doc" mode="text-index">
     <tr>
       <xsl:apply-templates mode="text-index" select="str[@name='file_path']" />
-      <!--<xsl:apply-templates mode="text-index" select="str[@name='document_id']" />-->
       <xsl:apply-templates mode="text-index" select="arr[@name='document_title']" />
-      <!--<xsl:apply-templates mode="text-index" select="arr[@name='author']" />
-      <xsl:apply-templates mode="text-index" select="arr[@name='editor']" />
-      <xsl:apply-templates mode="text-index" select="str[@name='publication_date']" />-->
+      <xsl:apply-templates mode="text-index" select="str[@name='document_date']" />
     </tr>
   </xsl:template>
 
@@ -73,15 +59,7 @@
     <td><xsl:value-of select="string-join(str, '; ')" /></td>
   </xsl:template>
 
-  <xsl:template match="arr[@name='author']" mode="text-index">
-    <td><xsl:value-of select="string-join(str, '; ')" /></td>
-  </xsl:template>
-
-  <xsl:template match="arr[@name='editor']" mode="text-index">
-    <td><xsl:value-of select="string-join(str, '; ')" /></td>
-  </xsl:template>
-
-  <xsl:template match="str[@name='publication_date']">
+  <xsl:template match="str[@name='document_date']" mode="text-index">
     <td><xsl:value-of select="." /></td>
   </xsl:template>
 

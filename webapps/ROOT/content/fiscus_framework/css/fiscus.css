@@ -317,7 +317,13 @@ ab orgName { background-color: #ffe6e6; }
 ab geogName { background-color: #ccffcc; }
 ab date { background-color: #ffccff; }
     
-ab placeName:before {
+ab date:before {
+        content:  "WHEN: " 
+         oxy_editor(type, text, edit, "@when", columns, 10);
+        display:inline;
+    }
+    
+    ab placeName:before {
         content:  "KEY: " 
         oxy_editor(type, popupSelection, edit, "@key", editable, false,
              values, oxy_concat("#", oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/thesaurus.xml'), '")/TEI/teiHeader/encodingDesc/classDecl/taxonomy[@xml:id="thesaurus"]//category/catDesc/@n, ",#")'))),
