@@ -4,6 +4,20 @@
                 xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
   <xsl:template match="response/result" mode="text-index">
+    <!-- scrolling down button -->
+    <button type="button" onclick="topFunction()" id="scroll" title="Go to top">⬆  </button>
+    <script type="text/javascript">
+      mybutton = document.getElementById("scroll");
+      window.onscroll = function() {scrollFunction()};
+      function scrollFunction() {
+      if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) { mybutton.style.display = "block"; }
+      else { mybutton.style.display = "none"; }
+      }
+      function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+      }
+    </script>
     <table class="index tablesorter" style="width:100%">
       <thead>
         <tr style="height:3em">

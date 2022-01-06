@@ -114,6 +114,20 @@
 
   <!-- Display search results. -->
   <xsl:template match="response/result" mode="search-results">
+    <!-- scrolling down button -->
+    <button type="button" onclick="topFunction()" id="scroll" title="Go to top">⬆  </button>
+    <script type="text/javascript">
+      mybutton = document.getElementById("scroll");
+      window.onscroll = function() {scrollFunction()};
+      function scrollFunction() {
+      if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) { mybutton.style.display = "block"; }
+      else { mybutton.style.display = "none"; }
+      }
+      function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+      }
+    </script>
     <xsl:choose>
       <xsl:when test="number(@numFound) = 0">
         <h3>No results found</h3>
