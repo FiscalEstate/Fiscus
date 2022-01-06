@@ -103,11 +103,13 @@
         </xsl:when>
       </xsl:choose>
     </xsl:variable>
-    <li>
-      <a href="{$result-url}">
-        <xsl:value-of select="concat(substring-after(replace(str[@name='document_id'], ' ', ''), 'doc'), '. ', arr[@name='document_title']/str[1])" />
-      </a>
-    </li>
+    
+    <tr style="height:3em">
+      <td><a href="{$result-url}"><xsl:value-of select="substring-after(replace(str[@name='document_id'], ' ', ''), 'doc')" /></a></td>
+      <td><xsl:value-of select="arr[@name='document_title']/str[1]" /></td>
+      <td><xsl:value-of select="str[@name='document_date']"/>
+      </td>
+    </tr>
   </xsl:template>
 
   <!-- Display search results. -->
@@ -117,18 +119,45 @@
         <h3>No results found</h3>
       </xsl:when>
       <xsl:when test="doc">
-        <ul>
+        <h3>Results</h3>
+        <table class="tablesorter" style="width:100%">
+          <thead>
+            <tr style="height:3em">
+              <th>ID</th>
+              <th>Title</th>
+              <th style="width:13em">Date</th>
+            </tr>
+          </thead>
+          <tbody>
           <xsl:apply-templates mode="search-results" select="doc">
             <xsl:sort>
               <xsl:variable name="id" select="substring-after(replace(str[@name='document_id'], ' ', ''), 'doc')"/>
-              <xsl:choose>
-                <xsl:when test="string-length($id) = 1"><xsl:value-of select="concat('000',$id)"/></xsl:when>
-                <xsl:when test="string-length($id) = 2"><xsl:value-of select="concat('00',$id)"/></xsl:when>
-                <xsl:when test="string-length($id) = 3"><xsl:value-of select="concat('0',$id)"/></xsl:when>
-                <xsl:otherwise><xsl:value-of select="$id"/></xsl:otherwise>
-              </xsl:choose></xsl:sort>
+              <xsl:variable name="sorted-id">
+                <xsl:choose>
+                  <xsl:when test="string-length($id) = 1"><xsl:value-of select="concat('000',$id)"/></xsl:when>
+                  <xsl:when test="string-length($id) = 2"><xsl:value-of select="concat('00',$id)"/></xsl:when>
+                  <xsl:when test="string-length($id) = 3"><xsl:value-of select="concat('0',$id)"/></xsl:when>
+                  <xsl:otherwise><xsl:value-of select="$id"/></xsl:otherwise>
+                </xsl:choose>
+              </xsl:variable>
+              <xsl:variable name="sort-date">
+                <xsl:choose>
+                  <xsl:when test="contains(str[@name='document_date'], ' –')"><xsl:value-of select="substring-before(str[@name='document_date'], ' –')" /></xsl:when>
+                  <xsl:otherwise><xsl:value-of select="str[@name='document_date']" /></xsl:otherwise>
+                </xsl:choose>
+              </xsl:variable>
+              <xsl:variable name="sorted-date">
+                <xsl:choose>
+                  <xsl:when test="not(contains($sort-date, '-'))"><xsl:value-of select="concat($sort-date, '-01-01')"/></xsl:when>
+                  <xsl:when test="contains($sort-date, '-') and not(contains(substring-after($sort-date, '-'), '-'))"><xsl:value-of select="concat($sort-date, '-01')"/></xsl:when>
+                  <xsl:when test="contains($sort-date, '-') and contains(substring-after($sort-date, '-'), '-')"><xsl:value-of select="$sort-date"/></xsl:when>
+                </xsl:choose>
+              </xsl:variable>
+              <xsl:value-of select="$sorted-date"/>
+            </xsl:sort>
           </xsl:apply-templates>
-        </ul>
+          </tbody>
+        </table>
 
         <xsl:call-template name="add-results-pagination" />
       </xsl:when>
