@@ -100,33 +100,12 @@
   
   <xsl:template match="tei:origDate" mode="facet_document_date">
     <field name="document_date">
-      <!--<xsl:variable name="when">
-        <xsl:choose>
-          <xsl:when test="starts-with(@when, '0')"><xsl:value-of select="substring-after(@when, '0')"/></xsl:when>
-          <xsl:otherwise><xsl:value-of select="@when"/></xsl:otherwise>
-        </xsl:choose>
-      </xsl:variable>
-      <xsl:variable name="notBefore">
-        <xsl:choose>
-          <xsl:when test="starts-with(@notBefore, '0')"><xsl:value-of select="substring-after(@notBefore, '0')"/></xsl:when>
-          <xsl:otherwise><xsl:value-of select="@notBefore"/></xsl:otherwise>
-        </xsl:choose>
-      </xsl:variable>
-      <xsl:variable name="notAfter">
-        <xsl:choose>
-          <xsl:when test="starts-with(@notAfter, '0')"><xsl:value-of select="substring-after(@notAfter, '0')"/></xsl:when>
-          <xsl:otherwise><xsl:value-of select="@notAfter"/></xsl:otherwise>
-        </xsl:choose>
-      </xsl:variable>
-      <xsl:choose>
-        <xsl:when test="@when and not(@notBefore) and not(@notAfter)"><xsl:value-of select="$when"/></xsl:when>
-        <xsl:when test="@notBefore or @notAfter and not(@when)"><xsl:value-of select="concat($notBefore, ' – ', $notAfter)"/></xsl:when>
-        <xsl:otherwise><xsl:text>-</xsl:text></xsl:otherwise>
-      </xsl:choose>-->
       <xsl:choose>
         <xsl:when test="@when and not(@notBefore) and not(@notAfter)"><xsl:value-of select="@when"/></xsl:when>
-        <xsl:when test="@notBefore or @notAfter and not(@when)"><xsl:value-of select="concat(@notBefore, ' – ', @notAfter)"/></xsl:when>
-        <xsl:otherwise><xsl:text>-</xsl:text></xsl:otherwise>
+        <xsl:when test="@notBefore and @notAfter and not(@when)"><xsl:value-of select="concat(@notBefore, ' – ', @notAfter)"/></xsl:when>
+        <xsl:when test="@notBefore and not(@notAfter) and not(@when)"><xsl:value-of select="concat(@notBefore, ' – ?')"/></xsl:when>
+        <xsl:when test="@notAfter and not(@notBefore) and not(@when)"><xsl:value-of select="concat(@notAfter, '? – ', @notAfter)"/></xsl:when>
+        <xsl:otherwise><xsl:text>?</xsl:text></xsl:otherwise>
       </xsl:choose>
     </field>
   </xsl:template>
