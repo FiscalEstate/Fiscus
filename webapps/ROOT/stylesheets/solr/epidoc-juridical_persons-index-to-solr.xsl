@@ -175,20 +175,24 @@
                 <xsl:value-of select="substring-after($key, 'juridical_persons/')"/><xsl:text>#</xsl:text>
                 <xsl:apply-templates mode="italics" select="$juridical_persons/tei:org[child::tei:idno=$key][1]/tei:orgName[1]"/><xsl:text>@</xsl:text>
                 <xsl:variable name="subtype">
-                  <xsl:choose>
-                    <xsl:when test="$links[contains(concat(@corresp, ' '), concat($key, ' '))][@subtype!='']">
-                      <xsl:value-of select="$links[contains(concat(@corresp, ' '), concat($key, ' '))]/@subtype"/></xsl:when>
-                    <xsl:when test="$all_items/tei:*[child::tei:idno=$key][1]/tei:link[contains(concat(translate(@corresp, '#', ''), ' '), concat($idno, ' '))][@subtype!='']">
-                      <xsl:variable name="reverse" select="$all_items/tei:*[child::tei:idno=$key][1]/tei:link[contains(concat(translate(@corresp, '#', ''), ' '), concat($idno, ' '))]/@subtype"/>
-                      <xsl:choose>
-                        <xsl:when test="$thesaurus//tei:catDesc[@n=$reverse][@corresp!='']"><xsl:value-of select="$thesaurus//tei:catDesc[@n=$reverse]/@corresp"/></xsl:when>
-                        <xsl:when test="$link_subtypes//tei:catDesc[@n=$reverse][@corresp!='']"><xsl:value-of select="$link_subtypes//tei:catDesc[@n=$reverse]/@corresp"/></xsl:when>
-                        <xsl:otherwise><xsl:text>reverse link of: </xsl:text><xsl:value-of select="$reverse"/></xsl:otherwise>
-                      </xsl:choose>
-                    </xsl:when>
-                  </xsl:choose>
+                    <xsl:if test="$links[contains(concat(@corresp, ' '), concat($key, ' '))][@subtype!='']">
+                      <xsl:value-of select="$links[contains(concat(@corresp, ' '), concat($key, ' '))]/@subtype"/></xsl:if>
+                  <xsl:if test="$links[contains(concat(@corresp, ' '), concat($key, ' '))][@subtype!=''] and $all_items/tei:*[child::tei:idno=$key][1]/tei:link[contains(concat(translate(@corresp, '#', ''), ' '), concat($idno, ' '))][@subtype!='']">
+                    <xsl:text> </xsl:text>
+                  </xsl:if>
+                    <xsl:if test="$all_items/tei:*[child::tei:idno=$key][1]/tei:link[contains(concat(translate(@corresp, '#', ''), ' '), concat($idno, ' '))][@subtype!='']">
+                      <xsl:for-each select="$all_items/tei:*[child::tei:idno=$key][1]/tei:link[contains(concat(translate(@corresp, '#', ''), ' '), concat($idno, ' '))]/@subtype">
+                        <xsl:variable name="reverse" select="."/>
+                        <xsl:choose>
+                          <xsl:when test="$thesaurus//tei:catDesc[@n=$reverse][@corresp!='']"><xsl:value-of select="$thesaurus//tei:catDesc[@n=$reverse]/@corresp"/></xsl:when>
+                          <xsl:when test="$link_subtypes//tei:catDesc[@n=$reverse][@corresp!='']"><xsl:value-of select="$link_subtypes//tei:catDesc[@n=$reverse]/@corresp"/></xsl:when>
+                          <xsl:otherwise><xsl:text>reverse_of_</xsl:text><xsl:value-of select="$reverse"/></xsl:otherwise>
+                        </xsl:choose>
+                        <xsl:if test="position()!=last()"><xsl:text> </xsl:text></xsl:if>
+                      </xsl:for-each>
+                    </xsl:if>
                 </xsl:variable>
-                <xsl:if test="$subtype!=''"><xsl:text> (</xsl:text><xsl:value-of select="replace(replace(lower-case(replace($subtype, '([a-z]{1})([A-Z]{1})', '$1_$2')), '#', ''), '_', ' ')"/><xsl:text>)</xsl:text></xsl:if>
+                <xsl:if test="$subtype!=''"><xsl:text> (</xsl:text><xsl:value-of select="replace(replace(replace(lower-case(replace($subtype, '([a-z]{1})([A-Z]{1})', '$1_$2')), '#', ''), ' ', ', '), '_', ' ')"/><xsl:text>)</xsl:text></xsl:if>
                 <xsl:if test="$links[contains(concat(@corresp, ' '), concat($key, ' '))][@cert='low'] or $all_items/tei:*[child::tei:idno=$key][1]/tei:link[contains(concat(translate(@corresp, '#', ''), ' '), concat($idno, ' '))][@cert='low']"><xsl:text> [</xsl:text>from uncertain tradition<xsl:text>]</xsl:text></xsl:if>
                 <xsl:if test="position()!=last()"><xsl:text>£</xsl:text></xsl:if>
               </xsl:for-each>
@@ -201,20 +205,24 @@
                 <xsl:value-of select="substring-after($key, 'estates/')"/><xsl:text>#</xsl:text>
                 <xsl:apply-templates mode="italics" select="$estates/tei:place[child::tei:idno=$key][1]/tei:geogName[1]"/><xsl:text>@</xsl:text>
                 <xsl:variable name="subtype">
-                  <xsl:choose>
-                    <xsl:when test="$links[contains(concat(@corresp, ' '), concat($key, ' '))][@subtype!='']">
-                      <xsl:value-of select="$links[contains(concat(@corresp, ' '), concat($key, ' '))]/@subtype"/></xsl:when>
-                    <xsl:when test="$all_items/tei:*[child::tei:idno=$key]/tei:link[contains(concat(translate(@corresp, '#', ''), ' '), concat($idno, ' '))][@subtype!='']">
-                      <xsl:variable name="reverse" select="$all_items/tei:*[child::tei:idno=$key][1]/tei:link[contains(concat(translate(@corresp, '#', ''), ' '), concat($idno, ' '))]/@subtype"/>
-                      <xsl:choose>
-                        <xsl:when test="$thesaurus//tei:catDesc[@n=$reverse][@corresp!='']"><xsl:value-of select="$thesaurus//tei:catDesc[@n=$reverse]/@corresp"/></xsl:when>
-                        <xsl:when test="$link_subtypes//tei:catDesc[@n=$reverse][@corresp!='']"><xsl:value-of select="$link_subtypes//tei:catDesc[@n=$reverse]/@corresp"/></xsl:when>
-                        <xsl:otherwise><xsl:text>reverse link of: </xsl:text><xsl:value-of select="$reverse"/></xsl:otherwise>
-                      </xsl:choose>
-                    </xsl:when>
-                  </xsl:choose>
+                    <xsl:if test="$links[contains(concat(@corresp, ' '), concat($key, ' '))][@subtype!='']">
+                      <xsl:value-of select="$links[contains(concat(@corresp, ' '), concat($key, ' '))]/@subtype"/></xsl:if>
+                  <xsl:if test="$links[contains(concat(@corresp, ' '), concat($key, ' '))][@subtype!=''] and $all_items/tei:*[child::tei:idno=$key][1]/tei:link[contains(concat(translate(@corresp, '#', ''), ' '), concat($idno, ' '))][@subtype!='']">
+                    <xsl:text> </xsl:text>
+                  </xsl:if>
+                    <xsl:if test="$all_items/tei:*[child::tei:idno=$key][1]/tei:link[contains(concat(translate(@corresp, '#', ''), ' '), concat($idno, ' '))][@subtype!='']">
+                      <xsl:for-each select="$all_items/tei:*[child::tei:idno=$key][1]/tei:link[contains(concat(translate(@corresp, '#', ''), ' '), concat($idno, ' '))]/@subtype">
+                        <xsl:variable name="reverse" select="."/>
+                        <xsl:choose>
+                          <xsl:when test="$thesaurus//tei:catDesc[@n=$reverse][@corresp!='']"><xsl:value-of select="$thesaurus//tei:catDesc[@n=$reverse]/@corresp"/></xsl:when>
+                          <xsl:when test="$link_subtypes//tei:catDesc[@n=$reverse][@corresp!='']"><xsl:value-of select="$link_subtypes//tei:catDesc[@n=$reverse]/@corresp"/></xsl:when>
+                          <xsl:otherwise><xsl:text>reverse_of_</xsl:text><xsl:value-of select="$reverse"/></xsl:otherwise>
+                        </xsl:choose>
+                        <xsl:if test="position()!=last()"><xsl:text> </xsl:text></xsl:if>
+                      </xsl:for-each>
+                    </xsl:if>
                 </xsl:variable>
-                <xsl:if test="$subtype!=''"><xsl:text> (</xsl:text><xsl:value-of select="replace(replace(lower-case(replace($subtype, '([a-z]{1})([A-Z]{1})', '$1_$2')), '#', ''), '_', ' ')"/><xsl:text>)</xsl:text></xsl:if>
+                <xsl:if test="$subtype!=''"><xsl:text> (</xsl:text><xsl:value-of select="replace(replace(replace(lower-case(replace($subtype, '([a-z]{1})([A-Z]{1})', '$1_$2')), '#', ''), ' ', ', '), '_', ' ')"/><xsl:text>)</xsl:text></xsl:if>
                 <xsl:if test="$links[contains(concat(@corresp, ' '), concat($key, ' '))][@cert='low'] or $all_items/tei:*[child::tei:idno=$key][1]/tei:link[contains(concat(translate(@corresp, '#', ''), ' '), concat($idno, ' '))][@cert='low']"><xsl:text> [</xsl:text>from uncertain tradition<xsl:text>]</xsl:text></xsl:if>
                 <xsl:if test="position()!=last()"><xsl:text>£</xsl:text></xsl:if>
               </xsl:for-each>
@@ -228,20 +236,24 @@
                 <xsl:value-of select="substring-after($key, 'places/')"/><xsl:text>#</xsl:text>
                 <xsl:apply-templates mode="italics" select="$places/tei:place[child::tei:idno=$key][1]/tei:placeName[1]"/><xsl:text>@</xsl:text>
                 <xsl:variable name="subtype">
-                  <xsl:choose>
-                    <xsl:when test="$links[contains(concat(@corresp, ' '), concat($key, ' '))][@subtype!='']">
-                      <xsl:value-of select="$links[contains(concat(@corresp, ' '), concat($key, ' '))]/@subtype"/></xsl:when>
-                    <xsl:when test="$all_items/tei:*[child::tei:idno=$key]/tei:link[contains(concat(translate(@corresp, '#', ''), ' '), concat($idno, ' '))][@subtype!='']">
-                      <xsl:variable name="reverse" select="$all_items/tei:*[child::tei:idno=$key][1]/tei:link[contains(concat(translate(@corresp, '#', ''), ' '), concat($idno, ' '))]/@subtype"/>
-                      <xsl:choose>
-                        <xsl:when test="$thesaurus//tei:catDesc[@n=$reverse][@corresp!='']"><xsl:value-of select="$thesaurus//tei:catDesc[@n=$reverse]/@corresp"/></xsl:when>
-                        <xsl:when test="$link_subtypes//tei:catDesc[@n=$reverse][@corresp!='']"><xsl:value-of select="$link_subtypes//tei:catDesc[@n=$reverse]/@corresp"/></xsl:when>
-                        <xsl:otherwise><xsl:text>reverse link of: </xsl:text><xsl:value-of select="$reverse"/></xsl:otherwise>
-                      </xsl:choose>
-                    </xsl:when>
-                  </xsl:choose>
+                    <xsl:if test="$links[contains(concat(@corresp, ' '), concat($key, ' '))][@subtype!='']">
+                      <xsl:value-of select="$links[contains(concat(@corresp, ' '), concat($key, ' '))]/@subtype"/></xsl:if>
+                  <xsl:if test="$links[contains(concat(@corresp, ' '), concat($key, ' '))][@subtype!=''] and $all_items/tei:*[child::tei:idno=$key][1]/tei:link[contains(concat(translate(@corresp, '#', ''), ' '), concat($idno, ' '))][@subtype!='']">
+                    <xsl:text> </xsl:text>
+                  </xsl:if>
+                    <xsl:if test="$all_items/tei:*[child::tei:idno=$key][1]/tei:link[contains(concat(translate(@corresp, '#', ''), ' '), concat($idno, ' '))][@subtype!='']">
+                      <xsl:for-each select="$all_items/tei:*[child::tei:idno=$key][1]/tei:link[contains(concat(translate(@corresp, '#', ''), ' '), concat($idno, ' '))]/@subtype">
+                        <xsl:variable name="reverse" select="."/>
+                        <xsl:choose>
+                          <xsl:when test="$thesaurus//tei:catDesc[@n=$reverse][@corresp!='']"><xsl:value-of select="$thesaurus//tei:catDesc[@n=$reverse]/@corresp"/></xsl:when>
+                          <xsl:when test="$link_subtypes//tei:catDesc[@n=$reverse][@corresp!='']"><xsl:value-of select="$link_subtypes//tei:catDesc[@n=$reverse]/@corresp"/></xsl:when>
+                          <xsl:otherwise><xsl:text>reverse_of_</xsl:text><xsl:value-of select="$reverse"/></xsl:otherwise>
+                        </xsl:choose>
+                        <xsl:if test="position()!=last()"><xsl:text> </xsl:text></xsl:if>
+                      </xsl:for-each>
+                    </xsl:if>
                 </xsl:variable>
-                <xsl:if test="$subtype!=''"><xsl:text> (</xsl:text><xsl:value-of select="replace(replace(lower-case(replace($subtype, '([a-z]{1})([A-Z]{1})', '$1_$2')), '#', ''), '_', ' ')"/><xsl:text>)</xsl:text></xsl:if>
+                <xsl:if test="$subtype!=''"><xsl:text> (</xsl:text><xsl:value-of select="replace(replace(replace(lower-case(replace($subtype, '([a-z]{1})([A-Z]{1})', '$1_$2')), '#', ''), ' ', ', '), '_', ' ')"/><xsl:text>)</xsl:text></xsl:if>
                 <xsl:if test="$links[contains(concat(@corresp, ' '), concat($key, ' '))][@cert='low'] or $all_items/tei:*[child::tei:idno=$key][1]/tei:link[contains(concat(translate(@corresp, '#', ''), ' '), concat($idno, ' '))][@cert='low']"><xsl:text> [</xsl:text>from uncertain tradition<xsl:text>]</xsl:text></xsl:if>
                 <xsl:text>€</xsl:text>
                 <!-- check if at least one of the linked places has coordinates, in order to display the 'see on map' button -->
@@ -257,20 +269,24 @@
                 <xsl:value-of select="substring-after($key, 'people/')"/><xsl:text>#</xsl:text>
                 <xsl:apply-templates mode="italics" select="$people/tei:person[child::tei:idno=$key][1]/tei:persName[1]"/><xsl:text>@</xsl:text>
                 <xsl:variable name="subtype">
-                  <xsl:choose>
-                    <xsl:when test="$links[contains(concat(@corresp, ' '), concat($key, ' '))][@subtype!='']">
-                      <xsl:value-of select="$links[contains(concat(@corresp, ' '), concat($key, ' '))]/@subtype"/></xsl:when>
-                    <xsl:when test="$all_items/tei:*[child::tei:idno=$key]/tei:link[contains(concat(translate(@corresp, '#', ''), ' '), concat($idno, ' '))][@subtype!='']">
-                      <xsl:variable name="reverse" select="$all_items/tei:*[child::tei:idno=$key][1]/tei:link[contains(concat(translate(@corresp, '#', ''), ' '), concat($idno, ' '))]/@subtype"/>
-                      <xsl:choose>
-                        <xsl:when test="$thesaurus//tei:catDesc[@n=$reverse][@corresp!='']"><xsl:value-of select="$thesaurus//tei:catDesc[@n=$reverse]/@corresp"/></xsl:when>
-                        <xsl:when test="$link_subtypes//tei:catDesc[@n=$reverse][@corresp!='']"><xsl:value-of select="$link_subtypes//tei:catDesc[@n=$reverse]/@corresp"/></xsl:when>
-                        <xsl:otherwise><xsl:text>reverse link of: </xsl:text><xsl:value-of select="$reverse"/></xsl:otherwise>
-                      </xsl:choose>
-                    </xsl:when>
-                  </xsl:choose>
+                    <xsl:if test="$links[contains(concat(@corresp, ' '), concat($key, ' '))][@subtype!='']">
+                      <xsl:value-of select="$links[contains(concat(@corresp, ' '), concat($key, ' '))]/@subtype"/></xsl:if>
+                  <xsl:if test="$links[contains(concat(@corresp, ' '), concat($key, ' '))][@subtype!=''] and $all_items/tei:*[child::tei:idno=$key][1]/tei:link[contains(concat(translate(@corresp, '#', ''), ' '), concat($idno, ' '))][@subtype!='']">
+                    <xsl:text> </xsl:text>
+                  </xsl:if>
+                    <xsl:if test="$all_items/tei:*[child::tei:idno=$key][1]/tei:link[contains(concat(translate(@corresp, '#', ''), ' '), concat($idno, ' '))][@subtype!='']">
+                      <xsl:for-each select="$all_items/tei:*[child::tei:idno=$key][1]/tei:link[contains(concat(translate(@corresp, '#', ''), ' '), concat($idno, ' '))]/@subtype">
+                        <xsl:variable name="reverse" select="."/>
+                        <xsl:choose>
+                          <xsl:when test="$thesaurus//tei:catDesc[@n=$reverse][@corresp!='']"><xsl:value-of select="$thesaurus//tei:catDesc[@n=$reverse]/@corresp"/></xsl:when>
+                          <xsl:when test="$link_subtypes//tei:catDesc[@n=$reverse][@corresp!='']"><xsl:value-of select="$link_subtypes//tei:catDesc[@n=$reverse]/@corresp"/></xsl:when>
+                          <xsl:otherwise><xsl:text>reverse_of_</xsl:text><xsl:value-of select="$reverse"/></xsl:otherwise>
+                        </xsl:choose>
+                        <xsl:if test="position()!=last()"><xsl:text> </xsl:text></xsl:if>
+                      </xsl:for-each>
+                    </xsl:if>
                 </xsl:variable>
-                <xsl:if test="$subtype!=''"><xsl:text> (</xsl:text><xsl:value-of select="replace(replace(lower-case(replace($subtype, '([a-z]{1})([A-Z]{1})', '$1_$2')), '#', ''), '_', ' ')"/><xsl:text>)</xsl:text></xsl:if>
+                <xsl:if test="$subtype!=''"><xsl:text> (</xsl:text><xsl:value-of select="replace(replace(replace(lower-case(replace($subtype, '([a-z]{1})([A-Z]{1})', '$1_$2')), '#', ''), ' ', ', '), '_', ' ')"/><xsl:text>)</xsl:text></xsl:if>
                 <xsl:if test="$links[contains(concat(@corresp, ' '), concat($key, ' '))][@cert='low'] or $all_items/tei:*[child::tei:idno=$key][1]/tei:link[contains(concat(translate(@corresp, '#', ''), ' '), concat($idno, ' '))][@cert='low']"><xsl:text> [</xsl:text>from uncertain tradition<xsl:text>]</xsl:text></xsl:if>
                 <xsl:if test="position()!=last()"><xsl:text>£</xsl:text></xsl:if>
               </xsl:for-each>
