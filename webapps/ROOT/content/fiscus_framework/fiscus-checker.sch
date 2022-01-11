@@ -84,6 +84,7 @@
     <pattern id="Test_links_type_values_correctness">
         <rule context="//t:link[ancestor::t:listPlace or ancestor::t:listOrg or ancestor::t:listPerson]">
             <report test="not(@type)">one or more links are without @type</report>
+            <report test="not(@subtype)">one or more links are without @subtype</report>
             <report test="not(@type='places' or @type='estates' or @type='people' or @type='juridical_persons')">one or more links have a wrong @type value</report>
         </rule>
     </pattern>
