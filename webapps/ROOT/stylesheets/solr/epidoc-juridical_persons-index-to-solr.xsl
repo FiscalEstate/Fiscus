@@ -191,6 +191,9 @@
                         <xsl:if test="position()!=last()"><xsl:text> </xsl:text></xsl:if>
                       </xsl:for-each>
                     </xsl:if>
+                  <xsl:if test="not($links[contains(concat(@corresp, ' '), concat($key, ' '))][@subtype!='']) and not($all_items/tei:*[child::tei:idno=$key][1]/tei:link[contains(concat(translate(@corresp, '#', ''), ' '), concat($idno, ' '))][@subtype!=''])">
+                    <xsl:text>linked_to_another_linked_item</xsl:text>
+                  </xsl:if>
                 </xsl:variable>
                 <xsl:if test="$subtype!=''"><xsl:text> (</xsl:text><xsl:value-of select="replace(replace(replace(lower-case(replace($subtype, '([a-z]{1})([A-Z]{1})', '$1_$2')), '#', ''), ' ', ', '), '_', ' ')"/><xsl:text>)</xsl:text></xsl:if>
                 <xsl:if test="$links[contains(concat(@corresp, ' '), concat($key, ' '))][@cert='low'] or $all_items/tei:*[child::tei:idno=$key][1]/tei:link[contains(concat(translate(@corresp, '#', ''), ' '), concat($idno, ' '))][@cert='low']"><xsl:text> [</xsl:text>from uncertain tradition<xsl:text>]</xsl:text></xsl:if>
@@ -221,6 +224,9 @@
                         <xsl:if test="position()!=last()"><xsl:text> </xsl:text></xsl:if>
                       </xsl:for-each>
                     </xsl:if>
+                  <xsl:if test="not($links[contains(concat(@corresp, ' '), concat($key, ' '))][@subtype!='']) and not($all_items/tei:*[child::tei:idno=$key][1]/tei:link[contains(concat(translate(@corresp, '#', ''), ' '), concat($idno, ' '))][@subtype!=''])">
+                    <xsl:text>linked_to_another_linked_item</xsl:text>
+                  </xsl:if>
                 </xsl:variable>
                 <xsl:if test="$subtype!=''"><xsl:text> (</xsl:text><xsl:value-of select="replace(replace(replace(lower-case(replace($subtype, '([a-z]{1})([A-Z]{1})', '$1_$2')), '#', ''), ' ', ', '), '_', ' ')"/><xsl:text>)</xsl:text></xsl:if>
                 <xsl:if test="$links[contains(concat(@corresp, ' '), concat($key, ' '))][@cert='low'] or $all_items/tei:*[child::tei:idno=$key][1]/tei:link[contains(concat(translate(@corresp, '#', ''), ' '), concat($idno, ' '))][@cert='low']"><xsl:text> [</xsl:text>from uncertain tradition<xsl:text>]</xsl:text></xsl:if>
@@ -252,6 +258,9 @@
                         <xsl:if test="position()!=last()"><xsl:text> </xsl:text></xsl:if>
                       </xsl:for-each>
                     </xsl:if>
+                  <xsl:if test="not($links[contains(concat(@corresp, ' '), concat($key, ' '))][@subtype!='']) and not($all_items/tei:*[child::tei:idno=$key][1]/tei:link[contains(concat(translate(@corresp, '#', ''), ' '), concat($idno, ' '))][@subtype!=''])">
+                    <xsl:text>linked_to_another_linked_item</xsl:text>
+                  </xsl:if>
                 </xsl:variable>
                 <xsl:if test="$subtype!=''"><xsl:text> (</xsl:text><xsl:value-of select="replace(replace(replace(lower-case(replace($subtype, '([a-z]{1})([A-Z]{1})', '$1_$2')), '#', ''), ' ', ', '), '_', ' ')"/><xsl:text>)</xsl:text></xsl:if>
                 <xsl:if test="$links[contains(concat(@corresp, ' '), concat($key, ' '))][@cert='low'] or $all_items/tei:*[child::tei:idno=$key][1]/tei:link[contains(concat(translate(@corresp, '#', ''), ' '), concat($idno, ' '))][@cert='low']"><xsl:text> [</xsl:text>from uncertain tradition<xsl:text>]</xsl:text></xsl:if>
@@ -285,6 +294,9 @@
                         <xsl:if test="position()!=last()"><xsl:text> </xsl:text></xsl:if>
                       </xsl:for-each>
                     </xsl:if>
+                  <xsl:if test="not($links[contains(concat(@corresp, ' '), concat($key, ' '))][@subtype!='']) and not($all_items/tei:*[child::tei:idno=$key][1]/tei:link[contains(concat(translate(@corresp, '#', ''), ' '), concat($idno, ' '))][@subtype!=''])">
+                    <xsl:text>linked_to_another_linked_item</xsl:text>
+                  </xsl:if>
                 </xsl:variable>
                 <xsl:if test="$subtype!=''"><xsl:text> (</xsl:text><xsl:value-of select="replace(replace(replace(lower-case(replace($subtype, '([a-z]{1})([A-Z]{1})', '$1_$2')), '#', ''), ' ', ', '), '_', ' ')"/><xsl:text>)</xsl:text></xsl:if>
                 <xsl:if test="$links[contains(concat(@corresp, ' '), concat($key, ' '))][@cert='low'] or $all_items/tei:*[child::tei:idno=$key][1]/tei:link[contains(concat(translate(@corresp, '#', ''), ' '), concat($idno, ' '))][@cert='low']"><xsl:text> [</xsl:text>from uncertain tradition<xsl:text>]</xsl:text></xsl:if>
