@@ -170,8 +170,6 @@
                         subtype="isWithin"/>
                     <link type="places" corresp="#places/131"
                         subtype="hasConnectionWith"/>
-                    <link type="places" corresp="#places/294" subtype="hasConnectionWith"/>
-                    <link type="places" corresp="#places/295" subtype="hasConnectionWith"/>
                     <link type="people" corresp="#people/150" subtype="link"/>
                     <link type="places" corresp="#places/471" subtype="hasConnectionWith"/>
                     <link type="places" corresp="#places/472" subtype="hasConnectionWith"/>
@@ -1748,8 +1746,9 @@
                     <idno>juridical_persons/231</idno>
                     <note/>
                     <link type="places" subtype="isWithin" corresp="#places/587"/>
-                    <link type="people" subtype="link" corresp="#people/151"/>
-                    <link type="juridical_persons" corresp="#juridical_persons/68" subtype="link"/>
+                    <link type="people" subtype="isHeldBy" corresp="#people/151"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/68"
+                            subtype="dependsOn"/>
                     <link type="places" corresp="#places/202" subtype="hasConnectionWith"/>
                     <link type="places" corresp="#places/586" subtype="hasConnectionWith"/>
                     <link type="places" corresp="#places/64" subtype="hasConnectionWith"/>
