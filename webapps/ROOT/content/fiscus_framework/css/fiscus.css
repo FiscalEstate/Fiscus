@@ -143,7 +143,7 @@
              )*/
              " Link type: "
              oxy_editor(type, combo, edit, "@subtype", editable, true, columns, 16,
-             values, "correspondsTo, dependsOn, isWithin, proximity, bordersOn, hasConnectionWith");
+             values, "correspondsTo, dependsOn, isWithin, proximity, bordersOn, link");
            display:block;
            padding-left:20px;
     }
@@ -157,7 +157,7 @@
              )*/
              " Link type: "
              oxy_editor(type, combo, edit, "@subtype", editable, true, columns, 16,
-             values, "correspondsTo, dependsOn, isWithin, proximity, bordersOn, hasConnectionWith");
+             values, "correspondsTo, dependsOn, isWithin, proximity, bordersOn, link");
            display:block;
            padding-left:20px;
     }
@@ -171,7 +171,7 @@
              )*/
              " Link type: "
              oxy_editor(type, combo, edit, "@subtype", editable, true, columns, 16,
-             values, "correspondsTo, dependsOn, isWithin, proximity, bordersOn, hasConnectionWith");
+             values, "correspondsTo, dependsOn, isWithin, proximity, bordersOn, link");
            display:block;
            padding-left:20px;
     }
@@ -187,7 +187,6 @@
              " Link type: "
              oxy_editor(type, combo, edit, "@subtype", editable, true, columns, 24,
              values, "isOwnedBy, isGrantedTo, isGrantedBy, isConfirmedTo, isConfirmedBy, rendersCollectedBy, isManagedBy, isHeldBy, isClaimedBy, allianceWith, hostilityFor, agentFor, officeHolderFor, rectorOf, link");
-/*values, oxy_concat("", oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/thesaurus.xml'), '")/TEI/teiHeader/encodingDesc/classDecl/taxonomy[@xml:id="thesaurus"]//category[@n="bonds"]//category/catDesc/@n, ",")'))));*/
            display:block;
            padding-left:20px;
     }
@@ -218,7 +217,6 @@
              " Link type: "
              oxy_editor(type, combo, edit, "@subtype", editable, true, columns, 24,
              values, "dependsOn, isOwnedBy, isGrantedTo, isGrantedBy, isConfirmedTo, isConfirmedBy, rendersCollectedBy, isManagedBy, isHeldBy, isClaimedBy, allianceWith, hostilityFor, agentFor, officeHolderFor, rectorOf, link");
-             /*values, oxy_concat("", oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/thesaurus.xml'), '")/TEI/teiHeader/encodingDesc/classDecl/taxonomy[@xml:id="thesaurus"]//category[@n="bonds"]//category/catDesc/@n, ",")'))));*/
            display:block;
            padding-left:20px;
     }
@@ -233,7 +231,6 @@
              " Link type: "
              oxy_editor(type, combo, edit, "@subtype", editable, true, columns, 24,
              values, "dependsOn, isOwnedBy, isGrantedTo, isGrantedBy, isConfirmedTo, isConfirmedBy, rendersCollectedBy, isManagedBy, isHeldBy, isClaimedBy, allianceWith, hostilityFor, agentFor, officeHolderFor, rectorOf, link");
-             /*values, oxy_concat("", oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/thesaurus.xml'), '")/TEI/teiHeader/encodingDesc/classDecl/taxonomy[@xml:id="thesaurus"]//category[@n="bonds"]//category/catDesc/@n, ",")'))));*/
            display:block;
            padding-left:20px;
     }
@@ -248,7 +245,7 @@
              )*/
              " Link type: "
              oxy_editor(type, combo, edit, "@subtype", editable, true, columns, 16,
-             values, "correspondsTo, dependsOn, isWithin, proximity, bordersOn, hasConnectionWith");
+             values, "correspondsTo, dependsOn, isWithin, proximity, bordersOn, link");
            display:block;
            padding-left:20px;
     }
@@ -262,7 +259,7 @@
              )*/
              " Link type: "
              oxy_editor(type, combo, edit, "@subtype", editable, true, columns, 16,
-             values, "correspondsTo, dependsOn, isWithin, proximity, bordersOn, hasConnectionWith");
+             values, "correspondsTo, dependsOn, isWithin, proximity, bordersOn, link");
            display:block;
            padding-left:20px;
     }

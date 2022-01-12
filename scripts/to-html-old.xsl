@@ -392,7 +392,6 @@
                   <xsl:variable name="reverse" select="$all_items//tei:*[descendant::tei:idno=$key][1]//tei:link[contains(concat(translate(@corresp, '#', ''), ' '), concat($this_id, ' '))]/@subtype"/>
                   <xsl:choose>
                     <xsl:when test="$thesaurus//tei:catDesc[@n=$reverse][@corresp!='']"><xsl:value-of select="$thesaurus//tei:catDesc[@n=$reverse]/@corresp"/></xsl:when>
-                    <xsl:when test="$reverse='hasConnectionWith'"><xsl:text>hasConnectionWith</xsl:text></xsl:when>
                     <xsl:when test="$reverse='isAdjacentTo'"><xsl:text>isAdjacentTo</xsl:text></xsl:when>
                     <xsl:when test="$reverse='isInVicinityOf'"><xsl:text>hasInItsVicinity</xsl:text></xsl:when>
                     <xsl:when test="$reverse='hasInItsVicinity'"><xsl:text>isInVicinityOf</xsl:text></xsl:when>
@@ -420,7 +419,6 @@
                   <xsl:variable name="reverse" select="$all_items//tei:*[descendant::tei:idno=$key][1]//tei:link[contains(concat(translate(@corresp, '#', ''), ' '), concat($this_id, ' '))]/@subtype"/>
                   <xsl:choose>
                     <xsl:when test="$thesaurus//tei:catDesc[@n=$reverse][@corresp!='']"><xsl:value-of select="$thesaurus//tei:catDesc[@n=$reverse]/@corresp"/></xsl:when>
-                    <xsl:when test="$reverse='hasConnectionWith'"><xsl:text>hasConnectionWith</xsl:text></xsl:when>
                     <xsl:when test="$reverse='isAdjacentTo'"><xsl:text>isAdjacentTo</xsl:text></xsl:when>
                     <xsl:when test="$reverse='isInVicinityOf'"><xsl:text>hasInItsVicinity</xsl:text></xsl:when>
                     <xsl:when test="$reverse='hasInItsVicinity'"><xsl:text>isInVicinityOf</xsl:text></xsl:when>
@@ -448,7 +446,6 @@
                   <xsl:variable name="reverse" select="$all_items//tei:*[descendant::tei:idno=$key][1]//tei:link[contains(concat(translate(@corresp, '#', ''), ' '), concat($this_id, ' '))]/@subtype"/>
                   <xsl:choose>
                     <xsl:when test="$thesaurus//tei:catDesc[@n=$reverse][@corresp!='']"><xsl:value-of select="$thesaurus//tei:catDesc[@n=$reverse]/@corresp"/></xsl:when>
-                    <xsl:when test="$reverse='hasConnectionWith'"><xsl:text>hasConnectionWith</xsl:text></xsl:when>
                     <xsl:when test="$reverse='isAdjacentTo'"><xsl:text>isAdjacentTo</xsl:text></xsl:when>
                     <xsl:when test="$reverse='isInVicinityOf'"><xsl:text>hasInItsVicinity</xsl:text></xsl:when>
                     <xsl:when test="$reverse='hasInItsVicinity'"><xsl:text>isInVicinityOf</xsl:text></xsl:when>
@@ -476,7 +473,6 @@
                   <xsl:variable name="reverse" select="$all_items//tei:*[descendant::tei:idno=$key][1]//tei:link[contains(concat(translate(@corresp, '#', ''), ' '), concat($this_id, ' '))]/@subtype"/>
                   <xsl:choose>
                     <xsl:when test="$thesaurus//tei:catDesc[@n=$reverse][@corresp!='']"><xsl:value-of select="$thesaurus//tei:catDesc[@n=$reverse]/@corresp"/></xsl:when>
-                    <xsl:when test="$reverse='hasConnectionWith'"><xsl:text>hasConnectionWith</xsl:text></xsl:when>
                     <xsl:when test="$reverse='isAdjacentTo'"><xsl:text>isAdjacentTo</xsl:text></xsl:when>
                     <xsl:when test="$reverse='isInVicinityOf'"><xsl:text>hasInItsVicinity</xsl:text></xsl:when>
                     <xsl:when test="$reverse='hasInItsVicinity'"><xsl:text>isInVicinityOf</xsl:text></xsl:when>
@@ -550,7 +546,7 @@
       <xsl:for-each select="$people//tei:link[tokenize(concat(replace(@corresp, '#', ''), ' '), ' ')=$people//tei:idno][@type='people'][not(starts-with(@corresp, ' '))][not(ends-with(@corresp, ' '))]">
         <xsl:variable name="id" select="parent::tei:*/tei:idno[1]"/>
         <xsl:variable name="relation_type"><xsl:choose>
-          <xsl:when test="@subtype='' or @subtype='link' or @subtype='hasConnectionWith'"><xsl:text> </xsl:text></xsl:when>
+          <xsl:when test="@subtype='' or @subtype='link'"><xsl:text> </xsl:text></xsl:when>
           <xsl:otherwise><xsl:value-of select="@subtype"/></xsl:otherwise>
         </xsl:choose></xsl:variable>
         <xsl:variable name="cert" select="@cert"/>
@@ -657,7 +653,7 @@
       <xsl:for-each select="$all_items//tei:link[tokenize(concat(replace(@corresp, '#', ''), ' '), ' ')=$all_items//tei:idno][not(starts-with(@corresp, ' '))][not(ends-with(@corresp, ' '))]">
         <xsl:variable name="id" select="parent::tei:*/tei:idno[1]"/>
         <xsl:variable name="relation_type"><xsl:choose>
-          <xsl:when test="@subtype='' or @subtype='link' or @subtype='hasConnectionWith'"><xsl:text> </xsl:text></xsl:when>
+          <xsl:when test="@subtype='' or @subtype='link'"><xsl:text> </xsl:text></xsl:when>
           <xsl:otherwise><xsl:value-of select="@subtype"/></xsl:otherwise>
         </xsl:choose></xsl:variable>
         <xsl:variable name="cert" select="@cert"/>

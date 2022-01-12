@@ -15,13 +15,13 @@
     </fileDesc>
     <encodingDesc>
       <classDecl>
-        <taxonomy xml:id="link_subtypes"><!-- only those which are not included in thesaurus.xml in 'Bonds' category -->
+        <taxonomy xml:id="link_subtypes">
+          <!-- only those which are not included in thesaurus.xml in 'Bonds' category -->
           <category><catDesc n="correspondsTo" corresp="correspondsTo"/></category>
           <category><catDesc n="dependsOn" corresp="hasAsDependency"/></category>
           <category><catDesc n="isWithin" corresp="hasWithin"/></category>
           <category><catDesc n="proximity" corresp="proximity"/></category>
           <category><catDesc n="bordersOn" corresp="bordersOn"/></category>
-          <category><catDesc n="hasConnectionWith" corresp="hasConnectionWith"/></category>
           <category><catDesc n="isOwnedBy" corresp="owns"/></category>
           <category><catDesc n="isGrantedTo" corresp="isGranted"/></category>
           <category><catDesc n="isGrantedBy" corresp="grants"/></category>
@@ -32,6 +32,8 @@
           <category><catDesc n="isHeldBy" corresp="holds"/></category>
           <category><catDesc n="isClaimedBy" corresp="claims"/></category>
           
+          <!-- older deprecated values -->
+          <category><catDesc n="hasConnectionWith" corresp="hasConnectionWith"/></category>
           <category><catDesc n="hasWithin" corresp="isWithin"/></category>
           <category><catDesc n="isPartOf" corresp="isMadeOf"/></category>
           <category><catDesc n="isMadeOf" corresp="isPartOf"/></category>

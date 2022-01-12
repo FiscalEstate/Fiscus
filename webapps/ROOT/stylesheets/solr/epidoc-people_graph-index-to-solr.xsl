@@ -27,7 +27,7 @@
     <xsl:for-each select="$people/tei:person/tei:link[tokenize(concat(replace(@corresp, '#', ''), ' '), ' ')=$people/tei:person/tei:idno][@type='people'][not(starts-with(@corresp, ' '))][not(ends-with(@corresp, ' '))]">
       <xsl:variable name="id" select="parent::tei:*/tei:idno[1]"/>
       <xsl:variable name="relation_type"><xsl:choose>
-        <xsl:when test="@subtype='' or @subtype='link' or @subtype='hasConnectionWith'"><xsl:text> </xsl:text></xsl:when>
+        <xsl:when test="@subtype='' or @subtype='link'"><xsl:text> </xsl:text></xsl:when>
         <xsl:otherwise><xsl:value-of select="lower-case(translate(translate(replace(@subtype, '([a-z]{1})([A-Z]{1})', '$1_$2'), '/', '／'), '_', ' '))"/></xsl:otherwise>
       </xsl:choose></xsl:variable>
       <xsl:variable name="cert" select="@cert"/>
