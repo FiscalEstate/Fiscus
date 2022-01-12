@@ -122,6 +122,12 @@
                     <geogName>Cittanova; <foreign>curtis</foreign></geogName>
                     <idno>estates/50</idno>
                     <note></note>
+                        <link type="juridical_persons" corresp="#juridical_persons/47"
+                            subtype="isGrantedTo"/>
+                        <link type="places" corresp="#places/40" subtype="correspondsTo"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/96"
+                            subtype="hostilityFor"/>
+                        <link type="people" corresp="#people/21" subtype="isGrantedBy"/>
                 </place>
                 
                 <place>
@@ -275,12 +281,11 @@
                     <geogName type="other"/>
                     <idno>estates/82</idno>
                     <note/>
-                    <link type="places" corresp="#places/81"
-                        subtype="link"/>
-                    <link type="juridical_persons"
-                        corresp="#juridical_persons/47" subtype="link"/>
-                    <link type="people" corresp="#people/22" subtype="link"/>
-                    <link type="people" corresp="#people/23" subtype="link"/>
+                    <link type="places" corresp="#places/81" subtype="correspondsTo"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/47"
+                            subtype="isOwnedBy"/>
+                    <link type="people" corresp="#people/22" subtype="isOwnedBy"/>
+                    <link type="people" corresp="#people/23" subtype="isOwnedBy"/>
                 </place>
                 <place>
                     <geogName>Firenze; <foreign>comitatus</foreign></geogName>
@@ -705,16 +710,18 @@
                     <note>Il placito del 918 verte sulla metà del <foreign>castrum</foreign> di
                             Nogara, la metà verso Tillioano che il conte Anselmo aveva donato a
                             Nonantola.</note>
-                    <link type="places" corresp="#places/145"
-                        subtype="isMadeOf"/>
-                    <link type="juridical_persons"
-                        corresp="#juridical_persons/47" subtype="link"/>
-                    <link type="people"
-                        corresp="#people/126 #people/124 #people/127 #people/125 #people/128"
-                        subtype="link"/>
+                    <link type="places" corresp="#places/145" subtype="correspondsTo"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/47"
+                            subtype="isConfirmedTo"/>
+                    <link type="people" corresp="#people/126" subtype="isGrantedBy"/>
+                    <link type="people" corresp="#people/124" subtype="isGrantedBy"/>
+                    <link type="people" corresp="#people/127" subtype="isGrantedBy"/>
+                    <link type="people" corresp="#people/125" subtype="isOwnedBy"/>
+                    <link type="people" corresp="#people/128" subtype="isHeldBy"/>
                 </place>
                 <place>
-                    <geogName>Sancta Cecilia; <foreign>domusculta</foreign></geogName>
+                    <geogName><foreign>Sancta Cecilia</foreign>;
+                            <foreign>domusculta</foreign></geogName>
                     <geogName type="other"/>
                     <idno>estates/117</idno>
                     <note>Cfr. De Francesco 2004: 251-252 e Coste 1984: 773-774</note>
@@ -812,6 +819,9 @@
                     <geogName type="other"/>
                     <idno>estates/124</idno>
                     <note/>
+                        <link type="places" corresp="#places/400" subtype="isWithin"/>
+                        <link type="places" corresp="#places/399" subtype="isWithin"/>
+                        <link type="places" corresp="#places/572" subtype="isWithin"/>
                 </place>
                 <place>
                     <geogName>Treviso; <foreign>comitatus</foreign></geogName>
@@ -1171,7 +1181,10 @@
                     <geogName type="other"/>
                     <idno>estates/155</idno>
                     <note/>
-                    <link type="places" corresp="#places/269" subtype="link"/>
+                    <link type="places" corresp="#places/269" subtype="correspondsTo"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/47"
+                            subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/118" subtype="isGrantedBy"/>
                 </place>
                 <place>
                     <geogName><foreign>Curte Sancti Fridiani</foreign>;
@@ -1406,12 +1419,14 @@
                     <geogName type="other"/>
                     <idno>estates/181</idno>
                     <note>Castagnetti 2011 e 2006. </note>
-                    <link type="people" corresp="#people/21" subtype="link"/>
-                    <link type="people" corresp="#people/166" subtype="link"/>
-                    <link type="people" corresp="#people/227" subtype="link"/>
-                    <link type="places" corresp="#places/399" subtype="link"/>
+                    <link type="people" corresp="#people/21" subtype="isConfirmedBy"/>
+                    <link type="people" corresp="#people/166" subtype="isGrantedBy"/>
+                    <link type="people" corresp="#people/227" subtype="isHeldBy"/>
+                    <link type="places" corresp="#places/399" subtype="proximity"/>
                     <link type="estates" corresp="#estates/124" subtype="isPartOf"/>
-                    <link type="places" corresp="#places/400" subtype="isMadeOf"/>
+                    <link type="places" corresp="#places/400" subtype="correspondsTo"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/47"
+                            subtype="isConfirmedTo"/>
                 </place>
                 <place>
                     <geogName><foreign>Fluvium</foreign>; sculdascia </geogName>
@@ -1690,11 +1705,12 @@
                     <geogName type="other"><foreign>iudiciaria Mutinensis</foreign></geogName>
                     <idno>estates/208</idno>
                     <note/>
-                        <link type="places" corresp="#places/1501" subtype="link"/>
-                        <link type="estates" corresp="#estates/1103" subtype="link"/>
-                    <link type="places" corresp="#places/1504" subtype="link"/>
-                    <link type="estates" corresp="#estates/1102" subtype="link"/>
-                    <link type="places" corresp="#places/1503" subtype="link"/>
+                        <link type="places" corresp="#places/1501" subtype="isWithin"/>
+                        <link type="estates" corresp="#estates/1103" subtype="isWithin"/>
+                    <link type="places" corresp="#places/1504" subtype="isWithin"/>
+                    <link type="estates" corresp="#estates/1102" subtype="isWithin"/>
+                    <link type="places" corresp="#places/1503" subtype="isWithin"/>
+                        <link type="places" corresp="#places/15" subtype="isWithin"/>
                 </place>
                 <place>
                     <geogName>Marengo; <foreign>curtis regia</foreign></geogName>
@@ -3255,11 +3271,11 @@
                         <geogName type="other"/>
                         <idno>estates/519</idno>
                         <note>Castagnetti 2011; Castagnetti Ciaralli 2011. </note>
-                        <link type="places" corresp="#places/572" subtype="hasWithin"/>
+                        <link type="places" corresp="#places/572" subtype="correspondsTo"/>
                         <link type="people" corresp="#people/21" subtype="link"/>
                         <link type="people" corresp="#people/166" subtype="link"/>
                         <link type="juridical_persons" corresp="#juridical_persons/47"
-                            subtype="link"/>
+                            subtype="isClaimedBy"/>
                         <link type="juridical_persons" corresp="#juridical_persons/136"
                             subtype="link"/>
                         <link type="estates" corresp="#estates/116" subtype="link"/>
@@ -5441,7 +5457,7 @@
                         <geogName type="other"/>
                         <idno>estates/1100</idno>
                         <note/>
-                        <link type="places" corresp="#places/1535" subtype="link"/>
+                        <link type="places" corresp="#places/1535" subtype="isWithin"/>
                     </place>
                     <place>
                         <geogName><foreign>Savinianum</foreign>;
@@ -5449,23 +5465,23 @@
                         <geogName type="other"/>
                         <idno>estates/1101</idno>
                         <note/>
-                        <link type="places" corresp="#places/1502" subtype="isWithin"/>
-                        <link type="people" corresp="#people/110" subtype="link"/>
+                        <link type="places" corresp="#places/1502" subtype="correspondsTo"/>
+                        <link type="people" corresp="#people/110" subtype="isOwnedBy"/>
                     </place>
                     <place>
                         <geogName><foreign>Canetulum</foreign>; <foreign>curtis</foreign></geogName>
                         <geogName type="other"><foreign>Cannetulum</foreign>; Canedolo</geogName>
                         <idno>estates/1102</idno>
                         <note/>
-                        <link type="places" corresp="#places/1503" subtype="isPartOf"/>
+                        <link type="places" corresp="#places/1503" subtype="correspondsTo"/>
                         <link type="juridical_persons" corresp="#juridical_persons/47"
-                            subtype="link"/>
+                            subtype="isConfirmedTo"/>
                         <link type="juridical_persons" corresp="#juridical_persons/1102"
-                            subtype="link"/>
-                        <link type="people" corresp="#people/48" subtype="link"/>
-                        <link type="people" corresp="#people/49" subtype="link"/>
-                        <link type="people" corresp="#people/12" subtype="link"/>
-                        <link type="people" corresp="#people/1215" subtype="link"/>
+                            subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/48" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/49" subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/12" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/1215" subtype="isGrantedTo"/>
                     </place>
                     <place>
                         <geogName><foreign>Solariensis</foreign>; <foreign>fines</foreign></geogName>
