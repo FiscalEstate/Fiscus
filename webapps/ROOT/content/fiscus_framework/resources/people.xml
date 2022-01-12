@@ -2039,7 +2039,6 @@
                     <idno>people/228</idno>
                     <note>Consiliarius regis</note>
                     <link type="places" corresp="#places/147" subtype="hasConnectionWith"/>
-                    <note/>
                 </person>
                 <person>
                     <persName>Betto (952) abbas monasterii Sancti Anthimi</persName>
@@ -2056,12 +2055,13 @@
                 <person>
                     <persName>Liutwardus (888-905) episcopus Comensis</persName>
                     <idno>people/231</idno>
-                    <link type="people" subtype="link" corresp="#people/21"/>
-                    <link type="estates" subtype="link" corresp="#estates/178"/>
                     <note>Archicancellarius</note>
-                        <link type="people" corresp="#people/267" subtype="link"/>
-                        <link type="juridical_persons" corresp="#juridical_persons/227"
-                            subtype="link"/>
+                    <link type="people" subtype="officeHolderFor" corresp="#people/21"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/227"
+                        subtype="rectorOf"/>
+                    <link type="places" corresp="#places/356" subtype="hasConnectionWith"/>
+                    <link type="estates" subtype="link" corresp="#estates/178"/>
+                    <link type="people" corresp="#people/267" subtype="link"/>
                 </person>
                 <person>
                     <persName>Petrus (ante 900-post 915) episcopus Regiensis in Aemilia</persName>
@@ -2262,6 +2262,8 @@
                     <idno>people/253</idno>
                     <note/>
                     <link type="places" corresp="#places/65" subtype="hasConnectionWith"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/220"
+                            subtype="rectorOf"/>
                 </person>
                 <person>
                     <persName>Aderardus (900) comes</persName>
