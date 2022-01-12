@@ -125,21 +125,32 @@
             <xsl:for-each select="$estates/tei:place/tei:link[@corresp[.!='']]">
               <xsl:if test="contains(concat(@corresp, ' '), concat($idno, ' '))"><xsl:value-of select="parent::tei:place/tei:idno"/><xsl:text> </xsl:text></xsl:if></xsl:for-each>
           </xsl:variable>
-          <xsl:variable name="linked_jp_close">
+          <xsl:variable name="linked_jp_close"> <!-- for importing linked places -->
             <xsl:for-each select="$links[@type='juridical_persons'][@subtype='correspondsTo' or @subtype='dependsOn' or @subtype='isOwnedBy' or @subtype='isGrantedTo' or @subtype='isGrantedBy' or @subtype='isConfirmedTo' or @subtype='isConfirmedBy' or @subtype='rendersCollectedBy' or @subtype='isManagedBy' or @subtype='isHeldBy' or @subtype='isClaimedBy']/@corresp[.!='']"><xsl:variable name="links1" select="distinct-values(tokenize(., '\s+'))"/>
               <xsl:for-each select="$links1"><xsl:variable name="link" select="translate(., '#', '')"/><xsl:value-of select="$juridical_persons/tei:org[child::tei:idno=$link][1]/tei:idno"/><xsl:text> </xsl:text></xsl:for-each></xsl:for-each>
           </xsl:variable>
-          <xsl:variable name="linking_jp_close">
+          <xsl:variable name="linking_jp_close"> <!-- for importing linked places -->
             <xsl:for-each select="$juridical_persons/tei:org/tei:link[@corresp[.!='']][@subtype='correspondsTo' or @subtype='dependsOn' or @subtype='isOwnedBy' or @subtype='isGrantedTo' or @subtype='isGrantedBy' or @subtype='isConfirmedTo' or @subtype='isConfirmedBy' or @subtype='rendersCollectedBy' or @subtype='isManagedBy' or @subtype='isHeldBy' or @subtype='isClaimedBy']">
               <xsl:if test="contains(concat(@corresp, ' '), concat($idno, ' '))"><xsl:value-of select="parent::tei:org/tei:idno"/><xsl:text> </xsl:text></xsl:if></xsl:for-each>
           </xsl:variable>
-          <xsl:variable name="linked_estates_close">
-            <xsl:for-each select="$links[@type='estates'][@subtype='correspondsTo' or @subtype='dependsOn' or @subtype='isOwnedBy' or @subtype='isGrantedTo' or @subtype='isGrantedBy' or @subtype='isConfirmedTo' or @subtype='isConfirmedBy' or @subtype='rendersCollectedBy' or @subtype='isManagedBy' or @subtype='isHeldBy' or @subtype='isClaimedBy']/@corresp[.!='']"><xsl:variable name="links1" select="distinct-values(tokenize(., '\s+'))"/>
+          <xsl:variable name="linked_estates_close"> <!-- for importing linked places -->
+            <xsl:for-each select="$links[@type='estates'][@subtype='correspondsTo' or @subtype='dependsOn' or @subtype='isOwnedBy' or @subtype='isGrantedTo' or @subtype='isGrantedBy' or @subtype='isConfirmedTo' or @subtype='isConfirmedBy' or @subtype='rendersCollectedBy' or @subtype='isManagedBy' or @subtype='isHeldBy' or @subtype='isClaimedBy']/@corresp[.!='']"> <!-- or just: @subtype!='' and @subtype!='link' -->
+              <xsl:variable name="links1" select="distinct-values(tokenize(., '\s+'))"/>
               <xsl:for-each select="$links1"><xsl:variable name="link" select="translate(., '#', '')"/>
                 <xsl:value-of select="$estates/tei:place[child::tei:idno=$link][1]/tei:idno"/><xsl:text> </xsl:text></xsl:for-each></xsl:for-each>
           </xsl:variable>
-          <xsl:variable name="linking_estates_close">
-            <xsl:for-each select="$estates/tei:place/tei:link[@corresp[.!='']][@subtype='correspondsTo' or @subtype='dependsOn' or @subtype='isOwnedBy' or @subtype='isGrantedTo' or @subtype='isGrantedBy' or @subtype='isConfirmedTo' or @subtype='isConfirmedBy' or @subtype='rendersCollectedBy' or @subtype='isManagedBy' or @subtype='isHeldBy' or @subtype='isClaimedBy']">
+          <xsl:variable name="linking_estates_close"> <!-- for importing linked places -->
+            <xsl:for-each select="$estates/tei:place/tei:link[@corresp[.!='']][@subtype='correspondsTo' or @subtype='dependsOn' or @subtype='isOwnedBy' or @subtype='isGrantedTo' or @subtype='isGrantedBy' or @subtype='isConfirmedTo' or @subtype='isConfirmedBy' or @subtype='rendersCollectedBy' or @subtype='isManagedBy' or @subtype='isHeldBy' or @subtype='isClaimedBy']"> <!-- or just: @subtype!='' and @subtype!='link' -->
+              <xsl:if test="contains(concat(@corresp, ' '), concat($idno, ' '))"><xsl:value-of select="parent::tei:place/tei:idno"/><xsl:text> </xsl:text></xsl:if></xsl:for-each>
+          </xsl:variable>
+          <xsl:variable name="linked_estates_close_lp"> <!-- for importing linked people -->
+            <xsl:for-each select="$links[@type='estates'][@subtype!='' and @subtype!='link']/@corresp[.!='']">
+              <xsl:variable name="links1" select="distinct-values(tokenize(., '\s+'))"/>
+              <xsl:for-each select="$links1"><xsl:variable name="link" select="translate(., '#', '')"/>
+                <xsl:value-of select="$estates/tei:place[child::tei:idno=$link][1]/tei:idno"/><xsl:text> </xsl:text></xsl:for-each></xsl:for-each>
+          </xsl:variable>
+          <xsl:variable name="linking_estates_close_lp"> <!-- for importing linked people -->
+            <xsl:for-each select="$estates/tei:place/tei:link[@corresp[.!='']][@subtype!='' and @subtype!='link']">              
               <xsl:if test="contains(concat(@corresp, ' '), concat($idno, ' '))"><xsl:value-of select="parent::tei:place/tei:idno"/><xsl:text> </xsl:text></xsl:if></xsl:for-each>
           </xsl:variable>
           <xsl:variable name="i_linked_places"> <!-- places linked to close linking/linked estates/jp -->
@@ -161,16 +172,16 @@
               </xsl:for-each></xsl:for-each>
           </xsl:variable>
           <xsl:variable name="i_linked_people"> <!-- people linked to close linking/linked estates -->
-            <xsl:for-each select="$linking_estates_close|$linked_estates_close">
+            <xsl:for-each select="$linking_estates_close_lp|$linked_estates_close_lp">
               <xsl:for-each select="distinct-values(tokenize(., '\s+'))">
                 <xsl:variable name="link" select="translate(., '#', '')"/>
-                <xsl:for-each select="$estates/tei:place[translate(child::tei:idno, ' ', '')=$link]/tei:link[@type='people'][@subtype='isOwnedBy' or @subtype='isGrantedTo' or @subtype='isGrantedBy' or @subtype='isConfirmedTo' or @subtype='isConfirmedBy' or @subtype='rendersCollectedBy' or @subtype='isManagedBy' or @subtype='isHeldBy' or @subtype='isClaimedBy']/@corresp">
+                <xsl:for-each select="$estates/tei:place[translate(child::tei:idno, ' ', '')=$link]/tei:link[@type='people'][@subtype!='' and @subtype!='link']/@corresp">
                   <xsl:for-each select="distinct-values(tokenize(., '\s+'))">
                     <xsl:variable name="link1" select="translate(., '#', '')"/>
                     <xsl:value-of select="$people/tei:person[translate(child::tei:idno, ' ', '')=$link1]/tei:idno"/><xsl:text> </xsl:text>
                   </xsl:for-each></xsl:for-each></xsl:for-each></xsl:for-each>
           </xsl:variable>
-          <xsl:variable name="i_linking_people"><!-- people linking to close linking/linked estates -->
+          <xsl:variable name="i_linking_people"><!-- people linking to close linking/linked estates; there should be none, because all links should be from estates to people, not from people to estates: this variable could be deleted -->
             <xsl:for-each select="$people/tei:person/tei:link[@type='estates'][@subtype='correspondsTo' or @subtype='dependsOn']/@corresp[.!='']">
               <xsl:for-each select="distinct-values(tokenize(., '\s+'))">
                 <xsl:variable name="link" select="translate(., '#', '')"/>
