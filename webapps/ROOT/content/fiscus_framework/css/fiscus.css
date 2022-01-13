@@ -200,7 +200,7 @@
              )*/
              " Link type: "
              oxy_editor(type, combo, edit, "@subtype", editable, true, columns, 24,
-             values, "marriage, quasi-Marriage, concubinage, parentOf, parentInLawOf, fosterParentOf, childOf, childInLawOf, grandfatherOf, grandmotherOf, grandparentOf, grandsonOf, granddaughterOf, grandchildOf, greatGrandparentOf, greatGrandchildOf, siblingOf, siblingInLawOf, uncle/auntOf, nephew/nieceOf, cousinOf, kinOf, ancestorOf, descendentOf, familyOf, householdOf, slaveOf, godparentOf, godchildOf, compater/commaterOf, nutritusOf, nutritorOf, executorOfTheWillOf, legateeOf, heirTo, mundualdusOf, friendshipFor, allianceWith, hostilityFor, dominus/seniorOf, vassusOf, gasindiusOf, fidelisOf, milesOf, homoOf, agentFor, officeHolderFor, rectorOf, professionalRelationship, link");
+             values, "marriage, quasi-Marriage, concubinage, parentOf, parentInLawOf, fosterParentOf, childOf, childInLawOf, grandparentOf, grandchildOf, greatGrandparentOf, greatGrandchildOf, siblingOf, siblingInLawOf, uncle/auntOf, nephew/nieceOf, cousinOf, kinOf, ancestorOf, descendentOf, familyOf, householdOf, slaveOf, godparentOf, godchildOf, compater/commaterOf, nutritusOf, nutritorOf, executorOfTheWillOf, legateeOf, heirTo, mundualdusOf, friendshipFor, allianceWith, hostilityFor, dominus/seniorOf, vassusOf, gasindiusOf, fidelisOf, milesOf, homoOf, agentFor, officeHolderFor, rectorOf, professionalRelationship, link");
              /*values, oxy_concat("", oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/thesaurus.xml'), '")/TEI/teiHeader/encodingDesc/classDecl/taxonomy[@xml:id="thesaurus"]//category[@n="bonds"]//category/catDesc/@n, ",")'))));*/
            display:block;
            padding-left:20px;
