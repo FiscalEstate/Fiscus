@@ -36,7 +36,7 @@
                             <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Uncertain tradition</rs>
-                            <rs type="fiscal_property">Uncertain</rs>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -47,11 +47,11 @@
                             <origDate when="0899-08-19">
                                 <note type="displayed_date">899 august 19</note>
                                 <note type="dating_elements"/>
-                                <note type="topical_date"><foreign>Vuilzachara</foreign> curtis
-                                    regia</note>
-                                <note type="redaction_date">XIII exeunte</note>
+                                <note type="topical_date">San Cesario sul Panaro (Modena)</note>
+                                <note type="redaction_date">XIII ex</note>
                              </origDate>
-                            <origPlace/>
+                            <origPlace>Sanctus Silvester; monasterium (Nonantola;
+                                Modena)</origPlace>
                         </origin>
                         <provenance>
                             <location>
@@ -78,6 +78,7 @@
         <revisionDesc>
             <listChange>
                 <change when="2021-02-08" who="cstedile">creation of record</change>
+                <change who="emanarini" when="2022-01-14">minor changes</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -110,15 +111,15 @@
                         pro amore Dei omnipotentis nostreque mercedis intuitu omnia <rs
                             key="#Papal_concession">privilegia</rs>
                         <rs key="#Popes">pontificum Romanorum</rs> et <rs
-                            key="#Imperial/royal_diploma">precepta</rs>
-                        <rs key="#Emperor/king">regum Longobardorum Francorumque imperatorum</rs>
-                        predecessorum nostorurm, quibus illi seu et ceteri fideles ad predictam
-                        ecclesiam donationem largiti sunt et res fidelium eiusdem acclesie per eadem
-                        precepta auctoritatis oraculo confirmaverunt, nec non et omnia memoratum
-                        precepta nostra auctoritate vel liberalitate firmaremus, simul et privilegia
-                        Romanorum pontificum. Cuius petitionem, quia iusta et rationabilis nobis
-                        esse videbatur, recipiendam atque implendam iudicavimus. Inter quorum primum
-                        omnium preceptorum <persName key="#Emperor/king" ref="#people/48">Flavii
+                            key="#Imperial/royal_diploma">precepta</rs> regum Longobardorum
+                        Francorumque imperatorum predecessorum nostorurm, quibus illi seu et ceteri
+                        fideles ad predictam ecclesiam donationem largiti sunt et res fidelium
+                        eiusdem acclesie per eadem precepta auctoritatis oraculo confirmaverunt, nec
+                        non et omnia memoratum precepta nostra auctoritate vel liberalitate
+                        firmaremus, simul et privilegia Romanorum pontificum. Cuius petitionem, quia
+                        iusta et rationabilis nobis esse videbatur, recipiendam atque implendam
+                        iudicavimus. Inter quorum primum omnium preceptorum <persName
+                            key="#Imperial/royal_diploma #Emperor/king" ref="#people/48">Flavii
                             Astulfi</persName> regis legebatur sic: [Segue il diploma di Astolfo].
                         Cum vero predictum preceptum christianissimi regis coram nostram regalem
                         clementiam lectum fuisset, consideravimus tantam eius industriam et
@@ -141,10 +142,12 @@
                         <rs key="#Bishops">episcopi</rs> et <rs key="#Archchancellor"
                             >archicancellarii</rs> recogovi et subscripsi.] Data XIIII kal. Sept.,
                         anno incarntionis Domini DCCCXCVIIII, domni autem Berengarii gloriosissimi
-                        regis XII, indictione II. Actum <rs key="#Curtes">curtis</rs> nostre
-                            <geogName key="#Curtes" ref="#estates/155"><placeName key="#Curtes"
-                                >Vuilzacharam</placeName></geogName>. In Dei nomine [feliciter],
-                        amen.</ab>
+                        regis XII, indictione II. Actum curtis nostre <geogName
+                            key="#Curtes #Fiscal_property #Textual_occurrence #Mention #Function #Residential"
+                            ref="#estates/155"><placeName
+                                key="#Curtes #Fiscal_property #Textual_occurrence #Mention #Function #Residential"
+                                ref="#places/269">Vuilzacharam</placeName></geogName>. In Dei nomine
+                        [feliciter], amen.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
