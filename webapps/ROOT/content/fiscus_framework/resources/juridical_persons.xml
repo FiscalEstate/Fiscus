@@ -1683,13 +1683,8 @@
                     <link type="people" subtype="link" corresp="#people/345"/>
                     <link type="people" subtype="link" corresp="#people/346"/>
                     <link type="people" subtype="link" corresp="#people/347"/>
-                    <link type="juridical_persons" corresp="#juridical_persons/68" subtype="link"/>
-                        <link type="juridical_persons" corresp="#juridical_persons/1701"
-                            subtype="link"/>
-                        <link type="places" corresp="#places/2111" subtype="link"/>
-                        <link type="places" corresp="#places/2112" subtype="link"/>
-                        <link type="juridical_persons" corresp="#juridical_persons/1709"
-                            subtype="link"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/68"
+                            subtype="dependsOn"/>
                 </org>
                 <org>
                     <orgName>Martori; plebs</orgName>
@@ -4369,7 +4364,7 @@
                         <orgName type="other"/>
                         <idno>juridical_persons/1700</idno>
                         <note/>
-                        <link type="places" corresp="#places/2100" subtype="link"/>
+                        <link type="places" corresp="#places/2100" subtype="isWithin"/>
                     </org>
                     <org>
                         <orgName>Sanctus Georgius de Feruniano; ecclesia</orgName>
@@ -4377,6 +4372,8 @@
                         <idno>juridical_persons/1701</idno>
                         <note/>
                         <link type="places" corresp="#places/2104" subtype="isWithin"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/228"
+                            subtype="dependsOn"/>
                     </org>
                     <org>
                         <orgName>Sanctus Stephanus et Sancta Maria de Campomaiore; plebs</orgName>
@@ -4445,6 +4442,8 @@
                         <idno>juridical_persons/1709</idno>
                         <note/>
                         <link type="places" corresp="#places/2718" subtype="isWithin"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/228"
+                            subtype="dependsOn"/>
                     </org>
                     <org>
                         <orgName>Sanctus Saturninus de Fabrica; plebs</orgName>
