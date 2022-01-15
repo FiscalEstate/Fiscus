@@ -12,6 +12,7 @@
   <xsl:variable name="estates" select="document('../../content/fiscus_framework/resources/estates.xml')/tei:TEI/tei:text/tei:body/tei:listPlace[@type='estates']/tei:listPlace"/>
   <xsl:variable name="people" select="document('../../content/fiscus_framework/resources/people.xml')/tei:TEI/tei:text/tei:body/tei:listPerson[@type='people']/tei:listPerson"/>
   <xsl:variable name="thesaurus" select="document('../../content/fiscus_framework/resources/thesaurus.xml')/tei:TEI/tei:teiHeader/tei:encodingDesc/tei:classDecl/tei:taxonomy"/>
+  <xsl:variable name="link_subtypes" select="document('../../content/fiscus_framework/resources/link_subtypes.xml')/tei:TEI/tei:teiHeader/tei:encodingDesc/tei:classDecl/tei:taxonomy"/>
   <xsl:variable name="all_items" select="$places|$juridical_persons|$estates|$people"/>
   
   <xsl:template match="//tei:foreign|//tei:title" mode="italics">

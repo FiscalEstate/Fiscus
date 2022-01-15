@@ -4,7 +4,7 @@
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
-                <title>Archivio segreto di Cremona, <foreign>Pergamene</foreign>, n° 370</title>
+                <title>Cremona, Archivio segreto, <foreign>Pergamene</foreign>, n. 370</title>
             </titleStmt>
             <editionStmt>
                 <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
@@ -33,7 +33,7 @@
                             <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Original</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -89,21 +89,25 @@
                         remunerationis premia consequi nequamquam ambigimus. Quapropter omnium
                         fidelium sanctae Dei Eclesiae nostrorumque presentium scilicet ac futurorum
                         noverit industria, qualiter per <rs key="#Intercessory">interventum</rs>
-                        <persName key="#Intercessory #Queen" ref="#people/155">Berctilae</persName>
-                        dilectissimae coniugis et consortis regni nostri <persName key="#Abbesses"
-                                ><name ref="Adelberga">Adelberga</name></persName> venerabilis <rs
+                        <persName key="#Intercessory #Queen #marriage"
+                            ref="#people/155">Berctilae</persName>
+                        <rs key="#marriage">dilectissimae coniugis</rs> et <rs
+                            key="#Queen">consortis regni</rs> nostri <persName key="#Abbesses"><name
+                                ref="Adelberga">Adelberga</name></persName> venerabilis <rs
                             key="#Abbesses">abbatissa</rs>
                         <rs key="#Monasteries">monasterii</rs>
-                        <orgName key="#Cartula #Curtes #Privileges #Monasteries #Aldius #Slave"
+                        <orgName
+                            key="#Cartula #Curtes #Monasteries #Aldius #Slave #Private_foundations"
                             ref="#juridical_persons/53">Sanctae Resurrectionis</orgName>, <placeName
-                            ref="#places/43">Placentiae</placeName> situm, quod olim <persName
-                            key="#Queen" ref="#people/55">Angilberga</persName> gloriosa <rs
-                            key="#Queen">imperatrix</rs> a solo construxit, lacrimabiliter nostram
-                        adiit maiestatem, eo quod per irruptionem Paganorum et incuriam quorundam
-                        hominum quaedam [pre]cepta ac instrumenta cartarum ipsius sancti loci dudum
-                        deperissent; super qu[a] re humiliter nostram deprecata est pietatem,
-                        quatinus ob amorem Dei animaeque [nostrae] mercedem eidem sancto coenobio
-                        pro eisdem cartarum ac preceptorum instrumentis hoc nostrae regiae
+                            ref="#places/43" key="#Monasteries">Placentiae</placeName> situm, quod
+                        olim <persName key="#Queen" ref="#people/55">Angilberga</persName> gloriosa
+                            <rs key="#Queen">imperatrix</rs>
+                        <rs key="#Private_foundations">a solo construxit</rs>, lacrimabiliter
+                        nostram adiit maiestatem, eo quod per irruptionem Paganorum et incuriam
+                        quorundam hominum quaedam [pre]cepta ac instrumenta cartarum ipsius sancti
+                        loci dudum deperissent; super qu[a] re humiliter nostram deprecata est
+                        pietatem, quatinus ob amorem Dei animaeque [nostrae] mercedem eidem sancto
+                        coenobio pro eisdem cartarum ac preceptorum instrumentis hoc nostrae regiae
                         auctoritatis et confirmationis preceptum fieri iuberemus. Nos vero tam
                         predicate nostrae coniugis quamque et ipsius venerabilis abbatissae
                         Adelbergae ratam estimantes petitionem, pro Dei ac sanctae illius Eclesiae
@@ -116,30 +120,33 @@
                         scilicet mobiles et immobiles, seu et <rs key="#Slave">mancipia</rs>, <rs
                             key="#Aldius">aldionibus ac aldianis</rs> vel quicquid iuste et
                         legaliter possidere visa est, tam ea quae a nobis et ab antecessoribus
-                        nostris <rs
-                            key="#Fiscal_property #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches #Privileges"
-                            >per precepta ibidem largita </rs>sunt quam alia omnia, sive <rs
-                            key="#Cartula #Fiscal_property #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
-                            >per cartolas donationis, offersionis, comparationis, comutationis</rs>,
-                        seu quicquid ad eundem monasterium Angilberga gloriosa imperatrix filiaque
-                        sua <persName key="#Queen" ref="#people/242">Hyrmingardis</persName> in
-                        alimoniis mona[ch]arum ibidem Deo famulantium contulerunt, specialiter
-                        quidem <geogName key="#Curtes" ref="#estates/40">cortem
-                            Vuardistallam</geogName> iuxta Heridanum positam in <rs key="#Comitatus"
-                            >comitatu</rs>
+                        nostris per <rs key="#Imperial/royal_diploma">precepta</rs> ibidem largita
+                        sunt quam alia omnia, sive per cartolas <rs key="#Offersio/donatio"
+                            >donationis</rs>, offersionis, comparationis, comutationis, seu quicquid
+                        ad eundem monasterium Angilberga gloriosa imperatrix filiaque sua <persName
+                            key="#Queen" ref="#people/242">Hyrmingardis</persName> in alimoniis
+                        mona[ch]arum ibidem Deo famulantium contulerunt, specialiter quidem
+                            <geogName
+                            key="#Curtes #Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
+                            ref="#estates/40"><rs key="#Curtes">cortem</rs>
+                            <placeName
+                                key="#Curtes #Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
+                                ref="#places/33">Vuardistallam</placeName></geogName> iuxta
+                        Heridanum positam in <rs key="#Comitatus">comitatu</rs>
                         <geogName key="#Comitatus" ref="#estates/193">Regiense</geogName> cum
                         omnibus appenditiis suis mobilibus et immobilibus, seu quicquid ad eundem
                         monasterium pertinuit vel pertinere videtur iuste et legaliter omnia et ex
-                        omnibus eidem sancto loco concedimus et confirmamus, et ut deinceps quiete
-                        possideat sancimus, nullius hominis persona molestiam inferente; sed ita
-                        firmiter per hoc nostrum preceptum cuncta sta possideat tamquam eadem
-                        cartarum et preceptorum instrumenta non fuissent omissa atque deleta. Et si
-                        quocumque tempore contentio aliqua orta fuerit, aut fortasse quisquam ex
-                        rebus ipsius monasterii subtrahere aliquid quesierit, volumus et censemus,
-                        ut nostra tantum presentia res et predia seu cunctas possessiones iuste et
-                        legaliter sibi vindicet. Contra quod nostrae concessionis et largitionis
-                        preceptum si quis insurgere temptaverit, sciat se compositurum <rs
-                            key="#Penalty">auri optimi libras C</rs>, <rs key="#Camera_regis"
+                        omnibus eidem sancto loco concedimus et confirmamus, et ut deinceps <rs
+                            key="#Fiscal_property #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
+                            >quiete possideat</rs> sancimus, nullius hominis persona molestiam
+                        inferente; sed ita firmiter per hoc nostrum preceptum cuncta sta possideat
+                        tamquam eadem cartarum et preceptorum instrumenta non fuissent omissa atque
+                        deleta. Et si quocumque tempore contentio aliqua orta fuerit, aut fortasse
+                        quisquam ex rebus ipsius monasterii subtrahere aliquid quesierit, volumus et
+                        censemus, ut nostra tantum presentia res et predia seu cunctas possessiones
+                        iuste et legaliter sibi vindicet. Contra quod nostrae concessionis et
+                        largitionis preceptum si quis insurgere temptaverit, sciat se compositurum
+                            <rs key="#Penalty">auri optimi libras C</rs>, <rs key="#Camera_regis"
                             >medietatem camere nostre</rs> et <rs
                             key="#Camera_of_other_public_authorities">medietatem suprataxato
                             monasterio</rs>. Ut hoc autem verius ab omnibus credatur, manu propria
@@ -157,7 +164,7 @@
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p>DD B I, pp. 155-158, n° LV</p>
+                <p>DD B I, pp. 155-158, n. LV</p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p/>

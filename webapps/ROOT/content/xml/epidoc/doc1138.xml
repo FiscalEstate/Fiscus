@@ -4,8 +4,8 @@
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
-                <title>Archivio di Stato di Milano, <foreign>Museo diplom. Atti pagensi</foreign>,
-                    sec. X, a. 906-912</title>
+                <title>Milano, Archivio di Stato, Museo Diplomatico, Atti pagensi, sec. X, a.
+                    906-912</title>
             </titleStmt>
             <editionStmt>
                 <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
@@ -34,7 +34,7 @@
                             <rs type="text_type" ref="#">-Placitum/iudicatum</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Original</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">No</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -42,16 +42,16 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate notBefore="0906" notAfter="0910">
-                                <note type="displayed_date">Between 906 and 910</note>
+                            <origDate notBefore="0906-03-07" notAfter="0910-01-01">
+                                <note type="displayed_date">Between 906 March 7 and 910</note>
                                 <note type="dating_elements">Il termine <foreign>post quem</foreign>
-                                    è il 906, ossia il primo anno di vescovato di Aicone di Milano,
-                                    il termine <foreign>ante quem</foreign> è il 910 che, come
-                                    riportato da Schiaparelli, sarebbe il primo anno dell'abate di
-                                    Sant'Ambrogio Ragiberto.</note>
+                                    è il 3 marzo 906, data di inizio del vescovato di Aicone di
+                                    Milano, il termine <foreign>ante quem</foreign> è il 910 che,
+                                    come riportato da Schiaparelli, sarebbe il primo anno
+                                    dell'abbaziato di Ragiberto a Sant'Ambrogio.</note>
                                 <note type="topical_date">Pavia</note>
                                 <note type="redaction_date"/>
-                             </origDate>
+                            </origDate>
                             <origPlace/>
                         </origin>
                         <provenance>
@@ -89,55 +89,68 @@
                     <ab>Dum in Dei nomine civitate <placeName ref="#places/65">Papia</placeName> in
                         sacro palacio hubi domnus <persName key="#Emperor/king" ref="#people/21"
                             >Berengarius</persName>
-                        <rs key="#Emperor/king">rex</rs> preerat, in laubia magiore ubi sub
-                            <persName key="#Emperor/king" ref="#people/322">[Teu]derico</persName>
-                        dicitur, in iudicio resederent <persName key="#Bishops" ref="#people/253"
-                            >Iohannes</persName> venerabilis <rs key="#Bishops">episcopus</rs>
-                        sancte <orgName ref="#juridical_persons/220">Ticinensis ecclesie</orgName>
-                        et <persName key="#Bishops" ref="#people/78">Adelbertus</persName> sancte
-                            <orgName ref="#juridical_persons/189">Bergomate ecclesie</orgName>
-                        [missi ex hac causa] ab ipso pri[n]cipe constit[uti], una cum domno
-                            <persName key="#Archbishops" ref="#people/323">Aihone</persName>
+                        <rs key="#Emperor/king">rex</rs> preerat, in <rs key="#Laubia/topia"
+                            >laubia</rs> magiore ubi sub <persName key="#Emperor/king"
+                            ref="#people/322">[Teu]derico</persName> dicitur, in iudicio resederent
+                            <persName key="#Witness #Bishops" ref="#people/253">Iohannes</persName>
+                        venerabilis <rs key="#Bishops">episcopus</rs> sancte <orgName
+                            ref="#juridical_persons/220"><placeName ref="#places/65"
+                                >Ticinensis</placeName> ecclesie</orgName> et <persName
+                            key="#Witness #Bishops" ref="#people/78">Adelbertus</persName> sancte
+                            <orgName ref="#juridical_persons/189"><placeName ref="#places/10"
+                                >Bergomate</placeName> ecclesie</orgName> [missi ex hac causa] ab
+                        ipso pri[n]cipe constit[uti], una cum domno <persName
+                            key="#Witness #Archbishops" ref="#people/323">Aihone</persName>
                         <rs key="#Archbishops">archiepiscopo</rs> sancte <orgName
-                            ref="#juridical_persons/221">Mediolanensis ecclesie</orgName>,
-                        resedentibus cum eis <persName key="#Bishops"><name ref="Petrus"
-                                >Petrus</name></persName> et <persName key="#Bishops"><name
+                            ref="#juridical_persons/221"><placeName ref="#places/147"
+                                >Mediolanensis</placeName> ecclesie</orgName>, resedentibus cum eis
+                            <persName key="#Witness #Bishops"><name ref="Petrus"
+                            >Petrus</name></persName> et <persName key="#Witness #Bishops"><name
                                 ref="Adalmannus">Adelmannus</name></persName>
-                        <rs key="#Bishops">episcopis</rs>, <persName key="#Count"><name
+                        <rs key="#Bishops">episcopis</rs>, <persName key="#Witness #Count"><name
                                 ref="Gunthardus">G[un]tardus</name></persName> et <persName
-                            key="#Count"><name ref="Dido">Dido</name></persName>
-                        <rs key="#Count">comitibus</rs>, <persName key="#vassusOf"><name
+                            key="#Witness #Count"><name ref="Dido">Dido</name></persName>
+                        <rs key="#Count">comitibus</rs>, <persName key="#Witness #vassusOf"><name
                                 ref="Gausus">Gausus</name></persName>
                         <rs key="#vassusOf">vassus</rs> domni regi[s.....]dus, <persName
-                            key="#Judge"><name ref="Adelgrausus">Adelgrausus</name></persName>,
-                            <persName key="#Judge"><name ref="Walpertus"
-                            >Vualpertus</name></persName>, <persName key="#Judge"><name
-                                ref="Adalbertus">Adelbertus</name></persName>, <persName
-                            key="#Judge"><name ref="Farimundus">Farimundus</name></persName>,
-                        P[.......], <persName key="#Judge"><name ref="Donumdei"
-                            >Don[um]dei</name></persName>, <persName key="#Judge"><name
-                                ref="Iohannes">Iohannes</name></persName>, item Iohannes, <persName
-                            key="#Judge"><name ref="Stabilis">Stabilis</name></persName>, <persName
-                            key="#Judge"><name ref="Thomas">Thomas</name></persName>, <persName
-                            key="#Judge"><name ref="Leo">Leo</name></persName>, <persName
-                            key="#Judge"><name ref="Rofredus">Rotfredus</name></persName>, <persName
-                            key="#Judge"><name ref="Ragifredus">Ragifredus</name></persName>,
-                            <persName key="#Judge"><name ref="Adalgisus"
-                        >Adelgisus</name></persName>, <persName key="#Judge"><name ref="Gaidaldus"
-                                >Gaidoaldus</name></persName> et item Ragifredus <rs key="#Judge"
-                            >iudices</rs> domni re[gi]s, <persName key="#Judge"><name
-                                ref="Audobaldus">Aupaldus</name></persName>
-                        <rs key="#Judge">iudex</rs> Mediolanensis, <persName key="#Notary"><name
-                                ref="Eribaldus">Aribaldus</name></persName>, <persName key="#Notary"
-                                ><name ref="Leopertus">Leopertus</name></persName> et <persName
-                            key="#Notary"><name ref="Petrus">Petrus</name></persName> de civitate
-                        P[a]pia, <persName key="#Notary"><name ref="Aribrandus"
-                            >Ariprandus</name></persName> de Blasonno, <persName key="#Notary"><name
-                                ref="Arialdus">Arialdus</name></persName> filius
-                        Tazo[nis..........]dus, <persName key="#Notary"><name ref="Sicardus"
-                                >Sihardus</name></persName>, <persName key="#Notary"><name
-                                ref="Ildebertus">Ildebertus</name></persName> et <persName
-                            key="#Notary"><name ref="Giselbertus">Giselbertus</name></persName>
+                            key="#Witness #Judge"><name ref="Adelgrausus"
+                            >Adelgrausus</name></persName>, <persName key="#Witness #Judge"><name
+                                ref="Walpertus">Vualpertus</name></persName>, <persName
+                            key="#Witness #Judge"><name ref="Adalbertus"
+                            >Adelbertus</name></persName>, <persName key="#Witness #Judge"><name
+                                ref="Farimundus">Farimundus</name></persName>, P[.......], <persName
+                            key="#Witness #Judge"><name ref="Donumdei">Don[um]dei</name></persName>,
+                            <persName key="#Witness #Judge"><name ref="Iohannes"
+                            >Iohannes</name></persName>, item <persName key="#Witness #Judge"><name
+                                ref="Iohannes">Iohannes</name></persName>, <persName
+                            key="#Witness #Judge"><name ref="Stabilis">Stabilis</name></persName>,
+                            <persName key="#Witness #Judge"><name ref="Thomas"
+                            >Thomas</name></persName>, <persName key="#Witness #Judge"><name
+                                ref="Leo">Leo</name></persName>, <persName key="#Witness #Judge"
+                                ><name ref="Rofredus">Rotfredus</name></persName>, <persName
+                            key="#Witness #Judge"><name ref="Ragifredus"
+                            >Ragifredus</name></persName>, <persName key="#Witness #Judge"><name
+                                ref="Adalgisus">Adelgisus</name></persName>, <persName
+                            key="#Witness #Judge"><name ref="Gaidaldus">Gaidoaldus</name></persName>
+                        et item <persName key="#Witness #Judge"><name ref="Ragifredus"
+                                >Ragifredus</name></persName>
+                        <rs key="#Judge">iudices</rs> domni re[gi]s, <persName key="#Witness #Judge"
+                                ><name ref="Audobaldus Mediolanensis">Aupaldus</name></persName>
+                        <rs key="#Judge">iudex</rs>
+                        <placeName ref="#places/147">Mediolanensis</placeName>, <persName
+                            key="#Witness #Notary"><name ref="Eribaldus"
+                        >Aribaldus</name></persName>, <persName key="#Witness #Notary"><name
+                                ref="Leopertus">Leopertus</name></persName> et <persName
+                            key="#Witness #Notary"><name ref="Petrus de Papia"
+                            >Petrus</name></persName> de civitate P[a]pia, <persName
+                            key="#Witness #Notary"><name ref="Aribrandus de Blasonno"
+                                >Ariprandus</name></persName> de <placeName>Blasonno</placeName>,
+                            <persName key="#Witness #Notary"><name ref="Arialdus"
+                            >Arialdus</name></persName> filius Tazo[nis..........]dus, <persName
+                            key="#Witness #Notary"><name ref="Sicardus">Sihardus</name></persName>,
+                            <persName key="#Witness #Notary"><name ref="Ildebertus"
+                                >Ildebertus</name></persName> et <persName key="#Witness #Notary"
+                                ><name ref="Giselbertus">Giselbertus</name></persName>
                         <rs key="#Notary">notariis</rs> et reliqui multis; ibique eorum venerunt
                         presencia <persName key="#Abbots"><name ref="Gaidulfus"
                             >Gaidulfus</name></persName>
@@ -151,33 +164,46 @@
                                 ref="Boniprandus">Boniprandus</name></persName>
                         <rs key="#Judge">iudex</rs> do[mni] regis [et <rs
                             key="#Advocatus_of_other_public_authorities">advocatus monaste]rii</rs>
-                        Sancti Ambrosii, nec n[o]n <persName><name ref="Stefanus"
-                            >Stefanus</name></persName>, <persName><name ref="Iohannes"
-                                >Iohannes</name></persName>, item Iohannes, <persName><name
-                                ref="Lupus">Lupus</name></persName>, <persName><name ref="Ambrosius"
-                                >Ambrosius</name></persName>, Lupus, <persName><name ref="Befanius"
-                                >Befanius</name></persName>, <persName><name ref="Theuderius"
-                                >Teoderus</name></persName>, Ambrosius, <persName><name ref="Ursus"
-                                >Ursus</name></persName>, <persName><name ref="Rimolo"
-                            >Rimolo</name></persName>, Iohannes et item Iohannes de <placeName
+                        Sancti Ambrosii, nec n[o]n <persName key="#Slave"><name
+                                ref="Stefanus de Civenna">Stefanus</name></persName>,
+                        <persName key="#Slave"><name ref="Iohannes de Civenna"
+                            >Iohannes</name></persName>, item <persName key="#Slave"><name ref="Iohannes de Civenna"
+                                >Iohannes</name></persName>, <persName key="#Slave"><name ref="Lupus de Civenna"
+                                >Lupus</name></persName>, <persName><name ref="Ambrosius de Civenna"
+                                    >Ambrosius</name></persName>, <persName key="#Slave"><name ref="Lupus de Civenna"
+                                        >Lupus</name></persName>, <persName key="#Slave"><name ref="Befanius de Civenna"
+                                            >Befanius</name></persName>, <persName key="#Slave"><name
+                                ref="Theuderius de Civenna">Teoderus</name></persName>,
+                        <persName key="#Slave"><name ref="Ambrosius de Civenna"
+                            >Ambrosius</name></persName>, <persName key="#Slave"><name ref="Ursus de Civenna"
+                                >Ursus</name></persName>, <persName key="#Slave"><name ref="Rimolo de Civenna"
+                                    >Rimolo</name></persName>, <persName key="#Slave"><name ref="Iohannes de Civenna"
+                                        >Iohannes</name></persName> et item <persName key="#Slave"><name
+                                ref="Iohannes de Civenna">Iohannes</name></persName> de <placeName
                             ref="#places/574"><geogName ref="#estates/2380"
-                            >Ce[v]enna</geogName></placeName>, <persName><name ref="Priectus"
-                                >Precto</name></persName>, Lupus, <persName><name ref="Laurentius"
-                                >Laurencius</name></persName>, <persName><name ref="Madrebertus"
-                                >Madrevertus</name></persName>, Ursus et <persName><name
-                                ref="Ursacius">Ursaci[o]</name></persName> de loco
+                                >Ce[v]enna</geogName></placeName>, <persName key="#Slave"><name ref="Priectus de Madrunino"
+                                    >Precto</name></persName>, <persName key="#Slave"><name ref="Lupus de Madrunino"
+                                        >Lupus</name></persName>, <persName key="#Slave"><name ref="Laurentius de Madrunino"
+                                            >Laurencius</name></persName>, <persName key="#Slave"><name ref="Madrebertus de Madrunino"
+                                                >Madrevertus</name></persName>, <persName key="#Slave"><name ref="Ursus de Madrunino"
+                                                    >Ursus</name></persName> et <persName key="#Slave"><name
+                                ref="Ursacius de Madrunino">Ursaci[o]</name></persName> de loco
                                 <placeName><geogName ref="#estates/2377"
-                            >Madronino</geogName></placeName>, Iohannes, <persName><name
-                                ref="Ursebertus">Ursevert[us</name></persName>, Petrus,
-                                <persName><name ref="Dominicus">Dominicus</name></persName>,
-                                <persName><name ref="Luvaldus">Luv]aldus</name></persName>,
-                                <persName><name ref="Raginaldus">Raginaldus</name></persName> et
-                        Ursus de <placeName><geogName ref="#estates/2376"
-                            >Salvaniate</geogName></placeName>, <persName><name ref="Munaldus"
-                                >Munaldus</name></persName>, <persName><name ref="Mauricius"
-                                >Mauricio</name></persName>, Dominicus, <persName><name
-                                ref="Iohannacis">Iohannace</name></persName>, <persName><name
-                                ref="Stevanacis">Stevanace</name></persName> et Laurencius de
+                                    >Madronino</geogName></placeName>, <persName key="#Slave"><name ref="Iohannes de Salvaniate"
+                                        >Iohannes</name></persName>, <persName key="#Slave"><name ref="Ursebertus de Salvaniate"
+                                            >Ursevert[us</name></persName>, Petrus, <persName key="#Slave"><name
+                                                ref="Dominicus de Salvaniate">Dominicus</name></persName>, <persName key="#Slave"><name
+                                                    ref="Luvaldus de Salvaniate">Luv]aldus</name></persName>, <persName key="#Slave"><name
+                                                        ref="Raginaldus de Salvaniate">Raginaldus</name></persName> et <persName key="#Slave"><name
+                                ref="Ursus de Salvaniate">Ursus</name></persName> de
+                                <placeName><geogName ref="#estates/2376"
+                                    >Salvaniate</geogName></placeName>, <persName key="#Slave"><name ref="Munaldus de Limonta"
+                                        >Munaldus</name></persName>, <persName key="#Slave"><name ref="Mauricius de Limonta"
+                                            >Mauricio</name></persName>, <persName key="#Slave"><name ref="Dominicus de Limonta"
+                                                >Dominicus</name></persName>, <persName key="#Slave"><name
+                                                    ref="Iohannacis de Limonta">Iohannace</name></persName>, <persName key="#Slave"><name
+                                                        ref="Stevanacis de Limonta">Stevanace</name></persName> et <persName key="#Slave"><name
+                                ref="Laurentius de Limonta">Laurencius</name></persName> de
                                 <placeName><geogName ref="#estates/2378"
                             >C[a]l[to]nico</geogName></placeName> locus qui dicitur <geogName
                             key="#Curtes" ref="#estates/260"><placeName ref="#places/573"
@@ -240,7 +266,7 @@
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p>DD B I, pp. 188-192, n° LXX</p>
+                <p>DD B I, pp. 188-192, n. LXX</p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p>Castagnetti 1968; Padoa Schioppa 2015, pp. 120-121.</p>

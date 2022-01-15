@@ -4,7 +4,7 @@
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
-                <title>Archivio Storico Diocesano di Novara, <foreign>Documentario
+                <title>Novara, Archivio Storico Diocesano, <foreign>Documentario
                         Episcopale</foreign>, I, n. 2 (Rotolo dei Diplomi, n. 17)</title>
             </titleStmt>
             <editionStmt>
@@ -34,7 +34,7 @@
                             <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Copy</rs>
-                            <rs type="fiscal_property">Yes</rs>
+                            <rs type="fiscal_property">No</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -42,12 +42,16 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate notBefore="0912" notAfter="0915">
+                            <origDate notBefore="0912-01-01" notAfter="0915-12-01">
                                 <note type="displayed_date">Between 912 and 915</note>
-                                <note type="dating_elements"/>
+                                <note type="dating_elements">Il termine <foreign>post quem</foreign>
+                                    è proposto da Schiaparelli sulla base del fatto che nel 912
+                                    compare per la prima volta il conte Vifredo in un diploma di
+                                    Berengario I. Termine <foreign>ante quem</foreign> è
+                                    l'incoronazione imperiale di Berengario I.</note>
                                 <note type="topical_date"/>
                                 <note type="redaction_date">X sec.</note>
-                             </origDate>
+                            </origDate>
                             <origPlace/>
                         </origin>
                         <provenance>
@@ -89,29 +93,32 @@
                         industria, eo quod ob immensas sevorum Ungrorum persecutiones, nostra
                         accepta licentia, <persName key="#Subdeacons"><name ref="Hieronimus"
                                 >Ieronimus</name></persName> sancte <orgName
-                            ref="#juridical_persons/220">Ticinensis eclesie</orgName>
+                            ref="#juridical_persons/220"><placeName ref="#places/65"
+                                >Ticinensis</placeName> eclesie</orgName>
                         <rs key="#Subdeacons">subdiaconus</rs> in propriis rebus suis finibus
-                            <geogName key="#Comitatus" ref="#estates/329">comitatus
-                            Ticinensis</geogName>
+                            <geogName key="#Comitatus" ref="#estates/329"><rs key="#Comitatus"
+                                >comitatus</rs> Ticinensis</geogName>
                         <rs key="#Villas">villa</rs>
                         <geogName
-                            key="#Villas #Castle #Trade #Local_markets #Tuitio/bannum/mundeburdium"
-                            ref="#estates/330">Figaria</geogName>
+                            key="#Villas #Castle #Trade #Markets #Public_exactions #Tuitio/bannum/mundeburdium"
+                            ref="#estates/330"><placeName
+                                key="#Villas #Castle #Trade #Markets #Public_exactions #Tuitio/bannum/mundeburdium"
+                                >Figaria</placeName></geogName>
                         <rs key="#Castle">castellum</rs> hedificavit; unde per <persName
-                            key="#Intercessory #Count"><name ref="Wifredus"
-                            >Vuifredum</name></persName>
-                        <rs key="#Count">commitem</rs> nostrumque consiliarium suppliciter nostre
-                        accessit maiestati <rs key="#Intercessory">postulans</rs>, quatinus idem
-                        castellum sub regalis nostre <rs key="#Tuitio/bannum/mundeburdium">tuitionis
-                            mundburdo</rs> susciperemus, ac per nostre concessionis paginam <rs
-                            key="#Local_markets">mercatum</rs> inibi fieri permitteremus. Nos itaque
-                        considerantes ratam prefati Vuifredi comitis dilectique consiliarii nostri
-                        peticionem ac predicti Hieronimi subdiaconi fidelitatem continuumque eius in
-                        nostro obsequio servitium, ita fieri annuimus, hoc nostrum preceptum fieri
+                            key="#Intercessory #Count #Consiliarius_regis"><name ref="Wifredus"
+                                >Vuifredum</name></persName>
+                        <rs key="#Count">commitem</rs> nostrumque <rs key="#Consiliarius_regis"
+                            >consiliarium</rs> suppliciter nostre accessit maiestati <rs
+                            key="#Intercessory">postulans</rs>, quatinus idem castellum sub regalis
+                        nostre <rs key="#Tuitio/bannum/mundeburdium">tuitionis mundburdo</rs>
+                        susciperemus, ac per nostre concessionis paginam <rs key="#Markets"
+                            >mercatum</rs> inibi fieri permitteremus. Nos itaque considerantes ratam
+                        prefati Vuifredi comitis dilectique consiliarii nostri peticionem ac
+                        predicti Hieronimi subdiaconi fidelitatem continuumque eius in nostro
+                        obsequio servitium, ita fieri annuimus, hoc nostrum preceptum fieri
                         iubentes, per quod concedimus sepe nominato Hieronimo subdiacono in
                         suprascripto castello mercatum facere vel negotiatoribus aut quibusque
-                        hominibus, cum oportunum fuerit, <rs
-                            key="#Fiscal_property #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_individuals #Trade"
+                        hominibus, cum oportunum fuerit, <rs key="#Trade #Public_exactions"
                             >negotiationum commertia tam infra idem castellum quam circa exhibere,
                             ita quidem, ut quicquid ex mercimoniis quam ex quacumque causa ad
                             nostram regiam partem a re publica exigi debuit, ad partem suam prefatus
@@ -134,7 +141,7 @@
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p>DD B I, pp. 273-274, n° CVI</p>
+                <p>DD B I, pp. 273-274, n. CVI</p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p/>

@@ -20,8 +20,8 @@
 
   <xsl:template match="index_metadata" mode="head">
     <xsl:apply-templates select="tei:div/tei:head/node()" />
-  </xsl:template>
-
+  </xsl:template> 
+  
   <xsl:template match="response/result">
     <!-- scrolling down button -->
     <button type="button" onclick="topFunction()" id="scroll" title="Go to top">⬆  </button>
@@ -177,7 +177,7 @@
     <xsl:if test="doc[str[@name='index_item_name']][not(str[@name='index_thesaurus_hierarchy'])]">
       <div>
         <xsl:apply-templates select="doc[str[@name='index_item_name'][not(starts-with(., '~'))][not(starts-with(., '#'))]]">
-          <xsl:sort select="lower-case(.)"/>
+          <xsl:sort select="lower-case(replace(replace(., 'italicsstart', ''), 'italicsend', ''))"/>
         </xsl:apply-templates>
     </div>
     </xsl:if>
@@ -185,7 +185,7 @@
       <h3 class="sublist_heading">Personal names normalized forms</h3>
       <div>
           <xsl:apply-templates select="doc[str[@name='index_item_name'][starts-with(., '#')]]">
-            <xsl:sort select="lower-case(.)"/>
+            <xsl:sort select="lower-case(replace(replace(., 'italicsstart', ''), 'italicsend', ''))"/>
           </xsl:apply-templates>
         </div>
     </xsl:if>
@@ -193,7 +193,7 @@
       <h3 class="sublist_heading">Items that have not been normalized</h3>
       <div>
           <xsl:apply-templates select="doc[str[@name='index_item_name'][starts-with(., '~')]]">
-            <xsl:sort select="lower-case(.)"/>
+            <xsl:sort select="lower-case(replace(replace(., 'italicsstart', ''), 'italicsend', ''))"/>
           </xsl:apply-templates>
       </div>
     </xsl:if>
@@ -344,7 +344,7 @@
       <button type="button" class="expander" onclick="$(this).next().toggleClass('hidden'); $(this).text($(this).next().hasClass('hidden') ? 'Show' : 'Hide');">Show</button>
     <ul class="expanded hidden">
       <xsl:for-each select="$item">
-        <xsl:sort select="substring-after(translate(translate(., 'italicsstart', ''), 'italicsend', ''), '#')"/>
+        <xsl:sort select="substring-after(replace(replace(., 'italicsstart', ''), 'italicsend', ''), '#')"/>
         <li>
           <a target="_blank" href="{concat('estates.html#', substring-before(., '#'))}">
             <xsl:analyze-string select="substring-before(substring-after(normalize-space(.), '#'), '@')" regex="italicsstart(.*?)italicsend">
@@ -368,7 +368,7 @@
       <button type="button" class="expander" onclick="$(this).next().toggleClass('hidden'); $(this).text($(this).next().hasClass('hidden') ? 'Show' : 'Hide');">Show</button>
     <ul class="expanded hidden">
       <xsl:for-each select="$item">
-        <xsl:sort select="substring-after(translate(translate(., 'italicsstart', ''), 'italicsend', ''), '#')"/>
+        <xsl:sort select="substring-after(replace(replace(., 'italicsstart', ''), 'italicsend', ''), '#')"/>
         <li>
           <a target="_blank" href="{concat('juridical_persons.html#', substring-before(., '#'))}">
             <xsl:analyze-string select="substring-before(substring-after(normalize-space(.), '#'), '@')" regex="italicsstart(.*?)italicsend">
@@ -392,7 +392,7 @@
       <button type="button" class="expander" onclick="$(this).next().toggleClass('hidden'); $(this).text($(this).next().hasClass('hidden') ? 'Show' : 'Hide');">Show</button>
     <ul class="expanded hidden">
       <xsl:for-each select="$item">
-        <xsl:sort select="substring-after(translate(translate(., 'italicsstart', ''), 'italicsend', ''), '#')"/>
+        <xsl:sort select="substring-after(replace(replace(., 'italicsstart', ''), 'italicsend', ''), '#')"/>
         <li>
           <a target="_blank" href="{concat('people.html#', substring-before(., '#'))}">
             <xsl:analyze-string select="substring-before(substring-after(normalize-space(.), '#'), '@')" regex="italicsstart(.*?)italicsend">
@@ -412,19 +412,21 @@
     <xsl:variable name="item" select="tokenize(substring-after(., '~'), '£')"/>
     <div class="linked_elements">
       <h4 class="inline"><xsl:text>Linked places: </xsl:text></h4>
+      <xsl:if test="contains(., '€coord')">
       <a target="_blank" href="{concat('map.html#', substring-before(substring-after(., 'map.html#'), '~'))}" class="open_link">See on map</a>
+      </xsl:if>
       <xsl:text> </xsl:text>
       <button type="button" class="expander" onclick="$(this).next().toggleClass('hidden'); $(this).text($(this).next().hasClass('hidden') ? 'Show' : 'Hide');">Show</button>
     <ul class="expanded hidden">
       <xsl:for-each select="$item">
-        <xsl:sort select="substring-after(translate(translate(., 'italicsstart', ''), 'italicsend', ''), '#')"/>
+        <xsl:sort select="substring-after(replace(replace(., 'italicsstart', ''), 'italicsend', ''), '#')"/>
         <li>
           <a target="_blank" href="{concat('places.html#', substring-before(., '#'))}">
             <xsl:analyze-string select="substring-before(substring-after(normalize-space(.), '#'), '@')" regex="italicsstart(.*?)italicsend">
               <xsl:matching-substring><i><xsl:value-of select="regex-group(1)"/></i></xsl:matching-substring>
               <xsl:non-matching-substring><xsl:value-of select="."/></xsl:non-matching-substring>
             </xsl:analyze-string>
-            <span class="link_type"><xsl:value-of select="substring-after(., '@')"/></span>
+            <span class="link_type"><xsl:value-of select="substring-before(substring-after(., '@'), '€')"/></span>
           </a>
         </li>
       </xsl:for-each>

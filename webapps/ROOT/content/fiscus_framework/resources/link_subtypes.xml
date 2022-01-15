@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fiscus Link Subtypes</title>
+      </titleStmt>
+      <publicationStmt>
+        <p/>
+      </publicationStmt>
+      <sourceDesc>
+        <p/>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy xml:id="link_subtypes">
+          <!-- only those which are not included in thesaurus.xml in 'Bonds' category -->
+          <category><catDesc n="correspondsTo" corresp="correspondsTo"/></category>
+          <category><catDesc n="dependsOn" corresp="hasAsDependency"/></category>
+          <category><catDesc n="isWithin" corresp="hasWithin"/></category>
+          <category><catDesc n="proximity" corresp="proximity"/></category>
+          <category><catDesc n="bordersOn" corresp="bordersOn"/></category>
+          <category><catDesc n="isOwnedBy" corresp="owns"/></category>
+          <category><catDesc n="isGrantedTo" corresp="isGranted"/></category>
+          <category><catDesc n="isGrantedBy" corresp="grants"/></category>
+          <category><catDesc n="isConfirmedTo" corresp="isConfirmed"/></category>
+          <category><catDesc n="isConfirmedBy" corresp="confirms"/></category>
+          <category><catDesc n="rendersCollectedBy" corresp="collectsRendersFrom"/></category>
+          <category><catDesc n="isManagedBy" corresp="manages"/></category>
+          <category><catDesc n="isHeldBy" corresp="holds"/></category>
+          <category><catDesc n="isClaimedBy" corresp="claims"/></category>
+          
+          <!-- older deprecated values -->
+          <category><catDesc n="hasConnectionWith" corresp="hasConnectionWith"/></category>
+          <category><catDesc n="hasWithin" corresp="isWithin"/></category>
+          <category><catDesc n="isPartOf" corresp="isMadeOf"/></category>
+          <category><catDesc n="isMadeOf" corresp="isPartOf"/></category>
+          <category><catDesc n="isInVicinityOf" corresp="hasInItsVicinity"/></category>
+          <category><catDesc n="hasInItsVicinity" corresp="isInVicinityOf"/></category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <ab/>
+    </body>
+  </text>
+</TEI>

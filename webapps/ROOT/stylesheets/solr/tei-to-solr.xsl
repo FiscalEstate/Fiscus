@@ -98,6 +98,18 @@
     </field>
   </xsl:template>
   
+  <xsl:template match="tei:origDate" mode="facet_document_date">
+    <field name="document_date">
+      <xsl:choose>
+        <xsl:when test="@when and not(@notBefore) and not(@notAfter)"><xsl:value-of select="@when"/></xsl:when>
+        <xsl:when test="@notBefore and @notAfter and not(@when)"><xsl:value-of select="concat(@notBefore, ' – ', @notAfter)"/></xsl:when>
+        <xsl:when test="@notBefore and not(@notAfter) and not(@when)"><xsl:value-of select="concat(@notBefore, ' – ?')"/></xsl:when>
+        <xsl:when test="@notAfter and not(@notBefore) and not(@when)"><xsl:value-of select="concat(@notAfter, '? – ', @notAfter)"/></xsl:when>
+        <xsl:otherwise><xsl:text>?</xsl:text></xsl:otherwise>
+      </xsl:choose>
+    </field>
+  </xsl:template>
+  
   <xsl:template match="tei:persName[@ref!='']" mode="facet_people">
     <field name="people">
       <xsl:variable name="ref" select="translate(@ref,' #', '')"/>
@@ -164,7 +176,10 @@
   
   <xsl:template match="tei:date" mode="facet_dates">
     <field name="dates">
-      <xsl:value-of select="translate(translate(., '/', '／'), '?', '')" />
+      <xsl:choose>
+        <xsl:when test="@when!=''"><xsl:value-of select="@when"/></xsl:when>
+        <xsl:otherwise><xsl:value-of select="translate(translate(., '/', '／'), '?', '')" /></xsl:otherwise>
+      </xsl:choose>
     </field>
   </xsl:template>
   
@@ -192,14 +207,18 @@
       <xsl:variable name="thes" select="document('../../content/fiscus_framework/resources/thesaurus.xml')//tei:catDesc[lower-case(@n)=lower-case($key)]"/>
       <!-- All keys -->
       <field name="keywords_-_alphabetically">
-        <xsl:choose>
-          <xsl:when test="$thes">
-            <xsl:value-of select="translate(translate($thes/@n, '/', '／'), '_', ' ')"/>
-          </xsl:when>
-          <xsl:otherwise>
-            <xsl:value-of select="lower-case(translate(translate($key, '_', ' '), '/', '／'))"/>
-          </xsl:otherwise>
-        </xsl:choose>
+            <xsl:variable name="thes_v">
+              <xsl:choose>
+                <xsl:when test="$thes">
+                  <xsl:value-of select="lower-case(translate(translate(replace($thes/@n, '([a-z]{1})([A-Z]{1})', '$1_$2'), '/', '／'), '_', ' '))"/>
+                </xsl:when>
+                <xsl:otherwise>
+                  <xsl:value-of select="lower-case(translate(translate(replace($key, '([a-z]{1})([A-Z]{1})', '$1_$2'), '_', ' '), '/', '／'))"/>
+                </xsl:otherwise>
+              </xsl:choose>
+            </xsl:variable>
+        <xsl:value-of select="upper-case(substring($thes_v, 1, 1))"/>
+        <xsl:value-of select="substring($thes_v, 2)" />
       </field>
     </xsl:for-each>
   </xsl:template>
@@ -222,29 +241,39 @@
           <xsl:number value="count($thes/ancestor::tei:category[3]/preceding-sibling::tei:category) + 1" format="01" /><xsl:text>.</xsl:text>
           <xsl:number value="count($thes/ancestor::tei:category[2]/preceding-sibling::tei:category) + 1" format="01" /><xsl:text>.</xsl:text>
           <xsl:number value="count($thes/ancestor::tei:category[1]/preceding-sibling::tei:category) + 1" format="01" /><xsl:text>. </xsl:text>
-          <xsl:value-of select="translate(translate($thes/@n, '/', '／'), '_', ' ')"/>
+          <xsl:variable name="thes_v" select="lower-case(translate(translate(replace($thes/@n, '([a-z]{1})([A-Z]{1})', '$1_$2'), '/', '／'), '_', ' '))"/>
+          <xsl:value-of select="upper-case(substring($thes_v, 1, 1))"/>
+          <xsl:value-of select="substring($thes_v, 2)" />
         </field>
         <field name="keywords_-_level_4">
           <xsl:number value="count($thes/ancestor::tei:category[5]/preceding-sibling::tei:category) + 1" format="1" /><xsl:text>.</xsl:text>
           <xsl:number value="count($thes/ancestor::tei:category[4]/preceding-sibling::tei:category) + 1" format="01" /><xsl:text>.</xsl:text>
           <xsl:number value="count($thes/ancestor::tei:category[3]/preceding-sibling::tei:category) + 1" format="01" /><xsl:text>.</xsl:text>
           <xsl:number value="count($thes/ancestor::tei:category[2]/preceding-sibling::tei:category) + 1" format="01" /><xsl:text>. </xsl:text>
-          <xsl:value-of select="translate(translate($thes/ancestor::tei:category[2]/child::tei:catDesc/@n, '/', '／'), '_', ' ')"/>
+          <xsl:variable name="thes_v" select="lower-case(translate(translate(replace($thes/ancestor::tei:category[2]/child::tei:catDesc/@n, '([a-z]{1})([A-Z]{1})', '$1_$2'), '/', '／'), '_', ' '))"/>
+          <xsl:value-of select="upper-case(substring($thes_v, 1, 1))"/>
+          <xsl:value-of select="substring($thes_v, 2)" />
         </field>
         <field name="keywords_-_level_3">
           <xsl:number value="count($thes/ancestor::tei:category[5]/preceding-sibling::tei:category) + 1" format="01" /><xsl:text>.</xsl:text>
           <xsl:number value="count($thes/ancestor::tei:category[4]/preceding-sibling::tei:category) + 1" format="01" /><xsl:text>.</xsl:text>
           <xsl:number value="count($thes/ancestor::tei:category[3]/preceding-sibling::tei:category) + 1" format="01" /><xsl:text>. </xsl:text>
-          <xsl:value-of select="translate(translate($thes/ancestor::tei:category[3]/child::tei:catDesc/@n, '/', '／'), '_', ' ')"/>
+          <xsl:variable name="thes_v" select="lower-case(translate(translate(replace($thes/ancestor::tei:category[3]/child::tei:catDesc/@n, '([a-z]{1})([A-Z]{1})', '$1_$2'), '/', '／'), '_', ' '))"/>
+          <xsl:value-of select="upper-case(substring($thes_v, 1, 1))"/>
+          <xsl:value-of select="substring($thes_v, 2)" />
         </field>
         <field name="keywords_-_level_2">
           <xsl:number value="count($thes/ancestor::tei:category[5]/preceding-sibling::tei:category) + 1" format="1" /><xsl:text>.</xsl:text>
           <xsl:number value="count($thes/ancestor::tei:category[4]/preceding-sibling::tei:category) + 1" format="01" /><xsl:text>. </xsl:text>
-          <xsl:value-of select="translate(translate($thes/ancestor::tei:category[4]/child::tei:catDesc/@n, '/', '／'), '_', ' ')"/>
+          <xsl:variable name="thes_v" select="lower-case(translate(translate(replace($thes/ancestor::tei:category[4]/child::tei:catDesc/@n, '([a-z]{1})([A-Z]{1})', '$1_$2'), '/', '／'), '_', ' '))"/>
+          <xsl:value-of select="upper-case(substring($thes_v, 1, 1))"/>
+          <xsl:value-of select="substring($thes_v, 2)" />
         </field>
         <field name="keywords_-_level_1">
           <xsl:number value="count($thes/ancestor::tei:category[5]/preceding-sibling::tei:category) + 1" format="1" /><xsl:text>. </xsl:text>
-          <xsl:value-of select="translate(translate($thes/ancestor::tei:category[5]/child::tei:catDesc/@n, '/', '／'), '_', ' ')"/>
+          <xsl:variable name="thes_v" select="lower-case(translate(translate(replace($thes/ancestor::tei:category[5]/child::tei:catDesc/@n, '([a-z]{1})([A-Z]{1})', '$1_$2'), '/', '／'), '_', ' '))"/>
+          <xsl:value-of select="upper-case(substring($thes_v, 1, 1))"/>
+          <xsl:value-of select="substring($thes_v, 2)" />
         </field>
       </xsl:if>
       
@@ -255,22 +284,30 @@
           <xsl:number value="count($thes/ancestor::tei:category[3]/preceding-sibling::tei:category) + 1" format="01" /><xsl:text>.</xsl:text>
           <xsl:number value="count($thes/ancestor::tei:category[2]/preceding-sibling::tei:category) + 1" format="01" /><xsl:text>.</xsl:text>
           <xsl:number value="count($thes/ancestor::tei:category[1]/preceding-sibling::tei:category) + 1" format="01" /><xsl:text>. </xsl:text>
-          <xsl:value-of select="translate(translate($thes/@n, '/', '／'), '_', ' ')"/>
+          <xsl:variable name="thes_v" select="lower-case(translate(translate(replace($thes/@n, '([a-z]{1})([A-Z]{1})', '$1_$2'), '/', '／'), '_', ' '))"/>
+          <xsl:value-of select="upper-case(substring($thes_v, 1, 1))"/>
+          <xsl:value-of select="substring($thes_v, 2)" />
         </field>
         <field name="keywords_-_level_3">
           <xsl:number value="count($thes/ancestor::tei:category[4]/preceding-sibling::tei:category) + 1" format="1" /><xsl:text>.</xsl:text>
           <xsl:number value="count($thes/ancestor::tei:category[3]/preceding-sibling::tei:category) + 1" format="01" /><xsl:text>.</xsl:text>
           <xsl:number value="count($thes/ancestor::tei:category[2]/preceding-sibling::tei:category) + 1" format="01" /><xsl:text>. </xsl:text>
-          <xsl:value-of select="translate(translate($thes/ancestor::tei:category[2]/child::tei:catDesc/@n, '/', '／'), '_', ' ')"/>
+          <xsl:variable name="thes_v" select="lower-case(translate(translate(replace($thes/ancestor::tei:category[2]/child::tei:catDesc/@n, '([a-z]{1})([A-Z]{1})', '$1_$2'), '/', '／'), '_', ' '))"/>
+          <xsl:value-of select="upper-case(substring($thes_v, 1, 1))"/>
+          <xsl:value-of select="substring($thes_v, 2)" />
         </field>
         <field name="keywords_-_level_2">
           <xsl:number value="count($thes/ancestor::tei:category[4]/preceding-sibling::tei:category) + 1" format="1" /><xsl:text>.</xsl:text>
           <xsl:number value="count($thes/ancestor::tei:category[3]/preceding-sibling::tei:category) + 1" format="01" /><xsl:text>. </xsl:text>
-          <xsl:value-of select="translate(translate($thes/ancestor::tei:category[3]/child::tei:catDesc/@n, '/', '／'), '_', ' ')"/>
+          <xsl:variable name="thes_v" select="lower-case(translate(translate(replace($thes/ancestor::tei:category[3]/child::tei:catDesc/@n, '([a-z]{1})([A-Z]{1})', '$1_$2'), '/', '／'), '_', ' '))"/>
+          <xsl:value-of select="upper-case(substring($thes_v, 1, 1))"/>
+          <xsl:value-of select="substring($thes_v, 2)" />
         </field>
         <field name="keywords_-_level_1">
           <xsl:number value="count($thes/ancestor::tei:category[4]/preceding-sibling::tei:category) + 1" format="1" /><xsl:text>. </xsl:text>
-          <xsl:value-of select="translate(translate($thes/ancestor::tei:category[4]/child::tei:catDesc/@n, '/', '／'), '_', ' ')"/>
+          <xsl:variable name="thes_v" select="lower-case(translate(translate(replace($thes/ancestor::tei:category[4]/child::tei:catDesc/@n, '([a-z]{1})([A-Z]{1})', '$1_$2'), '/', '／'), '_', ' '))"/>
+          <xsl:value-of select="upper-case(substring($thes_v, 1, 1))"/>
+          <xsl:value-of select="substring($thes_v, 2)" />
         </field>
       </xsl:if>
       
@@ -279,16 +316,22 @@
           <xsl:number value="count($thes/ancestor::tei:category[3]/preceding-sibling::tei:category) + 1" format="1" /><xsl:text>.</xsl:text>
           <xsl:number value="count($thes/ancestor::tei:category[2]/preceding-sibling::tei:category) + 1" format="01" /><xsl:text>.</xsl:text>
           <xsl:number value="count($thes/ancestor::tei:category[1]/preceding-sibling::tei:category) + 1" format="01" /><xsl:text>. </xsl:text>
-          <xsl:value-of select="translate(translate($thes/@n, '/', '／'), '_', ' ')"/>
+          <xsl:variable name="thes_v" select="lower-case(translate(translate(replace($thes/@n, '([a-z]{1})([A-Z]{1})', '$1_$2'), '/', '／'), '_', ' '))"/>
+          <xsl:value-of select="upper-case(substring($thes_v, 1, 1))"/>
+          <xsl:value-of select="substring($thes_v, 2)" />
         </field>
         <field name="keywords_-_level_2">
           <xsl:number value="count($thes/ancestor::tei:category[3]/preceding-sibling::tei:category) + 1" format="1" /><xsl:text>.</xsl:text>
           <xsl:number value="count($thes/ancestor::tei:category[2]/preceding-sibling::tei:category) + 1" format="01" /><xsl:text>. </xsl:text>
-          <xsl:value-of select="translate(translate($thes/ancestor::tei:category[2]/child::tei:catDesc/@n, '/', '／'), '_', ' ')"/>
+          <xsl:variable name="thes_v" select="lower-case(translate(translate(replace($thes/ancestor::tei:category[2]/child::tei:catDesc/@n, '([a-z]{1})([A-Z]{1})', '$1_$2'), '/', '／'), '_', ' '))"/>
+          <xsl:value-of select="upper-case(substring($thes_v, 1, 1))"/>
+          <xsl:value-of select="substring($thes_v, 2)" />
         </field>
         <field name="keywords_-_level_1">
           <xsl:number value="count($thes/ancestor::tei:category[3]/preceding-sibling::tei:category) + 1" format="1" /><xsl:text>. </xsl:text>
-          <xsl:value-of select="translate(translate($thes/ancestor::tei:category[3]/child::tei:catDesc/@n, '/', '／'), '_', ' ')"/>
+          <xsl:variable name="thes_v" select="lower-case(translate(translate(replace($thes/ancestor::tei:category[3]/child::tei:catDesc/@n, '([a-z]{1})([A-Z]{1})', '$1_$2'), '/', '／'), '_', ' '))"/>
+          <xsl:value-of select="upper-case(substring($thes_v, 1, 1))"/>
+          <xsl:value-of select="substring($thes_v, 2)" />
         </field>
       </xsl:if>
       
@@ -296,18 +339,24 @@
         <field name="keywords_-_level_2">
           <xsl:number value="count($thes/ancestor::tei:category[2]/preceding-sibling::tei:category) + 1" format="1" /><xsl:text>.</xsl:text>
           <xsl:number value="count($thes/ancestor::tei:category[1]/preceding-sibling::tei:category) + 1" format="01" /><xsl:text>. </xsl:text>
-          <xsl:value-of select="translate(translate($thes/@n, '/', '／'), '_', ' ')"/>
+          <xsl:variable name="thes_v" select="lower-case(translate(translate(replace($thes/@n, '([a-z]{1})([A-Z]{1})', '$1_$2'), '/', '／'), '_', ' '))"/>
+          <xsl:value-of select="upper-case(substring($thes_v, 1, 1))"/>
+          <xsl:value-of select="substring($thes_v, 2)" />
         </field>
         <field name="keywords_-_level_1">
           <xsl:number value="count($thes/ancestor::tei:category[2]/preceding-sibling::tei:category) + 1" format="1" /><xsl:text>. </xsl:text>
-          <xsl:value-of select="translate(translate($thes/ancestor::tei:category[2]/child::tei:catDesc/@n, '/', '／'), '_', ' ')"/>
+          <xsl:variable name="thes_v" select="lower-case(translate(translate(replace($thes/ancestor::tei:category[2]/child::tei:catDesc/@n, '([a-z]{1})([A-Z]{1})', '$1_$2'), '/', '／'), '_', ' '))"/>
+          <xsl:value-of select="upper-case(substring($thes_v, 1, 1))"/>
+          <xsl:value-of select="substring($thes_v, 2)" />
         </field>
       </xsl:if>
       
       <xsl:if test="$thes[ancestor::tei:category[1]][not(ancestor::tei:category[2])]">
         <field name="keywords_-_level_1">
           <xsl:number value="count($thes/ancestor::tei:category[1]/preceding-sibling::tei:category) + 1" format="1" /><xsl:text>. </xsl:text>
-          <xsl:value-of select="translate(translate($thes/@n, '/', '／'), '_', ' ')"/>
+          <xsl:variable name="thes_v" select="lower-case(translate(translate(replace($thes/@n, '([a-z]{1})([A-Z]{1})', '$1_$2'), '/', '／'), '_', ' '))"/>
+          <xsl:value-of select="upper-case(substring($thes_v, 1, 1))"/>
+          <xsl:value-of select="substring($thes_v, 2)" />
         </field>
       </xsl:if>
     </xsl:for-each>
@@ -324,6 +373,7 @@
     <xsl:call-template name="field_document_tradition" />
     <xsl:call-template name="field_topical_date"/>
     <xsl:call-template name="field_redaction_date"/>
+    <xsl:call-template name="field_document_date"/>
     <xsl:call-template name="field_keywords"/>
     <xsl:call-template name="field_keywords_-_alphabetically"/>
     <xsl:call-template name="field_people"/>
@@ -358,6 +408,9 @@
   </xsl:template>
   <xsl:template name="field_redaction_date">
     <xsl:apply-templates mode="facet_redaction_date" select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:origDate/tei:note[@type='redaction_date']"/>
+  </xsl:template>
+  <xsl:template name="field_document_date">
+    <xsl:apply-templates mode="facet_document_date" select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:origDate"/>
   </xsl:template>
   <xsl:template name="field_people">
     <xsl:apply-templates mode="facet_people" select="/tei:TEI/tei:text/tei:body/tei:div[@type='edition']" />

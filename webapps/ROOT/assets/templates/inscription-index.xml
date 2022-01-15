@@ -14,7 +14,7 @@
   <xsl:variable name="match_id" select="'local-epidoc-display-html'" />
 
   <kiln:parent>
-    <xi:include href="works.xml" />
+    <xi:include href="base.xml" />
   </kiln:parent>
 
   <kiln:child>
@@ -41,7 +41,7 @@
           <p>The source EpiDoc XML for all of the listed documents are available in a <a href="{kiln:url-for-match('local-epidoc-zip', ($language), 0)}">ZIP archive</a>.</p>
 
           <xsl:apply-templates mode="text-index"
-                               select="/aggregation/response" />
+            select="/aggregation/response/result" />
         </div>
       </div>
     </kiln:block>

@@ -4,7 +4,7 @@
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
-                <title>Archivio di Stato di Milano, Museo Diplomatico, Pergamene-S.Benedetto,
+                <title>Milano, Archivio di Stato, Museo Diplomatico, Pergamene-S.Benedetto,
                     1034/731</title>
             </titleStmt>
             <editionStmt>
@@ -31,7 +31,7 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="#">-Breve</rs>
+                            <rs type="text_type" ref="#">-Breve/memoratorium</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Original</rs>
                             <rs type="fiscal_property"/>
@@ -83,32 +83,56 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>(S.) In nomine domini Dei et salvatoris nostri Iesu Christi. Hanno ab
-                        incarnacione eiusdem millessimo nonagessimo sesto, idus augusti, indicione
-                        quarta. Presencia bonorum hominum quorum nomina hic subter leguntur, in
-                        caminata iusta ecclesia Sancti Benedicti, Conus advocatus et missus domine
-                        Matilde comitisse per iusionem eius difinivit litem que orta erat inter
-                        comitissa et abatem Guilielmum monesterii Sancti Benedicti de terra partim
-                        laboratoria et partim cum silva que inter runcos deputata est, sicut
-                        difinitum fuit tempore domine Beatricis matris predicte Matilde per certos
-                        missos Paganus de Castelloveteri et Caretum de Gunzaga et Landoisium de
-                        Carpeneta, in tempore Petri abatis predicti monesterii. Antiqui homines qui
-                        bene siebant veritatem munstaverunt fines terre, et signaverunt arbores in
-                        circuitu, et ita firmiter iuraverunt esse iuris Sancti Benedicti: silicet
-                        Albertus Azonis ex parte ecclesie et alius de villanis comitisse qui vocatur
-                        Lugarello. Post hec autem longo tempore interveniente oblivione, domina
-                        Matilda per suos missos cepit intencionare eandem terram et abstulit totam
-                        blavam unius anni horninibus illis qui laboraverant eam ex parte predicti
-                        monestrerii. Deinde predictus abas Guilielmus cum consilio fratrum monahorum
-                        fecit venire tres homines, Albertus de Guosberto et Girardus qui dicitur
-                        Maniosum et lohannem qui dicitur Canis. Isti prius ostenderunt fines et
-                        predictos terminos in circuitu predicto Cono advocato et miso domine
-                        Matilde; postea autem iuraverunt ita esse difinitum sicut super legitur in
-                        tempore domine Beatricis et Petri abatis, in presencia Coni et Gotebaldi seu
-                        Manfredi de Pigugnaga atque Erlienxonis de Gunzaga et Paganinus gastaldus
-                        predicte comitisse et reliquis plures ibi fuerunt; et in presencia donni
-                        abatis Guilielmi et Girardi priores et donni Huberti atque donnus Opixonis
-                        de Gunzaga et reliqui plures. Confinium terre Sancti Benedicti que est inter
+                    <ab>(S.) In nomine domini Dei et salvatoris nostri Iesu Christi. <date>Hanno ab
+                            incarnacione eiusdem millessimo nonagessimo sesto, idus augusti,
+                            indicione quarta</date>. Presencia <rs key="#Boni_viri/boni_homines"
+                            >bonorum hominum</rs> quorum nomina hic subter leguntur, in caminata
+                        iusta <rs key="#Churches">ecclesia</rs>
+                        <orgName key="#Churches #Monasteries #Abbots #Landed_possessions #Forests"
+                            ref="#juridical_persons/2001">Sancti Benedicti</orgName>, <persName
+                            key="#Advocatus_of_other_public_authorities #Missus_of_other_public_authorities"
+                            >Conus</persName>
+                        <rs key="#Advocatus_of_other_public_authorities">advocatus</rs> et <rs
+                            key="#Missus_of_other_public_authorities">missus</rs> domine <persName
+                            key="#Countess #childOf #Landed_possessions #Forests"
+                            ref="#people/125">Matilde</persName>
+                        <rs key="#Countess">comitisse</rs> per iusionem eius difinivit litem que
+                        orta erat inter comitissa et <rs key="#Abbots">abatem</rs>
+                        <persName key="#Abbots" ref="#people/2163">Guilielmum</persName>
+                        <rs key="#Monasteries">monesterii</rs> Sancti Benedicti de <rs
+                            key="#Landed_possessions">terra</rs> partim laboratoria et partim cum
+                            <rs key="#Forests">silva</rs> que inter runcos deputata est, sicut
+                        difinitum fuit tempore domine <persName key="#parentOf" ref="#people/292"
+                            >Beatricis</persName>
+                        <rs key="#parentOf">matris</rs> predicte Matilde per certos missos <persName
+                            key="#Missus_of_other_public_authorities"><name ref="Paganus"
+                                >Paganus</name></persName> de <placeName ref="#places/2922"
+                            >Castelloveteri</placeName> et <persName
+                            key="#Missus_of_other_public_authorities"><name ref="Caretus"
+                                >Caretum</name></persName> de <placeName ref="#places/2414"
+                            >Gunzaga</placeName> et <persName
+                            key="#Missus_of_other_public_authorities"><name ref="Landoisius"
+                                >Landoisium</name></persName> de <placeName ref="#places/2902"
+                            >Carpeneta</placeName>, in tempore <persName key="#Abbots"
+                            ref="#people/2151">Petri</persName> abatis predicti monesterii. Antiqui
+                        homines qui bene siebant veritatem munstaverunt fines terre, et signaverunt
+                        arbores in circuitu, et ita firmiter iuraverunt esse iuris Sancti Benedicti:
+                        silicet <persName><name ref="Albertus/Azo">Albertus Azonis</name></persName>
+                        ex parte ecclesie et alius de villanis comitisse qui vocatur
+                                <persName><name>Lugarello</name></persName>. Post hec autem longo
+                        tempore interveniente oblivione, domina Matilda per suos missos cepit
+                        intencionare eandem terram et abstulit totam blavam unius anni horninibus
+                        illis qui laboraverant eam ex parte predicti monestrerii. Deinde predictus
+                        abas Guilielmus cum consilio fratrum monahorum fecit venire tres homines,
+                        Albertus de Guosberto et Girardus qui dicitur Maniosum et lohannem qui
+                        dicitur Canis. Isti prius ostenderunt fines et predictos terminos in
+                        circuitu predicto Cono advocato et miso domine Matilde; postea autem
+                        iuraverunt ita esse difinitum sicut super legitur in tempore domine
+                        Beatricis et Petri abatis, in presencia Coni et Gotebaldi seu Manfredi de
+                        Pigugnaga atque Erlienxonis de Gunzaga et Paganinus gastaldus predicte
+                        comitisse et reliquis plures ibi fuerunt; et in presencia donni abatis
+                        Guilielmi et Girardi priores et donni Huberti atque donnus Opixonis de
+                        Gunzaga et reliqui plures. Confinium terre Sancti Benedicti que est inter
                         runcos, pro qua fuit lis inter comitissam et monesterium: a meridie Padus; a
                         mane silva que dicitur Cona; ab aquilone signum antique sepis que nunc per
                         lapides designata est, usque ad argenem ubi signum petre positum est; exinde
@@ -143,7 +167,7 @@
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p>CDP I n. 50, pp. 174-176.</p>
+                <p>CDP I n. 50, pp. 174-176; MGH DD Mat A n. 6, pp. 479-481.</p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p/>

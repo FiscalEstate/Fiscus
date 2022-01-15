@@ -4,7 +4,7 @@
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
-                <title>Archivio Abbaziale di Nonantola, Pergamene, IX 15</title>
+                <title>Nonantola, Archivio Abbaziale, Pergamene, IX.15</title>
             </titleStmt>
             <editionStmt>
                 <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus
@@ -34,7 +34,7 @@
                             <rs type="text_type" ref="#">--Libellus/precaria/emphyteusis</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Copy</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Uncertain</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -48,8 +48,7 @@
                                 <note type="topical_date">San Cesario sul Panaro (Modena)</note>
                                 <note type="redaction_date">1176</note>
                             </origDate>
-                            <origPlace>Sanctus Silvestrus; monasterium (Nonantola,
-                                Modena)</origPlace>
+                            <origPlace/>
                         </origin>
                         <provenance>
                             <location>
@@ -83,16 +82,15 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>In nomine sancte et individue Trinitatis, <date>anno domini nostri Iesu
-                            Christi millesimo centesimo septuagesimo sexto, regnante
-                                <persName>Frederico</persName> dei gratia Romanorum
-                                <rs>imperatore</rs> et semper augusto, quarto ydus martii,
-                            indictione VIIII</date>, exemplar antiqui instrumenti factum. In nomine
-                        sancte et individue Trinitatis. <date>Anno ab incarnatione eiusdem domini
-                            nostri Iesu Christi millesimo centesimo octavo, sextodecimo kalendarum
-                            octubris, indictione prima</date>, et ideo in dei nomine ego quidem
-                        domina <persName>Matilda</persName>, inclita <rs>comitissa</rs>, filia donni
-                            <persName>Bonifatii</persName>
+                    <ab>In nomine sancte et individue Trinitatis, anno domini nostri Iesu Christi
+                        millesimo centesimo septuagesimo sexto, regnante
+                            <persName>Frederico</persName> dei gratia Romanorum <rs>imperatore</rs>
+                        et semper augusto, quarto ydus martii, indictione VIIII, <rs key="#Copyist"
+                            >exemplar</rs> antiqui instrumenti factum. In nomine sancte et individue
+                        Trinitatis. Anno ab incarnatione eiusdem domini nostri Iesu Christi
+                        millesimo centesimo octavo, sextodecimo kalendarum octubris, indictione
+                        prima, et ideo in dei nomine ego quidem domina <persName>Matilda</persName>,
+                        inclita <rs>comitissa</rs>, filia donni <persName>Bonifatii</persName>
                         <rs>marchionis</rs>, per cartulam precariam atque <rs>emphyteotecariam</rs>
                         iuris nomine concedo vobis <persName><name>Yldebrando</name></persName>
                         iugera duo; et <persName><name>Guido</name></persName> germani iugera duo;
@@ -266,34 +264,35 @@
                         emphyteotecaria ire temptaverint et non observaverint omnia, quod superius
                         legitur, tunc componat illa pars, qui hoc non observaverint, ad partem fidem
                         servantem pene nomine solidi centum denariorum Lucensium, et post penam
-                        solutam cartulam precariam maneat in sua firmitate. Actum in loco
-                            <placeName>sancti Cesarii</placeName>. Supra legitur: Matilda dei
+                        solutam cartulam precariam maneat in sua firmitate. Actum in loco <placeName
+                            ref="#places/269">sancti Cesarii</placeName>. Supra legitur: Matilda dei
                         gratia, si quid est, subscripsi. Ego
                             <persName><name>Daniel</name></persName>
                         <placeName>Montebelliensis</placeName>
-                        <rs>archipresbiter</rs> interfui. <persName><name>Ubaldo</name></persName>
+                        <rs>archipresbiter</rs>
+                        <rs key="#Witness">interfui</rs>. <persName key="#Witness"><name>Ubaldo</name></persName>
                         de <placeName>Scoveto</placeName> et +
-                            <persName><name>Ugizone</name></persName> filius
+                        <persName key="#Witness"><name>Ugizone</name></persName> filius
                                 <persName><name>Ragineri</name></persName>.
-                                <persName><name>Gandulfo</name></persName> da
+                        <persName key="#Witness"><name>Gandulfo</name></persName> da
                             <placeName>Broilo</placeName> namque +
-                            <persName><name>Rodulfo</name></persName> de <placeName>Monte
+                        <persName key="#Witness"><name>Rodulfo</name></persName> de <placeName>Monte
                             Claro</placeName> rogati sunt. Ego
-                            <persName><name>Conon</name></persName> subscripsi et fieri rogavi. Ego
-                                <persName><name>Iohannes</name></persName> dictus <rs>prior</rs>
+                        <persName key="#Witness"><name>Conon</name></persName> subscripsi et fieri rogavi. Ego
+                        <persName key="#Witness"><name>Iohannes</name></persName> dictus <rs>prior</rs>
                         vidi et scripsi. In dei nomine, ego <persName><name>Leo</name></persName>
-                        <rs key="#Writer #Tabellio">tabellio</rs> hanc cartulam precariam, sicut
-                        superius legitur, scripsi et complevi. Dominus
-                                <persName><name>Nicholaus</name></persName> et dominus
-                                <persName><name>Zaccarus</name></persName>
+                        <rs key="#Writer #Tabellio">tabellio</rs> hanc cartulam precariam, sicut superius
+                        legitur, <rs key="#Writer">scripsi</rs> et complevi. Dominus
+                        <persName key="#Witness"><name>Nicholaus</name></persName> et dominus
+                        <persName key="#Witness"><name>Zaccarus</name></persName>
                         <rs>iudices</rs> de <rs>comuni</rs>
                         <geogName><placeName>Bononie</placeName></geogName>,
-                                <persName><name>Pegoloctus</name></persName>
-                        <rs>causidicus</rs>, <persName><name>Ardicono</name></persName>,
-                                <persName><name>Rainerius</name></persName> de
+                        <persName key="#Witness"><name>Pegoloctus</name></persName>
+                        <rs>causidicus</rs>, <persName key="#Witness"><name>Ardicono</name></persName>,
+                        <persName key="#Witness"><name>Rainerius</name></persName> de
                                 <persName><name>Petro</name></persName> de
                                 <persName><name>Aldizone</name></persName>,
-                                <persName><name>Zuccherus</name></persName> ad hanc cartam antiquam
+                        <persName key="#Witness"><name>Zuccherus</name></persName> ad hanc cartam antiquam
                         et novam audiendam interfuere et huius rei causa testes vocati sunt. Ego
                             <persName key="#Copyist #Notary"><name>Ugo</name></persName> dei gratia
                         comunis Bononie <rs>notarius</rs> hoc presens instrumentum, ut vidi in
@@ -313,7 +312,7 @@
                 <p>L'atto è tradito come copia autentica del 1176, di cui si è riportato il
                     protocollo e l'autenticazione del notaio Ugo e le dichiarazioni dei testimoni.
                     Un'altra copia del sec. XVII presso l'archivio abbaziale è contenuta nel
-                    registro denominato Cod. romano nonantolano ai ff. 93-4. Un ulteriore copia
+                    registro denominato Cod. romano nonantolano ai ff. 93-4. Un'ulteriore copia
                     tarda (sec. XVIII) è conservata presso BAV, cod. Vat. lat. 13020 ff. 249 e
                     250.</p>
             </div>
