@@ -33,7 +33,7 @@
                             <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Original</rs>
-                            <rs type="fiscal_property">Yes</rs>
+                            <rs type="fiscal_property">Uncertain</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -82,30 +82,45 @@
             <div type="edition">
                 <div type="textpart">
                     <ab>+ In nomine domini Dei salvatoris Iesu Christi. Nos vir gloriosissimus
-                        Grimoald Dei previdentia Beneventanae provinciae princeps, motus
+                            <persName key="#Princeps" ref="#people/2000">Grimoald</persName> Dei
+                        previdentia Beneventanae provinciae <rs key="#Princeps">princeps</rs>, motus
                         omnipotentis Dei misericordia et pro redemptionae anime nostrae, suggerente
-                        gloriose potestate Dauferi gastaldo fideli nostro, concedimus in monasterio
-                        Beate Dei genitricis Mariae quae vocatur Cengla, ubi Anfilenda abbatissa
-                        preest, omes curtes et territoria, servos et ancillas, scriptiones seu
-                        precepta cum omnibus suis continentiis ut securiter, amodo et in perpetuum
-                        ea omnia possideat et nullum censum vel dationem, quocumque adveniente
-                        tempore, parti reipublice vel cuicumque persone solbat, et nullus princeps,
-                        dux, marchio, comes, castaldus, iudex, sculdhais, magna seu parba persona
-                        aliquid exinde invaderae aut minuere presumat, et nulla iudicalia nec
-                        fiscalia quispiam audeat habere in eraeditates ac serbos seu liberos homines
-                        qui in rebus praedicti cenobii habitat per diversis suis locis, ut non dent
-                        nec censum nec dationem nec escaticum nec siliquaticum nec portaticum
-                        cuicumque persone pro parte reipublice et nec ad vigilas civitatis nec ad
-                        iudicium, invitiis seu sponte, ante cuiuscumque persona badant nisi ante
-                        abbatissam seu prepositos vel qui hab eis sunt ordinati eidem sancti
-                        cenobii, ut semper iam phatus cenobius, abbatissa vel prepositi, seu
-                        sanctimoniales eius omnesque sibi subiectis absque omni datione publica
-                        permaneat in perpetuum. Si quis autem, quod abbsit, hanc nostram
-                        concessionem in quabis parte dirrumpere teptaberit, centum libras auri
-                        purissimi predicti cenobii se compositurum sciat. Quod vero praeceptum
-                        concessionis, ex iussione suprascriptae potestatis, scripsi ego Leo
-                        notarius. (SI D) Actu in curte palatii Venebentani, quinto anno, mense
-                        augusto, tertia indictione, feliciter.</ab>
+                        gloriose potestate <persName key="#Gastaldus/vicegastaldus"
+                            >Dauferi</persName>
+                        <rs key="#Gastaldus/vicegastaldus">gastaldo</rs> fideli nostro, concedimus
+                        in <rs key="#Monasteries">monasterio</rs>
+                        <orgName
+                            key="#Monasteries #Abbesses #Landed_possessions #Curtes #Slave #Slave_labour #Tolls #Census #Datio #Servitium #Exemption"
+                            ref="#juridical_persons/97">Beate Dei genitricis Mariae</orgName> quae
+                        vocatur <placeName key="#Monasteries #Abbesses" ref="#places/193"
+                            >Cengla</placeName>, ubi <persName key="#Abbesses" ref="#people/2412"
+                            >Anfilenda</persName>
+                        <rs key="#Abbesses">abbatissa</rs> preest, omnes <rs key="#Curtes"
+                            >curtes</rs> et <rs key="#Landed_possessions">territoria</rs>, <rs
+                            key="#Slave #Slave_labour">servos</rs> et ancillas, scriptiones seu <rs
+                            key="#Marquis’/ducal/princely_diploma">precepta</rs> cum omnibus suis
+                        continentiis ut securiter, amodo et in perpetuum ea omnia possideat et
+                        nullum censum vel dationem, quocumque adveniente tempore, parti reipublice
+                        vel cuicumque persone solbat, et nullus princeps, dux, marchio, comes,
+                        castaldus, iudex, sculdhais, magna seu parba persona aliquid exinde
+                        invaderae aut minuere presumat, et nulla iudicalia nec fiscalia quispiam
+                        audeat habere in eraeditates ac serbos seu liberos homines qui in rebus
+                        praedicti cenobii habitat per diversis suis locis, ut non dent nec
+                        <rs key="#Census">censum</rs> nec <rs key="#Datium">dationem</rs> nec <rs key="#Tolls">escaticum</rs> nec siliquaticum nec
+                        portaticum cuicumque persone <rs key="#Exemption">pro parte reipublice</rs> et nec <rs key="#Servitium">ad vigilas
+                        civitatis</rs> nec ad iudicium, invitiis seu sponte, ante cuiuscumque persona
+                        badant nisi ante abbatissam seu prepositos vel qui hab eis sunt ordinati
+                        eidem sancti cenobii, ut semper iam phatus cenobius, abbatissa vel
+                        prepositi, seu sanctimoniales eius omnesque sibi subiectis absque omni
+                        datione publica permaneat in perpetuum. Si quis autem, quod abbsit, hanc
+                        nostram concessionem in quabis parte dirrumpere teptaberit, centum libras
+                        auri purissimi predicti cenobii se compositurum sciat. Quod vero praeceptum
+                        concessionis, ex iussione suprascriptae potestatis, scripsi ego <persName
+                            key="#Notary"><name ref="Leo">Leo</name></persName>
+                        <rs key="#Notary">notarius</rs>. (SI D) Actu in curte <rs key="#Palatium"
+                            >palatii</rs>
+                        <placeName key="#Palatium" ref="#places/110">Venebentani</placeName>, quinto
+                        anno, mense augusto, tertia indictione, feliciter.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
