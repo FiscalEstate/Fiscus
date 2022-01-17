@@ -8320,7 +8320,6 @@
                         <geogName type="other"/>
                         <idno>estates/1916</idno>
                         <note/>
-                        <link type="places" corresp="#places/2316" subtype="hasWithin"/>
                     </place>
                     <place>
                         <geogName>Valva; comitatus</geogName>
@@ -8357,10 +8356,10 @@
                         <idno>estates/1919</idno>
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/1983"
-                            subtype="link"/>
+                            subtype="isOwnedBy"/>
                         <link type="juridical_persons" corresp="#juridical_persons/1912"
-                            subtype="link"/>
-                        <link type="estates" corresp="#estates/1905" subtype="isWithin"/>
+                            subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/1976" subtype="isGrantedBy"/>
                     </place>
                     <place>
                         <geogName><foreign>Columbi de Abbatissa</foreign>; curtis</geogName>
@@ -8368,10 +8367,10 @@
                         <idno>estates/1920</idno>
                         <note>Franco 2017: 56</note>
                         <link type="juridical_persons" corresp="#juridical_persons/1984"
-                            subtype="link"/>
-                        <link type="estates" corresp="#estates/1905" subtype="isWithin"/>
+                            subtype="isOwnedBy"/>
                         <link type="juridical_persons" corresp="#juridical_persons/1912"
-                            subtype="link"/>
+                            subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/1976" subtype="isGrantedBy"/>
                     </place>
                     <place>
                         <geogName><foreign>Vualderada</foreign>; curtis</geogName>
@@ -8379,10 +8378,9 @@
                         <idno>estates/1921</idno>
                         <note>Franco 2017: 57-58</note>
                         <link type="places" corresp="#places/2378" subtype="proximity"/>
-                        <link type="juridical_persons" corresp="#juridical_persons/1986"
-                            subtype="link"/>
                         <link type="juridical_persons" corresp="#juridical_persons/1912"
-                            subtype="link"/>
+                            subtype="isOwnedBy"/>
+                        <link type="people" corresp="#people/1976" subtype="isGrantedBy"/>
                     </place>
                     <place>
                         <geogName>Dragoni; curtis</geogName>
@@ -8390,9 +8388,8 @@
                         <idno>estates/1922</idno>
                         <note>Franco 2017: 59</note>
                         <link type="juridical_persons" corresp="#juridical_persons/1912"
-                            subtype="link"/>
-                        <link type="juridical_persons" corresp="#juridical_persons/1987"
-                            subtype="link"/>
+                            subtype="isOwnedBy"/>
+                        <link type="people" corresp="#people/1976" subtype="isGrantedBy"/>
                     </place>
                     <place>
                         <geogName><foreign>da Tina usque in Baie</foreign>; curtis</geogName>
@@ -8400,20 +8397,18 @@
                         <idno>estates/1923</idno>
                         <note>Franco 2017: 59</note>
                         <link type="juridical_persons" corresp="#juridical_persons/1912"
-                            subtype="link"/>
-                        <link type="juridical_persons" corresp="#juridical_persons/1987"
-                            subtype="link"/>
-                        <link type="places" corresp="#places/2380" subtype="proximity"/>
+                            subtype="isOwnedBy"/>
+                        <link type="people" corresp="#people/1976" subtype="isGrantedBy"/>
+                        <link type="places" corresp="#places/2380" subtype="correspondsTo"/>
                     </place>
                     <place>
                         <geogName><foreign>Lactianicu</foreign>; curtis</geogName>
                         <geogName type="other">Lanicu</geogName>
                         <idno>estates/1924</idno>
                         <note>Bloch: 248; Franco 2017: 60</note>
+                        <link type="people" corresp="#people/1976" subtype="isGrantedBy"/>
                         <link type="juridical_persons" corresp="#juridical_persons/1912"
-                            subtype="link"/>
-                        <link type="juridical_persons" corresp="#juridical_persons/1987"
-                            subtype="link"/>
+                            subtype="isOwnedBy"/>
                         <link type="places" corresp="#places/2381" subtype="proximity"/>
                         <link type="places" corresp="#places/2382" subtype="proximity"/>
                     </place>
@@ -8423,8 +8418,8 @@
                         <idno>estates/1925</idno>
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
-                        <link type="places" corresp="#places/2399" subtype="isWithin"/>
+                            subtype="isOwnedBy"/>
+                        <link type="places" corresp="#places/2399" subtype="correspondsTo"/>
                         <link type="places" corresp="#places/2800" subtype="proximity"/>
                         <link type="people" corresp="#people/1989" subtype="link"/>
                     </place>
@@ -8433,47 +8428,64 @@
                         <geogName type="other"/>
                         <idno>estates/1926</idno>
                         <note/>
-                        <link type="juridical_persons" corresp="#juridical_persons/1933"
-                            subtype="link"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1900"
+                            subtype="isOwnedBy"/>
                         <link type="places" corresp="#places/2351" subtype="isWithin"/>
                         <link type="places" corresp="#places/605" subtype="isWithin"/>
-                    </place>
-                    <place>
-                        <geogName><foreign>Sancti Sossi</foreign>; curtis</geogName>
-                        <geogName type="other"/>
-                        <idno>estates/1927</idno>
-                        <note/>
-                        <link type="juridical_persons" corresp="#juridical_persons/1933"
-                            subtype="link"/>
-                        <link type="places" corresp="#places/2351" subtype="isWithin"/>
-                        <link type="places" corresp="#places/605" subtype="isWithin"/>
+                        <link type="people" corresp="#people/118" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1900" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/173" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1955" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/2410" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1966" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/2411" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1992" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/130" subtype="isConfirmedBy"/>
                     </place>
                     <place>
                         <geogName><foreign>Severano</foreign>; casale</geogName>
                         <geogName type="other"/>
                         <idno>estates/1928</idno>
                         <note/>
-                        <link type="juridical_persons" corresp="#juridical_persons/2803"
-                            subtype="link"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1937"
+                            subtype="isOwnedBy"/>
                         <link type="places" corresp="#places/2351" subtype="isWithin"/>
                         <link type="places" corresp="#places/605" subtype="isWithin"/>
+                        <link type="places" corresp="#places/2808" subtype="proximity"/>
+                        <link type="people" corresp="#people/118" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/2001" subtype="isConfirmedTo"/>
                     </place>
                     <place>
                         <geogName>Arcora; <foreign>terra</foreign></geogName>
                         <geogName type="other"/>
                         <idno>estates/1929</idno>
                         <note><foreign>terra Arcora</foreign> is located near Pozzilli (Isernia);
-                            Marazzi 19-25; 31-32</note>
+                            Marazzi 19-25; 31-32.</note>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
+                            subtype="isOwnedBy"/>
                         <link type="juridical_persons" corresp="#juridical_persons/1904"
-                            subtype="link"/>
+                            subtype="isManagedBy"/>
                         <link type="places" corresp="#places/2300" subtype="proximity"/>
                         <link type="places" corresp="#places/2310" subtype="proximity"/>
                         <link type="places" corresp="#places/2309" subtype="proximity"/>
-                        <link type="people" corresp="#people/186" subtype="link"/>
-                        <link type="people" corresp="#people/1903" subtype="link"/>
+                        <link type="people" corresp="#people/186" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/1903" subtype="isGrantedTo"/>
                         <link type="estates" corresp="#estates/1916" subtype="isWithin"/>
+                        <link type="people" corresp="#people/110" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1990" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/173" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1955" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/305" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/154" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1938" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/157" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/315" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/239" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1966" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/261" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1992" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/130" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1992" subtype="isConfirmedTo"/>
                     </place>
                     <place>
                         <geogName>Zittula; terra de</geogName>
@@ -8481,9 +8493,10 @@
                         <idno>estates/1931</idno>
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
+                            subtype="isOwnedBy"/>
                         <link type="places" corresp="#places/2323" subtype="proximity"/>
                         <link type="places" corresp="#places/2324" subtype="proximity"/>
+                        <link type="people" corresp="#people/239" subtype="isConfirmedBy"/>
                     </place>
                     <place>
                         <geogName>Sanctus Castus et Sancta Maria; curtis</geogName>
@@ -8491,16 +8504,22 @@
                         <idno>estates/1932</idno>
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
+                            subtype="isOwnedBy"/>
                         <link type="places" corresp="#places/2001" subtype="proximity"/>
                         <link type="places" corresp="#places/2819" subtype="proximity"/>
                         <link type="places" corresp="#places/2821" subtype="proximity"/>
+                        <link type="people" corresp="#people/239" subtype="isConfirmedBy"/>
                     </place>
                     <place>
                         <geogName>Atina; comitatus</geogName>
                         <geogName type="other"/>
                         <idno>estates/1930</idno>
-                        <link type="places" corresp="#places/705" subtype="hasWithin"/>
+                        <note/>
+                    </place>
+                    <place>
+                        <geogName>da inserire</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/1927</idno>
                         <note/>
                     </place>
                 </listPlace>
