@@ -1046,6 +1046,12 @@
                         <geogName type="coord"><geo>41.326295, 14.334412</geo></geogName>
                         <idno>places/112</idno>
                         <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1900"
+                            subtype="dependsOn"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1912"
+                            subtype="dependsOn"/>
+                        <link type="estates" corresp="#estates/1905" subtype="isWithin"/>
+                        <link type="places" corresp="#places/2375" subtype="proximity"/>
                     </place>
                     <place>
                         <placeName>Hochburg (Ö)</placeName>
@@ -3411,7 +3417,7 @@
                             subtype="dependsOn"/>
                     </place>
                     <place>
-                        <placeName>Palidano (fraz. di Gonzaga; Mantova)</placeName>
+                        <placeName>Palidano (Gonzaga; Mantova)</placeName>
                         <placeName type="other"/>
                         <geogName type="coord"><geo>44.973090, 10.778680</geo></geogName>
                         <idno>places/361</idno>
@@ -5383,6 +5389,7 @@
                             subtype="link"/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
                             subtype="link"/>
+                        <link type="places" corresp="#places/313" subtype="isWithin"/>
                     </place>
                     <place>
                         <placeName>Sessa Aurunca (Caserta)</placeName>
@@ -8509,7 +8516,7 @@
                             su una carta contemporanea; ma ovviamente l'<foreign>insula</foreign>
                             comprendeva il sito del monastero - ovvero l'attuale San Benedetto Po -
                             ragion per cui si indica qui un'area con un riferimento puntuale.</note>
-                        <link type="people" corresp="#people/2100" subtype="link"/>
+                        <link type="people" corresp="#people/2100" subtype="isOwnedBy"/>
                     </place>
                     <place>
                         <placeName><foreign>Insula Mauritola</foreign> (Mantova)</placeName>
@@ -8521,7 +8528,7 @@
                         <note>Le coordinate inserite corripondono all'odierna Brede (Mantova),
                             località verosimilmente compresa nell'<foreign>Insula
                                 Mauritola.</foreign></note>
-                        <link type="people" corresp="#people/2100" subtype="link"/>
+                        <link type="people" corresp="#people/2100" subtype="isOwnedBy"/>
                     </place>
                     <place>
                         <placeName><foreign>Insula Gurgo Pedagno</foreign> (Mantova)</placeName>
@@ -8532,7 +8539,7 @@
                         <note>Calzolari 1998, pp. 16-18.</note>
                         <note>Le coordinate inserite corripondono all'odierna Gorgo (Mantova),
                             località compresa nell'<foreign>Insula Gurgo Pedagno.</foreign></note>
-                        <link type="people" corresp="#people/2100" subtype="link"/>
+                        <link type="people" corresp="#people/2100" subtype="isOwnedBy"/>
                     </place>
                     <place>
                         <placeName>Gorgo (Mantova)</placeName>
@@ -13417,7 +13424,6 @@
                                 14.335187; 41.366903, 14.388321; 41.381285, 14.387875</geo></geogName>
                         <idno>places/2375</idno>
                         <note/>
-                        <link type="places" corresp="#places/112" subtype="proximity"/>
                     </place>
                     <place>
                         <placeName>Curnitu; locus (Alife; Caserta)</placeName>
@@ -13426,9 +13432,10 @@
                         <idno>places/2376</idno>
                         <note>Franco 2017: 55-56</note>
                         <link type="places" corresp="#places/112" subtype="proximity"/>
-                        <link type="people" corresp="#people/1976" subtype="link"/>
+                        <link type="estates" corresp="#estates/1905" subtype="isWithin"/>
                         <link type="juridical_persons" corresp="#juridical_persons/1912"
-                            subtype="link"/>
+                            subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/1976" subtype="isGrantedBy"/>
                     </place>
                     <place>
                         <placeName>Prata Sannita (Caserta)</placeName>
@@ -13437,9 +13444,9 @@
                         <idno>places/2377</idno>
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/1912"
-                            subtype="link"/>
-                        <link type="juridical_persons" corresp="#juridical_persons/1985"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/1981" subtype="isClaimedBy"/>
+                        <link type="people" corresp="#people/1982" subtype="isClaimedBy"/>
                     </place>
                     <place>
                         <placeName>Cila; mountain (Caserta)</placeName>
@@ -13447,6 +13454,13 @@
                         <geogName type="coord"><geo>41.3684327, 14.3604432</geo></geogName>
                         <idno>places/2378</idno>
                         <note/>
+                        <link type="estates" corresp="#estates/1905" subtype="isWithin"/>
+                        <link type="people" corresp="#people/1976" subtype="isGrantedBy"/>
+                        <link type="places" corresp="#places/2375" subtype="proximity"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1912"
+                            subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/1981" subtype="isClaimedBy"/>
+                        <link type="people" corresp="#people/1982" subtype="isClaimedBy"/>
                     </place>
                     <place>
                         <placeName>Rabiano (Caserta)</placeName>
@@ -13477,6 +13491,12 @@
                         <note/>
                         <link type="places" corresp="#places/2381" subtype="proximity"/>
                         <link type="places" corresp="#places/2383" subtype="proximity"/>
+                        <link type="places" corresp="#places/2375" subtype="proximity"/>
+                        <link type="places" corresp="#places/2384" subtype="proximity"/>
+                        <link type="estates" corresp="#estates/1905" subtype="isWithin"/>
+                        <link type="people" corresp="#people/1976" subtype="isGrantedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1912"
+                            subtype="isGrantedTo"/>
                     </place>
                     <place>
                         <placeName>Piedimonte Matese (Caserta)</placeName>
@@ -13491,7 +13511,7 @@
                         <geogName type="coord"><geo/></geogName>
                         <idno>places/2384</idno>
                         <note/>
-                        <link type="places" corresp="#places/2383" subtype="proximity"/>
+                        <link type="estates" corresp="#estates/1905" subtype="isWithin"/>
                     </place>
                     <place>
                         <placeName>Merdarulo; river (Caserta)</placeName>
@@ -13501,6 +13521,7 @@
                         <note>Franco 2017: 61</note>
                         <link type="places" corresp="#places/2383" subtype="proximity"/>
                         <link type="places" corresp="#places/112" subtype="proximity"/>
+                        <link type="estates" corresp="#estates/1905" subtype="isWithin"/>
                     </place>
                     <place>
                         <placeName><foreign>Campofamiliu</foreign>; locus (Caserta)</placeName>
@@ -13509,6 +13530,7 @@
                         <idno>places/2387</idno>
                         <note>Franco 2017: 61</note>
                         <link type="places" corresp="#places/2375" subtype="proximity"/>
+                        <link type="estates" corresp="#estates/1905" subtype="isWithin"/>
                     </place>
                     <place>
                         <placeName>Tora; gualdo (Caserta)</placeName>
@@ -13516,9 +13538,15 @@
                         <geogName type="coord"><geo/></geogName>
                         <idno>places/2388</idno>
                         <note>Franco 2017: 62</note>
+                        <link type="people" corresp="#people/1976" subtype="isGrantedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1912"
+                            subtype="isGrantedTo"/>
+                        <link type="estates" corresp="#estates/1905" subtype="isWithin"/>
                         <link type="places" corresp="#places/2380" subtype="proximity"/>
                         <link type="places" corresp="#places/112" subtype="proximity"/>
                         <link type="places" corresp="#places/2381" subtype="proximity"/>
+                        <link type="people" corresp="#people/1981" subtype="isClaimedBy"/>
+                        <link type="people" corresp="#people/1982" subtype="isClaimedBy"/>
                     </place>
                     <place>
                         <placeName>Dragoni (Caserta)</placeName>
@@ -13533,6 +13561,11 @@
                         <link type="places" corresp="#places/2380" subtype="proximity"/>
                         <link type="places" corresp="#places/112" subtype="proximity"/>
                         <link type="places" corresp="#places/2381" subtype="proximity"/>
+                        <link type="people" corresp="#people/1976" subtype="isGrantedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1912"
+                            subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/1981" subtype="isClaimedBy"/>
+                        <link type="people" corresp="#people/1982" subtype="isClaimedBy"/>
                     </place>
                     <place>
                         <placeName>San Gregorio Matese (Caserta)</placeName>
@@ -13547,7 +13580,12 @@
                         <idno>places/2392</idno>
                         <note/>
                         <link type="places" corresp="#places/2381" subtype="proximity"/>
+                        <link type="places" corresp="#places/609" subtype="proximity"/>
                         <link type="places" corresp="#places/2383" subtype="proximity"/>
+                        <link type="estates" corresp="#estates/1905" subtype="isWithin"/>
+                        <link type="people" corresp="#people/1976" subtype="isGrantedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1912"
+                            subtype="isOwnedBy"/>
                     </place>
                     <place>
                         <placeName>Colle Sant'Angelo (Isernia)</placeName>

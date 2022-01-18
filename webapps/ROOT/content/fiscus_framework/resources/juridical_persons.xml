@@ -4279,14 +4279,14 @@
                         <note/>
                         <link type="places" corresp="#places/14" subtype="isWithin"/>
                         <link type="people" corresp="#people/32" subtype="link"/>
-                        <link type="estates" corresp="#estates/76" subtype="isWithin"/>
+                        <link type="estates" corresp="#estates/76" subtype="dependsOn"/>
                         <link type="people" corresp="#people/80" subtype="link"/>
                         <link type="people" corresp="#people/79" subtype="link"/>
                         <link type="juridical_persons" corresp="#juridical_persons/53"
                             subtype="dependsOn"/>
                         <link type="people" corresp="#people/233" subtype="isGrantedBy"/>
                         <link type="people" corresp="#people/234" subtype="isGrantedBy"/>
-                        <link type="people" corresp="#people/21" subtype="link"/>
+                        <link type="people" corresp="#people/21" subtype="isGrantedBy"/>
                         <link type="people" corresp="#people/55" subtype="link"/>
                     </org>
                     <org>
@@ -4635,13 +4635,12 @@
                         <idno>juridical_persons/1912</idno>
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
                         <link type="places" corresp="#places/112" subtype="isWithin"/>
                         <link type="estates" corresp="#estates/1905" subtype="isWithin"/>
-                        <link type="places" corresp="#places/2374" subtype="link"/>
+                        <link type="people" corresp="#people/72" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/79" subtype="isConfirmedBy"/>
                         <link type="places" corresp="#places/2375" subtype="proximity"/>
-                        <link type="people" corresp="#people/72" subtype="link"/>
-                        <link type="people" corresp="#people/79" subtype="link"/>
                     </org>
                     <org>
                         <orgName>Sancta Maria; episcopium (Benevento)</orgName>
@@ -5273,6 +5272,9 @@
                         <link type="places" corresp="#places/112" subtype="isWithin"/>
                         <link type="estates" corresp="#estates/1905" subtype="isWithin"/>
                         <link type="places" corresp="#places/2375" subtype="proximity"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1912"
+                            subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/1976" subtype="isGrantedBy"/>
                     </org>
                     <org>
                         <orgName>Sanctus Adiutor; ecclesia (Alife; Caserta)</orgName>
@@ -5281,29 +5283,30 @@
                         <note>Franco 2017: 54</note>
                         <link type="places" corresp="#places/112" subtype="isWithin"/>
                         <link type="estates" corresp="#estates/1905" subtype="isWithin"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1912"
+                            subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/1976" subtype="isGrantedBy"/>
                     </org>
                     <org>
                         <orgName>Sanctus Martinus; cella (Caserta)</orgName>
                         <orgName type="other"><foreign>qui dicitur cella vetere</foreign></orgName>
                         <idno>juridical_persons/1982</idno>
                         <note>Franco 2017: 56</note>
-                        <link type="juridical_persons" corresp="#juridical_persons/1912" subtype="link"/>
                         <link type="estates" corresp="#estates/1905" subtype="isWithin"/>
-                        <link type="people" corresp="#people/1976" subtype="link"/>
-                        <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1912"
+                            subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/1976" subtype="isGrantedBy"/>
                     </org>
                     <org>
                         <orgName>Sanctus Vitalianus; ecclesia (Alife; Caserta)</orgName>
                         <orgName type="other"/>
                         <idno>juridical_persons/1983</idno>
                         <note>Franco 2017: 55</note>
-                        <link type="places" corresp="#places/112" subtype="isWithin"/>
-                        <link type="juridical_persons" corresp="#juridical_persons/1912" subtype="link"/>
                         <link type="estates" corresp="#estates/1905" subtype="isWithin"/>
-                        <link type="people" corresp="#people/1976" subtype="link"/>
+                        <link type="places" corresp="#places/112" subtype="proximity"/>
                         <link type="juridical_persons" corresp="#juridical_persons/1912"
-                            subtype="link"/>
+                            subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/1976" subtype="isGrantedBy"/>
                     </org>
                     <org>
                         <orgName>Sanctus Angelus <foreign>qui dicitur Mescianu</foreign>; ecclesia (Alife; Caserta)</orgName>
@@ -5311,11 +5314,10 @@
                         <idno>juridical_persons/1984</idno>
                         <note>Franco 2017: 56</note>
                         <link type="places" corresp="#places/112" subtype="proximity"/>
-                        <link type="juridical_persons" corresp="#juridical_persons/1912" subtype="link"/>
                         <link type="estates" corresp="#estates/1905" subtype="isWithin"/>
-                        <link type="people" corresp="#people/1976" subtype="link"/>
                         <link type="juridical_persons" corresp="#juridical_persons/1912"
-                            subtype="link"/>
+                            subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/1976" subtype="isGrantedBy"/>
                         <link type="places" corresp="#places/2374" subtype="proximity"/>
                     </org>
                     <org>
@@ -5323,11 +5325,11 @@
                         <orgName type="other"/>
                         <idno>juridical_persons/1985</idno>
                         <note>Franco 2017: 56</note>
-                        <link type="places" corresp="#places/2377" subtype="isWithin"/>
-                        <link type="juridical_persons" corresp="#juridical_persons/1912" subtype="link"/>
-                        <link type="people" corresp="#people/1976" subtype="link"/>
+                        <link type="estates" corresp="#estates/1905" subtype="isWithin"/>
                         <link type="juridical_persons" corresp="#juridical_persons/1912"
-                            subtype="link"/>
+                            subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/1976" subtype="isGrantedBy"/>
+                        <link type="places" corresp="#places/2377" subtype="isWithin"/>
                     </org>
                     <org>
                         <orgName>Sanctus Castrisius ad locum Adfumicatum; ecclesia (Caserta)</orgName>
@@ -5335,19 +5337,24 @@
                         <idno>juridical_persons/1986</idno>
                         <note></note>
                         <link type="places" corresp="#places/609" subtype="proximity"/>
-                        <link type="people" corresp="#people/1976" subtype="link"/>
+                        <link type="estates" corresp="#estates/1905" subtype="isWithin"/>
                         <link type="juridical_persons" corresp="#juridical_persons/1912"
-                            subtype="link"/>
+                            subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/1976" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/1981" subtype="isClaimedBy"/>
+                        <link type="people" corresp="#people/1982" subtype="isClaimedBy"/>
                     </org>
                     <org>
                         <orgName>Sancti Septem Fratres; ecclesia (Alife; Caserta)</orgName>
                         <orgName type="other"/>
                         <idno>juridical_persons/1987</idno>
                         <note>Franco 2017: 58</note>
-                        <link type="places" corresp="#places/609" subtype="isWithin"/>
-                        <link type="people" corresp="#people/1976" subtype="link"/>
+                        <link type="estates" corresp="#estates/1905" subtype="isWithin"/>
                         <link type="juridical_persons" corresp="#juridical_persons/1912"
-                            subtype="link"/>
+                            subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/1976" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/1981" subtype="isClaimedBy"/>
+                        <link type="people" corresp="#people/1982" subtype="isClaimedBy"/>
                     </org>
                     <org>
                         <orgName>Sanctus Secundinus; ecclesia (Caserta)</orgName>
@@ -5356,8 +5363,10 @@
                         <note>Franco 2017: 61</note>
                         <link type="places" corresp="#places/2375" subtype="proximity"/>
                         <link type="people" corresp="#people/2385" subtype="link"/>
+                        <link type="estates" corresp="#estates/1905" subtype="isWithin"/>
                         <link type="juridical_persons" corresp="#juridical_persons/1912"
-                            subtype="link"/>
+                            subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/1976" subtype="isGrantedBy"/>
                     </org>
                     <org>
                         <orgName>Sanctus Gregorius; ecclesia (Caserta)</orgName>
@@ -5365,9 +5374,10 @@
                         <idno>juridical_persons/1989</idno>
                         <note>Franco 2017: 61</note>
                         <link type="places" corresp="#places/2391" subtype="isWithin"/>
-                        <link type="people" corresp="#people/2385" subtype="link"/>
+                        <link type="people" corresp="#people/2385" subtype="proximity"/>
+                        <link type="people" corresp="#people/1976" subtype="isGrantedBy"/>
                         <link type="juridical_persons" corresp="#juridical_persons/1912"
-                            subtype="link"/>
+                            subtype="isGrantedTo"/>
                         <link type="places" corresp="#places/2390" subtype="proximity"/>
                     </org>
                     <org>
@@ -5547,7 +5557,7 @@
                         <note/>
                         <link type="places" corresp="#places/705" subtype="isWithin"/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
                     </org>
                     <org>
                         <orgName>Sanctus Martinus de Prata (Caserta)</orgName>

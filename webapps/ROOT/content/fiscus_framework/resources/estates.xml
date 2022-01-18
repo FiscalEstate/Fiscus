@@ -707,12 +707,15 @@
                     <link type="places" corresp="#places/278" subtype="link"/>
                 </place>
                 <place>
-                    <geogName>Massino; <foreign>curtis</foreign></geogName>
-                    <geogName type="other"/>
+                    <geogName><foreign>Massino</foreign>; <foreign>curtis</foreign></geogName>
+                    <geogName type="other"><foreign>Masina</foreign></geogName>
                     <idno>estates/114</idno>
                     <note>Castagnetti 2004; Cajo 2012-2013; Cavalazzi 2015.</note>
-                    <link type="people" corresp="#people/55" subtype="link"/>
-                    <link type="people" corresp="#people/21" subtype="link"/>
+                    <link type="people" corresp="#people/55" subtype="isGrantedTo"/>
+                    <link type="people" corresp="#people/21" subtype="isGrantedBy"/>
+                        <link type="places" corresp="#places/503" subtype="correspondsTo"/>
+                        <link type="people" corresp="#people/32" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/110" subtype="isGrantedBy"/>
                 </place>
                 <place>
                     <geogName>Locarno; <foreign>curtis</foreign></geogName>
@@ -8221,10 +8224,9 @@
                         <idno>estates/1905</idno>
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
                         <link type="people" corresp="#people/1902" subtype="link"/>
-                        <link type="people" corresp="#people/2001" subtype="link"/>
-                        <link type="places" corresp="#places/112" subtype="hasWithin"/>
+                        <link type="places" corresp="#places/2375" subtype="isWithin"/>
                     </place>
                     <place>
                         <geogName>Acerenza; <foreign>fines</foreign></geogName>
@@ -8328,7 +8330,6 @@
                         <geogName type="other"/>
                         <idno>estates/313</idno>
                         <note/>
-                        <link type="places" corresp="#places/570" subtype="hasWithin"/>
                     </place>
                     <place>
                         <geogName><foreign>Leoni</foreign>; casale</geogName>
@@ -8347,18 +8348,20 @@
                         <idno>estates/1918</idno>
                         <note>Franco 2017: 55</note>
                         <link type="juridical_persons" corresp="#juridical_persons/1982"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
                         <link type="juridical_persons" corresp="#juridical_persons/1912"
-                            subtype="link"/>
-                        <link type="places" corresp="#places/2379" subtype="isWithin"/>
+                            subtype="isGrantedTo"/>
+                        <link type="places" corresp="#places/2379" subtype="correspondsTo"/>
+                        <link type="estates" corresp="#estates/1905" subtype="isWithin"/>
+                        <link type="people" corresp="#people/1976" subtype="isGrantedBy"/>
                     </place>
                     <place>
                         <geogName><foreign>Fullixi</foreign>; curtis</geogName>
                         <geogName type="other"/>
                         <idno>estates/1919</idno>
                         <note/>
-                        <link type="juridical_persons" corresp="#juridical_persons/1983"
-                            subtype="isOwnedBy"/>
+                        <link type="estates" corresp="#estates/1905" subtype="isWithin"/>
+                        <link type="places" corresp="#places/112" subtype="proximity"/>
                         <link type="juridical_persons" corresp="#juridical_persons/1912"
                             subtype="isGrantedTo"/>
                         <link type="people" corresp="#people/1976" subtype="isGrantedBy"/>
@@ -8368,8 +8371,9 @@
                         <geogName type="other"/>
                         <idno>estates/1920</idno>
                         <note>Franco 2017: 56</note>
+                        <link type="estates" corresp="#estates/1905" subtype="isWithin"/>
                         <link type="juridical_persons" corresp="#juridical_persons/1984"
-                            subtype="isOwnedBy"/>
+                            subtype="dependsOn"/>
                         <link type="juridical_persons" corresp="#juridical_persons/1912"
                             subtype="isGrantedTo"/>
                         <link type="people" corresp="#people/1976" subtype="isGrantedBy"/>
@@ -8379,9 +8383,11 @@
                         <geogName type="other">Gualderada</geogName>
                         <idno>estates/1921</idno>
                         <note>Franco 2017: 57-58</note>
+                        <link type="estates" corresp="#estates/1905" subtype="isWithin"/>
                         <link type="places" corresp="#places/2378" subtype="proximity"/>
+                        <link type="places" corresp="#places/609" subtype="proximity"/>
                         <link type="juridical_persons" corresp="#juridical_persons/1912"
-                            subtype="isOwnedBy"/>
+                            subtype="isGrantedTo"/>
                         <link type="people" corresp="#people/1976" subtype="isGrantedBy"/>
                     </place>
                     <place>
@@ -8389,28 +8395,36 @@
                         <geogName type="other"><foreign>Draguni</foreign></geogName>
                         <idno>estates/1922</idno>
                         <note>Franco 2017: 59</note>
+                        <link type="estates" corresp="#estates/1905" subtype="isWithin"/>
                         <link type="juridical_persons" corresp="#juridical_persons/1912"
-                            subtype="isOwnedBy"/>
+                            subtype="isGrantedTo"/>
                         <link type="people" corresp="#people/1976" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/1981" subtype="isClaimedBy"/>
+                        <link type="people" corresp="#people/1982" subtype="isClaimedBy"/>
                     </place>
                     <place>
                         <geogName><foreign>da Tina usque in Baie</foreign>; curtis</geogName>
                         <geogName type="other">Baia e Latina</geogName>
                         <idno>estates/1923</idno>
                         <note>Franco 2017: 59</note>
+                        <link type="estates" corresp="#estates/1905" subtype="isWithin"/>
                         <link type="juridical_persons" corresp="#juridical_persons/1912"
-                            subtype="isOwnedBy"/>
+                            subtype="isGrantedTo"/>
                         <link type="people" corresp="#people/1976" subtype="isGrantedBy"/>
                         <link type="places" corresp="#places/2380" subtype="correspondsTo"/>
+                        <link type="places" corresp="#places/609" subtype="proximity"/>
+                        <link type="people" corresp="#people/1981" subtype="isClaimedBy"/>
+                        <link type="people" corresp="#people/1982" subtype="isClaimedBy"/>
                     </place>
                     <place>
-                        <geogName><foreign>Lactianicu</foreign>; curtis</geogName>
+                        <geogName><foreign>Lactianicu</foreign>; curtes</geogName>
                         <geogName type="other">Lanicu</geogName>
                         <idno>estates/1924</idno>
                         <note>Bloch: 248; Franco 2017: 60</note>
+                        <link type="estates" corresp="#estates/1905" subtype="isWithin"/>
                         <link type="people" corresp="#people/1976" subtype="isGrantedBy"/>
                         <link type="juridical_persons" corresp="#juridical_persons/1912"
-                            subtype="isOwnedBy"/>
+                            subtype="isGrantedTo"/>
                         <link type="places" corresp="#places/2381" subtype="proximity"/>
                         <link type="places" corresp="#places/2382" subtype="proximity"/>
                     </place>
