@@ -10240,9 +10240,9 @@
                         <note/>
                         <link type="estates" corresp="#estates/208" subtype="dependsOn"/>
                         <link type="people" corresp="#people/1208" subtype="link"/>
-                        <link type="people" corresp="#people/2001" subtype="link"/>
+                        <link type="people" corresp="#people/2001" subtype="isOwnedBy"/>
                         <link type="juridical_persons" corresp="#juridical_persons/501"
-                            subtype="link"/>
+                            subtype="isOwnedBy"/>
                     </place>
                     <place>
                         <placeName><foreign>Gurgum</foreign> (Correggio; Reggio Emilia)</placeName>
@@ -10250,7 +10250,7 @@
                         <geogName type="coord"><geo>44.831725, 10.722533; 44.791988, 10.710188; 44.77468, 10.76407; 44.825091, 10.789845</geo></geogName>
                         <idno>places/1523</idno>
                         <note>Dicevasi tratto di territorio tra Correggio e Novellara: Tiraboschi Dizionario, I, p. 369.</note>
-                        <link type="estates" corresp="#estates/208" subtype="isWithin"/>
+                        <link type="estates" corresp="#estates/208" subtype="dependsOn"/>
                         <link type="people" corresp="#people/1208" subtype="link"/>
                     </place>
                     <place>
@@ -10259,7 +10259,7 @@
                         <geogName type="coord"><geo>44.503752, 11.059292; 44.495337, 11.08351; 44.47676, 11.070024; 44.484292, 11.042658</geo></geogName>
                         <idno>places/1524</idno>
                         <note>La località era posta tra Savignano sul Panaro e Bazzano.</note>
-                        <link type="estates" corresp="#estates/208" subtype="isWithin"/>
+                        <link type="estates" corresp="#estates/208" subtype="dependsOn"/>
                         <link type="people" corresp="#people/1208" subtype="link"/>
                     </place>
                     <place>
@@ -10268,10 +10268,12 @@
                         <geogName type="coord"><geo>44.77303540562528, 11.047094444423966</geo></geogName>
                         <idno>places/1525</idno>
                         <note/>
-                        <link type="estates" corresp="#estates/208" subtype="isWithin"/>
+                        <link type="estates" corresp="#estates/208" subtype="dependsOn"/>
                         <link type="people" corresp="#people/1208" subtype="link"/>
-                        <link type="people" corresp="#people/12" subtype="link"/>
-                        <link type="people" corresp="#people/1215" subtype="link"/>
+                        <link type="people" corresp="#people/12" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/1215" subtype="isHeldBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/47"
+                            subtype="isGrantedTo"/>
                     </place>
                     <place>
                         <placeName>Albareto (Modena)</placeName>
@@ -10280,7 +10282,6 @@
                             10.966567791742923</geo></geogName>
                         <idno>places/1526</idno>
                         <note/>
-                        <link type="estates" corresp="#estates/1100" subtype="isWithin"/>
                     </place>
                     <place>
                         <placeName><foreign>Caput Lambri</foreign> (Lodi)</placeName>
@@ -10302,8 +10303,8 @@
                                 44.852422, 11.165576; 44.856865, 11.114474</geo></geogName>
                         <idno>places/1528</idno>
                         <note/>
-                        <link type="estates" corresp="#estates/1103" subtype="isWithin"/>
-                        <link type="estates" corresp="#estates/208" subtype="isWithin"/>
+                        <link type="estates" corresp="#estates/1103" subtype="dependsOn"/>
+                        <link type="estates" corresp="#estates/208" subtype="dependsOn"/>
                     </place>
                     <place>
                         <placeName>San Pietro in Casale (Bologna)</placeName>
@@ -10311,7 +10312,7 @@
                         <geogName type="coord"><geo>44.69794, 11.404536</geo></geogName>
                         <idno>places/1529</idno>
                         <note/>
-                        <link type="estates" corresp="#estates/208" subtype="isWithin"/>
+                        <link type="estates" corresp="#estates/208" subtype="dependsOn"/>
                     </place>
                     <place>
                         <placeName><foreign>Lupuletum</foreign>; <foreign>silva</foreign> (Camposanto;
@@ -10321,11 +10322,10 @@
                         <idno>places/1530</idno>
                         <note>Cfr. Tiraboschi Dizionario, I, p. 410: nel Settecento, ciò che rimaneva della foresta di <foreign>Lupuletum</foreign> era detto 'bosco di Camposanto'. Piuttosto che
                         indicare delle coordinate singole, si indica un'area intorno all'attuale Camposanto.</note>
-                        <link type="estates" corresp="#estates/1103" subtype="isWithin"/>
-                        <link type="estates" corresp="#estates/208" subtype="isWithin"/>
-                        <link type="people" corresp="#people/119" subtype="link"/>
+                        <link type="estates" corresp="#estates/1103" subtype="dependsOn"/>
+                        <link type="estates" corresp="#estates/208" subtype="dependsOn"/>
                         <link type="juridical_persons" corresp="#juridical_persons/47"
-                            subtype="link"/>
+                            subtype="isGrantedTo"/>
                     </place>
                     <place>
                         <placeName><foreign>Grumulum</foreign> (Ravarino;
