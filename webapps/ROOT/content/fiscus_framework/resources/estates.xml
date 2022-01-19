@@ -146,6 +146,7 @@
                         <link type="juridical_persons" corresp="#juridical_persons/96"
                             subtype="hostilityFor"/>
                         <link type="people" corresp="#people/21" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/14" subtype="isGrantedBy"/>
                 </place>
                 
                 <place>
@@ -299,15 +300,10 @@
                     <geogName type="other"/>
                     <idno>estates/81</idno>
                     <note/>
-                    <link type="places" corresp="#places/79"
-                        subtype="link"/>
-                    <link type="juridical_persons"
-                        corresp="#juridical_persons/76" subtype="link"/>
-                    <link type="juridical_persons"
-                        corresp="#juridical_persons/47" subtype="link"/>
-                    <link type="people"
-                        corresp="#people/23 #people/22"
-                        subtype="link"/>
+                    <link type="places" corresp="#places/79" subtype="correspondsTo"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/47"
+                            subtype="isOwnedBy"/>
+                    <link type="people" corresp="#people/23" subtype="isOwnedBy"/>
                 </place>
                 <place>
                     <geogName><foreign>Funziano</foreign>; <foreign>curtis</foreign></geogName>
@@ -317,7 +313,6 @@
                     <link type="places" corresp="#places/81" subtype="correspondsTo"/>
                     <link type="juridical_persons" corresp="#juridical_persons/47"
                             subtype="isOwnedBy"/>
-                    <link type="people" corresp="#people/22" subtype="isOwnedBy"/>
                     <link type="people" corresp="#people/23" subtype="isOwnedBy"/>
                 </place>
                 <place>
@@ -325,7 +320,6 @@
                     <geogName type="other"/>
                     <idno>estates/83</idno>
                     <note/>
-                    <link type="places" corresp="#places/2" subtype="link"/>
                         <link type="juridical_persons" corresp="#juridical_persons/1402"
                             subtype="link"/>
                 </place>
@@ -334,8 +328,6 @@
                     <geogName type="other"/>
                     <idno>estates/84</idno>
                     <note/>
-                    <link type="places" corresp="#places/80"
-                        subtype="link"/>
                 </place>
                 <place>
                     <geogName><foreign>Franciana</foreign>; <foreign>curtis</foreign></geogName>
@@ -5685,7 +5677,6 @@
                         <idno>estates/1110</idno>
                         <note/>
                         <link type="people" corresp="#people/2122" subtype="link"/>
-                        <link type="places" corresp="#places/1537" subtype="hasWithin"/>
                     </place>
                 </listPlace>
                 <listPlace n="Massa Paola">
