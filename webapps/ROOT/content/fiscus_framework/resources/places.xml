@@ -253,8 +253,8 @@
                         <idno>places/27</idno>
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/47"
-                            subtype="link"/>
-                        <link type="people" corresp="#people/23" subtype="link"/>
+                            subtype="isOwnedBy"/>
+                        <link type="people" corresp="#people/23" subtype="isOwnedBy"/>
                     </place>
                     <place>
                         <placeName><foreign>Canellas</foreign> (Erbusco; Brescia)</placeName>
@@ -1218,17 +1218,12 @@
                         <geogName type="coord"><geo>44.161273, 10.894189</geo></geogName>
                         <idno>places/140</idno>
                         <note/>
-                        <link type="juridical_persons" corresp="#juridical_persons/89"
-                            subtype="link"/>
-                        <link type="juridical_persons" corresp="#juridical_persons/80"
-                            subtype="link"/>
-                        <link type="people" corresp="#people/49" subtype="link"/>
-                        <link type="people" corresp="#people/94" subtype="link"/>
-                        <link type="people" corresp="#people/48" subtype="link"/>
-                        <link type="people" corresp="#people/14" subtype="link"/>
+                        <link type="people" corresp="#people/49" subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/94" subtype="isClaimedBy"/>
+                        <link type="people" corresp="#people/48" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/14" subtype="isConfirmedBy"/>
                         <link type="juridical_persons" corresp="#juridical_persons/47"
-                            subtype="link"/>
-                        <link type="people" corresp="#people/117" subtype="link"/>
+                            subtype="isOwnedBy"/>
                     </place>
                     <place>
                         <placeName>Cà Cameazzo (Fiorano Modenese; Modena)</placeName>
@@ -1236,7 +1231,7 @@
                         <geogName type="coord"><geo/></geogName>
                         <idno>places/141</idno>
                         <note>Manarini 2017.</note>
-                        <link type="estates" corresp="#estates/110" subtype="isMadeOf"/>
+                        <link type="estates" corresp="#estates/110" subtype="correspondsTo"/>
                     </place>
                     <place>
                         <placeName>Sticciano (Roccastrada; Grosseto)</placeName>
