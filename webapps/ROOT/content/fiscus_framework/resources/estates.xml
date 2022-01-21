@@ -1602,11 +1602,14 @@
                     <idno>estates/195</idno>
                     <note> Panero 2004. La curtis era collocata sulla riva destra del Po, nell'odierno territorio
                         di Brusasco; la menzione è probabilmente frutto di interpolazione da parte di Leone. La curtis era stata donata nel 999 e confermata espressamente all'abbazia di Lucedio anche se questa dipendeva dal vescovato di Vercelli</note>
-                    <link type="people" corresp="#people/7" subtype="link" cert="low"/>
-                    <link type="people" corresp="#people/171" subtype="link" cert="low"/>
-                    <link type="juridical_persons" corresp="#juridical_persons/81" subtype="link"/>
-                    <link type="places" corresp="#places/436" subtype="link"/>
-                    <link type="people" corresp="#people/288 #people/261" subtype="link"/>
+                    <link type="people" corresp="#people/7" subtype="isGrantedBy" cert="low"/>
+                    <link type="people" corresp="#people/171" subtype="isOwnedBy" cert="low"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/81"
+                            subtype="isOwnedBy"/>
+                    <link type="places" corresp="#places/436" subtype="proximity"/>
+                    <link type="people" corresp="#people/261" subtype="isGrantedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/107"
+                            subtype="isGrantedTo"/>
                 </place>
                 <place>
                     <geogName><foreign>Clivolo</foreign>; <foreign>curtis</foreign></geogName>
@@ -2945,17 +2948,17 @@
                     <link type="places" corresp="#places/736" subtype="isMadeOf"/>
                     <link type="places" corresp="#places/601" subtype="isMadeOf"/>
                     <link type="places" corresp="#places/738" subtype="isMadeOf"/>
-                    <link type="places" corresp="#places/739" subtype="isMadeOf"/>
-                    <link type="places" corresp="#places/733" subtype="isMadeOf"/>
-                        <link type="people" corresp="#people/261" subtype="link"/>
-                        <link type="people" corresp="#people/530" subtype="link"/>
+                    <link type="places" corresp="#places/733" subtype="correspondsTo"/>
+                        <link type="people" corresp="#people/261" subtype="isGrantedBy"/>
                         <link type="juridical_persons" corresp="#juridical_persons/406"
-                            subtype="link"/>
+                            subtype="isGrantedTo"/>
                         <link type="places" corresp="#places/1617" subtype="isMadeOf"/>
                         <link type="places" corresp="#places/1618" subtype="isMadeOf"/>
                         <link type="places" corresp="#places/1619" subtype="isMadeOf"/>
                         <link type="estates" corresp="#estates/1213" subtype="hasWithin"/>
                         <link type="estates" corresp="#estates/1214" subtype="hasWithin"/>
+                        <link type="people" corresp="#people/77" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/124" subtype="isConfirmedBy"/>
                 </place>
                 <place>
                     <geogName>VUOTO</geogName>
