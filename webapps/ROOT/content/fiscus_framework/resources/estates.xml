@@ -162,7 +162,6 @@
                     <geogName>Cortereggio; <foreign>curtis</foreign></geogName>
                     <idno>estates/60</idno>
                     <note>Poi nota con il nome di curtis Orco</note>
-                    <link type="people" subtype="link" corresp="#people/33"/>
                     <link type="places" corresp="#places/48"
                         subtype="link"/>
                     <link type="places" corresp="#places/49"
@@ -170,11 +169,12 @@
                     <link type="people" corresp="#people/110" subtype="link"/>
                     <link type="estates" corresp="#estates/258" subtype="link"/>
                     <link type="people" corresp="#people/172" subtype="link"/>
-                    <link type="people"
-                        corresp="#people/325 #people/7 #people/237 #people/288 #people/366"
-                        subtype="link"/>
                     <link type="places" corresp="#places/102 #places/566 #places/103"
                         subtype="proximity"/>
+                        <link type="people" corresp="#people/32" subtype="isGrantedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/81"
+                            subtype="isGrantedTo"/>
+                        <link type="estates" corresp="#estates/273" subtype="correspondsTo"/>
                 </place>
                 
                 <place>
@@ -500,22 +500,21 @@
                     <geogName type="other"><foreign>Firminiana</foreign></geogName>
                     <idno>estates/96</idno>
                     <note/>
-                    <link type="people" corresp="#people/33" subtype="link" cert="low"/>
+                    <link type="people" corresp="#people/33" subtype="isOwnedBy" cert="low"/>
                     <link type="people" corresp="#people/13" subtype="link"/>
-                    <link type="people" corresp="#people/32" subtype="link" cert="low"/>
-                    <link type="juridical_persons"
-                        corresp="#juridical_persons/81" subtype="link"/>
-                    <link type="places" corresp="#places/99"
-                        subtype="link"/>
-                        <link type="people" corresp="#people/7" subtype="link" cert="low"/>
-                        <link type="people" corresp="#people/171" subtype="link" cert="low"/>
+                    <link type="people" corresp="#people/32" subtype="isGrantedBy" cert="low"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/81"
+                            subtype="isGrantedBy"/>
+                    <link type="places" corresp="#places/99" subtype="correspondsTo"/>
+                        <link type="people" corresp="#people/7" subtype="isGrantedTo" cert="low"/>
+                        <link type="people" corresp="#people/171" subtype="isOwnedBy" cert="low"/>
+                        <link type="people" corresp="#people/261" subtype="isConfirmedBy"/>
                 </place>
                 <place>
                     <geogName>Asiliano; <foreign>curtis</foreign></geogName>
                     <geogName type="other"><foreign>Pasiliano</foreign></geogName>
                     <idno>estates/97</idno>
                     <note/>
-                    <link type="people" corresp="#people/33" subtype="isHeldBy"/>
                     <link type="people" corresp="#people/32" subtype="isGrantedBy"/>
                     <link type="juridical_persons" corresp="#juridical_persons/81"
                             subtype="isOwnedBy"/>
@@ -532,14 +531,12 @@
                     <geogName type="other"><foreign>Aucumiano</foreign></geogName>
                     <idno>estates/98</idno>
                     <note/>
-                    <link type="juridical_persons"
-                        corresp="#juridical_persons/81" subtype="link"/>
-                    <link type="people" corresp="#people/32" subtype="link"/>
-                    <link type="people"
-                        corresp="#people/33 #people/7 #people/237 #people/366 #people/288"
-                        subtype="link"/>
-                    <link type="places" corresp="#places/105"
-                        subtype="link"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/81"
+                            subtype="isGrantedTo"/>
+                    <link type="people" corresp="#people/32" subtype="isGrantedBy"/>
+                    <link type="people" corresp="#people/7" subtype="isConfirmedBy"/>
+                    <link type="places" corresp="#places/105" subtype="correspondsTo"/>
+                        <link type="people" corresp="#people/237" subtype="isConfirmedBy"/>
                 </place>
                 <place>
                     <geogName>Roveredo; <foreign>curtis</foreign></geogName>
@@ -1014,8 +1011,10 @@
                     <geogName type="other"/>
                     <idno>estates/138</idno>
                     <note/>
-                    <link type="people" corresp="#people/7" subtype="link"/>
-                    <link type="juridical_persons" corresp="#juridical_persons/111" subtype="link"/>
+                    <link type="people" corresp="#people/7" subtype="isGrantedBy" cert="low"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/111"
+                            subtype="isGrantedTo"/>
+                        <link type="places" corresp="#places/244" subtype="correspondsTo"/>
                 </place>
                 <place>
                     <geogName>Corteolona; <foreign>curtis</foreign></geogName>
@@ -1608,13 +1607,14 @@
                 </place>
                 <place>
                     <geogName><foreign>Clivolo</foreign>; <foreign>curtis</foreign></geogName>
-                    <geogName type="other"/>
+                    <geogName type="other">solo nel d. 384 è menzionata come curtis nei successivi è
+                            confermato solo il luogo. </geogName>
                     <idno>estates/196</idno>
                     <note/>
-                    <link type="places" corresp="#places/214" subtype="link"/>
-                    <link type="people" corresp="#people/7" subtype="link"/>
-                    <link type="people" corresp="#people/171" subtype="link"/>
-                    <link type="juridical_persons" corresp="#juridical_persons/81" subtype="link"/>
+                    <link type="places" corresp="#places/214" subtype="correspondsTo"/>
+                    <link type="people" corresp="#people/7" subtype="isGrantedBy"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/81"
+                            subtype="isGrantedTo"/>
                 </place>
                 <place>
                 <geogName>Monteveglio; <foreign>iudiciaria</foreign></geogName>
@@ -1706,11 +1706,14 @@
                     <geogName type="other"/>
                     <idno>estates/205</idno>
                     <note/>
-                    <link type="people" corresp="#people/7" subtype="link"/>
-                    <link type="people" corresp="#people/171" subtype="link"/>
-                    <link type="people" corresp="#people/130" subtype="link"/>
-                    <link type="juridical_persons" corresp="#juridical_persons/81" subtype="link"/>
-                    <link type="places" corresp="#places/212" subtype="link"/>
+                    <link type="people" corresp="#people/7" subtype="isGrantedBy"/>
+                    <link type="people" corresp="#people/171" subtype="isGrantedTo" cert="low"/>
+                    <link type="people" corresp="#people/130" subtype="isConfirmedBy"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/81"
+                            subtype="isGrantedTo"/>
+                    <link type="places" corresp="#places/212" subtype="correspondsTo"/>
+                        <link type="people" corresp="#people/261" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/124" subtype="isConfirmedBy"/>
                 </place>
                 <place>
                     <geogName>Bioglio; <foreign>curtis</foreign></geogName>
@@ -2209,10 +2212,13 @@
                     <geogName type="other"/>
                     <idno>estates/258</idno>
                     <note/>
-                    <link type="places" corresp="#places/563" subtype="link"/>
+                    <link type="places" corresp="#places/563" subtype="correspondsTo"/>
                     <link type="estates" corresp="#estates/60" subtype="link"/>
                     <link type="places" corresp="#places/102 #places/566 #places/103"
                         subtype="link"/>
+                        <link type="people" corresp="#people/521" subtype="isGrantedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/404"
+                            subtype="isGrantedTo"/>
                 </place>
                 <place>
                     <geogName>Erbé; <foreign>curtis</foreign></geogName>
@@ -2357,9 +2363,11 @@
                     <geogName>Orco; <foreign>curtis</foreign></geogName>
                     <geogName type="other"/>
                     <idno>estates/273</idno>
-                    <note>Si tratta della curtis di Cortereggio che con i nomi di Orco e di castello
-                        di San Giorgio (Canavese) restò sotto il controllo dei marchesi d'Ivrea </note>
-                    <link type="juridical_persons" corresp="#juridical_persons/81" subtype="link"/>
+                    <note>Si tratta dell'antica curtis di Cortereggio che con i nomi di Orco e di
+                            castello di San Giorgio (Canavese) restò sotto il controllo dei marchesi
+                            d'Ivrea </note>
+                    <link type="juridical_persons" corresp="#juridical_persons/81"
+                            subtype="isGrantedTo"/>
                     <link type="places" corresp="#places/566" subtype="isMadeOf"/>
                     <link type="people" corresp="#people/288 #people/366 #people/237 #people/7"
                         subtype="link"/>
@@ -2394,8 +2402,8 @@
                             come curtis. </note>
                     <link type="juridical_persons" corresp="#juridical_persons/81"
                             subtype="isGrantedTo"/>
-                    <link type="people" corresp="#people/7 " subtype="isGrantedBy"/>
-                        <link type="people" corresp="#people/237 " subtype="isConfirmedBy"/>
+                    <link type="people" corresp="#people/7" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/237" subtype="isConfirmedBy"/>
                         <link type="people" corresp="#people/261" subtype="isConfirmedBy"/>
                         <link type="places" corresp="#places/521" subtype="proximity"/>
                 </place>
@@ -3067,15 +3075,23 @@
                     <place>
                         <geogName>Fiorano; <foreign>curtis</foreign></geogName>
                         <idno>estates/401</idno>
+                        <link type="people" corresp="#people/7" subtype="isGrantedBy" cert="low"/>
+                        <link type="people" corresp="#people/521" subtype="isGrantedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/404"
+                            subtype="isGrantedTo"/>
+                        <link type="places" corresp="#places/834" subtype="correspondsTo"/>
                     </place>
                     <place>
                         <geogName>Gravellona Lomellina; <foreign>curtis</foreign> (Pavia)</geogName>
                         <geogName type="other"/>
                         <idno>estates/402</idno>
                         <note>Andenna 2001</note>
-                        <link type="places" corresp="#places/835" subtype="isMadeOf"/>
+                        <link type="places" corresp="#places/835" subtype="correspondsTo"/>
                         <link type="juridical_persons" corresp="#juridical_persons/406"
-                            subtype="link"/>
+                            subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/130" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/261" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/77" subtype="isConfirmedBy"/>
                     </place>
                     <place>
                         <geogName>Vespolate; <foreign>curtis</foreign> (Novara)</geogName>
@@ -3088,7 +3104,11 @@
                         <geogName type="other"/>
                         <idno>estates/404</idno>
                         <note/>
-                        <link type="places" corresp="#places/845" subtype="isPartOf"/>
+                        <link type="places" corresp="#places/845" subtype="correspondsTo"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/406"
+                            subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/261" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/77" subtype="isConfirmedBy"/>
                     </place>
                 </listPlace>
                 <listPlace n="Cinello Erika">
