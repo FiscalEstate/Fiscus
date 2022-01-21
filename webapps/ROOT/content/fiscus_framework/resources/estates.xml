@@ -531,14 +531,12 @@
                     <geogName type="other"><foreign>Aucumiano</foreign></geogName>
                     <idno>estates/98</idno>
                     <note/>
-                    <link type="juridical_persons"
-                        corresp="#juridical_persons/81" subtype="link"/>
-                    <link type="people" corresp="#people/32" subtype="link"/>
-                    <link type="people"
-                        corresp="#people/33 #people/7 #people/237 #people/366 #people/288"
-                        subtype="link"/>
-                    <link type="places" corresp="#places/105"
-                        subtype="link"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/81"
+                            subtype="isGrantedTo"/>
+                    <link type="people" corresp="#people/32" subtype="isGrantedBy"/>
+                    <link type="people" corresp="#people/7" subtype="isConfirmedBy"/>
+                    <link type="places" corresp="#places/105" subtype="correspondsTo"/>
+                        <link type="people" corresp="#people/237" subtype="isConfirmedBy"/>
                 </place>
                 <place>
                     <geogName>Roveredo; <foreign>curtis</foreign></geogName>
@@ -1013,7 +1011,7 @@
                     <geogName type="other"/>
                     <idno>estates/138</idno>
                     <note/>
-                    <link type="people" corresp="#people/7" subtype="isGrantedBy"/>
+                    <link type="people" corresp="#people/7" subtype="isGrantedBy" cert="low"/>
                     <link type="juridical_persons" corresp="#juridical_persons/111"
                             subtype="isGrantedTo"/>
                         <link type="places" corresp="#places/244" subtype="correspondsTo"/>
