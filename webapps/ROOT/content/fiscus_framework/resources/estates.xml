@@ -162,7 +162,6 @@
                     <geogName>Cortereggio; <foreign>curtis</foreign></geogName>
                     <idno>estates/60</idno>
                     <note>Poi nota con il nome di curtis Orco</note>
-                    <link type="people" subtype="link" corresp="#people/33"/>
                     <link type="places" corresp="#places/48"
                         subtype="link"/>
                     <link type="places" corresp="#places/49"
@@ -170,11 +169,11 @@
                     <link type="people" corresp="#people/110" subtype="link"/>
                     <link type="estates" corresp="#estates/258" subtype="link"/>
                     <link type="people" corresp="#people/172" subtype="link"/>
-                    <link type="people"
-                        corresp="#people/325 #people/7 #people/237 #people/288 #people/366"
-                        subtype="link"/>
                     <link type="places" corresp="#places/102 #places/566 #places/103"
                         subtype="proximity"/>
+                        <link type="people" corresp="#people/32" subtype="isGrantedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/81"
+                            subtype="isGrantedTo"/>
                 </place>
                 
                 <place>
@@ -2363,7 +2362,8 @@
                     <idno>estates/273</idno>
                     <note>Si tratta della curtis di Cortereggio che con i nomi di Orco e di castello
                         di San Giorgio (Canavese) restò sotto il controllo dei marchesi d'Ivrea </note>
-                    <link type="juridical_persons" corresp="#juridical_persons/81" subtype="link"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/81"
+                            subtype="isGrantedTo"/>
                     <link type="places" corresp="#places/566" subtype="isMadeOf"/>
                     <link type="people" corresp="#people/288 #people/366 #people/237 #people/7"
                         subtype="link"/>
