@@ -8318,11 +8318,15 @@
                         <idno>estates/1904</idno>
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
-                        <link type="people" corresp="#people/1902" subtype="link"/>
-                        <link type="people" corresp="#people/2001" subtype="link"/>
-                        <link type="places" corresp="#places/111" subtype="hasWithin"/>
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/1902" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/2001" subtype="isGrantedTo"/>
                         <link type="juridical_persons" corresp="#juridical_persons/84"
+                            subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/115" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/111" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/116" subtype="isOwnedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/85"
                             subtype="dependsOn"/>
                     </place>
                     <place>
@@ -8332,7 +8336,8 @@
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
                             subtype="dependsOn"/>
-                        <link type="people" corresp="#people/1902" subtype="link"/>
+                        <link type="people" corresp="#people/1902" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/2001" subtype="isGrantedTo"/>
                         <link type="places" corresp="#places/2375" subtype="isWithin"/>
                         <link type="juridical_persons" corresp="#juridical_persons/84"
                             subtype="dependsOn"/>
