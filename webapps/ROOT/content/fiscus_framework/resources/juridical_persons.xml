@@ -296,6 +296,7 @@
                     <note/>
                     <link type="places" corresp="#places/109"
                         subtype="isWithin"/>
+                    <link type="people" corresp="#people/186" subtype="link"/>
                     <link type="people" corresp="#people/398" subtype="link"/>
                     <link type="people" corresp="#people/305" subtype="link"/>
                     <link type="people" corresp="#people/154" subtype="link"/>
@@ -308,8 +309,8 @@
                     <link type="people" corresp="#people/373" subtype="link"/>
                     <link type="people" corresp="#people/194" subtype="link"/>
                     <link type="people" corresp="#people/111" subtype="link"/>
-                    <link type="people" corresp="#people/186" subtype="link"/>
                         <link type="people" corresp="#people/303" subtype="link"/>
+                    <link type="people" corresp="#people/7" subtype="link"/>
                 </org>
                 <org>
                     <orgName>Sancta Sophia; monasterium (Benevento)</orgName>
@@ -432,16 +433,13 @@
                     <idno>juridical_persons/97</idno>
                     <note/>
                     <link type="juridical_persons"
-                        corresp="#juridical_persons/84" subtype="link"/>
+                        corresp="#juridical_persons/84" subtype="dependsOn"/>
                     <link type="places" corresp="#places/193"
                         subtype="isWithin"/>
-                    <link type="places" corresp="#places/610"
-                        subtype="link"/>
-                    <link type="places" corresp="#places/609"
-                        subtype="link"/>
+                    <link type="people" corresp="#people/158" subtype="link"/>
                     <link type="people" corresp="#people/194" subtype="link"/>
                     <link type="people" corresp="#people/114" subtype="link"/>
-                        <link type="people" corresp="#people/2000" subtype="link"/>
+                    <link type="people" corresp="#people/2000" subtype="link"/>
                 </org>
                 <org>
                     <orgName>Sancta Cecilia; ecclesia (Vairano Patenora; Caserta)</orgName>
@@ -449,11 +447,12 @@
                     <idno>juridical_persons/98</idno>
                     <note/>
                     <link type="estates" corresp="#estates/121"
-                        subtype="isPartOf"/>
-                    <link type="juridical_persons"
-                        corresp="#juridical_persons/97" subtype="link"/>
-                    <link type="places" corresp="#places/177"
                         subtype="isWithin"/>
+                    <link type="juridical_persons"
+                        corresp="#juridical_persons/97" subtype="isGrantedTo"/>
+                    <link type="people" corresp="#people/158" subtype="isGrantedBy"/>
+                    <link type="places" corresp="#places/177"
+                        subtype="proximity"/>
                 </org>
                 <org>
                     <orgName>Cremona; commune</orgName>
@@ -529,22 +528,18 @@
                     <note/>
                     <link type="places" corresp="#places/173"
                         subtype="isWithin"/>
-                    <link type="places" corresp="#places/177"
-                        subtype="link"/>
-                    <link type="places" corresp="#places/198"
-                        subtype="link"/>
                 </org>
                 <org>
-                    <orgName>Sanctus Martinus; ecclesia (Vairano Patenora; Caserta)</orgName>
-                    <orgName type="other"/>
+                    <orgName>Sanctus Martinus de Groctole; ecclesia (Vairano Patenora; Caserta)</orgName>
+                    <orgName type="other">San Martino di Grottole</orgName>
                     <idno>juridical_persons/106</idno>
                     <note/>
                     <link type="places" corresp="#places/198"
                         subtype="isWithin"/>
                     <link type="places" corresp="#places/177"
-                        subtype="bordersOn"/>
-                    <link type="juridical_persons"
-                        corresp="#juridical_persons/105" subtype="link"/>
+                        subtype="proximity"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/105"
+                        subtype="dependsOn"/>
                 </org>
                 <org>
                     <orgName>Sanctus Michael de Loceio; monasterium (Lucedio; Vercelli)</orgName>
@@ -4529,6 +4524,7 @@
                         <idno>juridical_persons/1900</idno>
                         <note>Marazzi 2012</note>
                         <link type="places" corresp="#places/1900" subtype="proximity"/>
+                        <link type="people" corresp="#people/194" subtype="link"/>
                         <link type="people" corresp="#people/305" subtype="link"/>
                         <link type="people" corresp="#people/154" subtype="link"/>
                         <link type="people" corresp="#people/186" subtype="link"/>

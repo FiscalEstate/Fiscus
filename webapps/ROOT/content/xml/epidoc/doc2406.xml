@@ -29,9 +29,9 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="#"></rs>
-                            <rs type="record_source" ref="#"></rs>
-                            <rs type="document_tradition" ref="#"></rs>
+                            <rs type="text_type" ref="#">--Promissio</rs>
+                            <rs type="record_source" ref="#">Original document</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
                             <rs type="fiscal_property"></rs>
                         </summary>
                         <msItem xml:id="msItem1">
@@ -40,11 +40,11 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate notBefore="0001" notAfter="0001" when="0001">
-                                <note type="displayed_date"></note>
-                                <note type="dating_elements"></note>
-                                <note type="topical_date"></note>
-                                <note type="redaction_date"></note>
+                            <origDate when="1125-10-20">
+                                <note type="displayed_date">1125 October 20</note>
+                                <note type="dating_elements">Stile dell'incarnazione</note>
+                                <note type="topical_date"/>
+                                <note type="redaction_date">1125 October 20</note>
                             </origDate>
                             <origPlace></origPlace>
                         </origin>
@@ -80,23 +80,31 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab><persName>Rolandus</persName> f. qd. <persName>Sismundi</persName> et
-                            <persName>Atha</persName> iugalis fa. qd. *** et
-                            <persName>Ermanno</persName> atque <persName>Stranbo</persName> germanii
-                        filii eiusdem <persName>Rolandi</persName> et <persName>Guithone</persName>
-                        qd. <persName>Massaioli</persName> et <persName>Guineldo</persName> f. eius
-                        et <persName>Cacciato</persName> atque <persName>Moricone</persName> gg. qd.
-                            <persName>Bernardi</persName>
+                    <ab><persName><name ref="Rodelandus">Rolandus</name></persName> f. qd.
+                                <persName><name ref="Sigismundus">Sismundi</name></persName> et
+                                <persName><name ref="Aza">Atha</name></persName> iugalis fa. qd. ***
+                        et <persName><name ref="Ermannus">Ermanno</name></persName> atque
+                                <persName><name ref="Strambus">Stranbo</name></persName> germanii
+                        filii eiusdem Rolandi et <persName><name ref="Wizo"
+                            >Guithone</name></persName> qd. <persName><name ref="Massaiolus"
+                                >Massaioli</name></persName> et <persName><name ref="Winigildus"
+                                >Guineldo</name></persName> f. eius et <persName><name
+                                ref="Cacciatus">Cacciato</name></persName> atque <persName><name
+                                ref="Moricone">Moricone</name></persName> gg. qd. <persName><name
+                                ref="Bernardus">Bernardi</name></persName>
                         <ref>ricevono da</ref>
-                        <persName key="#Priors">Savinus</persName> prior <rs key="#Churches"
-                            >ecclesie</rs> et <rs key="#Monasteries">monasterio</rs>
+                        <persName key="#Priors"><name ref="Savinus">Savinus</name></persName> prior
+                            <rs key="#Churches">ecclesie</rs> et <rs key="#Monasteries"
+                            >monasterio</rs>
                         <orgName key="#Churches #Monasteries" ref="#juridical_persons/3205">Sancti
                             Georgii</orgName> huius Lucane civitatis … <rs key="#Meritum/launechild"
-                            >meritum</rs> anulum aurem; <ref>perciò promettono di</ref> litem nec
-                        intentionem neque aliquam molestiam mittere neque facere … de una <rs
-                            key="#Petiae">petia</rs> de terra que est in loco
-                            <placeName>Cerbaria</placeName>, que est <rs key="#Forests">bossco et
-                                <geogName ref="#estates/3201"
+                            >meritum anulum aureum;</rs>
+                        <ref>perciò promettono di</ref> litem nec intentionem neque aliquam
+                        molestiam mittere neque facere … de una petia de terra que est in loco
+                            <placeName ref="#places/3208"
+                            key="#Landed_possessions #Forests #Wine #Hay/fodder"
+                            >Cerbaria</placeName>, que est <rs key="#Forests">bossco et <geogName
+                                ref="#estates/3201"
                                 key="#Landed_possessions #Forests #Wine #Hay/fodder"
                                 >silva</geogName></rs> atque <rs key="#Wine">vinea</rs> et <rs
                             key="#Hay/fodder">prato</rs> atque <rs key="#Landed_possessions">terra
@@ -109,26 +117,32 @@
                         latere sicut predicta crux alia esse videtur usque ad <rs key="#Rivers"
                             >rivum</rs> qui dicitur Ganbaraio et sicut ipse rivus percurrit usque ad
                         aqua de palude. <ref>Pena</ref>: pena argenti optimi libras viginti. Actum
-                        intus <rs>castrum</rs> de <placeName>Via Venaria</placeName>.
-                            <ref>(autografo)</ref> (S) <rs key="#Judge">Iudicis</rs> est signum
-                            <persName key="#Judge">Ricardi</persName> pollice pictum. SM
-                            <persName>Guililemi</persName> qd. <persName>Conceti</persName> et
-                            <persName>Gallete</persName> qd. <persName>Gerardi</persName> et
-                            <persName>Ciabactelli</persName> qd. <persName>Gualandi</persName> SM
-                            <persName>Ildebrandi</persName> f. <persName>Bernardi</persName> et
-                            <persName>Guiscardi</persName> f. <persName>Brunelli</persName>.
-                            <ref>Scrive</ref>
-                        <persName>Lanfrancus</persName> not domni regis. </ab>
+                        intus <rs key="#Castle">castrum</rs> de <placeName key="#Castle">Via
+                            Venaria</placeName>. <ref>(autografo)</ref> (S) <rs key="#Judge"
+                            >Iudicis</rs> est signum <persName key="#Judge"><name ref="Richardus"
+                                >Ricardi</name></persName> pollice pictum. SM <persName><name
+                                ref="Wilielmus">Guililemi</name></persName> qd. <persName><name
+                                ref="Concettus">Conceti</name></persName> et <persName><name
+                                ref="Gallus">Gallete</name></persName> qd. <persName><name
+                                ref="Gherardus">Gerardi</name></persName> et <persName><name
+                                ref="Ciabactellus">Ciabactelli</name></persName> qd. <persName><name
+                                ref="Walandus">Gualandi</name></persName> SM <persName><name
+                                ref="Ildebrandus">Ildebrandi</name></persName> f. <persName><name
+                                ref="Bernardus">Bernardi</name></persName> et <persName><name
+                                ref="Guiscardus">Guiscardi</name></persName> f. <persName><name
+                                ref="Brunellus">Brunelli</name></persName>. <ref>Scrive</ref>
+                        <persName><name ref="Lanfrancus">Lanfrancus</name></persName> notarius domni
+                        regis. </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p/>
+                <p>Degli Azzi Vitelleschi, 2, n. 341, pag. 112.</p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p/>
             </div>
             <div type="bibliography" subtype="links">
-                <p/>
+                <p><ref>https://www.archiviodigitale.icar.beniculturali.it/it/185/ricerca/detail/536783</ref></p>
             </div>
             <div type="commentary">
                 <p/>

@@ -444,11 +444,6 @@
                             8.270537853240969</geo></geogName>
                         <idno>places/51</idno>
                         <note/>
-                        <link type="estates" corresp="#estates/63" subtype="link"/>
-                        <link type="juridical_persons" corresp="#juridical_persons/81"
-                            subtype="link"/>
-                        <link type="people" corresp="#people/7 #people/237 #people/366 #people/288"
-                            subtype="link"/>
                     </place>
                     <place>
                         <placeName>Roma</placeName>
@@ -1477,7 +1472,7 @@
                         <geogName type="coord"><geo>41.25132, 14.06652</geo></geogName>
                         <idno>places/174</idno>
                         <note/>
-                        <link type="estates" corresp="#estates/122" subtype="isPartOf"/>
+                        <link type="estates" corresp="#estates/122" subtype="isWithin"/>
                     </place>
                     <place>
                         <placeName><foreign>Sovigliana</foreign> (Villa San Marco; Terricciola;
@@ -1501,6 +1496,13 @@
                         <geogName type="coord"><geo>41.33702, 14.13112</geo></geogName>
                         <idno>places/177</idno>
                         <note/>
+                        <link type="estates" corresp="#estates/122" subtype="isWithin"/>
+                        <link type="people" corresp="#people/114"
+                            subtype="isClaimedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/97"
+                            subtype="dependsOn"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/105"
+                            subtype="dependsOn"/>
                     </place>
                     <place>
                         <placeName><foreign>Ito</foreign> (Prata; Massa Marittima;
@@ -1648,19 +1650,28 @@
                         <idno>places/194</idno>
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/97"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
+                        <link type="estates" corresp="#estates/122" subtype="isWithin"/>
+                        <link type="people" corresp="#people/114" subtype="isClaimedBy"/>
                     </place>
                     <place>
                         <placeName><foreign>Mons Sancti Leutherii</foreign> (Vairano Patenora;
                             Caserta)</placeName>
-                        <placeName type="other"/>
+                        <placeName type="other"><foreign>Mons Sancti Eleutherii</foreign></placeName>
                         <geogName type="coord"><geo>41.339444, 14.112906; 41.344299, 14.132043;
                                 41.333795, 14.162766; 41.324133, 14.173121; 41.310698, 14.142587;
                                 41.309344, 14.103695; 41.324312, 14.093329</geo></geogName>
                         <idno>places/195</idno>
-                        <note>collocazione imprecisaRPD, n. 3: 620; CMC, n. 4: 131</note>
+                        <note>collocazione imprecisa RPD, n. 3: 620; CMC, n. 4: 131</note>
+                        <link type="people" corresp="#people/194"
+                            subtype="isConfirmedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/97"
+                            subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/170"
+                            subtype="dependsOn"/>
+                        <link type="places" corresp="#places/609" subtype="proximity"/>
                         <link type="places" corresp="#places/177" subtype="proximity"/>
-                        <link type="estates" corresp="#estates/122" subtype="isPartOf"/>
+                        <link type="estates" corresp="#estates/122" subtype="isWithin"/>
                     </place>
                     <place>
                         <placeName>Gavassa (Reggio Emilia)</placeName>
@@ -1697,11 +1708,10 @@
                         <note/>
                         <link type="places" corresp="#places/177" subtype="proximity"/>
                         <link type="places" corresp="#places/194" subtype="proximity"/>
-                        <link type="estates" corresp="#estates/122" subtype="isPartOf"/>
-                        <link type="estates" corresp="#estates/121" subtype="proximity"/>
+                        <link type="estates" corresp="#estates/122" subtype="isWithin"/>
                         <link type="places" corresp="#places/195" subtype="proximity"/>
-                        <link type="juridical_persons" corresp="#juridical_persons/106"
-                            subtype="link"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/105"
+                            subtype="dependsOn"/>
                     </place>
                     <place>
                         <placeName><foreign>Monte Scalocchio</foreign> (Casa Montescalocchi;
@@ -1890,12 +1900,12 @@
                         <geogName type="coord"><geo>45.6707649, 8.1678328</geo></geogName>
                         <idno>places/215</idno>
                         <note/>
-                        <link type="people"
-                            corresp="#people/171 #people/7 #people/237 #people/366 #people/288"
-                            subtype="link"/>
+                        <link type="estates" corresp="#estates/201" subtype="dependsOn"/>
+                        <link type="people" corresp="#people/261" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/237" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/521" subtype="isConfirmedBy"/>
                         <link type="juridical_persons" corresp="#juridical_persons/81"
-                            subtype="link"/>
-                        <link type="estates" corresp="#estates/62" subtype="dependsOn"/>
+                            subtype="isGrantedTo"/>
                     </place>
                     <place>
                         <placeName>Saletta Vercellese</placeName>
@@ -2077,13 +2087,6 @@
                         <geogName type="coord"><geo>45.135071, 8.4478</geo></geogName>
                         <idno>places/230</idno>
                         <note/>
-                        <link type="people" corresp="#people/171" subtype="link"/>
-                        <link type="people" corresp="#people/7" subtype="link"/>
-                        <link type="juridical_persons" corresp="#juridical_persons/81"
-                            subtype="link"/>
-                        <link type="people" corresp="#people/124" subtype="link"/>
-                        <link type="people" corresp="#people/410" subtype="link"/>
-                        <link type="people" corresp="#people/129" subtype="link"/>
                     </place>
                     <place>
                         <placeName>Cerreto Castello (Biella)</placeName>
@@ -2159,13 +2162,6 @@
                         <geogName type="coord"><geo>45.364931, 8.173141</geo></geogName>
                         <idno>places/237</idno>
                         <note/>
-                        <link type="estates" corresp="#estates/132" subtype="link"/>
-                        <link type="juridical_persons" corresp="#juridical_persons/81"
-                            subtype="link"/>
-                        <link type="people" corresp="#people/171" subtype="link" cert="low"/>
-                        <link type="people" corresp="#people/7" subtype="link" cert="low"/>
-                        <link type="people" corresp="#people/129" subtype="link"/>
-                        <link type="people" corresp="#people/507" subtype="link"/>
                     </place>
                     <place>
                         <placeName>Gualdo (Gualda Vecchia; Monteverdi Marittimo; Pisa)</placeName>
@@ -2322,13 +2318,11 @@
                                 41.309344, 14.103695; 41.324312, 14.093329</geo></geogName>
                         <idno>places/250</idno>
                         <note/>
-                        <link type="places" corresp="#places/177" subtype="isPartOf"/>
-                        <link type="places" corresp="#places/195" subtype="proximity"/>
-                        <link type="places" corresp="#places/198" subtype="proximity"/>
-                        <link type="places" corresp="#places/194" subtype="proximity"/>
-                        <link type="juridical_persons" corresp="#juridical_persons/106"
-                            subtype="link"/>
-                        <link type="estates" corresp="#estates/122" subtype="isPartOf"/>
+                        <link type="people" corresp="#people/170"
+                            subtype="dependsOn"/>
+                        <link type="places" corresp="#places/609" subtype="proximity"/>
+                        <link type="places" corresp="#places/177" subtype="proximity"/>
+                        <link type="estates" corresp="#estates/122" subtype="isWithin"/>
                     </place>
                     <place>
                         <placeName><foreign>Venacquosa</foreign> (Chieuti; Foggia)</placeName>
@@ -3741,9 +3735,6 @@
                         <idno>places/404</idno>
                         <note>Settia 2006. La Silva Salsa si estendeva tra Tricerro Costanzana e
                             Balzola </note>
-                        <link type="estates" corresp="#estates/127" subtype="link"/>
-                        <link type="juridical_persons" corresp="#juridical_persons/81"
-                            subtype="link"/>
                     </place>
                     <place>
                         <placeName>Brentina (Montaione; Firenze)</placeName>
@@ -4943,11 +4934,6 @@
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/81"
                             subtype="link"/>
-                        <link type="people" corresp="#people/261 #people/288" subtype="link"/>
-                        <link type="people" corresp="#people/32 #people/33" subtype="link"
-                            cert="low"/>
-                        <link type="people" corresp="#people/7" subtype="link" cert="low"/>
-                        <link type="people" corresp="#people/171" subtype="link" cert="low"/>
                     </place>
                     <place>
                         <placeName><foreign>Omiclo</foreign> (Podere Castellucci; Montelupo
@@ -5743,6 +5729,10 @@
                                 14.052192; 41.683559, 14.032711; 41.699893,
                             14.021363</geo></geogName>
                         <idno>places/609</idno>
+                        <link type="juridical_persons" corresp="#juridical_persons/97"
+                            subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/194"
+                            subtype="isGrantedBy"/>
                         <note/>
                     </place>
                     <place>
@@ -5754,6 +5744,10 @@
                             14.176832</geo></geogName>
                         <idno>places/610</idno>
                         <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/97"
+                            subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/194"
+                            subtype="isGrantedBy"/>
                     </place>
                     <place>
                         <placeName>Sesia; river (Vercelli)</placeName>
@@ -6812,9 +6806,9 @@
                         <link type="people" corresp="#people/401" subtype="link"/>
                         <link type="people" corresp="#people/398" subtype="link"/>
                         <link type="people" corresp="#people/397" subtype="link"/>
-                        <link type="people" corresp="#people/157" subtype="link"/>
-                        <link type="people" corresp="#people/315" subtype="link"/>
-                        <link type="people" corresp="#people/309" subtype="link"/>
+                        <link type="people" corresp="#people/157" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/315" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/309" subtype="isConfirmedTo"/>
                         <link type="people" corresp="#people/167" subtype="link"/>
                         <link type="people" corresp="#people/2001" subtype="isConfirmedTo"/>
                         <link type="people" corresp="#people/118" subtype="isConfirmedBy"/>
@@ -7851,10 +7845,6 @@
                         <geogName type="coord"><geo>45.388083, 7.867069</geo></geogName>
                         <idno>places/833</idno>
                         <note/>
-                        <link type="juridical_persons" corresp="#juridical_persons/404"
-                            subtype="link" cert="low"/>
-                        <link type="estates" corresp="#estates/400" subtype="link"/>
-                        <link type="people" corresp="#people/520" subtype="link" cert="low"/>
                     </place>
                     <place>
                         <placeName>Fiorano Canavese (Torino)</placeName>
@@ -7967,6 +7957,13 @@
                         <idno>places/848</idno>
                         <note>Il colle di Mattarella e il suo castello sono a sud di
                             Domodossola</note>
+                    </place>
+                    <place>
+                        <placeName>Romagnasco (Vercelli)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo>45.704171, 8.334289</geo></geogName>
+                        <idno>places/849</idno>
+                        <note/>
                     </place>
                 </listPlace>
                 <listPlace n="Cinello Erika">
@@ -9736,15 +9733,39 @@
                         <note/>
                     </place>
                     <place>
-                        <placeName>Cerbaie (Fucecchio; Firenze)</placeName>
+                        <placeName><ref>Cerbaie</ref></placeName>
                         <placeName type="other"/>
                         <geogName type="coord"><geo>43.7636616, 10.7244313</geo></geogName>
                         <idno>places/3208</idno>
-                        <note>Toponimo areale. Le colline delle Cerbaie si estendono in realtà in
-                            più comuni: Fucecchio, Santa Croce sull'Arno, Castelfranco di Sotto,
-                            Calcinaia, Bientina, Altopascio, Santa Maria a Monte. Le coordinate
-                            fanno riferimento alla posizione occupata un tempo dall'Ospedale di
-                            Santa Trinita.</note>
+                        <note>Toponimo areale. Le colline delle Cerbaie si estendono su più comuni:
+                            Fucecchio, Santa Croce sull'Arno, Castelfranco di Sotto, Calcinaia,
+                            Bientina, Altopascio, Santa Maria a Monte. Le coordinate fanno
+                            riferimento alla posizione occupata un tempo dall'Ospedale di Santa
+                            Trinita.</note>
+                    </place>
+                    <place>
+                        <placeName>Escheto (Lucca)</placeName>
+                        <placeName type="other">Ischeto</placeName>
+                        <geogName type="coord"><geo>43.8205642, 10.4865854</geo></geogName>
+                        <idno>places/3209</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3206"
+                            subtype="dependsOn"/>
+                    </place>
+                    <place>
+                        <placeName>Pozzuolo (Lucca)</placeName>
+                        <placeName type="other"><ref>Puthostorli</ref></placeName>
+                        <geogName type="coord"><geo>43.822646, 10.479939</geo></geogName>
+                        <idno>places/3210</idno>
+                        <note>La posizione indicata è quella di una strada, detta "via di Vicopelago
+                            e di Pozzuolo".</note>
+                    </place>
+                    <place>
+                        <placeName><ref>Vivinaia</ref> (Montecarlo; Lucca)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo>43.8526149, 10.6626267</geo></geogName>
+                        <idno>places/3211</idno>
+                        <note/>
                     </place>
                 </listPlace>
                 <listPlace n="Internullo Dario">
@@ -12391,7 +12412,7 @@
                     </place>
                     <place>
                         <placeName>Cascio (Molazzana; Lucca)</placeName>
-                        <placeName type="other"/>
+                        <placeName type="other"><foreign>Cassio</foreign></placeName>
                         <geogName type="coord"><geo>44.081616, 10.425838</geo></geogName>
                         <idno>places/2102</idno>
                         <note/>
