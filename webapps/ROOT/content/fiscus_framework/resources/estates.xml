@@ -2609,7 +2609,10 @@
                     <geogName type="other"/>
                     <idno>estates/295</idno>
                     <note/>
-                    <link type="juridical_persons" corresp="#juridical_persons/84" subtype="link"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/84"
+                            subtype="dependsOn"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/85"
+                        subtype="dependsOn"/>
                     <link type="people" corresp="#people/154" subtype="link"/>
                     <link type="people" corresp="#people/305" subtype="link"/>
                     <link type="people" corresp="#people/194" subtype="link"/>
@@ -2621,7 +2624,9 @@
                     <geogName type="other"/>
                     <idno>estates/296</idno>
                     <note/>
-                    <link type="juridical_persons" corresp="#juridical_persons/85" subtype="link"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/85" subtype="dependsOn"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/84"
+                        subtype="dependsOn"/>
                     <link type="people" corresp="#people/154" subtype="link"/>
                     <link type="people" corresp="#people/305" subtype="link"/>
                     <link type="people" corresp="#people/194" subtype="link"/>
@@ -7599,6 +7604,10 @@
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/1464"
                             subtype="link"/>
+                        <link type="people" corresp="#people/9" subtype="isGrantedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/84"
+                            subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/187" subtype="isGrantedTo"/>
                     </place>
                     <place>
                         <geogName>Spoletina; <foreign>curtis</foreign></geogName>
@@ -8416,10 +8425,17 @@
                         <idno>estates/1917</idno>
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/1974" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1975" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/261" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1992" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/130" subtype="isConfirmedBy"/>
                         <link type="juridical_persons" corresp="#juridical_persons/1929"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
                         <link type="places" corresp="#places/2353" subtype="proximity"/>
+                        <link type="people" corresp="#people/1955" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/173" subtype="isConfirmedBy"/>
                     </place>
                     <place>
                         <geogName><foreign>Rabiano</foreign>; curtis</geogName>
@@ -8536,14 +8552,20 @@
                         <link type="people" corresp="#people/2411" subtype="isConfirmedBy"/>
                         <link type="people" corresp="#people/1992" subtype="isConfirmedTo"/>
                         <link type="people" corresp="#people/130" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1988" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/130" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/2001" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/118" subtype="isConfirmedBy"/>
                     </place>
                     <place>
                         <geogName><foreign>Severano</foreign>; casale</geogName>
                         <geogName type="other"/>
                         <idno>estates/1928</idno>
                         <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1992"
+                            subtype="dependsOn"/>
                         <link type="juridical_persons" corresp="#juridical_persons/1937"
-                            subtype="isOwnedBy"/>
+                            subtype="dependsOn"/>
                         <link type="places" corresp="#places/2351" subtype="isWithin"/>
                         <link type="places" corresp="#places/605" subtype="isWithin"/>
                         <link type="places" corresp="#places/2808" subtype="proximity"/>
@@ -8580,7 +8602,7 @@
                         <link type="people" corresp="#people/261" subtype="isConfirmedBy"/>
                         <link type="people" corresp="#people/1992" subtype="isConfirmedTo"/>
                         <link type="people" corresp="#people/130" subtype="isConfirmedBy"/>
-                        <link type="people" corresp="#people/1992" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/261" subtype="isConfirmedBy"/>
                     </place>
                     <place>
                         <geogName>Zittula; terra de</geogName>

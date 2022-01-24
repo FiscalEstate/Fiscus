@@ -1591,7 +1591,6 @@
                     <idno>people/186</idno>
                     <note>Thomas 2016: 117-122; Loré 2018; Zornetta 2020a: 169-185, 190-196,
                             206-215; Zornetta 2020b</note>
-                    <link type="people" corresp="#people/185" subtype="agentFor"/>
                     <link type="estates" corresp="#estates/140" subtype="link"/>
                     <link type="juridical_persons" corresp="#juridical_persons/84"
                         subtype="link"/>
@@ -2630,12 +2629,12 @@
                     <link type="juridical_persons" corresp="#juridical_persons/84" subtype="link"/>
                 </person>
                 <person>
-                    <persName>Balduinus (942?-944?; abbas Casinensis)</persName>
+                    <persName>Balduinus (942?-946?; abbas Casinensis)</persName>
                     <persName type="other"/>
                     <idno>people/302</idno>
                     <note>Bertolini 1963</note>
-                    <link type="juridical_persons" corresp="#juridical_persons/85" subtype="link"/>
-                    <link type="juridical_persons" corresp="#juridical_persons/84" subtype="link"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/84"
+                            subtype="rectorOf"/>
                     <link type="people" corresp="#people/305" subtype="link"/>
                     <link type="people" corresp="#people/304" subtype="link"/>
                     <link type="people" corresp="#people/156" subtype="link"/>
@@ -2646,9 +2645,6 @@
                     <idno>people/303</idno>
                     <note>Gasparri 1978: 98-100; Gasparri 1988: 107-111; Zornetta 2020a:
                             79-128</note>
-                    <link type="juridical_persons" corresp="#juridical_persons/85" subtype="link"/>
-                    <link type="juridical_persons" corresp="#juridical_persons/84" subtype="link"/>
-                    <link type="places" corresp="#places/110" subtype="link"/>
                     <link type="people" corresp="#people/373" subtype="parentOf"/>
                         <link type="people" corresp="#people/1976" subtype="parentOf"/>
                 </person>
@@ -2659,8 +2655,6 @@
                     <idno>people/304</idno>
                     <note>Thomas 2016: 270</note>
                     <link type="people" corresp="#people/305" subtype="childOf"/>
-                    <link type="juridical_persons"
-                        corresp="#juridical_persons/84" subtype="link"/>
                 </person>
                 <person>
                     <persName>Landolfus (princeps; 901-943) </persName>
@@ -6086,9 +6080,9 @@
                         <persName type="other"/>
                         <idno>people/1603</idno>
                         <note/>
-                        <link type="people" corresp="#people/55" subtype="link"/>
+                        <link type="people" corresp="#people/55" subtype="agentFor"/>
                         <link type="juridical_persons" corresp="#juridical_persons/53"
-                            subtype="link"/>
+                            subtype="agentFor"/>
                     </person>
                     <person>
                         <persName>Angelberga (896) abbatissa S. Sixti</persName>
@@ -6096,8 +6090,7 @@
                         <idno>people/1604</idno>
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/53"
-                            subtype="link"/>
-                        <link type="places" corresp="#places/43" subtype="link"/>
+                            subtype="rectorOf"/>
                     </person>
                     <person>
                         <persName>Hludouuicus (804-876) rex Franciae orientalis</persName>
@@ -6129,6 +6122,14 @@
                         <link type="people" corresp="#people/1606" subtype="childOf"/>
                         <link type="juridical_persons" corresp="#juridical_persons/191"
                             subtype="rendersCollectedBy"/>
+                    </person>
+                    <person>
+                        <persName>Adelmannus (901) episcopus Concordiae</persName>
+                        <persName type="other"/>
+                        <idno>people/1609</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1401"
+                            subtype="rectorOf"/>
                     </person>
                 </listPerson>
                 <listPerson n="Tagliente Antonio">
@@ -6267,7 +6268,7 @@
                         <idno>people/1903</idno>
                         <note>Vitolo 1993</note>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
+                            subtype="rectorOf"/>
                         <link type="people" corresp="#people/186" subtype="link"/>
                         <link type="people" corresp="#people/1904" subtype="link"/>
                     </person>
@@ -6288,8 +6289,8 @@
                         <link type="places" corresp="#places/110" subtype="link"/>
                         <link type="people" corresp="#people/186" subtype="agentFor"/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
-                        <link type="people" corresp="#people/1903" subtype="link"/>
+                            subtype="agentFor"/>
+                        <link type="people" corresp="#people/1903" subtype="agentFor"/>
                     </person>
                     <person>
                         <persName>Adelfridus (836)</persName>
@@ -7011,7 +7012,7 @@
                         <idno>people/1975</idno>
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
+                            subtype="rectorOf"/>
                         <link type="people" corresp="#people/1974" subtype="link"/>
                     </person>
                     <person>
@@ -7138,13 +7139,6 @@
                         <link type="places" corresp="#places/2350" subtype="link"/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
                             subtype="link"/>
-                        <link type="juridical_persons" corresp="#juridical_persons/1933"
-                            subtype="link"/>
-                        <link type="places" corresp="#places/2351" subtype="link"/>
-                        <link type="places" corresp="#places/605" subtype="link"/>
-                        <link type="juridical_persons" corresp="#juridical_persons/1932"
-                            subtype="link"/>
-                        <link type="places" corresp="#places/2396" subtype="link"/>
                         <link type="people" corresp="#people/1991" subtype="parentOf"/>
                     </person>
                     <person>
@@ -7177,8 +7171,6 @@
                         <link type="places" corresp="#places/2350" subtype="link"/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
                             subtype="link"/>
-                        <link type="juridical_persons" corresp="#juridical_persons/1933"
-                            subtype="link"/>
                         <link type="places" corresp="#places/2351" subtype="link"/>
                         <link type="places" corresp="#places/605" subtype="link"/>
                         <link type="juridical_persons" corresp="#juridical_persons/1932"
@@ -7191,7 +7183,7 @@
                         <idno>people/1992</idno>
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
+                            subtype="rectorOf"/>
                         <link type="people" corresp="#people/130" subtype="link"/>
                         <link type="people" corresp="#people/261" subtype="link"/>
                         <link type="people" corresp="#people/2411" subtype="link"/>
@@ -7263,7 +7255,7 @@
                             subtype="link"/>
                     </person>
                     <person>
-                        <persName>Costantinus (913-959; imperator Romanorum)</persName>
+                        <persName>Constantinus (913-959; imperator Romanorum)</persName>
                         <persName type="other">Costantino VIII</persName>
                         <idno>people/1999</idno>
                         <note/>
