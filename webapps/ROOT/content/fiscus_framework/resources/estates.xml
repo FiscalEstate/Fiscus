@@ -1490,9 +1490,13 @@
                     <geogName type="other"/>
                     <idno>estates/184</idno>
                     <note>Settia 2006. </note>
-                    <link type="places" corresp="#places/404" subtype="link"/>
-                    <link type="people" corresp="#people/171 #people/7" subtype="link"/>
-                    <link type="juridical_persons" corresp="#juridical_persons/81" subtype="link"/>
+                    <link type="places" corresp="#places/404" subtype="correspondsTo"/>
+                    <link type="people" corresp=" #people/7" subtype="isGrantedBy" cert="low"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/81"
+                            subtype="isGrantedTo"/>
+                        <link type="estates" corresp="#estates/127" subtype="proximity"/>
+                        <link type="people" corresp="#people/171" subtype="isOwnedBy" cert="low"/>
+                        <link type="people" corresp="#people/261" subtype="isConfirmedBy"/>
                 </place>
                 <place>
                     <geogName>Pistoia; <foreign>comitatus</foreign></geogName>
