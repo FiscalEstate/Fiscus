@@ -386,11 +386,14 @@
                             e dell'erezione della chiesa a lui intitolata. Con questo si
                             spiegherebbe perché Romanianum non trovi più menzione nei diplomi
                             imperiali a favore della chiesa dopo quello di Corrado II. </note>
-                    <link type="juridical_persons"
-                        corresp="#juridical_persons/81" subtype="link"/>
-                    <link type="people" corresp="#people/33" subtype="link" cert="low"/>
-                    <link type="people" corresp="#people/32" subtype="link" cert="low"/>
-                    <link type="people" corresp="#people/130" subtype="link"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/81"
+                            subtype="isGrantedTo"/>
+                    <link type="people" corresp="#people/32" subtype="isGrantedBy" cert="low"/>
+                    <link type="people" corresp="#people/130" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/7" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/171" subtype="isOwnedBy" cert="low"/>
+                        <link type="people" corresp="#people/261" subtype="isConfirmedBy"/>
+                        <link type="places" corresp="#places/849" subtype="correspondsTo"/>
                 </place>
                 <place>
                     <geogName>Trecade; <foreign>curtis</foreign></geogName>
@@ -546,11 +549,11 @@
                     <geogName type="other"/>
                     <idno>estates/99</idno>
                     <note/>
-                    <link type="people"
-                        corresp="#people/32 #people/33"
-                        subtype="link"/>
-                    <link type="juridical_persons"
-                        corresp="#juridical_persons/81" subtype="link"/>
+                    <link type="people" corresp="#people/32 " subtype="isGrantedBy" cert="low"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/81"
+                            subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/7" subtype="isConfirmedBy" cert="low"/>
+                        <link type="people" corresp="#people/171" subtype="isOwnedBy" cert="low"/>
                 </place>
                 <place>
                     <geogName>Sanctus Ambrosius; <foreign>curtis</foreign></geogName>
@@ -808,26 +811,25 @@
                     <geogName type="other"/>
                     <idno>estates/121</idno>
                     <note/>
-                    <link type="places" corresp="#places/177"
-                        subtype="proximity"/>
                     <link type="juridical_persons"
-                        corresp="#juridical_persons/97" subtype="link"/>
+                        corresp="#juridical_persons/97" subtype="dependsOn"/>
                     <link type="places" corresp="#places/194"
-                        subtype="isPartOf"/>
+                        subtype="correspondsTo"/>
+                    <link type="places" corresp="#places/195"
+                        subtype="proximity"/>
+                    <link type="estates" corresp="#estates/122" subtype="isWithin"/>
+                    <link type="people" corresp="#people/114" subtype="isClaimedBy"/>
+                    <link type="places" corresp="#places/177"
+                        subtype="isWithin"/>
+                    <link type="places" corresp="#places/609"
+                        subtype="proximity"/>
                 </place>
                 <place>
                     <geogName>Teano; <foreign>comitatus</foreign></geogName>
                     <geogName type="other"/>
                     <idno>estates/122</idno>
                     <note/>
-                    <link type="places" corresp="#places/174"
-                        subtype="link"/>
-                    <link type="places" corresp="#places/194"
-                        subtype="isPartOf"/>
-                    <link type="juridical_persons"
-                        corresp="#juridical_persons/97" subtype="link"/>
-                    <link type="places" corresp="#places/198"
-                        subtype="proximity"/>
+                    <link type="people" corresp="#people/114" subtype="isManagedBy"/>
                 </place>
                 <place>
                     <geogName><foreign>Grottole</foreign>; curtis</geogName>
@@ -835,18 +837,20 @@
                         <foreign>Groctule</foreign></geogName>
                     <idno>estates/123</idno>
                     <note/>
-                    <link type="places" corresp="#places/177"
-                        subtype="proximity"/>
+                    <link type="juridical_persons"
+                        corresp="#juridical_persons/97" subtype="dependsOn"/>
+                    <link type="estates" corresp="#estates/122" subtype="isWithin"/>
+                    
+                    <link type="places" corresp="#places/198"
+                        subtype="CorrespondsTo"/>
                     <link type="places" corresp="#places/195"
                         subtype="proximity"/>
-                    <link type="estates" corresp="#estates/121"
-                        subtype="proximity"/>
-                    <link type="estates" corresp="#estates/122"
-                        subtype="isPartOf"/>
                     <link type="places" corresp="#places/194"
                         subtype="proximity"/>
-                    <link type="places" corresp="#places/198"
-                        subtype="isPartOf"/>
+                    <link type="places" corresp="#places/177"
+                        subtype="isWithin"/>
+                    <link type="places" corresp="#places/609"
+                        subtype="proximity"/>
                 </place>
                 <place>
                     <geogName>Verona; <foreign>comitatus</foreign></geogName>
@@ -3082,6 +3086,11 @@
                         <geogName>Romano; <foreign>curtis</foreign></geogName>
                         <idno>estates/400</idno>
                         <note/>
+                        <link type="places" corresp="#places/833" subtype="correspondsTo"/>
+                        <link type="people" corresp="#people/7" subtype="isGrantedBy" cert="low"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/404"
+                            subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/521" subtype="isGrantedBy"/>
                     </place>
                     <place>
                         <geogName>Fiorano; <foreign>curtis</foreign></geogName>
@@ -5720,6 +5729,7 @@
                             subtype="dependsOn"/>
                         <link type="places" corresp="#places/2492" subtype="link"/>
                         <link type="estates" corresp="#estates/294" subtype="dependsOn"/>
+                        <link type="people" corresp="#people/199" subtype="isManagedBy"/>
                     </place>
                 </listPlace>
                 <listPlace n="Massa Paola">
@@ -8252,7 +8262,9 @@
                         <idno>estates/1900</idno>
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/2001" subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/2000" subtype="isGrantedBy"/>
                     </place>
                     <place>
                         <geogName>Venafro; <foreign>fines</foreign></geogName>

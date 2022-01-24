@@ -1477,7 +1477,7 @@
                         <geogName type="coord"><geo>41.25132, 14.06652</geo></geogName>
                         <idno>places/174</idno>
                         <note/>
-                        <link type="estates" corresp="#estates/122" subtype="isPartOf"/>
+                        <link type="estates" corresp="#estates/122" subtype="isWithin"/>
                     </place>
                     <place>
                         <placeName><foreign>Sovigliana</foreign> (Villa San Marco; Terricciola;
@@ -1501,6 +1501,13 @@
                         <geogName type="coord"><geo>41.33702, 14.13112</geo></geogName>
                         <idno>places/177</idno>
                         <note/>
+                        <link type="estates" corresp="#estates/122" subtype="isWithin"/>
+                        <link type="people" corresp="#people/114"
+                            subtype="isClaimedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/97"
+                            subtype="dependsOn"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/105"
+                            subtype="dependsOn"/>
                     </place>
                     <place>
                         <placeName><foreign>Ito</foreign> (Prata; Massa Marittima;
@@ -1648,19 +1655,25 @@
                         <idno>places/194</idno>
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/97"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
+                        <link type="estates" corresp="#estates/122" subtype="isWithin"/>
+                        <link type="people" corresp="#people/114" subtype="isClaimedBy"/>
                     </place>
                     <place>
                         <placeName><foreign>Mons Sancti Leutherii</foreign> (Vairano Patenora;
                             Caserta)</placeName>
-                        <placeName type="other"/>
+                        <placeName type="other"><foreign>Mons Sancti Eleutherii</foreign></placeName>
                         <geogName type="coord"><geo>41.339444, 14.112906; 41.344299, 14.132043;
                                 41.333795, 14.162766; 41.324133, 14.173121; 41.310698, 14.142587;
                                 41.309344, 14.103695; 41.324312, 14.093329</geo></geogName>
                         <idno>places/195</idno>
-                        <note>collocazione imprecisaRPD, n. 3: 620; CMC, n. 4: 131</note>
+                        <note>collocazione imprecisa RPD, n. 3: 620; CMC, n. 4: 131</note>
                         <link type="places" corresp="#places/177" subtype="proximity"/>
-                        <link type="estates" corresp="#estates/122" subtype="isPartOf"/>
+                        <link type="estates" corresp="#estates/122" subtype="isWithin"/>
+                        <link type="people" corresp="#people/194"
+                            subtype="isConfirmedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/97"
+                            subtype="isGrantedTo"/>
                     </place>
                     <place>
                         <placeName>Gavassa (Reggio Emilia)</placeName>
@@ -1697,11 +1710,10 @@
                         <note/>
                         <link type="places" corresp="#places/177" subtype="proximity"/>
                         <link type="places" corresp="#places/194" subtype="proximity"/>
-                        <link type="estates" corresp="#estates/122" subtype="isPartOf"/>
-                        <link type="estates" corresp="#estates/121" subtype="proximity"/>
+                        <link type="estates" corresp="#estates/122" subtype="isWithin"/>
                         <link type="places" corresp="#places/195" subtype="proximity"/>
-                        <link type="juridical_persons" corresp="#juridical_persons/106"
-                            subtype="link"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/105"
+                            subtype="dependsOn"/>
                     </place>
                     <place>
                         <placeName><foreign>Monte Scalocchio</foreign> (Casa Montescalocchi;
@@ -4943,11 +4955,6 @@
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/81"
                             subtype="link"/>
-                        <link type="people" corresp="#people/261 #people/288" subtype="link"/>
-                        <link type="people" corresp="#people/32 #people/33" subtype="link"
-                            cert="low"/>
-                        <link type="people" corresp="#people/7" subtype="link" cert="low"/>
-                        <link type="people" corresp="#people/171" subtype="link" cert="low"/>
                     </place>
                     <place>
                         <placeName><foreign>Omiclo</foreign> (Podere Castellucci; Montelupo
@@ -5743,6 +5750,10 @@
                                 14.052192; 41.683559, 14.032711; 41.699893,
                             14.021363</geo></geogName>
                         <idno>places/609</idno>
+                        <link type="juridical_persons" corresp="#juridical_persons/97"
+                            subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/194"
+                            subtype="isGrantedBy"/>
                         <note/>
                     </place>
                     <place>
@@ -5754,6 +5765,10 @@
                             14.176832</geo></geogName>
                         <idno>places/610</idno>
                         <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/97"
+                            subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/194"
+                            subtype="isGrantedBy"/>
                     </place>
                     <place>
                         <placeName>Sesia; river (Vercelli)</placeName>
@@ -6812,9 +6827,9 @@
                         <link type="people" corresp="#people/401" subtype="link"/>
                         <link type="people" corresp="#people/398" subtype="link"/>
                         <link type="people" corresp="#people/397" subtype="link"/>
-                        <link type="people" corresp="#people/157" subtype="link"/>
-                        <link type="people" corresp="#people/315" subtype="link"/>
-                        <link type="people" corresp="#people/309" subtype="link"/>
+                        <link type="people" corresp="#people/157" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/315" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/309" subtype="isConfirmedTo"/>
                         <link type="people" corresp="#people/167" subtype="link"/>
                         <link type="people" corresp="#people/2001" subtype="isConfirmedTo"/>
                         <link type="people" corresp="#people/118" subtype="isConfirmedBy"/>
@@ -7429,6 +7444,14 @@
                         <idno>places/3101</idno>
                         <note/>
                     </place>
+                    <place>
+                        <placeName>Montebonelli (Lucca; Lucca)</placeName>
+                        <placeName type="other">Monte Bonelli</placeName>
+                        <geogName type="coord"><geo>43.877719985557114,
+                            10.514322573066197</geo></geogName>
+                        <idno>places/3102</idno>
+                        <note/>
+                    </place>
                 </listPlace>
                 <listPlace n="Belluscio Luca">
                     <place>
@@ -7843,10 +7866,6 @@
                         <geogName type="coord"><geo>45.388083, 7.867069</geo></geogName>
                         <idno>places/833</idno>
                         <note/>
-                        <link type="juridical_persons" corresp="#juridical_persons/404"
-                            subtype="link" cert="low"/>
-                        <link type="estates" corresp="#estates/400" subtype="link"/>
-                        <link type="people" corresp="#people/520" subtype="link" cert="low"/>
                     </place>
                     <place>
                         <placeName>Fiorano Canavese (Torino)</placeName>
@@ -7959,6 +7978,13 @@
                         <idno>places/848</idno>
                         <note>Il colle di Mattarella e il suo castello sono a sud di
                             Domodossola</note>
+                    </place>
+                    <place>
+                        <placeName>Romagnasco (Vercelli)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo>45.704171, 8.334289</geo></geogName>
+                        <idno>places/849</idno>
+                        <note/>
                     </place>
                 </listPlace>
                 <listPlace n="Cinello Erika">
@@ -10239,7 +10265,8 @@
                     </place>
                     <place>
                         <placeName>San Pietro in Elda (San Prospero; Modena)</placeName>
-                        <placeName type="other"><foreign>vico qui dicitur Siculo</foreign></placeName>
+                        <placeName type="other"><foreign>vico qui dicitur Siculo</foreign>;
+                                <foreign>Sicclum</foreign></placeName>
                         <geogName type="coord"><geo>44.77303540562528, 11.047094444423966</geo></geogName>
                         <idno>places/1525</idno>
                         <note/>
