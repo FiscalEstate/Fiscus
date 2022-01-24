@@ -884,33 +884,27 @@
                     <geogName type="other"/>
                     <idno>estates/127</idno>
                     <note>Andenna 2005; Settia 2006 sostiene che la curtis Sulcia si trovasse tra Saletta (VC) e Balzola (AL).</note>
-                    <link type="people"
-                        corresp="#people/171 #people/7"
-                        subtype="link"/>
+                    <link type="people" corresp="#people/171 " subtype="isOwnedBy" cert="low"/>
                     <link type="people"
                         corresp="#people/21"
                         subtype="link"/>
-                    <link type="juridical_persons"
-                        corresp="#juridical_persons/81" subtype="link"/>
-                    <link type="places" corresp="#places/84"
-                        subtype="link"/>
-                    <link type="places" corresp="#places/216"
-                        subtype="isWithin"/>
-                    <link type="places" corresp="#places/442"
-                        subtype="isWithin"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/81"
+                            subtype="isGrantedTo"/>
+                    <link type="places" corresp="#places/216" subtype="bordersOn"/>
+                    <link type="places" corresp="#places/442" subtype="bordersOn"/>
+                        <link type="people" corresp="#people/7" subtype="isGrantedBy" cert="low"/>
                 </place>
                 <place>
                     <geogName>Torcello; curtis</geogName>
                     <geogName type="other"/>
                     <idno>estates/128</idno>
                     <note/>
-                    <link type="people"
-                        corresp="#people/171 #people/7 #people/237 #people/288 #people/366"
-                        subtype="link"/>
-                    <link type="juridical_persons"
-                        corresp="#juridical_persons/81" subtype="link"/>
-                    <link type="places" corresp="#places/230"
-                        subtype="link"/>
+                    <link type="people" corresp="#people/7" subtype="isGrantedBy"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/81"
+                            subtype="isGrantedTo"/>
+                    <link type="places" corresp="#places/230" subtype="proximity"/>
+                        <link type="people" corresp="#people/261" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/237" subtype="isConfirmedBy"/>
                 </place>
                 <place>
                     <geogName>Canava; <foreign>curtis</foreign></geogName>
