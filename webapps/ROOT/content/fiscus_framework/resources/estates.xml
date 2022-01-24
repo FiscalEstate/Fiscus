@@ -210,13 +210,9 @@
                     <geogName>Sostegno; <foreign>curtis</foreign></geogName>
                     <idno>estates/63</idno>
                     <note></note>
-                    <link type="places" corresp="#places/51" subtype="correspondsTo"/>
-                    <link type="people" corresp="#people/130" subtype="isConfirmedBy"/>
-                        <link type="people" corresp="#people/32" subtype="isGrantedBy"/>
-                        <link type="people" corresp="#people/7" subtype="isConfirmedBy"/>
-                        <link type="people" corresp="#people/261" subtype="isConfirmedBy"/>
-                        <link type="juridical_persons" corresp="#juridical_persons/81"
-                            subtype="isGrantedTo"/>
+                    <link type="places" corresp="#places/51"
+                        subtype="link"/>
+                    <link type="people" corresp="#people/130" subtype="link"/>
                 </place>
                 
                 <place>
@@ -964,15 +960,11 @@
                     <geogName type="other">Sancte Aghate</geogName>
                     <idno>estates/132</idno>
                     <note/>
-                    <link type="people" corresp="#people/171" subtype="isOwnedBy" cert="low"/>
-                    <link type="people" corresp="#people/237 " subtype="isConfirmedBy"/>
-                    <link type="juridical_persons" corresp="#juridical_persons/81"
-                            subtype="isGrantedTo"/>
-                        <link type="people" corresp="#people/7" subtype="isOwnedBy" cert="low"/>
-                        <link type="people" corresp="#people/261" subtype="isConfirmedBy"/>
-                        <link type="people" corresp="#people/521" subtype="isConfirmedBy"/>
-                        <link type="people" corresp="#people/129" subtype="isConfirmedBy"/>
-                        <link type="places" corresp="#places/237" subtype="correspondsTo"/>
+                    <link type="people" corresp="#people/171" subtype="link" cert="low"/>
+                    <link type="people" corresp="#people/237 #people/366 #people/288" subtype="link"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/81" subtype="link"/>
+                    <link type="places" corresp="#places/237" subtype="link"/>
+                        <link type="people" corresp="#people/7" subtype="link" cert="low"/>
                 </place>
                 <place>
                     <geogName>Prignano; <foreign>curtis</foreign></geogName>
@@ -1313,10 +1305,8 @@
                     <geogName type="other"/>
                     <idno>estates/164</idno>
                     <note/>
-                    <link type="people" corresp="#people/171 " subtype="isOwnedBy" cert="low"/>
-                    <link type="juridical_persons" corresp="#juridical_persons/81"
-                            subtype="isGrantedTo"/>
-                        <link type="people" corresp="#people/7" subtype="isGrantedBy" cert="low"/>
+                    <link type="people" corresp="#people/171 #people/7" subtype="link" cert="low"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/81" subtype="link"/>
                 </place>
                 <place>
                     <geogName><foreign>Capracorum</foreign>;
@@ -8332,6 +8322,8 @@
                         <link type="people" corresp="#people/1902" subtype="link"/>
                         <link type="people" corresp="#people/2001" subtype="link"/>
                         <link type="places" corresp="#places/111" subtype="hasWithin"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/84"
+                            subtype="dependsOn"/>
                     </place>
                     <place>
                         <geogName>Alife; <foreign>fines</foreign></geogName>
@@ -8342,6 +8334,10 @@
                             subtype="dependsOn"/>
                         <link type="people" corresp="#people/1902" subtype="link"/>
                         <link type="places" corresp="#places/2375" subtype="isWithin"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/84"
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/111" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/116" subtype="isOwnedBy"/>
                     </place>
                     <place>
                         <geogName>Acerenza; <foreign>fines</foreign></geogName>
