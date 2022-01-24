@@ -400,12 +400,11 @@
                     <geogName type="other"/>
                     <idno>estates/89</idno>
                     <note/>
-                    <link type="juridical_persons"
-                        corresp="#juridical_persons/81" subtype="link"/>
-                    <link type="people" corresp="#people/32" subtype="link"/>
-                    <link type="people" corresp="#people/33" subtype="link"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/81"
+                            subtype="isGrantedTo"/>
+                    <link type="people" corresp="#people/32" subtype="isGrantedBy"/>
                         <link type="places" corresp="#places/107" subtype="proximity"/>
-                        <link type="estates" corresp="#estates/1212" subtype="link"/>
+                        <link type="estates" corresp="#estates/1212" subtype="proximity"/>
                 </place>
                 <place>
                     <geogName><foreign>Fagedum</foreign>; <foreign>curtis</foreign></geogName>
@@ -830,6 +829,7 @@
                     <idno>estates/122</idno>
                     <note/>
                     <link type="people" corresp="#people/114" subtype="isManagedBy"/>
+                    <link type="people" corresp="#people/170" subtype="isManagedBy"/>
                 </place>
                 <place>
                     <geogName><foreign>Grottole</foreign>; curtis</geogName>
@@ -883,33 +883,27 @@
                     <geogName type="other"/>
                     <idno>estates/127</idno>
                     <note>Andenna 2005; Settia 2006 sostiene che la curtis Sulcia si trovasse tra Saletta (VC) e Balzola (AL).</note>
-                    <link type="people"
-                        corresp="#people/171 #people/7"
-                        subtype="link"/>
+                    <link type="people" corresp="#people/171 " subtype="isOwnedBy" cert="low"/>
                     <link type="people"
                         corresp="#people/21"
                         subtype="link"/>
-                    <link type="juridical_persons"
-                        corresp="#juridical_persons/81" subtype="link"/>
-                    <link type="places" corresp="#places/84"
-                        subtype="link"/>
-                    <link type="places" corresp="#places/216"
-                        subtype="isWithin"/>
-                    <link type="places" corresp="#places/442"
-                        subtype="isWithin"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/81"
+                            subtype="isGrantedTo"/>
+                    <link type="places" corresp="#places/216" subtype="bordersOn"/>
+                    <link type="places" corresp="#places/442" subtype="bordersOn"/>
+                        <link type="people" corresp="#people/7" subtype="isGrantedBy" cert="low"/>
                 </place>
                 <place>
                     <geogName>Torcello; curtis</geogName>
                     <geogName type="other"/>
                     <idno>estates/128</idno>
                     <note/>
-                    <link type="people"
-                        corresp="#people/171 #people/7 #people/237 #people/288 #people/366"
-                        subtype="link"/>
-                    <link type="juridical_persons"
-                        corresp="#juridical_persons/81" subtype="link"/>
-                    <link type="places" corresp="#places/230"
-                        subtype="link"/>
+                    <link type="people" corresp="#people/7" subtype="isGrantedBy"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/81"
+                            subtype="isGrantedTo"/>
+                    <link type="places" corresp="#places/230" subtype="proximity"/>
+                        <link type="people" corresp="#people/261" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/237" subtype="isConfirmedBy"/>
                 </place>
                 <place>
                     <geogName>Canava; <foreign>curtis</foreign></geogName>
@@ -1040,10 +1034,13 @@
                     <geogName type="other"/>
                     <idno>estates/140</idno>
                     <note/>
-                    <link type="places" corresp="#places/251"
-                        subtype="proximity"/>
-                    <link type="people" corresp="#people/185" subtype="link"/>
-                    <link type="people" corresp="#people/186" subtype="link"/>
+                    <link type="people" corresp="#people/185" subtype="isManagedBy"/>
+                    <link type="estates" corresp="#estates/140" subtype="isWithin"/>
+                    <link type="juridical_persons" subtype="isGrantedTo"
+                        corresp="#juridical_persons/84"/>
+                    <link type="people" corresp="#people/186" subtype="isGrantedBy"/>
+                    <link type="places" corresp="#places/251" subtype="proximity"/>
+                    <link type="people" corresp="#people/187" subtype="isGrantedTo"/>
                 </place>
                 <place>
                     <geogName>Bellamium; <foreign>curtis</foreign></geogName>
@@ -1489,9 +1486,13 @@
                     <geogName type="other"/>
                     <idno>estates/184</idno>
                     <note>Settia 2006. </note>
-                    <link type="places" corresp="#places/404" subtype="link"/>
-                    <link type="people" corresp="#people/171 #people/7" subtype="link"/>
-                    <link type="juridical_persons" corresp="#juridical_persons/81" subtype="link"/>
+                    <link type="places" corresp="#places/404" subtype="correspondsTo"/>
+                    <link type="people" corresp=" #people/7" subtype="isGrantedBy" cert="low"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/81"
+                            subtype="isGrantedTo"/>
+                        <link type="estates" corresp="#estates/127" subtype="proximity"/>
+                        <link type="people" corresp="#people/171" subtype="isOwnedBy" cert="low"/>
+                        <link type="people" corresp="#people/261" subtype="isConfirmedBy"/>
                 </place>
                 <place>
                     <geogName>Pistoia; <foreign>comitatus</foreign></geogName>
@@ -1665,18 +1666,23 @@
                     <geogName type="other"/>
                     <idno>estates/200</idno>
                     <note/>
-                    <link type="people" corresp="#people/7" subtype="link" cert="low"/>
-                    <link type="people" corresp="#people/171" subtype="link" cert="low"/>
-                    <link type="juridical_persons" corresp="#juridical_persons/81" subtype="link"/>
+                    <link type="people" corresp="#people/7" subtype="isGrantedBy" cert="low"/>
+                    <link type="people" corresp="#people/171" subtype="isGrantedTo" cert="low"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/81"
+                            subtype="isGrantedTo" cert="low"/>
                 </place>
                 <place>
                     <geogName>Trivero; <foreign>curtis</foreign></geogName>
                     <geogName type="other"/>
                     <idno>estates/201</idno>
-                    <note/>
-                    <link type="people" corresp="#people/7" subtype="link" cert="low"/>
-                    <link type="people" corresp="#people/171" subtype="link" cert="low"/>
-                    <link type="juridical_persons" corresp="#juridical_persons/81" subtype="link"/>
+                    <note>La donazione della curtis è frutto di interpolazione da parte di Leone.
+                            Nei successivi diplomi è concessa alla chiesa di Vercelli solo come
+                            luogo e non compare più come curtis. </note>
+                    <link type="people" corresp="#people/7" subtype="isGrantedBy" cert="low"/>
+                    <link type="people" corresp="#people/171" subtype="isGrantedTo" cert="low"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/81"
+                            subtype="isGrantedTo" cert="low"/>
+                        <link type="places" corresp="#places/215" subtype="correspondsTo"/>
                 </place>
                 <place>
                     <geogName><foreign>Geniciasco</foreign>; <foreign>curtis</foreign></geogName>
@@ -2393,13 +2399,12 @@
                             passava davanti alla porta di S. Nazario; da una parte del muro antico
                             della città; dal murus novus fino al ponte di pietra sulla roggia
                             Vercellina.</note>
-                    <link type="juridical_persons" corresp="#juridical_persons/81" subtype="link"/>
-                    <link type="places" corresp="#places/106" subtype="link"/>
-                    <link type="people" corresp="#people/237 #people/366 #people/288 #people/21"
-                            subtype="link"/>
-                        <link type="juridical_persons"
-                            corresp="#juridical_persons/111 #juridical_persons/402" subtype="link"/>
-                        <link type="people" corresp="#people/7" subtype="link"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/81"
+                            subtype="isGrantedTo"/>
+                    <link type="places" corresp="#places/106" subtype="correspondsTo"/>
+                        <link type="people" corresp="#people/233" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/261" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/237" subtype="isConfirmedBy"/>
                 </place>
                 <place>
                     <geogName>Cavalli; <foreign>curtis</foreign></geogName>
@@ -8313,10 +8318,16 @@
                         <idno>estates/1904</idno>
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
-                        <link type="people" corresp="#people/1902" subtype="link"/>
-                        <link type="people" corresp="#people/2001" subtype="link"/>
-                        <link type="places" corresp="#places/111" subtype="hasWithin"/>
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/1902" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/2001" subtype="isGrantedTo"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/84"
+                            subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/115" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/111" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/116" subtype="isOwnedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/85"
+                            subtype="dependsOn"/>
                     </place>
                     <place>
                         <geogName>Alife; <foreign>fines</foreign></geogName>
@@ -8325,8 +8336,13 @@
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
                             subtype="dependsOn"/>
-                        <link type="people" corresp="#people/1902" subtype="link"/>
+                        <link type="people" corresp="#people/1902" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/2001" subtype="isGrantedTo"/>
                         <link type="places" corresp="#places/2375" subtype="isWithin"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/84"
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/111" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/116" subtype="isOwnedBy"/>
                     </place>
                     <place>
                         <geogName>Acerenza; <foreign>fines</foreign></geogName>
