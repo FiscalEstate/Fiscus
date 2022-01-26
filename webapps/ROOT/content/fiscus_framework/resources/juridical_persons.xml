@@ -300,8 +300,8 @@
                     <link type="people" corresp="#people/398" subtype="link"/>
                     <link type="people" corresp="#people/397" subtype="link"/>
                     <link type="people" corresp="#people/154" subtype="link"/>
-                    <link type="people" corresp="#people/305" subtype="link"/>
                     <link type="people" corresp="#people/304" subtype="link"/>
+                    <link type="people" corresp="#people/305" subtype="link"/>
                     <link type="people" corresp="#people/156" subtype="link"/>
                     <link type="people" corresp="#people/157" subtype="link"/>
                     <link type="people" corresp="#people/315" subtype="link"/>
@@ -1883,15 +1883,17 @@
                     <idno>juridical_persons/248</idno>
                     <note/>
                     <link type="places" corresp="#places/700" subtype="isWithin"/>
-                    <link type="juridical_persons" corresp="#juridical_persons/84" subtype="isConfirmedTo"/>
-                    <link type="people" corresp="#people/156" subtype="link"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/84" subtype="dependsOn"/>
+                    <link type="people" corresp="#people/156" subtype="isConfirmedBy"/>
+                    <link type="people" corresp="#people/305" subtype="isConfirmedBy"/>
                     <link type="people" corresp="#people/157" subtype="isConfirmedBy"/>
+                    <link type="people" corresp="#people/309" subtype="isConfirmedTo"/>
                     <link type="people" corresp="#people/315" subtype="isConfirmedBy"/>
                     <link type="people" corresp="#people/401" subtype="link"/>
                     <link type="people" corresp="#people/398" subtype="link"/>
                     <link type="people" corresp="#people/397" subtype="link"/>
                     <link type="people" corresp="#people/167" subtype="isConfirmedBy"/>
-                    <link type="people" corresp="#people/309" subtype="isConfirmedTo"/>
+                    <link type="people" corresp="#people/305" subtype="link"/>
                 </org>
                 <org>
                     <orgName>Sanctus Salvator de Octavo; ecclesia (Valdottavo)</orgName>
@@ -1906,8 +1908,8 @@
                     <idno>juridical_persons/250</idno>
                     <note/>
                     <link type="places" corresp="#places/109" subtype="isWithin"/>
-                    <link type="juridical_persons" corresp="#juridical_persons/84" subtype="link"/>
                     <link type="places" corresp="#places/694" subtype="isWithin"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/84" subtype="dependsOn"/>
                 </org>
                 <org>
                     <orgName>Sanctus Macharius de Pompiano; ecclesia</orgName>
@@ -1999,12 +2001,11 @@
                     <orgName type="other">cella di San Martino sul Volturno</orgName>
                     <idno>juridical_persons/263</idno>
                     <note><foreign>qui dicitur cella vetere</foreign></note>
-                    <link type="places" corresp="#places/112" subtype="proximity"/>
+                    <link type="estates" corresp="#estates/1905" subtype="isWithin"/>
                     <link type="places" corresp="#places/609" subtype="proximity"/>
-                    <link type="people" corresp="#people/408" subtype="link"/>
-                    <link type="juridical_persons" corresp="#juridical_persons/84" subtype="link"/>
-                    <link type="people" corresp="#people/398" subtype="link"/>
-                    <link type="people" corresp="#people/408" subtype="link"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/84" subtype="dependsOn"/>
+                    <link type="people" corresp="#people/398" subtype="isConfirmedBy"/>
+                    <link type="people" corresp="#people/408" subtype="isConfirmedTo"/>
                 </org>
                 <org>
                     <orgName>Sanctus Hippolytus de Anniano; plebs </orgName>
@@ -2441,6 +2442,12 @@
                         <idno>juridical_persons/3102</idno>
                         <note/>
                     </org>
+                    <org>
+                        <orgName>Sancta Christina; plebs (Massa Pisana; Lucca)</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/3103</idno>
+                        <note/>
+                    </org>
                 </listOrg>
                 <listOrg n="Belluscio Luca">
                     <org>
@@ -2476,8 +2483,7 @@
                             subtype="link"/>
                     </org>
                     <org>
-                        <orgName>Sancta Maria; <foreign>capitulum canonicorum
-                            </foreign>(Vercelli)</orgName>
+                        <orgName>Sancta Maria; capitulum canonicorum (Vercelli)</orgName>
                         <orgName type="other"/>
                         <idno>juridical_persons/402</idno>
                         <note/>
@@ -2813,9 +2819,9 @@
                         <orgName type="other"/>
                         <idno>juridical_persons/2000</idno>
                         <note/>
-                        <link type="places" corresp="#places/275" subtype="correspondsTo"/>
+                        <link type="places" corresp="#places/275" subtype="isWithin"/>
                         <link type="juridical_persons" corresp="#juridical_persons/1426"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
                         <link type="people" corresp="#people/1" subtype="link"/>
                     </org>
                     <org>
@@ -3330,14 +3336,14 @@
                             subtype="link"/>
                     </org>
                     <org>
-                        <orgName>Sanctus Bartholomeus; ecclesia (Quistello; Modena)</orgName>
+                        <orgName>Sanctus Bartholomeus; ecclesia (Quistello; Mantova)</orgName>
                         <orgName type="other">Sancti Bartholomeus et Iohannes</orgName>
                         <idno>juridical_persons/2054</idno>
                         <note/>
-                        <link type="places" corresp="#places/2417" subtype="correspondsTo"/>
                         <link type="juridical_persons" corresp="#juridical_persons/2001"
-                            subtype="link"/>
-                        <link type="estates" corresp="#estates/2007" subtype="link"/>
+                            subtype="dependsOn"/>
+                        <link type="estates" corresp="#estates/2007" subtype="dependsOn"/>
+                        <link type="places" corresp="#places/2417" subtype="isWithin"/>
                     </org>
                     <org>
                         <orgName>monasterium (Frassinoro; Modena)</orgName>
@@ -4550,11 +4556,13 @@
                         <orgName type="other">San Vincenzo al Volturno</orgName>
                         <idno>juridical_persons/1900</idno>
                         <note>Marazzi 2012</note>
-                        <link type="places" corresp="#places/1900" subtype="proximity"/>
+                        <link type="places" corresp="#places/609" subtype="proximity"/>
+                        <link type="people" corresp="#people/2000" subtype="link"/>
+                        <link type="people" corresp="#people/1902" subtype="link"/>
+                        <link type="people" corresp="#people/186" subtype="link"/>
                         <link type="people" corresp="#people/194" subtype="link"/>
                         <link type="people" corresp="#people/305" subtype="link"/>
                         <link type="people" corresp="#people/154" subtype="link"/>
-                        <link type="people" corresp="#people/186" subtype="link"/>
                         <link type="people" corresp="#people/1902" subtype="link"/>
                         <link type="people" corresp="#people/1974" subtype="link"/>
                         <link type="estates" corresp="#estates/1411" subtype="link"/>
@@ -4576,6 +4584,8 @@
                         <link type="places" corresp="#places/2301" subtype="isWithin"/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
                             subtype="dependsOn"/>
+                        <link type="people" corresp="#people/2002" subtype="link"/>
+                        <link type="people" corresp="#people/374" subtype="link"/>
                         <link type="people" corresp="#people/1974" subtype="isConfirmedBy"/>
                         <link type="people" corresp="#people/1975" subtype="isConfirmedTo"/>
                         <link type="people" corresp="#people/261" subtype="isConfirmedBy"/>
@@ -4607,10 +4617,11 @@
                         <idno>juridical_persons/1903</idno>
                         <note/>
                         <link type="estates" corresp="#estates/1907" subtype="isWithin"/>
-                        <link type="people" corresp="#people/1904" subtype="link"/>
-                        <link type="people" corresp="#people/1903" subtype="link"/>
+                        <link type="people" corresp="#people/1903" subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/186" subtype="isGrantedBy"/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/1904" subtype="isGrantedBy"/>
                     </org>
                     <org>
                         <orgName>Sancta Maria de Oliveto; ecclesia (Isernia)</orgName>
@@ -4624,8 +4635,9 @@
                         <link type="people" corresp="#people/261" subtype="isConfirmedBy"/>
                         <link type="people" corresp="#people/1992" subtype="isConfirmedTo"/>
                         <link type="people" corresp="#people/130" subtype="isConfirmedBy"/>
-                        <link type="people" corresp="#people/186" subtype="link"/>
-                        <link type="people" corresp="#people/1903" subtype="link"/>
+                        <link type="people" corresp="#people/186" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/303" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/1903" subtype="isConfirmedTo"/>
                         <link type="places" corresp="#places/2330" subtype="isWithin"/>
                         <link type="places" corresp="#places/2333" subtype="proximity"/>
                         <link type="estates" corresp="#estates/1911" subtype="proximity"/>
@@ -5969,7 +5981,7 @@
                         <note/>
                         <link type="places" corresp="#places/2829" subtype="isWithin"/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
                     </org>
                     <org>
                         <orgName>Sancta Maria <foreign>de Arole</foreign> (L'Aquila)</orgName>
