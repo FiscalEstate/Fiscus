@@ -637,15 +637,14 @@
                         <link type="people" corresp="#people/23" subtype="link"/>
                     </place>
                     <place>
-                        <placeName>Recovato (Modena)</placeName>
+                        <placeName>Recovato (Castelfranco Emilia; Modena)</placeName>
                         <placeName type="other"><foreign>Arcuado</foreign>; <foreign>Archoatum</foreign></placeName>
                         <geogName type="coord"><geo>44.638200, 11.062840</geo></geogName>
                         <idno>places/74</idno>
-                        <note>Tiraboschi Dizionario, I, p. 25. Frazione di Castelfranco
-                            Emilia.</note>
+                        <note>Tiraboschi Dizionario, I, p. 25.</note>
                         <link type="juridical_persons" corresp="#juridical_persons/47"
-                            subtype="link"/>
-                        <link type="people" corresp="#people/23" subtype="link"/>
+                            subtype="isOwnedBy"/>
+                        <link type="people" corresp="#people/23" subtype="isOwnedBy"/>
                     </place>
                     <place>
                         <placeName><foreign>Gavili</foreign> (Manzolino; Modena)</placeName>
@@ -750,6 +749,12 @@
                         <geogName type="coord"><geo>40.677921, 14.765950</geo></geogName>
                         <idno>places/84</idno>
                         <note/>
+                        <link type="estates" corresp="#estates/1903" subtype="link"/>
+                        <link type="people" corresp="#people/1914" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/1913" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1915" subtype="isConfirmedTo"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1900"
+                            subtype="dependsOn"/>
                     </place>
                     <place>
                         <placeName>Monteverdi Marittimo (Pisa)</placeName>
@@ -997,6 +1002,8 @@
                         <link type="people" corresp="#people/167" subtype="isConfirmedBy"/>
                         <link type="juridical_persons" corresp="#juridical_persons/84" subtype="isConfirmedTo"/>
                         <link type="people" corresp="#people/309" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/157" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/315" subtype="isConfirmedBy"/>
                     </place>
                     <place>
                         <placeName>Benevento</placeName>
@@ -1004,6 +1011,12 @@
                         <geogName type="coord"><geo>41.127987, 14.783478</geo></geogName>
                         <idno>places/110</idno>
                         <note/>
+                        <link type="estates" corresp="#estates/1902" subtype="isWithin"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1900"
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/2002" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/374" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/2002" subtype="isGrantedTo"/>
                     </place>
                     <place>
                         <placeName>Telese (Benevento)</placeName>
@@ -1011,6 +1024,7 @@
                         <geogName type="coord"><geo>41.216241, 14.527016</geo></geogName>
                         <idno>places/111</idno>
                         <note/>
+                        <link type="estates" corresp="#estates/1904" subtype="isWithin"/>
                     </place>
                     <place>
                         <placeName>Alife (Caserta)</placeName>
@@ -1462,6 +1476,7 @@
                         <idno>places/173</idno>
                         <note/>
                         <link type="places" corresp="#places/609" subtype="proximity"/>
+                        <link type="estates" corresp="#estates/1906" subtype="isWithin"/>
                     </place>
                     <place>
                         <placeName>Teano (Caserta)</placeName>
@@ -3164,7 +3179,8 @@
                         <placeName type="other"><foreign>Massa Tzhonzhi</foreign></placeName>
                         <geogName type="coord"><geo>43.8109616, 10.4863419</geo></geogName>
                         <idno>places/338</idno>
-                        <note/>
+                        <note>Microtoponomastica: <foreign>Siricano</foreign>;
+                                <foreign>Strada</foreign>.</note>
                         <link type="juridical_persons" corresp="#juridical_persons/246"
                             subtype="dependsOn"/>
                     </place>
@@ -5639,6 +5655,9 @@
                         <link type="people" corresp="#people/1991" subtype="isConfirmedBy"/>
                         <link type="people" corresp="#people/167" subtype="isConfirmedBy"/>
                         <link type="people" corresp="#people/309" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/398" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/397" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/401" subtype="isConfirmedTo"/>
                         <link type="juridical_persons" corresp="#juridical_persons/84" subtype="isConfirmedTo"/>
                     </place>
                     <place>
@@ -5653,6 +5672,8 @@
                         <link type="people" corresp="#people/305" subtype="isGrantedBy"/>
                         <link type="juridical_persons" corresp="#juridical_persons/84"
                             subtype="dependsTo"/>
+                        <link type="estates" corresp="#estates/1902" subtype="isWithin"/>
+                        <link type="places" corresp="#places/110" subtype="proximity"/>
                     </place>
                     <place>
                         <placeName>Pozzuolo del Friuli (Udine)</placeName>
@@ -6553,7 +6574,7 @@
                         <link type="people" corresp="#people/305" subtype="isGrantedby"/>
                         <link type="people" corresp="#people/154" subtype="isGrantedby"/>
                         <link type="juridical_persons" corresp="#juridical_persons/84"
-                            subtype="isGrantedTo"/>
+                            subtype="dependsOn"/>
                         <link type="people" corresp="#people/332" subtype="isGrantedTo"/>
                     </place>
                     <place>
@@ -6565,8 +6586,14 @@
                         <link type="people" corresp="#people/305" subtype="isGrantedby"/>
                         <link type="people" corresp="#people/154" subtype="isGrantedby"/>
                         <link type="juridical_persons" corresp="#juridical_persons/84"
-                            subtype="isGrantedTo"/>
+                            subtype="dependsOn"/>
                         <link type="people" corresp="#people/332" subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/398" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/397" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/401" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/302" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/304" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/156" subtype="isConfirmedBy"/>
                     </place>
                     <place>
                         <placeName>Valleluce (Cassino; Frosinone)</placeName>
@@ -6577,8 +6604,11 @@
                         <link type="people" corresp="#people/305" subtype="isGrantedby"/>
                         <link type="people" corresp="#people/154" subtype="isGrantedby"/>
                         <link type="juridical_persons" corresp="#juridical_persons/84"
-                            subtype="isGrantedTo"/>
+                            subtype="dependsOn"/>
                         <link type="people" corresp="#people/332" subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/302" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/304" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/156" subtype="isConfirmedBy"/>
                     </place>
                     <place>
                         <placeName>Cervaro (Cassino; Frosinone)</placeName>
@@ -6589,7 +6619,7 @@
                         <link type="people" corresp="#people/305" subtype="isGrantedby"/>
                         <link type="people" corresp="#people/154" subtype="isGrantedby"/>
                         <link type="juridical_persons" corresp="#juridical_persons/84"
-                            subtype="isGrantedTo"/>
+                            subtype="dependsOn"/>
                         <link type="people" corresp="#people/332" subtype="isGrantedTo"/>
                     </place>
                     <place>
@@ -6602,11 +6632,15 @@
                         <link type="people" corresp="#people/305" subtype="isGrantedby"/>
                         <link type="people" corresp="#people/154" subtype="isGrantedby"/>
                         <link type="juridical_persons" corresp="#juridical_persons/84"
-                            subtype="isGrantedTo"/>
+                            subtype="dependsOn"/>
                         <link type="people" corresp="#people/332" subtype="isGrantedTo"/>
                         <link type="people" corresp="#people/167" subtype="isConfirmedBy"/>
-                        <link type="juridical_persons" corresp="#juridical_persons/84" subtype="isConfirmedTo"/>
                         <link type="people" corresp="#people/309" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/157" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/315" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/398" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/397" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/401" subtype="isConfirmedTo"/>
                     </place>
                     <place>
                         <placeName><foreign>Cripta imperatoris</foreign> (Cassino;
@@ -6617,12 +6651,15 @@
                         <note/>
                         <link type="people" corresp="#people/305" subtype="isGrantedby"/>
                         <link type="people" corresp="#people/154" subtype="isGrantedby"/>
-                        <link type="juridical_persons" corresp="#juridical_persons/84"
-                            subtype="isGrantedTo"/>
                         <link type="people" corresp="#people/332" subtype="isGrantedTo"/>
                         <link type="people" corresp="#people/167" subtype="isConfirmedBy"/>
-                        <link type="juridical_persons" corresp="#juridical_persons/84" subtype="isConfirmedTo"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/84" subtype="dependsOn"/>
                         <link type="people" corresp="#people/309" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/157" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/315" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/398" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/397" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/401" subtype="isConfirmedTo"/>
                     </place>
                     <place>
                         <placeName><foreign>Duos Leones</foreign> (Cassino; Frosinone)</placeName>
@@ -6633,11 +6670,18 @@
                         <link type="people" corresp="#people/305" subtype="isGrantedby"/>
                         <link type="people" corresp="#people/154" subtype="isGrantedby"/>
                         <link type="juridical_persons" corresp="#juridical_persons/84"
-                            subtype="isGrantedTo"/>
+                            subtype="dependsOn"/>
                         <link type="people" corresp="#people/332" subtype="isGrantedTo"/>
                         <link type="people" corresp="#people/167" subtype="isConfirmedBy"/>
-                        <link type="juridical_persons" corresp="#juridical_persons/84" subtype="isConfirmedTo"/>
                         <link type="people" corresp="#people/309" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/157" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/315" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/398" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/397" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/401" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/302" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/304" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/156" subtype="isConfirmedBy"/>
                     </place>
                     <place>
                         <placeName><foreign>Farnitu</foreign> (Cassino; Frosinone)</placeName>
@@ -6648,11 +6692,18 @@
                         <link type="people" corresp="#people/305" subtype="isGrantedby"/>
                         <link type="people" corresp="#people/154" subtype="isGrantedby"/>
                         <link type="juridical_persons" corresp="#juridical_persons/84"
-                            subtype="isGrantedTo"/>
+                            subtype="dependsOn"/>
                         <link type="people" corresp="#people/332" subtype="isGrantedTo"/>
                         <link type="people" corresp="#people/167" subtype="isConfirmedBy"/>
-                        <link type="juridical_persons" corresp="#juridical_persons/84" subtype="isConfirmedTo"/>
                         <link type="people" corresp="#people/309" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/157" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/315" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/398" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/397" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/401" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/302" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/304" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/156" subtype="isConfirmedBy"/>
                     </place>
                     <place>
                         <placeName><foreign>Arcu de Giczuli</foreign> (Cassino;
@@ -6664,8 +6715,11 @@
                         <link type="people" corresp="#people/305" subtype="isGrantedby"/>
                         <link type="people" corresp="#people/154" subtype="isGrantedby"/>
                         <link type="juridical_persons" corresp="#juridical_persons/84"
-                            subtype="isGrantedTo"/>
+                            subtype="dependsOn"/>
                         <link type="people" corresp="#people/332" subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/302" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/304" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/156" subtype="isConfirmedBy"/>
                     </place>
                     <place>
                         <placeName><foreign>Sanctus Damasus</foreign> (Cassino;
@@ -6677,7 +6731,7 @@
                         <link type="people" corresp="#people/305" subtype="isGrantedby"/>
                         <link type="people" corresp="#people/154" subtype="isGrantedby"/>
                         <link type="juridical_persons" corresp="#juridical_persons/84"
-                            subtype="isGrantedTo"/>
+                            subtype="dependsOn"/>
                         <link type="people" corresp="#people/332" subtype="isGrantedTo"/>
                     </place>
                     <place>
@@ -6689,7 +6743,7 @@
                         <link type="people" corresp="#people/305" subtype="isGrantedby"/>
                         <link type="people" corresp="#people/154" subtype="isGrantedby"/>
                         <link type="juridical_persons" corresp="#juridical_persons/84"
-                            subtype="isGrantedTo"/>
+                            subtype="dependsOn"/>
                         <link type="people" corresp="#people/332" subtype="isGrantedTo"/>
                     </place>
                     <place>
@@ -6701,8 +6755,14 @@
                         <link type="people" corresp="#people/305" subtype="isGrantedby"/>
                         <link type="people" corresp="#people/154" subtype="isGrantedby"/>
                         <link type="juridical_persons" corresp="#juridical_persons/84"
-                            subtype="isGrantedTo"/>
+                            subtype="dependsOn"/>
                         <link type="people" corresp="#people/332" subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/398" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/397" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/401" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/302" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/304" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/156" subtype="isConfirmedBy"/>
                     </place>
                     <place>
                         <placeName>Pieve San Paolo (Capannori; Lucca)</placeName>
@@ -6728,8 +6788,14 @@
                         <link type="people" corresp="#people/305" subtype="isGrantedby"/>
                         <link type="people" corresp="#people/154" subtype="isGrantedby"/>
                         <link type="juridical_persons" corresp="#juridical_persons/84"
-                            subtype="isGrantedTo"/>
+                            subtype="dependsOn"/>
                         <link type="people" corresp="#people/332" subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/398" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/397" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/401" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/302" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/304" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/156" subtype="isConfirmedBy"/>
                     </place>
                     <place>
                         <placeName><foreign>Furca de Pubplo</foreign> (Cassino;
@@ -6741,7 +6807,7 @@
                         <link type="people" corresp="#people/305" subtype="isGrantedby"/>
                         <link type="people" corresp="#people/154" subtype="isGrantedby"/>
                         <link type="juridical_persons" corresp="#juridical_persons/84"
-                            subtype="isGrantedTo"/>
+                            subtype="dependsOn"/>
                         <link type="people" corresp="#people/332" subtype="isGrantedTo"/>
                     </place>
                     <place>
@@ -6754,11 +6820,13 @@
                         <link type="people" corresp="#people/305" subtype="isGrantedby"/>
                         <link type="people" corresp="#people/154" subtype="isGrantedby"/>
                         <link type="juridical_persons" corresp="#juridical_persons/84"
-                            subtype="isGrantedTo"/>
+                            subtype="dependsOn"/>
                         <link type="people" corresp="#people/332" subtype="isGrantedTo"/>
                         <link type="people" corresp="#people/167" subtype="isConfirmedBy"/>
-                        <link type="juridical_persons" corresp="#juridical_persons/84" subtype="isConfirmedTo"/>
                         <link type="people" corresp="#people/309" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/302" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/304" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/156" subtype="isConfirmedBy"/>
                     </place>
                     <place>
                         <placeName>Savone; river (Caserta)</placeName>
@@ -6825,17 +6893,15 @@
                         <geogName type="coord"><geo>41.80449, 14.91843</geo></geogName>
                         <idno>places/700</idno>
                         <note/>
-                        <link type="juridical_persons" corresp="#juridical_persons/84"
-                            subtype="link"/>
                     </place>
                     <place>
                         <placeName>Patria; lake (Napoli)</placeName>
                         <placeName type="other"/>
                         <geogName type="coord"><geo>40.937497, 14.033355</geo></geogName>
                         <idno>places/701</idno>
-                        <link type="people" corresp="#people/401" subtype="link"/>
-                        <link type="people" corresp="#people/398" subtype="link"/>
-                        <link type="people" corresp="#people/397" subtype="link"/>
+                        <link type="people" corresp="#people/398" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/397" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/401" subtype="isConfirmedTo"/>
                         <link type="people" corresp="#people/157" subtype="isConfirmedBy"/>
                         <link type="people" corresp="#people/315" subtype="isConfirmedBy"/>
                         <link type="people" corresp="#people/309" subtype="isConfirmedTo"/>
@@ -6877,6 +6943,11 @@
                         <idno>places/705</idno>
                         <note/>
                         <link type="estates" corresp="#estates/1930" subtype="isWithin"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/84" subtype="isConfirmedTo"
+                        />
+                        <link type="people" corresp="#people/398" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/397" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/401" subtype="isConfirmedTo"/>
                     </place>
                     <place>
                         <placeName><foreign>Furca Sancti Valentini</foreign> (Cassino;
@@ -6886,8 +6957,11 @@
                         <geogName type="coord"><geo>41.647840, 13.88056</geo></geogName>
                         <idno>places/706</idno>
                         <note/>
-                        <link type="juridical_persons" corresp="#juridical_persons/84" subtype="link"
+                        <link type="juridical_persons" corresp="#juridical_persons/84" subtype="isConfirmedTo"
                         />
+                        <link type="people" corresp="#people/398" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/397" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/401" subtype="isConfirmedTo"/>
                     </place>
                     <place>
                         <placeName>Mirabello Monferrato (Alessandria)</placeName>
@@ -7056,10 +7130,10 @@
                         <geogName type="coord"><geo>41.52736, 13.69588</geo></geogName>
                         <idno>places/720</idno>
                         <note/>
-                        <link type="people" corresp="#people/399" subtype="link"/>
-                        <link type="people" corresp="#people/401" subtype="link"/>
+                        <link type="people" corresp="#people/399" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/401" subtype="isGrantedTo"/>
                         <link type="juridical_persons" corresp="#juridical_persons/84"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
                     </place>
                     <place>
                         <placeName>Pieve di Compito (Capannori; Lucca)</placeName>
@@ -7116,6 +7190,11 @@
                         <geogName type="coord"><geo>41.132650, 14.504550</geo></geogName>
                         <idno>places/728</idno>
                         <note/>
+                        <link type="people" corresp="#people/406" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/2404" subtype="isGrantedTo"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/84"
+                            subtype="dependsOn"/>
+                        <link type="places" corresp="#places/325" subtype="isWithin"/>
                     </place>
                     <place>
                         <placeName>Castiglioni (San Miniato; Pisa)</placeName>
@@ -8650,7 +8729,7 @@
                         <note/>
                     </place>
                     <place>
-                        <placeName>Corfino (Castiglione di Grafagnana; Lucca)</placeName>
+                        <placeName>Corfino (Castiglione di Garfagnana; Lucca)</placeName>
                         <placeName type="other"><foreign>Quarphine</foreign></placeName>
                         <geogName type="coord"><geo>44.182561, 10.379421</geo></geogName>
                         <idno>places/2420</idno>
@@ -9793,6 +9872,42 @@
                         <placeName type="other"/>
                         <geogName type="coord"><geo>43.8526149, 10.6626267</geo></geogName>
                         <idno>places/3211</idno>
+                        <note/>
+                    </place>
+                    <place>
+                        <placeName>San Vito (Montelupo Fiorentino; Firenze)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo>43.7640686, 11.0389657</geo></geogName>
+                        <idno>places/3212</idno>
+                        <note/>
+                    </place>
+                    <place>
+                        <placeName>Badia a Settimo (Scandicci; Firenze)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo>43.778267, 11.1506818</geo></geogName>
+                        <idno>places/3213</idno>
+                        <note/>
+                    </place>
+                    <place>
+                        <placeName>Camaldoli (Poppi; Arezzo)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo>43.7933476, 11.8216662</geo></geogName>
+                        <idno>places/3214</idno>
+                        <note/>
+                    </place>
+                    <place>
+                        <placeName><ref>Rosaia</ref> (Fucecchio; Firenze)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo>43.7358567, 10.8047057</geo></geogName>
+                        <idno>places/3215</idno>
+                        <note/>
+                        <link type="places" corresp="#places/3200" subtype="proximity"/>
+                    </place>
+                    <place>
+                        <placeName>Spicchiello (Lastra a Signa; Firenze)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo>43.7284271, 11.06798</geo></geogName>
+                        <idno>places/3216</idno>
                         <note/>
                     </place>
                 </listPlace>
@@ -12743,6 +12858,7 @@
                         <geogName type="coord"><geo>41.4848417, 14.0459812</geo></geogName>
                         <idno>places/2300</idno>
                         <note/>
+                        <link type="estates" corresp="#estates/1901" subtype="hasWithin"/>
                     </place>
                     <place>
                         <placeName>Luogosano (Avellino)</placeName>
@@ -12757,6 +12873,11 @@
                         <geogName type="coord"><geo>41.0112341, 15.0996123</geo></geogName>
                         <idno>places/2302</idno>
                         <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1900"
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/2002" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/374" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/2002" subtype="isGrantedTo"/>
                     </place>
                     <place>
                         <placeName>Bitonto (Bari)</placeName>
@@ -12764,6 +12885,11 @@
                         <geogName type="coord"><geo>41.1076087, 16.6896166</geo></geogName>
                         <idno>places/2303</idno>
                         <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1900"
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/2002" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/374" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/2002" subtype="isGrantedTo"/>
                     </place>
                     <place>
                         <placeName><foreign>Quitusdecimus</foreign> (Avellino)</placeName>
@@ -12780,6 +12906,10 @@
                             15.1284553</geo></geogName>
                         <idno>places/2305</idno>
                         <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1900"
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/1902" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/2001" subtype="isGrantedTo"/>
                     </place>
                     <place>
                         <placeName>Forano; <foreign>locus</foreign></placeName>
@@ -12787,9 +12917,10 @@
                         <geogName type="coord"><geo/></geogName>
                         <idno>places/2306</idno>
                         <note/>
-                        <link type="people" corresp="#people/1902" subtype="link"/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/1902" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/2001" subtype="isGrantedTo"/>
                     </place>
                     <place>
                         <placeName>Silva Nigra</placeName>
@@ -12797,11 +12928,12 @@
                         <geogName type="coord"><geo/></geogName>
                         <idno>places/2307</idno>
                         <note/>
-                        <link type="people" corresp="#people/1902" subtype="link"/>
-                        <link type="people" corresp="#people/2001" subtype="link"/>
-                        <link type="people" corresp="#people/373" subtype="link"/>
+                        <link type="people" corresp="#people/373" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/1902" subtype="isGrantedTo"/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/1902" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/2001" subtype="isGrantedTo"/>
                     </place>
                     <place>
                         <placeName>Acerenza (Potenza)</placeName>
@@ -12809,6 +12941,7 @@
                         <geogName type="coord"><geo>40.7988432, 15.9416217</geo></geogName>
                         <idno>places/2308</idno>
                         <note/>
+                        <link type="estates" corresp="#estates/1907" subtype="isWithin"/>
                     </place>
                     <place>
                         <placeName>Ravennola; river (Isernia)</placeName>
@@ -12816,12 +12949,8 @@
                         <geogName type="coord"><geo>41.5297846, 14.1204250</geo></geogName>
                         <idno>places/2309</idno>
                         <note>Marazzi 19-25; 31-32</note>
-                        <link type="people" corresp="#people/186" subtype="link"/>
-                        <link type="people" corresp="#people/1903" subtype="link"/>
-                        <link type="estates" corresp="#estates/1916" subtype="isWithin"/>
-                        <link type="people" corresp="#people/305" subtype="link"/>
-                        <link type="people" corresp="#people/154" subtype="link"/>
-                        <link type="people" corresp="#people/1938" subtype="link"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1900"
+                            subtype="link"/>
                     </place>
                     <place>
                         <placeName>Campiniano; <foreign>locus</foreign> (Venafro;
@@ -12830,10 +12959,11 @@
                         <geogName type="coord"><geo>41.4848417, 14.0459812</geo></geogName>
                         <idno>places/2312</idno>
                         <note/>
-                        <link type="places" corresp="#places/2300" subtype="proximity"/>
                         <link type="estates" corresp="#estates/1901" subtype="isWithin"/>
-                        <link type="people" corresp="#people/186" subtype="link"/>
-                        <link type="people" corresp="#people/1903" subtype="link"/>
+                        <link type="people" corresp="#people/186" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/1903" subtype="isGrantedTo"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1900"
+                            subtype="dependsOn"/>
                     </place>
                     <place>
                         <placeName>Tusciano; <foreign>locus</foreign> (Salerno)</placeName>
@@ -12841,12 +12971,12 @@
                         <geogName type="coord"><geo/></geogName>
                         <idno>places/2313</idno>
                         <note/>
-                        <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
                         <link type="estates" corresp="#estates/1903" subtype="isWithin"/>
-                        <link type="people" corresp="#people/351" subtype="link"/>
-                        <link type="people" corresp="#people/1912" subtype="link"/>
-                        <link type="people" corresp="#people/1907" subtype="link"/>
+                        <link type="people" corresp="#people/351" subtype="isOwnedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1900"
+                            subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/1912" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/1907" subtype="isGrantedBy"/>
                     </place>
                     <place>
                         <placeName>Ponte Lapideo; <foreign>locus</foreign> (Benevento)</placeName>
@@ -12854,11 +12984,12 @@
                         <geogName type="coord"><geo>41.1315941, 14.7653430</geo></geogName>
                         <idno>places/2314</idno>
                         <note/>
-                        <link type="people" corresp="#people/351" subtype="link"/>
+                        <link type="people" corresp="#people/351" subtype="isGrantedBy"/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
+                        <link type="places" corresp="#places/110" subtype="proximity"/>
                         <link type="places" corresp="#places/110" subtype="isWithin"/>
-                        <link type="people" corresp="#people/1912" subtype="link"/>
+                        <link type="people" corresp="#people/1912" subtype="isGrantedTo"/>
                         <link type="places" corresp="#places/2315" subtype="bordersOn"/>
                     </place>
                     <place>
@@ -12872,8 +13003,6 @@
                         <idno>places/2315</idno>
                         <note/>
                         <link type="places" corresp="#places/110" subtype="proximity"/>
-                        <link type="places" corresp="#places/111" subtype="proximity"/>
-                        <link type="places" corresp="#places/609" subtype="link"/>
                     </place>
                     <place>
                         <placeName>Isernia</placeName>
@@ -12890,17 +13019,16 @@
                         <idno>places/2317</idno>
                         <note/>
                         <link type="places" corresp="#places/110" subtype="proximity"/>
-                        <link type="places" corresp="#places/177" subtype="hasWithin"/>
+                        <link type="estates" corresp="#estates/1902" subtype="isWithin"/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/1918" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/158" subtype="isGrantedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1906"
+                            subtype="isGrantedTo"/>
                         <link type="people" corresp="#people/1924" subtype="hostilityFor"/>
                         <link type="people" corresp="#people/1923" subtype="hostilityFor"/>
-                        <link type="people" corresp="#people/1922" subtype="hostilityFor"/>
                         <link type="people" corresp="#people/1921" subtype="hostilityFor"/>
-                        <link type="people" corresp="#people/1918" subtype="link"/>
-                        <link type="people" corresp="#people/158" subtype="link"/>
-                        <link type="juridical_persons" corresp="#juridical_persons/1906"
-                            subtype="link"/>
                     </place>
                     <place>
                         <placeName>Patenaria; <foreign>plana</foreign> (Caserta)</placeName>
@@ -12910,17 +13038,15 @@
                                 41.361395, 14.099819</geo></geogName>
                         <idno>places/2318</idno>
                         <note/>
-                        <link type="places" corresp="#places/177" subtype="hasWithin"/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/1918" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/158" subtype="isGrantedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1906"
+                            subtype="isGrantedTo"/>
                         <link type="people" corresp="#people/1924" subtype="hostilityFor"/>
                         <link type="people" corresp="#people/1923" subtype="hostilityFor"/>
-                        <link type="people" corresp="#people/1922" subtype="hostilityFor"/>
                         <link type="people" corresp="#people/1921" subtype="hostilityFor"/>
-                        <link type="people" corresp="#people/1918" subtype="link"/>
-                        <link type="people" corresp="#people/158" subtype="link"/>
-                        <link type="juridical_persons" corresp="#juridical_persons/1906"
-                            subtype="link"/>
                     </place>
                     <place>
                         <placeName>Caprafico; river (Caserta)</placeName>
@@ -13017,7 +13143,7 @@
                         <link type="people" corresp="#people/154" subtype="link"/>
                         <link type="people" corresp="#people/1938" subtype="link"/>
                         <link type="juridical_persons" corresp="#juridical_persons/84"
-                            subtype="isGrantedTo"/>
+                            subtype="dependsOn"/>
                         <link type="people" corresp="#people/332" subtype="link"/>
                         <link type="people" corresp="#people/261" subtype="isConfirmedBy"/>
                         <link type="people" corresp="#people/1992" subtype="isConfirmedTo"/>
@@ -13025,8 +13151,15 @@
                         <link type="people" corresp="#people/1955" subtype="isConfirmedTo"/>
                         <link type="people" corresp="#people/173" subtype="isConfirmedBy"/>
                         <link type="people" corresp="#people/167" subtype="isConfirmedBy"/>
-                        <link type="juridical_persons" corresp="#juridical_persons/84" subtype="isConfirmedTo"/>
                         <link type="people" corresp="#people/309" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/157" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/315" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/398" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/397" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/401" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/302" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/304" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/156" subtype="isConfirmedBy"/>
                     </place>
                     <place>
                         <placeName>Santa Croce; mountain (Venafro; Isernia)</placeName>
@@ -13035,12 +13168,13 @@
                         <idno>places/2326</idno>
                         <note>Marazzi 2012: 21</note>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="isGrantedTo"/>
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/186" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/303" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/1903" subtype="isConfirmedTo"/>
                         <link type="estates" corresp="#estates/1916" subtype="isWithin"/>
                         <link type="places" corresp="#places/2309" subtype="proximity"/>
                         <link type="places" corresp="#places/2300" subtype="proximity"/>
-                        <link type="people" corresp="#people/186" subtype="link"/>
-                        <link type="people" corresp="#people/1903" subtype="link"/>
                         <link type="people" corresp="#people/305" subtype="link"/>
                         <link type="people" corresp="#people/154" subtype="link"/>
                         <link type="people" corresp="#people/1938" subtype="link"/>
@@ -13098,7 +13232,7 @@
                         <idno>places/2330</idno>
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
                         <link type="estates" corresp="#estates/1916" subtype="isWithin"/>
                     </place>
                     <place>
@@ -13942,6 +14076,11 @@
                         <geogName type="coord"><geo>41.319849, 16.287231</geo></geogName>
                         <idno>places/2824</idno>
                         <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1900"
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/2002" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/374" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/2002" subtype="isGrantedTo"/>
                     </place>
                     <place>
                         <placeName>Garigliano; river (Frosinone; Caserta)</placeName>
@@ -13963,6 +14102,10 @@
                         <geogName type="coord"><geo>40.661889, 14.901924</geo></geogName>
                         <idno>places/2826</idno>
                         <note/>
+                        <link type="people" corresp="#people/406" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/2404" subtype="isGrantedTo"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/84"
+                            subtype="dependsOn"/>
                     </place>
                     <place>
                         <placeName>Caldole; canal (Lesina; Foggia)</placeName>
