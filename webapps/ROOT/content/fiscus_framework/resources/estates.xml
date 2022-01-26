@@ -103,9 +103,9 @@
                     <note></note>
                     <link type="places" corresp="#places/3" subtype="correspondsTo"/>
                         <link type="juridical_persons" corresp="#juridical_persons/81"
-                            subtype="isHeldBy"/>
+                            subtype="isGrantedTo"/>
                         <link type="juridical_persons" corresp="#juridical_persons/111"
-                            subtype="isHeldBy"/>
+                            subtype="isGrantedTo"/>
                         <link type="people" corresp="#people/32" subtype="isGrantedBy"/>
                         <link type="people" corresp="#people/3" subtype="isGrantedBy"/>
                         <link type="people" corresp="#people/7" subtype="isConfirmedBy"/>
@@ -522,10 +522,9 @@
                     <note/>
                     <link type="people" corresp="#people/32" subtype="isGrantedBy"/>
                     <link type="juridical_persons" corresp="#juridical_persons/81"
-                            subtype="isOwnedBy"/>
+                            subtype="isGrantedTo"/>
                     <link type="places" corresp="#places/101" subtype="correspondsTo"/>
-                    <link type="people" corresp="#people/288" subtype="isHeldBy"/>
-                        <link type="people" corresp="#people/7" subtype="isOwnedBy" cert="low"/>
+                        <link type="people" corresp="#people/7" subtype="isGrantedBy" cert="low"/>
                         <link type="people" corresp="#people/171" subtype="isHeldBy" cert="low"/>
                         <link type="people" corresp="#people/261" subtype="isConfirmedBy"/>
                         <link type="juridical_persons" corresp="#juridical_persons/81"
@@ -922,7 +921,7 @@
                     <idno>estates/130</idno>
                     <note>Panero la identifica con la curtis Duvali donata da Enrico III ai canonici
                         della cattedrale</note>
-                    <link type="people" corresp="#people/173" subtype="isGrantedTo"/>
+                    <link type="people" corresp="#people/173" subtype="isGrantedBy"/>
                     <link type="people" corresp="#people/174" subtype="isOwnedBy"/>
                     <link type="places" corresp="#places/233" subtype="proximity"/>
                 </place>
@@ -1745,9 +1744,8 @@
                     <idno>estates/206</idno>
                     <note/>
                     <link type="people" corresp="#people/7" subtype="isGrantedBy"/>
-                    <link type="people" corresp="#people/171" subtype="link"/>
                     <link type="juridical_persons" corresp="#juridical_persons/81"
-                            subtype="isOwnedBy"/>
+                            subtype="isGrantedTo"/>
                     <link type="places" corresp="#places/457" subtype="correspondsTo"/>
                     <link type="people" corresp="#people/130" subtype="isConfirmedBy"/>
                         <link type="people" corresp="#people/261" subtype="isConfirmedBy"/>
@@ -8296,6 +8294,9 @@
                         <link type="people" corresp="#people/1903" subtype="isGrantedTo"/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
                             subtype="dependsOn"/>
+                        <link type="people" corresp="#people/305" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/154" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1938" subtype="isConfirmedTo"/>
                     </place>
                     <place>
                         <geogName>Benevento; <foreign>fines</foreign></geogName>
@@ -8384,14 +8385,13 @@
                         <idno>estates/1909</idno>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
                             subtype="dependsOn"/>
+                        <link type="people" corresp="#people/1918" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/158" subtype="isGrantedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1906"
+                            subtype="isGrantedTo"/>
                         <link type="people" corresp="#people/1924" subtype="hostilityFor"/>
                         <link type="people" corresp="#people/1923" subtype="hostilityFor"/>
-                        <link type="people" corresp="#people/1922" subtype="hostilityFor"/>
                         <link type="people" corresp="#people/1921" subtype="hostilityFor"/>
-                        <link type="people" corresp="#people/1918" subtype="link"/>
-                        <link type="people" corresp="#people/158" subtype="link"/>
-                        <link type="juridical_persons" corresp="#juridical_persons/1906"
-                            subtype="link"/>
                         <note/>
                     </place>
                     <place>
@@ -8399,15 +8399,14 @@
                         <geogName type="other"/>
                         <idno>estates/1910</idno>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/1918" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/158" subtype="isGrantedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1906"
+                            subtype="isGrantedTo"/>
                         <link type="people" corresp="#people/1924" subtype="hostilityFor"/>
                         <link type="people" corresp="#people/1923" subtype="hostilityFor"/>
-                        <link type="people" corresp="#people/1922" subtype="hostilityFor"/>
                         <link type="people" corresp="#people/1921" subtype="hostilityFor"/>
-                        <link type="people" corresp="#people/1918" subtype="link"/>
-                        <link type="people" corresp="#people/158" subtype="link"/>
-                        <link type="juridical_persons" corresp="#juridical_persons/1906"
-                            subtype="link"/>
                         <note>Crispano?</note>
                     </place>
                     <place>

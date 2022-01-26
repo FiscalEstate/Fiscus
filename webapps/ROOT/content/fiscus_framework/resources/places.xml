@@ -430,7 +430,6 @@
                             8.057964323088527</geo></geogName>
                         <idno>places/50</idno>
                         <note/>
-                        <link type="people" corresp="#people/171" subtype="link" cert="low"/>
                     </place>
                     <place>
                         <placeName>Sostegno (Biella)</placeName>
@@ -1477,6 +1476,11 @@
                         <note/>
                         <link type="places" corresp="#places/609" subtype="proximity"/>
                         <link type="estates" corresp="#estates/1906" subtype="isWithin"/>
+                        <link type="people" corresp="#people/305" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/154" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/1938" subtype="isGrantedTo"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1900"
+                            subtype="dependsOn"/>
                     </place>
                     <place>
                         <placeName>Teano (Caserta)</placeName>
@@ -1509,6 +1513,7 @@
                         <idno>places/177</idno>
                         <note/>
                         <link type="estates" corresp="#estates/122" subtype="isWithin"/>
+                        <link type="places" corresp="#places/2319" subtype="proximity"/>
                         <link type="people" corresp="#people/114"
                             subtype="isClaimedBy"/>
                         <link type="juridical_persons" corresp="#juridical_persons/97"
@@ -3179,7 +3184,8 @@
                         <placeName type="other"><foreign>Massa Tzhonzhi</foreign></placeName>
                         <geogName type="coord"><geo>43.8109616, 10.4863419</geo></geogName>
                         <idno>places/338</idno>
-                        <note/>
+                        <note>Microtoponomastica: <foreign>Siricano</foreign>;
+                                <foreign>Strada</foreign>.</note>
                         <link type="juridical_persons" corresp="#juridical_persons/246"
                             subtype="dependsOn"/>
                     </place>
@@ -12870,7 +12876,8 @@
                         <geogName type="coord"><geo>41.4848417, 14.0459812</geo></geogName>
                         <idno>places/2300</idno>
                         <note/>
-                        <link type="estates" corresp="#estates/1901" subtype="hasWithin"/>
+                        <link type="estates" corresp="#estates/1901" subtype="isWithin"/>
+                        <link type="places" corresp="#places/2326" subtype="proximity"/>
                     </place>
                     <place>
                         <placeName>Luogosano (Avellino)</placeName>
@@ -13032,17 +13039,15 @@
                         <note/>
                         <link type="places" corresp="#places/110" subtype="proximity"/>
                         <link type="estates" corresp="#estates/1902" subtype="isWithin"/>
-                        <link type="places" corresp="#places/177" subtype="hasWithin"/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/1918" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/158" subtype="isGrantedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1906"
+                            subtype="isGrantedTo"/>
                         <link type="people" corresp="#people/1924" subtype="hostilityFor"/>
                         <link type="people" corresp="#people/1923" subtype="hostilityFor"/>
-                        <link type="people" corresp="#people/1922" subtype="hostilityFor"/>
                         <link type="people" corresp="#people/1921" subtype="hostilityFor"/>
-                        <link type="people" corresp="#people/1918" subtype="link"/>
-                        <link type="people" corresp="#people/158" subtype="link"/>
-                        <link type="juridical_persons" corresp="#juridical_persons/1906"
-                            subtype="link"/>
                     </place>
                     <place>
                         <placeName>Patenaria; <foreign>plana</foreign> (Caserta)</placeName>
@@ -13052,17 +13057,15 @@
                                 41.361395, 14.099819</geo></geogName>
                         <idno>places/2318</idno>
                         <note/>
-                        <link type="places" corresp="#places/177" subtype="hasWithin"/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/1918" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/158" subtype="isGrantedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1906"
+                            subtype="isGrantedTo"/>
                         <link type="people" corresp="#people/1924" subtype="hostilityFor"/>
                         <link type="people" corresp="#people/1923" subtype="hostilityFor"/>
-                        <link type="people" corresp="#people/1922" subtype="hostilityFor"/>
                         <link type="people" corresp="#people/1921" subtype="hostilityFor"/>
-                        <link type="people" corresp="#people/1918" subtype="link"/>
-                        <link type="people" corresp="#people/158" subtype="link"/>
-                        <link type="juridical_persons" corresp="#juridical_persons/1906"
-                            subtype="link"/>
                     </place>
                     <place>
                         <placeName>Caprafico; river (Caserta)</placeName>
@@ -13072,8 +13075,6 @@
                                 14.117109; 41.361395, 14.099819</geo></geogName>
                         <idno>places/2319</idno>
                         <note/>
-                        <link type="places" corresp="#places/2319" subtype="isWithin"/>
-                        <link type="places" corresp="#places/177" subtype="proximity"/>
                     </place>
                     <place>
                         <placeName>Venticano (Avellino)</placeName>
@@ -13081,7 +13082,6 @@
                         <geogName type="coord"><geo>41.0497626, 14.9120974</geo></geogName>
                         <idno>places/2320</idno>
                         <note/>
-                        <link type="estates" corresp="#estates/2310" subtype="hasWithin"/>
                     </place>
                     <place>
                         <placeName>Castropignano (Campobasso)</placeName>
@@ -13095,12 +13095,10 @@
                         <placeName type="other"/>
                         <geogName type="coord"><geo>41.6500030, 14.0876233</geo></geogName>
                         <idno>places/2322</idno>
-                        <link type="people" corresp="#people/1927" subtype="link"/>
-                        <link type="people" corresp="#people/1936" subtype="link"/>
-                        <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
+                        <link type="people" corresp="#people/1927" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/1936" subtype="isGrantedTo"/>
                         <link type="juridical_persons" corresp="#juridical_persons/1901"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
                     </place>
                     <place>
                         <placeName>Sangro; river (L'Aquila; Isernia; Chieti)</placeName>
@@ -13131,6 +13129,7 @@
                         <idno>places/2323</idno>
                         <link type="places" corresp="#places/2300" subtype="proximity"/>
                         <link type="estates" corresp="#estates/1916" subtype="proximity"/>
+                        <link type="estates" corresp="#estates/1901" subtype="isWithin"/>
                     </place>
                     <place>
                         <placeName>Azze; mountain (L'Aquila)</placeName>
@@ -13139,12 +13138,12 @@
                         <idno>places/2324</idno>
                         <note>Si tratta di una delle vette dei Monti delle Mainarde. Marazzi 2012:
                             20-21.</note>
+                        <link type="estates" corresp="#estates/1916" subtype="isWithin"/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
                             subtype="dependsOn"/>
-                        <link type="estates" corresp="#estates/1916" subtype="isWithin"/>
-                        <link type="people" corresp="#people/305" subtype="link"/>
-                        <link type="people" corresp="#people/154" subtype="link"/>
-                        <link type="people" corresp="#people/1938" subtype="link"/>
+                        <link type="people" corresp="#people/305" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/154" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1938" subtype="isConfirmedTo"/>
                     </place>
                     <place>
                         <placeName>Monna Casale; mountain (Frosinone)</placeName>
@@ -13153,13 +13152,8 @@
                         <idno>places/2325</idno>
                         <note>Marazzi 2012: 21</note>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="isGrantedTo"/>
-                        <link type="estates" corresp="#estates/1916" subtype="isWithin"/>
-                        <link type="people" corresp="#people/305" subtype="link"/>
-                        <link type="people" corresp="#people/154" subtype="link"/>
-                        <link type="people" corresp="#people/1938" subtype="link"/>
-                        <link type="juridical_persons" corresp="#juridical_persons/84"
                             subtype="dependsOn"/>
+                        <link type="estates" corresp="#estates/1916" subtype="isWithin"/>
                         <link type="people" corresp="#people/332" subtype="link"/>
                         <link type="people" corresp="#people/261" subtype="isConfirmedBy"/>
                         <link type="people" corresp="#people/1992" subtype="isConfirmedTo"/>
@@ -13176,6 +13170,11 @@
                         <link type="people" corresp="#people/302" subtype="isConfirmedTo"/>
                         <link type="people" corresp="#people/304" subtype="isConfirmedBy"/>
                         <link type="people" corresp="#people/156" subtype="isConfirmedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1900"
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/305" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/154" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1938" subtype="isConfirmedTo"/>
                     </place>
                     <place>
                         <placeName>Santa Croce; mountain (Venafro; Isernia)</placeName>
@@ -13191,9 +13190,9 @@
                         <link type="estates" corresp="#estates/1916" subtype="isWithin"/>
                         <link type="places" corresp="#places/2309" subtype="proximity"/>
                         <link type="places" corresp="#places/2300" subtype="proximity"/>
-                        <link type="people" corresp="#people/305" subtype="link"/>
-                        <link type="people" corresp="#people/154" subtype="link"/>
-                        <link type="people" corresp="#people/1938" subtype="link"/>
+                        <link type="people" corresp="#people/305" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/154" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1938" subtype="isConfirmedTo"/>
                         <link type="people" corresp="#people/261" subtype="isConfirmedBy"/>
                         <link type="people" corresp="#people/1992" subtype="isConfirmedTo"/>
                         <link type="people" corresp="#people/130" subtype="isConfirmedBy"/>
@@ -14009,6 +14008,11 @@
                                 41.668597, 13.977237; 41.631014, 14.031167</geo></geogName>
                         <idno>places/2814</idno>
                         <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1900"
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/305" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/154" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1938" subtype="isConfirmedTo"/>
                     </place>
                     <place>
                         <placeName><foreign>Quinque milia</foreign> (L'Aquila)</placeName>
