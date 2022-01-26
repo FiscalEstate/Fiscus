@@ -202,17 +202,20 @@
                         <link type="people" corresp="#people/124" subtype="isConfirmedBy"/>
                         <link type="juridical_persons" corresp="#juridical_persons/81"
                             subtype="isOwnedBy"/>
-                        <link type="people" corresp="#people/171" subtype="isHeldBy" cert="low"/>
+                        <link type="people" corresp="#people/171" subtype="isOwnedBy" cert="low"/>
                         <link type="people" corresp="#people/7" subtype="isConfirmedBy"/>
                 </place>
                 
                 <place>
                     <geogName>Sostegno; <foreign>curtis</foreign></geogName>
                     <idno>estates/63</idno>
-                    <note></note>
-                    <link type="places" corresp="#places/51"
-                        subtype="link"/>
-                    <link type="people" corresp="#people/130" subtype="link"/>
+                    <note>Sostegno è menzionata come curtis solo nel diploma di Carlo il Grosso. Le
+                            successive conferme riguardano solo il luogo senza che vi sia
+                            riferimento alla curtis.</note>
+                    <link type="places" corresp="#places/51" subtype="correspondsTo"/>
+                    <link type="people" corresp="#people/32" subtype="isGrantedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/81"
+                            subtype="isGrantedTo"/>
                 </place>
                 
                 <place>
@@ -529,6 +532,7 @@
                         <link type="people" corresp="#people/261" subtype="isConfirmedBy"/>
                         <link type="juridical_persons" corresp="#juridical_persons/81"
                             subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/129" subtype="isConfirmedBy"/>
                 </place>
                 <place>
                     <geogName>Occimiano; <foreign>curtis</foreign></geogName>
@@ -8446,7 +8450,10 @@
                         <idno>estates/1913</idno>
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
+                            subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/157" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/156" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/1955" subtype="isGrantedTo"/>
                     </place>
                     <place>
                         <geogName><foreign>Fuscari</foreign>; fundus </geogName>
@@ -8460,6 +8467,7 @@
                         <idno>estates/1915</idno>
                         <note/>
                         <link type="places" corresp="#places/2339" subtype="proximity"/>
+                        <link type="places" corresp="#places/701" subtype="isWithin"/>
                     </place>
                     <place>
                         <geogName>Yserniense; comitatus</geogName>
