@@ -931,11 +931,8 @@
                     <geogName type="other"/>
                     <idno>estates/131</idno>
                     <note/>
-                    <link type="people" corresp="#people/173 #people/237 #people/366 #people/288"
-                            subtype="link"/>
-                    <link type="places" corresp="#places/106" subtype="link"/>
-                        <link type="people" corresp="#people/171" subtype="link" cert="low"/>
-                        <link type="people" corresp="#people/7" subtype="link" cert="low"/>
+                    <link type="places" corresp="#places/106" subtype="correspondsTo"/>
+                        <link type="people" corresp="#people/7" subtype="isConfirmedBy"/>
                         <link type="estates" corresp="#estates/62" subtype="link"/>
                         <link type="estates" corresp="#estates/1200" subtype="link"/>
                         <link type="people" corresp="#people/1300" subtype="link"/>
@@ -947,6 +944,12 @@
                         <link type="estates" corresp="#estates/1208" subtype="link"/>
                         <link type="places" corresp="#places/1606" subtype="link"/>
                         <link type="estates" corresp="#estates/1211" subtype="link"/>
+                        <link type="people" corresp="#people/1534" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/261" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/237" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/129" subtype="isConfirmedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/81"
+                            subtype="isGrantedTo"/>
                 </place>
                 <place>
                     <geogName>Santhià; comitatus</geogName>
@@ -1059,11 +1062,11 @@
                     <idno>estates/142</idno>
                     <note/>
                     <link type="people" corresp="#people/170" subtype="link"/>
-                    <link type="juridical_persons" corresp="#juridical_persons/84" subtype="link"/>
-                    <link type="people" corresp="#people/157" subtype="link"/>
-                    <link type="people" corresp="#people/315" subtype="link"/>
-                    <link type="people" corresp="#people/309" subtype="link"/>
-                    <link type="people" corresp="#people/396" subtype="link"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/84" subtype="isGrantedTo"/>
+                    <link type="people" corresp="#people/157" subtype="isConfirmedBy"/>
+                    <link type="people" corresp="#people/315" subtype="isConfirmedBy"/>
+                    <link type="people" corresp="#people/309" subtype="isConfirmedTo"/>
+                    <link type="people" corresp="#people/396" subtype="isGrantedBy"/>
                         <link type="places" corresp="#places/2795" subtype="hasWithin"/>
                 </place>
                 <place>
@@ -1162,17 +1165,17 @@
                     <idno>estates/150</idno>
                     <note>Capasso 1885: 421, n. 668.</note>
                     <link type="people" corresp="#people/167" subtype="isConfirmedBy"/>
-                    <link type="juridical_persons" corresp="#juridical_persons/84" subtype="isConfirmedTo"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/84" subtype="dependsOn"/>
                     <link type="people" corresp="#people/309" subtype="isConfirmedTo"/>
                     <link type="people" corresp="#people/189" subtype="link"/>
-                    <link type="people" corresp="#people/401" subtype="link"/>
-                    <link type="people" corresp="#people/398" subtype="link"/>
-                    <link type="people" corresp="#people/397" subtype="link"/>
                     <link type="places" corresp="#places/605" subtype="isWithin"/>
-                    <link type="people" corresp="#people/157" subtype="link"/>
-                    <link type="people" corresp="#people/315" subtype="link"/>
-                    <link type="people" corresp="#people/309" subtype="link"/>
+                    <link type="people" corresp="#people/157" subtype="isConfirmedBy"/>
+                    <link type="people" corresp="#people/315" subtype="isConfirmedBy"/>
+                    <link type="people" corresp="#people/309" subtype="isConfirmedTo"/>
                     <link type="people" corresp="#people/167" subtype="link"/>
+                    <link type="people" corresp="#people/398" subtype="isConfirmedBy"/>
+                    <link type="people" corresp="#people/397" subtype="isConfirmedBy"/>
+                    <link type="people" corresp="#people/401" subtype="isConfirmedTo"/>
                 </place>
                 <place>
                     <geogName>Lodi; <foreign>comitatus</foreign></geogName>
@@ -2823,13 +2826,13 @@
                     <note/>
                     <link type="people" corresp="#people/167" subtype="isConfirmedBy"/>
                     <link type="juridical_persons" corresp="#juridical_persons/84" subtype="isConfirmedTo"/>
-                    <link type="people" corresp="#people/309" subtype="link"/>
                     <link type="people" corresp="#people/156" subtype="link"/>
-                    <link type="people" corresp="#people/401" subtype="link"/>
-                    <link type="people" corresp="#people/398" subtype="link"/>
-                    <link type="people" corresp="#people/397" subtype="link"/>
-                    <link type="people" corresp="#people/157" subtype="link"/>
-                    <link type="people" corresp="#people/315" subtype="link"/>
+                    <link type="people" corresp="#people/398" subtype="isConfirmedBy"/>
+                    <link type="people" corresp="#people/397" subtype="isConfirmedBy"/>
+                    <link type="people" corresp="#people/401" subtype="isConfirmedTo"/>
+                    <link type="people" corresp="#people/157" subtype="isConfirmedBy"/>
+                    <link type="people" corresp="#people/315" subtype="isConfirmedBy"/>
+                    <link type="people" corresp="#people/309" subtype="isConfirmedTo"/>
                 </place>
                 <place>
                     <geogName><foreign>Tuna</foreign>; <foreign>curtis</foreign></geogName>
@@ -2941,7 +2944,10 @@
                     <geogName type="other"></geogName>
                     <idno>estates/325</idno>
                     <note></note>
-                    <link type="places" corresp="#places/728" subtype="isWithin"/>
+                    <link type="people" corresp="#people/406" subtype="isGrantedBy"/>
+                    <link type="people" corresp="#people/2404" subtype="isGrantedTo"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/84"
+                        subtype="dependsOn"/>
                 </place>
                 <place>
                     <geogName>Corana; <foreign>curtis</foreign></geogName>
@@ -3123,6 +3129,12 @@
                         <geogName type="other"/>
                         <idno>estates/403</idno>
                         <note/>
+                        <link type="estates" corresp="#estates/327" subtype="isWithin"/>
+                        <link type="places" corresp="#places/838" subtype="correspondsTo"/>
+                        <link type="people" corresp="#people/261" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/77" subtype="isConfirmedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/406"
+                            subtype="isGrantedTo"/>
                     </place>
                     <place>
                         <geogName>Cerro; <foreign>curtis</foreign> (Novara)</geogName>
