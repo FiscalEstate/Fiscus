@@ -417,11 +417,11 @@
                             7.820867355912925</geo></geogName>
                         <idno>places/49</idno>
                         <note/>
-                        <link type="estates" corresp="#estates/60" subtype="link"/>
-                        <link type="people" corresp="#people/7 #people/237 #people/366 #people/288"
-                            subtype="link"/>
                         <link type="juridical_persons" corresp="#juridical_persons/81"
-                            subtype="link"/>
+                            subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/32" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/261" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/237" subtype="isConfirmedBy"/>
                     </place>
                     <place>
                         <placeName>Biella</placeName>
@@ -438,6 +438,12 @@
                             8.270537853240969</geo></geogName>
                         <idno>places/51</idno>
                         <note/>
+                        <link type="people" corresp="#people/7" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/130" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/261" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/237" subtype="isConfirmedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/81"
+                            subtype="isGrantedTo"/>
                     </place>
                     <place>
                         <placeName>Roma</placeName>
@@ -455,11 +461,13 @@
                     </place>
                     <place>
                         <placeName>Domodossola (Verbano-Cusio-Ossola)</placeName>
-                        <placeName type="other"><foreign>Oxila</foreign></placeName>
+                        <placeName type="other"><foreign>Oxila</foreign>
+                            <foreign>Ossula</foreign></placeName>
                         <geogName type="coord"><geo>46.116498450522876,
                             8.293138760964213</geo></geogName>
                         <idno>places/54</idno>
-                        <note/>
+                        <note>Nel 1014 Enrico II concede la possibilità di tenere mercato in
+                            Domodossola alla chiesa di Novara</note>
                     </place>
                     <place>
                         <placeName><foreign>Beura</foreign> (Beura-cardezza;
@@ -869,11 +877,10 @@
                         <geogName type="coord"><geo>45.536415, 8.318367</geo></geogName>
                         <idno>places/96</idno>
                         <link type="juridical_persons" corresp="#juridical_persons/81"
-                            subtype="link"/>
-                        <link type="people" corresp="#people/32" subtype="link"/>
-                        <link type="people" corresp="#people/33" subtype="link"/>
-                        <link type="people" corresp="#people/7" cert="low" subtype="link"/>
-                        <link type="people" corresp="#people/171" subtype="link" cert="low"/>
+                            subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/32" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/7" cert="low" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/171" subtype="isOwnedBy" cert="low"/>
                     </place>
                     <place>
                         <placeName>Castelnuovo Bocca d'Adda (Lodi)</placeName>
@@ -904,9 +911,10 @@
                         <idno>places/100</idno>
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/81"
-                            subtype="link"/>
-                        <link type="people" corresp="#people/7 #people/237 #people/366 #people/288"
-                            subtype="link"/>
+                            subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/32" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/261" subtype="isConfirmedBy"/>
+                        <link type="estates" corresp="#estates/41" subtype="proximity"/>
                     </place>
                     <place>
                         <placeName>Asigliano Vercellese (Vercelli)</placeName>
@@ -914,10 +922,6 @@
                         <geogName type="coord"><geo>45.258697, 8.408833</geo></geogName>
                         <idno>places/101</idno>
                         <note/>
-                        <link type="juridical_persons" corresp="#juridical_persons/81"
-                            subtype="link"/>
-                        <link type="people" corresp="#people/124" subtype="link"/>
-                        <link type="people" corresp="#people/129" subtype="link"/>
                     </place>
                     <place>
                         <placeName>Cortereggio (Torino)</placeName>
@@ -925,10 +929,6 @@
                         <geogName type="coord"><geo>45.298075, 7.785873</geo></geogName>
                         <idno>places/102</idno>
                         <note>Frazione di San Giorgio Canavese</note>
-                        <link type="places" corresp="#places/566" subtype="proximity"/>
-                        <link type="estates" corresp="#estates/258" subtype="link"/>
-                        <link type="juridical_persons" corresp="#juridical_persons/81"
-                            subtype="link"/>
                     </place>
                     <place>
                         <placeName>Valchiusella (Traversella; Torino)</placeName>
@@ -937,12 +937,14 @@
                         <idno>places/103</idno>
                         <note>Le coordinate di localizzazione si basano su Traversella, comune
                             all'imbocco della Val Chiusella.</note>
-                        <link type="people"
-                            corresp="#people/32 #people/33 #people/7 #people/237 #people/366 #people/288"
-                            subtype="link"/>
+                        <link type="people" corresp="#people/32" subtype="isGrantedBy"/>
                         <link type="juridical_persons" corresp="#juridical_persons/81"
                             subtype="link"/>
-                        <link type="estates" corresp="#estates/60" subtype="link"/>
+                        <link type="estates" corresp="#estates/60" subtype="isWithin"/>
+                        <link type="people" corresp="#people/7" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/237" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/130" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/261" subtype="isConfirmedBy"/>
                     </place>
                     <place>
                         <placeName>Ponte Notingo</placeName>
@@ -951,9 +953,9 @@
                         <idno>places/104</idno>
                         <note>Il ponte Notingo è situato presso Matasco (si veda Panero 2014) non
                             localizzabile nelle carte.</note>
-                        <link type="people" corresp="#people/32 #people/33" subtype="link"/>
-                        <link type="juridical_persons" corresp="#juridical_persons/81" subtype="link"/>
-                        <link type="people" corresp="#people/109" subtype="link"/>
+                        <link type="people" corresp="#people/32" subtype="isGrantedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/81"
+                            subtype="isGrantedTo"/>
                     </place>
                     <place>
                         <placeName>Occimiano (Alessandria)</placeName>
@@ -5315,6 +5317,7 @@
                         <geogName type="coord"><geo>41.241890, 13.933760</geo></geogName>
                         <idno>places/571</idno>
                         <note/>
+                        <link type="estates" corresp="#estates/1913" subtype="isWithin"/>
                     </place>
                     <place>
                         <placeName><foreign>Rovescello</foreign> (Pellegrina; Verona)</placeName>
@@ -6911,13 +6914,16 @@
                         <link type="people" corresp="#people/315" subtype="isConfirmedBy"/>
                         <link type="people" corresp="#people/309" subtype="isConfirmedTo"/>
                         <link type="people" corresp="#people/167" subtype="isConfirmedBy"/>
-                        <link type="juridical_persons" corresp="#juridical_persons/84" subtype="isConfirmedTo"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/84" subtype="dependsOn"/>
                         <link type="people" corresp="#people/2001" subtype="isConfirmedTo"/>
                         <link type="people" corresp="#people/118" subtype="isConfirmedBy"/>
                         <link type="people" corresp="#people/186" subtype="isGrantedBy"/>
                         <link type="people" corresp="#people/1903" subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/157" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/156" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/1955" subtype="isGrantedTo"/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="isGrantedTo"/>
+                            subtype="dependsOn"/>
                         <note/>
                     </place>
                     <place>
@@ -8012,7 +8018,7 @@
                         <geogName type="coord"><geo>45.647048, 8.50934</geo></geogName>
                         <idno>places/841</idno>
                         <note>Corrado II dona alcuni beni in Cressa oggetto di confisca ai danni di
-                            seguaci di re Arduino. </note>
+                            seguaci di re Arduino. Enrico IV conferma. </note>
                         <link type="people" corresp="#people/261" subtype="isGrantedBy"/>
                         <link type="people" corresp="#people/77" subtype="isGrantedBy"/>
                         <link type="juridical_persons" corresp="#juridical_persons/81"
@@ -8023,46 +8029,73 @@
                         <placeName type="other"/>
                         <geogName type="coord"><geo>45.388143, 8.661904</geo></geogName>
                         <idno>places/842</idno>
-                        <note/>
+                        <note>Corrado II e Enrico IV donano alla chiesa di Novara due mansi in
+                            Garbagna</note>
                         <link type="people" corresp="#people/72" subtype="link"/>
                         <link type="people" corresp="#people/1307" subtype="link"/>
                         <link type="juridical_persons" corresp="#juridical_persons/115"
                             subtype="link"/>
+                        <link type="people" corresp="#people/261" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/77" subtype="isConfirmedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/406"
+                            subtype="isGrantedTo"/>
                     </place>
                     <place>
                         <placeName>Suno (Novara)</placeName>
                         <placeName type="other"/>
                         <geogName type="coord"><geo>45.633006, 8.542643</geo></geogName>
                         <idno>places/843</idno>
-                        <note/>
+                        <note>Corrado II dona alcuni beni in Suno oggetto di confisca ai danni di
+                            seguaci di re Arduino. Enrico IV conferma. </note>
+                        <link type="people" corresp="#people/261" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/77" subtype="isConfirmedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/406"
+                            subtype="isGrantedTo"/>
                     </place>
                     <place>
                         <placeName>Alpe d'Otro (Novara)</placeName>
                         <placeName type="other"/>
                         <geogName type="coord"><geo>45.841058, 7.907281</geo></geogName>
                         <idno>places/844</idno>
-                        <note/>
+                        <note>Oggetto di confisca da parte di Corrado II e donata alla chiesa di
+                            Novara. Confermata poi da Enrico IV. </note>
+                        <link type="people" corresp="#people/261" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/77" subtype="isConfirmedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/406"
+                            subtype="isGrantedTo"/>
                     </place>
                     <place>
                         <placeName>Cerro Maggiore (Novara)</placeName>
                         <placeName type="other"/>
                         <geogName type="coord"><geo>45.591339, 8.951025</geo></geogName>
                         <idno>places/845</idno>
-                        <note/>
+                        <note>Enrico II dona alla chiesa il teloneo su Cerro. </note>
+                        <link type="people" corresp="#people/130" subtype="isGrantedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/406"
+                            subtype="isGrantedTo"/>
                     </place>
                     <place>
-                        <placeName>Varallo Sesia (Vercelli)</placeName>
+                        <placeName>Varallo Pombia (Novara)</placeName>
                         <placeName type="other"/>
-                        <geogName type="coord"><geo>45.811093, 8.266869</geo></geogName>
+                        <geogName type="coord"><geo>45.665166, 8.633022</geo></geogName>
                         <idno>places/846</idno>
                         <note/>
+                        <link type="people" corresp="#people/261" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/77" subtype="isConfirmedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/406"
+                            subtype="isConfirmedBy"/>
                     </place>
                     <place>
                         <placeName>Sizzano (Novara)</placeName>
                         <placeName type="other">Seticiano</placeName>
                         <geogName type="coord"><geo>45.577162, 8.438444</geo></geogName>
                         <idno>places/847</idno>
-                        <note/>
+                        <note>orrado II dona alcuni beni in Sizzano oggetto di confisca ai danni di
+                            seguaci di re Arduino. Enrico IV conferma. </note>
+                        <link type="people" corresp="#people/261" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/77" subtype="isConfirmedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/406"
+                            subtype="isGrantedTo"/>
                     </place>
                     <place>
                         <placeName>Mattarella (Domodossola)</placeName>
@@ -8071,6 +8104,9 @@
                         <idno>places/848</idno>
                         <note>Il colle di Mattarella e il suo castello sono a sud di
                             Domodossola</note>
+                        <link type="people" corresp="#people/124" subtype="isGrantedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/506"
+                            subtype="isGrantedTo"/>
                     </place>
                     <place>
                         <placeName>Romagnasco (Vercelli)</placeName>
@@ -13024,7 +13060,7 @@
                         <link type="places" corresp="#places/2315" subtype="bordersOn"/>
                     </place>
                     <place>
-                        <placeName>Calore; river (Benevento)</placeName>
+                        <placeName>Calore; <foreign>flumen</foreign> (Benevento)</placeName>
                         <placeName type="other"/>
                         <geogName type="coord"><geo style="line">40.7799639, 15.0070339; 40.9294634,
                                 15.0374419; 41.0104433, 14.9591353; 41.0530092, 14.9566220;
@@ -13311,6 +13347,11 @@
                         <geogName type="coord"><geo>41.2678583, 14.4999569</geo></geogName>
                         <idno>places/2334</idno>
                         <note/>
+                        <link type="people" corresp="#people/157" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/315" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/1955" subtype="isGrantedTo"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1900"
+                            subtype="dependsOn"/>
                     </place>
                     <place>
                         <placeName>Santa Croce; mountain (Caserta)</placeName>
@@ -13318,8 +13359,11 @@
                         <geogName type="coord"><geo/></geogName>
                         <idno>places/2335</idno>
                         <note/>
-                        <link type="places" corresp="#places/2315" subtype="proximity"/>
                         <link type="estates" corresp="#estates/1913" subtype="isWithin"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1900"
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/1954" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/1955" subtype="isGrantedTo"/>
                     </place>
                     <place>
                         <placeName>Teverola (Caserta)</placeName>

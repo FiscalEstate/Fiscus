@@ -202,17 +202,20 @@
                         <link type="people" corresp="#people/124" subtype="isConfirmedBy"/>
                         <link type="juridical_persons" corresp="#juridical_persons/81"
                             subtype="isOwnedBy"/>
-                        <link type="people" corresp="#people/171" subtype="isHeldBy" cert="low"/>
+                        <link type="people" corresp="#people/171" subtype="isOwnedBy" cert="low"/>
                         <link type="people" corresp="#people/7" subtype="isConfirmedBy"/>
                 </place>
                 
                 <place>
                     <geogName>Sostegno; <foreign>curtis</foreign></geogName>
                     <idno>estates/63</idno>
-                    <note></note>
-                    <link type="places" corresp="#places/51"
-                        subtype="link"/>
-                    <link type="people" corresp="#people/130" subtype="link"/>
+                    <note>Sostegno è menzionata come curtis solo nel diploma di Carlo il Grosso. Le
+                            successive conferme riguardano solo il luogo senza che vi sia
+                            riferimento alla curtis.</note>
+                    <link type="places" corresp="#places/51" subtype="correspondsTo"/>
+                    <link type="people" corresp="#people/32" subtype="isGrantedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/81"
+                            subtype="isGrantedTo"/>
                 </place>
                 
                 <place>
@@ -529,6 +532,7 @@
                         <link type="people" corresp="#people/261" subtype="isConfirmedBy"/>
                         <link type="juridical_persons" corresp="#juridical_persons/81"
                             subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/129" subtype="isConfirmedBy"/>
                 </place>
                 <place>
                     <geogName>Occimiano; <foreign>curtis</foreign></geogName>
@@ -949,17 +953,20 @@
                         <link type="people" corresp="#people/129" subtype="isConfirmedBy"/>
                         <link type="juridical_persons" corresp="#juridical_persons/81"
                             subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/124" subtype="isConfirmedBy"/>
                 </place>
                 <place>
                     <geogName>Santhià; comitatus</geogName>
                     <geogName type="other">Sancte Aghate</geogName>
                     <idno>estates/132</idno>
                     <note/>
-                    <link type="people" corresp="#people/171" subtype="link" cert="low"/>
-                    <link type="people" corresp="#people/237 #people/366 #people/288" subtype="link"/>
-                    <link type="juridical_persons" corresp="#juridical_persons/81" subtype="link"/>
-                    <link type="places" corresp="#places/237" subtype="link"/>
-                        <link type="people" corresp="#people/7" subtype="link" cert="low"/>
+                    <link type="people" corresp="#people/171" subtype="isOwnedBy" cert="low"/>
+                    <link type="people" corresp="#people/237 " subtype="isConfirmedBy"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/81"
+                            subtype="isGrantedTo"/>
+                    <link type="places" corresp="#places/237" subtype="correspondsTo"/>
+                        <link type="people" corresp="#people/7" subtype="isGrantedBy" cert="low"/>
+                        <link type="people" corresp="#people/124" subtype="isConfirmedBy"/>
                 </place>
                 <place>
                     <geogName>Prignano; <foreign>curtis</foreign></geogName>
@@ -3138,7 +3145,9 @@
                         <geogName>Cerro; <foreign>curtis</foreign> (Novara)</geogName>
                         <geogName type="other"/>
                         <idno>estates/404</idno>
-                        <note/>
+                        <note>A essere donata alla chiesa di Novara - a seguito di confisca - è solo
+                            la quarta parte della corte di Certo (da Corrado II e poi confermata da
+                            Enrico IV). </note>
                         <link type="places" corresp="#places/845" subtype="correspondsTo"/>
                         <link type="juridical_persons" corresp="#juridical_persons/406"
                             subtype="isGrantedTo"/>
@@ -8425,21 +8434,26 @@
                         <geogName type="other"/>
                         <idno>estates/1912</idno>
                         <note>Marazzi 2013: 186-187</note>
-                        <link type="places" corresp="#places/2333" subtype="isWithin"/>
-                        <link type="places" corresp="#places/2300" subtype="proximity"/>
                         <link type="estates" corresp="#estates/1901" subtype="isWithin"/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/1939" subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/2414" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/2405" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/1951" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/1952" subtype="isGrantedBy"/>
+                        <link type="places" corresp="#places/2333" subtype="correspondsTo"/>
                     </place>
                     <place>
-                        <geogName>Sessa; <foreign>fines</foreign>
-                        </geogName>
-                        <geogName type="other">Sessa Aurunca</geogName>
+                        <geogName>Sessa; fines</geogName>
+                        <geogName type="other">Sessa Aurunca; fines</geogName>
                         <idno>estates/1913</idno>
                         <note/>
-                        <link type="places" corresp="#places/571" subtype="hasWithin"/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
+                            subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/157" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/156" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/1955" subtype="isGrantedTo"/>
                     </place>
                     <place>
                         <geogName><foreign>Fuscari</foreign>; fundus </geogName>
