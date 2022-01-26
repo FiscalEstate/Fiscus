@@ -103,9 +103,9 @@
                     <note></note>
                     <link type="places" corresp="#places/3" subtype="correspondsTo"/>
                         <link type="juridical_persons" corresp="#juridical_persons/81"
-                            subtype="isHeldBy"/>
+                            subtype="isGrantedTo"/>
                         <link type="juridical_persons" corresp="#juridical_persons/111"
-                            subtype="isHeldBy"/>
+                            subtype="isGrantedTo"/>
                         <link type="people" corresp="#people/32" subtype="isGrantedBy"/>
                         <link type="people" corresp="#people/3" subtype="isGrantedBy"/>
                         <link type="people" corresp="#people/7" subtype="isConfirmedBy"/>
@@ -522,10 +522,9 @@
                     <note/>
                     <link type="people" corresp="#people/32" subtype="isGrantedBy"/>
                     <link type="juridical_persons" corresp="#juridical_persons/81"
-                            subtype="isOwnedBy"/>
+                            subtype="isGrantedTo"/>
                     <link type="places" corresp="#places/101" subtype="correspondsTo"/>
-                    <link type="people" corresp="#people/288" subtype="isHeldBy"/>
-                        <link type="people" corresp="#people/7" subtype="isOwnedBy" cert="low"/>
+                        <link type="people" corresp="#people/7" subtype="isGrantedBy" cert="low"/>
                         <link type="people" corresp="#people/171" subtype="isHeldBy" cert="low"/>
                         <link type="people" corresp="#people/261" subtype="isConfirmedBy"/>
                         <link type="juridical_persons" corresp="#juridical_persons/81"
@@ -922,7 +921,7 @@
                     <idno>estates/130</idno>
                     <note>Panero la identifica con la curtis Duvali donata da Enrico III ai canonici
                         della cattedrale</note>
-                    <link type="people" corresp="#people/173" subtype="isGrantedTo"/>
+                    <link type="people" corresp="#people/173" subtype="isGrantedBy"/>
                     <link type="people" corresp="#people/174" subtype="isOwnedBy"/>
                     <link type="places" corresp="#places/233" subtype="proximity"/>
                 </place>
@@ -950,17 +949,20 @@
                         <link type="people" corresp="#people/129" subtype="isConfirmedBy"/>
                         <link type="juridical_persons" corresp="#juridical_persons/81"
                             subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/124" subtype="isConfirmedBy"/>
                 </place>
                 <place>
                     <geogName>Santhià; comitatus</geogName>
                     <geogName type="other">Sancte Aghate</geogName>
                     <idno>estates/132</idno>
                     <note/>
-                    <link type="people" corresp="#people/171" subtype="link" cert="low"/>
-                    <link type="people" corresp="#people/237 #people/366 #people/288" subtype="link"/>
-                    <link type="juridical_persons" corresp="#juridical_persons/81" subtype="link"/>
-                    <link type="places" corresp="#places/237" subtype="link"/>
-                        <link type="people" corresp="#people/7" subtype="link" cert="low"/>
+                    <link type="people" corresp="#people/171" subtype="isOwnedBy" cert="low"/>
+                    <link type="people" corresp="#people/237 " subtype="isConfirmedBy"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/81"
+                            subtype="isGrantedTo"/>
+                    <link type="places" corresp="#places/237" subtype="correspondsTo"/>
+                        <link type="people" corresp="#people/7" subtype="isGrantedBy" cert="low"/>
+                        <link type="people" corresp="#people/124" subtype="isConfirmedBy"/>
                 </place>
                 <place>
                     <geogName>Prignano; <foreign>curtis</foreign></geogName>
@@ -1745,9 +1747,8 @@
                     <idno>estates/206</idno>
                     <note/>
                     <link type="people" corresp="#people/7" subtype="isGrantedBy"/>
-                    <link type="people" corresp="#people/171" subtype="link"/>
                     <link type="juridical_persons" corresp="#juridical_persons/81"
-                            subtype="isOwnedBy"/>
+                            subtype="isGrantedTo"/>
                     <link type="places" corresp="#places/457" subtype="correspondsTo"/>
                     <link type="people" corresp="#people/130" subtype="isConfirmedBy"/>
                         <link type="people" corresp="#people/261" subtype="isConfirmedBy"/>
@@ -3140,7 +3141,9 @@
                         <geogName>Cerro; <foreign>curtis</foreign> (Novara)</geogName>
                         <geogName type="other"/>
                         <idno>estates/404</idno>
-                        <note/>
+                        <note>A essere donata alla chiesa di Novara - a seguito di confisca - è solo
+                            la quarta parte della corte di Certo (da Corrado II e poi confermata da
+                            Enrico IV). </note>
                         <link type="places" corresp="#places/845" subtype="correspondsTo"/>
                         <link type="juridical_persons" corresp="#juridical_persons/406"
                             subtype="isGrantedTo"/>
@@ -8296,6 +8299,10 @@
                         <link type="people" corresp="#people/1903" subtype="isGrantedTo"/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
                             subtype="dependsOn"/>
+                        <link type="people" corresp="#people/305" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/154" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1938" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/1940" subtype="isManagedBy"/>
                     </place>
                     <place>
                         <geogName>Benevento; <foreign>fines</foreign></geogName>
@@ -8423,19 +8430,21 @@
                         <geogName type="other"/>
                         <idno>estates/1912</idno>
                         <note>Marazzi 2013: 186-187</note>
-                        <link type="places" corresp="#places/2333" subtype="isWithin"/>
-                        <link type="places" corresp="#places/2300" subtype="proximity"/>
                         <link type="estates" corresp="#estates/1901" subtype="isWithin"/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/1939" subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/2414" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/2405" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/1951" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/1952" subtype="isGrantedBy"/>
+                        <link type="places" corresp="#places/2333" subtype="correspondsTo"/>
                     </place>
                     <place>
-                        <geogName>Sessa; <foreign>fines</foreign>
-                        </geogName>
-                        <geogName type="other">Sessa Aurunca</geogName>
+                        <geogName>Sessa; fines</geogName>
+                        <geogName type="other">Sessa Aurunca; fines</geogName>
                         <idno>estates/1913</idno>
                         <note/>
-                        <link type="places" corresp="#places/571" subtype="hasWithin"/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
                             subtype="link"/>
                     </place>
