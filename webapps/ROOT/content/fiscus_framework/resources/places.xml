@@ -4150,13 +4150,10 @@
                         <idno>places/448</idno>
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/81"
-                            subtype="link"/>
-                        <link type="people" corresp="#people/171 #people/7" subtype="link"/>
-                        <link type="estates" corresp="#estates/198" subtype="link"/>
-                        <link type="people" corresp="#people/124" subtype="link"/>
-                        <link type="people" corresp="#people/410" subtype="link"/>
-                        <link type="people" corresp="#people/129" subtype="link"/>
-                        <link type="people" corresp="#people/507" subtype="link"/>
+                            subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/7" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/124" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/129" subtype="isConfirmedBy"/>
                     </place>
                     <place>
                         <placeName><foreign>Cluziam</foreign> (San Donnino; Modena)</placeName>
@@ -4171,17 +4168,17 @@
                         <placeName type="other"><foreign>Quirino</foreign></placeName>
                         <geogName type="coord"><geo>45.625323, 8.238029</geo></geogName>
                         <idno>places/450</idno>
-                        <note/>
+                        <note>Si tratta di un castrum. Da ricordare una controversia su alcune terre
+                            in Curino con la canonica vercellese. </note>
                         <link type="juridical_persons" corresp="#juridical_persons/81"
-                            subtype="link"/>
-                        <link type="people" corresp="#people/237 #people/366 #people/288"
-                            subtype="link"/>
-                        <link type="people" corresp="#people/124" subtype="link"/>
-                        <link type="people" corresp="#people/410" subtype="link"/>
-                        <link type="people" corresp="#people/129" subtype="link"/>
-                        <link type="people" corresp="#people/507" subtype="link"/>
-                        <link type="people" corresp="#people/7" subtype="link" cert="low"/>
-                        <link type="people" corresp="#people/171" subtype="link" cert="low"/>
+                            subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/237" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/124" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/129" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/7" subtype="isGrantedBy" cert="low"/>
+                        <link type="people" corresp="#people/171" subtype="isOwnedBy" cert="low"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/111"
+                            subtype="isClaimedBy"/>
                     </place>
                     <place>
                         <placeName>Grignasco (Novara)</placeName>
@@ -4190,10 +4187,9 @@
                         <idno>places/451</idno>
                         <note>Panero 2004. Sicuramente interpolata</note>
                         <link type="juridical_persons" corresp="#juridical_persons/81"
-                            subtype="link"/>
-                        <link type="people" corresp="#people/171 #people/7" subtype="link"
-                            cert="low"/>
-                        <link type="estates" corresp="#estates/202" subtype="link"/>
+                            subtype="isGrantedTo" cert="low"/>
+                        <link type="people" corresp="#people/171" subtype="isOwnedBy" cert="low"/>
+                        <link type="people" corresp="#people/7" cert="low" subtype="isGrantedBy"/>
                     </place>
                     <place>
                         <placeName>Cocconato (Asti)</placeName>
