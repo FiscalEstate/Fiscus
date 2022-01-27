@@ -871,9 +871,11 @@
                     <orgName type="other"/>
                     <idno>juridical_persons/133</idno>
                     <note>Lucioni 1998</note>
-                    <link type="places" corresp="#places/330" subtype="link"/>
-                    <link type="people" corresp="#people/171" subtype="link" cert="low"/>
-                        <link type="people" corresp="#people/7" subtype="link" cert="low"/>
+                    <link type="places" corresp="#places/330" subtype="correspondsTo"/>
+                    <link type="people" corresp="#people/171" subtype="isOwnedBy" cert="low"/>
+                        <link type="people" corresp="#people/7" subtype="isGrantedBy" cert="low"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/81"
+                            subtype="isGrantedTo"/>
                 </org>
                 <org>
                     <orgName>Sanctus Vincentius; ecclesia (Zenevredo; Pavia)</orgName>
