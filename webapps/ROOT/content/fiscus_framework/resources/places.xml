@@ -4991,8 +4991,9 @@
                         <idno>places/537</idno>
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/111"
-                            subtype="link"/>
-                        <link type="estates" corresp="#estates/1204" subtype="proximity"/>
+                            subtype="isClaimedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/402"
+                            subtype="isClaimedBy"/>
                     </place>
                     <place>
                         <placeName>Serignano (Poggio Serignano; Castiglione della Pescaia; Grosseto) </placeName>
@@ -5221,10 +5222,6 @@
                         <geogName type="coord"><geo>45.4673791, 7.874797</geo></geogName>
                         <idno>places/563</idno>
                         <note/>
-                        <link type="people" corresp="#people/172" subtype="link"/>
-                        <link type="estates" corresp="#estates/401" subtype="link"/>
-                        <link type="estates" corresp="#estates/400" subtype="link"/>
-                        <link type="estates" corresp="#estates/1446" subtype="isWithin"/>
                     </place>
                     <place>
                         <placeName>Gazzo Veronese (Verona)</placeName>
@@ -5490,8 +5487,12 @@
                         <link type="juridical_persons" corresp="#juridical_persons/81"
                             subtype="link"/>
                         <note/>
-                        <link type="people" corresp="#people/129" subtype="link"/>
-                        <link type="people" corresp="#people/507" subtype="link"/>
+                        <link type="people" corresp="#people/129" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/124" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/7" subtype="isGrantedBy" cert="low"/>
+                        <link type="people" corresp="#people/171" subtype="isOwnedBy" cert="low"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/81"
+                            subtype="isGrantedTo"/>
                     </place>
                     <place>
                         <placeName>Sospiro (Cremona)</placeName>
