@@ -386,7 +386,7 @@
                     </place>
                     <place>
                         <placeName>Pordenone</placeName>
-                        <placeName type="other"><foreign>Naones</foreign></placeName>
+                        <placeName type="other"><foreign>Portus Naonis</foreign></placeName>
                         <geogName type="coord"><geo>45.95758532919401,
                             12.659462414649171</geo></geogName>
                         <idno>places/46</idno>
@@ -756,7 +756,7 @@
                         <geogName type="coord"><geo>40.677921, 14.765950</geo></geogName>
                         <idno>places/84</idno>
                         <note/>
-                        <link type="estates" corresp="#estates/1903" subtype="link"/>
+                        <link type="estates" corresp="#estates/1903" subtype="isWithin"/>
                         <link type="people" corresp="#people/1914" subtype="isGrantedBy"/>
                         <link type="people" corresp="#people/1913" subtype="isConfirmedBy"/>
                         <link type="people" corresp="#people/1915" subtype="isConfirmedTo"/>
@@ -994,7 +994,7 @@
                         <idno>places/109</idno>
                         <note/>
                         <link type="people" corresp="#people/167" subtype="isConfirmedBy"/>
-                        <link type="juridical_persons" corresp="#juridical_persons/84" subtype="isConfirmedTo"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/84" subtype="dependsOn"/>
                         <link type="people" corresp="#people/309" subtype="isConfirmedTo"/>
                         <link type="people" corresp="#people/157" subtype="isConfirmedBy"/>
                         <link type="people" corresp="#people/315" subtype="isConfirmedBy"/>
@@ -1673,7 +1673,7 @@
                         <link type="people" corresp="#people/1982" subtype="isClaimedBy"/>
                     </place>
                     <place>
-                        <placeName><foreign>Mons Sancti Leutherii</foreign> (Vairano Patenora;
+                        <placeName><foreign>Sancti Leutherii</foreign>; mons (Vairano Patenora;
                             Caserta)</placeName>
                         <placeName type="other"><foreign>Mons Sancti Eleutherii</foreign></placeName>
                         <geogName type="coord"><geo>41.339444, 14.112906; 41.344299, 14.132043;
@@ -1718,7 +1718,7 @@
                         <placeName><foreign>Grottole</foreign> (Vairano Patenora;
                             Caserta)</placeName>
                         <placeName type="other"><foreign>Gruttule</foreign>;
-                                <foreign>Groctole</foreign></placeName>
+                            <foreign>Groctole</foreign>;<foreign>Gructule</foreign>;</placeName>
                         <geogName type="coord"><geo>41.339444, 14.112906; 41.344299, 14.132043;
                                 41.333795, 14.162766; 41.324133, 14.173121; 41.310698, 14.142587;
                                 41.309344, 14.103695; 41.324312, 14.093329</geo></geogName>
@@ -2385,13 +2385,11 @@
                             15.221898</geo></geogName>
                         <idno>places/252</idno>
                         <note/>
-                        <link type="estates" corresp="#estates/140" subtype="isPartOf"/>
-                        <link type="people" corresp="#people/185" subtype="link"/>
-                        <link type="juridical_persons" subtype="link"
+                        <link type="estates" corresp="#estates/140" subtype="isWithin"/>
+                        <link type="juridical_persons" subtype="dependsOn"
                             corresp="#juridical_persons/84"/>
-                        <link type="people" corresp="#people/186" subtype="link"/>
-                        <link type="places" corresp="#places/251" subtype="proximity"/>
-                        <link type="people" corresp="#people/187" subtype="link"/>
+                        <link type="people" corresp="#people/186" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/187" subtype="isGrantedTo"/>
                     </place>
                     <place>
                         <placeName>Santa Cristina e Bissone (Pavia)</placeName>
