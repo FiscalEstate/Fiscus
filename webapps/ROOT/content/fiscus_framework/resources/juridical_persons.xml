@@ -265,6 +265,7 @@
                     <orgName type="other"/>
                     <idno>juridical_persons/81</idno>
                     <note/>
+                        <link type="people" corresp="#people/"/>
                 </org>
                 <org>
                     <orgName>Sanctus Petrus; ecclesia (Piacenza)</orgName>
@@ -2149,11 +2150,11 @@
                     <orgName type="other"/>
                     <idno>juridical_persons/278</idno>
                     <note/>
-                    <link type="juridical_persons" corresp="#juridical_persons/81" subtype="link"/>
-                    <link type="people" corresp="#people/124" subtype="link"/>
-                    <link type="people" corresp="#people/124" subtype="link"/>
-                    <link type="people" corresp="#people/410" subtype="link"/>
-                    <link type="places" corresp="#places/723" subtype="proximity"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/81"
+                            subtype="isGrantedTo"/>
+                    <link type="people" corresp="#people/124" subtype="isGrantedBy"/>
+                    <link type="places" corresp="#places/732" subtype="correspondsTo"/>
+                        <link type="people" corresp="#people/129" subtype="isConfirmedBy"/>
                 </org>
                 <org>
                     <orgName>Sanctus Matthaeus; ecclesia (Lucca)</orgName>
