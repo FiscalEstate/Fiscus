@@ -335,19 +335,16 @@
   </xsl:template>
 
   <xsl:template match="t:foreign[not(ancestor::t:div[@type = 'edition'])]">
-    <i>
-      <xsl:apply-templates/>
-    </i>
+    <i><xsl:apply-templates/></i>
   </xsl:template>
 
   <xsl:template match="t:title[not(parent::t:titleStmt)][not(ancestor::t:div[@type = 'edition'])]">
-    <i>
-      <xsl:apply-templates/>
-    </i>
+    <i><xsl:apply-templates/></i>
   </xsl:template>
   
-  
-  
+  <xsl:template priority="10" match="t:emph">
+    <strong><xsl:apply-templates/></strong>
+  </xsl:template>
   
 
   <xsl:template match="t:persName[ancestor::t:div[@type = 'edition']]|t:placeName[ancestor::t:div[@type = 'edition']]|t:orgName[ancestor::t:div[@type = 'edition']]|t:geogName[ancestor::t:div[@type = 'edition']]|t:rs[ancestor::t:div[@type = 'edition']]">
