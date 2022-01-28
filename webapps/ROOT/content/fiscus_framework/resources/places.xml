@@ -5815,13 +5815,16 @@
                         <geogName type="coord"><geo style="line">45.687715, 7.95496; 45.562622,
                                 8.177261; 45.324392, 8.422394; 45.355764, 8.391495</geo></geogName>
                         <idno>places/613</idno>
-                        <note/>
+                        <note>Il porto è oggetto di contesa tra le due canoniche vercellesi. </note>
                         <link type="juridical_persons" corresp="#juridical_persons/81"
-                            subtype="link"/>
-                        <link type="people" corresp="#people/288 #people/366 #people/237"
-                            subtype="link"/>
-                        <link type="people" corresp="#people/7" subtype="link" cert="low"/>
-                        <link type="people" corresp="#people/171" subtype="link" cert="low"/>
+                            subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/237" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/7" subtype="isGrantedBy" cert="low"/>
+                        <link type="people" corresp="#people/171" subtype="isOwnedBy" cert="low"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/111"
+                            subtype="isClaimedBy"/>
+                        <link type="people" corresp="#people/402" subtype="isClaimedBy"/>
+                        <link type="people" corresp="#people/124" subtype="isGrantedBy"/>
                     </place>
                     <place>
                         <placeName>Elvo; river (Vercelli)</placeName>
@@ -5831,11 +5834,9 @@
                         <idno>places/614</idno>
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/81"
-                            subtype="link"/>
-                        <link type="people" corresp="#people/288 #people/366 #people/237"
-                            subtype="link"/>
-                        <link type="people" corresp="#people/7" subtype="link"/>
-                        <link type="people" corresp="#people/171" subtype="link"/>
+                            subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/237" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/7" subtype="isGrantedBy"/>
                     </place>
                     <place>
                         <placeName>Leona; river (Vercelli)</placeName>
