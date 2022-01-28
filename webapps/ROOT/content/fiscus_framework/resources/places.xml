@@ -4861,14 +4861,15 @@
                         <idno>places/525</idno>
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/81"
-                            subtype="link"/>
-                        <link type="people" corresp="#people/261 #people/288" subtype="link"/>
-                        <link type="people" corresp="#people/7" subtype="link" cert="low"/>
-                        <link type="people" corresp="#people/171" subtype="link" cert="low"/>
-                        <link type="people" corresp="#people/530" subtype="link"/>
-                        <link type="people" corresp="#people/130" subtype="link"/>
+                            subtype="isGrantedTo" cert="low"/>
+                        <link type="people" corresp="#people/261 " subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/7" subtype="isGrantedBy" cert="low"/>
+                        <link type="people" corresp="#people/171" subtype="isOwnedBy" cert="low"/>
+                        <link type="people" corresp="#people/130" subtype="isConfirmedBy"/>
                         <link type="juridical_persons" corresp="#juridical_persons/406"
-                            subtype="link"/>
+                            subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/233" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/124" subtype="isConfirmedBy"/>
                     </place>
                     <place>
                         <placeName>Cardezza (Novara)</placeName>
@@ -4877,8 +4878,10 @@
                         <idno>places/526</idno>
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/81"
-                            subtype="link"/>
-                        <link type="people" corresp="#people/261 #people/288" subtype="link"/>
+                            subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/261 " subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/7" subtype="isGrantedBy" cert="low"/>
+                        <link type="people" corresp="#people/171" subtype="isOwnedBy" cert="low"/>
                     </place>
                     <place>
                         <placeName>Ticineto (Alessandria)</placeName>
