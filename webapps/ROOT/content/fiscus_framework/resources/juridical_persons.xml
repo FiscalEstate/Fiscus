@@ -64,7 +64,7 @@
                     <orgName>Sanctus Silvester; monasterium (Nonantola; Modena)</orgName>
                     <idno>juridical_persons/47</idno>
                     <note></note>
-                    <link type="places" corresp="#places/15" subtype="correspondsTo"/>
+                    <link type="places" corresp="#places/15" subtype="isWithin"/>
                     <link type="people" corresp="#people/48" subtype="link"/>
                     <link type="people"
                         corresp="#people/14"
@@ -72,7 +72,7 @@
                     <link type="people"
                         corresp="#people/118"
                         subtype="link"/>
-                        <link type="estates" corresp="#estates/208" subtype="dependsOn"/>
+                        <link type="estates" corresp="#estates/208" subtype="isWithin"/>
                 </org>
                 
                 <org>
@@ -188,10 +188,12 @@
                     <link type="people" corresp="#people/77" subtype="link"/>
                 </org>
                 <org>
-                    <orgName>Sanctus Iohannes in Persecita; plebs (Bologna)</orgName>
-                    <orgName type="other">San Giovanni in Persiceto</orgName>
+                    <orgName>Sanctus Iohannes in Persecita; plebs (San Giovanni in Persiceto;
+                            Bologna)</orgName>
+                    <orgName type="other"/>
                     <idno>juridical_persons/74</idno>
                     <note/>
+                        <link type="places" corresp="#places/27" subtype="isWithin"/>
                 </org>
                 <org>
                     <orgName>Sancta Iustina; capitulum canonicorum cathedralis (Piacenza)</orgName>
@@ -256,6 +258,7 @@
                     <orgName type="other"/>
                     <idno>juridical_persons/80</idno>
                     <note/>
+                        <link type="places" corresp="#places/7" subtype="isWithin"/>
                 </org>
                 <org>
                     <orgName>Sanctus Eusebius; episcopium (Vercelli)</orgName>
@@ -293,19 +296,35 @@
                     <note/>
                     <link type="places" corresp="#places/109"
                         subtype="isWithin"/>
+                    <link type="people" corresp="#people/186" subtype="link"/>
                     <link type="people" corresp="#people/398" subtype="link"/>
-                    <link type="people" corresp="#people/305" subtype="link"/>
+                    <link type="people" corresp="#people/397" subtype="link"/>
                     <link type="people" corresp="#people/154" subtype="link"/>
                     <link type="people" corresp="#people/304" subtype="link"/>
+                    <link type="people" corresp="#people/305" subtype="link"/>
                     <link type="people" corresp="#people/156" subtype="link"/>
-                    <link type="people" corresp="#people/406" subtype="link"/>
                     <link type="people" corresp="#people/157" subtype="link"/>
+                    <link type="people" corresp="#people/315" subtype="link"/>
+                    <link type="people" corresp="#people/305" subtype="link"/>
+                    <link type="people" corresp="#people/154" subtype="link"/>
+                    <link type="people" corresp="#people/406" subtype="link"/>
+                    <link type="people" corresp="#people/158" subtype="link"/>
                     <link type="people" corresp="#people/315" subtype="link"/>
                     <link type="people" corresp="#people/167" subtype="link"/>
                     <link type="people" corresp="#people/373" subtype="link"/>
                     <link type="people" corresp="#people/194" subtype="link"/>
                     <link type="people" corresp="#people/111" subtype="link"/>
-                    <link type="people" corresp="#people/186" subtype="link"/>
+                    <link type="people" corresp="#people/303" subtype="link"/>
+                    <link type="people" corresp="#people/7" subtype="link"/>
+                    <link type="people" corresp="#people/327" subtype="link"/>
+                    <link type="people" corresp="#people/374" subtype="link"/>
+                    <link type="people" corresp="#people/407" subtype="link"/>
+                    <link type="people" corresp="#people/115" subtype="link"/>
+                    <link type="people" corresp="#people/298" subtype="link"/>
+                    <link type="people" corresp="#people/300" subtype="link"/>
+                    <link type="people" corresp="#people/301" subtype="link"/>
+                    <link type="people" corresp="#people/399" subtype="link"/>
+                    <link type="people" corresp="#people/9" subtype="link"/>
                 </org>
                 <org>
                     <orgName>Sancta Sophia; monasterium (Benevento)</orgName>
@@ -314,10 +333,14 @@
                     <note/>
                     <link type="places" corresp="#places/110"
                         subtype="isWithin"/>
-                    <link type="places" corresp="#places/605"
-                        subtype="link"/>
-                    <link type="places" corresp="#places/606"
-                        subtype="link"/>
+                        <link type="people" corresp="#people/302" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/156" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/304" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/305" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/303" subtype="link"/>
+                    <link type="people" corresp="#people/305" subtype="link"/>
+                    <link type="people" corresp="#people/154" subtype="link"/>
+                    <link type="people" corresp="#people/194" subtype="link"/>
                 </org>
                 <org>
                     <orgName>Sanctus Cerbonius; episcopium (Populonia; Livorno)</orgName>
@@ -352,13 +375,16 @@
                     <orgName type="other"/>
                     <idno>juridical_persons/89</idno>
                     <note/>
-                    <link type="places" corresp="#places/140" subtype="link"/>
-                    <link type="juridical_persons" corresp="#juridical_persons/47" subtype="link"/>
-                    <link type="juridical_persons" corresp="#juridical_persons/80" subtype="link"/>
-                    <link type="people" corresp="#people/48" subtype="link"/>
-                    <link type="people" corresp="#people/49" subtype="link"/>
-                    <link type="people" corresp="#people/14" subtype="link"/>
-                    <link type="people" corresp="#people/117" subtype="link"/>
+                    <link type="places" corresp="#places/140" subtype="isWithin"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/47"
+                            subtype="dependsOn"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/80"
+                            subtype="isClaimedBy"/>
+                    <link type="people" corresp="#people/48" subtype="isGrantedTo"/>
+                    <link type="people" corresp="#people/49" subtype="isGrantedBy"/>
+                    <link type="people" corresp="#people/14" subtype="isConfirmedBy"/>
+                    <link type="people" corresp="#people/117" subtype="isClaimedBy"/>
+                        <link type="people" corresp="#people/94" subtype="isClaimedBy"/>
                 </org>
                 <org>
                     <orgName>Sanctus Zeno; ecclesia (Verona)</orgName>
@@ -416,10 +442,7 @@
                     <orgName type="other"/>
                     <idno>juridical_persons/96</idno>
                     <note/>
-                    <link type="places" corresp="#places/38"
-                        subtype="link"/>
-                    <link type="people" corresp="#people/152" subtype="link"/>
-                    <link type="places" corresp="#places/40" subtype="link"/>
+                    <link type="places" corresp="#places/38" subtype="isWithin"/>
                 </org>
                 <org>
                     <orgName>Sancta Maria in Cinglis; monasterium (Ailano; Caserta)</orgName>
@@ -427,16 +450,13 @@
                     <idno>juridical_persons/97</idno>
                     <note/>
                     <link type="juridical_persons"
-                        corresp="#juridical_persons/84" subtype="link"/>
+                        corresp="#juridical_persons/84" subtype="dependsOn"/>
                     <link type="places" corresp="#places/193"
                         subtype="isWithin"/>
-                    <link type="places" corresp="#places/610"
-                        subtype="link"/>
-                    <link type="places" corresp="#places/609"
-                        subtype="link"/>
+                    <link type="people" corresp="#people/158" subtype="link"/>
                     <link type="people" corresp="#people/194" subtype="link"/>
                     <link type="people" corresp="#people/114" subtype="link"/>
-                        <link type="people" corresp="#people/2000" subtype="link"/>
+                    <link type="people" corresp="#people/2000" subtype="link"/>
                 </org>
                 <org>
                     <orgName>Sancta Cecilia; ecclesia (Vairano Patenora; Caserta)</orgName>
@@ -444,11 +464,12 @@
                     <idno>juridical_persons/98</idno>
                     <note/>
                     <link type="estates" corresp="#estates/121"
-                        subtype="isPartOf"/>
-                    <link type="juridical_persons"
-                        corresp="#juridical_persons/97" subtype="link"/>
-                    <link type="places" corresp="#places/177"
                         subtype="isWithin"/>
+                    <link type="juridical_persons"
+                        corresp="#juridical_persons/97" subtype="isGrantedTo"/>
+                    <link type="people" corresp="#people/158" subtype="isGrantedBy"/>
+                    <link type="places" corresp="#places/177"
+                        subtype="proximity"/>
                 </org>
                 <org>
                     <orgName>Cremona; commune</orgName>
@@ -524,37 +545,37 @@
                     <note/>
                     <link type="places" corresp="#places/173"
                         subtype="isWithin"/>
-                    <link type="places" corresp="#places/177"
-                        subtype="link"/>
-                    <link type="places" corresp="#places/198"
-                        subtype="link"/>
                 </org>
                 <org>
-                    <orgName>Sanctus Martinus; ecclesia (Vairano Patenora; Caserta)</orgName>
-                    <orgName type="other"/>
+                    <orgName>Sanctus Martinus de Groctole; ecclesia (Vairano Patenora; Caserta)</orgName>
+                    <orgName type="other">San Martino di Grottole</orgName>
                     <idno>juridical_persons/106</idno>
                     <note/>
                     <link type="places" corresp="#places/198"
                         subtype="isWithin"/>
                     <link type="places" corresp="#places/177"
-                        subtype="bordersOn"/>
-                    <link type="juridical_persons"
-                        corresp="#juridical_persons/105" subtype="link"/>
+                        subtype="proximity"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/105"
+                        subtype="dependsOn"/>
                 </org>
                 <org>
                     <orgName>Sanctus Michael de Loceio; monasterium (Lucedio; Vercelli)</orgName>
                     <orgName type="other"/>
                     <idno>juridical_persons/107</idno>
                     <note/>
-                    <link type="people" corresp="#people/171" subtype="link"/>
-                    <link type="people" corresp="#people/7" subtype="link"/>
-                    <link type="juridical_persons"
-                        corresp="#juridical_persons/81" subtype="link"/>
-                    <link type="juridical_persons"
-                        corresp="#juridical_persons/116" subtype="link"/>
-                    <link type="places" corresp="#places/521" subtype="isWithin"/>
-                        <link type="people" corresp="#people/9" subtype="link"/>
+                    <link type="people" corresp="#people/171" subtype="isGrantedTo" cert="low"/>
+                    <link type="people" corresp="#people/7" subtype="isConfirmedBy" cert="low"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/81"
+                            subtype="isGrantedTo"/>
+                    <link type="places" corresp="#places/521" subtype="correspondsTo"/>
+                        <link type="people" corresp="#people/9" subtype="isGrantedBy"/>
                         <link type="people" corresp="#people/269" subtype="link" cert="low"/>
+                        <link type="people" corresp="#people/233" subtype="isConfirmedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/406"
+                            subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/237" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/124" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/129" subtype="isConfirmedBy"/>
                 </org>
                 <org>
                     <orgName>Sancta Maria; episcopium (Reggio Emilia)</orgName>
@@ -596,24 +617,26 @@
                     <idno>juridical_persons/111</idno>
                     <note/>
                     <link type="places" corresp="#places/106" subtype="link"/>
-                    <link type="people" corresp="#people/7" subtype="link"/>
-                    <link type="people" corresp="#people/180" subtype="link"/>
                 </org>
                 <org>
                     <orgName>Industria; plebs (Vercelli)</orgName>
                     <orgName type="other"/>
                     <idno>juridical_persons/112</idno>
                     <note/>
-                    <link type="people" corresp="#people/7" subtype="link"/>
-                    <link type="juridical_persons" corresp="#juridical_persons/111" subtype="link"/>
+                    <link type="people" corresp="#people/7" subtype="isGrantedBy"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/111"
+                            subtype="isGrantedTo"/>
+                        <link type="places" corresp="#places/242" subtype="correspondsTo"/>
                 </org>
                 <org>
                     <orgName>Casaleggio; plebs</orgName>
                     <orgName type="other"/>
                     <idno>juridical_persons/113</idno>
                     <note/>
-                    <link type="people" corresp="#people/7" subtype="link"/>
-                    <link type="juridical_persons" corresp="#juridical_persons/111" subtype="link"/>
+                    <link type="people" corresp="#people/7" subtype="isGrantedBy"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/111"
+                            subtype="isGrantedTo"/>
+                        <link type="places" corresp="#places/243" subtype="correspondsTo"/>
                 </org>
                 <org>
                     <orgName>Sancta Maria; capitulum canonicorum cathedralis (Novara)</orgName>
@@ -848,9 +871,11 @@
                     <orgName type="other"/>
                     <idno>juridical_persons/133</idno>
                     <note>Lucioni 1998</note>
-                    <link type="places" corresp="#places/330" subtype="link"/>
-                    <link type="people" corresp="#people/171" subtype="link" cert="low"/>
-                        <link type="people" corresp="#people/7" subtype="link" cert="low"/>
+                    <link type="places" corresp="#places/330" subtype="correspondsTo"/>
+                    <link type="people" corresp="#people/171" subtype="isOwnedBy" cert="low"/>
+                        <link type="people" corresp="#people/7" subtype="isGrantedBy" cert="low"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/81"
+                            subtype="isGrantedTo"/>
                 </org>
                 <org>
                     <orgName>Sanctus Vincentius; ecclesia (Zenevredo; Pavia)</orgName>
@@ -926,12 +951,13 @@
                     <idno>juridical_persons/141</idno>
                     <note/>
                     <link type="places" corresp="#places/40" subtype="isWithin"/>
-                    <link type="estates" corresp="#estates/50" subtype="link"/>
-                    <link type="people" corresp="#people/245" subtype="link"/>
-                    <link type="people" corresp="#people/247" subtype="link"/>
-                    <link type="people" corresp="#people/244" subtype="link"/>
-                    <link type="people" corresp="#people/118" subtype="link"/>
-                    <link type="juridical_persons" corresp="#juridical_persons/96" subtype="link"/>
+                    <link type="estates" corresp="#estates/50" subtype="dependsOn"/>
+                    <link type="people" corresp="#people/245" subtype="isConfirmedBy"/>
+                    <link type="people" corresp="#people/247" subtype="isGrantedBy"/>
+                    <link type="people" corresp="#people/244" subtype="isConfirmedTo"/>
+                    <link type="people" corresp="#people/118" subtype="isConfirmedBy"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/96"
+                            subtype="dependsOn"/>
                 </org>
                 <org>
                     <orgName>Sanctus Thomas; plebs (Ganaceto; Modena)</orgName>
@@ -939,10 +965,12 @@
                     <idno>juridical_persons/142</idno>
                     <note/>
                     <link type="places" corresp="#places/445" subtype="isWithin"/>
-                    <link type="people" corresp="#people/14 #people/245" subtype="link"/>
-                    <link type="people" corresp="#people/244" subtype="link"/>
-                    <link type="people" corresp="#people/118" subtype="link"/>
-                    <link type="juridical_persons" corresp="#juridical_persons/96" subtype="link"/>
+                    <link type="people" corresp="#people/14" subtype="isGrantedBy"/>
+                    <link type="people" corresp="#people/244" subtype="isConfirmedTo"/>
+                    <link type="people" corresp="#people/118" subtype="isConfirmedBy"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/96"
+                            subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/245" subtype="isGrantedTo"/>
                 </org>
                 <org>
                     <orgName>Sancta Lucia; ecclesia (Castagneto; Castagneto Carducci;
@@ -974,6 +1002,9 @@
                     <idno>juridical_persons/146</idno>
                     <note/>
                     <link type="places" corresp="#places/447" subtype="isWithin"/>
+                        <link type="estates" corresp="#estates/197" subtype="isWithin"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/96"
+                            subtype="dependsOn"/>
                 </org>
                 <org>
                     <orgName>Sanctus Donninus; ecclesia (Modena)</orgName>
@@ -981,6 +1012,8 @@
                     <idno>juridical_persons/147</idno>
                     <note/>
                     <link type="places" corresp="#places/449" subtype="isWithin"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/96"
+                            subtype="dependsOn"/>
                 </org>
                 <org>
                     <orgName>Sanctus Salvator quod dicitur Tolla; monasterium (Piacenza)</orgName>
@@ -1859,16 +1892,17 @@
                     <idno>juridical_persons/248</idno>
                     <note/>
                     <link type="places" corresp="#places/700" subtype="isWithin"/>
-                    <link type="juridical_persons" corresp="#juridical_persons/84" subtype="link"/>
-                    <link type="people" corresp="#people/167" subtype="link"/>
-                    <link type="people" corresp="#people/309" subtype="link"/>
-                    <link type="people" corresp="#people/156" subtype="link"/>
-                    <link type="people" corresp="#people/157" subtype="link"/>
-                    <link type="people" corresp="#people/315" subtype="link"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/84" subtype="dependsOn"/>
+                    <link type="people" corresp="#people/156" subtype="isConfirmedBy"/>
+                    <link type="people" corresp="#people/305" subtype="isConfirmedBy"/>
+                    <link type="people" corresp="#people/157" subtype="isConfirmedBy"/>
+                    <link type="people" corresp="#people/309" subtype="isConfirmedTo"/>
+                    <link type="people" corresp="#people/315" subtype="isConfirmedBy"/>
                     <link type="people" corresp="#people/401" subtype="link"/>
                     <link type="people" corresp="#people/398" subtype="link"/>
                     <link type="people" corresp="#people/397" subtype="link"/>
-                    <link type="people" corresp="#people/167" subtype="link"/>
+                    <link type="people" corresp="#people/167" subtype="isConfirmedBy"/>
+                    <link type="people" corresp="#people/305" subtype="link"/>
                 </org>
                 <org>
                     <orgName>Sanctus Salvator de Octavo; ecclesia (Valdottavo)</orgName>
@@ -1883,8 +1917,8 @@
                     <idno>juridical_persons/250</idno>
                     <note/>
                     <link type="places" corresp="#places/109" subtype="isWithin"/>
-                    <link type="juridical_persons" corresp="#juridical_persons/84" subtype="link"/>
                     <link type="places" corresp="#places/694" subtype="isWithin"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/84" subtype="dependsOn"/>
                 </org>
                 <org>
                     <orgName>Sanctus Macharius de Pompiano; ecclesia</orgName>
@@ -1976,12 +2010,11 @@
                     <orgName type="other">cella di San Martino sul Volturno</orgName>
                     <idno>juridical_persons/263</idno>
                     <note><foreign>qui dicitur cella vetere</foreign></note>
-                    <link type="places" corresp="#places/112" subtype="proximity"/>
+                    <link type="estates" corresp="#estates/1905" subtype="isWithin"/>
                     <link type="places" corresp="#places/609" subtype="proximity"/>
-                    <link type="people" corresp="#people/408" subtype="link"/>
-                    <link type="juridical_persons" corresp="#juridical_persons/84" subtype="link"/>
-                    <link type="people" corresp="#people/398" subtype="link"/>
-                    <link type="people" corresp="#people/408" subtype="link"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/84" subtype="dependsOn"/>
+                    <link type="people" corresp="#people/398" subtype="isConfirmedBy"/>
+                    <link type="people" corresp="#people/408" subtype="isConfirmedTo"/>
                 </org>
                 <org>
                     <orgName>Sanctus Hippolytus de Anniano; plebs </orgName>
@@ -2406,12 +2439,38 @@
                         <idno>juridical_persons/3100</idno>
                         <note/>
                     </org>
+                    <org>
+                        <orgName>Sancta Maria Forisportam; xenodochium (Lucca)</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/3101</idno>
+                        <note/>
+                    </org>
+                    <org>
+                        <orgName>Sanctus Iustus; ecclesia (Capannori; Lucca)</orgName>
+                        <orgName type="other">San Giusto alla Caipira</orgName>
+                        <idno>juridical_persons/3102</idno>
+                        <note/>
+                    </org>
+                    <org>
+                        <orgName>Sancta Christina; plebs (Massa Pisana; Lucca)</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/3103</idno>
+                        <note/>
+                    </org>
                 </listOrg>
                 <listOrg n="Belluscio Luca">
                     <org>
                         <orgName>XXX</orgName>
                         <orgName type="other"/>
                         <idno>juridical_persons/2100</idno>
+                        <note/>
+                    </org>
+                </listOrg>
+                <listOrg n="Cerretani Nicola">
+                    <org>
+                        <orgName>XXX</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/2600</idno>
                         <note/>
                     </org>
                 </listOrg>
@@ -2441,8 +2500,7 @@
                             subtype="link"/>
                     </org>
                     <org>
-                        <orgName>Sancta Maria; <foreign>capitulum canonicorum
-                            </foreign>(Vercelli)</orgName>
+                        <orgName>Sancta Maria; capitulum canonicorum (Vercelli)</orgName>
                         <orgName type="other"/>
                         <idno>juridical_persons/402</idno>
                         <note/>
@@ -2475,7 +2533,6 @@
                         <orgName type="other"/>
                         <idno>juridical_persons/406</idno>
                         <note/>
-                        <link type="places" corresp="#places/245" subtype="isWithin"/>
                     </org>
                     <org>
                         <orgName>Sanctus Clemens; ecclesia (Novara)</orgName>
@@ -2779,22 +2836,23 @@
                         <orgName type="other"/>
                         <idno>juridical_persons/2000</idno>
                         <note/>
-                        <link type="places" corresp="#places/275" subtype="correspondsTo"/>
+                        <link type="places" corresp="#places/275" subtype="isWithin"/>
                         <link type="juridical_persons" corresp="#juridical_persons/1426"
-                            subtype="link"/>
-                        <link type="people" corresp="#people/1" subtype="link"/>
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/1" subtype="isGrantedBy"/>
                     </org>
                     <org>
                         <orgName>Sanctus Benedictus in Pado Lironi; monasterium (Mantova)</orgName>
-                        <orgName type="other"/>
+                        <orgName type="other">monasterium Sancte Marie et Sancti Benedicti et Sancti
+                            Michaeli archangeli et Sancti Petri apostoli</orgName>
                         <idno>juridical_persons/2001</idno>
                         <note/>
                         <link type="places" corresp="#places/2400" subtype="correspondsTo"/>
-                        <link type="people" corresp="#people/2122" subtype="link"/>
-                        <link type="people" corresp="#people/1" subtype="link"/>
+                        <link type="people" corresp="#people/2122" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/1" subtype="isGrantedBy"/>
                     </org>
                     <org>
-                        <orgName>Malcesine; <foreign>plebs</foreign></orgName>
+                        <orgName>Malcesine; plebs</orgName>
                         <orgName type="other"><foreign>Malsissino</foreign></orgName>
                         <idno>juridical_persons/2002</idno>
                         <note/>
@@ -2808,7 +2866,7 @@
                         <link type="places" corresp="#places/482" subtype="correspondsTo"/>
                         <link type="juridical_persons" corresp="#juridical_persons/2001"
                             subtype="dependsOn"/>
-                        <link type="estates" corresp="#estates/2050" subtype="proximity"/>
+                        <link type="estates" corresp="#estates/2050" subtype="isWithin"/>
                     </org>
                     <org>
                         <orgName>Sancti Fidelis et Iustus; capella (Medole; Mantova)</orgName>
@@ -2825,7 +2883,7 @@
                         <orgName type="other"/>
                         <idno>juridical_persons/2005</idno>
                         <note/>
-                        <link type="places" corresp="#places/2475" subtype="correspondsTo"/>
+                        <link type="places" corresp="#places/2475" subtype="isWithin"/>
                         <link type="juridical_persons" corresp="#juridical_persons/1425"
                             subtype="dependsOn"/>
                     </org>
@@ -2838,13 +2896,13 @@
                             San Benedetto è ancora solo una <foreign>capella</foreign>. La
                             dedicazione è da mettere in relazione alla prima proprietà nota: il
                             monastero di San Benedetto di Leno.</note>
-                        <link type="places" corresp="#places/2414" subtype="link"/>
+                        <link type="places" corresp="#places/2414" subtype="correspondsTo"/>
                         <link type="juridical_persons" corresp="#juridical_persons/2001"
-                            subtype="link"/>
-                        <link type="people" corresp="#people/2100" subtype="link"/>
-                        <link type="people" corresp="#people/2132" subtype="link"/>
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/2100" subtype="isOwnedBy"/>
+                        <link type="people" corresp="#people/2132" subtype="isManagedBy"/>
                         <link type="juridical_persons" corresp="#juridical_persons/501"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
                         <link type="estates" corresp="#estates/2054" subtype="link"/>
                     </org>
                     <org>
@@ -2852,8 +2910,8 @@
                         <orgName type="other"/>
                         <idno>juridical_persons/2007</idno>
                         <note/>
-                        <link type="places" corresp="#places/2479" subtype="link"/>
-                        <link type="people" corresp="#people/292" subtype="link"/>
+                        <link type="places" corresp="#places/2479" subtype="correspondsTo"/>
+                        <link type="people" corresp="#people/292" subtype="isGrantedBy"/>
                         <link type="people" corresp="#people/2141" subtype="link"/>
                     </org>
                     <org>
@@ -3296,14 +3354,14 @@
                             subtype="link"/>
                     </org>
                     <org>
-                        <orgName>Sanctus Bartholomeus; ecclesia (Quistello; Modena)</orgName>
+                        <orgName>Sanctus Bartholomeus; ecclesia (Quistello; Mantova)</orgName>
                         <orgName type="other">Sancti Bartholomeus et Iohannes</orgName>
                         <idno>juridical_persons/2054</idno>
                         <note/>
-                        <link type="places" corresp="#places/2417" subtype="correspondsTo"/>
                         <link type="juridical_persons" corresp="#juridical_persons/2001"
-                            subtype="link"/>
-                        <link type="estates" corresp="#estates/2007" subtype="link"/>
+                            subtype="dependsOn"/>
+                        <link type="estates" corresp="#estates/2007" subtype="dependsOn"/>
+                        <link type="places" corresp="#places/2417" subtype="isWithin"/>
                     </org>
                     <org>
                         <orgName>monasterium (Frassinoro; Modena)</orgName>
@@ -3341,6 +3399,7 @@
                         <orgName type="other"/>
                         <idno>juridical_persons/3201</idno>
                         <note/>
+                        <link type="places" corresp="#places/3214" subtype="isWithin"/>
                     </org>
                     <org>
                         <orgName>Sanctus Salvator; monasterium (Badia a Settimo; Scandicci;
@@ -3348,6 +3407,7 @@
                         <orgName type="other"/>
                         <idno>juridical_persons/3202</idno>
                         <note/>
+                        <link type="places" corresp="#places/3213" subtype="isWithin"/>
                     </org>
                     <org>
                         <orgName><foreign>Rosaia</foreign>; xenodochium (Fucecchio;
@@ -3355,6 +3415,8 @@
                         <orgName type="other"/>
                         <idno>juridical_persons/3203</idno>
                         <note/>
+                        <link type="places" corresp="#places/3200" subtype="proximity"/>
+                        <link type="places" corresp="#places/3215" subtype="isWithin"/>
                     </org>
                     <org>
                         <orgName>Sanctus Nazarius; monasterium (Querce; Fucecchio;
@@ -3362,19 +3424,39 @@
                         <orgName type="other"/>
                         <idno>juridical_persons/3204</idno>
                         <note/>
+                        <link type="places" corresp="#places/3204" subtype="isWithin"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3205"
+                            subtype="dependsOn"/>
                     </org>
                     <org>
                         <orgName>Sanctus Georgius; monasterium (Lucca)</orgName>
                         <orgName type="other"/>
                         <idno>juridical_persons/3205</idno>
                         <note/>
+                        <link type="places" corresp="#places/4" subtype="isWithin"/>
                     </org>
                     <org>
-                        <orgName>Sanctus Gilius; ecclesia (Altopascio; Lucca)</orgName>
+                        <orgName>Sanctus Iacobus et sanctus Gilius; ecclesia et xenodochium
+                            (Altopascio; Lucca)</orgName>
                         <orgName type="other"/>
                         <idno>juridical_persons/3206</idno>
                         <note/>
                         <link type="places" corresp="#places/3207" subtype="isWithin"/>
+                    </org>
+                    <org>
+                        <orgName>Sanctus Lucas et Hercolanus; xenodochium (Uzzano;
+                            Pistoia)</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/3207</idno>
+                        <note/>
+                        <link type="places" corresp="#places/3217" subtype="isWithin"/>
+                    </org>
+                    <org>
+                        <orgName>Sancta Maria; plebs (Pescia)</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/3208</idno>
+                        <note/>
+                        <link type="places" corresp="#places/464" subtype="isWithin"/>
                     </org>
                 </listOrg>
                 <listOrg n="Internullo Dario">
@@ -3411,7 +3493,6 @@
                             scheda) in quanto, prima del XV secolo, la sede dell'episcopio è S.
                             Giovanni in Laterano.</note>
                         <link type="places" corresp="#places/52" subtype="correspondsTo"/>
-                        <link type="estates" corresp="#estates/281" subtype="link"/>
                         <link type="estates" corresp="#estates/224" subtype="link"/>
                         <link type="estates" corresp="#estates/192" subtype="link"/>
                         <link type="estates" corresp="#estates/103" subtype="link"/>
@@ -3423,9 +3504,9 @@
                         <idno>juridical_persons/1101</idno>
                         <note>Nel 911 definita <foreign>capella que est oratorio</foreign>.</note>
                         <link type="places" corresp="#places/572" subtype="isWithin"/>
-                        <link type="estates" corresp="#estates/519" subtype="link"/>
+                        <link type="estates" corresp="#estates/519" subtype="dependsOn"/>
                         <link type="juridical_persons" corresp="#juridical_persons/47"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
                         <link type="people" corresp="#people/166" subtype="link"/>
                         <link type="people" corresp="#people/1202" subtype="link"/>
                     </org>
@@ -3437,7 +3518,7 @@
                         <link type="people" corresp="#people/49" subtype="rectorOf"/>
                         <link type="juridical_persons" corresp="#juridical_persons/47"
                             subtype="dependsOn"/>
-                        <link type="places" corresp="#places/1500" subtype="correspondsTo"/>
+                        <link type="places" corresp="#places/1500" subtype="isWithin"/>
                     </org>
                     <org>
                         <orgName>Sanctus Vincentius in Saltus Spano; plebs (San Vincenzo; Galliera;
@@ -3445,8 +3526,8 @@
                         <orgName type="other"/>
                         <idno>juridical_persons/1103</idno>
                         <note/>
-                        <link type="places" corresp="#places/1502" subtype="correspondsTo"/>
-                        <link type="estates" corresp="#estates/208" subtype="dependsOn"/>
+                        <link type="places" corresp="#places/1501" subtype="correspondsTo"/>
+                        <link type="estates" corresp="#estates/208" subtype="isWithin"/>
                     </org>
                     <org>
                         <orgName>Sanctus Laurentius; plebs (Pegognaga; Mantova)</orgName>
@@ -3456,7 +3537,7 @@
                         con l'attuale oratorio di S. Lorenzo presso Pegognaga. Interessante è anche l'ipotesi che la pieve possa invece corrispondere alla chiesa di S. Lorenzo di Quingentole, attuale frazione San Lorenzo
                         del comune mantovano. Cfr. per entrambe le ipotesi Bonacini 2001, pp. 213-230.</note>
                         <link type="places" corresp="#places/1535" subtype="correspondsTo"/>
-                        <link type="estates" corresp="#estates/1100" subtype="dependsOn"/>
+                        <link type="estates" corresp="#estates/1100" subtype="isWithin"/>
                     </org>
                     <org>
                         <orgName>Sancta Maria in Solara; plebs (Bomporto; Modena)</orgName>
@@ -3470,7 +3551,7 @@
                         <link type="juridical_persons" corresp="#juridical_persons/47"
                             subtype="isOwnedBy"/>
                         <link type="people" corresp="#people/1233" subtype="hostilityFor"/>
-                        <link type="places" corresp="#places/1504" subtype="correspondsTo"/>
+                        <link type="places" corresp="#places/1504" subtype="isWithin"/>
                     </org>
                     <org>
                         <orgName>Sancta Maria sitam super ripam fluvii Burriane; ecclesia (Burana;
@@ -3478,7 +3559,7 @@
                         <orgName type="other"/>
                         <idno>juridical_persons/1106</idno>
                         <note>La chiesa si trovava nel domocoltile dell'omonima corte.</note>
-                        <link type="places" corresp="#places/1538" subtype="correspondsTo"/>
+                        <link type="places" corresp="#places/1538" subtype="isWithin"/>
                         <link type="juridical_persons" corresp="#juridical_persons/47"
                             subtype="dependsOn"/>
                         <link type="estates" corresp="#estates/294" subtype="dependsOn"/>
@@ -4253,8 +4334,8 @@
                         <link type="people" corresp="#people/79" subtype="link"/>
                     </org>
                     <org>
-                        <orgName>Sanctus Cesareus; <foreign>ecclesia</foreign>
-                            (San Cesario sul Panaro; Modena)</orgName>
+                        <orgName>Sanctus Cesareus; ecclesia (San Cesario sul Panaro;
+                            Modena)</orgName>
                         <orgName type="other"/>
                         <idno>juridical_persons/1469</idno>
                         <note/>
@@ -4265,6 +4346,7 @@
                         <link type="people" corresp="#people/79" subtype="link"/>
                         <link type="people" corresp="#people/233" subtype="link"/>
                         <link type="people" corresp="#people/92" subtype="link"/>
+                        <link type="estates" corresp="#estates/155" subtype="dependsOn"/>
                     </org>
                     <org>
                         <orgName>Celavinnium; <foreign>plebs</foreign>
@@ -4510,22 +4592,55 @@
                         <orgName type="other">San Vincenzo al Volturno</orgName>
                         <idno>juridical_persons/1900</idno>
                         <note>Marazzi 2012</note>
-                        <link type="places" corresp="#places/1900" subtype="proximity"/>
+                        <link type="places" corresp="#places/609" subtype="proximity"/>
+                        <link type="people" corresp="#people/2000" subtype="hostilityFor"/>
+                        <link type="people" corresp="#people/239" subtype="link"/>
+                        <link type="people" corresp="#people/1987" subtype="link"/>
+                        <link type="people" corresp="#people/1902" subtype="link"/>
+                        <link type="people" corresp="#people/1913" subtype="link"/>
+                        <link type="people" corresp="#people/186" subtype="link"/>
+                        <link type="people" corresp="#people/194" subtype="link"/>
                         <link type="people" corresp="#people/305" subtype="link"/>
                         <link type="people" corresp="#people/154" subtype="link"/>
-                        <link type="people" corresp="#people/186" subtype="link"/>
-                        <link type="people" corresp="#people/1902" subtype="link"/>
+                        <link type="people" corresp="#people/1906" subtype="link"/>
                         <link type="people" corresp="#people/1974" subtype="link"/>
-                        <link type="estates" corresp="#estates/1411" subtype="link"/>
-                        <link type="estates" corresp="#estates/313" subtype="link"/>
-                        <link type="estates" corresp="#estates/1902" subtype="isWithin"/>
-                        <link type="estates" corresp="#estates/1914" subtype="link"/>
                         <link type="people" corresp="#people/1988" subtype="link"/>
+                        <link type="people" corresp="#people/1991" subtype="link"/>
                         <link type="people" corresp="#people/110" subtype="link"/>
                         <link type="people" corresp="#people/261" subtype="link"/>
                         <link type="people" corresp="#people/130" subtype="link"/>
                         <link type="people" corresp="#people/79" subtype="link"/>
                         <link type="people" corresp="#people/72" subtype="link"/>
+                        <link type="people" corresp="#people/351" subtype="link"/>
+                        <link type="people" corresp="#people/1931" subtype="link"/>
+                        <link type="people" corresp="#people/1932" subtype="link"/>
+                        <link type="people" corresp="#people/110" subtype="link"/>
+                        <link type="people" corresp="#people/157" subtype="link"/>
+                        <link type="people" corresp="#people/156" subtype="link"/>
+                        <link type="people" corresp="#people/315" subtype="link"/>
+                        <link type="people" corresp="#people/1954" subtype="link"/>
+                        <link type="people" corresp="#people/1933" subtype="hostilityFor"/>
+                        <link type="people" corresp="#people/303" subtype="link"/>
+                        <link type="people" corresp="#people/158" subtype="link"/>
+                        <link type="people" corresp="#people/373" subtype="link"/>
+                        <link type="people" corresp="#people/118" subtype="link"/>
+                        <link type="people" corresp="#people/173" subtype="link"/>
+                        <link type="people" corresp="#people/1971" subtype="hostilityFor"/>
+                        <link type="people" corresp="#people/1902" subtype="link"/>
+                        <link type="people" corresp="#people/186" subtype="link"/>
+                        <link type="people" corresp="#people/14" subtype="link"/>
+                        <link type="people" corresp="#people/233" subtype="link"/>
+                        <link type="people" corresp="#people/234" subtype="link"/>
+                        <link type="people" corresp="#people/249" subtype="link"/>
+                        <link type="people" corresp="#people/9" subtype="link"/>
+                        <link type="people" corresp="#people/2400" subtype="link"/>
+                        <link type="people" corresp="#people/1998" subtype="link"/>
+                        <link type="people" corresp="#people/1999" subtype="link"/>
+                        <link type="people" corresp="#people/236" subtype="link"/>
+                        <link type="people" corresp="#people/300" subtype="link"/>
+                        <link type="people" corresp="#people/2410" subtype="link"/>
+                        <link type="people" corresp="#people/2411" subtype="link"/>
+                        <link type="people" corresp="#people/240" subtype="link"/>
                     </org>
                     <org>
                         <orgName>Sancta Maria de Loco Sano; monasterium (Avellino)</orgName>
@@ -4533,11 +4648,30 @@
                         <idno>juridical_persons/1901</idno>
                         <note>Palmieri 1996: 76; Zornetta 2020a: 62-65</note>
                         <link type="places" corresp="#places/2301" subtype="isWithin"/>
-                        <link type="juridical_persons" corresp="#juridical_persons/1900" subtype="link"/>
-                        <link type="places" corresp="#places/2302" subtype="link"/>
-                        <link type="places" corresp="#places/2303" subtype="link"/>
-                        <link type="places" corresp="#places/110" subtype="link"/>
-                        <link type="places" corresp="#places/2304" subtype="link"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1900"
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/91" subtype="link"/>
+                        <link type="people" corresp="#people/1927" subtype="link"/>
+                        <link type="people" corresp="#people/2002" subtype="link"/>
+                        <link type="people" corresp="#people/374" subtype="link"/>
+                        <link type="people" corresp="#people/1974" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1975" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/261" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1992" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/130" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/2411" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/2410" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1966" subtype="isConfirmedTo"/> 
+                        <link type="people" corresp="#people/239" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1966" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/1955" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/240" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/173" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/233" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/234" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1939" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/300" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/305" subtype="link"/>
                     </org>
                     <org>
                         <orgName>Sanctus Medicus <foreign>in loco Forano</foreign>;
@@ -4553,10 +4687,11 @@
                         <idno>juridical_persons/1903</idno>
                         <note/>
                         <link type="estates" corresp="#estates/1907" subtype="isWithin"/>
-                        <link type="people" corresp="#people/1904" subtype="link"/>
-                        <link type="people" corresp="#people/1903" subtype="link"/>
+                        <link type="people" corresp="#people/1903" subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/186" subtype="isGrantedBy"/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/1904" subtype="isGrantedBy"/>
                     </org>
                     <org>
                         <orgName>Sancta Maria de Oliveto; ecclesia (Isernia)</orgName>
@@ -4564,14 +4699,34 @@
                         <idno>juridical_persons/1904</idno>
                         <note>Marazzi 2013: 188</note>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="isOwnedBy"/>
-                        <link type="people" corresp="#people/186" subtype="link"/>
-                        <link type="people" corresp="#people/1903" subtype="link"/>
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/239" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1966" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/1989" subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/186" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1903" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/1974" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1975" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/261" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1992" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/130" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/186" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/303" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/1903" subtype="isConfirmedTo"/>
                         <link type="places" corresp="#places/2330" subtype="isWithin"/>
                         <link type="places" corresp="#places/2333" subtype="proximity"/>
-                        <link type="estates" corresp="#estates/1911" subtype="proximity"/>
                         <link type="estates" corresp="#estates/1901" subtype="isWithin"/>
                         <link type="people" corresp="#people/1989" subtype="link"/>
+                        <link type="people" corresp="#people/1955" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/173" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/305" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/154" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1938" subtype="isConfirmedTo"/>
+                        <link type="places" corresp="#places/609" subtype="proximity"/>
+                        <link type="places" corresp="#places/2310" subtype="proximity"/>
+                        <link type="people" corresp="#people/1939" subtype="hostilityFor"/>
+                        <link type="people" corresp="#people/1940" subtype="hostilityFor"/>
+                        <link type="people" corresp="#people/1988" subtype="link"/>
                     </org>
                     <org>
                         <orgName>Sancta Maria de Campiniano; ecclesia (Venafro)</orgName>
@@ -4589,7 +4744,7 @@
                         <orgName type="other"/>
                         <idno>juridical_persons/1906</idno>
                         <note>Zornetta 2020a: 69</note>
-                        <link type="people" corresp="#people/1919" subtype="link"/>
+                        <link type="people" corresp="#people/1906" subtype="link"/>
                         <link type="people" corresp="#people/1918" subtype="link"/>
                         <link type="places" corresp="#places/2316" subtype="isWithin"/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
@@ -4616,8 +4771,28 @@
                         <idno>juridical_persons/1908</idno>
                         <note>Palmieri 1996: 76; Zornetta 2020a: 60</note>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/1931" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/1932" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/115" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1933" subtype="hostilityFor"/>
+                        <link type="people" corresp="#people/1926" subtype="hostilityFor"/>
+                        <link type="people" corresp="#people/1974" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1975" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/261" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1992" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/130" subtype="isConfirmedBy"/>
                         <link type="places" corresp="#places/2321" subtype="isWithin"/>
+                        <link type="people" corresp="#people/1955" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/173" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/233" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/234" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/239" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1966" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/1939" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/300" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/236" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/2409" subtype="isConfirmedTo"/>
                     </org>
                     <org>
                         <orgName>Sanctus Vincentius; cella (Capua)</orgName>
@@ -4625,11 +4800,16 @@
                         <idno>juridical_persons/1909</idno>
                         <note>Visentin 2008: 40-41</note>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/1974" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1975" subtype="isConfirmedTo"/>
                         <link type="places" corresp="#places/173" subtype="isWithin"/>
-                        <link type="people" corresp="#people/305" subtype="link"/>
-                        <link type="people" corresp="#people/154" subtype="link"/>
-                        <link type="people" corresp="#people/1938" subtype="link"/>
+                        <link type="people" corresp="#people/305" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/154" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1938" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/194" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/1939" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/300" subtype="isConfirmedBy"/>
                     </org>
                     <org>
                         <orgName>Sancta Christina; ecclesia (Isernia)</orgName>
@@ -4637,14 +4817,27 @@
                         <idno>juridical_persons/1910</idno>
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/1974" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1975" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/261" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1992" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/130" subtype="isConfirmedBy"/>
                         <link type="estates" corresp="#estates/1916" subtype="isWithin"/>
-                        <link type="people" corresp="#people/305" subtype="link"/>
-                        <link type="people" corresp="#people/154" subtype="link"/>
-                        <link type="people" corresp="#people/1938" subtype="link"/>
+                        <link type="people" corresp="#people/305" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/154" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1938" subtype="isConfirmedTo"/>
                         <link type="places" corresp="#places/2333" subtype="proximity"/>
-                        <link type="estates" corresp="#estates/1911" subtype="proximity"/>
+                        <link type="places" corresp="#places/2330" subtype="proximity"/>
                         <link type="estates" corresp="#estates/1901" subtype="isWithin"/>
+                        <link type="people" corresp="#people/1955" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/173" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/110" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1990" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/173" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1955" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/239" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1966" subtype="isConfirmedTo"/>
                     </org>
                     <org>
                         <orgName>Sanctus Quiricus <foreign>in Morcano</foreign>; ecclesia
@@ -4653,11 +4846,13 @@
                         <idno>juridical_persons/1911</idno>
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
                         <link type="places" corresp="#places/609" subtype="proximity"/>
-                        <link type="estates" corresp="#estates/1900" subtype="proximity"/>
                         <link type="estates" corresp="#estates/1901" subtype="isWithin"/>
                         <link type="places" corresp="#places/2310" subtype="proximity"/>
+                        <link type="people" corresp="#people/1939" subtype="hostilityFor"/>
+                        <link type="people" corresp="#people/1940" subtype="hostilityFor"/>
+                        <link type="places" corresp="#places/2332" subtype="isWithin"/>
                     </org>
                     <org>
                         <orgName>Sanctus Salvator in Alife; monasterium (Caserta)</orgName>
@@ -4668,9 +4863,34 @@
                             subtype="dependsOn"/>
                         <link type="places" corresp="#places/112" subtype="isWithin"/>
                         <link type="estates" corresp="#estates/1905" subtype="isWithin"/>
+                        <link type="people" corresp="#people/303" subtype="isGrantedBy"/>
                         <link type="people" corresp="#people/72" subtype="isConfirmedBy"/>
                         <link type="people" corresp="#people/79" subtype="isConfirmedBy"/>
                         <link type="places" corresp="#places/2375" subtype="proximity"/>
+                        <link type="people" corresp="#people/1974" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1975" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/261" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1992" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/130" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/2411" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/2410" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1966" subtype="isConfirmedTo"/>   
+                        <link type="people" corresp="#people/239" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1966" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/1955" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/240" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/173" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1945" subtype="hostilityFor"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1913"
+                            subtype="hostilityFor"/>
+                        <link type="people" corresp="#people/1939" subtype="hostilityFor"/>
+                        <link type="people" corresp="#people/1981" subtype="hostilityFor"/>
+                        <link type="people" corresp="#people/1982" subtype="hostilityFor"/>
+                        <link type="people" corresp="#people/233" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/234" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1939" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/236" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/2409" subtype="isConfirmedTo"/>
                     </org>
                     <org>
                         <orgName>Sancta Maria; episcopium (Benevento)</orgName>
@@ -4703,22 +4923,21 @@
                         <idno>juridical_persons/1916</idno>
                         <note/>
                         <link type="places" corresp="#places/2335" subtype="isWithin"/>
-                        <link type="estates" corresp="#estates/1913" subtype="isWithin"/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
-                        <link type="people" corresp="#people/1954" subtype="link"/>
-                        <link type="people" corresp="#people/1955" subtype="link"/>
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/1954" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/1955" subtype="isGrantedTo"/>
                     </org>
                     <org>
                         <orgName>Sanctus Rosius; ecclesia (Caserta)</orgName>
                         <orgName type="other"/>
                         <idno>juridical_persons/1917</idno>
-                        <note/>
+                        <note>Tagliente 2019</note>
                         <link type="places" corresp="#places/2335" subtype="isWithin"/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
-                        <link type="people" corresp="#people/1954" subtype="link"/>
-                        <link type="people" corresp="#people/1955" subtype="link"/>
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/1954" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/1955" subtype="isGrantedTo"/>
                     </org>
                     <org>
                         <orgName>Sanctus Martinus <foreign>in monte Marsico</foreign>; monasterium
@@ -4728,6 +4947,21 @@
                         <note/>
                         <link type="places" corresp="#places/2345" subtype="isWithin"/>
                         <link type="people" corresp="#people/158" subtype="link"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1900"
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/1974" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1975" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/261" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1992" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/130" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1955" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/173" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/233" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/234" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1939" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/300" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/239" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1966" subtype="isConfirmedTo"/>
                     </org>
                     <org>
                         <orgName>Sancta Crucis <foreign>in monte Marsico</foreign>; monasterium
@@ -4737,7 +4971,20 @@
                         <note/>
                         <link type="places" corresp="#places/2345" subtype="isWithin"/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/1974" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1975" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/261" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1992" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/130" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1955" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/173" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/233" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/234" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1939" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/300" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/239" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1966" subtype="isConfirmedTo"/>
                     </org>
                     <org>
                         <orgName>Sancta Maria iuxta Sextum; ecclesia</orgName>
@@ -4746,11 +4993,11 @@
                         <note/>
                         <link type="places" corresp="#places/2346" subtype="bordersOn"/>
                         <link type="places" corresp="#places/2300" subtype="proximity"/>
-                        <link type="people" corresp="#people/1902" subtype="link"/>
-                        <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
-                        <link type="people" corresp="#people/2001" subtype="link"/>
                         <link type="places" corresp="#places/2347" subtype="isWithin"/>
+                        <link type="people" corresp="#people/1902" subtype="isGrantedby"/>
+                        <link type="people" corresp="#people/2001" subtype="isGrantedto"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1900"
+                            subtype="dependsOn"/>
                     </org>
                     <org>
                         <orgName>Sancta Rufina; ecclesia</orgName>
@@ -4768,10 +5015,29 @@
                         <link type="places" corresp="#places/2348" subtype="proximity"/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
                             subtype="dependsOn"/>
-                        <link type="people" corresp="#people/72" subtype="link"/>
-                        <link type="people" corresp="#people/79" subtype="link"/>
+                        <link type="estates" corresp="#estates/313" subtype="isWithin"/>
+                        <link type="people" corresp="#people/72" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/79" subtype="isConfirmedBy"/>
                         <link type="people" corresp="#people/167" subtype="link"/>
                         <link type="people" corresp="#people/157" subtype="link"/>
+                        <link type="people" corresp="#people/1974" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1975" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/261" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1992" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/130" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/2411" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/2410" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1966" subtype="isConfirmedTo"/> 
+                        <link type="people" corresp="#people/239" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1955" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/173" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/233" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/234" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1939" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/236" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/2409" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/300" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/240" subtype="isConfirmedBy"/>
                     </org>
                     <org>
                         <orgName>Sanctus Adeodatus (Benevento)</orgName>
@@ -4780,7 +5046,9 @@
                         <note/>
                         <link type="places" corresp="#places/110" subtype="isWithin"/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/1974" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1975" subtype="isConfirmedTo"/>
                     </org>
                     <org>
                         <orgName>Sanctus Stephanus de Loco Sano; cella (Avellino)</orgName>
@@ -4788,8 +5056,10 @@
                         <idno>juridical_persons/1924</idno>
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
                         <link type="places" corresp="#places/2301" subtype="isWithin"/>
+                        <link type="people" corresp="#people/1974" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1975" subtype="isConfirmedTo"/>
                     </org>
                     <org>
                         <orgName>Sanctus Georgius; monasterium (Salerno)</orgName>
@@ -4798,9 +5068,27 @@
                         <note/>
                         <link type="places" corresp="#places/84" subtype="isWithin"/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
-                        <link type="people" corresp="#people/72" subtype="link"/>
-                        <link type="people" corresp="#people/79" subtype="link"/>
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/1974" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1975" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/72" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/79" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/261" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1992" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/130" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/239" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1966" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/1955" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/173" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/118" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/2001" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/233" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/234" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1939" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/233" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/234" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1939" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/300" subtype="isConfirmedBy"/>
                     </org>
                     <org>
                         <orgName>Sanctus Iohannes de Lucera; cella (Foggia)</orgName>
@@ -4808,17 +5096,44 @@
                         <idno>juridical_persons/1926</idno>
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/1974" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1975" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/261" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1992" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/130" subtype="isConfirmedBy"/>
                         <link type="places" corresp="#places/2349" subtype="isWithin"/>
+                        <link type="people" corresp="#people/1955" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/173" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/233" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/234" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1939" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/239" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1966" subtype="isConfirmedTo"/>
                     </org>
                     <org>
                         <orgName>Sanctus Iohannes de Lisina; cella (Foggia)</orgName>
-                        <orgName type="other"/>
+                        <orgName type="other">Sanctus Iohannes de Lesina</orgName>
                         <idno>juridical_persons/1927</idno>
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/1974" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1975" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/261" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1992" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/130" subtype="isConfirmedBy"/>
                         <link type="places" corresp="#places/554" subtype="isWithin"/>
+                        <link type="people" corresp="#people/1955" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/173" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/233" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/234" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1939" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/239" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1966" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/1955" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/2404" subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/1955" subtype="isClaimedBy"/>
                     </org>
                     <org>
                         <orgName>Sancta Maria de Planisi; ecclesia (Campobasso)</orgName>
@@ -4826,8 +5141,21 @@
                         <idno>juridical_persons/1928</idno>
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/1974" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1975" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/261" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1992" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/130" subtype="isConfirmedBy"/>
                         <link type="places" corresp="#places/2352" subtype="isWithin"/>
+                        <link type="people" corresp="#people/1955" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/173" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/233" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/234" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1939" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/300" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/239" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1966" subtype="isConfirmedTo"/>
                     </org>
                     <org>
                         <orgName>Sanctus Petrus de Vipera; cella (Campobasso)</orgName>
@@ -4835,8 +5163,23 @@
                         <idno>juridical_persons/1929</idno>
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/1974" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1975" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/261" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1992" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/130" subtype="isConfirmedBy"/>
                         <link type="places" corresp="#places/2353" subtype="isWithin"/>
+                        <link type="people" corresp="#people/1955" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/173" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/233" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/234" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1939" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/300" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/239" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1966" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/236" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/2409" subtype="isConfirmedTo"/>
                     </org>
                     <org>
                         <orgName>Sanctus Vincentius de Tocco; cella (Benevento)</orgName>
@@ -4845,7 +5188,21 @@
                         <note/>
                         <link type="places" corresp="#places/2354" subtype="isWithin"/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/1974" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1975" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/261" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1992" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/130" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1955" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/173" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/233" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/234" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1939" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/239" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1966" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/236" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/2409" subtype="isConfirmedTo"/>
                     </org>
                     <org>
                         <orgName>Sanctus Apollinaris de Boiano; cella (Campobasso)</orgName>
@@ -4853,7 +5210,9 @@
                         <idno>juridical_persons/1931</idno>
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/1974" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1975" subtype="isConfirmedTo"/>
                         <link type="places" corresp="#places/2355" subtype="isWithin"/>
                     </org>
                     <org>
@@ -4863,7 +5222,24 @@
                         <note/>
                         <link type="places" corresp="#places/2350" subtype="isWithin"/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/1988" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/1991" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/1939" subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/1955" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/1974" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1975" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/261" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1992" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/130" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1955" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/173" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/233" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/234" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1939" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/239" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1966" subtype="isConfirmedTo"/>
+                        
                     </org>
                     <org>
                         <orgName>Sanctus Sossius; ecclesia (Caserta)</orgName>
@@ -4871,11 +5247,31 @@
                         <idno>juridical_persons/1933</idno>
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
                         <link type="places" corresp="#places/605" subtype="isWithin"/>
                         <link type="places" corresp="#places/2351" subtype="isWithin"/>
-                        <link type="people" corresp="#people/72" subtype="link"/>
-                        <link type="people" corresp="#people/79" subtype="link"/>
+                        <link type="people" corresp="#people/72" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/79" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1974" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1975" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/261" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1992" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/130" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/2410" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1966" subtype="isConfirmedTo"/>         
+                        <link type="people" corresp="#people/2411" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/239" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1988" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/1991" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/1939" subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/1955" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/173" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/2001" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/118" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/186" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/1903" subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/233" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/234" subtype="isConfirmedBy"/>
                     </org>
                     <org>
                         <orgName>Sanctus Vincentius de Cuma; cella (Napoli)</orgName>
@@ -4883,8 +5279,22 @@
                         <idno>juridical_persons/1934</idno>
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
                         <link type="places" corresp="#places/2356" subtype="isWithin"/>
+                        <link type="people" corresp="#people/1974" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1975" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/261" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1992" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/130" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1955" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/173" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/118" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/2001" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/233" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/234" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1939" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/239" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1966" subtype="isConfirmedTo"/>
                     </org>
                     <org>
                         <orgName>Sanctus Petrus in Oliveto; cella </orgName>
@@ -4892,7 +5302,9 @@
                         <idno>juridical_persons/1935</idno>
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/1974" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1975" subtype="isConfirmedTo"/>
                     </org>
                     <org>
                         <orgName>Sanctus Vincentius <foreign>de Tremoiola</foreign>; cella (Caserta)</orgName>
@@ -4900,9 +5312,26 @@
                         <idno>juridical_persons/1936</idno>
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/1974" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1975" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/261" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1992" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/130" subtype="isConfirmedBy"/>
                         <link type="places" corresp="#places/605" subtype="isWithin"/>
                         <link type="places" corresp="#places/2351" subtype="isWithin"/>
+                        <link type="people" corresp="#people/1955" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/173" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/118" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/2001" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/233" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/234" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1939" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/1988" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/1991" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/1939" subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/239" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1966" subtype="isConfirmedTo"/>
                     </org>
                     <org>
                         <orgName>Sanctus Petrus <foreign>de Tontolo</foreign>; monasterium (Caserta)</orgName>
@@ -4910,11 +5339,26 @@
                         <idno>juridical_persons/1937</idno>
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/1974" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1975" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/261" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1992" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/130" subtype="isConfirmedBy"/>
                         <link type="places" corresp="#places/173" subtype="proximity"/>
                             <link type="places" corresp="#places/605" subtype="isWithin"/>
                             <link type="places" corresp="#places/2803" subtype="proximity"/>
                             <link type="places" corresp="#places/2804" subtype="isWithin"/>
+                        <link type="people" corresp="#people/1955" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/173" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/2001" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/118" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/233" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/234" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1939" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/300" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/239" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1966" subtype="isConfirmedTo"/>
                     </org>
                     <org>
                         <orgName>Sancta Colomba de Sora; cella (Frosinone)</orgName>
@@ -4922,8 +5366,17 @@
                         <idno>juridical_persons/1938</idno>
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/1974" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1975" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/261" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1992" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/130" subtype="isConfirmedBy"/>
                         <link type="places" corresp="#places/2001" subtype="isWithin"/>
+                        <link type="people" corresp="#people/233" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/234" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1939" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/300" subtype="isConfirmedBy"/>
                     </org>
                     <org>
                         <orgName>Sanctus Donatus de Comino; cella (Frosinone)</orgName>
@@ -4931,8 +5384,17 @@
                         <idno>juridical_persons/1939</idno>
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/1974" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1975" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/261" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1992" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/130" subtype="isConfirmedBy"/>
                         <link type="places" corresp="#places/2358" subtype="isWithin"/>
+                        <link type="people" corresp="#people/233" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/234" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1939" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/300" subtype="isConfirmedBy"/>
                     </org>
                     <org>
                         <orgName>Sancta Maria <foreign>in Apinianici</foreign>; monasterium (L'Aquila)</orgName>
@@ -4940,10 +5402,29 @@
                         <idno>juridical_persons/1940</idno>
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/1974" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1975" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/261" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1992" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/130" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/2411" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/2410" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1966" subtype="isConfirmedTo"/>   
                         <link type="places" corresp="#places/2359" subtype="isWithin"/>
-                        <link type="people" corresp="#people/72" subtype="link"/>
-                        <link type="people" corresp="#people/79" subtype="link"/>
+                        <link type="people" corresp="#people/72" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/79" subtype="isConfirmedBy"/>
+                        <link type="places" corresp="#places/2830" subtype="proximity"/>
+                        <link type="people" corresp="#people/239" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1955" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/240" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/173" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/233" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/234" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1939" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/300" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/236" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/2409" subtype="isConfirmedTo"/>
                     </org>
                     <org>
                         <orgName>Sanctus Maurus <foreign>de Anglone</foreign>; cella (Isernia)</orgName>
@@ -4951,8 +5432,16 @@
                         <idno>juridical_persons/1941</idno>
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/1974" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1975" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/261" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1992" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/130" subtype="isConfirmedBy"/>
                         <link type="places" corresp="#places/2360" subtype="isWithin"/>
+                        <link type="people" corresp="#people/233" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/234" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1939" subtype="isConfirmedTo"/>
                     </org>
                     <org>
                         <orgName>Sanctus Eleutherius <foreign>in Fundiliano</foreign> (Isernia)</orgName>
@@ -4960,26 +5449,41 @@
                         <idno>juridical_persons/1942</idno>
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/1974" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1975" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/261" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1992" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/130" subtype="isConfirmedBy"/>
                         <link type="places" corresp="#places/2361" subtype="isWithin"/>
+                        <link type="people" corresp="#people/1955" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/173" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/233" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/234" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1939" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/239" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1966" subtype="isConfirmedTo"/>
                     </org>
                     <org>
-                        <orgName>Sancta Agatha in Torcino; cella (Caserta)</orgName>
+                        <orgName>Sancti Agatha et Petri in Torcino; cella (Caserta)</orgName>
                         <orgName type="other"/>
                         <idno>juridical_persons/1943</idno>
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/1974" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1975" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/261" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1992" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/130" subtype="isConfirmedBy"/>
                         <link type="places" corresp="#places/2362" subtype="isWithin"/>
-                    </org>
-                    <org>
-                        <orgName>Sanctus Petrus in Torcino; cella (Caserta)</orgName>
-                        <orgName type="other"/>
-                        <idno>juridical_persons/1944</idno>
-                        <note/>
-                        <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
-                        <link type="places" corresp="#places/2362" subtype="isWithin"/>
+                        <link type="people" corresp="#people/1955" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/173" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/233" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/234" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1939" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/239" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1966" subtype="isConfirmedTo"/>
                     </org>
                     <org>
                         <orgName>Sancta Maria in Calinole; cella (Caserta)</orgName>
@@ -4987,7 +5491,11 @@
                         <idno>juridical_persons/1945</idno>
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/1974" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1975" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/261" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1992" subtype="isConfirmedTo"/>
                         <link type="places" corresp="#places/2363" subtype="isWithin"/>
                     </org>
                     <org>
@@ -4996,7 +5504,9 @@
                         <idno>juridical_persons/1946</idno>
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/1974" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1975" subtype="isConfirmedTo"/>
                         <link type="places" corresp="#places/2363" subtype="isWithin"/>
                     </org>
                     <org>
@@ -5005,17 +5515,33 @@
                         <idno>juridical_persons/1947</idno>
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/1974" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1975" subtype="isConfirmedTo"/>
                         <link type="places" corresp="#places/2364" subtype="isWithin"/>
+                        <link type="people" corresp="#people/239" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1966" subtype="isConfirmedTo"/>
                     </org>
                     <org>
                         <orgName>Sanctus Hilarius <foreign>in monte Marsico</foreign>; cella (Caserta)</orgName>
-                        <orgName type="other"/>
+                        <orgName type="other">Sant'Ilario al monte Massico</orgName>
                         <idno>juridical_persons/1949</idno>
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/1974" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1975" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/261" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1992" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/130" subtype="isConfirmedBy"/>
                         <link type="places" corresp="#places/2345" subtype="isWithin"/>
+                        <link type="people" corresp="#people/1955" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/173" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/233" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/234" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1939" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/239" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1966" subtype="isConfirmedTo"/>
                     </org>
                     <org>
                         <orgName>Sancta Maria <foreign>de Fauciano</foreign>; ecclesia (Caserta)</orgName>
@@ -5023,7 +5549,9 @@
                         <idno>juridical_persons/1950</idno>
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/1974" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1975" subtype="isConfirmedTo"/>
                         <link type="places" corresp="#places/2365" subtype="isWithin"/>
                     </org>
                     <org>
@@ -5032,7 +5560,9 @@
                         <idno>juridical_persons/1951</idno>
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/1974" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1975" subtype="isConfirmedTo"/>
                         <link type="places" corresp="#places/571" subtype="isWithin"/>
                     </org>
                     <org>
@@ -5041,7 +5571,9 @@
                         <idno>juridical_persons/1952</idno>
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/1974" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1975" subtype="isConfirmedTo"/>
                         <link type="places" corresp="#places/174" subtype="isWithin"/>
                     </org>
                     <org>
@@ -5050,7 +5582,9 @@
                         <idno>juridical_persons/1953</idno>
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/1974" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1975" subtype="isConfirmedTo"/>
                         <link type="places" corresp="#places/174" subtype="isWithin"/>
                     </org>
                     <org>
@@ -5059,8 +5593,20 @@
                         <idno>juridical_persons/1955</idno>
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/1974" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1975" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/261" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1992" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/130" subtype="isConfirmedBy"/>
                         <link type="places" corresp="#places/177" subtype="isWithin"/>
+                        <link type="people" corresp="#people/1955" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/173" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/233" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/234" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1939" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/239" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1966" subtype="isConfirmedTo"/>
                     </org>
                     <org>
                         <orgName>Sancta Maria <foreign>in Duas Basilicas</foreign>; cella (Chieti)</orgName>
@@ -5068,11 +5614,30 @@
                         <idno>juridical_persons/1956</idno>
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/1974" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1975" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/261" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1992" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/130" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/2411" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/2410" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1966" subtype="isConfirmedTo"/>   
                         <link type="places" corresp="#places/2323" subtype="proximity"/>
                         <link type="places" corresp="#places/1820" subtype="proximity"/>
-                        <link type="people" corresp="#people/72" subtype="link"/>
-                        <link type="people" corresp="#people/79" subtype="link"/>
+                        <link type="people" corresp="#people/72" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/79" subtype="isConfirmedBy"/>
+                        <link type="estates" corresp="#estates/122" subtype="isWithin"/>
+                        <link type="people" corresp="#people/239" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/240" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1955" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/173" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/233" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/234" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1939" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/300" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/236" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/2409" subtype="isConfirmedTo"/>
                     </org>
                     <org>
                         <orgName>Sanctus Vincentius ad Tuscianum; cella (Salerno)</orgName>
@@ -5080,8 +5645,19 @@
                         <idno>juridical_persons/1957</idno>
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/1974" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1975" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/261" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1992" subtype="isConfirmedTo"/>
                         <link type="places" corresp="#places/2369" subtype="proximity"/>
+                        <link type="people" corresp="#people/1955" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/173" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/118" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/2001" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/233" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/234" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1939" subtype="isConfirmedTo"/>
                     </org>
                     <org>
                         <orgName>Sanctus Angelus in Salavento; cella (Chieti)</orgName>
@@ -5089,7 +5665,9 @@
                         <idno>juridical_persons/1958</idno>
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/1974" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1975" subtype="isConfirmedTo"/>
                         <link type="places" corresp="#places/2368" subtype="isWithin"/>
                         <link type="estates" corresp="#estates/1411" subtype="isWithin"/>
                     </org>
@@ -5099,8 +5677,20 @@
                         <idno>juridical_persons/1959</idno>
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/1974" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1975" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/261" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1992" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/130" subtype="isConfirmedBy"/>
                         <link type="places" corresp="#places/2370" subtype="proximity"/>
+                        <link type="people" corresp="#people/1955" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/173" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/118" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/2001" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/233" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/234" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1939" subtype="isConfirmedTo"/>
                     </org>
                     <org>
                         <orgName>Sanctus Vincentius ad Tenza; cella (Salerno)</orgName>
@@ -5108,8 +5698,20 @@
                         <idno>juridical_persons/1960</idno>
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/1974" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1975" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/261" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1992" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/130" subtype="isConfirmedBy"/>
                         <link type="places" corresp="#places/2305" subtype="proximity"/>
+                        <link type="people" corresp="#people/1955" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/173" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/118" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/2001" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/233" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/234" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1939" subtype="isConfirmedTo"/>
                     </org>
                     <org>
                         <orgName>Sancta Maria de Casalpiano; cella (Campobasso)</orgName>
@@ -5117,7 +5719,9 @@
                         <idno>juridical_persons/1961</idno>
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/1974" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1975" subtype="isConfirmedTo"/>
                         <link type="places" corresp="#places/2371" subtype="isWithin"/>
                     </org>
                     <org>
@@ -5126,8 +5730,15 @@
                         <idno>juridical_persons/1962</idno>
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/1974" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1975" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/2411" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/2410" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1966" subtype="isConfirmedTo"/>   
                         <link type="places" corresp="#places/2372" subtype="proximity"/>
+                        <link type="people" corresp="#people/236" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/2409" subtype="isConfirmedTo"/>
                     </org>
                     <org>
                         <orgName>Sanctus Andreas ad Trignum; cella (Campobasso)</orgName>
@@ -5135,7 +5746,9 @@
                         <idno>juridical_persons/1963</idno>
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/1974" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1975" subtype="isConfirmedTo"/>
                         <link type="places" corresp="#places/2372" subtype="proximity"/>
                     </org>
                     <org>
@@ -5144,7 +5757,9 @@
                         <idno>juridical_persons/1964</idno>
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/1974" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1975" subtype="isConfirmedTo"/>
                         <link type="places" corresp="#places/2372" subtype="proximity"/>
                     </org>
                     <org>
@@ -5153,7 +5768,9 @@
                         <idno>juridical_persons/1965</idno>
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/1974" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1975" subtype="isConfirmedTo"/>
                         <link type="places" corresp="#places/2372" subtype="proximity"/>
                     </org>
                     <org>
@@ -5162,8 +5779,11 @@
                         <idno>juridical_persons/1966</idno>
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/1974" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1975" subtype="isConfirmedTo"/>
                         <link type="places" corresp="#places/2366" subtype="isWithin"/>
+                        <link type="estates" corresp="#estates/313" subtype="isWithin"/>
                     </org>
                     <org>
                         <orgName>Sanctus Petrus de Trita; monasterium (L'Aquila)</orgName>
@@ -5171,11 +5791,25 @@
                         <idno>juridical_persons/1967</idno>
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/1974" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1975" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/261" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1992" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/130" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/239" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1966" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/1955" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/173" subtype="isConfirmedBy"/>
                         <link type="places" corresp="#places/2357" subtype="isWithin"/>
+                        <link type="places" corresp="#places/110" subtype="proximity"/>
                         <link type="estates" corresp="#estates/313" subtype="isWithin"/>
-                        <link type="people" corresp="#people/72" subtype="link"/>
-                        <link type="people" corresp="#people/79" subtype="link"/>
+                        <link type="people" corresp="#people/72" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/79" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/233" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/234" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1939" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/300" subtype="isConfirmedBy"/>
                     </org>
                     <org>
                         <orgName>Sanctus Petrus in Accole; ecclesia (Pescara)</orgName>
@@ -5183,7 +5817,9 @@
                         <idno>juridical_persons/1968</idno>
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/1974" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1975" subtype="isConfirmedTo"/>
                         <link type="places" corresp="#places/2367" subtype="isWithin"/>
                         <link type="estates" corresp="#estates/313" subtype="isWithin"/>
                     </org>
@@ -5193,7 +5829,11 @@
                         <idno>juridical_persons/1969</idno>
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/1974" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1975" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/239" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1966" subtype="isConfirmedTo"/>
                         <link type="estates" corresp="#estates/313" subtype="isWithin"/>
                         <link type="places" corresp="#places/570" subtype="proximity"/>
                     </org>
@@ -5203,7 +5843,9 @@
                         <idno>juridical_persons/1970</idno>
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/1974" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1975" subtype="isConfirmedTo"/>
                         <link type="estates" corresp="#estates/313" subtype="isWithin"/>
                     </org>
                     <org>
@@ -5212,7 +5854,9 @@
                         <idno>juridical_persons/1971</idno>
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/1974" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1975" subtype="isConfirmedTo"/>
                         <link type="estates" corresp="#estates/313" subtype="isWithin"/>
                     </org>
                     <org>
@@ -5221,7 +5865,9 @@
                         <idno>juridical_persons/1972</idno>
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/1974" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1975" subtype="isConfirmedTo"/>
                         <link type="estates" corresp="#estates/313" subtype="isWithin"/>
                     </org>
                     <org>
@@ -5230,7 +5876,9 @@
                         <idno>juridical_persons/1973</idno>
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/1974" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1975" subtype="isConfirmedTo"/>
                         <link type="estates" corresp="#estates/313" subtype="isWithin"/>
                     </org>
                     <org>
@@ -5239,8 +5887,26 @@
                         <idno>juridical_persons/1974</idno>
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/1974" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1975" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/261" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1992" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/130" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/2411" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/2410" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1966" subtype="isConfirmedTo"/>   
                         <link type="places" corresp="#places/1820" subtype="proximity"/>
+                        <link type="people" corresp="#people/239" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1966" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/1955" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/173" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/233" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/234" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1939" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/300" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/240" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1955" subtype="isConfirmedTo"/>
                     </org>
                     <org>
                         <orgName>Sanctus Bartholomeus; cella (Chieti)</orgName>
@@ -5248,7 +5914,9 @@
                         <idno>juridical_persons/1975</idno>
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/1974" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1975" subtype="isConfirmedTo"/>
                         <link type="estates" corresp="#estates/1411" subtype="isWithin"/>
                     </org>
                     <org>
@@ -5257,7 +5925,9 @@
                         <idno>juridical_persons/1976</idno>
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/1974" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1975" subtype="isConfirmedTo"/>
                         <link type="estates" corresp="#estates/1411" subtype="isWithin"/>
                     </org>
                     <org>
@@ -5266,7 +5936,9 @@
                         <idno>juridical_persons/1977</idno>
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/1974" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1975" subtype="isConfirmedTo"/>
                         <link type="places" corresp="#places/2373" subtype="isWithin"/>
                     </org>
                     <org>
@@ -5291,8 +5963,20 @@
                         <idno>juridical_persons/1948</idno>
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/1974" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1975" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/261" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1992" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/130" subtype="isConfirmedBy"/>
                         <link type="places" corresp="#places/111" subtype="isWithin"/>
+                        <link type="people" corresp="#people/1955" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/173" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/233" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/234" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1939" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/239" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1966" subtype="isConfirmedTo"/>
                     </org>
                     <org>
                         <orgName>Sanctus Vincentius; ecclesia (Alife; Caserta)</orgName>
@@ -5318,7 +6002,7 @@
                         <link type="people" corresp="#people/1976" subtype="isGrantedBy"/>
                     </org>
                     <org>
-                        <orgName>Sanctus Martinus; cella (Caserta)</orgName>
+                        <orgName>Sanctus Martinus; cella (Alife; Caserta)</orgName>
                         <orgName type="other"><foreign>qui dicitur cella vetere</foreign></orgName>
                         <idno>juridical_persons/1982</idno>
                         <note>Franco 2017: 56</note>
@@ -5435,7 +6119,9 @@
                         <note/>
                         <link type="places" corresp="#places/605" subtype="isWithin"/>
                         <link type="juridical_persons" corresp="#juridical_persons/1937"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/2001" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/118" subtype="isConfirmedBy"/>
                     </org>
                     <org>
                         <orgName>Sancta Maria; episcopium (Napoli)</orgName>
@@ -5450,10 +6136,12 @@
                         <idno>juridical_persons/1994</idno>
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
                         <link type="places" corresp="#places/2311" subtype="isWithin"/>
-                        <link type="people" corresp="#people/79" subtype="link"/>
-                        <link type="people" corresp="#people/72" subtype="link"/>
+                        <link type="people" corresp="#people/72" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/79" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/239" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1966" subtype="isConfirmedTo"/>
                     </org>
                     <org>
                         <orgName>Sanctus Ianuarius; ecclesia (Napoli)</orgName>
@@ -5471,7 +6159,17 @@
                         <link type="places" corresp="#places/2816" subtype="proximity"/>
                         <link type="places" corresp="#places/2323" subtype="proximity"/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/261" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1992" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/130" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1955" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/173" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/233" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/234" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1939" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/239" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1966" subtype="isConfirmedTo"/>
                     </org>
                     <org>
                         <orgName>Sanctus Marcus <foreign>de Petra Cutilia</foreign>; monasterium (Campobasso)</orgName>
@@ -5480,7 +6178,17 @@
                         <note/>
                         <link type="places" corresp="#places/2817" subtype="isWithin"/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/261" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1992" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/130" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1955" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/173" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/233" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/234" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1939" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/239" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1966" subtype="isConfirmedTo"/>
                     </org>
                     <org>
                         <orgName>Sanctus Marcianus de Sora; monasterium (Frosinone)</orgName>
@@ -5489,7 +6197,9 @@
                         <note/>
                         <link type="places" corresp="#places/2001" subtype="isWithin"/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/239" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1966" subtype="isConfirmedTo"/>
                     </org>
                     <org>
                         <orgName>Sancta Iusta; monasterium (Frosinone)</orgName>
@@ -5517,9 +6227,11 @@
                         <idno>juridical_persons/2301</idno>
                         <note/>
                         <link type="places" corresp="#places/2819" subtype="isWithin"/>
-                        <link type="places" corresp="#places/2000" subtype="proximity"/>
+                        <link type="estates" corresp="#estates/313" subtype="isWithin"/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/239" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1966" subtype="isConfirmedTo"/>
                     </org>
                     <org>
                         <orgName>Sanctus Marcellus <foreign>de Pectorano</foreign>; church (L'Aquila)</orgName>
@@ -5528,7 +6240,9 @@
                         <note/>
                         <link type="places" corresp="#places/2822" subtype="isWithin"/>
                          <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/239" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1966" subtype="isConfirmedTo"/>
                     </org>
                     <org>
                         <orgName>Sanctus Vincentius in Teano; cella (Caserta)</orgName>
@@ -5536,7 +6250,9 @@
                         <idno>juridical_persons/2303</idno>
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/261" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1992" subtype="isConfirmedTo"/>
                         <link type="places" corresp="#places/174" subtype="isWithin"/>
                     </org>
                     <org>
@@ -5560,7 +6276,11 @@
                         <note/>
                         <link type="places" corresp="#places/2829" subtype="isWithin"/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/236" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/2409" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/1939" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/300" subtype="isConfirmedBy"/>
                     </org>
                     <org>
                         <orgName>Sancta Maria <foreign>de Arole</foreign> (L'Aquila)</orgName>
@@ -5569,7 +6289,19 @@
                         <note/>
                         <link type="places" corresp="#places/2806" subtype="isWithin"/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/239" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1966" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/1955" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/173" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/72" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/79" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/233" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/234" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1939" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/300" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1992" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/130" subtype="isConfirmedBy"/>
                     </org>
                     <org>
                         <orgName>Sanctus Donatus <foreign>in vallis Sorana</foreign> (L'Aquila)</orgName>
@@ -5588,6 +6320,14 @@
                         <link type="places" corresp="#places/705" subtype="isWithin"/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
                             subtype="dependsOn"/>
+                        <link type="people" corresp="#people/2411" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/2410" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1966" subtype="isConfirmedTo"/>
+                        <link type="estates" corresp="#estates/1930" subtype="isWithin"/>   
+                        <link type="people" corresp="#people/1939" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/300" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/240" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1955" subtype="isConfirmedTo"/>
                     </org>
                     <org>
                         <orgName>Sanctus Martinus de Prata (Caserta)</orgName>
@@ -5595,6 +6335,29 @@
                         <idno>juridical_persons/2310</idno>
                         <note/>
                         <link type="places" corresp="#places/2377" subtype="isWithin"/>
+                    </org>
+                    <org>
+                        <orgName>Sanctus Zeno; <foreign>oratorio</foreign> (L'Aquila)</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/2311</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/84"
+                            subtype="dependsOn"/>
+                        <link type="estates" corresp="#estates/2369" subtype="isWithin"/>
+                        <link type="places" corresp="#places/2830" subtype="proximity"/>
+                        <link type="places" corresp="#places/2831" subtype="proximity"/>
+                    </org>
+                    <org>
+                        <orgName>Sancta Maria <foreign>de Milazzano</foreign> (Barletta-Andria-Trani)</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/1944</idno>
+                        <note/>
+                        <link type="places" corresp="#places/260" subtype="proximity"/>
+                        <link type="estates" corresp="#estates/138" subtype="isWithin"/>
+                        <link type="people" corresp="#people/191" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/193" subtype="isGrantedTo"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/122"
+                            subtype="dependsOn"/>                        
                     </org>
                 </listOrg>
             </listOrg>
