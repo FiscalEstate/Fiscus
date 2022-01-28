@@ -4940,8 +4940,6 @@
                         <geogName type="coord"><geo>45.627244, 8.394241</geo></geogName>
                         <idno>places/532</idno>
                         <note/>
-                        <link type="juridical_persons" corresp="#juridical_persons/81"
-                            subtype="link"/>
                     </place>
                     <place>
                         <placeName><foreign>Omiclo</foreign> (Podere Castellucci; Montelupo
@@ -4976,12 +4974,15 @@
                         <placeName type="other"><foreign>Bulgaro</foreign></placeName>
                         <geogName type="coord"><geo>45.356729, 8.464622</geo></geogName>
                         <idno>places/536</idno>
-                        <note/>
-                        <link type="juridical_persons" corresp="#juridical_persons/81"
-                            subtype="link"/>
-                        <link type="people" corresp="#people/124" subtype="link"/>
+                        <note>Si tratta del porto di Bulgaro oggetto di controversia tra il capitolo
+                            di S. Eusebio e quello di S. Maria di Vercelli. Al termine della
+                            controversia il vescovo Uguccione lo assegna al capitolo di S. Eusebio. </note>
+                        <link type="people" corresp="#people/124" subtype="isGrantedBy"/>
                         <link type="juridical_persons" corresp="#juridical_persons/111"
-                            subtype="link"/>
+                            subtype="isGrantedTo"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/402"
+                            subtype="isClaimedBy"/>
+                        <link type="people" corresp="#people/410" subtype="isConfirmedBy"/>
                     </place>
                     <place>
                         <placeName>Tollegno (Biella)</placeName>
@@ -4990,8 +4991,9 @@
                         <idno>places/537</idno>
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/111"
-                            subtype="link"/>
-                        <link type="estates" corresp="#estates/1204" subtype="proximity"/>
+                            subtype="isClaimedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/402"
+                            subtype="isClaimedBy"/>
                     </place>
                     <place>
                         <placeName>Serignano (Poggio Serignano; Castiglione della Pescaia; Grosseto) </placeName>
@@ -5220,10 +5222,6 @@
                         <geogName type="coord"><geo>45.4673791, 7.874797</geo></geogName>
                         <idno>places/563</idno>
                         <note/>
-                        <link type="people" corresp="#people/172" subtype="link"/>
-                        <link type="estates" corresp="#estates/401" subtype="link"/>
-                        <link type="estates" corresp="#estates/400" subtype="link"/>
-                        <link type="estates" corresp="#estates/1446" subtype="isWithin"/>
                     </place>
                     <place>
                         <placeName>Gazzo Veronese (Verona)</placeName>
@@ -5489,8 +5487,12 @@
                         <link type="juridical_persons" corresp="#juridical_persons/81"
                             subtype="link"/>
                         <note/>
-                        <link type="people" corresp="#people/129" subtype="link"/>
-                        <link type="people" corresp="#people/507" subtype="link"/>
+                        <link type="people" corresp="#people/129" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/124" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/7" subtype="isGrantedBy" cert="low"/>
+                        <link type="people" corresp="#people/171" subtype="isOwnedBy" cert="low"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/81"
+                            subtype="isGrantedTo"/>
                     </place>
                     <place>
                         <placeName>Sospiro (Cremona)</placeName>
@@ -5516,19 +5518,10 @@
                         <idno>places/591</idno>
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/81"
-                            subtype="link"/>
+                            subtype="isGrantedTo"/>
                         <link type="estates" corresp="#estates/62" subtype="dependsOn"/>
-                        <link type="people" corresp="#people/237 #people/7 #people/366 #people/288"
-                            subtype="link"/>
-                    </place>
-                    <place>
-                        <placeName>Casino (Alessandria)</placeName>
-                        <placeName type="other">Martasca; Matascum</placeName>
-                        <geogName type="coord"><geo>45.15989, 8.287125</geo></geogName>
-                        <idno>places/592</idno>
-                        <note/>
-                        <link type="juridical_persons" corresp="#juridical_persons/81"
-                            subtype="link"/>
+                        <link type="people" corresp="#people/261" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/237" subtype="isConfirmedBy"/>
                     </place>
                     <place>
                         <placeName>Capodistria (SL)</placeName>
