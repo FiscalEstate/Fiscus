@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Lucca, Archivio di Stato, Diplomatico, Altopascio, 1132 luglio 4</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2022">2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DiSCi UniBo</publisher>
+                <idno type="filename">doc2407</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+                </availability>
+                <date when="2022"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Offersio/donatio</rs>
+                            <rs type="record_source" ref="#">Original document</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property">No</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="1132-07-04">
+                                <note type="displayed_date">1132 July 4</note>
+                                <note type="dating_elements">Stile dell'incarnazione</note>
+                                <note type="topical_date">Fucecchio (Firenze)</note>
+                                <note type="redaction_date">1132 July 4</note>
+                            </origDate>
+                            <origPlace></origPlace>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-01-25" who="agiacomelli">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>(S) In nomine domini nostri Iehsu Christi dei eterni, anno ab incarnationis
+                        eius millesimo centesimo trigesimo secundo, quarto nonas iulii, indictione
+                        nona. Sancta autem et venerabilis <rs key="#Churches">ecclesia</rs> et <rs
+                            key="#Hospitals">ospitali</rs> deo et <orgName
+                            key="#Churches #Hospitals" ref="#juridical_persons/3206">beati Sancti
+                            Gilii</orgName> de loco qui vocatur <placeName ref="#places/3207"
+                            >Altepascio</placeName>. (…) <persName><name ref="Heinricus"
+                                >Enrigus</name></persName> filius quondam <persName><name ref="Wazo"
+                                >Guazori</name></persName> per hanc cartulam offertionis pro anime
+                        mee remedio (…) <ref>dona</ref> iam dicte ecclesie et ospitali (…) integram
+                        meam portionem de uno modioro de terra illa que est posita in loco qui
+                        vocatur <placeName ref="#places/3209">Ischieto</placeName> et dicitur Aiale,
+                        que est recta et detenta per filiis <persName><name ref="Paganus"
+                                >Paganelli</name></persName> de loco qui vocatur <placeName
+                            ref="#places/23">Catiana</placeName> et per filiis <persName><name
+                                ref="Binellus">Binelli</name></persName> et per filiis
+                                <persName><name ref="Marcus Cacciabectus">Marchi
+                            Cacciabecti</name></persName> et per filiis <persName><name
+                                ref="Petrus Martinus">Petri Martini</name></persName> et per
+                        filiabus <persName><name ref="Burnectus Tuotus">Burnecti
+                            Tuoti</name></persName> et per filiabus <persName><name
+                                ref="Lambertus Tuotus">Lamberti Tuoti</name></persName>. Competit
+                        exinde mihi tres portiones, quartam vero portionem est pertinentes (sic) <rs
+                            key="#Countess">comitisse</rs>
+                        <persName ref="#people/3209">Cicilie</persName>. <ref>Pena in duplum.
+                            Maledizioni.</ref> Actum in loco qui vocatur <placeName
+                            ref="#places/3200">Ficechio</placeName>. Singnum manus suprascripti
+                        Enrichi, qui hancartulam (sic) fieri rogavit. Singna manuum <persName
+                            key="#Witness"><name ref="Wilicius">Guiliccionis</name></persName> filii
+                        quondam <persName><name ref="Rusticus">Rustici</name></persName> et
+                            <persName key="#Witness"><name ref="Rogerius">Rugierii</name></persName>
+                        filii quondam <persName><name ref="Wido">Guidonis</name></persName> et
+                            <persName key="#Witness"><name ref="Omicius">Omici</name></persName>
+                        filii quondam <persName><name ref="Buscus">Busci</name></persName> et
+                        aliorum plurimum rogatorum <rs key="#Witness">testium</rs>. (S) <persName
+                            key="#Writer #Notary"><name ref="Hubertus">Ubertus</name></persName>
+                        donni inperatoris <rs key="#Notary">notarii</rs> post traditam complevi et
+                        dedi.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>Degli Azzi Vitelleschi, 2, n. 405, pag. 133.</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p><ref>https://www.archiviodigitale.icar.beniculturali.it/it/185/ricerca/detail/536784</ref></p>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

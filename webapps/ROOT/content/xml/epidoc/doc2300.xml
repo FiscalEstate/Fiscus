@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Lucca, Archivio di Stato, Diplomatico, S. Ponziano, 1082 marzo
+                    23</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                        </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc2300</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">--Offersio/donatio</rs>
+                                    <rs type="record_source" ref="#">Original document</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">Uncertain</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate when="1082-03-23">
+                                <note type="displayed_date">1082 March 23</note>
+                                <note type="dating_elements">Stile dell'incarnazione</note>
+                                <note type="topical_date">Lucca</note>
+                                <note type="redaction_date"></note>
+                            </origDate>
+                                    <origPlace></origPlace>
+                                </origin>
+                                <provenance>
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                            <place></place>
+                        </listPlace>
+                        <listPerson>
+                            <person></person>
+                        </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-01-17" who="langeli">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab><persName key="#Priests"><name ref="Gherardus"
+                            >Gherardo</name></persName>
+                        <rs key="#Priests">presbiter</rs> del <persName>fu <name ref="Philippus"
+                                >Filippo</name></persName> offre pro anima sua e dei defunti
+                        genitori al <rs key="#Monasteries">monastero</rs> di <orgName
+                            ref="#juridical_persons/71"
+                            key="#Confinia #Landed_possessions #Monasteries">San Ponziano</orgName>
+                        di <placeName ref="#places/4" key="#Monasteries">Lucca</placeName>, 4
+                        appezzamenti di terra posti in loco et finibus <placeName ref="#places/691"
+                            >Ponteferrato</placeName>: il primo, que est orto, <rs
+                            key="#Confinia #Landed_possessions">confinante</rs> uno capo in via
+                        publica, alio capo cum ambas lateras con terra dei figli del <persName
+                            key="#Confinia #Landed_possessions">fu <name ref="Bambo"
+                            >Bambo</name></persName> e con terra del suddetto monastero, per una
+                        misura complessiva di 18 staia; il secondo, que est orto ubi dicitur
+                            <placeName ref="#places/691">Boccamonda</placeName>, confinante uno capo
+                        cum uno lato con terra dei suddetti figli del fu Bambo, alio capo cum alio
+                        lato con terra di <persName key="#Confinia #Landed_possessions"><name
+                                ref="Villanus">Villano</name></persName> del <persName
+                            key="#Other_clerics">fu <name ref="Benedictus/Abbas">Benedetto detto
+                                Abate</name></persName>
+                        <rs key="#Other_clerics">chierico</rs>, per una misura complessiva di 7
+                        staia; il terzo, que est campo dicitur (...) confinante uno capo cum uno
+                        lato in via publica, alio capo con terra de <rs key="#Hospitals"
+                            >ospitale</rs>
+                        <orgName key="#Hospitals" ref="#juridical_persons/3100">Sancti
+                            Martini</orgName>, alio lato con terra di <persName
+                            key="#Confinia #Landed_possessions"><name ref="Hugolinus"
+                            >Ugolino</name></persName> del <persName>fu <name ref="Gherardus"
+                                >Gherardo</name></persName>, per una misura complessiva di 18 staia;
+                        il quarto, que est campo ubi dicitur <placeName ref="#places/691">Campo da
+                            Benenato</placeName>, confinante uno capo cum uno lato con terra del
+                            <persName key="#Confinia #Landed_possessions">fu <name ref="Ribabellus"
+                                >Ribabello</name></persName>, alio capo in via que est simitula,
+                        alio lato con terra del <persName key="#Confinia #Landed_possessions">fu
+                                <name ref="Illdebrandus">Ildebrando</name></persName> del fu Bambo
+                        suddetto, per una misura complessiva di 21 staia, con tutte le loro
+                        dipendenze. Chiede al <rs key="#Writer #Notary">notaio imperiale</rs>
+                        <persName key="#Writer #Notary"><name ref="Rodolfus"
+                            >Rodolfo</name></persName> la stesura della cartula. Actum Luca. <rs
+                            key="#Witness">Testimoni</rs> sottoscrittori: <persName key="#Witness"
+                                ><name ref="Signorectus">Signoretto</name></persName>
+                        <rs key="#Clerical_concubinage">della <persName key="#Clerical_concubinage"
+                                >fu <name ref="Sirica">Sirica</name></persName></rs>, <persName
+                            key="#Witness"><name ref="Paganus">Pagano</name></persName>
+                        <rs key="#Clerical_concubinage">della <persName key="#Clerical_concubinage"
+                                >fu <name ref="Berta">Berta</name></persName></rs>, <persName
+                            key="#Witness"><name ref="Wido">Guido</name>
+                        </persName> del <persName>fu <name ref="Aimo">Agimo</name></persName>.</ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>Degli Azzi Vitelleschi, 2, n. 1, p. 1.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p><ref>https://www.archiviodigitale.icar.beniculturali.it/it/185/ricerca/detail/552332</ref></p>
+                    </div>
+                    <div type="commentary">
+                        <p>Sottoscrizioni autografe: Gherardo presbiter. </p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

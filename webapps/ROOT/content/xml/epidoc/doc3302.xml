@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Lucca, Archivio Storico Diocesano, Archivio Arcivescovile, Diplomatico * B
+                    66</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc3302</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Libellus/precaria/emphyteusis</rs>
+                            <rs type="record_source" ref="#">Original document</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property">Uncertain</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0895-08-19">
+                                <note type="displayed_date">895 August 19</note>
+                                <note type="dating_elements">Anno d'impero di Lamberto</note>
+                                <note type="topical_date">Lucca</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace></origPlace>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-01-20" who="mviti">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab><persName><name ref="Gaidulfus">Ghaiolfo</name></persName> filio
+                            <persName>quondam <name ref="Tanifredus">Tanifridi</name></persName>
+                        riceve da <persName ref="#people/214" key="#Bishops">Gherardus</persName>
+                        gratia Dei huius sancte Lucane ecclesie humilis <rs key="#Bishops"
+                            >episcopus</rs>, per cartula livellario nomine ecc. (…), casa et res
+                        illa in loco ubi dicitur <placeName ref="#places/584">Carsiana</placeName>,
+                        pertenentes ecclesie vestre <orgName ref="#juridical_persons/70"
+                            key="#Churches">Sancti Fridiani</orgName>, qui est de subpotestatem
+                        ipsius <rs key="#Mother_churches">episcopatui</rs> vestro <orgName
+                            ref="#juridical_persons/68" key="#Mother_churches">Sancti
+                            Martini</orgName>, quas ego ipsi ad manus meas abuit; casa vero ipsa cum
+                        fundamento et edeficio suo, curte, orto, terris, vineis, silvis, virgareis,
+                        pratis, pascuis, cultas res vel incultas, omnia quantum (…) mea portionem in
+                        integrum mihi eas dedisti (…). Obbligo: ego vel meis heredes in ipsa casa
+                        residere et abitare debeamus et tam ipsa casa et res quas mihi dedisti bene
+                        laborare et gubernare seo meliorare debeamus et nobis eas privato nomine
+                        usufructuandum (…). Censo: pro omni censum et iustitiam exinde tibi vel ad
+                        successoribus tuis ad pars ipsius ecclesie Sancti Fridiani per singulos
+                        annos, in mense decembrio, censum vobis dare debeamus, hic <rs key="#Cities"
+                            >civitate</rs> Luca ad ipsa ecclesia Sancti Fridiani, per nos aut per
+                        misso nostro, vobis vel ad ministeriale vestro (…) argentum denarios bonos
+                        expendiviles numero quattuor; et a mandato vestro venire debeamus hic Luca
+                        legem et iustitiam faciendum tantum (…). Pena: spondeo cum meis heredes
+                        conponere tibi (…) penam argentum soledos […] (…). <persName
+                            key="#Writer #Notary"><name ref="Andreas">Andreas</name></persName>
+                        <rs key="#Notary">notarius</rs> scrive due <rs
+                            key="#Libellus/precaria/emphyteusis">cartulas</rs>. Actum <placeName
+                            ref="#places/4" key="#Cities #Churches #Mother_churches #Bishops"
+                            >Luca</placeName>. Sottoscrivono come <rs key="#Witness">testimoni</rs>:
+                            <persName ref="#people/150" key="#Witness">Fraolmi</persName>, <persName
+                            key="#Witness"><name ref="Ildebrandus">Ildiprandus</name></persName>,
+                            <persName key="#Witness"><name ref="Donatus">Donatus</name></persName>,
+                            <persName key="#Witness"><name ref="Ardemannus"
+                            >Ardimanno</name></persName>.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>MDL, 5/2, n. 995, 615; ChLA, 86, n. 39, pp. 122-123</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>La menzione di una dipendenza (<foreign>casa et res</foreign>) della chiesa di
+                    San Frediano di Lucca desta un certo interesse. Sappiamo, infatti, che San
+                    Frediano, una delle più antiche basiliche lucchesi, pervenne più volte, tra il
+                    VII e il IX secolo, nelle mani del fisco regio che ne contendeva il controllo
+                    all’episcopio cittadino. Buona parte del suo patrimonio fondiario deve quindi
+                    essere considerato di derivazione fiscale anche se, all’altezza cronologica di
+                    questa carta di livello, San Frediano è ormai definitivamente assoggettata a San
+                    Martino e si trova nella piena disponibilità dei vescovi lucchesi. Sulle vicende
+                    della chiesa di San Frediano di Lucca, vd. Schneider 1975, pp. 313-315; Viti
+                    2019-2020, pp. 55-157. Per alcune considerazioni sul patrimonio fondiario di San
+                    Frediano, vd. Viti 2019-2020, pp. 241-251. Sottoscrizioni autografe: Fraolmi,
+                    Ildiprandus, Donatus, Ardimanno, Andreas notarius (scrittore). Sottoscrizioni
+                    con <foreign>Signa</foreign>: Ghaiolfo (livellario). Sul
+                        <foreign>verso</foreign> della pergamena troviamo 2 note tergali: al centro
+                    a sinistra, di mano del rogatario: <foreign>Libello &lt;spazio bianco di circa 7
+                        cm.> da Ghaiolfo de Carsiana</foreign>; in basso a destra, di mano del sec.
+                    XII: <foreign>L(ibellum) in Carsciana. D(e) casa et/re S(an)c(t)i
+                        Frigiani</foreign>. </p>
+            </div>
+        </body>
+    </text>
+</TEI>

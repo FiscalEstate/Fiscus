@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Lucca, Archivio di Stato, Diplomatico, Altopascio, 1136 febbraio 24</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2022">2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DiSCi UniBo</publisher>
+                <idno type="filename">doc2409</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+                </availability>
+                <date when="2022"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Offersio/donatio</rs>
+                            <rs type="record_source" ref="#">Original document</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property">No</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="1136-02-24">
+                                <note type="displayed_date">1136 February 24</note>
+                                <note type="dating_elements">Stile dell'incarnazione</note>
+                                <note type="topical_date">Pozzo (Santa Maria a Monte, Pisa)</note>
+                                <note type="redaction_date">1136 February 24</note>
+                            </origDate>
+                            <origPlace></origPlace>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-01-26" who="agiacomelli">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>(S) In nomine domini nostri Iehsu Christi dei eterni, anno ab incarnatione
+                        eius millesimo centesimo trigesimo sexto, septimo kalendas martii,
+                        indictione tertiadecima. Sancta autem et venerabilis <rs key="#Churches"
+                            >ecclesia</rs> et <rs key="#Hospitals">ospitali</rs> deo et <orgName
+                            key="#Churches #Hospitals" ref="#juridical_persons/3206">beati Sancti
+                            Gilii</orgName> quod est fondatum et edificatum in loco qui vocatur
+                            <placeName ref="#places/3207" key="#Churches #Hospitals"
+                            >Altepasscio</placeName>. Ego quidem <persName><name ref="Samirella"
+                                >Samirella</name></persName> que olim fui iugalis <persName><name
+                                ref="Lucterius">Lucterii</name></persName>, filii quondam
+                                <persName><name ref="Robertus">Roberti</name></persName> et modo sum
+                        iugalis <persName ref="#people/23">Bonifatii</persName> filii quondam
+                            <persName ref="#people/3216">Sexmondi</persName> (…)
+                            <ref>interrogata</ref> a duobus germanis meis (…) dixi quod (…) per meam
+                        bonam voluntatem facio (…). Comuniter nos, ego et <persName><name
+                                ref="Bernarduccius">Bernarduccius</name></persName> quondam
+                                <persName><name ref="Wizo">Guittoni</name></persName> filius in vice
+                        suprascripti Lucterii per hanc cartulam pro anime mee remedio et pro remedio
+                        anime predicti Lucterii offerimus tibi deo et iam dicte ecclesie et ospitali
+                        videlicet integram unam <rs key="#Petiae">petiam</rs> de terra illa que est
+                        posita in loco qui vocatur <placeName ref="#places/3209"
+                        >Cafagio</placeName>, que tenet unum caput in terra <persName><name
+                                ref="Wilgia">Guilgie</name></persName> filie quondam <persName><name
+                                ref="Rodelandus">Rolandi</name></persName>, aliut caput tenet in
+                        terra <persName><name ref="Pandulfinus">Pandolfini</name></persName> filii
+                        quondam <persName><name ref="Favilla">Faville</name></persName>, latum unum
+                        tenet in terra <persName><name ref="Armanectus">Armanecti</name></persName>
+                        filii quondam <persName><name ref="Rodelandus">Rolandi</name></persName> et
+                                <persName><name ref="Ildebrandus">Ildebrandi</name></persName> filii
+                        quondam <persName><name ref="Cantinus">Cantini</name></persName>, aliut
+                        latus tenet in terra de suprascripto ospitale. <ref>Pena in duplum.
+                            Maledizioni.</ref> Actum in loco qui vocatur <placeName
+                            ref="#places/3210">Puzostorli</placeName>. Singna manuum suprascripte
+                        Samirelle et Bernarduccii, qui hancartulam (sic) fieri rogaverunt. Singna
+                        manuum <persName><name ref="Rainuccius">Ranuccini</name></persName> filii
+                        quondam <persName><name ref="Gisla">Gislle</name></persName> et
+                                <persName><name ref="Hugo">Uchionis</name></persName> filii quondam
+                        *** qui predicta Samirella interrogaverunt. Singna manuum <persName><name
+                                ref="Merollare">Merollari</name></persName> et <persName><name
+                                ref="Garilius">Garilgiani</name></persName> germani filiorum quondam
+                                <persName><name ref="Petrus">Petris</name></persName> et
+                                <persName><name ref="Meraviglioso de Lucca"
+                            >Meravilgiosi</name></persName> de <placeName ref="#places/4"
+                            >Lucca</placeName> et <persName><name ref="Petrus"
+                            >Petri</name></persName> filii <persName><name ref="Mencuccius Capectus"
+                                >Mencuccii Capechii</name></persName> rogatorum <rs key="#Witness"
+                            >testium</rs>. (S) <persName><name ref="Hubertus"
+                            >Ubertus</name></persName> donni inperatoris <rs key="#Notary"
+                            >notarium</rs> post traditam complevi et dedi.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>Degli Azzi Vitelleschi, 2, n. 450, pag. 150.</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p><ref>https://www.archiviodigitale.icar.beniculturali.it/it/185/ricerca/detail/536785</ref></p>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
