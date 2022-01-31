@@ -292,6 +292,7 @@
                         <link type="people" corresp="#people/124" subtype="link"/>
                         <link type="people" corresp="#people/129" subtype="link"/>
                         <link type="people" corresp="#people/172" subtype="hostilityFor"/>
+                        <link type="places" corresp="#places/106" subtype="isWithin"/>
                 </org>
                 <org>
                     <orgName>Sanctus Petrus; ecclesia (Piacenza)</orgName>
@@ -635,6 +636,14 @@
                     <orgName type="other"/>
                     <idno>juridical_persons/111</idno>
                     <note/>
+                        <link type="places" corresp="#places/106" subtype="isWithin"/>
+                        <link type="people" corresp="#people/124" subtype="link"/>
+                        <link type="people" corresp="#people/289" subtype="link"/>
+                        <link type="people" corresp="#people/79" subtype="link"/>
+                        <link type="people" corresp="#people/72" subtype="link"/>
+                        <link type="people" corresp="#people/21" subtype="link"/>
+                        <link type="people" corresp="#people/7" subtype="link"/>
+                        <link type="people" corresp="#people/409" subtype="link"/>
                 </org>
                 <org>
                     <orgName>Industria; plebs (Vercelli)</orgName>
@@ -662,7 +671,7 @@
                     <idno>juridical_persons/114</idno>
                     <note/>
                     <note/>
-                    <link type="places" corresp="#places/245" subtype="link"/>
+                    <link type="places" corresp="#places/245" subtype="isWithin"/>
                         <link type="people" corresp="#people/21" subtype="link"/>
                         <link type="places" corresp="#places/1617" subtype="link"/>
                 </org>
@@ -670,7 +679,7 @@
                     <orgName>Sanctus Gaudentius; ecclesia (Novara)</orgName>
                     <idno>juridical_persons/115</idno>
                     <note/>
-                    <link type="places" corresp="#places/245" subtype="link"/>
+                    <link type="places" corresp="#places/245" subtype="isWithin"/>
                         <link type="places" corresp="#places/842" subtype="link"/>
                         <link type="places" corresp="#places/1615" subtype="link"/>
                         <link type="places" corresp="#places/1616" subtype="link"/>
@@ -682,7 +691,7 @@
                     <orgName type="other"/>
                     <idno>juridical_persons/116</idno>
                     <note/>
-                    <link type="places" corresp="#places/245" subtype="link"/>
+                    <link type="places" corresp="#places/245" subtype="isWithin"/>
                     <link type="juridical_persons"
                         corresp="#juridical_persons/114 #juridical_persons/115" subtype="link"/>
                     <link type="people" corresp="#people/73 #people/181" subtype="link"/>
@@ -748,10 +757,11 @@
                     <orgName type="other"/>
                     <idno>juridical_persons/123</idno>
                     <note/>
-                    <link type="places" corresp="#places/106" subtype="link"/>
-                    <link type="people" corresp="#people/171" subtype="link"/>
-                    <link type="people" corresp="#people/7" subtype="link"/>
-                    <link type="juridical_persons" corresp="#juridical_persons/81" subtype="link"/>
+                    <link type="places" corresp="#places/106" subtype="correspondsTo"/>
+                    <link type="people" corresp="#people/7" subtype="isGrantedBy"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/81"
+                            subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/124" subtype="isConfirmedBy"/>
                 </org>
                 <org>
                     <orgName>Sanctus Laurentius; episcopium (Roselle)</orgName>
@@ -1683,6 +1693,7 @@
                     <idno>juridical_persons/222</idno>
                     <note/>
                     <link type="people" corresp="#people/325" subtype="link"/>
+                        <link type="places" corresp="#places/563" subtype="isWithin"/>
                 </org>
                 <org>
                     <orgName>Sancta Maria et Sancta Iustina; episcopium (Piacenza)</orgName>
@@ -2513,18 +2524,16 @@
                         <link type="people" corresp="#people/79" subtype="link"/>
                         <link type="people" corresp="#people/72" subtype="link"/>
                         <link type="people" corresp="#people/233" subtype="link"/>
-                        <link type="people" corresp="#people/506" subtype="link"/>
-                        <link type="juridical_persons" corresp="#juridical_persons/111"
-                            subtype="dependsOn"/>
                     </org>
                     <org>
                         <orgName>Sancta Maria; capitulum canonicorum (Vercelli)</orgName>
                         <orgName type="other"/>
                         <idno>juridical_persons/402</idno>
                         <note/>
-                        <link type="places" corresp="#places/106" subtype="link"/>
                         <link type="people" corresp="#people/79" subtype="link"/>
                         <link type="people" corresp="#people/72" subtype="link"/>
+                        <link type="people" corresp="#people/21" subtype="link"/>
+                        <link type="people" corresp="#people/124" subtype="link"/>
                     </org>
                     <org>
                         <orgName>Sanctus Laurentius in Lucina; ecclesia (Roma)</orgName>
@@ -2537,20 +2546,44 @@
                         <orgName type="other"/>
                         <idno>juridical_persons/404</idno>
                         <note/>
-                        <link type="places" corresp="#places/563" subtype="link"/>
+                        <link type="places" corresp="#places/563" subtype="isWithin"/>
+                        <link type="people" corresp="#people/520" subtype="rectorOf"/>
+                        <link type="people" corresp="#people/522" subtype="rectorOf"/>
+                        <link type="people" corresp="#people/7" subtype="link"/>
+                        <link type="people" corresp="#people/521" subtype="link"/>
                     </org>
                     <org>
                         <orgName>Ivrea; <foreign>commune</foreign></orgName>
                         <orgName type="other"/>
                         <idno>juridical_persons/405</idno>
                         <note/>
-                        <link type="places" corresp="#places/563" subtype="link"/>
+                        <link type="places" corresp="#places/563" subtype="isWithin"/>
+                        <link type="people" corresp="#people/521" subtype="link"/>
                     </org>
                     <org>
                         <orgName>Sancta Maria; episcopium (Novara)</orgName>
                         <orgName type="other"/>
                         <idno>juridical_persons/406</idno>
                         <note/>
+                        <link type="people" corresp="#people/73" subtype="rectorOf"/>
+                        <link type="people" corresp="#people/181" subtype="rectorOf"/>
+                        <link type="people" corresp="#people/269" subtype="rectorOf"/>
+                        <link type="people" corresp="#people/523" subtype="rectorOf"/>
+                        <link type="people" corresp="#people/524" subtype="rectorOf"/>
+                        <link type="people" corresp="#people/526" subtype="rectorOf"/>
+                        <link type="people" corresp="#people/527" subtype="rectorOf"/>
+                        <link type="people" corresp="#people/528" subtype="rectorOf"/>
+                        <link type="people" corresp="#people/529" subtype="rectorOf"/>
+                        <link type="people" corresp="#people/530" subtype="rectorOf"/>
+                        <link type="people" corresp="#people/9" subtype="link"/>
+                        <link type="people" corresp="#people/32" subtype="link"/>
+                        <link type="people" corresp="#people/21" subtype="link"/>
+                        <link type="people" corresp="#people/7" subtype="link"/>
+                        <link type="people" corresp="#people/130" subtype="link"/>
+                        <link type="people" corresp="#people/261" subtype="link"/>
+                        <link type="people" corresp="#people/77" subtype="link"/>
+                        <link type="people" corresp="#people/124" subtype="link"/>
+                        <link type="places" corresp="#places/245" subtype="isWithin"/>
                     </org>
                     <org>
                         <orgName>Sanctus Clemens; ecclesia (Novara)</orgName>
@@ -2573,6 +2606,10 @@
                         <orgName type="other"/>
                         <idno>juridical_persons/409</idno>
                         <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/406"
+                            subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/130" subtype="isGrantedBy"/>
+                        <link type="places" corresp="#places/107" subtype="correspondsTo"/>
                     </org>
                     <org>
                         <orgName>Sanctus Iulius; ecclesia (Orta San Giulio)</orgName>
@@ -2586,13 +2623,14 @@
                         <link type="estates" corresp="#estates/1213" subtype="link"/>
                         <link type="estates" corresp="#estates/1214" subtype="link"/>
                         <link type="people" corresp="#people/21" subtype="link"/>
+                        <link type="people" corresp="#people/130" subtype="link"/>
                     </org>
                     <org>
                         <orgName>Sanctus Felix; abbatia (Pavia)</orgName>
                         <orgName type="other"/>
                         <idno>juridical_persons/411</idno>
                         <note/>
-                        <link type="places" corresp="#places/65" subtype="link"/>
+                        <link type="places" corresp="#places/65" subtype="correspondsTo"/>
                     </org>
                 </listOrg>
                 <listOrg n="Cinello Erika">
