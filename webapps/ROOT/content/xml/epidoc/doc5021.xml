@@ -34,7 +34,7 @@
                             <rs type="text_type" ref="#">--Venditio</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Original</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">No</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -83,11 +83,10 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>(S.) In nomine Dei eterni. <date><persName key="#Emperor/king"
-                                ref="#people/261">Chuonradus</persName> gratia Dei <rs
-                                key="#Emperor/king">imperator</rs> augustus, anno inperii eius Deo
-                            propicio hic in Italia nono, mense februarii, indicione quarta</date>.
-                        Constat nos <persName
+                    <ab>(S.) In nomine Dei eterni. <persName key="#Emperor/king" ref="#people/261"
+                            >Chuonradus</persName> gratia Dei <rs key="#Emperor/king">imperator</rs>
+                        augustus, anno inperii eius Deo propicio hic in Italia nono, mense
+                        februarii, indicione quarta. Constat nos <persName
                             key="#Marquis/duke #Lombard #childOf #marriage #Venditio #Witness #Landed_possessions #Houses"
                             ref="#people/1">Bonefacius</persName>
                         <rs key="#Marquis/duke">marchio et dux</rs>
@@ -104,53 +103,51 @@
                         nostra lege vivimus <rs key="#Lombard">Langobardorum</rs>, ipso namque
                         iugale meo qui supra Richelde cometisse mihi consenciente et iusta lege, una
                         cum noticia et interrogatione de propinquioribus parentibus meis, it sunt.
-                            <persName key="#cousinOf #nephew/nieceOf #Venditio #Witness"
-                            ref="#people/2139">Lanfranco</persName> et <persName
-                            key="#cousinOf #nephew/nieceOf #Venditio #Witness">Henricus</persName>
+                            <persName key="#Venditio #Witness #kinOf" ref="#people/2139"
+                            >Lanfranco</persName> et <persName key="#Venditio #Witness #kinOf"
+                            ref="#people/2138">Henricus</persName>
                         <rs key="#cousinOf">consobrinis</rs>
-                        <rs key="#nephew/nieceOf">nepotibus</rs> meis, in quorum presentia vel testium
-                        certa facio professione quod nulla me pati violencia ad quispiam homine nec
-                        ab ipso iugale et mundoaldo meo nisi mea bona et spontanea voluntatem,
-                        accipissemus nos suprascriptis iugalibus comuniter sicuti et in presentia
-                        testium accepimus ad te <persName key="#Priests #childOf #Venditio"><name
-                                ref="Adalbertus">Adelbertus</name></persName>
+                        <rs key="#nephew/nieceOf">nepotibus</rs> meis, in quorum presentia vel
+                        testium certa facio professione quod nulla me pati violencia ad quispiam
+                        homine nec ab ipso iugale et mundoaldo meo nisi mea bona et spontanea
+                        voluntatem, accipissemus nos suprascriptis iugalibus comuniter sicuti et in
+                        presentia testium accepimus ad te <persName
+                            key="#Priests #childOf #Venditio"><name ref="Adalbertus"
+                                >Adelbertus</name></persName>
                         <rs key="#Priests">presbiter</rs> de ordine et <orgName
                             key="#Churches/religious_bodies #Baptismal_churches #Landed_possessions #Houses"
-                            >canonice <orgName key="#Baptismal_churches"
-                                ref="#juridical_persons/2000"> sancte <placeName
-                                    key="#Churches/religious_bodies" ref="#places/275"
+                            ref="#juridical_persons/2000">canonice <orgName key="#Mother_churches"
+                                ref="#juridical_persons/1426"> sancte <placeName
+                                    key="#Churches/religious_bodies #Cities" ref="#places/275"
                                     >Mantuanensis</placeName> ecclesie</orgName></orgName> et filis
                         quondam <persName key="#parentOf"><name ref="Rigitius"
-                            >Rigizoni</name></persName> per <rs
-                            key="#Missus_of_other_public_authorities">misso</rs> tuo <persName
-                            key="#Missus_of_other_public_authorities #Judge #Venditio #Witness"
-                                ><name ref="Lanfrancus">Lanfrancus</name></persName>
+                            >Rigizoni</name></persName> per <rs key="#Missus">misso</rs> tuo
+                            <persName key="#Venditio #Witness #Judge #Missus"><name ref="Lanfrancus"
+                                >Lanfrancus</name></persName>
                         <rs key="#Judge">iudex</rs> in adpreciatum valentem <rs key="#Price">solidos
                             quinquaginta</rs>, finitum precio pro <rs key="#Landed_possessions"
                             >pecia una de terra</rs> cum <rs key="#Houses">casa teranea</rs> super
                         se abente iuris nostris que esse videtur infra <rs key="#Cities"
-                            >civitate</rs>
-                        <placeName key="#Cities" ref="#places/275">Mantue</placeName>, quod est per
-                        mensura iusta tabulas dues. Quoerit ei fines: de mane via, de meridie
-                        heredes quondam Andree Cacarello, de sera Resola, de montis Rozo presbiter
-                        cum fratribus suis abet, sibeque alii sunt adfines. Que autem suprascripta
-                        pecia terra cum casa in suprascripta civitate una cum haccessione et
-                        ingresso suo, seu cum superiore et inferiore suo qualiter supra mensuras et
-                        coherencias legitur in integrum ab hac die tibi qui supra Adelberti
-                        presbiter pro suprascripto precio vendimus, tradamus, mancipamus, et nulli
-                        alii vendita, donata, alienata, obnoxiata vel tradita nisi tibi. Et facies
-                        exinde a presenti die tu et cui tu dederis vestrisque heredibus iure
-                        proprietario nomine quicquit volueritis sine omni nostra et heredum
-                        nostrorum contradicione. Quidem etspondimus adque promittimus nos corum
-                        supra Bonefacius marchio et dux et Richelde cometisse iugalibus et nostri
-                        heredibus tibi qui supra Adelberti presbiteri tuique heredibus aut cui vos
-                        dederitis suprascripta pecia terra cum casa qualiter supra legitur in
-                        integrum ab omne contradicentes homines defensare; quod si defendere non
-                        potuerimus aut si vobis exinde aliquit per quovis ingenio subtrahere
-                        quesierimus tunc <rs key="#Penalty">in dublum</rs> eadem vendita ut supra
-                        legitur vobis restituamus, sicut pro tempore fuerit meliorata aut valuerit
-                        sub estimacione in consimile locum; et nichil nobis ex ipsum precio amplius
-                        aliquit redebere diximus. Acto loco ubi dicitur <placeName
+                            >civitate</rs> Mantue, quod est per mensura iusta tabulas dues. Quoerit
+                        ei fines: de mane via, de meridie heredes quondam Andree Cacarello, de sera
+                        Resola, de montis Rozo presbiter cum fratribus suis abet, sibeque alii sunt
+                        adfines. Que autem suprascripta pecia terra cum casa in suprascripta
+                        civitate una cum haccessione et ingresso suo, seu cum superiore et inferiore
+                        suo qualiter supra mensuras et coherencias legitur in integrum ab hac die
+                        tibi qui supra Adelberti presbiter pro suprascripto precio vendimus,
+                        tradamus, mancipamus, et nulli alii vendita, donata, alienata, obnoxiata vel
+                        tradita nisi tibi. Et facies exinde a presenti die tu et cui tu dederis
+                        vestrisque heredibus iure proprietario nomine quicquit volueritis sine omni
+                        nostra et heredum nostrorum contradicione. Quidem etspondimus adque
+                        promittimus nos corum supra Bonefacius marchio et dux et Richelde cometisse
+                        iugalibus et nostri heredibus tibi qui supra Adelberti presbiteri tuique
+                        heredibus aut cui vos dederitis suprascripta pecia terra cum casa qualiter
+                        supra legitur in integrum ab omne contradicentes homines defensare; quod si
+                        defendere non potuerimus aut si vobis exinde aliquit per quovis ingenio
+                        subtrahere quesierimus tunc <rs key="#Penalty">in dublum</rs> eadem vendita
+                        ut supra legitur vobis restituamus, sicut pro tempore fuerit meliorata aut
+                        valuerit sub estimacione in consimile locum; et nichil nobis ex ipsum precio
+                        amplius aliquit redebere diximus. Acto loco ubi dicitur <placeName
                             ref="#places/2414">Gunziaga</placeName> feliciter. + Signum ++ manibus
                         suprascriptis Bonefacius marchio et dux seu Richelda cometissa iugalibus qui
                         hac <rs key="#Venditio">cartula vindicionis</rs> fieri rogaverunt et ipse
