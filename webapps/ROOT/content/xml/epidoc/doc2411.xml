@@ -32,7 +32,7 @@
                             <rs type="text_type" ref="#">-Breve/memoratorium</rs>
                             <rs type="record_source" ref="#">Original document</rs>
                             <rs type="document_tradition" ref="#">Original</rs>
-                            <rs type="fiscal_property"></rs>
+                            <rs type="fiscal_property">No</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -40,11 +40,11 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate notBefore="0001" notAfter="0001" when="0001">
-                                <note type="displayed_date"></note>
-                                <note type="dating_elements"></note>
-                                <note type="topical_date"></note>
-                                <note type="redaction_date"></note>
+                            <origDate when="1140-12-29">
+                                <note type="displayed_date">1140 December 29</note>
+                                <note type="dating_elements">Stile dell'incarnazione</note>
+                                <note type="topical_date">Pozzo (Santa Maria a Monte, Pisa)</note>
+                                <note type="redaction_date"/>
                             </origDate>
                             <origPlace></origPlace>
                         </origin>
@@ -82,49 +82,58 @@
                 <div type="textpart">
                     <ab>(S) In nomine eterni dei breve ad memoriam habendam vel retinendam qualiter
                         in loco <placeName ref="#places/3210" key="#Castle #Carbonaria"
-                            >Putei</placeName>, super porticum <orgName>Sancti Petri</orgName>, in
-                        presentia <rs key="#Boni_viri/boni_homines">bonorum hominum</rs> quorum
-                        nomina subter leguntur, <persName key="#Priests"><name ref="Sigismundus"
-                                >Sesmundus</name></persName>
+                            >Putei</placeName>, super porticum <orgName
+                            ref="#juridical_persons/3210">Sancti Petri</orgName>, in presentia <rs
+                            key="#Boni_viri/boni_homines">bonorum hominum</rs> quorum nomina subter
+                        leguntur, <persName key="#Priests"><name ref="Sigismundus"
+                            >Sesmundus</name></persName>
                         <rs key="#Priests">sacerdos</rs> dei et ecclesie Beati Petri apostoli de
                         Puteo, cum comuni consilio dominorum et fidelium, per fustem quem in sua
-                        detinebat manu, investivit <persName><name>Rubeum</name> de <placeName
-                                ref="#places/3207">Altepascio</placeName></persName> ad opus
-                            <orgName key="#Hospitals" ref="#juridical_persons/3206"><rs
-                                key="#Hospitals">ospitalis</rs></orgName> vice
-                                <persName><name>Martini</name></persName> domini sui ad tenimentum
-                        de una <rs key="#Petiae">petia</rs> de terra cum <rs key="#Oil">olivis</rs>
-                        et omnibus suis iuris, que videtur esse posita in loco qui dicitur
-                            <placeName key="#Petiae #Oil">Iunghieto</placeName> prope predictum
-                        oppidum. Que tenet unum capud in <rs key="#Carbonaria">carbonaria</rs>
+                        detinebat manu, investivit <persName><name ref="Rubeus">Rubeum</name> de
+                                <placeName ref="#places/3207">Altepascio</placeName></persName> ad
+                        opus <orgName key="#Hospitals" ref="#juridical_persons/3206"><rs
+                                key="#Hospitals">ospitalis</rs></orgName> vice <persName><name
+                                ref="Martinus">Martini</name></persName> domini sui ad tenimentum de
+                        una <rs key="#Petiae">petia</rs> de terra cum <rs key="#Oil">olivis</rs> et
+                        omnibus suis iuris, que videtur esse posita in loco qui dicitur <placeName
+                            key="#Houses #Petiae #Oil #Fruits/vegetables">Iunghieto</placeName>
+                        prope predictum oppidum. Que tenet unum capud in <rs key="#Carbonaria"
+                            >carbonaria</rs>
                         <rs key="#Castle">castelli</rs>, aliud in terra filiorum quondam
-                                <persName><name>Rodulfi</name></persName>, latus unum tenet in <rs
-                            key="#Roads">via pubblica</rs>, aliud in terra
-                                <persName><name>Alghiruoli</name></persName> filii quondam
+                                <persName><name ref="Rodulfus">Rodulfi</name></persName>, latus unum
+                        tenet in <rs key="#Roads">via pubblica</rs>, aliud in terra <persName><name
+                                ref="Alcheruolus">Alghiruoli</name></persName> filii quondam
                                 <persName><name ref="Iohannes">Iohanni</name></persName> (…)
                         reddendo omni anno per unumquemque mensem ianuarii tres nummos bonos
                         expendibiles lucensis monete pro pensione ipsi sacerdoti vel suo misso (…).
-                        Unde ipse Rubeum vice domini fecit ei meritum quadraginta et quatuor solidos
-                        bonorum denariorum lucensis monete (…). Hoc factum est in presentia
-                            <persName ref="#people/3214" key="#Boni_viri/boni_homines"
-                            >Uberti</persName> quondam <persName ref="#people/3216"
-                            >Sigismundi</persName> et <persName key="#Boni_viri/boni_homines"
-                            ref="#people/3217">Adimari</persName> filii <persName>Alberti</persName>
-                        atque alii <persName key="#Boni_viri/boni_homines">Uberti</persName> filii
-                        quondam <persName>Iohannis</persName> et <persName
-                            key="#Boni_viri/boni_homines">Baldinelli</persName> et aliorum multorum.
-                        Anno dominice incarnationis millesimo centesimo quadragesimo primo, quarto
-                        kal. ianuarii, inditione quarta.</ab>
+                        Et insuper spopondit atque obligavit se predictus sacerdos et suos
+                        successores (…) quod si aliquo tempore de iam dicta petia de terra cum <rs
+                            key="#Houses">casamento</rs> et <rs key="#Fruits/vegetables">ortu</rs>
+                        et area atque olivis retollere vel subtrahere aut supraponere voluerint (…)
+                        quod componere debet (…) penam in duplum. Unde ipse Rubeum vice domini fecit
+                        ei meritum quadraginta et quatuor solidos bonorum denariorum lucensis monete
+                        (…). Hoc factum est in presentia <persName ref="#people/3214"
+                            key="#Boni_viri/boni_homines">Uberti</persName> quondam <persName
+                            ref="#people/3216">Sigismundi</persName> et <persName
+                            key="#Boni_viri/boni_homines" ref="#people/3217">Adimari</persName>
+                        filii <persName ref="#people/3218">Alberti</persName> atque alii <persName
+                            key="#Boni_viri/boni_homines"><name ref="Hubertus"
+                            >Uberti</name></persName> filii quondam <persName><name ref="Iohannes"
+                                >Iohannis</name></persName> et <persName
+                            key="#Boni_viri/boni_homines"><name ref="Baldinellus"
+                            >Baldinelli</name></persName> et aliorum multorum. Anno dominice
+                        incarnationis millesimo centesimo quadragesimo primo, quarto kal. ianuarii,
+                        inditione quarta.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p/>
+                <p>Degli Azzi Vitelleschi, 2, n. 509, pag. 171.</p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p/>
             </div>
             <div type="bibliography" subtype="links">
-                <p/>
+                <p><ref>https://www.archiviodigitale.icar.beniculturali.it/it/185/ricerca/detail/536788</ref></p>
             </div>
             <div type="commentary">
                 <p/>
