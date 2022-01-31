@@ -1867,7 +1867,7 @@
                         <link type="estates" corresp="#estates/62" subtype="dependsOn"/>
                         <link type="people" corresp="#people/124" subtype="isConfirmedBy"/>
                         <link type="people" corresp="#people/129" subtype="isConfirmedBy"/>
-                        <link type="people" corresp="#people/7" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/7" subtype="isGrantedBy" cert="low"/>
                     </place>
                     <place>
                         <placeName>Chiavazza (Biella)</placeName>
@@ -4242,6 +4242,7 @@
                         <link type="people" corresp="#people/130" subtype="isConfirmedBy"/>
                         <link type="people" corresp="#people/261" subtype="isConfirmedBy"/>
                         <link type="people" corresp="#people/237" subtype="isConfirmedBy"/>
+                        <link type="estates" corresp="#estates/62" subtype="dependsOn"/>
                     </place>
                     <place>
                         <placeName>Bobbio (Piacenza)</placeName>
@@ -7612,6 +7613,7 @@
                         <link type="people" corresp="#people/129" subtype="isConfirmedBy"/>
                         <link type="people" corresp="#people/7" subtype="isGrantedBy" cert="low"/>
                         <link type="people" corresp="#people/171" subtype="isOwnedBy" cert="low"/>
+                        <link type="people" corresp="#people/261" subtype="isConfirmedBy"/>
                     </place>
                     <place>
                         <placeName>Lenta (Vercelli)</placeName>
@@ -7873,6 +7875,7 @@
                         <link type="people" corresp="#people/171" subtype="isOwnedBy" cert="low"/>
                         <link type="juridical_persons" corresp="#juridical_persons/81"
                             subtype="isGrantedTo" cert="low"/>
+                        <link type="estates" corresp="#estates/62" subtype="dependsOn"/>
                     </place>
                     <place>
                         <placeName><foreign>Walda</foreign> (Moncrivello)</placeName>
@@ -8754,9 +8757,6 @@
                         <geogName type="coord"><geo>45.086269, 10.959459</geo></geogName>
                         <idno>places/2418</idno>
                         <note/>
-                        <link type="people" corresp="#people/292" subtype="link"/>
-                        <link type="juridical_persons" corresp="#juridical_persons/130"
-                            subtype="link"/>
                     </place>
                     <place>
                         <placeName>Minden (DE)</placeName>
@@ -8771,10 +8771,6 @@
                         <geogName type="coord"><geo>44.182561, 10.379421</geo></geogName>
                         <idno>places/2420</idno>
                         <note>Repetti I, p. 799.</note>
-                        <link type="juridical_persons" corresp="#juridical_persons/130"
-                            subtype="link"/>
-                        <link type="juridical_persons" corresp="#juridical_persons/2001"
-                            subtype="link"/>
                     </place>
                     <place>
                         <placeName>Verrucole (San Romano in Garfagnana; Lucca)</placeName>
@@ -8783,8 +8779,6 @@
                         <idno>places/2421</idno>
                         <note>Repetti V, p. 472.</note>
                         <link type="juridical_persons" corresp="#juridical_persons/130"
-                            subtype="link"/>
-                        <link type="juridical_persons" corresp="#juridical_persons/2001"
                             subtype="link"/>
                     </place>
                     <place>
@@ -9328,14 +9322,11 @@
                         <note/>
                     </place>
                     <place>
-                        <placeName>Bianello (Reggio Emilia)</placeName>
+                        <placeName>Bianello (Quattro Castella; Reggio Emilia)</placeName>
                         <placeName type="other"><foreign>Bibianello</foreign></placeName>
                         <geogName type="coord"><geo>44.662843, 10.472736</geo></geogName>
                         <idno>places/2468</idno>
                         <note/>
-                        <link type="people" corresp="#people/292" subtype="link"/>
-                        <link type="juridical_persons" corresp="#juridical_persons/2001"
-                            subtype="link"/>
                     </place>
                     <place>
                         <placeName>Campagnola Emilia (Reggio Emilia)</placeName>
@@ -9344,9 +9335,14 @@
                         <idno>places/2469</idno>
                         <note>Microtoponimi: <foreign>Scalatico</foreign>,
                                 <foreign>Linatico</foreign>.</note>
+<<<<<<< HEAD
                         <link type="people" corresp="#people/292" subtype="link"/>
                         <link type="juridical_persons" corresp="#juridical_persons/2001"
                             subtype="link"/>
+=======
+                        <link type="juridical_persons" corresp="#juridical_persons/2006"
+                            subtype="dependsOn"/>
+>>>>>>> 2bee250d58e33c0cb6a75d560b76da8e73f925bc
                     </place>
                     <place>
                         <placeName>Reggiolo (Reggio Emilia)</placeName>
@@ -9354,9 +9350,6 @@
                         <geogName type="coord"><geo>44.917981, 10.803898</geo></geogName>
                         <idno>places/2470</idno>
                         <note/>
-                        <link type="people" corresp="#people/292" subtype="link"/>
-                        <link type="juridical_persons" corresp="#juridical_persons/2001"
-                            subtype="link"/>
                     </place>
                     <place>
                         <placeName>Castelnuovo (Asola; Mantova)</placeName>
@@ -9365,11 +9358,8 @@
                         <geogName type="coord"><geo>45.247135, 10.454659</geo></geogName>
                         <idno>places/2471</idno>
                         <note/>
-                        <link type="people" corresp="#people/292" subtype="link"/>
-                        <link type="juridical_persons" corresp="#juridical_persons/2001"
-                            subtype="link"/>
                         <link type="juridical_persons" corresp="#juridical_persons/1426"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
                     </place>
                     <place>
                         <placeName>Curtatone (Mantova)</placeName>
