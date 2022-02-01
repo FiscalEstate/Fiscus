@@ -33,7 +33,7 @@
                             <rs type="text_type" ref="#">-Breve/memoratorium</rs>
                             <rs type="record_source" ref="#">Original document</rs>
                             <rs type="document_tradition" ref="#">Original</rs>
-                            <rs type="fiscal_property"></rs>
+                            <rs type="fiscal_property">Uncertain</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -73,7 +73,7 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2022-01-18">creation of record</change>
+                <change when="2022-01-18" who="agiacomelli">creation of record</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -83,7 +83,8 @@
                 <div type="textpart">
                     <ab>[(L) In Christi nomine]. Breve pro modernis et fucturis temporibus
                         securitatis ac firmi[ta]te ad memoriam ab[en]dam vel retinendam qualiter
-                        [in] loco <placeName ref="#places/3200"><orgName
+                        [in] loco <placeName ref="#places/3200"
+                            key="#Count #Countess #Viscount #Monasteries"><orgName
                                 ref="#juridical_persons/3200" key="#Monasteries"
                             >Ficiclo</orgName></placeName> iuxta ecclesiam <rs key="#Monasteries"
                             >monasterii</rs>. Ibidem presentja bonorum hominum, quorum [nomina]
@@ -106,7 +107,8 @@
                         Lucensi <rs key="#Bishops">ep[iscopi]</rs> et <persName key="#Bishops"
                             ref="#people/3211">Rugheri</persName> Volterrensi episcopi et <persName
                             key="#Bishops" ref="#people/3212">Ildebrandi</persName> Pistoriensi
-                        episcopi et <rs key="#Canons">canonico[rum]</rs> Florentie, scilicet
+                        episcopi et <rs key="#Canons">canonico[rum]</rs>
+                        <placeName ref="#places/2" key="#Canons">Florentie</placeName>, scilicet
                         preposit[i …] <rs key="#Priests">presbiteri</rs> et <rs key="#Deacons"
                             >archidiaconi</rs>, et <persName><name ref="Rodelandus">Rolandi</name>
                             de <placeName>Renonica</placeName></persName> pro episcopo Pisano, omnes
