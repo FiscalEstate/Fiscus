@@ -34,7 +34,7 @@
                             <rs type="text_type" ref="#">--Offersio/donatio</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Original</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">No</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -83,22 +83,23 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>(S.) In nomine domini Dei et salvatoris nostri Iesu Christi, <date>Enricus
-                            gratia Dei rex, anno regni eius Deo propitio ic in Italia primo, mense
-                            marcius, indicione secunda</date>, <orgName
+                    <ab>(S.) In nomine domini Dei et salvatoris nostri Iesu Christi, <persName
+                            key="#Emperor/king" ref="#people/130">Enricus</persName> gratia Dei <rs
+                            key="#Emperor/king">rex</rs>, anno regni eius Deo propitio ic in Italia
+                        primo, mense marcius, indicione secunda, <orgName
                             ref="#juridical_persons/2001"
-                            key="#Monasteries #Offersio/donatio #Curtes #Landed_possessions #Houses #Cells/hermitages"
+                            key="#Monasteries #Offersio/donatio #Curtes #Landed_possessions #Houses #Cells/hermitages #Wine #Cereals #Hay/fodder #Animals #Forests #Marshes/lagoons/tombolos #Fisheries #Shores #Rights_of_use_on_woods/pastures/waters"
                             >monasterio Sancte Marie et Sancti Benedicti et Sancti Michaeli
                             Archangeli et Sancti Petri Apostoli</orgName> qui est constructum in
-                        <placeName key="#Islands #Monasteries" ref="#places/2400"><rs key="#Islands">insula</rs> qui dicitur
-                            Sancti Benedicti</placeName>. Ego in Dei nomine <persName
-                            key="#Marquis/duke" ref="#people/1">Bonefacio</persName>
-                        <rs
-                            key="#Marquis/duke #Lombard #childOf #Witness #Offersio/donatio #Curtes #Landed_possessions #Houses #Cells/hermitages"
-                            >marchio</rs>
-                        <rs key="#childOf">filius</rs> bone memorie <persName key="#Marquis/duke #Lombard"
-                            ref="#people/2122">Teudaldi</persName> itemque marchio,
-                        professus sum ex nacione mea lege vivere <rs key="#Lombard"
+                            <placeName key="#Islands #Monasteries" ref="#places/2400"><rs
+                                key="#Islands">insula</rs> qui dicitur Sancti Benedicti</placeName>.
+                        Ego in Dei nomine <persName
+                            key="#Marquis/duke #Lombard #childOf #Witness #Offersio/donatio #Curtes #Landed_possessions #Houses #Cells/hermitages #Wine #Cereals #Hay/fodder #Animals #Forests #Marshes/lagoons/tombolos #Fisheries #Shores #Rights_of_use_on_woods/pastures/waters"
+                            ref="#people/1">Bonefacio</persName>
+                        <rs key="#Marquis/duke">marchio</rs>
+                        <rs key="#childOf">filius</rs> bone memorie <persName
+                            key="#Marquis/duke #Lombard" ref="#people/2122">Teudaldi</persName>
+                        itemque marchio, professus sum ex nacione mea lege vivere <rs key="#Lombard"
                             >Langobardorum</rs>, aufertor et donator rnonasterio presentibus dixi:
                         Quisquis in sanctis ac in venerabilis locis ex suis contulit rebus iuxta
                         auctori vocem in hoc seculo centumplum accipiat insuper et quod melius est
@@ -111,15 +112,16 @@
                             <rs key="#Houses">casis</rs> et omnibus <rs key="#Landed_possessions"
                             >rebus territoriis</rs> illis iuris mei, quam abere visus sum in <rs
                             key="#Areas">loco et fundo</rs>
-                        <geogName key="#Areas #Curtes #Landed_possessions #Houses #Cells/hermitages"
+                        <geogName
+                            key="#Areas #Curtes #Landed_possessions #Houses #Cells/hermitages #Wine #Cereals #Hay/fodder #Animals #Forests #Marshes/lagoons/tombolos #Fisheries #Shores #Rights_of_use_on_woods/pastures/waters"
                             ref="#estates/2050"><placeName
-                                key="#Areas #Curtes #Landed_possessions #Houses #Cells/hermitages"
+                                key="#Areas #Curtes #Landed_possessions #Houses #Cells/hermitages #Wine #Cereals #Hay/fodder #Animals #Forests #Marshes/lagoons/tombolos #Fisheries #Shores #Rights_of_use_on_woods/pastures/waters"
                                 ref="#places/482">Burbascio</placeName></geogName>, omnia et ex
                         omnibus quantum ad ipsa curticella pertinet in integrum. Coeret ei fines: da
                         mane mihi reservo; da meridie decurrit <rs key="#Rivers">Mincio fluvio</rs>;
                         da sera <rs key="#Canals">fossa</rs> de suprascripto Burbascio; da monti
-                            <placeName>Gricia de media silva</placeName> ut dictum est; tam casis
-                        cum <rs key="#Landed_possessions">sediminibus</rs> et <rs key="#Wine"
+                        <rs key="#Rivers">Gricia</rs> de media silva ut dictum est; tam casis cum <rs
+                            key="#Landed_possessions">sediminibus</rs> et <rs key="#Wine"
                             >vineis</rs> cum areis suarum, seu <rs key="#Cereals">terris
                             arabilis</rs> et <rs key="#Hay/fodder">pratis</rs>, <rs
                             key="#Hay/fodder #Animals">pascuis</rs>, <rs key="#Forests">silvis</rs>,
@@ -174,7 +176,26 @@
                 <p/>
             </div>
             <div type="commentary">
-                <p/>
+                <p>Circa la datazione, l’editrice del testo, Carla Villani, precisa: «anche se tutti
+                    gli elementi della datazione concordano nell’indicare l’anno 1004 (primo anno di
+                    regno di Enrico II, indizione seconda), la data appare non accettabile perché
+                    nel 1004 il monastero di S. Benedetto, cui si fa esplicito riferimento, non era
+                    ancora stato fondato; inoltre nell’atto il marchese Bonifacio si dichiara
+                        “<foreign>filius bone memorie Teudaldi</foreign>”: il documento quindi
+                    dovette essere stilato sia dopo il 1007, anno di fondazione del monastero, sia
+                    dopo il 1012, presunto anno di morte di Tedaldo di Canossa. La data qui
+                    suggerita (1019)è la prima che dopo il 1004 rispetti la concordanza tra anno e
+                    indizione, ma corrisponde al sesto anno d’impero di Enrico II; va quindi presa
+                    come ipotesi e accettata prudenzialmente.»</p>
+                <p>Il “<foreign>Gricia</foreign>” è un corso d’acqua minore tra Mincio e Tartaro: il
+                    nome latino <foreign>Agricia</foreign> è divenuto l’italiano Allegrezza.
+                    Calzolari distingue un <foreign>Agricia maior</foreign>, o Cavo Allegrezza, e un
+                        <foreign>Agricia minor</foreign>, o Scolo Allegrezza: il Cavo «ha le sue
+                    origini nell’alta pianura mantovana presso Roverbella […] e confluisce infine
+                    nel Cavo Molinella in loc. Forte d’Attila», mentre lo Scolo «di dimensioni più
+                    modeste, ha origine nelle campagne a sud di Roncoferraro, e dopo un breve
+                    percorso va a confluire nel Fissero». Il documento in questione si riferisce
+                    quindi allo Scolo (Calzolari 1989).</p>
             </div>
         </body>
     </text>
