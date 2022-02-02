@@ -32,7 +32,7 @@
                             <rs type="text_type" ref="#">--Venditio</rs>
                             <rs type="record_source" ref="#">Original document</rs>
                             <rs type="document_tradition" ref="#">Original</rs>
-                            <rs type="fiscal_property"></rs>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -40,11 +40,12 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate notBefore="0001" notAfter="0001" when="0001">
-                                <note type="displayed_date"></note>
-                                <note type="dating_elements"></note>
-                                <note type="topical_date"></note>
-                                <note type="redaction_date"></note>
+                            <origDate when="1143-01-28">
+                                <note type="displayed_date">1143 January 28</note>
+                                <note type="dating_elements">Stile dell'incarnazione</note>
+                                <note type="topical_date">Caprugnana (Castelfranco di Sotto,
+                                    Pisa)</note>
+                                <note type="redaction_date"/>
                             </origDate>
                             <origPlace></origPlace>
                         </origin>
@@ -102,33 +103,42 @@
                             key="#Hospitals" ref="#juridical_persons/3206"><rs key="#Hospitals"
                                 >hospitalis</rs> de iam dicto loco</orgName>, duas integras petias
                         de terra que videntur esse posite in loco et finibus qui dicitur <placeName
-                            ref="#places/3202" key="#Viscount">Cartialla</placeName>. Una quarum est
-                        tenens unum caput in via pubblica, aliud in terra nostra quam reservamus
-                        nobis, latus unum tenet in terra de <persName><name ref="Poellare"
-                                >Poellare</name></persName> de loco qui Tolle nuncupatur, aliud in
-                        terra <persName><name ref="Rodulfinus">Rodufini</name></persName>. Alia
+                            ref="#places/3202"
+                            key="#Landed_possessions #Fiscal_property #Mention #Viscount"
+                            >Cartialla</placeName>. Una quarum est tenens unum caput in via
+                        pubblica, aliud in terra nostra quam reservamus nobis, latus unum tenet in
+                        terra de <persName><name ref="Poellare de Tolle">Poellare de loco qui
+                                    <placeName>Tolle</placeName> nuncupatur,</name></persName> aliud
+                        in terra <persName><name ref="Rodulfinus">Rodufini</name></persName>. Alia
                         petia posita ibidem in Cartialla, est tenes unum caput in terra de
-                        suprascripto Poellare, aliud in terra de filiis <persName>Ildebrandini
-                            Gutti</persName>, latus unum tenet in terra de filiis <persName>Ursi
-                            Stantei</persName>, aliud in terra <rs key="#Viscount"
-                            >vicecomitorum</rs> de <placeName ref="#places/3200" key="#Viscount"
-                            >Ficecclo</placeName>, et sunt inter ambas duodecim stariora ad
-                        sextarium de duodecim panibus. (…). Pro quibus a te meritum recepimus vice
-                        Martini domini tui et hospitalis iam dicti sex libras bonorum denariorum
-                        lucensis monete. <ref>Pena in duplum.</ref> (…) Hanc cartulam scribere
-                        rogavimus <persName key="#Writer #Notary"><name ref="Heinricus"
+                        suprascripto Poellare, aliud in terra de filiis <persName><name
+                                ref="Ildebrandinus Guttus">Ildebrandini Gutti</name></persName>,
+                        latus unum tenet in terra de filiis <persName><name ref="Ursus Stantius"
+                                >Ursi Stantei</name></persName>, aliud in <rs
+                            key="#Landed_possessions #Fiscal_property #Mention">terra</rs>
+                        <rs key="#Viscount">vicecomitorum</rs> de <placeName ref="#places/3200"
+                            key="#Viscount">Ficecclo</placeName>, et sunt inter ambas duodecim
+                        stariora ad sextarium de duodecim panibus. (…). Pro quibus a te meritum
+                        recepimus vice Martini domini tui et hospitalis iam dicti sex libras bonorum
+                        denariorum lucensis monete. <ref>Pena in duplum.</ref> (…) Hanc cartulam
+                        scribere rogavimus <persName key="#Writer #Notary"><name ref="Heinricus"
                                 >Henrigum</name></persName>
                         <rs key="#Notary">notarium</rs> donni inperatoris. Actum in Valle Arni, in
                         villa que <placeName ref="#places/3219">Caprognana</placeName> dicitur, non
                         longe ab domo suprascriptorum iugalium. Signa manus suprascriptorum iugalium
                         Bonelli et Scocte atque Balduini et Ughiccionis, qui hanc cartulam
-                        venditionis fieri rogaverunt. Signa manus <persName>Lucterii</persName>
-                        quondam <persName>Rolandini</persName> et <persName>Buttrighi</persName>
-                        quondam <persName>Ursi</persName> atque <persName>Normanni</persName> filii
-                            <persName>Signorelli</persName>. Signa manus <persName key="#Witness"
-                            >Ildebrandini</persName> quondam <persName>Lanberti</persName> atque
-                            <persName key="#Witness">Malpilii</persName> quondam
-                            <persName>Ramondini</persName> et aliorum rogatorum <rs key="#Witness"
+                        venditionis fieri rogaverunt. Signa manus <persName><name ref="Lucterius"
+                                >Lucterii</name></persName> quondam <persName><name ref="Rodelandus"
+                                >Rolandini</name></persName> et <persName><name ref="Buttrigus"
+                                >Buttrighi</name></persName> quondam <persName><name ref="Ursus"
+                                >Ursi</name></persName> atque <persName><name ref="Normannus"
+                                >Normanni</name></persName> filii <persName><name ref="Signorellus"
+                                >Signorelli</name></persName>. Signa manus <persName key="#Witness"
+                                ><name ref="Ildebrandinus">Ildebrandini</name></persName> quondam
+                                <persName><name ref="Lambertus">Lanberti</name></persName> atque
+                            <persName key="#Witness"><name ref="Malpilius"
+                            >Malpilii</name></persName> quondam <persName><name ref="Raginmundus"
+                                >Ramondini</name></persName> et aliorum rogatorum <rs key="#Witness"
                             >testium</rs>. (S) Henrigus donni inperatoris notarius post rogationem
                         et tradictionem complevi et dedi. Et repromissionem fieri rogaverunt contra
                         suprascriptam cartulam venditionis ad defendendum qui per manum tenet ad
