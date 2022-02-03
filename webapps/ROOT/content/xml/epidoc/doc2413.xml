@@ -29,10 +29,10 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="#"></rs>
-                            <rs type="record_source" ref="#"></rs>
-                            <rs type="document_tradition" ref="#"></rs>
-                            <rs type="fiscal_property"></rs>
+                            <rs type="text_type" ref="#">--Venditio</rs>
+                            <rs type="record_source" ref="#">Original document</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property">No</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -40,11 +40,12 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate notBefore="0001" notAfter="0001" when="0001">
-                                <note type="displayed_date"></note>
-                                <note type="dating_elements"></note>
-                                <note type="topical_date"></note>
-                                <note type="redaction_date"></note>
+                            <origDate when="1143-03-19">
+                                <note type="displayed_date">1143 March 19</note>
+                                <note type="dating_elements">Stile dell'incarnazione</note>
+                                <note type="topical_date">Catiana (Castelfranco di Sotto,
+                                    Pisa)</note>
+                                <note type="redaction_date"/>
                             </origDate>
                             <origPlace></origPlace>
                         </origin>
@@ -72,7 +73,7 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2022-01-01">creation of record</change>
+                <change when="2022-02-02" who="agiacomelli">creation of record</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -82,29 +83,60 @@
                 <div type="textpart">
                     <ab>(L) In nomine domini nostri Iehsu Christi dei eterni, anno ab incarnatione
                         eius millesimo centesimo quadragiesimo tertio, quartodecimo kalendas
-                        aprelis, indictione quinta. Manifesti sumus nos Rusticus, filius quondam
-                        Petri, et Guilgia iugalis et filia quondam Omici, sed ego Guilgia
-                        interrogata sum a duobus propinquoribus parentibus meis, (…) Uberto germano
-                        meo et Bonello quondam Bonci filio propinquo meo (…) quod (…) per meam bonam
-                        voluntatem facio (…) comuniter nos ambo insimul per hanc cartulam vendimus
-                        et tradimus tibi Martino, custode et ecclesie et hospitali deo et beati
-                        sancti Iagobi et sancti Gilii et sancti Christofani que est fundata et
-                        edificata in loco qui vocatur Altepasscio videlicet integram unam nostram
-                        petiam de terra que est posita in loco qui vocatur Cartialla, que tenet unum
-                        caput in rivo qui vocatur Radicosa, aliut caput tenet in terra Viviani filii
-                        quondam Busci, latus unum tenet in terra de predicto hospitale, aliut latus
-                        tenet in terra de filiis Lamberti Leoli. Et est ad iuxta mensuram stariora
-                        duo et panora tres. (…)</ab>
+                        aprelis, indictione quinta. Manifesti sumus nos <persName><name
+                                ref="Rusticus">Rusticus</name></persName>, filius quondam
+                                <persName><name ref="Petrus">Petri</name></persName>, et
+                                <persName><name ref="Wilgia">Guilgia</name></persName> iugalis et
+                        filia quondam <persName><name ref="Omicius">Omici</name></persName>, sed ego
+                        Guilgia interrogata sum a duobus propinquoribus parentibus meis, (…)
+                                <persName><name ref="Hubertus">Uberto</name></persName> germano meo
+                        et <persName><name ref="Bonellus">Bonello</name></persName> quondam
+                                <persName><name ref="Boncius">Bonci</name></persName> filio
+                        propinquo meo (…) quod (…) per meam bonam voluntatem facio (…) comuniter nos
+                        ambo insimul per hanc cartulam vendimus et tradimus tibi <persName><name
+                                ref="Martinus">Martino</name></persName>, custode et <rs
+                            key="#Churches">ecclesie</rs> et <rs key="#Hospitals">hospitali</rs> deo
+                        et <orgName ref="#juridical_persons/3206" key="#Churches #Hospitals">beati
+                            sancti Iagobi et sancti Gilii et sancti Christofani</orgName> que est
+                        fundata et edificata in loco qui vocatur <placeName ref="#places/3207"
+                            key="#Churches #Hospitals">Altepasscio</placeName> videlicet integram
+                        unam nostram <rs key="#Petiae">petiam</rs> de terra que est posita in loco
+                        qui vocatur <placeName key="#Rivers #Petiae" ref="#places/3202"
+                            >Cartialla</placeName>, que tenet unum caput in <rs key="#Rivers"
+                            >rivo</rs> qui vocatur Radicosa, aliut caput tenet in terra
+                                <persName><name ref="Vivianus">Viviani</name></persName> filii
+                        quondam <persName><name ref="Buscus">Busci</name></persName>, latus unum
+                        tenet in terra de predicto hospitale, aliut latus tenet in terra de filiis
+                                <persName><name ref="Lambertus Leolus">Lamberti
+                            Leoli</name></persName>. Et est ad iuxta mensuram stariora duo et panora
+                        tres. (…) <foreign>Prezzo</foreign>: argienti denarios lucensis monete sol.
+                        viginti et duo et medio (…). <foreign>Pena</foreign> in duplum. Actum in
+                        loco qui vocatur <placeName ref="#places/23">Catiana</placeName>. Singna
+                        manuum suprascriptorum iugalium, qui hancartulam (sic) comuniter et
+                        consentienter fieri rogaverunt. Singna manuum <persName><name ref="Rogerius"
+                                >Rugierii</name></persName> filii quondam <persName><name
+                                ref="Briccherius">Briccheri</name></persName> et <persName><name
+                                ref="Bastardus">Bastardi</name></persName> filii quondam
+                                <persName><name ref="Lambertus">Lamberti</name></persName> et
+                                <persName><name ref="Daldus Grappus">Daldi Grappi</name></persName>
+                        filii quondam <persName><name ref="Leolus">Leoli</name></persName> et
+                                <persName><name ref="Bandinus">Bandini</name></persName> filii
+                        Bastardi et aliorum plurimum rogatorum testium. (L) <persName
+                            key="#Writer #Notary"><name ref="Hubertus">Hubertum</name></persName>
+                        donni inperatoris <rs key="#Notary">notarium</rs> post traditam complevi et
+                        dedi. Et repromissio rogaverunt fieri suprascripti iugales contra predictam
+                        cartulam in persona prenominati Martini ad partem prefati hospitali, in
+                        penam centum soldorum eodem die et loco eisdem testibus et merito.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p/>
+                <p>Degli Azzi Vitelleschi, 2, n. 537, pag 182.</p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p/>
             </div>
             <div type="bibliography" subtype="links">
-                <p/>
+                <p><ref>https://www.archiviodigitale.icar.beniculturali.it/it/185/ricerca/detail/536791</ref></p>
             </div>
             <div type="commentary">
                 <p/>
