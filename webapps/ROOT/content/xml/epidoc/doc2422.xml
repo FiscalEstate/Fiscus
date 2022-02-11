@@ -30,8 +30,8 @@
                     <msContents>
                         <summary>
                             <rs type="text_type" ref="#"/>
-                            <rs type="record_source" ref="#"/>
-                            <rs type="document_tradition" ref="#"/>
+                            <rs type="record_source" ref="#">Original document</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
                             <rs type="fiscal_property"/>
                         </summary>
                         <msItem xml:id="msItem1">
@@ -40,9 +40,9 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate>
-                                <note type="displayed_date"/>
-                                <note type="dating_elements"/>
+                            <origDate when="1154-02-28">
+                                <note type="displayed_date">1154 Febryary 28</note>
+                                <note type="dating_elements">Stile dell'incarnazione</note>
                                 <note type="topical_date"/>
                                 <note type="redaction_date"/>
                             </origDate>
@@ -72,7 +72,7 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2022-02-03" who="other">creation of record</change>
+                <change when="2022-02-11" who="agiacomelli">creation of record</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -81,28 +81,43 @@
             <div type="edition">
                 <div type="textpart">
                     <ab>(S) In nomine domini dei eterni, anno incarnationis eius millesimo centesimo
-                        LIII, secundo kalendas martii (…). Manifesti sumus nos Passavanti (Sismundi)
-                        et Berta uxor, consensu mariti mei, notitia vero Benni iudicis (…), quia per
-                        hanc cartulam pro dei timore et nostrorum redemptione donamus et tradimus
-                        transacto iure proprietatis manu rectoris et conductoris pontis de Ficiclo,
-                        pro adiutorio illius operis retinendo, qui conducitur et retinetur auxilio
-                        dei et de rectoribus ospitalis Altipasti. Nos vero nominative pro ipso ponte
+                        LIII, secundo kalendas martii, indictione II, Christo actore. Manifesti
+                        sumus nos <persName ref="#people/3215">Passavanti</persName> (quondam
+                            <persName ref="#people/3216">Sismundi</persName>) et
+                            <persName>Berta</persName> uxor, consensu mariti mei, notitia vero
+                            <persName key="#Writer #Notary #Judge"><name ref="Bennus"
+                            >Benni</name></persName>
+                        <rs key="#Judge">iudicis</rs> (…), quia per hanc cartulam pro dei timore et
+                        nostrorum redemptione donamus et tradimus transacto iure proprietatis manu
+                        rectoris et conductoris <orgName ref="#juridical_persons/3209"
+                            key="#Bridges/pontoons"><rs key="#Bridges/pontoons">pontis</rs> de
+                                <placeName ref="#places/3200" key="#Bridges/pontoons"
+                                >Ficiclo</placeName></orgName>, pro adiutorio illius operis
+                        retinendo, qui conducitur et retinetur auxilio dei et de rectoribus
+                                <orgName><rs key="#Hospitals">ospitalis</rs>
+                            <placeName ref="#places/3207" key="#Hospitals"
+                            >Altipasti</placeName></orgName>. Nos vero nominative pro ipso ponte
                         reconciliando annualiter volo, et optamus unde perpetualis transactum facio
-                        de duobus sol. pensone quia recipere solemus de nostra terra et masia illa
-                        Brunelli Berre de Paterno. (Modo Passerinus gener eius tenet). Intregram
-                        ipsam pensionem, et si non annualiter adimplere voluerint tenetores tunc ius
-                        et dominium requirendi de illa masia costringendi, donamus rectoribus, ut in
-                        perpetuum pensionem II sol. habeant expedite, et numquam removere. Et si
-                        quis removere voluerit ab ipsa opera componat penam rectoribus sol. C (…).
-                            <foreign>Maledizioni</foreign>. + Amen. + Amen. + Fiat. Facum fuit hoc a
-                        Montespertoli Lucardo, in presentia Rinucini Cascianelli et Ialli de
-                        Montespertoli et presbiteri illorum et Rainucini de Gangalandi testium.
-                        Signa manuum predictorum donatorum Passavanti, Berte, qui ita rogaverunt
-                        fieri. Et alios duos soldos preter istos quos sibi retinuerunt, post mortem
-                        istorum si absque legitimis filiis vel filia obierint et in etate non
-                        devenerit, tunc in eadem opera pontis remaneant. Et sic IIII sol. erunt. (S)
-                        Ego Benno notarius et iudex interfui, et ipsam Bertam interrogavi, et
-                        cognita bona voluntate eius cartulam scripsi et hanc complevi. </ab>
+                        de duobus sol. pensone quia recipere solemus de nostra terra et <rs
+                            key="#Mansi">masia</rs> illa <persName>Brunelli Berre</persName> de
+                            <placeName key="#Mansi">Paterno</placeName>. (Modo <persName><name
+                                ref="Passerinus">Passerinus</name></persName> gener eius tenet).
+                        Intregram ipsam pensionem, et si non annualiter adimplere voluerint
+                        tenetores tunc ius et dominium requirendi de illa masia costringendi,
+                        donamus rectoribus, ut in perpetuum pensionem II sol. habeant expedite, et
+                        numquam removere. Et si quis removere voluerit ab ipsa opera componat penam
+                        rectoribus sol. C (…). <foreign>Maledizioni</foreign>. + Amen. + Amen. +
+                        Fiat. Factum fuit hoc a <placeName>Montespertoli Lucardo</placeName>, in
+                        presentia <persName>Rinucini Cascianelli</persName> et <persName>Ialli de
+                            Montespertoli</persName> et presbiteri illorum et <persName>Rainucini de
+                                <placeName>Gangalandi</placeName></persName> testium. Signa manuum
+                        predictorum donatorum Passavanti, Berte, qui ita rogaverunt fieri. Et alios
+                        duos soldos preter istos quos sibi retinuerunt, post mortem istorum si
+                        absque legitimis filiis vel filia obierint et in etate non devenerit, tunc
+                        in eadem opera pontis remaneant. Et sic IIII sol. erunt. (S) Ego Benno <rs
+                            key="#Notary">notarius</rs> et iudex interfui, et ipsam Bertam
+                        interrogavi, et cognita bona voluntate eius cartulam scripsi et hanc
+                        complevi. </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
