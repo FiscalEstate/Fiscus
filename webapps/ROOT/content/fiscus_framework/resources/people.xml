@@ -611,8 +611,8 @@
                     <persName type="other"/>
                     <idno>people/94</idno>
                     <note/>
-                    <link type="places" corresp="#places/7" subtype="link"/>
-                    <link type="juridical_persons" corresp="#juridical_persons/89 #juridical_persons/80" subtype="link"/>
+                    <link type="juridical_persons"
+                            corresp="#juridical_persons/89 #juridical_persons/80" subtype="rectorOf"/>
                 </person>
                 <person>
                     <persName>Guillelmus (s.m. XII)</persName>
@@ -824,8 +824,8 @@
                     <persName type="other"/>
                     <idno>people/117</idno>
                     <note/>
-                    <link type="juridical_persons" corresp="#juridical_persons/89 #juridical_persons/80" subtype="link"/>
-                    <link type="places" corresp="#places/45" subtype="link"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/80"
+                            subtype="rectorOf"/>
                 </person>
                 <person>
                     <persName>Hludouuicus I (778-840) imperator</persName>
@@ -3757,6 +3757,14 @@
                         <link type="places" corresp="#places/847" subtype="link"/>
                         <link type="places" corresp="#places/245" subtype="link"/>
                     </person>
+                    <person>
+                        <persName>Amizo (989-998; episcopus Taurinensis)</persName>
+                        <persName type="other"/>
+                        <idno>people/531</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/412"
+                            subtype="rectorOf"/>
+                    </person>
                 </listPerson>
                 <listPerson n="Cinello Erika">
                     <person>
@@ -4232,44 +4240,52 @@
                             subtype="professionalRelationship"/>
                     </person>
                     <person>
-                        <persName>Ansprandus da Iuminianello (962-967)</persName>
+                        <persName>Ansprandus de Iuminianello (962-967)</persName>
                         <idno>people/2103</idno>
-                        <note>La localià d'origine non è identificata.</note>
+                        <note>La localià d'origine non è identificata con certezza, ma Fumagalli
+                            1973 (p. 194) ipotizza che si tratti di una località, di cui oggi resta
+                            solo traccia odonomastica, a NE di Casina (Reggio Emilia), non lontano
+                            da Canossa.</note>
                         <link type="people" corresp="#people/2100" subtype="dominus/seniorOf"/>
                         <link type="people" corresp="#people/2104" subtype="siblingOf"/>
+                        <link type="places" corresp="#places/2927" subtype="link"/>
                     </person>
                     <person>
-                        <persName>Ildevertus da Iuminianello (962-963)</persName>
+                        <persName>Ildevertus de Iuminianello (962-963)</persName>
                         <persName type="other">Aldevertus</persName>
                         <idno>people/2104</idno>
-                        <note>La localià d'origine non è identificata.</note>
+                        <note>La localià d'origine non è identificata con certezza, ma Fumagalli
+                            1973 (p. 194) ipotizza che si tratti di una località, di cui oggi resta
+                            solo traccia odonomastica, a NE di Casina (Reggio Emilia), non lontano
+                            da Canossa.</note>
                         <link type="people" corresp="#people/2100" subtype="dominus/seniorOf"/>
                         <link type="people" corresp="#people/2103" subtype="siblingOf"/>
+                        <link type="places" corresp="#places/2927" subtype="link"/>
                     </person>
                     <person>
-                        <persName>Manfredus f. Ozoni de Monticlo (962)</persName>
-                        <persName type="other">Manginfredus</persName>
+                        <persName>Manfredus de Monticlo (962)</persName>
+                        <persName type="other">Manginfredus f. Ozoni </persName>
                         <idno>people/2105</idno>
                         <note/>
                         <link type="people" corresp="#people/2100" subtype="dominus/seniorOf"/>
                     </person>
                     <person>
-                        <persName>Vualbertus f. Vualberti da Bismantova (962-966)</persName>
-                        <persName type="other">Vuatpertus</persName>
+                        <persName>Vualbertus de Bismantova (962-966)</persName>
+                        <persName type="other">Vuatpertus f. Vualberti </persName>
                         <idno>people/2106</idno>
                         <note/>
                         <link type="people" corresp="#people/2100" subtype="link"/>
                         <link type="places" corresp="#places/2407" subtype="link"/>
                     </person>
                     <person>
-                        <persName>Vuibertus f. Vuiberti da Bagnolo (961-962) vicecomes</persName>
-                        <persName type="other"/>
+                        <persName>Vuibertus de Bagnolo (961-962) vicecomes</persName>
+                        <persName type="other">Vuibertus f. Vuiberti </persName>
                         <idno>people/2107</idno>
                         <note>Interviene in due permute in qualità di "<foreign>bonus vir homo
                                 estimator</foreign>" (CDP I nn. 1 e 4, 961 agosto 25 e 962 ottobre
                             10).</note>
                         <link type="people" corresp="#people/2100" subtype="dominus/seniorOf"/>
-                        <link type="places" corresp="#places/2407" subtype="link"/>
+                        <link type="places" corresp="#places/2408" subtype="link"/>
                     </person>
                     <person>
                         <persName>Ursus (961-963) notarius; iudex; advocatus Ecclesiae
@@ -4279,9 +4295,12 @@
                         <note>Il notaio e giudice Urso compare anche in una carta reggiana del 961,
                             un livello con la canonica della cattedrale per alcune terre in città
                             (Torelli 1921, n. 59 pp. 150-151).</note>
-                        <link type="people" corresp="#people/2110" subtype="link"/>
-                        <link type="juridical_persons" corresp="#juridical_persons/1418" subtype="link"/>
-                        <link type="juridical_persons" corresp="#juridical_persons/108" subtype="link"/>
+                        <link type="people" corresp="#people/2110"
+                            subtype="professionalRelationship"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1418"
+                            subtype="agentFor"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/108"
+                            subtype="agentFor"/>
                     </person>
                     <person>
                         <persName>Martinus (945-961) archipresbiter et prepositus canonice Sanctae
@@ -4294,12 +4313,10 @@
                             subtype="rectorOf"/>
                     </person>
                     <person>
-                        <persName>Ermenaldus (962-979) episcopus Regensis</persName>
+                        <persName>Ermenaldus (962-979; episcopus Regensis)</persName>
                         <persName type="other"/>
                         <idno>people/2110</idno>
-                        <note/>
-                        <link type="juridical_persons" corresp="#juridical_persons/108"
-                            subtype="rectorOf"/>
+                        <note>Schwartz 1913, p. 195.</note>
                         <link type="people" corresp="#people/2100"
                             subtype="professionalRelationship"/>
                     </person>
@@ -4329,19 +4346,35 @@
                         <persName>Giselbertus (962) missus regis</persName>
                         <persName type="other"/>
                         <idno>people/2114</idno>
-                        <note>Si tratta quasi certamente del figlio del conte reggiano Ragimundo
-                            (vd. Fumagalli 1973, pp. 139-144). I figli di Giselberto, Davit e
-                            Ragimundo, sono documentati come vassalli di Adalberto Atto (vd.
-                            Fumagalli 1971, p. 63). La <foreign>notitia iudicati</foreign> CDP I n.
-                            2 (962 gennaio 20), che riporta un placito presieduto da Giselberto,
-                            cita suoi quattro vassalli. </note>
-                        <link type="places" corresp="#places/191" subtype="link"/>
-                        <link type="people" corresp="#people/173" subtype="link"/>
-                        <link type="people" corresp="#people/2110" subtype="link"/>
+                        <note>Si tratta quasi certamente del figlio del conte reggiano Ragimundo, il
+                                "<foreign>Giselbertum filium bone memorie Ragimundi comitis abitator
+                                in comitatu Parmense, loco Saxolo</foreign>", attore in una permuta
+                            del 980 con il manastero bresciano di Santa Giulia (Torelli 1921, n.
+                            LXVIII, p. 177). Fumagalli evidenzia che Giselberto cede beni del
+                            patrimonio familiare ubicati nell’alto Appennino, tra i passi delle
+                            Radici e dell’Abetone, in cambio di altri nella Bassa mantovana,
+                            spostando così il centro dei suoi interessi dove erano presenti un suo
+                            vassallo, Tetbaldo da Gorgo, e soprattutto il <foreign>senior</foreign>
+                            dei suoi figli, Adalberto Atto. I figli di Giselberto, Davit e
+                            Ragimundo, sono infatti documentati come vassalli di Adalberto Atto e
+                            poi del figlio Tedaldo. La famiglia è di origine longobarda e Fumagalli
+                            ipotizza che sia stata insediata da re Ugo come conti del comitato
+                            reggiano almeno dal 931. Conti reggiani sono assenti dalla
+                            documentazione tra il 944 e il 962, quando il titolo ricompare intestato
+                            ad Adalberto Atto. La <foreign>notitia iudicati</foreign> CDP I n. 2
+                            (962 gennaio 20), che riporta un placito presieduto da Giselberto, cita
+                            suoi quattro vassalli, il primo dei quali, Tetbaldo da Gorgo, risulta in
+                            seguito vassallo canossano. Giselberto presiede il placito in qualità di
+                                <foreign>missus regis</foreign> di Ottone, “<foreign>per data
+                                licentia</foreign>” del vescovo reggiano. </note>
+                        <note>Fumagalli 1971, p. 63; Fumagalli 1973, pp. 139-144</note>
+                        <link type="people" corresp="#people/173" subtype="agentFor"/>
+                        <link type="people" corresp="#people/2110"
+                            subtype="professionalRelationship"/>
                     </person>
                     <person>
-                        <persName>Albericus f. Rainerii (962) vassus imperatoris</persName>
-                        <persName type="other"/>
+                        <persName>Albericus (962) vassus imperatoris</persName>
+                        <persName type="other">Albericus f. Rainerii</persName>
                         <idno>people/2115</idno>
                         <note>Si tratta del figlio di Raginerio/Rainerio, conte di Piacenza intorno
                             alla metà del X secolo, e nipote di Guido, vescovo della stessa città
@@ -4352,21 +4385,33 @@
                             (962 luglio 5). Fumagalli individua la provenienza dei due da Mandrio e
                             Mandriolo, a nord di Coreggio (Fumagalli 1971, pp. 62-63).</note>
                         <link type="people" corresp="#people/173" subtype="dominus/seniorOf"/>
-                        <link type="people" corresp="#people/2100" subtype="link"/>
-                        <link type="places" corresp="#places/2401" subtype="link"/>
-                        <link type="places" corresp="#places/2402" subtype="link"/>
+                        <link type="people" corresp="#people/2100"
+                            subtype="professionalRelationship"/>
+                        <link type="people" corresp="#people/2167" subtype="marriage"/>
                     </person>
                     <person>
-                        <persName>Tetbaldus f. Luponi da Gorgo (962-963)</persName>
-                        <persName type="other"/>
+                        <persName>Tetbaldus de Gorgo (962-963)</persName>
+                        <persName type="other">Tetbaldus f. Luponi </persName>
                         <idno>people/2116</idno>
                         <note>In CDP I n. 2 (962 gennaio 20) è detto <foreign>vassus</foreign> del
                             messo imperiale Giselberto, mentre in CDP I n. 3 (962 luglio 5) è
-                            elencato tra i fideles di Adalberto Atto. Faceva parte del gruppo
-                            familiare dei da Gorgo (vd. Fumagalli 1973, pp. 149-155, 158-165). Il
-                            toponimo Gorgo non sembra corrispondere all’odierna Gorgo, presso San
-                            Benedetto Po: potrebbe essere una Gorgo presso Gonzaga o un’altra tra
-                            Correggio e Novellara.</note>
+                            elencato tra i <foreign>fideles</foreign> di Adalberto Atto: Fumagalli
+                            si chiede se ci sia stata una successione, o se si tratti di un precoce
+                            caso di doppio vassallaggio. Lo studioso propende per la prima ipotesi:
+                            nei pochi mesi che separano i due documenti, Ottone, a cui Adalberto
+                            Atto legò le sue fortune, ricevette infatti la corona imperiale (2
+                            febbraio). Tetbaldo faceva parte del gruppo familiare dei da Gorgo.
+                            Fumagalli ricorda un documento con cui Berengario I, tra il 902 e il
+                            913, concesse a Lupo, evidentemente il padre di Tetbaldo,
+                                “<foreign>licentiam haedificandi castellum in villa Gurgo supra
+                                fluvio Bondeno comitatu Regense</foreign>” e altri diritti pubblici
+                            (DD B I XCIV, pp. 249-250). La Rinaldi, editrice dei documenti
+                            polironiani citati, dubita che questa Gorgo corrisponda all’odierna
+                            Gorgo, presso San Benedetto Po, e ipotizza un’ubicazione presso Gonzaga,
+                            o tra Correggio e Novellara. Alla luce della ricostruzione del corso del
+                            Bondeno di Calzolari 1998, l’ultima ipotesi non sembra verosimile. È
+                            documentato un fratello di Tetbaldo, Ito. </note>
+                        <note>Fumagalli 1973, pp. 142-144, pp. 149-155, 158-165.</note>
                         <link type="people" corresp="#people/2114" subtype="dominus/seniorOf"/>
                         <link type="people" corresp="#people/2100" subtype="dominus/seniorOf"/>
                     </person>
@@ -4375,26 +4420,38 @@
                         <persName type="other">Gusberto</persName>
                         <idno>people/2117</idno>
                         <note>È uno dei 19 <foreign>fideles</foreign> di Adalberto Atto elencati in
-                            CDP I n. 3 (962 luglio 5) ed è parente di Millerada, moglie di Albericus
-                            f. Rainerii. Fumagalli ne individua la provenienza da Mandrio, a nord di
-                            Coreggio (Fumagalli 1971, pp. 62-63).</note>
+                            CDP I n. 3 (962 luglio 5) ed è parente di Millerada, moglie di Alberico
+                            di Raineri. Fumagalli ne individua la provenienza da Mandrio, a nord di
+                            Coreggio. Nelle menzioni documentarie il suo nome si accompagna spesso a
+                            quello di Elino. Patrimonialmente è attestato a Mandrio e Mandriolo,
+                            così come Elino.</note>
+                        <note>Fumagalli 1971, pp. 62-63.</note>
                         <link type="people" corresp="#people/2100" subtype="dominus/seniorOf"/>
-                        <link type="people" corresp="#people/2115" subtype="link"/>
+                        <link type="people" corresp="#people/2167" subtype="kinOf"/>
                     </person>
                     <person>
                         <persName>Elinus (962-963)</persName>
-                        <persName type="other"/>
+                        <persName type="other">Eilinus</persName>
                         <idno>people/2118</idno>
                         <note>È uno dei 19 <foreign>fideles</foreign> di Adalberto Atto elencati in
-                            CDP I n. 3 (962 luglio 5) ed è parente di Millerada, moglie di Albericus
-                            f. Rainerii. Fumagalli ne individua la provenienza da Mandriolo, a nord
-                            di Coreggio (Fumagalli 1971, pp. 62-63).</note>
+                            CDP I n. 3 (962 luglio 5) ed è parente di Millerada, moglie di Alberico
+                            di Raineri. Fumagalli ne individua la provenienza da Mandrio, a nord di
+                            Coreggio . Lo studioso lo identifica infatti con l’“<foreign>Eilini
+                                filius quondam Iteri de villa Mandriole</foreign>” di una
+                            compravendita del 16 maggio 946 (Torelli 1921 n. LIV, pp. 139-140). Il
+                            padre sarebbe lo stesso Ito identificato come figlio di Lupo de Gorgo e
+                            quindi fratello maggiore di Tetbaldo. Fumagalli riconduce così Elino, e
+                            di conseguenza anche la parente Millerada, al gruppo parentale dei da
+                            Gorgo. Nelle menzioni documentarie il suo nome si accompagna spesso a
+                            quello di Gausberto. Patrimonialmente è attestato a Mandrio e Mandriolo,
+                            così come Gausberto.</note>
+                        <note>Fumagalli 1971, pp. 62-63; Fumagalli 1973, p. 152.</note>
                         <link type="people" corresp="#people/2100" subtype="dominus/seniorOf"/>
-                        <link type="people" corresp="#people/2115" subtype="link"/>
+                        <link type="people" corresp="#people/2167" subtype="kinOf"/>
                     </person>
                     <person>
-                        <persName>Antonius f. Annoni da Vicolongo (962)</persName>
-                        <persName type="other">Otto</persName>
+                        <persName>Antonius de Vicolongo (962)</persName>
+                        <persName type="other">Antonius f. Annoni; Otto f. Annoni</persName>
                         <idno>people/2119</idno>
                         <note/>
                         <link type="people" corresp="#people/2120" subtype="siblingOf"/>
@@ -4402,8 +4459,8 @@
                         <link type="places" corresp="#places/2409" subtype="link"/>
                     </person>
                     <person>
-                        <persName>Rodericus f. Annoni da Vicolongo (962)</persName>
-                        <persName type="other"/>
+                        <persName>Rodericus de Vicolongo (962)</persName>
+                        <persName type="other">Rodericus f. Annoni</persName>
                         <idno>people/2120</idno>
                         <note/>
                         <link type="people" corresp="#people/2119" subtype="siblingOf"/>
@@ -4847,6 +4904,12 @@
                         <idno>people/2166</idno>
                         <note/>
                     </person>
+                    <person>
+                        <persName>Millerada (963)</persName>
+                        <persName type="other"/>
+                        <idno>people/2167</idno>
+                        <note>Fumagalli 1973, p. 152.</note>
+                    </person>
                 </listPerson>
                 <listPerson n="Giacomelli Alessandro">
                     <person>
@@ -5037,6 +5100,13 @@
                         <idno>people/3224</idno>
                         <note/>
                         <link type="people" corresp="#people/3220" subtype="marriage"/>
+                    </person>
+                    <person>
+                        <persName>Berta (1143-1156); Conti di Rosaiolo e Gangalandi</persName>
+                        <persName type="other"/>
+                        <idno>people/3225</idno>
+                        <note/>
+                        <link type="people" corresp="#people/3215" subtype="marriage"/>
                     </person>
                 </listPerson>
                 <listPerson n="Internullo Dario">
@@ -5372,6 +5442,35 @@
                         <idno>people/1235</idno>
                         <note/>
                         <link type="people" corresp="#people/9" subtype="officeHolderFor"/>
+                    </person>
+                    <person>
+                        <persName>Ratpertus (abbas Nonantulensis; 838-839)</persName>
+                        <persName type="other"/>
+                        <idno>people/1236</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/47" subtype="officeHolderFor"/>
+                    </person>
+                    <person>
+                        <persName>Petrus II (abbas Nonantulensis; 856-865)</persName>
+                        <persName type="other"/>
+                        <idno>people/1237</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/47" subtype="officeHolderFor"/>
+                    </person>
+                    <person>
+                        <persName>Giselprandus (abbas Nonantulensis; 842-851)</persName>
+                        <persName type="other"/>
+                        <idno>people/1238</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/47" subtype="officeHolderFor"/>
+                    </person>
+                    <person>
+                        <persName>Teodorus III (episcopus Bononiensis; 814-825)</persName>
+                        <persName type="other"/>
+                        <idno>people/1239</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/80"
+                            subtype="rectorOf"/>
                     </person>
                 </listPerson>
                 <listPerson n="Massa Paola">

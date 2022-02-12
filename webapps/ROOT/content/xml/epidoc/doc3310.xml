@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Lucca, Archivio Storico Diocesano, Archivio Arcivescovile, Diplomatico, +  N
+                    72</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc3310</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Libellus/precaria/emphyteusis</rs>
+                            <rs type="record_source" ref="#">Original document</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property">Uncertain</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0893-05-15">
+                                <note type="displayed_date">893 May 15</note>
+                                <note type="dating_elements">Anno d'impero di Guido</note>
+                                <note type="topical_date">Lucca</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace></origPlace>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-02-08" who="mviti">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab><persName><name ref="Angelbertus">Anghalperto</name></persName> filio
+                            <persName>quondam <name ref="Ansualdus">Ansualdi</name></persName>
+                        riceve da <persName ref="#people/214" key="#Bishops">Gherardus</persName>,
+                        gratia Dei huius Sancte Lucane ecclesie humilis <rs key="#Bishops"
+                            >episcopus</rs>, per cartula livellario nomine ad laborandum et
+                        gubernanrdum seo meliorandum (…), <rs key="#Casae/cassinae_massaricie">casa
+                            et res</rs> illa in loco <placeName ref="#places/357"
+                            key="#Casae/cassinae_massaricie">Sugrominio</placeName>, quas antea
+                                <persName><name ref="Liutbrandus">Liusprando</name></persName> ad
+                        manus suas abuit, et ego ipsi modo exinde ad manus mea abere videor,
+                        pertenentes <rs key="#Churches">ecclesie</rs>
+                        <orgName ref="#juridical_persons/70" key="#Churches">Sancti
+                            Fridiani</orgName>, qui est de subpotestatem ecclesie <rs
+                            key="#Mother_churches">episcopatui</rs> vestro <orgName
+                            ref="#juridical_persons/68" key="#Mother_churches">Sancti
+                            Martini</orgName>; casa vero ipsa cum curte, orto, terris, vineis,
+                        olivis, silvis, virghareis, pratis, pascuis, cultis rebus vel incultis,
+                        omnia (…) in integrum mihi eas dedisti (…). Obbligo: ego vel meas heredes in
+                        suprascripta casa residere et abitare debeamus et tam ipsa casa quam et
+                        predicta res (…) bene  laborare et gubernare seo meliorare debeamus (…).
+                        Censo: tibi vel ad subcessoribus tuis ad pars suprascripto <rs key="#Domus"
+                            >domo</rs> episcopatui vestro Sancti Martini per singulos annos, in ipso
+                        loco, reddere debeamus <rs key="#Wine">medietatem vinum purum</rs>, ad
+                        tertiam vices uba legitima calcata et indi vinata, nam non pondum levandum;
+                        et vobis reddere debeamus per singulos annos <rs key="#Oil">medietatem
+                            oleo</rs>; et angaria vero vobis facere debeamus per singulos annos per
+                        omnem ebdomatas dies duo, ubique vobis autilitas fuerit; et per vindemia vos
+                        vel misso vestro super palmentum veneritis, nos vos recipere et gubernare
+                        debeamus; et a mandato vestro venire debeamus hic Luca legem et iustitiam
+                        faciendum tantum (…). Pena: spondeo cum meis heredes componere tibi (…)
+                        argentum soledos triginta (…).<persName key="#Writer #Notary"><name
+                                ref="Teudimundus">Teudimundus</name></persName>
+                        <rs key="#Notary">notarius</rs> scrive due <rs
+                            key="#Libellus/precaria/emphyteusis">cartulas</rs>. Actum <placeName
+                            ref="#places/4" key="#Churches #Mother_churches #Bishops"
+                            >Luca</placeName>. Sottoscrivono come <rs key="#Witness"
+                            >testimoni</rs>:<persName key="#Witness"><name ref="Allo"
+                            >Aloni</name></persName>, <persName key="#Witness"><name ref="Allo"
+                                >Aloni</name></persName> filio <persName>bone memorie <name
+                                ref="Angelbertus">Angalperti</name></persName>, <persName
+                            ref="#people/149" key="#Witness">Cunimundo</persName>, <persName
+                            ref="#people/150" key="#Witness">Fraolmi</persName>.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>MDL, 5/2, n. 988, p. 611; ChLA, 86, n. 31, pp. 106-107</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>Sottoscrizioni autografe: Aloni, Cunimundo, Fraolmi, Teudimundus notarius
+                    (scrittore). Sottoscrizioni con <foreign>Signa</foreign>: Anghalperto
+                    (livellario), Aloni qd. Angalperti. Sul <foreign>verso</foreign> della
+                    pergamena, in basso, si leggono due note tergali: a sinistra, leggibile solo
+                    parzialmente, e di mano del rogatario: <foreign>+ Libello da
+                        Angalp(er)to</foreign>; a destra, del secolo XII: <foreign>L(ibellum) in
+                        Subgruminio. De casa/ et re S(an)c(t)i Frigiani</foreign>.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
