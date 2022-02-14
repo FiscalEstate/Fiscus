@@ -78,6 +78,7 @@
                         <link type="people" corresp="#people/233" subtype="isGrantedBy"/>
                         <link type="people" corresp="#people/234" subtype="isGrantedBy"/>
                         <link type="people" corresp="#people/16" subtype="isClaimedBy"/>
+                        <link type="people" corresp="#people/124" subtype="isGrantedBy"/>
                 </place>
                 
                 <place>
@@ -95,6 +96,7 @@
                         <link type="people" corresp="#people/16" subtype="isClaimedBy"/>
                         <link type="juridical_persons" corresp="#juridical_persons/53"
                             subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/124" subtype="isGrantedBy"/>
                 </place>
                 
                 <place>
@@ -125,6 +127,7 @@
                         <link type="people" corresp="#people/234" subtype="isGrantedBy"/>
                         <link type="juridical_persons" corresp="#juridical_persons/53"
                             subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/124" subtype="isGrantedBy"/>
                 </place>
                 
                 <place>
@@ -270,6 +273,7 @@
                         <link type="people" corresp="#people/234" subtype="isGrantedBy"/>
                         <link type="juridical_persons" corresp="#juridical_persons/53"
                             subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/124" subtype="isGrantedBy"/>
                 </place>
                 <place>
                     <geogName>Lucca; <foreign>curtis</foreign></geogName>
@@ -299,6 +303,7 @@
                         <link type="people" corresp="#people/234" subtype="isGrantedBy"/>
                         <link type="juridical_persons" corresp="#juridical_persons/53"
                             subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/124" subtype="isGrantedBy"/>
                 </place>
                 <place>
                     <geogName>Settepolesini; <foreign>curtis</foreign></geogName>
@@ -572,12 +577,10 @@
                     <geogName type="other"/>
                     <idno>estates/101</idno>
                     <note>La sua prossimità con l'antica chiesa di Abdon e Sennen consente una
-                        localizzazione nei pressi di Via Alessandro Poerio 55(Roma): cfr. De
-                        Francesco 2004: 208</note>
-                    <link type="people" corresp="#people/68" subtype="link"/>
-                    <link type="places"
-                        corresp="#places/139 #places/52"
-                        subtype="link"/>
+                            localizzazione nei pressi di Via Alessandro Poerio 55 (Roma): cfr. De
+                            Francesco 2004: 208</note>
+                    <link type="people" corresp="#people/68" subtype="isOwnedBy"/>
+                    <link type="places" corresp="#places/139 #places/52" subtype="correspondsTo"/>
                 </place>
                 <place>
                     <geogName>Capanianum; <foreign>fundus</foreign></geogName>
@@ -597,26 +600,10 @@
                     <geogName type="other"/>
                     <idno>estates/103</idno>
                     <note/>
-                    <link type="people" corresp="#people/71" subtype="link"/>
-                    <link type="estates" corresp="#estates/173" subtype="isMadeOf"/>
-                    <link type="people" corresp="#people/68" subtype="link"/>
-                    <link type="estates" corresp="#estates/217" subtype="isMadeOf"/>
-                    <link type="estates" corresp="#estates/219" subtype="isMadeOf"/>
-                    <link type="estates" corresp="#estates/220" subtype="isMadeOf"/>
-                    <link type="estates" corresp="#estates/216" subtype="isMadeOf"/>
-                    <link type="estates" corresp="#estates/218" subtype="isMadeOf"/>
-                    <link type="estates" corresp="#estates/234" subtype="isMadeOf"/>
-                    <link type="estates" corresp="#estates/256" subtype="isMadeOf"/>
-                    <link type="estates" corresp="#estates/102" subtype="isMadeOf"/>
-                    <link type="estates" corresp="#estates/118" subtype="isMadeOf"/>
-                    <link type="estates" corresp="#estates/257" subtype="isMadeOf"/>
-                    <link type="estates" corresp="#estates/262" subtype="isMadeOf"/>
-                    <link type="estates" corresp="#estates/263" subtype="isMadeOf"/>
-                    <link type="estates" corresp="#estates/264" subtype="isMadeOf"/>
-                    <link type="estates" corresp="#estates/265" subtype="isMadeOf"/>
-                    <link type="estates" corresp="#estates/321" subtype="isMadeOf"/>
-                        <link type="estates" corresp="#estates/811" subtype="isMadeOf"/>
-                        <link type="estates" corresp="#estates/812" subtype="isMadeOf"/>
+                    <link type="people" corresp="#people/71" subtype="isOwnedBy"/>
+                    <link type="people" corresp="#people/68" subtype="isOwnedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1100"
+                            subtype="isOwnedBy"/>
                 </place>
                 <place>
                     <geogName>Hochburg; <foreign>curtis</foreign></geogName>
@@ -687,6 +674,7 @@
                         <link type="people" corresp="#people/233" subtype="isGrantedBy"/>
                         <link type="people" corresp="#people/234" subtype="isGrantedBy"/>
                         <link type="people" corresp="#people/110" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/124" subtype="isGrantedBy"/>
                 </place>
                 <place>
                     <geogName>Stazzona; <foreign>comitatus</foreign></geogName>
@@ -1373,7 +1361,8 @@
                         <foreign>massa</foreign></geogName>
                     <idno>estates/171</idno>
                     <note>De Francesco 2004: 273-277</note>
-                    <link type="people" corresp="#people/222" subtype="link"/>
+                    <link type="people" corresp="#people/222" subtype="isOwnedBy"/>
+                        <link type="places" corresp="#places/372" subtype="correspondsTo"/>
                 </place>
                 <place>
                     <geogName><foreign>Vallis Pruvinanensis</foreign>; sculdascia</geogName>
@@ -1456,8 +1445,8 @@
                     <geogName type="other"/>
                     <idno>estates/180</idno>
                     <note>De Francesco 2004: 208-210. </note>
-                    <link type="people" corresp="#people/68" subtype="link"/>
-                    <link type="places" corresp="#places/432" subtype="link"/>
+                    <link type="people" corresp="#people/68" subtype="isOwnedBy"/>
+                    <link type="places" corresp="#places/432" subtype="proximity"/>
                 </place>
                 <place>
                     <geogName><foreign>Duos Robores</foreign>; curtis </geogName>
@@ -1543,18 +1532,17 @@
                     <geogName type="other"/>
                     <idno>estates/189</idno>
                     <note/>
-                    <link type="people" corresp="#people/71" subtype="link"/>
-                    <link type="estates" corresp="#estates/190" subtype="isPartOf"/>
-                    <link type="estates" corresp="#estates/192" subtype="isPartOf"/>
+                    <link type="people" corresp="#people/71" subtype="isHeldBy"/>
+                    <link type="estates" corresp="#estates/190" subtype="dependsOn"/>
+                        <link type="places" corresp="#places/434" subtype="proximity"/>
                 </place>
                 <place>
                     <geogName><foreign>Peltiana</foreign>; <foreign>massa</foreign></geogName>
                     <geogName type="other"/>
                     <idno>estates/190</idno>
                     <note/>
-                    <link type="people" corresp="#people/71" subtype="link"/>
-                    <link type="estates" corresp="#estates/189" subtype="isMadeOf"/>
-                    <link type="estates" corresp="#estates/192" subtype="isPartOf"/>
+                    <link type="people" corresp="#people/71" subtype="isOwnedBy"/>
+                    <link type="estates" corresp="#estates/192" subtype="dependsOn"/>
                 </place>
                 <place>
                     <geogName><foreign>Contronenses</foreign>; <foreign>fines</foreign></geogName>
@@ -1568,33 +1556,11 @@
                     <geogName type="other"/>
                     <idno>estates/192</idno>
                     <note/>
-                    <link type="people" corresp="#people/71" subtype="link"/>
-                    <link type="estates" corresp="#estates/221" subtype="isMadeOf"/>
-                    <link type="estates" corresp="#estates/190" subtype="isMadeOf"/>
-                    <link type="estates" corresp="#estates/189" subtype="isMadeOf"/>
-                    <link type="estates" corresp="#estates/230" subtype="isMadeOf"/>
-                    <link type="estates" corresp="#estates/227" subtype="isMadeOf"/>
-                    <link type="estates" corresp="#estates/292" subtype="isMadeOf"/>
-                    <link type="estates" corresp="#estates/299" subtype="isMadeOf"/>
-                        <link type="estates" corresp="#estates/800" subtype="isMadeOf"/>
-                        <link type="estates" corresp="#estates/805" subtype="isMadeOf"/>
-                        <link type="estates" corresp="#estates/838" subtype="isMadeOf"/>
-                        <link type="estates" corresp="#estates/874" subtype="isMadeOf"/>
-                        <link type="estates" corresp="#estates/875" subtype="isMadeOf"/>
-                        <link type="estates" corresp="#estates/881" subtype="isMadeOf"/>
-                        <link type="estates" corresp="#estates/882" subtype="isMadeOf"/>
-                        <link type="people" corresp="#people/69" subtype="link"/>
-                        <link type="estates" corresp="#estates/883" subtype="isMadeOf"/>
-                        <link type="estates" corresp="#estates/884" subtype="isMadeOf"/>
-                        <link type="estates" corresp="#estates/885" subtype="isMadeOf"/>
-                        <link type="estates" corresp="#estates/886" subtype="isMadeOf"/>
-                        <link type="estates" corresp="#estates/887" subtype="isMadeOf"/>
-                        <link type="estates" corresp="#estates/888" subtype="isMadeOf"/>
-                        <link type="estates" corresp="#estates/889" subtype="isMadeOf"/>
-                        <link type="estates" corresp="#estates/890" subtype="isMadeOf"/>
-                        <link type="estates" corresp="#estates/891" subtype="isMadeOf"/>
-                        <link type="estates" corresp="#estates/892" subtype="isMadeOf"/>
+                    <link type="people" corresp="#people/71" subtype="isOwnedBy"/>
+                        <link type="people" corresp="#people/69" subtype="isOwnedBy"/>
                         <link type="estates" corresp="#estates/895" subtype="isMadeOf"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1100"
+                            subtype="isOwnedBy"/>
                 </place>
                 <place>
                     <geogName>Reggio Emilia; <foreign>comitatus</foreign></geogName>
@@ -1772,6 +1738,7 @@
                         <link type="people" corresp="#people/234" subtype="isGrantedBy"/>
                         <link type="juridical_persons" corresp="#juridical_persons/53"
                             subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/124" subtype="isGrantedBy"/>
                 </place>
                 <place>
                     <geogName>Modena; <foreign>comitatus</foreign></geogName>
@@ -1848,45 +1815,45 @@
                     <geogName type="other"/>
                     <idno>estates/216</idno>
                     <note/>
-                    <link type="people" corresp="#people/71" subtype="link"/>
-                    <link type="places" corresp="#places/490" subtype="link"/>
-                    <link type="estates" corresp="#estates/103" subtype="isPartOf"/>
+                    <link type="people" corresp="#people/71" subtype="isOwnedBy"/>
+                    <link type="places" corresp="#places/490" subtype="proximity"/>
+                    <link type="estates" corresp="#estates/103" subtype="dependsOn"/>
                 </place>
                 <place>
                     <geogName><foreign>Agellione</foreign>; <foreign>casale</foreign></geogName>
                     <geogName type="other"/>
                     <idno>estates/217</idno>
                     <note/>
-                    <link type="people" corresp="#people/71" subtype="link"/>
-                    <link type="places" corresp="#places/490" subtype="link"/>
-                    <link type="estates" corresp="#estates/103" subtype="isPartOf"/>
+                    <link type="people" corresp="#people/71" subtype="isOwnedBy"/>
+                    <link type="places" corresp="#places/490" subtype="proximity"/>
+                    <link type="estates" corresp="#estates/103" subtype="dependsOn"/>
                 </place>
                 <place>
                     <geogName><foreign>Pompeianum</foreign>; <foreign>casale</foreign></geogName>
                     <geogName type="other"/>
                     <idno>estates/218</idno>
                     <note/>
-                    <link type="people" corresp="#people/71" subtype="link"/>
-                    <link type="places" corresp="#places/490" subtype="link"/>
-                    <link type="estates" corresp="#estates/103" subtype="isPartOf"/>
+                    <link type="people" corresp="#people/71" subtype="isOwnedBy"/>
+                    <link type="places" corresp="#places/490" subtype="proximity"/>
+                    <link type="estates" corresp="#estates/103" subtype="dependsOn"/>
                 </place>
                 <place>
                     <geogName><foreign>Caleianum</foreign>; <foreign>casale</foreign></geogName>
                     <geogName type="other"/>
                     <idno>estates/219</idno>
                     <note/>
-                    <link type="people" corresp="#people/71" subtype="link"/>
-                    <link type="places" corresp="#places/490" subtype="link"/>
-                    <link type="estates" corresp="#estates/103" subtype="isPartOf"/>
+                    <link type="people" corresp="#people/71" subtype="isOwnedBy"/>
+                    <link type="places" corresp="#places/490" subtype="proximity"/>
+                    <link type="estates" corresp="#estates/103" subtype="dependsOn"/>
                 </place>
                 <place>
                     <geogName><foreign>Fortunae</foreign>; <foreign>fundus</foreign></geogName>
                     <geogName type="other"/>
                     <idno>estates/220</idno>
                     <note/>
-                    <link type="people" corresp="#people/71" subtype="link"/>
-                    <link type="places" corresp="#places/490" subtype="link"/>
-                    <link type="estates" corresp="#estates/103" subtype="isPartOf"/>
+                    <link type="people" corresp="#people/71" subtype="isOwnedBy"/>
+                    <link type="places" corresp="#places/490" subtype="proximity"/>
+                    <link type="estates" corresp="#estates/103" subtype="dependsOn"/>
                 </place>
                 <place>
                     <geogName><foreign>Iuniorum</foreign>; <foreign>massa</foreign></geogName>
@@ -1920,78 +1887,65 @@
                     <geogName type="other"/>
                     <idno>estates/224</idno>
                     <note/>
-                    <link type="people" corresp="#people/71" subtype="link"/>
-                    <link type="estates" corresp="#estates/232" subtype="isMadeOf"/>
-                    <link type="estates" corresp="#estates/120" subtype="isMadeOf"/>
-                    <link type="estates" corresp="#estates/322" subtype="isMadeOf"/>
-                    <link type="estates" corresp="#estates/324" subtype="isMadeOf"/>
-                        <link type="estates" corresp="#estates/803" subtype="isMadeOf"/>
-                        <link type="estates" corresp="#estates/809" subtype="isMadeOf"/>
-                        <link type="estates" corresp="#estates/810" subtype="isMadeOf"/>
-                        <link type="estates" corresp="#estates/868" subtype="isMadeOf"/>
-                        <link type="estates" corresp="#estates/873" subtype="isMadeOf"/>
+                    <link type="people" corresp="#people/71" subtype="isOwnedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1100"
+                            subtype="isOwnedBy"/>
                 </place>
                 <place>
                     <geogName><foreign>Casa Cantari</foreign>; <foreign>fundus</foreign></geogName>
                     <geogName type="other"/>
                     <idno>estates/225</idno>
                     <note/>
-                    <link type="people" corresp="#people/71" subtype="link"/>
-                    <link type="estates" corresp="#estates/227" subtype="isPartOf"/>
+                    <link type="people" corresp="#people/71" subtype="isOwnedBy"/>
+                    <link type="estates" corresp="#estates/227" subtype="dependsOn"/>
                 </place>
                 <place>
                     <geogName><foreign>Vivarium</foreign>; <foreign>fundus</foreign></geogName>
                     <geogName type="other"/>
                     <idno>estates/226</idno>
                     <note/>
-                    <link type="people" corresp="#people/71" subtype="link"/>
-                    <link type="estates" corresp="#estates/227" subtype="isPartOf"/>
+                    <link type="people" corresp="#people/71" subtype="isOwnedBy"/>
+                    <link type="estates" corresp="#estates/227" subtype="dependsOn"/>
                 </place>
                 <place>
                     <geogName><foreign>Silanis</foreign>; <foreign>massa</foreign></geogName>
                     <geogName type="other"/>
                     <idno>estates/227</idno>
                     <note/>
-                    <link type="people" corresp="#people/71" subtype="link"/>
-                    <link type="estates" corresp="#estates/225" subtype="isMadeOf"/>
-                    <link type="estates" corresp="#estates/226" subtype="isMadeOf"/>
-                    <link type="estates" corresp="#estates/192" subtype="isPartOf"/>
-                    <link type="estates" corresp="#estates/228" subtype="isMadeOf"/>
-                    <link type="estates" corresp="#estates/279" subtype="isMadeOf"/>
-                    <link type="estates" corresp="#estates/280" subtype="isMadeOf"/>
+                    <link type="people" corresp="#people/71" subtype="isOwnedBy"/>
+                    <link type="estates" corresp="#estates/192" subtype="dependsOn"/>
                 </place>
                 <place>
                     <geogName><foreign>Lauretis</foreign>; <foreign>fundus</foreign></geogName>
                     <geogName type="other"/>
                     <idno>estates/228</idno>
                     <note/>
-                    <link type="people" corresp="#people/71" subtype="link"/>
-                    <link type="estates" corresp="#estates/227" subtype="isPartOf"/>
+                    <link type="people" corresp="#people/71" subtype="isOwnedBy"/>
+                    <link type="estates" corresp="#estates/227" subtype="dependsOn"/>
                 </place>
                 <place>
                     <geogName><foreign>Marcianus</foreign>; <foreign>fundus</foreign></geogName>
                     <geogName type="other"/>
                     <idno>estates/229</idno>
                     <note/>
-                    <link type="people" corresp="#people/71" subtype="link"/>
-                    <link type="estates" corresp="#estates/230" subtype="isPartOf"/>
+                    <link type="people" corresp="#people/71" subtype="isOwnedBy"/>
+                    <link type="estates" corresp="#estates/230" subtype="dependsOn"/>
                 </place>
                 <place>
                     <geogName><foreign>Gallorum</foreign>; <foreign>massa</foreign></geogName>
                     <geogName type="other"/>
                     <idno>estates/230</idno>
                     <note/>
-                    <link type="people" corresp="#people/71" subtype="link"/>
-                    <link type="estates" corresp="#estates/229" subtype="isMadeOf"/>
-                    <link type="estates" corresp="#estates/192" subtype="isPartOf"/>
+                    <link type="people" corresp="#people/71" subtype="isOwnedBy"/>
+                    <link type="estates" corresp="#estates/192" subtype="dependsOn"/>
                 </place>
                 <place>
                     <geogName><foreign>Offilianus</foreign>; <foreign>fundus</foreign></geogName>
                     <geogName type="other"/>
                     <idno>estates/231</idno>
                     <note/>
-                    <link type="people" corresp="#people/71" subtype="link"/>
-                    <link type="estates" corresp="#estates/232" subtype="isPartOf"/>
+                    <link type="people" corresp="#people/71" subtype="isOwnedBy"/>
+                    <link type="estates" corresp="#estates/232" subtype="dependsOn"/>
                 </place>
                 <place>
                     <geogName><foreign>Neviana</foreign>; <foreign>massa</foreign></geogName>
@@ -2000,10 +1954,8 @@
                     <note>Questa massa è localizzabile presso il XX miglio dell'Appia, che cade poco
                         prima del castello di S. Gennaro. Doveva trovarsi poco a nord di Lanuvio
                         (Roma): cf. De Francesco 2004: 241. </note>
-                    <link type="people" corresp="#people/71" subtype="link"/>
-                    <link type="estates" corresp="#estates/224" subtype="isPartOf"/>
-                    <link type="estates" corresp="#estates/231" subtype="isMadeOf"/>
-                        <link type="estates" corresp="#estates/867" subtype="isPartOf"/>
+                    <link type="people" corresp="#people/71" subtype="isOwnedBy"/>
+                    <link type="estates" corresp="#estates/224" subtype="dependsOn"/>
                 </place> 
                 <place>
                     <geogName>Beneventana;<foreign> curtis</foreign></geogName>
@@ -2046,16 +1998,16 @@
                     <geogName type="other"/>
                     <idno>estates/237</idno>
                     <note/>
-                    <link type="people" corresp="#people/71" subtype="link"/>
-                    <link type="estates" corresp="#estates/120" subtype="isPartOf"/>
+                    <link type="people" corresp="#people/71" subtype="isOwnedBy"/>
+                    <link type="estates" corresp="#estates/120" subtype="dependsOn"/>
                 </place>
                 <place>
                     <geogName><foreign>Folianus</foreign>; <foreign>fundus</foreign></geogName>
                     <geogName type="other"/>
                     <idno>estates/238</idno>
                     <note/>
-                    <link type="people" corresp="#people/71" subtype="link"/>
-                    <link type="estates" corresp="#estates/120" subtype="isPartOf"/>
+                    <link type="people" corresp="#people/71" subtype="isOwnedBy"/>
+                    <link type="estates" corresp="#estates/120" subtype="dependsOn"/>
                 </place>
                 <place>
                     <geogName>Valli; <foreign>curtis</foreign></geogName>
@@ -2222,10 +2174,10 @@
                     <geogName><foreign>Gratinianus</foreign>; <foreign>fundus</foreign></geogName>
                     <geogName type="other"/>
                     <idno>estates/256</idno>
-                    <note>De Francesco 2004: p. 215. Questo fondo doveva trovarsi presso il VII
-                        miglio della via Clodia.</note>
-                    <link type="people" corresp="#people/71" subtype="link"/>
-                    <link type="estates" corresp="#estates/103" subtype="isPartOf"/>
+                    <note>De Francesco 2004: 215. Questo fondo doveva trovarsi presso il VII miglio
+                            della via Clodia.</note>
+                    <link type="people" corresp="#people/71" subtype="isOwnedBy"/>
+                    <link type="estates" corresp="#estates/103" subtype="dependsOn"/>
                 </place>
                 <place>
                     <geogName><foreign>Rosarius</foreign>; <foreign>fundus</foreign></geogName>
@@ -2233,8 +2185,8 @@
                     <idno>estates/257</idno>
                     <note>De Francesco 2004: 215. come il <foreign>fundus Gratinianus</foreign>,
                         anche questo doveva trovarsi presso il VII miglio della via Clodia.</note>
-                    <link type="people" corresp="#people/71" subtype="link"/>
-                    <link type="estates" corresp="#estates/103" subtype="isPartOf"/>
+                    <link type="people" corresp="#people/71" subtype="isOwnedBy"/>
+                    <link type="estates" corresp="#estates/103" subtype="dependsOn"/>
                 </place>
                 <place>
                     <geogName>Ivrea; <foreign>comitatus</foreign></geogName>
@@ -2487,73 +2439,71 @@
                     <idno>estates/281</idno>
                     <note>De Francesco 2004: 223-227</note>
                     <link type="people" corresp="#people/71" subtype="link"/>
-                    <link type="estates" corresp="#estates/282" subtype="isMadeOf"/>
-                        <link type="estates" corresp="#estates/846" subtype="isMadeOf"/>
-                        <link type="estates" corresp="#estates/897" subtype="isMadeOf"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1100"
+                            subtype="isOwnedBy"/>
                 </place>
                 <place>
                     <geogName><foreign>Sabinensis</foreign>; <foreign>massa</foreign></geogName>
                     <geogName type="other"/>
                     <idno>estates/282</idno>
                     <note/>
-                    <link type="people" corresp="#people/71" subtype="link"/>
-                    <link type="estates" corresp="#estates/281" subtype="isPartOf"/>
-                    <link type="estates" corresp="#estates/283" subtype="isMadeOf"/>
-                    <link type="estates" corresp="#estates/284" subtype="isMadeOf"/>
-                    <link type="estates" corresp="#estates/285" subtype="isMadeOf"/>
-                    <link type="estates" corresp="#estates/286" subtype="isMadeOf"/>
-                    <link type="estates" corresp="#estates/287" subtype="isMadeOf"/>
-                    <link type="estates" corresp="#estates/288" subtype="isMadeOf"/>
-                    <link type="estates" corresp="#estates/289" subtype="isMadeOf"/>
-                    <link type="estates" corresp="#estates/290" subtype="isMadeOf"/>
+                    <link type="people" corresp="#people/71" subtype="isOwnedBy"/>
+                    <link type="estates" corresp="#estates/281" subtype="dependsOn"/>
+                        <link type="places" corresp="#places/599" subtype="proximity"/>
                 </place>
                 <place>
                     <geogName><foreign>Argenti</foreign>; <foreign>fundus</foreign></geogName>
                     <geogName type="other"/>
                     <idno>estates/283</idno>
                     <note/>
-                    <link type="people" corresp="#people/71" subtype="link"/>
-                    <link type="estates" corresp="#estates/282" subtype="isPartOf"/>
+                    <link type="people" corresp="#people/71" subtype="isOwnedBy"/>
+                    <link type="estates" corresp="#estates/282" subtype="dependsOn"/>
+                        <link type="places" corresp="#places/599" subtype="proximity"/>
                 </place>
                 <place>
                     <geogName><foreign>Verclanus</foreign>; <foreign>fundus</foreign></geogName>
                     <geogName type="other"/>
                     <idno>estates/284</idno>
                     <note/>
-                    <link type="people" corresp="#people/71" subtype="link"/>
-                    <link type="estates" corresp="#estates/282" subtype="isPartOf"/>
+                    <link type="people" corresp="#people/71" subtype="isOwnedBy"/>
+                    <link type="estates" corresp="#estates/282" subtype="dependsOn"/>
+                        <link type="places" corresp="#places/599" subtype="proximity"/>
                 </place>
                 <place>
                     <geogName><foreign>Lugeranus</foreign>; <foreign>fundus</foreign></geogName>
                     <geogName type="other"/>
                     <idno>estates/285</idno>
                     <note/>
-                    <link type="people" corresp="#people/71" subtype="link"/>
-                    <link type="estates" corresp="#estates/282" subtype="isPartOf"/>
+                    <link type="people" corresp="#people/71" subtype="isOwnedBy"/>
+                    <link type="estates" corresp="#estates/282" subtype="dependsOn"/>
+                        <link type="places" corresp="#places/599" subtype="proximity"/>
                 </place>
                 <place>
                     <geogName><foreign>Collibertorum</foreign>; <foreign>fundus</foreign></geogName>
                     <geogName type="other"/>
                     <idno>estates/286</idno>
                     <note/>
-                    <link type="people" corresp="#people/71" subtype="link"/>
-                    <link type="estates" corresp="#estates/282" subtype="isPartOf"/>
+                    <link type="people" corresp="#people/71" subtype="isOwnedBy"/>
+                    <link type="estates" corresp="#estates/282" subtype="dependsOn"/>
+                        <link type="places" corresp="#places/599" subtype="proximity"/>
                 </place>
                 <place>
                     <geogName><foreign>Toleranus</foreign>; <foreign>fundus</foreign></geogName>
                     <geogName type="other"/>
                     <idno>estates/287</idno>
                     <note/>
-                    <link type="people" corresp="#people/71" subtype="link"/>
-                    <link type="estates" corresp="#estates/282" subtype="isPartOf"/>
+                    <link type="people" corresp="#people/71" subtype="isOwnedBy"/>
+                    <link type="estates" corresp="#estates/282" subtype="dependsOn"/>
+                        <link type="places" corresp="#places/599" subtype="proximity"/>
                 </place>
                 <place>
                     <geogName><foreign>Truci</foreign>; <foreign>fundus</foreign></geogName>
                     <geogName type="other"/>
                     <idno>estates/288</idno>
                     <note/>
-                    <link type="people" corresp="#people/71" subtype="link"/>
-                    <link type="estates" corresp="#estates/282" subtype="isPartOf"/>
+                    <link type="people" corresp="#people/71" subtype="isOwnedBy"/>
+                    <link type="estates" corresp="#estates/282" subtype="dependsOn"/>
+                        <link type="places" corresp="#places/599" subtype="proximity"/>
                 </place>
                 <place>
                     <geogName><foreign>Trasissessanus</foreign>;
@@ -2561,16 +2511,18 @@
                     <geogName type="other"/>
                     <idno>estates/289</idno>
                     <note/>
-                    <link type="people" corresp="#people/71" subtype="link"/>
-                    <link type="estates" corresp="#estates/282" subtype="isPartOf"/>
+                    <link type="people" corresp="#people/71" subtype="isOwnedBy"/>
+                    <link type="estates" corresp="#estates/282" subtype="dependsOn"/>
+                        <link type="places" corresp="#places/599" subtype="proximity"/>
                 </place>
                 <place>
                     <geogName><foreign>Possessianus</foreign>; <foreign>fundus</foreign></geogName>
                     <geogName type="other"/>
                     <idno>estates/290</idno>
                     <note/>
-                    <link type="people" corresp="#people/71" subtype="link"/>
-                    <link type="estates" corresp="#estates/282" subtype="isPartOf"/>
+                    <link type="people" corresp="#people/71" subtype="isOwnedBy"/>
+                    <link type="estates" corresp="#estates/282" subtype="dependsOn"/>
+                        <link type="places" corresp="#places/599" subtype="proximity"/>
                 </place>
                 <place>
                     <geogName><foreign>Casa Siri</foreign>; <foreign>fundus</foreign></geogName>
@@ -5294,6 +5246,8 @@
                         <link type="people" corresp="#people/69" subtype="link"/>
                         <link type="estates" corresp="#estates/906" subtype="isMadeOf"/>
                         <link type="estates" corresp="#estates/911" subtype="isMadeOf"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1100"
+                            subtype="isOwnedBy"/>
                     </place>
                     <place>
                         <geogName>Laurentiana; <foreign>massa</foreign></geogName>
@@ -5885,6 +5839,9 @@
                         <link type="places" corresp="#places/2492" subtype="link"/>
                         <link type="estates" corresp="#estates/294" subtype="dependsOn"/>
                         <link type="people" corresp="#people/199" subtype="isManagedBy"/>
+                        <link type="people" corresp="#people/1236" subtype="isManagedBy"/>
+                        <link type="people" corresp="#people/1240" subtype="isManagedBy"/>
+                        <link type="people" corresp="#people/1237" subtype="isManagedBy"/>
                     </place>
                     <place>
                         <geogName>Lizzano; <foreign>massa</foreign></geogName>
@@ -8258,6 +8215,7 @@
                         <link type="people" corresp="#people/55" subtype="isGrantedBy"/>
                         <link type="juridical_persons" corresp="#juridical_persons/53"
                             subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/124" subtype="isGrantedBy"/>
                     </place>
                     <place>
                         <geogName><foreign>Mediolanensis</foreign>;
