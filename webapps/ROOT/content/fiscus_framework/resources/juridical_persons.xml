@@ -2670,6 +2670,22 @@
                         <idno>juridical_persons/412</idno>
                         <note/>
                     </org>
+                    <org>
+                        <orgName>Torino; <foreign>cives</foreign></orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/413</idno>
+                        <note/>
+                        <link type="places" corresp="#places/8" subtype="link"/>
+                    </org>
+                    <org>
+                        <orgName>Sanctus Iohannes Baptista; episcopium (Maurienne FR)</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/414</idno>
+                        <note/>
+                        <link type="people" corresp="#people/261" subtype="isGrantedBy" cert="low"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/412"
+                            subtype="isGrantedTo" cert="low"/>
+                    </org>
                 </listOrg>
                 <listOrg n="Cinello Erika">
                     <org>
@@ -2992,10 +3008,6 @@
                             dedicazione è da mettere in relazione alla prima proprietà nota: il
                             monastero di San Benedetto di Leno.</note>
                         <link type="places" corresp="#places/2414" subtype="correspondsTo"/>
-                        <link type="juridical_persons" corresp="#juridical_persons/2001"
-                            subtype="dependsOn"/>
-                        <link type="people" corresp="#people/2100" subtype="isOwnedBy"/>
-                        <link type="people" corresp="#people/2132" subtype="link"/>
                         <link type="juridical_persons" corresp="#juridical_persons/501"
                             subtype="dependsOn"/>
                         <link type="estates" corresp="#estates/2054" subtype="isWithin"/>
@@ -3263,7 +3275,7 @@
                         <idno>juridical_persons/2034</idno>
                         <note>Prima menzione documentaria del 900 (Belli Bartali 1973, p. 538, n.
                             53).</note>
-                        <link type="places" corresp="#places/4" subtype="hasWithin"/>
+                        <link type="places" corresp="#places/4" subtype="isWithin"/>
                         <link type="juridical_persons" corresp="#juridical_persons/130"
                             subtype="dependsOn"/>
                     </org>
@@ -3273,7 +3285,7 @@
                         <idno>juridical_persons/2035</idno>
                         <note>Prima menzione documentaria del 964 (Belli Bartali 1973: p. 539, n.
                             60).</note>
-                        <link type="places" corresp="#places/4" subtype="hasWithin"/>
+                        <link type="places" corresp="#places/4" subtype="isWithin"/>
                         <link type="juridical_persons" corresp="#juridical_persons/130"
                             subtype="dependsOn"/>
                     </org>
@@ -3411,19 +3423,21 @@
                         <orgName type="other"/>
                         <idno>juridical_persons/2050</idno>
                         <note/>
-                        <link type="people" corresp="#people/2100" subtype="link"/>
+                        <link type="people" corresp="#people/2100" subtype="isOwnedBy"/>
                         <link type="juridical_persons" corresp="#juridical_persons/501"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
+                        <link type="places" corresp="#places/2928" subtype="isWithin"/>
                     </org>
                     <org>
                         <orgName>Sanctus Fabianus; capella (Reggio Emilia)</orgName>
                         <orgName type="other"/>
                         <idno>juridical_persons/2051</idno>
-                        <note/>
-                        <link type="people" corresp="#people/2100" subtype="link"/>
+                        <note>Nel 967 (CDP I n. 10, pp. 83-87) Adalberto Atto cede il proprio terzo
+                            della cappella al monastero di Leno.</note>
+                        <link type="people" corresp="#people/2100" subtype="isOwnedBy"/>
                         <link type="juridical_persons" corresp="#juridical_persons/501"
-                            subtype="link"/>
-                        <link type="places" corresp="#places/2491" subtype="link"/>
+                            subtype="dependsOn"/>
+                        <link type="places" corresp="#places/2491" subtype="correspondsTo"/>
                     </org>
                     <org>
                         <orgName>Sancta Margarita; capella (Marmirolo; Mantova)</orgName>
