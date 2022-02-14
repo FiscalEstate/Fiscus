@@ -33,7 +33,7 @@
                             <rs type="text_type" ref="#">--Libellus/precaria/emphyteusis</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Original</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">No</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -85,29 +85,52 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>In nomine domini nostri Iesu Christi. Imperante domno nostro Lodohvvico
-                        magno imperatore, anno imperi sui septimodecimo, die de mense December,
-                        indicione quintadecima. Per anc pagina livelli do adque trado ego Vvarnefrit
-                        abbas monesterii Nonantolas tibi vero Gixeberto filio quondam Angebert
-                        libero ominem. ldest rebus illis qui esse videntur in Ositilia, qui pertinet
-                        da parte ipsius monesterii, in tantum in quantum ante os dies per temetipsum
-                        rectam vel laboratam fuit, et iungo tibi medietatem de res illas in tantum
-                        in quantum ante os dies per Sexemundo rectam fuit, et medietatem de ronco
-                        illo qui per Domenico Cianco rectam fuit qui Lanolo filio Gixeberti
-                        [..3..adavit tam sedimen cum caxa, curtem, orteo, areis, tam teris, arvis et
-                        pradis, pascui, silvi, salecti adiciis vel usum aquarum in integrum. Ipsis
-                        rebus do tibi et ad tuis heredis ad lavorandum et super resedere et lavorare
-                        et meliorare debeat sine fraudo vel nelicto, livellario nomine, usque ad
-                        annis nomero viginti et nove. Et reditum exinde persolvere repromito de
-                        ipsis rebus de omnium laborem quem ibidem Dominus laborantibus dederit: de
-                        maiorimen capa quarta in campo, de minudo modio quinto in area, lino scuva
-                        quarta, et si vitis posueritis redat porcionem quarta ad isto homnia miso
-                        domnico superadstantem. Esenio vero per omni anno dinarios octo et ipso
-                        esenio datum et conpletum sit in misa sancti Martini. Operas vero per omni
-                        anno manibiles die sex et ipsas operas facere debeat in Ostilia cum annona
-                        domnica; per tempore mesis vel vindimias miso domnico cum onore susipiamus
-                        et sucepta faciamus; sic tamen ipso censo colonus cum suo dispengio vegere
-                        debeat usque ad cellam nostra Piscaria et consigni nam alio nulllam. Ego
+                    <ab>In nomine domini nostri Iesu Christi. Imperante domno nostro <persName key="#Emperor/king"
+                            ref="#people/110">Lodohvvico</persName> magno <rs key="#Emperor/king"
+                            >imperatore</rs>, anno imperi sui septimodecimo, die de mense december,
+                        indicione quintadecima. Per anc pagina livelli do adque trado ego <persName
+                            ref="#people/1241" key="#Abbots #Libellus/precaria/emphyteusis"
+                            >Vvarnefrit</persName>
+                        <rs key="#Abbots">abbas</rs>
+                        <rs key="#Monasteries">monesterii</rs>
+                        <placeName ref="#places/15"><orgName ref="#juridical_persons/47"
+                            key="#Coloni/tenants #Libellus/precaria/emphyteusis #Petiae #Houses #Rights_of_use_on_woods/pastures/waters #Wood #Rent_in_kind #Operae #Exenia #Actionarii/actores #Wine #Minores #Legumes #Maiores #Hay/fodder #Fruits/vegetables #Land_clearing #Monasteries #Abbots"
+                            >Nonantolas</orgName></placeName> tibi vero <persName key="#Coloni/tenants #Freeborn"><name
+                                ref="Gisbertus">Gixeberto</name></persName> filio quondam
+                                <persName><name ref="Angelbertus">Angebert</name></persName>
+                        <rs key="#Freeborn">libero ominem</rs>. ldest rebus illis qui esse videntur
+                        in <placeName key="#Petiae #Houses #Rights_of_use_on_woods/pastures/waters #Witness #Wood #Rent_in_kind #Operae #Exenia #Actionarii/actores #Wine #Minores #Legumes #Maiores #Hay/fodder #Fruits/vegetables #Land_clearing #Coloni/tenants" ref="#places/2492">Ostilia</placeName>, qui pertinet da parte
+                        ipsius monesterii, in tantum in quantum ante os dies per temetipsum rectam
+                        vel laboratam fuit, et iungo tibi medietatem de res illas in tantum in
+                        quantum ante os dies per <persName><name ref="Sigismundus"
+                            >Sexemundo</name></persName> rectam fuit, et medietatem de <rs
+                            key="#Land_clearing">ronco</rs> illo qui per <persName><name
+                                ref="Dominicus/Cianco">Domenico Cianco</name></persName> rectam fuit
+                        qui <persName><name ref="Lanolus">Lanolo</name></persName> filio
+                                <persName><name ref="Gisbertus">Gixeberti</name></persName>
+                        ..3..adavit tam <rs key="#Petiae">sedimen</rs> cum <rs key="#Houses"
+                            >caxa</rs>, curtem, <rs key="#Fruits/vegetables">orteo</rs>, areis, tam
+                        teris, arvis et <rs key="#Hay/fodder">pradis</rs>, pascui, <rs key="#Wood"
+                            >silvi</rs>, salecti adiciis vel <rs
+                            key="#Rights_of_use_on_woods/pastures/waters">usum aquarum</rs> in
+                        integrum. Ipsis rebus do tibi et ad tuis heredis ad lavorandum et super
+                        resedere et lavorare et meliorare debeat sine fraudo vel nelicto, livellario
+                        nomine, usque ad annis nomero viginti et nove. Et <rs key="#Rent_in_kind"
+                            >reditum exinde persolvere</rs> repromito de ipsis rebus de omnium
+                        laborem quem ibidem Dominus laborantibus dederit: de <rs key="#Maiores"
+                            >maiorimen</rs> capa quarta in campo, de <rs key="#Minores">minudo</rs>
+                        modio quinto in area, lino scuva quarta, et si <rs key="#Wine">vitis</rs>
+                        posueritis redat porcionem quarta ad isto homnia <rs
+                            key="#Actionarii/actores">miso domnico</rs> superadstantem. <rs
+                            key="#Exenia">Esenio</rs> vero per omni anno dinarios octo et ipso
+                        esenio datum et conpletum sit in misa sancti Martini. <rs key="#Operae"
+                            >Operas</rs> vero per omni anno manibiles die sex et ipsas operas facere
+                        debeat in Ostilia cum annona domnica; per tempore mesis vel vindimias miso
+                        domnico cum onore susipiamus et sucepta faciamus; sic tamen ipso censo <rs
+                            key="#Coloni/tenants">colonus</rs> cum suo dispengio vegere debeat usque
+                        ad <rs key="#Cells/hermitages">cellam</rs> nostra <placeName key="#Rent_in_kind #Operae #Exenia #Actionarii/actores #Wine #Minores #Maiores #Legumes #Cells/hermitages"
+                            ref="#places/1538"><geogName key="#Rent_in_kind #Operae #Exenia #Actionarii/actores #Wine #Minores #Maiores #Legumes #Cells/hermitages" ref="#estates/1111"
+                            >Piscaria</geogName></placeName> et consigni nam alio nulllam. Ego
                         patrono vel mei suceptores te suprascripto colonus nec ad tuis heredis
                         nullam superimponere debeamus nisi qualiter superiuscriptum est. Pena vero
                         inter nobis stetit qui non conpleverit vel permanserit in eo homnia qualiter
@@ -115,14 +138,19 @@
                         respeserit ad illa parte qui in sua fidem permanserit pena nomine solidos
                         duodicem et anc livello in sua maneat firmitatem. Duos livellos in uno
                         tinore scriptis ad omnia suprascripta. Acto in Ostilia, feliciter. Re
-                        melioravimus ut de ortum et de rapas et fasioli unde non redatis. Signum (S)
-                        manus Luvoni filio quondam Ursepert da Ostilia testi. Signum (S) manus
-                        Ihoanni filio quondam Domenico testis. Signum (S) manus Romano filio quondam
-                        Venerio testi. </ab>
+                        melioravimus ut de ortum et de rapas et <rs key="#Legumes">fasioli</rs> unde
+                        non redatis. Signum (S) manus <persName key="#Witness"><name ref="Lupus"
+                            >Luvoni</name></persName> filio quondam <persName><name ref="Ursebertus"
+                                >Ursepert</name></persName> da Ostilia <rs key="#Witness"
+                                    >testi</rs>. Signum (S) manus <persName key="#Witness"><name ref="Iohannes"
+                            >Ihoanni</name></persName> filio quondam <persName><name ref="Dominicus"
+                                >Domenico</name></persName> testis. Signum (S) manus <persName key="#Witness"><name
+                                ref="Romanus">Romano</name></persName> filio quondam <persName><name
+                                ref="Venerus">Venerio</name></persName> testi. </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p>ChLA 89, n. 16a</p>
+                <p>ChLA 89, n. 16a.</p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p/>
@@ -131,7 +159,8 @@
                 <p/>
             </div>
             <div type="commentary">
-                 <p/>
+                 <p>L'archivio nonantolano conserva, alla segnatura <foreign>Pergamene</foreign> III
+                    9, il secondo originale del contratto di livello.</p>
             </div>
         </body>
     </text>
