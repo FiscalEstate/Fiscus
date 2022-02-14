@@ -29,10 +29,10 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="#"/>
-                            <rs type="record_source" ref="#"/>
-                            <rs type="document_tradition" ref="#"/>
-                            <rs type="fiscal_property"/>
+                            <rs type="text_type" ref="#">-Breve/memoratorium</rs>
+                            <rs type="record_source" ref="#">Original document</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property">No</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -40,10 +40,10 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate>
-                                <note type="displayed_date"/>
-                                <note type="dating_elements"/>
-                                <note type="topical_date"/>
+                            <origDate when="1154-09-07">
+                                <note type="displayed_date">1154 September 7</note>
+                                <note type="dating_elements">Stile dell'incarnazione</note>
+                                <note type="topical_date">Rosaia (Fucecchio, Firenze)</note>
                                 <note type="redaction_date"/>
                             </origDate>
                             <origPlace></origPlace>
@@ -80,16 +80,19 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>Exemplum. Dominus <persName>Guido</persName> rector <orgName
-                            key="#Hospitals"><rs key="#Hospitals">ospitii</rs>
+                    <ab>Exemplum. Dominus <persName><name ref="Wido">Guido</name></persName> rector
+                            <orgName key="#Hospitals" ref="#juridical_persons/3206"><rs
+                                key="#Hospitals">ospitii</rs>
                             <placeName ref="#places/3207" key="#Hospitals"
-                            >Teupascii</placeName></orgName> et dominus
-                            <persName>Bernardus</persName> rector de <orgName key="#Hospitals"
-                            >ospitio de <placeName ref="#places/3217" key="#Hospitals"
-                                >Campuliani</placeName></orgName> et <persName>Homodei</persName>
-                        divina gratia rector de <orgName key="#Hospitals">spitio <placeName
-                                ref="#places/3215" key="#Hospitals">Rosaii</placeName></orgName>
-                        concesserunt et miserunt <persName key="#Priests">Petrum</persName>
+                            >Teupascii</placeName></orgName> et dominus <persName><name
+                                ref="Bernardus">Bernardus</name></persName> rector de <orgName
+                            key="#Hospitals" ref="#juridical_persons/3207">ospitio de <placeName
+                                ref="#places/3217" key="#Hospitals">Campuliani</placeName></orgName>
+                        et <persName><name ref="Homodeus">Homodei</name></persName> divina gratia
+                        rector de <orgName key="#Hospitals" ref="#juridical_persons/3203">spitio
+                                <placeName ref="#places/3215" key="#Hospitals"
+                            >Rosaii</placeName></orgName> concesserunt et miserunt <persName
+                            key="#Priests"><name ref="Petrus">Petrum</name></persName>
                         <rs key="#Priests">presbiterum</rs> in <orgName key="#Churches"><rs
                                 key="#Churches">ecclesia</rs> Sancte Marie</orgName> de <rs
                             key="#Bridges/pontoons">punte</rs>
@@ -115,28 +118,34 @@
                         quicquid sibi placuerit (…). Et insuper predictus Petrus presbiter per
                         librum evangeliorum et per stolam investivit altare Sancti Stefani de Rosaio
                         hec, ita ut suprascriptum est observare sine fraude. Hoc factum est
-                        presentia <persName>Alberti</persName> filii <persName>Gerardi</persName> et
-                            <persName>Taske</persName> quondam <persName>Tederigi</persName> et
-                            <persName>Iohannis</persName> filii <persName>Gibertini</persName>.
-                            <persName>Gerardus</persName> dei gratia plebanus de <orgName
-                            key="#Baptismal_churches"><rs key="#Baptismal_churches">plebe</rs> de
-                                <placeName key="#Baptismal_churches">Fabrica</placeName></orgName>
-                        ibi fuit et in sua presentia actum fuit. Anno dominice incarnationis
-                        millesimo centesimo quinquagesimo quarto, septimo idus septembris,
-                        indictione tertia. (S) <persName key="#Writer #Notary">Glandolfus</persName>
+                        presentia <persName><name ref="Albertus">Alberti</name></persName> filii
+                                <persName><name ref="Gherardus">Gerardi</name></persName> et
+                                <persName><name ref="Tasca">Taske</name></persName> quondam
+                                <persName><name ref="Teudericus">Tederigi</name></persName> et
+                                <persName><name ref="Iohannes">Iohannis</name></persName> filii
+                                <persName><name ref="Gisbertus">Gibertini</name></persName>.
+                                <persName><name ref="Gherardus">Gerardus</name></persName> dei
+                        gratia plebanus de <orgName key="#Baptismal_churches"><rs
+                                key="#Baptismal_churches">plebe</rs> de <placeName
+                                key="#Baptismal_churches" ref="#places/2112"
+                            >Fabrica</placeName></orgName> ibi fuit et in sua presentia actum fuit.
+                        Anno dominice incarnationis millesimo centesimo quinquagesimo quarto,
+                        septimo idus septembris, indictione tertia. (S) <persName
+                            key="#Writer #Notary"><name ref="Gandulfus">Glandolfus</name></persName>
                         <rs key="#Notary">notarius</rs> donni regis interfui et rogatus a predicto
                         Petro presbitero hoc breve scripsi. Dixerunt ut predictus Petrus presbiter,
                         si fuerit voluntatem rectori de predicti ospitali, ut omni anno sit in
                         festivitatem Sancte Luce vel Sancti Arculani de Campuliano et Sancti Iacobi
                         vel Sancti Gilii de Topascio et Sancti Stefani de Rosaio. (S) <persName
-                            key="#Writer #Notary">Tuscius</persName> notarius sacri palatii
-                        autenticum illud vidi et legi unde hoc exemplar feci. (S) Glandulfus
-                        notarius doni regis autenticum illud vidi unde hoc exeomplar facta est hic
-                        scripsi. (S) <persName key="#Writer #Notary">Rolandus</persName> notarius
-                        donni imperatoris autenticum illud vidi et legi unde hoc exemplar facta est
-                        et hic scripsi. (S) Ego <persName key="#Writer #Notary #Judge"
-                            >Rubertus</persName>, notarius et <rs key="#Judge">iudex</rs> sacri
-                        palatii, autenticum illud vidi et legi et ut in illo inveni fideliter
+                            key="#Writer #Notary"><name ref="Tuscus">Tuscius</name></persName>
+                        notarius sacri palatii autenticum illud vidi et legi unde hoc exemplar feci.
+                        (S) Glandulfus notarius doni regis autenticum illud vidi unde hoc exemplar
+                        facta est hic scripsi. (S) <persName key="#Writer #Notary"><name
+                                ref="Rodelandus">Rolandus</name></persName> notarius donni
+                        imperatoris autenticum illud vidi et legi unde hoc exemplar facta est et hic
+                        scripsi. (S) Ego <persName key="#Writer #Notary #Judge"><name ref="Robertus"
+                                >Rubertus</name></persName>, notarius et <rs key="#Judge">iudex</rs>
+                        sacri palatii, autenticum illud vidi et legi et ut in illo inveni fideliter
                         exemplavi.</ab>
                 </div>
             </div>
