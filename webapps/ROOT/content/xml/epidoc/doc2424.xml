@@ -4,7 +4,7 @@
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
-                <title/>
+                <title>Lucca, Archivio di Stato, Diplomatico, Altopascio, 1155 gennaio 7</title>
             </titleStmt>
             <editionStmt>
                 <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
@@ -13,7 +13,7 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DiSCi UniBo</publisher>
-                <idno type="filename"/>
+                <idno type="filename">doc2424</idno>
                 <availability xml:lang="en" status="free">
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                         texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
@@ -29,9 +29,9 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="#"/>
-                            <rs type="record_source" ref="#"/>
-                            <rs type="document_tradition" ref="#"/>
+                            <rs type="text_type" ref="#">--Offersio/donatio</rs>
+                            <rs type="record_source" ref="#">Original document</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
                             <rs type="fiscal_property"/>
                         </summary>
                         <msItem xml:id="msItem1">
@@ -72,7 +72,7 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2022-02-03" who="other">creation of record</change>
+                <change when="2022-02-15" who="agiacomelli">creation of record</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -82,23 +82,32 @@
                 <div type="textpart">
                     <ab>(S) In nomine domini nostri Iehsu Christi dei eterni, anno ab incarnationis
                         eius millesimo centesimo quinquagesimo quinto, septimo idus ianuarii,
-                        indictione quarta. Manifestus sum ego Passavanti quondam Sesmondini filius
-                        quia pro domini amore et anime mee redemptione offero et inrevocabiliter
-                        trado omnipotenti deo et ecclesie sanctorum eius Iacobi et Gilii et aliorum
-                        ad utilitatem et commodum hospitalis Altepascensis unam integram petiam de
-                        terra que videtur esse posita prope castellum quod nuncupatur Puteum, in
-                        loco qui dicitur Vignale Donicato. Et est tenens unum caput in via pubblica,
-                        aliud in terra Uberti quondam Iohannis et Geche filie quondam Loctieri.
+                        indictione quarta. Manifestus sum ego <persName ref="#people/3215"
+                            >Passavanti</persName> quondam <persName ref="#people/3216"
+                            >Sesmondini</persName> filius quia pro domini amore et anime mee
+                        redemptione offero et inrevocabiliter trado omnipotenti deo et
+                            <rs>ecclesie</rs>
+                        <orgName>sanctorum eius Iacobi et Gilii</orgName> et aliorum ad utilitatem
+                        et commodum <rs>hospitalis</rs>
+                        <placeName>Altepascensis</placeName> unam integram petiam de terra que
+                        videtur esse posita prope <rs>castellum</rs> quod nuncupatur
+                            <placeName>Puteum</placeName>, in loco qui dicitur Vignale Donicato. Et
+                        est tenens unum caput in <rs>via pubblica</rs>, aliud in terra
+                            <persName>Uberti</persName> quondam <persName>Iohannis</persName> et
+                            <persName>Geche</persName> filie quondam <persName>Loctieri</persName>.
                         Latus unum tenet in terra iamdicti Uberti, aliud in terra similiter Geche
                         suprascripte. <foreign>Pena</foreign> in duplum (…) et insuper penam argenti
                         optimi solidorum centum. Quia tali ordine hanc cartulam offertionis scribere
-                        rogavi Henrigum notarium domni inperatoris. Actum in pede castri Putensi, in
-                        domo et super fenestra Martinelli. Signa manus suprascripti Passavanti, qui
-                        alacri animo hanc offertionis cartulam scribere rogavit. Signa manus
-                        Ughiccione quondam Benefatii atque Paltonieri et Buiamonti atque Bonefatii
-                        filiorum suprascripti Ughiccionis rogatorum testium. (S) Ego Henrigus domni
-                        imperatoris tabellio rogatu Passavanti peractis et perfectis complevi et
-                        dedi.</ab>
+                        rogavi <persName>Henrigum</persName>
+                        <rs>notarium</rs> domni inperatoris. Actum in pede castri Putensi, in domo
+                        et super fenestra <persName>Martinelli</persName>. Signa manus suprascripti
+                        Passavanti, qui alacri animo hanc offertionis cartulam scribere rogavit.
+                        Signa manus <persName>Ughiccione</persName> quondam
+                            <persName>Benefatii</persName> atque <persName>Paltonieri</persName> et
+                            <persName>Buiamonti</persName> atque <persName>Bonefatii</persName>
+                        filiorum suprascripti Ughiccionis rogatorum <rs>testium</rs>. (S) Ego
+                        Henrigus domni imperatoris <rs>tabellio</rs> rogatu Passavanti peractis et
+                        perfectis complevi et dedi.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
