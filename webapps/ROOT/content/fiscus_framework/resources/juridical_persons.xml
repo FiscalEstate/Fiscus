@@ -72,6 +72,7 @@
                         corresp="#people/118"
                         subtype="link"/>
                         <link type="estates" corresp="#estates/208" subtype="isWithin"/>
+                        <link type="people" corresp="#people/80" subtype="link"/>
                 </org>
                 
                 <org>
@@ -407,6 +408,8 @@
                         <link type="people" corresp="#people/1239" subtype="isClaimedBy"/>
                         <link type="people" corresp="#people/119" subtype="isOwnedBy"/>
                         <link type="people" corresp="#people/1237" subtype="isOwnedBy"/>
+                        <link type="people" corresp="#people/80" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/110" subtype="isConfirmedBy"/>
                 </org>
                 <org>
                     <orgName>Sanctus Zeno; ecclesia (Verona)</orgName>
@@ -465,6 +468,7 @@
                     <idno>juridical_persons/96</idno>
                     <note/>
                     <link type="places" corresp="#places/38" subtype="isWithin"/>
+                        <link type="people" corresp="#people/48" subtype="link"/>
                 </org>
                 <org>
                     <orgName>Sancta Maria in Cinglis; monasterium (Ailano; Caserta)</orgName>
@@ -1426,9 +1430,10 @@
                     <idno>juridical_persons/191</idno>
                     <note/>
                     <link type="places" corresp="#places/503" subtype="isWithin"/>
-                    <link type="estates" corresp="#estates/111" subtype="link"/>
-                    <link type="people" corresp="#people/21" subtype="link"/>
-                    <link type="juridical_persons" corresp="#juridical_persons/190" subtype="link"/>
+                    <link type="estates" corresp="#estates/111" subtype="isWithin"/>
+                    <link type="people" corresp="#people/21" subtype="isGrantedBy"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/190"
+                            subtype="isGrantedTo"/>
                 </org>
                 <org>
                     <orgName>Sanctus Quiricus; plebs (Oliveto)</orgName>
@@ -3731,6 +3736,16 @@
                         <note/>
                         <link type="places" corresp="#places/2492" subtype="correspondsTo"/>
                     </org>
+                    <org>
+                        <orgName>Sancti Protasius et Gervasius; ecclesia (Bardi; Parma)</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/1110</idno>
+                        <note>Nelle carte altomedievali la chiesa era legata alla località di
+                                <foreign>Odolo</foreign>, attuale San Protaso presso Bardi. </note>
+                        <link type="places" corresp="#places/1542" subtype="correspondsTo"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/47"
+                            subtype="dependsOn"/>
+                    </org>
                 </listOrg>
                 <listOrg n="Massa Paola">
                     <org>
@@ -4132,10 +4147,12 @@
                         <note/>
                         <link type="estates" corresp="#estates/185" subtype="isWithin"/>
                         <link type="places" corresp="#places/1886" subtype="isWithin"/>
-                        <link type="people" corresp="#people/79" subtype="link"/>
+                        <link type="people" corresp="#people/79" subtype="isConfirmedBy"/>
                         <link type="juridical_persons" corresp="#juridical_persons/30"
                             subtype="isConfirmedTo"/>
                         <link type="people" corresp="#people/7" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/9" subtype="isGrantedBy"/>
+                        <link type="places" corresp="#places/1913" subtype="isWithin"/>
                     </org>
                     <org>
                         <orgName>Sanctus Georgius; episcopium (Ferrara-Comacchio)</orgName>
@@ -4547,24 +4564,26 @@
                         <idno>juridical_persons/1503</idno>
                         <note/>
                         <link type="places" corresp="#places/14" subtype="dependsOn"/>
-                        <link type="people" corresp="#people/32" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/32" subtype="isConfirmedBy"/>
                         <link type="estates" corresp="#estates/76" subtype="dependsOn"/>
-                        <link type="people" corresp="#people/79" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/79" subtype="isConfirmedBy"/>
                         <link type="juridical_persons" corresp="#juridical_persons/53"
                             subtype="isOwnedBy"/>
-                        <link type="people" corresp="#people/233" subtype="isGrantedBy"/>
-                        <link type="people" corresp="#people/234" subtype="isGrantedBy"/>
-                        <link type="people" corresp="#people/21" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/233" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/234" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/21" subtype="isConfirmedBy"/>
                         <link type="people" corresp="#people/110" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/55" subtype="isGrantedTo"/>
                     </org>
                     <org>
                         <orgName>Sancta Maria Britonum; xenodochium (Pavia)</orgName>
                         <orgName type="other"/>
                         <idno>juridical_persons/1504</idno>
                         <note>cf. Milani, <foreign>Le carte</foreign>, introduzione.</note>
-                        <link type="people" corresp="#people/55" subtype="link"/>
+                        <link type="people" corresp="#people/55" subtype="isGrantedTo"/>
                         <link type="places" corresp="#places/65" subtype="isWithin"/>
-                        <link type="people" corresp="#people/242" subtype="link"/>
+                        <link type="people" corresp="#people/242" subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/110" subtype="isGrantedBy"/>
                     </org>
                     <org>
                         <orgName>Sanctus Benedictus; xenodochium (Montelungo; Pontremoli;
@@ -4572,21 +4591,23 @@
                         <orgName type="other"/>
                         <idno>juridical_persons/1505</idno>
                         <note/>
-                        <link type="people" corresp="#people/55" subtype="link"/>
-                        <link type="people" corresp="#people/242" subtype="link"/>
-                        <link type="places" corresp="#places/1915" subtype="isWithin"/>
+                        <link type="people" corresp="#people/55" subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/242" subtype="isGrantedTo"/>
                         <link type="juridical_persons" corresp="#juridical_persons/30"
                             subtype="isConfirmedTo"/>
                         <link type="people" corresp="#people/7" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/110" subtype="isGrantedBy"/>
+                        <link type="places" corresp="#places/1915" subtype="isWithin"/>
                     </org>
                     <org>
                         <orgName>Sancta Maria; xenodochium (Berceto; Parma)</orgName>
                         <orgName type="other"/>
                         <idno>juridical_persons/1506</idno>
                         <note/>
-                        <link type="people" corresp="#people/55" subtype="link"/>
-                        <link type="people" corresp="#people/242" subtype="link"/>
+                        <link type="people" corresp="#people/55" subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/242" subtype="isGrantedTo"/>
                         <link type="places" corresp="#places/1180" subtype="proximity"/>
+                        <link type="people" corresp="#people/110" subtype="isGrantedBy"/>
                     </org>
                     <org>
                         <orgName>Sanctus Lambertus; episcopium (Liegi; BE)</orgName>
@@ -4605,13 +4626,24 @@
                         <link type="people" corresp="#people/55" subtype="isGrantedBy"/>
                         <link type="juridical_persons" corresp="#juridical_persons/53"
                             subtype="isOwnedBy"/>
-                        <link type="people" corresp="#people/80" subtype="isGrantedBy"/>
-                        <link type="people" corresp="#people/21" subtype="isGrantedBy"/>
-                        <link type="people" corresp="#people/37" subtype="isGrantedBy"/>
-                        <link type="people" corresp="#people/79" subtype="isGrantedBy"/>
-                        <link type="people" corresp="#people/233" subtype="isGrantedBy"/>
-                        <link type="people" corresp="#people/234" subtype="isGrantedBy"/>
-                        <link type="people" corresp="#people/173" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/80" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/21" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/37" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/79" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/233" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/234" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/173" subtype="isConfirmedBy"/>
+                    </org>
+                    <org>
+                        <orgName>Sanctus Michael; ecclesia (Castelnuovo Bocca d'Adda;
+                            Lodi)</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/1509</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/53"
+                            subtype="dependsOn"/>
+                        <link type="places" corresp="#places/97" subtype="correspondsTo"/>
+                        <link type="people" corresp="#people/124" subtype="isGrantedBy"/>
                     </org>
                 </listOrg>
                 <listOrg n="Tagliente Antonio">
