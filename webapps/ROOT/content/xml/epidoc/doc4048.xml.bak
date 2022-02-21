@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    *A.98</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc4048</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">--Venditio</rs>
+                                    <rs type="record_source" ref="#">Critical edition</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate notBefore="0752-09-01" notAfter="0752-09-30">
+                                <note type="displayed_date">752 September</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Lucca</note>
+                                <note type="redaction_date"/>
+                             </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-05-30" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab><persName key="#Other_clerics #Vir_devotus/vir_honestus"><name
+                                ref="Willeradus">Willeradu</name></persName>
+                        <rs key="#Other_clerics">cliricho</rs>
+                        <rs key="#Vir_devotus/vir_honestus">viro devoto</rs> fili quondam
+                                <persName><name ref="Iffo">Iffoni</name></persName>
+                        <foreign>vende a</foreign>
+                        <persName><name ref="Crispinus">Crespinulo</name></persName> negutiante duas
+                        petioli de <rs key="#Petiae">terra</rs>: uno petio est in locho qui dicitor
+                        at <placeName key="#Petiae" ref="#places/699">Grippo</placeName> in entegro:
+                        uno latere tenent in <rs key="#Petiae">terra</rs>
+                        <persName key="#Confinia #Petiae"><name ref="Lambertus"
+                                >LambertusLamperti</name></persName> et uno caput tenet in <rs
+                            key="#Rivers">rio</rs> Chaprio; et alio <rs key="#Petiae">petio</rs> est
+                        in integro quem visu sum avire at <placeName key="#Petiae" ref="#places/165"
+                            >Murianise</placeName> caput tenet in <rs key="#Petiae">terra</rs>
+                        <persName key="#Confinia #Petiae"><name ref="Raddulus"
+                            >Ratduli</name></persName> et alio caput tene in <rs key="#Petiae"
+                            >terra</rs>
+                        <orgName key="#Confinia #Petiae #Churches" ref="#juridical_persons/70"
+                            >Sancti Fridiani</orgName>. <foreign>Cede la sua quota e quella del
+                            fratello. Prezzo</foreign>: in auri soledum numero tris. <foreign>Pena
+                            in duplum. Scrive</foreign>: <persName key="#Writer"><name
+                                ref="Raspertus">Rasper</name></persName> amicho meo. (…) Actum
+                            <placeName ref="#places/4">Lucha</placeName>.
+                            <foreign>Sottoscrizioni:</foreign> + Willeradi clirici viri devoti
+                        venditoris; + <persName key="#Witness #Vir_devotus/vir_honestus"><name
+                                ref="Tachipertus de Vico">Tachipert</name></persName>
+                        <rs key="#Vir_devotus/vir_honestus">viri devoti</rs>
+                        <placeName key="#Vici" ref="#places/61">Vich</placeName> testis; + <persName
+                            key="#Witness"><name ref="Willibertus de Lunata"
+                            >Wiliper</name></persName> di <placeName ref="#places/473"
+                            >Lunata</placeName> testis; + <persName
+                            key="#Witness #Vir_devotus/vir_honestus"><name ref="Pertualdus"
+                                >Pertualdu</name></persName>
+                        <rs key="#Vir_devotus/vir_honestus">viri devoti</rs> testis; + <persName
+                            key="#Witness #Vir_devotus/vir_honestus"><name ref="Gausbertus"
+                                >Cospert</name></persName>
+                        <rs key="#Vir_devotus/vir_honestus">viri devoti</rs> testis; + <persName
+                            key="#Witness #Vir_devotus/vir_honestus"><name ref="Scaffulus"
+                                >Iscaffulu</name></persName>
+                        <rs key="#Vir_devotus/vir_honestus">viri devoti</rs> testis.</ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>MDL V/2, n. 45; CDL I, n. 106, pp. 303-304; ChLA, XXX, 936.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                         <p><foreign>Nota dorsale (sec VIII):</foreign> Cartula de Wileradu.
+                        <foreign>Nota dorsale (sec XIIex):</foreign> Venditio terre in plebe Lunata
+                    loco Greppo et in Morianese. </p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

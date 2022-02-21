@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    Diplomatico, * L 30</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                        </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc513</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#"
+                                >--Libellus/precaria/emphyteusis</rs>
+                                    <rs type="record_source" ref="#">Original document</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate when="0898-03-09">
+                                <note type="displayed_date">898 March 9</note>
+                                <note type="dating_elements">Anno d’impero di Lamberto</note>
+                                <note type="topical_date">Santa Maria a Monte, Pisa</note>
+                                <note type="redaction_date"/>
+                             </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance>
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                            <place></place>
+                        </listPlace>
+                        <listPerson>
+                            <person></person>
+                        </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-04-03" who="ptomei">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab><persName><name ref="Adabrandus">Ataprando</name></persName>
+                        avitator in loco ubi dicitur <placeName ref="#places/283"
+                            >Blentina</placeName> del <persName>fu <name ref="Erembrandus"
+                                >Erimprando</name></persName> riceve in livello dal <rs
+                            key="#Priests">prete</rs>
+                        <persName key="#Priests"><name ref="Tassilo">Tassilo</name></persName>,
+                        rettore della <orgName key="#Baptismal_churches"
+                            ref="#juridical_persons/264"><rs key="#Baptismal_churches">pieve</rs> di
+                            Sant’Ippolito sita loco <placeName ref="#places/152"
+                                key="#Baptismal_churches">Aniani</placeName></orgName> e della
+                            <orgName ref="#juridical_persons/72"
+                            key="#Confinia #Landed_possessions #Churches"><rs key="#Churches"
+                                >chiesa</rs> di Santa Maria sita loco ubi dicitur a Monte</orgName>,
+                        una casa posta nei pressi della chiesa di Santa Maria di pertinenza della
+                        stessa, che già in precedenza teneva, con tutte le sue dipendenze, fra cui
+                        terra vacua ante ipsa casa, <rs key="#Confinia #Landed_possessions"
+                            >confinante</rs> uno capo con una curte della stessa chiesa, alio capo
+                        con un orto della stessa chiesa, ambas lateras con una casa della stessa
+                        chiesa tenuta dal <rs key="#Priests">prete</rs>
+                        <persName key="#Priests"><name ref="Teobaldus">Teupaldo</name></persName>.
+                        Si impegna a versare pro omni censum et iustitia al prete e ai suoi
+                        successori ogni mese di ottobre il censo annuale di 6 denari d’argento ad
+                        pars suprascripte ecclesie Sancte Marie e a venire due volte l’anno ad ipsa
+                        ecclesia Sancte Marie legem et iustitiam faciendum, a mandato del prete. Se
+                        non rispetterà i suddetti impegni, promette con i suoi eredi di versare al
+                        prete e ai suoi successori la pena di 100 soldi d’argento. Chiede al <rs
+                            key="#Writer #Notary">notaio</rs>
+                        <persName key="#Writer #Notary"><name ref="Adalfredus"
+                            >Adalfridi</name></persName> la stesura di due <rs
+                            key="#Libellus/precaria/emphyteusis">cartulas</rs>. Actum loco
+                            <placeName key="#Churches" ref="#places/63">Monte</placeName> ad
+                        ecclesiam Sancte Marie. <rs key="#Witness">Testimoni</rs> sottoscrittori:
+                            <persName key="#Witness"><name ref="Oubertus">Ouperto</name></persName>,
+                            <persName key="#Witness"><name ref="Andreas">Andrea</name></persName>,
+                            <persName key="#Witness #Notary"><name ref="Adalfredus"
+                            >Adalfridi</name></persName>
+                        <rs key="#Notary">notarius</rs>, <persName key="#Witness"><name ref="Albo"
+                                >Albone</name></persName> del <persName>fu <name ref="Petrus"
+                                >Pietro</name></persName>, <persName key="#Witness"><name ref="Albo"
+                                >Albone</name></persName>. </ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>MDL, 5/2, n. 1009, pp. 623-624; ChLA 87, n. 3, pp. 22-23.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                        <p>Sottoscrizioni autografe: Ouperto, Andrea, il notaio Adalfridi,
+                    Albone.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

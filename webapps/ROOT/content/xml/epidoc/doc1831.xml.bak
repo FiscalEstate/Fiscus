@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Archivio vescovile di Ivrea (MGH DD F II/ 3, doc. 487)</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc1831</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property">No</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate notBefore="0001" notAfter="0001" when="1219-02-24">
+                                <note type="displayed_date">24 February 1219</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Spira</note>
+                                <note type="redaction_date">XIV ineunte</note>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-10-11" who="cciccopiedi">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab><persName key="#Emperor/king" ref="#people/521">Fredericus</persName> dei
+                        gratia Romanorum rex semper augustus et <rs key="#Emperor/king">rex</rs>
+                        Sicilie universis suis fidelibus presentem <rs key="#Imperial/royal_diploma"
+                            >paginam</rs> intuentibus gratiam suam et bonam voluntatem. Accedens ad
+                        nostre maiestatis clementiam fidelis noster venerabilis <rs key="#Bishops"
+                            >episcopus</rs>
+                        <placeName key="#Mother_churches" ref="#places/563">Yporiensis</placeName>
+                        nobis humiliter supplicavit, quatinus eidem dignaremur concedere, ut
+                        privilegium suum a nostra eidem auctoritate collatum posset facere aureis
+                        litteris insigniri et scribi sub eodem tenore et forma. Unde vobis pateat
+                        manifeste, quod nos eiusdem episcopi et <rs key="#fidelisOf">fidelis</rs>
+                        nostri episcopi <placeName key="#Mother_churches" ref="#places/8"
+                            >Taurinensis</placeName> supllicationibus annuentes, iuxta eiusdem
+                        postulationis tenorem regiam auctoritatem prestimus et parabolam, ut dictum
+                        privilegium, quandocumque voluerit, litteris aureis fieri faciat et ornarni
+                        et nos illud faciemus bulla aurea concedente domino insigniri. Dat. apud
+                            <placeName key="#Cities">Spiram</placeName>, VI kal. martii. </ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p>Buffo,<foreign> Scivere e conservare documenti a Ivrea tra comune e
+                        signoria</foreign>, Ivrea 2012, p. 7 sg</p>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>Anche questo diploma come il precedente ci è giunto in un'unica copia del XIV
+                    secolo. Fa parte, come il diploma ottoniano, del fascicolo redatto durante
+                    l'episcopato di Alberto Gonzaga (1289-1320). </p>
+            </div>
+        </body>
+    </text>
+</TEI>

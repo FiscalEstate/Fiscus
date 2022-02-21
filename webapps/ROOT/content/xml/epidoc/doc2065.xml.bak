@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Roma, Biblioteca Vaticana, Cod. Barb. lat. 2724, cc. 175v-177v
+                        (<foreign>Chronicon Vulturnense</foreign>, II, n. 105) </title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc2065</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property">Uncertain</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0944-02-01">
+                                <note type="displayed_date">944 February 1</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Napoli</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-10-15" who="gzornetta">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine domini Dei, et salvatoris nostri Iesu Christi. <date>Imperante
+                            domino nostro Constantino Magno imperatore anno .XXXoVIo., sed et Romano
+                            Magno imperatore anno. .XXo III.o, die prima mensis februarii,
+                            indiccione .II., <placeName key="#Consul/hypatos #Marquis/duke"
+                                ref="#places/2350">Neapolim</placeName></date>. Nos <persName
+                            key="#Consul/hypatos #Marquis/duke" ref="#people/1991"
+                            >Iohannes</persName>, in Dei nomine, eminentissimus <rs
+                            key="#Consul/hypatos">consul</rs> et <rs key="#Marquis/duke">dux</rs>,
+                        pro vice nostra quam et pro vice <persName key="#Marquis/duke"
+                            ref="#people/1988">Marini</persName>
+                        <rs>ducis</rs> filii nostri, qui infra etatem esse videtur, desiderio
+                        desideramus et cupimus, per multis modis, Dei omnipotentis placere magnatis,
+                        ut de nostris subieccionibus bonam apud Dominum admittamus oracionem.
+                        Iccirco <rs key="#Marquis’/ducal/princely_diploma">concessimus</rs> et
+                        largimus vobis <persName key="#Abbots" ref="#people/1939">Leoni</persName>,
+                        venerabili <rs key="#Abbots">abbati</rs>
+                        <rs key="#Monasteries">monasterii</rs>
+                        <orgName key="#Abbots #Monasteries #Cells/hermitages"
+                            ref="#juridical_persons/1900">Sancti Vincencii</orgName> in Samnie
+                        partibus, super fontem <placeName key="#Rivers" ref="#places/609"
+                            >Vulturni</placeName>
+                        <rs key="#Rivers">fluminis</rs>, per compunccionem, pro amore Dei et
+                        patrocinio ipsius monasterii, ut nobis, posterisque nostris, nostreque
+                        civitatis et potestatis, et subiectis per eius intercessionibus salus et
+                        virtus efficiatur. Idest in primis concedimus et ad firmam stabilitatem
+                        permanendum confirmamus vobis Leoni, reverentissimo abbati <rs
+                            key="#Cells/hermitages">cellam</rs>
+                        <orgName key="#Cells/hermitages #Houses #Fruits/vegetables"
+                            ref="#juridical_persons/1932">Sancti Vincencii</orgName>, que est
+                        propria suprascripti vestri monasterii, sita in hac Parthenope, et a Deo
+                        protecta civitate nostra Neapolim in platea, que vocatur <placeName
+                            key="#Cells/hermitages #Houses #Fruits/vegetables" ref="#places/2396"
+                            >Furcillense</placeName>, <rs>vicum</rs>, qui vocatur Placidum cum <rs
+                            key="#Houses">domora</rs>, et <rs key="#Fruits/vegetables">orta</rs>, et
+                        cum omnibus eius pertinenciis, et substanciis, ut nulli ex actoribus
+                        nostris, idest loci servatoribus, comitibus, tribunis, vicariis, vel quipiam
+                        ex creditoribus, cuiuscumque condicionis fuerit, sive de sacerdotali, aut
+                        seculari, vel a quibuscumque agentibus in eadem cella eiusque pertinenciis,
+                        pro quacumque causa, vel repignerare facere presumant, vel aliquam causam
+                        exinde tollere, aut contrare licenciam habeant, vel qualiscumque modum, vel
+                        tenorem. Eciam et homines, sive clerici, aut sacerdotem, vel monachum, quem
+                        vos aut posteri vestri ibidem in ipsa cella ordinaveritis, a nullis de
+                        nostris subiectis, et pertinenciis, de quibuscumque ordinibus non habeat
+                        licenciam per qualemcumque modum molestare, aut hominem, vel peculium eius
+                        in qualicumque racione seu in angaria minare, aut occupare. Concedimus et
+                        largimus vobis, et in suprascripto vestro monasterio integram <rs
+                            key="#Cells/hermitages">cellam</rs>
+                        <orgName key="#Cells/hermitages" ref="#juridical_persons/1936">Sancti
+                            Vincencii</orgName>, que vocatur Tremoiola cum omnes eius hereditates et
+                        pertinencias, longius et proprius, ut in integrum a nobis vobis vestrisque
+                        posteris sit concessa et tradita, faciendi quod volueritis absque omni
+                        cuiuslibet de nostris pertinentibus et potestatibus contrarietate, vel
+                        requisicione. insuper concessimus, et largimus, et statuentes firmamus, ut
+                        nullus Neapolitanus, vel qualiscumque homo, qui sub iure Ducatus nostre
+                        civitatis sunt, vel fuerint, in cella vestri monasterii suprascripti, quam
+                        habetis in suprascripto loco Tremoiola, vel in omnem eius pertinenciam, seu
+                        hereditatem, ad pignerandum introire licenciam habeat quamcumque causacionem
+                        habuerit cum ipso sancto vestro monasterio, et noluerit pars vestri
+                        monasterii cum illo finem facere per duas, et per tres compellaciones.
+                        Iterum concedimus vobis, et per vos in suprascripto vestro monasterio, et
+                        omni licere, et pertinencia, quam iure parti nostre habuit, vel habiturus
+                        fuerit pro partibus milicie, sive per fundora fundata et exfundata vivorum
+                        et mortuorum, aut per alia qualicumque racione, vel tenore in ipsa cella
+                        vestra, et in omni eius pertinencia. Interea concessimus in eodem sancto
+                        vestro monasterio, et statuentes firmamus integras <rs
+                            key="#Landed_possessions">terras</rs> vestri monasterii de loco
+                            <placeName
+                            key="#Landed_possessions #Roads #Lakes #Fountains #Marshes/lagoons/tombolos"
+                            ref="#places/2808">Trasanglu</placeName>, coherentes sibi: de una parte
+                        coniuncta cum <rs key="#Marshes/lagoons/tombolos">pantano</rs> et cum ipso
+                            <rs key="#Lakes">lacu</rs>
+                        <placeName key="#Lakes">Morini</placeName>, et quomodo revolvit ipsum
+                        pantanum iuxta ipse Pectorite; de alia parte <rs key="#Roads">via</rs>
+                        <placeName key="#Roads">Cumana</placeName>, que exfinat inter istas terras
+                        et <rs key="#Landed_possessions">terras</rs>
+                        <orgName key="#Landed_possessions" ref="#juridical_persons/1995">Sancti
+                            Ianuarii</orgName>; de tercia parte coniuncta cum ipsa via et fossato,
+                        qui descendit da <placeName ref="#places/2812">Severano</placeName>, et
+                        descendente per terram, sicut fossato et limite exfinat, et quomodo
+                        descendit et vadit in ipso pantano, ubi ipsa <rs key="#Fountains"
+                            >fontana</rs> esse videtur; de quarta vero parte fine terra suprascripti
+                        vestri monasterii. Interim namque concessimus in iam dicto vestro monasterio
+                        omnes <rs key="#Landed_possessions">terras fundatas et exfundatas</rs>, quas
+                        possidetis in loco <placeName key="#Slave #Slave_labour #Landed_possessions"
+                            ref="#places/2809">Vivano</placeName>, et in <placeName
+                            key="#Slave #Slave_labour #Landed_possessions" ref="#places/2810"
+                            >Casolla Sancti Adiutorii</placeName> cum <rs key="#Slave #Slave_labour"
+                            >servis</rs> et ancillis ibidem commorantibus, et cum cespitibus, et
+                        omni eorum pertinencia. Et ab hodierna die, et deinceps in omnibus a nobis
+                        vobis sanctoque vestro monasterio sit concessum, et firmatum, atque traditum
+                        in vestra posterisque vestris ex eodem sancto loco sit potestate, sicut
+                        superius vobis firmatum est. Et hoc firmamus ut nec ad manducandum, nec ad
+                        manendum, nec ad placitandum in totas vestras <rs key="#Cells/hermitages"
+                            >cellas</rs>, quas in <placeName
+                            key="#Cells/hermitages #Slave #Slave_labour #Aldius #Monks"
+                            ref="#places/605">Liburias</placeName> habetis, sine voluntate vestra,
+                        vel prepositorum ipsius celle, nullus Neapolitanus, aut alius homo nostre
+                        potestatis intrare presumant per nullam adinventam racionem. Interea
+                        concessimus, et firmamus vobis, ut nullus de exactoribus nostris, aut
+                        vicedominus laborantes proprios de hominibus suprascriptis tollere, aut in
+                        angarias eos minare, aut alia servicia facere; sed amodo, et in perpetuis
+                        temporibus <rs key="#Slave #Slave_labour">servos</rs>, vel ancillas de
+                        suprascripto vestro monasterio pertinentes, vel ad collecticiis, qui ibidem
+                        sunt, vel fuerint, nullas <rs key="#Angaria #Exemption">angarias</rs>, aut
+                        subiecciones in iure puplice Ducatui nostro faciant per nullum modum.
+                        Concessimus et largimus vobis, posterisque vestris, et licere tribuimus in
+                        omni tempore, ut liceat <rs key="#Monks">monachis</rs> vestri monasterii
+                        Beati Vincencii servos, et ancillas, <rs key="#Aldius">aldiones</rs>
+                        undecumque, aut quomodocumque ibi pertinent, vel pertinentes fuerint, per
+                        quovis modum fuga lapsus fuerit, tam de suprascripto vestro monasterio
+                        quamque de ipse celle in suprascripta civitate nostra Neapolim, vel in
+                        cunctis locis nobis subiectis, ubicumque eos invenerit, per se, aut per
+                        missos suos comprehendere, et in suo servicio eos reducere absque omni
+                        nostra, posterorumque nostrorum, vel de nostris cunctis subiectis hominibus
+                        contradiccione, vel anteposicione. Iterum concedimus vobis et firmamus, ut
+                        nullus homo a partibus nostris presumat in glande vestri monasterii, quod
+                        est positum iuxta pantanum, aut in ipsa <rs key="#Forests">silva</rs> vestri
+                        monasterii per vim introire, aut <rs key="#Wood">ligna</rs> exinde incidere,
+                        aut <rs key="#Animals">animalia</rs> ibidem pascere, vel frascas, aut
+                        perticas, aut circla exinde tollere, aut excolere absque voluntate, et
+                        absolucione predicti vestri monasterii, seu de vicedomini <rs
+                            key="#Cells/hermitages">celle</rs> vestre <rs key="#Churches"
+                            >ecclesie</rs>
+                        <orgName
+                            key="#Cells/hermitages #Churches #Angaria #Exemption #Animals #Gualdi #Wood #Forests #Slave #Slave_labour #Aldius #Monks"
+                            ref="#juridical_persons/1933">Sancti Sossii</orgName> de suprascripto
+                            <rs key="#Gualdi">vualdo</rs> per nullam racionaem, aut humano arbitrio,
+                        quod si contra hec concessionis nostre institucionem quoquomodo agere, vel
+                        venire temptaverit, nostrique decreti ex hoc violator extiterit, componere
+                        facimus ad prepositum ipsius celle, aut vobis, posterisque vestris pene
+                        nomine auri libras centum, et hec nostra concessio largitatis, ut supra
+                        legitur, sit firma in perpetuum. Et sic statuimus, et firmamus, ut ulterius
+                        nullus audeat de his, que a nobis collata sunt, vobis, posterisque vestris,
+                        vel suprascripti vestri monasterii, et celle eius quamcumque requisicionem,
+                        aut amaricacionem facere, et nec nos, nec posteri nostri, qui post nos in
+                        nostro honore, locoque duces accesserint, per nullum modum, sed sicut
+                        superius legitur, et nos pro amore et patrocinio supradicti sancti vestri
+                        monasterii Beati Vincencii ordinavimus, esse constituimus, sic perennis, ac
+                        perpetuis temporibus firmum, et roboratum permaneat ubicumque relectum
+                        fuerit apud omnibus iudicibus seu potestatibus. Quam concessionem a nobis;
+                        factam, sicut superius legitur, <persName key="#Scriniarius"><name
+                                ref="Andreas">Andream</name></persName> primarium et <rs
+                            key="#Scriniarius">scriniarium</rs> scribere precepimus, in qua et nos
+                        subter pro eius firmitate manu nostra propria subscribimus. Adiungimus eciam
+                        et firmamus in suprascripto vestro sancto monasterio medietatem de ipso
+                        pantano de loco Trasanglu, que superius continet cum integrum ipsum
+                        Fusarium, ibique coniunctum, ut habeat et possideat perpetualiter, absque
+                        cuiuslibet molestie contradiccione vel requisicione. Scriptum die et
+                        indiccione suprascripta .IIa., feliciter.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>CV II, n. 105, pp. 98-102</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

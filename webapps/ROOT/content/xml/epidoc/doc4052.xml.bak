@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    +I.76 (copia 755-58)</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc4052</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">--Testamentum/iudicatum</rs>
+                                    <rs type="record_source" ref="#">Critical edition</rs>
+                                    <rs type="document_tradition" ref="#">Copy</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate notBefore="0754-07-01" notAfter="0754-07-02">
+                                <note type="displayed_date">754 July [1-2]</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Lucca</note>
+                                <note type="redaction_date"/>
+                             </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-05-31" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab><persName key="#Bishops" ref="#people/320">Walprand</persName> in
+                        Dei nomine <rs key="#Bishops">episcopus</rs>, quia ex iussione domni nostri
+                            <persName key="#Emperor/king" ref="#people/48">Aistulfi</persName>
+                        <rs key="#Emperor/king">regis</rs> directus sum in <rs key="#Army"
+                            >exercito</rs> ambulandum cum ipso. Unde dispensare previdi de <rs
+                            key="#Landed_possessions">omnibus rebus meis</rs> ut, dum advivere
+                        meruero, omnia in mea sit potestate (…); et si mihi occasio mortis
+                        obvenerit, volo ut omnes res meas que iniudicata vel non vinduta aut non
+                        donata remanserit, duas partes habeat <rs key="#Mother_churches"
+                            >eclesia</rs>
+                        <orgName key="#Mother_churches" ref="#juridical_persons/68">Sancti
+                            Martini</orgName>, ubi nunc presenti ego pontifex esse videor; et
+                        taliter volo, ut una pars de ipse duo portionis, quas in eclesia Sancti
+                        Martini feci, debeat esse in <orgName key="#Hospitals"
+                            ref="#juridical_persons/132"><rs key="#Hospitals"
+                            >senodochio</rs></orgName> qui a domno <persName key="#Bishops"
+                            ref="#people/313">Talesperiano</persName>
+                        <rs key="#Bishops">episcopo</rs> hic fore <rs key="#Walls">muro</rs>
+                        <placeName ref="#places/4" key="#Cities #Walls"><rs key="#Cities"
+                                >civitatis</rs></placeName> constructum est; et tertiam partem
+                        habeat <rs key="#Churches">eclesia</rs>
+                        <orgName key="#Churches #Relics" ref="#juridical_persons/70">Sancti
+                            Fridiani</orgName>, ubi ipse <rs key="#Relics">sanctus corpus
+                            requiescit</rs>; et quarta parte habeat <rs key="#Churches">eclesia</rs>
+                        <orgName key="#Churches" ref="#juridical_persons/256">Sancte
+                            Reparate</orgName>, ubi <persName key="#Other_clerics #Priors"><name
+                                ref="Garimundus">Garimundus</name></persName>
+                        <rs key="#Other_clerics">clericus</rs>
+                        <rs key="#Priors">custor</rs> esse videtur, <foreign>affinché i preti di
+                            dette chiese preghino per lui</foreign>. <rs key="#Slave">Servos autem
+                            meos vel ancillas</rs> volo ut liveri omnes esse debeant et a ius
+                        patronati absoluti, sicut illi homines qui ex nubile genere procreati et
+                        nati esse videntur. <foreign>Chi si opponga o i preti che non pregassero per
+                            lui siano sottoposti al giudizio divino</foreign>. Et vos fratres meos
+                            <persName ref="#people/386">Perprand</persName> et <persName
+                            ref="#people/387">Pertifuns</persName>, volo ut habeatis parte me de <rs
+                            key="#Landed_possessions">pecunia</rs> nostra in <placeName
+                            key="#Landed_possessions">Corsica</placeName> in integrum; et in hoc
+                        sitits contempti. <foreign>Se Walprando tornasse salvo dalla guerra, il
+                            testamento sia annullato. Scrive</foreign>: <persName
+                            key="#Writer #Subdeacons"><name ref="Osprandus"
+                            >Osprando</name></persName>
+                        <rs key="#Subdeacons">subdiacono</rs> nostro. (…) Actum in <placeName
+                            key="#Churches" ref="#places/4">Luca</placeName>, in <orgName
+                            key="#Mother_churches" ref="#juridical_persons/68">domo sacnte
+                            eclesie</orgName>. Et quod menime recordatus sum, quicquid indivisum de
+                        rebus meis remanserit, aut per quocumque ingenio mihi legibus pertenet,
+                        mobile vel inmobile, volo ut, sicut supra legitur, in suprascriptas eclesias
+                        debeat esse potestate; sic tamen, ut supra dixi, post decesso meo in eo
+                        ordine permaneat. <foreign>Sottoscrizioni</foreign>: Walprand in Dei nomine
+                        episcopus (ss); <persName key="#Witness #Deacons"><name ref="Ausbertus"
+                                >Ospert</name></persName> exiguus <rs key="#Deacons">diaconus</rs>
+                        (ss); <persName key="#Witness #Priests"><name ref="Buccius"
+                            >Buccio</name></persName>
+                        <rs key="#Priests">presbitero</rs> (ss); <persName
+                            key="#Other_clerics #Priors" ref="#people/705"><name ref="Gausbertus"
+                                >Gauspertus</name></persName> exiguus <rs key="#Other_clerics"
+                            >clericus</rs> et <rs key="#Priors">rector</rs>
+                        <rs key="#Churches">eclesie</rs>
+                        <orgName key="#Churches" ref="#juridical_persons/70">Sancti
+                            Fridiani</orgName> (ss); + <persName
+                            key="#Witness #Vir_devotus/vir_honestus"><name ref="Garimundus"
+                                >Garimund</name></persName>
+                        <rs key="#Vir_devotus/vir_honestus">viri devoti</rs> testis; + <persName
+                            key="#Witness #Vir_devotus/vir_honestus"><name ref="Gairepertus"
+                                >Gairipert</name></persName>
+                        <rs key="#Vir_devotus/vir_honestus">viri devoti</rs> testis.
+                            <foreign>Copia:</foreign> Ego ipse <persName key="#Copyist #Subdeacons"
+                                ><name ref="Osprandus">Osprand</name></persName>
+                        <rs key="#Subdeacons">subdiaconus</rs> supradictus scriptor quantum in
+                        autenticum inveni, nec plus addendi, nec menime scribsi; et presens exempla
+                        data est <persName><name ref="Maurus">Mauri</name></persName>, qui fuit
+                        supradicti bone memorie quondam Walprand episcopi. </ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>Ughelli, IS, I, 795; MDL IV/1, n. 46; reg. MDL V/2, n. 48; CDL I, n. 114,
+                    pp. 333-336; ChLA, XXXII, 939.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                         <p><foreign>Nota dorsale (sec VIII)</foreign>: Iudicato Walprandi
+                    episcopi.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>
