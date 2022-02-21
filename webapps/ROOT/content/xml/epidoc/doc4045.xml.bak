@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    +G.4</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc4045</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">--Venditio</rs>
+                                    <rs type="record_source" ref="#">Critical edition</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate notBefore="0752-03-01" notAfter="0752-03-31">
+                                <note type="displayed_date">752 March</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Lucca</note>
+                                <note type="redaction_date"/>
+                             </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-05-29" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab><persName key="#Other_clerics"><name ref="Willeradus"
+                                >Willerad</name></persName>
+                        <rs key="#Other_clerics">clericum</rs> filio quondam <persName><name
+                                ref="Iffulo">Iffuloni</name></persName>
+                        <foreign>vende a</foreign>
+                        <persName><name ref="Crispinus">Crespino</name></persName> duo <rs
+                            key="#Petiae">petzioli</rs> de ipso <rs key="#Hay/fodder">prato</rs> et
+                        uno de <rs key="#Cereals">terra lavoraturia</rs>; et uno petziolo de ipso
+                            <rs key="#Hay/fodder">prato</rs> in <placeName ref="#places/486"
+                            key="#Hay/fodder">Conmonalia</placeName>, et illi alio petzolo de ipso
+                            <rs key="#Hay/fodder">prato</rs> est in <rs key="#Hay/fodder">prato</rs>
+                        <placeName key="#Hay/fodder" ref="#places/486">Lammari</placeName>, illi
+                        petziolo de ipsa terra lavoraturia uno caput tenet in <placeName
+                            key="#Confinia #Petiae #Cereals" ref="#places/699">Grippi</placeName> et
+                        alio caput tenet in <rs key="#Hay/fodder">prato</rs>
+                        <orgName key="#Confinia #Hay/fodder #Churches" ref="#juridical_persons/70"
+                            >Sancti Fridiani</orgName> et uno lato tenet in <rs key="#Petiae"
+                            >terra</rs>
+                        <persName key="#Confinia #Petiae"><name ref="Deusdedit"
+                            >Deusdedi</name></persName> et alio lato tenet in <rs key="#Petiae"
+                            >terra</rs> tua <persName key="#Confinia #Petiae"><name ref="Crispinus"
+                                >Crispini</name></persName>; <foreign>i tre pezzi misurano nel
+                            complesso</foreign>
+                        <rs key="#Size">scaffiliorum […] ad iusta pertica mensurata</rs>.
+                            <foreign>Prezzo</foreign>: auris soledos nomero viginti. <foreign>Pena
+                            in duplum. Scrive:</foreign>
+                        <persName key="#Writer"><name ref="Radalbertus">Radalpert</name></persName>
+                        (…) Actum <placeName ref="#places/4">Luca</placeName>.
+                            <foreign>Sottoscrizioni:</foreign> + Willerad clerici vendituri; +
+                            <persName key="#Witness #Vir_devotus/vir_honestus"><name ref="Forcio"
+                                >Forcioni</name></persName> filio quondam <persName><name
+                                ref="Rotarius">Rottari</name></persName>
+                        <rs>viri devoti</rs> testis; + <persName
+                            key="#Witness #Vir_devotus/vir_honestus"><name ref="Sigefredus"
+                                >Sichifred</name></persName> germani ipsius <persName><name
+                                ref="Forcio">Forcioni</name></persName>
+                        <rs key="#Vir_devotus/vir_honestus">viri devoti</rs> testis; + <persName
+                            key="#Witness #Vir_devotus/vir_honestus"><name ref="Teudebrandus"
+                                >Teutprand</name></persName> filio quondam <persName><name
+                                ref="Lopo">Lopi</name></persName>
+                        <rs key="#Vir_devotus/vir_honestus">viri devoti</rs> testis; + <persName
+                            key="#Witness #Vir_devotus/vir_honestus"><name ref="Maurus"
+                            >Mauri</name></persName> filio <persName><name ref="Rotarius"
+                                >Rotthari</name></persName>
+                        <rs key="#Vir_devotus/vir_honestus">viri devoti</rs> testis; + <persName
+                            key="#Witness #Vir_devotus/vir_honestus"><name
+                                ref="Ratepertus de Murriano">Ratpert</name></persName> filio quondam
+                                <persName><name ref="Tanualdus">Tanuald</name></persName> de
+                            <placeName ref="#places/165">Murriano</placeName>
+                        <rs key="#Vir_devotus/vir_honestus">viri devoti</rs> testis.
+                            <foreign>Scrive</foreign>: Radalpert.</ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>– MDL; CDL I, n. 102, pp. 295-296; ChLA, XXXI, 933.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                         <p><foreign>Nota dorsale (sec. VIII), forse lo scrittore?:</foreign>
+                    Vendictionem da Willerad clerico. <foreign>Nota dorsale (sec XIIex):
+                    </foreign>De terris in communalia et […] Prato Longo. <foreign>Nota dorsale (2/2
+                        sec XII): </foreign>De terris in comunalia et prato longo in Lammari.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

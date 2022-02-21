@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    ++H.66 </title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc4070</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">--Testamentum/iudicatum</rs>
+                                    <rs type="record_source" ref="#">Critical edition</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate when="0760-03-25"> 
+                                        <note type="displayed_date">760 March 25</note>
+                                        <note type="dating_elements"/>
+                                        <note type="topical_date">Lucca</note>
+                                        <note type="redaction_date"/>
+                             </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-06-08" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab><persName><name ref="Amalcari">Amolcari</name></persName> filio
+                        quondam <persName><name ref="Warnicausus">Warnicausi</name></persName> quia
+                        per hanc paginam decerno ut dum ego advivere meruero, quod subter aliquid de
+                            <rs key="#Landed_possessions">res</rs> mea iudicavero in mea sit
+                        potestate de ea faciendi quod voluero. Et si <persName key="#Freedman"><name
+                                ref="Sintruda">Sindruda</name></persName>
+                        <rs key="#Freedman">obsequiale</rs> mea super decessu meo vixerit, volo ut
+                        parte de <rs key="#Wine">vinea</rs> mea, mea portione tras <rs key="#Rivers"
+                            >flumen</rs> in loco <placeName key="#Rivers #Wine" ref="#places/633"
+                            >Isclito</placeName> in integrum; simul et <rs key="#Landed_possessions"
+                            >terra</rs> mea in <placeName key="#Landed_possessions"
+                            ref="#places/421">Arena</placeName>, mea portione in integrum; et <rs
+                            key="#Landed_possessions">terra</rs> mea in <placeName
+                            key="#Landed_possessions" ref="#places/1000">Antuniano</placeName>, mea
+                        portione in integrum; hec omnia, post meo decessu, sit in potestate ipsius
+                        Sindrude usufructuando et regendo tantum. Post vero meo decessu si iterum a
+                        me suprascriptas res iniudicata remanserit et post decessu ipsius Sindrude,
+                        omnia sit in potestate <rs key="#Churches">ecclesiae</rs>
+                        <orgName key="#Churches" ref="#juridical_persons/294">Sancti
+                            Donati</orgName>, ubi <persName key="#Archdeacons"><name
+                                ref="Ragibertus">Rachipert</name></persName>
+                        <rs key="#Archdeacons">archidiaconus</rs> rector esse videtur, et in <rs
+                            key="#Churches">ecclesia</rs>
+                        <orgName key="#Churches" ref="#juridical_persons/246">Sancti
+                            Georgi</orgName>, ubi <persName><name ref="Frosinus"
+                            >Frosinus</name></persName>
+                        <rs key="#Priests">presbiter</rs> rector esse videtur. <foreign>Se qualcuno
+                            dei parenti contestasse queste disposizioni, pena in duplum.</foreign>
+                        Actum <placeName ref="#places/4">Luca</placeName>.
+                            <foreign>Sottoscrizioni</foreign>: + Amolcari; + <persName
+                            key="#Witness"><name ref="Irnicausus">Irnicausi</name></persName>
+                                germano eius testis; <persName key="#Witness"><name ref="Liliodari"
+                            >Lilioderi</name></persName> filio quondam <persName><name ref="Alpari"
+                                >Alpari</name></persName> testis; + <persName  key="#Witness"><name
+                                ref="Warimbertus">Warniperti</name></persName> idem germano eius
+                                testis. <foreign>Scrive</foreign>: <persName key="#Writer #Deacons"><name
+                                ref="Osprandus">Osprandus</name></persName>
+                        <rs key="#Deacons">diaconus</rs>.</ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>MDL V/2, n. 65; CDL II, n. 143, pp. 49-50; ChLA, XXXII, 958.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                         <p>Persone: Desiderio re; Adelchi re; Amolcari (f. Vuarnicausi; fr.
+                    Irnicausi); Vuarnicausi (p. Amolcari); Sindruda obsequiale; Rachipert a/diac;
+                    Frosinus pbr; Osprandus diac, Irnicausi (fr. Amolcari); Lilioderi (f. Alpari;
+                    fr. Vuarniperti); Alpari (p. Liolioderi); Vuarniperti (fr. Lilioderi). Luoghi:
+                    loco Isclito [Escheto]; Arena [Arena in Val di Serchio]; Antuniano; Luca
+                    [Lucca]. Chiese: eclesiae Sancti Donati [S. Donato, di Lucca?]; ecclesia Sancti
+                    Georgi [S. Giorgio]. Cariche: . Note: donna obsequiale come usufruttuaria.
+                    Indice: testamento. <foreign>Nota dorsale (sec. XI-XII)</foreign>: Offersio in
+                    Sancto Donato de terris trans flumen, loco Iscleto et in Arena. S. Michele in
+                    Escheto (Lucca; Lucca) Arena Metato (San Giuliano Terme; Pisa) Antognano
+                    (Minucciano; Lucca) S. Donato nel suburbio di Lucca S. Giorgio presso Porta S.
+                    Donato? </p>
+                    </div>
+                </body>
+            </text>
+        </TEI>
