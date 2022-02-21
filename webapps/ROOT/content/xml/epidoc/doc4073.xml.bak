@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    +D.35 </title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc4073</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">--Ordinatio</rs>
+                                    <rs type="record_source" ref="#">Critical edition</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate notBefore="0761-01-01" notAfter="0761-01-31">
+                                <note type="displayed_date">761 January</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Lucca</note>
+                                <note type="redaction_date"/>
+                             </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-06-09" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab><persName><name ref="Lupulus">Lopulo</name></persName>
+                        <rs key="#Priests">presbitero</rs> filio quondam <persName><name
+                                ref="Asifridus">Asfrid</name></persName> de loco <placeName
+                            ref="#places/672">Paterno</placeName>, <foreign>ha chiesto a</foreign>
+                        domno viro beatissimo <persName key="#Bishops" ref="#people/343"
+                            >Peredeo</persName> in Dei nomine <rs key="#Bishops">episcopo</rs>
+                        <foreign>di essere preposto</foreign> in <rs
+                            key="#Casae/cassinae_massaricie">casa</rs>
+                        <rs key="#Churches">ecclesie</rs> vestre [<orgName
+                            key="#Casae/cassinae_massaricie #Landed_possessions #Churches"
+                            ref="#juridical_persons/243">Sancti Re]guli</orgName> prope <geogName
+                            key="#Gualdi"><placeName><rs key="#Gualdi"
+                            >Vualdo</rs></placeName></geogName>
+                        <foreign>come</foreign> rectore et gubernatore. <foreign>Peredeo accoglie la
+                            richiesta e ordina che Lopulo debba</foreign> diebus vite sue in
+                        suprascripta casa ecclesie (…) residere, <foreign>reggendone i beni.
+                            Lopulo</foreign> in omnebus in vestra promitto persistere volontate,
+                        qualiter vobis placuerit et numquam contra te agere (…). Et si quandoque
+                        tempore, sine vestra permissione, ipsa ecclesia demittere quesiero, et alibi
+                        habitare presumpsero, vel si ipsa ecclesia, casas vel <rs
+                            key="#Landed_possessions">res</rs> ad ea pertinente per me pegiorata
+                        fuerit, <foreign>o se disubbidirà agli ordini del vescovo</foreign>, pena
+                        auri soledus tricentus (…). Actum <placeName ref="#places/4"
+                            >Luca</placeName>. <foreign>Sottoscrizioni</foreign>: Lopulo presbitero
+                        (ss); <persName key="#Witness #Priests"><name ref="Maurizo"
+                            >Maurici</name></persName>
+                        <rs key="#Priests">presbiter</rs> (ss); + <persName
+                            key="#Witness #Other_clerics"><name ref="Garimundus"
+                            >Garemund</name></persName>
+                        <rs key="#Other_clerics">clerico</rs> filio quondam <persName key="#Priests"
+                                ><name ref="Deusdedit">Deusdedi</name></persName>
+                        <rs key="#Priests">presbiteri</rs>; + <persName key="#Witness #Priests"
+                                ><name ref="Cotzulus">Cotzulo</name></persName>
+                        <rs key="#Priests">presbitero</rs>
+                        <rs key="#Churches">basilice</rs>
+                        <orgName key="#Churches" ref="#juridical_persons/152">Sancti
+                            Apollenari</orgName>; + <persName key="#Witness #Other_clerics"><name
+                                ref="Teofridus">Teufrid</name></persName>
+                        <rs key="#Other_clerics">clerico</rs> filio quondam <persName><name
+                                ref="Maginfredus">Magnefrid</name></persName>; + <persName
+                            key="#Witness #Priests"><name ref="Ursus">Urso</name></persName>
+                        <rs key="#Priests">presbitero</rs>
+                        <rs key="#Churches">ecclesie</rs>
+                        <orgName key="#Churches" ref="#juridical_persons/602">Sancti
+                            Martini</orgName> de <placeName key="#Churches" ref="#places/264"
+                            >Trecase</placeName>. <foreign>Scrive</foreign>: <persName key="#Writer"
+                                ><name ref="Lambertus">Lamipert</name></persName>.</ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>MDL V/2, n. 68; CDL II, 147, pp. 57-59; ChLA, XXXIII, 961</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                         <p><foreign>Nota dorsale (sec. VIII: attribuita a Osprandus)</foreign>: +
+                    [promi]sio Lupoli presbiteri. <foreign>Nota dorsale (sec. XII)</foreign>: In
+                    Paterno. <foreign>Nota dorsale (sec. XII)</foreign>: In Paterno.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    +.74</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc4050</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">--Venditio</rs>
+                                    <rs type="record_source" ref="#">Critical edition</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">Yes</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate notBefore="0754-04-01" notAfter="0754-04-30">
+                                <note type="displayed_date">754 April</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date"><foreign>Massa Robiani</foreign></note>
+                                <note type="redaction_date"/>
+                             </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-04-18" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab><persName key="#Vir_devotus/vir_honestus"><name ref="Gairepertus"
+                                >Ghairipert</name></persName>
+                        <rs key="#Vir_devotus/vir_honestus">virum honestum</rs>
+                        <foreign>vende a</foreign> viro venerabili <rs key="#Priests">presbites</rs>
+                        <persName key="#Priests"><name ref="Tanualdus">Tanuald</name></persName> de
+                            <orgName key="#Churches" ref="#juridical_persons/243">Sanctus
+                            Richulo</orgName> da <placeName key="#Churches" ref="#places/673"
+                            >Vuald[o]</placeName>
+                        <rs key="#Landed_possessions">particela</rs> mea et bone memorie <persName
+                            key="#Landed_possessions"><name ref="David">Davit</name></persName> et
+                            <persName key="#Landed_possessions #Deacons"><name ref="Gallucius"
+                                >Galluci</name></persName>
+                        <rs key="#Deacons">digachoni</rs> in loco qui dicitor at <placeName
+                            key="#Landed_possessions" ref="#places/702">Munte at
+                            Panchule</placeName> prope <rs
+                            key="#Gualdi #Fiscal_property #Mention #Emperor/king"><rs key="#Gualdi"
+                                >Waldo</rs> domni <rs key="#Emperor/king">regi</rs></rs>; tamen
+                        excepto parte de dui germani mei quondam <persName key="#Landed_possessions"
+                                ><name ref="Ildebertus">Hildipert</name></persName> et <persName
+                            key="#Landed_possessions"><name ref="Vitalianus"
+                            >Vitaliani</name></persName>, quemque menime dededi; <foreign>dunque ora
+                            vende tre delle cinque parti complessive</foreign>. Et da finis sunt:
+                        fine <orgName key="#Confinia #Landed_possessions #Churches"
+                            ref="#juridical_persons/243">Sancti Richuli</orgName>, et fine de
+                            <placeName key="#Confinia" ref="#places/264">Tricchase</placeName>, et
+                        fine de <placeName key="#Confinia">Aque Albule</placeName>.
+                            <foreign>Prezzo</foreign>: auris soledos numero trinta. <foreign>Pena in
+                            duplum. Scrive:</foreign>
+                        <persName key="#Writer"><name ref="Teudebertus">Teutpert</name></persName>
+                        rationato et amico meum. (…) Actum in <placeName ref="#places/754">Massa
+                            Robiani</placeName>. <foreign>Sottoscrizioni:</foreign> + Gairepert viri
+                        honesti venditoris (…) filio quondam <persName><name ref="Aregis"
+                                >Aruchis</name></persName>; + <persName
+                            key="#Witness #Vir_devotus/vir_honestus"><name ref="Ildebrandus"
+                                >Hilprand</name></persName>
+                        <rs key="#Vir_devotus/vir_honestus">viri devoti</rs> nepotis eius; +
+                            <persName key="#Witness #Other_minor_officer #Vir_devotus/vir_honestus"
+                            ref="#people/388"><name ref="Pando">Bandi</name></persName>
+                        <rs key="#Vir_devotus/vir_honestus">viri devoti</rs>
+                        <rs key="#Other_minor_officer">centinarii</rs> testis; + <persName
+                            key="#Witness #Vir_devotus/vir_honestus"><name
+                                ref="Ermulus de Versiciano">Ermuli</name></persName>
+                        <rs key="#Vir_devotus/vir_honestus">viri devoti</rs> filius quondaam
+                                <persName><name ref="Deusdona">Deusdonani</name></persName> de
+                            <placeName ref="#places/703">Versiciano</placeName> testis; + <persName
+                            key="#Witness #Vir_devotus/vir_honestus"><name ref="Richipertus"
+                                >Richipert</name></persName>
+                        <rs key="#Vir_devotus/vir_honestus">viri devoti</rs> filius quondam
+                                <persName><name ref="Vitalianus">Vitaliani</name></persName> testis.
+                            <foreign>Scrive</foreign>: Teutpert scriptor.</ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>MDL IV/1, n. 45; reg. MDL V/2, n. 47; CDL I, n. 111, pp. 319-333; ChLA,
+                    XXXII, 938.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                         <p><foreign>Nota dorsale (sec XI-XII):</foreign> Cartula de terris in
+                    Pancule prope Gualdo. <foreign>Niccolaj identifica lo scrittore con l’autore di
+                        ChLA 927 = CDL 89 (un lucchese di Placule). Ne definisce la scrittura «una
+                        minuscola piuttosto imperita e tarda, ignara di legature (…) segnata di
+                        forme elementari».</foreign></p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

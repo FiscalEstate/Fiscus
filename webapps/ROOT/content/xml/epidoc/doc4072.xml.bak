@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    +N.87</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc4072</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">--Offersio/donatio</rs>
+                                    <rs type="record_source" ref="#">Critical edition</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate notBefore="0760-07-01" notAfter="0760-07-31">
+                                <note type="displayed_date">760 July</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date"><foreign>Vico Colonia</foreign></note>
+                                <note type="redaction_date"/>
+                             </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-06-08" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab><persName><name ref="Atto habitator in Colonia"
+                            >Ato</name></persName> filio quondam <persName><name ref="Eugenius"
+                                >Augeni</name></persName> habitator in <placeName ref="#places/1001"
+                            >Colonia</placeName>, quia in proprio territurio meo <rs key="#Churches"
+                            >eclesiam</rs> in honore <orgName
+                            key="#Churches #Monasteries #Private_foundations #Joint_foundations"
+                            ref="#juridical_persons/600">sancti Michaeli archangeli</orgName>
+                        <rs key="#Private_foundations">edificavi</rs>, et a domno <persName
+                            key="#Bishops" ref="#people/343">Peredeus</persName> in Dei nomine <rs
+                            key="#Bishops">episcopus</rs>
+                        <rs key="#Joint_foundations">edificatum est</rs> in ipso loco <placeName
+                            key="#Salae #Landed_possessions #Wine #Acorns #Churches #Monasteries #Private_foundations #Joint_foundations"
+                            ref="#places/1001">Colonia</placeName>. <foreign>Ora offre</foreign> Deo
+                        et tibi beatissimo sancti Mihaeli archangelo vel a tuo <rs
+                            key="#Monasteries">monasterio</rs> a me constructo sexta portione ex
+                        omnibus rebus meis, tam <rs key="#Landed_possessions">terris</rs>, <rs
+                            key="#Wine">vineis</rs>, <rs key="#Acorns">silvis, virgariis</rs>,
+                        cultum vel incultum, cum edificiis qui ante ipsa eclesia edificata esse
+                        videtor, cum curte qui ante ipsa <rs key="#Salae">sala</rs> est. Ipsa sala
+                        cum suprascripta curte in integro (…) cum sexta portione (…) ex omnibus
+                        rebus meis. <foreign>I beni saranno gestiti dal prete che lui nominerà.
+                            Obbligo di preghiere per lui e di luminaria. Si riserva l’usufrutto
+                            vitalizio dei beni (insieme al rettore della chiesa). Vuole
+                            anche</foreign> quis de redibus meis in ipso monasterio capite tonso,
+                        caste vivendo, Deo deservire voluerit, ut potestatem habeat in ipso
+                        monasterio vel ipsa res usufructuare, et dominum esset in omnibus.
+                            <foreign>Altrimenti riserva agli eredi solo il diritto di
+                            ordinatione</foreign> faciendo quomuniter vel ipso monasterio vel eius
+                        res deferendo. (…) Actum in <placeName ref="#places/1001" key="#Vici"><rs
+                                key="#Vici">vico</rs> Colonia</placeName>.
+                            <foreign>Sottoscrizioni</foreign>: + Ati; + <persName key="#Witness"
+                                ><name ref="Richipertus">Rigiperti</name></persName> filio quondam
+                                <persName><name ref="Maginpertus">Magniperti</name></persName>
+                        testis; + <persName key="#Witness"><name ref="Sigebertus"
+                            >Seiperti</name></persName> filio quondam <persName><name ref="Ursus"
+                                >Ursi</name></persName> testis; + <persName key="#Witness"><name
+                                ref="Gundipertus">Gudiperti</name></persName> filio quondam
+                                <persName><name ref="Gundualdus">Gudualdi</name></persName> testis;
+                        + <persName key="#Witness"><name ref="Teudebertus"
+                            >Teiperti</name></persName> filio quondam <persName><name ref="Aufridus"
+                                >Aufrid</name></persName> testis; + <persName key="#Witness"><name
+                                ref="Felicissimus">Felicissimi</name></persName> filio quondam
+                                <persName><name ref="Gausmar">Gaudimari</name></persName> testis.
+                            <foreign>Scrive</foreign>: <persName key="#Writer #Priests"><name
+                                ref="Fratellus">Fratellus</name></persName>
+                        <rs key="#Priests">presbiter</rs>.</ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>MDL IV/1, n. 53;  CDL II, n. 145, pp. 52-54; ChLA, XXXII, 960.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                         <p><foreign>Nota dorsale (sec. VIII)</foreign>: Dote Ati filio quondam […].
+                        <foreign>Nota dorsale (sec. XI-XII)</foreign>: Dos ecclesie Sancti Michaelis
+                    site Colonia prope villa Basilica. <foreign>Manca la completio.</foreign></p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

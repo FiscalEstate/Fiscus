@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Roma, Biblioteca Vaticana, Cod. Barb. lat. 2724, c. 114r (<foreign>Chronicon
+                        Vulturnense</foreign>, I, tra nn. 65-66) </title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc2056</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">Literary sources</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property">Yes</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate notBefore="0853" notAfter="0856">
+                                <note type="displayed_date">853-856</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date"/>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-10-08" who="gzornetta">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>Supradictus autem <rs key="#Abbots">abbas</rs>
+                        <persName key="#Abbots" ref="#people/1989">Teuto</persName>, causa
+                        utilitatis huius <rs key="#Monasteries">monasterii</rs> [<orgName
+                            key="#Monasteries" ref="#juridical_persons/1900">Sancti Vincencii in
+                            Vulturno</orgName>], <rs key="#Commutatio">commutavit</rs> cum <rs
+                            key="#Princeps">principibus</rs> Beneventanis res et possessiones, quas
+                        habebat in Caudetanis [<rs key="#Curtes">curtem</rs> inclitam in <rs
+                            key="#City_territory">finibus</rs>
+                        <placeName key="#Curtes #Slave #Slave labour #City_territory"
+                            ref="#places/2800">Caudetanis</placeName>, loco qui dicitur <placeName
+                            key="#Curtes #Fiscal_property #Textual_occurrence #Object #Inflow #Purchase #Slave"
+                            ref="#places/2399"><geogName
+                                key="#Commutatio #Curtes #Fiscal_property #Textual_occurrence #Object #Inflow #Purchase #Slave"
+                                ref="#estates/1925">Paulisi</geogName></placeName>, cum <rs
+                            key="#Slave #Slave_labour">servis</rs> et ancillis], a quibus accepit
+                        possessiones et res inclitas, cum <rs key="#Churches">ecclesia</rs>
+                        <orgName
+                            key="#Commutatio #Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Allocation_to_churches #Churches"
+                            ref="#juridical_persons/1904">Sancte Dei genitricis Marie</orgName>, que
+                        vocatur in <placeName
+                            key="#Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Allocation_to_churches #Churches"
+                            ref="#places/2330">Oliveto</placeName>.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>CV I, tra nn. 65-66, p. 315; CV III, doc. perduti, n. 36/4, pp. 141-142</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>The curtis mentioned as the object of the exchange in the <foreign>Chronicon
+                        Vulturnensis</foreign> was left to the monastery of San Vincenzo al Volturno
+                    fifty years earlier by Radeprandus, son of Radeprandus, in his will (CV I, no.
+                    34, pp. 249-251).</p>
+            </div>
+        </body>
+    </text>
+</TEI>

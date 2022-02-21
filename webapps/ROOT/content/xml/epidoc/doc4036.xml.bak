@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    Diplomatico, *F.73</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc4036</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">--Ordinatio</rs>
+                                    <rs type="record_source" ref="#">Critical edition</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate notBefore="0746-10-01" notAfter="0746-10-31">
+                                <note type="displayed_date">746 October</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Lucca</note>
+                                <note type="redaction_date"/>
+                             </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-05-28" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab><persName key="#Priests"><name ref="Luceri">Luceri</name></persName>
+                        vir venerabilis <rs key="#Priests">presbitero</rs>
+                        <foreign>promette</foreign> a domno viro beatissimo <persName key="#Bishops"
+                            ref="#people/320">Walprand</persName>
+                        <rs key="#Bishops">episcopus</rs> pro eo cot me unam cum filiis eclesie in
+                            <rs key="#Churches">eclesia</rs>
+                        <orgName key="#Baptismal_churches" ref="#juridical_persons/244">Sancti
+                            Petri</orgName> in loco <placeName key="#Baptismal_churches"
+                            ref="#places/674">Mosciano</placeName> presbiterum hordinasti et in
+                        omnem ris eclesie cunfirmasti cum cunsenso <persName
+                            key="#Other_minor_officer" ref="#people/382"><name ref="Ratepertus"
+                                >Ratperti</name></persName> et <persName key="#Other_minor_officer"
+                            ref="#people/383">Barbula</persName>
+                        <rs key="#Other_minor_officer">centinariis</rs> vel de tota plevem
+                        congrecata me in ipsa sancta Dei eclesia cunfermasti <foreign>di ben
+                            servire</foreign> casto et iusto ordinem <foreign>la suddetta chiesa e
+                            di ben amministrarla</foreign> nec aliquid de rebus eclesie menuantes,
+                        aut in malis partibus nofracantes aut deportantes in proprio <rs
+                            key="#Monasteries">monasterio</rs> meo aut in qualive loco peculiarina
+                        facientes, nisi tantum cause benedictionis per amicos aut parentes meos aut
+                        cui voluero de fructum oblationum, absque fraude. <foreign>Se non
+                            rispettasse questi impegni</foreign> aut si de ipsa eclesia foris exiero
+                        et in alia introiero per colive desoasionem et provata causa fuerit per duo
+                        vel tres homines Deum timentes <foreign>pagherà a</foreign> Walprando una
+                        pena auri soledos boni Lucani nomero centum. <foreign>Chiedono di stendere
+                            il documento a</foreign>: <persName key="#Writer #Priests"><name
+                                ref="Gaudentius">Gaudentius</name></persName>
+                        <rs key="#Priests">presbiter</rs> una cum <persName key="#Writer"><name
+                                ref="Berteradus">Perteradu</name></persName>
+                        <rs key="#Other_clerics">clerico</rs> discipulu eius <foreign>che perciò
+                            scrive</foreign> ex decetato suprascripto Gaudentio magistro meo (…)
+                        Perterad. (…) Actum <placeName ref="#places/4">Luca</placeName>.
+                        Sottoscrizioni: Luceri presbitero (ss); + <persName key="#Witness #Priests"
+                                ><name ref="Bucciulus">Buciuli</name></persName> viri venerabilis
+                            <rs key="#Priests">presbitero</rs> testis; + <persName
+                            key="#Witness #Other_clerics"><name ref="Guntelmus"
+                            >Guntelmi</name></persName>
+                        <rs key="#Other_clerics">clirico</rs> testis; + <persName
+                            key="#Witness #Priests"><name ref="Aunibertus de Rocta"
+                            >Aunipert</name></persName> viri venerabilis <rs key="#Priests"
+                            >presbitero</rs> de <placeName ref="#places/676">Rocta</placeName>
+                        testis; + <persName key="#Witness #Priests"><name ref="Sigebertus"
+                                >Seipert</name></persName>
+                        <rs key="#Other_clerics">clerici</rs> filio quondam <persName><name
+                                ref="Sigefredus">Seifridi</name></persName> testis; + <persName
+                            key="#Witness #Other_clerics"><name ref="Lucifridus"
+                            >Lucifridi</name></persName>
+                        <rs key="#Other_clerics">clerici</rs> testis. + Ego Gaudentius presbiterus
+                        propria manu mea suscripsi et confirmavi. </ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>MDL V/2, n. 34; CDL I, n. 86, pp. 252-254; ChLA, XXXI, 924.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                         <p>Persone: Ratchis re; Luceri v. ven. pbr; v. beat. Vualprand ep. [di
+                    Lucca]; Ratperti centenario; Barbula centenario; Perterad cler; Gaudentio pbr;
+                    Buciuli v. ven. pbr; Guntelmi cler; Aunipert v. ven. pbr de Rocta; Seipert cler
+                    (f. Seifridi); Seifridi (p. Seipert); Lucifridi cler. Luoghi: loco Mosciano
+                    [Mosciano]; Luca [Lucca]; Rocta [Rotta]. Chiese: eclesia Sancti Petri in loco
+                    Mosciano [S. Pietro a Mosciano]. Cariche: Ratperti et Barbula centenariis. Note:
+                    plebe (come insieme dei fedeli). Indice: fam. Walprando - promissio - centenari
+                    - comunità - ordinazione - pieve. Nota dorsale (sec VIII): Cartula promissionis
+                    de Luceri presbitero de Musciano. Nota dorsale (sec XII ex): + de plebe
+                    Masciano. Nota dorsale (sec XIII): Sancti Petri de Mosciano. Rotta di Quarto
+                    (presso Lucca)</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

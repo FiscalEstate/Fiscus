@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    Diplomatico, *G.92</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc4031</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">--Venditio</rs>
+                                    <rs type="record_source" ref="#">Critical edition</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate notAfter="0740-05-31" notBefore="0739-09-01">
+                                <note type="displayed_date">[739 September -740 May]</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Lucca</note>
+                                <note type="redaction_date"/>
+                             </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-05-27" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab><persName key="#Nuns/sanctimoniales"><name ref="Ermelinda"
+                                >Ermilinda</name></persName>
+                        <rs key="#Nuns/sanctimoniales">religiosa Deo copolata ancilla Dei</rs> filia
+                        quondam <persName><name ref="Gotepertus de Vuamo">Godipert</name></persName>
+                        de <placeName ref="#places/179">Vuamo</placeName>
+                        <foreign>vende</foreign> a <persName key="#Vir_devotus/vir_honestus"><name
+                                ref="Robertus">Rodpert</name></persName>
+                        <rs key="#Vir_devotus/vir_honestus">viro devoto</rs> filio quondam
+                                <persName><name ref="Roppaldus">Rodpald</name></persName>, idest <rs
+                            key="#Petiae">aliquantula terrula</rs> mea qui mihi per <rs
+                            key="#Offersio/donatio">donationem</rs> obvenit da quondam bone memorie
+                        germano meo <persName key="#Offersio/donatio"><name ref="Gumbertus"
+                                >Gumpert</name></persName>, in loco qui dicitor <placeName
+                            key="#Petiae #Size" ref="#places/179">Salicitas</placeName>; et est <rs
+                            key="#Size">pauco menus de modiloco uno</rs>; aduc uno caput tenet in
+                            <placeName>Auserclo</placeName>, et alio caput tenet in terra tua
+                            <persName key="#Confinia #Petiae"><name ref="Robertus"
+                            >Rodpert</name></persName>, et uno lato in terra <persName
+                            key="#Confinia #Petiae"><name ref="Teudebertus"
+                            >Teutpert</name></persName>, et alio latere tenet in terra <persName
+                            key="#Confinia #Petiae"><name ref="Maurulus">Mauruli</name></persName>;
+                            <foreign>prezzo</foreign>: auri soledos nomero trideci; <foreign>pena in
+                            duplum. Scrive</foreign>: <persName key="#Writer #Priests"><name
+                                ref="Gaudentius">Gaudentius</name></persName>
+                        <rs key="#Priests">presbitero</rs>. (…) Actum <placeName ref="#places/4"
+                            >Luca</placeName>. <foreign>Sottoscrizioni</foreign>: + Ermilinde
+                        religiose Dei ancille venditricis; + <persName key="#Witness #Priests"><name
+                                ref="Aurinandus">Aurinand</name></persName>
+                        <rs key="#Priests">presbitero</rs>; + <persName
+                            key="#Witness #Vir_devotus/vir_honestus"><name ref="Danihel"
+                                >Danihel</name></persName>
+                        <rs key="#Vir_devotus/vir_honestus">viri devoti</rs> nepote epseius
+                        consentiens testis; + <persName key="#Witness #Vir_devotus/vir_honestus"
+                                ><name ref="Ifferadus">Hifferad</name></persName>
+                        <rs key="#Vir_devotus/vir_honestus">viri devoti</rs> filio quondam
+                                <persName><name ref="Rotarius">Rotthari</name></persName> testis; +
+                            <persName key="#Witness #Other_clerics"><name ref="Ausbertus"
+                                >Auspert</name></persName>
+                        <rs key="#Other_clerics">clerici</rs> testis.</ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>MDL V/2, n. 30; CDL I, n. 76, pp. 225-227; ChLA, XXXI, 919. </p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                         <p>Persone: Liutprando re; Ilprando re; Ermilinda ancilla dei (f. Godipert
+                    de Vuamo; sor. Gumpert; parente Aurinand, Danihel); Godipert de Vuamo (p.
+                    Ermilinda mon.; Gumpert); Rodpert v. dev. (f. Rodpald); Rodpald (p. Rodpert);
+                    Gumpert (f. Godipert; fr. Ermilinda mon.); Teutpert; Mauruli; Gaudentius pbr;
+                    Aurinand pbr [parente di Emelinda]; Danihel [Daniele] v. dev. (nepos Ermelinda);
+                    Hifferad v. dev. (f. Rotthari); Rotthari [Rotari] (p. Hifferad); Aspert cler.
+                    Luoghi: Vuamo [Guamo]; Salicitas; Auserclo [fl. Serchio]; Luca [Lucca]. Chiese:
+                    . Cariche: . Note: . Indice: compravendita (fra laici). <foreign>Nota dorsale
+                        (sec XII ex)</foreign>: venditio terre in Guamo loco Saliceta.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>
