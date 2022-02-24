@@ -33,7 +33,7 @@
                             <rs type="text_type" ref="#">-Placitum/iudicatum</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Copy</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">No</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -82,12 +82,14 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>(S.) Dum in Dei nomine, <placeName key="#Villas" ref="#places/2486"><rs
-                                key="#Villas">villa</rs> Venzago</placeName>
-                        <geogName key="#Comitatus"><rs key="#Comitatus">comitatu</rs>
-                            Mantuense</geogName>, in <rs key="#Curtes">curte</rs> propria
-                                <persName><name ref="Ermenpertus">Ermenperti</name></persName> de
-                        ipso loco, per eius data licentia in iudicio resideret <persName
+                    <ab>(S.) Dum in Dei nomine, <placeName key="#Villas" ref="#places/2486"
+                                ><geogName key="#Placitum/iudicatum #Villas #Curtes"
+                                ref="#estates/2068"><rs key="#Villas">villa</rs>
+                            Venzago</geogName></placeName>
+                        <geogName key="#Comitatus" ref="#estates/2000"><rs key="#Comitatus"
+                                >comitatu</rs> Mantuense</geogName>, in <rs key="#Curtes">curte</rs>
+                        propria <persName ref="#people/2169">Ermenperti</persName> de ipso loco, per
+                        eius data licentia in iudicio resideret <persName
                             key="#Placitum/iudicatum #Witness #Judge #Missus_regis"><name
                                 ref="Walpertus">Walpertus</name></persName>
                         <rs key="#Judge">iudex</rs> et <rs key="#Missus_regis">missus</rs> domni
@@ -114,7 +116,8 @@
                         <rs key="#Count">comes</rs> filius bone memorie <persName ref="#people/2101"
                             key="#parentOf">Sigefredi</persName> et ostensa ibi <rs key="#Venditio"
                             >cartula una vendicionis</rs> ubi continebatur in ea ab ordine sicut
-                        subter legitur: «In nomine domini Dei et salvatoris nostri Iesu Christi.
+                        subter legitur: </ab>
+                    <ab type="level2">«In nomine domini Dei et salvatoris nostri Iesu Christi.
                                 <date><persName key="#Emperor/king" ref="#people/173"
                                 >Otto</persName> gratia Dei <rs key="#Emperor/king">imperator</rs>
                             augustus, anno imperi eius nono, duodecimo kalendas augusti, indicione
@@ -153,15 +156,15 @@
                         notitia de propinquioribus parentibus meis, hii sunt <persName
                             key="#Venditio #Witness #Roman #cousinOf"><name ref="Liutfredus"
                                 >Liutefredus</name></persName>
-                        <rs>consobrinus</rs> meus et <persName
-                            key="#Venditio #Witness #Roman #nephew/nieceOf #siblingOf"><name ref="Hugo"
-                                >Ugo</name></persName> et <persName
-                            key="#Venditio #Witness #Roman #nephew/nieceOf #siblingOf"><name ref="Wido"
-                                >Wido</name></persName>
-                        <rs key="#siblingOf">germani</rs> et <rs key="#nephew/nieceOf">nepotis</rs> meis,
-                        in quorum presentia vel testium certam facimus professionem quod nulla nos
-                        pati violentiam a quoquam homine nec ab ipsis iugalibus nostris, nisi nostra
-                        bona et spontanea voluntate, accepissemus nos ipsis omnes iugalibus
+                        <rs key="#cousinOf">consobrinus</rs> meus et <persName
+                            key="#Venditio #Witness #Roman #nephew/nieceOf #siblingOf"><name
+                                ref="Hugo">Ugo</name></persName> et <persName
+                            key="#Venditio #Witness #Roman #nephew/nieceOf #siblingOf"><name
+                                ref="Wido">Wido</name></persName>
+                        <rs key="#siblingOf">germani</rs> et <rs key="#nephew/nieceOf">nepotis</rs>
+                        meis, in quorum presentia vel testium certam facimus professionem quod nulla
+                        nos pati violentiam a quoquam homine nec ab ipsis iugalibus nostris, nisi
+                        nostra bona et spontanea voluntate, accepissemus nos ipsis omnes iugalibus
                         communiter sicuti in presentia testium accepimus ad te Adhelbertus qui et
                         Atto comes, filius bone memor[ie] Sigifredi, <rs key="#Price">argenti
                             denarios bonos libras centum</rs>, finitum pretium pro <rs
@@ -174,7 +177,7 @@
                                 key="#Curtes #Castle #Cells/hermitages"
                             >Marmoriolo</placeName></geogName> cum <rs key="#Castle">castro</rs>
                         inibi constructo et <rs key="#Cells/hermitages">capella</rs> inibi edificata
-                        in honore <orgName key="#Cells/hermitages" ref="#juridical_persons/2402"
+                        in honore <orgName key="#Cells/hermitages" ref="#juridical_persons/2052"
                             >sancte Margarite</orgName>, seu <rs key="#Casae/cassinae_massaricie"
                             >casis masericiis</rs> et omnibus rebus ad eandem curtem et castrum et
                         capellam pertinentibus; quod est curtem ipsam domuicoltilem cum predicto
@@ -214,7 +217,8 @@
                         rivis, rupinis ac <rs key="#Marshes/lagoons/tombolos">paludibus</rs>, cultis
                         et incultis, divisis et indivisis, una cum finibus, terminibus,
                         accessionibus et <rs key="#Rights_of_use_on_woods/pastures/waters">usibus
-                            aquarum</rs> aquarumque ductibus, et cum omni iure adiacentiis et
+                            aquarum</rs>
+                        <rs key="#Canals">aquarumque ductibus</rs>, et cum omni iure adiacentiis et
                         pertinentiis earum rerum per locas et vocabulas ad ipsam curtem et castrum
                         seu capellam et predictis casis et rebus pertinentibus omnia in integrum.
                         Quod autem suprascriptam curtem domuicultilem in suprascripto loco et fundo
@@ -272,52 +276,52 @@
                         suprascripto loco Aquafrigida viventes lege Romana testes. Ego <persName
                             key="#Venditio #Writer #Witness #Notary #Judge"><name ref="Walpertus"
                                 >Walpertus</name></persName> notarius et iudex Sacri Palatii
-                        scriptor huius cartule venditionis post traditam complevi et dedi». Cartula
-                        ipsa ostensa et ab ordine lecta, interrogatus est ipse Adhelbertus qui et
-                        Atto comes pro quo cartula ipsa ostenderet, qui dixit: «Vere ideo cartulam
-                        istam in vestri ostendi presentia ne silens appareat rebus ipsis omnibus et
-                        castro seu capella quod ista legitur cartula ad meam habeo et teneo
-                        proprietatem, et si quislibet homo adversum me exinde aliquid dicere vult,
-                        paratus sum cum eo exinde in ratione standum, et quod plus est querimus ut
-                        dicant isti Rodoinus et Garibaldus germani qui hic comprehensi sunt si
-                        cartula ista quam hic ostensi bona et vera est aut si eam fieri rogaverunt
-                        et firmaverunt, vel si rebus ipsis castro et capella que in ipsa legitur
-                        cartula michi contradicere aut subtrahere querunt, vel si meis propriis esse
-                        debent an non». Cum ipse Adhelbertus comes taliter retulisset, ad hec
-                        responderunt ipsi Rodoinus et Garibaldus germani, dixerunt et professi sunt:
-                        «Vere cartula ista quam hic ostendisti, bona et vera est, et nos ipsi
-                        germani cum coniugis nostris fieri rogavimus et firmavimus, et rebus ipsis
-                        et castro seu capella quae in ipsa legitur cartula tibi non contradicimus
-                        neque contradicere querimus, quia cum lege non possumus, eo quod tui proprii
-                        sunt et esse debent cum lege et nobis ad habendum nec requirendum nichil
-                        pertinet nec pertinere debent cum lege». Et sponderunt se ipsi Rodoinus et
-                        Garibaldus germani adversus eundem Adhelbertum comitem ut si unquam in
-                        tempore de predictis rebus castro et capella quod in ipsa legitur cartula
-                        agere aut causare vel removere presumpserint, per se ipsos aut eorum heredes
-                        vel eorum submittentes personas et omni tempore exinde taciti et contenti
-                        non permanserint, aut si apparuerit ullum eorum datum aut factum quod ipsi
-                        exinde in aliam partem fecissent et claruerit, tunc componant ipse Rodoinus
-                        qui et Rozo et Garibaldus suorumque heredes eidem Adhelberti comiti suisque
-                        heredibus aut cui ipse dederit rem duplicem ipsis rebus et castrum et
-                        capellam in easdem loca, insuper penam argenti libras centum. His actis et
-                        manifestatio ut supra facta rectum eorum iudicum et auditoribus paruit esse,
-                        et iudicaverunt ut iusta eorum altercatione et eorum Rodoini et Garibaldi
-                        manifestatione et ipse Adhelpertus comes predictis omnibus rebus castro et
-                        capella ad suam proprietatem habere et detinere deberet, et ipse Rodoinus
-                        qui et Rozo et Garibaldus et suorum heredes manerent exinde omni tempore
-                        taciti et contenti. Et in eo modo finita est causa, et hanc notitiam pro
-                        securitate eidem Adhelberti comiti fieri ammonuerunt. Quidem et ego
-                            <persName key="#Placitum/iudicatum #Writer #Notary #Judge"><name
-                                ref="Walfredus">Vualfredus</name></persName> notarius et iudex Sacri
-                        Palacii ex iussione suprascripti missi et iudicis ammonitione scripsi.
-                            <date>Anno imperii domni Ottonis Deo propicio nono, decimo kalendas
-                            augusti, indicione quarta</date>. (S.) Walpertus iudex et missus domni
-                        imperatoris interfuit et subscripsit. (S.) Astulfus iudex domni imperatoris
-                        interfui et subscripsi. (S.) Lanfrancus iudex Sacri Palatii interfui. (S.)
-                        Adelmus iudex Sacri Palacii interfui et subscripsi. (S.) Giselbertus iudex
-                        Sacri Palacii interfui. (S.) Heginulfus iudex domni imperatoris interfui.
-                        (S.) Manipertus iudex domni imperatoris interfui. (S.) Walpertus iudex Sacri
-                        Palatii interfui. </ab>
+                        scriptor huius cartule venditionis post traditam complevi et dedi».</ab>
+                    <ab type="level2"> Cartula ipsa ostensa et ab ordine lecta, interrogatus est
+                        ipse Adhelbertus qui et Atto comes pro quo cartula ipsa ostenderet, qui
+                        dixit: «Vere ideo cartulam istam in vestri ostendi presentia ne silens
+                        appareat rebus ipsis omnibus et castro seu capella quod ista legitur cartula
+                        ad meam habeo et teneo proprietatem, et si quislibet homo adversum me exinde
+                        aliquid dicere vult, paratus sum cum eo exinde in ratione standum, et quod
+                        plus est querimus ut dicant isti Rodoinus et Garibaldus germani qui hic
+                        comprehensi sunt si cartula ista quam hic ostensi bona et vera est aut si
+                        eam fieri rogaverunt et firmaverunt, vel si rebus ipsis castro et capella
+                        que in ipsa legitur cartula michi contradicere aut subtrahere querunt, vel
+                        si meis propriis esse debent an non». Cum ipse Adhelbertus comes taliter
+                        retulisset, ad hec responderunt ipsi Rodoinus et Garibaldus germani,
+                        dixerunt et professi sunt: «Vere cartula ista quam hic ostendisti, bona et
+                        vera est, et nos ipsi germani cum coniugis nostris fieri rogavimus et
+                        firmavimus, et rebus ipsis et castro seu capella quae in ipsa legitur
+                        cartula tibi non contradicimus neque contradicere querimus, quia cum lege
+                        non possumus, eo quod tui proprii sunt et esse debent cum lege et nobis ad
+                        habendum nec requirendum nichil pertinet nec pertinere debent cum lege». Et
+                        sponderunt se ipsi Rodoinus et Garibaldus germani adversus eundem
+                        Adhelbertum comitem ut si unquam in tempore de predictis rebus castro et
+                        capella quod in ipsa legitur cartula agere aut causare vel removere
+                        presumpserint, per se ipsos aut eorum heredes vel eorum submittentes
+                        personas et omni tempore exinde taciti et contenti non permanserint, aut si
+                        apparuerit ullum eorum datum aut factum quod ipsi exinde in aliam partem
+                        fecissent et claruerit, tunc componant ipse Rodoinus qui et Rozo et
+                        Garibaldus suorumque heredes eidem Adhelberti comiti suisque heredibus aut
+                        cui ipse dederit rem duplicem ipsis rebus et castrum et capellam in easdem
+                        loca, insuper penam argenti libras centum. His actis et manifestatio ut
+                        supra facta rectum eorum iudicum et auditoribus paruit esse, et iudicaverunt
+                        ut iusta eorum altercatione et eorum Rodoini et Garibaldi manifestatione et
+                        ipse Adhelpertus comes predictis omnibus rebus castro et capella ad suam
+                        proprietatem habere et detinere deberet, et ipse Rodoinus qui et Rozo et
+                        Garibaldus et suorum heredes manerent exinde omni tempore taciti et
+                        contenti. Et in eo modo finita est causa, et hanc notitiam pro securitate
+                        eidem Adhelberti comiti fieri ammonuerunt. Quidem et ego <persName
+                            key="#Placitum/iudicatum #Writer #Notary #Judge"><name ref="Walfredus"
+                                >Vualfredus</name></persName> notarius et iudex Sacri Palacii ex
+                        iussione suprascripti missi et iudicis ammonitione scripsi. Anno imperii
+                        domni Ottonis Deo propicio nono, decimo kalendas augusti, indicione quarta.
+                        (S.) Walpertus iudex et missus domni imperatoris interfuit et subscripsit.
+                        (S.) Astulfus iudex domni imperatoris interfui et subscripsi. (S.)
+                        Lanfrancus iudex Sacri Palatii interfui. (S.) Adelmus iudex Sacri Palacii
+                        interfui et subscripsi. (S.) Giselbertus iudex Sacri Palacii interfui. (S.)
+                        Heginulfus iudex domni imperatoris interfui. (S.) Manipertus iudex domni
+                        imperatoris interfui. (S.) Walpertus iudex Sacri Palatii interfui. </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
@@ -330,7 +334,22 @@
                 <p/>
             </div>
             <div type="commentary">
-                <p/>
+                <p>Il documento fa parte di un <foreign>corpus</foreign> di una dozzina di
+                    pergamene, riguardanti le acquisizioni basso padane di Adalberto Atto e
+                    conservate originariamente dal monastero di Polirone, sorto per iniziativa del
+                    figlio di Adalberto Atto, Tedaldo. In un momento di riordinamento archivistico
+                    da collocarsi tra la fine dell’XI secolo e il XII, il cenobio creò questo
+                        <foreign>dossier</foreign>, che cronologicamente testimonia di atti
+                    precedenti alla sua fondazione, perché i beni lì attestati costituivano la sede
+                    e il primo nucleo fondiario dell’ente stesso. Su dodici pergamene, undici sono
+                    copie e quella in questione è l’unica copia semplice. La pergamena, in seguito
+                    alla soppressione napoleonica del monastero di Polirone, è conservata presso
+                    l’Archivio di Stato di Milano. Si tratta di un placito nel corso del quale viene
+                    sottoposta alla pratica dell’<foreign>ostensio chartae</foreign> una
+                    compravendita di appena due giorni prima, secondo una prassi ricorrente per le
+                    acquisizioni di Adelberto Atto. In questo caso, tuttavia, non si è conservato,
+                    nemmeno in copia, l’atto esibito durante il placito e questa <foreign>notitia
+                        iudicati</foreign> ne è quindi il solo testimone. </p>
             </div>
         </body>
     </text>

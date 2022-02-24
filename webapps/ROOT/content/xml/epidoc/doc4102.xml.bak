@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    +P.87</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc4102</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">--Offersio/donatio</rs>
+                                    <rs type="record_source" ref="#">Critical edition</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate when="0765-12-25"> 
+                                        <note type="displayed_date">765 December 25</note>
+                                        <note type="dating_elements"/>
+                                        <note type="topical_date">Lucca</note>
+                                        <note type="redaction_date"/>
+                             </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-06-20" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab><persName key="#Vir_devotus/vir_honestus"><name ref="Aunibertus"
+                                >Aunipert</name></persName>
+                        <rs key="#Vir_devotus/vir_honestus">vir devotus</rs> filio <persName><name
+                                ref="Maurus">Mauri</name></persName>, avitator in <placeName><rs
+                                key="#Vici">vico</rs> Arianu</placeName>
+                        <foreign>con il consenso del padre si rivolge</foreign> tibi <rs
+                            key="#Churches">eclesie</rs>
+                        <orgName key="#Churches" ref="#juridical_persons/247">beatissime Sancte
+                            Aghate</orgName>, qui est edificata in loco <placeName key="#Churches"
+                            ref="#places/166">Tempaniano</placeName>. <foreign>Cunipert con il
+                            consenso del padre dona</foreign> Deo et tibi sancte eclesie beatissime
+                        Sancte Agathe, ubi <persName key="#Priests"><name ref="Auripertus"
+                                >Auripert</name></persName>
+                        <rs key="#Priests">presbitero</rs> rector esse videtur, primis omnium me
+                        ipsum persona mea, una cum portione mea de <rs
+                            key="#Casae/cassinae_massaricie">casa abitationis</rs> me, ubi avitare
+                        visu sum, in predicto <placeName
+                            key="#Casae/cassinae_massaricie #Casalini/fundamenta #Cereals #Wine #Fruits/vegetables #Acorns #Hay/fodder #Animals #Slave_labour"
+                            >loco Arianu</placeName>, una cum <rs key="#Casalini/fundamenta"
+                            >fondamento</rs>, corte, <rs>istationem</rs>, <rs
+                            key="#Fruits/vegetables">ortalia</rs>, una cum <rs key="#Cereals"
+                            >terris</rs>, <rs key="#Wine">vineis</rs>, <rs key="#Acorns">silvis,
+                            vergareis</rs>, <rs key="#Hay/fodder">pratis, pascuis</rs>, (…) cum <rs
+                            key="#Animals">notriminas magioris et menuris</rs>, cum usivilia,
+                        ferramenta, ramenta, cum intrinsecus case, <foreign>e gli</foreign>
+                        <rs key="#Slave_labour">homenis</rs>. (…) Actum <placeName ref="#places/4"
+                            >Luca</placeName>. <foreign>Sottoscrizioni</foreign>: + Aunipert; +
+                        Mauri genituri eius consentienti; (ss) <persName key="#Witness #Priests"
+                                ><name ref="Teupertus">Teuspert</name></persName>
+                        <rs key="#Priests">presbiter</rs>; (ss) <persName key="#Witness"><name
+                                ref="Arnicausus">Arnicausu</name></persName> filio quondam
+                                <persName><name ref="Aricausus">Aricausi</name></persName>; (ss)
+                            <persName key="#Witness #Priests"><name ref="Prandulus"
+                            >Prandulo</name></persName>
+                        <rs key="#Priests">presbiter</rs>; + <persName key="#Witness"><name
+                                ref="Ursus de Tempagnano">Ursi</name></persName> de <placeName
+                            ref="#places/166">Tempaniano</placeName> testis; (ss) <persName
+                            key="#Witness #Priests"><name ref="Aluartus">Aluartu</name></persName>
+                        <rs key="#Priests">presbiter</rs> de <rs key="#Churches">eclesia</rs>
+                        <orgName key="#Churches" ref="#juridical_persons/612">Sancti
+                            Silvestri</orgName> de loco <placeName key="#Churches" ref="#places/273"
+                            >Roselle</placeName>; (ss) <persName key="#Witness"><name
+                                ref="Teupertus">Teupertu</name></persName>.
+                            <foreign>Scrive</foreign>: <persName key="#Writer"><name ref="Georgius"
+                                >Georgius</name></persName>.</ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>MDL V/2, n. 95; CDL II, 193, pp. 181-183; ChLA, XXXIV, 988.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                         <p><foreign>Nota dorsale (sec. IX)</foreign>: Offersio in Arriano.
+                        <foreign>Nota dorsale (sec. XII)</foreign>: Offersio in Sancta Agatha de
+                    Tempagnano de casa et terris in Arriani. </p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

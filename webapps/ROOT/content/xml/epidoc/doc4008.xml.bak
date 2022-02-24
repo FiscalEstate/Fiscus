@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    Diplomatico, +L.52 (copia sec. VIII-IX), secondo documento</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc4008</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">--Offersio/donatio</rs>
+                                    <rs type="record_source" ref="#">Critical edition</rs>
+                                    <rs type="document_tradition" ref="#">Copy</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate notAfter="0720-03-31" notBefore="0720-03-01">
+                                <note type="displayed_date">[720 March]</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date"/>
+                                <note type="redaction_date"/>
+                             </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-05-12" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab>+ In nomine domini Iesu Christi. Dum Deo iuvante <rs key="#Churches"
+                            >ecclesia</rs>
+                        <orgName key="#Churches" ref="#juridical_persons/132">beati Sancti
+                            Silvestri</orgName> sita fuisset ad porta Beati Sancti Petri et per
+                        cristeanus hominis condita et per dotis et donis tetulo confermata, amor
+                        superne vertutis meum animum adcommodavet pro meis facinoribus. Offero ego
+                            <persName key="#Vir_devotus/vir_honestus"><name ref="Geminianus"
+                                >Geminianus</name></persName>
+                        <rs key="#Vir_devotus/vir_honestus">vir devotus</rs> Deo et tibi sepe diete
+                        hecclesie beati Sancti Silvestri, id est: in primis, <rs key="#Size"
+                            >quattuor modiorum</rs>
+                        <rs key="#Landed_possessions">terra</rs> ad <placeName
+                            key="#Landed_possessions #Size">Argili</placeName> super via, ad
+                            <placeName key="#Landed_possessions #Size">Aqualonga</placeName>
+                        <rs key="#Size">modiorum dua</rs>, ad <placeName
+                            key="#Landed_possessions #Size" ref="#places/166">Tempanianu</placeName>
+                        <rs key="#Size">modiorum duo</rs> de <rs key="#Landed_possessions"
+                            >terra</rs> da <persName key="#Confinia #Landed_possessions"><name
+                                ref="Cunichis">Cunichis</name></persName>, ad <placeName
+                            key="#Landed_possessions #Size">Arcu</placeName>
+                        <rs key="#Size">modiorum duo</rs> de summo campo da <orgName
+                            key="#Confinia #Landed_possessions" ref="#juridical_persons/68">Sancto
+                            Martino</orgName>; caldaria una, ornile cum catena fumaria. Hec istum
+                        predicta ecclesia quiete iure sivi defendas, et nullus de heridis meus hoc
+                        ipsum monusculum exinde subtragi possit, et <rs key="#Priests">sacerdus</rs>
+                        inivi consistentis pro meis facinoribus Christum dominum deprecari
+                        diveas.</ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>CDL I, 25, pp. 96-97 ; ChLA, XXX, 896b</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                         <p/>
+                    </div>
+                </body>
+            </text>
+        </TEI>

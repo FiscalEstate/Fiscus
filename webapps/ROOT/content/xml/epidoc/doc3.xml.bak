@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca, Diplomatico, + P 72</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2020">2020</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc3</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2020"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#"
+                                >--Commutatio</rs>
+                            <rs type="record_source" ref="#">Original document</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property">Yes</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0977-11-03">
+                                <note type="displayed_date">977 November 3</note>
+                                <note type="dating_elements">Anno di impero di Ottone II</note>
+                                <note type="topical_date">Lucca</note>
+                                <note type="redaction_date"/>
+                             </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                   <place></place>
+                </listPlace>
+            <listPerson>
+                <person></person>
+            </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change who="ptomei" when="2020-12-11">creation of record</change>
+                <change when="2021-02-13" who="ptomei">changes</change>
+                <change when="2021-02-16" who="ptomei">minor changes</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab><persName><name ref="Stefanus">Stefano</name></persName> del <persName>fu
+                                <name ref="Antonius">Antonio</name></persName> cambia beni con il
+                            <rs key="#Bishops">vescovo</rs> di Lucca <persName key="#Bishops"
+                            ref="#people/212">Adalongo</persName>, ad pars del <orgName
+                            key="#Confinia #Landed_possessions #Mother_churches"
+                            ref="#juridical_persons/68"><rs key="#Mother_churches">vescovato</rs> di
+                            San Martino</orgName>. Dà al vescovo medietatem di 6 appezzamenti di
+                        terra posti in loco et finibus <placeName ref="#places/36"
+                            >Saltucclo</placeName> prope <placeName ref="#places/60"
+                            >Marilla</placeName>: il primo <rs key="#Confinia #Landed_possessions"
+                            >confinante</rs> uno capo con terra della <orgName
+                            key="#Confinia #Landed_possessions #Churches"
+                            ref="#juridical_persons/297"><rs key="#Churches">chiesa</rs> di San
+                            Pancrazio</orgName>, alio capo cum uno lato in via, alio lato con terra
+                        dello stesso vescovato e con terra del <persName
+                            key="#Confinia #Landed_possessions">fu <name ref="Sisemundus"
+                                >Sisemundo</name></persName>; il secondo, quod est vinea, confinante
+                        uno capo cum uno lato con terra dello stesso vescovato, alio capo cum alio
+                        lato in via; il terzo, quod est vinea, confinante uno capo in via, alio capo
+                        in <rs key="#Rivers">rivo</rs>, uno lato con terra dello stesso vescovato,
+                        alio lato con terra della chiesa di San Pancrazio; il quarto confinante uno
+                        capo in via publica e con terra dello stesso vescovato, alio capo con terra
+                        di <persName key="#Confinia #Landed_possessions"><name
+                                ref="Willeradus de Albiano">Willerado</name> de
+                                <placeName>Albiano</placeName></persName>, lato uno in via, alio
+                        lato con terra dello stesso vescovato, con terra del <persName
+                            key="#Confinia #Landed_possessions">fu <name ref="Eritius"
+                            >Erizio</name></persName> e con terra di <persName
+                            key="#Confinia #Landed_possessions">(…)ulo</persName>; il quinto
+                        confinante uno capo in via publica, alio capo con terra di <persName
+                            key="#Confinia #Landed_possessions"><name ref="Adam"
+                            >Adam</name></persName> e <persName key="#Confinia #Landed_possessions"
+                                ><name ref="Gotefredus">Gottifridi</name></persName>, lato uno con
+                        terra dello stesso vescovato e con terra del <persName
+                            key="#Confinia #Landed_possessions">fu <name ref="Petrus"
+                            >Pietro</name></persName>, alio lato con terra del suddetto Gottifridi e
+                        con terra di <persName key="#Confinia #Landed_possessions"><name
+                                ref="Andreas">Andrea</name></persName>; il sesto, dicitur <placeName
+                            key="#Petiae #Fiscal_property #Mention #Redistributive #Count"
+                            ref="#places/36">Casalino</placeName>, confinante uno capo in via, alio
+                        capo con terra del suddetto Gottifridi, ambas lateras con <rs
+                            key="#Petiae #Fiscal_property #Mention">terra</rs> del <persName
+                            key="#Confinia #Petiae #Count" ref="#people/206">fu Gherardo</persName>
+                        <rs key="#Count">conte</rs>, per una misura complessiva di 60 staia con
+                        tutte le loro dipendenze. Riceve dal vescovo, de pars dello stesso
+                        vescovato, un appezzamento di terra, cum casis super se abentes seo curte,
+                        orto, posto in loco et finibus <placeName key="#Salae" ref="#places/61">Vico
+                            Strata</placeName> ubi dicitur <placeName
+                            key="#Petiae #Fiscal_property #Mention #Redistributive #Emperor/king #Marquis/duke"
+                            ref="#places/61">a <rs key="#Salae">Sala</rs></placeName>, confinante
+                        uno capo in via publica, alio capo cum ambas lateras con <rs
+                            key="#Petiae #Fiscal_property #Mention">terra</rs> del <rs
+                            key="#Emperor/king">re</rs> que vocitatur <placeName ref="#places/61">
+                            <rs key="#Marquis/duke">Marchisciana</rs></placeName>; un appezzamento
+                        di terra posto in loco et finibus ubi dicitur <placeName ref="#places/61"
+                            >Waturaticha</placeName> prope suprascripto Vicho Strata, confinante uno
+                        capo con terra sua, alio capo con terra dello stesso vescovato, lato uno con
+                        terra della <orgName key="#Confinia #Landed_possessions #Churches"
+                            ref="#juridical_persons/70"><rs key="#Churches">chiesa</rs> di San
+                            Frediano</orgName>, alio lato con terra di <persName
+                            key="#Confinia #Landed_possessions"><name ref="Dominicus"
+                                >Domenico</name></persName>, per una misura complessiva di 31 staia
+                        et dimidio con tutte le sue dipendenze. Il vescovo secondo la legge invia i
+                        suoi <rs key="#Missus_of_other_public_authorities">missos</rs> Andrea prete
+                        e visdomino del fu Altiprando, Benedetto del fu Giovanni, Leone del fu
+                        Benedetto, per sovrintendere alla permuta. Chiedono al <rs
+                            key="#Writer #Notary">notaio imperiale</rs>
+                        <persName key="#Writer #Notary"><name ref="Petrus">Pietro</name></persName>
+                        la stesura della cartula. Actum <placeName ref="#places/4"
+                            key="#Mother_churches #Bishops">Luca</placeName>. <rs key="#Witness"
+                            >Testimoni</rs> sottoscrittori: <persName
+                            key="#Witness #Missus_of_other_public_authorities #Priests"><name
+                                ref="Andreas">Andrea</name></persName>
+                        <rs key="#Priests">presbiter et vicedominus</rs> del <persName>fu <name
+                                ref="Aldibrandus">Altiprando</name></persName>, <persName
+                            key="#Witness #Missus_of_other_public_authorities"><name
+                                ref="Benedictus">Benedetto</name></persName> del <persName>fu <name
+                                ref="Iohannes">Giovanni</name></persName>, <persName
+                            key="#Witness #Missus_of_other_public_authorities"><name ref="Leo"
+                                >Leone</name></persName> del <persName>fu <name ref="Benedictus"
+                                >Benedetto</name></persName>, (…), (…), <persName
+                            key="#Witness #Notary"><name ref="Petrus">Pietro</name></persName>
+                        <rs key="#Notary">notarius domni imperatoris</rs>.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>MDL, 5/3, n. 1490, pp. 372-373.</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p>Tomei 2019a, pp. 236, 242.</p>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>Sottoscrizioni autografe: il prete Andrea, Benedetto, Leone, il notaio
+                    Pietro.</p>
+            </div>
+           
+        </body>
+    </text>
+</TEI>

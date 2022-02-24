@@ -2523,6 +2523,26 @@
                         <idno>juridical_persons/3107</idno>
                         <note/>
                     </org>
+                    <org>
+                        <orgName>Sanctus Salvator in Plagia (San Lorenzo; San Miniato;
+                            Pisa)</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/3108</idno>
+                        <note/>
+                    </org>
+                    <org>
+                        <orgName>Sanctus Blasius; ecclesia (Pieve di Compito; Capannori;
+                            Lucca)</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/3109</idno>
+                        <note/>
+                    </org>
+                    <org>
+                        <orgName>Sancta Margarita; ecclesia (Tassignano; Capannori; Lucca)</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/3110</idno>
+                        <note/>
+                    </org>
                 </listOrg>
                 <listOrg n="Belluscio Luca">
                     <org>
@@ -2690,6 +2710,16 @@
                         <link type="people" corresp="#people/261" subtype="isGrantedBy" cert="low"/>
                         <link type="juridical_persons" corresp="#juridical_persons/412"
                             subtype="isGrantedTo" cert="low"/>
+                    </org>
+                    <org>
+                        <orgName>Sanctus Michael Archangelus de Clusa; monasterium </orgName>
+                        <orgName type="other">Sacra di San Michele</orgName>
+                        <idno>juridical_persons/415</idno>
+                        <note/>
+                        <link type="places" corresp="#places/3724" subtype="isWithin"/>
+                        <link type="people" corresp="#people/124" subtype="isGrantedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/412"
+                            subtype="isGrantedTo"/>
                     </org>
                 </listOrg>
                 <listOrg n="Cinello Erika">
@@ -3734,7 +3764,7 @@
                         <orgName type="other"/>
                         <idno>juridical_persons/1109</idno>
                         <note/>
-                        <link type="places" corresp="#places/2492" subtype="correspondsTo"/>
+                        <link type="places" corresp="#places/2492" subtype="isWithin"/>
                     </org>
                     <org>
                         <orgName>Sancti Protasius et Gervasius; ecclesia (Bardi; Parma)</orgName>
@@ -3742,9 +3772,19 @@
                         <idno>juridical_persons/1110</idno>
                         <note>Nelle carte altomedievali la chiesa era legata alla località di
                                 <foreign>Odolo</foreign>, attuale San Protaso presso Bardi. </note>
-                        <link type="places" corresp="#places/1542" subtype="correspondsTo"/>
+                        <link type="places" corresp="#places/1542" subtype="proximity"/>
                         <link type="juridical_persons" corresp="#juridical_persons/47"
                             subtype="dependsOn"/>
+                    </org>
+                    <org>
+                        <orgName>Sanctus Desiderius; oratorium (Secchia; Soliera; Modena)</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/1111</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/96"
+                            subtype="dependsOn"/>
+                        <link type="places" corresp="#places/1550" subtype="isWithin"/>
+                        <link type="people" corresp="#people/1246" subtype="isHeldBy"/>
                     </org>
                 </listOrg>
                 <listOrg n="Massa Paola">
@@ -4281,14 +4321,15 @@
                         <idno>juridical_persons/1449</idno>
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/69"
-                            subtype="link"/>
-                        <link type="people" corresp="#people/173" subtype="link"/>
-                        <link type="places" corresp="#places/357" subtype="isWithin"/>
-                        <link type="people" corresp="#people/281" subtype="link"/>
-                        <link type="people" corresp="#people/7" subtype="link"/>
-                        <link type="people" corresp="#people/239" subtype="link"/>
-                        <link type="people" corresp="#people/261" subtype="link"/>
-                    </org>
+                            subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/173" subtype="isConfirmedBy"/>
+                        <link type="places" corresp="#places/357" subtype="correspondsTo"/>
+                        <link type="people" corresp="#people/281" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/7" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/239" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/261" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/72" subtype="isConfirmedBy"/><link
+                            type="people" corresp="#people/79" subtype="isConfirmedBy"/></org>
                     <org>
                         <orgName>Sancta Flora et Sancta Lucilla; monasterium (Arezzo)</orgName>
                         <orgName type="other"/>
@@ -4657,7 +4698,8 @@
                 <listOrg n="Tomei Paolo">
                     <org>
                         <orgName>Sanctus Martinus de Tramonte; ecclesia</orgName>
-                        <orgName type="other"/>
+                        <orgName type="other"><foreign>ecclesia Sancte Marie et beati Mihaelis et
+                                Sancti Petri princeps apostolorum</foreign></orgName>
                         <idno>juridical_persons/1700</idno>
                         <note/>
                         <link type="places" corresp="#places/2100" subtype="isWithin"/>
@@ -4793,15 +4835,6 @@
                         <link type="places" corresp="#places/4" subtype="isWithin"/>
                         <link type="juridical_persons" corresp="#juridical_persons/305"
                             subtype="link"/>
-                    </org>
-                    <org>
-                        <orgName>Sancta Maria et Sanctus Michael archangelus et Sanctus Petrus
-                            princeps apostolorum; ecclesia (Piazza di Brancoli; Lucca)</orgName>
-                        <orgName type="other"/>
-                        <idno>juridical_persons/3301</idno>
-                        <note>Antica denominazione della chiesa di Santa Maria Assunta di Piazza di
-                            Brancoli (Lucca), vd. ChLA, 86, p. 92 nota 1</note>
-                        <link type="places" corresp="#places/3303" subtype="isWithin"/>
                     </org>
                 </listOrg>
                 <listOrg n="Zornetta Giulia">
