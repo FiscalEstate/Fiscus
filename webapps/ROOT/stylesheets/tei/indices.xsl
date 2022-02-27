@@ -175,6 +175,11 @@
 
     <!-- LISTS -->
     <xsl:if test="doc[str[@name='index_item_name']][not(str[@name='index_thesaurus_hierarchy'])]">
+      <xsl:if test="doc[str[@name='index_coordinates']]">
+      <div>
+        <p id="disclaimer">The places listed below are mere geographic references; all the types of transactions or legal actions linked to them are referred to the keywords enumerated at the beginning of each entry.</p>
+      </div>
+      </xsl:if>
       <div>
         <xsl:apply-templates select="doc[str[@name='index_item_name'][not(starts-with(., '~'))][not(starts-with(., '#'))]]">
           <xsl:sort select="lower-case(replace(replace(., 'italicsstart', ''), 'italicsend', ''))"/>
