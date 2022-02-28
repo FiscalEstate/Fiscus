@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio di Stato di Siena, Diplomatico, S. Agostino, 1038 gennaio
+                    1</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc1468</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">--Offersio/donatio</rs>
+                                    <rs type="record_source" ref="#">Original document</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate when="1039-01-01"> 
+                                        <note type="displayed_date">1039 January 01</note>
+                                        <note type="dating_elements">Anno dell’incarnazione. Anno
+                                    d’impero di Corrado. </note>
+                                        <note type="topical_date">Sestinga</note>
+                                        <note type="redaction_date"/>
+                             </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-04-06" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab><persName><name ref="Gezo">Gitio</name></persName> filio bone
+                        memorie <persName><name ref="Pipinus">Pipini</name></persName> offre pro
+                        anima in <rs key="#Churches">ecclesia</rs> et <rs key="#Monasteries"
+                            >monasterio</rs>
+                        <orgName key="#Landed_possessions #Wine #Churches #Monasteries"
+                            ref="#juridical_persons/126">Sancti Bartholomei</orgName> apostoli qui
+                        ponitur <placeName key="#Monasteries" ref="#places/281">Sestinge Curte
+                            Maymberti</placeName>, idest una <rs key="#Petiae">petia</rs> de terra
+                        quod <rs key="#Wine">vinea</rs> est posita in loco ubi dicitur <placeName
+                            key="#Petiae #Landed_possessions #Wine" ref="#places/311"
+                            >Fullona</placeName>, qui uno capo cum uno lato [tenet] in vinea de
+                            <orgName key="#Confinia #Petiae #Wine" ref="#juridical_persons/126"
+                            >supracripto monasterio</orgName>, altero capo tenet in via publica, et
+                        uno lato tenet in <rs key="#Wine">vinea</rs>
+                        <persName key="#Confinia #Petiae #Wine"><name ref="Morectus"
+                            >Moreti</name></persName> filio bone memorie <persName><name
+                                ref="Gherardus">Girardi</name></persName>, con tutte le sue
+                        dipendenze. Chiede a <persName key="#Writer #Notary #Judge"><name
+                                ref="Romanus">Romanus</name></persName>
+                        <rs key="#Notary">notarius</rs> et <rs key="#Judge">iudex</rs> donni
+                        imperatoris la stesura della cartula. Actum <placeName ref="#places/281"
+                            >Sestinge</placeName>. Testimoni: <persName key="#Witness"><name
+                                ref="Pepo">Pepi</name></persName> filii bone memorie <persName><name
+                                ref="Raterius">Raiteri</name></persName>; <persName key="#Witness"
+                                ><name ref="Rustichellus">Rustichelli</name></persName> germani sui;
+                            <persName key="#Witness"><name ref="Corbulus">Corbuli</name></persName>
+                        filii bone memorie <persName><name ref="Martinus">Martini</name></persName>.
+                        Scrive: Romanus notarius et iudex donni imperatoris.</ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>Lisini 1908: 514.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                        <p>Nota dorsale XII sec.: carta de Fullona. Nota dorsale XIII sec.: in
+                    Fullona.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

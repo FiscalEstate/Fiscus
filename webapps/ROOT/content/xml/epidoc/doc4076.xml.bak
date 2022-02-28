@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    +C.58</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc4076</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">--Offersio/donatio</rs>
+                                    <rs type="record_source" ref="#">Critical edition</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate notBefore="0761-02-01" notAfter="0761-02-28">
+                                <note type="displayed_date">761 February</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Campori</note>
+                                <note type="redaction_date"/>
+                             </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-06-10" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab><persName key="#Vir_devotus/vir_honestus"><name ref="Blancus"
+                                >Blanco</name></persName> cun filio suo <persName
+                            key="#Vir_devotus/vir_honestus"><name ref="Ursicinus"
+                            >Ursicino</name></persName>
+                        <rs key="#Vir_devotus/vir_honestus">viro devoto</rs>
+                        <foreign>donano</foreign>
+                        <rs key="#Casae/cassinae_massaricie">casa</rs> nostra ic in <placeName
+                            key="#Casae/cassinae_massaricie #Landed_possessions #Cereals #Wine #Acorns #Hay/fodder"
+                            ref="#places/631">Canpulu</placeName> una cum <rs
+                            key="#Landed_possessions">res</rs> nostra at <rs
+                            key="#Casae/cassinae_massaricie">casa</rs>
+                        <orgName
+                            key="#Casae/cassinae_massaricie #Churches #Private_foundations #Joint_foundations"
+                            ref="#juridical_persons/604">Sancte Marie et Sancti Benedicti</orgName>
+                        ic in <placeName ref="#places/631"
+                            key="#Vici #Churches #Private_foundations #Joint_foundations"><rs
+                                key="#Vici">vico</rs> Canpulu</placeName>, <rs
+                            key="#Private_foundations #Joint_foundations">qui facta est</rs> per
+                            <persName key="#Priests #Private_foundations #Joint_foundations"><name
+                                ref="Gundualdus">Gundualdum</name></persName>
+                        <rs key="#Priests">presbiter</rs> et <persName
+                            key="#Private_foundations #Joint_foundations"><name ref="Sunualdus"
+                                >Sunuald</name></persName> et <persName
+                            key="#Private_foundations #Joint_foundations"><name ref="Maurus"
+                                >Mauru</name></persName> germanis <foreign>con le sue
+                            pertinenze</foreign>
+                        <rs key="#Landed_possessions #Cereals">terris</rs>, <rs key="#Wine"
+                            >vineis</rs>, <rs key="#Hay/fodder">pratis</rs>, <rs key="#Acorns"
+                            >silvis</rs> (…). <foreign>Lo fanno</foreign> pro mercedis anime nostre
+                        et de parentis nostri. <foreign>Pena in duplum</foreign>. Actum in
+                            <placeName ref="#places/631">vico Canpulu</placeName>.
+                            <foreign>Sottoscrizioni</foreign>: + Blanco <rs
+                            key="#Vir_devotus/vir_honestus">viri devoti</rs>; Ursicinu, filiu eius;
+                                + <persName key="#Witness #Vir_devotus/vir_honestus"><name ref="Lupicinus">Lupicinu</name></persName>
+                        <rs key="#Vir_devotus/vir_honestus">viri devoti</rs> filiu quondam
+                                <persName><name ref="Bancus">Banci</name></persName> testis;
+                                <persName key="#Witness #Vir_devotus/vir_honestus"><name ref="Agifredus">Ahcifrid</name></persName>
+                        <rs key="#Vir_devotus/vir_honestus">viri devoti</rs> filiu <persName><name
+                                ref="Gundualdus de Villa">Guduald</name></persName> de
+                                <placeName>Villa</placeName> testis; + <persName key="#Witness #Vir_devotus/vir_honestus"><name ref="Fileradus"
+                                >Filari</name></persName>
+                        <rs key="#Vir_devotus/vir_honestus">viri devoti</rs> filiu <persName><name
+                            ref="Aufridus">Aufridi</name></persName> testis; + <persName key="#Witness #Other_clerics"><name
+                                ref="Aurulus">Aurulu</name></persName>
+                                <rs key="#Other_clerics">clerici</rs> testis; + <persName key="#Witness #Vir_devotus/vir_honestus"><name
+                                ref="Ermipertus">Ermipert</name></persName>
+                        <rs key="#Vir_devotus/vir_honestus">viri devoti</rs> filiu <persName><name
+                                ref="Datulus">Datuli</name></persName> testis.
+                            <foreign>Scrive</foreign>: <persName key="#Writer"><name ref="Gumbertus"
+                                >Gunpert</name></persName> amicus noster.</ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>MDL V/2, n. 70; CDL II, 150, pp. 63-65; ChLA, XXXIII, 964.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                         <p><foreign>Nota dorsale (sec. XI-XII):</foreign> Offertio unius case in
+                    Campulo.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

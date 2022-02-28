@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    *G.91</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc4114</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">--Testamentum/iudicatum</rs>
+                                    <rs type="record_source" ref="#">Critical edition</rs>
+                                    <rs type="document_tradition" ref="#">Copy</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate when="0768-02-19"> 
+                                        <note type="displayed_date">768 February 19</note>
+                                        <note type="dating_elements"/>
+                                        <note type="topical_date">Lucca</note>
+                                        <note type="redaction_date">Secolo VIII (seconda
+                                    metà)</note>
+                             </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-06-27" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab><persName key="#Vir_devotus/vir_honestus"><name ref="Tassilo"
+                                >Tassilo</name></persName>
+                        <rs key="#Vir_devotus/vir_honestus">vir devotus</rs> filius bone memorie
+                                <persName><name ref="Autchis">Autchisi</name></persName>,
+                            <foreign>pur riservandosi la piena disponibilità di tutti i suoi beni
+                            finché sarà in vita e di prendere ulteriori disposizioni testamentarie,
+                            vuole che quanto resterà intestato vada a</foreign>
+                        <persName key="#Priests #testamentaryLinkWith"><name ref="Ragibertus"
+                                >Rachipertu</name></persName>
+                        <rs key="#Priests">presbitero</rs> et <persName
+                            key="#Priests #testamentaryLinkWith"><name ref="Rothelmus"
+                                >Rottelmi</name></persName>
+                        <rs key="#Priests">presbitero</rs> et <persName
+                            key="#Priests #testamentaryLinkWith"><name ref="Aurulus"
+                            >Aurulo</name></persName>
+                        <rs key="#Priests">presbitero</rs>, <persName
+                            key="#Priests #testamentaryLinkWith"><name ref="Gundipertus"
+                                >Gundipertu</name></persName>
+                        <rs key="#Priests">presbiter</rs> et <persName key="#testamentaryLinkWith"
+                                ><name ref="Firmus">Fermuso</name></persName> filius quondam
+                                <persName><name ref="Petronax">Petronaci</name></persName> et
+                            <persName key="#testamentaryLinkWith"><name ref="Cunimundus"
+                                >Cunimundo</name></persName>
+                        <foreign>che dovranno vendere</foreign>
+                        <rs key="#Landed_possessions">omnis res mea</rs> quanta ad me pertene et
+                        iniudicata vel non data remansere, tam res movile quam et inmoviles seo qui
+                        se moventibus uviqui in colivet locum ad ius meum pertene; (…) excepto parte
+                        mea de <rs key="#Casae/cassinae_massaricie">casa</rs>
+                        <persName key="#Casae/cassinae_massaricie"><name ref="Raddulus"
+                                >Raduli</name></persName> in <placeName
+                            key="#Casae/cassinae_massaricie" ref="#places/438">Corsania</placeName>,
+                        et parte mea de <rs key="#Casae/cassinae_massaricie">casa</rs> ubi quondam
+                            <persName key="#Casae/cassinae_massaricie"><name ref="Guntulo"
+                                >Guntulo</name></persName> massario nostro resede, in loco
+                            <placeName key="#Casae/cassinae_massaricie">Vetusiano</placeName>; et
+                        parte mea de <rs key="#Cafagia">cafagio</rs> nostro in loco <placeName
+                            key="#Cafagia">Monacciaticho</placeName>, quem iam antea iudicavi.
+                            <foreign>Se non potessero vendere quei beni</foreign>, volo ut de ipsis
+                        rebus meis aveas <rs key="#Monasteries #Joint_foundations">monasterio</rs>
+                        <orgName key="#Monasteries" ref="#juridical_persons/79">Sancti
+                            Petri</orgName> in loco qui dicitor <placeName key="#Monasteries"
+                            ref="#places/85">Monte Virde</placeName>, a quondam <persName
+                            ref="#people/707"><name ref="Walfredus">Walfridi</name></persName>
+                        <rs key="#Joint_foundations">fundatum</rs> est, <rs
+                            key="#Landed_possessions">omnia portionem meam de res </rs>quanta avire
+                        videor in loco ubi vocatur [<placeName key="#Landed_possessions"
+                            ref="#places/91">ad Chint</placeName>; et aveas] <rs
+                            key="#Mother_churches">eclesia</rs>
+                        <orgName key="#Mother_churches" ref="#juridical_persons/68">Sancti
+                            Martini</orgName> de episcopio parte mea de <rs key="#Cafagia"
+                            >gavagio</rs> nostro in loco <placeName key="#Cafagia" ref="#places/91"
+                            >Cornino</placeName>, uvi vocatur ad <placeName key="#Cafagia"
+                            ref="#places/91">Chinzia</placeName>, qui est prope <rs key="#Cafagia"
+                            >gavagius</rs>
+                        <orgName key="#Cafagia" ref="#juridical_persons/68">Sancti
+                        Martini</orgName>; et aveas <rs key="#Monasteries">monastherio</rs>
+                        <orgName key="#Monasteries" ref="#juridical_persons/603">Sancti
+                            Petri</orgName> in <placeName key="#Monasteries" ref="#places/336">Campo
+                            Magiore</placeName> parte mea de <rs key="#Casae/cassinae_massaricie"
+                            >casas</rs> vel <rs key="#Landed_possessions">res</rs> in loco
+                            <placeName key="#Casae/cassinae_massaricie #Landed_possessions"
+                            ref="#places/1022">Terrinca</placeName>; et aveas <rs key="#Churches"
+                            >eclesia</rs>
+                        <orgName key="#Churches" ref="#juridical_persons/246">Sancti
+                            Ieorgi</orgName>, ubi <persName key="#Priests"><name ref="Iordanus"
+                                >Iordanni</name></persName>
+                        <rs key="#Priests">presbitero</rs> fuit, parte mea de <rs
+                            key="#Landed_possessions">res</rs> in loco <placeName
+                            key="#Testamentum/iudicatum #Casae/cassinae_massaricie #Landed_possessions"
+                            ref="#places/438">Corsania</placeName>, excepto <rs
+                            key="#Casae/cassinae_massaricie">casa</rs>
+                        <persName key="#Casae/cassinae_massaricie"><name ref="Rodulus"
+                            >Ruduli</name></persName>, quem iam <rs key="#Testamentum/iudicatum"
+                            >iudicata</rs> aveo; et aveas <rs key="#Churches">eclesia</rs>
+                        <orgName key="#Churches" ref="#juridical_persons/70">Fridiani</orgName>
+                        <rs key="#Landed_possessions">terra</rs> mea sub <placeName
+                            key="#Venditio #Landed_possessions" ref="#places/205"
+                            >Monticello</placeName>, qui fuit quondam <persName
+                            key=" #Landed_possessions"><name ref="Aregis">Arochisi</name></persName>
+                        quantum mihi da filii ipsius <rs key="#Venditio">abvine</rs> in integrum, in
+                        finito; (…) et aveas similiter parte mea de <rs
+                            key="#Casae/cassinae_massaricie">casa</rs> in loco <placeName
+                            key="#Casae/cassinae_massaricie" ref="#places/91">Cornino</placeName>,
+                        uvi [<persName key="#Casae/cassinae_massaricie">Ar…]sulo</persName> reside;
+                        et <rs key="#Churches">eclesia</rs>
+                        <orgName key="#Churches" ref="#juridical_persons/272">Sancte Marie, qui est
+                                <placeName key="#Churches" ref="#places/4">ad porta Sancti
+                                Cervasi</placeName></orgName>, volo ut aveas parte mea de <rs
+                            key="#Landed_possessions">res</rs> in loco <placeName
+                            key="#Landed_possessions">Persiniano</placeName>; et volo ut aveas <rs
+                            key="#Monasteries">eclesia</rs>
+                        <orgName key="#Monasteries" ref="#juridical_persons/130">Sancti
+                            Salvatori</orgName> in loco <placeName key="#Monasteries"
+                            ref="#places/315">Sexto</placeName> parte mea de <rs
+                            key="#Landed_possessions">res</rs> in loco <placeName
+                            key="#Landed_possessions">Pinistello</placeName> et ad
+                            <placeName>Arno</placeName> uvi vocamus <placeName
+                            key="#Landed_possessions" ref="#places/1023">ad Noce</placeName>; et
+                        volo ut aveas <rs key="#Churches">eclesia</rs>
+                        <orgName key="#Churches">Sancti Iusti</orgName> ad <placeName
+                            key="#Churches">Ranule</placeName>
+                        <rs key="#Hay/fodder">prato</rs> meo ad <placeName key="#Hay/fodder #Canals"
+                                ><rs key="#Canals">fossa</rs> Petrosula</placeName> in integrum; et
+                        volo ut aveas <rs key="#Churches">eclesia</rs>
+                        <orgName>Sancte Reparate</orgName>, qui est prope <rs key="#Monasteries"
+                            >monastherio</rs>
+                        <orgName>Sancti Martini</orgName>, qui fuit quondam <persName
+                            key="#Monasteries"><name ref="Sicardus">Sicheradi</name></persName>,
+                        parte mea de res in loco <placeName>Nobule</placeName>; et volo ut
+                            <rs key="#Landed_possessions">terra</rs> illa qui mihi <rs
+                            key="#Venditio">obvinet</rs> da quondam <persName
+                            key="#Venditio #Landed_possessions"><name ref="Tachipertus"
+                                >Tachipertu</name></persName>
+                        <placeName>ad Archo</placeName>, qui latum tene in <rs
+                            key="#Landed_possessions">terra</rs> de filii quondam <persName
+                            key="#Landed_possessions"><name ref="Garesindus"
+                            >Garisindi</name></persName>, ut eas aveas <rs key="#Churches"
+                            >eclesia</rs>
+                        <orgName ref="#juridical_persons/283" key="#Churches #Monasteries">Sancti
+                            Petri qui vocatur <rs key="#Monasteries">monastherio</rs>
+                            <persName ref="#people/704">Somualdi</persName></orgName>; et volo ut
+                        aveas parte mea de <rs key="#Landed_possessions">terra</rs>
+                        <placeName key="#Landed_possessions">trans Auserclo</placeName>, qui caput
+                        tene in ipso <placeName>Auserclo</placeName> et alio caput tene in <rs
+                            key="#Landed_possessions">terra</rs> de filii quondam <persName
+                            key="#Landed_possessions"><name ref="Burrichus"
+                            >Burriche</name></persName>, <rs key="#Churches">eclesia</rs>
+                        <orgName key="#Churches">Sancti Donati</orgName>. <foreign>Alle</foreign>
+                        nepotis meas <persName><name ref="Simperga">Sindiperga</name></persName>,
+                                <persName><name ref="Radalperga">Radalperga</name></persName> et
+                                <persName><name ref="Adalberga">Adalperga</name></persName>,
+                        portionem meam de <rs key="#Casae/cassinae_massaricie">casa</rs>
+                        <persName key="#Casae/cassinae_massaricie"><name ref="Arialdus"
+                                >Arualdi</name></persName> de <placeName ref="#places/473"
+                            >Lunata</placeName> in loco <placeName key="#Casae/cassinae_massaricie"
+                            >Tappuniano</placeName> et parte mea de <rs
+                            key="#Casae/cassinae_massaricie">casa</rs> quondam <persName
+                            key="#Casae/cassinae_massaricie"><name ref="Aufridus"
+                            >Aufridi</name></persName> in loco <placeName
+                            key="#Casae/cassinae_massaricie">Longize</placeName> (…) cum parte mea
+                        de <rs key="#Casae/cassinae_massaricie">casa</rs> in <placeName
+                            key="#Casae/cassinae_massaricie" ref="#places/166"
+                            >Tempaniano</placeName>, ubi reside quondam <persName><name
+                                ref="Antoninulus">Antuninulo</name></persName> (…); et similiter
+                        portionem meam de <rs key="#Salae">sala</rs> vel de <rs key="#Demesnes"
+                            >sundrio</rs> meo in loco <placeName key="#Salae #Demesnes"
+                            >Longize</placeName>, quantum mihi exinde competent, et <rs key="#Salae"
+                            >sala</rs> mea in loco […] <placeName key="#Vici #Salae #Cereals #Wine"
+                                ><rs key="#Vici">vico</rs>
+                            <persName><name ref="Willeradi">Willeradi</name></persName></placeName>,
+                        cum omnia ad se pertinentem, unam cum <rs key="#Cereals">terra</rs> et <rs
+                            key="#Wine">vineas</rs> (…); <foreign>devono vendere inoltre</foreign>
+                        omnis <rs key="#Landed_possessions">terre</rs> mei quantae ad me hic circa
+                            <placeName key="#Cities #Landed_possessions" ref="#places/4"><rs
+                                key="#Cities">civitatem</rs> ista</placeName> non iudicate
+                        remansere. (…) si eam venundare non potueritis volo ut vos ipsa aut in <rs
+                            key="#Hospitals">sinodochio</rs> aut in <rs key="#Monasteries"
+                            >monastherio</rs> vel in tale <rs key="#Churches">eclesia</rs> faciatis
+                        unde mihi et vobis mercidem eveniat (…). Et volo ut omnis <rs
+                            key="#Slave_labour #Slave">hominis</rs> meis mihi pertinentis vos <rs
+                            key="#Freedman">liveris circa altare</rs> demettere deveatis et eorum
+                        cartulam absolutionis emettere diveatis; sic tamen nominative volo de <rs
+                            key="#Slave_labour #Slave">servis vel mancipias minesterialis</rs> ut
+                        vos <rs key="#Freedman">livertare</rs> diveatis <persName
+                            key="#Slave_labour #Slave"><name ref="Teudipertulus"
+                            >Teudipertulo</name></persName>, et aveas pro servitio suo <rs
+                            key="#Petiae">petia de terra</rs> sub <placeName key="#Petiae"
+                            ref="#places/205">Monticello</placeName> prope areas <persName
+                            key="#Other_clerics"><name ref="Berteradus">Perteradi</name></persName>
+                        <rs key="#Other_clerics">clerici</rs>, qui mihi <rs key="#Commutatio">per
+                            cambio obvinet</rs> da <persName key="#Commutatio #Petiae"
+                            ref="#people/705">Gausperto</persName>, qui est rector <rs
+                            key="#Churches">eclesie</rs>
+                        <orgName key="#Churches" ref="#juridical_persons/70">Sancti
+                            Fridiani</orgName>; et volo ut <rs key="#Freedman">liveru demettere
+                            diveatis</rs>
+                        <persName key="#Freedman"><name ref="Ciancius">Cianci</name></persName>, et
+                        aveas <rs key="#Petiae">petias de terra</rs> prope areas de filii
+                                <persName><name ref="Pertualdus">Pertualdi</name></persName>, qui
+                            <rs key="#Venditio">mihi obvine</rs> da filii quondam <persName
+                            key="#Venditio #Petiae"><name ref="Ermerisci"
+                            >Ermerisci</name></persName>; et volo ut <rs key="#Freedman">liveri
+                            demettere diveatis</rs>
+                        <persName key="#Freedman"><name ref="Albertulus"
+                            >Alipertulo</name></persName>, <persName key="#Freedman"><name
+                                ref="Audebertulus">Audipertulo</name></persName>, et <persName
+                            key="#Freedman"><name ref="Maxcellius">Maxcellio</name></persName>, et
+                        aveas portionem mea de <rs key="#Landed_possessions">res</rs> in <placeName
+                            ref="#places/325" key="#Landed_possessions">Ponpiano</placeName>, ubi
+                        reside quondam <persName>F[…;</persName> et vo]lo ut <rs key="#Freedman"
+                            >liverum demettere diveatis</rs>
+                        <persName key="#Freedman"><name ref="Fusculus">Fusculo</name></persName>, et
+                        aveas portionem de <rs key="#Landed_possessions">res</rs> in loco <placeName
+                            key="#Casae/cassinae_massaricie #Landed_possessions"
+                        >Longize</placeName>, cum parte de i[psa <rs
+                            key="#Casae/cassinae_massaricie">casa</rs>], quantum exinde ei da
+                        germani eius pertene; et de <rs key="#Slave_labour #Slave">manciapias</rs>
+                        volo ut livere demettere diveatis <persName key="#Slave_labour #Slave"
+                            >Te[…</persName> de] <placeName key="#Slave_labour #Slave"
+                            ref="#places/438">Corsania</placeName> et <persName
+                            key="#Slave_labour #Slave"><name ref="Silvula"
+                        >Silbula</name></persName>, <persName key="#Slave_labour #Slave"><name
+                                ref="Liutbergula">Liutpergula</name></persName> et eorum <rs
+                            key="#Freedman">cartulam abpsolutionis </rs>emettere diveatis.
+                            <foreign>Lascia poi alle nipoti</foreign>: in primis Sindiperga de ipsa
+                            <rs key="#Slave_labour #Slave">mancipias</rs> mea una <rs
+                            key="#Slave_labour #Slave">ancella</rs> nomine <persName
+                            key="#Slave_labour #Slave"><name ref="Dominica"
+                            >Dominica</name></persName>; Radalperga volo ut aveas filia <persName
+                            key="#Slave_labour #Slave"><name ref="Luciulus"
+                            >Luccili</name></persName> nomina <persName key="#Slave_labour #Slave"
+                                ><name ref="Luciula">Luciula</name></persName>; et Adalperga volo ut
+                        aveas filia <persName key="#Slave_labour #Slave"><name ref="Audulus"
+                                >Autule</name></persName> de <placeName>Nobule</placeName>. Et volo
+                        ut <rs key="#Wine">vinea</rs> illa qui mihi <rs key="#Venditio">obvine</rs>
+                        da <persName key="#Venditio #Wine"><name ref="Bonulus"
+                            >Bonulo</name></persName> de <placeName>Ispardaco</placeName>, qui est
+                        sub <rs key="#Casae/cassinae_massaricie">casa</rs>
+                        <persName key="#Confinia #Casae/cassinae_massaricie"><name
+                                ref="Liutbertulus">Liutpertuli</name></persName>, ut aveas <rs
+                            key="#Churches">eclesia</rs>
+                        <orgName key="#Churches">Sancti Martini</orgName>, qui est ad <placeName
+                            key="#Churches">Terra Russula</placeName>. Et volo ut <rs
+                            key="#Freedman">livera demettere diveatis</rs>
+                        <persName>Allula</persName>. <foreign>Pena</foreign>: auri soledos nomero
+                        mille quinienti <foreign>e in duplum</foreign>. Et quod minime memoravimus,
+                        similiter volo ut <rs key="#Animals">nutriminas</rs> mea, sive menuris vel
+                        maioris, quante aveo, volo ut ipse vos similiter vendere diveatis (…). Actum
+                            <placeName ref="#places/4">Luca</placeName>.
+                            <foreign>Sottoscrizioni</foreign>: + Tassuni viri devoti; + <persName
+                            key="#Witness #Vir_devotus/vir_honestus"><name ref="Teudebertus"
+                                >Teupertu</name></persName>
+                        <rs key="#Vir_devotus/vir_honestus">viri devoti</rs> filio quondam
+                                <persName><name ref="Sanitulus">Sanituli</name></persName> testis; +
+                        […] testis; (ss) <persName key="#Witness #Notary"><name ref="Ratfunsus"
+                                >Ratfusu</name></persName>
+                        <rs key="#Notary">notarius</rs>; (ss) <persName key="#Witness #Notary"><name
+                                ref="Wistribertus">Wistripert</name></persName>
+                        <rs key="#Notary">notarius</rs>; (ss) <persName
+                            key="#Witness #Other_clerics"><name ref="Willeradus"
+                            >Willeradus</name></persName>
+                        <rs key="#Other_clerics">clericus</rs>. <foreign>Scrive</foreign>: <persName
+                            key="#Writer #Vir_devotus/vir_honestus"><name ref="Teudebertus"
+                                >Teutpertu</name></persName> (<rs key="#Vir_devotus/vir_honestus"
+                            >vir devotus</rs>). <foreign>Copia</foreign>: <persName
+                            key="#Copyist #Other_clerics"><name ref="Ragibrandus"
+                                >Rachiprandus</name></persName>
+                        <rs key="#Other_clerics">clericus</rs>.</ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>Muratori 1738-1742: I, 876; MDL IV/1, 63 (<foreign>ad an</foreign>. 766);
+                    reg. MDL V/2, n. 106; CDL II, 214, pp. 237-243; ChLA, XXXIV, 1000.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                         <p>
+                    <foreign>Nota dorsale (sec. XI)</foreign>: Iudicatum de multis rebus in diversis
+                    locis. <foreign>Nota dorsale (sec. XII)</foreign>: Exemplar iudicati in mon[…]to
+                    Camaiore Sancto Petro Sumualdi et in Sancto M[…]is de terris multis in Cornino
+                    ad Cicinam et […]. <foreign> Vetusiano = Venturiana sulla Fraga (Lucca), Pieri,
+                        Serchio, 69; Monacciatico (Vico di Antraccoli Repetti, I, 95; Pieri,
+                        Serchio, p. 183) Forse Persianiano Amiate (Lucca) Ranule cf. Ranocchiaia
+                        (area Sestinga) e Fossa Petrosula cf. Valle Petrosola (area Sestinga). S.
+                        Reparata di Monsagrati? Arco sul Serchio Longetia selva in Brancoli (Pieri,
+                        Serchio, p. 209)? Pumpiano (Val di Serchio, Repetti, IV, 510) verso S.
+                        Macario (Schiaparelli) Vico Spardaco (Verso Montebonelli) Pinistello (sul
+                        Monte Pisano verso S. Giuliano) (Schiaparelli) </foreign>eclesia Sancte
+                    Reparate, qui est prope monastherio Sancti Martini, qui fuit qd. Sicheradi [S.
+                    Reparata e S. Martino di Monsagrati];</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

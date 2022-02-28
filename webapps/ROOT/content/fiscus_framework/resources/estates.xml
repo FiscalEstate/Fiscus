@@ -4909,19 +4909,23 @@
                         <geogName>Marulis; <foreign>massa</foreign></geogName>
                         <geogName type="other"/>
                         <idno>estates/809</idno>
-                        <note>De Francesco 2004: 155. La massa doveva trovarsi nei pressi
-                            dell'attuale Valle Marciana (Roma). </note>
-                        <link type="people" corresp="#people/71" subtype="isOwnedBy"/>
+                        <note>De Francesco 2004: 155. La massa doveva trovarsi presso l'attuale
+                            Valle Marciana (Roma). </note>
+                        <link type="people" corresp="#people/71" subtype="isGrantedBy"/>
                         <link type="estates" corresp="#estates/224" subtype="dependsOn"/>
                         <link type="places" corresp="#places/1201" subtype="proximity"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/801"
+                            subtype="isGrantedTo"/>
                     </place>
                     <place>
                         <geogName>Sestiana; <foreign>massa</foreign></geogName>
                         <geogName type="other"/>
                         <idno>estates/810</idno>
                         <note>De Francesco 2004: 240. </note>
-                        <link type="people" corresp="#people/71" subtype="link"/>
-                        <link type="estates" corresp="#estates/224" subtype="isPartOf"/>
+                        <link type="people" corresp="#people/71" subtype="isGrantedBy"/>
+                        <link type="estates" corresp="#estates/224" subtype="dependsOn"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/801"
+                            subtype="isGrantedTo"/>
                     </place>
                     <place>
                         <geogName>Laurentius; <foreign>fundus</foreign></geogName>
@@ -5555,11 +5559,12 @@
                             dal <foreign>notarius</foreign> Eugenio. Nell'iscrizione il fondo è già
                             definito <foreign>iuris Sanctae Ecclesiae Romanae</foreign> e, nei suoi
                             pressi, figura anche un fondo <foreign>Flavianus</foreign> ricondotto al
-                            fisco imperiale (<foreign>iuris publici</foreign>). Una possibile
-                            localizzazione del fondo è suggerita dall'attuale Via Capitinzano,
-                            appena a sud di Tor Fiscale. </note>
+                            fisco imperiale (<foreign>iuris publici</foreign>). Una  localizzazione
+                            del fondo è suggerita dall'attuale Via Capitinzano, appena a sud di Tor
+                            Fiscale. </note>
                         <link type="people" corresp="#people/71" subtype="isOwnedBy"/>
-                        <link type="estates" corresp="#estates/868" subtype="isPartOf"/>
+                        <link type="estates" corresp="#estates/868" subtype="dependsOn"/>
+                        <link type="places" corresp="#places/1218" subtype="correspondsTo"/>
                     </place>
                     <place>
                         <geogName>Dostianus; <foreign>fundus</foreign></geogName>
@@ -5602,8 +5607,9 @@
                             inserita nel cartularo di Subiaco. Questo fondo, che insieme al
                                 <foreign>Longeianus</foreign> (cf. la scheda 875) ricostituiva una
                             più ampia unità fondiaria, doveva trovarsi nei pressi di Labico. </note>
-                        <link type="people" corresp="#people/71" subtype="link"/>
-                        <link type="estates" corresp="#estates/192" subtype="isPartOf"/>
+                        <link type="people" corresp="#people/71" subtype="isOwnedBy"/>
+                        <link type="estates" corresp="#estates/192" subtype="dependsOn"/>
+                        <link type="places" corresp="#places/1206" subtype="proximity"/>
                     </place>
                     <place>
                         <geogName>Longoeianus; <foreign>fundus</foreign></geogName>
@@ -5616,8 +5622,9 @@
                                 <foreign>Longoieianus</foreign> con la prima delle due
                                 <foreign>i</foreign> espunta. Questo fondo doveva trovarsi nei
                             pressi di Labico. </note>
-                        <link type="people" corresp="#people/71" subtype="link"/>
-                        <link type="estates" corresp="#estates/192" subtype="isPartOf"/>
+                        <link type="people" corresp="#people/71" subtype="isOwnedBy"/>
+                        <link type="estates" corresp="#estates/192" subtype="dependsOn"/>
+                        <link type="places" corresp="#places/1206" subtype="proximity"/>
                     </place>
                     <place>
                         <geogName>Funianus; <foreign>fundus</foreign></geogName>
@@ -9204,6 +9211,8 @@
                             subtype="dependsOn"/>
                         <link type="people" corresp="#people/111" subtype="isGrantedBy"/>
                         <link type="people" corresp="#people/116" subtype="isOwnedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/97"
+                            subtype="dependsOn"/>
                     </place>
                     <place>
                         <geogName>Acerenza; <foreign>fines</foreign></geogName>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio di Stato di Siena, Diplomatico, Città di Massa, 1075
+                    novembre 20, exemplar XIV sec.</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc1481</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">-Diploma</rs>
+                                    <rs type="record_source" ref="#">Original document</rs>
+                                    <rs type="document_tradition" ref="#">Copy</rs>
+                                    <rs type="fiscal_property">Yes</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate when="1074-11-20"> 
+                                        <note type="displayed_date">1074 November 20</note>
+                                        <note type="dating_elements">Anno di pontificato di
+                                    Gregorio. </note>
+                                        <note type="topical_date">Roma; Laterano</note>
+                                        <note type="redaction_date"/>
+                             </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-04-14" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab><rs>Papa</rs>
+                        <persName key="#Popes" ref="#people/265">Gregorio VII</persName>, su
+                        richiesta di <persName key="#Bishops"><name ref="Wilielmus"
+                            >Guilielmo</name></persName>
+                        <orgName key="#Mother_churches" ref="#juridical_persons/86"
+                            >Populoniensis</orgName>
+                        <rs key="#Mother_churches">ecclesie</rs>
+                        <rs key="#Bishops">episcopo</rs>, conferma allo stesso presule episcopatum
+                        predicte Populoniensis ecclesie cum omni iure suisque pertinentiis. Cuius
+                        episcopatus fines et possessiones sunt videlicet locus qui dicitur
+                            <placeName ref="#places/348">Alma</placeName> et exinde usque in <rs
+                            key="#Sea">mare</rs> et in <rs key="#Islands">insulam</rs> que vocatur
+                            <placeName key="#Islands" ref="#places/378">Elba</placeName> et inde in
+                        mare in <placeName ref="#places/379">Sedium</placeName> supra ipsum mare et
+                        exinde iusta in <placeName>Stafile Auricausi</placeName> et in <placeName
+                            key="#Rivers" ref="#places/380"><rs key="#Rivers">rivum</rs>
+                            Sabuli</placeName> et exinde in <placeName
+                            key="#Fiscal_property #Mention #Residential #Marquis/duke"
+                            ref="#places/381">Salam <persName key="#Marquis/duke" ref="#people/263"
+                                >Allonis</persName>
+                            <rs key="#Marquis/duke">ducis</rs></placeName> inde vero in <placeName
+                            ref="#places/382">Aslaito</placeName> et exinde in<placeName key="#Vici">
+                            <rs key="#Vici">Vicum</rs> Montanini</placeName> et inde ad
+                            <placeName>Sanctum Petrum</placeName> in quo persido inde vero ad
+                            <placeName ref="#places/383">Sanctum Iohannem in <rs key="#Gualdi"
+                                >Gualdum</rs> donni <rs key="#Emperor/king">regis</rs></placeName>
+                        et ad <placeName>Sanctum Philippum</placeName> et inde ad <placeName
+                            ref="#places/85">Montem Viridem</placeName> et inde ad <placeName>Fontem
+                            Fontignani</placeName> per <placeName ref="#places/384"
+                            >Faianum</placeName>
+                        <placeName ref="#places/385">Paganicum</placeName> in <placeName>Aquam
+                            Caldulam</placeName> et ad <placeName>Campum Mustiuole</placeName> inde
+                        vero ad <placeName>Sussianum</placeName> et exinde ad
+                                <placeName><placeName>Viniale</placeName></placeName> et inde in
+                            <placeName>Scannelli</placeName> inde vero in
+                            <placeName>Fraginetum</placeName> et exinde in <placeName>Campum
+                            Arenensem</placeName> et inde in <placeName>Campum Gagoni</placeName>
+                        inde vero in <placeName>Arenam</placeName> et exinde in
+                            <placeName>Libistellum</placeName> et inde in <placeName
+                            ref="#places/386">Serule</placeName> inde vero in <placeName
+                            ref="#places/387">Pancie</placeName> et exinde in <placeName
+                            ref="#places/388">Butre</placeName> et inde in <placeName
+                            ref="#places/389">Planizzule</placeName> inde vero in
+                            <placeName>Suppatre</placeName> et exinde ad
+                            <placeName>Argali</placeName> et inde in <placeName><rs key="#Mountains"
+                                >montem</rs> Danazzonem</placeName> inde vero in
+                            <placeName>Querqueta</placeName> et exinde in
+                            <placeName>Termine</placeName> et inde in
+                            <placeName>Cerbaiuola</placeName> inde vero in
+                            <placeName>Iusciani</placeName> et exinde in <placeName
+                            ref="#places/390">Lama de Arcle</placeName> fine ad <placeName>Pratum
+                            Firmi</placeName> et inde in <placeName ref="#places/391"
+                            >Terrige</placeName> fine <placeName ref="#places/392">Petram
+                            Albam</placeName> et inde in <placeName ref="#places/393"
+                            >Ercle</placeName> qui est iuxta suprascriptam Almam vel quecumque alia
+                        episcopalia iura. Proibisce illicita exactione vel usurpatione di re,
+                        imperatori, duchi, conti, vescovi e abati, alcuna persona magna et parva.
+                        Concedentes et corroborantes eidem Populoniensi ecclesie denominate quidem
+                            <placeName key="#Islands #Decima" ref="#places/378">Elbam</placeName>
+                        <rs key="#Islands">insulam</rs> cum omnibus locis et ecclesiis <rs
+                            key="#Decima">decimationibus</rs> omnique iure rerum illuc pertinentium.
+                        Similiter etiam et reliquas <rs key="#Baptismal_churches">plebes</rs> cum
+                            <rs key="#Churches">ecclesiis</rs>
+                        <rs key="#Villages/settlements">villis</rs>
+                        <rs key="#Castle">castellis</rs>
+                        <rs key="#Landed_possessions">terris</rs> cultis et incultis secundum
+                        ambitum terminorum et diffinitionis, que in antiquis privilegiis eidem
+                        ecclesie collatis invenitur ut prelibatum est. Concesso per manus del <rs
+                            key="#Cardinals">prete cardinale</rs> e bibliotecario Sancte Romane
+                        Ecclesie <persName key="#Writer"><name ref="Petrus"
+                        >Pietro</name></persName>. Scrive: <persName key="#Writer"><name
+                                ref="Rainerius">Ranieri</name></persName> scriniarius S. Romane
+                        Ecclesie. Datum <placeName>Lateranis</placeName>. </ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>Pflugk Harttung, II: 124-125, n. 160; Lisini 1908: 523.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                        <p/>
+                    </div>
+                </body>
+            </text>
+        </TEI>
