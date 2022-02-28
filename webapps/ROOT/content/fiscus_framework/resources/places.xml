@@ -8802,18 +8802,20 @@
                         <link type="people" corresp="#people/21" subtype="isGrantedBy"/>
                         <link type="estates" corresp="#estates/92" subtype="link"/>
                         <link type="estates" corresp="#estates/500" subtype="correspondsTo"/>
+                        <link type="people" corresp="#people/188" subtype="link"/>
                     </place>
                     <place>
                         <placeName><foreign>Musestre</foreign> (Mestre; Venezia)</placeName>
-                        <placeName type="other"/>
+                        <placeName type="other"><foreign>portus Tarvisiensis</foreign></placeName>
                         <geogName type="coord"><geo>45.463983, 12.262115</geo></geogName>
                         <idno>places/901</idno>
                         <note/>
                         <link type="places" corresp="#places/13" subtype="proximity"/>
                         <link type="people" corresp="#people/21" subtype="link"/>
-                        <link type="people" corresp="#people/600" subtype="link"/>
+                        <link type="people" corresp="#people/600" subtype="isHeldBy"/>
                         <link type="juridical_persons" corresp="#juridical_persons/500"
-                            subtype="link"/>
+                            subtype="isManagedBy"/>
+                        <link type="people" corresp="#people/155" subtype="link"/>
                     </place>
                     <place>
                         <placeName><foreign>Colata</foreign> (Colà; Verona)</placeName>
@@ -8883,9 +8885,10 @@
                         <idno>places/907</idno>
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/101"
-                            subtype="link"/>
-                        <link type="people" corresp="#people/21" subtype="link"/>
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/21" subtype="isGrantedBy"/>
                         <link type="people" corresp="#people/155" subtype="link"/>
+                        <link type="people" corresp="#people/620" subtype="isGrantedTo"/>
                     </place>
                     <place>
                         <placeName><foreign>Gaio et Girano</foreign> (Ghirano; fraz. Prata di
@@ -8894,11 +8897,12 @@
                         <geogName type="coord"><geo>45.842673, 12.562866</geo></geogName>
                         <idno>places/908</idno>
                         <note/>
-                        <link type="places" corresp="#places/907" subtype="link"/>
-                        <link type="people" corresp="#people/21" subtype="link"/>
+                        <link type="places" corresp="#places/907" subtype="correspondsTo"/>
+                        <link type="people" corresp="#people/21" subtype="isGrantedBy"/>
                         <link type="people" corresp="#people/155" subtype="link"/>
                         <link type="juridical_persons" corresp="#juridical_persons/101"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/620" subtype="isGrantedTo"/>
                     </place>
                     <place>
                         <placeName><foreign>Summo Laco</foreign> (Riva del Garda;
@@ -8918,8 +8922,12 @@
                         <idno>places/910</idno>
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/65"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
                         <link type="estates" corresp="#estates/125" subtype="bordersOn"/>
+                        <link type="people" corresp="#people/21" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/622" subtype="isGrantedTo"/>
+                        <link type="estates" corresp="#estates/1452" subtype="bordersOn"/>
+                        <link type="estates" corresp="#estates/511" subtype="bordersOn"/>
                     </place>
                     <place>
                         <placeName>Cona (Venezia)</placeName>
@@ -8927,11 +8935,18 @@
                         <geogName type="coord"><geo>45.176229, 12.081528</geo></geogName>
                         <idno>places/911</idno>
                         <note/>
-                        <link type="people" corresp="#people/123" subtype="link"/>
+                        <link type="people" corresp="#people/123" subtype="isGrantedBy"/>
                         <link type="people" corresp="#people/623" subtype="link"/>
-                        <link type="estates" corresp="#estates/515" subtype="isWithin"/>
-                        <link type="people" corresp="#people/165" subtype="link"/>
-                        <link type="estates" corresp="#estates/514" subtype="isPartOf"/>
+                        <link type="estates" corresp="#estates/515" subtype="correspondsTo"/>
+                        <link type="estates" corresp="#estates/514" subtype="isWithin"/>
+                        <link type="people" corresp="#people/165" subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/624" subtype="link"/>
+                        <link type="places" corresp="#places/912" subtype="proximity"/>
+                        <link type="places" corresp="#places/913" subtype="proximity"/>
+                        <link type="estates" corresp="#estates/517" subtype="proximity"/>
+                        <link type="estates" corresp="#estates/516" subtype="proximity"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/504"
+                            subtype="dependsOn"/>
                     </place>
                     <place>
                         <placeName>Montagnana (Padova)</placeName>
@@ -8940,11 +8955,14 @@
                         <idno>places/912</idno>
                         <note/>
                         <link type="people" corresp="#people/623" subtype="link"/>
-                        <link type="people" corresp="#people/123" subtype="link"/>
-                        <link type="people" corresp="#people/165" subtype="link"/>
-                        <link type="estates" corresp="#estates/514" subtype="isPartOf"/>
-                        <link type="places" corresp="#places/911" subtype="link"/>
-                        <link type="estates" corresp="#estates/515" subtype="link"/>
+                        <link type="people" corresp="#people/123" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/165" subtype="isGrantedTo"/>
+                        <link type="estates" corresp="#estates/514" subtype="isWithin"/>
+                        <link type="places" corresp="#places/911" subtype="proximity"/>
+                        <link type="estates" corresp="#estates/515" subtype="proximity"/>
+                        <link type="estates" corresp="#estates/516" subtype="correspondsTo"/>
+                        <link type="places" corresp="#places/913" subtype="proximity"/>
+                        <link type="estates" corresp="#estates/517" subtype="proximity"/>
                     </place>
                     <place>
                         <placeName><foreign>Petriolum</foreign> (Monselice; Padova) </placeName>
@@ -8953,14 +8971,16 @@
                         <idno>places/913</idno>
                         <note>Settia 1994, p. 91. </note>
                         <link type="people" corresp="#people/623" subtype="link"/>
-                        <link type="people" corresp="#people/165" subtype="link"/>
-                        <link type="people" corresp="#people/123" subtype="link"/>
-                        <link type="places" corresp="#places/912" subtype="link"/>
-                        <link type="places" corresp="#places/911" subtype="link"/>
-                        <link type="estates" corresp="#estates/515" subtype="link"/>
-                        <link type="estates" corresp="#estates/516" subtype="link"/>
-                        <link type="estates" corresp="#estates/514" subtype="isPartOf"/>
-                        <link type="estates" corresp="#estates/517" subtype="isWithin"/>
+                        <link type="people" corresp="#people/165" subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/123" subtype="isGrantedBy"/>
+                        <link type="places" corresp="#places/912" subtype="proximity"/>
+                        <link type="places" corresp="#places/911" subtype="proximity"/>
+                        <link type="estates" corresp="#estates/515" subtype="proximity"/>
+                        <link type="estates" corresp="#estates/516" subtype="proximity"/>
+                        <link type="estates" corresp="#estates/514" subtype="isWithin"/>
+                        <link type="estates" corresp="#estates/517" subtype="correspondsTo"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/504"
+                            subtype="dependsOn"/>
                     </place>
                     <place>
                         <placeName>Venezia</placeName>
@@ -9015,13 +9035,13 @@
                         <link type="people" corresp="#people/165" subtype="link"/>
                         <link type="people" corresp="#people/626" subtype="link"/>
                         <link type="places" corresp="#places/913" subtype="proximity"/>
-                        <link type="places" corresp="#places/912" subtype="link"/>
+                        <link type="places" corresp="#places/912" subtype="proximity"/>
                         <link type="places" corresp="#places/911" subtype="proximity"/>
                         <link type="juridical_persons" corresp="#juridical_persons/505"
                             subtype="link"/>
                         <link type="juridical_persons" corresp="#juridical_persons/504"
                             subtype="link"/>
-                        <link type="estates" corresp="#estates/514" subtype="isPartOf"/>
+                        <link type="estates" corresp="#estates/514" subtype="isWithin"/>
                     </place>
                     <place>
                         <placeName><foreign>Fluvium</foreign>; <foreign>sculdascia</foreign> (fiumi
