@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    Diplomatico, *O. 36</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc4040</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">--Offersio/donatio</rs>
+                                    <rs type="record_source" ref="#">Critical edition</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate when="0747-04-24"> 
+                                        <note type="displayed_date">747 April 24</note>
+                                        <note type="dating_elements"/>
+                                        <note type="topical_date">Lucca</note>
+                                        <note type="redaction_date"/>
+                             </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-05-29" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab><persName key="#Vir_devotus/vir_honestus"><name ref="Agibertus"
+                                >Achipert</name></persName>
+                        <rs key="#Vir_devotus/vir_honestus">vir devotus</rs> filio quondam
+                                <persName><name ref="Sicualdus">Sicuald</name></persName>
+                        <foreign>dona pro anima alla</foreign>
+                        <rs key="#Churches">ecclesie</rs>
+                        <orgName key="#Churches" ref="#juridical_persons/246">beatissimi Sancti
+                            Georgii</orgName> sita in <rs key="#Cities">civitate</rs>
+                        <placeName key="#Cities #Churches" ref="#places/4">Lucense</placeName>, ubi
+                            <persName key="#Priests"><name ref="Iordanus">Iordanni</name></persName>
+                        <rs key="#Priests">presbiter</rs> preesse videtur (…) <rs
+                            key="#Casae/cassinae_massaricie">casa</rs> una ubi vocabulum est
+                            <placeName
+                            key="#Demesnes #Casae/cassinae_massaricie #Landed_possessions #Wine #Acorns #Slave_labour #Slave"
+                            ref="#places/510">Miliano</placeName>, qui regitor per <rs
+                            key="#Slave_labour #Slave">servo</rs> meo nomine <persName
+                            key="#Slave_labour #Slave"><name ref="Maurulus"
+                            >Maurulo</name></persName>, qui mihi in sorte obvinet de germani mei,
+                        cum omnia ad ipsa casa pertenente in integrum; <rs
+                            key="#Slave_labour #Slave">serbus vel ancellas</rs> in mea reserbo
+                        potestate pro anima mea livertandum; nam suprascripta casa cum <rs
+                            key="#Landed_possessions">terra</rs>, <rs key="#Wine">vinea</rs>, <rs
+                            key="#Acorns">silbis</rs>, cultum vel incultum, omnia et in omnebus; seo
+                        et parte mea de <rs key="#Demesnes">sundro</rs> illo qui nobis obvinet de
+                                <persName><name ref="Tachipertus">Tachipert</name></persName>, quem
+                        commune habemus cum <persName><name ref="Causari">Causari</name></persName>
+                        in ipso suprascripto loco. <foreign>Dona inoltre</foreign> et aliquantola
+                            <rs key="#Landed_possessions">terrola</rs> ubi vocabulum est <placeName
+                            key="#Landed_possessions" ref="#places/239">Cisiana</placeName>,
+                            <foreign>giuntagli da</foreign> bone memorie <persName><name
+                                ref="Sichelmus">Sichemi</name></persName> et <persName><name
+                                ref="Chiculus">Chiculo</name></persName> germanis <foreign>per la
+                            sua metà. Pena, per i suoi eredi che cercassero di sottrarre i beni alla
+                            chiesa</foreign>, auri soledus nomero quinienti. <foreign>Si riserva
+                            l’usufrutto vitalizio dei beni. Se Achipert dovesse avere figli potrà
+                            annullare la donazione e lasciar loro i beni in eredità. Fa beneficiaria
+                            dei beni la moglie</foreign>
+                        <persName><name ref="Waltruda">Waltruda</name></persName>, <foreign>se gli
+                            sopravvivesse e</foreign> lectum meum custodieret et fidis maritalis
+                        observaveret (…). <foreign>Dona inoltre alla chiesa di S. Giorgio</foreign>
+                        portionem meam de <rs key="#Salae">sala</rs> ad <placeName
+                            key="#Mountains #Salae #Demesnes #Casae/cassinae_massaricie #Cafagia #Cereals #Oil"
+                            ref="#places/556">Cicina</placeName>, vel portionem meam de <rs
+                            key="#Casae/cassinae_massaricie">casas</rs> quantum mihi in sorte
+                        contiget da fratres meos, cum sorte mea de <rs key="#Oil">olibetas</rs>, et
+                        parte mea de <rs key="#Cereals">campo</rs> et <rs key="#Mountains"
+                            >monte</rs> in <placeName ref="#places/556">Latronario</placeName>, et
+                        parte mea de <rs key="#Cafagia">cahagio</rs> sub <rs key="#Mountains"
+                            >monte</rs> cum <rs key="#Wine">vinea</rs>; quantum in eodem loco mihi
+                        da germanos meos contiget, tam de <rs key="#Demesnes">sundro</rs> quam et de
+                            <rs key="#Casae/cassinae_massaricie">casas tributarias</rs> vel <rs
+                            key="#Landed_possessions">terra</rs>, ubi <persName
+                            key="#Casae/cassinae_massaricie"><name ref="Sigebertulus"
+                                >Sichipertulo</name></persName> casa sua posita habet, de cahagio
+                        illo meo in integrum. <foreign>Scrive:</foreign>
+                        <persName key="#Writer"><name ref="Lambertus">Lamipert</name></persName>.
+                        (…) Actum <placeName ref="#places/4">Luca</placeName>.
+                            <foreign>Sottoscrizioni:</foreign> Achipert vir devotus (ss); +
+                            <persName key="#Witness"><name ref="Firmus">Fermuso</name></persName>
+                        filio quondam <persName key="#Vir_devotus/vir_honestus"><name ref="Ghisi"
+                                >Ghisi</name></persName>
+                        <rs key="#Vir_devotus/vir_honestus">viri devoti</rs> testis; + <persName
+                            key="#Witness"><name ref="Suatchis">Suatchis</name></persName> filio
+                            <persName key="#Vir_devotus/vir_honestus"><name ref="Alateus"
+                                >Alathei</name></persName>
+                        <rs key="#Vir_devotus/vir_honestus">viri devoti</rs> testis; + <persName
+                            key="#Witness"><name ref="Ildebertus">Ildipert</name></persName> filio
+                        quondam <persName><name ref="Perteradus">Perteradi</name></persName> testis. </ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>MDL V/2, n. 38; CDL I, n. 90, pp. 260-263; ChLA, XXXI, 928.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                         <p><foreign>Nota dorsale (sec. XII ex):</foreign> Offersio in Miliano.
+                        <foreign>Contra ChLA (Repetti, III, 209; VI, 147; Pieri 1898: 30) si
+                        identifica non con Migliano (Camaiore) ma con Miliana (San
+                        Miniato).</foreign></p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

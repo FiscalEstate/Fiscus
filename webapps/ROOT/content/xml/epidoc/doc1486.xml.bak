@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio di Stato di Siena, Diplomatico, S. Agostino, 1107
+                    marzo</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc1486</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#"
+                                >--Libellus/precaria/emphyteusis</rs>
+                                    <rs type="record_source" ref="#">Original document</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate notBefore="1015-03-01" notAfter="1015-03-31">
+                                <note type="displayed_date">1015 March</note>
+                                <note type="dating_elements">Anno d’impero di Enrico. I dati
+                                    cronologici non concordano: 1016/03/00 secondo
+                                    l’indizione.</note>
+                                <note type="topical_date"/>
+                                <note type="redaction_date"/>
+                             </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-04-22" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab><persName key="#Abbots" ref="#people/243">Ildibertus</persName>
+                        <rs key="#Abbots">abbas</rs> ex <rs key="#Monasteries">monasterio</rs>
+                        <orgName key="#Monasteries" ref="#juridical_persons/126">Domini et Sancti
+                            Bartholomei</orgName> sito <placeName key="#Monasteries"
+                            ref="#places/281">Sestinghe</placeName> (…) per hunc scriptum et per
+                        nostra convenentia concede in livello a <persName><name ref="Rainerius"
+                                >Raneri</name></persName> et <persName><name ref="Bernardus"
+                                >Bernardo</name></persName> germanis filii bone memorie
+                                <persName><name ref="Teudicius">Teudici</name></persName>, i sunt
+                        integris duobus terris et casis et <rs key="#Casae/cassinae_massaricie"
+                            >sortis</rs> et ille meis massaricies; huna (…) est posita in loco hubi
+                        dicitur <placeName key="#Casae/cassinae_massaricie">ha la
+                            Vinadria</placeName>, qui modo recta est per <persName><name
+                                ref="Bonosus">Bonoso</name></persName> massario; et alia in
+                            <placeName key="#Demesnes #Casae/cassinae_massaricie">Stabblio
+                            Donico</placeName> et modo recta est per <persName><name
+                                ref="Bonitius/Mutius">Bonittio Muttio</name></persName> massario et
+                        suis <rs key="#Consortes/shared_possessions">consortibus</rs>, et sunt prope
+                            <rs key="#Villages/settlements">villa</rs> de <placeName
+                            ref="#places/347">Tile</placeName>, con tutte le sue dipendenze. I
+                        livellari si impegnano a versare all’abate e ai suoi successori per omnes
+                        singulos annos in mense hagusto (…) pensione exinde argentum denarios
+                        viginti et quatuor boni expendibiles. Se non rispetteranno i suddetti
+                        impegni, entrambe le parti promettono di versare la pena di 40 soldi
+                        d’argento. Chiede a <persName key="#Writer #Notary"><name ref="Berardus"
+                                >Berardo</name></persName>
+                        <rs key="#Notary">notario</rs> la stesura della cartula. Hactum loco
+                            <placeName ref="#places/281">intus predicto monasterio</placeName>
+                        <rs key="#Comitatus">territurio</rs>
+                        <geogName key="#Comitatus" ref="#estates/154">Rosellense</geogName>.
+                        Sottoscrizione: Ego Ildibertus abb(as) in unc libelu(m) a me facto
+                        subscripsi; Raineri et Bernardi germani. Testi: <persName key="#Witness"
+                                ><name ref="Ildebrandus">Ildebrandi</name></persName> filio b.m.
+                        ***; <persName key="#Witness"><name ref="Rodelandus"
+                            >Rollandi</name></persName> filio de suprascripto Ildebrando; <persName
+                            key="#Witness"><name ref="Iohannes">Iohanni</name></persName> filio bone
+                        memorie eidem <persName><name ref="Iohannes">Iohanni</name></persName>.
+                        Scrive: manca la sottoscrizione notarile.</ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>Lisini 1908: 535.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                        <p>La sottoscrizione di Ildeberto abate è autografa.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

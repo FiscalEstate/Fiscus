@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Roma, Biblioteca Vaticana, Cod. Barb. lat. 2724, cc. 91v-92rv
+                        (<foreign>Chronicon Vulturnense</foreign>, I, n. 35) </title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc2049</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Offersio/donatio</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property">Yes</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0815-09">
+                                <note type="displayed_date">815 September</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date"/>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-09-22" who="gzornetta">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine domini salvatoris nostri Iesu Christi. <date>Temporibus domni
+                            nostri viri precellentissimi <persName key="#Princeps"
+                                ref="#people/2000">Grimoaldi</persName>, Dei providencia,
+                            Beneventane provincie <rs key="#Princeps">principis</rs>, decimo anno
+                            principatus eius, mense septembris, VIIII indictione</date>. Ideoque ego
+                            <persName ref="#people/1902">Alahis</persName>, filius bone memorie
+                                <persName><name ref="Arichis">Arichis</name></persName>, pro
+                        redepmcione anime mee, per hanc meam <rs key="#Offersio/donatio">chartulam
+                            offercionis</rs>, offero in <rs key="#Monasteries">monasterio</rs>
+                        <orgName key="#Monasteries" ref="#juridical_persons/1900">Beati Vincencii
+                            levite et martyris</orgName>, ubi Deo favente domnus <persName
+                            key="#Abbots" ref="#people/2001">Iosue</persName>
+                        <rs key="#Abbots">abbas</rs> preest, omnes res et substancias meas, quas
+                        habeo intus vel foras <rs key="#Cities">civitate</rs>
+                        <placeName key="#Cities #Houses #Curtes #Houses #Rivers" ref="#places/2300"
+                            >Benafro</placeName>, hoc est <rs key="#Houses">casas</rs> meas
+                        fabrittas, cum suis <rs key="#Curtes">curtibus</rs>, que sunt posite super
+                        fontem <rs key="#Rivers">fluvii</rs> qui dicitur <placeName
+                            key="#Rivers #Mills #Riverbed" ref="#places/2346">Sexto</placeName>;
+                        quam et <rs key="#Churches">ecclesiam</rs> nostram vocabulo <orgName
+                            key="#Rivers #Churches #Landed_possessions #Fruits/vegetables"
+                            ref="#juridical_persons/1920">Sancte Marie</orgName>, que constructa est
+                        iuxta ipsum fluvium, cum suo <rs
+                            key="#Landed_possessions #Fruits/vegetables">ortale</rs>; quam et terras
+                        meas quas habeo in <rs key="#Fines">finibus</rs>
+                        <geogName
+                            key="#Fines #Petiae #Houses #Roads #Riverbed #Rivers #Mountains #Landed_possessions #Mills #Clusae/gates #Churches #Slave #Slave_labour #Fiscal_property #Textual_occurrence #Mention #Function #Redistributive #Outflow #Allocation_to_churches"
+                            ref="#estates/1901">Benafro</geogName>, in loco qui dicitur <placeName
+                            key="#Houses #Rivers #Riverbed #Mountains #Petiae #Landed_possessions #Mills #Fiscal_property #Textual_occurrence #Mention #Function #Redistributive #Outflow #Allocation_to_churches #Slave_labour #Clusae/gates #Roads #Churches #Slave"
+                            ref="#places/2347">Maczano</placeName>, que sunt due pecie: prima <rs
+                            key="#Petiae">pecia</rs>, ubi ecclesia vocabulo Sancte Marie constructa
+                        est, et <rs key="#Houses">casa</rs> fabritta, que in eadem terra posita est,
+                        que habet fines iam dicta prima pecia qualiter exfinant <rs
+                            key="#Landed_possessions">terre</rs> et <rs key="#Mountains"
+                        >montes</rs>, que domnus <persName key="#Princeps" ref="#people/303"
+                            >Arichis</persName>, bone memorie <rs key="#Princeps">princeps</rs>,
+                        concessas habet per suum <rs key="#Marquis’/ducal/princely_diploma"
+                            >preceptum</rs> in iam dicto monasterio, secunda parte <rs key="#Rivers"
+                            >riagine</rs> que dicitur <placeName key="#Rivers" ref="#places/2309"
+                            >Ravennola</placeName>, unde per tempus aqua decurrit, tercia parte
+                        fossato, et terras <persName><name ref="Iohannes Radoaldus">Iohannis
+                                Radoaldi</name></persName>, et terras <persName><name
+                                ref="Emelgrimus">Emelgrimi</name></persName>, et terras
+                                <persName><name ref="Paldo">Paldoni</name></persName>, et terras
+                                <persName><name ref="Truppoaldus">Truppoaldi</name></persName>,
+                        quarta vero parte riagine; secunda <rs key="#Petiae">pecia</rs> ibidem, que
+                        habet fines: prima parte <rs key="#Rivers">fluvio</rs>
+                        <placeName key="#Rivers" ref="#places/609">Vulturno</placeName>, de secunda
+                        parte riagine, que exfinat inter hec terra et terra Arichis principis,
+                        tercia parte iam dicta riagine, quarta parte fines habet terram
+                                <persName><name ref="Medancius">Medanci</name></persName>; quam et
+                        offero in iam dicto monasterio inclitum <rs key="#Mills">molendinum</rs>
+                        meum, quem habeo in iam dicto fluvio Sexto, cum <rs key="#Clusae/gates"
+                            >clusuris</rs>, ripis, aquis, et cum suo <rs key="#Riverbed">cursu</rs>
+                        et <rs key="#Roads">viis</rs> ibidem intrandi et exiendi; iterum offero in
+                        eodem monasterio <rs key="#Slave #Slave_labour">servos</rs> et ancillas
+                        nostras, qui in iam dictis terris habitant, quorum nomina hec sunt:
+                            <persName key="#Slave #Slave_labour"><name ref="Theodericus"
+                                >Theodericus</name></persName> cum <persName
+                            key="#Slave #Slave_labour"><name ref="Pota">Pota</name></persName> uxore
+                        sua, <persName key="#Slave #Slave_labour"><name ref="Dominicus"
+                                >Dominicus</name></persName> cum <persName
+                            key="#Slave #Slave_labour"><name ref="Rosa">Rosa</name></persName> uxore
+                        sua, <persName key="#Slave #Slave_labour"><name ref="Ursulus"
+                            >Ursulus</name></persName> cum <persName key="#Slave #Slave_labour"
+                                ><name ref="Formica">Formica</name></persName> uxore sua, <persName
+                            key="#Slave #Slave_labour"><name ref="Petrulus"
+                            >Petrulus</name></persName> cum <persName key="#Slave #Slave_labour"
+                                ><name ref="Angela">Angela</name></persName> uxore sua, cum filiis,
+                        nuribus, nepotibus, et cum omnibus suis cespitibus. Hec omnia in integrum
+                        offero ad possidendum eidem monasterio Sancti Vincencii in perpetuum. </ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>CV I, n. 35, pp. 251-252</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
