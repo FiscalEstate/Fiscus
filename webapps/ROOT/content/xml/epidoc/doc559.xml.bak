@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    Diplomatico, * L 99</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                        </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc559</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#"
+                                >--Libellus/precaria/emphyteusis</rs>
+                                    <rs type="record_source" ref="#">Original document</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">Yes</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate when="0901-07-18">
+                                <note type="displayed_date">901 July 18</note>
+                                <note type="dating_elements">Anno d’impero di Ludovico</note>
+                                <note type="topical_date">Lucca</note>
+                                <note type="redaction_date"/>
+                             </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance>
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                            <place></place>
+                        </listPlace>
+                        <listPerson>
+                            <person></person>
+                        </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-04-27" who="ptomei">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab><persName><name ref="Sanitulus/Dodo">Sanitulo detto
+                            Toto</name></persName> del <persName>fu <name ref="Adalbaldus"
+                                >Adalpaldo</name></persName> riceve in livello dal <rs
+                            key="#Bishops">vescovo</rs> di Lucca <persName ref="#people/213"
+                            key="#Bishops">Pietro</persName>, due appezzamenti di terra posti in
+                        loco ubi dicitur <placeName
+                            key="#Rivers #Petiae #Fiscal_property #Mention #Redistributive #Count"
+                            ref="#places/495">Pettiano</placeName>, di pertinenza della <orgName
+                            key="#Churches" ref="#juridical_persons/70"><rs key="#Churches"
+                                >chiesa</rs> di San Frediano</orgName> qui est de subpotestatem del
+                            <orgName ref="#juridical_persons/68" key="#Mother_churches"><rs
+                                key="#Mother_churches">vescovato</rs> di San Martino</orgName>, una
+                            <rs key="#Confinia #Landed_possessions">confinante</rs> capo uno cum uno
+                        lato con terra sua, alio capo cum uno lato in <rs key="#Rivers">rivo</rs>,
+                        l’altra capo uno cum uno lato con <rs
+                            key="#Petiae #Fiscal_property #Mention #Redistributive">terra</rs> del
+                            <persName key="#Confinia #Petiae #Count" ref="#people/225">fu
+                            Ildiprando</persName>
+                        <rs key="#Count">conte</rs>, alio capo in rivo, alio lato con terra sua, con
+                        tutte le sue dipendenze. Si impegna a versare pro omni censum et iustitia al
+                        vescovo e ai suoi successori a Lucca il censo annuale di 12 denari d’argento
+                        ad pars della chiesa di San Frediano. Se non rispetterà i suddetti impegni,
+                        promette con i suoi eredi di versare al vescovo e ai suoi successori la pena
+                        di 30 soldi d’argento. Chiede al <rs key="#Writer #Notary">notaio</rs>
+                        <persName key="#Writer #Notary"><name ref="Leo">Leone</name></persName> la
+                        stesura di due <rs key="#Libellus/precaria/emphyteusis">cartulas</rs>. Actum
+                            <placeName ref="#places/4" key="#Churches #Mother_churches #Bishops"
+                            >Luca</placeName>. <rs key="#Witness">Testimoni</rs> sottoscrittori:
+                            <persName key="#Witness"><name ref="Garibaldus"
+                            >Gheripaldo</name></persName>, <persName key="#Witness"><name
+                                ref="Giselbertus">Ghisalperto</name></persName>, <persName
+                            key="#Witness #Notary"><name ref="Tassimannus"
+                            >Tassimanno</name></persName>
+                        <rs key="#Notary">notarius</rs>, <persName key="#Witness"><name
+                                ref="Balduinus">Baldoino</name></persName>, <persName key="#Witness"
+                                ><name ref="Sichelmus">Sichelmo</name></persName> del <persName>fu
+                                <name ref="Sichelmus">Sichelmo</name></persName>.</ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>MDL, 5/3, n. 1052, p. 9.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                        <p>Sottoscrizioni autografe: Gheripaldo, Ghisalperto, il notaio Tassimanno,
+                    Baldoino.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

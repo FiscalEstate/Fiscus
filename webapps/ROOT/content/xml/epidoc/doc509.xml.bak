@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    Diplomatico, * K 100</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus
+                        Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc509</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Libellus/precaria/emphyteusis</rs>
+                            <rs type="record_source" ref="#">Original document</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property">No</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0897-03-24">
+                                <note type="displayed_date">897 March 24</note>
+                                <note type="dating_elements">Stile dell’incarnazione</note>
+                                <note type="topical_date">Lucca</note>
+                                <note type="redaction_date"/>
+                             </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-03-27" who="ptomei">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>Il <rs key="#Priests">prete</rs>
+                        <persName key="#Priests"><name ref="Georgius">Giorgio</name></persName> del
+                            <persName key="#Other_clerics">fu <name ref="Maregisus"
+                            >Marighisi</name></persName>
+                        <rs key="#Other_clerics">chierico</rs> e il <rs key="#Priests">prete</rs>
+                        <persName key="#Priests"><name ref="Adalbrandus"
+                            >Adalprando</name></persName> del <persName>fu <name ref="Ragibrandus"
+                                >Rachiprando</name></persName> ricevono in livello dal <rs
+                            key="#Bishops">vescovo</rs> di Lucca <persName key="#Bishops"
+                            ref="#people/213">Pietro</persName>, la <orgName key="#Churches"
+                            ref="#juridical_persons/290"><rs key="#Churches">chiesa</rs> di San
+                            Pietro sita loco et finibus ubi dicitur <placeName key="#Churches"
+                                ref="#places/202">Charicini</placeName></orgName>, di pertinenza del
+                            <orgName key="#Mother_churches" ref="#juridical_persons/68"><rs
+                                key="#Mother_churches">vescovato</rs> di San Martino</orgName>, con
+                        tutte le sue dipendenze a Charicini e nelle località di <placeName
+                            ref="#places/203">Rogiana</placeName> e <placeName ref="#places/204"
+                            >Rontano</placeName>, eccettuando 7 casis et rebus massariciis poste
+                        nella stessa Caricini. Si impegna affinché per sua disposizione nella chiesa
+                        si tengano officium Dei et luminaria seo missarum solemnia. Si impegna a
+                        versare pro omni censum et iustitiam al vescovo e ai suoi successori a Lucca
+                        ogni mese di ottobre il censo annuale di 10 soldi d’argento ad pars dello
+                        stesso vescovato, e a far venire a Lucca legem et iustitiam faciendum, gli
+                        stessi uomini che abiteranno le case di pertinenza della chiesa ad mandato
+                        del vescovo. Se non rispetterà i suddetti impegni, promette di versare al
+                        vescovo e ai suoi successori la pena di 30 soldi d’argento. Chiede al <rs
+                            key="#Writer #Notary">notaio</rs>
+                        <persName key="#Writer #Notary"><name ref="Teuderandus"
+                            >Teuderando</name></persName> la stesura di due <rs
+                            key="#Libellus/precaria/emphyteusis">cartulas</rs>. Actum <placeName
+                            ref="#places/4" key="#Mother_churches #Bishops">Luca</placeName>. <rs
+                            key="#Witness">Testimoni</rs> sottoscrittori: <persName
+                            key="#Witness #Other_clerics"><name ref="Leo">Leone</name></persName>
+                        <rs key="#Other_clerics">clericus</rs>, <persName key="#Witness"><name
+                                ref="Teudebrandus">Teuprando</name></persName>, <persName
+                            key="#Witness"><name ref="Eriteus">Eriteo</name></persName>, <persName
+                            key="#Witness"><name ref="Teobaldus">Teupaldo</name></persName>,
+                            <persName key="#Witness"><name ref="Willeradus"
+                            >Willerado</name></persName> del <persName>fu <name ref="Osprandus"
+                                >Osprando</name></persName>, <persName key="#Witness"><name
+                                ref="Allo">Alone</name></persName> del <persName>fu <name
+                                ref="Angelbertus">Angalperto</name></persName>.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>MDL, V/2, n. 1005, p. 621; ChLA 86, n. 49, pp. 152-153.</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>Sottoscrizioni autografe: il prete Giorgio, il prete Adalprando, il chierico
+                    Leone, Teuprando, Eriteo, Teupaldo.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

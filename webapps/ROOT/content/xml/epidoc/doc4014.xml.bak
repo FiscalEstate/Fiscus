@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    Diplomatico,*L.27</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc4014</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">--Promissio</rs>
+                                    <rs type="record_source" ref="#">Critical edition</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate notBefore="0724-06-01" notAfter="0724-10-31">
+                                <note type="displayed_date">724 [June-October]</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Lucca</note>
+                                <note type="redaction_date"/>
+                             </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-05-18" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab>+ In nomine domini Dei nostri Iesu Christi. Regnante domno nostro
+                        Liutprando viro excellentissimo rege, anno filicissimo regni eius tertio
+                        decimo, indictione octaba; feliciter. Constat me <persName key="#Bishops"
+                            ref="#people/313">Talesperianus</persName> vir beatissimus <rs
+                            key="#Bishops">episcopus</rs>, quia suggesset nobis vir venerabilis
+                            <persName key="#Priests"><name ref="Romaldus">Romuald</name></persName>
+                        <rs key="#Priests">presbiter</rs> et innotuet nobis, eo quod ante hos annus
+                        exisset de terra sua <placeName>partibus Transpadanis</placeName> una cum
+                        muliere sua, sibi peregrinando pro anima sua, et conlocasset in loco qui
+                        dicitor <placeName key="#Wine #Churches #Monasteries #Hospitals"
+                            ref="#places/431">Capannule</placeName>, in <rs key="#Monasteries"
+                            >monastirio</rs>
+                        <rs key="#Churches">ecclesie</rs> beati <orgName
+                            key="#Churches #Monasteries #Hospitals" ref="#juridical_persons/234"
+                            >Sancti Petri et Sancti Martini vel Sancti Quirici</orgName>; et dum
+                        ibidem in parvis substantiis habitasset, tunc cepet sibi ibidem conquisito
+                        facere, una cum presbiteria, <rs key="#Casae/cassinae_massaricie"
+                            >casella</rs> in officio <rs key="#Hospitals">ospitalis</rs>, et
+                        conquiset ibi terra <rs key="#Wine">vinea</rs> cum praetio suo; et petivet
+                        nos ut, pro Dei temore et fedilia servitia ipsius, quam in ipso sancto loco
+                        concurrere visus est, eum inibi in officio monastiriale confermari
+                        deberemus; quod et factum est, sic ita et in ea ratione ut, dum advivere
+                        merueris tu Romualde in ipso sancto loco, tam tu quam etiam et presbitera
+                        tua, quieti in ipso Sancto Petro et Martino et Quirico resedere debeatis, et
+                        nulla patiatis taxatione ab alio presbitero qui <rs
+                            key="#Baptismal_churches">plevem</rs> tenurit in suprascripto loco
+                            <placeName key="#Baptismal_churches" ref="#places/431"
+                            >Capannule</placeName>, in ecclesia <orgName key="#Baptismal_churches"
+                            ref="#juridical_persons/233">Sanctae Marie</orgName>. Sed volo adque
+                        decerno, ut ab hunc dies ipsa ecclesia in officio monastiriale semper
+                        maneat, et per festivitate sepedicti sancti Petri et sancti Martini uel
+                        sancti Quirici ad <rs key="#Mother_churches">ecclesiam</rs>
+                        <orgName key="#Mother_churches" ref="#juridical_persons/68">Sancti
+                            Martini</orgName> in episcopio luminaria vel quod Dominus condonaverit,
+                        salutem adducere debeas, tam tu quam uel quis post te ordinatus fueret et
+                        numquam nos uel posterus noster te de hanc dicto loco molestari praesumat;
+                        sed volo ut cunctis diebus quietus in ipso sancto loco resedire valeas. Quam
+                        beneficiis chartulam <persName key="#Writer #Notary"><name ref="Sicoinus"
+                                >Sicoin</name></persName>
+                        <rs key="#Notary">notario</rs> scribere iussimus, et nos subter signum
+                        sanctae cruci ficimus, et sacerdotibus tradedimus roborandum, sub
+                        stipulatione et sponsione sollemni interposita. Actum <placeName
+                            ref="#places/4">Luca</placeName>, die et regnum et indictione
+                        suprascripta; feliciter. + Ego Talesperianus eximius episcopus uhic cartule
+                        benefic facta in Romual presbitero consensi et iscripsi. + Ego <persName
+                            key="#Witness #Priests"><name ref="Sichimundus"
+                            >Sichimundus</name></persName> vir venerabilis <rs key="#Priests"
+                            >presbiter</rs> rogatus ad Romualtus vir venerabilis presbiter uthic
+                        cartule facta in Sancto Petro manus meis suscripsieri. Ego <persName
+                            key="#Witness #Priests"><name ref="Deusdedit">Deusdede</name></persName>
+                        <rs key="#Priests">presbiter</rs> huic cartula donationis facta in eclesia
+                        Sancti Petri manibus meis supscripsi. </ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>MDL V/2, n. 13; CDL I, n. 35; ChLA, XXX, 903.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                         <p>Nota dorsale (sec. VIII): + cartula de Sancto Petro de Capannule. Nota
+                    dorsale (sec. XI-XII): Ordinatio de ecclesia Sancti Petri de Capannule.
+                    Sottoscrizione autografa di Talesperiano vescovo.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>
