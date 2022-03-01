@@ -4,7 +4,7 @@
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
-                <title/>
+                <title>Lucca, Archivio di Stato, Diplomatico, Altopascio, 1156 novembre 11</title>
             </titleStmt>
             <editionStmt>
                 <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
@@ -29,10 +29,10 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="#"/>
-                            <rs type="record_source" ref="#"/>
-                            <rs type="document_tradition" ref="#"/>
-                            <rs type="fiscal_property"/>
+                            <rs type="text_type" ref="#">-Breve/memoratorium</rs>
+                            <rs type="record_source" ref="#">Original document</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property">No</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -40,10 +40,10 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate>
-                                <note type="displayed_date"/>
-                                <note type="dating_elements"/>
-                                <note type="topical_date"/>
+                            <origDate when="1156-11-11">
+                                <note type="displayed_date">1156 November 11</note>
+                                <note type="dating_elements">Stile dell'incarnazione</note>
+                                <note type="topical_date">Fucecchio (Firenze)</note>
                                 <note type="redaction_date"/>
                             </origDate>
                             <origPlace></origPlace>
@@ -72,7 +72,7 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2022-02-03" who="other">creation of record</change>
+                <change when="2022-02-28" who="agiacomelli">creation of record</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -81,30 +81,104 @@
             <div type="edition">
                 <div type="textpart">
                     <ab>(S) In Christi nomine notitia breve recordationis securitatis hac
-                        firmitatis, ad memoriam habendam vel retinendam qualiter p(…) in domo pontis
-                        Arni de Ficeclo, in presentia bonorum hominum quorum nomina supter leguntur,
-                        Guido dei gratia rector ospitalis Altepascii et Bernardus rector ospitalis
-                        molendini de Campo et Plebanus rector ospitalis de Rosaio unanimiter et (…)
-                        convenientes statuerunt et firmaverunt facere et conducere opus et
-                        exercitium pontis de Arno. Predictus Guido rector spitalis Altepascii
-                        promisit per se et per suos fratres agere et adiuvare et conducere predictam
-                        opus pontis de Arno pro habere et pro perenis de illo videlicet habere quod
-                        abetur vel quod in antea abebitur in propria domus ipsius pontis et
-                        prehabere proprie domus defecerit promi(…) per se et per suos fratres
-                        aliumde acquirere et insuper de bonis sui ospitalis, si opportunum fuerit,
-                        prestare in conscientia sex bonorum virium, videlicet de Ficekio Ugolino
-                        vicecomes et Perutio et Tolomeo et Mariscoto et Tedaldino et Guiterno,
-                        omnium vel maioris partis. Predicti duo rectores Bernardus et Plebanus
-                        promiserunt per se et per suos fratres dare adiutorium et consilium (sine)
-                        fraude in predicto opere pontis. Tunc illi tres rectores concorditer
-                        elegerunt  Bernardum fratrem videlicet ospitalis Altipascii rectorem et
-                        conductorem predicti operis in vita sua. Et ipse debet conducere receptum
-                        opus in vita sua sine fraude a dono (…) deo et partium. Postquam vero rector
-                        ospitalis Altepascii requisierit prestitum suum quod fecerit in predicto
-                        opere pontis. Alii duo rectores promiserunt reddere infra duos menses, et
-                        ipsum prestare et reddere et recipere debet esse in conscientia sex
-                        predictorum virorum vel maioris partis. Tali modo debet recipere rector
-                        ospitalis Altepascii prestitum suum, si fuerit in </ab>
+                        firmitatis, ad memoriam habendam vel retinendam qualiter p(…) in <orgName
+                            ref="#juridical_persons/3209" key="#Rivers #Bridges/pontoons">domo <rs
+                                key="#Bridges/pontoons">pontis</rs>
+                            <rs key="#Rivers">Arni</rs> de <placeName ref="#places/3200"
+                                key="#Rivers #Bridges/pontoons">Ficeclo</placeName></orgName>, in
+                        presentia <rs key="#Boni_viri/boni_homines">bonorum hominum</rs> quorum
+                        nomina supter leguntur, <persName><name ref="Wido">Guido</name></persName>
+                        dei gratia rector<orgName key="#Hospitals" ref="#juridical_persons/3206">
+                            <rs key="#Hospitals">ospitalis</rs>
+                            <placeName key="#Hospitals" ref="#places/3207"
+                            >Altepascii</placeName></orgName> et <persName><name ref="Bernardus"
+                                >Bernardus</name></persName> rector <orgName
+                            ref="#juridical_persons/3207" key="#Mills #Hospitals">ospitalis <rs
+                                key="#Mills">molendini</rs> de <placeName ref="#places/3217"
+                                key="#Mills #Hospitals">Campo</placeName></orgName> et
+                                <persName><name ref="Plebanus">Plebanus</name></persName> rector
+                            <orgName key="#Hospitals" ref="#juridical_persons/3203">ospitalis de
+                                <placeName key="#Hospitals" ref="#places/3215"
+                            >Rosaio</placeName></orgName> unanimiter et concorditer convenientes
+                        statuerunt et firmaverunt facere et conducere opus et exercitium pontis de
+                        Arno. Predictus Guido rector spitalis Altepascii promisit per se et per suos
+                        fratres agere et adiuvare et conducere predictam opus pontis de Arno pro
+                        habere et pro perenis de illo videlicet habere quod abetur vel quod in antea
+                        abebitur in propria domus ipsius pontis et prehabere proprie domus defecerit
+                        promi(…) per se et per suos fratres aliumde acquirere et insuper de bonis
+                        sui ospitalis, si opportunum fuerit, prestare in conscientia sex bonorum
+                        virium, videlicet de Ficekio <persName
+                            key="#Viscount #Boni_viri/boni_homines" ref="#people/3230"
+                            >Ugolino</persName>
+                        <rs key="#Viscount">vicecomes</rs> et <persName
+                            key="#Boni_viri/boni_homines"><name ref="Perutius"
+                            >Perutio</name></persName> et <persName key="#Boni_viri/boni_homines"
+                                ><name ref="Ptolemaeus">Tolomeo</name></persName> et <persName
+                            key="#Boni_viri/boni_homines"><name ref="Mariscotus"
+                            >Mariscoto</name></persName> et <persName key="#Boni_viri/boni_homines"
+                                ><name ref="Teobaldus">Tedaldino</name></persName> et <persName
+                            key="#Boni_viri/boni_homines"><name ref="Guiternus"
+                            >Guiterno</name></persName>, omnium vel maioris partis. Predicti duo
+                        rectores Bernardus et Plebanus promiserunt per se et per suos fratres dare
+                        adiutorium et consilium (sine) fraude in predicto opere pontis. Tunc illi
+                        tres rectores concorditer elegerunt Bernardum fratrem videlicet ospitalis
+                        Altipascii rectorem et conductorem predicti operis in vita sua. Et ipse
+                        debet conducere receptum opus in vita sua sine fraude a dono (…) deo et
+                        partium. Postquam vero rector ospitalis Altepascii requisierit prestitum
+                        suum quod fecerit in predicto opere pontis. Alii duo rectores promiserunt
+                        reddere infra duos menses, et ipsum prestare et reddere et recipere debet
+                        esse in conscientia sex predictorum virorum vel maioris partis. Tali modo
+                        debet recipere rector ospitalis Altepascii prestitum suum, si fuerit in
+                        propria domus pontis inventum, sine vendictione rerum eiusdem domus, inde
+                        debet recipere. Si autem ibi inventum non fuerit, alii duo rectores
+                        promiserunt se reddere de bonis suorum ospitalium secundum illas partes quas
+                        ipsi testaverunt se habere in predicto opere pontis vel in propria domus
+                        eiusdem pontis infra duo menses, postquam requisitus fuerit. In hac
+                        concordia et convenentia, duo <placeName ref="#places/4" key="#Consules"
+                            >Lucani</placeName>
+                        <rs key="#Consules">consules</rs>, <persName key="#Consules"><name
+                                ref="Rodelandus">Rolandus</name></persName> quondam <persName><name
+                                ref="Christoforus">Christofori</name></persName> et <persName
+                            key="#Consules"><name ref="Cecius">Cecius</name></persName> quondam
+                                <persName><name ref="Rogerius">Rugeri</name></persName>, pro se et
+                        pro omnibus aliis consulibus, intuitu et amore dei si(…)tatis concorditer
+                        fuerunt, congnoscentes et perscrutantes multis pernitiosum esse si tantum ac
+                        tale opus ad perfectionem non duceretur, et si perficeretur euntibus et
+                        redeuntibus, posteris et presentibus multum pro futurum. Tunc illi duo
+                        consules, pro se et pro omnibus aliis, predictam concordiam et convenientiam
+                        audientes et intellegentes, congnoscentes laudaverunt et sub tali pena
+                        firmaverunt quod, si rector ospitalis Altepascii ut supra dictum est non
+                        observaverit, postea sit extra opus et dominium pontis et domus eiusdem
+                        pontis et totius operis. Et si exinde fecerit aliquam querimoniam vel
+                        controversiam, sit copositurus (sic) penam argenti optimi libras centum ad
+                        opus romani pontificis et Lucani episcopi et consulum eiusdem civitatis. Et
+                        si aliquis de predictis duobus rectoribus adiuvare et conducere et
+                        consiliare et prestitum reddere negleserit, similiter deinde in antea sit
+                        extra totum opus et dominium pontis, et domus et omnium rerum ad eum
+                        pertinentium, et si exinde fecerit aliquam querimoniam vel controversiam sit
+                        compositurus ille qualiter fecerit penam argenti optimi libras quinquaginta
+                        ad easdem predictas potentes personas. Hoc factum est presentia
+                                <persName><name ref="Forestanus">Forestani</name></persName> quondam
+                                <persName><name ref="Gherardus">Gerardi</name></persName> et
+                        Guiterni quondam <persName><name ref="Raginaldus">Rainaldi</name></persName>
+                        et <persName><name ref="Hugolinus">Ugolini</name></persName> quondam
+                                <persName><name ref="Grassus">Grassi</name></persName> et Mariscoti
+                        quondam <persName><name ref="Iordanus">Iordani</name></persName> et
+                                <persName><name ref="Vecchio">Vetci</name></persName> quondam
+                                <persName><name ref="Quiricus">Cririci</name></persName> et
+                                <persName><name ref="Iothulnus">Iothulni</name></persName> quondam
+                                <persName><name ref="Rusticus">Rustici</name></persName> et Tolomei
+                        quondam <persName><name ref="Vivianus">Viviani</name></persName> et
+                                <persName><name ref="Hughicio">Uguicioni</name></persName>
+                        cambiatori et <persName><name ref="Gotefredus">Guottifredi</name></persName>
+                        quondam <persName><name ref="Brunus">Bruni</name></persName> et Peruti
+                        quondam <persName><name ref="Wido">Guidi</name></persName> et Ugolini
+                        vicecomitis quondam <persName ref="#people/3231">Rugeri</persName> et
+                        aliquorum multorum qui ibi aderant. Anno dominice incarnationis millesimo
+                        centesimo quinquagesimo sexto, tertio idus novembris, indictione quinta. (S)
+                            <persName key="#Writer #Notary"><name ref="Glandulfus"
+                            >Glandulfus</name></persName>
+                        <rs key="#Notary">notarius</rs> domni regis interfui hoc breve scripsi. </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
@@ -117,7 +191,7 @@
                 <p><ref>https://www.archiviodigitale.icar.beniculturali.it/it/185/ricerca/detail/536809</ref></p>
             </div>
             <div type="commentary">
-                <p/>
+                <p>Nota tergale più tarda: "Pro ponti de Fucecchio de Arno".</p>
             </div>
         </body>
     </text>

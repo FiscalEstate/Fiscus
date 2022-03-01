@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    +N.96</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc4100</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">--Offersio/donatio</rs>
+                                    <rs type="record_source" ref="#">Critical edition</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate notBefore="0765-07-01" notAfter="0765-07-31">
+                                <note type="displayed_date">765 July</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">S. Agata di Tempagnano</note>
+                                <note type="redaction_date"/>
+                             </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-06-20" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab><persName><name ref="Regnulus">Regnulo</name></persName> filio
+                        quondam <persName><name ref="Piculus">Piculi</name></persName>
+                        <foreign>si rivolge a</foreign> Deo et tibi <rs key="#Churches">eclesie</rs>
+                        <orgName key="#Churches" ref="#juridical_persons/247">beate Sancte
+                            Aghati</orgName>, ubi <persName key="#Priests"><name ref="Auripertus"
+                                >Auripert</name></persName>
+                        <rs key="#Priests">presbitero</rs> preesset videtur (…). <foreign>Dona alla
+                            chiesa</foreign> portionem mea de <rs key="#Landed_possessions">omnem
+                            res mea</rs>, quanta me conpetet de germano meo, (…) ubique in colivet
+                        locum avire videor (…); excepto <rs key="#Acorns">silva</rs> et <rs
+                            key="#Oil">olivito</rs> quem avire videor in loco vocavoli <placeName
+                            key="#Rivers #Oil #Acorns">ad <rs key="#Rivers">rivo</rs>
+                            Serre</placeName>, et <rs key="#Landed_possessions">terra</rs> qui avire
+                        videor in loco <placeName key="#Landed_possessions" ref="#places/335"
+                            >Macritula</placeName> (…). <foreign>Scrive</foreign>: <persName
+                            key="#Writer"><name ref="Radalbertus">Radalpert</name></persName>. (…)
+                        Actum ad ipsa <rs key="#Churches">eclesia</rs>
+                        <orgName key="#Churches" ref="#juridical_persons/247">Sancte
+                            Agathi</orgName>. <foreign>Sottoscrizioni</foreign>: + Regnuli; +
+                            <persName key="#Witness"><name ref="Garibaldus"
+                            >Garipald</name></persName> filio quondam <persName><name
+                                ref="Aricausus">Aricaus</name></persName> testis; + <persName
+                            key="#Witness"><name ref="Warimbertus">Warnipert</name></persName> filio
+                        quondam <persName><name ref="Arulfus">Ariolfi</name></persName> testis; +
+                            <persName key="#Witness"><name ref="Anspertus">Aspert</name></persName>
+                        filio <persName><name ref="Ursus">Orsi</name></persName> testis; + <persName
+                            key="#Witness"><name ref="Audulus">Auduli</name></persName> filio
+                        quondam <persName><name ref="Nandulinus">Nandulini</name></persName> testis;
+                        + <persName key="#Witness"><name ref="Filipertus">Filipert</name></persName>
+                        filio quondam <persName><name ref="Filimari">Filimari</name></persName>
+                        testis; (ss) <persName key="#Witness #Priests"><name ref="Teupertus"
+                                >Teuspert</name></persName>
+                        <rs key="#Priests">presbiter</rs>; (ss) <persName key="#Witness #Priests"
+                                ><name ref="Walateus">Walateu</name></persName>
+                        <rs key="#Priests">presbiter</rs>; (ss) <persName key="#Witness"><name
+                                ref="Teupertus">Teupertu</name></persName>. </ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>MDL IV/1, n. 62; reg. MDL V/2, n. 92; CDL II, 189, pp. 174-175; ChLA,
+                    XXXIV, 986.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                         <p>Persone: Desiderio re; Adelchis re; Regnulo (f. Piculi); Piculi (p.
+                    Regnulo); Auripert pbr; Radalpert; Gairipald (f. Aricuas); Aricuas (f.
+                    Gairipald); Vuarnipert (f. Ariolfi); Ariolfi (p. Vuarnipert); Aspert (f. Orsi);
+                    Orso (p. Aspert); Auduli (f. Nandulini); Nandulini (p. Auduli); Filipert (f.
+                    Filimari); Filimari (p. Filipert); Teuspert pbr; Vualateu pbr; Teutpertu.
+                    Luoghi: ad rivo Serre [cf. fl. Serre]; loco Macritula [= S. Vito]; eclesie
+                    Sancte Aghati [S. Agata di Tempagnano]. Chiese: eclesie beate Sancte Aghati [S.
+                    Agata di Tempagnano]. Cariche: . Note: . Indice: donazione. <foreign>Nota
+                        dorsale (sec. IX)</foreign>: Da Sancta Agate offersio. <foreign>Nota dorsale
+                        (sec. XII)</foreign>: Offersio in Sancta Agatha de casis et rebus. Serre
+                    (Compito) presso Capannori; S Vito (Lucca)</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

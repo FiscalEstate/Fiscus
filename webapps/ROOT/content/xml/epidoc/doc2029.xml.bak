@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Roma, Biblioteca Vaticana, Cod. Barb. lat. 2724, cc. 114v-115v
+                        (<foreign>Chronicon Vulturnense</foreign>, I, n. 66)</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc2029</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Commutatio</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property">Yes</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0849-11">
+                                <note type="displayed_date">849 November</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Salerno</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-07-15" who="gzornetta">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine Domini. Domnus <rs key="#Vir_gloriosus/vir_sublimis">vir
+                            gloriosissimus</rs>
+                        <persName key="#Princeps #Vir_gloriosus/vir_sublimis" ref="#people/351"
+                            >Sikenolfus</persName>, Dei providencia, Longobardorum gentis <rs
+                            key="#Princeps">princeps</rs>, <date>anno regni nostri, Deo propicio,
+                            decimo, mense novembrio, terciadecima indiccione</date>. Dum nostre
+                        eximie potestati congruum fuit vicariacionis ordine <rs
+                            key="#Fiscal_property #Textual_occurrence #Object #Inflow #Purchase"
+                            >accipere</rs> da <persName key="#Abbots" ref="#people/1912"
+                            >Iacobo</persName>, venerabile <rs key="#Abbots">abbate</rs>, rector <rs
+                            key="#Monasteries">monasterii</rs>
+                        <orgName key="#Monasteries #Abbots" ref="#juridical_persons/1900">Sancti
+                            Vincencii</orgName>, quod edificatum est super <rs key="#Rivers"
+                            >fluvio</rs>
+                        <placeName key="#Rivers" ref="#places/609">Vulturno</placeName>, rem eius
+                        monasterii, cum <rs key="#Curtes">curte</rs> et <rs
+                            key="#Casae/cassinae_massaricie">casis</rs>, seu <rs key="#Churches"
+                            >ecclesia</rs>, quas habent in locum qui dicitur <placeName
+                            key="#Curtes #Casae/cassinae_massaricie #Fiscal_property #Textual_occurrence #Object #Inflow #Purchase #Churches"
+                            ref="#places/2313">Tusciano</placeName>, <rs key="#Fines">finibus</rs>
+                        <geogName
+                            key="#Fines #Curtes #Casae/cassinae_massaricie #Churches #Fiscal_property #Textual_occurrence #Object #Inflow"
+                            ref="#estates/1903">Salernitanis</geogName>, qui in ipso monasterio
+                        datum fuit per<persName ref="#people/1907"> Truppoaldum</persName>
+                        <rs>episcopus</rs>, filius <persName><name ref="Andreas"
+                            >Andree</name></persName>, et daret eidem abbati eius monasterii
+                        habendam <rs key="#Landed_possessions">rem</rs>, que est propria nostra, in
+                        locum qui dicitur <placeName
+                            key="#Landed_possessions #Slave #Slave labour #Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Allocation_to_churches"
+                            ref="#places/2314">Ponte Lapideum</placeName>, finibus cum finis, qui
+                        nobis pertinuit de iure parentibus nostris. Dum cognitum est nobis ut, sine
+                        noticia de idoneos homines, non ipsum perficere valeremus, tunc <rs
+                            key="#Assembly">convocavimus</rs>
+                        <persName key="#Abbots" ref="#people/1908">Mauroaldum</persName>
+                        <rs key="#Abbots">abbatem</rs>, et <persName key="#Count" ref="#people/1909"
+                            >Truppoaldum</persName>, et <persName key="#Count" ref="#people/1910"
+                            >Maionem</persName>, seu <persName key="#Count" ref="#people/1911"
+                            >Radechis</persName>
+                        <rs key="#Count">comitibus</rs> nostris, et precepimus illis ut inter nos
+                        essent hec omnia adimplenda. Ipsi quoque direxerunt super rem illam doctos
+                        homines, et preceperunt illis ut, cum Dei timore, ipsa appreciarent, quam et
+                        cum ipsis perrexit <persName key="#Prevosts" ref="#people/1920 #people/1912"
+                            >Audoaldus</persName>, <rs key="#Prevosts">prepositus</rs> ipsius
+                        monasterii, cum quo illuc abierunt et ad nos reversi sunt. Narraverunt nobis
+                        ut rem illam, quas ego dare volebam, fuisset appreciata auri solidos mille
+                        quingentos absque <rs key="#Condomae">condomas</rs> duas cum filie sue, que
+                        inde sunt pertinentes, idest <persName
+                            key="#Condomae #Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Allocation_to_churches"
+                                ><name ref="Rodipertus">Rodipertus</name></persName> cum uxore sua,
+                        et tres filie sue; et <persName
+                            key="#Condomae #Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Allocation_to_churches"
+                                ><name ref="Domoaldus">Domoaldus</name></persName> cum uxore et una
+                        filia sua, quam et de ipsis rebus eorum dixerunt similiter monasterii ut per
+                        doctos homines fuisset appreciatum, idest auri solidos mille X. Dum taliter
+                        nobis nunciatum est, et eundem abbatem inde cognitum fecimus, placuit ei et
+                        eius congregacioni hanc fieri <rs key="#Commutatio">commutacionem</rs>.
+                        Tamen pro remelioranda causa ecclesie, sicut lex affirmat, relaxo ibidem rem
+                        ipsam, quod superfluum est balientem, et insuper adiungo ibi predictos
+                        servos et ancillas, que supra legitur. Sic ego nominatus Sykenolfus
+                        princeps, per hanc chartulam, trado tibi nominato Iacobi abbati integras
+                        ipsas res in supradicto loco, que habet fines: da capu fine via publica
+                        antiqua; de alio latu fine <rs key="#Rivers">flumen</rs>
+                        <placeName key="#Rivers" ref="#places/2315">Calore</placeName>; de alia
+                        parte fine <rs key="#Rivers">flumen</rs>
+                        <placeName key="#Rivers">Cotcia</placeName>, et coniungentes se ambo ipsa
+                        flumina insimul de clauso isto sicut fines positi sunt, scepto ad meam
+                        potestatem <persName
+                            key="#Slave #Slave labour #Fiscal_property #Textual_occurrence #Mention"
+                                ><name ref="Barunciulus">Barunculum</name></persName>
+                        <rs key="#Slave #Slave_labour">servum</rs> meum, cum uxore et due filie
+                        eius, et cum integro cespite, atque pertinencia eorum; de illo alio infra
+                        predictos fines integram sorcionem meam, eundem qui ad parentibus meis
+                        legibus a parcionariis eorum evenire debuit, totum in integrum, quomodo
+                        supra legitur, tibi qui supra Iacobi abbati, una cum ipsa remelioracione, et
+                        cum ipsis <rs key="#Slave #Slave_labour">servis et ancillis</rs>, sicut
+                        suprascriptum est, tradidi possidenda. Pro quibus recepi a te predictam rem
+                        vestram in Tusciano, sicut chartula continet, quam nobis exinde firmasti, ea
+                        racione, ut amodo et semper tu nominatus Iacobus abbas et posteri tui
+                        supradictam meam vicariacionem, una cum ipsa remelioracionem, habere et
+                        possidere valeatis, absque omni requisicione mea vel heredum meorum, de
+                        quibus me nominatum Sikenolfum principem obligo et heredes meos conligo tibi
+                        et ad posteros tuos, ut si aliquo tempore hanc commutacionem disrumpere
+                        voluerimus, ante omnia omni tempore vacui et taciti exinde maneamus, et a
+                        nostra parte semper firmiter illa habeatis, et insuper quinquemilia
+                        beneventanos solidos vobis aut ad posteros vestros nos componere obligamus.
+                        Si vero alter quicumque homo exinde causaverit, et per legem et iusticiam
+                        ipsos convincere potuerit, ante omnia secundum legem sacramenta inde
+                        persolvamus, ut nostro non fiat concludio, et insuper dare vobis nos
+                        obligamus ferquidam rem in codem loco, qualis ista nostra vicariacione in
+                        illa die paruerit. Et hanc chartulam tibi <persName><name key="#Notary"
+                                ref="Rageprandus">Rageprando</name></persName>
+                        <rs key="#Notary">notario</rs> nostro scribere precepimus. <date>Actum
+                                <placeName key="#Palatium" ref="#places/84">Salerno</placeName>, in
+                                <rs key="#Palatium">sacro palacio</rs></date>, feliciter.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>CV I, 66, pp. 316-318</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
