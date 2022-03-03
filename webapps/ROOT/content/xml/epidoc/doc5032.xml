@@ -34,7 +34,7 @@
                             <rs type="text_type" ref="#">--Offersio/donatio</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Original</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">No</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -76,6 +76,7 @@
         <revisionDesc>
             <listChange>
                 <change when="2021-11-04" who="bferretti">creation of record</change>
+                <change when="2022-03-03" who="bferretti">changes</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -91,32 +92,34 @@
                             ref="#juridical_persons/2001">Sancti Benedicti qui est constructum inter
                             Padum et Larionem</orgName>. Nos quidem in Dei nomine <persName
                             key="#Lombard #childOf #fidelisOf #Witness #Offersio/donatio #Landed_possessions #Cereals #Wine #Legumes #Hay/fodder"
-                            >Alberto</persName>
-                        <rs key="#childOf">filius</rs> quondam <persName key="#parentOf"
-                            >Maginfredi</persName> et <persName
+                                ><name ref="Albertus">Alberto</name></persName>
+                        <rs key="#childOf">filius</rs> quondam <persName key="#parentOf"><name
+                                ref="Maginfredus">Maginfredi</name></persName> et <persName
                             key="#Lombard #childOf #fidelisOf #Witness #Offersio/donatio #Landed_possessions #Cereals #Wine #Legumes #Hay/fodder"
-                            >Bonafemina</persName> filia quondam <persName key="#parentOf"
-                            >Erizoni</persName> et data licencia de <rs key="#dominus/seniorOf"
-                            >domina</rs> nostra <persName key="#dominus/seniorOf #Countess"
-                            ref="#people/292">Beatrix</persName>
+                                ><name ref="Bonafemmina">Bonafemina</name></persName> filia quondam
+                            <persName key="#parentOf"><name ref="Eritius">Erizoni</name></persName>
+                        et data licencia de <rs key="#dominus/seniorOf">domina</rs> nostra <persName
+                            key="#dominus/seniorOf #Countess" ref="#people/292">Beatrix</persName>
                         <rs key="#Countess">cometipsa</rs>, qui profesi sumus lege vivere <rs
                             key="#Lombard">Langobardorum</rs>, mihi qui supra Bonafemina
-                        consenciente <persName key="#Lombard #childOf #Witness">Sigefredo</persName>
-                        filio meo et subter confirmante, offersimus et donamus ipsius monesterio,
-                        perpetuis dicimus: Quisquis in sanctis ac in venerabilibus locis in suis
-                        aliquis contulerit rebus iusta auctoris vocem in hoc seculum centuplum
-                        centupluma et insuper quod melius est vitam posidebit etemam. Ideoque nos
-                        qui supra Alberto et Bonafemina donamus et offerimus a presenti die in eodem
-                        monesterio Sancti Benedicti et per presentem <rs key="#Offersio/donatio"
-                            >cartulam offersionis</rs> abendum confirmamus pro anime nostre et
-                                <persName><name ref="Maginfredus">Maginfredo</name></persName> et
-                                <persName><name ref="Gherardus">Girardo</name></persName> mecedem,
-                        idest omnibus <rs key="#Landed_possessions">rebus teritoriis</rs> iuris
-                        nostris positis in loco ubi dicitur <placeName>Fontana</placeName> et in
+                        consenciente <persName key="#Lombard #childOf #Witness"><name
+                                ref="Sigefredus">Sigefredo</name></persName> filio meo et subter
+                        confirmante, offersimus et donamus ipsius monesterio, perpetuis dicimus:
+                        Quisquis in sanctis ac in venerabilibus locis in suis aliquis contulerit
+                        rebus iusta auctoris vocem in hoc seculum centuplum centupluma et insuper
+                        quod melius est vitam posidebit etemam. Ideoque nos qui supra Alberto et
+                        Bonafemina donamus et offerimus a presenti die in eodem monesterio Sancti
+                        Benedicti et per presentem <rs key="#Offersio/donatio">cartulam
+                            offersionis</rs> abendum confirmamus pro anime nostre et <persName><name
+                                ref="Maginfredus">Maginfredo</name></persName> et <persName><name
+                                ref="Gherardus">Girardo</name></persName> mecedem, idest omnibus <rs
+                            key="#Landed_possessions">rebus teritoriis</rs> iuris nostris positis in
+                        loco ubi dicitur <placeName>Fontana</placeName> et in
                             <placeName>Casale</placeName> et prope <placeName>Canale</placeName> et
-                        fiunt r(ec)ta et laborata per <persName key="#childOf #siblingOf"><name
-                                ref="Albertus">Alberto</name></persName> et <persName
-                            key="#childOf #siblingOf"><name ref="Domninus">Donino</name></persName>
+                        fiunt <rs key="#Agricultural_workers">r(ec)ta et laborata</rs> per <persName
+                            key="#Agricultural_workers #childOf #siblingOf"><name ref="Albertus">Alberto</name></persName>
+                        et <persName key="#Agricultural_workers #childOf #siblingOf"><name ref="Domninus"
+                            >Donino</name></persName>
                         <rs key="#siblingOf">germanis</rs> filii quondam <persName key="#parentOf"
                                 ><name ref="Iohannes/Lungo">Iohannis qui vocatur
                             Lungo</name></persName>; et sunt inter <rs key="#Cereals">terris
@@ -141,17 +144,24 @@
                             duplum</rs> eodem offersio ut supra legitur a pars ipsius monesterio aut
                         cui pars ipsus monesterio dederit restituamus sicut pro tempore fuerit
                         melioratis aut valuerit sub estimacione in consimilibus locis. Hanc enim
-                        cartulam offersionis mee pagine <persName>Rustico</persName>
+                        cartulam offersionis mee pagine <persName><name ref="Rusticus"
+                                >Rustico</name></persName>
                         <rs key="#Writer #Notary">notarius</rs> Sacri Palacii tradidit et scribere
                         rogavi, in qua ic subter confirmans <rs key="#Witness">testibus</rs> qui
                         obtulit ad roborandam. Actum in <placeName ref="#places/2400">loco Sancti
                             Benedicti</placeName> feliciter. Signum ++ manibus suprascripto Alberto
                         et Bonafemina qui hanc cartulam offersionis ut supra fieri rogavimus et
                         suprascripto Sigefredo filio meo mihi qui supra Bonafemina consensi ut
-                        supra. Signum +++ manibus Ugo et Dominicus seu Iuliano lege Romana viventes
-                        rogati sunt testes. Signum ++++ manibus Martinus, Burro et Angelus seu
-                        Franco testes. (S.) Ego Rustico notarius Sacri Palacii rogatus subscripsi
-                        postradita conplevi et dedit. </ab>
+                        supra. Signum +++ manibus <persName><name ref="Hugo">Ugo</name></persName>
+                        et <persName><name ref="Dominicus">Dominicus</name></persName> seu
+                                <persName><name ref="Iulianus">Iuliano</name></persName> lege
+                            <rs>Romana</rs> viventes rogati sunt testes. Signum ++++ manibus
+                                <persName><name ref="Martinus">Martinus</name></persName>,
+                                <persName><name ref="Burrus">Burro</name></persName> et
+                                <persName><name ref="Angelus">Angelus</name></persName> seu
+                                <persName><name ref="Francus">Franco</name></persName> testes. (S.)
+                        Ego Rustico notarius Sacri Palacii rogatus subscripsi postradita conplevi et
+                        dedit. </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
