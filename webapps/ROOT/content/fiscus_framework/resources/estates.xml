@@ -84,6 +84,9 @@
                         <link type="people" corresp="#people/55" subtype="isOwnedBy"/>
                         <link type="people" corresp="#people/55" subtype="isGrantedBy"/>
                         <link type="people" corresp="#people/32" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/242" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/21" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/37" subtype="isConfirmedBy"/>
                 </place>
                 
                 <place>
@@ -106,6 +109,11 @@
                         <link type="people" corresp="#people/55" subtype="isOwnedBy"/>
                         <link type="people" corresp="#people/340" subtype="isManagedBy"/>
                         <link type="people" corresp="#people/32" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/267" subtype="isConfirmedBy"/>
+                        <link type="estates" corresp="#estates/193" subtype="isWithin"/>
+                        <link type="people" corresp="#people/242" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/21" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/37" subtype="isConfirmedBy"/>
                 </place>
                 
                 <place>
@@ -138,6 +146,8 @@
                             subtype="isGrantedTo"/>
                         <link type="people" corresp="#people/124" subtype="isConfirmedBy"/>
                         <link type="people" corresp="#people/55" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/21" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/37" subtype="isConfirmedBy"/>
                 </place>
                 
                 <place>
@@ -286,6 +296,8 @@
                         <link type="people" corresp="#people/124" subtype="isConfirmedBy"/>
                         <link type="people" corresp="#people/110" subtype="isGrantedBy"/>
                         <link type="people" corresp="#people/32" subtype="isConfirmedBy"/>
+                        <link type="estates" corresp="#estates/193" subtype="isWithin"/>
+                        <link type="people" corresp="#people/37" subtype="isConfirmedBy"/>
                 </place>
                 <place>
                     <geogName>Lucca; <foreign>curtis</foreign></geogName>
@@ -318,6 +330,8 @@
                         <link type="people" corresp="#people/124" subtype="isConfirmedBy"/>
                         <link type="people" corresp="#people/55" subtype="isGrantedBy"/>
                         <link type="estates" corresp="#estates/2000" subtype="isWithin"/>
+                        <link type="people" corresp="#people/21" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/37" subtype="isConfirmedBy"/>
                 </place>
                 <place>
                     <geogName>Settepolesini; <foreign>curtis</foreign></geogName>
@@ -605,10 +619,9 @@
                             <foreign>fundus</foreign> «al quattordicesimo miglio della via
                         Flaminia». Il luogo in cui esso doveva trovarsi corrisponde al km 21.600
                         della via Flaminia e cioè due km a nord di Malborghetto.</note>
-                    <link type="places" corresp="#places/136"
-                        subtype="link"/>
-                    <link type="people" corresp="#people/71" subtype="link"/>
-                    <link type="estates" corresp="#estates/103" subtype="isPartOf"/>
+                    <link type="places" corresp="#places/136" subtype="correspondsTo"/>
+                    <link type="people" corresp="#people/71" subtype="isOwnedBy"/>
+                    <link type="estates" corresp="#estates/103" subtype="dependsOn"/>
                 </place>
                 <place>
                     <geogName>Tuscia; <foreign>patrimonium</foreign></geogName>
@@ -660,18 +673,16 @@
                     <geogName type="other">Ninfa</geogName>
                     <idno>estates/108</idno>
                     <note/>
-                    <link type="people" corresp="#people/69" subtype="link"/>
-                    <link type="places" corresp="#places/137"
-                        subtype="link"/>
+                    <link type="people" corresp="#people/69" subtype="isGrantedTo"/>
+                    <link type="places" corresp="#places/137" subtype="correspondsTo"/>
                 </place>
                 <place>
                     <geogName><foreign>Normias</foreign>; <foreign>massa</foreign></geogName>
                     <geogName type="other">Norma</geogName>
                     <idno>estates/109</idno>
                     <note/>
-                    <link type="people" corresp="#people/69" subtype="link"/>
-                    <link type="places" corresp="#places/138"
-                        subtype="link"/>
+                    <link type="people" corresp="#people/69" subtype="isGrantedTo"/>
+                    <link type="places" corresp="#places/138" subtype="correspondsTo"/>
                 </place>
                 <place>
                     <geogName><foreign>Campum Miliacium</foreign>;
@@ -759,6 +770,9 @@
                         <link type="places" corresp="#places/1908" subtype="correspondsTo"/>
                         <link type="estates" corresp="#estates/111" subtype="dependsOn"/>
                         <link type="people" corresp="#people/32" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/21" subtype="isConfirmedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/53"
+                            subtype="isGrantedTo"/>
                 </place>
                 <place>
                     <geogName>Nogara; <foreign>castrum</foreign></geogName>
@@ -783,9 +797,8 @@
                     <geogName type="other"/>
                     <idno>estates/117</idno>
                     <note>Cfr. De Francesco 2004: 251-252 e Coste 1984: 773-774</note>
-                    <link type="people" corresp="#people/69" subtype="link"/>
-                    <link type="places" corresp="#places/159"
-                        subtype="link"/>
+                    <link type="people" corresp="#people/69" subtype="isGrantedTo"/>
+                    <link type="places" corresp="#places/159" subtype="correspondsTo"/>
                 </place>
                 <place>
                     <geogName>Quartodecimo; <foreign>domusculta</foreign></geogName>
@@ -795,19 +808,17 @@
                     <note>Sulla localizzazione di questa <foreign>domusculta</foreign> presso il
                         quattordicesimo miglio della via Flaminia cfr. De Francesco 2004: 219-223 e
                         252-253</note>
-                    <link type="places" corresp="#places/136"
-                        subtype="link"/>
-                    <link type="people" corresp="#people/69" subtype="link"/>
-                    <link type="estates" corresp="#estates/103" subtype="isPartOf"/>
+                    <link type="places" corresp="#places/136" subtype="correspondsTo"/>
+                    <link type="people" corresp="#people/69" subtype="isOwnedBy"/>
+                    <link type="estates" corresp="#estates/103" subtype="dependsOn"/>
                 </place>
                 <place>
                     <geogName>Lauretum; <foreign>domusculta</foreign></geogName>
                     <geogName type="other"/>
                     <idno>estates/119</idno>
                     <note/>
-                    <link type="people" corresp="#people/69" subtype="link"/>
-                    <link type="places" corresp="#places/160"
-                        subtype="link"/>
+                    <link type="people" corresp="#people/69" subtype="isOwnedBy"/>
+                    <link type="places" corresp="#places/160" subtype="correspondsTo"/>
                 </place>
                 <place>
                     <geogName><foreign>Fonteiana</foreign>; <foreign>massa</foreign></geogName>
@@ -818,14 +829,10 @@
                         (dove sorgeva il <foreign>fundus Fonteianus</foreign>) e l'attuale Pratica
                         di Mare. In ogni caso la <foreign>massa Fonteiana</foreign> doveva essere
                         adiacente alla <foreign>domusculta Lauretum</foreign>. </note>
-                    <link type="people" corresp="#people/69" subtype="link"/>
-                    <link type="places" corresp="#places/300" subtype="link"/>
-                    <link type="estates" corresp="#estates/224" subtype="isPartOf"/>
-                    <link type="people" corresp="#people/71" subtype="link"/>
-                    <link type="estates" corresp="#estates/237" subtype="isMadeOf"/>
-                    <link type="estates" corresp="#estates/238" subtype="isMadeOf"/>
-                    <link type="estates" corresp="#estates/308" subtype="isMadeOf"/>
-                    <link type="people" corresp="#people/71" subtype="link"/>
+                    <link type="people" corresp="#people/69" subtype="isOwnedBy"/>
+                    <link type="places" corresp="#places/300" subtype="correspondsTo"/>
+                    <link type="estates" corresp="#estates/224" subtype="dependsOn"/>
+                    <link type="people" corresp="#people/71" subtype="isOwnedBy"/>
                 </place>             
                 <place>
                     <geogName>Tora; <foreign>curtis</foreign></geogName>
@@ -853,6 +860,7 @@
                     <link type="people" corresp="#people/114" subtype="isManagedBy"/>
                     <link type="people" corresp="#people/170" subtype="isManagedBy"/>
                     <link type="people" corresp="#people/1821" subtype="isManagedBy"/>
+                    <link type="people" corresp="#people/2436" subtype="isManagedBy"/>
                 </place>
                 <place>
                     <geogName><foreign>Grottole</foreign>; curtis</geogName>
@@ -1089,6 +1097,8 @@
                     <link type="people" corresp="#people/309" subtype="isConfirmedTo"/>
                     <link type="people" corresp="#people/396" subtype="isGrantedBy"/>
                         <link type="places" corresp="#places/2795" subtype="hasWithin"/>
+                    <link type="people" corresp="#people/2457" subtype="isManagedBy"/>
+                    <link type="people" corresp="#people/2458" subtype="isManagedBy"/>
                 </place>
                 <place>
                     <geogName>Lomello; <foreign>comitatus</foreign></geogName>
@@ -1261,7 +1271,8 @@
                     <geogName type="other">Anzio</geogName>
                     <idno>estates/157</idno>
                     <note/>
-                    <link type="places" corresp="#places/301" subtype="link"/>
+                    <link type="places" corresp="#places/301" subtype="correspondsTo"/>
+                        <link type="people" corresp="#people/69" subtype="isOwnedBy"/>
                 </place>
                 <place>
                     <geogName><foreign>Formias</foreign>; <foreign>massa</foreign></geogName>
@@ -1270,8 +1281,8 @@
                     <note>Cfr. De Francesco 2004: 255: piuttosto che a Formia presso Gaeta, questa
                         massa doveva trovarsi presso S. Pietro in Formis. Comprendeva le campagne di
                         Campotorto, Carano e Torre del Padiglione. </note>
-                    <link type="people" corresp="#people/69" subtype="link"/>
-                    <link type="places" corresp="#places/302" subtype="link"/>
+                    <link type="people" corresp="#people/69" subtype="isOwnedBy"/>
+                    <link type="places" corresp="#places/302" subtype="correspondsTo"/>
                 </place>
                 <place>
                     <geogName>Curtis Regis; <foreign>curtis</foreign> (Firenze)</geogName>
@@ -1342,7 +1353,8 @@
                         non v'è certezza; doveva comprendere terreni dislocati tra Veio e Nepi con
                         centri amministrativi importanti in Santa Cornelia e Mola di Monte
                         Gelato.</note>
-                    <link type="people" corresp="#people/222" subtype="link"/>
+                    <link type="people" corresp="#people/222" subtype="isOwnedBy"/>
+                        <link type="places" corresp="#places/352" subtype="correspondsTo"/>
                 </place>
                 <place>
                     <geogName><foreign>Galeria Aurelia</foreign>;
@@ -1351,7 +1363,8 @@
                     <idno>estates/166</idno>
                     <note>De Francesco 2004: 260-269. La sua estensione è ipotizzabile tra la
                         Trionfale, l'Aurelia, la Cornelia e S. Maria di Galeria-Celsano a Nord. </note>
-                    <link type="people" corresp="#people/222" subtype="link"/>
+                    <link type="people" corresp="#people/222" subtype="isOwnedBy"/>
+                        <link type="places" corresp="#places/368" subtype="correspondsTo"/>
                 </place>
                 <place>
                     <geogName><foreign>Galeria Portuensis</foreign>;
@@ -1359,7 +1372,8 @@
                     <geogName type="other"/>
                     <idno>estates/167</idno>
                     <note>De Francesco 2004: 260-269</note>
-                    <link type="people" corresp="#people/222" subtype="link"/>
+                    <link type="people" corresp="#people/222" subtype="isOwnedBy"/>
+                        <link type="places" corresp="#places/370" subtype="correspondsTo"/>
                 </place>
                 <place>
                     <geogName><foreign>Calvisianum</foreign>;
@@ -1367,14 +1381,16 @@
                     <geogName type="other"/>
                     <idno>estates/168</idno>
                     <note>De Francesco 2004: 269-273</note>
-                    <link type="people" corresp="#people/222" subtype="link"/>
+                    <link type="people" corresp="#people/222" subtype="isOwnedBy"/>
+                        <link type="places" corresp="#places/168" subtype="correspondsTo"/>
                 </place>
                 <place>
                     <geogName><foreign>Aratiana</foreign>; <foreign>massa</foreign></geogName>
                     <geogName type="other"/>
                     <idno>estates/169</idno>
                     <note>De Francesco 2004: 272</note>
-                    <link type="people" corresp="#people/222" subtype="link"/>
+                    <link type="people" corresp="#people/222" subtype="isOwnedBy"/>
+                        <link type="places" corresp="#places/371" subtype="correspondsTo"/>
                 </place>
                 <place>
                     <geogName><foreign>Acutiana</foreign>; <foreign>massa</foreign></geogName>
@@ -1608,6 +1624,8 @@
                     <link type="juridical_persons" subtype="isGrantedTo"
                             corresp="#juridical_persons/53"/>
                         <link type="people" corresp="#people/55" subtype="isGrantedBy"/>
+                        <link type="estates" corresp="#estates/193" subtype="isWithin"/>
+                        <link type="people" corresp="#people/242" subtype="isConfirmedBy"/>
                 </place>
                 <place>
                     <geogName><foreign>Quadradula</foreign>; <foreign>curtis</foreign></geogName>
@@ -1771,6 +1789,7 @@
                         <link type="people" corresp="#people/124" subtype="isConfirmedBy"/>
                         <link type="people" corresp="#people/110" subtype="isGrantedBy"/>
                         <link type="people" corresp="#people/55" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/21" subtype="isConfirmedBy"/>
                 </place>
                 <place>
                     <geogName>Modena; <foreign>comitatus</foreign></geogName>
@@ -2814,13 +2833,14 @@
                     <link type="juridical_persons" corresp="#juridical_persons/30" subtype="link"/>
                 </place>
                 <place>
-                    <geogName><foreign>Casa Gentiana</foreign>; <foreign>curtis</foreign></geogName>
+                    <geogName><foreign>Casa Gentiana</foreign>; gualdus et curtis</geogName>
                     <geogName type="other">Casa Genziana</geogName>
                     <idno>estates/314</idno>
                     <note/>
                     <link type="people" corresp="#people/167" subtype="isConfirmedBy"/>
-                    <link type="juridical_persons" corresp="#juridical_persons/84" subtype="isConfirmedTo"/>
-                    <link type="people" corresp="#people/156" subtype="link"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/84" subtype="dependsOn"/>
+                    <link type="people" corresp="#people/156" subtype="isGrantedBy"/>
+                    <link type="people" corresp="#people/309" subtype="isGrantedTo"/>
                     <link type="people" corresp="#people/398" subtype="isConfirmedBy"/>
                     <link type="people" corresp="#people/397" subtype="isConfirmedBy"/>
                     <link type="people" corresp="#people/401" subtype="isConfirmedTo"/>
@@ -4791,6 +4811,48 @@
                         <link type="estates" corresp="#estates/2000" subtype="isWithin"/>
                         <link type="people" corresp="#people/2169" subtype="isOwnedBy"/>
                     </place>
+                    <place>
+                        <geogName>Brescia; <foreign>episcopatus</foreign></geogName>
+                        <geogName type="other"/>
+                        <idno>estates/2069</idno>
+                        <note/>
+                    </place>
+                    <place>
+                        <geogName>Ferrara; <foreign>episcopatus</foreign></geogName>
+                        <geogName type="other"/>
+                        <idno>estates/2070</idno>
+                        <note/>
+                    </place>
+                    <place>
+                        <geogName>Bologna; <foreign>episcopatus</foreign></geogName>
+                        <geogName type="other"/>
+                        <idno>estates/2071</idno>
+                        <note/>
+                    </place>
+                    <place>
+                        <geogName>Parma; <foreign>episcopatus</foreign></geogName>
+                        <geogName type="other"/>
+                        <idno>estates/2072</idno>
+                        <note/>
+                    </place>
+                    <place>
+                        <geogName>Malamocco; <foreign>episcopatus</foreign></geogName>
+                        <geogName type="other"/>
+                        <idno>estates/2073</idno>
+                        <note/>
+                    </place>
+                    <place>
+                        <geogName>Treviso; <foreign>episcopatus</foreign></geogName>
+                        <geogName type="other"/>
+                        <idno>estates/2074</idno>
+                        <note/>
+                    </place>
+                    <place>
+                        <geogName>Lucca; <foreign>episcopatus</foreign></geogName>
+                        <geogName type="other"/>
+                        <idno>estates/2075</idno>
+                        <note/>
+                    </place>
                 </listPlace>
                 <listPlace n="Giacomelli Alessandro">
                     <place>
@@ -5622,13 +5684,14 @@
                         <geogName type="other">Flavis</geogName>
                         <idno>estates/877</idno>
                         <note>De Francesco 2004: 240, 290. </note>
-                        <link type="people" corresp="#people/71" subtype="link"/>
+                        <link type="people" corresp="#people/71" subtype="isOwnedBy"/>
                     </place>
                     <place>
                         <geogName>Horrea; <foreign>fundus</foreign></geogName>
                         <geogName type="other"/>
                         <idno>estates/878</idno>
                         <note>De Francesco 2004: 240, 290.</note>
+                        <link type="people" corresp="#people/71" subtype="isOwnedBy"/>
                     </place>
                     <place>
                         <geogName>Aunias; <foreign>fundus</foreign></geogName>
@@ -5661,8 +5724,8 @@
                             Pelagiana, situato presso Anagni (<foreign>Massa Pelagiana: olivetum in
                                 fundo Casa Mutis iuxta Anagnias</foreign>). È dunque probabile che i
                             fondi incorporati in questa massa si trovassero nei pressi della città. </note>
-                        <link type="people" corresp="#people/69" subtype="link"/>
-                        <link type="estates" corresp="#estates/192" subtype="isPartOf"/>
+                        <link type="people" corresp="#people/69" subtype="isOwnedBy"/>
+                        <link type="estates" corresp="#estates/192" subtype="dependsOn"/>
                     </place>
                     <place>
                         <geogName>Gallis; <foreign>massa</foreign></geogName>
@@ -5682,8 +5745,8 @@
                                 Gabinense</foreign> è già attestata tra le donazioni di Costantino
                             al battistero lateranense, testimoniate dal <foreign>Liber Pontificalis
                             </foreign> (ed. Duchesne, vol. I, p. 174). </note>
-                        <link type="people" corresp="#people/69" subtype="link"/>
-                        <link type="estates" corresp="#estates/192" subtype="isPartOf"/>
+                        <link type="people" corresp="#people/69" subtype="isOwnedBy"/>
+                        <link type="estates" corresp="#estates/192" subtype="dependsOn"/>
                     </place>
                     <place>
                         <geogName>Barbulianus;
@@ -5691,48 +5754,48 @@
                         <geogName type="other">Sentianus</geogName>
                         <idno>estates/883</idno>
                         <note>De Francesco 2004: 232-236.</note>
-                        <link type="people" corresp="#people/69" subtype="link"/>
-                        <link type="estates" corresp="#estates/192" subtype="isPartOf"/>
+                        <link type="people" corresp="#people/69" subtype="isOwnedBy"/>
+                        <link type="estates" corresp="#estates/192" subtype="dependsOn"/>
                     </place>
                     <place>
                         <geogName>Lucretianus; <foreign>fundus</foreign></geogName>
                         <geogName type="other">Musta</geogName>
                         <idno>estates/884</idno>
                         <note>De Francesco 2004: 232-236.</note>
-                        <link type="people" corresp="#people/69" subtype="link"/>
-                        <link type="estates" corresp="#estates/192" subtype="isPartOf"/>
+                        <link type="people" corresp="#people/69" subtype="isOwnedBy"/>
+                        <link type="estates" corresp="#estates/192" subtype="dependsOn"/>
                     </place>
                     <place>
                         <geogName>Lampadiorum; <foreign>fundus</foreign></geogName>
                         <geogName type="other">Furnellus</geogName>
                         <idno>estates/885</idno>
                         <note>De Francesco 2004: 232-236.</note>
-                        <link type="people" corresp="#people/69" subtype="link"/>
-                        <link type="estates" corresp="#estates/192" subtype="isPartOf"/>
+                        <link type="people" corresp="#people/69" subtype="isOwnedBy"/>
+                        <link type="estates" corresp="#estates/192" subtype="dependsOn"/>
                     </place>
                     <place>
                         <geogName>Flavianus; <foreign>fundus</foreign></geogName>
                         <geogName type="other">Casamonachorum</geogName>
                         <idno>estates/886</idno>
                         <note>De Francesco 2004: 232-236.</note>
-                        <link type="people" corresp="#people/69" subtype="link"/>
-                        <link type="estates" corresp="#estates/192" subtype="isPartOf"/>
+                        <link type="people" corresp="#people/69" subtype="isOwnedBy"/>
+                        <link type="estates" corresp="#estates/192" subtype="dependsOn"/>
                     </place>
                     <place>
                         <geogName>Mediana; <foreign>fundus</foreign></geogName>
                         <geogName type="other"/>
                         <idno>estates/887</idno>
                         <note>De Francesco 2004: 232-236.</note>
-                        <link type="people" corresp="#people/69" subtype="link"/>
-                        <link type="estates" corresp="#estates/192" subtype="isPartOf"/>
+                        <link type="people" corresp="#people/69" subtype="isOwnedBy"/>
+                        <link type="estates" corresp="#estates/192" subtype="dependsOn"/>
                     </place>
                     <place>
                         <geogName>Formicis; <foreign>fundus</foreign></geogName>
                         <geogName type="other"/>
                         <idno>estates/888</idno>
                         <note>De Francesco 2004: 232-236.</note>
-                        <link type="people" corresp="#people/69" subtype="link"/>
-                        <link type="estates" corresp="#estates/192" subtype="isPartOf"/>
+                        <link type="people" corresp="#people/69" subtype="isOwnedBy"/>
+                        <link type="estates" corresp="#estates/192" subtype="dependsOn"/>
                     </place>
                     <place>
                         <geogName>Aurefilis; <foreign>fundus</foreign></geogName>
@@ -5747,24 +5810,24 @@
                         <geogName type="other"/>
                         <idno>estates/890</idno>
                         <note>De Francesco 2004: 232-236.</note>
-                        <link type="people" corresp="#people/69" subtype="link"/>
-                        <link type="estates" corresp="#estates/192" subtype="isPartOf"/>
+                        <link type="people" corresp="#people/69" subtype="isOwnedBy"/>
+                        <link type="estates" corresp="#estates/192" subtype="dependsOn"/>
                     </place>
                     <place>
                         <geogName>Gabiis; <foreign>fundus</foreign></geogName>
                         <geogName type="other"/>
                         <idno>estates/891</idno>
                         <note>De Francesco 2004: 232-236.</note>
-                        <link type="people" corresp="#people/69" subtype="link"/>
-                        <link type="estates" corresp="#estates/192" subtype="isPartOf"/>
+                        <link type="people" corresp="#people/69" subtype="isOwnedBy"/>
+                        <link type="estates" corresp="#estates/192" subtype="dependsOn"/>
                     </place>
                     <place>
                         <geogName>Metiorum; <foreign>fundus</foreign></geogName>
                         <geogName type="other"/>
                         <idno>estates/892</idno>
                         <note>De Francesco 2004: 232-236.</note>
-                        <link type="people" corresp="#people/69" subtype="link"/>
-                        <link type="estates" corresp="#estates/192" subtype="isPartOf"/>
+                        <link type="people" corresp="#people/69" subtype="isOwnedBy"/>
+                        <link type="estates" corresp="#estates/192" subtype="dependsOn"/>
                     </place>
                     <place>
                         <geogName>Sororum; <foreign>fundus</foreign></geogName>
@@ -5775,7 +5838,7 @@
                             che il fondo appartenesse al patrimonio Labicano. Al XIV miglio della
                             via Labicana è comunque attestata nel Martirologio Geronimiano
                             l'esistenza di un santuario di S. Giacinto. </note>
-                        <link type="people" corresp="#people/69" subtype="link"/>
+                        <link type="people" corresp="#people/69" subtype="isOwnedBy"/>
                     </place>
                     <place>
                         <geogName>Virorum; <foreign>fundus</foreign></geogName>
@@ -5786,24 +5849,23 @@
                             che il fondo appartenesse al patrimonio Labicano. Al XIV miglio della
                             via Labicana è comunque attestata nel Martirologio Geronimiano
                             l'esistenza di un santuario di S. Giacinto. </note>
-                        <link type="people" corresp="#people/69" subtype="link"/>
+                        <link type="people" corresp="#people/69" subtype="isOwnedBy"/>
                     </place>
                     <place>
                         <geogName>Appiana; <foreign>massa</foreign></geogName>
                         <geogName type="other"/>
                         <idno>estates/895</idno>
                         <note>De Francesco 2004: 238. </note>
-                        <link type="people" corresp="#people/69" subtype="link"/>
-                        <link type="estates" corresp="#estates/192" subtype="isPartOf"/>
-                        <link type="estates" corresp="#estates/896" subtype="isMadeOf"/>
+                        <link type="people" corresp="#people/69" subtype="isOwnedBy"/>
+                        <link type="estates" corresp="#estates/192" subtype="dependsOn"/>
                     </place>
                     <place>
                         <geogName>Familicanus; <foreign>fundus</foreign></geogName>
                         <geogName type="other"/>
                         <idno>estates/896</idno>
                         <note/>
-                        <link type="people" corresp="#people/69" subtype="link"/>
-                        <link type="estates" corresp="#estates/895" subtype="isPartOf"/>
+                        <link type="people" corresp="#people/69" subtype="isOwnedBy"/>
+                        <link type="estates" corresp="#estates/895" subtype="dependsOn"/>
                     </place>
                     <place>
                         <geogName>Intromurana; <foreign>massa</foreign></geogName>
@@ -5811,11 +5873,8 @@
                                 et Iubentiana</foreign></geogName>
                         <idno>estates/897</idno>
                         <note>De Francesco 2004: 110, 225 e <foreign>passim</foreign>.</note>
-                        <link type="people" corresp="#people/69" subtype="link"/>
-                        <link type="estates" corresp="#estates/281" subtype="isPartOf"/>
-                        <link type="estates" corresp="#estates/898" subtype="isMadeOf"/>
-                        <link type="estates" corresp="#estates/899" subtype="isMadeOf"/>
-                        <link type="estates" corresp="#estates/900" subtype="isMadeOf"/>
+                        <link type="people" corresp="#people/69" subtype="isOwnedBy"/>
+                        <link type="estates" corresp="#estates/281" subtype="dependsOn"/>
                     </place>
                     <place>
                         <geogName>Ananvilas; <foreign>fundus</foreign></geogName>
@@ -5824,8 +5883,9 @@
                         <note>De Francesco 2004: 110, 225 e <foreign>passim</foreign>. La
                             somiglianza con il termine <foreign>villa</foreign> fa pensare che
                             questo fondo si trovasse nei pressi di villa Adriana. </note>
-                        <link type="people" corresp="#people/69" subtype="link"/>
-                        <link type="estates" corresp="#estates/897" subtype="isPartOf"/>
+                        <link type="people" corresp="#people/69" subtype="isOwnedBy"/>
+                        <link type="estates" corresp="#estates/897" subtype="dependsOn"/>
+                        <link type="places" corresp="#places/1211" subtype="bordersOn"/>
                     </place>
                     <place>
                         <geogName>Cucunulis</geogName>
@@ -5835,16 +5895,18 @@
                             consente con buona probabilità di localizzare questa unità patrimoniale
                             presso l'attuale Corcolle. Nei regesti di Deusdedit è considerato
                             «appendice» del fondo «Ananvilas». </note>
-                        <link type="people" corresp="#people/69" subtype="link"/>
-                        <link type="estates" corresp="#estates/897" subtype="isPartOf"/>
+                        <link type="people" corresp="#people/69" subtype="isOwnedBy"/>
+                        <link type="estates" corresp="#estates/897" subtype="dependsOn"/>
+                        <link type="places" corresp="#places/1210" subtype="correspondsTo"/>
                     </place>
                     <place>
                         <geogName>Tabernale</geogName>
                         <geogName type="other"/>
                         <idno>estates/900</idno>
                         <note>De Francesco 2004: 110, 225 e <foreign>passim</foreign>.</note>
-                        <link type="people" corresp="#people/69" subtype="link"/>
-                        <link type="estates" corresp="#estates/897" subtype="isPartOf"/>
+                        <link type="people" corresp="#people/69" subtype="isOwnedBy"/>
+                        <link type="estates" corresp="#estates/897" subtype="dependsOn"/>
+                        <link type="places" corresp="#places/1209" subtype="isWithin"/>
                     </place>
                     <place>
                         <geogName><foreign>Caietanum</foreign>;
@@ -5898,61 +5960,56 @@
                             abbia omesso il termine <foreign>massa</foreign> presente
                             nell'antigrafo. Da notare la derivazione del toponimo dal greco
                                 <foreign>thalassa</foreign>, «mare».</note>
-                        <link type="people" corresp="#people/69" subtype="link"/>
-                        <link type="estates" corresp="#estates/907" subtype="isMadeOf"/>
-                        <link type="estates" corresp="#estates/908" subtype="isMadeOf"/>
-                        <link type="estates" corresp="#estates/909" subtype="isMadeOf"/>
-                        <link type="estates" corresp="#estates/910" subtype="isMadeOf"/>
-                        <link type="estates" corresp="#estates/901" subtype="isPartOf"/>
+                        <link type="people" corresp="#people/69" subtype="isOwnedBy"/>
+                        <link type="estates" corresp="#estates/901" subtype="dependsOn"/>
                     </place>
                     <place>
                         <geogName>Casula; <foreign>casale</foreign></geogName>
                         <geogName type="other"/>
                         <idno>estates/907</idno>
                         <note/>
-                        <link type="people" corresp="#people/69" subtype="link"/>
-                        <link type="estates" corresp="#estates/906" subtype="isPartOf"/>
+                        <link type="people" corresp="#people/69" subtype="isOwnedBy"/>
+                        <link type="estates" corresp="#estates/906" subtype="dependsOn"/>
                     </place>
                     <place>
                         <geogName>Testianum; <foreign>casale</foreign></geogName>
                         <geogName type="other"/>
                         <idno>estates/908</idno>
                         <note/>
-                        <link type="people" corresp="#people/69" subtype="link"/>
-                        <link type="estates" corresp="#estates/906" subtype="isPartOf"/>
+                        <link type="people" corresp="#people/69" subtype="isOwnedBy"/>
+                        <link type="estates" corresp="#estates/906" subtype="dependsOn"/>
                     </place>
                     <place>
                         <geogName>Teganellus; <foreign>fundus</foreign></geogName>
                         <geogName type="other"/>
                         <idno>estates/909</idno>
                         <note/>
-                        <link type="people" corresp="#people/69" subtype="link"/>
-                        <link type="estates" corresp="#estates/906" subtype="isPartOf"/>
+                        <link type="people" corresp="#people/69" subtype="isOwnedBy"/>
+                        <link type="estates" corresp="#estates/906" subtype="dependsOn"/>
                     </place>
                     <place>
                         <geogName>Quadrantula; <foreign>fundus</foreign></geogName>
                         <geogName type="other"/>
                         <idno>estates/910</idno>
                         <note/>
-                        <link type="people" corresp="#people/69" subtype="link"/>
-                        <link type="estates" corresp="#estates/906" subtype="isPartOf"/>
+                        <link type="people" corresp="#people/69" subtype="isOwnedBy"/>
+                        <link type="estates" corresp="#estates/906" subtype="dependsOn"/>
                     </place>
                     <place>
                         <geogName>Pirana; <foreign>massa</foreign></geogName>
                         <geogName type="other"/>
                         <idno>estates/911</idno>
                         <note/>
-                        <link type="people" corresp="#people/69" subtype="link"/>
-                        <link type="estates" corresp="#estates/901" subtype="isPartOf"/>
-                        <link type="estates" corresp="#estates/912" subtype="isMadeOf"/>
+                        <link type="people" corresp="#people/69" subtype="isOwnedBy"/>
+                        <link type="estates" corresp="#estates/901" subtype="dependsOn"/>
                     </place>
                     <place>
                         <geogName>Amphiteanorum; <foreign>fundus</foreign></geogName>
                         <geogName type="other"/>
                         <idno>estates/912</idno>
                         <note/>
-                        <link type="people" corresp="#people/69" subtype="link"/>
-                        <link type="estates" corresp="#estates/911" subtype="isPartOf"/>
+                        <link type="people" corresp="#people/69" subtype="isOwnedBy"/>
+                        <link type="estates" corresp="#estates/911" subtype="dependsOn"/>
                     </place>
                     <place>
                         <geogName>Citrasensis; <foreign>massa</foreign></geogName>
@@ -5962,6 +6019,26 @@
                         <link type="people" corresp="#people/71" subtype="isOwnedBy"/>
                         <link type="estates" corresp="#estates/901" subtype="dependsOn"/>
                         <link type="places" corresp="#places/2342" subtype="proximity"/>
+                    </place>
+                    <place>
+                        <geogName>Porta Sancti Valentini</geogName>
+                        <geogName type="other">Porta Flaminia</geogName>
+                        <idno>estates/913</idno>
+                        <note/>
+                        <link type="people" corresp="#people/70" subtype="isGrantedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1222"
+                            subtype="isGrantedTo"/>
+                        <link type="places" corresp="#places/305" subtype="correspondsTo"/>
+                    </place>
+                    <place>
+                        <geogName>Pons Milvius</geogName>
+                        <geogName type="other">Ponte Milvio</geogName>
+                        <idno>estates/914</idno>
+                        <note/>
+                        <link type="people" corresp="#people/70" subtype="isOwnedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1222"
+                            subtype="isGrantedTo"/>
+                        <link type="places" corresp="#places/304" subtype="correspondsTo"/>
                     </place>
                 </listPlace>
                 <listPlace n="Lazzari Tiziana">
@@ -9548,9 +9625,130 @@
                         <note/>
                     </place>
                     <place>
-                        <geogName>da inserire</geogName>
+                        <geogName>Sanctus Colombanus; curtis</geogName>
                         <geogName type="other"/>
                         <idno>estates/1927</idno>
+                        <note/>
+                        <link type="estates" corresp="#estates/1905" subtype="isWithin"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/97"
+                            subtype="dependsOn"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/2315"
+                            subtype="dependsOn"/>
+                        <link type="places" corresp="#places/2841" subtype="correspondsTo"/>
+                    </place>
+                    <place>
+                        <geogName>Sanctus Archangelus; curtis</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/1933</idno>
+                        <note/>
+                        <link type="estates" corresp="#estates/1905" subtype="isWithin"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/97"
+                            subtype="dependsOn"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/2315"
+                            subtype="dependsOn"/>
+                        <link type="places" corresp="#places/2840" subtype="correspondsTo"/>
+                    </place>
+                    <place>
+                        <geogName>Sipicciano; curtis</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/1934</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/97"
+                            subtype="dependsOn"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/2315"
+                            subtype="dependsOn"/>
+                        <link type="places" corresp="#places/2838" subtype="correspondsTo"/>
+                    </place>
+                    <place>
+                        <geogName>Ailano; curtis</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/1935</idno>
+                        <note/>
+                        <link type="estates" corresp="#estates/1905" subtype="isWithin"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/97"
+                            subtype="dependsOn"/>
+                        <link type="places" corresp="#places/2839" subtype="correspondsTo"/>
+                    </place>
+                    <place>
+                        <geogName>Airano; curtis</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/1936</idno>
+                        <note/>
+                        <link type="estates" corresp="#estates/1905" subtype="isWithin"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/97"
+                            subtype="dependsOn"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/2315"
+                            subtype="dependsOn"/>
+                        <link type="places" corresp="#places/177" subtype="proximityTo"/>
+                        <link type="places" corresp="#places/112" subtype="proximityTo"/>
+                    </place>
+                    <place>
+                        <geogName>Carinola; comitatus</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/1937</idno>
+                        <note/>
+                    </place>
+                    <place>
+                        <geogName>Calvi; comitatus</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/1938</idno>
+                        <note/>
+                        <link type="people" corresp="#people/2439" subtype="isManagedBy"/>
+                        <link type="people" corresp="#people/2440" subtype="isManagedBy"/>
+                    </place>
+                    <place>
+                        <geogName>Vulturnense; comitatus</geogName>
+                        <geogName type="other">Bulturnense; comitatus</geogName>
+                        <idno>estates/1939</idno>
+                        <note/>
+                        <link type="places" corresp="#places/609" subtype="proximityTo"/>
+                    </place>
+                    <place>
+                        <geogName>Prata; curtis</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/1940</idno>
+                        <note/>
+                        <link type="estates" corresp="#estates/1905" subtype="isWithin"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/97"
+                            subtype="dependsOn"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/2315"
+                            subtype="dependsOn"/>
+                        <link type="places" corresp="#places/2877" subtype="correspondsTo"/>
+                    </place>
+                    <place>
+                        <geogName>Brillanicu; curtis</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/1941</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/97"
+                            subtype="dependsOn"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/2315"
+                            subtype="dependsOn"/>
+                        <link type="places" corresp="#places/2838" subtype="proximity"/>
+                        <link type="estates" corresp="#estates/1905" subtype="proximity"/>
+                    </place>
+                    <place>
+                        <geogName>Delectanicu; curtis</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/1942</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/97"
+                            subtype="dependsOn"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/2315"
+                            subtype="dependsOn"/>
+                        <link type="places" corresp="#places/2838" subtype="proximity"/>
+                        <link type="estates" corresp="#estates/1905" subtype="proximity"/>
+                    </place>
+                    <place>
+                        <geogName>Molise; comitatus</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/1943</idno>
+                        <note/>
+                    </place>
+                    <place>
+                        <geogName>Caiazzo; comitatus</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/1945</idno>
                         <note/>
                     </place>
                 </listPlace>
