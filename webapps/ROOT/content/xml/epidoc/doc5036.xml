@@ -34,7 +34,7 @@
                             <rs type="text_type" ref="#">--Venditio</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Original</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">No</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -45,7 +45,8 @@
                             <origDate when="1081-12-28">
                                 <note type="displayed_date">1081 December 28</note>
                                 <note type="dating_elements"/>
-                                <note type="topical_date">"<foreign>in vico Asspo</foreign>"</note>
+                                <note type="topical_date"><foreign>Aspus</foreign> (Nogara,
+                                    Verona)</note>
                                 <note type="redaction_date"/>
                             </origDate>
                             <origPlace>Sanctus Benedictus in Pado Lironi; monasterium
@@ -76,6 +77,7 @@
         <revisionDesc>
             <listChange>
                 <change when="2021-11-04" who="bferretti">creation of record</change>
+                <change when="2022-03-04" who="bferretti">changes</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -85,42 +87,74 @@
                 <div type="textpart">
                     <ab>(S.) In nomine sancte et individue Trinitatis. Anno ab incarnacione domini
                         nostri Iesu Christi millesimo octuagesimo primo, V kalendas genuarius,
-                        indicione quinta. Constat nos Albertus filius quondam Litulfus et Gandulfus
-                        pater et filio et Martinus filius quondam Placitafeminam habitaturis in loco
-                        Nogarie in villa Asspo qui profesi sumus nos ex nacione nostra lege vivere
-                        Romana accepisemus nos communiter sicuti et in presencia testium, manifesti
-                        sumus nos quod accepimus ad te Iohannis filius quondam Ambrosio habitator in
-                        predicta villa Asspo, inter arrientum denarios bonos Veronenses solidos
-                        decem et octo finitum precium, pro pecia huna de terra cum casa paladicia
-                        cum area sua iuris nostri qui est in loco Nogarie locus hubi dicitur Asspo a
-                        cantone prope funtana Tartari. Et est pecia ipsa de terra cum casa paladicia
-                        est per longum perticas duas et pedes quadtuor et semise uno; de ambabus
-                        capitibus equaliter perticas una, pedes VII. Coerit ei de uno latus et uno
+                        indicione quinta. Constat nos <persName
+                            key="#Venditio #Landed_possessions #Casae/cassinae_massaricie #childOf #Roman #Witness"
+                                ><name ref="Albertus">Albertus</name></persName>
+                        <rs key="#childOf">filius</rs> quondam <persName key="#parentOf #Roman"
+                                ><name ref="Liutulfus">Litulfus</name></persName> et <persName
+                            key="#Venditio #Landed_possessions #Casae/cassinae_massaricie #childOf #parentOf #Roman #Witness"
+                                ><name ref="Gandulfus">Gandulfus</name></persName>
+                        <rs key="#parentOf">pater</rs> et filio et <persName
+                            key="#Venditio #Landed_possessions #Casae/cassinae_massaricie #childOf #Roman #Witness"
+                                ><name ref="Martinus">Martinus</name></persName> filius quondam
+                            <persName key="#parentOf #Roman"><name ref="Placitafemmina"
+                                >Placitafeminam</name></persName> habitaturis in loco <placeName
+                            ref="#places/145">Nogarie</placeName> in <placeName key="#Villas #Vici"
+                            ref="#places/399"><rs key="#Villas">villa</rs> Asspo</placeName> qui
+                        profesi sumus nos ex nacione nostra lege vivere <rs key="#Roman">Romana</rs>
+                        accepisemus nos communiter sicuti et in presencia <rs key="#Witness"
+                            >testium</rs>, manifesti sumus nos quod accepimus ad te <persName
+                            key="#Venditio #Landed_possessions #Casae/cassinae_massaricie #childOf"
+                                ><name ref="Iohannes">Iohannis</name></persName> filius quondam
+                            <persName key="#parentOf"><name ref="Ambrosius"
+                            >Ambrosio</name></persName> habitator in predicta villa Asspo, inter <rs
+                            key="#Price">arrientum denarios bonos Veronenses solidos decem et
+                            octo</rs> finitum precium, pro <rs key="#Landed_possessions">pecia huna
+                            de terra</rs> cum <rs key="#Casae/cassinae_massaricie">casa
+                            paladicia</rs> cum area sua iuris nostri qui est in loco Nogarie locus
+                        hubi dicitur Asspo a cantone prope <placeName>funtana Tartari</placeName>.
+                        Et est pecia ipsa de terra cum casa paladicia est <rs key="#Size">per longum
+                            perticas duas et pedes quadtuor et semise uno; de ambabus capitibus
+                            equaliter perticas una, pedes VII</rs>. Coerit ei de uno latus et uno
                         capite ingreso communo; percurrit de alio latus ipso emtore habetur; de alio
-                        capite Malteldi comes habetur, si et sibeque alii sunt coherentes. Que autem
-                        suprascripta pecia de terra cum casa paladicia, cum area sua iuris nostris
-                        superius dicta, ab ac die tibi cui supra Iohannes et pro suprascripto precio
-                        vendimus, tradimus et mancipamus; nulli aliis vendita, donata, obnoxiata vel
-                        tradita corporaliter nisi tibi; et facias exinde a presenti die tu et
-                        heredibus tuis, aut cui tu dederis, iure proprihetario nomine quitquit
-                        volueritis, sine omni nostra et here dum nostrorum contradicione. Quidem
-                        expondimus atque repromittimus nos qui supra Alberto et Gandulfo pater et
-                        filio et Martino huna cum nostris heredibus tibi cui supra Iohannes tuisque
-                        heredibus aut cui tu dederis suprascripta vendita qualiter superius legitur
-                        in integrum ab omni omine defensare. Quod si defendere non potuerimus, aut
-                        si vobis exinde aliquit per covis ingenium subtragere quesierimus, tunc in
-                        duplum eadem vendicio ut supra legitur vobis restituamus sicut pro tempore
-                        fuerit meliorata iam dicta pecia de terra cum casa aut valuerit sub
-                        extimacione in consimile loco. Et nec nobis liceat ullo tempore nolle quod
-                        voluit, set at nos semel factum vel conscriptum est sub ius iurandum
-                        inviolabiliter conservare promittimus cum stipulacione subnixa; et nichil
-                        nobis ex ipsum precium amplius aliquit redere debere dicimus. Actum in
-                        suprascripto vico Asspo feliciter. Signum +++ manibus suprascriptorum
-                        Alberti et Gandulfi pater et filio et Martini qui ac cartula vendicionis
-                        insimul fieri rogaverimus et suprascripto precio acceperunt ut supra. Signum
-                        +++ manibus Ceredano et Pagano storario, Petrus Baruso rogati testes lege
-                        viventes Romana vicini mei. Signum ++ manibus Vualdo, Lanfrancus faber
-                        rogati testes. (S.) Ego Arduinus notarius rogatus scripsi. </ab>
+                        capite <persName key="#Count">Malteldi</persName>
+                        <rs key="#Count">comes</rs> habetur, si et sibeque alii sunt coherentes. Que
+                        autem suprascripta pecia de terra cum casa paladicia, cum area sua iuris
+                        nostris superius dicta, ab ac die tibi cui supra Iohannes et pro
+                        suprascripto precio vendimus, tradimus et mancipamus; nulli aliis vendita,
+                        donata, obnoxiata vel tradita corporaliter nisi tibi; et facias exinde a
+                        presenti die tu et heredibus tuis, aut cui tu dederis, iure proprihetario
+                        nomine quitquit volueritis, sine omni nostra et here dum nostrorum
+                        contradicione. Quidem expondimus atque repromittimus nos qui supra Alberto
+                        et Gandulfo pater et filio et Martino huna cum nostris heredibus tibi cui
+                        supra Iohannes tuisque heredibus aut cui tu dederis suprascripta vendita
+                        qualiter superius legitur in integrum ab omni omine defensare. Quod si
+                        defendere non potuerimus, aut si vobis exinde aliquit per covis ingenium
+                        subtragere quesierimus, tunc <rs key="#Penalty">in duplum</rs> eadem
+                        vendicio ut supra legitur vobis restituamus sicut pro tempore fuerit
+                        meliorata iam dicta pecia de terra cum casa aut valuerit sub extimacione in
+                        consimile loco. Et nec nobis liceat ullo tempore nolle quod voluit, set at
+                        nos semel factum vel conscriptum est sub ius iurandum inviolabiliter
+                        conservare promittimus cum stipulacione subnixa; et nichil nobis ex ipsum
+                        precium amplius aliquit redere debere dicimus. Actum in suprascripto <rs
+                            key="#Vici">vico</rs> Asspo feliciter. Signum +++ manibus
+                        suprascriptorum Alberti et Gandulfi pater et filio et Martini qui ac <rs
+                            key="#Venditio">cartula vendicionis</rs> insimul fieri rogaverimus et
+                        suprascripto precio acceperunt ut supra. Signum +++ manibus <persName
+                            key="#Witness #Venditio #Roman"><name ref="Ceredanus"
+                            >Ceredano</name></persName> et <persName
+                            key="#Witness #Venditio #Roman #Specialized_workers"><name ref="Paganus"
+                                >Pagano</name></persName>
+                        <rs key="#Specialized_workers">storario</rs>, <persName
+                            key="#Witness #Venditio #Roman"><name ref="Petrus/Baruso">Petrus
+                                Baruso</name></persName> rogati testes lege viventes Romana vicini
+                        mei. Signum ++ manibus <persName key="#Witness #Venditio"
+                                ><name>Vualdo</name></persName>, <persName
+                            key="#Witness #Venditio #Specialized_workers"><name ref="Lanfrancus"
+                                >Lanfrancus</name></persName>
+                        <rs key="#Specialized_workers">faber</rs> rogati testes. (S.) Ego
+                                <persName><name ref="Ardoinus">Arduinus</name></persName>
+                        <rs key="#Notary #Venditio">notarius</rs> rogatus scripsi. </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
