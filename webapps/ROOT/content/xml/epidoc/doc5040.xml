@@ -34,7 +34,7 @@
                             <rs type="text_type" ref="#">-Breve/memoratorium</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Original</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">No</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -76,6 +76,7 @@
         <revisionDesc>
             <listChange>
                 <change when="2021-11-04" who="bferretti">creation of record</change>
+                <change when="2022-03-06" who="bferretti">changes</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -83,14 +84,33 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>(S.) Die sabati que est de mense octubris, in civitate Brixia in domo
-                        episcopi, presencia bonorum hominum quorum nomina subter leguntur, concessit
-                        domnus Armannus cardinalis Romane Ecclesie et episcopus suprascripte Sancte
-                        Brixiensis eccesie, consenciente Adegerio et Ardiciono seu Magifredo germani
-                        milites domnus predicti Armani episcopi abbati Sancti Benedicti inter Padum
-                        et Ilarionem et suis monahis ecclesiam Sancti Viti que est posita in loco
-                        Medule ubi habitare et monasterium facere et Deo servire et vivere ibi
-                        secundum regula am Sancti Benedicti et duas pecias de terra aratorias iuris
+                    <ab>(S.) Die sabati que est de mense octubris, in <rs key="#Cities"
+                            >civitate</rs>
+                        <placeName key="#Cities #Domus #Bishops" ref="#places/9">Brixia</placeName>
+                        in <rs key="#Domus">domo</rs>
+                        <rs key="#Bishops">episcopi</rs>, presencia <rs
+                            key="#Boni_viri/boni_homines">bonorum hominum</rs> quorum nomina subter
+                        leguntur, concessit domnus <persName
+                            key="#Cardinals #Bishops #Churches #Witness">Armannus</persName>
+                        <rs key="#Cardinals">cardinalis</rs>
+                        <orgName key="#Cardinals" ref="#juridical_persons/1100">Romane
+                            Ecclesie</orgName> et episcopus suprascripte <orgName key="#Bishops"
+                            ref="#juridical_persons/1425">Sancte Brixiensis eccesie</orgName>,
+                        consenciente <persName key="#siblingOf #milesOf">Adegerio</persName> et
+                            <persName key="#siblingOf #milesOf">Ardiciono</persName> seu <persName
+                            key="#siblingOf #milesOf">Magifredo</persName>
+                        <rs key="#siblingOf">germani</rs>
+                        <rs key="#milesOf">milites</rs> domnus predicti Armani episcopi <rs
+                            key="#Abbots">abbati</rs>
+                        <orgName key="#Abbots #Monks #Churches" ref="#juridical_persons/2001">Sancti
+                            Benedicti inter Padum et Ilarionem</orgName> et suis <rs key="#Monks"
+                            >monahis</rs>
+                        <rs key="#Churches">ecclesiam</rs>
+                        <orgName key="#Churches #Monasteries" ref="#juridical_persons/2066">Sancti
+                            Viti</orgName> que est posita in loco <placeName key="#Churches"
+                            >Medule</placeName> ubi habitare et <rs key="#Monasteries"
+                            >monasterium</rs> facere et Deo servire et vivere ibi secundum regulam
+                        Sancti Benedicti et <rs>duas pecias de terra aratorias</rs> iuris
                         suprascripti episcopii positas prope ipsam ecclesiam faciendo cambium cum
                         suprascriptis militibus, silicet Adegerio et Magifredo seu Ardeciono per
                         parabolam et voluntatem ipsorum; et faciant iam dictus abbas et monahi de
@@ -99,9 +119,14 @@
                         suprascripti Adegerio et Magifredi seu Ardecioni suorumque heredum. Factum
                         est hoc anno ab incarnacione domini nostri Iesu Christi millesimo
                         octuagesimo septimo, suprascripto die et mense, indicione undecima. Ego
-                        Herimannus Sancte Romane Ecclesie cardinalis confirmo. Et ego Iohannes
-                        sacerdos laudo et confirmo. + Ego Oddo avocatus interfui. (S.) Ego Otto
-                        notarius et iudex rogatus scripsi et interfui. </ab>
+                        Herimannus Sancte Romane Ecclesie cardinalis confirmo. Et ego <persName
+                            key="#Witness #Priests">Iohannes</persName>
+                        <rs key="#Witness #Priests">sacerdos</rs> laudo et confirmo. + Ego <persName
+                            key="#Witness #Advocatus">Oddo</persName>
+                        <rs key="#Advocatus">avocatus</rs> interfui. (S.) Ego <persName
+                            key="#Notary #Judge #Writer">Otto</persName>
+                        <rs key="#Notary">notarius</rs> et <rs key="#Judge">iudex</rs> rogatus <rs
+                            key="#Writer">scripsi</rs> et interfui. </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
