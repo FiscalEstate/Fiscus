@@ -29,10 +29,10 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="#"/>
-                            <rs type="record_source" ref="#"/>
-                            <rs type="document_tradition" ref="#"/>
-                            <rs type="fiscal_property"/>
+                            <rs type="text_type" ref="#">-Breve/memoratorium</rs>
+                            <rs type="record_source" ref="#">Original document</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property">No</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -40,10 +40,11 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate>
-                                <note type="displayed_date"/>
-                                <note type="dating_elements"/>
-                                <note type="topical_date"/>
+                            <origDate when="1158-05-26">
+                                <note type="displayed_date">1158 May 26</note>
+                                <note type="dating_elements">Stile dell'incarnazione</note>
+                                <note type="topical_date">Cappiano (Ponte a Cappiano, Fucecchio,
+                                    Firenze)</note>
                                 <note type="redaction_date"/>
                             </origDate>
                             <origPlace></origPlace>
@@ -72,7 +73,7 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2022-02-03" who="other">creation of record</change>
+                <change when="2022-03-07" who="agiacomelli">creation of record</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -81,31 +82,57 @@
             <div type="edition">
                 <div type="textpart">
                     <ab>(S) In nomine dei eterni, breve ad memoriam habendam qualiter factum est
-                        presentibus personis quas inferius nominabimus. Ailina relicta quondam
-                        Ierardini Mascarelli, propterea quia cognovit plenam voluntatem suprascripti
-                        quondam viri sui Ierardini, offerrendo beati hospitali qui vocatur
-                        Teupasscio unam integram petiam de terra cum multis arboribus et omni
-                        hedificio super se habente que est posita in loco qui vocatur Ultra Rio,
-                        iuxta Filangnore, que fuit recta et hedificata per quondam massaium nomine
-                        Bernum. Postquam predictus Ierardinus preocupatus fuit subitanea morte, tunc
-                        suprascripta Ailina uxor in ipsa die obitus sui mariti, cum consilio et
-                        consensu Formentini mundualdi sui et aliorum multorum vicinorum parentum,
-                        pro remedio anime sue et suprascripti Ierardini, per virgam quam in suas
-                        manibus tenebat, dedit et tradidit deo et predicti hospitali et ponti de
-                        Arno, in manibus presbiteri Iohanni et Montanini in vice domini Guidonis
-                        rectoris predicti hospitali et ponti videlicet integram prenominatam petiam
-                        de terra cum integriss omnibus arboribus super se et infra se habente (…).
+                        presentibus personis quas inferius nominabimus.
+                                <persName><name>Ailina</name></persName> relicta quondam
+                                <persName><name>Ierardini Mascarelli</name></persName>, propterea
+                        quia cognovit plenam voluntatem suprascripti quondam viri sui Ierardini,
+                        offerrendo beati <orgName ref="#juridical_persons/3206" key="#Hospitals"><rs
+                                key="#Hospitals">hospitali</rs> qui vocatur <placeName
+                                key="#Hospitals" ref="#places/3207">Teupasscio</placeName></orgName>
+                        unam integram <rs key="#Petiae">petiam</rs> de terra cum multis arboribus et
+                        omni hedificio super se habente que est posita in loco qui vocatur
+                            <placeName key="#Petiae">Ultrario</placeName>, iuxta
+                            <placeName>Filangnore</placeName>, que fuit recta et hedificata per
+                        quondam massaium nomine <persName><name>Bernum</name></persName>. Postquam
+                        predictus Ierardinus preocupatus fuit subitanea morte, tunc suprascripta
+                        Ailina uxor in ipsa die obitus sui mariti, cum consilio et consensu
+                                <persName><name>Formentini</name></persName> mundualdi sui et
+                        aliorum multorum vicinorum parentum, pro remedio anime sue et suprascripti
+                        Ierardini, per virgam quam in suas manibus tenebat, dedit et tradidit deo et
+                        predicti <orgName key="#Bridges/pontoons #Hospitals"
+                            ref="#juridical_persons/3209">hospitali et <rs key="#Bridges/pontoons"
+                                >ponti</rs> de Arno</orgName>, in manibus <rs key="#Priests"
+                            >presbiteri</rs>
+                        <persName key="#Priests"><name>Iohanni</name></persName> et
+                                <persName><name>Montanini</name></persName> in vice domini
+                                <persName><name>Guidonis</name></persName> rectoris predicti
+                        hospitali et ponti videlicet integram prenominatam petiam de terra cum
+                        integriss omnibus arboribus super se et infra se habente (…).
                             <foreign>Pena</foreign>: argienti optimi sol. quatuor centum.
                             <foreign>Maledizioni</foreign>. Hoc factum est in loco qui vocatur
-                        Cappiano, in presentia et testimonio Ubertinotti et Vechii filii quondam
-                        Henrichi, et Forestani filii quondam Ierardini et Ugolinelli filii quondam
-                        Grasi et Gottifredi filii quondam Brunonis et Guilgielmini filii quondam
-                        Aldel(…) et Arduini filii quondam Guilgielmi et aliorum plurimum:
-                        Borgongnonis quondam Pungilion(…), Maragonis et Bernardini filii quondam
-                        Ficarelli, omnes predicti rogati testes. Anno dominice incarnationis
-                        millesimo centesimo quinquagesimo octavo, septimo kalendas iunii, indictione
-                        sexta. (S) Hubertus donni inperatoris notharius ibi fui et hoc breve
-                        scripsi. </ab>
+                            <placeName ref="#places/319">Cappiano</placeName>, in presentia et
+                        testimonio <persName><name>Ubertinotti</name></persName> et
+                                <persName><name>Vechii</name></persName> filii quondam
+                                <persName><name>Henrichi</name></persName>, et
+                                <persName><name>Forestani</name></persName> filii quondam
+                                <persName><name>Ierardini</name></persName> et
+                                <persName><name>Ugolinelli</name></persName> filii quondam
+                                <persName><name>Grasi</name></persName> et
+                                <persName><name>Gottifredi</name></persName> filii quondam
+                                <persName><name>Brunonis</name></persName> et
+                                <persName><name>Guilgielmini</name></persName> filii quondam
+                            <persName>Aldel(…)</persName> et
+                            <persName><name>Arduini</name></persName> filii quondam
+                                <persName><name>Guilgielmi</name></persName> et aliorum plurimum:
+                                <persName><name>Borgongnonis</name></persName> quondam
+                                <persName><name>Pungilion</name>(…)</persName>,
+                                <persName><name>Maragonis</name></persName> et
+                                <persName><name>Bernardini</name></persName> filii quondam
+                                <persName><name>Ficarelli</name></persName>, omnes predicti rogati
+                            <rs key="#Witness">testes</rs>. Anno dominice incarnationis millesimo
+                        centesimo quinquagesimo octavo, septimo kalendas iunii, indictione sexta.
+                        (S) <persName><name>Hubertus</name></persName> donni inperatoris <rs
+                            key="#Notary">notharius</rs> ibi fui et hoc breve scripsi. </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
