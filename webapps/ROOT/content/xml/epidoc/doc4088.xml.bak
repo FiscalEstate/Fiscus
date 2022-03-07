@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    *F.96 </title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc4088</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">--Promissio</rs>
+                                    <rs type="record_source" ref="#">Critical edition</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate notBefore="0762-12-07" notAfter="0762-12-12">
+                                <note type="displayed_date">762 December [7, 8 or 12]</note>
+                                <note type="dating_elements">Indizione in eccesso di
+                                    un’unità.</note>
+                                <note type="topical_date">Colonnata</note>
+                                <note type="redaction_date"/>
+                             </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-06-17" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab><persName><name ref="Bonipertus">Boniperto</name></persName> filio
+                        quondam <persName><name ref="Ruffus">Ruffi</name></persName> promette a
+                        domno <persName key="#Bishops" ref="#people/343">Peredeus</persName> in Dei
+                        nomine <rs key="#Bishops">episcopus</rs> de <rs
+                            key="#Casae/cassinae_massaricie">casa</rs>
+                        <rs key="#Mother_churches">eclesie</rs>
+                        <orgName key="#Casae/cassinae_massaricie #Mother_churches"
+                            ref="#juridical_persons/68">Sancti Martini</orgName> quem mihi ad
+                        resedendo et gubernando dedisti in loco <placeName
+                            key="#Casae/cassinae_massaricie">Maritima</placeName>, ubi vocitatur ad
+                            <placeName
+                            key="#Casae/cassinae_massaricie #Cereals #Wine #Fruits/vegetables #Acorns #Hay/fodder"
+                            ref="#places/133">Casale Episcopi</placeName>, <rs
+                            key="#Casae/cassinae_massaricie">casa</rs> cum curte, <rs
+                            key="#Fruits/vegetables">orto</rs>, <rs key="#Wine">vinea</rs>, <rs
+                            key="#Cereals">terris</rs>, <rs key="#Acorns">silvis</rs>, <rs
+                            key="#Hay/fodder">pascuis</rs> adque inpascuis, cultum vel incultum (…)
+                        quomodo antea <persName><name ref="Filegisus">Filichis</name></persName> ad
+                        manum suam habuet, mihi ad laborando et gudernando dedisti, in tali tenure,
+                        ut per omnem annum iustitia ipsei case reddere debeam <rs
+                            key="#Rent_in_kind"><rs key="#Pigs">porco</rs> uno valente tremisse uno
+                            et uno <rs key="#Poultry">pullo</rs> et quinque ovas et camisia una
+                            valente tremisse uno et uno animale in mense magio valente tremisse uno,
+                            vinum et labore secundum consuetudinem ipsei case</rs>, et <rs
+                            key="#Operae">angaria secundum consuetudinem de ipsa casa</rs>.
+                            <foreign>Promette anche</foreign> et casa et res meliorando.
+                            <foreign>Pena</foreign>: auri soledos numero quinquaginta; et de casa
+                        ipsa vel res non exeam alibi ad habitando, ubi usque modo habitabi mihi ad
+                        resedendo dedisti; nec ego nec heredibus meis exire de ipsa res non
+                        presumamus, et si exire presumeremus, predicta pena conponiturus promitto.
+                        (…) Actum in <placeName ref="#places/534">Colomnata</placeName>.
+                            <foreign>Sottoscrizioni</foreign>: + Boniperti promissoris; + <persName
+                            key="#Witness"><name ref="Agibertus">Achiperti</name></persName> filio
+                        quondam <persName><name ref="Radipertus">Radiperti</name></persName> testis;
+                        + <persName key="#Witness #Other_clerics"><name ref="Teudebrandus"
+                                >Teuprandi</name></persName>
+                        <rs key="#Other_clerics">clerici</rs> filio quondam <persName><name
+                                ref="Ermi">Ermi</name></persName> testis; + <persName
+                            key="#Witness #Other_clerics"><name ref="Ermipertus"
+                            >Ermiperti</name></persName>
+                        <rs key="#Other_clerics">clerici</rs> filio <persName key="#Other_clerics"
+                                ><name ref="Ermiteus">Ermitei</name></persName>
+                        <rs key="#Other_clerics">clerici</rs> testis; + <persName
+                            key="#Witness #Other_clerics"><name ref="Aggulus"
+                            >Agguli</name></persName>
+                        <rs key="#Other_clerics">clerici</rs> filio <persName><name ref="Santrulus"
+                                >Santruli</name></persName> testis; + <persName
+                            key="#Witness #Other_clerics"><name ref="Petronax"
+                            >Petronaci</name></persName>
+                        <rs key="#Other_clerics">clerici</rs> filio quondam <persName><name
+                                ref="Audax">Audaci</name></persName> testis.
+                            <foreign>Scrive</foreign>: <persName key="#Writer #Priests"><name
+                                ref="Fratellus">Fratellus</name></persName>
+                        <rs key="#Priests">presbiter</rs>.</ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>MDL IV/1, n. 56; reg. MDL V/2, n. 80; CDL II, 166, pp. 118-120; ChLA,
+                    XXXIII, 974.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                         <p><foreign>Nota dorsale (sec. VIII, Osprandus)</foreign>: + Cartula de
+                    Bonipertulo de Cornino.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

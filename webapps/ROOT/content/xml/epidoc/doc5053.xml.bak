@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Archivio di Stato di Mantova, Archivio Gonzaga, D.VI.I, b. 328 </title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc5053</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Testamentum/iudicatum</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property"/>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="1099-11-12">
+                                <note type="displayed_date">1099 November 12</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Brescello (Reggio Emilia)</note>
+                                <note type="redaction_date">1319</note>
+                            </origDate>
+                            <origPlace>Sanctus Benedictus in Pado Lironi; monasterium
+                                (Mantova)</origPlace>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-11-04" who="bferretti">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab><rs key="#Copy">Exemplum</rs> ab autentico relevatum. In nomine sancte et
+                        individue Trinitatis. <date>Anno ab incarnatione domini nostri Iesu Christi
+                            millesimo nonagessimo nono, XII die mensis novembris, indictione
+                            VII</date>. Ego in Dei nomine <persName
+                            key="#Marquis/duke #Countess #daughterOf #Lombard" ref="#people/125"
+                            >Matilda</persName>
+                        <rs key="#Countess">comitissa</rs> et <rs key="#Marquis/duke">ducatrix</rs>
+                        et <rs key="#daughterOf">filia</rs> quondam <persName
+                            key="#Marquis/duke #fatherOf #Lombard" ref="#people/1"
+                            >Bonefacii</persName> bone memorie qui fuit <rs key="#Marquis/duke">dux
+                            et marchio</rs>, qui professa sum ex nacione mea lege vivere <rs
+                            key="#Lombard">Longobardorum</rs>, vollo <rs key="#Monasteries"
+                            >monasterium</rs> quod parentes mei construxerunt in <rs key="#Castle"
+                            >castro</rs>
+                        <placeName key="#Monasteries #Castle" ref="#places/2485"
+                            >Briscillo</placeName> in loco sue proprietatis, ubi nunc donnus
+                            <persName key="#Abbots">Tebaldus</persName> Dei nutu <rs key="#Abbots"
+                            >abbas</rs> preesse videtur, quod est consecratum in honore Sancte
+                        Trinitatis et Sancti Archangeli Michaellis atque sanctorum appostolorum
+                        Petri et Pauli nec non et <orgName ref="#juridical_persons/2099">Sancti
+                            Genesii</orgName> confessoris Christi, ut sit liberum et absolutum post
+                        mortem meam ab omni conditione et potestate quam parentes mei sibi
+                        servaverint, et ego habeo pro remedio anime mee seu parentum meorum, set sit
+                        in potestate <orgName>Romanae Ecclesie</orgName>, sicut ego olim concessi et
+                        dedi. Et omnes res illas <rs>territorias</rs> et familias utriusque sexus
+                        quas parentes mei vel ego dedimus eidem monasterio sint a presenti die
+                        proprietario nomine iam dieti monasterii, absque ulla conditione vel
+                        potestate: hoc est castrum Briscilli, cum omni qui eidem castro et <rs
+                            key="#Curtes">curti</rs> pertinere videntur, scilicet cum <rs
+                            key="#Local_markets">mercato</rs> et <rs key="#Ports">porto</rs> qui
+                        ibidem in ipso <rs key="#Rivers">fluvio Padi</rs> percurrit, atque cum <rs
+                            key="#Mansi #Casae/cassinae_massaricie">massariciis</rs> ibidem
+                        pertinentibus. Eciam in <rs key="#Areas">locis et fondis</rs>
+                        <placeName>Birupto</placeName>, <placeName>Sacha</placeName>, et
+                            <placeName>Sancto Georgio</placeName>, cum <rs key="#Cells/hermitages"
+                            >capella</rs> inibi ad eiusdem Sancti Georgij honorem constructa; eciam
+                        in <placeName>Sorbolo</placeName> et in <placeName>Ciano</placeName> atque
+                            <placeName>Banciola</placeName>, cum <rs key="#Fisheries">piscaria</rs>
+                        ibidem pertinente et cum omnibus rebus in suprascriptis locis pertinentibus,
+                        tam <rs key="#Domuscultae">domuicultilis</rs> atque massariciis, et omnibus
+                        adiacentiis. In iam dicta <geogName>curte Briscillo</geogName> sunt
+                        massaricie decem, que massaricie recte et laborate fuerunt per
+                                <persName><name ref="Bonitius/Natalis">Bonizone qui vocatur
+                                Natalis</name></persName> et <persName><name ref="Iohannes"
+                                >Iohannem</name></persName> fratrem eius, atque <persName><name
+                                ref="Baruncius/Mediolanus">Baruncio eciam
+                            Mediolanum</name></persName>, nec non et <persName><name
+                                ref="Iohannes/de Vithaliana">Iohannem qui vocatur de
+                                Vithaliana</name></persName>, et <persName><name ref="Petrus"
+                                >Petrum</name></persName>
+                        <rs>presbiterum</rs>, seu <persName><name ref="Dominicus/Biacqua">Dominicum
+                                qui vocatur Biacqua</name></persName> et <persName><name
+                                ref="Ardoinus/Bonizone">Ardoynum eciam Bonizonem</name></persName>
+                        <rs>gastaldium</rs>. Et in Birupto sunt massaricie quatuor, que recte
+                        fuerunt per <persName><name ref="Petrus">Petrum</name></persName> et item
+                                <persName><name ref="Petrus">Petrum</name></persName>, seu
+                                <persName><name ref="Ragibertus">Raginbertum</name></persName> atque
+                            <persName key="#Priests"><name ref="Adalbrandus"
+                            >Adelprandum</name></persName>
+                        <rs key="#Priests">presbiterum</rs>. Et in loco qui dicitur Sacca sunt
+                        massaricie tres, que recte et laborate fuerunt per <persName><name
+                                ref="Martinus/Biçulasco">Martinum qui vocatur
+                            Biçulasco</name></persName> et <persName><name ref="Restaldus"
+                                >Restaldum</name></persName> seu <persName><name ref="Baroncellus"
+                                >Baroncellum</name></persName>. Et in Sancto Georgio sunt massaricie
+                        quattuor, que recte et laborate fuerunt per <persName><name ref="Adam"
+                                >Adam</name></persName> et <persName><name ref="Petrus/Donucio"
+                                >Petrum qui Donucio vocabatur</name></persName>, seu <persName><name
+                                ref="Iohannes">Iohannem</name></persName> atque <persName><name
+                                ref="Martinus">Martinum</name></persName>. In Sorbolo et in Inciano
+                        sunt massaricie tres que recte fuerunt due per <persName><name
+                                ref="Bonitius">Boniçonem</name></persName>, tercia per
+                                <persName><name ref="Damianus">Damianum</name></persName>. Et in
+                        Banciola sunt massaricie tredecim, que recte et laborate fuerunt per
+                                <persName><name ref="Iohannes/Fulcheradi">Iohannem
+                            Fulcheradi</name></persName> et <persName><name ref="Paulus"
+                                >Paulum</name></persName> seu <persName><name ref="Martinus"
+                                >Martinum</name></persName> atque <persName><name ref="Ursus"
+                                >Ursum</name></persName>, eciam <persName><name ref="Lupus"
+                                >Lupum</name></persName> et <persName><name ref="Iohannes/">Iohannem
+                                qui vocatur Ciriamilio</name></persName>, nec non et <persName
+                            key="#Priests"><name ref="Dominicus">Dominicum</name></persName>
+                        presbiterum seu <persName><name ref="Giselbertus"
+                            >Giselbertum</name></persName> et <persName><name ref="Andreas/Tavanus"
+                                >Andream qui vocatur Tavanus</name></persName>, seu <persName><name
+                                ref="Adalbertus">Adelbertus</name></persName> et <persName><name
+                                ref="Martinus/Affiegia">Martinus qui dicitur
+                            Affiegia</name></persName>, et una ex eis est apsa. Eciam vollo ut
+                        habeat ipsum monasterium piscatores cum <rs key="#Houses">domibus</rs> quas
+                        habere videtur in <placeName>Tomba Razolo</placeName>, seu cum <rs
+                            key="#Rights_of_use_on_woods/pastures/waters">usibus aquas, piscatoribus
+                            et usibus silvarum</rs>; eciam cum <rs key="#Wine">terra vidata</rs> et
+                        rebus territoriis quas ex parte iam dicti monasterii pertinere videntur.
+                        Similiter et piscatores quos habet in <placeName>Gardignagola</placeName>
+                        cum piscationibus, et usibus silvarum habet iam dictum monasterium. Eciam
+                        vollo ut habeat quod <rs key="#grandfatherOf">avus</rs> meus <persName
+                            key="#Marquis/duke #grandfatherOf" ref="#people/2122"
+                            >Thedaldus</persName>
+                        <rs key="#Marquis/duke">marchio</rs> dedit suprascripto monasterio in loco
+                            <placeName>Pelavo</placeName>; habeat proprietario iure sine omni
+                        condicione alicuius potestate massaricies sex et dimidie, cum omnibus rebus
+                        que ad ipsas massaricies pertinere videntur. Et recte et laborate fuerunt
+                        una per <persName><name ref="Adalbertus/Creto">Adelberto
+                            Creto</name></persName>, alia per <persName key="#fatherOf"><name
+                                ref="Gavinatus/Mango">Gavinato qui dicitur Mango</name></persName>
+                        et <rs key="#sonOf">filius</rs> eius <persName key="#sonOf"><name
+                                ref="Bonaldus">Bonoaldo</name></persName>, tercia per <persName
+                            key="#brotherOf"><name ref="Dominicus">Dominicus</name></persName> et
+                            <persName key="#brotherOf"><name ref="Martinus"
+                            >Martinum</name></persName>
+                        <rs key="#brotherOf">germanos</rs>, quarta per <persName><name
+                                ref="Bonus/Dionisie">Bono Dionisie</name></persName>, quinta per
+                                <persName><name ref="Trembonius/de Campo">Trembonio de
+                            Campo</name></persName>, sexta per <persName><name ref="Bonaldus"
+                                >Bonoaldo</name></persName>, dimidia per <persName><name ref="Dodo"
+                                >Dotho</name></persName>. Et vollo ut habeat iam dictum monasterium
+                            <rs key="#Landed_possessions">sedimen</rs> unum cum casis super se
+                        habente, que est massaricia una que est in <placeName
+                            key="#Landed_possessions #Houses #Cereals #Wine #Hay/fodder"
+                            >Buthrice</placeName>, et recta et laborata est per <persName><name
+                                ref="Benedictus">Benedictum</name></persName>
+                        <rs>massarium</rs>; et est per mensuram iustam inter sedimen et <rs
+                            key="#Wine">vites</rs> cum areis ubi estant, seu <rs key="#Cereals"
+                            >terris arabilis</rs> et <rs key="#Hay/fodder">pratis</rs>, iugera
+                        vigintiquattuor. Et vollo ut habeat suprascriptum monasterium massaricias
+                        sex que sunt posite in <rs key="#Areas">loco et fondo</rs>
+                        <placeName
+                            key="#Areas #Landed_possessions #Cereals #Wine #Hay/fodder #Forests"
+                            ref="#places/2414">Gonzaga</placeName>, et recte et laborate fuerunt una
+                        per <persName><name ref="Iohannes/Montanus">Iohannem
+                            Montanum</name></persName>, alia per <persName><name
+                                ref="Albertus/Sciroto">Albertum Sciroto</name></persName>, tercia
+                        per <persName><name ref="Benedictum">Benedictum</name></persName>, quarta
+                        per <persName><name ref="Iohannes/Schannapassera">Iohannem
+                                Schannapassara</name></persName>, quinta per <persName><name
+                                ref="Albertus/Croto">Alpertum Croto</name></persName>, sexta per
+                                <persName><name ref="Martinus/Madelberti">Martinum
+                            Madelberti</name></persName>, septima per fratre <persName><name
+                                ref="Martinus/Latrudi">Martinum Latrudi</name></persName>; et sunt
+                        suprascripte massaricie unaqueque per mensuram iustam inter sedimen et vites
+                        et areis ubi estant iugera duo, de terris arabilis iugera sex, de <rs
+                            key="#Forests">silvis</rs> cum areis suaque iugera quattuor. Etiam volo
+                        ut habeat suprascriptum monasterium massaricias tres, que sunt posite in
+                        loco et fondo ubi <placeName
+                            key="#Areas #Landed_possessions #Cereals #Wine #Hay/fodder #Forests #Rivers"
+                            >Castello Novo</placeName> dicitur, iuxta <rs key="#Rivers">fluvium
+                            Bondenum</rs>; et fuerunt recte et laborate una per <persName><name
+                                ref="Iohannes/de Previthe">Iohannem qui dicitur de
+                            Previthe</name></persName>, alia per item <persName><name
+                                ref="Iohannes/Vuartalise">Iohannem qui dicitur
+                            Vuarstalise</name></persName>, tercia per <persName><name
+                                ref="Dominicus/Germanus">Domimcum Germanum</name></persName>; et
+                        sunt suprascripte massariciae unaqueque per mensuram iustam inter sedimen et
+                        vites cum area ubi estant iugera duo, de terris arabilis iugera sex, de
+                        silvis cum areis suarum iugera IIII. Et vollo ut habeat iam dictum
+                        monasterium massariciam unam, que est posita in <rs key="#Fundi">fondo</rs>
+                        qui dicitur <placeName
+                            key="#Fundi #Landed_possessions #Cereals #Wine #Hay/fodder #Forests"
+                            >Campolongo</placeName>, et recta et laborata fuit per <persName><name
+                                ref="Iohannes/Ilolcurandi">Iohannem Ilolcurandi</name></persName>;
+                        et est massaricia ipsa per mensuram iustam inter sedimen et vites ubi estant
+                        cum areis suarum iugera duo, de terris arabilis iugera sex, de silvis cum
+                        areis suarum iugera quattuor. Simul volo ut habeat suprascriptum monasterium
+                        massaricias duas que esse videntur in loco et fondo <placeName
+                            key="#Areas #Landed_possessions #Cereals #Wine #Hay/fodder #Forests"
+                            >Arlaula</placeName>, que recte erant una per <persName><name
+                                ref="Ursus">Ursonem</name></persName> aliam per <persName><name
+                                ref="Iohannes/Brina">Iohannem qui dicitur Brina</name></persName>;
+                        et sunt unaquemque per mensuram iustam inter sedimen et vineis ubi estant
+                        iugera duo, de terris arabilis iugera sex de silvis cum areis suarum iugera
+                        IIII. Et volo ut habeat suprascriptum monasterium massariciam unam in loco
+                        et fondo qui dicitur <placeName
+                            key="#Areas #Landed_possessions #Cereals #Wine #Hay/fodder #Forests"
+                            >Casale Mercuri</placeName>, que laborata erat per <persName><name
+                                ref="Martinus/Gariunti">Martinum Gariunti</name></persName>; et est
+                        ipsa massaricia per mensuram iustam inter sedimen et vineis cum areis suarum
+                        ubi estant iugera duo, de terris arabilis iugera sex, de silvis cum areis
+                        suarum iugera IIII. Item volo ut habeat prefatum monasterium similiter
+                        massaricia una que est posita in loco et fondo <placeName
+                            key="#Areas #Landed_possessions #Forests #Cereals #Wine #Hay/fodder"
+                            >Mandrie</placeName>, et erat laborata per Mandreverto ferario; et est
+                        ipsa massaricia per mensuram iustam inter sedimen et vineis cum areis suarum
+                        iugera duo, de terris arabilis iugera sex, de silvis cum areis suarum iugera
+                        quattuor. Et volo ut habeat suprascriptum monasterium massariciam unam in
+                        loco et fondo <placeName
+                            key="#Areas #Landed_possessions #Forests #Cereals #Wine #Hay/fodder #Game"
+                            ref="#places/2400">Sancto Benedicto</placeName>, que fuit laborata per
+                        filium <persName><name ref="Stefanus/Pillacavra">Stefani qui dicitur
+                                Pillacavra</name></persName>; et est ipsa massaricia per mensuram
+                        iustam inter sedimen et vites cum areis ubi estant iugera duo, de terris
+                        arabilis iugera sex, de silvis cum areis suarum iugera quattuor. Et habeat
+                        suprascriptum monasterium in suprascripto loco Sancto Benedicto <rs
+                            key="#Forests #Game">broilum</rs> que est per mensuram iustam. Et volo
+                        ut habeat suprascriptum monasterium massaricia una in loco et fondo
+                            <placeName
+                            key="#Areas #Landed_possessions #Forests #Cereals #Wine #Hay/fodder"
+                            >Virole</placeName>, et est laborata per <persName><name
+                                ref="Petrus/Donini">Petrum Donini</name></persName>; et est
+                        massaricia ipsa per mensuram iustam inter sedimen et vites cum areis suarum
+                        iugera duo, de terris arabilis iugera sex, de silvis cum areis suarum iugera
+                        IIII. Itemque volo ut habeat suprascriptum monasterium massaricia una que
+                        est in loco <placeName
+                            key="#Landed_possessions #Forests #Cereals #Wine #Hay/fodder"
+                            >Bledolo</placeName>; et erat laborataper <persName><name
+                                ref="Dominicus">Dominicum</name></persName> massarium, et est per
+                        mensuram iustam inter sedimen et vites cum areis ubi estant iugera duo, de
+                        terris arabilis iugera X. Simul volo ut habeat predictum monasterium
+                        massaricia octo: quattuor in loco et fondo <placeName
+                            key="#Areas #Landed_possessions #Forests #Cereals #Wine #Hay/fodder"
+                            >Ripalta</placeName>, que fuerunt laborate, una per <persName><name
+                                ref="Leopisce">Leopisce</name></persName>, aliam per <persName><name
+                                ref="Albericus">Alberiço</name></persName>, tertia per
+                                <persName><name ref="Beritius">Beriço</name></persName>, quarta per
+                                <persName><name ref="Baroccius">Baruço</name></persName>. Iam dicte
+                        alie quattuor massaricie esse videntur in loco et fondo <placeName
+                            key="#Areas #Landed_possessions #Forests #Cereals #Wine #Hay/fodder"
+                            >Godi</placeName>, una per <persName><name ref="Firmus"
+                            >Firmum</name></persName>, alia per <persName><name ref="Leo/Brunigi"
+                                >Leonem Bruningi</name></persName>, tercia per <persName><name
+                                ref="Dominicus">Dominicum</name></persName>, quarta per
+                                <persName><name ref="Arnizo">Arniçonem</name></persName>; et sunt
+                        ipse octo massaricie unaqueque per mensuram iustam inter sedimen et vites
+                        cum areis suarum iugera duo, de terris arabilis iugera X, de silvis cum
+                        areis suarum iugera octo. Et volo ut si massaricie que superius leguntur per
+                        iam nominata loca amplius terras aut vites habent, que ad ipsas massaricias
+                        pertinentur, que supra mensura legitur, in iam dicti monasteri potestate
+                        persistant. Et volo ut habeat suprascriptum monasterium piscatores cum iure
+                        piscandi in fluvio Mincio ubicumque oportunum fuerit, quos parentes mei
+                        dederunt suprascripto monasterio. Et volo ut habeat suprascriptum
+                        monasterium piscariam unam que nominatur lacus de Nasenga, omnia in integrum
+                        non longe a castro qui dicitur Scorçariolum. Et volo ut habeat suprascriptum
+                        monasterium casale unum infra civitatem Ferariam, in fondo Tabemulo prope
+                        monasterium Sancti Petri apostoli; et est casale ipsum per mensuram iustam
+                        de unoquoque latere pedes XX, de unoquoque capite pedes XV; coheret ei da
+                        sera via publica, a meridie casa Georgij presbiter, da aquilone Bone ançile
+                        Dei, a mane ingressus communis. Foris eadem civitate Ferarie infra burgum
+                        habeat casale unum cum casa super se habentem in fondo Bagnolo, non longe a
+                        monasterio Sancti Clementis; et est per mensuram iustam ab unoquoque capite
+                        pedes XIII, de unoquoque latere pedes XXX. Coheret ei de duabus partibus via
+                        pubblica, de tercia parte Stefani de Filiça, de quarta parte Vuido de Petro
+                        Marberti. Et habeat ipsum monasterium aliam casam infra ipsum burgum in
+                        eodem fondo Bagnolo non longe a basilica Sancti Michaelis. Coheret ei de
+                        duabus partibus via publica, de tercia casa de Crima, de quarta parte casa
+                        mea que in mea reservo potestate. Et habeat ipsum monasterium capelam unam
+                        in predicto burgo Ferarie in eodem fondo Bagnolo; et est edificata in honore
+                        Sancti Michaelis cum atrio suo in circuito se habente. Et volo ut habeat
+                        quod pater meus dedit suprascripto monasterio habeat proprietario iure, et
+                        sine omni conditione vel molestatione alicuius potestatis: scilicet castrum
+                        unum cum casis et capela consecrata in honore Sancti Martini in eodem
+                        castro, cum tolimine et fosato circumdatum, cum aliquantis rebus foris eodem
+                        castro ibidem pertinentibus iuris mei, que sunt per mensuram iustam cum
+                        eodem castro et fosato iugera tria, que sunt posite in comitatu Regensi, in
+                        loco qui vocatur Sancto Martino; atque massaricias numero tredecim, que sunt
+                        posite in loco qui dicitur Sableta. Prima massaricia que recta fuit per
+                        Iohannem qui dicitur Anticario, est per mensuram iustam inter sedimen et
+                        areas ubi vites estant seu terras arabiles iugera duodecim. Secunda ibi
+                        prope que laborata erat per Petrum qui dicitur Vuagina, et est per mensuram
+                        iustam inter sedimen et areas ubi vites estant, seu terras arabiles iugera
+                        quattuordecim. Tercia que laborata erat per Borningum, est per mensuram
+                        iustam inter sedimen et areas ubi vites estant seu terras arabiles iugera
+                        Xl. Quarta que laborata erat per filium bone memorie Alberti qui fuit
+                        notarius, est per mensuram iustam inter sedimen et areas ubi vites estant
+                        seu terras arabiles iugera quattuor. Quinta est posita in curte Pançano,
+                        prope fluvio qui est canalis, que laborata erat per Dominicum qui dicitur
+                        Spolio; est per mensuram iustam inter sedimen cum areis ubi vites estant seu
+                        terras arabiles iugera novem. Sexta que laborata erat per Giselbertum, est
+                        per mensuram iustam inter sedimen cum areas ubi vites estant seu terras
+                        arabiles iugera quattuor. Septima que laborata erat per Dominicum et
+                        Martinum germanos qui dicuntur Bugatti, est per mensuram iustam inter
+                        sedimen et areas ubi vites estant seu terras arabiles iugera sex. Octava que
+                        laborata erat per Martinum qui dicitur Siolixano, est per mensuram iustam
+                        inter sedimen et areas vites estant seu terras arabiles iugera duodecim.
+                        Nona que laborata erat per Eginulfum, est inter sedimen et areas ubi vites
+                        estant seu terras arabiles iugera X. Decima que laborata erat per Amicum
+                        presbiterum, est per mensuram iustam inter sedimen et areas ub1 vttes estant
+                        seu terras arabiles iugera decem. Undecima que laborata erat per Iohannem
+                        qui dicitur Moreno, est per mensuram iustam inter sedimen cum areis ubi
+                        vites estant seu terras arabiles iugera duodecim. Duodecima que laborata
+                        erat per Aribertus filius Martini, est per mensura in iustam inter sedimen
+                        et areas ubi vites estant seu terras arabiles iugera quattuor. Terciadecima
+                        que laborata erat per Iohannem qui dicitur Fugilupum, est per mensuram
+                        iustam inter sedimen et areas ubi vites estant seu terras arabiles iugera
+                        sex. In loco Farciano sunt massaricie due, que pertinent ad ipsam curtem
+                        Sableta. Prima massaricia recta erat per Albertum filium bone memorie
+                        Reginça; est per mensuram iustam inter sedimen et areas ubi vites estant seu
+                        terras arabiles iugera septem et modia duo. Secunda in ipso loco Farciano,
+                        que laborata erat per Martinum qui dicitur Garuliolo, est per mensuram
+                        iustam inter sedimen et areas ubi vites estant seu terras arabiles iugera
+                        decem et septem. In loco Faxano massaricie due, una que laborata erat per
+                        Leonem, est per mensuram iustam inter sedimen et areas ubi vites estant seu
+                        terras arabiles iugera septem. Aliam namque que laborata erat per Dominicum
+                        qui dicitur Raçoni, est per mensuram iustam inter sedimen et areas ubi vites
+                        estant seu terras arabiles iugera octo. Et sunt brayde due que pertinent ad
+                        predictam cortem Sabletam: una est posita prope ipsum castrum Sancti Martini
+                        et est per mensuram iustam iugera sex. Alia est posita in predicto loco
+                        Sableta, que est per mensura iustam iugera similiter sex. Et in Vuiçarolo
+                        sunt massaricie due: prima massaricia que laborata erat per Ançegarium est
+                        per mensuram iustam inter sedimen et areas ubi vites estant seu terra
+                        arabiles, iugera decem et septem. Secunda ibi prope est, que recta et
+                        laborata erat per Avulnario; est per mensuram iustam inter sedimen et areas
+                        ubi vites estant seu terras arabiles iugera X. In loco qui dicitur Sancto
+                        Faustino est massaricia una, que laborata erat per Iohannem; est per
+                        mensuram iustam inter sedimen et areas ubi vites estant seu terras arabiles
+                        iugera decem. In loco et fondo Bertolasco est massaricia una, que laborata
+                        erat per Geminianum qui dicitur Caurio; est per mensuram iustam inter
+                        sedimen et areas ubi vites estant seu terras arabiles atque prata et silvas
+                        iugera quattuordecim. Atque pecia una de terra laboratoria, que est posita
+                        in loco qui dicitur Roncho Viscovi, prope locum qui dicitur Bondenum que
+                        laborata erat per Stefanum et Iohannem germanos qui dicuntur Longobiliores;
+                        est per mensuram iustam iugera novem. Atque casas et res territorias iuris
+                        mei que sunt posite in loco Caselle et Roncalie: coheret eis ad ipsas casas
+                        et res de predicto loco Caselle de duabus partibus monasterium Sancti Sisti,
+                        a tercia parte Cimbola, a quarta parte via que dicitur Brixiana, et in
+                        aliquid campum Sancte Parmensis ecclesie; et sunt predicte case et res per
+                        mensuram iustam inter sedimen et areas ubi vites estant seu terras arabiles
+                        atque prata, gerbida et silvas seu buscalia iugera quinquaginta. In predicto
+                        loco Roncalie casis et rebus; coheret eis finis ab una parte fluvius Padi,
+                        alia parte ipsum monasterium Sancti Sisti, tercia parte predicta Gimbola, a
+                        quarta parte Sancti Remigij; et sunt iam diete casae et res in ipsas
+                        coherencias per mensuram iustam inter sedimen et areas ubi vites estant seu
+                        terras arabiles et prata et gerbida et buscalea atque paludes seu silvas
+                        iugera treginta. Ibi prope in suprascripto loco Roncalie est massaricia una
+                        que recta fuit ante ipsos dies per quondam Brunum qui dicitur da Pado; est
+                        per mensuram iustam inter sedimen et areas ubi vites estant seu terras
+                        arabiles iugera IIII. In loco qui dicitur Scorçariolo sunt pecie quattuor de
+                        terra: una cum sedimine, alia aratoria, tercia silvata, quarta ortiva. Prima
+                        cum predicto sedimen super se habente residere videtur per Evuardum et
+                        Iohannem qui dicitur caligarius, et Petrum sartorem et Leo Ravagnano et
+                        Gisulfum et Petrum; et est per mensuram iustam iugera quattuor. Et est
+                        predicta pecia de terra cum predictus sedimen super se habente prope fluvio
+                        Oleo qui dicitur terrato; coheret ei da duabus partibus arginem. Secunda que
+                        est laboratoria ibi prope: coheret ei ab una parte fossa que dicitur Ganbina
+                        et Senaida, ab alia parte fossa que dicitur Sigiverti, a tertia parte
+                        Nasengella, a quarta parte mihi reservo; et est pecia ipsa de terra aratoria
+                        in ipsas coherentias per mensuram iustam iugera trigintanovem. Tercia pecia
+                        de terra que est silvata, que est posita in loco qui dicitur Pontonisco;
+                        coheret ei ab uno latere fossa que dicitur de Molino, ab alia parte fossa
+                        que dicitur Lotholeto, a tercia parte Nasenga que est suprascripti
+                        monasterii Sancti Genesij, a quarta parte fosatum. Et est pecia ipsa de
+                        terra silvata infra ipsas coherencias cum aliquis pascuis et gerbidis ac
+                        paludibus super se habente, insimul tenente per mensuram iustam iugera
+                        duocenta quinquaginta et septem. Quarta est in eodem loco ortiva
+                        Scorçariolo; est posita iusta fluvium Oleum prope castrum ipsius loci, est
+                        per mensuram iustam iugerum unum; coheret ei ab una parte fluvius Olei, a
+                        tribus partibus mihi reservo, sibique in hiis rebus alie sunt coherentie.
+                        Has et omnia predictas res et familias utriusque sexus iam dicto monasterio
+                        a presenti die proprietario nomine do, cedo, confero et per presentem hoc
+                        scriptum ibidem habendum confirmo; ita ut nullus de heredibus ac
+                        proheredibus meis vel successoribus vel alia aliqua persona habeat
+                        potestatem requirendi aliquam conditionem vel districtionem aut albergariam
+                        sive pro beneficio vel pro feodo, sive pro aliquo dato aut facto quod
+                        parentes mei vel ego fecimus, excepta Ecclesia Sancti Petri cui dedimus et
+                        concessimus. Si quis vero, quod futurum esse non credo, si aliquis de
+                        heredibus ac proheredibus meis vel successoribus vel alia aliqua persona
+                        requisierit, vel aliquam molestiam vel iniuriam aut albergariam vel aliquam
+                        districtionem suprascripto monasterio vel suis hominibus fecerit, componat
+                        libras mille denariorum papiensium, medietatem suprascripto monasterio et
+                        medietatem iam dicte Sancte Romane Ecclesie cuius iuris est. Hoc enim
+                        scriptum pagine Iohannis iudicis Sacri Palacii tradidi et scribere rogavi,
+                        in quo subter confirmans testibusque attuli roborandum. Actum Brisilli
+                        castro, in camera que est iusta ipsum monasterio feliciter. Ego quoque Vuido
+                        comes qui dicitur Vuera filius Vuidonis comitis factus adoptivus filius
+                        supradicte domine comitisse Matilde hoc presens scriptum cum ea fieri feci
+                        et laudando confirmo; ita ut neque mihi neque alicui heredum meorum
+                        infringere aut immutare quolibet tempore quod suprascriptum est liceat; et
+                        si forte contingerit quod ego aut aliquis de meis heredibus hoc presens
+                        scriptum violare presumpserit, penam suprascriptam persolvat Sancte
+                        supradicte Romane Ecclesie, atque suprascripto monasterio, et quod factum ac
+                        scriptum est inviolabiliter ac perpetui permaneat. Et ut velius credatur et
+                        firmius teneat manu propria subscribendo signum crucis imposui. Matilda Dei
+                        gratia si quid est in hac cartula a me facta subscripsi. Ego Paganus Romane
+                        Ecclesie diaconus cardinalis subscripsi. Ego Ardericus iudex interfui et
+                        subscripsi. Signum ++++ manuum Alberti comitis filius quondam Bosonis item
+                        comitis et Ughonis filius quondam Magnifredi et Açonis filius quondam Ubaldi
+                        et Bosonis filii Vuicoli et Alberti filii Ugonis de Rodilia atque
+                        Benlençonis de Vuardestalla, seu Alberti Patarini atque Ariprandi de Cremona
+                        vassi Alberti comitis qui testes rogati fuerunt. Ego Iohannes palatinus
+                        iudex et advocatus supradicti monasterii scriptor huius cartula iudicatil
+                        post traditam complevi et dedi. (S.T.) Ego Lodoycus de Cavaciis Sacri
+                        Palacii notarius autenticum huius exempli una cum infrascriptiis Bonsavero,
+                        Amadeo et Rolandino notarii vidi, legi et ascultavi et ut in eo continebatur
+                        ita hic scripsi, nil addens vel minuens quod sensum vel sententiam mutet,
+                        nisi forte in literis vel silabis componendum et preter signa tabelionis
+                        quos omissi; et ex auctoritate, licentia atque mandato reverendi viri domini
+                        fratris Nicolai abbatis, Doadolani vicari generalis venerabilis patris,
+                        domini fratris Simonis Dei et apostolica sedis gratia Episcopi Parmensis et
+                        domini Bernardini de Nuvolono iudicis v( ... ) nobilis viri domini Loysii de
+                        Gonçagis potestatis Parme et domini Andrioli de Salamonibus iudicis
+                        advocatus communis Parme qui dicto v( ... ) et advocatus antedictus dictum
+                        auctenticum viderunt et examinaverunt, non cançelatum, non abolitum, non in
+                        aliqua sui parte viciatum, et curo dicto exemplo concordare exemplavi, et in
+                        publicam formam reduxi signumque meum aposui; die veneris sextodecimo
+                        martii, presentis dominus domno Petro de Bernuciis archipresbitero plebis de
+                        Coliculo Parmensis diocesis, Marcho de Aretio notario dicti domini episcopi,
+                        Casmario de Casmariis notarius Parmensis, Rolandello Açoni tubator communis
+                        Parme, Çoanino de Pasavanciis de Mantua et Martino de Caminata de Mantua
+                        testes rogati. In palatii veteri communis Parme, in millesimo trecentesimo
+                        decimonono, indicione secunda. (S.T.) Et ego Bonsaverus quondam domini
+                        Otonelli filius Sacri Palacii notarius autenticum huius exempli una cum
+                        predicto Lodoyco et infrascriptis Amodeo et Rolandino notari vidi, legi et
+                        ascultavi et ut in eo continebatur ita in hoc scriptum in veteri et ad
+                        maiorem coroborationem de mandato dictorum dominorum me subscripsi,
+                        signumque meum consuetum apposui, dictis die, loco, testibus, millesimo et
+                        indicione. (S.T.) Ego Amadeus de Vrede notarius imperiali auctoritate
+                        autenticum huius exempli vidi et una cum predictis Lodoicus et Bonsavero et
+                        infrascripto domino Rolandino notariis excultavi et ad coroborationem et
+                        cautelam et mandato dictorum dominorum me subscripsi et signum mei nominis
+                        aposui. Dictis die loco, testibus, millesimo et indicione secundum
+                        continencia ipsius autentici per singulum et in tutum fideliter. (S.T.) Ego
+                        Rolandinus Cancellus imperiali auctoritate notarius autenticum huius
+                        instrumenti una cum predictis Lodoyco, Bonsaverio et Amadeo notariis vidi,
+                        legi et ascultavi et sicut superius scriptum est vidi continenti in ipso
+                        autentico una cum predictis notariis et ad coroborandum presentis exempli de
+                        mandato predictorum dominorum me subscripsi et signum meum apposui. Dicti
+                        die, loco et testibus, millesimo et indicione. </ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>CDP I n. 52, pp. 178-188.</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
