@@ -34,7 +34,7 @@
                             <rs type="text_type" ref="#">--Ordinatio</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Original</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">No</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -45,7 +45,7 @@
                             <origDate when="1090-09-09">
                                 <note type="displayed_date">1090 September 9</note>
                                 <note type="dating_elements"/>
-                                <note type="topical_date">Manerbio (Mantova)</note>
+                                <note type="topical_date">Manerba su Garda (Mantova)</note>
                                 <note type="redaction_date"/>
                             </origDate>
                             <origPlace>Sanctus Benedictus in Pado Lironi; monasterium
@@ -86,52 +86,63 @@
                 <div type="textpart">
                     <ab>In domine Dei eterni. Anno ab incarnatione domini nostri Iesu Christi
                         millesimo nonagesimo, quinto idus septembris, inditione tertiadecima. Ego
-                            <persName key="#Count #Comitatus #childOf #Lombard">Ubertus</persName>
+                            <persName
+                                key="#Count #Comitatus #Lombard #marriage #childOf #dominus/seniorOf #Curtes #Hay/fodder #Animals #Forests #Slave_labour #Churches"
+                            ref="#people/2181">Ubertus</persName>
                         <rs key="#Count">comes</rs>
                         <rs key="#childOf">filius</rs> quondam <persName
-                            key="#Count #Comitatus #parentOf #Lombard">Erduini</persName> itemque
-                        comitis de <rs key="#Comitatus">comitatu</rs>
-                        <placeName key="#Comitatus #Count">Parmense</placeName> qui professus sum
-                        lege vivere <rs key="#Lombard">Langobardorum</rs> presens presentibus dixi:
-                        Vita et mors in manu Dei est, melius est enim hominem in metu mortis vivere,
-                        quam spe vivendi subitanea morte perveniri. Et ideo decrevimus sponte
-                        aliquid agere ut temporali vita deficiente in eterna beatitudine eternaliter
-                        gaudeamus. Qua propter placuit michi consilio fidelium meorum pro anima mea
-                        et <rs>coniugis</rs> mee <persName>Imilde</persName> quasi proprie iure
-                        concedere et potestatem dare <rs>abbati</rs> et <rs>monachis</rs>
-                        <orgName>Sancti Benedicti</orgName> Deo in <rs>ecclesia</rs>
-                        <orgName>Sancti Iusti</orgName> et in ecclesia <orgName>Sancti
-                            Viti</orgName> et suis omnibus <rs>servientibus</rs>, in
-                                <geogName><rs>curte</rs> nostra de
-                            <placeName>Medula</placeName></geogName>
-                        <rs>pascuis</rs> et <rs>silvis</rs> ad sufficientiam utendi; insuper de
-                        hominibus illorum terra commorantibus, ne gratia hospitandi supradictis
-                        hominis suos gravaremus potestatem hospitandi et per vim ad ullum placitum
-                        compellendi omni modo refutamus. Si quis hanc nostram constitutionem
-                        confringere temptaverit <rs>centum librarum argenti pena</rs> nostra
-                        institutione dannabiliter mulctetur. Et si contingerit quod predicta curte
-                        nostra ab aliis extraneis hominibus per qualicumque modo evenerit et
-                        suprascriptam observantiam confringere termptaverit, iam nominata pena
-                        mulctetur et omne ius proprietate de eadem curte amittat; et insuper habeat
-                        maledictionem Dei atque omnium sanctorum et paciat pena sicut Iuda et Dathan
-                        et Abiron. Si ex supradicto reatu ad satisfactionem non venerit,
-                        perpetualiter condempnetur quia sic est nostra bona voluntas. Hanc enim <rs
-                            key="#Ordinatio">cartulam ordinationis</rs>
+                            key="#Count #Comitatus #parentOf #Lombard" ref="#people/2149"
+                            >Erduini</persName> itemque comitis de <geogName key="#Comitatus"
+                            ref="#estates/161"><rs key="#Comitatus">comitatu</rs>
+                            <placeName key="#Comitatus #Count" ref="#places/53"
+                            >Parmense</placeName></geogName> qui professus sum lege vivere <rs
+                            key="#Lombard">Langobardorum</rs> presens presentibus dixi: Vita et mors
+                        in manu Dei est, melius est enim hominem in metu mortis vivere, quam spe
+                        vivendi subitanea morte perveniri. Et ideo decrevimus sponte aliquid agere
+                        ut temporali vita deficiente in eterna beatitudine eternaliter gaudeamus.
+                        Qua propter placuit michi consilio <rs key="#fidelisOf">fidelium</rs> meorum
+                        pro anima mea et <rs key="#marriage">coniugis</rs> mee <persName
+                            key="#marriage"><name ref="Imilda">Imilde</name></persName> quasi
+                        proprie iure concedere et potestatem dare <rs key="#Abbots">abbati</rs> et
+                            <rs key="#Monks">monachis</rs>
+                        <orgName key="#Abbots #Monks #Curtes #Hay/fodder #Animals #Forests #Slave_labour #Churches" ref="#juridical_persons/2001">Sancti
+                            Benedicti</orgName> Deo in <rs key="#Churches">ecclesia</rs>
+                        <orgName key="#Churches" ref="#juridical_persons/2004">Sancti
+                            Iusti</orgName> et in ecclesia <orgName key="#Churches"
+                            ref="#juridical_persons/2066">Sancti Viti</orgName> et suis omnibus <rs
+                            key="#Slave_labour">servientibus</rs>, in <geogName
+                                key="#Curtes #Hay/fodder #Animals #Forests #Slave_labour #Churches"><rs key="#Curtes"
+                                >curte</rs> nostra de <placeName ref="#places/2475"
+                                >Medula</placeName></geogName>
+                        <rs key="#Hay/fodder #Animals">pascuis</rs> et <rs key="#Forests"
+                            >silvis</rs> ad sufficientiam utendi; insuper de hominibus illorum terra
+                        commorantibus, ne gratia hospitandi supradictis hominis suos gravaremus
+                        potestatem hospitandi et per vim ad ullum placitum compellendi omni modo
+                        refutamus. Si quis hanc nostram constitutionem confringere temptaverit <rs
+                            key="#Penalty">centum librarum argenti pena</rs> nostra institutione
+                        dannabiliter mulctetur. Et si contingerit quod predicta curte nostra ab
+                        aliis extraneis hominibus per qualicumque modo evenerit et suprascriptam
+                        observantiam confringere termptaverit, iam nominata pena mulctetur et omne
+                        ius proprietate de eadem curte amittat; et insuper habeat maledictionem Dei
+                        atque omnium sanctorum et paciat pena sicut Iuda et Dathan et Abiron. Si ex
+                        supradicto reatu ad satisfactionem non venerit, perpetualiter condempnetur
+                        quia sic est nostra bona voluntas. Hanc enim <rs key="#Ordinatio">cartulam
+                            ordinationis</rs>
                         <persName key="#Notary #Writer #Ordinatio"><name ref="Albertus"
                                 >Albertus</name></persName>
                         <rs key="#Notary">notarius</rs> domini regis tradidit et scribere rogavit in
                         qua subter confirmans <rs key="#Witness ">testibus</rs>que obtulit
-                        roborandum. Actum in loco <placeName>Manerva</placeName> feliciter. Ego
-                        Ubertus comes. <persName key="#Witness #Ordinatio #childOf"><name
-                                ref="Albertus">Albertus</name></persName> filius <persName
+                        roborandum. Actum in loco <placeName ref="#places/2944">Manerva</placeName>
+                        feliciter. Ego Ubertus comes. <persName key="#Witness #Ordinatio #childOf"
+                                ><name ref="Albertus">Albertus</name></persName> filius <persName
                             key="#parentOf"><name ref="Wibertus">Wiberti</name></persName> et
                             <persName key="#Witness #Ordinatio"><name ref="Gherardus"
-                                >Girardus</name></persName> de <placeName>Regio</placeName>,
-                                <persName><name ref="Rainerius">Raginerus</name></persName> de
-                            <placeName>Insula</placeName>, <persName key="#Witness #Ordinatio"><name
-                                ref="Paganus">Paganus</name></persName> de Medula et <persName
-                            key="#Judge #Witness #Ordinatio"><name ref="Deusdedit"
-                            >Deodatus</name></persName>
+                                >Girardus</name></persName> de <placeName ref="#places/191"
+                            >Regio</placeName>, <persName><name ref="Rainerius"
+                            >Raginerus</name></persName> de <placeName>Insula</placeName>, <persName
+                            key="#Witness #Ordinatio"><name ref="Paganus">Paganus</name></persName>
+                        de Medula et <persName key="#Judge #Witness #Ordinatio"><name
+                                ref="Deusdedit">Deodatus</name></persName>
                         <rs key="#Judge">iudex</rs> ad istam subscriptionem fuerunt. Signum manibus
                             <persName key="#Witness #Ordinatio #Lombard"><name ref="Bernardus"
                                 >Bernardi</name></persName>, <persName
