@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Biblioteca Apostolica Vaticana, Vat. Lat. 3833, ff. 80r-80v (Deusdedit, nr.
+                    138)</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2020">2020</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc15</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2020"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">Papal concession (papyrus)</rs>
+                            <rs type="record_source" ref="#">Original document</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property">yes</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0625-12-13">
+                                <note type="displayed_date">625 December 13</note>
+                                <note type="dating_elements"></note>
+                                <note type="topical_date"></note>
+                                <note type="redaction_date">1083-1087</note>
+                             </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                   <place></place>
+                </listPlace>
+            <listPerson>
+                <person></person>
+            </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change who="dinternullo" when="2020-12-30">creation of record</change>
+           <change when="2021-01-17" who="dinternullo"/>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>Ex registro Honorii pape. <persName key="#Popes" ref="#people/68"
+                            >Honorius</persName>
+                        <persName key="#Subdeacons"><name ref="Gratiosus">Gratioso</name></persName>
+                        <rs key="#Subdeacons">subdiacono</rs>. Ne cuiquam labor ac diligentia, quam
+                        in rebus aecclesiae adhibet, possit esse damnosa, ita disponendum est, ut
+                        illi suus labor sit utilis et detrimentum aecclesiasticae res non agnoscant.
+                        Proinde <geogName
+                            key="#Houses #Fiscal_property #Object #Outflow #Allocation_to_individuals #Rent_in_money"
+                                ><rs key="#Houses">domum</rs> cum orto suo</geogName> positam in hac
+                        urbe <placeName ref="#places/52" key="#Cities">Roma</placeName> iuxta
+                            <placeName ref="#places/303" key="#Public_decorum">termas
+                            Diocletianas</placeName> regione quarta cum omnibus ad eam pertinentibus
+                        tibi in<rs key="#Allocation_to_individuals"> .XXVIIII. annorum spatia <rs
+                                key="#Rent_in_money">ad unum auri solidum persolvendum </rs>singulis
+                            quibusque annis rationibus aecclesiasticis pensionis nomine possidendam
+                            concedimus</rs>; nec te exinde eici vel augmentum pensionis illic
+                        constituimus imponendum. Ita sane, ut reparatio eiusdem domus in cunctis
+                        utilitatibus studere sicut diligens paterfamilias debeas. Post .XX. vero
+                        .VIIII. annorum curricula eadem domus cum orto suo ad ius Sanctae Romanae
+                        Aecclesiae, cuius est proprietas, sine dubio revertatur, nec aliquid ex his,
+                        quae in eius melioratione expensa fuerint, vel a te vel tuis heredibus sit
+                        repetendi licentia: quia rationis ordo non sinit, ut rei meliorationem
+                        expensam repetat, qui in eadem pensione augmentum non recepit. <date>Data
+                            idibus Decembris indictione .XIIII. anno domini ill</date>.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>Deusdedit, Collectio canonum, nr. 138, pp. 326-327</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p><ref corresp="https://digi.vatlib.it/view/MSS_Vat.lat.3833">https://digi.vatlib.it/view/MSS_Vat.lat.3833</ref></p>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+           
+        </body>
+    </text>
+</TEI>

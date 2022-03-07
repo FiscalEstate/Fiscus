@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Archivio di Stato di Parma, Diplomatico, 'Sec. X', secondo mazzo
+                    (Schiaparelli, I diplomi di Rodolfo II, n. VIII)</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2020">2020</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc14</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2020"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property">Yes</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0924-11-12">
+                                <note type="displayed_date">924 November 12</note>
+                                <note type="topical_date">Verona</note>
+                                    <note type="redaction_date"/>
+                             </origDate>
+                            <origPlace>Sanctus Sixtus; monasterium (Piacenza)</origPlace>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                   <place/>
+                </listPlace>
+            <listPerson>
+                <person></person>
+            </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change who="ltabarrini" when="2020-12-28">creation of record</change>
+           <change when="2020-12-29" who="ptomei"/>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>
+                        <persName key="#Emperor/king" ref="#people/37">Rodulfus</persName>
+                        <rs key="#Emperor/king">rex</rs>, dietro la supplica di <persName
+                            key="#Bishops" ref="#people/45">Lantpertus Mediolanensis</persName>
+                        <rs key="#Bishops">archiepiscopus</rs> et <persName key="#Bishops"
+                            ref="#people/78">Adalbertus</persName> sanctae sedis Bergamensis <rs
+                            key="#Bishops">episcopus</rs> et <persName key="#Marquis/duke"
+                            ref="#people/23">Bonefacius</persName>
+                        <rs key="#Marquis/duke">marchio</rs>, concede e conferma al monastero
+                        fondato dall’<rs key="#Queen">imperatrice</rs>
+                        <persName key="#Queen" ref="#people/55">Angelberga</persName> e dedicato da
+                            <persName key="#Abbesses" ref="#people/67">Berta</persName> a <orgName
+                            ref="#juridical_persons/53">S. Sisto</orgName>
+                        <geogName ref="#estates/40"
+                            key="#Curtes #Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches"
+                            >quasdam <rs
+                                key="#Curtes #Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches"
+                                >curtes</rs>
+                            <placeName
+                                key="#Curtes #Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches"
+                                ref="#places/33">Vuardestallam</placeName>
+                        </geogName> scilicet, <geogName
+                            key="#Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches"
+                            ref="#estates/38">
+                            <placeName
+                                key="#Curtes #Fiscal_property #Textual_occurrence #Object #Allocation_to_churches"
+                                ref="#places/32">Luzariam</placeName>
+                        </geogName>, <geogName
+                            key="#Curtes #Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches"
+                            ref="#estates/77"><placeName ref="#places/361"
+                                key="#Curtes #Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches"
+                                >Litora Paludiana</placeName></geogName>, <geogName
+                            ref="#estates/80"
+                            key="#Curtes #Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches"
+                                ><placeName ref="#places/362"
+                                key="#Curtes #Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches"
+                                >Villolę</placeName></geogName>, <geogName
+                            key="#Curtes #Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches"
+                            ref="#estates/42">
+                            <placeName key="#Curtes #Fiscal_property" ref="#places/34"
+                                >Piguniarius</placeName>
+                        </geogName>, e tutte le cose che la predetta imperatrice trasferì al
+                        cenobio. Il monastero è affidato a Berta che ne sarà dominatrix, ordinatrix
+                        atque retrix. Concediamo tutti i <rs key="#Landed_possessions">possessi
+                            mobiles ac immobiles</rs>, tam per <rs key="#Parchment_documents"
+                            >cartulas</rs> quamque extra cartulas o pervenuti a qualsiasi altro
+                        titolo, acquisiti o da acquisire, tutto quello che è stato concesso dagli
+                        imperatori, atque <rs key="#Curtes #Fiscal_property">cellulam</rs> quandam
+                        que antiquitus monasterium dicebatur non procul a <placeName
+                            ref="#places/43">Placentina urbe</placeName> sitam, loco qui <geogName
+                            key="#Curtes #Fiscal_property #Textual_occurrence #Object #Iure_proprietatis/pleno_iure #Allocation_to_churches"
+                            ref="#estates/76"><placeName ref="#places/14"
+                                key="#Curtes #Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
+                                >Caput Trebiae</placeName></geogName> vocatur, che era stata data da
+                            <persName ref="#people/80" key="#Emperor/king">Carlomanno</persName> al
+                        monastero <rs key="#Iure_proprietatis/pleno_iure">proprietario iure</rs>.
+                            <rs key="#Personal_statuses">Familias quoque utriusque sexus et
+                            conditionis</rs> cum <rs key="#Curtes #Fiscal_property">curtibus</rs> et
+                            <rs key="#Churches/religious_bodies">cappellis</rs> e segue l’elenco di
+                        tutte le appendici. Per chiunque violerà gli accordi, pena di £150 d’oro,
+                        metà da pagare camerę nostre, metà a Berta.SM Rodulfi piissimi
+                            regis.<persName>Manno</persName>
+                        <rs key="#Chancellor">cancellarius</rs> ad vicem venerabilis Beati episcopi
+                        et <rs key="#Archchancellor">archicancellarii</rs> rec. et sub. Data. Actum
+                            <placeName ref="#places/59">Veronę</placeName>, in Christi nomine
+                        feliciter, amen.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>Schiaparelli, <foreign>I diplomi di Rodolfo II</foreign>, pp. 117-20, no. VIII</p>
+                <p>Drei, <foreign>Le carte I</foreign>,101-4, no. XXXI</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p>Cimino 2012; Mancassola (2014); Manarini 2017 (nota 125 per la localizzazione di
+                        <foreign>Villola</foreign> e <foreign>Litora Paludania</foreign>)</p>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+           
+        </body>
+    </text>
+</TEI>

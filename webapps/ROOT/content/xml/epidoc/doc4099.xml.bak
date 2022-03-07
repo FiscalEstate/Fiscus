@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    +P.40</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc4099</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">--Ordinatio</rs>
+                                    <rs type="record_source" ref="#">Critical edition</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate notBefore="0765-05-01" notAfter="0765-05-31">
+                                <note type="displayed_date">765 May</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Lucca</note>
+                                <note type="redaction_date"/>
+                             </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-06-20" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab>Dulcessimo et amavile nepote meo <persName key="#Other_clerics"
+                                ><name ref="Adrebertus">Atripert</name></persName>
+                        <rs key="#Other_clerics">clerico</rs>, ego <persName key="#Priests"><name
+                                ref="Audoaldus">Adoald</name></persName> vir venerabilis <rs
+                            key="#Priests">presbitero</rs>, rectore <rs key="#Churches">eclesie</rs>
+                        <orgName key="#Churches" ref="#juridical_persons/610">Sancti
+                            Savini</orgName> loco <placeName key="#Churches" ref="#places/64"
+                            >Asulari</placeName> abus et confermator tuus perpetuam salutem.
+                        Manifeste et ispecialiter constat, eo quod ex germine meo habui dulce bone
+                        memorie filio meo (…) <persName key="#Priests"><name ref="Fortis"
+                                >Fortes</name></persName> (…) qui iam per permissionem et
+                        largitaetati demessuria domni viri beatissimi <persName key="#Bishops"
+                            ref="#people/343">Peredeo</persName>
+                        <rs key="#Bishops">episcopi</rs> et pontifex noster ad honorem <rs
+                            key="#Priests">presviterii</rs> accessit, et per sagrationem <persName
+                            key="#Bishops" ref="#people/706">Andree</persName>
+                        <placeName key="#Cities" ref="#places/66">Pisane</placeName>
+                        <rs key="#Cities">civitati</rs>
+                        <rs key="#Bishops">episcopo</rs>; <foreign>ora morto</foreign> Fortes
+                            <foreign>ed essendo privo di altri figli</foreign>, per consilio ipsius
+                        domni et viri beatissimi patri nostro Peredei episcopi simulque et
+                        sacerdotium eius <foreign>conferma a</foreign> Atripert nepote meo, qui de
+                        ipso Fortene filio meo genitus his, id est eclesia ipsa qui <rs
+                            key="#Offersio/donatio #Private_foundations #Joint_foundations">est
+                            edita</rs> in honore Deo et <orgName
+                            key="#Offersio/donatio #Churches #Private_foundations #Joint_foundations"
+                            ref="#juridical_persons/610">Sancti Savini</orgName> in suprascripto
+                        loco a bone memorie <persName
+                            key="#Offersio/donatio #Churches #Priests #Private_foundations #Joint_foundations"
+                                ><name ref="Baroncio">Baroncione</name></persName>
+                        <rs key="#Priests">presbitero</rs> et <persName
+                            key="#Offersio/donatio #Churches #Private_foundations #Joint_foundations"
+                                ><name ref="Ursus">Ursone</name></persName>, et ipse Baroncio me
+                        inivi <rs key="#Ordinatio">per cartula confirmaverat</rs>, vel in omnia res
+                        ad ipsa Dei eclesia pertinente, que inivi ad ipsos Baroncione et Ursus data
+                        est <foreign>o da altri sono state donate</foreign> tam in <rs
+                            key="#Casae/cassinae_massaricie">casis</rs> quamque et in <rs
+                            key="#Cereals">terris</rs>, <rs key="#Wine">vineis</rs>, <rs key="#Oil"
+                            >olivetis</rs>, <rs key="#Acorns">silvis</rs>, <rs key="#Chestnuts"
+                            >castanietis</rs>, <rs key="#Hay/fodder">pratis, pascuis</rs>, cultis
+                        vel incultis (…) <rs key="#Slave_labour #Slave">servos et ancellas</rs>.
+                            <foreign>Se ne riserva il governo e l’usufrutto. Se Atripert, morto il
+                            nonno, dovesse scomparire prima di aver raggiunto la maggiore
+                            età</foreign>, tam in predicta Dei eclesia quamque eidem pertinente sit
+                        inivi confirmatum tu <persName key="#Priests"><name ref="Theodradus"
+                                >Teuderad</name></persName>
+                        <rs key="#Priests">presbitero</rs> nepote meo <foreign>con le stesse
+                            clausole</foreign>. <foreign>Scrive</foreign>: <persName key="#Writer"
+                                ><name ref="David">David</name></persName>. (…) Actum <rs
+                            key="#Cities">civitate</rs> ista <placeName key="#Cities"
+                            ref="#places/4">Lucense</placeName>. […]</ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>MDL IV/1, n. 61; reg. MDL V/2, n. 91; CDL II, 186, pp. 167-169; ChLA,
+                    XXXIV, 985.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                         <p><foreign>Nota dorsale (sec. XI)</foreign>: Bonum iudicatum sed malis
+                    litteris illuminatum. <foreign>Nota dorsale (sec. XII)</foreign>: Ordo
+                    monasterii Sancti Savini de Asulari. <foreign>Mutilo nella parte
+                        finale</foreign>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Biblioteca Comunale di Padova, ms. P, B, 2, 1216, Gennari, <foreign>Brunacci,
+                        Codex Diplomaticus</foreign>, II, 100, n. XCVIII</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc1031</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Uncertain tradition</rs>
+                            <rs type="fiscal_property">Yes</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate notAfter="0915">
+                                <note type="displayed_date">- 915</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date"/>
+                                <note type="redaction_date">XVIII exeunte</note>
+                            </origDate>
+                            <origPlace>«ex archivio maioris ecclesiae Patavii»</origPlace>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-02-08" who="ecinello">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine domini Dei nostri <persName key="#Emperor/king" ref="#people/21"
+                            >Berengarius </persName>divinae pietatis clementia <rs
+                            key="#Emperor/king">rex</rs>. [Notum sit omnibus fidelibus sactae Dei
+                        Ecclesiae presentibus scilicet ac futuris, * * * * * * * *] <rs
+                            key="#Intercessory #Marquis/duke #fidelisOf">gloriosos marchiones
+                            dilectos fideles </rs>[nostros] nostram exorasse clementiam, quatenus
+                        pro Dei amore quasdam <rs
+                            key="#Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches #Roads"
+                            >vias publicas</rs> iuris regni nostri iuxte <orgName key="#Churches"
+                                ><rs key="#Churches">Beatissimae Iustinae virginis
+                            ecclesiam</rs></orgName> non longe <rs key="#Rivers">a flumine
+                            Brentae</rs>
+                        <placeName key="#Churches" ref="#places/910">valle nuncupatae Solanae
+                        </placeName>sive omne[m <rs
+                            key="#Landed_possessions #Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches"
+                            >terram]</rs>
+                        <geogName key="#Fines" ref="#estates/511"><rs key="#Fines"
+                            >Cenedensis</rs></geogName>, <geogName key="#Fines" ref="#estates/1452"
+                                ><rs key="#Fines">Tridentinensis [territorii </rs>
+                        </geogName>ad nostram iurisdictionem pertinentem, nec non et] <rs
+                            key="#Profits_of_justice">omnem iudiciariam potestatem</rs> tam <rs
+                            key="#Arimannus">arimanorum </rs>quam aliorum <rs key="#Freeborn"
+                            >liberorum hominum</rs> qui nunc <placeName
+                            key="#Profits_of_justice #Freeborn #Arimannus" ref="#places/910">in
+                            praedicta Valle Solane</placeName> habitant aut habitaturi sunt,
+                            <orgName key="#Churches" ref="#juridical_persons/65"><rs key="#Churches"
+                                >episcopio sive Patavensi ecclesie </rs></orgName>ubi <persName
+                            key="#Bishops" ref="#people/622">Sib[ico] </persName><rs key="#Bishops"
+                            >episcopus </rs>preesse videtur per hoc nostrae auctoritatis praeceptum
+                            <rs key="#Iure_proprietatis/pleno_iure">iure proprietario</rs>
+                        [concedere] dignaremur. Nos quoque id * * * * * * * dierum * * * * consequi
+                        posse retributionem ab omnipotente Deo considerantes et praedictorum
+                        nostrorum fidelium precibus aures nostrae serenitatis inflectentes,
+                        pretaxatas <rs
+                            key="#Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches #Aqueducts"
+                            >vias publicas iuris regni nostri</rs> pertinentes <geogName
+                            key="#Comitatus" ref="#estates/125"><rs key="#Comitatus">de Comitatu
+                                Tarvisianense</rs>
+                        </geogName>iuxta ecclesiam Beatissimae Iustinae virginis non longe a fluvio
+                        Brenta valle nuncupate Solane, ea videlicet ratione ut aliis dictis viis
+                        meatus publicus non intercludatur, seu omnem terram iuris regni nostri in
+                        predicta valle adiacentem de quibulibet comitatibus tam in territorio
+                        Cenedense [quam Tridentinense] ad nostram iurisdictionem pertinentem, nec
+                        non et omnem iudiciariam potestatem tam arimanorum quam aliorum liberorum
+                        hominum qui nunc in predicta valle Solane habitant aut habitaturi sunt cum
+                            <rs key="#Tuitio/bannum/mundeburdium">bannis</rs>, <rs key="#Census"
+                            >censibus </rs>et <rs key="#Datio">redditibus </rs>sacrae nostrae regie
+                        potestati pertinentibus, per hoc nostrum regale preceptum eidem episcopio
+                        sanctae patavensi ecclesie (suppliciter) offerimus et perdonamus; ac de
+                        nostro iure concedimus [et in eius ius] et dominium transfundimus atque
+                        elargimur ad habendum, tenendum, possidendum vel quicquid iam dicte ecclesie
+                        pontifex melius providerti faciendum. Igitur concedimus idem episcopus
+                        ipsius ecclesie melius providerit faciendum. Igitur concedimus eidem
+                        episcopio ubicumque tam * * * * * * * * * * * episcopus ipsius ecclesie
+                        melius providerit <rs key="#Incastellamento">castrum aedificari cum muris et
+                            menibus * * * * et fossatis et bertiscis atque celatis</rs>
+                        <rs key="#Hungarians">ob Paganorum malorum</rs>que <rs>Christianorum
+                            debacchationem</rs>, omni hominum contradictione remota. Si quis autem
+                        hoc nostre offersionis vel concessionis preceptum infringere aut violare
+                        quesierit, sciat se compositurum <rs key="#Penalty">auri optimi libras
+                            centum</rs>, medietatem <rs key="#Camera_regis">camere nostre</rs> et
+                        aliam medietatem <orgName key="#Churches" ref="#juridical_persons/65"><rs
+                                key="#Churches">dicta Patavensis ecclesiae
+                            [episcopio]</rs></orgName>. Quod ut verius [credatur] et diligentius
+                        observetur et firmius habeatur, manu propria corroborantes de anulo nostro
+                        subter insigniri iussimus. Signum (M) domni Berengarii piissimi regis.
+                        ………………………………………………………………………………………………………… </ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>Schiapparelli, DD B. I, n. CI (-915), pp. 264-266.</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>Tutte le fonti segnalate dall'editore datano il diploma all'anno 917 circa. Anche
+                    se nell'intitulatio si legge il titolo imperatore, nel contesto e nella signatio
+                    si parla di Berengario re e ciò induce l'ed. a individuare come termine ad quem
+                    il dicembre 915. Il diploma è considerato autentico, nonostante il testo
+                    lacunoso e scorretto. </p>
+            </div>
+        </body>
+    </text>
+</TEI>

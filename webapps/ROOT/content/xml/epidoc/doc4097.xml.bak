@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    +M.43</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc4097</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">--Promissio</rs>
+                                    <rs type="record_source" ref="#">Critical edition</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate when="0764-12-22"> 
+                                        <note type="displayed_date">764 December 22</note>
+                                        <note type="dating_elements">Indizione di un’unità in
+                                    eccesso.</note>
+                                        <note type="topical_date">Gello</note>
+                                        <note type="redaction_date"/>
+                             </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-06-19" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab><persName key="#Priests"><name
+                                ref="Sundipertus/Sprincho de Vico Agello"
+                            >Sundiperto</name></persName>
+                        <rs key="#Priests">presbitero</rs>, qui et Sprincho vocor, filio
+                                <persName><name ref="Fardulus">Ferduli</name></persName>, havitator
+                        in <rs key="#Vici">vico</rs> prope <rs key="#Baptismal_churches">plebe</rs>
+                        et <rs key="#Churches">eclesia</rs>
+                        <orgName key="#Churches #Baptismal_churches" ref="#juridical_persons/607"
+                            >Sancti Martini</orgName>
+                        <rs key="#Dioecesis">diocese</rs> Lucense <foreign>con il consenso del padre
+                            ha chiesto a</foreign> domno et viro beatissimo <persName key="#Bishops"
+                            ref="#people/343">Peredeo</persName> in Dei nomine <rs key="#Bishops"
+                            >epsicopo</rs>, ut cum tua licentia et iussione trasmutare devirem <rs
+                            key="#Churches">eclesia</rs> beati <orgName
+                            key="#Casalini/fundamenta #Churches" ref="#juridical_persons/608">Sancti
+                            Quirici</orgName> in meliore edificio et <rs key="#Casalini/fundamenta"
+                            >fundamento</rs> restaurando et meliorando, <foreign>vendendo
+                            accontentato. Ora promette al vescovo per sé e per i successori di non
+                            sottrarre la chiesa </foreign>de sub tua potestate et de successoribus
+                        tuis (…), et omni tempore in festivitate sancti Quirici recipere et
+                        gubernare debeamus <rs key="#Priests">presbitero</rs> illo qui in eclesia et
+                        plebe Sancti Martini rector et gubernator fuerit; et ut in ipsa festivitate
+                        ividem ipse presbiter officium et missa precare debeat et eum ad gustare, se
+                        sexto, qui ei solacii fuerint ipso officio faciendo, bene gubernare debeamus
+                        et pleniter sine aliqua dispectione, et offerta ei medietate in ipsa
+                        festivitate sancti Quirici dare debeamus. <foreign>Pena</foreign>: auri
+                        soledos nomero centum (…). Et quod menime superius memoravimus, iam per
+                        annos quadraginta et amplius ipsa eclesia Sancti Quirici sub potestate de
+                        ipsa plebe vestra Sancti Martini pertenuit, et modo in suprascripto ordine
+                        decernimus, ut cunctis diebus debeat pertinere. (…) Actum in <placeName
+                            ref="#places/186" key="#Vici #Churches">Agello</placeName>, ad <rs
+                            key="#Churches">eclesia</rs>
+                        <orgName key="#Churches" ref="#juridical_persons/609">Sancte
+                        Marie</orgName>. <foreign>Sottoscrizioni</foreign>: (ss) Sundipertus
+                        presbiter; + Ferduli genitori eius consentientis; (ss) <persName
+                            key="#Witness #Priests"><name ref="Deusdona">Deusdona</name></persName>
+                        <rs key="#Priests">presbitero</rs>; (ss) <persName
+                            key="#Witness #Other_clerics"><name ref="Celsus">Celso</name></persName>
+                        <rs key="#Other_clerics">clericus</rs>; + <persName key="#Witness #Priests"
+                                ><name ref="Audibertus de Agello">Audipert</name></persName>
+                        <rs key="#Priests">presbiteri</rs> de <placeName ref="#places/186"
+                            >Agello</placeName> testis; + <persName key="#Witness"><name
+                                ref="Bruningus">Bruninghi</name></persName> filio quondam
+                                <persName><name ref="Brunari">Brunari</name></persName> de
+                            <placeName>Quercito</placeName>; + <persName
+                            key="#Witness #Other_clerics"><name ref="Rotchis"
+                            >Rotchis</name></persName>
+                                <rs key="#Other_clerics">clerici</rs> filio <persName key="#Priests"><name ref="Soldulus"
+                                >Solduli</name></persName>
+                        <rs key="#Priests">presbiteri</rs> testis. <foreign>Scrive</foreign>:
+                            <persName key="#Writer #Deacons"><name ref="Osprandus"
+                            >Osprandus</name></persName>
+                        <rs key="#Deacons">diaconus</rs>.</ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>MDL IV/1, p. 359 nt. 233; MDL V/2, n. 89; CDL II, 181, pp. 155-157; ChLA,
+                    XXXIII, 983.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                         <p><foreign>Nota dorsale (sec. XI-XII)</foreign>: In plebe de Agello est
+                    una capella Sancti Quirici de eadem plebe. <foreign>Nota dorsale (sec. VIII,
+                        Osprandus)</foreign>: Promissio Sprinculi presbiteri de Collis.
+                        <foreign>Nota dorsale (sec. XII)</foreign>: De Sancto Quirico. <foreign>Nota
+                        dorsale (sec. XI-XII)</foreign>: Repromissio a Sprinco presbitero de
+                    ecclesia Sancti Quirici in plebe Agello.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>
