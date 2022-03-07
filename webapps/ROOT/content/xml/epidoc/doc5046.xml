@@ -76,6 +76,7 @@
         <revisionDesc>
             <listChange>
                 <change when="2021-11-04" who="bferretti">creation of record</change>
+                <change when="2022-03-07" who="bferretti">changes</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -85,34 +86,50 @@
                 <div type="textpart">
                     <ab>In domine Dei eterni. Anno ab incarnatione domini nostri Iesu Christi
                         millesimo nonagesimo, quinto idus septembris, inditione tertiadecima. Ego
-                        Ubertus comes filius quondam Erduini itemque comitis de comitatu Parmense
-                        qui professus sum lege vivere Langobardorum presens presentibus dixi: Vita
-                        et mors in manu Dei est, melius est enim hominem in metu mortis vivere, quam
-                        spe vivendi subitanea morte perveniri. Et ideo decrevimus sponte aliquid
-                        agere ut temporali vita deficiente in eterna beatitudine eternaliter
-                        gaudeamus. Qua propter placuit michi consilio fide lium meorum pro anima mea
-                        et coniugis mee Imilde quasi proprie iure concedere et potestatem dare
-                        abbati et monachis Sancti Benedicti Deo in ecclesia Sancti Iusti et in
-                        ecclesia Sancti Viti et suis omnibus servientibus, in curte nostra de Medula
-                        pascuis et silvis ad sufficientiam utendi; insuper de hominibus illorum
-                        terra commorantibus, ne gratia hospitandi supradictis hominis suos
-                        gravaremus potestatem hospitandi et per vim ad ullum placitum compellendi
-                        omni modo refutamus. Si quis hanc nostram constitutionem confringere
-                        temptaverit centum librarum argenti pena nostra institutione dannabiliter
-                        mulctetur. Et si contingerit quod predicta curte nostra ab aliis extraneis
-                        hominibus per qualicumque modo evenerit et suprascriptam observantiam
-                        confringere termptaverit, iam nominata pena mulctetur et omne ius
-                        proprietate de eadem curte amittat; et insuper habeat maledictionem Dei
-                        atque omnium sanctorum et paciat pena sicut luda et Dathan et Abiron. Si ex
-                        supradicto reatu ad satisfactionem non venerit, perpetualiter condempnetur
-                        quia sic est nostra bona voluntas. Hanc enim cartulam ordinationis Albertus
-                        notarius domini regis tradidit et scribere rogavit in qua subter confirmans
-                        testibusque obtulit roborandum. Actum in loco Manerva feliciter. Ego Ubertus
-                        comes. Albertus filius Wiberti et Girardus de Regio, Raginerus de Insula,
-                        Paganus de Medula et Deodatus iudex ad istam subscriptionem fuerunt. Signum
-                        manibus Bernardi, Marchesi, Bononis rogati testes lege Langobardorum
-                        viventes. (S.) Ego qui supra Albertus notarius domini regis rogatus scripsi
-                        post tradita complevi et dedi. </ab>
+                            <persName key="#Count #Comitatus #childOf #Lombard">Ubertus</persName>
+                        <rs key="#Count">comes</rs>
+                        <rs key="#childOf">filius</rs> quondam <persName
+                            key="#Count #Comitatus #parentOf #Lombard">Erduini</persName> itemque
+                        comitis de <rs key="#Comitatus">comitatu</rs>
+                        <placeName key="#Comitatus #Count">Parmense</placeName> qui professus sum
+                        lege vivere <rs key="#Lombard">Langobardorum</rs> presens presentibus dixi:
+                        Vita et mors in manu Dei est, melius est enim hominem in metu mortis vivere,
+                        quam spe vivendi subitanea morte perveniri. Et ideo decrevimus sponte
+                        aliquid agere ut temporali vita deficiente in eterna beatitudine eternaliter
+                        gaudeamus. Qua propter placuit michi consilio fidelium meorum pro anima mea
+                        et <rs>coniugis</rs> mee <persName>Imilde</persName> quasi proprie iure
+                        concedere et potestatem dare <rs>abbati</rs> et <rs>monachis</rs>
+                        <orgName>Sancti Benedicti</orgName> Deo in <rs>ecclesia</rs>
+                        <orgName>Sancti Iusti</orgName> et in ecclesia <orgName>Sancti
+                            Viti</orgName> et suis omnibus <rs>servientibus</rs>, in
+                                <geogName><rs>curte</rs> nostra de
+                            <placeName>Medula</placeName></geogName>
+                        <rs>pascuis</rs> et <rs>silvis</rs> ad sufficientiam utendi; insuper de
+                        hominibus illorum terra commorantibus, ne gratia hospitandi supradictis
+                        hominis suos gravaremus potestatem hospitandi et per vim ad ullum placitum
+                        compellendi omni modo refutamus. Si quis hanc nostram constitutionem
+                        confringere temptaverit <rs>centum librarum argenti pena</rs> nostra
+                        institutione dannabiliter mulctetur. Et si contingerit quod predicta curte
+                        nostra ab aliis extraneis hominibus per qualicumque modo evenerit et
+                        suprascriptam observantiam confringere termptaverit, iam nominata pena
+                        mulctetur et omne ius proprietate de eadem curte amittat; et insuper habeat
+                        maledictionem Dei atque omnium sanctorum et paciat pena sicut Iuda et Dathan
+                        et Abiron. Si ex supradicto reatu ad satisfactionem non venerit,
+                        perpetualiter condempnetur quia sic est nostra bona voluntas. Hanc enim <rs
+                            key="#Ordinatio">cartulam ordinationis</rs>
+                        <persName key="#Notary #Writer #Ordinatio">Albertus</persName>
+                        <rs key="#Notary">notarius</rs> domini regis tradidit et scribere rogavit in
+                        qua subter confirmans <rs key="#Witness ">testibus</rs>que obtulit
+                        roborandum. Actum in loco <placeName>Manerva</placeName> feliciter. Ego
+                        Ubertus comes. <persName key="#Witness #Ordinatio #childOf">Albertus</persName> filius
+                        <persName key="#parentOf">Wiberti</persName> et <persName key="#Witness #Ordinatio">Girardus</persName> de Regio,
+                        <persName>Raginerus</persName> de Insula, <persName key="#Witness #Ordinatio">Paganus</persName>
+                        de Medula et <persName key="#Judge #Witness #Ordinatio">Deodatus</persName>
+                        <rs key="#Judge">iudex</rs> ad istam subscriptionem fuerunt. Signum manibus
+                        <persName key="#Witness #Ordinatio #Lombard">Bernardi</persName>, <persName key="#Witness #Ordinatio #Lombard">Marchesi</persName>,
+                        <persName key="#Witness #Ordinatio #Lombard">Bononis</persName> rogati testes lege Langobardorum viventes.
+                        (S.) Ego qui supra Albertus notarius domini regis rogatus <rs key="#Writer"
+                            >scripsi</rs> post tradita complevi et dedi. </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
