@@ -34,7 +34,7 @@
                             <rs type="text_type" ref="#">--Offersio/donatio</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Original</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">No</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -45,7 +45,7 @@
                             <origDate when="1090-09-09">
                                 <note type="displayed_date">1090 September 9</note>
                                 <note type="dating_elements"/>
-                                <note type="topical_date">Manerbio (Mantova)</note>
+                                <note type="topical_date">Manerbio (Brescia)</note>
                                 <note type="redaction_date"/>
                             </origDate>
                             <origPlace>Sanctus Benedictus in Pado Lironi; monasterium
@@ -76,6 +76,7 @@
         <revisionDesc>
             <listChange>
                 <change when="2021-11-04" who="bferretti">creation of record</change>
+                <change when="2022-03-07" who="bferretti">changes</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -84,42 +85,80 @@
             <div type="edition">
                 <div type="textpart">
                     <ab>(S.) Anno ab incarnacione domini nostri Iesu Christi millesimo nonaiesimo,
-                        quinto idus septimber indicione terciadecima, monasterium Sancti Benediciti
-                        sito inter Padum et Larionem. Ego Ubertus filius quondam Arduini comes
-                        Parmensis, qui profesus sum lege vivere Langobardorum presentibus disi:
+                        quinto idus septimber indicione terciadecima, <rs key="#Monasteries"
+                            >monasterium</rs>
+                        <orgName
+                            key="#Monasteries #Monks #Missus #Offersio/donatio #Cells/hermitages #Landed_possessions"
+                            ref="#juridical_persons/2001">Sancti Benediciti sito inter Padum et
+                            Larionem</orgName>. Ego <persName
+                            key="Count #childOf #marriage #Lombard #Offersio/donatio #Cells/hermitages #Landed_possessions"
+                            ref="#people/2181">Ubertus</persName>
+                        <rs key="#childOf">filius</rs> quondam <persName key="#parentOf"
+                            ref="#people/2149">Arduini</persName>
+                        <rs key="#Count">comes</rs>
+                        <placeName key="#Count" ref="#places/53">Parmensis</placeName>, qui profesus
+                        sum lege vivere <rs key="#Lombard">Langobardorum</rs> presentibus disi:
                         Quisquis in sanctis ac venerabilibus locis ex suis aliquit contulerit rebus
                         iusta octori vocem in oc seculo centuplum accipiat, insuper quod melius est
                         vita posidebit etenam. Ideoque ego qui supra Ubertus dono et ofero pro anima
-                        mea et conius mea et filio meo atque parentorum meorum mercede in pre iam
-                        nominatum monasterium in Ubaldus et Petrus monahis et misis eiusdem
-                        monasterii; oc est capella una edificata et consecrata in onore Sancti Iusti
-                        poxita in castro Medule cum omnibus rebus sibi pertinentibus tam intus quam
-                        et de foris. Insuper donavit de suis propris rebus, oc est braide et aliis
-                        terris quod est per mensura super totum iuias centum sicut est desinatu per
-                        suos misos, hi sunt Urlandus de Lucera et Rustichelo et ceteri. Eo tinore
-                        anc mea ofersionem facio quamdiu monasterium Sancti Benedicti manet sub
-                        regimine monasterii Sancti Petri Clungniacensis abeat et posideat ipsas res;
-                        et si eveneri quod deceserit de gimine cluniacensis monasterii deveniant
-                        ipse res in proprio iure cluniacensis monasterii. Ab ac die predictum
-                        monasterium dono cedo trado confero et per presente cartulam ofersionis at
-                        abendum confinno faciendum; confirmo faciendum exinde a presenti die pars
-                        ipsum monasterium aut cui pars ipsum monasterium dederit iure proprietario
-                        quicquit voluerit sine omni mea qui supra Uberto et eheredibus meis
-                        contradicione. Quidem espondeo atque promitto me ego qui supra Ubertus una
-                        cum [m]eis eheredibus tibi predictum monasterio aut cui ipsum monasterium
-                        dederit suprascriptis rebus simul cum predicta capella in integro ab omni
-                        omine defensare promitto; quod si defendere non potuerimus aut si vobis
-                        exinde aliquit per covis inienium subtraere quexierimus tunc in duplum eadem
-                        mea donacionem ut supra leitur vobis restituamus sicut pro tempore fuerint
-                        melioratis predictis rebus aut valuerit sub estimacione in consimilibus
-                        locis. Anc enim cartulam ofersionis Albertus notarius domini reis tradidit
-                        et scribere rogavi in qua subter confirmans testibusque obtulit roborandum.
-                        Actum intus Roka feliciter. Signum manus suprascripto Uberto qui anc
+                        mea et <rs key="#marriage">conius</rs> mea et <rs key="#childOf">filio</rs>
+                        meo atque <rs key="#parentOf">parentorum</rs> meorum mercede in pre iam
+                        nominatum monasterium in <persName key="#Monks #Missus"><name ref="Hubaldus"
+                                >Ubaldus</name></persName> et <persName key="#Monks #Missus"><name
+                                ref="Petrus">Petrus</name></persName>
+                        <rs key="#Monks">monahis</rs> et <rs key="#Missus">misis</rs> eiusdem
+                        monasterii; oc est <rs key="#Cells/hermitages">capella</rs> una edificata et
+                        consecrata in onore <orgName key="#Cells/hermitages"
+                            ref="#juridical_persons/2004">Sancti Iusti</orgName> poxita in <rs
+                            key="#Castle">castro</rs>
+                        <placeName key="#Castle #Cells/hermitages" ref="#places/2475"
+                            >Medule</placeName> cum omnibus rebus sibi pertinentibus tam intus quam
+                        et de foris. Insuper donavit de suis propris rebus, oc est <rs
+                            key="#Landed_possessions">braide et aliis terris</rs> quod est per
+                        mensura super totum <rs key="#Size">iuias centum</rs> sicut est desinatu per
+                        suos misos, hi sunt <persName><name ref="Rodelandus"
+                            >Urlandus</name></persName> de <placeName>Lucera</placeName> et
+                                <persName><name ref="Rustichellus">Rustichelo</name></persName> et
+                        ceteri. Eo tinore anc mea ofersionem facio quamdiu monasterium Sancti
+                        Benedicti manet sub regimine monasterii <orgName key="#Monasteries"
+                            ref="#juridical_persons/2091">Sancti Petri</orgName>
+                        <placeName key="#Monasteries" ref="#places/2723">Clungniacensis</placeName>
+                        abeat et posideat ipsas res; et si eveneri quod deceserit de gimine
+                        cluniacensis monasterii deveniant ipse res in proprio iure cluniacensis
+                        monasterii. Ab ac die predictum monasterium dono cedo trado confero et per
+                        presente <rs key="#Offersio/donatio">cartulam ofersionis</rs> at abendum
+                        confinno faciendum; confirmo faciendum exinde a presenti die pars ipsum
+                        monasterium aut cui pars ipsum monasterium dederit <rs
+                            key="#Iure_proprietatis/pleno_iure">iure proprietario</rs> quicquit
+                        voluerit sine omni mea qui supra Uberto et eheredibus meis contradicione.
+                        Quidem espondeo atque promitto me ego qui supra Ubertus una cum [m]eis
+                        eheredibus tibi predictum monasterio aut cui ipsum monasterium dederit
+                        suprascriptis rebus simul cum predicta capella in integro ab omni omine
+                        defensare promitto; quod si defendere non potuerimus aut si vobis exinde
+                        aliquit per covis inienium subtraere quexierimus tunc <rs key="#Penalty">in
+                            duplum</rs> eadem mea donacionem ut supra leitur vobis restituamus sicut
+                        pro tempore fuerint melioratis predictis rebus aut valuerit sub estimacione
+                        in consimilibus locis. Anc enim cartulam ofersionis <persName
+                            key="#Notary #Writer #Offersio/donatio"><name ref="Albertus"
+                                >Albertus</name></persName>
+                        <rs key="#Notary">notarius</rs> domini reis tradidit et scribere rogavi in
+                        qua subter confirmans <rs key="#Witness">testibus</rs>que obtulit
+                        roborandum. Actum intus <placeName key="#Fortress" ref="#places/2944"
+                            >Roka</placeName> feliciter. Signum manus suprascripto Uberto qui anc
                         cartulam ofersionis fieri rogavit ut supra. Ubertus comes subscripsi. Signum
-                        manibus Bernardo, Markeso, Bono testes rogati viventes Langobardorum lege.
-                        (S.) Ego qui supra Albertus notarius domini regis rogatus scripsi post
-                        tradita complevi et dedi. Rodulfus de Dallo et Gandulfus de Camuriana
-                        interfuerunt. </ab>
+                        manibus <persName key="#Witness #Offersio/donatio #Lombard"><name
+                                ref="Bernardus">Bernardo</name></persName>, <persName
+                            key="#Witness #Offersio/donatio #Lombard"><name ref="Marchesus"
+                                >Markeso</name></persName>, <persName
+                            key="#Witness #Offersio/donatio #Lombard"><name ref="Bonus"
+                            >Bono</name></persName> testes rogati viventes Langobardorum lege. (S.)
+                        Ego qui supra Albertus notarius domini regis rogatus <rs key="#Writer"
+                            >scripsi</rs> post tradita complevi et dedi. <persName
+                            key="#Witness #Offersio/donatio"><name ref="Rodulfus"
+                            >Rodulfus</name></persName> de <placeName ref="#places/2947"
+                            >Dallo</placeName> et <persName key="#Witness #Offersio/donatio"><name
+                                ref="Gandulfus">Gandulfus</name></persName> de <placeName
+                            ref="#places/2948">Camuriana</placeName> interfuerunt. </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
