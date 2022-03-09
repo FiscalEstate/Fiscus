@@ -29,10 +29,10 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="#"/>
-                            <rs type="record_source" ref="#"/>
-                            <rs type="document_tradition" ref="#"/>
-                            <rs type="fiscal_property"/>
+                            <rs type="text_type" ref="#">-Breve/memoratorium</rs>
+                            <rs type="record_source" ref="#">Original document</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property">No</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -40,10 +40,11 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate>
-                                <note type="displayed_date"/>
-                                <note type="dating_elements"/>
-                                <note type="topical_date"/>
+                            <origDate when="1164-09-13">
+                                <note type="displayed_date">1164 September 13</note>
+                                <note type="dating_elements">Stile dell'incarnazione</note>
+                                <note type="topical_date">Grofolesco (Montevettolini, Monsummano
+                                    Terme, Pistoia)</note>
                                 <note type="redaction_date"/>
                             </origDate>
                             <origPlace>Ospedale del ponte di Fucecchio</origPlace>
@@ -82,13 +83,13 @@
                 <div type="textpart">
                     <ab>(S) In Christi nomine. Breve recordationis ad memoria habendam vel
                         retinendam inpositum, qualiter actum est in <rs key="#Castle">castro</rs> de
-                            <placeName key="#Castle">Grofolesco</placeName>, presentia <rs
-                            key="#Boni_viri/boni_homines">bonorum hominum</rs> quorum nomina
-                        inferius scripta ponuntur. Filii quondam <persName><name ref="Robertus"
-                                >Ruberti</name></persName>, <persName><name ref="Herimanni"
-                                >Armannus</name></persName> magister et <persName><name
-                                ref="Garimundus">Guermondellus</name></persName> et uxor eius
-                                <persName><name ref="Bonamica">Bonamica</name></persName> et
+                            <placeName key="#Castle" ref="#places/3229">Grofolesco</placeName>,
+                        presentia <rs key="#Boni_viri/boni_homines">bonorum hominum</rs> quorum
+                        nomina inferius scripta ponuntur. Filii quondam <persName><name
+                                ref="Robertus">Ruberti</name></persName>, <persName><name
+                                ref="Herimanni">Armannus</name></persName> magister et
+                                <persName><name ref="Garimundus">Guermondellus</name></persName> et
+                        uxor eius <persName><name ref="Bonamica">Bonamica</name></persName> et
                                 <persName><name ref="Lupinus">Lupinus</name></persName> et uxor eius
                                 <persName><name ref="Imilda">Imelda</name></persName> et
                                 <persName><name ref="Zamparone">Zamparone</name></persName> et uxor
@@ -102,23 +103,26 @@
                                 >Ficeclensi</placeName></orgName> (pro amore et remedio animarum
                         suarum et suorum parentium) videlicet unum petium de terra quod est positum
                         a <placeName>Cerro Aquilaio</placeName>, terrefinatum (sic) ab uno latere
-                        cum terra filiorum <persName>Truffe</persName> et aliud caput cum <orgName
-                            key="#Hospitals" ref="#juridical_persons/3203">hospitalis <placeName
-                                key="#Forests #Hospitals" ref="#places/3215"
-                            >Rosarie</placeName></orgName>
+                        cum terra filiorum <persName><name ref="Truffa">Truffe</name></persName> et
+                        aliud caput cum <orgName key="#Hospitals" ref="#juridical_persons/3203"
+                            >hospitalis <placeName key="#Forests #Hospitals" ref="#places/3215"
+                                >Rosarie</placeName></orgName>
                         <rs key="#Forests">busco</rs>, et latus unus tenet in Giusciana, aliud latus
                         tenet in carraria veccla. (…) Tantum est ut per omne (annum) in <rs
                             key="#Periodic_markets">mercato</rs>
-                        <placeName key="#Periodic_markets">Pogiguisi</placeName> pensionem exinde
-                        solvere debeat predictus Albertus et eius successores vel missus ad
-                        predictos filios Ruberti (…) duos solidos bonorum denariorum et non amplius.
-                        (…) <foreign>Pena</foreign>: bonorum denariorum sol. mille. Servitium fecit
-                        Albertus rector hospitalis de ponte Ficeclensi ad supranominatos filios
-                        Ruberti sol. XX. Hoc actum est presentia <persName><name ref="Manno"
-                                >Manni</name></persName> quondam <persName><name ref="Teudericus"
-                                >Tederigi</name></persName> et <persName><name ref="Lucterius"
+                        <placeName key="#Periodic_markets" ref="#places/3230">Pogiguisi</placeName>
+                        pensionem exinde solvere debeat predictus Albertus et eius successores vel
+                        missus ad predictos filios Ruberti (…) duos solidos bonorum denariorum et
+                        non amplius. (…) <foreign>Pena</foreign>: bonorum denariorum sol. mille.
+                        Servitium fecit Albertus rector hospitalis de ponte Ficeclensi ad
+                        supranominatos filios Ruberti sol. XX. Hoc actum est presentia <persName
+                            key="#Witness #Boni_viri/boni_homines"><name ref="Manno"
+                            >Manni</name></persName> quondam <persName><name ref="Teudericus"
+                                >Tederigi</name></persName> et <persName
+                            key="#Witness #Boni_viri/boni_homines"><name ref="Lucterius"
                                 >Locterii</name></persName> quondam <persName><name ref="Francus"
-                                >Franci</name></persName> et <persName><name ref="Garandus"
+                                >Franci</name></persName> et <persName
+                            key="#Witness #Boni_viri/boni_homines"><name ref="Garandus"
                                 >Carandi</name></persName> quondam <persName><name ref="Folle"
                                 >Folli</name></persName> et aliorum multorum <rs key="#Witness"
                             >testium</rs>. Anno ab incarnatione domini nostri Iehsu Christi
@@ -138,7 +142,8 @@
                 <p><ref>https://www.archiviodigitale.icar.beniculturali.it/it/185/ricerca/detail/536814</ref></p>
             </div>
             <div type="commentary">
-                <p>Le parole riportate tra parentesi sono state aggiunte in interlinea. </p>
+                <p>Le parole riportate tra parentesi sono state aggiunte in interlinea. Vi è una
+                    discordanza notevole tra anno e indizione.</p>
             </div>
         </body>
     </text>
