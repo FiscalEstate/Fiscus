@@ -1413,7 +1413,10 @@
                         <note/>
                         <link type="places" corresp="#places/192" subtype="isPartOf"/>
                         <link type="juridical_persons" corresp="#juridical_persons/92"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
+                        <link type="estates" corresp="#estates/542" subtype="isWithin"/>
+                        <link type="people" corresp="#people/21" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/153" subtype="isGrantedTo"/>
                     </place>
                     <place>
                         <placeName><foreign>Feruniano</foreign> (Sant'Andrea; Palaia;
@@ -1684,6 +1687,11 @@
                         <geogName type="coord"><geo>45.957594, 13.376541</geo></geogName>
                         <idno>places/192</idno>
                         <note/>
+                        <link type="places" corresp="#places/162" subtype="link"/>
+                        <link type="people" corresp="#people/21" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/153" subtype="isGrantedTo"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/92"
+                            subtype="rendersCollectedBy"/>
                     </place>
                     <place>
                         <placeName>Cegna (Ailano; Caserta)</placeName>
@@ -10933,7 +10941,7 @@
                         <note/>
                     </place>
                     <place>
-                        <placeName>Lambrianum (Bologna)</placeName>
+                        <placeName><foreign>Lambrianum</foreign> (Bologna)</placeName>
                         <placeName type="other"/>
                         <geogName type="coord"><geo/></geogName>
                         <idno>places/2933</idno>
@@ -11054,6 +11062,23 @@
                         <geogName type="coord"><geo>44.862372, 11.078013</geo></geogName>
                         <idno>places/2948</idno>
                         <note/>
+                    </place>
+                    <place>
+                        <placeName>San Donnino (Carpineti; Reggio Emilia)</placeName>
+                        <placeName type="other"><foreign>ecclesia Sancti Donnini sita in monte
+                                Ville</foreign></placeName>
+                        <geogName type="coord"><geo>44.463881, 10.508087</geo></geogName>
+                        <idno>places/2949</idno>
+                        <note>La cartografia storica conserva memoria del monte Villa ricordato come
+                            riferimento per la chiesa di San Donnino.</note>
+                    </place>
+                    <place>
+                        <placeName>Pievepelago (Modena)</placeName>
+                        <placeName type="other"><foreign>Plebs Pelagi</foreign>, <foreign>Plebs
+                                Palavi</foreign>; <foreign>Pelavo</foreign></placeName>
+                        <geogName type="coord"><geo>44.204347, 10.616323</geo></geogName>
+                        <idno>places/2950</idno>
+                        <note>Tiraboschi Dizionario II, pp. 202-203.</note>
                     </place>
                 </listPlace>
                 <listPlace n="Giacomelli Alessandro">
