@@ -4,7 +4,8 @@
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
-                <title/>
+                <title>Milano, Archivio di Stato, Museo Diplomatico, D.D.S., Toscana,
+                    Matilde</title>
             </titleStmt>
             <editionStmt>
                 <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
@@ -13,7 +14,7 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DiSCi UniBo</publisher>
-                <idno type="filename"/>
+                <idno type="filename">doc5058</idno>
                 <availability xml:lang="en" status="free">
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                         texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
@@ -29,9 +30,9 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="#"/>
-                            <rs type="record_source" ref="#"/>
-                            <rs type="document_tradition" ref="#"/>
+                            <rs type="text_type" ref="#">--Ordinatio</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
                             <rs type="fiscal_property"/>
                         </summary>
                         <msItem xml:id="msItem1">
@@ -40,13 +41,14 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate>
-                                <note type="displayed_date"/>
+                            <origDate notBefore="1104-04-24" notAfter="1104-04-25">
+                                <note type="displayed_date">1104 April 24 or 25</note>
                                 <note type="dating_elements"/>
-                                <note type="topical_date"/>
+                                <note type="topical_date">Nogara (verona</note>
                                 <note type="redaction_date"/>
                             </origDate>
-                            <origPlace></origPlace>
+                            <origPlace>Sanctus Benedictus in Pado Lironi; monasterium
+                                (Mantova)</origPlace>
                         </origin>
                         <provenance>
                             <location>
@@ -72,7 +74,7 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2022-02-03" who="other">creation of record</change>
+                <change when="2022-03-10" who="bferretti">creation of record</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -80,11 +82,45 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab/>
+                    <ab>(S.) In Dei nomine amen. Millesimo centesimo quarto, indictione duodecima,
+                        die dominico qui fuit sextus exeunte aprelis. Ego <rs key="#Countess"
+                            >comitissa</rs>
+                        <persName key="#Countess #childOf #grandchildOf" ref="#people/125"
+                            >Matilda</persName>, Dei gratia si quid sum, <rs key="#childOf"
+                            >filia</rs> quondam <persName key="#Marquis/duke #parentOf"
+                            ref="#people/1">Bonifatii</persName>
+                        <rs key="#Marquis/duke">marchionis</rs> tibi <persName key="#Abbots"
+                            ref="#people/2189">Alberico</persName>
+                        <rs key="#Abbots">abbati</rs>
+                        <rs key="#Monasteries">monasterii</rs>
+                        <orgName key="#Monasteries" ref="#juridical_persons/2001">Sancti Benedicti
+                            in Larione</orgName> nomine et vice eiusdem monasterii cui preesse
+                        videris, quicquid pater et <rs key="#grandparentOf">avus</rs> meus <persName
+                            key="#grandparentOf" ref="#people/2122">Tedaldus</persName> dederunt
+                        predicto monasterio Sancti Benedicti in Casalavone, videlicet ecclesiam
+                        Sancti Michaelis de Cotomione, et alias posessiones silicet casamenta, et
+                        agros et roncos de bosco Casalavone, quod nemus est iuris mei; et piscatores
+                        in paludibus illius terre, duos aut tres et plus secundum voluntatem nuntii
+                        tui, per totum in integrum concedo et confirmo in perpetuum, ut tu
+                        supradictus abbas et tui successores habeas et teneas sine mea et heredum
+                        meorum contradictione. Et tibi hanc potestatem concedo et tuis
+                        successoribus, pro anima mea et parentum meorum ut nuncii tui, qui pro
+                        tempore fuerunt ibi, de predicto bosco et aliis nemoribus illius terre
+                        roncare et boscare et pavolare et uti et frui debeant, sine molestia et
+                        contradictione nostra et nostrorum ut supra legitur; quam potestatem
+                        antecessores mei tuis antecessoribus dederunt. Insuper quicquid monasterium
+                        tuum Sancti Benedicti in illa terra mea aquirere vel lucrari poterit, cum
+                        mea licencia et heredum meorum facere debeat; eo modo ut predictum
+                        monasterium Santi Benedicti habeat et teneat omnia predicta cum omni honore
+                        et districtu et bannis. Actum est hoc in castro Nogarie feliciter, presente
+                        Ugone Mantue episcopo. Huius re testes comes Wido Guarra, comes Albertus
+                        filius Bosonis, Arduinus, Gerardus filius Bosonis, Ugo filius Manfredi,
+                        Sasso et Rainerius de Bibianello et Lanfrancus et Opizo de Gonzaga et alii
+                        plures. (S.) Ego Ubaldus iudex notarius hoc scripsi et dedi. </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p/>
+                <p>CDP I n. 57, pp. 197-199.</p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p/>
