@@ -30,10 +30,10 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="#"/>
+                            <rs type="text_type" ref="#">--Transactional breve</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Original</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -74,7 +74,7 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2022-02-03" who="other">creation of record</change>
+                <change when="2022-03-12" who="bferretti">creation of record</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -84,31 +84,48 @@
                 <div type="textpart">
                     <ab>+ (S.) Die sabati qui erat nonus exxeunte mense aprilis. Presencia <rs
                             key="#Boni_viri/boni_homines">bonorum ominum</rs> corum nomina hic
-                        subter leguntur, hi sunt <persName>Girardus</persName>
+                        subter leguntur, hi sunt <persName key="#Boni_viri/boni_homines #childOf"
+                                ><name ref="Gherardus">Girardus</name></persName>
                         <rs key="#childOf">filius</rs>
-                        <persName>Lanfranci</persName>
-                        <rs key="#Judge">iudicis</rs> de <placeName>Casale Alto</placeName> et <rs
-                            key="#parentOf">pater</rs> eius Lanfrancus iudes et
-                            <persName>Martinus</persName>
+                        <persName key="#Judge #parentOf"><name ref="Lanfrancus"
+                            >Lanfranci</name></persName>
+                        <rs key="#Judge">iudicis</rs> de <placeName key="#Gastaldus/vicegastaldus"
+                            ref="#places/2963">Casale Alto</placeName> et <rs key="#parentOf"
+                            >pater</rs> eius Lanfrancus iudes et <persName
+                            key="#Boni_viri/boni_homines #Gastaldus/vicegastaldus"><name
+                                ref="Martinus">Martinus</name></persName>
                         <rs key="#Gastaldus/vicegastaldus">gastaldio</rs> de Casale Alto. Ibique in
-                        eorum presencia <persName>Ardicionus</persName> filius
-                            <persName>Alberti</persName> de <placeName>Forminiano</placeName> et
-                            <persName>Albertus</persName>
-                        <rs key="#siblingOf">frater</rs> eius et <persName>Tedaldus</persName> de
-                            <placeName>Adri</placeName> per lignum quod in suhis manibus tenebant
-                        fecerunt finem et transhaccionem <rs key="#Churches">heclesie</rs>
-                        <orgName>Sancti Benedicti</orgName> per domnum <persName>Anselmum</persName>
+                        eorum presencia <persName
+                            key="#Domus #childOf #siblingOf #Transactional_breve #Decima #Landed_possessions"
+                                ><name ref="Ardicionus">Ardicionus</name></persName> filius
+                            <persName key="#parentOf"><name ref="Albertus">Alberti</name></persName>
+                        de <placeName ref="#places/2964">Forminiano</placeName> et <persName
+                            key="#childOf #siblingOf #Transactional_breve #Decima #Landed_possessions"
+                                ><name ref="Albertus">Albertus</name></persName>
+                        <rs key="#siblingOf">frater</rs> eius et <persName
+                            key="#Transactional_breve #Decima #Landed_possessions"><name
+                                ref="Teudaldus">Tedaldus</name></persName> de <placeName
+                            ref="#places/2965">Adri</placeName> per lignum quod in suhis manibus
+                        tenebant fecerunt finem et transhaccionem <rs key="#Churches">heclesie</rs>
+                        <orgName
+                            key="#Churches #Monks #Missus #Transactional_breve #Decima #Landed_possessions"
+                            ref="#juridical_persons/2001">Sancti Benedicti</orgName> per domnum
+                            <persName key="#Monks #Missus #Transactional_breve"><name ref="Anselmus"
+                                >Anselmum</name></persName>
                         <rs key="#Monks">monahcum</rs> et <rs key="#Missus">missum</rs> de <rs
-                            key="#Decima">decimis</rs> de <rs>bragidis</rs> que fuerunt quondam
-                            <persName>Uberti</persName>
+                            key="#Decima">decimis</rs> de <rs key="#Landed_possessions"
+                            >bragidis</rs> que fuerunt quondam <persName key="#Count"><name
+                                ref="Hubertus">Uberti</name></persName>
                         <rs key="#Count">comitis</rs>. Penam insuper se obbligaverunt wiginti <rs
                             key="#Penalty">librarum denariorum bonorum Mediolanensium</rs> componere
                         siibsi per se aut per suos missos de decimis de bragidis adversus heclesiam
                         vel adversus successores eius agere aut causare presumsisent. Actum est hoc
                         loco Casale Alto, in <rs key="#Domus">domo</rs> Ardicionis feliciter. Anno
                         ab i[nca]rnacione domini nostri Hiesu Christi millesimo centesimo quinto,
-                        mense aprilis, indicione terciadecima. Et ego <persName>Teuzo</persName>
-                        iudex et <rs key="#Notary">notarius</rs> rogatur hunc brevem scribere <rs
+                        mense aprilis, indicione terciadecima. Et ego <persName
+                            key="#Writer #Transactional_breve #Judge #Notary"><name ref="Teutius"
+                                >Teuzo</name></persName> iudex et <rs key="#Notary">notarius</rs>
+                        rogatur hunc <rs key="#Transactional_breve">brevem</rs> scribere <rs
                             key="#Writer">scripsi</rs>. </ab>
                 </div>
             </div>
