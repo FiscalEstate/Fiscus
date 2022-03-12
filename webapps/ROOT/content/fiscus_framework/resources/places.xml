@@ -217,6 +217,9 @@
                         <link type="estates" corresp="#estates/36" subtype="dependsOn"/>
                         <link type="juridical_persons" corresp="#juridical_persons/294"
                             subtype="dependsOn"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/70"
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/149" subtype="isHeldBy"/>
                     </place>
                     <place>
                         <placeName><foreign>Catiana</foreign> (Castelfranco di Sotto;
@@ -561,7 +564,8 @@
                     </place>
                     <place>
                         <placeName>Santa Maria a Monte (Pisa)</placeName>
-                        <placeName type="other"/>
+                        <placeName type="other">Microtoponomastica:
+                            <foreign>Ancliano</foreign></placeName>
                         <geogName type="coord"><geo>43.700940, 10.690000</geo></geogName>
                         <idno>places/63</idno>
                         <note/>
@@ -1413,7 +1417,10 @@
                         <note/>
                         <link type="places" corresp="#places/192" subtype="isPartOf"/>
                         <link type="juridical_persons" corresp="#juridical_persons/92"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
+                        <link type="estates" corresp="#estates/542" subtype="isWithin"/>
+                        <link type="people" corresp="#people/21" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/153" subtype="isGrantedTo"/>
                     </place>
                     <place>
                         <placeName><foreign>Feruniano</foreign> (Sant'Andrea; Palaia;
@@ -1668,6 +1675,10 @@
                             <foreign>castrum</foreign>, centro di coordinamento dei <foreign>fines
                                 Carfanienses</foreign>.</note>
                         <link type="estates" corresp="#estates/212" subtype="correspondsTo"/>
+                        <link type="estates" corresp="#estates/1706" subtype="isWithin"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/70"
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/149" subtype="isHeldBy"/>
                     </place>
                     <place>
                         <placeName>Reggio Emilia</placeName>
@@ -1684,6 +1695,11 @@
                         <geogName type="coord"><geo>45.957594, 13.376541</geo></geogName>
                         <idno>places/192</idno>
                         <note/>
+                        <link type="places" corresp="#places/162" subtype="link"/>
+                        <link type="people" corresp="#people/21" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/153" subtype="isGrantedTo"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/92"
+                            subtype="rendersCollectedBy"/>
                     </place>
                     <place>
                         <placeName>Cegna (Ailano; Caserta)</placeName>
@@ -1806,7 +1822,8 @@
                     </place>
                     <place>
                         <placeName>Careggine (Vagli; Lucca)</placeName>
-                        <placeName type="other"><foreign>Caricini</foreign>; </placeName>
+                        <placeName type="other"><foreign>Caricini</foreign>;
+                                <foreign>Charicini</foreign></placeName>
                         <geogName type="coord"><geo>44.120389, 10.324885</geo></geogName>
                         <idno>places/202</idno>
                         <note/>
@@ -4442,6 +4459,9 @@
                             10.568390152466314</geo></geogName>
                         <idno>places/473</idno>
                         <note>Microtoponomastica: <foreign>Ursiano</foreign>;</note>
+                        <link type="juridical_persons" corresp="#juridical_persons/70"
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/149" subtype="isHeldBy"/>
                     </place>
                     <place>
                         <placeName><foreign>Pecoraria</foreign> (Asti)</placeName>
@@ -4557,7 +4577,8 @@
                     </place>
                     <place>
                         <placeName>Lammari (Capannori; Lucca)</placeName>
-                        <placeName type="other"><foreign>Vico Alahis</foreign></placeName>
+                        <placeName type="other"><foreign>Vico Alahis</foreign>; <foreign>Vico
+                                Alais</foreign></placeName>
                         <geogName type="coord"><geo>43.86938453718477,
                             10.563446200340842</geo></geogName>
                         <idno>places/486</idno>
@@ -4569,6 +4590,9 @@
                         <link type="estates" corresp="#estates/215" subtype="correspondsTo"/>
                         <link type="people" corresp="#people/225" subtype="isHeldBy"/>
                         <link type="people" corresp="#people/137" subtype="isHeldBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/70"
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/149" subtype="isHeldBy"/>
                     </place>
                     <place>
                         <placeName>Sorbano del Vescovo (Lucca; Lucca)</placeName>
@@ -7585,7 +7609,7 @@
                         <idno>places/750</idno>
                         <note><foreign>Per l'identificazione è decisivo: chiesa di S. Frediano
                             </foreign>sita in loco Gricciano, ubi dicitur ad Colle.
-                                <foreign>Microtponimi</foreign>: Deblo Iustuli; Debla; ad Piro
+                                <foreign>Microtoponimi</foreign>: Deblo Iustuli; Debla; ad Piro
                                 <foreign>(= Peri; Camaiore; Lucca 43.911279, 10.2975075)</foreign>;
                             ad Salici.</note>
                     </place>
@@ -7787,6 +7811,9 @@
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/71"
                             subtype="dependsOn"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/70"
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/149" subtype="isHeldBy"/>
                     </place>
                     <place>
                         <placeName>Cigoli (San Miniato; Pisa)</placeName>
@@ -7818,6 +7845,17 @@
                             10.483425750540807</geo></geogName>
                         <idno>places/3112</idno>
                         <note/>
+                    </place>
+                    <place>
+                        <placeName>Nave (Lucca; Lucca)</placeName>
+                        <placeName type="other"><foreign>Nave que dicitur
+                            Erivrandi</foreign></placeName>
+                        <geogName type="coord"><geo>43.85216591646938,
+                            10.457218399501338</geo></geogName>
+                        <idno>places/3113</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/71"
+                            subtype="dependsOn"/>
                     </place>
                 </listPlace>
                 <listPlace n="Belluscio Luca">
@@ -9479,6 +9517,106 @@
                         <link type="people" corresp="#people/631" subtype="isConfirmedTo" cert="low"
                         />
                     </place>
+                    <place>
+                        <placeName><foreign>Palaciolo</foreign> (Palazzolo dello Stella;
+                            Udine)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo>45.803914, 13.078365</geo></geogName>
+                        <idno>places/935</idno>
+                        <note>L’identificazione con Palazzolo dello Stella è abbastanza sicura,
+                            benché l’occupazione per il periodo longobardo non sia documentata da
+                            rinvenimenti archeologici che riguardino strettamente l’area in esame.
+                            Il sito è collocato all’incrocio tra due fiumi, lo
+                                Stella-<foreign>Anaxum</foreign> e il <foreign>Varamus</foreign>,
+                            dove anticamente esisteva un guado, sulla via Annia. Per l’età romana,
+                            l’area rivela indizi di una forte vivacità economica, che associava un
+                            intenso sfruttamento agricolo del suolo con lo svolgimento di attività
+                            produttive di diverso genere, documentate dal rinvenimento di fornaci,
+                            alla presenza di un porto sullo Stella con funzioni commerciali. Le
+                            strutture portuali sono situate più a Sud dell’attuale centro, dov’è
+                            stato individuato un altro nucleo antico, probabilmente la cittadina
+                            vera e propria, con edifici pubblici e di rappresentanza. "Palazzolo"
+                            potrebbe essere un toponimo parlante, forse associato a una dimensione
+                            fiscale del centro, v. Destefanis 1997, p. 76. </note>
+                        <link type="juridical_persons" corresp="#juridical_persons/66"
+                            subtype="dependsOn"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/507"
+                            subtype="dependsOn"/>
+                        <link type="estates" corresp="#estates/504" subtype="isWithin"/>
+                        <link type="people" corresp="#people/636" subtype="isOwnedBy"/>
+                        <link type="people" corresp="#people/635" subtype="isOwnedBy"/>
+                        <link type="people" corresp="#people/634" subtype="isOwnedBy"/>
+                        <link type="people" corresp="#people/633" subtype="isOwnedBy"/>
+                    </place>
+                    <place>
+                        <placeName><foreign>Sogiaco</foreign> (Siacco; Povoletto; Udine)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo>46.130899, 13.314614</geo></geogName>
+                        <idno>places/936</idno>
+                        <note>Destefanis 1997, p. 56. </note>
+                        <link type="juridical_persons" corresp="#juridical_persons/66"
+                            subtype="link"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/507"
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/636" subtype="isHeldBy"/>
+                        <link type="people" corresp="#people/635" subtype="isOwnedBy"/>
+                        <link type="people" corresp="#people/634" subtype="isOwnedBy"/>
+                        <link type="people" corresp="#people/633" subtype="isOwnedBy"/>
+                        <link type="estates" corresp="#estates/504" subtype="isWithin"/>
+                    </place>
+                    <place>
+                        <placeName><foreign>Magretas</foreign> (Magredis; Povoletto;
+                            Udine)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo>46.14214, 13.304272</geo></geogName>
+                        <idno>places/937</idno>
+                        <note>Destefanis 1997, p. 56. </note>
+                        <link type="juridical_persons" corresp="#juridical_persons/66"
+                            subtype="link"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/507"
+                            subtype="dependsOn"/>
+                        <link type="estates" corresp="#estates/504" subtype="isWithin"/>
+                        <link type="people" corresp="#people/636" subtype="isHeldBy"/>
+                        <link type="people" corresp="#people/635" subtype="isOwnedBy"/>
+                        <link type="people" corresp="#people/634" subtype="isOwnedBy"/>
+                        <link type="people" corresp="#people/633" subtype="isOwnedBy"/>
+                    </place>
+                    <place>
+                        <placeName><foreign>Adelliacco</foreign> (Adegliacco di Tavagnacco;
+                            Udine)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo>46.113944, 13.236294</geo></geogName>
+                        <idno>places/938</idno>
+                        <note>Identificato con Adegliacco di Tavagnacco, posto in una zona
+                            pianeggiante tra i torrenti Cormor e Torre, che presenza tracce di
+                            un’intensa occupazione per l’età romana. Il contesto ambientale in cui è
+                            inserito il sito sembra essere stato particolarmente favorevole allo
+                            sfruttamento agricolo e al pascolo, così come la sua ubicazione,
+                            strategica perché collocata in corrispondenza dell’incrocio tra due
+                            importanti stradali della regione per l’età romana e longobarda. Si
+                            tratta dell’asse Aquileia-Norico, che doveva attraversare l’area di
+                            Adegliacco, prima di giungere a Tricesimo e proseguire verso Nord, e
+                            della via cividina che proveniva dal guado sul Torre, presso Salt.
+                            Destefanis 1997, p. 62. </note>
+                    </place>
+                    <place>
+                        <placeName><foreign>Ampicio</foreign> (Ampezzo; Udine)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo>46.415375, 12.782249</geo></geogName>
+                        <idno>places/939</idno>
+                        <note>Il sito si trova nell’alta valle del Tagliamento, in una posizione
+                            privilegiata per il controllo del percorso che conduceva alla valle del
+                            Piave e, da qui, al Bellunese e che, alla sua estremità orientale, era
+                            presidiata dal castrum di Invillino. In prossimità di Ampezzo si trova
+                            un colle, denominato “Cjastelat”, che mostra le tracce di un antico
+                            fortilizio risalente al tardoantico (V-VI sec.). Verosimilmente, il suo
+                            compito era quello di sorvegliare la stretta che, giungendo da Est, è
+                            necessario percorrere per raggiungere il passaggio della Mauria, unico
+                            accesso alla valle del Piave. L’area circostante il centro attuale di
+                            Ampezzo ha restituito abbondanti testimonianze per il periodo
+                            longobardo, a riprova della perdurante importanza strategica del vicus e
+                            della via su cui vigilava, Destefanis 1997, p. 67. </note>
+                    </place>
                 </listPlace>
                 <listPlace n="Collavini Simone">
                     <place>
@@ -10551,7 +10689,7 @@
                         <note>Microtoponimo: <foreign>Cuvulo</foreign> (non ne restano tracce nella
                             topo- e odonomastica)</note>
                         <link type="juridical_persons" corresp="#juridical_persons/1426"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
                         <link type="people" corresp="#people/2100" subtype="isOwnedBy"/>
                     </place>
                     <place>
@@ -10765,7 +10903,7 @@
                         <idno>places/2913</idno>
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/1426"
-                            subtype="link"/>
+                            subtype="dependsOn"/>
                     </place>
                     <place>
                         <placeName>San Casciano (Roncoferraro; Mantova)</placeName>
@@ -10922,7 +11060,7 @@
                         <note/>
                     </place>
                     <place>
-                        <placeName>Lambrianum (Bologna)</placeName>
+                        <placeName><foreign>Lambrianum</foreign> (Bologna)</placeName>
                         <placeName type="other"/>
                         <geogName type="coord"><geo/></geogName>
                         <idno>places/2933</idno>
@@ -10943,11 +11081,17 @@
                         <note/>
                     </place>
                     <place>
-                        <placeName><foreign>Coturlione</foreign></placeName>
-                        <placeName type="other"/>
+                        <placeName><foreign>Coturlione</foreign> (Casaleone; Verona)</placeName>
+                        <placeName type="other"><foreign>Coternione</foreign></placeName>
                         <geogName type="coord"><geo/></geogName>
                         <idno>places/2936</idno>
-                        <note/>
+                        <note>La località è scomparsa senza lasciar tracce topo- e odonomastiche, ma
+                            un documento del 1104 (CDP I n. 57, pp. 197-199) la colloca presso
+                            Casaleone (Verona).</note>
+                        <link type="places" corresp="#places/2959" subtype="proximity"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/2001"
+                            subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/125" subtype="isConfirmedBy"/>
                     </place>
                     <place>
                         <placeName>Malamocco (Venezia)</placeName>
@@ -11042,6 +11186,136 @@
                         <placeName type="other"><foreign>Camuriana</foreign></placeName>
                         <geogName type="coord"><geo>44.862372, 11.078013</geo></geogName>
                         <idno>places/2948</idno>
+                        <note/>
+                    </place>
+                    <place>
+                        <placeName>San Donnino (Carpineti; Reggio Emilia)</placeName>
+                        <placeName type="other"><foreign>ecclesia Sancti Donnini sita in monte
+                                Ville</foreign></placeName>
+                        <geogName type="coord"><geo>44.463881, 10.508087</geo></geogName>
+                        <idno>places/2949</idno>
+                        <note>La cartografia storica conserva memoria del monte Villa ricordato come
+                            riferimento per la chiesa di San Donnino.</note>
+                    </place>
+                    <place>
+                        <placeName>Pievepelago (Modena)</placeName>
+                        <placeName type="other"><foreign>Plebs Pelagi</foreign>, <foreign>Plebs
+                                Palavi</foreign>; <foreign>Pelavo</foreign></placeName>
+                        <geogName type="coord"><geo>44.204347, 10.616323</geo></geogName>
+                        <idno>places/2950</idno>
+                        <note>Tiraboschi Dizionario II, pp. 202-203.</note>
+                    </place>
+                    <place>
+                        <placeName>Felina (Castelnuovo ne' Monti; Reggio Emilia)</placeName>
+                        <placeName type="other"><foreign>Fellina</foreign></placeName>
+                        <geogName type="coord"><geo>44.451628, 10.457243</geo></geogName>
+                        <idno>places/2951</idno>
+                        <note>Microtoponimi: <foreign>Mandria</foreign>, o <foreign>Mandra</foreign>
+                            (Tiraboschi Dizionario II, pp. 10-12).</note>
+                    </place>
+                    <place>
+                        <placeName>Roteglia (Reggio Emilia)</placeName>
+                        <placeName type="other"><foreign>Rodilia</foreign>;
+                                <foreign>Rodelia</foreign></placeName>
+                        <geogName type="coord"><geo>44.484145, 10.683225</geo></geogName>
+                        <idno>places/2952</idno>
+                        <note>Tiraboschi Dizionario II, pp. 264-268.</note>
+                    </place>
+                    <place>
+                        <placeName>Gaio</placeName>
+                        <placeName type="other"><foreign>Gaium</foreign>;
+                            <foreign>Gajum</foreign></placeName>
+                        <geogName type="coord"><geo/></geogName>
+                        <idno>places/2953</idno>
+                        <note>Tiraboschi Dizionario I, pp. 325-326.</note>
+                    </place>
+                    <place>
+                        <placeName>Corte Ginepre (Roncoferraro; Mantova)</placeName>
+                        <placeName type="other"><foreign>insula Zenevre</foreign></placeName>
+                        <geogName type="coord"><geo>45.104037, 10.925815</geo></geogName>
+                        <idno>places/2954</idno>
+                        <note>Località oggi scomparsa, senza lasciare tracce topo-, odonomastiche,
+                            ma che il Paglia (1879, p. 324) è ancora in grado collocara a S di
+                            Garolda.</note>
+                    </place>
+                    <place>
+                        <placeName>Roncoferraro (Mantova)</placeName>
+                        <placeName type="other"><foreign>Rongoferrario</foreign></placeName>
+                        <geogName type="coord"><geo>45.13559, 10.95084</geo></geogName>
+                        <idno>places/2955</idno>
+                        <note/>
+                    </place>
+                    <place>
+                        <placeName>Garolda (Roncoferraro; Mantova)</placeName>
+                        <placeName type="other"><foreign>Waraldola</foreign></placeName>
+                        <geogName type="coord"><geo>45.110962, 10.924808</geo></geogName>
+                        <idno>places/2956</idno>
+                        <note/>
+                    </place>
+                    <place>
+                        <placeName>Bagnolo San Vito (Mantova)</placeName>
+                        <placeName type="other"><foreign>Bagnolo</foreign></placeName>
+                        <geogName type="coord"><geo>45.092238, 10.880277</geo></geogName>
+                        <idno>places/2957</idno>
+                        <note/>
+                    </place>
+                    <place>
+                        <placeName>Carpi (Modena)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo>44.782796, 10.88525</geo></geogName>
+                        <idno>places/2958</idno>
+                        <note/>
+                    </place>
+                    <place>
+                        <placeName>Casaleone (Verona)</placeName>
+                        <placeName type="other"><foreign>Casalavone</foreign></placeName>
+                        <geogName type="coord"><geo>45.170071, 11.196213</geo></geogName>
+                        <idno>places/2959</idno>
+                        <note/>
+                    </place>
+                    <place>
+                        <placeName>Piadena (Cremona)</placeName>
+                        <placeName type="other"><foreign>Platena</foreign></placeName>
+                        <geogName type="coord"><geo>45.130417, 10.367137</geo></geogName>
+                        <idno>places/2960</idno>
+                        <note/>
+                    </place>
+                    <place>
+                        <placeName>Coscogno (Pavullo nel Frignano; Modena)</placeName>
+                        <placeName type="other"><foreign>Cusconia</foreign></placeName>
+                        <geogName type="coord"><geo>44.393337, 10.873847</geo></geogName>
+                        <idno>places/2961</idno>
+                        <note/>
+                        <link type="estates" corresp="#estates/208" subtype="isWithin"/>
+                    </place>
+                    <place>
+                        <placeName>Montichiari (Brescia)</placeName>
+                        <placeName type="other"><foreign>Monte Claro</foreign></placeName>
+                        <geogName type="coord"><geo>45.41512, 10.388778</geo></geogName>
+                        <idno>places/2962</idno>
+                        <note/>
+                    </place>
+                    <place>
+                        <placeName>Casaloldo (Mantova)</placeName>
+                        <placeName type="other"><foreign>Casale Alto</foreign></placeName>
+                        <geogName type="coord"><geo>45.254607, 10.474094</geo></geogName>
+                        <idno>places/2963</idno>
+                        <note/>
+                    </place>
+                    <place>
+                        <placeName>Formignano (Solto Collina; Bergamo)</placeName>
+                        <placeName type="other"><foreign>Forminiano</foreign></placeName>
+                        <geogName type="coord"><geo>45.787528, 10.034601</geo></geogName>
+                        <idno>places/2964</idno>
+                        <note>L'identificazione di Forminaino con Formignano, località scomparsa di
+                            cui resta solo traccia odonomastica (via Furmignanao), è
+                            ipotetica.</note>
+                    </place>
+                    <place>
+                        <placeName>Adro (Brescia)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo>45.621643, 9.961087</geo></geogName>
+                        <idno>places/2965</idno>
                         <note/>
                     </place>
                 </listPlace>
@@ -11299,6 +11573,21 @@
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/3206"
                             subtype="dependsOn"/>
+                    </place>
+                    <place>
+                        <placeName>Grofolesco (Montevettolini; Monsummano Terme;
+                            Pistoia)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo>43.8576238, 10.8456609</geo></geogName>
+                        <idno>places/3229</idno>
+                        <note/>
+                    </place>
+                    <place>
+                        <placeName>Poggighisi (San Miniato; Pisa)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo>43.6798158, 10.8686642</geo></geogName>
+                        <idno>places/3230</idno>
+                        <note>Tomei 2018a.</note>
                     </place>
                 </listPlace>
                 <listPlace n="Internullo Dario">
@@ -14488,7 +14777,7 @@
                         <placeName type="other"><foreign>Poligno</foreign></placeName>
                         <geogName type="coord"><geo>43.6404343, 10.7208132</geo></geogName>
                         <idno>places/2127</idno>
-                        <note>Il toponimo va identificato presso Cerretello nella zona in cui sono
+                        <note>Il toponimo va identificato presso Cerretello, nella zona in cui sono
                             stati rinvenuti scarichi di fornace per il periodo compreso fra XI e
                             inizio del secolo XII. Cfr. Tomei 2019a, p. 69. Microtoponomastica:
                                 <foreign>Villa</foreign>.</note>
@@ -14518,6 +14807,33 @@
                         <idno>places/2130</idno>
                         <note>Microtoponomastica: <foreign>Trugnano</foreign>.</note>
                         <link type="estates" corresp="#estates/1702" subtype="dependsOn"/>
+                    </place>
+                    <place>
+                        <placeName><foreign>Silvanello</foreign> (Pescaglia; Lucca)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo>43.9224826, 10.4241072</geo></geogName>
+                        <idno>places/2131</idno>
+                        <note/>
+                    </place>
+                    <place>
+                        <placeName>Castagnori (Lucca; Lucca)</placeName>
+                        <placeName type="other"><foreign>Castagnulo</foreign></placeName>
+                        <geogName type="coord"><geo>43.8749301, 10.5041025</geo></geogName>
+                        <idno>places/2132</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/70"
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/149" subtype="isHeldBy"/>
+                    </place>
+                    <place>
+                        <placeName><foreign>Rogano</foreign> (Lucca; Lucca)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo>43.8864925, 10.4606394</geo></geogName>
+                        <idno>places/2133</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/70"
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/149" subtype="isHeldBy"/>
                     </place>
                 </listPlace>
                 <listPlace n="Vignodelli Giacomo">
