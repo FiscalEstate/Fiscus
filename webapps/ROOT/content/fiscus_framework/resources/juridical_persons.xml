@@ -110,11 +110,20 @@
                     <link type="places" corresp="#places/11"
                         subtype="bordersOn"/>
                     <link type="juridical_persons" corresp="#juridical_persons/34" subtype="link"/>
-                    <link type="people" corresp="#people/15" subtype="link"/>
-                    <link type="people" corresp="#people/13" subtype="link"/>
-                    <link type="people" corresp="#people/21" subtype="link"/>
-                    <link type="places" corresp="#places/39" subtype="link"/>
-                    <link type="places" corresp="#places/11" subtype="link"/>
+                    <link type="people" corresp="#people/15" subtype="allianceWith"/>
+                    <link type="people" corresp="#people/14" subtype="allianceWith"/>
+                    <link type="people" corresp="#people/21" subtype="allianceWith"/>
+                    <link type="places" corresp="#places/39" subtype="dependsOn"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/47"
+                            subtype="link"/>
+                        <link type="people" corresp="#people/13" subtype="rectorOf"/>
+                        <link type="people" corresp="#people/633" subtype="isOwnedBy"/>
+                        <link type="people" corresp="#people/634" subtype="isOwnedBy"/>
+                        <link type="people" corresp="#people/635" subtype="isOwnedBy"/>
+                        <link type="people" corresp="#people/636" subtype="isOwnedBy"/>
+                        <link type="people" corresp="#people/638" subtype="link"/>
+                        <link type="people" corresp="#people/637" subtype="link"/>
+                        <link type="people" corresp="#people/639" subtype="link"/>
                 </org>
                 <org>
                     <orgName>Casa Dei; coenobium (Cadeo; Piacenza)</orgName>
@@ -2571,6 +2580,19 @@
                         <idno>juridical_persons/3110</idno>
                         <note/>
                     </org>
+                    <org>
+                        <orgName>Sanctus Salvator; ecclesia (San Lorenzo a Vaccoli; Lucca)</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/3111</idno>
+                        <note/>
+                    </org>
+                    <org>
+                        <orgName> Sanctus Iohannes; ecclesia (San Michele in Escheto;
+                            Lucca)</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/3112</idno>
+                        <note/>
+                    </org>
                 </listOrg>
                 <listOrg n="Belluscio Luca">
                     <org>
@@ -2893,7 +2915,7 @@
                     </org>
                     <org>
                         <orgName>Sancta Maria; Iohannis Baptista et Petrus apostolus in Salto;
-                            monasterium </orgName>
+                            monasterium (Salt; Povoletto; Udine)</orgName>
                         <orgName type="other"/>
                         <idno>juridical_persons/507</idno>
                         <note/>
@@ -2905,6 +2927,32 @@
                         <link type="people" corresp="#people/633" subtype="isOwnedBy"/>
                         <link type="places" corresp="#places/921" subtype="isWithin"/>
                         <link type="estates" corresp="#estates/504" subtype="isWithin"/>
+                    </org>
+                    <org>
+                        <orgName>Sanctus Michael Archangelus; monasterium (Brondolo; Chioggia;
+                            Venezia)</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/508</idno>
+                        <note>L'ipotesi più probabile di identificazione del monastero di San
+                            Michele Arcangelo menzionato in CDL, II, n. 162 (762) è con San Michele
+                            in Brondolo. </note>
+                        <link type="juridical_persons" corresp="#juridical_persons/66"
+                            subtype="link"/>
+                    </org>
+                    <org>
+                        <orgName>Sanctus Salvator; oratorium (Lorenzaga; Motta di Livenza;
+                            Treviso)</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/509</idno>
+                        <note/>
+                        <link type="places" corresp="#places/920" subtype="isWithin"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/66"
+                            subtype="isOwnedBy"/>
+                        <link type="estates" corresp="#estates/524" subtype="isWithin"/>
+                        <link type="people" corresp="#people/633" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/634" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/635" subtype="link"/>
+                        <link type="people" corresp="#people/636" subtype="link"/>
                     </org>
                 </listOrg>
                 <listOrg n="Collavini Simone">
@@ -4150,6 +4198,13 @@
                         <idno>juridical_persons/3212</idno>
                         <note/>
                         <link type="places" corresp="#places/3224" subtype="isWithin"/>
+                    </org>
+                    <org>
+                        <orgName>Sanctus Laurentius; ecclesia (Santa Maria a Monte; Pisa)</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/3213</idno>
+                        <note/>
+                        <link type="places" corresp="#places/3231" subtype="isWithin"/>
                     </org>
                 </listOrg>
                 <listOrg n="Internullo Dario">
@@ -5397,7 +5452,7 @@
                     <org>
                         <orgName>Sanctus Fridianus de Lunata; plebs</orgName>
                         <orgName type="other"/>
-                        <idno>juridical_persons/3305</idno>
+                        <idno>juridical_persons/3304</idno>
                         <note/>
                         <link type="places" corresp="#places/473" subtype="isWithin"/>
                     </org>

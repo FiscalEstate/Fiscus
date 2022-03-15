@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Lucca, Archivio di Stato, Diplomatico, Altopascio, 1162 giugno 13</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2022">2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DiSCi UniBo</publisher>
+                <idno type="filename">doc2437</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+                </availability>
+                <date when="2022"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Venditio</rs>
+                            <rs type="record_source" ref="#">Original document</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property">No</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="1162-06-13">
+                                <note type="displayed_date">1162 June 13</note>
+                                <note type="dating_elements">Stile dell'incarnazione</note>
+                                <note type="topical_date">Gangalandi (Lastra a Signa,
+                                    Firenze)</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace></origPlace>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-03-14" who="agiacomelli">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>(S) In nomine domini dei eterni, anno ab incarnatione eius millesimo
+                        centesimo LXII, iduus iunii, indictione X. Manifesti sumus nos <persName
+                            ref="#people/3235">Bonifatius</persName> et <persName ref="#people/3234"
+                            >Buiamonte</persName> germani fili quondam <persName ref="#people/3227"
+                            >Uguicioni</persName> et uxoris illorum <persName ref="#people/3237"
+                            >Cangniola</persName> filia <persName><name ref="Widuccius"
+                                >Guiducci</name></persName> uxor Bonifatii et <persName
+                            ref="#people/3236">Giemma</persName> filia <persName><name
+                                ref="Aldebrandus">Aldobrandi</name></persName> uxor Buiamonti (…)
+                        interrogate a <persName key="#Writer #Notary #Judge"><name ref="Piculus"
+                                >Picculo</name></persName>
+                        <rs key="#Judge">iudice</rs>, quia per hanc cartulam venditionis vindimus et
+                        tradimus in <orgName key="#Hospitals" ref="#juridical_persons/3206"><rs
+                                key="#Hospitals">osspitale</rs>
+                            <placeName key="#Hospitals" ref="#places/3207"
+                            >Altipasti</placeName></orgName> idem unam petia terra que est posita a
+                            <placeName ref="#places/3210" key="#Rivers #Roads">Puteum
+                            Adimaringum</placeName>, ubi Vignale vocatur (…) cui de una parte est
+                        fini terra caput in <rs key="#Rivers">Giusciana</rs>, de secunda parte est
+                        finis terra <rs key="#Roads">via publica</rs> currit. De tertia parte est
+                        finis terra de ipso ospitele latus et de filii Uguicioni bene terminata. De
+                        quarta parte est finis terra <persName ref="#people/3217">Adimari</persName>
+                        filii quondam <persName ref="#people/3218">Alberti</persName>. (…)
+                            <foreign>Prezzo</foreign>: libre viginti et quatuor de bonis de Lucca et
+                        di Pisa. (…) <foreign>Pena</foreign>: duppla. (…) Actum <placeName
+                            ref="#places/3227">Gangalandi</placeName>
+                        <rs key="#Comitatus">comitatu</rs>
+                        <geogName ref="#estates/83" key="#Comitatus">florentino</geogName>. Signum
+                        manum supradictorum iugalium qui hanc cartulam venditionis sicut supra
+                        legitur fieri rogaverunt. Signum manum <rs key="#Priests">presbiteri</rs>
+                        <persName key="#Priests"><name ref="Iohannes">Iohanni</name></persName>, qui
+                        hanc cartula venditionis fieri rogavit. Signa manuum <persName
+                            key="#Witness"><name ref="Grullus">Grulli</name></persName> filii
+                        quondam <persName><name ref="Oddolinus">Hocdolini</name></persName> et
+                            <persName key="#Witness"><name ref="Hugo">Ugui</name></persName> filii
+                        quondam <persName><name ref="Odalricus">Odarrichi</name></persName> et
+                            <persName key="#Witness"><name ref="Zoppus Moricti">Zoppi
+                            Moricti</name></persName> qui ibidem fuerunt rogatis <rs key="#Witness"
+                            >testes</rs>. (S) Ego Picculus <rs key="#Notary">notarius</rs> scriptor
+                        post tradita complevi.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p><ref>https://www.archiviodigitale.icar.beniculturali.it/it/185/ricerca/detail/536819</ref></p>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
