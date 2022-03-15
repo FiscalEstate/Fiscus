@@ -29,10 +29,10 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="#"/>
-                            <rs type="record_source" ref="#"/>
-                            <rs type="document_tradition" ref="#"/>
-                            <rs type="fiscal_property"/>
+                            <rs type="text_type" ref="#">-Cartula</rs>
+                            <rs type="record_source" ref="#">Original document</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property">No</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -40,10 +40,10 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate>
-                                <note type="displayed_date"/>
-                                <note type="dating_elements"/>
-                                <note type="topical_date"/>
+                            <origDate when="1170-05-08">
+                                <note type="displayed_date">1170 May 8</note>
+                                <note type="dating_elements">Stile dell'incarnazione</note>
+                                <note type="topical_date">Montecuccari (Terricciola, Pisa)</note>
                                 <note type="redaction_date"/>
                             </origDate>
                             <origPlace></origPlace>
@@ -82,32 +82,44 @@
                 <div type="textpart">
                     <ab>(S) In nomine domini dei eterni, anno incarnationis eius millesimo centesimo
                         septuagesimo, VIII idus madii, indictione III. Manifesti sumus nos
-                            <persName>Berardinus</persName> quondam <persName>Malepethe</persName>
-                        et <persName>Berta</persName> iugalis eius et filia
-                            <persName>Petri</persName> quia comuniter (…) ubi interesse (vi)detur
-                        notitia duorum meorum propinquorum, videlicet
-                            <persName>Lotteringi</persName> et <persName>Guidonis</persName>
-                        germanorum quondam <persName>Albertini</persName>, (…) per hanc cartulam
-                        damus et tradimus tibi deo et <orgName><rs>ospitali</rs>
-                            <placeName>Teupasci</placeName></orgName> tres nostras petias de terra
-                        partim pro pretio, partim pro remedio animarum nostrarum. Que sunt in
-                        districhto de <placeName>Paule</placeName>, quarum una tenet unum caput in
+                                <persName><name ref="Berardinus">Berardinus</name></persName>
+                        quondam <persName><name ref="Malapetha">Malepethe</name></persName> et
+                                <persName><name ref="Berta">Berta</name></persName> iugalis eius et
+                        filia <persName><name ref="Petrus">Petri</name></persName> quia comuniter
+                        (…) ubi interesse (vi)detur notitia duorum meorum propinquorum, videlicet
+                                <persName><name ref="Lotteringus">Lotteringi</name></persName> et
+                                <persName><name ref="Wido">Guidonis</name></persName> germanorum
+                        quondam <persName><name ref="Albertinus">Albertini</name></persName>, (…)
+                        per hanc cartulam damus et tradimus tibi deo et <orgName key="#Hospitals"
+                            ref="#juridical_persons/3206"><rs key="#Hospitals">ospitali</rs>
+                            <placeName key="#Hospitals" ref="#places/3207"
+                            >Teupasci</placeName></orgName> tres nostras petias de terra partim pro
+                        pretio, partim pro remedio animarum nostrarum. Que sunt in districhto de
+                            <placeName>Paule</placeName>, quarum una tenet unum caput in
                             <placeName>Podio Corioli</placeName> et aliud caput in rivo, unum latum
-                        in terra <persName>Tafurelli</persName> et aliud latus in terra
-                            <persName>Paganinga</persName>. Et alie que sunt in alio podio (…),
-                        quarum una tenet unum caput in via et aliud caput in fossa, et latus in
-                        terra <persName>Bernarducii</persName> et alia petia a duabus partibus est
-                        terra predicti Bernarducii in eodem podio. (…) Pro qua nostra datione
-                        pretium recepimus a predicto ospitale sol. decem (…).
-                            <foreign>Pena</foreign>: in duplum (…) et insuper penam XX sol. Actum
-                            <placeName>Montis Cuccari</placeName>. Signa manuum suprascriptorum
-                        iugalium (…). <persName>Calvettus</persName> quondam
-                            <persName>Iohannis</persName>, <persName>Rienis</persName> quondam
-                            <persName>Petri</persName>, <persName>Ranucius</persName> filius
-                            <persName>Arturetti</persName> testes. Et prefati iugales precipierunt
-                        presbitero <persName>Rambotto</persName>, qui mitteret in posessionem illius
-                        ospitalis rectorem. (S) Ego <persName>Bonacursus</persName> notarius
-                        apostolice sedis post traditam complevi et dedi.</ab>
+                        in terra <persName><name ref="Tafurellus">Tafurelli</name></persName> et
+                        aliud latus in terra Paganinga. Et alie que sunt in alio podio (…), quarum
+                        una tenet unum caput in via et aliud caput in fossa, et latus in terra
+                                <persName><name ref="Bernarduccius">Bernarducii</name></persName> et
+                        alia petia a duabus partibus est terra predicti Bernarducii in eodem podio.
+                        (…) Pro qua nostra datione pretium recepimus a predicto ospitale sol. decem
+                        (…). <foreign>Pena</foreign>: in duplum (…) et insuper penam XX sol. Actum
+                            <placeName ref="#places/217">Montis Cuccari</placeName>. Signa manuum
+                        suprascriptorum iugalium (…). <persName key="#Witness"><name ref="Calvus"
+                                >Calvettus</name></persName> quondam <persName><name ref="Iohannes"
+                                >Iohannis</name></persName>, <persName key="#Witness"><name
+                                ref="Rienis">Rienis</name></persName> quondam <persName><name
+                                ref="Petrus">Petri</name></persName>, <persName key="#Witness"><name
+                                ref="Rainuccius">Ranucius</name></persName> filius <persName><name
+                                ref="Arturus">Arturetti</name></persName>
+                        <rs key="#Witness">testes</rs>. Et prefati iugales precipierunt <rs
+                            key="#Priests">presbitero</rs>
+                        <persName key="#Priests"><name ref="Ragibodus">Rambotto</name></persName>,
+                        qui mitteret in posessionem illius ospitalis rectorem. (S) Ego <persName
+                            key="#Writer #Notary"><name ref="Bonaccursus"
+                            >Bonacursus</name></persName>
+                        <rs key="#Notary">notarius</rs> apostolice sedis post traditam complevi et
+                        dedi.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
