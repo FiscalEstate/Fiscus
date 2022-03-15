@@ -4,7 +4,8 @@
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
-                <title/>
+                <title>Milano, Archivio di Stato, Pergamene per fondi, Mantova, S. Benedetto Po,
+                    cart. 205, n. 7</title>
             </titleStmt>
             <editionStmt>
                 <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
@@ -13,7 +14,7 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DiSCi UniBo</publisher>
-                <idno type="filename"/>
+                <idno type="filename">doc5068</idno>
                 <availability xml:lang="en" status="free">
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                         texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
@@ -29,9 +30,9 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="#"/>
-                            <rs type="record_source" ref="#"/>
-                            <rs type="document_tradition" ref="#"/>
+                            <rs type="text_type" ref="#">-Papal concession</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
                             <rs type="fiscal_property"/>
                         </summary>
                         <msItem xml:id="msItem1">
@@ -40,13 +41,14 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate>
-                                <note type="displayed_date"/>
+                            <origDate when="1107-09-01">
+                                <note type="displayed_date">1107 September 1</note>
                                 <note type="dating_elements"/>
-                                <note type="topical_date"/>
+                                <note type="topical_date">Modena</note>
                                 <note type="redaction_date"/>
                             </origDate>
-                            <origPlace></origPlace>
+                            <origPlace>Sanctus Benedictus in Pado Lironi; monasterium
+                                (Mantova)</origPlace>
                         </origin>
                         <provenance>
                             <location>
@@ -72,7 +74,7 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2022-02-03" who="other">creation of record</change>
+                <change when="2022-03-15" who="bferretti">creation of record</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -80,11 +82,58 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab/>
+                    <ab>*<persName key="#Bishops #Popes #Witness" ref="#people/52"
+                            >Paschalis</persName>
+                        <rs key="#Bishops">episcopus</rs>
+                        <rs key="#Popes">servus servorum</rs> Dei dilecto filio <persName
+                            key="#Abbots" ref="#people/2189">Alberico</persName>
+                        <rs key="#Abbots">abbati</rs>
+                        <rs key="#Monasteries #Abbots #Monks #Other_clerics #Churches #Altars"
+                            >monasterii</rs>
+                        <orgName key="#Monasteries" ref="#juridical_persons/2001">Sancti Benedic* ti
+                            quod iuxta Padum situm est</orgName> eiusque fratribus imperpetuum.
+                        Ecclesiae filios per prophetam Spiritus Sanctus admonet dicens: Vacate et
+                        videte quoniam ego sum Deus. Debemus igitur nos quibus ecclesiae cura
+                        commissa est filiorum nostrorum quieti attentius providere ut divine visioni
+                        vigilantius vacare prevaleant. Ea propter karissimi in domino filii hoc
+                        vobis apostolicae provisionis munimen impendimus. Ut nulli episcopo vel <rs
+                            key="#Archbishops">archiepiscopo</rs> facultas sit cenobium vestrum aut
+                        cellas vestras, et conversantes illic fratres <rs key="#Monks">monachos</rs>
+                        sive <rs key="#Other_clerics">clericos</rs> excommunicare vel interdicere.
+                        Nec episcopis, aut episcoporum ministris liceat claustri vestri vel cellarum
+                        fratres inquietare pro elemosinis quas de suo iure quisquam pro vivorum seu
+                        defunctorum salute obtulerit. Sed eas in usus congruos dispensandas preter
+                        eorum calumnias recipere, nisi forte excommunicati sint, licentiam habeatis.
+                        Porro <rs key="#Churches">ecclesiarum</rs> sive <rs key="#Altars"
+                            >altarium</rs> consecrationes, et ecclesiasticorum ordinum promotiones
+                        congregationis vestre fratres monachi sive clerici ab episcopis in quorum
+                        diocesibus sunt, reverenter accipiant. Siquidem gratis ac sine ullius
+                        condictionis exactione voluerint exhibere. Alioquin a catholico quem
+                        maluerint episcopo consecrationum ipsarum sacramenta suscipiant. Si quis
+                        autem decreti presentis conscius contra id temere venire temptaverit,
+                        honoris et officii sui iacturam subeat nisi presumptionem suam digna
+                        satisfactione correxerit. R. Ego Paschalis catholice Ecclesie Episcopus <rs
+                            key="#Witness">SS</rs>. BENE VALETE. Datum <placeName ref="#places/38"
+                            >Mutine</placeName>
+                        <rs key="#Writer">per manum</rs>
+                        <persName key="#Deacons #Cardinals #Writer" ref="#people/2177"
+                            >Iohannis</persName>
+                        <orgName ref="#juridical_persons/1100">Sanctae Romanae Ecclesiae</orgName>
+                        <rs key="#Deacons #Cardinals">diaconi cardinalis</rs> ac bibliothecarii.
+                        Kalendas Septembri. Indictione I. Incarnationis Dominicę anno M.C.VII.
+                        Pontificatus autem domini Pascalis secundi papae IX. + Ego <persName
+                            key="#Priests #Cardinals #Witness" ref="#people/2176">Risus</persName>
+                        <rs key="#Priests">presbiter</rs> tituli Damasi SS. Ego <persName
+                            key="#Priests #Cardinals #Witness">Landulfus</persName> presbiter
+                        cardinalis tituli Lucinae SS. Ego <persName
+                            key="#Priests #Cardinals #Witness">Divizo</persName> presbiter
+                        cardinalis tituli beati Martini et Sancti Silvestri SS. Ego <persName
+                            key="#Deacons #Witness">Berardus</persName> Romanę ecclesiaę diaconus
+                        SS. </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p/>
+                <p>CDP I n. 67, pp. 222-223.</p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p/>
