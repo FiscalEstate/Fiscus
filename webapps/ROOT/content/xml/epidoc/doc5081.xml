@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Milano, Archivio di Stato, Pergamene, Mantova, S. Benedetto di Polirone,
+                    cart.  205, n. 11</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2022">2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DiSCi UniBo</publisher>
+                <idno type="filename">doc5081</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+                </availability>
+                <date when="2022"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Promissio</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property">Yes</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="1112-02-08">
+                                <note type="displayed_date">1112 February 8</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Mantova</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace>Sanctus Benedictus in Pado Lironi; monasterium
+                                (Mantova)</origPlace>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-03-18" who="bferretti">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>(S.) In nomine domini Dei eterni. Anno ab incarnacione domini nostri Iesu
+                        Christi millesimo centesimo duodecimo, octavo die intrante mense februarii,
+                        indicione quinta. Presentia <rs key="#Boni_viri/boni_homines">bonorum
+                            hominum</rs>
+                        <rs key="#Roman">Romanorum</rs> et <rs key="#Lombard">Longobardorum</rs>
+                        quorum nomina subter leguntur. Per fustem de manu refutavit et finem fecit
+                            <persName key="#childOf #Roman #Landed_possessions #Decima"
+                            >Adam</persName>
+                        <rs key="#childOf #Roman">filius</rs> itemque <persName key="#parentOf"
+                            >Adam</persName> de <placeName>Calino</placeName> qui est habitator in
+                            <rs key="#Vici">vico</rs>
+                        <placeName key="#Vici" ref="#places/2475">Medule</placeName> qui professus
+                        est ex natione sua lege vivere Romana, in manum <persName
+                            key="#Monks #Missus #Monasteries">Fethrici</persName>
+                        <rs key="#Monks">monachi</rs>
+                        <rs key="#Missus">missus</rs>
+                        <rs key="#Monasteries">monasterii</rs>
+                        <orgName
+                            key="#Monks #Missus #Monasteries #Churches #Landed_possessions #Decima #Hospitals"
+                            ref="#juridical_persons/2001">Sancti Benedicti siti inter Padum et
+                            Lagironem</orgName>, omnem <rs key="#Decima">decimam</rs> quod ammodo in
+                        antea exierit de <rs key="#Landed_possessions">bragidis</rs> quas <persName
+                            key="#Count" ref="#people/2181">Ubertus</persName>
+                        <rs key="#Count #Landed_possessions #Decima">comes</rs> dedit <rs
+                            key="#Churches">ecclesię</rs>
+                        <orgName key="#Churches #Landed_possessions #Decima"
+                            ref="#juridical_persons/2066">Sancti Viti</orgName> constructe in loco
+                        qui dicitur Medule et insuper omnes querimonias quantascumque usque nunc
+                        adversus predictam ecclesiam querebat in integro, ita ut ab hac die ipse
+                        Adam et sui heredes sint exinde taciti et contempti, et ipse Fethricus et
+                        sui successores ad partem suprascripti monasterii sint exinde omni tempore
+                        securi soluti et indempnes. Et spopondit se ipse Adam suosque heredes eidem
+                        Fethrico suisque successoribus ad partem suprascripti monasterii de iam
+                        dictis causis ut si unquam in tempore agere aut causare vel removere
+                        presumpserint per se ipsos aut eorum summitentes personas et taciti exinde
+                        omni tempore non permanserint ut tunc componant ipse Adam suique heredes
+                        eidem Fedrico suisque successoribus pena <rs key="#Penalty">argentum libras
+                            decem denariorum bonorum Mediolanensium</rs> et taciti permaneant. Et
+                        fuit ipse Adam confessus quod pro hac causa habet susceptum ex parte
+                        suprascripti monasterii participacionem omnium oracionum et elemosinarum
+                        quod ammodo in monasterio fierent ut hoc suum factum omni tempore firmum
+                        permaneat atque persistat, et nec michi qui supra Adam liceat ullo tempore
+                        nolle quod volui, sed quod a me semel factum vel conscriptum est
+                        inviolabiliter conservare promitto cum stipulacione subnixa. Actum in <rs
+                            key="#Burgi #Hospitals">burgo</rs>
+                        <placeName key="#Burgi" ref="#places/275">Mantue</placeName>, in <orgName
+                            ref="#juridical_persons/2077"><rs key="#Hospitals"
+                            >ospitale</rs></orgName> suprascripti monasterii feliciter. Signum +++
+                        manus suprascripti Adam qui hoc scriptum fieri rogavit ut supra. Signa +++
+                        +++ +++ +++ +++ manuum Iohannis filii Martini magistri, Alberti Faustinonis,
+                        Zenonis gener Cepethani, Vitalis de Gruenzola, Iohannis Boscet lege
+                        Romanorum et Longobardorum viventes rogati testes. (S.) Ego
+                        <persName key="#Notary #Writer"><name>Ildeprandus</name></persName>
+                        <rs key="#Notary">notarius</rs> Sacri Palacii interfui et rogatus <rs
+                            key="#Writer">scripsi</rs>. </ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>CDP I n. 80, pp. 253-255.</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
