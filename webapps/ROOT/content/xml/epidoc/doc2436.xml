@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Lucca, Archivio di Stato, Diplomatico, Altopascio, 1163 novembre 26</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2022">2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DiSCi UniBo</publisher>
+                <idno type="filename">doc2436</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+                </availability>
+                <date when="2022"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Venditio</rs>
+                            <rs type="record_source" ref="#">Original document</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property">No</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="1163-11-26">
+                                <note type="displayed_date">1163 November 26</note>
+                                <note type="dating_elements">Stile dell'incarnazione</note>
+                                <note type="topical_date">Gangalandi (Lastra a Signa,
+                                    Firenze)</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace></origPlace>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-03-11" who="agiacomelli">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>(S) In nomine domini dei eterni, anno hab (sic) incarnatione eius millesimo
+                        centesimo LXIII, sesta kal. decembris, inditione duodecima. Manifesti sumus
+                        nos <persName ref="#people/3235">Bonifatius</persName> et <persName
+                            ref="#people/3234">Buiamonte</persName> germani filii quondam <persName
+                            ref="#people/3227">Uguicioni</persName>
+                        <persName ref="#people/3228">Bonifatii</persName> et uxoris eius <persName
+                            ref="#people/3237">Cangniola</persName> filia <persName><name
+                                ref="Widuccius">Guiduci</name></persName> et <persName
+                            ref="#people/3236">Giemma</persName> filia <persName><name
+                                ref="Aldebrandus">Aldobrandi</name></persName>, anbo iste
+                        interrogate sunt a <persName key="#Judge"><name ref="Piculus"
+                            >Picculo</name></persName>
+                        <rs key="#Judge">iudice</rs>, (…) quia per hanc cartulam venditionis
+                        vindimus et tradimus<orgName key="#Hospitals" ref="#juridical_persons/3206">
+                            <rs key="#Hospitals">iosspitale</rs>
+                            <placeName ref="#places/3207" key="#Hospitals"
+                            >Altipasti</placeName></orgName> venerabili loco in manum
+                                <persName><name ref="Montanus">Montanini</name></persName> rectori
+                        osspitalis idem una petia de terra que est posita in loco qui vocatur Prata
+                        in <rs key="#Seigneurial_district">curte</rs> de <placeName
+                            ref="#places/3210" key="#Roads #Seigneurial_district">Puteo</placeName>.
+                        Tamen decernimus terram petia ipsa cuide una parte est fini terre del
+                                <persName><name ref="Vecchio">Vecchio</name></persName> et
+                                <persName><name ref="Alcheruolus">Alchiruoli</name></persName>. De
+                        secunda parte est fini terre <persName><name ref="Bonardus"
+                            >Bonardi</name></persName>. De tertia parte est fini terre <persName
+                            ref="#people/3217">Adimari</persName> et <persName><name
+                                ref="Widaloctus">Guidalocti</name></persName>. De quarta parte est
+                        fini terra <rs key="#Roads">via pubblica</rs> currit. Ideo predicta petia
+                        terra novem staiora ad iusta pertica misurata, unum panorum et medium mino
+                        (…) vendimus et tradimus (…). Pro ipsa venditione nostram (sic) recepimus
+                        nos (…) inter argentum et alias mobilias prova valiente libre novem et sol.
+                        XII de bonis denaris de Lucca et di Pisa. (…). <foreign>Pena</foreign>:
+                        dupplum. (…) Actum <placeName ref="#places/3227">Gangalandi</placeName>
+                        <rs key="#Comitatus">comitatu</rs>
+                        <geogName key="#Comitatus" ref="#estates/83">florentino</geogName>. Signum
+                        manum supradictorum iugalium (…). Signa manuum <persName><name ref="Salomon"
+                                >Salamoni</name></persName> filius <persName><name
+                                ref="Wido/Mariolus">Guidi Mariole</name></persName> et
+                                <persName><name ref="Wido">Guidocti</name></persName> filius
+                                <persName><name ref="Tancredus">Tancridi</name></persName> et
+                                <persName><name ref="Rodelandus Moricti">Orlandini
+                            Moricti</name></persName> et <persName><name ref="Zoppus Moricti">Zoppi
+                                Moricti</name></persName> et <persName><name ref="Martinus de Puteo"
+                                >Martinelli</name> de Puteo</persName>, qui ibidem fuerunt rogati
+                        testes. (S) Ego Picculus notarius post tradita dicta complevi.
+                                <persName><name ref="Falco">Falco</name></persName> rogavi sta (sic)
+                        cartula et recepi in sua manum a vice osspitium Altipasti. </ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p><ref>https://www.archiviodigitale.icar.beniculturali.it/it/185/ricerca/detail/536817</ref></p>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

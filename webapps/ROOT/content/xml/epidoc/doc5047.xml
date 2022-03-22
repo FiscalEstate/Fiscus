@@ -34,7 +34,7 @@
                             <rs type="text_type" ref="#">--Offersio/donatio</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Original</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">No</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -89,38 +89,47 @@
                             >Ubaldi</persName>
                         <rs key="#Bishops">episcopi</rs>
                         <placeName key="#Bishops" ref="#places/275">Mantuani</placeName> et
-                            <persName key="#Witness #Ordinatio">Ubaldi</persName>
+                            <persName key="#Witness #Ordinatio" ref="#people/2185">Ubaldi</persName>
                         <rs key="#Judge">iudicis</rs> et <persName
-                            key="#childOf #Witness #Ordinatio">Azonis</persName>
+                            key="#childOf #Witness #Ordinatio"><name ref="Azo"
+                            >Azonis</name></persName>
                         <rs key="#childOf">filii</rs>
-                        <persName key="#parentOf">Ubaldi</persName> de <placeName>Parma</placeName>
-                        et <persName key="#Witness #Ordinatio">Crispi</persName> de
-                            <placeName>Mandria</placeName> et filiorum <persName key="#parentOf"
-                            >Rozonis</persName> de <placeName>Pelavo</placeName> et alios quam
-                        plurium, dedit <rs key="#Countess">comitissa</rs>
-                        <persName key="#Countess #Palatium #Churches #Decima #Castle #Curtes"
-                            >Matilda</persName>
+                        <persName key="#parentOf"><name ref="Hubaldus">Ubaldi</name></persName> de
+                            <placeName ref="#places/53">Parma</placeName> et <persName
+                            key="#Witness #Ordinatio"><name ref="Crispus">Crispi</name></persName>
+                        de <placeName ref="#places/2951">Mandria</placeName> et filiorum <persName
+                            key="#parentOf"><name ref="Rotius">Rozonis</name></persName> de
+                            <placeName ref="#places/2950">Pelavo</placeName> et alios quam plurium,
+                        dedit <rs key="#Countess">comitissa</rs>
+                        <persName
+                            key="#Countess #Palatium #Churches #Decima #Castle #Curtes #Fruits/vegetables"
+                            ref="#people/125">Matilda</persName>
                         <rs key="#Iure_proprietatis/pleno_iure">proprietario iure</rs>
                         <rs key="#Palatium">palacium</rs> de <placeName
-                            key="#Palatium #Churches #Castle #Curtes">Castro Ariano</placeName>,
-                        concessit <rs key="#Churches">ecclesiam</rs>
-                        <orgName key="#Churches #Decima">Sancti Prosperii</orgName> sitam in eodem
-                            <rs key="#Castle">castro</rs> cum <rs key="#Decima">decima</rs> ad
-                        eandem ecclesiam pertinente, cum <rs key="#Curtes">curte</rs> et accessionem
-                        et ubi <rs>ortus</rs> exscolitur insimul tenente. Concessit etiam ecclesiam
-                            <orgName key="#Churches">Sancti Donnini</orgName> sitam in <rs
-                            key="#Mountains">munte</rs>
-                        <placeName key="#Mountains #Churches">Ville</placeName> et ecclesiam
-                            <orgName>Sancti Prosperii</orgName> et ecclesiam <orgName>Sancti
-                            Gregori</orgName> de <placeName key="#Churches">Antognano</placeName>
-                        cum omnibus possesionibus ad eas ecclesias pertinentibus, salvo canonico
-                        iure <orgName key="#Mother_churches" ref="#juridical_persons/108"><placeName
-                                key="#Mother_churches" ref="#places/191">Regensis</placeName>
-                            ecclesie</orgName>, favente et specialiter consenciente <persName
-                            key="#Bishops">Heriberto</persName> Regense episcopo, <rs
-                            key="#Monasteries">monasterio</rs>
+                            key="#Palatium #Churches #Castle #Curtes" ref="#places/1506">Castro
+                            Ariano</placeName>, concessit <rs key="#Churches">ecclesiam</rs>
+                        <orgName key="#Churches #Decima" ref="#juridical_persons/2082">Sancti
+                            Prosperii</orgName> sitam in eodem <rs key="#Castle">castro</rs> cum <rs
+                            key="#Decima">decima</rs> ad eandem ecclesiam pertinente, cum <geogName
+                            key="#Curtes" ref="#estates/2078"><rs key="#Curtes"
+                            >curte</rs></geogName> et accessionem et ubi <rs
+                            key="#Fruits/vegetables">ortus</rs> exscolitur insimul tenente.
+                        Concessit etiam ecclesiam <orgName key="#Churches"
+                            ref="#juridical_persons/2084">Sancti Donnini</orgName> sitam in
+                            <placeName key="#Mountains #Churches" ref="#places/2949"><rs
+                                key="#Mountains">munte</rs> Ville</placeName> et ecclesiam <orgName
+                            key="#Churches" ref="#juridical_persons/2085">Sancti Prosperii</orgName>
+                        et ecclesiam <orgName key="#Churches" ref="#juridical_persons/2086">Sancti
+                            Gregori</orgName> de <placeName key="#Churches" ref="#places/2910"
+                            >Antognano</placeName> cum omnibus possesionibus ad eas ecclesias
+                        pertinentibus, salvo canonico iure <orgName key="#Mother_churches"
+                            ref="#juridical_persons/108"><placeName key="#Mother_churches"
+                                ref="#places/191">Regensis</placeName> ecclesie</orgName>, favente
+                        et specialiter consenciente <persName key="#Bishops" ref="#people/2184"
+                            >Heriberto</persName> Regense episcopo, <rs key="#Monasteries"
+                            >monasterio</rs>
                         <orgName
-                            key="#Monasteries #Abbots #Iure_proprietatis/pleno_iure #Palatium #Churches #Decima #Castle #Curtes"
+                            key="#Monasteries #Abbots #Iure_proprietatis/pleno_iure #Palatium #Churches #Decima #Castle #Curtes #Fruits/vegetables"
                             ref="#juridical_persons/2001">Sancti Benedicti sito iuxta
                             Padum</orgName> in quo monasterio <persName key="#Abbots"
                             ref="#people/2163">Vuilelmus</persName>
@@ -134,13 +143,15 @@
                         episcopi, sine omni eidem Matilde conmitisse vel sui heredes contradicionem
                         vel repeticionem. Factum est hoc anno ab incarnacione domini nostri Iesu
                         Christi millesimo nonagesimo secundo, indicione quintadecima. Actum
-                            <placeName>Carpeneta</placeName> feliciter. <persName
-                            key="#Witness #Ordinatio">Ugo</persName> de
-                            <placeName>Rodilia</placeName>, <persName key="#Witness #Ordinatio"
-                            >Nardino</persName> de Gaio, <persName key="#Witness #Ordinatio"
-                            >Ubaldinus</persName> de Carpeneta qui interfuerunt <rs key="#Witness"
-                            >testes</rs>. (S.) Ego <persName key="#Writer #Notary #Ordinatio"
-                            >Guido</persName>
+                            <placeName ref="#places/2902">Carpeneta</placeName> feliciter. <persName
+                            key="#Witness #Ordinatio"><name ref="Hugo">Ugo</name></persName> de
+                            <placeName ref="#places/2952">Rodilia</placeName>, <persName
+                            key="#Witness #Ordinatio" ref="#people/2187">Nordino</persName> de
+                            <placeName ref="#places/2953">Gaio</placeName>, <persName
+                            key="#Witness #Ordinatio" ref="#people/2186">Ubaldinus</persName> de
+                        Carpeneta qui interfuerunt <rs key="#Witness">testes</rs>. (S.) Ego
+                            <persName key="#Writer #Notary #Ordinatio"><name ref="Wido"
+                            >Guido</name></persName>
                         <rs key="#Notary">notarius</rs> Sacri Palacii interfui et hanc <rs
                             key="#Ordinatio">cartulam concessionem</rs>
                         <rs key="#Writer">scripsi</rs>. </ab>
@@ -156,7 +167,7 @@
                 <p/>
             </div>
             <div type="commentary">
-                <p/>
+                <p>Per l’identificazione dei luoghi, si fa riferimento a Bonacini 2000, p. 673.</p>
             </div>
         </body>
     </text>

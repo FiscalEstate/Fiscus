@@ -35,7 +35,7 @@
                             <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Uncertain tradition</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -84,11 +84,22 @@
             <div type="edition">
                 <div type="textpart">
                     <ab><note>Il principe Arechi II offre al monastero di S. Sofia di Benevento (prosegue
-                        l'elenco iniziato con il doc. 3535):</note></ab> <ab>(…) [6] Seu et eclesia Sancti Iohannis que fundata est in gaio nostro Casa
-                        Polluci et ab ipsa ęcclesia largiti sumus in monasterio Sancte Sophie
-                        territorio hoc est ab ipsa ęcclesia usque in fluvio Fertore ubi Acinia
-                        flumen se iun­ git et de alio latere quantum clausum habere videtur et
-                        vineas que ibidem posite sunt. (…)</ab>
+                        l'elenco iniziato con il doc. 3535):</note></ab> <ab>(…) [6] Seu et <orgName
+                            key="#Fiscal_property #Object #Redistributive #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches #Churches"
+                            ref="#juridical_persons/3404"><rs key="#Churches">eclesia</rs> &lt;sic>
+                            Sancti Iohannis</orgName> que fundata est in <geogName key="#Gai"
+                            ref="#estates/3402"><rs key="#Gai">gaio</rs> nostro Casa
+                            Polluci</geogName> et ab ipsa ęcclesia largiti sumus in <orgName
+                            ref="#juridical_persons/85" key="#Monasteries"><rs key="#Monasteries"
+                                >monasterio</rs> Sancte Sophie</orgName>
+                        <rs
+                            key="#Landed_possessions #Fiscal_property #Object #Redistributive #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
+                            >territorio</rs> hoc est ab ipsa ęcclesia <rs key="#Confinia">usque</rs>
+                        in <rs key="#Rivers">fluvio <placeName key="#Rivers" ref="#places/3403"
+                                >Fertore</placeName></rs> ubi <rs key="#Rivers"><placeName
+                                ref="#places/3405" key="#Rivers">Acinia</placeName> flumen</rs> se
+                        iun­git et de alio latere quantum clausum habere videtur et <rs key="#Wine"
+                            >vineas</rs> que ibidem posite sunt. (…)</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
