@@ -34,7 +34,7 @@
                             <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Uncertain tradition</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -82,13 +82,21 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab><note>Il principe Arechi II offre al monastero di S. Sofia di Benevento (prosegue
-                        l'elenco iniziato con il doc. 3535):</note></ab> <ab>(…) [22] Nec non et terram in Apulea ad Sanctum Felicem ad Scrusianum super
-                        viam, quam abbas monasterii Sancti Iohannis de Porta Aurea tenebat contra
-                        rationem quia de servis nostris pertinuit et dum comprobatum fuisset ipsam
-                        terram in integrum recipere iussimus et quia ad nostram pertinuit potestatem
-                        in iam dicto Sancte Sophie mona­ sterio in integrum ipsas terra concessimus
-                        possidendum. (…)</ab>
+                    <ab><note>Il principe Arechi II offre al monastero di S. Sofia di Benevento
+                            (prosegue l'elenco iniziato con il doc. 3535):</note>
+                    </ab> <ab>(…) [22] Nec non et <rs key="#Landed_possessions">terram</rs> in <placeName
+                            key="#Geographic_regions" ref="#places/3410">Apulea</placeName> ad
+                            <placeName>Sanctum Felicem ad Scrusianum</placeName> super viam, quam
+                            <rs key="#Abbots #rectorOf">abbas</rs>
+                        <orgName key="#Monasteries"><rs key="#Monasteries">monasterii</rs> Sancti
+                            Iohannis de Porta Aurea</orgName> tenebat contra rationem quia de <rs
+                            key="#Slave">servis</rs> nostris pertinuit et dum comprobatum fuisset
+                        ipsam terram in integrum recipere iussimus et quia <rs
+                            key="#Fiscal_property #Object #Redistributive #Inflow #Confiscation">ad
+                            nostram pertinuit potestatem</rs> in iam dicto <orgName
+                            ref="#juridical_persons/85" key="#Landed_possessions #Monasteries"
+                            >Sancte Sophie <rs key="#Monasteries">monasterio</rs></orgName> in
+                        integrum ipsas terra concessimus possidendum. (…)</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
