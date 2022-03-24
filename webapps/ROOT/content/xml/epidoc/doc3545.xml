@@ -34,7 +34,7 @@
                             <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Uncertain tradition</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -83,12 +83,18 @@
             <div type="edition">
                 <div type="textpart">
                     <ab><note>Il principe Arechi II offre al monastero di S. Sofia di Benevento (prosegue
-                        l'elenco iniziato con il doc. 3535):</note></ab> <ab>(…) [15] Seu et ecclesia Sancti Stephani que sita est foris civitatem
-                        Beneventanam prope Sanctum Paulum, quam Trasoaldus clericus possidere visus
-                        fuit, et sicuti sortem suam ipse Trasoaldus in predicta ecclesia optulit, eo
-                        quod ad nostram pertinuit potestatem ipsa ecclesia cum omnibus sibi
-                        pertinentibus in integrum monasterio Sancte Sophie concessimus perfruendum.
-                        (…)</ab>
+                        l'elenco iniziato con il doc. 3535):</note></ab> <ab>(…) [15] Seu et <orgName
+                            key="#Fiscal_property #Object #Redistributive #Outflow #Allocation_to_churches #Churches"
+                                ><rs key="#Churches">ecclesia</rs> Sancti Stephani</orgName> que
+                        sita est foris <rs key="#Cities">civitatem Beneventanam</rs> prope <orgName
+                            key="#Churches">Sanctum Paulum</orgName>, quam <name ref="Trasualdus"
+                            >Trasoaldus</name>
+                        <rs key="#Other_clerics #rectorOf">clericus</rs> possidere visus fuit, et
+                        sicuti sortem suam ipse Trasoaldus in predicta ecclesia <rs
+                            key="#Offersio/donatio">optulit</rs>, eo quod ad nostram pertinuit
+                        potestatem ipsa ecclesia cum omnibus sibi pertinentibus in integrum <orgName
+                            ref="#juridical_persons/85" key="#Churches #Monasteries">monasterio
+                            Sancte Sophie</orgName> concessimus perfruendum. (…)</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">

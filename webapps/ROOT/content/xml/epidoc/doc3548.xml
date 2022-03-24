@@ -35,7 +35,7 @@
                             <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Uncertain tradition</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -84,13 +84,21 @@
             <div type="edition">
                 <div type="textpart">
                     <ab><note>Il principe Arechi II offre al monastero di S. Sofia di Benevento (prosegue
-                        l'elenco iniziato con il doc. 3535):</note></ab> <ab>(…) [20] Seu et condoma in Pronella, hi sunt filii Asoaldi servi nostri quos
-                        Stephanus sarto per preceptum falsum liberabit et res eorum abstulit, sed
-                        legibus et ipsi servi et res eorum ad nostram venerunt potestatem. Similiter
-                        et in Sobblano condoma una nomine Ursu cum uxore et filii sui quam nominatus
-                        Stephanus falso tenebat, ad nostram potestatem pervenit, nostram quidem
-                        potestas has condomas cum omnibus sibi pertinentibus monasterio Sancte
-                        Sophię donabimus possidendum. (…)</ab>
+                        l'elenco iniziato con il doc. 3535):</note></ab> <ab>(…) [20] Seu et <rs key="#Condomae">condoma</rs> in <placeName>Pronella</placeName>, hi sunt
+                        filii <name ref="Ansualdus">Asoaldi</name>
+                        <rs key="#Slave">servi</rs> nostri quos <name ref="Stephanus"
+                            >Stephanus</name> sarto <rs key="#Marquis’/ducal/princely_diploma">per
+                            preceptum falsum</rs> liberabit et res eorum abstulit, sed legibus et
+                        ipsi servi et res eorum <rs
+                            key="#Fiscal_property #Object #Inflow #Confiscation">ad nostram venerunt
+                            potestatem</rs>. Similiter et in <placeName>Sobblano</placeName>
+                        <rs key="#Condomae">condoma</rs> una nomine <name ref="Ursus">Ursu</name>
+                        cum uxore et filii sui quam nominatus Stephanus falso tenebat, <rs
+                            key="#Fiscal_property #Object #Redistributive #Inflow #Confiscation">ad
+                            nostram potestatem pervenit</rs>, nostram quidem potestas has condomas
+                        cum omnibus sibi pertinentibus <orgName key="#Condomae #Monasteries #Slave"
+                            ref="#juridical_persons/85"><rs key="#Monasteries">monasterio</rs>
+                            Sancte Sophię</orgName> donabimus possidendum. (…)</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
