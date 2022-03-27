@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>London, British Library, Egerton Charters, n. 134</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2022">2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DiSCi UniBo</publisher>
+                <idno type="filename">doc5076</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+                </availability>
+                <date when="2022"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Transactional breve</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property"/>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="1109-11-04">
+                                <note type="displayed_date">1109 November 4</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Ponte Dosso (Bondeno; Ferrara)</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace>Sanctus Benedictus in Pado Lironi; monasterium
+                                (Mantova)</origPlace>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-03-27" who="bferretti">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab><rs key="#Transactional_breve">Breve</rs> recordationis, qualiter domna <rs
+                            key="#Countess">comitissa</rs>
+                        <persName key="#Countess #Transactional_breve #Commutatio #Mansi"
+                            ref="#people/125">Mathildis</persName>
+                        <rs key="#Commutatio">commutationem</rs> fecit cum <rs key="#Archpriests"
+                            >archipresbytero</rs>
+                        <persName
+                            key="#Archpriests #Transactional_breve #Commutatio #Mansi #Witness"
+                            >Michaele</persName>, <orgName
+                            key="#Baptismal_churches #Archpriests #Transactional_breve #Commutatio #Mansi #Churches"
+                                ><rs key="#Baptismal_churches">plebis</rs> Sancti Martini</orgName>
+                        quae posita est iuxta locum qui dicitur <placeName key="#Baptismal_churches"
+                            >Casalittum</placeName>, ex quodam <rs key="#Mansi">manso</rs>, qui
+                        positus est in <geogName key="#Curtes" ref="#estates/80"><rs key="#Curtes"
+                                >curte</rs>
+                            <placeName key="#Curtes #Mansi">Villulae</placeName></geogName>, qui
+                        laboratur per <persName>Ioannem</persName> de <persName>Bonizo</persName>,
+                        qui mansus pertinebat ad <rs key="#Churches">ecclesiam</rs>
+                        <orgName key="#Churches">Sancti Erasmi</orgName> de <placeName
+                            key="#Churches">Gubernulo</placeName>, cappellam predictae plebis, pro
+                        quodam manso iacente in curte praefatae plebis, qui laboratur per
+                            <persName>Albertum</persName> de <persName>Venerando</persName>.
+                        Refutavit etiam praedictus archipresbyter quicquid prędicto manso ad
+                        ecclesiam Sancti Herasmi pertinebat in manus dominae comitissae Mathildis,
+                        tali videlicet tenore, ut neque a praedictus archipresbyter, neque aliquis
+                        illius successor vel alia quaelibet persona praedicto manso <rs
+                            key="#Monasteries">monasterium</rs>
+                        <orgName key="#Monasteries #Mansi #Iure_proprietatis/pleno_iure">Sancti
+                            Benedicti iuxta Padum</orgName>, cui prędicta comitissa Mathildis eundem
+                        mansum <rs key="#Iure_proprietatis/pleno_iure">proprietario iure</rs> dedit,
+                        in aliquo ullo tempore molestare aut inquietare praesumat. Si quis vero,
+                        quod absit, sive praedictus archipresbyter seu aliqua persona praefatum
+                        monasterium ex praedicto manso in aliquo molestare praesumpserit ecclesiam
+                        Sancti Herasmi <rs key="#Penalty">decem libras bonorum denariorum Lucensis
+                            monetae</rs> Sancti Benedicti monasterio per obligationem praedicti
+                        archipresbyteri componere debet. Hac tamen praedicta commutatione in sua
+                        firmitate permanente in perpetuum. lnterfuerunt <rs key="#Witness"
+                            >testes</rs>: <persName key="#Witness #Transactional_breve #Commutatio"
+                            ref="#people/2199">Ugo</persName> de <persName ref="#people/3510"
+                            >Manfredo</persName>, <persName
+                            key="#Witness #Transactional_breve #Commutatio">Tebertus</persName> de
+                            <placeName>Nonantula</placeName>, <persName
+                            key="#Witness #Transactional_breve #Commutatio">Azo</persName> de
+                            <placeName>Sala</placeName>, <persName
+                            key="#Witness #Transactional_breve #Commutatio">Ribaldus</persName> de
+                            <placeName>Vigniola</placeName>, <persName
+                            key="#Witness #Transactional_breve #Commutatio">Nordulus</persName> de
+                            <placeName>Castello vetere</placeName>, et alii quamplures. Actum est ad
+                            <placeName>Pontem Ducis</placeName>, Millesimo Centesimo nono,
+                        indictione secunda, <rs key="#Writer">per manum</rs>
+                        <persName key="#Writer #Other_clerics #Transactional_breve #Commutatio"
+                            ref="#people/3508">Ribaldi</persName> eiusdem comitissae Mathildis <rs
+                            key="#Other_clerics">cappellani</rs>, pridie nonas novembris. Ego
+                            <persName key="#Judge #Witness #Transactional_breve #Commutatio"
+                            >Ubaldus</persName>
+                        <rs key="#Judge">iudex</rs> interfui et subscripsi. Ego <persName
+                            key="#Witness #Transactional_breve #Commutatio">Conon</persName>
+                        interfui et subscripsi. Ego Michael archipresbyter confirmavi et subscripsi. </ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>CDP I n. 75, pp. 238-240; n. 119, pp. 313-314.</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
