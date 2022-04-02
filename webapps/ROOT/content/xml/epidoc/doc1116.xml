@@ -33,7 +33,7 @@
                             <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Copy</rs>
-                            <rs type="fiscal_property">Uncertain</rs>
+                            <rs type="fiscal_property">No</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -75,6 +75,7 @@
         <revisionDesc>
             <listChange>
                 <change when="2021-02-08" who="cstedile">creation of record</change>
+                <change when="2022-03-31" who="emanarini">minor changes</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -91,11 +92,12 @@
                         transiendam et ad eternam feliciter obtinendam liquido credimus profuturum.
                         Quapropter omnium fidelium sancte Dei Eclesie nostrorumque presencium
                         scilicet et futurorum noverit industria, quia vir venerabilis <persName
-                            key="#Abbots"><name ref="Leopardus">Leopardus</name></persName>
+                            key="#Abbots" ref="#people/1214">Leopardus</persName>
                         <rs key="#Abbots">abbas</rs> ex <orgName
-                            key="#Imperial/royal_diploma #Papal_concession #Curtes #Landed_possessions #Privileges #Immunity #Monasteries #Cells/hermitages"
-                            ref="#juridical_persons/47">cenobio <placeName key="#Monasteries"
-                                ref="#places/15">Nonantulensi</placeName></orgName> per <persName
+                            key="#Imperial/royal_diploma #Monks #Papal_concession #Curtes #Landed_possessions #Privileges #Immunity #Monasteries #Cells/hermitages #Abbots"
+                            ref="#juridical_persons/47"><rs key="#Monasteries">cenobio</rs>
+                            <placeName key="#Monasteries" ref="#places/15"
+                            >Nonantulensi</placeName></orgName> per <persName
                             key="#Intercessory #Consiliarius_regis #Archbishops" ref="#people/228"
                             >Landulfum</persName> reverentissimum <rs key="#Archbishops"
                             >archipresulem</rs> nec non etiam <persName
@@ -118,35 +120,31 @@
                         catholicus in prefato sancto cenobio aliquid largiti sunt, nullus quolibet
                         ingenio abstraere vel minuere audeat, set perpetuis temporibus cunctis
                         deinceps seculis nostro permaneat testamento solidatum, ea videlicet
-                        auctoritate nostre regalis preceptionis, ut nullus iudex publicus vel
-                        quilibet christianus in supradicto monasterio aut <rs
-                            key="#Cells/hermitages">cellulis suis</rs>, <rs key="#Curtes"
+                        auctoritate nostre regalis preceptionis, ut nullus <rs key="#Judge"
+                            >iudex</rs> publicus vel quilibet christianus in supradicto monasterio
+                        aut <rs key="#Cells/hermitages">cellulis</rs> suis, <rs key="#Curtes"
                             >curtibus</rs>, <rs key="#Landed_possessions">agris, locis, seu et
-                            reliquis possessionibus</rs> que ad cenobium tam de <rs
-                            key="#Fiscal_property #Textual_occurrence #Object #Fiscal_reserve #Gift"
-                            >donacione <rs key="#Emperor/king">regum</rs> quam <rs key="#Queen"
-                                >reginarum</rs> quam etiam relicorum virorum Deum timentium</rs>
-                        legitime pervenerunt, vel que deinceps supradicto monasterio Deo favente
-                        addantur vel amplificentur ingredi audeat. <rs key="#Immunity">Nullus iudex
-                            inde neque aliquis ex iudiciaria potestate ad causas audiendas vel freda
-                            exigenda aut mansiones parandas seu et parafredos aut fideiussores
-                            tollendos aut homines tam ingenuos quam et servos super terram ipsius
-                            monasterii commanentes ullo modo distringendos nec ullas publicas
-                            functiones aut redibiciones vel occasiones requirendas consurgere
-                            audeat, set liceat predicto abbati successoribusque eius cum omnibus
-                            subiectis sibi rebus iuxta illorum privilegia et precepta sub
-                            immunitatem nostram quieto ordine consistere.</rs>
-                        <rs key="#Uncertain_tradition">Volumus quoque et concedimus, ut quandoquidem
-                            divina vocatione abbas ipsius monasterii eiusque successores de ac luce
-                            migraverint, ipsi <rs key="#Monks">monachi</rs> de ipsa congregatione
-                            qualem inter se digniorem invenerint licentiam habeant eligendi
-                            abbatem.</rs> Et ut firmum et stabile hoc nostrum regale preceptum
-                        permaneat, propria manu firmavimus et anulo nostro iussimus
-                        sigillari...</ab>
+                            reliquis possessionibus</rs> que ad cenobium tam de donacione regum quam
+                            <rs key="#Queen">reginarum</rs> quam etiam relicorum virorum Deum
+                        timentium legitime pervenerunt, vel que deinceps supradicto monasterio Deo
+                        favente addantur vel amplificentur ingredi audeat. Nullus iudex inde neque
+                        aliquis ex iudiciaria potestate ad causas audiendas vel freda exigenda aut
+                        mansiones parandas seu et parafredos aut fideiussores tollendos aut homines
+                        tam ingenuos quam et servos super terram ipsius monasterii commanentes ullo
+                        modo distringendos nec ullas publicas functiones aut redibiciones vel
+                        occasiones requirendas consurgere audeat, set liceat predicto abbati
+                        successoribusque eius cum omnibus subiectis sibi rebus iuxta illorum
+                        privilegia et precepta sub <rs key="#Immunity">immunitatem</rs> nostram
+                        quieto ordine consistere. Volumus quoque et concedimus, ut quandoquidem
+                        divina vocatione abbas ipsius monasterii eiusque successores de ac luce
+                        migraverint, ipsi <rs key="#Monks">monachi</rs> de ipsa congregatione qualem
+                        inter se digniorem invenerint licentiam habeant eligendi abbatem. Et ut
+                        firmum et stabile hoc nostrum regale preceptum permaneat, propria manu
+                        firmavimus et anulo nostro iussimus sigillari...</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p>DD B I, pp. 85-88, n. XXIX</p>
+                <p>DD B I, pp. 85-88, n. XXIX.</p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p/>
@@ -157,11 +155,10 @@
             <div type="commentary">
                 <p>La copia pervenutaci è scorretta e incompleta e il passaggio che regola
                     l'elezione dell'abate è aggiunta in calce da prima mano. Questo diploma potrebbe
-                    essere considerato il modello del diploma falsificato datato 19 agosto 988 (DD B
-                    I, pp. 373-375, Falsificazioni n. IV), ma Schiaparelli ritiene più probabile che
-                    entrambi dipendessero da una copia (o dall'originale) andata perduta, poiché DD
-                    B I, pp. 373-375, Falsificazioni n. IV presenta nelle formule una dizione più
-                    corretta e completa.</p>
+                    essere considerato il modello del diploma falsificato datato 19 agosto 898 (DD B
+                    I, pp. 373-375, n. IV†), ma Schiaparelli ritiene più probabile che entrambi
+                    dipendessero da una copia (o dall'originale) andata perduta, poiché DD B I, pp.
+                    373-375, n. IV† presenta nelle formule una dizione più corretta e completa.</p>
             </div>
         </body>
     </text>
