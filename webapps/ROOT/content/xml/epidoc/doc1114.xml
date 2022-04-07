@@ -4,8 +4,7 @@
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
-                <title>Firenze, Archivio di Stato, <foreign>Carte Strozzi Uguccioni</foreign> 234,
-                    c. 211 (Mosiici, <foreign>Le carte</foreign>)</title>
+                <title>Firenze, Archivio di Stato, Carte Strozzi Uguccioni, 234, c. 211</title>
             </titleStmt>
             <editionStmt>
                 <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
@@ -33,8 +32,8 @@
                         <summary>
                             <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
-                            <rs type="document_tradition" ref="#">Copy</rs>
-                            <rs type="fiscal_property">Uncertain</rs>
+                            <rs type="document_tradition" ref="#">Uncertain tradition</rs>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -43,7 +42,7 @@
                     <history>
                         <origin>
                             <origDate when="0899-04-25">
-                                <note type="displayed_date">899 april 25</note>
+                                <note type="displayed_date">899 April 25</note>
                                 <note type="dating_elements"/>
                                 <note type="topical_date">Pavia</note>
                                 <note type="redaction_date">XVII</note>
@@ -75,6 +74,7 @@
         <revisionDesc>
             <listChange>
                 <change when="2021-02-08" who="cstedile">creation of record</change>
+                <change when="2022-07-04" who="ptomei">changes</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -93,41 +93,45 @@
                         <persName key="#Intercessory #Consiliarius_regis #Bishops" ref="#people/220"
                             >Zenobii</persName> uenerabilis <rs key="#Bishops">episcopi</rs> et
                         dilecti <rs key="#Consiliarius_regis">consiliarii nostri</rs> concessimus et
-                        condonauimus <orgName key="#Landed_possessions #Churches"
+                        condonauimus <orgName key="#Landed_possessions #Mother_churches"
                             ref="#juridical_persons/204">ecclesiae Sanctorum Ioannis et
-                            Miniati</orgName>, que caput est <orgName ref="#juridical_persons/204"
-                                ><placeName ref="#places/2">Florentini</placeName>
-                            episcopatus</orgName>, cui auctore Deo <persName key="#Bishops"
-                            ref="#people/271">Grasulfus</persName>
+                            Miniati</orgName>, que caput est <placeName ref="#places/2"
+                            key="#Curtes #Mother_churches #Bishops">Florentini</placeName>
+                        <rs key="#Mother_churches">episcopatus</rs>, cui auctore Deo <persName
+                            key="#Bishops" ref="#people/271">Grasulfus</persName>
                         <rs key="#Bishops">episcopus</rs> preesse uidetur, <rs
                             key="#Landed_possessions">terram</rs> uidelicet ad <rs key="#Size"
                             >modios duodecim</rs>, quae dicitur <placeName ref="#places/522"
                             key="#Landed_possessions">Campus Regis</placeName>, prope ipsam
                         ecclesiam Beati Ioannis positam, hactenus pertinentem de <geogName
                             key="#Curtes" ref="#estates/159"><rs key="#Curtes">curte</rs>
-                            Regis</geogName> sita <placeName key="#Curtes" ref="#places/2"
-                            >Florentiae</placeName> et ita determinatam: de duabus partibus terra
-                        ipsius ecclesiae, ex tertia parte percurrit <rs key="#Rivers">fluuius
-                            Munione</rs>, de quarta uero parte terra <persName><name
-                                ref="Magibertus">Magiberti</name></persName> et <persName><name
-                                ref="Morbertus">Mauriperti</name></persName> ac <persName><name
-                                ref="Florebertus">Floriberti</name></persName> eourmque consortium.
-                        Aliam quoque <rs key="#Petiae">petiam</rs> terrae ad <rs key="#Size">modios
-                            sex</rs>, hactenus pertinentem de <geogName ref="#estates/233"
-                            key="#Curtes #Petiae">curte Beneuentana</geogName>, positam prope
-                        ecclesiam <orgName key="#Churches" ref="#juridical_persons/205">Sancti
-                            Miniati</orgName>, et est ipsa terra circumdata de omni parte <placeName
-                            ref="#places/523">terra Beati Miniati</placeName>, in cuius ecclesia
-                        sanctorum corpora octo quiescunt, de nostro iure et potestate praedictam
-                        terram, sicut superius legitur, cum suis terminationibus in ius et
-                        potestatem ipsius ecclesiae modis omnibus transfundimus et perdonamus, ut
-                        presul ipsius ecclesiae habeat, teneat atque possideat potestatemque habeat
-                        ad honorem iam dicti episcopatus donandi, uendendi, commutandi, seu
-                        mancipiandi, remota totius potestatis inquietudine. Si quis igitur, quod
-                        minime credimus, contra hoc nostrae concessionis praeceptum insurgere
-                        temptauerit, sciat se compositurum <rs key="#Penalty">auri optimi libras
-                            triginta</rs>, <rs key="#Camera_regis">medietatem palatio nostro</rs> et
-                            <rs key="#Camera_of_other_public_authorities">medietatem parti eiusdem
+                            Regis</geogName> sita Florentiae et ita <rs key="#Confinia"
+                            >determinatam</rs>: de duabus partibus terra ipsius ecclesiae, ex tertia
+                        parte percurrit <rs key="#Confinia #Rivers">fluuius Munione</rs>, de quarta
+                        uero parte terra <persName
+                            key="#Confinia #Landed_possessions #Consortes/shared_possessions"><name
+                                ref="Magibertus">Magiberti</name></persName> et <persName
+                            key="#Confinia #Landed_possessions #Consortes/shared_possessions"><name
+                                ref="Morbertus">Mauriperti</name></persName> ac <persName
+                            key="#Confinia #Landed_possessions #Consortes/shared_possessions"><name
+                                ref="Florebertus">Floriberti</name></persName> eourmque <rs
+                            key="#Consortes/shared_possessions">consortium</rs>. Aliam quoque <rs
+                            key="#Petiae">petiam terrae</rs> ad <rs key="#Size">modios sex</rs>,
+                        hactenus pertinentem de <geogName ref="#estates/233" key="#Curtes #Petiae"
+                            >curte Beneuentana</geogName>, positam prope ecclesiam <orgName
+                            key="#Churches" ref="#juridical_persons/205">Sancti Miniati</orgName>,
+                        et est ipsa terra circumdata de omni parte <placeName ref="#places/523"
+                            >terra Beati Miniati</placeName>, in cuius ecclesia sanctorum corpora
+                        octo quiescunt, de nostro iure et potestate praedictam terram, sicut
+                        superius legitur, cum suis terminationibus in ius et potestatem ipsius
+                        ecclesiae modis omnibus transfundimus et perdonamus, ut presul ipsius
+                        ecclesiae habeat, teneat atque possideat potestatemque habeat ad honorem iam
+                        dicti episcopatus donandi, uendendi, commutandi, seu mancipiandi, remota
+                        totius potestatis inquietudine. Si quis igitur, quod minime credimus, contra
+                        hoc nostrae concessionis praeceptum insurgere temptauerit, sciat se
+                        compositurum <rs key="#Penalty">auri optimi libras triginta</rs>, <rs
+                            key="#Camera_regis">medietatem palatio nostro</rs> et <rs
+                            key="#Camera_of_other_public_authorities">medietatem parti eiusdem
                             ecclesiae</rs>. Ut autem uerius credatur et diligentius ab omnibus
                         obseruetur, manu propria roboratum anulo nostro subter iussimus sigillari.
                         Signum (M) domni Berengarii gloriosissimi regis. <persName key="#Notary"
@@ -142,17 +146,17 @@
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p>Mosiici, <foreign>Le carte</foreign>, pp. 53-56, n. 1; Faini 2010.</p>
+                <p>Mosiici, <foreign>Le carte</foreign>, n. 1, pp. 53-56.</p>
             </div>
             <div type="bibliography" subtype="additional">
-                <p/>
+                <p>Faini 2010, pp. 37-39.</p>
             </div>
             <div type="bibliography" subtype="links">
                 <p/>
             </div>
             <div type="commentary">
                 <p>Utilizzato come modello il diploma di Lamberto del 21 maggio 898 (B. n. 1285)
-                    conservato in orignale presso l'archivio Capitolare di Firenze.</p>
+                    conservato in originale presso l'Archivio Capitolare di Firenze.</p>
             </div>
         </body>
     </text>
