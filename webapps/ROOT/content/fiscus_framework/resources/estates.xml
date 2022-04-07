@@ -347,6 +347,9 @@
                         <link type="people" corresp="#people/21" subtype="isConfirmedBy"/>
                         <link type="people" corresp="#people/37" subtype="isConfirmedBy"/>
                         <link type="people" corresp="#people/173" subtype="isConfirmedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/2001"
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/125" subtype="isConfirmedBy"/>
                 </place>
                 <place>
                     <geogName>Settepolesini; <foreign>curtis</foreign></geogName>
@@ -370,7 +373,7 @@
                 </place>
                 <place>
                     <geogName>Firenze; <foreign>comitatus</foreign></geogName>
-                    <geogName type="other"/>
+                    <geogName type="other"><foreign>territorium</foreign></geogName>
                     <idno>estates/83</idno>
                     <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/1402"
@@ -1345,7 +1348,7 @@
                     <link type="places" corresp="#places/302" subtype="correspondsTo"/>
                 </place>
                 <place>
-                    <geogName>Curtis Regis; <foreign>curtis</foreign> (Firenze)</geogName>
+                    <geogName>Firenze; <foreign>curtis</foreign></geogName>
                     <geogName type="other"/>
                     <idno>estates/159</idno>
                     <note/>          
@@ -1602,7 +1605,8 @@
                 </place>
                 <place>
                     <geogName>Pistoia; <foreign>comitatus</foreign></geogName>
-                    <geogName type="other"><foreign>fines</foreign></geogName>
+                    <geogName type="other"><foreign>fines</foreign>;
+                            <foreign>territorium</foreign></geogName>
                     <idno>estates/185</idno>
                     <note/>
                     <link type="places" corresp="#places/425" subtype="link"/>
@@ -4560,10 +4564,11 @@
                         <note/>
                         <link type="places" corresp="#places/2417" subtype="correspondsTo"/>
                         <link type="juridical_persons" corresp="#juridical_persons/2001"
-                            subtype="isGrantedTo"/>
+                            subtype="dependsOn"/>
                         <link type="people" corresp="#people/2122" subtype="isGrantedBy"/>
                         <link type="juridical_persons" corresp="#juridical_persons/2054"
                             subtype="dependsOn"/>
+                        <link type="people" corresp="#people/125" subtype="isConfirmedBy"/>
                     </place>
                     <place>
                         <geogName>Corfino; <foreign>curtis</foreign></geogName>
@@ -4957,14 +4962,16 @@
                     </place>
                     <place>
                         <geogName>Barbasso; <foreign>curtis</foreign></geogName>
-                        <geogName type="other"><foreign>Burbascio</foreign></geogName>
+                        <geogName type="other"><foreign>Burbascio</foreign>;
+                                <foreign>Burbasso</foreign></geogName>
                         <idno>estates/2050</idno>
-                        <note/>
+                        <note>Definita <foreign>villa</foreign> nel 1115.</note>
                         <link type="places" corresp="#places/482" subtype="correspondsTo"/>
                         <link type="people" corresp="#people/1" subtype="isOwnedBy"/>
                         <link type="juridical_persons" corresp="#juridical_persons/2001"
                             subtype="dependsOn"/>
                         <link type="people" corresp="#people/127" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/125" subtype="isConfirmedBy"/>
                     </place>
                     <place>
                         <geogName>Vicenza; <foreign>comitatus</foreign></geogName>
@@ -5142,43 +5149,43 @@
                         <link type="people" corresp="#people/2169" subtype="isOwnedBy"/>
                     </place>
                     <place>
-                        <geogName>Brescia; <foreign>episcopatus</foreign></geogName>
+                        <geogName>xyz</geogName>
                         <geogName type="other"/>
                         <idno>estates/2069</idno>
                         <note/>
                     </place>
                     <place>
-                        <geogName>Ferrara; <foreign>episcopatus</foreign></geogName>
+                        <geogName>xyz</geogName>
                         <geogName type="other"/>
                         <idno>estates/2070</idno>
                         <note/>
                     </place>
                     <place>
-                        <geogName>Bologna; <foreign>episcopatus</foreign></geogName>
+                        <geogName>xyz</geogName>
                         <geogName type="other"/>
                         <idno>estates/2071</idno>
                         <note/>
                     </place>
                     <place>
-                        <geogName>Parma; <foreign>episcopatus</foreign></geogName>
+                        <geogName>xyz</geogName>
                         <geogName type="other"/>
                         <idno>estates/2072</idno>
                         <note/>
                     </place>
                     <place>
-                        <geogName>Malamocco; <foreign>episcopatus</foreign></geogName>
+                        <geogName>xyz</geogName>
                         <geogName type="other"/>
                         <idno>estates/2073</idno>
                         <note/>
                     </place>
                     <place>
-                        <geogName>Treviso; <foreign>episcopatus</foreign></geogName>
+                        <geogName>xyz</geogName>
                         <geogName type="other"/>
                         <idno>estates/2074</idno>
                         <note/>
                     </place>
                     <place>
-                        <geogName>Lucca; <foreign>episcopatus</foreign></geogName>
+                        <geogName>xyz</geogName>
                         <geogName type="other"/>
                         <idno>estates/2075</idno>
                         <note/>
@@ -5219,6 +5226,77 @@
                         <note/>
                         <link type="places" corresp="#places/2957" subtype="correspondsTo"/>
                         <link type="juridical_persons" corresp="#juridical_persons/2001"
+                            subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/125" subtype="isGrantedBy"/>
+                    </place>
+                    <place>
+                        <geogName>Roncobonoldo; <foreign>villa</foreign></geogName>
+                        <geogName type="other"/>
+                        <idno>estates/2080</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/2001"
+                            subtype="isOwnedBy"/>
+                        <link type="people" corresp="#people/125" subtype="isConfirmedBy"/>
+                        <link type="places" corresp="#places/2974" subtype="correspondsTo"/>
+                    </place>
+                    <place>
+                        <geogName>Gabbiana; <foreign>villa</foreign></geogName>
+                        <geogName type="other"/>
+                        <idno>estates/2081</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/2001"
+                            subtype="isOwnedBy"/>
+                        <link type="people" corresp="#people/125" subtype="isConfirmedBy"/>
+                        <link type="places" corresp="#places/2930" subtype="correspondsTo"/>
+                    </place>
+                    <place>
+                        <geogName>Libiola; <foreign>villa</foreign></geogName>
+                        <geogName type="other"/>
+                        <idno>estates/2982</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/2001"
+                            subtype="isOwnedBy"/>
+                        <link type="people" corresp="#people/125" subtype="isConfirmedBy"/>
+                        <link type="places" corresp="#places/2977" subtype="correspondsTo"/>
+                    </place>
+                    <place>
+                        <geogName>Sustinente; <foreign>villa</foreign></geogName>
+                        <geogName type="other"/>
+                        <idno>estates/2983</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/2001"
+                            subtype="isOwnedBy"/>
+                        <link type="people" corresp="#people/125" subtype="isConfirmedBy"/>
+                        <link type="places" corresp="#places/2476" subtype="correspondsTo"/>
+                    </place>
+                    <place>
+                        <geogName>Casalbarbato; <foreign>curtis</foreign></geogName>
+                        <geogName type="other"/>
+                        <idno>estates/2984</idno>
+                        <note>L'esistenza di una <foreign>curtis</foreign> a Casabarbato è attestata
+                            solo nel 1115, ma la località risultava già precedentemente pertinenza
+                            polironiana.</note>
+                        <link type="juridical_persons" corresp="#juridical_persons/2001"
+                            subtype="dependsOn"/>
+                        <link type="places" corresp="#places/2931" subtype="correspondsTo"/>
+                        <link type="people" corresp="#people/125" subtype="isConfirmedBy"/>
+                    </place>
+                    <place>
+                        <geogName>Marengo; <foreign>silva</foreign></geogName>
+                        <geogName type="other"/>
+                        <idno>estates/2985</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/2001"
+                            subtype="isOwnedBy"/>
+                        <link type="people" corresp="#people/125" subtype="isGrantedBy"/>
+                    </place>
+                    <place>
+                        <geogName>Campitello; <foreign>curtis</foreign> (Mantova)</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/2986</idno>
+                        <note/>
+                        <link type="places" corresp="#places/2489" subtype="correspondsTo"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1426"
                             subtype="isGrantedTo"/>
                         <link type="people" corresp="#people/125" subtype="isGrantedBy"/>
                     </place>
@@ -6536,8 +6614,22 @@
                         <geogName type="other"/>
                         <idno>estates/931</idno>
                         <note/>
-                        <link type="estates" corresp="#estates/915" subtype="dependsOn"/>
                         <link type="places" corresp="#places/1224" subtype="correspondsTo"/>
+                    </place>
+                    <place>
+                        <geogName><foreign>Pastoricia Domnica</foreign></geogName>
+                        <geogName type="other"/>
+                        <idno>estates/932</idno>
+                        <note>Wickham 1978: 160-165. Quest'area adibita a pascolo è localizzabile
+                            sul bordo del cratere o valle di Baccano. Si dispone per il territorio
+                            dello statuto duecentesco del castello di Campagnano, edito e commentato
+                            in Carbonetti-Vendittelli 2006. Poiché nella valle del Sorbo è
+                            attestata, nelle confinanze di documenti di XI secolo,  la presenza di
+                            un <foreign>pastoricio Sancti Petri </foreign>, è molto probabile che i
+                                <foreign>pastoricia domnica</foreign> fossero terre pubbliche a
+                            disposizione del papato e adibite al pascolo. </note>
+                        <link type="juridical_persons" corresp="#juridical_persons/1100"
+                            subtype="isOwnedBy"/>
                     </place>
                 </listPlace>
                 <listPlace n="Lazzari Tiziana">
@@ -6588,7 +6680,7 @@
                         <link type="people" corresp="#people/10" subtype="link"/>
                     </place>
                     <place>
-                        <geogName>Campitello;  <foreign>curtis </foreign></geogName>
+                        <geogName>Campitello; <foreign>curtis </foreign> (Brescia)</geogName>
                         <geogName type="other"> <foreign>Capadello </foreign>;  <foreign>Campedello</foreign></geogName>
                         <idno>estates/2604</idno>
                         <note>Ferrari e Torchio 2009, p. 24; Pasquali 2008, p. 159: 1900 ettari,
@@ -7189,6 +7281,38 @@
                         <link type="juridical_persons" corresp="#juridical_persons/47"
                             subtype="isOwnedBy"/>
                         <link type="estates" corresp="#estates/1123" subtype="isWithin"/>
+                    </place>
+                    <place>
+                        <geogName><foreign>Cellule</foreign>; <foreign>curtis et
+                            castrum</foreign></geogName>
+                        <geogName type="other"/>
+                        <idno>estates/1126</idno>
+                        <note/>
+                        <link type="people" corresp="#people/125" subtype="isGrantedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/47"
+                            subtype="isGrantedTo"/>
+                        <link type="places" corresp="#places/1566" subtype="correspondsTo"/>
+                    </place>
+                    <place>
+                        <geogName><foreign>Rigosa</foreign>; <foreign>curtis</foreign></geogName>
+                        <geogName type="other"><foreign>Raigosole</foreign></geogName>
+                        <idno>estates/1127</idno>
+                        <note/>
+                        <link type="people" corresp="#people/125" subtype="isGrantedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/47"
+                            subtype="isGrantedTo"/>
+                        <link type="places" corresp="#places/2480" subtype="correspondsTo"/>
+                    </place>
+                    <place>
+                        <geogName><foreign>Castrum Tedaldi</foreign>;
+                            <foreign>castrum</foreign></geogName>
+                        <geogName type="other"/>
+                        <idno>estates/1128</idno>
+                        <note/>
+                        <link type="people" corresp="#people/125" subtype="isGrantedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/47"
+                            subtype="isGrantedTo"/>
+                        <link type="places" corresp="#places/80" subtype="isWithin"/>
                     </place>
                 </listPlace>
                 <listPlace n="Massa Paola">
@@ -9584,6 +9708,28 @@
                         <idno>estates/2409</idno>
                         <note>Territorio di Imola.</note>
                     </place>
+                    <place>
+                        <geogName>Ferrara; <foreign>fines</foreign></geogName>
+                        <geogName type="other"/>
+                        <idno>estates/2410</idno>
+                        <note/>
+                    </place>
+                    <place>
+                        <geogName><foreign>Ruvina</foreign>; <foreign>massa</foreign></geogName>
+                        <geogName type="other"/>
+                        <idno>estates/2411</idno>
+                        <note/>
+                        <link type="estates" corresp="#estates/2410" subtype="isWithin"/>
+                    </place>
+                    <place>
+                        <geogName><foreign>Salecta qui vocatur Castellana</foreign>;
+                                <foreign>fundus</foreign></geogName>
+                        <geogName type="other"/>
+                        <idno>estates/2412</idno>
+                        <note/>
+                        <link type="estates" corresp="#estates/2410" subtype="isWithin"/>
+                        <link type="people" corresp="#people/1538" subtype="isConfirmedBy"/>
+                    </place>
                 </listPlace>
                 <listPlace n="Tabarrini Lorenzo">
                     <place>
@@ -9929,10 +10075,37 @@
                 </listPlace>
                 <listPlace n="Viti Mattia">
                     <place>
-                        <geogName>XXX</geogName>
-                        <geogName type="other"/>
+                        <geogName>Fiesole; <foreign>comitatus</foreign></geogName>
+                        <geogName type="other"><foreign>territorium</foreign></geogName>
                         <idno>estates/3300</idno>
                         <note/>
+                    </place>
+                    <place>
+                        <geogName>Sala; <foreign>curtis</foreign> (Fiesole)</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/3301</idno>
+                        <note/>
+                        <link type="places" corresp="#places/3313" subtype="correspondsTo"/>
+                        <link type="people" corresp="#people/220" subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/82" subtype="isGrantedBy"/>
+                    </place>
+                    <place>
+                        <geogName>Buiana; <foreign>curticella</foreign></geogName>
+                        <geogName type="other"/>
+                        <idno>estates/3302</idno>
+                        <note/>
+                        <link type="places" corresp="#places/3314" subtype="correspondsTo"/>
+                        <link type="people" corresp="#people/220" subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/82" subtype="isGrantedBy"/>
+                    </place>
+                    <place>
+                        <geogName>Monteregis; <foreign>terra et silva</foreign></geogName>
+                        <geogName type="other"/>
+                        <idno>estates/3303</idno>
+                        <note/>
+                        <link type="places" corresp="#places/3315" subtype="isWithin"/>
+                        <link type="people" corresp="#people/220" subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/82" subtype="isGrantedBy"/>
                     </place>
                 </listPlace>
                 <listPlace n="Zornetta Giulia">

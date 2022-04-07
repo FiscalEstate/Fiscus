@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Lucca, Archivio di Stato, Diplomatico, Altopascio, 1185 maggio 2</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2022">2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DiSCi UniBo</publisher>
+                <idno type="filename">doc2455</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+                </availability>
+                <date when="2022"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Venditio</rs>
+                            <rs type="record_source" ref="#">Original document</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property">No</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="1185-05-02">
+                                <note type="displayed_date">1185 May 2</note>
+                                <note type="dating_elements">Stile dell'incarnazione</note>
+                                <note type="topical_date">Gangalandi (Lastra a Signa,
+                                    Firenze)</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace></origPlace>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-04-06" who="agiacomelli">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>(S) In nomine domini dei eterni, anno ab incarnatione eius millesimo
+                        centesimo octuagesimo quinto, sexto nonus madii, indictione tertia.
+                        Venditionis contractus (…). <persName ref="#people/3226"
+                            >Castracanis</persName> olim filius <persName ref="#people/3214"
+                            >Ubertelli</persName> et <persName><name ref="Castraleo"
+                                >Castraleone</name></persName> filius eius atque <persName><name
+                                ref="Willa">Guillia</name></persName> uxor eiusdem Castracanis
+                        necnon et <persName><name ref="Adalasia">Adalascia</name></persName> uxor
+                        Castraleonis (…) nos iamdicte femine <foreign>interrogate da</foreign>
+                        <persName key="#Judge"><name ref="Ieronimus">Ieronimi</name></persName>
+                        <rs key="#Judge">iudicis</rs> (…) vendimus et huius rei gratia tradimus
+                        atque concedimus tibi <persName><name ref="Petrus"
+                        >Petroni</name></persName>, rectori <orgName ref="#juridical_persons/3206"
+                            key="#Hospitals"><rs key="#Hospitals">hospitalis</rs>
+                            <placeName ref="#places/3207" key="#Hospitals"
+                            >Altepascensis</placeName></orgName>, tuisque successoribus in perpetuum
+                        videlicet unam terre petiam positam in plagis et finibus <placeName
+                            ref="#places/3210">Putei</placeName>, in loco qui vocatur Vignale. Cuius
+                        confines sunt hii: de una parte est <persName><name ref="Bernardus"
+                                >Bernardi</name></persName>, de alia <rs>flumen Iussiana</rs>, a
+                        tertia vero <persName ref="#people/3217">Adimari</persName> filii <persName
+                            ref="#people/3218">Alberti</persName>, a quarta autem est predicti
+                        hospitalis et aliquantulum dicti Bernardi. Infra totam que est stariora
+                        quactuordecim (…). Prezzo: quinquaginta sex lib. bonorum denariorum pisani
+                        (…). Pena: in duplum (…). Actum <placeName ref="#places/3227"
+                            >Gangalandi</placeName>. Signa manuum iamdictorum vinditorum qui hanc
+                        cartulam ut supra legitur fieri rogaverunt. Signa manuum Bernardi filii
+                                <persName><name ref="Sigismundus">Sesmundi</name></persName> et
+                            <persName key="#Witness"><name ref="Pacaloctus"
+                            >Pacaloci</name></persName> et <persName key="#Witness"><name ref="Hugo"
+                                >Ugetti</name></persName> germanorum filiorum <persName><name
+                                ref="Hugolinus Hubaldus">Ugolini Ubaldini</name></persName>
+                        rogatorum <rs key="#Witness">testium</rs>. (S) Ieronimus iudex predictas
+                        mulieres interrogavi atque notavi, huic instrumento completionem imposui. </ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p><ref>https://www.archiviodigitale.icar.beniculturali.it/it/185/ricerca/detail/536838</ref></p>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
