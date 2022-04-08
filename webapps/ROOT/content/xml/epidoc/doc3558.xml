@@ -34,7 +34,7 @@
                             <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Uncertain tradition</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -83,10 +83,14 @@
             <div type="edition">
                 <div type="textpart">
                     <ab><note>Il principe Arechi II offre al monastero di S. Sofia di Benevento (prosegue
-                        l'elenco iniziato con il doc. 3535):</note></ab> <ab>(…) [33] Nec non et in Salerno ad Sanctum Salvatore erga ipsum lacum largiti
-                        sumus territorium, hoc est modia quinquaginta, seu et gualdo in fine Cumsina
-                        locus qui vocatur ad Monumentus cum integram fine sua Sancte Sophie concessi
-                        perfruendum. (…)</ab>
+                        l'elenco iniziato con il doc. 3535):</note></ab> <ab>(…) [33] Nec non et in <placeName key="#Cities" ref="#places/84">Salerno</placeName> ad Sanctum
+                        Salvatore erga ipsum lacum largiti sumus <rs
+                            key="#Landed_possessions #Size #Fiscal_property #Object #Redistributive #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
+                            >territorium, hoc est modia quinquaginta</rs>, seu et gualdo in fine
+                        Cumsina locus qui vocatur ad Monumentus cum integram fine sua <orgName
+                            key="#Monasteries" ref="#juridical_persons/85"><placeName
+                                ref="#places/110" key="#Cities">Sancte Sophie</placeName></orgName>
+                        concessi perfruendum. (…)</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
