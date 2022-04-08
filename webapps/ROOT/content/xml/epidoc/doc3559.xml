@@ -35,7 +35,7 @@
                             <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Uncertain tradition</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -84,9 +84,14 @@
             <div type="edition">
                 <div type="textpart">
                     <ab><note>Il principe Arechi II offre al monastero di S. Sofia di Benevento (prosegue
-                        l'elenco iniziato con il doc. 3535):</note></ab> <ab>(…) [34] Nec non et concessi Sancte Sophie monasterio condomas nomine <name ref="Alerissi"
+                        l'elenco iniziato con il doc. 3535):</note></ab> <ab>(…) [34] Nec non et concessi <orgName key="#Monasteries" ref="#juridical_persons/85"><placeName
+                                ref="#places/110" key="#Cities">Sancte Sophie</placeName>
+                            <rs key="#Monasteries">monasterio</rs></orgName>
+                        <rs key="#Condomae">condomas</rs> nomine <name ref="Alerissi"
                             >Alerissi</name> cum uxore, germanos suos et filiis et filias vel omnia
-                        eorum, qui habitat in Catola sub Anteneri gastaldo. (…)</ab>
+                        eorum, qui habitat in <placeName key="#Villages/settlements"
+                            >Catola</placeName> sub Anteneri <rs key="#Gastaldus/vicegastaldus"
+                            >gastaldo</rs>. (…)</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
