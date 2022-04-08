@@ -4,8 +4,7 @@
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
-                <title>Arezzo, Archivio Capitolare, <foreign>Pergamene</foreign>, n.
-                    CXXXVIII.</title>
+                <title>Arezzo, Archivio Capitolare, Canonica, n. 138</title>
             </titleStmt>
             <editionStmt>
                 <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
@@ -43,10 +42,11 @@
                     <history>
                         <origin>
                             <origDate when="0916-01-02">
-                                <note type="displayed_date">916 january 2</note>
-                                <note type="dating_elements"/>
+                                <note type="displayed_date">916 January 2</note>
+                                <note type="dating_elements">Stile dell'incarnazione, anno di regno
+                                    e di impero di Berengario</note>
                                 <note type="topical_date">Mugello</note>
-                                <note type="redaction_date">XI sec.</note>
+                                <note type="redaction_date">XI m</note>
                              </origDate>
                             <origPlace/>
                         </origin>
@@ -75,6 +75,7 @@
         <revisionDesc>
             <listChange>
                 <change when="2021-02-08" who="cstedile">creation of record</change>
+                <change when="2022-04-08" who="ptomei">changes</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -83,52 +84,39 @@
             <div type="edition">
                 <div type="textpart">
                     <ab>[In nomine domini Dei eterni. <persName key="#Emperor/king" ref="#people/21"
-                            >Berengarius</persName> divina favente clementi]a [<rs
+                            >Berengarius</persName> divina favente clementia [<rs
                             key="#Emperor/king">imperator</rs> augustus. Notum sit omnibus
-                        fideli]bus sancte Dei Ecclesie [nostrisque presentibus et futuris, qualiter
+                        fideli]bus sancte Dei Aecclesie [nostrisque presentibus et futuris, qualiter
                         ob amorem Dei omnipoten]tis et ob reme[dium anime nostre nostrorumque
                         predecessorum perd]onavimus <orgName ref="#juridical_persons/1402"
-                            key="#Houses #Natural_landscape #Rivers #Mountains #Landed_possessions #Forests #Fisheries #Mills #Cereals #Wine #Hay/fodder #Churches #Royal_slave #Royal_aldius"
-                            >sancte <placeName ref="#places/505">Aritine</placeName>
-                            ecclesie</orgName> in qua [beati Donati martir]is Christi corpus humatum
-                        quiescit, cui etiam ecclesie <persName key="#Bishops #fidelisOf"
-                            ref="#people/273">Petrus</persName> [venerabilis <rs key="#Bishops"
-                            >episcopus</rs> dilectu]sque <rs key="#fidelisOf">fidelis</rs> noster
-                        preesse dignoscitur, quandam <rs key="#Churches">ecclesiam</rs>
-                        <orgName
-                            key="#Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches #Churches"
-                            >Sancti Marini</orgName> cum suis pertinentiis, et <placeName
-                            key="#Houses #Natural_landscape #Rivers #Mountains #Landed_possessions #Forests #Fisheries #Mills #Cereals #Wine #Hay/fodder #Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches #Royal_slave #Royal_aldius"
-                            >P[iu]nta</placeName> cum o[mnibus s]uis appenditiis, nec non <placeName
-                            key="#Houses #Natural_landscape #Rivers #Mountains #Landed_possessions #Forests #Fisheries #Mills #Cereals #Wine #Hay/fodder #Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches #Royal_slave #Royal_aldius"
-                            >Gratigiata</placeName> cum omnibus suis pertinentiis, sicut olim de <rs
-                            key="#Comitatus">comitatu</rs>
-                        <geogName key="#Comitatus" ref="#estates/1402">A[rit]ino</geogName> sub
-                        integritate pertinuerunt una cum <rs key="#Houses">casis</rs>, <rs
-                            key="#Landed_possessions">terris</rs>, <rs key="#Wine">v[ineis</rs>, <rs
-                            key="#Cereals">campis</rs>, <rs key="#Hay/fodder">pratis</rs>,] <rs
-                            key="#Hay/fodder">pascuis</rs>, <rs key="#Forests">silvis</rs>,
-                            <rs>salectis</rs>, <rs>sacio[nibus]</rs>, <rs key="#Rivers">aquis
-                            aquarumque decursibus</rs>, <rs key="#Mills">molendinis</rs>, <rs
-                            key="#Fisheries">piscationibus</rs>, <rs key="#Royal_slave">servis et
-                            ancillis</rs>, <rs key="#Royal_aldius">aldionibus et aldianis</rs>, <rs
-                            key="#Mountains">montibus</rs>, <rs key="#Natural_landscape">vallibus,
-                            planitiebus</rs> seu cum omnibus ad eadem tria loca pertinentibus. Haec
-                        omnia <rs
-                            key="#Fiscal_property #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
-                            >de nostro iure et dominio in prefate ecclesie ius et dominium</rs>
-                        omnino transfundimus atque donamus ad habendum, tenendum, comutandum et
-                        fruendum, [qualib]et ecclesiastica censura amota totius publice partis
-                        contraditione aut invasione vel molestia cuiusquam. Si quis igitur hoc
-                        nostrum imperiale preceptum infringere vel violare temtaverit, sciat se
-                        conpositurum <rs key="#Penalty">auri optimi libras centum</rs>, <rs
-                            key="#Camera_regis">medietatem camere nostre</rs> et <rs
-                            key="#Camera_of_other_public_authorities">medietatem Petro eiusdem
-                            ecclesie episcopo suisque successoribus</rs>. Quod ut verius credatur et
-                        diligenitus observetur, manu propria roborantes de anulo nostro subter
-                        insigniri iussimus. Signum domni (M) Beren[garii piissimi imperatoris.]
-                            [<persName key="#Chancellor #Bishops" ref="#people/1501"
-                            >Iohannes</persName>
+                            key="#Mother_churches">sancte <placeName ref="#places/505"
+                                key="#Comitatus #Mother_churches #Bishops">Aritine</placeName>
+                            <rs key="#Mother_churches">ęcclesię</rs></orgName> in qua [beati Donati
+                        martiris] Christi corpus humatum quiescit, cui etiam ęcclesię <persName
+                            key="#Bishops #fidelisOf" ref="#people/273">Petrus</persName>,
+                        [venerabilis <rs key="#Bishops">episcopus</rs> dilectu]sque <rs
+                            key="#fidelisOf">fidelis</rs> noster preesse dignoscitur, quandam <rs
+                            key="#Churches">ęcclesiam</rs> Sancti Marini cum suis pertinentiis et
+                        [Piun]ta c[um omnibus s]uis appenditiis nec non Gratigiata cum omnibus suis
+                        pertinentiis, sicut olim de [<rs key="#Comitatus">comitatu</rs>
+                        <geogName key="#Comitatus" ref="#estates/1403">Areti]no</geogName> sub
+                        integritate pertinuerunt una cum casis, terris, v[ineis, campis, pratis,]
+                        pascuis, silvis, salectis, sacio[nibus], aquis aquarumque decursibus, <rs
+                            key="#Mills">molendinis</rs>, <rs key="#Fisheries">piscationibus</rs>,
+                            <rs key="#Slave">servis et ancillis</rs>, <rs key="#Aldius">aldionibus
+                            et aldianis</rs>, montibus, vallibus, planitiebus seu cum omnibus ad
+                        eadem tria loca pertinentibus. Haec omnia de nostro iure et dominio in
+                        prefate ecclesie ius et dominium omnino transfundimus atque donamus ad
+                        habendum, tenendum, comutandum et fruendum, [qualib]et ecclesiastica censura
+                        amota totius publice partis contraditione aut invasione vel molestia
+                        cuiusquam. Si quis igitur hoc nostrum imperiale preceptum infringere vel
+                        violare temtaverit, sciat se conpositurum <rs key="#Penalty">auri optimi
+                            libras centum</rs>, <rs key="#Camera_regis">medietatem camere
+                            nostre</rs> et medietatem Petro eiusdem ecclesie episcopo suisque
+                        successoribus. Quod ut verius credatur et diligenitus observetur, manu
+                        propria roborantes de anulo nostro subter insigniri iussimus. Signum domni
+                        (M) Beren[garii piissimi imperatoris.] [<persName key="#Chancellor #Bishops"
+                            ref="#people/1501">Iohannes</persName>
                         <rs key="#Bishops">episcopus</rs> et] <rs key="#Chancellor"
                             >ca[ncellarius</rs> ad vicem <persName key="#Archchancellor #Bishops"
                             ref="#people/216">Ardingi</persName>
@@ -141,16 +129,23 @@
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p>DD B I, pp. 279-281, n. CIX</p>
+                <p>Pasqui, 1, n. 56, pp. 79-80; DD B I, pp. 279-281, n. CIX; CDAr, 1, n. 35, pp.
+                    106-108.</p>
             </div>
             <div type="bibliography" subtype="additional">
-                <p/>
+                <p>Allegria 2006.</p>
             </div>
             <div type="bibliography" subtype="links">
                 <p/>
             </div>
             <div type="commentary">
-                <p/>
+                <p>Copia semplice tradita in un rotolo, probabilmente mutilo, composto da sette
+                    pergamene unite con fettucce di membrana per una lunghezza complessiva che
+                    supera i 5 metri. Su di esso tre mani hanno vergato 14 atti, datati fra il 29
+                    agosto 843 e il 7 gennaio 1047. 12 di essi si conservano anche in originale. Il
+                    diploma in questione occupa la parte iniziale superstite della prima pergamena
+                    del rotolo. Nota dorsale di mano del sec. XI: Exempla preceptorum regum et
+                    privilegiorum episcoporum.</p>
             </div>
         </body>
     </text>

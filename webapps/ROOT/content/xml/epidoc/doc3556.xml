@@ -34,7 +34,7 @@
                             <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Uncertain tradition</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">No</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -83,10 +83,14 @@
             <div type="edition">
                 <div type="textpart">
                     <ab><note>Il principe Arechi II offre al monastero di S. Sofia di Benevento (prosegue
-                        l'elenco iniziato con il doc. 3535):</note></ab> <ab>(…) [31] Nec non casam et vineam ad Sanctum Balentinum quam <name ref="Leo">Leo</name>
-                        cellararius per cartulam offertionis Sancte Sophie monasterio tradidit,
-                        nostra vero potestas secundum testum offertionis in eodem firmabimus
-                        monasterio possidendum. (…)</ab>
+                        l'elenco iniziato con il doc. 3535):</note></ab> <ab>(…) [31] Nec non <rs key="#Domus">casam</rs> et <rs key="#Wine">vineam</rs>
+                        <placeName key="#Casae/cassinae_massaricie #Wine" ref="#places/3420">ad
+                            Sanctum Balentinum</placeName> quam <name ref="Leo">Leo</name>
+                        <rs key="#Monks">cellararius</rs>
+                        <rs key="#Cartula #Offersio/donatio">per cartulam offertionis</rs> Sancte
+                        Sophie <rs key="#Monasteries">monasterio</rs> tradidit, nostra vero potestas
+                        secundum testum offertionis in eodem firmabimus monasterio possidendum.
+                        (…)</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
