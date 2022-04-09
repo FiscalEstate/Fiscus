@@ -58,10 +58,10 @@
                     </history>
                 </msDesc>
                 <listPlace>
-                    <place></place>
+                    <place/>
                 </listPlace>
                 <listPerson>
-                    <person></person>
+                    <person/>
                 </listPerson>
             </sourceDesc>
         </fileDesc>
@@ -190,9 +190,9 @@
                             >Martinum</name></persName> atque <persName key="#Agricultural_workers"
                                 ><name ref="Ursus">Ursum</name></persName>, eciam <persName
                             key="#Agricultural_workers"><name ref="Lupus">Lupum</name></persName> et
-                            <persName key="#Agricultural_workers"><name ref="Iohannes/">Iohannem qui
-                                vocatur Ciriamilio</name></persName>, nec non et <persName
-                            key="#Agricultural_workers #Priests"><name ref="Dominicus"
+                            <persName key="#Agricultural_workers"><name ref="Iohannes/Ciriamilio"
+                                >Iohannem qui vocatur Ciriamilio</name></persName>, nec non et
+                            <persName key="#Agricultural_workers #Priests"><name ref="Dominicus"
                                 >Dominicum</name></persName> presbiterum seu <persName
                             key="#Agricultural_workers"><name ref="Giselbertus"
                             >Giselbertum</name></persName> et <persName key="#Agricultural_workers"
@@ -215,7 +215,9 @@
                             >avus</rs> meus <persName key="#Marquis/duke #grandparentOf"
                             ref="#people/2122">Thedaldus</persName>
                         <rs key="#Marquis/duke">marchio</rs> dedit suprascripto monasterio in loco
-                            <placeName ref="#places/2950">Pelavo</placeName>; habeat <rs
+                            <placeName
+                            key="#Landed_possessions #Agricultural_workers #Mansi #Casae/cassinae_massaricie"
+                            ref="#places/2950">Pelavo</placeName>; habeat <rs
                             key="#Iure_proprietatis/pleno_iure">proprietario iure</rs> sine omni
                         condicione alicuius potestate massaricies sex et dimidie, cum omnibus rebus
                         que ad ipsas massaricies pertinere videntur. Et recte et laborate fuerunt
@@ -238,7 +240,7 @@
                                 >Dotho</name></persName>. Et vollo ut habeat iam dictum monasterium
                             <rs key="#Landed_possessions">sedimen</rs> unum cum casis super se
                         habente, que est massaricia una que est in <placeName
-                            key="#Landed_possessions #Mansi #Casae/cassinae_massaricie #Cereals #Wine #Hay/fodder"
+                            key="#Landed_possessions #Agricultural_workers #Mansi #Casae/cassinae_massaricie #Cereals #Wine #Hay/fodder"
                             >Buthrice</placeName>, et recta et laborata est per <persName
                             key="#Agricultural_workers"><name ref="Benedictus"
                             >Benedictum</name></persName>
@@ -263,11 +265,11 @@
                                 >Martinum Madelberti</name></persName>, septima per fratre <persName
                             key="#Agricultural_workers #siblingOf"><name ref="Martinus/Latrudi"
                                 >Martinum Latrudi</name></persName>; et sunt suprascripte massaricie
-                        unaqueque per mensuram iustam inter sedimen et vites et areis ubi estant <rs
-                            key="#Size">iugera duo, de terris arabilis iugera sex</rs>, de <rs
-                            key="#Forests">silvis</rs> cum areis suaque iugera quattuor. Etiam volo
-                        ut habeat suprascriptum monasterium massaricias tres, que sunt posite in
-                        loco et fondo ubi <placeName
+                        unaqueque per mensuram iustam <rs key="#Size">inter sedimen et vites et
+                            areis ubi estant iugera duo, de terris arabilis iugera sex, de <rs
+                                key="#Forests">silvis</rs> cum areis suaque iugera quattuor</rs>.
+                        Etiam volo ut habeat suprascriptum monasterium massaricias tres, que sunt
+                        posite in loco et fondo ubi <placeName
                             key="#Areas #Landed_possessions #Cereals #Wine #Hay/fodder #Forests #Rivers"
                             >Castello Novo</placeName> dicitur, iuxta <rs key="#Rivers">fluvium
                             Bondenum</rs>; et fuerunt recte et laborate una per <persName
@@ -309,12 +311,12 @@
                         massaricia una que est posita in loco et fondo <placeName
                             key="#Areas #Landed_possessions #Forests #Cereals #Wine #Hay/fodder"
                             >Mandrie</placeName>, et erat laborata per <persName
-                            key="#Agricultural_workers #Specialized_workers">Mandreverto
-                            ferario</persName>; et est ipsa massaricia per mensuram iustam <rs
-                            key="#Size">inter sedimen et vineis cum areis suarum iugera duo, de
-                            terris arabilis iugera sex, de silvis cum areis suarum iugera
-                            quattuor</rs>. Et volo ut habeat suprascriptum monasterium massariciam
-                        unam in loco et fondo <placeName
+                            key="#Agricultural_workers #Specialized_workers"
+                                ><name>Mandreverto</name> ferario</persName>; et est ipsa massaricia
+                        per mensuram iustam <rs key="#Size">inter sedimen et vineis cum areis suarum
+                            iugera duo, de terris arabilis iugera sex, de silvis cum areis suarum
+                            iugera quattuor</rs>. Et volo ut habeat suprascriptum monasterium
+                        massariciam unam in loco et fondo <placeName
                             key="#Areas #Landed_possessions #Forests #Cereals #Wine #Hay/fodder"
                             ref="#places/2400">Sancto Benedicto</placeName>, que fuit laborata per
                         filium <persName><name ref="Stefanus/Pillacavra">Stefani qui dicitur
@@ -372,59 +374,63 @@
                         monasterium piscariam unam que nominatur <placeName key="#Lakes #Fisheries"
                             >lacus de Nasenga</placeName>, omnia in integrum non longe a castro qui
                         dicitur <placeName key="#Castle">Scorçariolum</placeName>. Et volo ut habeat
-                        suprascriptum monasterium casale unum infra civitatem Ferariam, in fondo
-                        Tabemulo prope monasterium Sancti Petri apostoli; et est casale ipsum per
-                        mensuram iustam de unoquoque latere pedes XX, de unoquoque capite pedes XV;
-                        coheret ei da sera via publica, a meridie casa Georgij presbiter, da
-                        aquilone Bone ançile Dei, a mane ingressus communis. Foris eadem civitate
-                        Ferarie infra burgum habeat casale unum cum casa super se habentem in fondo
-                        Bagnolo, non longe a monasterio Sancti Clementis; et est per mensuram iustam
-                        ab unoquoque capite pedes XIII, de unoquoque latere pedes XXX. Coheret ei de
-                        duabus partibus via pubblica, de tercia parte Stefani de Filiça, de quarta
-                        parte Vuido de Petro Marberti. Et habeat ipsum monasterium aliam casam infra
-                        ipsum burgum in eodem fondo Bagnolo non longe a basilica Sancti Michaelis.
-                        Coheret ei de duabus partibus via publica, de tercia casa de Crima, de
-                        quarta parte casa mea que in mea reservo potestate. Et habeat ipsum
-                        monasterium capelam unam in predicto burgo Ferarie in eodem fondo Bagnolo;
-                        et est edificata in honore Sancti Michaelis cum atrio suo in circuito se
+                        suprascriptum monasterium casale unum infra <rs>civitatem</rs>
+                        <placeName>Ferariam</placeName>, in <placeName>fondo Tabernulo</placeName>
+                        prope <orgName>monasterium Sancti Petri apostoli</orgName>; et est casale
+                        ipsum per mensuram iustam <rs>de unoquoque latere pedes XX, de unoquoque
+                            capite pedes XV</rs>; coheret ei da sera via publica, a meridie casa
+                        Georgij presbiter, da aquilone Bone ançile Dei, a mane ingressus communis.
+                        Foris eadem civitate Ferarie infra burgum habeat casale unum cum casa super
+                        se habentem in <placeName>fondo Bagnolo</placeName>, non longe a
+                            <rs>monasterio Sancti Clementis</rs>; et est per mensuram iustam <rs>ab
+                            unoquoque capite pedes XIII, de unoquoque latere pedes XXX</rs>. Coheret
+                        ei de duabus partibus via pubblica, de tercia parte Stefani de Filiça, de
+                        quarta parte Vuido de Petro Marberti. Et habeat ipsum monasterium aliam
+                        casam infra ipsum <rs>burgum</rs> in eodem fondo Bagnolo non longe a
+                            <orgName>basilica Sancti Michaelis</orgName>. Coheret ei de duabus
+                        partibus via publica, de tercia casa de Crima, de quarta parte casa mea que
+                        in mea reservo potestate. Et habeat ipsum monasterium capelam unam in
+                        predicto burgo Ferarie in eodem fondo Bagnolo; et est edificata in honore
+                            <orgName>Sancti Michaelis</orgName> cum atrio suo in circuito se
                         habente. Et volo ut habeat quod pater meus dedit suprascripto monasterio
                         habeat proprietario iure, et sine omni conditione vel molestatione alicuius
                         potestatis: scilicet castrum unum cum casis et capela consecrata in honore
-                        Sancti Martini in eodem castro, cum tolimine et fosato circumdatum, cum
-                        aliquantis rebus foris eodem castro ibidem pertinentibus iuris mei, que sunt
-                        per mensuram iustam cum eodem castro et fosato iugera tria, que sunt posite
-                        in comitatu Regensi, in loco qui vocatur Sancto Martino; atque massaricias
-                        numero tredecim, que sunt posite in loco qui dicitur Sableta. Prima
-                        massaricia que recta fuit per Iohannem qui dicitur Anticario, est per
-                        mensuram iustam inter sedimen et areas ubi vites estant seu terras arabiles
-                        iugera duodecim. Secunda ibi prope que laborata erat per Petrum qui dicitur
-                        Vuagina, et est per mensuram iustam inter sedimen et areas ubi vites estant,
-                        seu terras arabiles iugera quattuordecim. Tercia que laborata erat per
-                        Borningum, est per mensuram iustam inter sedimen et areas ubi vites estant
-                        seu terras arabiles iugera Xl. Quarta que laborata erat per filium bone
-                        memorie Alberti qui fuit notarius, est per mensuram iustam inter sedimen et
-                        areas ubi vites estant seu terras arabiles iugera quattuor. Quinta est
-                        posita in curte Pançano, prope fluvio qui est canalis, que laborata erat per
-                        Dominicum qui dicitur Spolio; est per mensuram iustam inter sedimen cum
-                        areis ubi vites estant seu terras arabiles iugera novem. Sexta que laborata
-                        erat per Giselbertum, est per mensuram iustam inter sedimen cum areas ubi
-                        vites estant seu terras arabiles iugera quattuor. Septima que laborata erat
-                        per Dominicum et Martinum germanos qui dicuntur Bugatti, est per mensuram
+                            <orgName>Sancti Martini</orgName> in eodem castro, cum tolimine et
+                            <rs>fosato</rs> circumdatum, cum aliquantis rebus foris eodem castro
+                        ibidem pertinentibus iuris mei, que sunt per mensuram iustam cum eodem
+                        castro et fosato <rs>iugera tria</rs>, que sunt posite in comitatu Regensi,
+                        in loco qui vocatur Sancto Martino; atque massaricias numero tredecim, que
+                        sunt posite in loco qui dicitur Sableta. Prima massaricia que recta fuit per
+                        Iohannem qui dicitur Anticario, est per mensuram iustam inter sedimen et
+                        areas ubi vites estant seu terras arabiles iugera duodecim. Secunda ibi
+                        prope que laborata erat per Petrum qui dicitur Vuagina, et est per mensuram
+                        iustam inter sedimen et areas ubi vites estant, seu terras arabiles iugera
+                        quattuordecim. Tercia que laborata erat per Borningum, est per mensuram
                         iustam inter sedimen et areas ubi vites estant seu terras arabiles iugera
-                        sex. Octava que laborata erat per Martinum qui dicitur Siolixano, est per
-                        mensuram iustam inter sedimen et areas vites estant seu terras arabiles
-                        iugera duodecim. Nona que laborata erat per Eginulfum, est inter sedimen et
-                        areas ubi vites estant seu terras arabiles iugera X. Decima que laborata
-                        erat per Amicum presbiterum, est per mensuram iustam inter sedimen et areas
-                        ub1 vttes estant seu terras arabiles iugera decem. Undecima que laborata
-                        erat per Iohannem qui dicitur Moreno, est per mensuram iustam inter sedimen
-                        cum areis ubi vites estant seu terras arabiles iugera duodecim. Duodecima
-                        que laborata erat per Aribertus filius Martini, est per mensura in iustam
-                        inter sedimen et areas ubi vites estant seu terras arabiles iugera quattuor.
-                        Terciadecima que laborata erat per Iohannem qui dicitur Fugilupum, est per
-                        mensuram iustam inter sedimen et areas ubi vites estant seu terras arabiles
-                        iugera sex. In loco Farciano sunt massaricie due, que pertinent ad ipsam
-                        curtem Sableta. Prima massaricia recta erat per Albertum filium bone memorie
+                        Xl. Quarta que laborata erat per filium bone memorie Alberti qui fuit
+                        notarius, est per mensuram iustam inter sedimen et areas ubi vites estant
+                        seu terras arabiles iugera quattuor. Quinta est posita in curte Pançano,
+                        prope fluvio qui est canalis, que laborata erat per Dominicum qui dicitur
+                        Spolio; est per mensuram iustam inter sedimen cum areis ubi vites estant seu
+                        terras arabiles iugera novem. Sexta que laborata erat per Giselbertum, est
+                        per mensuram iustam inter sedimen cum areas ubi vites estant seu terras
+                        arabiles iugera quattuor. Septima que laborata erat per Dominicum et
+                        Martinum germanos qui dicuntur Bugatti, est per mensuram iustam inter
+                        sedimen et areas ubi vites estant seu terras arabiles iugera sex. Octava que
+                        laborata erat per Martinum qui dicitur Siolixano, est per mensuram iustam
+                        inter sedimen et areas vites estant seu terras arabiles iugera duodecim.
+                        Nona que laborata erat per Eginulfum, est inter sedimen et areas ubi vites
+                        estant seu terras arabiles iugera X. Decima que laborata erat per Amicum
+                        presbiterum, est per mensuram iustam inter sedimen et areas ub1 vttes estant
+                        seu terras arabiles iugera decem. Undecima que laborata erat per Iohannem
+                        qui dicitur Moreno, est per mensuram iustam inter sedimen cum areis ubi
+                        vites estant seu terras arabiles iugera duodecim. Duodecima que laborata
+                        erat per Aribertus filius Martini, est per mensura in iustam inter sedimen
+                        et areas ubi vites estant seu terras arabiles iugera quattuor. Terciadecima
+                        que laborata erat per Iohannem qui dicitur Fugilupum, est per mensuram
+                        iustam inter sedimen et areas ubi vites estant seu terras arabiles iugera
+                        sex. In loco Farciano sunt massaricie due, que pertinent ad ipsam curtem
+                        Sableta. Prima massaricia recta erat per Albertum filium bone memorie
                         Reginça; est per mensuram iustam inter sedimen et areas ubi vites estant seu
                         terras arabiles iugera septem et modia duo. Secunda in ipso loco Farciano,
                         que laborata erat per Martinum qui dicitur Garuliolo, est per mensuram
