@@ -35,7 +35,7 @@
                             <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Uncertain tradition</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -84,11 +84,19 @@
             <div type="edition">
                 <div type="textpart">
                     <ab><note>Il principe Arechi II offre al monastero di S. Sofia di Benevento (prosegue
-                        l'elenco iniziato con il doc. 3535):</note></ab> <ab>(…) [38] Seu et substantia <name ref="Thalaricus">Thalarici</name> notario qui per multas
-                        cartulas falsas est condemnatus et insuper extra provincia, id est in
-                        Neapolim, fuga lapsus est, unde legibus omnis eius substantiolas ad nostram
-                        pertinuit potestatem, quam in integrum monasterio Sancte Sophie concessimus
-                        possidendum. (…)</ab>
+                        l'elenco iniziato con il doc. 3535):</note></ab> <ab>(…) [38] Seu et <rs key="#Property_of_criminals/political_traitors">substantia</rs>
+                        <name ref="Thalaricus notarius">Thalarici</name>
+                        <rs key="#Notary">notario</rs> qui per multas cartulas falsas est
+                        condemnatus et insuper extra provincia, id est in <placeName
+                            ref="#places/2350" key="#Cities">Neapolim</placeName>, fuga lapsus est,
+                        unde legibus omnis eius substantiolas <rs
+                            key="#Fiscal_property #Mention #Redistributive #Inflow #Confiscation #Property_of_criminals/political_traitors"
+                            >ad nostram pertinuit potestatem</rs>, quam in integrum <orgName
+                            key="#Monasteries" ref="#juridical_persons/85"><rs
+                                key="#Fiscal_property #Object #Redistributive #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
+                                >monasterio</rs>
+                            <placeName ref="#places/110" key="#Cities">Sancte
+                            Sophie</placeName></orgName> concessimus possidendum. (…)</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
