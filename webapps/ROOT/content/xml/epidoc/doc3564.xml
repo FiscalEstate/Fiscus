@@ -34,7 +34,7 @@
                             <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Uncertain tradition</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -83,12 +83,20 @@
             <div type="edition">
                 <div type="textpart">
                     <ab><note>Il principe Arechi II offre al monastero di S. Sofia di Benevento (prosegue
-                        l'elenco iniziato con il doc. 3535):</note></ab> <ab>(…) [42] Seu et quod conparabimus in Ponticellum, case cum curti sue, da <name ref="Egyptus"
-                            >Egypto</name> filius quoddam <name ref="Gaido">Gaiduni</name>, que est
-                        inter due vię, una via que vadit ad Sanctum Marcum et alia via que vadit ad
-                        Sanctum Valentinum, per hec fines: de capite fine rebus Sancte Sophie, de
-                        subtus fine ipso rivo, in integrum monasterio Sancte Sophie concessimus
-                        possidendum. (…)</ab>
+                        l'elenco iniziato con il doc. 3535):</note></ab> <ab>(…) [42] Seu et <rs key="#Fiscal_property #Mention #Inflow #Purchase">quod conparabimus</rs> in
+                            <placeName ref="#places/3426" key="#Villages/settlements"
+                            >Ponticellum</placeName>, <rs key="#Casae/cassinae_massaricie">case</rs>
+                        cum <rs key="#Curtes">curti</rs> sue, da <name ref="Egyptus">Egypto</name>
+                        filius quoddam <name ref="Gaido">Gaiduni</name>, que est inter due <rs
+                            key="#Roads">vię</rs>, una via que vadit ad Sanctum Marcum et alia via
+                        que vadit ad <placeName key="#Villages/settlements" ref="#places/3420"
+                            >Sanctum Valentinum</placeName>, <rs key="#Fines">per hec fines</rs>: de
+                        capite fine rebus Sancte Sophie, de subtus fine ipso <rs key="#Rivers"
+                            >rivo</rs>, in integrum <orgName
+                            key="#Curtes #Casae/cassinae_massaricie #Fiscal_property #Object #Redistributive #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches #Monasteries"
+                            ref="#juridical_persons/85"><rs key="#Monasteries">monasterio</rs>
+                            <placeName ref="#places/110" key="#Cities">Sancte
+                            Sophie</placeName></orgName> concessimus possidendum. (…)</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
