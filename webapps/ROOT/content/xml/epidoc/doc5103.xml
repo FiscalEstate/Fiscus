@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Modena, Biblioteca Estense, ms. α J.4.7. (lat. 1120), c. 81r, rr.
+                    1-23</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2022">2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DiSCi UniBo</publisher>
+                <idno type="filename">doc5103</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+                </availability>
+                <date when="2022"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">-Breve/memoratorium</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Compendium</rs>
+                            <rs type="fiscal_property"/>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="1122-02-03">
+                                <note type="displayed_date">1122 February 3</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date"/>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace>Sanctus Benedictus in Pado Lironi; monasterium
+                                (Mantova)</origPlace>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-04-10" who="bferretti">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>Anno 1122 die 3 Febr. Ind. XV. Reverend. <persName key="#Bishops #Witness"
+                            ref="#people/3547">Vilanus</persName>
+                        <rs key="#Bishops">episc.</rs>
+                        <placeName key="#Bishops #Canons" ref="#places/9">Brix.</placeName> consilio
+                        et consensu <rs key="#Canons">Canonicorum</rs>, et <persName
+                            key="#Archpriests #Witness"><name ref="Lanzus"
+                            >Lanzonis</name></persName>
+                        <rs key="#Archpriests">Archipresbiteri</rs>
+                        <rs key="#Churches">eccl.</rs>
+                        <orgName key="#Churches #Archpriests" ref="#juridical_persons/2005">S.
+                            Mariae</orgName> de <placeName
+                            key="#Churches #Archpriests #Cells/hermitages" ref="#places/2475"
+                            >Medula</placeName> promisit se suosque successores adversus <orgName
+                            key="#Monasteries #Priors #Monks #Missus #Cells/hermitages #Landed_possessions #Abbots"
+                            ref="#juridical_persons/2001"><rs key="#Monasteries"
+                            >Monas.</rs></orgName> non posse causare de <rs key="#Cells/hermitages"
+                            >Capella</rs>
+                        <orgName key="#Cells/hermitages" ref="#juridical_persons/2066">S.
+                            Viti</orgName> et de omnibus rebus possessis a Monasterio quae
+                        dicebantur pertinere Eccl.ae <orgName key="#Churches"
+                            ref="#juridical_persons/2004">S. Justi</orgName>. Ipse vicem se accipit
+                        cum Lanzone suprad. a Mon. per Reverendum <persName key="#Priors"
+                            ref="#people/3509">Ubertum</persName>
+                        <rs key="#Priors">Priorem</rs>, et <persName key="#Monks"><name
+                                ref="Heinricum">Enricum</name></persName>
+                        <rs key="#Monks">monachum</rs>, et <persName key="#Monks #Missus"><name
+                                ref="Giselbertus">Gilbertum</name></persName> monachum <rs
+                            key="#Missus">missus</rs> Mon. Capellam S. Justi cum <rs key="#Size">sex
+                            iug.</rs>
+                        <rs key="#Landed_possessions">terrae</rs>. Hacc conventio facta est D.no
+                            <persName key="#Abbots" ref="#people/3538">Pontio</persName>
+                        <rs key="#Abbots">Abb.</rs>
+                        <orgName key="#Abbots" ref="#juridical_persons/2091">Cluniac.</orgName> et
+                        R.mo <persName key="#Abbots" ref="#people/3549">Enrico</persName> Abbate
+                            <orgName key="#Abbots" ref="#juridical_persons/2410"
+                            >angeliacensi</orgName>, mediantibus consensu Abbatis suprad.ti Monast.
+                        spirituali reverentia <orgName
+                            key="#Bishops #Canons #Cells/hermitages #Landed_possessions #Mother_churches #Deacons #Subdeacons #Priests"
+                            ref="#juridical_persons/1425">Eccl. Brix.</orgName> servata. <rs
+                            key="#Witness">Subscripsi</rs> ego <persName key="#Witness #Deacons"
+                                ><name ref="Lanfrancus">Lanfrancus</name></persName>
+                        <rs key="#Deacons">Diaconus</rs> maioris Ecclesiae. Item <persName
+                            key="#Witness #Deacons"><name ref="Lanfrancus"
+                            >Lanfrancus</name></persName> Diaconus maioris Ecclesiae. Item <persName
+                            key="#Witness #Deacons"><name ref="Lanfrancus"
+                            >Lanfrancus</name></persName> eiusdem Ecclesiae Diaconus. Ego <persName
+                            key="#Witness #Subdeacons"><name ref="Hubertus"
+                            >Ubertus</name></persName>
+                        <rs key="#Subdeacons">Subdic.</rs> ss. <persName key="#Witness #Priests"
+                                ><name ref="Gezo">Gezzo</name></persName>
+                        <rs key="#Priests">Praesb.</rs> ss. Ego <persName key="#Witness #Priests"
+                                ><name ref="Villanus">Villanus</name></persName> Praesb. ss. Ego
+                        Lanzo Archipraesb. Medul. Ecclesiae laudo et confirmo. Ego Villanus Dei
+                        gratia Brixiensis Ecclesiae Episcopus huius operis facta confirmavi. Ego
+                            <persName ref="#people/3548" key="#Witness #Bishops"
+                            >Manfredus</persName> Dei gratia Brixiensis Ecclesiae Episcopus ss. et
+                        confirmavi. Ego <persName key="#Witness #Subdeacons"><name ref="Paulus"
+                                >Paulus</name></persName> Brix. Eccl. Subdiac. ss. Ego <persName
+                            key="#Witness #Subdeacons"><name ref="Oddo">Oddo</name></persName>
+                        eiusdem Eccl. Subdiac. ss. Ego <persName key="#Witness #Subdeacons"><name
+                                ref="Albertus">Albertus</name></persName> eiusdem Eccl. Subdiac. ss.
+                        Ibi fuere <persName key="#Witness #Advocatus"><name ref="Oddo"
+                            >Oddo</name></persName>
+                        <rs key="#Advocatus">Advocatus</rs>, <persName key="#Witness"><name
+                                ref="Huguccio/de Martinengo">Ugucionus de
+                            Martinengo</name></persName>, <persName key="#Witness"><name
+                                ref="Obizo/della Porta">Obizo della Porta</name></persName>,
+                            <persName key="#Witness"><name ref="Lanfrancus/Zinzala">Lanfrancus
+                                Zinzala</name></persName>, <persName key="#Witness"><name
+                                ref="Lanzus/Bergomensis">Lanzo Bergomensis</name></persName> et
+                        reliqui plures. Ego <persName key="#Witness #Canons"><name ref="Philippus"
+                                >Filippus</name></persName> Brixiensis Ecclesiae Canonicus ss. Ego
+                            <persName key="#Witness #Deacons"><name ref="Aldus"
+                            >Aldo</name></persName> eiusdem Ecclesiae Diaconus ss. Ego <persName
+                            key="#Witness #Subdeacons"><name ref="Oprandus"
+                            >Oprandus</name></persName> maior. Eccl. Sudd. ss. Ego <persName
+                            key="#Witness #Subdeacons"><name ref="Benedictus"
+                            >Benedictus</name></persName> Ecclesiae <orgName key="#Subdeacons"
+                            ref="#juridical_persons/2411">S. Petri in Oliveto</orgName> Subdiaconus
+                        ss. Ego <persName key="#Notary #Judge #Breve/memoratorium #Writer"><name
+                                ref="Iohannes">Ioannes</name></persName>
+                        <rs key="#Notary">Notarius</rs> et <rs key="#Judge">Judex</rs> interfui et
+                        hoc <rs key="#Breve/memoratorium">Breve</rs> rogatus <rs key="#Writer"
+                            >scripsi</rs>. </ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>CDP I n. 102, pp. 305-307.</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
