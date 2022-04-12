@@ -34,7 +34,7 @@
                         <summary>
                             <rs type="text_type" ref="#">-Cartula</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
-                            <rs type="document_tradition" ref="#">Compendium</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
                             <rs type="fiscal_property">No</rs>
                         </summary>
                         <msItem xml:id="msItem1">
@@ -46,7 +46,7 @@
                             <origDate when="0969">
                                 <note type="displayed_date">969 May 15</note>
                                 <note type="dating_elements"/>
-                                <note type="topical_date"/>
+                                <note type="topical_date">Capua</note>
                             </origDate>
                             <origPlace/>
                         </origin>
@@ -75,6 +75,7 @@
         <revisionDesc>
             <listChange>
                 <change when="2021-02-08" who="atagliente">creation of record</change>
+                <change when="2022-04-12" who="atagliente">minor changes</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -88,9 +89,10 @@
                         <rs key="#Princeps">principis</rs> obtulit <orgName key="#Monasteries"
                             ref="#juridical_persons/84">Beato Benedicto</orgName>
                         <rs key="#Lakes">lacu Iuliani</rs> que esse videtur in <placeName
-                            key="#Villages/settlements" ref="#places/2000">Vicu Albu</placeName>,
-                        integra ipsa <rs key="#Landed_possessions">terra</rs> que esse videtur infra
-                        has <rs key="#Confinia">fines</rs>, sicut incipit a capite de <rs
+                            key="#Villages/settlements #Lakes #Mountains #Landed_possessions"
+                            ref="#places/2000">Vicu Albu</placeName>, integra ipsa <rs
+                            key="#Landed_possessions">terra</rs> que esse videtur infra has <rs
+                            key="#Confinia">fines</rs>, sicut incipit a capite de <rs
                             key="#Mountains">Monte de Albetu</rs> et quomodo decurrit fine <rs
                             key="#Confinia">pesclu</rs> qui se nominat <rs key="#Confinia">de
                             Dominicu</rs> et quomodo pergit in <rs key="#Confinia">Sancto Vito</rs>
@@ -101,18 +103,20 @@
                             key="#Confinia #Natural_landscape"> fine ubi dicitur Cerru Aureu</rs>,
                         et in tertia parte fine <rs key="#Lakes">lacu Taurini</rs>, da quarta parte
                         fine supascripto monte de Albetu. Infra has fines et indicationes, simul cum
-                        ipsu <rs>ribu qui se nominat Carpello</rs>, cum ripis et viis suis intrandi
-                        et exiendi et cum omnia inferiora ac superiora sua, cunctum et integrum ipsa
-                        iudicavi atque offerui in supradicto <rs key="#Monasteries">cenobio</rs>
-                        Sancti Benedicti ad possessionem habendum et retinendum ad eius abbatibus et
-                        rectoribus. Ego qui supradictus Lando comes et meis heredibus componere
-                        obligamus ad partem iam dicti monasterii et ad eius abbatibus et rectoribus,
-                        et omnia supradicta ego et heredes meos percompleamus ad parte ipsius
-                        monasterii et ad eius abbatibus et rectoribus in suprascripta ratione. Et
-                        hanc <rs key="#Cartula">cartam</rs> mee iudicationis atque offersionis de
-                        qualiter continet firma permaneat in perpetuum. Et taliter ego qui
-                        supradictus Lando comes pro remedium anime meae feci, et te <persName
-                            key="#Notary"><name ref="Radipertus">Radipertus</name></persName>
+                        ipsu <rs key="#Rivers">ribu qui se nominat Carpello</rs>, cum <rs
+                            key="#Shores">ripis</rs> et viis suis intrandi et exiendi et cum omnia
+                        inferiora ac superiora sua, cunctum et integrum ipsa iudicavi atque offerui
+                        in supradicto <rs key="#Monasteries">cenobio</rs> Sancti Benedicti ad
+                        possessionem habendum et retinendum ad eius abbatibus et <rs key="#rectorOf"
+                            >rectoribus</rs>. Ego qui supradictus Lando comes et meis heredibus
+                        componere obligamus ad partem iam dicti monasterii et ad eius abbatibus et
+                        rectoribus, et omnia supradicta ego et heredes meos percompleamus ad parte
+                        ipsius monasterii et ad eius abbatibus et rectoribus in suprascripta
+                        ratione. Et hanc <rs key="#Cartula">cartam</rs> mee iudicationis atque
+                        offersionis de qualiter continet firma permaneat in perpetuum. Et taliter
+                        ego qui supradictus Lando comes pro remedium anime meae feci, et te
+                            <persName key="#Notary"><name ref="Radipertus"
+                            >Radipertus</name></persName>
                         <rs key="#Notary">notarius</rs> scribere rogavi. Actum <placeName
                             key="#Cities" ref="#places/173">Capua</placeName>. Ego <persName
                             key="#Judge"><name ref="Adelmundus">Adelmundus</name></persName>

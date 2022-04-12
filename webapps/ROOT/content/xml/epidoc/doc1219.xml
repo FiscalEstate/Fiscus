@@ -34,7 +34,7 @@
                         <summary>
                             <rs type="text_type" ref="#">-Cartula</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
-                            <rs type="document_tradition" ref="#">Compendium</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
                             <rs type="fiscal_property">No</rs>
                         </summary>
                         <msItem xml:id="msItem1">
@@ -46,7 +46,7 @@
                             <origDate when="0970-06">
                                 <note type="displayed_date">970 June</note>
                                 <note type="dating_elements"/>
-                                <note type="topical_date"/>
+                                <note type="topical_date">Sora</note>
                             </origDate>
                             <origPlace/>
                         </origin>
@@ -75,6 +75,7 @@
         <revisionDesc>
             <listChange>
                 <change when="2021-06-28" who="atagliente">creation of record</change>
+                <change when="2022-04-12" who="atagliente">minor changes</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -91,8 +92,8 @@
                             key="#Princeps">principi</rs>, mense Iunio, tertia X indictione. Inde in
                         nomine ego <persName key="#Count"><name ref="Ildebrandus"
                                 >Hildeprandus</name></persName>
-                        <rs key="#Count">comes</rs> de <placeName key="#Cities" ref="#places/2001"
-                            >Sora </placeName>et de <placeName ref="#places/2000"
+                        <rs key="#Count">comes</rs> de <placeName key="#Cities #Count"
+                            ref="#places/2001">Sora </placeName>et de <placeName ref="#places/2000"
                             key="#Villages/settlements">Vicu Albu</placeName> et <persName><name
                                 ref="Ragifredus">Ranginfredus</name></persName> et <persName><name
                                 ref="Ratchis">Rachisi</name></persName>
@@ -101,15 +102,16 @@
                             >Rachisi</name></persName>
                         <rs key="#Gastaldus/vicegastaldus">castaldeo</rs> de <rs key="#Cities"
                             >civitate</rs>
-                        <placeName key="#Cities" ref="#places/2001">Sorana</placeName>, et <persName
-                            key="#Witness"><name ref="Teudo">Teoto</name></persName> et <persName
-                            key="#Witness"><name ref="Rainerius">Raineri</name></persName>
+                        <placeName key="#Cities #Gastaldus/vicegastaldus" ref="#places/2001"
+                            >Sorana</placeName>, et <persName key="#Witness"><name ref="Teudo"
+                                >Teoto</name></persName> et <persName key="#Witness"><name
+                                ref="Rainerius">Raineri</name></persName>
                         <rs key="#childOf">filius</rs> quoddam <persName><name ref="Alexander"
                                 >Alexandri</name></persName> filii suprascripti Rachisi, sicut
                         Dominus inspiravit nobis, bona nostra voluntate et pro salute et redemptione
                         animarum nostrarum seu parentum nostrorum, per hoc scriptum offerimus in <rs
                             key="#Monasteries">monasterio</rs>
-                        <orgName key="#Monasteries" ref="#juridical_persons/84">Sancti
+                        <orgName key="#Monasteries #Abbots" ref="#juridical_persons/84">Sancti
                             Benedicti</orgName> situs in <rs key="#Castle">castro</rs> Casino, in
                         quo domnus <persName key="#Abbots" ref="#people/309">Aligernus</persName>
                         vir venerabilis <rs key="#Abbots">abbas</rs> preesse videtur, hoc est
