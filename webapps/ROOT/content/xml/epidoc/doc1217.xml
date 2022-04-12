@@ -34,7 +34,7 @@
                         <summary>
                             <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
-                            <rs type="document_tradition" ref="#">Compendium</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
                             <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
@@ -46,7 +46,7 @@
                             <origDate when="0897-08">
                                 <note type="displayed_date">897 August</note>
                                 <note type="dating_elements"/>
-                                <note type="topical_date"/>
+                                <note type="topical_date">Salerno</note>
                                 <note type="redaction_date"/>
                              </origDate>
                             <origPlace/>
@@ -77,6 +77,7 @@
             <listChange>
                 <change when="2021-05-07" who="atagliente">creation of record</change>
                 <change when="2021-05-15" who="atagliente">minor changes</change>
+                <change when="2022-04-12" who="atagliente">major changes</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -92,16 +93,17 @@
                             key="#Princeps" ref="#people/298">Guaimarius</persName>
                         <rs key="#Princeps">princeps</rs>
                         <rs key="#childOf">filius</rs> eius, <rs key="#Intercessory">per rogum</rs>
-                        <persName key="#Prevosts #Personal_rank"><name ref="Rainfredus"
-                                >Ragemfrid</name>
-                        </persName><rs key="#Society">medici</rs> e <rs key="#Prevosts"
-                            >prepositi</rs>, in <rs key="#Monasteries">monasterio</rs>
-                        <orgName key="#Monasteries" ref="#juridical_persons/84">Sancti
+                        <persName key="#Medical_doctors #Prevosts #Personal_rank #fidelisOf"><name
+                                ref="Rainfredus">Ragemfrid</name>
+                        </persName><rs key="#Medical_doctors #Society">medici</rs> e <rs
+                            key="#Prevosts #rectorOf">prepositi</rs>, in <rs key="#Monasteries"
+                            >monasterio</rs>
+                        <orgName key="#Monasteries #Abbots" ref="#juridical_persons/84">Sancti
                             Benedicti</orgName> de <rs key="#Castle">castro</rs> Casino, ubi nunc
                         domnus <persName key="#Abbots"><name ref="Ragibrandus"
                             >Ragemprandus</name></persName>
                         <rs key="#Abbots">abbas</rs> regimen tenere videtur, integras ipsas <rs
-                            key="#Fiscal_property #Redistributive #Property_of_persons_without_heirs"
+                            key="#Fiscal_property #Textual_occurrence #Object #Mention #Function #Redistributive #Outflow #Allocation_to_churches #Property_of_persons_without_heirs"
                             ref="#estates/242">res</rs> que fuit <persName
                             key="#Property_of_persons_without_heirs"><name ref="Leo"
                             >Leonis</name></persName> et <persName
@@ -112,32 +114,39 @@
                             key="#Property_of_persons_without_heirs"><name ref="Radipertus"
                                 >Radiperti</name></persName>, qui <rs
                             key="#Property_of_persons_without_heirs">sine heredibus</rs> mortui
-                        sunt, cum <rs key="#Casae/cassinae_massaricie #Landed_possessions">casis et
-                            omnia illorum pertinentia</rs> ubique exinde fuerit inventus, sicut <rs
-                            key="#Fiscal_property #Textual_occurrence #Redistributive">sacro nostro
-                            Palatio pertinet</rs>, hec omnia de <rs key="#Actio">acto</rs>
-                        <placeName key="#Actio" ref="#places/540">Rotense</placeName>, in e
-                        videlicet ratione ut amodo et deinceps per hoc nostrorum roboreum <rs
+                        sunt, cum <rs
+                            key="#Casae/cassinae_massaricie #Landed_possessions #Fiscal_property #Textual_occurrence #Object #Mention #Function #Redistributive #Outflow #Allocation_to_churches"
+                            >casis et omnia illorum pertinentia</rs> ubique exinde fuerit inventus,
+                        sicut <rs
+                            key="#Fiscal_property #Textual_occurrence #Mention #Redistributive"
+                            >sacro nostro Palatio pertinet</rs>, hec omnia de <rs key="#Actio"
+                            >acto</rs>
+                        <placeName
+                            key="#Fiscal_property #Textual_occurrence #Object #Mention #Function #Redistributive #Outflow #Allocation_to_churches #Actio"
+                            ref="#places/540">Rotense</placeName>, in e videlicet ratione ut amodo
+                        et deinceps per hoc nostrorum roboreum <rs
                             key="#Marquis’/ducal/princely_diploma">preceptum</rs> ea que supra
                         legitur, totum in eodem sancto monasterio permaneat, eius rectoribus
                         dominandum et habendum firmiter, et a nullo ex nostris iudicibus, id est
-                        comitibus, castaldeis vel a quibuscumque agentibus habeatis aliquam
-                        requisitionis, set perpetuo tempore possideatis. Quod vera preceptum
-                        concessionis ex iussione supradicte potestatis scripsi ego <persName
-                            key="#Notary"><name ref="Deusdedit">Deusdedit</name></persName>
+                        comitibus, castaldeis vel a <rs key="#agentFor">quibuscumque agentibus</rs>
+                        habeatis aliquam requisitionis, set perpetuo tempore possideatis. Quod vera
+                        preceptum concessionis ex iussione supradicte potestatis scripsi ego
+                            <persName key="#Notary"><name ref="Deusdedit"
+                            >Deusdedit</name></persName>
                         <rs key="#Other_palatine_officer #Notary">notarius sacri Palatii</rs>. Actum
                             <placeName key="#Cities" ref="#places/84">Salernu</placeName> vicesimu
                         primo anno, mense Augusto, quintadecima indictione feliciter. <geogName
-                            key="#Fiscal_property #Redistributive #Property_of_persons_without_heirs"
+                            key="#Fiscal_property #Textual_occurrence #Mention #Function #Redistributive #Outflow #Allocation_to_individuals #Property_of_persons_without_heirs"
                             ref="#estates/242">Curtes</geogName> vero has tenet <persName
-                            key="#Fiscal_property #Redistributive #Estate_supervisors #Property_of_persons_without_heirs"
+                            key="#Fiscal_property #Textual_occurrence #Mention #Function #Redistributive #Outflow #Allocation_to_individuals #Estate_supervisors #Property_of_persons_without_heirs"
                                 ><name ref="Lupus">Lupus</name>
                             <name ref="Magaricus">Magaricus</name></persName>, que fuit curtem
                         Leonis et Ursi et Ragemprandi, Leonis et Radiperti, et singuli curtes suas
                         habuerunt et fuerunt <rs key="#Gastaldus/vicegastaldus">castaldani</rs>
                         <persName key="#Gastaldus/vicegastaldus"><name ref="Rodelgardus"
-                                >Rodelgardi</name></persName> et <persName><name ref="Maio"
-                                >Maiionis</name></persName>.</ab>
+                                >Rodelgardi</name></persName> et <persName
+                            key="#Gastaldus/vicegastaldus"><name ref="Maio"
+                            >Maiionis</name></persName>.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
