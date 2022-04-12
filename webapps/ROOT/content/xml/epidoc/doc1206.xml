@@ -34,7 +34,7 @@
                         <summary>
                             <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
-                            <rs type="document_tradition" ref="#">Compendium</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
                             <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
@@ -46,7 +46,7 @@
                             <origDate when="0980-01-27">
                                 <note type="displayed_date">980 January 27</note>
                                 <note type="dating_elements"/>
-                                <note type="topical_date"/>
+                                <note type="topical_date">Benevento</note>
                                 <note type="redaction_date"/>
                              </origDate>
                             <origPlace/>
@@ -76,6 +76,7 @@
         <revisionDesc>
             <listChange>
                 <change when="2021-05-07" who="atagliente">creation of record</change>
+                <change when="2022-04-12" who="atagliente">minor changes</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -94,7 +95,7 @@
                             ref="#people/309">Aligernus</persName>
                         <rs key="#Abbots">abbas</rs>
                         <rs key="#Monasteries">monasterii</rs>
-                        <orgName key="#Monasteries" ref="#juridical_persons/84">beati
+                        <orgName key="#Monasteries #Abbots" ref="#juridical_persons/84">beati
                             Benedicti</orgName> situm in castro Monte Casino nostram deprecavit
                         excellentiam, ut pro amore Dei nostreque patriae salvatione concederemus
                         atque confirmaremus in eius sancto monasterio cuncta qualiter hic inferius
@@ -108,44 +109,46 @@
                         firmamus in eodem sancto monasterio <rs
                             key="#Rights_of_use_on_woods/pastures/waters">integram aquam</rs>
                         <rs key="#Rivers">fluvio Laureo</rs> ex <rs key="#Cities">civitate</rs>
-                        <placeName key="#Cities" ref="#places/554">Lisina</placeName>, ab ipso loco
-                            <rs key="#Rights_of_use_on_woods/pastures/waters">unde exiet et usque
-                            ubi mittet</rs> in ipso loco, cum alveo et ripis et <rs key="#Confinia"
-                            >suis pertinentiis</rs>, ad <rs key="#Mills">molina</rs> faciendum et
-                            <rs key="#Fisheries">piscaria</rs> habendum, insimul cum ipsa foce et
-                            <rs key="#Fisheries">piscaria ad Sanctum Focatum</rs> subditum quod
-                        monasterii. Insimul concedimus et confirmamus in eodem sancto et venerabili
-                        monasterio integre ipse <rs key="#Houses">casae</rs> de intus eadem civitate
-                        Lisina cum <rs key="#Production">horta</rs> et<rs
-                            key="#Landed_possessions #Fiscal_property #Mention"> terris</rs> a
-                        foris, de quantum in eodem monasterio pertinet et de <rs
-                            key="#Fiscal_property #Textual_occurrence #Mention">quantum inde ad
-                            sacrum nostrorum Palatium</rs> pertinet. Haec autem omnia in supradicto
-                        sancto loco concedimus atque confirmamus habendum et possidendum, ea etenim
-                        sanctione, quatenus amodo et deinceps nostris et perpetuis temporibus omnia
-                        suprascripta pars eiusdem monasterii eiusque rectoribus habere et possidere
-                        debeant sine ullis comitis, gastaldei seu iudicis nostris vel cuiuscumque
-                        personae aliqua contradictione a nemine aliquod contrarium exinde in eodem
-                        sancto venerabili loco ingerente, sed securiter inde rectores quod
-                        monasterii omnia facientes quod voluerit. Siquis autem hanc nostram
-                        principalem concessionem atque confirmationem violare atque removere
-                        presumpserit, sciat se esse compositurus esse <rs key="#Penalty">auri
-                            purissimi libras decem</rs>, medietatem ad partem eiusdem monasterii et
-                            <rs key="#Penalty">medietatem sacro nostro Palatio</rs>, et haec nostra
-                        concessio atque confirmatio firma et stabilis ad partem eiusdem monasterii
-                        in perpetuum maneat. Ut autem haec nostra <rs key="#Offersio/donatio"
-                            >concessio</rs> atque confirmatio ab omnibus immobiliter observetur,
-                        manu propria scripsimus et anulis nostris subter iussimus sigillari. Signum
-                        domni Pandolfi principis. PANDOLFVS. <persName
-                            key="#Notary #Clergy/religious_persons"><name ref="Midelfridus"
-                                >Midelfrid</name></persName><rs key="#Clergy/religious_persons">
-                            clericus</rs> et <rs key="#Notary">notarius</rs> atque <rs
-                            key="#Professional_writer">scriba</rs> ex iussione supradictae potestati
-                        scripsit. Data VI(o) kalendas Februarii in anno XXX(o).VII(o) principatus
-                        domni Pandolfi gloriosi principis et duodecimo anno principatus domni
-                        Landolfi excellentissimi principis filio eius, octava indictione. Actu in
-                        sacratissimo <placeName key="#Cities" ref="#places/110"
-                            >Beneventano</placeName>
+                        <placeName
+                            key="#Cities #Fisheries #Fiscal_property #Textual_occurrence #Mention #Outflow #Allocation_to_churches #Rights_of_use_on_woods/pastures/waters"
+                            ref="#places/554">Lisina</placeName>, ab ipso loco <rs
+                            key="#Rights_of_use_on_woods/pastures/waters">unde exiet et usque ubi
+                            mittet</rs> in ipso loco, cum <rs key="#Riverbed">alveo</rs> et <rs
+                            key="#Shores">ripis</rs> et <rs key="#Confinia">suis pertinentiis</rs>,
+                        ad <rs key="#Mills">molina</rs> faciendum et <rs key="#Fisheries"
+                            >piscaria</rs> habendum, insimul cum ipsa foce et <rs key="#Fisheries"
+                            >piscaria ad Sanctum Focatum</rs> subditum quod monasterii. Insimul
+                        concedimus et confirmamus in eodem sancto et venerabili monasterio integre
+                        ipse <rs key="#Houses">casae</rs> de intus eadem civitate Lisina cum <rs
+                            key="#Production">horta</rs> et<rs key="#Landed_possessions">
+                            terris</rs> a foris, de quantum in eodem monasterio pertinet et de <rs
+                            key="#Fiscal_property #Textual_occurrence #Mention #Outflow #Allocation_to_churches"
+                            >quantum inde ad sacrum nostrorum Palatium</rs> pertinet. Haec autem
+                        omnia in supradicto sancto loco concedimus atque confirmamus habendum et
+                        possidendum, ea etenim sanctione, quatenus amodo et deinceps nostris et
+                        perpetuis temporibus omnia suprascripta pars eiusdem monasterii eiusque
+                        rectoribus habere et possidere debeant sine ullis comitis, gastaldei seu
+                        iudicis nostris vel cuiuscumque personae aliqua contradictione a nemine
+                        aliquod contrarium exinde in eodem sancto venerabili loco ingerente, sed
+                        securiter inde rectores quod monasterii omnia facientes quod voluerit.
+                        Siquis autem hanc nostram principalem concessionem atque confirmationem
+                        violare atque removere presumpserit, sciat se esse compositurus esse <rs
+                            key="#Penalty">auri purissimi libras decem</rs>, medietatem ad partem
+                        eiusdem monasterii et <rs key="#Penalty">medietatem sacro nostro
+                            Palatio</rs>, et haec nostra concessio atque confirmatio firma et
+                        stabilis ad partem eiusdem monasterii in perpetuum maneat. Ut autem haec
+                        nostra <rs key="#Offersio/donatio">concessio</rs> atque confirmatio ab
+                        omnibus immobiliter observetur, manu propria scripsimus et anulis nostris
+                        subter iussimus sigillari. Signum domni Pandolfi principis. PANDOLFVS.
+                            <persName key="#Notary #Clergy/religious_persons"><name
+                                ref="Midelfridus">Midelfrid</name></persName><rs
+                            key="#Clergy/religious_persons"> clericus</rs> et <rs key="#Notary"
+                            >notarius</rs> atque <rs key="#Professional_writer">scriba</rs> ex
+                        iussione supradictae potestati scripsit. Data VI(o) kalendas Februarii in
+                        anno XXX(o).VII(o) principatus domni Pandolfi gloriosi principis et
+                        duodecimo anno principatus domni Landolfi excellentissimi principis filio
+                        eius, octava indictione. Actu in sacratissimo <placeName key="#Cities"
+                            ref="#places/110">Beneventano</placeName>
                         <rs key="#Domus">Palatio</rs>. </ab>
                 </div>
             </div>
