@@ -33,7 +33,7 @@
                         <summary>
                             <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
-                            <rs type="document_tradition" ref="#">Compendium</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
                             <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
@@ -45,7 +45,7 @@
                             <origDate when="0900-08">
                                 <note type="displayed_date">900 August</note>
                                 <note type="dating_elements"/>
-                                <note type="topical_date"/>
+                                <note type="topical_date">Salerno</note>
                                 <note type="redaction_date"/>
                              </origDate>
                             <origPlace/>
@@ -75,6 +75,7 @@
         <revisionDesc>
             <listChange>
                 <change when="2021-05-07" who="atagliente">creation of record</change>
+                <change when="2022-04-12" who="atagliente">minor changes</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -89,14 +90,17 @@
                             >Quaimarius</persName> divina previdentia <rs key="#Princeps"
                             >Langobardorum gentis princeps</rs>, motus Dei omnipotentis
                         misericordia, quam et pro remedium animae mee et ex gentis nostrae
-                        salvationem atque <rs key="#Intercessory">per rogum et postulationem</rs>
-                        <persName key="#Society"><name ref="Rainfredus">Ragemfrid</name></persName>
-                        <rs key="#Society">medico</rs> et <persName key="#Priests"><name
-                                ref="Ermenaldus">Ermenaldi</name></persName>
+                        salvationem atque <rs key="#Intercessory #fidelisOf">per rogum et
+                            postulationem</rs>
+                        <persName key="#Medical_doctors #Society"><name ref="Rainfredus"
+                                >Ragemfrid</name></persName>
+                        <rs key="#Medical_doctors #Society">medico</rs> et <persName key="#Priests"
+                                ><name ref="Ermenaldus">Ermenaldi</name></persName>
                         <rs key="#Priests">presbyteri</rs> oratori nostro, concessimus in <rs
                             key="#Monasteries">monasterio</rs>
-                        <orgName ref="#juridical_persons/84" key="#Monasteries">S.
-                            Benedicti</orgName>, ubi nunc, Deo favente, modo domnus <persName
+                        <orgName ref="#juridical_persons/84"
+                            key="#Fiscal_property #Textual_occurrence #Object #Mention #Function #Redistributive #Confiscation #Outflow #Allocation_to_churches #Monasteries"
+                            >S. Benedicti</orgName>, ubi nunc, Deo favente, modo domnus <persName
                             key="#Abbots" ref="#people/195">Leo</persName>
                         <rs key="#Abbots">Abbas</rs> preesse, integra <rs key="#Curtes">curtem</rs>
                         illam de <rs key="#Other_administrative_unit">locus</rs>
@@ -109,14 +113,16 @@
                             >uxor</rs> eius, defuncta tum ipsa Rodelchisa, omnia illius rebus et
                         facultatibus <rs key="#Law">per gradum subcessionis legibus</rs>, obvenit
                             <persName key="#childOf #nephew/nieceOf"><name ref="Rotarius"
-                            >Roderis</name></persName>
+                                >Roderis</name></persName>
                         <rs key="#childOf">filius</rs>
                         <persName key="#parentOf"><name ref="Gaido">Gaidoni</name></persName>, qui
-                        fuit <rs key="#nephew/nieceOf">nepotes</rs> ipsius Rodelchisae, omnia tum rebus
-                        substanciam ipsius Roderis<rs key="#Law"> legibus</rs>
-                        <rs key="#Fiscal_property #Confiscation">ad sacrum nostrum Palatium pervenit
-                            potestatem</rs>, pro eo quod in consilio mortis nostrae consiliatus
-                        fuit. Deinde pro nostrae salutis animae predicta <geogName
+                        fuit <rs key="#nephew/nieceOf">nepotes</rs> ipsius Rodelchisae, omnia tum
+                        rebus substanciam ipsius Roderis<rs key="#Law"> legibus</rs>
+                        <rs
+                            key="#Fiscal_property #Object #Redistributive #Confiscation #Outflow #Allocation_to_churches"
+                            >ad sacrum nostrum Palatium pervenit potestatem</rs>, pro eo quod in
+                        consilio mortis nostrae consiliatus fuit. Deinde pro nostrae salutis animae
+                        predicta <geogName
                             key="#Curtes #Wine #Chestnuts #Acorns #Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Allocation_to_churches #Personal_statuses"
                             ref="#estates/242">curte de Rota</geogName> cum <rs
                             key="#Casae/cassinae_massaricie">casis</rs>, et sedimen suam et
@@ -145,7 +151,7 @@
                 <p>Voigt 1902, n. 89.</p>
             </div>
             <div type="bibliography" subtype="additional">
-                <p/>
+                <p>RPD, II, p. 623.</p>
             </div>
             <div type="bibliography" subtype="links">
                 <p/>
