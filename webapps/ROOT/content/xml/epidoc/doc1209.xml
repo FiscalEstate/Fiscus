@@ -34,7 +34,7 @@
                         <summary>
                             <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
-                            <rs type="document_tradition" ref="#">Compendium</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
                             <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
@@ -76,6 +76,7 @@
         <revisionDesc>
             <listChange>
                 <change when="2021-05-07" who="atagliente">creation of record</change>
+                <change when="2022-04-12" who="atagliente">minor changes</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -88,14 +89,15 @@
                             key="#Princeps" ref="#people/315">Landolfus</persName> divina ordinante
                         providentia <rs key="#Princeps">Langobardorum gentis principes</rs>. Cum
                         principalis excellentia petitionem dilectorum suorum petentis clementer
-                        favet, igitur noverit omnium fidelium nostrorum presentium scilicet ac
-                        futurorum sollertia quia <rs key="#Personal_rank">domna</rs>
+                        favet, igitur noverit <rs key="#Assembly">omnium fidelium nostrorum
+                            presentium</rs> scilicet ac futurorum sollertia quia <rs
+                            key="#Personal_rank">domna</rs>
                         <persName key="#Principissa" ref="#people/317">Gemma</persName> religiosa
                             <rs key="#Principissa">principissa</rs>
                         <rs key="#grandparentOf">avia</rs> nostra obsecravit nostram excellentiam
                         quatinus, pro amore Dei omnipotentis et anime nostre salvatione,
                         concederemus in <rs key="#Monasteries">monasterio</rs>
-                        <orgName key="#Monasteries" ref="#juridical_persons/84">Sanctissimi
+                        <orgName key="#Monasteries #Abbots" ref="#juridical_persons/84">Sanctissimi
                             Benedicti</orgName> confessoris Christi situm in Monte qui dicitur
                         Casino, in quo domnus <persName key="#Abbots" ref="#people/309"
                             >Aligernus</persName> venerabilis <rs key="#Abbots">abbas</rs> regimine
@@ -108,62 +110,71 @@
                         imperatoribus seu a regibus et a singulis principibus antecessoribus nostris
                         in eodem monasterio data seu concessa sunt. Simulque et concedimus et
                         confirmamus in eodem sancto et venerabili loco, ad possessionem prefati
-                        monasterii et eius abbatibus et rectoribus, hoc est <rs
-                            key="#Fiscal_property #Textual_occurrence">quantum sacri nostri Palatii
-                            pertinentes</rs> esse videtur <geogName
-                            key="#Confinia #Rivers #Lakes #Mountains #Landed_possessions #Forests #Fiscal_property #Allocation_to_churches #Other_administrative_unit"
-                            ref="#estates/142 #estates/313">in finibus Aquinensi</geogName>, sicut
-                        incipit ab ipsa <rs key="#Confinia">Cosa</rs> et quomodo salit per ipsum <rs
+                        monasterii et eius abbatibus et <rs key="#rectorOf">rectoribus</rs>, hoc est
+                            <rs
+                            key="#Fiscal_property #Textual_occurrence #Mention #Outflow #Allocation_to_churches"
+                            >quantum sacri nostri Palatii pertinentes</rs> esse videtur <geogName
+                            key="#Confinia #Rivers #Lakes #Mountains #Landed_possessions #Fiscal_property #Allocation_to_churches #Other_administrative_unit"
+                            ref="#estates/142">in finibus Aquinensi</geogName>, sicut incipit ab
+                        ipsa <rs key="#Confinia">Cosa</rs> et quomodo salit per ipsum <rs
                             key="#Confinia #Mountains">montem Sancti Donati</rs> per media <rs
                             key="#Mountains">serra</rs>, et quomodo descendit per ipsi <rs
                             key="#Confinia #Mountains">monticelli de Marri</rs> et vadit ad ipsi <rs
                             key="#Confinia">pescli</rs> qui sunt ad <rs key="#Confinia">pede de
-                            Valva</rs>, et quomodo vadit inde per <placeName key="#Confinia"
-                            ref="#places/684">Duos Leones</placeName>, et inde salit per ipse serre
-                        super <placeName key="#Confinia #Mountains" ref="#places/685"
-                            >Casale</placeName>, et inde descendit per ipsum montem super ipse
-                            <placeName key="#Villages/settlements #Confinia" ref="#places/682">Ville
-                            de Gareliano</placeName>, et inde vadit ad ipsum pesclum qui nominatur
-                            <rs key="#Confinia">Cripta Imperatoris</rs>, et abinde descendente in
-                            <rs key="#Rivers">fluvio de Gareliano</rs> et ascendente per ipso fluvio
-                        usque ad ipsa iuntura de <rs key="#Rivers">aqua quae dicitur Bantra</rs>, et
-                        ascendente per eadem aqua usque in <rs key="#Rivers">rivo Sicco</rs>, et
-                        ascendente per eadem rivo usque ad <rs key="#Churches">ecclesiam Sancti
-                            Martini</rs>, et quomodo salit per ipse serre et vadit in <rs
-                            key="#Confinia #Mountains">monte qui dicitur Cesinu</rs>, et quomodo
-                        vadit in <placeName key="#Confinia" ref="#places/681">pesclu qui vocatur
+                            Valva</rs>, et quomodo vadit inde per <placeName
+                            key="#Confinia #Fiscal_property" ref="#places/684">Duos
+                            Leones</placeName>, et inde salit per ipse <rs key="#Confinia">serre
+                            super Casale</rs>, et inde descendit per ipsum montem super ipse
+                            <placeName key="#Villages/settlements #Confinia #Fiscal_property"
+                            ref="#places/682">Ville de Gareliano</placeName>, et inde vadit ad ipsum
+                        pesclum qui nominatur <placeName ref="#places/683"
+                            key="#Confinia #Fiscal_property">Cripta Imperatoris</placeName>, et
+                        abinde descendente in fluvio de <placeName ref="#places/2825"
+                            key="#Confinia #Rivers #Fiscal_property">Gareliano</placeName> et
+                        ascendente per ipso fluvio usque ad ipsa iuntura de <rs key="#Rivers">aqua
+                            quae dicitur <placeName ref="#places/2329" key="#Rivers"
+                                >Bantra</placeName></rs>, et ascendente per eadem aqua usque in <rs
+                            key="#Rivers">rivo Sicco</rs>, et ascendente per eadem rivo usque ad <rs
+                            key="#Churches">ecclesiam Sancti Martini</rs>, et quomodo salit per ipse
+                        serre et vadit in <rs key="#Confinia #Mountains">monte qui dicitur
+                            Cesinu</rs>, et quomodo vadit in <placeName
+                            key="#Confinia #Fiscal_property" ref="#places/681">pesclu qui vocatur
                             Corvarum</placeName>, et quomodo vadit per ipse serre et pervenit ad
-                            <placeName key="#Confinia #Natural_landscape" ref="#places/694">furcam
-                            qui vocatur Pupplo</placeName> et directum vadum ad <placeName
-                            key="#Confinia #Lakes" ref="#places/678">lacum qui vocatur
-                            Vitecusu</placeName>, et inde vadit directum <placeName
-                            key="#Confinia #Rivers" ref="#places/679">ad Aquam Fundatam</placeName>,
-                        et quomodo ascendit per ipsum montem qui est super Casale, et quomodo vadit
-                        in capite de <rs key="#Confinia #Rivers">aqua qui vocatur Rapidu</rs>, et
-                        quomodo salit in monte qui vocatur <rs key="#Confinia #Mountains"
-                            >Caballu</rs>, et quomodo vadit directum in monte qui vocatur <rs
-                            key="#Confinia #Mountains">Rendenaria Maior</rs>, et inde per serras
-                        montium et venit ad <rs key="#Confinia #Mountains">Rendenaria Minor</rs>, et
-                        quomodo vadit directum per pedes montium qui vocatur<rs
-                            key="#Confinia #Mountains"> Freselona</rs> et vadit in <rs
-                            key="#Confinia #Rivers">aqua qui vocatur Melarino</rs>, et quomodo vadit
-                        in ipsum montem qui vocatur <rs key="#Confinia #Mountains">Terrae
-                        Albae</rs>, et inde pervenit ad <placeName
-                            key="#Confinia #Natural_landscape" ref="#places/706">furcam Sancti
-                            Valentini</placeName>, et quomodo vadit per ipsa serras montis qui
-                        vocatur <placeName key="#Confinia #Mountains" ref="#places/680">Balle
+                            <placeName key="#Confinia #Natural_landscape #Fiscal_property"
+                            ref="#places/694">furcam qui vocatur Pupplo</placeName> et directum
+                        vadum ad <placeName key="#Confinia #Lakes #Fiscal_property"
+                            ref="#places/678">lacum qui vocatur Vitecusu</placeName>, et inde vadit
+                        directum <placeName key="#Confinia #Rivers #Fiscal_property"
+                            ref="#places/679">ad Aquam Fundatam</placeName>, et quomodo ascendit per
+                        ipsum montem qui est super Casale, et quomodo vadit in capite de <rs
+                            key="#Confinia #Rivers">aqua qui vocatur Rapidu</rs>, et quomodo salit
+                        in monte qui vocatur <rs key="#Confinia #Mountains">Caballu</rs>, et quomodo
+                        vadit directum in monte qui vocatur <rs key="#Confinia #Mountains"
+                            >Rendenaria Maior</rs>, et inde per serras montium et venit ad <rs
+                            key="#Confinia #Mountains">Rendenaria Minor</rs>, et quomodo vadit
+                        directum per pedes montium qui vocatur<rs key="#Confinia #Mountains">
+                            Freselona</rs> et vadit in <rs key="#Confinia #Rivers">aqua qui vocatur
+                            Melarino</rs>, et quomodo vadit in ipsum montem qui vocatur <rs
+                            key="#Confinia #Mountains">Terrae Albae</rs>, et inde pervenit ad
+                            <placeName key="#Confinia #Natural_landscape #Fiscal_property"
+                            ref="#places/706">furcam Sancti Valentini</placeName>, et quomodo vadit
+                        per ipsa serras montis qui vocatur <placeName
+                            key="#Confinia #Mountains #Fiscal_property" ref="#places/680">Balle
                             Lucis</placeName>, et quomodo descendit directum in <placeName
-                            key="#Confinia" ref="#places/692">Petra Scripta</placeName> et ascendit
-                        ad serras montis qui dicitur <rs key="#Confinia #Mountains">Ordicosa</rs>,
-                        et quomodo vadit ad <placeName key="#Confinia" ref="#places/690">pesclora
-                            qui dicitur Falconari</placeName> et pervenit ad duos montes ex quibus
-                        unus vocatur <rs key="#Confinia #Mountains">Spinacius</rs> et alter <rs
+                            key="#Confinia #Fiscal_property" ref="#places/692">Petra
+                            Scripta</placeName> et ascendit ad serras montis qui dicitur <rs
+                            key="#Confinia #Mountains">Ordicosa</rs>, et quomodo vadit ad <placeName
+                            key="#Confinia #Fiscal_property" ref="#places/690">pesclora qui dicitur
+                            Falconari</placeName> et pervenit ad duos montes ex quibus unus vocatur
+                            <rs key="#Confinia #Mountains">Spinacius</rs> et alter <rs
                             key="#Confinia #Mountains">Porcacius</rs>, et inde ascendit ad cucumen
                         montis qui vocatur <rs key="#Confinia #Mountains">Caira</rs>. Ea videlicet
-                        ratione supra nominatis <rs key="#Landed_possessions #Fiscal_property"
+                        ratione supra nominatis <rs
+                            key="#Landed_possessions #Fiscal_property #Textual_occurrence #Mention #Redistributive #Outflow #Allocation_to_churches"
                             >terris de quantu sacri nostri Palatii intra predictos fines
                             pertinere</rs> videtur una cum iam dictis terris cultis et incultis, de
-                        planis et montibus, de <rs key="#Rights_of_use_on_woods/pastures/waters"
+                        planis et montibus, de <rs
+                            key="#Rivers #Riverbed #Shores #Rights_of_use_on_woods/pastures/waters"
                             >rivis et aquis et ripis et alveis</rs> et cursus ipsius aque et cum
                         omnia inferius et superius in iam dictis terris habentibus cunctis et
                         integris, in prefato monasterio ipsa omnia concedimus ad possessionem

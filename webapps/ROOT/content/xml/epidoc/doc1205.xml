@@ -34,8 +34,8 @@
                         <summary>
                             <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
-                            <rs type="document_tradition" ref="#">Compendium</rs>
-                            <rs type="fiscal_property">No</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property">Uncertain</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -76,6 +76,7 @@
         <revisionDesc>
             <listChange>
                 <change when="2021-05-07" who="atagliente">creation of record</change>
+                <change when="2022-04-12" who="atagliente">minor changes</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -86,14 +87,16 @@
                     <ab>NNos <persName key="#Princeps" ref="#people/304">Atenulfus</persName> divina
                         ordinante providentia <rs key="#Princeps">Langobardorum gentis
                         princeps</rs>, <rs key="#Intercessory">per rogum</rs>
-                        <persName ref="#people/302" key="#Abbots">Baldoin</persName> venerabili <rs
-                            key="#Abbots">abbati</rs> karissimo patri nostro, concessimus in <rs
-                            key="#Churches">aecclesia</rs>
+                        <persName ref="#people/302" key="#Intercessory #Abbots">Baldoin</persName>
+                        venerabili <rs key="#Abbots">abbati</rs> karissimo patri nostro, concessimus
+                        in <rs key="#Churches">aecclesia</rs>
                         <orgName key="#Churches #Cells/hermitages" ref="#juridical_persons/216"
                             >sancti Benedicti</orgName>, que est <rs key="#Cells/hermitages"
-                            >cella</rs> in <rs key="#Other_administrative_unit">loco</rs> Caudi, hos
-                        homines <rs key="#Freedman">libertis</rs>: <persName key="#Freedman"><name
-                                ref="Leo">Leonem</name></persName>, <persName key="#Freedman"><name
+                            >cella</rs> in <rs key="#Other_administrative_unit">loco</rs>
+                        <placeName ref="#places/2800" key="#Monasteries #Cells/hermitages #Monks"
+                            >Caudi,</placeName> hos homines <rs key="#Work_and_workers #Freedman"
+                            >libertis</rs>: <persName key="#Freedman"><name ref="Leo"
+                            >Leonem</name></persName>, <persName key="#Freedman"><name
                                 ref="Bernardus">Bernardum</name></persName>, <persName
                             key="#Freedman"><name ref="Lupus">Lupum</name></persName>, <persName
                             key="#Freedman"><name ref="Carrarus">Carrarum</name></persName>,
@@ -105,15 +108,15 @@
                         ea videlicet ratione illos in predicta cella iam dictos homines concessimus,
                         ut nec comes, nec gastaldeus, nec iudex, nec ullus nostri principatus
                         subiciens illos tangere aut molestare in aliquo presumat, aut in angariam,
-                        aut in hoste, aut in quocumque <rs key="#Operae">servitio publico</rs> illos
-                        minare audeat, et nec censum, nec dationes, nec pensiones, nec ullum
-                        servitium ab eis existere querat, sed ab omni <rs key="#Public_exactions"
-                            >exactione publica</rs> securi et quieti maneant amodo et deinceps
-                        perpetuis temporibus, et quanti <rs key="#Natio">homines extranei</rs> qui
-                        non sunt <rs key="#Fines">de nostris finibus</rs> in pertinentia de predicta
-                        caella venerint ad habitandum, similiter sub ista <rs
-                            key="#Tuitio/bannum/mundeburdium">defensione</rs>. Ex iussione predicte
-                        potestati scripsi ego <persName
+                        aut in hoste, aut in quocumque <rs key="#Operae #Work_and_workers">servitio
+                            publico</rs> illos minare audeat, et nec censum, nec dationes, nec
+                        pensiones, nec ullum servitium ab eis existere querat, sed ab omni <rs
+                            key="#Public_exactions">exactione publica</rs> securi et quieti maneant
+                        amodo et deinceps perpetuis temporibus, et quanti <rs key="#Natio">homines
+                            extranei</rs> qui non sunt <rs key="#Fines">de nostris finibus</rs> in
+                        pertinentia de predicta caella venerint ad habitandum, similiter sub ista
+                            <rs key="#Tuitio/bannum/mundeburdium">defensione</rs>. Ex iussione
+                        predicte potestati scripsi ego <persName
                             key="#Professional_writer #Clergy/religious_persons"><name ref="Ursus"
                                 >Ursus</name></persName>
                         <rs key="#Clergy/religious_persons">clericus</rs> et <rs

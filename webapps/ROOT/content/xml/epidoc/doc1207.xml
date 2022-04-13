@@ -6,7 +6,7 @@
             <titleStmt>
                 <title><title>Montecassino, Archivio Abbaziale, Reg. 3 (Martin et al.,
                             <foreign>Registrum Petri Diaconi</foreign>, II, n. 214, p.
-                    653)</title></title>
+                    656)</title></title>
             </titleStmt>
             <editionStmt>
                 <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
@@ -34,7 +34,7 @@
                         <summary>
                             <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
-                            <rs type="document_tradition" ref="#">Compendium</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
                             <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
@@ -46,7 +46,7 @@
                             <origDate when="0956-03-15">
                                 <note type="displayed_date">956 March 15</note>
                                 <note type="dating_elements"/>
-                                <note type="topical_date"/>
+                                <note type="topical_date">Capua</note>
                                 <note type="redaction_date"/>
                              </origDate>
                             <origPlace/>
@@ -76,6 +76,7 @@
         <revisionDesc>
             <listChange>
                 <change when="2021-05-07" who="atagliente">creation of record</change>
+                <change when="2022-04-12" who="atagliente">minor changes</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -89,31 +90,36 @@
                         <rs key="#childOf">filius</rs> eius divina ordinante providentia <rs
                             key="#Princeps">Langobardorum gentis principes</rs>. Cum principali
                         excellentia petitionibus dilectorum suorum omnibus iuste petentibus
-                        clementer favet, igitur noverit omnium fidelium nostrorum presentium
-                        scilicet ac futurorum sagacitas quia <persName key="#Count"
-                            ref="#people/114">Atenulfus</persName>
+                        clementer favet, igitur noverit <rs key="#Assembly">omnium fidelium
+                            nostrorum presentium</rs> scilicet ac futurorum sagacitas quia <persName
+                            key="#Count" ref="#people/114">Atenulfus</persName>
                         <rs key="#Count">comes</rs>
-                        <rs key="#Personal_rank">dilecto </rs><rs key="#nephew/nieceOf">nepoti</rs> nostro
-                        exoravit nostram excellentiam quatenus, ob amore omnipotentis Dei et mercede
-                        animae nostrae, concederemus in <rs key="#Monasteries">monasterio</rs>
-                        <orgName key="#Monasteries" ref="#juridical_persons/84">Beati
+                        <rs key="#Personal_rank">dilecto </rs><rs key="#nephew/nieceOf">nepoti</rs>
+                        nostro exoravit nostram excellentiam quatenus, ob amore omnipotentis Dei et
+                        mercede animae nostrae, concederemus in <rs key="#Monasteries"
+                            >monasterio</rs>
+                        <orgName key="#Monasteries #Abbots" ref="#juridical_persons/84">Beati
                             Benedicti</orgName> confessoris Christi qui constructus esse videtur in
                         Monte Casino, ubi Domino auxiliante <persName key="#Abbots"
                             ref="#people/309">Aligernus</persName>
-                        <rs key="#Abbots">abbas</rs> preesse videtur, <rs key="#Landed_possessions"
-                            >terras</rs> quae fuit et est pertinentes sacri nostri Palatii <rs
-                            key="#Fines">in finibus</rs> de ipsa Bantra per finis, sicut inferius
-                        declaramus, de quibus petiit a nostra excellentia ut firmitatis apices in
-                        eodem sancto monasterio fieri iuberemus. Cuius petitionem exaudientes, hos
-                        firmitatis apices in eodem sancto monasterio fieri iussimus, per quos omnino
-                        sancimus et perpetualiter habendum nostris et futuris temporibus pro nostre
-                        anime mercede concedimus in oedem sancto et venerabili loco terra quae et
-                        quantum pertinuit vel pertinentes esse videntur sacri nostri Palatii, hoc
-                        est <rs key="#Confinia">a fine de Sancto Martino</rs>, quomodo descendit <rs
+                        <rs key="#Abbots">abbas</rs> preesse videtur,<rs
+                            key="#Landed_possessions #Fiscal_property #Textual_occurrence #Object #Mention #Function #Outflow #Allocation_to_churches"
+                            > terras quae fuit et est pertinentes sacri nostri Palatii</rs>
+                        <rs key="#Fines">in finibus</rs> de ipsa <placeName ref="#places/2329"
+                            key="#Landed_possessions #Fiscal_property #Textual_occurrence #Object #Mention #Function #Outflow #Allocation_to_churches"
+                            >Bantra</placeName> per finis, sicut inferius declaramus, de quibus
+                        petiit a nostra excellentia ut firmitatis apices in eodem sancto monasterio
+                        fieri iuberemus. Cuius petitionem exaudientes, hos firmitatis apices in
+                        eodem sancto monasterio fieri iussimus, per quos omnino sancimus et
+                        perpetualiter habendum nostris et futuris temporibus pro nostre anime
+                        mercede concedimus in oedem sancto et venerabili loco terra quae et quantum
+                        pertinuit vel pertinentes esse videntur sacri nostri Palatii, hoc est <rs
+                            key="#Confinia">a fine de Sancto Martino</rs>, quomodo descendit <rs
                             key="#Rivers">ribo Sillo</rs> et vadit erga <rs key="#Rivers">aqua quae
                             dicitur Bantra</rs>, et sicut descendit usque in predicto fluvio et
                         usque in supranominato Monte Casino. Infra has autem<rs key="#Confinia">
-                            fines et indicationes</rs> quantas <geogName key="#Fiscal_property"
+                            fines et indicationes</rs> quantas <geogName
+                            key="#Fiscal_property #Textual_occurrence #Object #Mention #Function #Outflow #Allocation_to_churches"
                             ref="#estates/245">territorias sacri nostri Palatii</geogName> fuerunt
                         vel sunt pertinentes, cunctas et integras in eodem sancto monasterio
                         concedimus ad possessionem prefati monasterii et de eius abbatibus vel
@@ -122,8 +128,10 @@
                             >pertinentiis</rs> suis et cum omnibus inferioribus ac superioribus
                         suis, ad habendum et possidendum <rs key="#Law">iuxta legem</rs>, exinde
                         faciendum omnia quae voluerit. Necnon et concedimus in eodem sancto
-                        monasterio omnes <rs key="#Freeborn">feminas liberas</rs>, quantas usque
-                        modo <rs key="#Slave_labour #Personal_statuses #Slave">servi</rs> prefati
+                        monasterio omnes <rs
+                            key="#Fiscal_property #Textual_occurrence #Mention #Freeborn">feminas
+                            liberas</rs>, quantas usque modo <rs
+                            key="#Slave_labour #Personal_statuses #Slave">servi</rs> prefati
                         monasterii sibi copulaverunt <rs key="#Marriages">maritos</rs> vel quod
                         adhuc in antea nostro tempore sibi copulaverint, insimul cum eisdem servos
                         sibi copulatos et cum <rs key="#Personal_statuses #childOf">filiis et

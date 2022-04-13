@@ -34,7 +34,7 @@
                         <summary>
                             <rs type="text_type" ref="#">-Cartula</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
-                            <rs type="document_tradition" ref="#">Compendium</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
                             <rs type="fiscal_property">No</rs>
                         </summary>
                         <msItem xml:id="msItem1">
@@ -46,7 +46,7 @@
                             <origDate when="0980">
                                 <note type="displayed_date">980 (979?) September</note>
                                 <note type="dating_elements"/>
-                                <note type="topical_date"/>
+                                <note type="topical_date">Vicalvi</note>
                             </origDate>
                             <origPlace/>
                         </origin>
@@ -75,6 +75,7 @@
         <revisionDesc>
             <listChange>
                 <change when="2021-06-28" who="atagliente">creation of record</change>
+                <change when="2022-04-12" who="atagliente">minor changes</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -91,16 +92,16 @@
                         <rs key="#Princeps">principibus</rs>, mense September, octaba idus. Ideoque
                         ego <persName><name ref="Ratchis">Rachis</name></persName>
                         <rs key="#Gastaldus/vicegastaldus">castaldeus</rs> de <placeName
-                            key="#Villages/settlements" ref="#places/2000">Bicu Album</placeName>,
-                        filius quondam <persName><name ref="Ratchis">Rachisi</name></persName> de
-                            <rs key="#Cities">cibitate</rs>
+                            key="#Villages/settlements #Gastaldus/vicegastaldus" ref="#places/2000"
+                            >Bicu Album</placeName>, filius quondam <persName><name ref="Ratchis"
+                                >Rachisi</name></persName> de <rs key="#Cities">cibitate</rs>
                         <placeName key="#Cities" ref="#places/2001">Sorana</placeName>, divina
                         inspirationem compulsus, pro remedium anime mee, genitori nostris, ut hic et
                         apud eternum Dominum requiem et misericordiam invenire valeamus, per hanc
                             <rs key="#Cartula #Offersio/donatio">carta offeruimus</rs> ego
                         prenominatos in <rs key="#Monasteries">monasterio</rs>
-                        <orgName key="#Monasteries" ref="#juridical_persons/84">Sancti Benedicti
-                        </orgName>ubi, Deo auxiliante, domno <persName key="#Abbots"
+                        <orgName key="#Monasteries #Abbots" ref="#juridical_persons/84">Sancti
+                            Benedicti </orgName>ubi, Deo auxiliante, domno <persName key="#Abbots"
                             ref="#people/309">Aligernus</persName> venerabilis <rs key="#Abbots"
                             >abbas</rs> regimen tenere esse bidetur, hoc est una <rs key="#Curtes"
                             >curte </rs>meam et <rs key="#Gualdi">duo gualdora</rs> que habeo <rs
