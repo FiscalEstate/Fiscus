@@ -29,10 +29,10 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="#"/>
-                            <rs type="record_source" ref="#"/>
-                            <rs type="document_tradition" ref="#"/>
-                            <rs type="fiscal_property"/>
+                            <rs type="text_type" ref="#">--Venditio</rs>
+                            <rs type="record_source" ref="#">Original document</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property">No</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -40,10 +40,10 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate>
-                                <note type="displayed_date"/>
+                            <origDate when="1190-02-19">
+                                <note type="displayed_date">1190 February 19</note>
                                 <note type="dating_elements">Stile della natività</note>
-                                <note type="topical_date"/>
+                                <note type="topical_date">Santa Maria a Monte (Pisa)</note>
                                 <note type="redaction_date"/>
                             </origDate>
                             <origPlace></origPlace>
@@ -82,43 +82,51 @@
                 <div type="textpart">
                     <ab>(S) In nomine domini nostri Iehsu Christi eterni dei amen. Anno nativitate
                         eius millesimo centesimo nonagesimo, undecimo kal. martii, indictione
-                        octava. Ex huius instrumenti pateat recitatione quod nos
-                                <persName><name>Canis</name></persName> quondam
-                                <persName><name>Lupi</name></persName> et
-                                <persName><name>Ioletta</name></persName> coniux eius et quondam
-                                <persName><name ref="Hubertus">Uberti</name></persName> (…) ubi
-                        interfuit notitia <persName><name>Francesci</name></persName> et
-                                <persName><name>Robertini</name></persName> filiorum (…) vendimus et
-                        tradimus tibi <persName><name>Guilielmo</name></persName>,<orgName
-                            key="#Hospitals" ref="#juridical_persons/3206">
+                        octava. Ex huius instrumenti pateat recitatione quod nos <persName><name
+                                ref="Cane">Canis</name></persName> quondam <persName><name
+                                ref="Lupus">Lupi</name></persName> et <persName><name ref="Iolicta"
+                                >Ioletta</name></persName> coniux eius et quondam <persName><name
+                                ref="Hubertus">Uberti</name></persName> (…) ubi interfuit notitia
+                                <persName><name ref="Franciscus">Francesci</name></persName> et
+                                <persName><name ref="Robertus">Robertini</name></persName> filiorum
+                        (…) vendimus et tradimus tibi <persName><name ref="Wilielmus"
+                                >Guilielmo</name></persName>,<orgName key="#Hospitals"
+                            ref="#juridical_persons/3206">
                             <rs key="#Hospitals">hospitalis</rs>
                             <placeName key="#Hospitals" ref="#places/3207"
                             >Altepascensis</placeName></orgName> devoto, recipienti pro
-                                <persName><name>Ildebrando</name></persName> dei gratia hospitalis
-                        de Altepascio rectore, unam integram portionem que est quarta portio de una
-                        petia de terra que vocatur Vignale, et est posita in loco et finibus
-                            <placeName ref="#places/3210" key="#Roads">Putei</placeName>. Que vero
-                        tenet unum caput in <rs key="#Roads">via publica</rs>, aliud in terra que
-                        est riparia <persName ref="#people/3217">Adimari</persName> quondam
-                            <persName ref="#people/123 #people/3218">Alberti</persName> et
-                            <persName>Sardi</persName> filii sui, unum laterum tenet in terra dicti
-                        hospitalis, aliud in terra <persName>Bonavente</persName> quondam
-                            <persName>Pellarii</persName> et <persName>Berardi</persName> quondam
-                            <persName>Guiciardini</persName>. Que vero quarta portio est per
-                        mensuram ad iustam mensurata perticam stariorum unum et panori duo et quarta
-                        pars unius panori. (…) Pena: in duplum. (…) Actum prope <placeName
-                            ref="#places/63">Sanctam Mariam ad Montem</placeName> et ante capannam
-                            <persName>Iohannelli Crilli</persName> que olim fuit sua. (…) <persName
-                            key="#Witness">Iacopus</persName> quondam
-                            <persName>Guidalotti</persName>, <persName key="#Witness"
-                            >Guilicio</persName> quondam <persName>Iordanis</persName>, <persName
-                            key="#Witness">Brunettus</persName> quondam
-                            <persName>Petroncoli</persName>, <persName key="#Witness"
-                            >Uguicio</persName> quondam <persName>Rolandini</persName>, suprascripti
-                        rogati <rs key="#Witness">testestes</rs> (sic) interfuerunt. (S) Ego
-                            <persName key="#Writer #Notary">Leonardus</persName> domni imperatoris
-                            <rs key="#Notary">notarius</rs> post traditam scripsi, complevi et
-                        dedi.</ab>
+                                <persName><name ref="Ildebrandus">Ildebrando</name></persName> dei
+                        gratia hospitalis de Altepascio rectore, unam integram portionem que est
+                        quarta portio de una petia de terra que vocatur <rs key="#Wine"
+                        >Vignale</rs>, et est posita in loco et finibus <placeName
+                            ref="#places/3210" key="#Wine #Roads">Putei</placeName>. Que vero tenet
+                        unum caput in <rs key="#Roads">via publica</rs>, aliud in terra que est
+                        riparia <persName ref="#people/3217">Adimari</persName> quondam <persName
+                            ref="#people/3218">Alberti</persName> et <persName><name ref="Sardus"
+                                >Sardi</name></persName> filii sui, unum laterum tenet in terra
+                        dicti hospitalis, aliud in terra <persName><name ref="Bonavente"
+                                >Bonavente</name></persName> quondam <persName><name ref="Pellarius"
+                                >Pellarii</name></persName> et <persName><name ref="Berardus"
+                                >Berardi</name></persName> quondam <persName><name
+                                ref="Guicciardinus">Guiciardini</name></persName>. Que vero quarta
+                        portio est per mensuram ad iustam mensurata perticam stariorum unum et
+                        panori duo et quarta pars unius panori. (…) <foreign>Pena</foreign>: in
+                        duplum. (…) Actum prope <placeName ref="#places/63">Sanctam Mariam ad
+                            Montem</placeName> et ante capannam <persName><name
+                                ref="Iannellus Crilli">Iohannelli Crilli</name></persName> que olim
+                        fuit sua. (…) <persName key="#Witness"><name ref="Iacobus"
+                            >Iacopus</name></persName> quondam <persName><name ref="Widaloctus"
+                                >Guidalotti</name></persName>, <persName key="#Witness"><name
+                                ref="Wilicio">Guilicio</name></persName> quondam <persName><name
+                                ref="Iordanus">Iordanis</name></persName>, <persName key="#Witness"
+                                ><name ref="Brunectus">Brunettus</name></persName> quondam
+                                <persName><name ref="Petronculus">Petroncoli</name></persName>,
+                            <persName key="#Witness"><name ref="Hughicio">Uguicio</name></persName>
+                        quondam <persName><name ref="Rodelandus">Rolandini</name></persName>,
+                        suprascripti rogati <rs key="#Witness">testestes</rs> (sic) interfuerunt.
+                        (S) Ego <persName key="#Writer #Notary"><name ref="Leonardus"
+                                >Leonardus</name></persName> domni imperatoris <rs key="#Notary"
+                            >notarius</rs> post traditam scripsi, complevi et dedi.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Lucca, Archivio di Stato, Diplomatico, Altopascio, 1191 maggio 13</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2022">2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DiSCi UniBo</publisher>
+                <idno type="filename">doc2464</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+                </availability>
+                <date when="2022"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">-Breve/memoratorium</rs>
+                            <rs type="record_source" ref="#">Original document</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property">No</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate>
+                                <note type="displayed_date"/>
+                                <note type="dating_elements">Stile della natività</note>
+                                <note type="topical_date">Santa Maria a Monte (Pisa)</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace></origPlace>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-04-13" who="agiacomelli">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>(S) In eterni dei omnipotentis nomine amen. Brevis causa memorie descriptus,
+                        qualiter factum est apud <placeName ref="#places/63"
+                            key="#Baptismal_churches">Sanctam Mariam ad Montem</placeName> et in
+                            <orgName key="#Baptismal_churches" ref="#juridical_persons/72"><rs
+                                key="#Baptismal_churches">plebe</rs> eius loci</orgName>, et
+                        presentia <rs key="#Boni_viri/boni_homines">bonorum hominum</rs> quorum
+                        nomina subter scripta reperiuntur. <persName ref="#people/3217"
+                            >Adimarius</persName> quondam <persName ref="#people/3218"
+                            >Alberti</persName> et <persName><name ref="Sardus"
+                            >Sardus</name></persName> filius eius (…) liberaverunt et remiserunt
+                            <persName key="#Judge"><name ref="Rodelandus">Rolando</name>
+                            <rs key="#Judge">iudici</rs></persName> ad opus <orgName
+                            key="#Hospitals" ref="#juridical_persons/3206"><rs key="#Hospitals"
+                                >hospitalis</rs>
+                            <placeName key="#Hospitals" ref="#places/3207"
+                            >Altepascensis</placeName></orgName> illam terre petiam et ius tenienti
+                        ex ea eis pertinentibus que est posita in loco et finibus <placeName
+                            ref="#places/3210" key="#Rivers">Putei</placeName> et iusta <rs
+                            key="#Rivers">aquam Iussianam</rs> quam <persName><name ref="Nerus"
+                                >Nerus</name></persName> quondam *** eis iudicavit vel donavit et
+                        ius et proprietas est suprascripti hospitalis. Et ipsam terram dictus Nerus
+                        ab ipso hospitali detinebat. Que vero tenet ambo capita cum uno latere in
+                        terra suprascripti hospitalis, latus aliud tenet in terra eiusdem Adimarii
+                        et Sardi. (…) <foreign>Pena</foreign>: dupli dicte rei.
+                            <foreign>Meritum</foreign>: quadraginta sol. bonorum denariorum pisane
+                        monete. (…) Quod actum est anno nativitate Christi millesimo centesimo
+                        nonagesimo primo, tertio idus madii, indictione nona. Et presentia <persName
+                            key="#Witness #Boni_viri/boni_homines"><name ref="Iacobus"
+                            >Iacopi</name></persName> quondam <persName><name ref="Widaloctus"
+                                >Guidalotti</name></persName> et <persName
+                            key="#Witness #Boni_viri/boni_homines"><name ref="Robertus"
+                                >Roberti</name></persName> quondam <persName><name ref="Robertus"
+                                >Robertini</name></persName> et <persName
+                            key="#Witness #Boni_viri/boni_homines"><name ref="Armanectus"
+                                >Armannetti</name></persName> quondam <persName><name ref="Iordanus"
+                                >Iordanis</name></persName> rogatorum <rs key="#Witness"
+                            >testium</rs>. (S) Ego <persName key="#Writer #Notary"><name
+                                ref="Leonardus">Leonardus</name></persName> doni imperatoris <rs
+                            key="#Notary">notarius</rs> predictis interfui, ideoque hec causa
+                        memorie in his publicis scriptis redegi et dedi.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p><ref>https://www.archiviodigitale.icar.beniculturali.it/it/185/ricerca/detail/536848</ref></p>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
