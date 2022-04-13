@@ -34,7 +34,7 @@
                         <summary>
                             <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
-                            <rs type="document_tradition" ref="#">Compendium</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
                             <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
@@ -77,6 +77,7 @@
             <listChange>
                 <change when="2021-05-07" who="atagliente">creation of record</change>
                 <change when="2021-05-14" who="atagliente">minor changes</change>
+                <change when="2022-04-12" who="atagliente">minor changes</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -88,10 +89,10 @@
                         ordinante providentia <rs key="#Princeps">Langobardorum gentis princeps</rs>
                         concessimus tibi <persName key="#Abbots" ref="#people/332"
                             >Iohanni</persName> venerabili <rs key="#Abbots">abbati</rs>
-                        <rs key="#Monasteries">monasterii</rs><orgName key="#Monasteries"
+                        <rs key="#Monasteries">monasterii</rs><orgName key="#Monasteries #Abbots"
                             ref="#juridical_persons/84"> Sancti Benedicti</orgName>, hoc est omnes
                             <rs
-                            key="#Fiscal_property #Redistributive #Property_of_persons_without_heirs"
+                            key="#Fiscal_property #Textual_occurrence #Object #Mention #Function #Redistributive #Outflow #Allocation_to_churches #Property_of_persons_without_heirs"
                             >res et substantias que fuerunt cuiusdam <persName
                                 key="#Property_of_persons_without_heirs"><name ref="Vitalis"
                                     >Vitaliani</name></persName></rs> qui <rs key="#Natio">de
@@ -101,17 +102,19 @@
                         <rs key="#Property_of_persons_without_heirs">filios legitimos</rs> non
                         reliquid qui ei <rs key="#Law">saecundum legem</rs> heredes succedere
                         deberent in rebus et substantiis suis quas conquisitas et paratas habuit,
-                        ideo omnis illis hereditas ad potestatem nostri sacri Palatii advenit, et
-                        quia non habuit potestatem sine iussione Palatii cuicumque de rebus suis
-                        tingare aut per quoslibet titulum alienare, propterea omnis illius
-                        hereditas, <rs key="#Law">sicut legibus nostro sacro Palatio pertinere</rs>
-                        videtur, sic totum et integrum tibi iam nominato Iohanni venerabili abbati
-                        tuisque posteris abbatibus sit concessum pro parte ipsius monasterii Sancti
-                        Benedicti, absque illius comitis, castaldeis, iudicis vel cuiuscumque
-                        persone contrarietate vel inquietudine, sed perpetuis temporibus tu ipse
-                        venerabilis abbas Iohannes et posteres tui habeatis et possideatis iam
-                        dictas res et substantias predicti Vitaliani. Scripsi ego <persName
-                            key="#Writer #Monks"><name ref="Ildericus">Ildericus</name></persName>
+                        ideo omnis illis hereditas <rs
+                            key="#Fiscal_property #Textual_occurrence #Mention #Function #Redistributive #Outflow #Allocation_to_churches"
+                            >ad potestatem nostri sacri Palatii advenit</rs>, et quia non habuit
+                        potestatem sine iussione Palatii cuicumque de rebus suis tingare aut per
+                        quoslibet titulum alienare, propterea omnis illius hereditas, <rs key="#Law"
+                            >sicut legibus nostro sacro Palatio pertinere</rs> videtur, sic totum et
+                        integrum tibi iam nominato Iohanni venerabili abbati tuisque posteris
+                        abbatibus sit concessum pro parte ipsius monasterii Sancti Benedicti, absque
+                        illius comitis, castaldeis, iudicis vel cuiuscumque persone contrarietate
+                        vel inquietudine, sed perpetuis temporibus tu ipse venerabilis abbas
+                        Iohannes et posteres tui habeatis et possideatis iam dictas res et
+                        substantias predicti Vitaliani. Scripsi ego <persName key="#Writer #Monks"
+                                ><name ref="Ildericus">Ildericus</name></persName>
                         <rs key="#Monks">monachus</rs> in anno principatus supradictae potestatis
                         tricesimo, mense Septembrio, indictione quarta.</ab>
                 </div>

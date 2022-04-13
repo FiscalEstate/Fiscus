@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Venezia, Archivio di Stato, Mensa Patriarcale, b. 109, R N 709</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2022">2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DiSCi UniBo</publisher>
+                <idno type="filename">doc5104</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+                </availability>
+                <date when="2022"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Venditio</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property"/>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="1122-08-02">
+                                <note type="displayed_date">1122 August 2</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Venezia</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace></origPlace>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-04-11" who="bferretti">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>(C) In nomine domini Dei et Hominis. Anno incarnationis eiusdem millesimo
+                        centesimo vigesimo secundo, mensis augusti, die secunda, indicione
+                        quintadecima. Constat nos <persName ref="#people/3551"
+                            key="#childOf #mundualdusOf #Lombard #Iure_proprietatis/pleno_iure #Villas #Casae/cassinae_massaricie #Landed_possessions #Cereals #Legumes #Wine #Forests #Rivers #Canals #Marshes/lagoons/tombolos #Fisheries #Mills #Rights_of_use_on_woods/pastures/waters #Venditio"
+                            >Ugocionem</persName> de <placeName ref="#places/4107">Bahone</placeName>
+                        et <persName ref="#people/3552"
+                            key="#parentOf #Lombard #Iure_proprietatis/pleno_iure #Villas #Casae/cassinae_massaricie #Landed_possessions #Cereals #Legumes #Wine #Forests #Rivers #Canals #Marshes/lagoons/tombolos #Fisheries #Mills #Rights_of_use_on_woods/pastures/waters #Venditio"
+                            >Helicam</persName>
+                        <rs key="#parentOf">matrem</rs> et <rs key="#childOf">filium</rs>, ipso
+                        filio ac <rs key="#mundualdusOf">mundoaldo</rs> meo mihi consentiente et
+                        auctoritatem suam interponente, qui professi sumus nos lege vivere <rs
+                            key="#Lombard">Longobardorum</rs>, accepisse a te domno <persName ref="#people/3550"
+                            key="#Priors #Monasteries">Rodulpho</persName>
+                        <rs key="#Monasteries">monasterii</rs>
+                        <orgName
+                            key="#Monasteries #Priors #Iure_proprietatis/pleno_iure #Villas #Casae/cassinae_massaricie #Landed_possessions #Cereals #Legumes #Wine #Forests #Rivers #Canals #Marshes/lagoons/tombolos #Fisheries #Mills #Rights_of_use_on_woods/pastures/waters #Venditio"
+                            ref="#juridical_persons/2075">Sancti Cypriani</orgName> de <placeName
+                            key="#Monasteries #Curtes" ref="#places/914">Venetia</placeName>
+                        <rs key="#Priors">priore</rs>
+                        <rs key="#Price">denariorum Venetialium libras centum</rs> finitum precium
+                        sicut inter nos convenit, nominative pro omnibus rebus immobiliusf quę nobis
+                            <rs key="#Iure_proprietatis/pleno_iure">iure proprietatis</rs> pertinent
+                        sive per hereditatem seu per qualemcumque acquisitionem in <geogName
+                            ref="#estates/2072"
+                            key="#Villas #Casae/cassinae_massaricie #Landed_possessions #Cereals #Legumes #Wine #Forests #Rivers #Canals #Marshes/lagoons/tombolos #Fisheries #Mills #Rights_of_use_on_woods/pastures/waters"
+                                ><rs key="#Villas">villa</rs> scilicet quaei dicitur <placeName
+                                ref="#places/4105" key="#Villas">Castellum de
+                            Brenta</placeName></geogName> et in finibus ac territoriis eius, una cum
+                            <rs key="#Casae/cassinae_massaricie">casis</rs> et <rs
+                            key="#Landed_possessions">sediminibus</rs> seu <rs key="#Cereals">terris
+                            arabilibus</rs>, vigris, <rs key="#Wine">vineis</rs>, <rs
+                            key="#Cereals #Legumes">campis</rs>, <rs key="#Hay/fodder">pratis</rs>,
+                            <rs key="#Hay/fodder #Animals">pascuis</rs>, <rs key="#Forests">silvis
+                            ac stellareis</rs>, <rs key="#Rivers">rivis</rs> ac <rs
+                            key="#Marshes/lagoons/tombolos">paludibus</rs>, <rs key="#Mills"
+                            >molendinis</rs>, <rs key="#Fisheries">piscationibus</rs>, <rs
+                            key="#Rights_of_use_on_woods/pastures/waters">venationibus</rs>, cultis
+                        et incultis, divisis et indivisis, una cum finibus, terminibus et <rs
+                            key="#Rights_of_use_on_woods/pastures/waters">usibus aquarum</rs>
+                        <rs key="#Canals">aquarumque ductibus</rs>, cum omni iure ac iacentiis et
+                        servitutibus earum rerum per loca et vocabula ad easdem res secundum usum et
+                        consuetudinem prefatę villę in integrum. Quam autem venditionem superius
+                        descriptam ab hac die tibi cui supra Rodulpho et per te mediantem tuo
+                        monasterio quod est ad honorem Dei et Sancti Cypriani situm pro iam dicto
+                        precio nos qui supra mater et filius, vendimus, tradimus et mancipamus,
+                        nulli alii venditam, donatam, alienatam vel traditam nisi tibi et ecclesię
+                        tuę ut facias exinde a presenti die tu et tuum monasterium iure ac nomine
+                        proprietario quicquid volueritis, omni nostra et heredum nostrorum remota
+                        contradictione. Quidem et spondemus atque promittimus nos et heredes nostros
+                        tibi cui supra domno Rodulpho tuoque monasterio predictam venditionem
+                        qualiter superius legitur in integrum ab omni homine defensare. Quod si
+                        defendere non potuerimus aut si vobis exinde aliquid per quodvis ingenium
+                        extorquere presumpserimus, tunc <rs key="#Penalty">in duplum</rs> eandem
+                        venditionem ut prelegitur vobis restituemus sicut pro tempore fuerit
+                        meliorata aut valuerit sub estimatione in consimilibus locis. Et ne nobis
+                        liceat ullo tempore nolle quod voluimus id quod a nobis semel factum vel
+                        conscriptum est inviolabiliter conservare promittimus cum stipulatione
+                        sunbixa. Nichil enim nobis ex ipso precio deberi diximus. Actum in Venetia,
+                        in <rs key="#Curtes">curte</rs>
+                        <persName key="#Curtes #Witness #Venditio #parentOf"><name
+                                ref="Dominicus/Barbi">Dominici Barbi</name></persName> feliciter.
+                        Signa ++ manuum supradictorum Ugocionis et Helicę qui hanc <rs
+                            key="#Venditio">cartulam venditionis</rs> fieri rogitarunt. Rogati autem
+                        sunt <rs key="#Witness">testes</rs>
+                        <persName key="#Witness #Venditio"><name ref="Ardericus de Padua"
+                                >Ardericus</name></persName>
+                        <rs>legis doctus</rs> de <placeName ref="#places/41">Padua</placeName>,
+                            <persName key="#Witness #Venditio"><name ref="Melius de Carraria"
+                                >Melius</name></persName> de <placeName ref="#places/4106"
+                            >Carraria</placeName>, de Venetia vero Dominicus Barbus et <persName
+                            key="#Witness #Venditio #childOf"><name ref="Marcus"
+                            >Marcus</name></persName> filius eius ac <persName
+                            key="#Witness #Venditio "><name ref="Petrus/Zopulus">Petrus
+                                Zopulus</name></persName>. (M) <persName
+                            key="#Causidicus #Tabellio #Writer #Venditio"><name ref="Ionas"
+                                >Ionas</name></persName>
+                        <rs key="#Causidicus">causidicus</rs> necnonque <rs key="#Tabellio"
+                            >tabellio</rs> dictus huius contractus <rs key="#Writer">conscripsi</rs>
+                        pacta rogatus. </ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>CDP I n. 103, pp. 307-310.</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
