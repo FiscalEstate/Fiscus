@@ -29,10 +29,10 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="#"/>
-                            <rs type="record_source" ref="#"/>
-                            <rs type="document_tradition" ref="#"/>
-                            <rs type="fiscal_property"/>
+                            <rs type="text_type" ref="#">--Offersio/donatio</rs>
+                            <rs type="record_source" ref="#">Original document</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property">No</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -40,10 +40,10 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate>
-                                <note type="displayed_date"/>
-                                <note type="dating_elements"/>
-                                <note type="topical_date"/>
+                            <origDate when="1195-07-09">
+                                <note type="displayed_date">1195 July 9</note>
+                                <note type="dating_elements">Stile della natività</note>
+                                <note type="topical_date">Pozzo (Santa Maria a Monte, Pisa)</note>
                                 <note type="redaction_date"/>
                             </origDate>
                             <origPlace></origPlace>
@@ -72,7 +72,7 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2022-02-03" who="other">creation of record</change>
+                <change when="2022-04-21" who="agiacomelli">creation of record</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -82,21 +82,36 @@
                 <div type="textpart">
                     <ab>In nomine domini nostri Iehsu Christi dei eterni amen. Anno nativitate eius
                         millesimo centesimo nonagesimo quito, sectimo ydus julii, indictione
-                        tertiadecima. Ex huius instrumenti pateat recitatione quod ego Alioctus
-                        quondam Vechi dono et trado tibi Iemitia, filia quondam Savitui, dilecte
+                        tertiadecima. Ex huius instrumenti pateat recitatione quod ego
+                                <persName><name ref="Alioctus">Alioctus</name></persName> quondam
+                                <persName><name ref="Vecchio">Vechi</name></persName> dono et trado
+                        tibi <persName><name ref="Iemitia">Iemitia</name></persName>, filia quondam
+                                <persName><name ref="Savitius">Savitui</name></persName>, dilecte
                         coniungii mea, duo stariora et dimidium terre in una petie que est in
                         confinibus Putei et in loco ubi dicitur Campocasale. Que vero terre petia
-                        tenet unum caput cum uno latere in terra filiorum Muncini, aliud caput tenet
-                        in terra Junii quondam ***, aliud latus tenet in terra Ubaldii quondam
-                        Bernardii que habet ex parte uxoris sue. (…) Unde ego qui supra Alioctus
-                        meritum clamidem unum et insuper nomine dotis inter denarios et guarnimenta
-                        trecentum et decem soldos bonorum denariorum pisanii conii a Eainone
-                        mundualdo tuo pro tua (…) confiteor recepisse. (…) <foreign>Pena</foreign>:
-                        in duplum. Actum ad Puteum castri et ante domum suprascripti Aliotti. (…)
-                        Medivillanus quondam Ranucerii, Veclus quondam Pionthi, Detadeus filius
-                        Picioli, suprascripti rogati testes interfuerunt. (S) Ego Bulio domni regis
-                        Henrigi iudex ordinarius atque notarius post traditam scripsi, complevi et
-                        dedi.</ab>
+                        tenet unum caput cum uno latere in terra filiorum <persName><name
+                                ref="Muncinus">Muncini</name></persName>, aliud caput tenet in terra
+                                <persName><name ref="Iunius">Junii</name></persName> quondam ***,
+                        aliud latus tenet in terra <persName><name ref="Hubaldus"
+                            >Ubaldii</name></persName> quondam <persName><name ref="Bernardus"
+                                >Bernardii</name></persName> que habet ex parte uxoris sue. (…) Unde
+                        ego qui supra Alioctus meritum clamidem unum et insuper nomine dotis inter
+                        denarios et guarnimenta trecentum et decem soldos bonorum denariorum pisanii
+                        conii a <persName><name ref="Raino">Rainone</name></persName> mundualdo tuo
+                        (…) confiteor recepisse. (…) <foreign>Pena</foreign>: in duplum. Actum ad
+                            <placeName ref="#places/3210" key="#Castle">Puteum</placeName>
+                        <rs key="#Castle">castri</rs> et ante domum suprascripti Aliotti. (…)
+                                <persName><name ref="Mezzovillano">Medivillanus</name></persName>
+                        quondam <persName><name ref="Rainucerius">Ranucerii</name></persName>,
+                                <persName><name ref="Vecchio">Veclus</name></persName> quondam
+                                <persName><name ref="Pionthus">Pionthi</name></persName>,
+                                <persName><name ref="Deusdedit">Detadeus</name></persName> filius
+                                <persName><name ref="Piculus">Picioli</name></persName>,
+                        suprascripti rogati <rs key="#Witness">testes</rs> interfuerunt. (S) Ego
+                            <persName key="#Writer #Notary #Judge"><name ref="Bulius"
+                            >Bulio</name></persName> domni regis Henrigi <rs key="#Judge">iudex
+                            ordinarius</rs> atque <rs key="#Notary">notarius</rs> post traditam
+                        scripsi, complevi et dedi.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
