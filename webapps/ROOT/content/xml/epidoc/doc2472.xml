@@ -29,10 +29,10 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="#"/>
-                            <rs type="record_source" ref="#"/>
-                            <rs type="document_tradition" ref="#"/>
-                            <rs type="fiscal_property"/>
+                            <rs type="text_type" ref="#">--Venditio</rs>
+                            <rs type="record_source" ref="#">Original document</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property">No</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -40,10 +40,11 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate>
-                                <note type="displayed_date"/>
-                                <note type="dating_elements"/>
-                                <note type="topical_date"/>
+                            <origDate when="1197-07-20">
+                                <note type="displayed_date">1197 July 20</note>
+                                <note type="dating_elements">Stile della natività</note>
+                                <note type="topical_date">Montefalcone (Castelfranco di Sotto,
+                                    Pisa)</note>
                                 <note type="redaction_date"/>
                             </origDate>
                             <origPlace></origPlace>
@@ -82,18 +83,29 @@
                 <div type="textpart">
                     <ab>(S) In dei nomine amen. Anno nativitatis eius millesimo centesimo nonagesimo
                         septimo, tertiodecimo kal. augusti, indictione quintadecima. Ex hoc publico
-                        instrumento omnibus elucescat quod nos, Martinus et Ammannatus et Natale
-                        germani quondam Bonafidei, nos tres simul vendimus et tradimus tibi Piero
-                        quondam Signorecti unam nostram petiam de terra in finibus Montis Falconi,
-                        posita ad Ortum Pulcelle, quod tenet unum caput in terra Palmari quondam
-                        Dammiani, aliud in terra Ciaffarini quondam Petri, latus unum in terra
-                        filiorum quondam Orlandi et suprascripti Ciaffarini, aliud vero latus in
-                        terra ecclesie Sancti Quirici. (…) <foreign>Prezzo</foreign>: libris tribus
-                        soldis quinque bonorum denariorum pisani. <foreign>Pena</foreign>: in
-                        duplum. (…) Actum Monti Falconis (…) presentibus Menculo quondam Bacalari et
-                        Leulo et Barone et Amateo et aliis ad hec rogatis testibus. (S) Lannfrancus
-                        domini regis Henrigi notarius omnia suprascripta mea proria manu publicis
-                        litteris scripsi, complevi et dedi.</ab>
+                        instrumento omnibus elucescat quod nos, <persName><name ref="Martinus"
+                                >Martinus</name></persName> et <persName>Ammannatus</persName> et
+                            <persName>Natale</persName> germani quondam
+                            <persName>Bonafidei</persName>, nos tres simul vendimus et tradimus tibi
+                            <persName>Piero</persName> quondam <persName>Signorecti</persName> unam
+                        nostram petiam de terra in finibus Montis Falconi, posita ad Ortum Pulcelle,
+                        quod tenet unum caput in terra <persName>Palmari</persName> quondam
+                            <persName>Dammiani</persName>, aliud in terra
+                            <persName>Ciaffarini</persName> quondam <persName><name ref="Petrus"
+                                >Petri</name></persName>, latus unum in terra filiorum quondam
+                            <persName>Orlandi</persName> et suprascripti Ciaffarini, aliud vero
+                        latus in terra <orgName key="#Churches" ref="#juridical_persons/2041"><rs
+                                key="#Churches">ecclesie</rs> Sancti Quirici</orgName>. (…)
+                            <foreign>Prezzo</foreign>: libris tribus soldis quinque bonorum
+                        denariorum pisani. <foreign>Pena</foreign>: in duplum. (…) Actum <placeName
+                            ref="#places/3202">Monti Falconis</placeName> (…) presentibus
+                            <persName>Menculo</persName> quondam <persName>Bacalari</persName> et
+                            <persName>Leulo</persName> et <persName><name ref="Baro"
+                            >Barone</name></persName> et <persName>Amateo</persName> et aliis ad hec
+                        rogatis <rs>testibus</rs>. (S) <persName><name ref="Lanfrancus"
+                                >Lannfrancus</name></persName> domini regis Henrigi
+                            <rs>notarius</rs> omnia suprascripta mea proria manu publicis litteris
+                        scripsi, complevi et dedi.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
@@ -103,7 +115,7 @@
                 <p/>
             </div>
             <div type="bibliography" subtype="links">
-                <p/>
+                <p><ref>https://www.archiviodigitale.icar.beniculturali.it/it/185/ricerca/detail/536857</ref></p>
             </div>
             <div type="commentary">
                 <p/>
