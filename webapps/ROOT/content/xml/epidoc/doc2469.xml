@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Lucca, Archivio di Stato, Diplomatico, Altopascio, 1194 luglio 31</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2022">2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DiSCi UniBo</publisher>
+                <idno type="filename">doc2469</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+                </availability>
+                <date when="2022"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Venditio</rs>
+                            <rs type="record_source" ref="#">Original document</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property">No</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="1194-07-31">
+                                <note type="displayed_date">1194 July 31</note>
+                                <note type="dating_elements">Stile della natività</note>
+                                <note type="topical_date">Pozzo (Santa Maria a Monte, Pisa)</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace></origPlace>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-04-21" who="agiacomelli">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine domini nostri Iehsu Christi eterni dei amen. Anno nativitate eius
+                        millesimo centesimo nonagesimo quarto, pridie kal. augusti, indictione
+                        duodecima. Ex huius instrumenti pateat edicto quod ego <persName><name
+                                ref="Gherarduccius">Gerarduccius</name></persName> quondam
+                                <persName><name ref="Teminus">Temini</name></persName> vendo et
+                        trado tibi <persName><name ref="Heinricus">Henrigo</name></persName> quondam
+                        dicti Temini meam portionem integram que est medietas de una terre petia que
+                        vocatur Mons, <rs key="#Wine">vineam</rs> et <rs key="#Fruits/vegetables"
+                            >ficas</rs> et <rs key="#Oil">olivas</rs> super se habente, que est
+                        posita in plagis et finibus Putei seu in loco ubi dicitur Linari. Et tenet
+                        unum caput in <rs key="#Roads">via puplica</rs>, aliud in <rs key="#Rivers"
+                            >rivo</rs>, unum laterum in <rs key="#Mountains">monte</rs> quem detinet
+                                <persName><name ref="Wido">Guidoni</name></persName> quondam
+                                <persName><name ref="Tiniosus">Tiniosi</name></persName> et in monte
+                            <persName ref="#people/3217">Aldimarii</persName> quondam <persName
+                            ref="#people/3218">Alberti</persName>, aliud in monte <persName><name
+                                ref="Merollare">Merollari</name></persName> quondam <persName><name
+                                ref="Salomon">Salomoni</name></persName> et in monte dicti
+                        Aldimarii. Et est ipsa mea portio duo stariora et medium. (…)
+                            <foreign>Prezzo</foreign>: solidorum quadraginta bonorum denariorum
+                        pisani conii. <foreign>Pena</foreign>: dupli. (…) Actum apud <placeName
+                            ref="#places/3210"
+                            key="#Rivers #Mountains #Wine #Oil #Fruits/vegetables #Roads"
+                            >Puteum</placeName> et ante domum <persName><name ref="Sigerius"
+                                >Sigerii</name></persName> et <persName><name ref="Baro"
+                                >Baroni</name></persName> germani et quondam <persName><name
+                                ref="Rogerius">Rugerii</name></persName>. (…) Presentibus <persName
+                            key="#Witness"><name ref="Spinellus">Spinello</name></persName> quondam
+                                <persName><name ref="Balduinus">Baldovini</name></persName>,
+                            <persName key="#Witness"><name ref="Villanus">Villano</name></persName>
+                        quondam <persName><name ref="Tiniosus">Tiniosi</name></persName> et
+                            <persName key="#Witness"><name ref="Ildebrandinus"
+                            >Ildibrandino</name></persName> filio <persName><name ref="Wizo"
+                                >Guictoni</name></persName> rogatis <rs key="#Witness"
+                        >testibus</rs>. (S) Ego <persName key="#Writer #Notary #Judge"><name
+                                ref="Hubertus">Ubertus</name></persName> domni imperatoris domni
+                        imperatoris <rs key="#Judge">iudex ordinarius</rs> atque <rs key="#Notary"
+                            >notarius</rs> post traditam scripsi, complevi et dedi.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p><ref>https://www.archiviodigitale.icar.beniculturali.it/it/185/ricerca/detail/536853</ref></p>
+            </div>
+            <div type="commentary">
+                <p>Nota tergale: "Cartulam Henrigi ab Gerarduccio tradita".</p>
+            </div>
+        </body>
+    </text>
+</TEI>
