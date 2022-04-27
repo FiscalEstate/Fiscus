@@ -33,7 +33,7 @@
                             <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Original</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -98,16 +98,20 @@
                         <placeName ref="#places/2315" key="#Rivers">Caloris</placeName>
                         <rs key="#Intercessory">per</rs>
                         <persName key="#Count" ref="#people/3434">Madelfridum</persName>
-                        <rs key="#Count">comitem</rs> dilectum nostrum, et filius <persName
-                            key="#Count" ref="#people/3428">Madelfrid</persName> nostram adiisse a
-                        Deo protegendam principalem dignitatem, deprecans ut pro augmento predicti
-                        sui monasterii in qua ipse Amatus regimen tenere videtur, nostreque patrie
-                        salbatjone concederemus atque confirmaremus in ecclesia Beati Pauli apostoli
+                        <rs key="#Intercessory #Count">comitem</rs> dilectum nostrum, et filius
+                            <persName key="#Count" ref="#people/3428">Madelfrid</persName> nostram
+                        adiisse a Deo protegendam principalem dignitatem, deprecans ut pro augmento
+                        predicti sui monasterii in qua ipse Amatus regimen tenere videtur, nostreque
+                        patrie salbatjone concederemus atque confirmaremus in <orgName
+                            ref="#juridical_persons/3412" key="#Churches #Monasteries"><rs
+                                key="#Churches">ecclesia</rs>
+                            <placeName ref="#places/110">Beati Pauli apostoli</placeName></orgName>
                         subdita eiusdem sue ecclesie atque monasterii que constructa esse videntur
-                        intus hanc Beneventanam veterem civitatem secus murum huius Beneventane
-                        civitati &lt;sic> in qua et ipse regimen tenere videtur ad perpetualiter
-                        easdem ecclesias habendum eiusque rectores, atque possidendum cuncta
-                        qualiter hic inferius declaratur iure quieto; de quibus etenim petiit
+                        intus hanc <placeName key="#Cities" ref="#places/110"
+                            >Beneventanam</placeName> veterem civitatem secus murum huius
+                        Beneventane civitati &lt;sic> in qua et ipse regimen tenere videtur ad
+                        perpetualiter easdem ecclesias habendum eiusque rectores, atque possidendum
+                        cuncta qualiter hic inferius declaratur iure quieto; de quibus etenim petiit
                         &lt;ip>sa nostra celsitudine ut in eadem ecclesia sancta pro perhenni
                         tuitjone, ut mos est, antecessorum nostrorum principum munitjonem inde fieri
                         iuberemus. quapropter ne eius inaudita fieret postulatjo eiusdem petitjonis
@@ -118,46 +122,53 @@
                         et iamdicti Beati Pauli apostoli omnia que a regibus et ab antecessorum
                         nostrorum principum in eadem ecclesia concessa sunt vel confirmata per
                         preceptora vel ratjones. Unde moniminas habent pars ipsius ecclesie vel
-                        ratjones ut semper pars eiusdem ecclesie eiusque rectores illud semper
-                        abeant et possideant absque cuiuslibet contrarietate. similiterque
-                        concedimus et confirmamus in prephata ecclesia vocabulo Sancti Pauli
-                        quatenus pars eiusdem ecclesie eiusque rectores potestatem abeant de quantum
-                        continere videtur casis eiusdem ecclesie in eodem murum huius nostre
-                        civitati rumpere et cosse de arcora et aliud hedificium in eodem murum
-                        facere et desuper platea illa que vadit erga eodem murum arcora volvere et
-                        aliud hedificium desuper eadem platea facere quem ammodum voluerit et
-                        necesse fuerit ad pars eiusdem ecclesie ita ut in predictum murum pars
-                        eiusdem ecclesie eiusque rectores potestatem habeat foramina facere unde
-                        semper discurrat ipsa aqua foras eodem muru[m] tam quod discurserit a
-                        balneum ipsius monasterii quam et quod discurserit a pars eiusdem ecclesie
-                        totum per predicta foramina discurrat semper foras eundem murum, iterum
-                        concedimus in eundem venerabile locum omnibus rebus exfundatis que fuerunt
-                        de hominibus que ex hoc seculo absque heredes migraverunt et cum rebus
-                        eiusdem ecclesie coniuncta est ut semper pars eiusdem ecclesie eiusque
-                        rectoribus illud abeant et possideant una cum monimina inde pertinentes et
-                        continentes ad faciendum quod voluerint nec non et concedimus in prephata
-                        ecclesia Sancti Pauli ut omnes guareghant qui de exteris finibus venerint
-                        aut homines qui se nostro principatu subiciunt in eadem ecclesia optulerit
-                        seu oblatum fuerit aliquit ut semper pars eiusdem ecclesie eiusque
+                        ratjones ut semper pars eiusdem ecclesie eiusque <rs key="#rectorOf"
+                            >rectores</rs> illud semper abeant et possideant absque cuiuslibet
+                        contrarietate. similiterque concedimus et confirmamus in prephata ecclesia
+                        vocabulo Sancti Pauli quatenus pars eiusdem ecclesie eiusque rectores
+                        potestatem abeant de quantum continere videtur <rs key="#Houses">casis</rs>
+                        eiusdem ecclesie in eodem <rs key="#Walls #Defensive_elements">murum</rs>
+                        huius nostre civitati rumpere et cosse de <rs key="#Clusae/gates"
+                            >arcora</rs> et aliud hedificium in eodem murum facere et desuper platea
+                        illa que vadit erga eodem murum arcora volvere et aliud hedificium desuper
+                        eadem platea facere quem ammodum voluerit et necesse fuerit ad pars eiusdem
+                        ecclesie ita ut in predictum murum pars eiusdem ecclesie eiusque rectores
+                        potestatem habeat <rs
+                            key="#Clusae/gates #Rights_of_use_on_woods/pastures/waters"
+                            >foramina</rs> facere unde semper discurrat ipsa aqua foras eodem
+                        muru[m] tam quod discurserit a balneum ipsius monasterii quam et quod
+                        discurserit a pars eiusdem ecclesie totum per predicta foramina discurrat
+                        semper foras eundem murum, iterum concedimus in eundem venerabile locum
+                        omnibus <rs
+                            key="#Fiscal_property #Object #Redistributive #Outflow #Allocation_to_churches #Property_of_persons_without_heirs"
+                            >rebus exfundatis</rs> que fuerunt de hominibus que ex hoc seculo absque
+                        heredes migraverunt et cum rebus eiusdem ecclesie coniuncta est ut semper
+                        pars eiusdem ecclesie eiusque rectoribus illud abeant et possideant una cum
+                        monimina inde pertinentes et continentes ad faciendum quod voluerint nec non
+                        et concedimus in prephata ecclesia Sancti Pauli ut omnes <rs key="#Freeborn"
+                            >guareghant</rs> qui de exteris finibus venerint aut <rs key="#Freeborn"
+                            >homines</rs> qui se nostro principatu subiciunt in eadem ecclesia
+                        optulerit seu oblatum fuerit aliquit ut semper pars eiusdem ecclesie eiusque
                         rectoribus omnia que hibidem optulerit vel oblatum fuerit una cum monimina
                         inde pertinentes, illud abeant et possideant faciendum quod voluerint;
                         iterum concedimus in eundem venerabile locum omnibus illis hominibus qui in
                         rebus eiusdem ecclesie sponte ad habitandum introierint ut semper illos
-                        defensos abeatis ab omni servitjo puplico set quicquit in pars puplica
-                        facere debunt totum illud in pars predicte ecclesie eiusque rectoribus
-                        faciant atque persolbant; pariterque concedimus ut pars eiusdem ecclesie
-                        semper sint soluta ab omni datjone et servitjo puplico cuiuscumque facientes
-                        vel persolventes set semper sint exinde soluta atque quieta, ea etenim
-                        sanctjone cuncta iam dicta nostra concessione, velut prelegitur, amodo et
-                        perpetualiter pars eiusdem ecclesie eiusque rectoribus ea omnia abeant et
-                        possideant per hanc nostram principalem concessionem faciendum omnia quod
-                        voluerint absque ullius comitibus, gastaldeis, iudicibus vel sculdays
-                        nostris aut cuiuscumque persone hominum aliqua con[tr]arietate vel
-                        inquietudine a neminem aliquit contrarium in aliquo ingerente. Ut autem hec
-                        nostra concessio ab omnibus immobiliter observetur manu propria scripsimus
-                        et anulis nostris supter iussimus sigillari. Signum (M) domini Paldolfi
-                        gloriosi principi. <persName ref="#people/3433" key="#Writer #Other_clerics"
-                            >Iohannes</persName>
+                        defensos abeatis ab omni <rs>servitjo puplico</rs> set quicquit in pars
+                        puplica facere debunt totum illud in pars predicte ecclesie eiusque
+                        rectoribus faciant atque persolbant; pariterque concedimus ut pars eiusdem
+                        ecclesie semper sint soluta ab omni datjone et <rs>servitjo puplico</rs>
+                        cuiuscumque facientes vel persolventes set semper sint exinde soluta atque
+                        quieta, ea etenim sanctjone cuncta iam dicta nostra concessione, velut
+                        prelegitur, amodo et perpetualiter pars eiusdem ecclesie eiusque rectoribus
+                        ea omnia abeant et possideant per hanc nostram principalem concessionem
+                        faciendum omnia quod voluerint absque ullius comitibus, gastaldeis,
+                        iudicibus vel sculdays nostris aut cuiuscumque persone hominum aliqua
+                        con[tr]arietate vel inquietudine a neminem aliquit contrarium in aliquo
+                        ingerente. Ut autem hec nostra concessio ab omnibus immobiliter observetur
+                        manu propria scripsimus et anulis nostris supter iussimus sigillari. Signum
+                        (M) domini Paldolfi gloriosi principi. <persName ref="#people/3433"
+                            key="#Writer #Other_clerics"><name ref="Iohannes clericus et scriba"
+                                >Iohannes</name></persName>
                         <rs key="#Other_clerics">clericus</rs> et <rs key="#Writer">scriba</rs> ex
                         iussione predicte potestati scripsi. Datur enim vobis quintodecimo kalendas
                         ianuarii in anno tricesimo secundo principatus Paldolfi gloriosi principis
