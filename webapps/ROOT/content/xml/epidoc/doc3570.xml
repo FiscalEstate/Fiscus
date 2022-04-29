@@ -34,7 +34,7 @@
                             <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Uncertain tradition</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -82,13 +82,23 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab><note>Il principe Arechi II offre al monastero di S. Sofia di Benevento (prosegue
-                        l'elenco iniziato con il doc. 3535):</note></ab> <ab>(…) [54] Nec non et in <placeName key="#Cities" ref="#places/84">Salerno</placeName> piscatores
-                        casas duas, id est casa que regitur per <name ref="Maiorinus"
-                            >Maiorino</name> cum uxore et filiis et omnibus sibi pertinentibus, casa
-                        que regitur per <name ref="Ratchis">Radichis</name> cum uxore et filiis et
-                        omnibus sibi pertinentibus et lacum ad piscandum in integrum loco qui
-                        dicitur ad Sanctum Salvatore. (…)</ab>
+                    <ab><note>Il principe Arechi II offre al <placeName ref="#places/110"
+                                key="#Cities"><orgName
+                                    key="#Houses #Lakes #Fisheries #Rights_of_use_on_woods/pastures/waters #Monasteries"
+                                        ><rs key="#Monasteries">monastero</rs> di S. Sofia</orgName>
+                                di Benevento</placeName> (prosegue l'elenco iniziato con il doc.
+                            3535):</note></ab> <ab>(…) [54] Nec non et in <placeName key="#Cities" ref="#places/84">Salerno</placeName>
+                        <rs
+                            key="#Fisheries #Fiscal_property #Object #Redistributive #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches #Specialized_workers"
+                            >piscatores</rs>
+                        <rs key="#Houses">casas</rs> duas, id est <rs key="#Houses">casa</rs> que
+                        regitur per <name ref="Maiorinus">Maiorino</name> cum uxore et filiis et
+                        omnibus sibi pertinentibus, <rs key="#Houses">casa</rs> que regitur per
+                            <name ref="Ratchis">Radichis</name> cum uxore et filiis et omnibus sibi
+                        pertinentibus et <rs key="#Lakes">lacum</rs>
+                        <rs key="#Fisheries #Fish">ad piscandum</rs> in integrum loco qui dicitur ad
+                            <placeName ref="#places/3423" key="#Villages/settlements">Sanctum
+                            Salvatore</placeName>. (…)</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
