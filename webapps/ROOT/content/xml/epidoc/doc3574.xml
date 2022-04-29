@@ -34,7 +34,7 @@
                             <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Uncertain tradition</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -83,9 +83,15 @@
             <div type="edition">
                 <div type="textpart">
                     <ab><note>Il principe Arechi II offre al monastero di S. Sofia di Benevento (prosegue
-                        l'elenco iniziato con il doc. 3535):</note></ab> <ab>(…) [59] Nec non et siliquaticum ex mercato Sancti Valentini in integrum
-                        sicuti ad nostra potestate pertinere visum fuit, ita Sancte Sophie
-                        monasterio concessimus exigendum. (…)</ab>
+                        l'elenco iniziato con il doc. 3535):</note></ab> <ab>(…) [59] Nec non et <rs
+                            key="#Fiscal_property #Object #Redistributive #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches #Public_exactions"
+                            >siliquaticum</rs> ex <rs key="#Markets">mercato</rs>
+                        <placeName ref="#places/3420" key="#Villages/settlements">Sancti
+                            Valentini</placeName> in integrum sicuti ad nostra potestate pertinere
+                        visum fuit, ita <orgName key="#Public_exactions #Monasteries"
+                            ref="#juridical_persons/85"><placeName key="#Cities" ref="#places/110"
+                                >Sancte Sophie</placeName></orgName>
+                        <rs key="#Monasteries">monasterio</rs> concessimus exigendum. (…)</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
