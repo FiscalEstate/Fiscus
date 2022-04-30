@@ -35,7 +35,7 @@
                             <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Uncertain tradition</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -83,17 +83,30 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab><note><note>Il <rs key="#Princeps">principe</rs>
-                                <persName key="#Princeps" ref="#people/303">Arechi II</persName>
-                                offre al monastero di S. Sofia di <placeName key="#Cities"
-                                    ref="#places/110">Benevento</placeName>
-                            </note>(prosegue l'elenco iniziato con il doc. 3535):</note></ab> <ab>(…) [63] Nec non etiam et hoc concedimus in prephato monasterio omnibus
-                        territoriis exfundatis pertinentibus sacri nostri palatii que cum terris
-                        pertinentibus ipsius monasterii coniuncta est, tam in finibus Beneventi et
-                        in Apulea et in finibus Capue et in Alifane finibus et per aliis civitatibus
-                        et castellis ubicumque, rebus exfundatis sacri nostri palatii pertinentibus
-                        fuerit coniunctum cum rebus eiusdem monasterii, ideo in eodem monasterio
-                        illud concessimus possidendum. (…)</ab>
+                    <ab><note>Il <rs key="#Princeps">principe</rs>
+                            <persName key="#Princeps" ref="#people/303">Arechi II</persName> offre
+                            al monastero di S. Sofia di Benevento (prosegue l'elenco iniziato con il
+                            doc. 3535):</note></ab> <ab>(…) [63] Nec non etiam et hoc concedimus in prephato <rs key="#Monasteries"><orgName
+                                ref="#juridical_persons/85"
+                                key="#Landed_possessions #Property_of_persons_without_heirs #Monasteries"
+                                    ><placeName ref="#places/110"
+                            >monasterio</placeName></orgName></rs> omnibus <rs
+                            key="#Landed_possessions #Fiscal_property #Mention #Palatium #Inflow #Confiscation #Property_of_persons_without_heirs"
+                            >territoriis exfundatis</rs> pertinentibus sacri nostri <rs
+                            key="#Palatium">palatii</rs> que cum <rs key="#Landed_possessions"
+                            >terris</rs> pertinentibus ipsius <rs key="#Monasteries">monasterii</rs>
+                        <rs key="#Fines">coniuncta est</rs>, tam in finibus <placeName
+                            ref="#places/110" key="#Cities">Beneventi</placeName> et in <placeName
+                            ref="#places/3410" key="#Geographic_regions">Apulea</placeName> et in
+                        finibus <placeName key="#Cities" ref="#places/173">Capue</placeName> et in
+                            <placeName key="#Cities" ref="#places/112">Alifane</placeName> finibus
+                        et per aliis <rs key="#Cities">civitatibus</rs> et <rs
+                            key="#Villages/settlements">castellis</rs> ubicumque, <rs
+                            key="#Property_of_persons_without_heirs">rebus exfundatis</rs> sacri
+                        nostri palatii pertinentibus fuerit coniunctum cum rebus eiusdem monasterii,
+                        ideo in eodem monasterio <rs
+                            key="#Fiscal_property #Object #Redistributive #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
+                            >illud</rs> concessimus possidendum. (…)</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
