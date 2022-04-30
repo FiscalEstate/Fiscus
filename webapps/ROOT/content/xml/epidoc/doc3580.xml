@@ -34,7 +34,7 @@
                             <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Uncertain tradition</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -86,9 +86,15 @@
                                 <persName key="#Princeps" ref="#people/303">Arechi II</persName>
                                 offre al monastero di S. Sofia di <placeName key="#Cities"
                                     ref="#places/110">Benevento</placeName>
-                            </note>(prosegue l'elenco iniziato con il doc. 3535):</note></ab> <ab>(…) [65] Nec non et <rs key="#Churches">ecclesia</rs> Sancti Martini que in Mataluni sita esse
-                        videtur cum omnibus suis pertinentiis Sancte Sophie <rs key="#Monasteries"
-                            >monasterio</rs> concessimus. (…)</ab>
+                            </note>(prosegue l'elenco iniziato con il doc. 3535):</note></ab> <ab>(…) [65] Nec non et <orgName ref="#juridical_persons/3433"
+                            key="#Fiscal_property #Object #Redistributive #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches #Churches"
+                                ><rs key="#Churches">ecclesia</rs>
+                            <placeName ref="#places/3444">Sancti Martini</placeName></orgName> que
+                        in <placeName ref="#places/3444" key="#Cities">Mataluni</placeName> sita
+                        esse videtur cum omnibus suis pertinentiis <orgName
+                            ref="#juridical_persons/85" key="#Churches #Monasteries"><placeName
+                                ref="#places/110">Sancte Sophie</placeName>
+                            <rs key="#Monasteries">monasterio</rs></orgName> concessimus. (…)</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
