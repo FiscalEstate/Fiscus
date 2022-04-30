@@ -35,7 +35,7 @@
                             <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Uncertain tradition</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -87,8 +87,16 @@
                                 <persName key="#Princeps" ref="#people/303">Arechi II</persName>
                                 offre al monastero di S. Sofia di <placeName key="#Cities"
                                     ref="#places/110">Benevento</placeName>
-                            </note>(prosegue l'elenco iniziato con il doc. 3535):</note></ab> <ab>(…) [68] Seu et ecclesiam Sancti Rosi quem abui in Monticello cum testu
-                        cartule Sancte Sofie dedimus possidendum. (…)</ab>
+                            </note>(prosegue l'elenco iniziato con il doc. 3535):</note></ab> <ab>(…) [68] Seu et <orgName ref="#juridical_persons/1917"
+                            key="#Fiscal_property #Object #Redistributive #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches #Churches"
+                                ><rs key="#Churches">ecclesiam</rs>
+                            <placeName ref="#places/571">Sancti Rosi</placeName></orgName> quem abui
+                        in <placeName ref="#places/571" key="#Villages/settlements"
+                            >Monticello</placeName>
+                        <rs key="#Cartula">cum testu cartule</rs>
+                        <placeName ref="#places/110"><orgName ref="#juridical_persons/85"
+                                key="#Monasteries">Sancte Sofie</orgName></placeName> dedimus
+                        possidendum. (…)</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
