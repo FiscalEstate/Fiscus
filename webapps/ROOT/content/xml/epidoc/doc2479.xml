@@ -30,9 +30,9 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="#"/>
-                            <rs type="record_source" ref="#"/>
-                            <rs type="document_tradition" ref="#"/>
+                            <rs type="text_type" ref="#">--Offersio/donatio</rs>
+                            <rs type="record_source" ref="#">Original document</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
                             <rs type="fiscal_property"/>
                         </summary>
                         <msItem xml:id="msItem1">
@@ -44,7 +44,7 @@
                             <origDate>
                                 <note type="displayed_date"/>
                                 <note type="dating_elements"/>
-                                <note type="topical_date"/>
+                                <note type="topical_date">Lucca</note>
                                 <note type="redaction_date"/>
                             </origDate>
                             <origPlace></origPlace>
@@ -73,7 +73,7 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2022-02-03" who="other">creation of record</change>
+                <change when="2022-05-03" who="agiacomelli">creation of record</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -83,51 +83,74 @@
                 <div type="textpart">
                     <ab>In nomine domini nostri Iehsu Christi dei etterni, anno ab incarnationis
                         eius millesimo centesimo hoctavo, decimo kal. martii, indictione prima.
-                        Manifesti sunmus nos Bamdo filio bone memorie Beraldi et Chunitia iugalem
-                        suam et filia bone memorie Druili quia (…) ubi interesse notitia
-                        Seniniorecti iudex (…) per anc cartulam (…)dimus et tradimus ad deum pater
-                        omnipotemtem qui est pius et misericors (…) et ad domum illa que osspitale
-                        esse videtur qui est cumstructo et idifichato in locho qui dicitur Rosagio,
-                        supra illa silva qui dicitur Martiana, ad honorem altissimo deo nostra terra
-                        (…) iuramus libenter dun vita nostra fuerit servire et obedire in qua ipsa
-                        domum qui ospitale esse videtur. Est donminus et rectorem et custode
-                        Iohannes presbitero servuus servorum dei. (Nos) iugalibus pec(ca)toris
-                        desideramus ibi stare et abitare ad comunem vitam et a serviendum et a
-                        hobediendum a deum omnipotemtem et a illi pauperi qui ibi refectionem et
-                        elemosinam acipere abunt. Proter quod nos iughalibus qui nos taliter fare et
-                        adimplere voluerimus damus et tradimus et offerimus tibi deo et predicto
-                        osspitale idest nostram portionem ex integra de duo petiis de terris illis
-                        que sunt campora, qui esse videtur ultra fluvio Sercho, in locho ubi dicitur
-                        a Ghiundalfo. Qui unam ex ipse petia de terra dicitur a Trebbio, qui uno
-                        caput tenet in via plubicha et aliud caput tenet in terra (nostram), latus
-                        uno tenet in terra de osspitale Sancti Martini de civitatem ista lucensem et
-                        alio latus tenet in terra Petri presbitero et de comsortibus suis. Que est
-                        per mensura ad iusta perticha mensuratam sistariorum quatuordecim. Et alia
-                        petia dicitur Archuata, qui uno caput tenet in terra Petri quondam Martini
-                        et Bonalili et Petri seo Iohannes germani filii bone memorie Boniti, et alio
-                        caput tenet in terra Sancti Fridiani, latus uno tenet in terra Martini et
-                        alio latus tenet in terra Iohanni filio quondam Donati. Que est per mensura
-                        ad iusta perticha mensuratas sistariorum hocto. (…) Et damus et tradimus et
-                        oferrimus a summo deo et a predicto osspitale idest nostra portionem ex
-                        integram de hocto petiis de terris illis qui sunt vineis et campis et silvis
-                        et busschareis. Qui unam ex ipse petia dicitur a Sala, secunda dicitur a la
-                        Ceppa, et illa tertia dicitur Carpineta, quarta petia dicitur a Solchotto,
-                        quinta petia dicitur a la Petra, sexta dicitur a la Fomtana, septima dicitur
-                        Anulo et vocitatur a Chasalino, hoctava dicitur a la Pemna. (…) Competit
-                        exinde nobis tertiam portionem et quamtas nobis exinde per quacumque ordinem
-                        est pertinemtes. Et nostram portionem que est sextam portionem ex integram
-                        de una petia de terra illa que est bosscho et sterpeto imsimul, qui esse
-                        videtur in locho ubi dicitur a l Orcia (…). Et omnes nostras movilias et
-                        rebus qui nos modo abemus et tenemus et nobis per quacumque ordinem est
-                        pertinemtes. (…) <foreign>Diamo quanto detto con</foreign> cartula ista
-                        offersionis (…). <foreign>Pena</foreign>: in duplum.
-                            <foreign>Maledizioni</foreign>. (…) Actum Lucha. (…) (S) Seniorecttus
-                        iudex domni imperatoris interfui. Hugho filio bone memorie Homodei et
-                        Viviano filio bone memorie Villani et Bonuccio filio quondam *** et
-                        Rustichello da Amclano filio bone memorie item Rustichi et Andreas filio
+                        Manifesti sunmus nos <persName><name ref="Bandus">Bamdo</name></persName>
+                        filio bone memorie <persName><name ref="Beraldus">Beraldi</name></persName>
+                        et <persName><name ref="Cunitia">Chunitia</name></persName> iugalem suam et
+                        filia bone memorie <persName><name ref="Druilius">Druili</name></persName>
+                        quia (…) ubi interesse notitia Seniniorecti iudex (…) per anc cartulam
+                        (…)dimus et tradimus ad deum pater omnipotemtem qui est pius et misericors
+                        (…) et ad <orgName key="#Hospitals" ref="#juridical_persons/3203">domum illa
+                            que <rs key="#Hospitals">osspitale</rs> esse videtur</orgName> qui est
+                        cumstructo et idifichato in locho qui dicitur <placeName ref="#places/3215"
+                            key="#Forests #Hospitals">Rosagio</placeName>, supra illa <rs
+                            key="#Forests">silva</rs> qui dicitur Martiana, ad honorem altissimo deo
+                        nostra terra (…) iuramus libenter dun vita nostra fuerit servire et obedire
+                        in qua ipsa domum qui ospitale esse videtur. Est donminus et rectorem et
+                        custode <persName key="#Priests"><name ref="Iohannes"
+                            >Iohannes</name></persName>
+                        <rs key="#Priests">presbitero</rs> servuus servorum dei. (Nos) iugalibus
+                        pec(ca)toris desideramus ibi stare et abitare ad comunem vitam et a
+                        serviendum et a hobediendum a deum omnipotemtem et a illi pauperi qui ibi
+                        refectionem et elemosinam acipere abunt. Proter quod nos iughalibus qui nos
+                        taliter fare et adimplere voluerimus damus et tradimus et offerimus tibi deo
+                        et predicto osspitale idest nostram portionem ex integra de duo petiis de
+                        terris illis que sunt campora, qui esse videtur ultra <rs key="#Rivers"
+                            >fluvio Sercho</rs>, in locho ubi dicitur a Ghiundalfo. Qui unam ex ipse
+                        petia de terra dicitur a Trebbio, qui uno caput tenet in via plubicha et
+                        aliud caput tenet in terra (nostram), latus uno tenet in terra de osspitale
+                        Sancti Martini de civitatem ista lucensem et alio latus tenet in terra Petri
+                        presbitero et de comsortibus suis. Que est per mensura ad iusta perticha
+                        mensuratam sistariorum quatuordecim. Et alia petia dicitur Archuata, qui uno
+                        caput tenet in terra <persName><name ref="Petrus">Petri</name></persName>
+                        quondam <persName><name ref="Martinus">Martini</name></persName> et
+                                <persName><name ref="Bonaldus">Bonaldi</name></persName> et
+                                <persName><name ref="Petrus">Petri</name></persName> seo
+                                <persName><name ref="Iohannes">Iohannes</name></persName> germani
+                        filii bone memorie <persName><name ref="Bonitius">Boniti</name></persName>,
+                        et alio caput tenet in terra <orgName ref="#juridical_persons/70">Sancti
+                            Fridiani</orgName>, latus uno tenet in terra <persName><name
+                                ref="Martinus">Martini</name></persName> et alio latus tenet in
+                        terra <persName><name ref="Iohannes">Iohanni</name></persName> filio quondam
+                                <persName><name ref="Donatus">Donati</name></persName>. Que est per
+                        mensura ad iusta perticha mensuratas sistariorum hocto. (…) Et damus et
+                        tradimus et oferrimus a summo deo et a predicto osspitale idest nostra
+                        portionem ex integram de hocto petiis de terris illis qui sunt vineis et
+                        campis et silvis et busschareis. Qui unam ex ipse petia dicitur a Sala,
+                        secunda dicitur a la Ceppa, et illa tertia dicitur Carpineta, quarta petia
+                        dicitur a Solchotto, quinta petia dicitur a la Petra, sexta dicitur a la
+                        Fomtana, septima dicitur Anulo et vocitatur a Chasalino, hoctava dicitur a
+                        la Pemna. (…) Competit exinde nobis tertiam portionem et quamtas nobis
+                        exinde per quacumque ordinem est pertinemtes. Et nostram portionem que est
+                        sextam portionem ex integram de una petia de terra illa que est bosscho et
+                        sterpeto imsimul, qui esse videtur in locho ubi dicitur a l Orcia (…). Et
+                        omnes nostras movilias et rebus qui nos modo abemus et tenemus et nobis per
+                        quacumque ordinem est pertinemtes. (…) <foreign>Diamo quanto detto
+                            con</foreign> cartula ista offersionis (…). <foreign>Pena</foreign>: in
+                        duplum. <foreign>Maledizioni</foreign>. (…) Actum <placeName ref="#places/4"
+                            >Lucha</placeName>. (…) (S) <persName><name ref="Signorectus"
+                                >Seniorecttus</name></persName> iudex domni imperatoris interfui.
+                                <persName><name ref="Hugo">Hugho</name></persName> filio bone
+                        memorie <persName><name ref="Homodeus">Homodei</name></persName> et
+                                <persName><name ref="Vivianus">Viviano</name></persName> filio bone
+                        memorie <persName><name ref="Villanus">Villani</name></persName> et
+                                <persName><name ref="Bonuccius">Bonuccio</name></persName> filio
+                        quondam *** et <persName><name ref="Rustichellus da Anclano"
+                                >Rustichello</name> da Amclano</persName> filio bone memorie item
+                                <persName><name ref="Rusticus">Rustichi</name></persName> et
+                                <persName><name ref="Andreas">Andreas</name></persName> filio
                         suprascripti bone memorie Beraldi in ac cartula rogaverunt per testimonium.
-                        (S) Sighinulfus notarius domni imperatoris post traditam complevi et
-                        dedi.</ab>
+                        (S) <persName><name ref="Siculfus">Sighinulfus</name></persName> notarius
+                        domni imperatoris post traditam complevi et dedi.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
@@ -137,7 +160,7 @@
                 <p/>
             </div>
             <div type="bibliography" subtype="links">
-                <p/>
+                <p><ref>https://www.archiviodigitale.icar.beniculturali.it/it/185/ricerca/detail/537342</ref></p>
             </div>
             <div type="commentary">
                 <p/>
