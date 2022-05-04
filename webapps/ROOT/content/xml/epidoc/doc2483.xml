@@ -30,10 +30,10 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="#"/>
-                            <rs type="record_source" ref="#"/>
-                            <rs type="document_tradition" ref="#"/>
-                            <rs type="fiscal_property"/>
+                            <rs type="text_type" ref="#">--Venditio</rs>
+                            <rs type="record_source" ref="#">Original document</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property">No</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -41,10 +41,10 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate>
-                                <note type="displayed_date"/>
-                                <note type="dating_elements"/>
-                                <note type="topical_date"/>
+                            <origDate when="1144-08-12">
+                                <note type="displayed_date">1144 August 12</note>
+                                <note type="dating_elements">Stile dell'incarnazione</note>
+                                <note type="topical_date">Lucca</note>
                                 <note type="redaction_date"/>
                             </origDate>
                             <origPlace></origPlace>
@@ -86,8 +86,8 @@
                             >Tancredum</persName>
                         <rs key="#Palatine_count">sacri palatii comitem</rs> donni imperatoris
                         missum, residentem in civitatem (sic) <placeName ref="#places/4"
-                            >Luca</placeName>, antec(…) proba(…) quondam
-                                <persName><name>Ildebrandi</name></persName> adultus, quatenus
+                            >Luca</placeName>, antec(…) proba(…) quondam <persName><name
+                                ref="Ildebrandus">Ildebrandi</name></persName> adultus, quatenus
                         predictus (…) adulto ven(…) super se que (…) probando abito (…) quod (…)
                         auditos, causa congnita predictus comes cum consilio <persName key="#Judge"
                                 ><name>Manfredi</name></persName>
@@ -112,8 +112,9 @@
                         Valle. Que unum caput (tenet) in terra filiorum quondam Guidi quondam (…),
                         (aliut in terra) filiorum quondam <persName><name ref="Petrus"
                             >Petri</name></persName>, latus unum tenet in terra <persName><name
-                                ref="Hughicio">Ughicioni</name></persName> et del <persName>Veltero
-                            da <placeName>Cornaia</placeName></persName> et aliut latus in <rs
+                                ref="Hughicio">Ughicioni</name></persName> et del
+                                <persName><name>Veltero</name> da
+                            <placeName>Cornaia</placeName></persName> et aliut latus in <rs
                             key="#Consortes/shared_possessions">terra Ghirardinga</rs>. Hanc autem
                         suprascriptam petiam (…) abente (…) in tucto et omne edificio suo, qualiter
                         ab omni parte circumdata est per designata loca, que est (…) inferioribus et
@@ -131,27 +132,29 @@
                         tamen, si nos exinde auctores vel defensores nec (…) nec dare volueritis,
                         licentiam habeatis (…). (…) fuerit voluntas exinde causas agendi, responsum
                         reddendi, finem ponendi, modis omnibus vobis eam defensandi (…) melius
-                        potueritis. Quia in tali ordine hanc cartulam <persName key="#Writer #Notary"><name ref="Hugo"
-                                >Ugonem</name></persName>
-                        <rs key="#Notary">notarium</rs> domni regis scribere rogavimus. Actum Luce (…). Signum
-                        manus suprascriptorumdem Barisciani adulti et Frandina matre et filio, qui
-                        hanc cartulam fieri rogaverunt, et suprascriptus Bolgarinus auctoritate dedi
-                        suprascripto Barisciani et (…). (S) Ego Tancredus sacri palatii comes et
-                        missus donni imperatoris hec aput me acta confirmo. (S) Manfredus iudex
-                        domni imperatoris interfui et subscripsi. Signum manus
-                                <persName key="#Witness"><name>Guarmignani Combusci</name></persName> quondam
-                                <persName><name>Stefani</name></persName> et
-                        <persName key="#Witness"><name>Cuniti</name></persName> quondam <persName><name
-                                ref="Dominicus">Dominichi</name></persName> et
-                        <persName key="#Witness"><name>Bonsomi</name></persName> quondam <persName><name
-                                ref="Berta">Berte</name></persName> et
-                        <persName key="#Witness"><name>Deiperti</name></persName> quondam <persName><name
-                                ref="Iohannes">Iohannis</name></persName> et
-                        <persName key="#Witness"><name>Frogolecti</name></persName> quondam
-                                <persName><name>Brinecti</name></persName> rogatorum
-                        <rs key="#Witness">testium</rs>. (S) Ugo notarius domni regis postreditam (sic)
-                        complevi et dedi ex excussione Tancredi sacri palatii comitis que predicta
-                        sunt scripsi.</ab>
+                        potueritis. Quia in tali ordine hanc cartulam <persName
+                            key="#Writer #Notary"><name ref="Hugo">Ugonem</name></persName>
+                        <rs key="#Notary">notarium</rs> domni regis scribere rogavimus. Actum Luce
+                        (…). Signum manus suprascriptorumdem Barisciani adulti et Frandina matre et
+                        filio, qui hanc cartulam fieri rogaverunt, et suprascriptus Bolgarinus
+                        auctoritate dedi suprascripto Barisciani et (…). (S) Ego Tancredus sacri
+                        palatii comes et missus donni imperatoris hec aput me acta confirmo. (S)
+                        Manfredus iudex domni imperatoris interfui et subscripsi. Signum manus
+                            <persName key="#Witness"><name ref="Guarmignanus Combuscus">Guarmignani
+                                Combusci</name></persName> quondam <persName><name ref="Stephanus"
+                                >Stefani</name></persName> et <persName key="#Witness"><name
+                                ref="Cunitius">Cuniti</name></persName> quondam <persName><name
+                                ref="Dominicus">Dominichi</name></persName> et <persName
+                            key="#Witness"><name ref="Bonomus">Bonsomi</name></persName> quondam
+                                <persName><name ref="Berta">Berte</name></persName> et <persName
+                            key="#Witness"><name ref="Teudebertus">Deiperti</name></persName>
+                        quondam <persName><name ref="Iohannes">Iohannis</name></persName> et
+                            <persName key="#Witness"><name ref="Frogolectus"
+                            >Frogolecti</name></persName> quondam <persName><name ref="Brinectus"
+                                >Brinecti</name></persName> rogatorum <rs key="#Witness"
+                            >testium</rs>. (S) Ugo notarius domni regis postreditam (sic) complevi
+                        et dedi ex excussione Tancredi sacri palatii comitis que predicta sunt
+                        scripsi.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
