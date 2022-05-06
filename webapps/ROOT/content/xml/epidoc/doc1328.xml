@@ -35,7 +35,7 @@
                             <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Copy</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -83,17 +83,30 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>In nomine Domini Dei Salvatoris nostri Iesu Christi. Domnus Arichis
-                        piissimus atque excellentissimus princeps gentis Langubardorum , divino
-                        premonitus nutu, offero in ecclesia Sancte Sophie quam a fundamentis
-                        edificavi, pro redemtione anime mee seu pro salvatione gentis nostre et
-                        patrie, in Salpes casas duas ad salem laborandum, id est casa quę regitur
-                        per Sirecausu cum uxorę et filiis et omnibus sibi pertinentibus , casa quę
-                        regitur per Vinulum cum uxore et filiis et omnibus sibi pertinentibus; hec
-                        omnia monasterium Sancte Sophie concessimus possidendum. Quod vero preceptus
-                        oblationis ex iussione et dictatus nominate potestatis scripsi ego Lopoal
-                        notarius. Actus Beneventus in filicissimo palatio in anno septimo decimo,
-                        mensi novembrio per indictione tertia decima Feliciter.</ab> 
+                    <ab>In nomine Domini Dei Salvatoris nostri Iesu Christi. Domnus <persName
+                            key="#Princeps" ref="#people/303">Arichis</persName> piissimus atque
+                        excellentissimus <rs key="#Princeps">princeps</rs> gentis Langubardorum ,
+                        divino premonitus nutu, offero in <orgName ref="#juridical_persons/85"
+                            key="#Churches"><rs key="#Churches">ecclesia</rs> Sancte
+                            Sophie</orgName> quam a fundamentis edificavi, pro redemtione anime mee
+                        seu pro salvatione gentis nostre et patrie, in <placeName
+                            key="#Villages/settlements #Fiscal_property" ref="#places/3453"
+                            >Salpes</placeName>
+                        <rs
+                            key="#Houses #Fiscal_property #Object #Redistributive #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
+                            >casas</rs> duas <rs key="#Sea_salt">ad salem laborandum</rs>, id est
+                        casa quę regitur per <name ref="Sirecausus">Sirecausu</name> cum uxorę et
+                        filiis et omnibus sibi pertinentibus , casa quę regitur per <name
+                            ref="Winulus">Vinulum</name> cum uxore et filiis et omnibus sibi
+                        pertinentibus; hec omnia <rs key="#Monasteries">monasterium</rs> Sancte
+                        Sophie concessimus possidendum. Quod vero <rs
+                            key="#Marquis’/ducal/princely_diploma #Offersio/donatio">preceptus
+                            oblationis</rs> ex iussione et dictatus nominate potestatis scripsi ego
+                            <persName key="#Notary" ref="#people/3410">Lopoal</persName>
+                        <rs key="#Notary">notarius</rs>. Actus <placeName key="#Cities"
+                            ref="#places/110">Beneventus</placeName> in filicissimo <rs
+                            key="#Palatium">palatio</rs> in anno septimo decimo, mensi novembrio per
+                        indictione tertia decima Feliciter.</ab> 
                     <ab><note>Nel cartulario è presente anche un riassunto del
                         documento, inserito nel falso <foreign>preceptum donationum,
                             concessionum et confirmationum</foreign> del novembre 774 (CSS, (†)
