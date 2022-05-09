@@ -35,7 +35,7 @@
                             <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Copy</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -83,22 +83,51 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>In nomine Domini Dei Salvatoris nostri Iesu Christi. Domnus Arichis
-                        piissimus atque excellentissimus princeps gentis Langobardorum, divino
-                        premonitus nutu, offero in ęcclesia Sancte Sophie quam a fundamentis
-                        edificavi, pro redemptione anime meę seu pro salvatione gentis nostre et
-                        patrię, casa in Papiano super Trane quę fuit de servis palatii nostri, quam
-                        Iohannis notario per preceptum falsum possidebat, unde legibus ad nostram
-                        devenit potestatem, nostra quoque potestas super hęc largiti sumus in eodem
-                        loco casas sex que reguntur per Gayderissi cum uxore et filii et omnia sibi
-                        pertinentiam, casa que regitur per Giroaldu cum uxore et filii et omnia sibi
-                        pertinentiam, casa que regitur per Anseramu cum uxore et filii et omnia sibi
-                        pertinentiam, casa que regitur per Radcausu cum uxore et filii et omnia sibi
-                        pertinentia, casa que regitur per Firmusinguli cum uxore et filii et omnibus
-                        sibi pertinentibus, qui fuerunt de iudiciaria Canosina, de subactionem
-                        Roderissi gastaldio nost}ro. Quod vero preceptus oblationis ex iussione et
-                        dictatus nominate potestatis scripsi ego Lopoald notarius. Actus Beneventus
-                        in filicissimus palatio in anno septimo decimo, mensi novembrio per
+                    <ab>In nomine Domini Dei Salvatoris nostri Iesu Christi. Domnus <persName
+                            ref="#people/303" key="#Princeps">Arichis</persName> piissimus atque
+                        excellentissimus <rs key="#Princeps">princeps</rs> gentis Langobardorum,
+                        divino premonitus nutu, offero in <orgName
+                            key="#Houses #Property_of_criminals/political_traitors #Churches"
+                            ref="#juridical_persons/85"><rs key="#Churches">ęcclesia</rs> Sancte
+                            Sophie</orgName> quam a fundamentis edificavi, pro redemptione anime meę
+                        seu pro salvatione gentis nostre et patrię, <rs
+                            key="#Houses #Fiscal_property #Object #Redistributive #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
+                            >casa</rs> in Papiano super <placeName ref="#places/3455"
+                            key="#Cities #Fiscal_property">Trane</placeName> quę fuit de <rs
+                            key="#Slave">servis</rs> palatii nostri, quam <name
+                            ref="Iohannes notarius">Iohannis</name>
+                        <rs key="#Notary">notario</rs> per preceptum falsum possidebat, unde legibus
+                            <rs
+                            key="#Fiscal_property #Mention #Inflow #Confiscation #Property_of_criminals/political_traitors"
+                            >ad nostram devenit potestatem</rs>, nostra quoque potestas super hęc
+                        largiti sumus in eodem loco <rs
+                            key="#Houses #Fiscal_property #Object #Redistributive #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
+                            >casa</rs> sex que reguntur per <name ref="Gaiderissius"
+                            >Gayderissi</name> cum uxore et filii et omnia sibi pertinentiam, <rs
+                            key="#Houses #Fiscal_property #Object #Redistributive #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
+                            >casa</rs> que regitur per <name ref="Giroaldus">Giroaldu</name> cum
+                        uxore et filii et omnia sibi pertinentiam, <rs
+                            key="#Houses #Fiscal_property #Object #Redistributive #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
+                            >casa</rs> que regitur per <name ref="Anseramus">Anseramu</name> cum
+                        uxore et filii et omnia sibi pertinentiam, <rs
+                            key="#Houses #Fiscal_property #Object #Redistributive #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
+                            >casa</rs> que regitur per <name ref="Ratcausus">Radcausu</name> cum
+                        uxore et filii et omnia sibi pertinentia, <rs
+                            key="#Houses #Fiscal_property #Object #Redistributive #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
+                            >casa</rs> que regitur per <name ref="Firmusingulus">Firmusinguli</name>
+                        cum uxore et filii et omnibus sibi pertinentibus, qui fuerunt de <rs
+                            key="#Iudiciaria">iudiciaria</rs>
+                        <placeName ref="#places/260" key="#Cities #Iudiciaria">Canosina</placeName>,
+                        de <rs key="#Subactio">subactionem</rs>
+                        <persName key="#Gastaldus/vicegastaldus" ref="#people/3451"
+                            >Roderissi</persName>
+                        <rs key="#Gastaldus/vicegastaldus">gastaldio</rs> nostro. Quod vero <rs
+                            key="#Marquis’/ducal/princely_diploma #Offersio/donatio">preceptus
+                            oblationis</rs> ex iussione et dictatus nominate potestatis scripsi ego
+                            <persName key="#Notary" ref="#people/3410">Lopoald</persName>
+                        <rs key="#Notary">notarius</rs>. Actus <placeName key="#Cities"
+                            ref="#places/110">Beneventus</placeName> in filicissimus <rs
+                            key="#Palatium">palatio</rs> in anno septimo decimo, mensi novembrio per
                         indictionem tertiam decimam. Feliciter.</ab> 
                     <ab><note>Nel cartulario è presente anche un riassunto del
                         documento, inserito nel falso <foreign>preceptum donationum,
@@ -106,17 +135,18 @@
                         I, 1, pp. 289-336), per il quale si veda il commento al doc. 3535. Segue
                         il testo di detto riassunto (CSS, I, 1 [24], pp. 308-309), con un elenco 
                         leggermente differente da quello del documento:</note></ab> 
-                    <ab>(…) [24] Nec non et casa in Papiano super Trane que fuit de servis palatii 
-                        nostri, quam Iohannis notarius per preceptum falsum possidebat, unde legibus 
-                        ad nostram devenit potestatem, nostra quoque potestas super hec largiti sumus 
-                        in eodem loco casas sex que reguntur per Gayderissi cum uxore et filii et 
-                        omnia sibi pertinentiam; casa quel regitur per Geroaldum cum uxore et filii et 
-                        omnia sibi pertinentiam; casa que regitur per Anseramum cum uxore et filii et 
-                        omnia sibi pertinentiam; casa que regitur per Pertulu cum uxore et filii et 
-                        omnia sibi pertinentiam; casa que regitur per Radcausum cum uxore et filii et 
-                        omnia sibi pertinentiam; casa que regitur per Fir­ mum, singuli cum uxore et 
-                        filii et omnibus sibi pertinentibus, que fuerunt de iudiciaria Canosina, de 
-                        subactionem Roderissi gastaldio nostro.(…)</ab>
+                    <ab>(…) [24] Nec non et casa in Papiano super Trane que fuit de servis palatii
+                        nostri, quam Iohannis notarius per preceptum falsum possidebat, unde legibus
+                        ad nostram devenit potestatem, nostra quoque potestas super hec largiti
+                        sumus in eodem loco casas sex que reguntur per Gayderissi cum uxore et filii
+                        et omnia sibi pertinentiam; casa quel regitur per Geroaldum cum uxore et
+                        filii et omnia sibi pertinentiam; casa que regitur per Anseramum cum uxore
+                        et filii et omnia sibi pertinentiam; casa que regitur per <name
+                            ref="Pertulus">Pertulu</name> cum uxore et filii et omnia sibi
+                        pertinentiam; casa que regitur per Radcausum cum uxore et filii et omnia
+                        sibi pertinentiam; casa que regitur per <name ref="Firmus">Firmum</name>,
+                        singuli cum uxore et filii et omnibus sibi pertinentibus, que fuerunt de
+                        iudiciaria Canosina, de subactionem Roderissi gastaldio nostro.(…)</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
