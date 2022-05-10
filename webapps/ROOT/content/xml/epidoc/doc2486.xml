@@ -30,10 +30,10 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="#"/>
-                            <rs type="record_source" ref="#"/>
-                            <rs type="document_tradition" ref="#"/>
-                            <rs type="fiscal_property"/>
+                            <rs type="text_type" ref="#">--Offersio/donatio</rs>
+                            <rs type="record_source" ref="#">Original document</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property">No</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -41,10 +41,10 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate>
-                                <note type="displayed_date"/>
-                                <note type="dating_elements"/>
-                                <note type="topical_date"/>
+                            <origDate when="1155-05-03">
+                                <note type="displayed_date">1155 May 3</note>
+                                <note type="dating_elements">Stile dell'incarnazione</note>
+                                <note type="topical_date">Lucca</note>
                                 <note type="redaction_date"/>
                             </origDate>
                             <origPlace></origPlace>
@@ -73,7 +73,7 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2022-02-03" who="other">creation of record</change>
+                <change when="2022-05-10" who="agiacomelli">creation of record</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -83,32 +83,54 @@
                 <div type="textpart">
                     <ab>(S) In nomine domini nostri Iehsu Christi Dei eterni, anno ab incarnatione
                         eius millesimo centesimo quinquagesimo quinto, quinto nonus madii,
-                        indictione tertia. Manifesti sumus nos Rodulfus quondam Oddi et Iughilenda
-                        iugalis eius et filia quondam Noche (…) <foreign>che</foreign> nos ambo
-                        insimul per hanc cartulam, pro animarum nostrarum remedio, offerimus tibi
-                        Deo et ecclesie et ospitalis Sancti Iacobi et Sancti Gilii de loco
-                        Altopascio idest unam petiam de terra cum casa solariata et omni edificio
-                        eius, que esse videtur in civitate Luca prope ecclesiam Sancti Iuliani. Que
-                        tenet unum caput in via publica et aliut in terra que fuit quondam Guilielmi
-                        notarii, latus unum tenet in medio muro de casa filiorum quondam Gaughi et
-                        aliut latus in medio muro de casa Bonacordi quondam Pelegrini. (…) Pena: in
-                        dupplum (…) et insuper penam argenti optimi libras decem. (…) Actum Luca.
-                        (…) (S) Ego Henricus iudex domni imperatoris interfui et subscripsi. Signum
-                        manus Cervellati quondam Uberti, Bertelotti quondam Scarote, Ribuffati
-                        quondam Gottifredi, Bonsomi quondam Betti, Rabaccati quondam Dominici,
-                        Montani quondam Alberti rogati testium. (S) Henricus notarius domni
-                        imperatoris post traditam complevi et dedi. Ista vero offersionis cartula
-                        tali pacto facta est si nos qui supra iugales anbo mortui erimus in ac via
-                        de Ierusalem quam nos facimus, modo suprascripta cartula statim sit firma et
-                        stabilis. Et si aliquo tempore rector suprascripti ospitalis voluerit eam
-                        vendere, vendat eam filiis quondam suprascripti Ganghi, si ipsi eam
-                        comparare voluerint pro minus sol. decem quam ab alio homine habere
-                        potuerit. Et si ipsi infra triginta diebus post inquisitionem sic non
-                        comparaverint, exinde vendant cui eis placuerit. Et si quis ex nobis mortuus
-                        fuerit, eius portio absolute sit suprascripti ospitalis, et ille qui
-                        supervixerit utatur suprascripta portio mortui donec vixerit, et non liceat
-                        ei eam vendere vel pignorare aut ullo modo alienare, sed omni tempore sit
-                        firma et stabilis ad opus suprascripti ospitalis. (…)</ab>
+                        indictione tertia. Manifesti sumus nos
+                            <persName><name>Rodulfus</name></persName> quondam
+                                <persName><name>Oddi</name></persName> et
+                                <persName><name>Iughilenda</name></persName> iugalis eius et filia
+                        quondam <persName><name>Noche</name></persName> (…) <foreign>che</foreign>
+                        nos ambo insimul per hanc cartulam, pro animarum nostrarum remedio,
+                        offerimus tibi Deo et <orgName key="#Churches #Hospitals"
+                            ref="#juridical_persons/3206"><rs key="#Churches">ecclesie</rs> et <rs
+                                key="#Hospitals">ospitalis</rs> Sancti Iacobi et Sancti
+                            Gilii</orgName> de loco <placeName ref="#places/3207"
+                            >Altopascio</placeName> idest unam petiam de terra cum <rs key="#Houses"
+                            >casa solariata</rs> et omni edificio eius, que esse videtur in civitate
+                        Luca prope <orgName key="#Churches">ecclesiam Sancti Iuliani</orgName>. Que
+                        tenet unum caput in via publica et aliut in terra que fuit quondam
+                                <persName><name>Guilielmi</name></persName> notarii, latus unum
+                        tenet in medio muro de casa filiorum quondam
+                            <persName><name>Gaughi</name></persName> et aliut latus in medio muro de
+                        casa <persName><name>Bonacorsi</name></persName> quondam Pelegrini. (…)
+                        Pena: in dupplum (…) et insuper penam argenti optimi libras decem. (…) Actum
+                            <placeName key="#Houses" ref="#places/4">Luca</placeName>. (…) (S) Ego
+                                <persName><name ref="Heinricus">Henricus</name></persName>
+                        <rs>iudex</rs> domni imperatoris interfui et subscripsi. Signum manus
+                                <persName><name>Cervellati</name></persName> quondam <persName><name
+                                ref="Hubertus">Uberti</name></persName>,
+                                <persName><name>Bertelotti</name></persName> quondam
+                                <persName><name>Scarote</name></persName>,
+                                <persName><name>Ribuffati</name></persName> quondam
+                                <persName><name>Gottifredi</name></persName>,
+                                <persName><name>Bonsomi</name></persName> quondam
+                                <persName><name>Betti</name></persName>,
+                                <persName><name>Rabaccati</name></persName> quondam
+                                <persName><name>Dominici</name></persName>, <persName><name
+                                ref="Montanus">Montani</name></persName> quondam
+                                <persName><name>Alberti</name></persName> rogati <rs>testium</rs>.
+                        (S) <persName><name ref="Heinricus">Henricus</name></persName>
+                        <rs>notarius</rs> domni imperatoris post traditam complevi et dedi.</ab> 
+                        <ab>Ista vero offersionis cartula tali pacto facta est: si nos qui supra
+                        iugales anbo mortui erimus in ac via de Ierusalem quam nos facimus, modo
+                        suprascripta cartula statim sit firma et stabilis. Et si aliquo tempore
+                        rector suprascripti ospitalis voluerit eam vendere, vendat eam filiis
+                        quondam suprascripti Ganghi, si ipsi eam comparare voluerint pro minus sol.
+                        decem quam ab alio homine habere potuerit. Et si ipsi infra triginta diebus
+                        post inquisitionem sic non comparaverint, exinde vendant cui eis placuerit.
+                        Et si quis ex nobis mortuus fuerit, eius portio absolute sit suprascripti
+                        ospitalis, et ille qui supervixerit utatur suprascripta portio mortui donec
+                        vixerit, et non liceat ei eam vendere vel pignorare aut ullo modo alienare,
+                        sed omni tempore sit firma et stabilis ad opus suprascripti ospitalis.
+                        (…)</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
