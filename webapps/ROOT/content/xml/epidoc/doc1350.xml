@@ -35,7 +35,7 @@
                             <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Copy</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -83,23 +83,41 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>[I]n nomine Domini Dei Salvatoris nostri Iesu Christi. Concessimus nos vir
-                        gloriosissimus Adelchis Dei previdentia Langubardorum gentis princeps, per
-                        rogum Landemari fidelis nostri, tibi Urso fideli nostro filius Petri turre
-                        illa sacri nostri palatii intus nostri Beneventanam civitatem iuxta porta
-                        Summai, quod Audoaldus notarius et iudex [**********] ipse Audoaldus eam
-                        tenuit, ita et vos in tua deteneatis potestate et tua ibi agere utilitatem;
-                        simulque et concessimus tibi prenominato omnibus rebus substantiis quis fuit
-                        Stornini liberi homini, id est mobile et inmobile, servos et ancillas, omnia
-                        et in omnibus qualiter secundum legem res ipsa ad nostram evenit potestatem
-                        pro eo quod sine herede decesserit, in ea videlicet ratione ut amodo et
-                        deinceps per hoc nostrum roboreum preceptum omnia que superius leguntur tu
-                        et heredes tui habere et possidere valeatis et a nullo ex nostris iudicibus,
-                        id est comitibus, gastaldis vel a quibuscumque agentibus habeatis aliquam
-                        requisitionem, sed perpetuis temporibus possideatis. Quod vero preceptus
-                        concessionis ex iussione superius dicte potestatis scripsi ego Erchemfrid
-                        notarius. Actus Beneventus quinto anno, mense Martio, sexta indictione.
-                        Feliciter.</ab>
+                    <ab>[I]n nomine Domini Dei Salvatoris nostri Iesu Christi. Concessimus nos <rs
+                            key="#Vir_gloriosus/vir_sublimis">vir gloriosissimus</rs>
+                        <persName key="#Princeps" ref="#people/115">Adelchis</persName> Dei
+                        previdentia Langubardorum gentis <rs key="#Princeps">princeps</rs>, <rs
+                            key="#Intercessory">per rogum</rs>
+                        <name ref="Landemari">Landemari</name>
+                        <rs key="#fidelisOf">fidelis</rs> nostri, tibi <name ref="Ursus">Urso</name>
+                        <rs key="#fidelisOf">fideli</rs> nostro filius <name ref="Petrus"
+                            >Petri</name>
+                        <rs
+                            key="#Fiscal_property #Object #Redistributive #Iure_proprietatis/pleno_iure #Allocation_to_individuals #Fortifications #Tower"
+                            >turre</rs> illa <rs key="#Palatium">sacri nostri palatii </rs>intus
+                        nostri Beneventanam civitatem iuxta <rs key="#Fortifications #Clusae/gates"
+                            >porta Summa</rs>, quod <persName key="#Notary #Judge"
+                            ref="#people/3465">Audoaldus</persName>
+                        <rs key="#Notary #Judge">notarius et iudex</rs> [**********] ipse Audoaldus
+                        eam tenuit, ita et vos in tua deteneatis potestate et tua ibi agere
+                        utilitatem; simulque et concessimus tibi prenominato omnibus <rs
+                            key="#Fiscal_property #Object #Redistributive #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_individuals #Property_of_persons_without_heirs"
+                            >rebus substantiis</rs> quis fuit <name ref="Storninus"
+                            >Stornini</name><rs key="#Freeborn"> liberi homini</rs>, id est mobile
+                        et inmobile, <rs key="#Slave">servos et ancillas</rs>, omnia et in omnibus
+                        qualiter secundum legem res ipsa <rs
+                            key="#Fiscal_property #Mention #Inflow #Property_of_persons_without_heirs"
+                            >ad nostram evenit potestatem pro eo quod sine herede decesserit</rs>,
+                        in ea videlicet ratione ut amodo et deinceps per hoc nostrum roboreum
+                        preceptum omnia que superius leguntur tu et heredes tui habere et possidere
+                        valeatis et a nullo ex nostris iudicibus, id est comitibus, gastaldis vel a
+                        quibuscumque agentibus habeatis aliquam requisitionem, sed perpetuis
+                        temporibus possideatis. Quod vero <rs key="#Marquis’/ducal/princely_diploma"
+                            >preceptus concessionis</rs> ex iussione superius dicte potestatis
+                        scripsi ego <persName key="#Notary" ref="#people/3468">Erchemfrid</persName>
+                        <rs key="#Notary">notarius</rs>. Actus <placeName key="#Cities"
+                            ref="#places/110">Beneventus</placeName> quinto anno, mense martio,
+                        sexta indictione. Feliciter.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
