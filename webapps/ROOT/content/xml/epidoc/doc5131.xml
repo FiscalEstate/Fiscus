@@ -30,10 +30,10 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="#">-Breve/memoratorium</rs>
+                            <rs type="text_type" ref="#">--Convenientia</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Original</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -84,23 +84,50 @@
                 <div type="textpart">
                     <ab>(SN) In nomine domini Dei eterni. Die iovis qui est tercio nonas marcii,
                         presentia bonorum hominum quorum nomina subter leguntur. Per lignum quod in
-                        sua tenebat manu Albertus, filius quondam Rogerii vexilliferi, fecit finem
-                        et refutationem in manu domni Iohannis, monachi monasterii Sancti Benedicti,
-                        qui videtur morari apud heclesiam Sancti Viti de Medule, nominative de
-                        districto atque de fodro et de albergaria atque de manducalia que omnia ab
-                        hominibus vel possessionibus predicti monasterii habitantibus in loco Medule
-                        petebant vel aliquo modo petere vel exigere poterant. Ita ut omni tempore
-                        ipse et sui heredes adversus predictum monasterium vel homines eiusdem
-                        monasterii agere vel causare vel exigere non presumant, sed taciti et
-                        contenti et [ ... ] omni tempore permaneant. Quod si predictam convenientiam
-                        ipse vel sui heredes irrumpere tentaverint, viginti libras Mediolanensis
-                        monete nomine pene predicto domno Iohanni monacho vel suis successoribus se
-                        prestaturos promiserunt predicta convenientia firma durante. Actum est hoc
-                        in loco Medule, apud heclesiam Sancti Dalmasii. Anno ab incarnatione domini
-                        nostri Iesu Christi millesimo centesimo trigesimo primo, inditione nona. Ibi
-                        fuerunt: Albericus filius quondam Alberti canevarii et Ugo, Amulbertus et
-                        Girardus filius Dabiarde et Teuzo de Brixiano et Paganus de Perga testes.
-                        (SN) Ego Tedaldus rogatus scripsi. </ab>
+                        sua tenebat manu <persName
+                            key="#childOf #Districtio #Fodrum #Albergaria/gifori #Convenientia"
+                                ><name ref="Albertus">Albertus</name></persName>, <rs key="#childOf"
+                            >filius</rs> quondam <persName key="#parentOf"
+                            ><name>Rogerii</name></persName>
+                        <rs>vexilliferi</rs>, fecit finem et refutationem in manu domni <persName
+                            key="#Monks #Monasteries #Churches"><name ref="Iohannes"
+                            >Iohannis</name></persName>, <rs key="#Monks">monachi</rs>
+                        <rs key="#Monasteries">monasterii</rs>
+                        <orgName key="#Monasteries #Monks #Churches #Convenientia"
+                            ref="#juridical_persons/2001">Sancti Benedicti</orgName>, qui videtur
+                        morari apud <rs key="#Churches">heclesiam</rs>
+                        <orgName key="#Churches" ref="#juridical_persons/2066">Sancti Viti</orgName>
+                        de <placeName ref="#places/2475" key="#Churches">Medule</placeName>,
+                        nominative de <rs key="#Districtio">districto</rs> atque de <rs
+                            key="#Fodrum">fodro</rs> et de <rs key="#Albergaria/gifori"
+                            >albergaria</rs> atque de <rs>manducalia</rs> que omnia ab hominibus vel
+                        possessionibus predicti monasterii habitantibus in loco Medule petebant vel
+                        aliquo modo petere vel exigere poterant. Ita ut omni tempore ipse et sui
+                        heredes adversus predictum monasterium vel homines eiusdem monasterii agere
+                        vel causare vel exigere non presumant, sed taciti et contenti et [ ... ]
+                        omni tempore permaneant. Quod si predictam convenientiam ipse vel sui
+                        heredes irrumpere tentaverint, <rs key="#Penalty">viginti libras
+                            Mediolanensis monete</rs> nomine pene predicto domno Iohanni monacho vel
+                        suis successoribus se prestaturos promiserunt predicta <rs
+                            key="#Convenientia">convenientia</rs> firma durante. Actum est hoc in
+                        loco Medule, apud heclesiam <orgName key="#Churches"
+                            ref="#juridical_persons/2093">Sancti Dalmasii</orgName>. Anno ab
+                        incarnatione domini nostri Iesu Christi millesimo centesimo trigesimo primo,
+                        inditione nona. Ibi fuerunt: <persName key="#childOf #Witness #Convenientia"
+                                ><name>Albericus</name></persName> filius quondam <persName
+                            key="#parentOf #Estate_supervisors"><name ref="Albertus"
+                            >Alberti</name></persName>
+                        <rs key="#Estate_supervisors">canevarii</rs> et <persName key="#Witness"
+                                ><name ref="Hugo">Ugo</name></persName>, <persName
+                            key="#Witness #Convenientia"><name>Amulbertus</name></persName> et
+                            <persName key="#childOf #Witness #Convenientia"
+                            ><name>Girardus</name></persName> filius <persName key="#parentOf"
+                                ><name>Dabiarde</name></persName> et <persName
+                            key="#Witness #Convenientia"><name>Teuzo</name></persName> de Brixiano
+                        et <persName key="#Witness #Convenientia"><name>Paganus</name></persName> de
+                        Perga <rs key="#Witness #Convenientia">testes</rs>. (SN) Ego <persName
+                            key="#Writer #Convenientia"><name>Tedaldus</name></persName> rogatus <rs
+                            key="#Writer">scripsi</rs>. </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
