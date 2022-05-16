@@ -34,7 +34,7 @@
                             <rs type="text_type" ref="#">--Ordinatio</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Original</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -42,8 +42,8 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate when="1007-06">
-                                <note type="displayed_date">1007 Juny</note>
+                            <origDate notBefore="1007-06-01" notAfter="1007-06-30">
+                                <note type="displayed_date">1007 June</note>
                                 <note type="dating_elements"/>
                                 <note type="topical_date">Canossa (Reggio Emilia)</note>
                                 <note type="redaction_date"/>
@@ -138,13 +138,12 @@
                         integrum. Sunt finis de ipsa corte: da mane Bundegniolo, da meridie palude
                         de <placeName key="#Marshes/lagoons/tombolos">Salecito</placeName>, da sera
                         fluvio Padi, de subto Costello. Verum eciam et aliquantis rebus iuris mei
-                        quod sunt <rs key="#Mansi">mansos</rs> quattuor et <rs
-                            key="#Landed_possessions">runcarii</rs> quatuor et <rs key="#Mills"
-                            >mulinarii</rs> tres, qui sunt in loco ubi dicitur <placeName
-                            key="#Mansi #Landed_possessions #Mills" ref="#places/362"
-                            >Villole</placeName>; verum heciam et omnibus qui sunt infra iste fines
-                        quod hic legitur, quod est da mane <rs key="#Canals">fosa qui dicitur
-                            Finale</rs>, da meridie <placeName
+                        quod sunt <rs key="#Mansi">mansos</rs> quattuor et <rs key="#Land_clearing"
+                            >runcarii</rs> quatuor et <rs key="#Mills">mulinarii</rs> tres, qui sunt
+                        in loco ubi dicitur <placeName key="#Mansi #Mills #Land_clearing"
+                            ref="#places/362">Villole</placeName>; verum heciam et omnibus qui sunt
+                        infra iste fines quod hic legitur, quod est da mane <rs key="#Canals">fosa
+                            qui dicitur Finale</rs>, da meridie <placeName
                             key="#Marshes/lagoons/tombolos #Fisheries">palude de
                             Salecito</placeName>, da sera <rs key="#Canals">fosa que vocatur Perruta
                             et Elevata</rs>, de subto fluvio Padi; adque et medietatem de <rs
@@ -156,7 +155,9 @@
                         piscacionibus et omnibus rebus quicquit ad ipses paludes pertinent in
                         integrum. Adque tercia pars de <rs key="#Spices">piper</rs> quod exeunt de
                             <rs key="#Shores">ripa</rs>
-                        <placeName key="#Shores #Spices #Fiscal_property #Ports #Fluvial_transport #Tolls" ref="#places/2418"><geogName
+                        <placeName
+                            key="#Shores #Spices #Fiscal_property #Ports #Fluvial_transport #Tolls"
+                            ref="#places/2418"><geogName
                                 key="#Spices #Fiscal_property #Ports #Fluvial_transport #Tolls"
                                 ref="#estates/2067">Guvernolo</geogName></placeName> et tercia parte
                         de omnibus rebus quod exeunt de <rs key="#Ports #Fluvial_transport #Tolls"

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Lucca, Archivio di Stato, Diplomatico, Altopascio Dep. Orsetti Cittadella,
+                    1161 gennaio 7</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2022">2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DiSCi UniBo</publisher>
+                <idno type="filename">doc2490</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+                </availability>
+                <date when="2022"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Venditio</rs>
+                            <rs type="record_source" ref="#">Original document</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property">No</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="1161-01-07">
+                                <note type="displayed_date">1161 January 7</note>
+                                <note type="dating_elements">Stile dell'incarnazione</note>
+                                <note type="topical_date">Pozzeveri (Badia Pozzeveri, Altopascio,
+                                    Lucca)</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace></origPlace>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-05-12" who="agiacomelli">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>(S) In nomine Domini nostri Iehsu Christi Dei eterni, anno ab incarnatione
+                        eius millesimo centesimo sexagesimo primo, septimo idus ianuarii, indictione
+                        nona. Manifestus sum ego <persName><name ref="Paganus"
+                            >Paganellus</name></persName> filius quondam <persName><name
+                                ref="Rodelandus">Rolandi</name></persName> quia per hanc cartulam
+                        vendo et trado tibi <persName><name ref="Wido">Guido</name></persName>,
+                        divino nomine Dei gratia rectori <orgName key="#Hospitals"
+                            ref="#juridical_persons/3206"><rs key="#Hospitals">ospitalis</rs> Dei et
+                            Sancti Gilii et Sancti Iacobi</orgName> de <placeName key="#Hospitals"
+                            ref="#places/3207">Altepascio</placeName>, ad opus et utilitatem
+                        predicte ecclesie et ospitalis et pro anime mee remedio ac salute, tibi Deo
+                        et predicte et ecclesie et ospitali offero idest unam petiam de terra mea
+                        que est campus, in locis et finibus de <placeName ref="#places/3241"
+                            key="#Forests">Porcari</placeName> et ubi dicitur Bosco <persName><name
+                                ref="Martinus Corti">Martini Corti</name></persName>. Et tene uno
+                        capo in carraia et alio capo tene in terra et prato meo. Latus unum in terra
+                                <persName><name ref="Mancio">Mansi</name></persName> quondam *** et
+                        alio lato in terra que dicitur <rs key="#Forests">Bosco</rs> suprascripti
+                        Martini Corti. (…) <foreign>Dimensioni</foreign>: cultra una et sextariorum
+                        duo. <foreign>Prezzo</foreign>: sol. centum viginti bonorum denariorum.
+                            <foreign>Pena</foreign>: in duplum (…) et insuper penam argenti optimi
+                        libras decem. (…) Actum <placeName key="#Monasteries" ref="#places/3242"
+                            >Putheuli</placeName> prope <orgName key="#Monasteries"
+                            ref="#juridical_persons/3222"><rs key="#Monasteries">monasterio</rs>
+                            Sancti Petri</orgName>. (…) Signum manus <persName key="#Witness"><name
+                                ref="Errigettus">Errigeti</name></persName>
+                        <rs>castaldii</rs> quondam <persName><name ref="Arnulfus"
+                            >Arnolfi</name></persName> et <persName key="#Witness"><name
+                                ref="Septus">Septi</name></persName> quondam <persName><name
+                                ref="Roselmus">Rosselmi</name></persName> et <persName
+                            key="#Witness"><name ref="Ianni">Ianni</name></persName> (…)
+                                <persName><name ref="Rainuccius">Rainucini</name></persName>
+                        rogatorum <rs key="#Witness">testium</rs>. (S) <persName
+                            key="#Writer #Notary"><name ref="Gandulfus">Glandulfus</name></persName>
+                        <rs key="#Notary">notarius</rs> domni regis post traditam complevi et
+                        dedi.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p><ref>https://www.archiviodigitale.icar.beniculturali.it/it/185/ricerca/detail/537353</ref></p>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

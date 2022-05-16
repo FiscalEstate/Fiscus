@@ -35,7 +35,7 @@
                             <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Copy</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -83,34 +83,45 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>pippo[I]n nomine Domini Salvatoris nostri Iesu Christi Dei eterni. Landolfus
-                        et Atenolfus divina ordinante providentia Langobardorum gentis principes.
-                        Cum principali excellentia petitionibus dilectorum suorum omnibus iuste
+                    <ab>[I]n nomine Domini Salvatoris nostri Iesu Christi Dei eterni. <persName
+                            key="#Princeps" ref="#people/305">Landolfus</persName> et <persName
+                            key="#Princeps" ref="#people/154">Atenolfus</persName> divina ordinante
+                        providentia Langobardorum gentis <rs key="#Princeps">principes</rs>. Cum
+                        principali excellentia petitionibus dilectorum suorum omnibus iuste
                         petentibus clementer favet, noverit omnium fidelium nostrorum presentium ac
                         futurorum sagacitas quoniam divina inspiratione compulsi et pro mercede ac
                         redemptione anime nostre concessimus nos Atenolfus Domni gratia princeps in
-                        monasterio Sancte Sophie, ubi nunc Rodelgarda religiosa abbatissa regimen
-                        tenere videtur, que constructum est infra veterem Beneventanam civitatem non
-                        longe a sacro nostro palatio, videlicet omnes illas liberas feminas que
-                        servos ipsius monasterii sibi sociaverunt viros vel que in antea nostro
-                        tempore servos ipsius monasterii sibi viros sociaverint una cum ipsis servis
-                        et cum filiis filiabus illorum qualiter secundum legem ad nostrum sacrum
-                        devenerunt palatium, ut habeat predictas feminas et iam nominatos servos nec
-                        non et filios et filias qui ex eis genitus fuerit predictum monasterium et
-                        eius rectores sine ullius comitis, gastaldei seu iudicis nostri vel
-                        cuiuscumque persone contradictione, et ut nullus de predictis omnibus
-                        feminis aut de iam phatis servis seu de filiis filiabus eorum invasionis aut
-                        contrarietatis ingerere ullam violentiam presumant, sed perpetuis temporibus
-                        iam dictum monasterium eiusque rectores per hanc nostram principalem
-                        concessionem illos iam nominatos servos et uxores prephatas et filios
-                        filiabus eorum habeant et possideant, facientes exinde quod voluerint. Porro
-                        ut hoc quod iubemur ab omnibus immobiliter observetur manu propria
-                        scripsimus et anulo nostro iussimus sigillari. Signum domni Landolfi
-                        gloriosissimi principi. Vrsus clericus et scriba ex iussione supra dicte
-                        potestatis scripsi. Data quinto decimo kalendas iuliias in anno vicesimo
-                        tertio principatus domni nostri Landolfi gloriosissimi principis et tertio
-                        decimo anno principatus domni nostri Atenolfi eximii principis, indictione
-                        undecima. Actu Capue.</ab>
+                            <orgName ref="#juridical_persons/85" key="#Monasteries"><rs
+                                key="#Monasteries">monasterio</rs> Sancte Sophie</orgName>, ubi nunc
+                            <persName ref="#people/384 #people/3478" key="#Abbesses"
+                            >Rodelgarda</persName> religiosa <rs key="#Abbesses">abbatissa</rs>
+                        regimen tenere videtur, que constructum est infra veterem <placeName
+                            key="#Cities" ref="#places/110">Beneventanam</placeName>
+                        <rs key="#Cities">civitatem</rs> non longe a sacro nostro <rs
+                            key="#Palatium">palatio</rs>, videlicet omnes illas <rs
+                            key="#Fiscal_property #Object #Redistributive #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches #Freeborn"
+                            >liberas feminas</rs> que servos ipsius monasterii sibi sociaverunt
+                        viros vel que in antea nostro tempore servos ipsius monasterii sibi viros
+                        sociaverint una cum ipsis servis et cum filiis filiabus illorum qualiter <rs
+                            key="#Fiscal_property #Mention #Inflow #Confiscation">secundum legem ad
+                            nostrum sacrum devenerunt palatium</rs>, ut habeat predictas feminas et
+                        iam nominatos servos nec non et filios et filias qui ex eis genitus fuerit
+                        predictum monasterium et eius rectores sine ullius comitis, gastaldei seu
+                        iudicis nostri vel cuiuscumque persone contradictione, et ut nullus de
+                        predictis omnibus feminis aut de iam phatis servis seu de filiis filiabus
+                        eorum invasionis aut contrarietatis ingerere ullam violentiam presumant, sed
+                        perpetuis temporibus iam dictum monasterium eiusque rectores per hanc
+                        nostram principalem concessionem illos iam nominatos servos et uxores
+                        prephatas et filios filiabus eorum habeant et possideant, facientes exinde
+                        quod voluerint. Porro ut hoc <rs key="#Marquis’/ducal/princely_diploma">quod
+                            iubemur</rs> ab omnibus immobiliter observetur manu propria scripsimus
+                        et anulo nostro iussimus sigillari. Signum domni Landolfi gloriosissimi
+                        principi. Vrsus <rs key="#Other_clerics">clericus</rs> et <rs key="#Writer"
+                            >scriba</rs> ex iussione supra dicte potestatis scripsi. Data quinto
+                        decimo kalendas iuliias in anno vicesimo tertio principatus domni nostri
+                        Landolfi gloriosissimi principis et tertio decimo anno principatus domni
+                        nostri Atenolfi eximii principis, indictione undecima. Actu <placeName
+                            key="#Cities" ref="#places/173">Capue</placeName>.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">

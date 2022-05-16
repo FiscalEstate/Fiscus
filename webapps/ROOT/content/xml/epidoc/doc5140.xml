@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Milano, Archivio di Stato, D.D.S., Germania, cart. I, n. 9</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2022">2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DiSCi UniBo</publisher>
+                <idno type="filename">5140</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+                </availability>
+                <date when="2022"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property">Yes</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="1133-07-19">
+                                <note type="displayed_date">1133 July 19</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">'<foreign>in comitatu Parmensi iuxta
+                                        flumen qui Tharus dicitur</foreign>'</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace>Sanctus Benedictus in Pado Lironi; monasterium
+                                (Mantova)</origPlace>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-05-13" who="bferretti">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>(C.) *In nomine sancte et individuae trinitatis. <persName
+                            key="#Emperor/king" ref="#people/3578">Lotharius</persName> divina
+                        favente clementia tertius Romanorum <rs key="#Emperor/king">imperator</rs>
+                        augustus <persName key="#Abbots #Monasteries" ref="#people/3568"
+                            >Heinrico</persName> venerabili* <rs key="#Abbots">abbati</rs>
+                        <orgName
+                            key="#Monasteries #Abbots #Monks #Churches #Islands #Tolls #Ports #Curtes #Landed_possessions #Hospitals"
+                            ref="#juridical_persons/2001">sancti Benedicti iuxta Padum</orgName>
+                        suisque successoribus regulariter in perpetuum substituendis. Sane credimus
+                        nos in huius vitę cursu feliciter imperare, si studuerimus circa dei
+                        ecclesias opera pietatis exercere et ipsas earumque bona imperiali potentia
+                        a deo nobis concessa conservare. Quapropter omnibus Christi nostrisque
+                        fidelibus tam futuris quam presentibus notum fieri volumus, qualiter nos
+                        omnipotentis dei causa et ob regni nostri stabilitatem et animę nostrę
+                        nostrorumque parentum perpetuam salutem devota et exaudibili petitione
+                        fratrum sancti Benedicti, quorum fraternitatem diligimus et habemus, <rs
+                            key="#Monasteries">monasterium</rs> Sancti Benedicti situm inter Padum
+                        et Larionem, abbatem et <rs key="#Monks">monachos</rs> qui modo in eodem
+                        loco sunt vel post futuri per regularem conversationem, et omnia eius bona
+                        mobilia et immobilia, scilicet <placeName key="#Islands #Churches"
+                            ref="#places/2400"><rs key="#Islands">insulam</rs> sancti
+                            Benedicti</placeName> cum <rs key="#Churches">ecclesia</rs>
+                        <orgName key="#Churches" ref="#juridical_persons/2058">sancti
+                            Floriani</orgName> et omnibus ad eandem pertinentibus, <placeName
+                            key="#Islands #Churches" ref="#places/2402">insulam etiam quę vocatur
+                            Gurgo</placeName> cum <orgName key="#Churches"
+                            ref="#juridical_persons/2059">ecclesia eiusdem insulę</orgName> et cum
+                        omnibus pertinentiis suis. <placeName key="#Churches" ref="#places/2931"
+                            >Casale Barbatum</placeName> cum ecclesia <orgName key="#Churches"
+                            ref="#juridical_persons/2062">sanctę Marię</orgName> et <orgName
+                            key="#Churches" ref="#juridical_persons/2063">sancti Laurentii</orgName>
+                        earurnque pertinentiis. <placeName key="#Churches #Tolls #Ports"
+                            ref="#places/2476">Septingenti</placeName> cum ecclesia <orgName
+                            key="#Churches" ref="#juridical_persons/2064">sancti Michaelis</orgName>
+                        eiusque pertinentiis et cum <rs key="#Tolls">ripatico</rs> de <rs
+                            key="#Ports">transitu navium</rs>. Decimam partem <geogName
+                            key="#Curtes" ref="#estates/2050"><rs key="#Curtes">curtis</rs> que
+                            vocatur <placeName key="#Curtes #Churches" ref="#places/482"
+                                >Burbassium</placeName></geogName> cum ecclesia <orgName
+                            key="#Churches" ref="#juridical_persons/2003">sancti Iohannis</orgName>
+                        suisque pertinentiis, locum qui vocatur <placeName ref="#places/624"
+                            >Nucetula</placeName>. <orgName key="#Hospitals"
+                            ref="#juridical_persons/2077"><rs key="#Hospitals">Domum hospitalem</rs>
+                            apud <placeName key="#Hospitals" ref="#places/275"
+                            >Mantuam</placeName></orgName> cum pertinentiis suis. Aecclesiam
+                            <orgName key="#Churches" ref="#juridical_persons/2067">sancti
+                            Valentini</orgName> de <placeName key="#Churches #Landed_possessions"
+                            ref="#places/2932">Meringo</placeName> cum <rs key="#Landed_possessions"
+                            >terris</rs> ad eandem pertinentibus. Aecclesiam <orgName
+                            key="#Churches" ref="#juridical_persons/2066">sancti Viti</orgName> de
+                            <placeName key="#Churches #Landed_possessions" ref="#places/2475"
+                            >Medula</placeName> cum pertinentiis suis et terras quas predictum
+                        monasterium ibi possidet. Aecclesiam <orgName key="#Churches"
+                            ref="#juridical_persons/2074">sancti Michaelis</orgName> de <placeName
+                            key="#Churches" ref="#places/2936">Cottorlione</placeName> cum
+                        pertinentiis suis. Aecclesiam <orgName key="#Churches"
+                            ref="#juridical_persons/2068">sancti Benedicti</orgName> apud <placeName
+                            key="#Churches" ref="#places/77">Figariolum</placeName> et ecclesiam
+                            <orgName key="#Churches" ref="#juridical_persons/2098">sanctę
+                            Agathę</orgName> apud <placeName key="#Churches" ref="#places/80"
+                            >Ferrariam</placeName> cum ambarum pertinentiis. Monasterium <orgName
+                            key="#Monasteries" ref="#juridical_persons/2075">sancti
+                            Cypriani</orgName> apud <placeName key="#Monasteries" ref="#places/914"
+                            >Venetiam</placeName> cum pertinentiis suis. Aecclesiam <orgName
+                            key="#Churches" ref="#juridical_persons/2076">sanctę Helenę</orgName>
+                        apud <placeName key="#Churches" ref="#places/2938">Thassariam</placeName>
+                        cum pertinentiis suis. <placeName key="#Churches" ref="#places/2969"
+                            >Concham</placeName> cum ecclesia <orgName key="#Churches"
+                            ref="#juridical_persons/2099">sancti Leonardi</orgName> et omnibus
+                        appenditiis suis. Locum qui dicitur <placeName key="#Churches #Decima"
+                            ref="#places/2970">Foculare</placeName> cum ecclesia <orgName
+                            key="#Churches #Decima">sancti Marci</orgName> et omnibus decimis
+                        eiusdem loci. Aecclesiam <orgName key="#Churches"
+                            ref="#juridical_persons/2006">sancti Benedicti</orgName> et <orgName
+                            key="#Churches" ref="#juridical_persons/2080">sanctę Marię</orgName>
+                        apud <placeName key="#Churches #Decima" ref="#places/2414"
+                            >Gunzagam</placeName> cum omnibus decimis eiusdem loci ceterisque earum
+                        pertinentiis. <placeName ref="#places/2929">Caput vici</placeName>.
+                            <placeName key="#Churches #Decima" ref="#places/362"
+                            >Villulam</placeName> cum ecclesia <orgName key="#Churches #Decima"
+                            ref="#juridical_persons/2079">sanctę Marię</orgName> et omnibus decimis
+                        et pertinentiis suis. <placeName key="#Churches #Decima" ref="#places/2417"
+                            >Quistellum</placeName> cum ecclesia <orgName key="#Churches #Decima"
+                            ref="#juridical_persons/2054">sancti Bartholomei</orgName> et omnibus
+                        decimis eiusdem loci. <placeName key="#Churches #Decima" ref="#places/2930"
+                            >Gabiana</placeName> cum ecclesia <orgName key="#Churches #Decima"
+                            ref="#juridical_persons/2060">sancti Andreę</orgName> et omnibus decimis
+                        eiusdem loci. Aecclesiam <orgName key="#Churches"
+                            ref="#juridical_persons/2061">sancti Venerii</orgName> de <placeName
+                            key="#Churches #Castle" ref="#places/2900">Marceneta</placeName> cum
+                        medietate eiusdem castri et pertinentiis suis. Aecclesiam <orgName
+                            key="#Churches" ref="#juridical_persons/2073">sancti Michaelis</orgName>
+                        de <placeName key="#Churches" ref="#places/2935">Tellione</placeName> cum
+                        pertinentiis suis. Aecclesiam <orgName key="#Churches"
+                            ref="#juridical_persons/2090">sancti Bartholomei</orgName> de <placeName
+                            key="#Churches" ref="#places/4">Lucca</placeName> cum pertinentiis suis.
+                            <orgName ref="#juridical_persons/2087">Sanctum Martinum</orgName> in
+                            <placeName ref="#places/2940">Colle</placeName> cum pertinentiis suis.
+                        Aecclesiam <orgName key="#Churches" ref="#juridical_persons/2071">sancti
+                            Leonardi</orgName> apud <placeName
+                            key="#Dioecesis #Churches #Mother_churches #Comitatus" ref="#places/53"
+                            >Parmam</placeName> et omnia que predictum monasterium in eodem <rs
+                            key="#Dioecesis #Mother_churches">episcopatu</rs> detinet. Aecclesiam
+                            <orgName key="#Churches" ref="#juridical_persons/2081">sancti
+                            Sixti</orgName> de <placeName key="#Churches" ref="#places/361">Lecto
+                            Paludano</placeName>. Aecclesias <orgName key="#Churches"
+                            ref="#juridical_persons/2069">sanctę Marię</orgName> et <orgName
+                            key="#Churches" ref="#juridical_persons/2070">sancti Iohannis</orgName>
+                        in episcopatu <placeName key="#Dioecesis #Churches #Mother_churches"
+                            >Bononiensi</placeName> cum pertinentiis suis. Decimas de <placeName
+                            key="#Decima" ref="#places/2972">Runcis Gunthardi</placeName>.
+                        Monasterium <orgName key="#Monasteries" ref="#juridical_persons/2414">sanctę
+                            Marię</orgName> de <placeName key="#Monasteries" ref="#places/4105"
+                            >Pratalia</placeName> cum omnibus pertinentiis suis. Monasterium
+                            <orgName key="#Monasteries" ref="#juridical_persons/2420">sancte
+                            Crucis</orgName> de <placeName key="#Monasteries" ref="#places/4108"
+                            >Campo Syon</placeName> cum pertinentiis suis. Monasterium
+                            <orgName>sanctorum Firmi et Rustici</orgName> cumn omnibus pertinentiis
+                        suis. Accclesiam <orgName>sancte Christine</orgName> de <placeName
+                            key="#Churches" ref="#places/2942">Bardulino</placeName> cum
+                        pertinentiis suis. Terras etiam quas predictum monasterium detinet in
+                            <geogName key="#Iudiciaria #Landed_possessions" ref="#estates/2076"><rs
+                                key="#Iudiciaria">iudicaria</rs> Gardense</geogName> seu in toto
+                            <geogName key="#Comitatus #Landed_possessions" ref="#estates/124"><rs
+                                key="#Comitatus">comitatu</rs>
+                            <placeName key="#Comitatus #Landed_possessions" ref="#places/59"
+                                >Ueronensi</placeName></geogName> cęteraque omnia que prefatum
+                        monasterium nunc tenet vel in futuro adquisierit, per hanc <rs
+                            key="#Imperial/royal_diploma">mundiburdialem paginam</rs> in tutelam
+                        nostrę defensionis poninus, precipientes et presenti scripto confirmantes ut
+                        nulla clericalis vel laicalis persona aliquam dominationem aut ullum penitus
+                        prelationis ius in prefato sancti Benedicti monasterio preter Romanum
+                        pontificem et imperatorem in perpetuum requirat vel habeat. Preterea
+                        imperiali liberalitate concedimus eidem sepedicto monasterio omnia predia et
+                        omnes possessiones et homines quos per se vel per suas obedientias detinet
+                        vel detinebit, liberos et immunes esse ab omni albergaria et districtu seu
+                        arrimannia et ab omni imperiali seu cuiuscumque potestatis aut cuiuslibet
+                        personę exactione. Ad hec, ut idem monasterium hec omnia habeat et fruatur.
+                        Universa insuper que et a nobilis memorię <persName key="#Countess"
+                            ref="#people/125">Mathilde</persName>
+                        <rs key="#Countess">cometissa</rs> vel a <rs key="#Count">comite</rs>
+                        <persName key="#Count" ref="#people/3571">A[de]lberto</persName> seu ab
+                        aliis quibuscumque de prediis que fuerunt eiusdem cometissę predicto
+                        monasterio aut iam collata sunt aut in posterum deo largiente quoquo modo
+                        conferri acquirive contigerit, presenti privilegio vobis vestrisque
+                        successoribus concedimus et confirmamus. <rs key="#Immunity">Statuimus etiam
+                            ut nullius umquam persone ingenium vel privilegium contra prefati loci
+                            presentem auctoritatem et libertatem valeat, sed idem locus nunc et
+                            semper in perpetua libertate permaneat</rs>. Si quis igitur
+                        archiepiscopus episcopus dlux marchio comes vel alia quęlibet persona,
+                        cuiuscumque conditionis sit, huius nostrę paginam libertatis violare in
+                        aliquo presumpsetit, <rs key="#Penalty">centum libras auri boni</rs>
+                        compositurus <rs key="#Tuitio/bannum/mundeburdium">banno</rs> nostro
+                        subiacebit, dimidietatem <rs key="#Camera_regis">camerę nostrę</rs> et
+                        dimidietatem prefatę ecclesię. Ut autem hec carta ab omnibus firma et
+                        inviolabilis permaneat, nostri eam sigilli impressione iussimus insigniri,
+                        ita tamen nisi legali iudicio hec omnia superius pretaxata a nobis aliter
+                        diffiniantur. *Signum domni Lothatii dei gratia tertii Romanorum (M)
+                        imperatoris invictissimi semper augusti.* *Data per manum <persName
+                            key="#Archbishops #Archchancellor">Norberti</persName>
+                        <placeName key="#Archbishops #Archchancellor">Magedeburgensis</placeName>
+                        <rs key="#Archbishops">archiepiscopi</rs> et domni Lotharii serenissimi
+                        Romanorum imperatoris augusti <rs key="#Archchancellor"
+                            >archicancellarii</rs>.* (S) Actum in comitatu Parmensi iuxta <rs
+                            key="#Rivers">flumen</rs> qui <placeName key="#Rivers"
+                            >Tharus</placeName> dicitur. Anno incarnationis dominicę M.C.XXXIII. (h)
+                        XIIII kal. aug., indictione X. Anno autem regni domini Lotharii et
+                        ordinationis eius VIII. Imperii vero primo. Actum feliciter. Amen. Amen.
+                        Amen. </ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>CDP II n. 25, pp. 52-55.</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
