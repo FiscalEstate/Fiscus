@@ -35,7 +35,7 @@
                             <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Copy</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -84,24 +84,41 @@
             <div type="edition">
                 <div type="textpart">
                     <ab>In nomine Domini Dei Salvatoris nostri Iesu Christi. Concessemus nos domnus
-                        vir gloriosissimus Gisolfus summus dux genti Langobardorum vobis sanctissimo
-                        Zacharie patri nostro abbati omnem substantiam quodam Atroaldi qui fuit
-                        cortisianus noster, tam casas infra hanc Beneventanam civitatem nostram quam
-                        etiam et foras domui cultas, condomas, servos et ancellas, casales,
-                        vineas,.territurio, cultum et incultum, moviliam atque, simulque Musola cum
-                        filio suo Sabbatino et Franculo quos sine nostra iussione potestatis tibi
-                        ipsam substantiam post obitum Atroaldi concesseramus cortisianos de ipsos
-                        servos eius fecerunt, nunc denuo ipsa substantiam in integrum cum ipsoss
-                        servost reconcessimus ut a nullum quemquam hominem nunquam habeas aliquando
-                        aliqua questione aut reprehensione, sed perpetuis temporibus securiter et
-                        firmiter per hunc nostrum firmissimum preceptum sicuti Atriani fuit in
-                        integrum habere et possedere valeatis vel facere de eis quod volueritis, et
-                        si forsitan preceptum aut iudicatum sibi Sabbatino et Franculus vel quispiam
-                        ex eis fecit, inanis remaneat et vos sicut diximus predicta substantia
-                        fruere valeatis. Quod vero preceptum concessionis ex iussione nominate
-                        potestati dictavi ego Audefusus duddus et referendarius tibi Aldichis
-                        notario scribendum. Actum Benevento in palatio mense ianuario per indictione
-                        quarta. Feliciter.</ab>
+                            <rs key="#Vir_gloriosus/vir_sublimis">vir gloriosissimus</rs>
+                        <persName key="#Marquis/duke" ref="#people/158">Gisolfus</persName> summus
+                            <rs key="#Marquis/duke">dux</rs> genti Langobardorum vobis sanctissimo
+                            <persName ref="#people/3453" key="#Abbots">Zacharie</persName> patri
+                        nostro <rs key="#Abbots">abbati</rs> omnem substantiam quodam <name
+                            ref="Atroaldus">Atroaldi</name> qui fuit <rs key="#Other_minor_officer"
+                            >cortisianus</rs> noster, tam <rs key="#Fiscal_property"><rs
+                                key="#Houses">casas</rs> infra hanc <placeName
+                                key="#Cities #Fiscal_property" ref="#places/110"
+                                >Beneventanam</placeName>
+                            <rs key="#Cities">civitatem</rs> nostram quam etiam et foras <rs
+                                key="#Domuscultae">domui cultas</rs>, <rs key="#Condomae"
+                                >condomas</rs>, <rs key="#Slave">servos et ancellas</rs>, <rs
+                                key="#Casalia">casales</rs>, <rs key="#Wine">vineas</rs>, <rs
+                                key="#Landed_possessions">territurio</rs>, cultum et incultum,
+                            moviliam atque, simulque <name ref="Musula">Musola</name> cum filio suo
+                                <name ref="Sabatinus">Sabbatino</name> et <name ref="Franculus"
+                                >Franculo</name>
+                        </rs>quos sine nostra iussione potestatis tibi ipsam substantiam post obitum
+                        Atroaldi concesseramus cortisianos de ipsos servos eius fecerunt, nunc denuo
+                        ipsa substantiam in integrum cum ipsos servos reconcessimus ut a nullum
+                        quemquam hominem nunquam habeas aliquando aliqua questione aut
+                        reprehensione, sed perpetuis temporibus securiter et firmiter per hunc
+                        nostrum firmissimum preceptum sicuti Atriani fuit in integrum habere et
+                        possedere valeatis vel facere de eis quod volueritis, et si forsitan
+                        preceptum aut iudicatum sibi Sabbatino et Franculus vel quispiam ex eis
+                        fecit, inanis remaneat et vos sicut diximus predicta substantia fruere
+                        valeatis. Quod vero <rs key="#Marquis’/ducal/princely_diploma">preceptum
+                            concessionis</rs> ex iussione nominate potestati dictavi ego <persName
+                            key="#Other_palatine_officer" ref="#people/3486">Audefusus</persName>
+                        <rs key="#Other_palatine_officer">duddus et referendarius</rs> tibi
+                            <persName key="#Notary" ref="#people/3485">Aldichis</persName>
+                        <rs key="#Notary">notario</rs> scribendum. Actum <placeName key="#Cities"
+                            ref="#places/110">Benevento</placeName> in <rs key="#Palatium"
+                            >palatio</rs> mense ianuario per indictione quarta. Feliciter.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
