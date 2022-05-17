@@ -35,7 +35,7 @@
                             <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Copy</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -83,21 +83,35 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>[I]n nomine Domini Dei Salvatoris nostri Iesu Christi. Nos vir
-                        gloriosissimus Grimoald Dei previdentia Beneventane provincię princeps,
-                        motus omnipotentis Dei misericordia, et pro redemptione anime nostre,
-                        suggerente gloriose potestatis nostre Zero gastaldius fidelis noster,
-                        concedimus in Beatissimarum Sophie et Eufemie monasterie omnes servos
-                        ipsarum ecclesiarum qui liberas mulieres tulerunt vel tulerint cum ipsis
-                        suis uxoribus et cum filiis, filiabus suis, sicut ad sacrum nostrum palatium
-                        evenierunt vel evenerint, in eam videlicet ratione ut amodo et deinceps per
-                        hoc nostrum roboreum preceptum rector predictarum ecclesiarum prephata omnia
-                        familia ut superius legitur habere et possidere valeat, et a nullo ex
-                        nostris iudicibus, id est comitibus, gastaldiis, vel a quibuscumque
-                        agentibus habeat aliquam requisitionem, sed perpetuis temporibus quicquid
-                        superius concessimus possideat. Quod vero preceptum concessionis ex·iussus
-                        nominate potestatis scripsi ego Leo notarius. Actum Benevento in sacro
-                        palatio secundo anno, mense ianuario, prima indictione.</ab>
+                    <ab>[I]n nomine Domini Dei Salvatoris nostri Iesu Christi. Nos <rs
+                            key="#Vir_gloriosus/vir_sublimis">vir gloriosissimus</rs>
+                        <persName key="#Princeps" ref="#people/2000">Grimoald</persName> Dei
+                        previdentia Beneventane provincię <rs key="#Princeps">princeps</rs>, motus
+                        omnipotentis Dei misericordia, et pro redemptione anime nostre, suggerente
+                        gloriose potestatis nostre <persName
+                            key="#Gastaldus/vicegastaldus #fidelisOf" ref="#people/3483"
+                            >Zero</persName>
+                        <rs key="#Gastaldus/vicegastaldus">gastaldius</rs>
+                        <rs key="#fidelisOf">fidelis</rs> noster, concedimus in <orgName
+                            key="#Monasteries" ref="#juridical_persons/85">Beatissimarum
+                            Sophie</orgName> et <orgName key="#Monasteries"
+                            ref="#juridical_persons/3441">Eufemie</orgName>
+                        <rs key="#Monasteries">monasteri</rs> omnes <rs key="#Slave">servos</rs>
+                        ipsarum ecclesiarum qui<rs key="#Freeborn"> liberas mulieres</rs> tulerunt
+                        vel tulerint cum ipsis suis uxoribus et cum filiis, filiabus suis, sicut <rs
+                            key="#Fiscal_property #Mention #Inflow">ad sacrum nostrum palatium
+                            evenierunt vel evenerint</rs>, in eam videlicet ratione ut amodo et
+                        deinceps per hoc nostrum roboreum preceptum <rs key="#Abbots">rector</rs>
+                        predictarum ecclesiarum prephata omnia <rs key="#Condomae">familia</rs> ut
+                        superius legitur habere et possidere valeat, et a nullo ex nostris
+                        iudicibus, id est comitibus, gastaldiis, vel a quibuscumque agentibus habeat
+                        aliquam requisitionem, sed perpetuis temporibus quicquid superius
+                        concessimus possideat. Quod vero <rs key="#Marquis’/ducal/princely_diploma"
+                            >preceptum concessionis</rs> ex·iussus nominate potestatis scripsi ego
+                            <persName key="#Notary" ref="#people/3484">Leo</persName>
+                        <rs key="#Notary">notarius</rs>. Actum <placeName key="#Cities"
+                            ref="#places/110">Benevento</placeName> in sacro <rs key="#Palatium"
+                            >palatio</rs> secundo anno, mense ianuario, prima indictione.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
@@ -117,7 +131,13 @@
                         S. Sophiae</title> o, più comunemente, come <title>Chronicon S.
                         Sophiae</title>, fu redatto nello <foreign>scriptorium</foreign> del
                     monastero di S. Sofia di Benevento e terminato nell'anno 1119. Il documento è
-                    emesso dal principe Grimoaldo IV.</p>
+                    emesso dal principe Grimoaldo IV. Pur con cautela, si opta per l'identificazione
+                    del monastero citato nel documento con la fondazione arechiana di S. Sofia,  in
+                    quanto, probabilmente, la chiesa /monastero di S. Sofia <foreign>ad
+                        Ponticellum</foreign> aveva 'cessato le sue funzioni di luogo di culto e di
+                    devozione' dopo la morte del suo fondatore, l'abate <foreign>Zacharia</foreign>,
+                    e i suoi beni erano 'passati al <foreign>palatium</foreign>' (cfr. Cuozzo,
+                    Esposito 2018, p. 49).</p>
             </div>
         </body>
     </text>

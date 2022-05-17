@@ -35,7 +35,7 @@
                             <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Copy</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -84,49 +84,90 @@
             <div type="edition">
                 <div type="textpart">
                     <ab>In nomine Domini Dei Salvatoris nostri Iesu Christi. Firmamus atque
-                        concessemus nos domnus vir gloriosissimus Gisulfus summus dux gentis
-                        Langobardorum in ecclesia Beate Sophie quam Zacharias venerabilis abbas
-                        pater noster a fundamentis edificare visus est in locum qui nominatur ad
-                        Pontecellum, quod fuit de quodam Vvadulfi, omnia et in omnibus de quo domnus
-                        bone memorie Romovald genitor noster predicti Zacharie abbati concesset,
-                        unde et precepta potestatis eius firmata habere videtur, id est in primis
-                        casas cum curtes vel hortas, molino et valneum, clausurias ubi ipsa ecclesia
-                        edificata est, et terra vacua qui est trans rivum, et alium hortum qui esse
-                        videtur iuxta fiuvio Sabbato, qui fuit de quodam Trasoaldi, simul et casa in
-                        Quintodecimo qui fuit de quodam Pergoaldi, simul cum terras, vineas, pratis
-                        seu clausurias, cultum et incultum, omnia et in omnibus de quantum in eodem
-                        locis habere visus fuit, simul et omnem substantiam quod Totuni Transpadano
-                        , casas, terras, vineas, cultum et incultum, movilia adque inmovilia , qui
-                        habitare visus fuit erga Sancto Valentino, simul etiam et omnem substantiam
-                        qui fuit quodam Aloaldi filio quod Siduli; tam casas infra hanc Beneventanam
-                        civitatem quam et casalis et domucultas, vineas, territurio, cultum et
-                        incultum, movilia atque inmovilia, et omnem substantiam quondam Fusculi
-                        casario, casas, vineas, territurio, cultum et incultum, movilia atque
-                        inmovilia, servos et ancillas, omnia et in omnibus de quantum nominati
-                        Fusculi pertinuit substantia, simul etiam et terra in locis qui nominatur
-                        Fluvio Lauro , quas cum Paulo et Deus dede venerabili abbate habere visus
-                        fuit per domnus Zacharias, seu et substantia qui fuet quoddam Iuliani; omnia
-                        et in omnibus quantum eius portio fuit , quasm cum Deus dedi abbate habere
-                        visus est, simul grege de pecora cum mandras et pascua seu pastores suos qui
-                        fuerunt de Corbuli, ammessarios tres cum iumenta suas, caballos domitos
-                        capita quindecim, armentos de baccas et boves domitos, carra ferrata [****],
-                        argentum et aeramentum vel omnia de quicquid ipse abbas Zacharias sua
-                        spontanea voluntate in ipsum veneravilem locus Beate Sophie offerri
-                        previderit, in ea vero ratione ut de hęc 0mnia in ęcclesia Beate Sophie
-                        nostrum preceptum firmavimus eo quod ab omni subiugatione hominibus ea
-                        absolvimus ut nęque ab episcopos dominetur nęque a sinodochio defendatur,
-                        nęque a nullum monasterium aut a qualibet ęcclesiastico ordine subiugetur,
-                        sed sacerdos qui in eodem monasterio deservierit, absoluta securitas ei
-                        permaneat, exceptum ad nostrum sacrum palatium obedientiam habeant; et qui
-                        contra hunc preceptum firmationis atque offertionis ire temptaverit, sicut
-                        sacrilegus ab altario repellatur et a trecentorum decem et octo patrum
-                        maneat anathemate et cum Iuda traditorem eternum mereat mancipari supplicio,
-                        et sic nostra presens definitio atque roburationis preceptum secundum
-                        preceptum genituri nostro ex hoc et in perpetuis temporibus maneat
-                        roboratus. Quod vero preceptum offertionis seu firmationis ex iussu nominate
-                        potestati dictavi ego Audefusus duddus et referendarius tibi Aldichis.
-                        notario scribendum. Actum Benevento in palatio mense iulio per indictione
-                        tertia decima. Feliciter.</ab>
+                        concessemus nos domnus <rs key="#Vir_gloriosus/vir_sublimis">vir
+                            gloriosissimus</rs>
+                        <persName key="#Marquis/duke" ref="#people/158">Gisulfus</persName> summus
+                            <rs key="#Marquis/duke">dux</rs> genti Langobardorum in <orgName
+                            key="#Churches" ref="#juridical_persons/3401"><rs key="#Churches"
+                                >ęcclesia</rs> Beate Sophie</orgName> quam <persName
+                            ref="#people/3453" key="#Abbots">Zacharia</persName>
+                        <rs key="#Personal_rank">venerabilis</rs>
+                        <rs key="#Abbots">abbas</rs> pater noster a fundamentis edificare visus est
+                        in locum qui nominatur <placeName ref="#places/3426"
+                            key="#Villages/settlements #Fiscal_property">ad Pontecellum</placeName>,
+                        quod fuit de quodam <name ref="Wadulfus">Vvadulfi</name>, omnia et in
+                        omnibus de quo domnus bone memorie <persName key="#Marquis/duke"
+                            ref="#people/2004">Romovald</persName> genitor noster predicti Zacharie
+                        abbati concesset, unde et <rs key="#Marquis’/ducal/princely_diploma"
+                            >precepta potestatis</rs> eius firmata habere videtur, id est in primis
+                            <rs
+                            key="#Fiscal_property #Object #Redistributive #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
+                                ><rs key="#Houses">casas</rs> cum <rs key="#Curtes">curtes</rs> vel
+                                <rs key="#Fruits/vegetables #Agricultural_workers">hortas</rs>, <rs
+                                key="#Mills">molino</rs> et valneum, <rs>clausurias</rs></rs> ubi
+                        ipsa ecclesia edificata est, et <rs
+                            key="#Landed_possessions #Fiscal_property #Object #Redistributive #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
+                            >terra</rs> vacua qui est trans rivum, et alium <rs
+                            key="#Fruits/vegetables">hortum</rs> qui esse videtur iuxta fluvio
+                            <placeName key="#Rivers #Fiscal_property" ref="#places/2348"
+                            >Sabbato</placeName>, qui fuit de quodam <name ref="Trasualdus"
+                            >Trasoaldi</name>, simul et <rs key="#Casalia">casa</rs> in <placeName
+                            ref="#places/2304" key="#Villages/settlements #Fiscal_property"
+                            >Quintodecimo</placeName> qui fuit de quodam <name ref="Pergoaldus"
+                            >Pergoaldi</name>, simul cum <rs key="#Fiscal_property"><rs
+                                key="#Landed_possessions">terras</rs>, <rs key="#Wine">vineas</rs>,
+                            pratis seu <rs>clausurias</rs>, cultum et incultum, omnia et in omnibus
+                            de quantum in eodem locis habere visus fuit</rs>, simul et omnem
+                        substantiam quod <name ref="Toto Transpadanus">Totuni Transpadano</name>,
+                            <rs key="#Fiscal_property"><rs key="#Houses">casas</rs>, <rs
+                                key="#Landed_possessions">terras</rs>, <rs key="#Wine">vineas</rs>,
+                            cultum et incultum, movilia atque inmovilia</rs>, qui habitare visus
+                        fuit erga <placeName ref="#places/3420"
+                            key="#Villages/settlements #Fiscal_property">Sancto
+                            Valentino</placeName>, simul etiam et omnem substantiam qui fuit quodam
+                            <name ref="Aloaldus"/>Aloaldi filio quod <name ref="Sidulus"
+                            >Siduli</name>, <rs
+                            key="#Fiscal_property #Object #Redistributive #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
+                            >tam <rs key="#Houses">casas</rs> infra hanc <rs
+                                key="#Cities #Fiscal_property">Beneventanam</rs> civitatem quam et
+                                <rs key="#Casalia">casalis</rs> et <rs key="#Domuscultae">domu
+                                cultas</rs>, <rs key="#Wine">vineas</rs>, <rs
+                                key="#Landed_possessions">territurio</rs>, cultum et incultum,
+                            movilia atque inmovilia</rs>,  et omnem substantiam quondam <name
+                            ref="Fusculus">Fusculi</name>
+                        <rs
+                            key="#Fiscal_property #Object #Redistributive #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
+                                ><rs key="#Cheese #Specialized_workers">casario</rs>, <rs
+                                key="#Houses">casas</rs>, <rs key="#Wine">vineas</rs>, <rs
+                                key="#Landed_possessions">territurio</rs>, cultum et incultum,
+                            movilia atque inmovilia, <rs key="#Slave">servos et ancillas</rs></rs>,
+                        omnia et in omnibus de quantum nominati Fusculi pertinuit substantia, simul
+                        etiam et terra in locis qui nominatur **** <placeName ref="#places/2844"
+                            key="#Rivers #Fiscal_property">Fluvio Lauro</placeName>, quas cum <name
+                            ref="Paulus abbas">Paulo</name> et <name ref="Deusdedit abbas"
+                            >Deusdede</name> venerabili <rs key="#Abbots">abbate</rs> habere visus
+                        fuit per domnus Zacharias, seu et substantia qui fuet quoddam <name
+                            ref="Iulianus">Iuliani</name>; omnia et in omnibus quantum eius portio
+                        fuit , quasm cum Deus dedi abbate habere visus est, simul grege de pecora
+                        cum mandras et pascua seu pastores suos qui fuerunt de Corbuli, ammessarios
+                        tres cum iumenta suas, caballos domitos capita quindecim, armentos de baccas
+                        et boves domitos, carra ferrata [****], argentum et aeramentum vel omnia de
+                        quicquid ipse abbas Zacharias sua spontanea voluntate in ipsum veneravilem
+                        locus Beate Sophie offerri previderit, in ea vero ratione ut de hęc 0mnia in
+                        ęcclesia Beate Sophie nostrum preceptum firmavimus eo quod ab omni
+                        subiugatione hominibus ea absolvimus ut nęque ab episcopos dominetur nęque a
+                        sinodochio defendatur, nęque a nullum monasterium aut a qualibet
+                        ęcclesiastico ordine subiugetur, sed sacerdos qui in eodem monasterio
+                        deservierit, absoluta securitas ei permaneat, exceptum ad nostrum sacrum
+                        palatium obedientiam habeant; et qui contra hunc preceptum firmationis atque
+                        offertionis ire temptaverit, sicut sacrilegus ab altario repellatur et a
+                        trecentorum decem et octo patrum maneat anathemate et cum Iuda traditorem
+                        eternum mereat mancipari supplicio, et sic nostra presens definitio atque
+                        roburationis preceptum secundum preceptum genituri nostro ex hoc et in
+                        perpetuis temporibus maneat roboratus. Quod vero preceptum offertionis seu
+                        firmationis ex iussu nominate potestati dictavi ego Audefusus duddus et
+                        referendarius tibi Aldichis. notario scribendum. Actum Benevento in palatio
+                        mense iulio per indictione tertia decima. Feliciter.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
