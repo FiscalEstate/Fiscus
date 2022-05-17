@@ -35,7 +35,7 @@
                             <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Copy</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">No</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -44,7 +44,7 @@
                     <history>
                         <origin>
                             <origDate when="0745-09">
-                                <note type="displayed_date">745September</note>
+                                <note type="displayed_date">745 September</note>
                                 <note type="dating_elements">Indizione bizantina.</note>
                                 <note type="topical_date">Benevento</note>
                                 <note type="redaction_date">XII pm</note>
@@ -83,38 +83,51 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>In nomine Domini Dei Salvatoris nostri Iesu Christi. Firmamus nos domnus vir
-                        gloriosissimus Gisolfus summus dux genti Langobardorum vobis Zacharie
-                        sanctissimo patri nostro abbati iudicium seu iudicatum domno genitori nostro
-                        bone memorie; Romovald de intentionem quam tecum habuet uxor quoddam
-                        Fridichis cellarario de quoddam Wadulfi una cum filiastro suo qui genituri
-                        nostro falsum preceptum ostenderunt quasi ut eius potestas concessisset eis
-                        casa ad Ponticellum quis posita est secus via ubi prius ipse habuet
+                    <ab>In nomine Domini Dei Salvatoris nostri Iesu Christi. Firmamus nos domnus <rs
+                            key="#Vir_gloriosus/vir_sublimis">vir gloriosissimus</rs>
+                        <persName key="#Marquis/duke" ref="#people/158">Gisulfus</persName> summus
+                            <rs key="#Marquis/duke">dux</rs> genti Langobardorum vobis <persName
+                            ref="#people/3453" key="#Abbots">Zacharie</persName> sanctissimo patri
+                        nostro <rs key="#Abbots">abbati</rs> iudicium seu iudicatum domno genitori
+                        nostro bone memorię <persName key="#Marquis/duke" ref="#people/2004"
+                            >Romovald</persName> de intentionem quam tecum habuet uxor quoddam <name
+                            ref="Fridigis cellararius">Fridichis</name>
+                        <rs>cellarario</rs> de quoddam <name ref="Wadulfus">Wadulfi</name> una cum
+                        filiastro suo qui genituri nostro falsum preceptum ostenderunt quasi ut eius
+                        potestas concessisset eis <rs key="#Houses">casa</rs>
+                        <placeName ref="#places/3426" key="#Villages/settlements">ad
+                            Ponticellum</placeName> quis posita est secus via ubi prius ipse habuet
                         stationem, et dum vos qui supra Zacharias presentia genitori nostro
-                        preceptum eius ostendisti qui contenebatur 2 concessione de renominati
-                        Wadulfi in integrum pertinentem in ipsum locum, continuo memoratus est
-                        domnus genitor noster quod vobis Zacharię; abbati omnia et in omnibus in
-                        eodem pertinentem loci ad Ponticellum antea concesserat et per suum
-                        preceptum firmaverat et nulli alii cuiquam hominis exinde aliquod aliquando
-                        donaverat nęque per eius iussione eis preceptum firmatum est sed solummodo
-                        vobis qui supra Zachari abbati, continuo vobis suum firmissimum iudicatum
-                        fieri precepit, ut nullo quoquo tempere adveniente nunquam habeat vigorem
-                        uxor aut filii quoddam Fridichis aut qualibet alia persona nque per
-                        potestati preceptum, nęue per alio quolibet ingenio aut cartula de ipsum
-                        locum, casa aut terra de quoddam Wadulfi requirendum, sed perpetuis
-                        temporibus sicuti per eius potestatis preceptum sepe phati Zacharię
-                        concessum est, in eius ęcclesia quam ipse ędificavit possedendum permaneret;
-                        proterea nostra qui supra gloriosa potestas dum domno genitori nostro legere
-                        fecissemus iudicatum, statim placuet nobis iuxta eius timorem per hunc
-                        nostrum firmitatis preceptum eius iudicium et iudicatum renovare atque
-                        firmare, ut nullus aliquando habeat vigorem causa stare, querere aut
-                        predictum abbatem vel posteris eius quoquo modo inquietari nque per
-                        cartulam, nęue per preceptum, sed ex hoc et in perpetuo securiter et
-                        firmiter omnia et in omnibus de quantum de Wadulfi fuet ad Pontecellum
-                        integriter valeant possedere. Quod vero preceptum firmitatis iudicati ex
-                        iussione nominate potestatis dictavi ego Audefusus duddus et referendarius
-                        tibi Aldichis notario scribendum. Actum Benevento in palatio mensi
-                        septembrio per indictione quarta decima. Feliciter.</ab>
+                        preceptum eius ostendisti qui contenebatur concessione de renominati Wadulfi
+                        in integrum pertinentem in ipsum locum, continuo memoratus est domnus
+                        genitor noster quod vobis Zacharię; abbati omnia et in omnibus in eodem
+                        pertinentem loci ad Ponticellum antea concesserat et per suum preceptum
+                        firmaverat et nulli alii cuiquam hominis exinde aliquod aliquando donaverat
+                        nęque per eius iussione eis preceptum firmatum est sed solummodo vobis qui
+                        supra Zachari abbati, continuo vobis suum firmissimum iudicatum fieri
+                        precepit, ut nullo quoquo tempere adveniente nunquam habeat vigorem uxor aut
+                        filii quoddam Fridichis aut qualibet alia persona neque per potestati
+                        preceptum, nęque per alio quolibet ingenio aut cartula de ipsum locum, casa
+                        aut terra de quoddam Wadulfi requirendum, sed perpetuis temporibus sicuti
+                        per eius potestatis preceptum sepe phati Zacharię concessum est, in eius
+                        ęcclesia quam ipse ędificavit possedendum permaneret; proterea nostra qui
+                        supra gloriosa potestas dum domno genitori nostro legere fecissemus
+                        iudicatum, statim placuet nobis iuxta eius timorem per hunc nostrum
+                        firmitatis preceptum eius iudicium et iudicatum renovare atque firmare, ut
+                        nullus aliquando habeat vigorem causa stare, querere aut predictum abbatem
+                        vel posteris eius quoquo modo inquietari neque per cartulam, nęue per
+                        preceptum, sed ex hoc et in perpetuo securiter et firmiter omnia et in
+                        omnibus de quantum de Wadulfi fuet ad Pontecellum integriter valeant
+                        possedere. Quod vero <rs key="#Marquis’/ducal/princely_diploma">preceptum
+                            firmitatis iudicati</rs> ex iussione nominate potestatis dictavi ego
+                            <persName key="#Other_palatine_officer" ref="#people/3486"
+                            >Audefusus</persName>
+                        <rs key="#Other_palatine_officer">duddus et referendarius</rs> tibi
+                            <persName key="#Notary" ref="#people/3485">Aldichis</persName>
+                        <rs key="#Notary">notario</rs> scribendum. <placeName key="#Cities"
+                            ref="#places/110">Benevento</placeName> in <rs key="#Palatium"
+                            >palatio</rs> mensi septembrio per indictione quarta decima.
+                        Feliciter.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
