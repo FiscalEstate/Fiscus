@@ -35,7 +35,7 @@
                             <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Copy</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -84,21 +84,41 @@
             <div type="edition">
                 <div type="textpart">
                     <ab>In nomine Domini Dei Salvatoris nostri Iesu Christi. Concessimus nos domnus
-                        vir gloriosissimus Gisolfus summus dux gentis Langobardorum vobis Zacharię
-                        sanctissimo abbati patri nostro condoma nomine Palumbo pesccatore cum
-                        uxorem, filios et filias et cum omnia eorum pertinentia, cum casa, vineas,
-                        terras cultas et incultas, movilia, peculia, cum quantum usque modo ad manum
-                        nostram deservire visus fuit in integrum, qui habitare videtur ad Ponte
-                        Lapedeo et fuit de subactione Secundi gastaldus et vestarario nostro,
-                        quatenus ab hanc presenti die et in perpetuisque temporibus vos qui supra
-                        Zacharia quam etiam et quod exinde facere volueris in tua sit potestatem et
-                        a nullum quempiam gastaldium vel actorem nunquam vos in aliquo molestare
-                        presumat de ea que nostra gloriosa concesset potestas, sed securiter et
-                        firmiter per hunc nostrum preceptum nominate condoma cum omnibus rebus suis
-                        haberet et possedere valeatis. Quod vero preceptum concessionem ex iussione
-                        et dictaton nominati gloriosissimus domni nostri Gisolfi scripsi ego
-                        Gratiano notarius [********] de iussione in hunc nostrum sacratissimo
-                        Beneventano palatio mensi Iunio per indictione duodecima. Feliciter.</ab>
+                            <rs key="#Vir_gloriosus/vir_sublimis">vir gloriosissimus</rs>
+                        <persName key="#Marquis/duke" ref="#people/158">Gisolfus</persName> summus
+                            <rs key="#Marquis/duke">dux</rs> gentis Langobardorum vobis <persName
+                            ref="#people/3453" key="#Abbots">Zacharię</persName> sanctissimo <rs
+                            key="#Abbots">abbati</rs> patri nostro <rs
+                            key="#Fiscal_property #Object #Redistributive #Outflow #Allocation_to_churches"
+                                ><rs key="#Condomae">condoma</rs> nomine <name ref="Palumbus"
+                                >Palumbo</name>
+                            <rs key="#Fish #Fiscal_property #Specialized_workers"
+                            >pesccatore</rs>&lt;sic> cum uxorem, filios et filias et cum omnia eorum
+                            pertinentia, cum <rs key="#Houses">casa</rs>, <rs key="#Wine"
+                                >vineas</rs>, <rs key="#Landed_possessions">terras</rs> cultas et
+                            incultas, movilia, peculia, cum quantum usque modo ad manum nostram
+                            deservire visus fuit in integrum</rs>, qui habitare videtur ad
+                            <placeName ref="#places/2314" key="#Fiscal_property #Bridges/pontoons"
+                            >Ponte Lapedeo</placeName> et fuit de <rs key="#Subactio"
+                            >subactione</rs>
+                        <persName ref="#people/3487"
+                            key="#Gastaldus/vicegastaldus #Other_palatine_officer"
+                            >Secundi</persName>
+                        <rs key="#Gastaldus/vicegastaldus">gastaldus</rs> et <rs
+                            key="#Other_palatine_officer">vestarario</rs> nostro, quatenus ab hanc
+                        presenti die et in perpetuisque temporibus vos qui supra Zacharia quam etiam
+                        et quod exinde facere volueris in tua sit potestatem et a nullum quempiam
+                        gastaldium vel actorem nunquam vos in aliquo molestare presumat de ea que
+                        nostra gloriosa concesset potestas, sed securiter et firmiter per hunc
+                        nostrum preceptum nominate condoma cum omnibus rebus suis haberet et
+                        possedere valeatis. Quod vero <rs key="#Marquis’/ducal/princely_diploma"
+                            >preceptum concessionis</rs> ex iussione et dictaton nominati
+                        gloriosissimus domni nostri Gisolfi scripsi ego <persName ref="#people/3457"
+                            key="#Notary">Gratiano</persName> notarius [********] de iussione in
+                        hunc nostrum sacratissimo <placeName key="#Cities" ref="#places/110"
+                            >Beneventano</placeName>
+                        <rs key="#Palatium">palatio</rs> mensi iunio per indictione duodecima.
+                        Feliciter.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
