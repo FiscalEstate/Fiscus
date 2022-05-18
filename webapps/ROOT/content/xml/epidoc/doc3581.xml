@@ -35,7 +35,7 @@
                             <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Uncertain tradition</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Uncertain</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -83,10 +83,22 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab><note>Il principe Arechi II offre al monastero di S. Sofia di Benevento (prosegue
-                        l'elenco iniziato con il doc. 3535):</note></ab> <ab>(…) [66] Seu et ipsa curte nostra in Prata, in loco ubi Pazzano dicitur, cum
-                        ipsa ecclesia Sancti Petri et ipso monte cum ipso plano et ipsa ferrara, hęc
-                        omnia Sancte Sophie concessimus possidendum. (…)</ab>
+                    <ab><note><note>Il <rs key="#Princeps">principe</rs>
+                                <persName key="#Princeps" ref="#people/303">Arechi II</persName>
+                                offre al monastero di S. Sofia di <placeName key="#Cities"
+                                    ref="#places/110">Benevento</placeName>
+                            </note>(prosegue l'elenco iniziato con il doc. 3535):</note></ab> <ab>(…) [66] Seu et ipsa <rs
+                            key="#Curtes #Fiscal_property #Object #Redistributive #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
+                            >curte nostra</rs> in <placeName ref="#places/2377"
+                            key="#Uncertain_tradition #Villages/settlements #Fiscal_property"
+                            >Prata</placeName>, in loco ubi Pazzano dicitur, cum ipsa <orgName
+                            key="#Mountains #Landed_possessions #Quarries #Churches"
+                            ref="#juridical_persons/3434"><rs key="#Churches">ecclesia</rs> Sancti
+                            Petri</orgName> et ipso <rs key="#Mountains">monte</rs> cum ipso <rs
+                            key="#Landed_possessions">plano</rs> et ipsa <rs key="#Quarries"
+                            >ferrara</rs>, hęc omnia <orgName key="#Monasteries"
+                            ref="#juridical_persons/85">Sancte Sophie</orgName> concessimus
+                        possidendum. (…)</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">

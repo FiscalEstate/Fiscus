@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Milano, Archivio di Stato, Diplomatico, Pergamene per fondi, Mantova, San
+                    Benedetto di Polirone, cart. 205, n. 34</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2022">2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DiSCi UniBo</publisher>
+                <idno type="filename">5121</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+                </availability>
+                <date when="2022"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Offersio/donatio</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property"/>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate notBefore="1128-01-01" notAfter="1128-12-31">
+                                <note type="displayed_date">1128</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Campese (Bassano del Grappa;
+                                    Vicenza)</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace>Sanctus Benedictus in Pado Lironi; monasterium
+                                (Mantova)</origPlace>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-05-04" who="bferretti">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>(M) In nom[ine] [Dei eterni]. [An]no eius incamationis millesimo centesi[mo
+                        vigesimo] octavo, quarto nonas […] ii, indictione sexta. <rs
+                            key="#Monasteries">Monasterio</rs> ordinando <orgName
+                            key="#Monasteries #Offersio/donatio" ref="#juridical_persons/2420">in
+                            honorem [Dei, crucis] Christi et eius piissime genitris</orgName>. [...]
+                        vobis domno <persName key="#Abbots #Monasteries" ref="#people/3568"
+                            >Henrico</persName> Dei gratia monasterio <orgName
+                            key="#Monasteries #Churches #Abbots" ref="#juridical_persons/2001"
+                            >Sancti Benedicti</orgName>
+                        <rs key="#Abbots">abbati</rs> et vestre <rs key="#Churches">ecclesie</rs>.
+                        Nos <persName key="#kinOf #Offersio/donatio #Iure_proprietatis/pleno_iure"
+                                ><name ref="Penzo">Penço</name></persName>, <persName
+                            key="#kinOf #Offersio/donatio #Iure_proprietatis/pleno_iure"><name
+                                ref="Warimbertus">Warimbertus</name></persName> et <persName
+                            key="#kinOf #Offersio/donatio #Iure_proprietatis/pleno_iure"><name
+                                ref="Wilielmus">Wilielmus</name></persName> propinqui et <rs
+                            key="#kinOf">parentes</rs> de [lo]co <placeName>Caldinazo</placeName>,
+                        consentientibus et laudantibus amicis et propinquis et familiis nostris,
+                        donatores prefati monasterii, presentes presentibus diximus: quisquis in
+                        sanctis ac venerabilibus locis aliquid ex suis contulerit rebus in hoc
+                        seculo centuplum accipiet, ac insuper vitam possidebit ęternam. Ideoque nos
+                        qui supra Penço, Warimbertus et Wilielmus de predicto loco, a presenti die
+                        in antea videlicet in perpetuum, pro remedio anime nostrumque parentum et
+                        nostrę, damus, donamus, offerimus inrevocabiliter [inter vivos] et
+                        [cor]poralem traditionem facimus prefato monasterio et ecclesię Sancti
+                        Benedicti in Larone [per vos do]mnum Henricum monasterii Sancti Benedicti
+                        abbatem et per vestros successores proprietario nomine in perpe[tuum],
+                        videlicet quicquid habemus et tenemus in loco qui dicitur
+                            <placeName>Pravitale</placeName>
+                        <rs key="#Iure_proprietatis/pleno_iure">iuris et proprietatis [nostre]</rs>,
+                        cum omnibus pertinentiis et confinibus suis in integrum, cuius confines sunt
+                        ab omni parte predicti monasterii de <placeName key="#Monasteries"
+                            ref="#places/4108">Camposyon</placeName>; rationes et iura que nuper ei
+                        data sunt sicut continetur in instrumentum <persName
+                            key="#Notary #Offersio/donatio #Writer" ref="#people/3576">Heinrici</persName>
+                        <rs key="#Notary">notari</rs>, cui hoc presens <rs key="#Offersio/donatio"
+                            >instrumentum</rs> ad scribendum dedimus et scribere iussimus. Q[uam]
+                        autem offersionem et donationem, inrevocabilem inter vivos, iuris nostri,
+                        per nos supradicti et heredes [et] proheredes nostros vobis domno abbati
+                        Henrico, vice predicti monasterii de Campos[yon] et monasterii Sancti
+                        Benedicti et vestris successoribus in perpetuum, damus, offerimus et
+                        don[amus inrevoca]biliter inter [vivos] in perpetuum, sine nostra et heredum
+                        nostrorurn contradictione et molestatione. Quidem promittimus atque
+                        [spondi]mus per nos et heredes nostros vobis domno abbati vestris
+                        successoribus in per[petuu]m pr[edicta]m donationem nostri iuris ab omni
+                        homine defendere et guarentare; et si defendere et [guaren]tare non
+                        potuerimus aut si vobis exinde aliquid per quodvis ingenium subtrahere
+                        quesierimus, tunc in duplum iamdictam donationem nos qui supra, una cum
+                        nostris heredibus, sicut supra legitur, [vo]bis et vestris successoribus
+                        restituemus, sicut pro tempore predictus locus videlicet Pravitale cum suis
+                        pertinentiis sicut molioratusr fuerit aut valuerit, sub exstimatione [in
+                        con]simili loco et cum stipula[tione] subnixa. Actum in Camposyon.
+                        Feliciter. Rogati sunt <rs key="#Witness">testes</rs>: <persName
+                            key="#Witness #Offersio/donatio"><name ref="Liutius/de la Costa"
+                                >Liutii</name></persName> de la Costa et <persName
+                            key="#Witness #Offersio/donatio" ref="#people/3574">Albertii
+                            Campanile</persName> et <persName key="#Witness #Offersio/donatio"><name
+                                ref="Heinricus/de Marostica">Henricus</name></persName> de Marostica
+                        et <persName key="#Witness #Offersio/donatio"><name
+                                ref="Alfredus/de Marostica">Alfredus</name></persName> eiusdem loci
+                        et aliorum multorum. Ego Heinricus notarius rogatus <rs key="#Writer"
+                            >scripsi</rs>. </ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>CDP II n. 6, pp. 13-14.</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>Nella <foreign>notitia testium</foreign> compaiono due personaggi già menzionati
+                    in un’altra donazione allo stesso monastero di Campese (CDP II n. 4, pp. 8-11).
+                    Anche il notaio dei due documenti è lo stesso, Heinricus.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -34,7 +34,7 @@
                             <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Uncertain tradition</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Uncertain</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -82,13 +82,26 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab><note>Il principe Arechi II offre al monastero di S. Sofia di Benevento (prosegue
-                        l'elenco iniziato con il doc. 3535):</note></ab> <ab>(…) [56] Nec non et in Viviano condoma una nomine <name ref="Lunichis">Lunichis</name> cum
-                        uxore et filiis et omnibus sibi pertinentibus, quos <name ref="Stephanus"
-                            >Stephanus</name> sarto per preceptum falsum libertavit et res eius
-                        abstulit, sed legibus et ipsi servi et res eorum ad nostram venerunt
-                        potestatem, nostram quidem potestas nominata condoma in integrum monasterio
-                        Sancte Sophie concessimus perfruendum. (…)</ab>
+                    <ab><note>Il <rs key="#Princeps">principe</rs>
+                            <persName key="#Princeps" ref="#people/303">Arechi II</persName> offre
+                            al monastero di S. Sofia di <placeName key="#Cities" ref="#places/110"
+                                >Benevento</placeName> (prosegue l'elenco iniziato con il doc.
+                            3535):</note></ab> <ab>(…) [56] Nec non et in <placeName
+                            key="#Uncertain_tradition #Villages/settlements #Fiscal_property"
+                            ref="#places/3440">Viviano</placeName>
+                        <rs
+                            key="#Fiscal_property #Object #Redistributive #Outflow #Allocation_to_churches #Condomae"
+                            >condoma</rs> una nomine <name ref="Lunichis">Lunichis</name> cum uxore
+                        et filiis et omnibus sibi pertinentibus, quos <name ref="Stephanus"
+                            >Stephanus</name>
+                        <rs key="#Specialized_workers">sarto</rs> per preceptum falsum libertavit et
+                        res eius abstulit, sed legibus et ipsi <rs key="#Slave">servi</rs> et res
+                        eorum <rs
+                            key="#Fiscal_property #Mention #Inflow #Confiscation #Property_of_criminals/political_traitors"
+                            >ad nostram venerunt potestatem</rs>, nostram quidem potestas nominata
+                        condoma in integrum <orgName ref="#juridical_persons/85"
+                            key="#Condomae #Monasteries"><rs key="#Monasteries">monasterio</rs>
+                            Sancte Sophie</orgName> concessimus perfruendum. (…)</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">

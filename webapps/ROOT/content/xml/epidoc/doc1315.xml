@@ -33,7 +33,7 @@
                             <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Original</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -81,70 +81,99 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>+ In nomine domini salvatori Iesu Christi Dei aterni &lt;sic>. Guaimarius
-                        divina ordinante providentia Langovardorum gentis princeps, cum principalis
-                        excellentia petitione dilecti sui petenti clementer favet. Quapropter
-                        noberit omnium fidelium nostrorum presentium scilicet ac futororum sagacitas
-                        quoniam Landenolfus, comes Caiatiensis dilectus noster filius quondam
-                        Landoni comitis nostras clementias quatinus concederemus et confirmaremus
-                        Grimoaldo comiti palatii ex cibitate nostra Capua dilectissimo parenti
-                        nostro, filio quondam Madelmi comitis suique heredes hos subscriptos
-                        hebreos, habitatores prephate nostre Capue cibitatis: Vitalem filium quondam
-                        Iona hebrei, et Samuelem generum suum, et luda filium quondam Sambati
-                        heb[rei, et Man]uelem nepotem suprascripti Iude filium videlicet Iona
-                        germani sui, quia ipse Iona christianus effectus est, et Iosep et Iona
-                        germani filii quondam Habraam hebrei et Manuelem et Sambati germani filli
-                        quondam Maioni hebrei, qui fuerunt ipsi quondam Sambati et Abraam et Maio
-                        germani predicti Vitali, et Dunissum filium quondam Sidicie hebrei, et
-                        Nathanielem filium quondam Vitali hebrei medici, et Habraam filium quondam
-                        Achaci hebrei, qui fuerunt ipsi quondam Vitali medicus et Achaci germani,
-                        filii quondam Abraam hebrei, et ipsi quondam Sedicia et Abraam fuerunt
-                        generi quondam Dunissi hebrei, simul cum omnibus rebus eorum et terris et
-                        presis et casis fabritis et infabritis eorum et que fuerunt et pertinuerunt
-                        suprascripti Iona, qui christianus effectus est, et scole eorum hebraice et
-                        reliqua in omni ratione et ordine, quemammodum hic supter dicturi sumus. De
-                        quibus petiit a nostris excellentiis ut nostre emunitatis apices eidem
-                        Grimoaldo comiti inde fieri iuberemus. Cuius preces veningnissime
-                        exaudientes, hos nostre firmitatis apices ei exinde fieri iussimus; per quos
-                        omnino sancimus et perpetualiter habendum nostris et futuris temporibus per
-                        hoc nostrum rovoreum preceptum concedimus et confirmamus tibi supranominati
-                        Grimoaldo comiti palatii, dilectissimo parenti nostro, et ad tuos heredes,
-                        id est ipsos prenominatos hebreos: [Vita ]lem et Samuelem et Iudam et
-                        Manuelem et Iosep et Ionam et Manuelem et Sambati et Dunissum et Nathanielem
-                        et Abraam, simul cum omnibus rebus eorum et terris et presis et casis
-                        fabritis et infabritis eorum, et que fuerunt et pertinuerunt ipsius Iona,
-                        qui christianus effectus est, et scole eorum hebraice, ut omnia servitia et
-                        in[ope]rationes, censora et dationes, cavallos et data et portaticum et
-                        plateaticum et vigilias cibitatis, ceteraque omnia que ipsis prenominatis
-                        hebrei et heredes eorum parti rei publice facere et dare atque persolvere
-                        debuerint , et que ipsis prenominatis soliti sunt facere seu dare et
-                        persolvere, et omnem iudicaliam et scaditiones atque cetera omnia que de
-                        ipsis prenominatis hebreis et de eorum heredibus sive de predictis rebus
-                        eorum et terris et presis et casis fabritis et infabritis [eo]rum et scole
-                        eorum parti rei publice pertinentes inbeniuntur quibuscumque modis in
-                        integrum in tua et de heredibus tuis existant potestates. Hec autem omnia,
-                        que et qualiter supra leguntur nostris fisci et parti rei publice
-                        pertinentes, tibi qui supra Grimoaido comiti palatii tuique heredibus
-                        concessimus et confirmabimus una cum sigillato precepto et sigillato scripto
-                        inde continentes et pertinentes et cum eorum continentiis ad possessionem
-                        tuam et de tuis heredibus ad havendum et possidendum firmiter a nunc et
-                        semper et faciendum exinde omnia, que vobis placuerint, absque
-                        contrarietatem comitum castaldeorum iudicum sculdachorum vel de cuiuscumque
-                        persona hominum con[tradictione]m vel inquietudinem nemine vobis exinde in
-                        aliquo molestia ingerenti. Quod si quispiam homo, magna vel parba persona,
-                        anc nostra concessione atque confirmationem nostri precepti in quomodocumque
-                        violari presumserit sciat se esse compositurus tibi, qui supra Grimoaido
-                        comiti palatii, tuisque heredibus auri purissimi libras quinquaginta et,
-                        post solutam penam, hec nostra concessio atque confirmatio firma permaneat
-                        semper, quod ut verius credatur diligentiusque ab omnibus obserbetur, manus
-                        nostra propria scripsimus et ex anulo nostro impressione supter iussimus
-                        sigillari.   (S).    [Signum]  (M)  domini Guaimarii excellentissimi
-                        principis.  (SID).    Adenolfus notarius ex iussione predicte serenissime
-                        potestatis scripsi  (S).     Datum decima secunda kalendas iulias, an[no
-                        vi]cesimo tertio principatus Salerni predicti domni Guaimarii, gloriosi
-                        principis ac tertio anno principatus eius Capue et tertio anno ducatus
-                        illius Amalfis et tertio anno eius Surrenti, indictione nona.    Actum in
-                        cibitate Capuana (S).</ab>
+                    <ab>+ In nomine domini salvatori Iesu Christi Dei aterni &lt;sic>. <persName
+                            ref="#people/339" key="#Princeps">Guaimarius</persName> divina ordinante
+                        providentia Langovardorum gentis <rs key="#Princeps">princeps</rs>, cum
+                        principalis excellentia petitione dilecti sui petenti clementer favet.
+                        Quapropter noberit omnium fidelium nostrorum presentium scilicet ac
+                        futororum sagacitas quoniam <persName ref="#people/2452"
+                            key="#Intercessory #Palatium #Count">Landenolfus</persName>, <rs
+                            key="#Count">comes</rs>
+                        <placeName ref="#places/2842" key="#Cities">Caiatiensis</placeName> dilectus
+                        noster filius quondam <persName key="#Count" ref="#people/2467"
+                            >Landoni</persName>
+                        <rs key="#Count">comitis</rs> nostras clementias quatinus concederemus et
+                        confirmaremus <persName ref="#people/2493" key="#Palatium #Count"
+                            >Grimoaldo</persName>
+                        <rs key="#Count">comiti</rs>
+                        <rs key="#Palatium">palatii</rs> ex <rs key="#Cities">cibitate</rs> nostra
+                            <placeName ref="#places/173" key="#Cities #Fiscal_property"
+                            >Capua</placeName> dilectissimo parenti nostro, filio quondam <persName
+                            key="#Palatium #Count" ref="#people/3439">Madelmi</persName>
+                        <rs key="#Count">comitis</rs> suique heredes hos subscriptos hebreos,
+                        habitatores prephate nostre Capue cibitatis: <name ref="Vitalis"
+                            >Vitalem</name> filium quondam <name ref="Ionas">Iona</name> hebrei, et
+                            <name ref="Samuel">Samuelem</name> generum suum, et <name ref="Iudas"
+                            >Iuda</name> filium quondam <name ref="Sambatus">Sambati</name> heb[rei,
+                        et <name ref="Manuel">Man]uelem</name> nepotem suprascripti Iude filium
+                        videlicet Iona germani sui, quia ipse Iona christianus effectus est, et
+                            <name ref="Ioseph">Iosep</name> et <name ref="Ionas">Iona</name> germani
+                        filii quondam <name ref="Habraam">Habraam</name> hebrei et <name
+                            ref="Manuel">Manuelem</name> et <name ref="Sambatus">Sambati</name>
+                        germani filii quondam <name ref="Maio">Maioni</name> hebrei, qui fuerunt
+                        ipsi quondam Sambati et Abraam et Maio germani predicti Vitali, et <name
+                            ref="Dunissus">Dunissum</name> filium quondam <name ref="Sedicia"
+                            >Sidicie</name> hebrei, et <name ref="Nathaniel">Nathanielem</name>
+                        filium quondam <name ref="Vitalis">Vitali</name> hebrei medici, et <name
+                            ref="Habraam">Habraam</name> filium quondam <name ref="Achacius"
+                            >Achaci</name> hebrei, qui fuerunt ipsi quondam Vitali medicus et Achaci
+                        germani, filii quondam <name ref="Habraam">Abraam</name> hebrei, et ipsi
+                        quondam Sedicia et Abraam fuerunt generi quondam Dunissi hebrei, simul cum
+                        omnibus rebus eorum et terris et presis et casis fabritis et infabritis
+                        eorum et que fuerunt et pertinuerunt suprascripti Iona, qui christianus
+                        effectus est, et scole eorum hebraice et reliqua in omni ratione et ordine,
+                        quemammodum hic supter dicturi sumus. De quibus petiit a nostris
+                        excellentiis ut nostre emunitatis apices eidem Grimoaldo comiti inde fieri
+                        iuberemus. Cuius preces veningnissime exaudientes, hos nostre firmitatis
+                        apices ei exinde fieri iussimus; per quos omnino sancimus et perpetualiter
+                        habendum nostris et futuris temporibus per hoc nostrum rovoreum preceptum
+                        concedimus et confirmamus tibi supranominati Grimoaldo comiti palatii,
+                        dilectissimo parenti nostro, et ad tuos heredes, id est ipsos prenominatos
+                        hebreos: [Vita ]lem et Samuelem et Iudam et Manuelem et Iosep et Ionam et
+                        Manuelem et Sambati et Dunissum et Nathanielem et Abraam, simul cum omnibus
+                        rebus eorum et terris et presis et casis fabritis et infabritis eorum, et
+                        que fuerunt et pertinuerunt ipsius Iona, qui christianus effectus est, et
+                        scole eorum hebraice, ut omnia <rs key="#Servitium">servitia</rs> et <rs
+                            key="#Operae">in[ope]rationes</rs>, <rs key="#Census">censora</rs> et
+                            <rs key="#Datium">dationes</rs>, cavallos et data et <rs
+                            key="#Public_exactions">portaticum</rs> et <rs key="#Public_exactions"
+                            >plateaticum</rs> et vigilias cibitatis, ceteraque omnia que ipsis
+                        prenominatis hebrei et heredes eorum <rs
+                            key="#Fiscal_property #Mention #Inflow">parti rei publice facere et dare
+                            atque persolvere debuerint</rs>, et que ipsis prenominatis soliti sunt
+                        facere seu dare et persolvere, et omnem iudicaliam et scaditiones atque
+                        cetera omnia que de ipsis prenominatis hebreis et de eorum heredibus sive de
+                        predictis rebus eorum et terris et presis et casis fabritis et infabritis
+                        [eo]rum et scole eorum parti rei publice pertinentes inbeniuntur
+                        quibuscumque modis in integrum in tua et de heredibus tuis existant
+                        potestates. Hec autem omnia, que et qualiter supra leguntur nostris fisci et
+                        parti rei publice pertinentes, tibi qui supra Grimoaido comiti palatii
+                        tuique heredibus <rs
+                            key="#Fiscal_property #Object #Redistributive #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_individuals"
+                            >concessimus et confirmabimus</rs> una cum sigillato precepto et
+                        sigillato scripto inde continentes et pertinentes et cum eorum continentiis
+                        ad possessionem tuam et de tuis heredibus ad havendum et possidendum
+                        firmiter a nunc et semper et faciendum exinde omnia, que vobis placuerint,
+                        absque contrarietatem comitum castaldeorum iudicum sculdachorum vel de
+                        cuiuscumque persona hominum con[tradictione]m vel inquietudinem nemine vobis
+                        exinde in aliquo molestia ingerenti. Quod si quispiam homo, magna vel parba
+                        persona, anc nostra concessione atque confirmationem nostri precepti in
+                        quomodocumque violari presumserit sciat se esse compositurus tibi, qui supra
+                        Grimoaido comiti palatii, tuisque heredibus auri purissimi libras
+                        quinquaginta et, post solutam penam, hec nostra <rs
+                            key="#Marquis’/ducal/princely_diploma">concessio atque confirmatio</rs>
+                        firma permaneat semper, quod ut verius credatur diligentiusque ab omnibus
+                        obserbetur, manus nostra propria scripsimus et ex anulo nostro impressione
+                        supter iussimus sigillari. (S). [Signum] (M) domini Guaimarii
+                        excellentissimi principis. (SID). <persName key="#Notary" ref="#people/3440"
+                            >Adenolfus</persName>
+                        <rs key="#Notary">notarius</rs> ex iussione predicte serenissime potestatis
+                        scripsi (S). Datum decima secunda kalendas iulias, an[no vi]cesimo tertio
+                        principatus Salerni predicti domni Guaimarii, gloriosi principis ac tertio
+                        anno principatus eius Capue et tertio anno ducatus illius Amalfis et tertio
+                        anno eius Surrenti, indictione nona. Actum in <rs key="#Cities"
+                            >cibitate</rs>
+                        <placeName key="#Cities" ref="#places/173">Capuana</placeName> (S).</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">

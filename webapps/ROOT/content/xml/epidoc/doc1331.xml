@@ -35,7 +35,7 @@
                             <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Copy</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -83,17 +83,32 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>In nomine Domini Dei Salvatoris nostri Iesu Christi. Domnus Arichis
-                        piissimus atque excellentissimus princeps gentis Langobardorum, divino
-                        premonitus nutu, offero in ęcclesia Sanctę Sophie quam a fundamentis
-                        ędificavi, pro redemptione anime meę seu pro salvatione gentis nostre et
-                        patrie, omnia que conparabimus ab Ilprando filius quoddam Alerissi, servos
-                        et ancillas, casas et vineas, territoria, campo et silbas, prata, mobilia et
-                        inmobilia in partibus Lucanię secundum textum cartulę, in integrum Sancte
-                        Sophie monasterium concessimus possidendum. Quod vero preceptus oblationis
-                        ex iussione et dictatus nominate potestatis scripsi ego Lopoald notarius.
-                        Actus Beneventus in filicissimus palatio in anno septimo decimo, mensi
-                        novembrio per indictionem tertiam decimam. Feliciter.</ab> 
+                    <ab>In nomine Domini Dei Salvatoris nostri Iesu Christi. Domnus <persName
+                            key="#Princeps" ref="#people/303">Arichis</persName> piissimus atque
+                        excellentissimus <rs key="#Princeps">princeps</rs> gentis Langobardorum,
+                        divino premonitus nutu, offero in <orgName
+                            key="#Houses #Landed_possessions #Wine #Churches"
+                            ref="#juridical_persons/85"><rs key="#Churches">ęcclesia</rs> Sanctę
+                            Sophie</orgName> quam a fundamentis ędificavi, pro redemptione anime meę
+                        seu pro salvatione gentis nostre et patrie, omnia que conparabimus ab <name
+                            ref="Ilprandus">Ilprando</name> filius quoddam <name ref="Alerissi"
+                            >Alerissi</name>, <rs
+                            key="#Fiscal_property #Object #Redistributive #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
+                                ><rs key="#Slave">servos et ancillas</rs>, <rs key="#Houses"
+                                >casas</rs> et <rs key="#Wine">vineas</rs>, <rs
+                                key="#Landed_possessions">territoria</rs>, campo et silbas, prata,
+                            mobilia et inmobilia</rs> in partibus <placeName
+                            key="#Geographic_regions #Fiscal_property" ref="#places/3441"
+                            >Lucanię</placeName> secundum textum <rs key="#Cartula #Venditio"
+                            >cartulę</rs>, in integrum Sancte Sophie <rs key="#Monasteries"
+                            >monasterium</rs> concessimus possidendum. Quod vero <rs
+                            key="#Marquis’/ducal/princely_diploma #Offersio/donatio">preceptus
+                            oblationis</rs> ex iussione et dictatus nominate potestatis scripsi ego
+                            <persName key="#Notary" ref="#people/3410">Lopoald</persName>
+                        <rs key="#Notary">notarius</rs>. Actus <placeName key="#Cities"
+                            ref="#places/110">Beneventus</placeName> in filicissimus <rs
+                            key="#Palatium">palatio</rs> in anno septimo decimo, mensi novembrio per
+                        indictionem tertiam decimam. Feliciter.</ab> 
                     <ab><note>Nel cartulario è presente anche un riassunto del
                         documento, inserito nel falso <foreign>preceptum donationum,
                             concessionum et confirmationum</foreign> del novembre 774 (CSS, (†)

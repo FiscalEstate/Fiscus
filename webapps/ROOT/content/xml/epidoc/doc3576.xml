@@ -35,7 +35,7 @@
                             <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Uncertain tradition</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Uncertain</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -83,11 +83,20 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab><note>Il principe Arechi II offre al monastero di S. Sofia di Benevento (prosegue
-                        l'elenco iniziato con il doc. 3535):</note></ab> <ab>(…) [61] Concessimus et iam dicte Sancte Sophie monasterio ut habeat ex
-                        sacro nostro palatio annualiter auro soledos duocentos pro vestito
-                        comparandum aut quod inibi opus fueriti, nec non etiam et hoc statuere visi
-                        sumus ut nostra concessione sit firma in nominato monasterio. (…)</ab>
+                    <ab><note><note>Il <rs key="#Princeps">principe</rs>
+                                <persName key="#Princeps" ref="#people/303">Arechi II</persName>
+                                offre al monastero di S. Sofia di <placeName
+                                    key="#Uncertain_tradition #Cities #Fiscal_property"
+                                    ref="#places/110">Benevento</placeName>
+                            </note>(prosegue l'elenco iniziato con il doc. 3535):</note></ab> <ab>(…) [61] Concessimus et iam dicte <orgName key="#Monasteries" ref="#juridical_persons/85"
+                            >Sancte Sophie <rs key="#Monasteries">monasterio</rs></orgName> ut
+                        habeat ex sacro nostro <rs key="#Palatium">palatio</rs>
+                        <rs
+                            key="#Fiscal_property #Object #Redistributive #Outflow #Allocation_to_churches #Rent_in_money #Slave_labour"
+                            >annualiter auro soledos duocentos</rs> pro vestito comparandum aut quod
+                        inibi opus fueriti, nec non etiam et hoc statuere visi sumus ut nostra
+                        concessione sit firma in nominato <rs key="#Monasteries">monasterio</rs>.
+                        (…)</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">

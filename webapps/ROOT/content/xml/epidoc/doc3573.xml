@@ -34,7 +34,7 @@
                             <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Uncertain tradition</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Uncertain</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -84,12 +84,26 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab><note>Il principe Arechi II offre al monastero di S. Sofia di Benevento (prosegue
-                        l'elenco iniziato con il doc. 3535):</note></ab> <ab>(…) [58] Seu et portaticu ex lignis per singulas portas civitatem nostre
-                        Beneventane, id est de porta Aurea de lignis carra quinquaginta, de porta
-                        Summa carra quinquaginta, de porta Rufini carra treginta, de porta Noba
-                        carra treginta, de porta Sancti Laurenti carra treginta, hec omnia Sancte
-                        Sophie monasterio concessimus. (…)</ab>
+                    <ab><note>Il <rs key="#Princeps">principe</rs>
+                            <persName key="#Princeps" ref="#people/303">Arechi II</persName> offre
+                            al monastero di S. Sofia di <placeName key="#Cities" ref="#places/110"
+                                >Benevento</placeName> (prosegue l'elenco iniziato con il doc.
+                            3535):</note></ab> <ab>(…) [58] Seu et <rs
+                            key="#Wood #Fiscal_property #Object #Redistributive #Outflow #Allocation_to_churches #Public_exactions"
+                            >portaticu</rs> ex <rs key="#Wood">lignis</rs> per singulas <rs
+                            key="#Clusae/gates">portas</rs>
+                        <rs key="#Cities">civitatem</rs> nostre <placeName
+                            key="#Uncertain_tradition #Cities #Fiscal_property" ref="#places/110"
+                            >Beneventane</placeName>, id est de <rs key="#Clusae/gates">Porta</rs>
+                        Aurea de <rs key="#Wood">lignis</rs>
+                        <rs key="#Size">carra quinquaginta</rs>, de <rs key="#Clusae/gates"
+                            >Porta</rs> Summa <rs key="#Size">carra quinquaginta</rs>, de <rs
+                            key="#Clusae/gates">Porta</rs> Rufini <rs key="#Size">carra
+                            treginta</rs>, de <rs key="#Clusae/gates">Porta</rs> Noba <rs
+                            key="#Size">carra treginta</rs>, de <rs key="#Clusae/gates">Porta</rs>
+                        Sancti Laurenti <rs key="#Size">carra treginta</rs>, hec omnia <orgName
+                            ref="#juridical_persons/85" key="#Wood #Monasteries">Sancte Sophie <rs
+                                key="#Monasteries">monasterio</rs></orgName> concessimus. (…)</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">

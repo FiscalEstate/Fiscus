@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Modena, Archivio di Stato, Archivio segreto estense, Casa e stato, Pergamene,
+                    cart. 1, n. 38</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2022">2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DiSCi UniBo</publisher>
+                <idno type="filename">5127</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+                </availability>
+                <date when="2022"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Offersio/donatio</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property">No</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="1130-08-31">
+                                <note type="displayed_date">1130 August 31</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Ferrara</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace>Sanctus Benedictus in Pado Lironi; monasterium
+                                (Mantova)</origPlace>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-05-07" who="bferretti">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine Domini. Anno Domini millesimo centesimo vigesimo, nemine
+                        imperante, pridie kalendas septembris, indicione octava. <placeName
+                            ref="#places/80">Ferarie</placeName>, in loco qui dicitur
+                            <placeName>Miciana</placeName>. Inter ceteras donaciones maxime illa
+                        donacio principatum tenet que per salutem et remedium animarum conficitur et
+                        per quam vita heterna speratur. Unde profiteor me ego <persName
+                            key="#childOf  #Offersio/donatio #Casalia #Landed_possessions #Fruits/vegetables #Saltworks #Salt"
+                                ><name ref="Berta/Palmera">Berta Palmera</name></persName> zelo Dei
+                        quo acta, pro remedium anime mee meorum parentum profiteor me donare nata et
+                            <rs key="#childOf">filia</rs> scilicet de <persName key="#parentOf"
+                                ><name ref="Martinus">Martino</name></persName> de <persName><name
+                                ref="Dominicus/Staniu">Dominico Staniu</name></persName> de
+                            <placeName key="#Casalia #Saltworks #Salt #Ports">Cloza
+                            Minore</placeName>, per hanc <rs key="#Offersio/donatio">donacionis
+                            paginam</rs>, profiteor me donare tibi presenti domno <persName
+                            key="#Priors #Churches">Ugoni</persName> religioso <rs key="#Priors"
+                            >priori</rs>
+                        <rs key="#Churches">ecclesiae</rs>
+                        <orgName key="#Churches #Priors" ref="#juridical_persons/2098">Sanctae
+                            Agathe</orgName> et per te in venerabili <rs key="#Monasteries"
+                            >monasterio</rs>
+                        <orgName key="#Monasteries #Abbots #Churches #Priors #Offersio/donatio"
+                            >Sancti Benedicti de Lairone</orgName>, in quo Deo gubemante preesse
+                        videtur domnus <persName key="#Abbots #Monasteries" ref="#people/3568"
+                            >Heinricus</persName> gloriosus <rs key="#Abbots">abbas</rs> suisque
+                        successoribus abbatibus in perpetuum. Hoc est quantumcumque mihi pertinet
+                        per successionem patris mei Martini de Dominico Staniu de suprascripta Cloza
+                        Minore, videlicet <rs key="#Casalia">casalem</rs> unum in suprascripta Cloza
+                        iuxta latus <persName><name ref="Leo/Staniu">Leonis Staniu</name></persName>
+                        et <persName><name ref="Dominicus/Staniu">Domin[ic]o
+                            Staniu</name></persName>, et terciam partem de <rs
+                            key="#Landed_possessions">clusuria</rs> una cum <rs
+                            key="#Fruits/vegetables">horto</rs> uno iuxta latus similiter Leonis
+                        Staniu et Domini[co] Staniu, et tres <rs key="#Saltworks #Salt">salinas</rs>
+                        que sunt posite non longne a <rs key="#Ports">porto</rs> de Cloza iuxta
+                        latus predicti Leonis et Dominici Staniu, cum ingresibus et hegresibus earum
+                        et cum omnibus a suprascriptis rebus pertinentibus. Ut modo a presenti die
+                        liceat tibi suprascripto priori tuisque successoribus habere tenere
+                        possidere iure dominii predicti monasterii in perpetuum unde investitorem
+                        tibi do Petrum de Sancta Agathe qui te investiat de suprascriptis rebus in
+                        vice ecclesie in perpetuum. Quin eciam spondeo ego antefata Berta Palmeria
+                        filia quondam Martini de Dominico Staniu pro me et pro meis filiis et
+                        heredibus hamc donacionis paginam firmam tenere et conservare et defensare
+                        et torizare tibi suprascripto domino Ugoni priori in vice ecclesiae Sancti
+                        Benedicti et per persona antifati abbatis suisque successoribus, sub pena
+                            <rs key="#Penalty">auri unciarum trium</rs> et soluta pena in sua stet
+                        firmitate. Quam scribere rogavi <persName
+                            key="#Writer #Notary #Offersio/donatio"><name ref="Dominicus"
+                                >Dominicum</name></persName>
+                        <rs key="#Notary">notarium</rs>, sub die, mensis et indicione suprascripta.
+                        + Signum manus suprascripte Berte donatrice firmavit. +++++++ Signa et
+                        nomina <rs key="#Witness">testium</rs>: <persName><name
+                                ref="Iohannes/Balbus">Iohannes Balbus</name></persName>, <persName
+                            key="#Witness #Offersio/donatio"><name ref="/Infans/de Sancto Donatho"
+                                >Bonus Infans</name></persName> de Sancto Donatho, <persName
+                            key="#Witness #Offersio/donatio"><name ref="Vitalis/de Sette"
+                                >Vitalis</name></persName> de Sette, <persName
+                            key="#Witness #Offersio/donatio"><name ref="Iohannes/Bonus">Iohannes
+                                Bonus</name></persName> de <persName><name ref="Berardus"
+                                >Berardo</name></persName>, <persName
+                            key="#Witness #Offersio/donatio"><name ref="Domninus/de sancto Felice"
+                                >Donino</name></persName> de Sancto Felice, <persName
+                            key="#Witness #Offersio/donatio"><name ref="Petrus/de Contrapatho"
+                                >Petrus</name></persName> de Contrapatho, <persName
+                            key="#Witness #Offersio/donatio"><name ref="Benedictus/de Marcaria"
+                                >Benedicto</name></persName> de <placeName>Marcaria</placeName>,
+                            <persName key="#Witness #Offersio/donatio"><name
+                                ref="Petrus/ de Sancta Agatha">Petrus</name></persName> de Sancta
+                        Agatha testes. Ego Dominicus divino nutu notarius rogatus a suprascripta
+                        Berta donatrice vinculis scripturarum alligandam adnexui. </ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>CDP II n. 12, pp. 23-25.</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

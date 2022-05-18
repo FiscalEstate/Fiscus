@@ -34,7 +34,7 @@
                             <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Uncertain tradition</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Uncertain</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -82,9 +82,17 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab><note>Il principe Arechi II offre al monastero di S. Sofia di Benevento (prosegue
-                        l'elenco iniziato con il doc. 3535):</note></ab> <ab>(…) [60] Seu et annualiter de sacro nostro palatio ad lardum eodem
-                        monasterio concessi porcos capita centum. (…)</ab>
+                    <ab><note>Il <rs key="#Princeps">principe</rs>
+                            <persName key="#Princeps" ref="#people/303">Arechi II</persName> offre
+                            al monastero di S. Sofia di <placeName
+                                key="#Uncertain_tradition #Cities #Fiscal_property"
+                                ref="#places/110">Benevento</placeName> (prosegue l'elenco iniziato
+                            con il doc. 3535):</note></ab> <ab>(…) [60] Seu et annualiter de sacro nostro <rs key="#Palatium">palatio</rs> ad lardum eodem <rs
+                            key="#Monasteries"><orgName key="#Pigs #Monasteries"
+                                ref="#juridical_persons/85">monasterio</orgName></rs> concessi <rs
+                            key="#Pigs #Fiscal_property #Object #Palatium #Redistributive #Fiscal_reserve #Outflow #Allocation_to_churches"
+                            >porcos</rs>
+                        <rs key="#Size">capita centum</rs>. (…)</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">

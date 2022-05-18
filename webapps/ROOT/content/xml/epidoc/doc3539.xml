@@ -36,7 +36,7 @@
                             <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Uncertain tradition</rs>
-                            <rs type="fiscal_property">Yes</rs>
+                            <rs type="fiscal_property">Uncertain</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -86,8 +86,11 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab><note>Il principe Arechi II offre al monastero di S. Sofia di Benevento
-                            (prosegue l'elenco iniziato con il doc. 3535):</note></ab>
+                    <ab><note>Il <rs key="#Princeps">principe</rs>
+                            <persName key="#Princeps" ref="#people/303">Arechi II</persName> offre
+                            al monastero di S. Sofia di <placeName key="#Cities" ref="#places/110"
+                                >Benevento</placeName> (prosegue l'elenco iniziato con il doc.
+                            3535):</note></ab>
                     <ab>(…) [7] Nec non et <orgName
                             key="#Landed_possessions #Fiscal_property #Object #Redistributive #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches #Churches"
                             ref="#juridical_persons/3406"><rs key="#Churches">ecclesia</rs> Sancti
@@ -95,14 +98,13 @@
                             key="#Gai #Fiscal_property #Mention #Residential" ref="#estates/3404"
                                 ><rs key="#Gai #Fiscal_property #Mention #Residential">gaio</rs>
                             nostro Biferno</geogName>, <placeName ref="#places/3409"
-                            key="#Villages/settlements">loco qui dicitur Altissimus</placeName>, et
-                        ex ipso gaio circa ipsam ecclesiam largiti sumus in <orgName
+                            key="#Uncertain_tradition #Villages/settlements #Fiscal_property">loco
+                            qui dicitur Altissimus</placeName>, et ex ipso gaio circa ipsam
+                        ecclesiam largiti sumus in <orgName
                             key="#Landed_possessions #Condomae #Churches #Monasteries"
                             ref="#juridical_persons/85"><rs
                                 key="#Landed_possessions #Condomae #Churches #Monasteries"
-                                >monasterio</rs>
-                            <placeName ref="#places/110" key="#Cities">Sancte
-                            Sophię</placeName></orgName>
+                                >monasterio</rs> Sancte Sophię</orgName>
                         <rs
                             key="#Landed_possessions #Fiscal_property #Object #Redistributive #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
                             >territorium</rs>

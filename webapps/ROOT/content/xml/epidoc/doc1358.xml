@@ -35,7 +35,7 @@
                             <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Copy</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -83,52 +83,82 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>[I]n nomine Domini Salvatoris nostri Iesu Christi Dei eterni. Paldolfus et
-                        Landolfus divina ordinante providentia Langobardorum gentis principes. Cum
+                    <ab>[I]n nomine Domini Salvatoris nostri Iesu Christi Dei eterni. <persName
+                            key="#Princeps" ref="#people/2486">Paldolfus</persName> et <persName
+                            ref="#people/315" key="#Princeps">Landolfus</persName> divina ordinante
+                        providentia Langobardorum gentis <rs key="#Princeps">principes</rs>. Cum
                         principali excellentia petitionibus dilectorum suorum omnibus iuste
                         petentibus clementer favet, quapropter noverit omnium fidelium nostrorum
-                        presentium scilicet ac futurorum sagacitas Azzonem venerabilem abbatem
-                        monasterii Sancte Sophie quid constructum est infra hanc Beneventum
-                        civitatem iuxta sacro nostro palatio, per Landolfum comitem dilectum
-                        barbanum nostrum nostram adiit a Deo protegenda principalem dignitatem,
-                        deprecans ut pro augmento eiusdem monasterii nostreque patrię; salvationem
-                        concederemus in eodem monasterio cuncta qualiter hic inferius declaratur
-                        iure quieto, de quibus petierunt in predicto sancto monasterio fieri
-                        munitionem a nostra excellentia. Et ne eiusdem religiositatis eius inaudita
-                        fieret postulatio usquequaque assensum prebentes, hos nostre munitionis
-                        apices in eodem venerabile monasterio exinde fieri iussimus, per quos omnino
-                        sancimus et perpetualiter per presens hoc nostrum roboreum preceptum
-                        concedimus in nominato sancto monasterio Sancte Sophię; ipsa trasenda que
-                        vadit retro ipsa ęcclesia et que in parietibus eiusdem ęcclesię coniuncta
-                        est, id est a casa Agnelberti calciolarii et usque in ipsa platea puplica
-                        qui venit ante ęcdesia Sancte Marię subdita Domini Salvatoris cappella
-                        nostri sacri palatii, ita ut potestatem habeat partem eiusdem monasterii
-                        eadem trasenda claudere et sue proprietati illam tenere et dominare; denique
-                        et concedimus in eodem venerabile monasterio omnes illas liberas feminas qui
-                        sibi viros copulaverunt servos ipsius monasterii vel quante amodo et in
-                        antea sibi viros copulaverint servos eiusdem monasterii, videlicet una simul
-                        cum ipsis servis et cum filiis et filie suę veluti legibus ad sacrum nostrum
-                        evenire debuerunt palatium; pariterque et concedimus in eodem sancto
-                        monasterio ut omnes illi liberi homines qui in rebus eidem monasterii
-                        resident ad laborandum vel illos quod in antea ibidem sponte fuerint
-                        ordinati ad laborandum et res proprias non habent ut amodo et deinceps
-                        defensi sint ab omni datione et exhactione et servitio puplico; nec non et
-                        concedimus in predicto monasterio omnes res illas exfundatas qui nunc cum
-                        rebus eiusdem monasterii coniunctum est. Ea etenim sanctione cuncta qualiter
-                        superius legitur in eodem sancto monasterio concessimus habendum quatenus
-                        amodo et deinceps eodem sancto et venerabili monasterio eiusque abbatibus
-                        atque rectoribus omnia supra scripta haberent et possiderent sine ullius
-                        comitis, gastaldeis sed iudicibus vel sculdahis nostris aut cuiuscumque
-                        persone contrarietatem, facientes inde omnia quod voluerint, a nemine
-                        aliquid contrarium exinde in aliquo ingerente. Ut autem hęc nostra concessio
-                        plenius in Dei nomine habeat vigorem et ab omnibus inviolabiliter
-                        observetur, manu propria scripsimus et anulis nostris sigillari iussimus.
-                        Signum domni Paldolfi gloriosissimi principis. Madelfrid clericus et
-                        notarius atque scriba ex iussione supra dicte potestatis scripsi. Data
-                        kalendis septembrii in anno vicesimo secundo principatus domni Paldolfi
-                        gloriosi principis et in quinto anno principatus domni Landolfi
-                        excellentissimi principis, nona indictione. Actus in sacratissimo
-                        Beneventano palatio.</ab>
+                        presentium scilicet ac futurorum sagacitas <persName ref="#people/3475"
+                            key="#Intercessory #Abbots">Azzonem</persName>
+                        <rs key="#Personal_rank">venerabilem</rs>
+                        <rs key="#Abbots">abbatem</rs>
+                        <orgName key="#Monasteries" ref="#juridical_persons/85"><rs
+                                key="#Monasteries">monasterii</rs> Sancte Sophie</orgName> quid
+                        constructum est infra hanc <placeName key="#Cities" ref="#places/110"
+                            >Beneventum</placeName>
+                        <rs key="#Cities">civitatem</rs> iuxta sacro nostro <rs key="#Palatium"
+                            >palatio</rs>,  per <persName ref="#people/3477"
+                            key="#Intercessory #Count">Landolfum</persName>
+                        <rs key="#Intercessory #Count">comitem</rs> dilectum <rs key="#uncle/auntOf"
+                            >barbanum</rs> nostrum nostram adiit a Deo protegenda principalem
+                        dignitatem, deprecans ut pro augmento eiusdem monasterii nostreque patrię
+                        salvationem concederemus in eodem monasterio cuncta qualiter hic inferius
+                        declaratur iure quieto, de quibus petierunt in predicto sancto monasterio
+                        fieri munitionem a nostra excellentia. Et ne eiusdem religiositatis eius
+                        inaudita fieret postulatio usquequaque assensum prebentes, hos nostre
+                        munitionis apices in eodem venerabile monasterio exinde fieri iussimus, per
+                        quos omnino sancimus et perpetualiter per presens hoc nostrum <rs
+                            key="#Marquis’/ducal/princely_diploma">roboreum preceptum</rs>
+                        concedimus in nominato sancto monasterio Sancte Sophię ipsa <rs
+                            key="#Fiscal_property #Object #Redistributive #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches #Roads"
+                            >trasenda</rs> que vadit retro ipsa ęcclesia et que in parietibus
+                        eiusdem ęcclesię coniuncta est, id est a casa <name
+                            ref="Angelbertus calciolarius">Agnelberti</name>
+                        <rs key="#Specialized_workers">calciolarii</rs> et usque in ipsa platea
+                        puplica qui venit ante <rs key="#Churches">ęcclesia</rs>
+                        <orgName key="#Churches" ref="#juridical_persons/3440">Sancte
+                            Marię</orgName> subdita <orgName ref="#juridical_persons/3439"
+                            key="#Churches">Domini Salvatoris</orgName> cappella nostri sacri
+                        palatii, ita ut potestatem habeat partem eiusdem monasterii eadem trasenda
+                        claudere et sue proprietati illam tenere et dominare; denique et concedimus
+                        in eodem venerabile monasterio omnes illas <rs
+                            key="#Fiscal_property #Object #Redistributive #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches #Freeborn"
+                            >liberas feminas qui servis eiusdem monasterii sibi sociaverunt
+                            maritos</rs> qui sibi viros copulaverunt servos ipsius monasterii vel
+                        quante amodo et in antea sibi viros copulaverint servos eiusdem monasterii,
+                        videlicet una simul cum ipsis <rs key="#Slave">servis</rs> et cum filiis et
+                        filie suę veluti <rs key="#Fiscal_property #Mention #Inflow #Confiscation"
+                            >legibus ad sacrum nostrum evenire debuerunt palatium</rs>; pariterque
+                        et concedimus in eodem sancto monasterio ut omnes illi <rs
+                            key="#Fiscal_property #Object #Redistributive #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches #Freeborn"
+                            >liberi homines</rs> qui in rebus eidem monasterii resident ad
+                        laborandum, vel illos quod in antea ibidem sponte fuerint ordinati ad
+                        laborandum et res proprias non habent ut amodo et deinceps <rs
+                            key="#Privileges #Exemption">defensi sint ab omni datione et exhactione
+                            et servitio puplico</rs>; nec non et concedimus in predicto monasterio
+                        omnes <rs
+                            key="#Landed_possessions #Fiscal_property #Object #Redistributive #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches #Property_of_persons_without_heirs"
+                            >res illas exfundatas </rs>qui nunc cum rebus eiusdem monasterii
+                        coniunctum est. Ea etenim sanctione cuncta qualiter superius legitur in
+                        eodem sancto monasterio concessimus habendum quatenus amodo et deinceps
+                        eodem sancto et venerabili monasterio eiusque abbatibus atque rectoribus
+                        omnia supra scripta haberent et possiderent sine ullius comitis, gastaldeis
+                        sed iudicibus vel sculdahis nostris aut cuiuscumque persone contrarietatem,
+                        facientes inde omnia quod voluerint, a nemine aliquid contrarium exinde in
+                        aliquo ingerente. Ut autem hęc nostra <rs
+                            key="#Marquis’/ducal/princely_diploma">concessio</rs> plenius in Dei
+                        nomine habeat vigorem et ab omnibus inviolabiliter observetur, manu propria
+                        scripsimus et anulis nostris sigillari iussimus. Signum domni Paldolfi
+                        gloriosissimi principis. <persName ref="#people/3417"
+                            key="#Writer #Notary #Other_clerics">Madelfrid</persName>
+                        <rs key="#Other_clerics">clericus</rs> et <rs key="#Notary">notarius</rs>
+                        atque <rs key="#Writer">scriba</rs> ex iussione supra dicte potestatis
+                        scripsi. Data kalendis septembrii in anno vicesimo secundo principatus domni
+                        Paldolfi gloriosi principis et in quinto anno principatus domni Landolfi
+                        excellentissimi principis, nona indictione. Actus in sacratissimo <placeName
+                            key="#Cities" ref="#places/110">Beneventano</placeName>
+                        <rs key="#Palatium">palatio</rs>.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">

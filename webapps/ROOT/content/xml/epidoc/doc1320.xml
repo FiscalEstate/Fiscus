@@ -35,7 +35,7 @@
                             <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Copy</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -83,16 +83,27 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>In nomine Domini Dei Salvatoris nostri Iesu Christi. Domnus Arichis
-                        piissimus atque excellentissimus princeps gentis Longubardorum, divino
-                        premonitus nutu, offero in ecclesia Sancte Sophie quam a fundamentis
-                        edificavi, pro redemptione anime meę seu pro salvatione gentis nostre et
-                        patrie ęcclesiae Sancte Marię que sita est in Alifa, loco qui dicitur
-                        Massana, cum omnibus suis pertinentibus, Sancte Sophie monasterium
-                        concessimus possidendum. Quod vero preceptus oblationis ex iussione et
-                        dictatus nominate potestatis scripsi ego Lopoald notarius. Actus Beneventus
-                        in filicissimus palatio in anno septimo decimo, mensis novembrio per
-                        indictione tertiam decimam. Feliciter.</ab>
+                    <ab>In nomine Domini Dei Salvatoris nostri Iesu Christi. Domnus <persName
+                            key="#Princeps #Marquis/duke" ref="#people/303">Arichis</persName>
+                        piissimus atque excellentissimus <rs key="#Princeps">princeps</rs> gentis
+                        Longubardorum, divino premonitus nutu, offero in <orgName
+                            key="#Churches #Monasteries" ref="#juridical_persons/85"><rs
+                                key="#Churches">ecclesia</rs> Sancte Sophie</orgName> quam a
+                        fundamentis edificavi, pro redemptione anime meę seu pro salvatione gentis
+                        nostre et patrie <orgName
+                            key="#Fiscal_property #Object #Redistributive #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches #Churches"
+                                ><rs key="#Churches">ęcclesiae</rs> Sancte Marię</orgName> que sita
+                        est in <placeName key="#Cities #Fiscal_property" ref="#places/112"
+                            >Alifa</placeName>, loco qui dicitur Massana, cum omnibus suis
+                        pertinentibus, Sancte Sophie <rs key="#Monasteries">monasterium</rs>
+                        concessimus possidendum. Quod vero <rs
+                            key="#Marquis’/ducal/princely_diploma #Offersio/donatio">preceptus
+                            oblationis</rs> ex iussione et dictatus nominate potestatis scripsi ego
+                            <persName key="#Notary" ref="#people/3410">Lopoald</persName>
+                        <rs key="#Notary">notarius</rs>. Actus <placeName key="#Cities"
+                            ref="#places/110">Beneventus</placeName> in filicissimus <rs
+                            key="#Palatium">palatio</rs> in anno septimo decimo, mensis novembrio
+                        per indictione tertiam decimam. Feliciter.</ab>
                                             <ab><note>Nel cartulario è presente anche un riassunto
                             del documento, inserito nel falso <foreign>preceptum donationum,
                                 concessionum et confirmationum</foreign> del novembre 774 (CSS, (†)

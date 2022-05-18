@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Lucca, Archivio di Stato, Diplomatico, S. Ponziano, XI</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                        </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc2392</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">--Offersio/donatio</rs>
+                                    <rs type="record_source" ref="#">Original document</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate notBefore="1001-01-01" notAfter="1100-12-31">
+                                <note type="displayed_date"/>
+                                <note type="dating_elements">Stile dell'incarnazione</note>
+                                <note type="topical_date">Lucca</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance>
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                            <place></place>
+                        </listPlace>
+                        <listPerson>
+                            <person></person>
+                        </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2022-04-29" who="langeli">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab>Il <rs key="#Notary">notaio imperiale</rs>
+                        <persName key="#Notary"><name ref="Gotefredus/Morectus">Gottifridi</name>
+                            detto Moretto</persName> del <persName>fu <name ref="Podo"
+                            >Boddo</name></persName> e la moglie <persName><name ref="Berta"
+                                >Berta</name></persName> del <persName>fu <name ref="Ursus"
+                                >Orso</name></persName>, con il consenso del marito, interrogata dal
+                            <rs key="#Judge #Other_palatine_officer">giudice del sacro palazzo</rs>
+                        <persName key="#Witness #Other_palatine_officer #Judge"><name ref="Iohannes"
+                                >Giovanni</name></persName>, offrono pro anima loro al <rs
+                            key="#Monasteries">monastero</rs> di <orgName
+                            ref="#juridical_persons/71" key="#Landed_possessions #Monasteries">San
+                            Ponziano</orgName> di <placeName ref="#places/4">Lucca</placeName>,
+                        omnibus casis et terris seo rebus poste in loco et finibus <placeName
+                            ref="#places/36">Saltochio</placeName> ubi dicitur <placeName
+                            ref="#places/36">a la Piastre</placeName> et ubi dicitur <placeName
+                            ref="#places/36">Vergelloro</placeName> et ubi dicitur <placeName
+                            ref="#places/36">a Vimgna Vergelloro</placeName> et in eorum finibus,
+                        con tutte le loro dipendenze. Chiedono al <rs key="#Notary #Writer">notaio
+                            imperiale</rs>
+                        <persName key="#Notary #Writer"><name ref="Rodulfus"
+                            >Rodolfo</name></persName> la stesura della cartula. Actum foris Luca
+                        prope suprascripta ecclesia et monasterio Sancti Pontiani. <rs
+                            key="#Witness">Testimoni</rs> sottoscrittori: Giovanni iudex sacri
+                        palatii, <persName key="#Witness"><name ref="Wido">Guido</name></persName>,
+                            <persName key="#Witness"><name ref="Wido">Guido</name></persName> del
+                            <persName key="#Judge">fu <name ref="Rodelandus"
+                            >Rodilando</name></persName>
+                        <rs key="#Judge">iudex</rs>, <persName key="#Witness"><name ref="Hubertus"
+                                >Uberto</name></persName>.</ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>Degli Azzi Vitelleschi, 2, n. 130, p. 45.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p><ref>https://www.archiviodigitale.icar.beniculturali.it/it/185/ricerca/detail/553723</ref></p>
+                    </div>
+                    <div type="commentary">
+                        <p>Sottoscrizioni autografe: Goffredo not. dom imp.; Giovanni iudex saci
+                    palatii; Guido; Uberto. Della datazione rimane leggibile: <foreign>nono cal.
+                        octubris ind. septima</foreign>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

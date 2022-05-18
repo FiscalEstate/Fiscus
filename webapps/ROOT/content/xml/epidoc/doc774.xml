@@ -34,7 +34,7 @@
                             <rs type="text_type" ref="#">--Venditio</rs>
                             <rs type="record_source" ref="#">Original document</rs>
                             <rs type="document_tradition" ref="#">Copy</rs>
-                            <rs type="fiscal_property">No</rs>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -89,146 +89,197 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>[+ In nomine Dei eterni salvatoris nostri Iesu] Christi,
-                            <persName>Otto</persName> gratia Dei <rs key="#Emperor/king"
-                            >imperator</rs> augustus, anno imperii eius Deo propicio duodecimo, die
-                        quarto, mensis augusti, indictione septima. Constat me
-                            <persName>Everar|[dus</persName>
-                        <rs key="#Bishops">episcopus</rs> ..] filius bone memorie
-                            <persName>Bonefacii</persName> qui fuit <rs key="#Marquis/duke"
+                    <ab>[+ In nomine Dei eterni salvatoris nostri Iesu] Christi, <persName
+                            key="#Emperor/king" ref="#people/239">Otto</persName> gratia Dei <rs
+                            key="#Emperor/king">imperator</rs> augustus, anno imperii eius Deo
+                        propicio duodecimo, die quarto, mensis augusti, indictione septima. Constat
+                        me <persName key="#Bishops #Ripuarian" ref="#people/1252"
+                            >Everar|[dus</persName>
+                        <rs key="#Bishops">episcopus</rs>
+                        <orgName key="#Bishops #Ripuarian" ref="#juridical_persons/1402"><placeName
+                                key="#Bishops" ref="#places/505">Aretinensis</placeName></orgName>]
+                        filius bone memorie <persName key="#Marquis/duke #Ripuarian"
+                            ref="#people/23">Bonefacii</persName> qui fuit <rs key="#Marquis/duke"
                             >marchio</rs> qui professo s[um] ex nacione mea lege vivere <rs
                             key="#Ripuarian">Ribuariorum</rs>, accepissem sicuti et in presentia
-                                <persName><name>Vualterii</name></persName>
+                            <persName key="#Other_clerics #Missus_regis #Witness"><name
+                                ref="Walterius">Vualterii</name></persName>
                         <rs key="#Other_clerics">clericus</rs> | [et <rs key="#Missus_regis"
                             >missus</rs> .. im]peratoris qui per meam qui supra Everardi episcopi
                         licenciam in iudicio residebat ante <rs key="#Churches">ecclesiam</rs>
-                        <orgName>Sancti Ippoliti</orgName>, sita locus
-                            <placeName>Boblena</placeName>, et est ipsa ecclesia cum predicto locus
-                        propria suprascripte | [.. r]esidentibus cum eo
-                                <persName><name>Adrepertus</name></persName>,
-                                <persName><name>Luitardus</name></persName>
-                        <rs key="#Scabini">dativus</rs>,
-                        <persName><name>Dominicus</name></persName>,
-                            <persName><name>Farurfus</name></persName>, [i]tem
-                                <persName><name>Farurfus</name></persName>,
-                                <persName><name>Ugo</name></persName>,
-                            <persName><name>Leo</name></persName>
-                        <rs key="#Other_palatine_officer #Judge">iudices</rs> domni imperatoris,
-                                <persName><name>Limbertus</name></persName>,
-                                <persName><name>Gotefredus</name></persName>
-                        <persName><name>Marinus</name></persName>, <persName>Sige [..]o</persName>,
-                                <persName><name>Vuinizo</name></persName>,
-                                <persName><name>Rodulfus</name></persName>,
-                                <persName><name>Adelbertus</name></persName>
+                        <orgName key="#Churches" ref="#juridical_persons/1118">Sancti
+                            Ippoliti</orgName>, sita locus <placeName key="#Assembly #Churches"
+                            ref="#places/1567">Boblena</placeName>, et est ipsa ecclesia cum
+                        predicto locus propria suprascripte | [.. r]esidentibus cum eo <persName
+                            key="#Scabini #Assembly #Witness"><name ref="Adrebertus"
+                                >Adrepertus</name></persName>, <persName
+                            key="#Scabini #Assembly #Witness"><name ref="Liutwardus"
+                                >Luitardus</name></persName>
+                        <rs key="#Scabini">dativus</rs>, <persName
+                            key="#Other_palatine_officer #Judge #Assembly #Witness"><name
+                                ref="Dominicus">Dominicus</name></persName>, <persName
+                            key="#Other_palatine_officer #Judge #Assembly #Witness"><name
+                                ref="Farulfus">Farurfus</name></persName>, [i]tem <persName
+                            key="#Other_palatine_officer #Judge #Assembly #Witness"><name
+                                ref="Farulfus">Farurfus</name></persName>, <persName
+                            key="#Other_palatine_officer #Judge #Assembly #Witness"><name ref="Hugo"
+                                >Ugo</name></persName>, <persName
+                            key="#Other_palatine_officer #Judge #Assembly #Witness"><name ref="Leo"
+                                >Leo</name></persName>
+                        <rs key="#Other_palatine_officer #Judge #Assembly">iudices</rs> domni
+                        imperatoris, <persName key="#vassusOf #Assembly #Witness"><name
+                                ref="Lambertus">Limbertus</name></persName>, <persName
+                            key="#vassusOf #Assembly #Witness"><name ref="Gotefredus"
+                                >Gotefredus</name></persName>
+                        <persName key="#vassusOf #Assembly #Witness"><name ref="Marinus"
+                                >Marinus</name></persName>, <persName
+                            key="#vassusOf #Assembly #Witness">Sige [..]o</persName>, <persName
+                            key="#vassusOf #Assembly #Witness"><name ref="Winizo"
+                            >Vuinizo</name></persName>, <persName key="#vassusOf #Assembly #Witness"
+                                ><name ref="Rodulfus">Rodulfus</name></persName>, <persName
+                            key="#vassusOf #Assembly #Witness"><name ref="Adalbertus"
+                                >Adelbertus</name></persName>
                         <rs key="#vassusOf">vassis</rs> suprascripti donni Everardi episcop(u)s et
                         reliqui plures; ibique in eodem <rs key="#Assembly">iudicio</rs> tam in
                         ipsius suprascripti Vualterii clericus et missus quamque et suprascriptorum
                         [..|..bu] vel <rs key="#Witness">testium</rs> presentia accepi a te
-                                <persName><name>Mauringus</name></persName> habitator in loco qua
-                        dicitur <placeName>Prade</placeName> et filius quondam <persName><name
-                                ref="Iohannes">Iohanni</name></persName> de loco
-                            <placeName>Carolio</placeName> argentum per denarios bonos libras
-                        quinquaginta [singulas]| per una qui supra libra denarii ducentii
-                        quadraginta, finitum precium sicut inter nobis bona cum evenit voluntate,
-                        pro mea porcione de <rs key="#Curtes">cortem</rs> unam <rs
-                            key="#Domuscultae">domuicoltilem</rs> qui est constitutam ultra <rs
-                            key="#Rivers">fl[uv|io] Reno</rs>, locas que dicitur
-                                <placeName><geogName>Civiciano Paliana</geogName></placeName> cum
-                        omnibus eorum adiacentiis et pertinentiis; seu et pro <rs
-                            key="#Casae/cassinae_massaricie">masaricies</rs> numerum sedecim et
-                        dimidium, quibus sunt posites tres in loco qui dicit[ur |
-                            <placeName>Casteliones</placeName>] una que <rs
-                            key="#Agricultural_workers">regitur</rs> per
-                                <persName><name>Iohannes</name></persName> de
-                                <persName><name>Anno</name></persName>, alia per iuvene
-                                <persName><name>Sichardo</name></persName>, tercia per
-                                <persName><name>Restano</name></persName> quem tenuit retro tempus
-                                <persName><name>Ainardo</name></persName>; quattuor in loco ubi
-                            <placeName>Tetingo</placeName> dicitur, una que regitur | per
-                                <persName><name ref="Dominicus/Bibitaqua">Dominicus
-                            Bibitaqua</name></persName>, alia per <persName><name ref="Petrus"
-                                >Petrus</name></persName> de <persName><name>Inga</name></persName>,
-                        tercia per <persName><name ref="Iohannes">Iohannes</name></persName> de
-                                <persName><name ref="Ursus">Urso</name></persName>, quarta per
-                                <persName><name>Bonizo que dicitur Petro Berti</name></persName>;
-                        quattuor in loco ubi <placeName>Vuilla</placeName> dicitur, unam quem per |
-                                [<persName><name>Iohann]es</name></persName>
-                        <persName><name>Leoperti</name></persName>, alia per <persName><name
-                                ref="Martinus de Fontana">Martinus de
-                                <placeName>Fontana</placeName></name></persName>, tercia per
-                                <persName><name ref="Petrus/Iulia">Petrus Iulia</name></persName>
-                        quem retro tempore tenuit <persName><name>Vualtruda</name></persName>,
-                        quarta per <persName><name ref="Petrus/Plano">Petrus
-                        Plano</name></persName>; unam in <placeName>Marcuni Aula</placeName> quem
-                        regitur per <persName><name>Teoperto</name></persName>; una et dimi|diam in
-                        loco <placeName>Casola</placeName>, unam que regitur per
-                                <persName><name>Andrea</name></persName>, dimidiam autem detinet
-                                <persName><name ref="Iohannes/Vuassco">Iohannes
-                            Vuassco</name></persName>; unam in <placeName>Fugnano</placeName> quem
-                        regitur per <persName><name>Bonizo</name></persName>
-                        <persName><name>Albuini</name></persName>, duas in loco que dicitur
-                            <placeName>Cellola</placeName>, unam que regitur per <persName><name
-                                ref="Dominicus">Dominicus</name></persName> de
-                                <persName><name>Bonizo</name></persName>, alia per
-                                <persName><name>Belupto</name></persName> et <persName><name
-                                ref="Leo">Leo</name></persName> de <persName><name ref="Dominica"
-                                >Dominica</name></persName>; seu et per meam porcio de <rs
-                            key="#Landed_possessions">terra</rs> cum edificiis que reiacet infra <rs
-                            key="#Castle">castro</rs>
-                        <geogName>Cellola</geogName>; omnia in integrum ipsam meam porcionem de
-                        predictam cor|tem domuicoltilem atque et predictes masaricies seu et
-                        predictam meam porcionem omniam in integrum de predicto castro, seu et pro
-                        mea porcionem de capella una foris et prope ipso castro, | [que] est
-                        constructa in onore <orgName>sancti Cassiani</orgName> et rebus omnibus meo
-                        iuri hic circuitu ipso castro vel capella, et sunt ipsis rebus territoriis
-                        omnibus per mensura iusta ab racionem facta ad perticas [..|..]cima
-                        mensurata illis in predictas locas Civiciano Paliana cum omnibus eorum
-                        adiacienciis vel pertinenciis inter <rs key="#Maiores">terris
-                            laboratoriis</rs> et <rs key="#Hay/fodder">pratis</rs> atque et gerbidis
-                        et <rs key="#Forests">silvis</rs>, iugem centum decem [..2..|... pre]dictes
-                        masaricies pertinent quibus sunt positis in suprascriptas locas Castelione,
-                        Tetingno, Uuillia, Marconiaunla, Casola, Fugnano, Celula, sunt per mensura
-                        iusta desedim et vites cum | [..]eis suarum seu pratis iuges treginta, de
-                        terris arabilis et gerbidis atque <rs key="#Wood">bus[ca]liis</rs> et silvis
-                        iuges decem; coeret ei finis ad omnibus suprascriptis rebus et <rs
-                            key="#Houses">casis</rs> vel castrum et capella, de una parte fluvio |
-                        Reno percurrit, de alia parte fluvio Scultenna percurrit, da tercia parte
-                        percurrit fluvium qui nominatur Pado, sibique alies sunt ab omnia quoerentes
-                        in integrum; et si amplius de meo, qui supra, Eve|rardi episcopus iuri,
-                        rebus territoriis infra predictes fines et coerencies inventum fuerit, omnia
-                        in integrum in tua, qui supra, Mauringi vel ad heredibus tuis aut cui vos
-                        dederitis vel habere statueriris au[t | eorum] heredibus persistent
-                        potestatem proprietario iuri in integrum preter antepositum sit masaricies
-                        numerum dues in loco que dicitur Castelione, una que regitur per
-                                <persName><name ref="Martinus">Martinus</name></persName> et
-                                <persName><name ref="Petrus">Petrus</name></persName> germanis, alie
-                        [..] | de curte quas ante os dies per <rs
-                            key="#Libellus/precaria/emphyteusis">cartula</rs> dedi <persName
-                            key="#Libellus/precaria/emphyteusis"><name>Liutardi qui et
-                            Azo</name></persName>, abitator in <placeName>Planoro</placeName> et
-                        filius itam <persName><name>Liutardi</name></persName>, quod tibi per hanc
-                        cartulam non vendo neque trado, nam aliis omnibus suprascriptis rebus et
-                        casis vel [..] | ec capella meam porcionem superius compreensam totum et in
-                        integrum per hanc cartam abeas, teneas et possideas et facias exinde a
-                        presenti die tu et heredibus tuis aut cui vos dederitis vel hab[ere
-                        statue]|ritis aut eorum heredibus iure proprietario nomine quicquid
-                        volueritis sine omni mea et heredum ac proheredumque meorum contradictione
-                        vel repiticione. Insuper ego, qui supra, Everardus episcopus per cultellum
-                        [..]| cum vuantonem et vuasonem terre atque et ramum arboris coram testibus
-                        tibi exinde legitimam facio tradicionem et corporalem vestitura, et me
-                        exind(em) foris expuli vuarpivi et [..2..]ses [..3..] | tibi reliqui et
-                        nulli alii venditis, donatis, alienatis, obnossiatis vel traditis nisi tibi
-                        si quis vero quod futurum esse non credo, si ego qui supra Everardus
-                        episcopus, quod absit, aut ullus de [heredi]bus ac [..3..]| seu quislibet
-                        opposita persona fuerit que contra hanc cartam venditionis et traditionis
-                        ire quandoque agere tentaverimus aut si eam per covis ingenium inrumpere
-                        [vel in]frange[re ..4..] si ap|parverit ullum datum aut factum seu quodlibet
-                        scriptum anteriore vel posteriore quod nos [ex]inde in aliam partem
-                        fecissemus que contra hunc factum inpedire debent, tunc inferamus vobis vel
-                        ad vestris | heredibus aut cui vos ipsis omnibus suprascriptis rebus
-                        dederitis vel habere statueritis aut eorum heredibus multa quod est pena
-                        auro optime libras sex, argentum ponderas duodecim. Hec autem superius |
-                        anteposui sit antepositum et ad me qui supra Everardus episcopus meique
+                                <persName><name ref="Mauringus">Mauringus</name></persName>
+                        habitator in loco qua dicitur <placeName ref="#places/1574"
+                            >Prade</placeName> et filius quondam <persName><name ref="Iohannes"
+                                >Iohanni</name></persName> de loco <placeName ref="#places/1573"
+                            >Carolio</placeName> argentum per denarios bonos libras quinquaginta
+                        [singulas]| per una qui supra libra denarii ducentii quadraginta, finitum
+                        precium sicut inter nobis bona cum evenit voluntate, pro mea porcione de <rs
+                            key="#Curtes">cortem</rs> unam <rs key="#Domuscultae">domuicoltilem</rs>
+                        qui est constitutam ultra <rs key="#Rivers">fl[uv|io] Reno</rs>, locas que
+                        dicitur <geogName
+                            key="#Houses #Rivers #Curtes #Domuscultae #Casae/cassinae_massaricie #Forests #Maiores #Hay/fodder #Wood #Fiscal_property #Textual_occurrence #Object"
+                            ref="#estates/1129"><placeName key="#Curtes #Domuscultae #Rivers"
+                                ref="#places/1578">Civiciano</placeName>
+                            <placeName key="#Curtes #Domuscultae #Rivers" ref="#places/1579"
+                                >Paliana</placeName></geogName> cum omnibus eorum adiacentiis et
+                        pertinentiis; seu et pro <rs key="#Casae/cassinae_massaricie"
+                            >masaricies</rs> numerum sedecim et dimidium, quibus sunt posites tres
+                        in loco qui dicit[ur | <placeName
+                            key="#Casae/cassinae_massaricie #Agricultural_workers"
+                            ref="#places/1580">Casteliones</placeName>] una que <rs
+                            key="#Agricultural_workers">regitur</rs> per <persName
+                            key="#Agricultural_workers"><name ref="Iohannes"
+                            >Iohannes</name></persName> de <persName><name ref="Anno"
+                            >Anno</name></persName>, alia per iuvene <persName
+                            key="#Agricultural_workers"><name ref="Sicardus"
+                            >Sichardo</name></persName>, tercia per <persName
+                            key="#Agricultural_workers"><name ref="Resto">Restano</name></persName>
+                        quem tenuit retro tempus <persName key="#Agricultural_workers"><name
+                                ref="Aginardus">Ainardo</name></persName>; quattuor in loco ubi
+                            <placeName key="#Casae/cassinae_massaricie #Agricultural_workers"
+                            ref="#places/1569">Tetingo</placeName> dicitur, una que regitur | per
+                            <persName key="#Agricultural_workers"><name ref="Dominicus/Bibitaqua"
+                                >Dominicus Bibitaqua</name></persName>, alia per <persName
+                            key="#Agricultural_workers"><name ref="Petrus">Petrus</name></persName>
+                        de <persName><name ref="Inga">Inga</name></persName>, tercia per <persName
+                            key="#Agricultural_workers"><name ref="Iohannes"
+                            >Iohannes</name></persName> de <persName><name ref="Ursus"
+                            >Urso</name></persName>, quarta per <persName
+                            key="#Agricultural_workers"><name ref="Bonitius/Petrus Berti">Bonizo que
+                                dicitur Petro Berti</name></persName>; quattuor in loco ubi
+                            <placeName key="#Casae/cassinae_massaricie #Agricultural_workers"
+                            ref="#places/1570">Vuilla</placeName> dicitur, unam quem per |
+                            [<persName key="#Agricultural_workers"><name ref="Iohannes"
+                                >Iohann]es</name></persName>
+                        <persName><name ref="Leopertus">Leoperti</name></persName>, alia per
+                            <persName key="#Agricultural_workers"><name ref="Martinus de Fontana"
+                                >Martinus de <placeName key="#Agricultural_workers"
+                                    ref="#places/1581">Fontana</placeName></name></persName>, tercia
+                        per <persName key="#Agricultural_workers"><name ref="Petrus/Iulia">Petrus
+                                Iulia</name></persName> quem retro tempore tenuit <persName
+                            key="#Agricultural_workers"><name ref="Waltruda"
+                            >Vualtruda</name></persName>, quarta per <persName
+                            key="#Agricultural_workers"><name ref="Petrus/Plano">Petrus
+                            Plano</name></persName>; unam in <placeName
+                            key="#Casae/cassinae_massaricie #Agricultural_workers"
+                            ref="#places/1582">Marcuni Aula</placeName> quem regitur per <persName
+                            key="#Agricultural_workers"><name ref="Teudebertus"
+                            >Teoperto</name></persName>; una et dimi|diam in loco <placeName
+                            key="#Casae/cassinae_massaricie #Agricultural_workers"
+                            ref="#places/1572">Casola</placeName>, unam que regitur per <persName
+                            key="#Agricultural_workers"><name ref="Andrea">Andrea</name></persName>,
+                        dimidiam autem detinet <persName key="#Agricultural_workers"><name
+                                ref="Iohannes/Vuassco">Iohannes Vuassco</name></persName>; unam in
+                            <placeName key="#Casae/cassinae_massaricie #Agricultural_workers"
+                            ref="#places/1571">Fugnano</placeName> quem regitur per <persName
+                            key="#Agricultural_workers"><name ref="Bonitius"
+                            >Bonizo</name></persName>
+                        <persName><name ref="Alboinus">Albuini</name></persName>, duas in loco que
+                        dicitur <placeName
+                            key="#Castle #Casae/cassinae_massaricie #Agricultural_workers"
+                            ref="#places/1566">Cellola</placeName>, unam que regitur per <persName
+                            key="#Agricultural_workers"><name ref="Dominicus"
+                            >Dominicus</name></persName> de <persName><name ref="Bonitius"
+                                >Bonizo</name></persName>, alia per <persName
+                            key="#Agricultural_workers"><name ref="Beluptus"
+                            >Belupto</name></persName> et <persName key="#Agricultural_workers"
+                                ><name ref="Leo">Leo</name></persName> de <persName><name
+                                ref="Dominica">Dominica</name></persName>; seu et per meam porcio de
+                            <rs key="#Landed_possessions">terra</rs> cum edificiis que reiacet infra
+                            <rs key="#Castle">castro</rs>
+                        <geogName ref="#estates/1126"
+                            key="#Landed_possessions #Fiscal_property #Textual_occurrence #Object #Castle #Churches"
+                            >Cellola</geogName>; omnia in integrum ipsam meam porcionem de predictam
+                        cor|tem domuicoltilem atque et predictes masaricies seu et predictam meam
+                        porcionem omniam in integrum de predicto castro, seu et pro mea porcionem de
+                        capella una foris et prope ipso castro, | [que] est constructa in onore
+                            <orgName key="#Castle #Churches" ref="#juridical_persons/1114">sancti
+                            Cassiani</orgName> et rebus omnibus meo iuri hic circuitu ipso castro
+                        vel capella, et sunt ipsis rebus territoriis omnibus per mensura iusta ab
+                        racionem facta ad perticas [..|..]cima mensurata illis in predictas locas
+                        Civiciano Paliana cum omnibus eorum adiacienciis vel pertinenciis inter <rs
+                            key="#Maiores">terris laboratoriis</rs> et <rs key="#Hay/fodder"
+                            >pratis</rs> atque et gerbidis et <rs key="#Forests">silvis</rs>, iugem
+                        centum decem [..2..|... pre]dictes masaricies pertinent quibus sunt positis
+                        in suprascriptas locas Castelione, Tetingno, Uuillia, Marconiaunla, Casola,
+                        Fugnano, Celula, sunt per mensura iusta desedim et vites cum | [..]eis
+                        suarum seu pratis iuges treginta, de terris arabilis et gerbidis atque <rs
+                            key="#Wood">bus[ca]liis</rs> et silvis iuges decem; coeret ei finis ad
+                        omnibus suprascriptis rebus et <rs key="#Houses">casis</rs> vel castrum et
+                        capella, de una parte fluvio | Reno percurrit, de alia parte fluvio
+                        Scultenna percurrit, da tercia parte percurrit fluvium qui nominatur Pado,
+                        sibique alies sunt ab omnia quoerentes in integrum; et si amplius de meo,
+                        qui supra, Eve|rardi episcopus iuri, rebus territoriis infra predictes fines
+                        et coerencies inventum fuerit, omnia in integrum in tua, qui supra, Mauringi
+                        vel ad heredibus tuis aut cui vos dederitis vel habere statueriris au[t |
+                        eorum] heredibus persistent potestatem proprietario iuri in integrum preter
+                        antepositum sit masaricies numerum dues in loco que dicitur Castelione, una
+                        que regitur per <persName key="#Agricultural_workers"><name ref="Martinus"
+                                >Martinus</name></persName> et <persName key="#Agricultural_workers"
+                                ><name ref="Petrus">Petrus</name></persName> germanis, alie [..] |
+                        de curte quas ante os dies per <rs key="#Libellus/precaria/emphyteusis"
+                            >cartula</rs> dedi <persName key="#Libellus/precaria/emphyteusis"><name
+                                ref="Liutwardus/Azo">Liutardi qui et Azo</name></persName>, abitator
+                        in <placeName ref="#places/1568">Planoro</placeName> et filius itam
+                                <persName><name ref="Liutwardus">Liutardi</name></persName>, quod
+                        tibi per hanc cartulam non vendo neque trado, nam aliis omnibus
+                        suprascriptis rebus et casis vel [..] | ec capella meam porcionem superius
+                        compreensam totum et in integrum per hanc cartam abeas, teneas et possideas
+                        et facias exinde a presenti die tu et heredibus tuis aut cui vos dederitis
+                        vel hab[ere statue]|ritis aut eorum heredibus iure proprietario nomine
+                        quicquid volueritis sine omni mea et heredum ac proheredumque meorum
+                        contradictione vel repiticione. Insuper ego, qui supra, Everardus episcopus
+                        per cultellum [..]| cum vuantonem et vuasonem terre atque et ramum arboris
+                        coram testibus tibi exinde legitimam facio tradicionem et corporalem
+                        vestitura, et me exind(em) foris expuli vuarpivi et [..2..]ses [..3..] |
+                        tibi reliqui et nulli alii venditis, donatis, alienatis, obnossiatis vel
+                        traditis nisi tibi si quis vero quod futurum esse non credo, si ego qui
+                        supra Everardus episcopus, quod absit, aut ullus de [heredi]bus ac [..3..]|
+                        seu quislibet opposita persona fuerit que contra hanc cartam venditionis et
+                        traditionis ire quandoque agere tentaverimus aut si eam per covis ingenium
+                        inrumpere [vel in]frange[re ..4..] si ap|parverit ullum datum aut factum seu
+                        quodlibet scriptum anteriore vel posteriore quod nos [ex]inde in aliam
+                        partem fecissemus que contra hunc factum inpedire debent, tunc inferamus
+                        vobis vel ad vestris | heredibus aut cui vos ipsis omnibus suprascriptis
+                        rebus dederitis vel habere statueritis aut eorum heredibus multa quod est
+                        pena auro optime libras sex, argentum ponderas duodecim. Hec autem superius
+                        | anteposui sit antepositum et ad me qui supra Everardus episcopus meique
                         heredes hac proheredes tibi qui supra Mauringi vel ad heredibus tuis aut cui
                         vos dederitis vel habere statueritis aut eorum heredibus | suprascriptam
                         meam porcionem omnia in integrum de predictam cortem domuicoltilem in
@@ -257,26 +308,32 @@
                         notarius et iudex domni imperatoris | rogatus subscripsi. + Ego Dominic[us]
                         | iudex rogatus subscripsi(i).| + Farolfo iudex rogatus subscripsi. +
                         Farolfo iudex rogatus subscripsi. + Ego Leo iudex et notarius rogatus
-                        subscripsi. + Ego Ugo iudex rogatus subscripsi. | (Signum) manibus
-                                <persName><name>Teuzoni</name></persName> et
-                                <persName><name>Grimaldi</name></persName>, seo
-                                <persName><name>Mainardi</name></persName>, atque item
-                                <persName><name>Teuzoni</name></persName>, etiam <persName><name
-                                ref="Marinus">Marini</name></persName>, atque <persName><name
-                                ref="Iohannes">Iohanni</name></persName> etiam
-                                <persName><name>Amelberti</name></persName> lege ribuariorum
-                        viveritis rogati testes. | (ST) Ego qui supra
-                                <persName><name>Batericus</name></persName>
+                        subscripsi. + Ego Ugo iudex rogatus subscripsi. | (Signum) manibus <persName
+                            key="#Ripuarian #Witness"><name ref="Teutius">Teuzoni</name></persName>
+                        et <persName key="#Ripuarian #Witness"><name ref="Grimaldus"
+                            >Grimaldi</name></persName>, seo <persName key="#Ripuarian #Witness"
+                                ><name ref="Maginardus">Mainardi</name></persName>, atque item
+                            <persName key="#Ripuarian #Witness"><name ref="Teutius"
+                            >Teuzoni</name></persName>, etiam <persName key="#Ripuarian #Witness"
+                                ><name ref="Marinus">Marini</name></persName>, atque <persName
+                            key="#Ripuarian #Witness"><name ref="Iohannes">Iohanni</name></persName>
+                        etiam <persName key="#Ripuarian #Witness"><name ref="Amalbertus"
+                                >Amelberti</name></persName> lege ribuariorum viveritis rogati
+                        testes. | (ST) Ego qui supra <persName key="#Notary #Judge #Writer"><name
+                                ref="Batericus">Batericus</name></persName>
                         <rs key="#Notary">notarius</rs> et iudex sacri palacii <rs key="#Writer"
                             >scriptor</rs> huius cartule vindicionis post tradita, complevi et dedi.
-                        + Ego <persName>Adiherius</persName> regie aule iudex autenticum huis
-                        cartule vidi et ita inibi continebatur ut hic scriptum est | nec plus
-                        minusve preter litteras. | (ST) Ego <persName><name>Bonus</name></persName>
-                        sacri paltii iudex autenticum huius cartulae vidi et ita inibi continebatur
-                        ut hic scriptum est preteer | litteras plus minusve. | (ST) <persName
-                            key="#Copyist"><name ref="Iohannes">Iohannes</name></persName> notarius
-                        sacri palacii autenticum huius cartule vidi et ita inibi continebatur ut hic
-                        ante scriptum est preter litteras plus minusve.</ab>
+                        + Ego <persName key="#Other_palatine_officer #Judge" ref="#people/1250"
+                            >Adiherius</persName> regie aule iudex autenticum huis cartule vidi et
+                        ita inibi continebatur ut hic scriptum est | nec plus minusve preter
+                        litteras. | (ST) Ego <persName key="#Other_palatine_officer #Judge"><name
+                                ref="Bonus">Bonus</name></persName> sacri paltii iudex autenticum
+                        huius cartulae vidi et ita inibi continebatur ut hic scriptum est preteer |
+                        litteras plus minusve. | (ST) <persName
+                            key="#Other_palatine_officer #Notary #Copyist"><name ref="Iohannes"
+                                >Iohannes</name></persName> notarius sacri palacii autenticum huius
+                        cartule vidi et ita inibi continebatur ut hic ante scriptum est preter
+                        litteras plus minusve.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
@@ -289,7 +346,8 @@
                 <p/>
             </div>
             <div type="commentary">
-                 <p/>
+                 <p>Si propone l'origine fiscale per il complesso patrimoniale oggetto della
+                    vendita.</p>
             </div>
         </body>
     </text>

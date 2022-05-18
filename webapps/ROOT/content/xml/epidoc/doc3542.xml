@@ -36,7 +36,7 @@
                             <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Uncertain tradition</rs>
-                            <rs type="fiscal_property">Yes</rs>
+                            <rs type="fiscal_property">Uncertain</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -86,8 +86,11 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab><note>Il principe Arechi II offre al monastero di S. Sofia di Benevento
-                            (prosegue l'elenco iniziato con il doc. 3535):</note></ab>
+                    <ab><note>Il <rs key="#Princeps">principe</rs>
+                            <persName key="#Princeps" ref="#people/303">Arechi II</persName> offre
+                            al monastero di S. Sofia di <placeName key="#Cities" ref="#places/110"
+                                >Benevento</placeName> (prosegue l'elenco iniziato con il doc.
+                            3535):</note></ab>
                     <ab>(…) [11] Nec non et <orgName
                             key="#Fiscal_property #Object #Redistributive #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches #Churches"
                                 ><rs key="#Churches">ecclesia</rs> Sancte Marie</orgName> que posita
@@ -95,15 +98,13 @@
                             key="#Gai #Fiscal_property #Mention #Residential"><rs
                                 key="#Gai #Fiscal_property #Mention #Residential">gaio</rs> nostro
                                 <placeName ref="#places/3415"
-                                key="#Gai #Landed_possessions #Churches">Matere in
-                            Affle</placeName></geogName>, largiti sumus et in <orgName
-                            ref="#juridical_persons/85"
+                                key="#Uncertain_tradition #Gai #Landed_possessions #Fiscal_property #Churches"
+                                >Matere in Affle</placeName></geogName>, largiti sumus et in
+                            <orgName ref="#juridical_persons/85"
                             key="#Landed_possessions #Wine #Rights_of_use_on_woods/pastures/waters #Monasteries"
                                 ><rs
                                 key="#Landed_possessions #Wine #Rights_of_use_on_woods/pastures/waters #Monasteries"
-                                >monasterio</rs>
-                            <placeName ref="#places/110" key="#Cities">Sancte
-                            Sofie</placeName></orgName>
+                                >monasterio</rs> Sancte Sofie</orgName>
                         <rs
                             key="#Wine #Fiscal_property #Object #Redistributive #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
                             >vineas</rs> et <rs

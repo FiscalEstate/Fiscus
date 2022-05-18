@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Lucca, Archivio Storico Diocesano, Archivio Arcivescovile, Diplomatico, * B
+                    37</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc3341</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Libellus/precaria/emphyteusis</rs>
+                            <rs type="record_source" ref="#">Original document</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property">Uncertain</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0887-08-22">
+                                <note type="displayed_date">887 August 22</note>
+                                <note type="dating_elements">Settimo anno d'impero di Carlo il
+                                    Grosso</note>
+                                <note type="topical_date">Lucca</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace></origPlace>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-04-29" who="mviti">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab><persName><name ref="Petrus">Petrus</name></persName> filio
+                            <persName>quondam <name ref="Walbrandus">Vualprandi</name></persName> et
+                                <persName><name ref="Andreas">Andreas</name></persName> filio
+                            <persName>quondam <name ref="Petrus">Petri</name></persName> ricevono da
+                            <persName ref="#people/214" key="#Bishops">Gherardus</persName>, gratia
+                        Dei huius sancte Lucane ecclesie humilis <rs key="#Bishops">episcopus</rs>,
+                        per cartula livellario nomine (…), una petia de terra quod est orto illo
+                            <placeName ref="#places/4" key="#Cities #Clusae/gates">foras <rs
+                                key="#Cities">civitate</rs> ista Lucense prope <rs
+                                key="#Clusae/gates">porta Sancti Fridiani</rs></placeName>,
+                        pertenentes ipsius <rs key="#Churches">ecclesie</rs>
+                        <orgName ref="#juridical_persons/70" key="#Confinia #Clusae/gates #Churches"
+                            >Sancti Fridiani</orgName>, qui est de suppotestatem ipsius <rs
+                            key="#Mother_churches">episcopatui</rs> vestro <orgName
+                            ref="#juridical_persons/68" key="#Mother_churches">Sancti
+                            Martini</orgName>; et <rs key="#Confinia">est tenentes ambas
+                            capitas</rs> in <rs>via publica</rs>, lato uno tenet in terra <persName
+                            key="#Confinia"><name ref="Ildebertus">Ildiberti</name></persName>, et
+                        alio lato tenet in terra quod est orto, qui fuit <persName key="#Confinia"
+                            >quondam <name ref="Ermefredus">Ermifridi</name></persName>. Obblighi:
+                        (…) suprascripta petia de terra quod est orto (…) in integrum nobis dedisti
+                        tali ordinem ut da admodum in nostra vel de nostris heredibus sint
+                        potestatem eas abendum, inperandum, laborare faciendum, gubernandum,
+                        meliorandum et nobis eas privato nomine usufructuandum (…). Censo: pro omni
+                        censum et iustitiam exinde tibi vel ad successoribus tuis ad pars ipsius
+                        ecclesie Sancti Fridiani, per singulos annos, reddere debeamus ad
+                        suprascripta ecclesia Sancti Fridiani, per omnem mense novembrio, argentum
+                        denarios bonos expendivilis numero quatuor vobis vel ad ministarialem
+                        vestro, quas in ipsa ecclesia pro tempore fuerit tantum (…). Pena:
+                        spondeamus nos qui supra Petrus et Andreas, una cum nostris heredibus,
+                        conponere tibi (…) penam argentum soledos decem (…). <persName
+                            key="#Writer #Notary"><name ref="Andreas">Andreas</name></persName>
+                        <rs key="#Notary">notarius</rs> scrive due <rs
+                            key="#Libellus/precaria/emphyteusis">cartulas</rs>. Actum <placeName
+                            ref="#places/4" key="#Churches #Mother_churches #Bishops"
+                            >Luca</placeName>.</ab>
+                    <ab>Sottoscrivono come <rs key="#Witness">testimoni</rs>: <persName
+                            key="#Witness"><name ref="Iohannes">Iohannes</name></persName>,
+                            <persName key="#Witness"><name ref="Flaipertus"
+                            >Flaipertus</name></persName>, <persName key="#Witness"><name
+                                ref="Fridegausus">Fridicauso</name></persName>, <persName
+                            key="#Witness"><name ref="Gausfredus">Cosfridi</name></persName>.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>MDL, 5/2, n. 958, pp. 591-592; ChLA, 85, n. 49, pp. 162-163</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p>Viti 2019-2020, pp. 193-194.</p>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>Sottoscrizioni autografe: Iohannes, Flaipertus, Fridicauso, Cosfridi, Andreas
+                    notarius (scrittore). Sottoscrizioni con <foreign>Signa</foreign>: Petrus et
+                    Andreas (livellari). I laici Iohannes e Flaipertus, nelle loro sottoscrizioni,
+                    sfoggiano corsive nuove di tipo professionale arricchite da inflessioni
+                    cancelleresche; Cosfridi mostra una corsiva nuova meno raffinata mentre
+                    Fridicauso utilizza una minuscola indifferenziata di livello usuale. Sul
+                        <foreign>verso</foreign> della pergamena si leggono due note tergali: di
+                    mano del rogatario: <foreign>libello da Petrus et Andreas […15…]</foreign>; di
+                    mano di fine XI secolo, pesantemente ripassata: <foreign>l(ibellum) d(e) horto
+                        S(an)c(ti) Frigiani p(ro)pe eand(em) eccl(esi)am</foreign>.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

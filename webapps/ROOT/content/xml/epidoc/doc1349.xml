@@ -35,7 +35,7 @@
                             <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Copy</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -83,24 +83,41 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>In nomine Domini Dei Salvatoris nostri Iesu Christi. Nos vir gloriosissimus
-                        Radelchis Dei previdentia Langubardorum gentis princeps, ob salutem anime
-                        nostre, per rogum Iohannis venerabilic abbati nostri, concedimus in
-                        monasterio Beate Sophie, ubi Vvilerona religiosissima abbatissa preesse
-                        videtur, terram sacri nostri palatii que dicitur Bubata, que habet fines de
-                        uno capite fine fluvio Cerbario, de uno latere fine via puplica que pergit
-                        ad Sanctam Palumbam, de alio capite fine ęcclesia Sancti Petri, de alio
-                        quidem latere fine via alia puplica que vadit ad casale Buccellati et fine
-                        vado de Mati Lucanis, in integrum cum inferioribus exuperioribus quantum
-                        supra dictos fines discernit pertinet de actu Sipontino, in ea videlicet
-                        ratione ut amodo et deinceps per hoc nostrum roboreum preceptum supra dictas
-                        terra sicut supra legitur rectores iam dicti monasterii securo nomine habere
-                        et possidere et perfrui valeant et a nullo ex nostris iudicibus, id est
-                        comitibus, gastaldis vel a quibuscumque agentibus habeant aliquam
-                        requisitionem rectores iam phati cenobii, sed perpetuis temporibus
-                        possideantur.Quod vero preceptus oblationis ex iussione supra scripte
-                        potestatis scripsi ego Audoaldus notarius. Actus Beneventus in sacro palatio
-                        tertio anno, mense octubrio, quinta indictione. Feliciter.</ab>
+                    <ab>In nomine Domini Dei Salvatoris nostri Iesu Christi. Nos <rs
+                            key="#Vir_gloriosus/vir_sublimis">vir gloriosissimus</rs>
+                        <persName ref="#people/3463" key="#Princeps">Radelchis</persName> Dei
+                        previdentia Langubardorum gentis <rs key="#Princeps">princeps</rs>, ob
+                        salutem anime nostre, <rs key="#Intercessory">per rogum</rs><persName
+                            key="#Intercessory #Abbots" ref="#people/3469"> Iohannis</persName>
+                        <rs key="#Personal_rank">venerabili</rs>
+                        <rs key="#Abbots">abbati</rs> nostri, concedimus in <orgName
+                            key="#Monasteries" ref="#juridical_persons/85"><rs key="#Monasteries"
+                                >monasterio</rs> Beate Sophie</orgName>, ubi <persName
+                            ref="#people/3461" key="#Abbesses">Wilerona</persName> religiosissima
+                            <rs key="#Abbesses">abbatissa</rs> preesse videtur, <rs
+                            key="#Landed_possessions">terram</rs> sacri nostri palatii que dicitur
+                        Bubata, que habet <rs key="#Fines">fines</rs> de uno capite fine <placeName
+                            ref="#places/3448"><rs key="#Rivers">fluvio</rs> Cerbario</placeName>,
+                        de uno latere fine <rs key="#Roads">via puplica</rs> que pergit ad Sanctam
+                        Palumbam, de alio capite fine <rs key="#Churches">ęcclesia</rs> Sancti
+                        Petri, de alio quidem latere fine <rs key="#Roads">via alia puplica</rs> que
+                        vadit ad casale Buccellati et fine <rs key="#Gualdi">vado</rs> de Mati
+                        Lucanis, in integrum cum inferioribus exuperioribus quantum supra dictos
+                        fines discernit pertinet de <placeName key="#Fiscal_property #Actio"
+                            ref="#places/2836"><rs key="#Actio">actu</rs> Sipontino</placeName>, in
+                        ea videlicet ratione ut amodo et deinceps per hoc nostrum roboreum preceptum
+                        supra dictas terra sicut supra legitur rectores iam dicti monasterii securo
+                        nomine habere et possidere et perfrui valeant et a nullo ex nostris
+                        iudicibus, id est comitibus, gastaldis vel a quibuscumque agentibus habeant
+                        aliquam requisitionem rectores iam phati cenobii, sed perpetuis temporibus
+                        possideantur.Quod vero <rs
+                            key="#Marquis’/ducal/princely_diploma #Offersio/donatio">preceptus
+                            oblationis</rs> ex iussione supra scripte potestatis scripsi ego
+                            <persName ref="#people/3465" key="#Notary">Audoaldus</persName>
+                        <rs key="#Notary">notarius</rs>. Actus <placeName key="#Cities"
+                            ref="#places/110">Beneventus</placeName> in sacro <rs
+                            key="#Fiscal_property">palatio</rs> tertio anno, mense octubrio, quinta
+                        indictione. Feliciter.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">

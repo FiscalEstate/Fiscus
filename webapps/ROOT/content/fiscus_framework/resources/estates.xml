@@ -348,8 +348,9 @@
                         <link type="people" corresp="#people/37" subtype="isConfirmedBy"/>
                         <link type="people" corresp="#people/173" subtype="isConfirmedBy"/>
                         <link type="juridical_persons" corresp="#juridical_persons/2001"
-                            subtype="dependsOn"/>
+                            subtype="isGrantedTo"/>
                         <link type="people" corresp="#people/125" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/2122" subtype="isGrantedBy"/>
                 </place>
                 <place>
                     <geogName>Settepolesini; <foreign>curtis</foreign></geogName>
@@ -1276,20 +1277,20 @@
                     <link type="juridical_persons" corresp="#juridical_persons/126" subtype="link"/>
                 </place>
                 <place>
-                    <geogName>Vilzicara; <foreign>curtis</foreign></geogName>
+                    <geogName><foreign>Vilzacara</foreign>; <foreign>curtis</foreign></geogName>
                     <geogName type="other"><foreign>Vuilzachara</foreign>;
                                 <foreign>Wilzagara</foreign>;
                             <foreign>Guilzaccara</foreign></geogName>
                     <idno>estates/155</idno>
-                    <note>Bonaccini 1994.</note>
-                        <note>La <foreign>curtis</foreign> di Vilzicara ha documentata origine
+                    <note>Bonacini 1994.</note>
+                        <note>La <foreign>curtis</foreign> di Vilzacara ha documentata origine
                             fiscale: i vari passaggi patrimoniali che conobbe sono riferiti in
-                            Bonaccini 1994. Sinteticamente, il complesso nacque in epoca longobarda
+                            Bonacini 1994. Sinteticamente, il complesso nacque in epoca longobarda
                             sul confine tra <foreign>Langobardia</foreign> e
                                 <foreign>Romania</foreign>, una zona connotata militarmente che dopo
                             la conquista del 727 entrò nel fisco regio. È attestata per la prima
                             volta come <foreign>curtis</foreign> nell’899 (come data topica di un
-                            documento in parte falsificato, ma Bonaccini ritiene almeno quel dato
+                            documento in parte falsificato, ma Bonacini ritiene almeno quel dato
                             credibile – DD B I n. +IV, pp. 373-375). In seguito il complesso entrò
                             nella disponibilità allodiale degli Anscarici (il come non è stato
                             tramandato, ma Bonaccini propone alcune ipotesi plausibili), venne
@@ -1298,17 +1299,17 @@
                             matrimoniale, passò dai conti di Piacenza a quelli di Pombia. Nel 1027
                             poi un <foreign>comes Plombensis</foreign> cedette per permuta la
                                 <foreign>curtis</foreign> al monastero di Nonantola (Muratori
-                            1738-1742 V, coll. 437-440). Il monastero concesse quindi Vilzicara a
+                            1738-1742 V, coll. 437-440). Il monastero concesse quindi Vilzacara a
                             Bonifacio: il passaggio non è documentato, ma in un diploma di Callisto
                             II del 1123 si legge “<foreign>Comitissa siquidem Matildis</foreign> […]
                                 <foreign>in paterni juris predio, quod Wilzacara dicitur</foreign>…”
                             (Muratori 1738-1742 V, coll. 257-258). In effetti Nonantola non recuperò
-                            mai più Vilzicara, mentre Matilde la donò alla chiesa di San Cesario sul
+                            mai più Vilzacara, mentre Matilde la donò alla chiesa di S. Cesario sul
                             Panaro, dove aveva costituito una comunità canonicale (CDP I n. 82, pp.
                             258-261 = MGH DD Mat. n. +151, pp. 382-386; confermato da: CDP I n. 89,
                             pp. 278-280 = MGH DD Mat. n. 139, pp. 358-360). Nonostante le ripetute
                             proteste di Nonantola, sostenute anche da un diploma imperiale (MGH DD
-                            Ko III n. 110, pp. 197-199), San Cesario e Vilzicara entrarono
+                            Ko III n. 110, pp. 197-199), S. Cesario e Vilzacara entrarono
                             stabilmente nell’orbita polironiana (Innocenzo II affidò nel 1134 chiesa
                             e <foreign>curtis</foreign> al monastero canossano – Muratori 1738-1742
                             V, col. 259 – e Lotario III confermò il passaggio – MGH DD L III n. 111,
@@ -5170,14 +5171,15 @@
                         <link type="people" corresp="#people/125" subtype="isGrantedBy"/>
                     </place>
                     <place>
-                        <geogName>Panzano; curtis</geogName>
+                        <geogName>Panzano; <foreign>curtis</foreign></geogName>
                         <geogName type="other"/>
                         <idno>estates/2071</idno>
                         <note/>
                         <link type="places" corresp="#places/2999" subtype="correspondsTo"/>
                     </place>
                     <place>
-                        <geogName>Castellum de Brenta; villa</geogName>
+                        <geogName><foreign>Castellum de Brenta</foreign>;
+                            <foreign>villa</foreign></geogName>
                         <geogName type="other"/>
                         <idno>estates/2072</idno>
                         <note/>
@@ -5190,16 +5192,22 @@
                         <link type="people" corresp="#people/3554" subtype="isOwnedBy"/>
                     </place>
                     <place>
-                        <geogName>xyz</geogName>
+                        <geogName>Codevico; <foreign>villa</foreign></geogName>
                         <geogName type="other"/>
                         <idno>estates/2073</idno>
                         <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/2001"
+                            subtype="dependsOn"/>
+                        <link type="places" corresp="#places/2929" subtype="correspondsTo"/>
                     </place>
                     <place>
-                        <geogName>xyz</geogName>
+                        <geogName>Nosedole; <foreign>villa</foreign></geogName>
                         <geogName type="other"/>
                         <idno>estates/2074</idno>
                         <note/>
+                        <link type="places" corresp="#places/624" subtype="correspondsTo"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/2001"
+                            subtype="dependsOn"/>
                     </place>
                     <place>
                         <geogName>xyz</geogName>
@@ -5308,7 +5316,7 @@
                         <link type="people" corresp="#people/125" subtype="isGrantedBy"/>
                     </place>
                     <place>
-                        <geogName>Campitello; <foreign>curtis</foreign> (Mantova)</geogName>
+                        <geogName>Campitello; <foreign>curtis</foreign></geogName>
                         <geogName type="other"/>
                         <idno>estates/2986</idno>
                         <note/>
@@ -5316,6 +5324,30 @@
                         <link type="juridical_persons" corresp="#juridical_persons/1426"
                             subtype="isGrantedTo"/>
                         <link type="people" corresp="#people/125" subtype="isGrantedBy"/>
+                    </place>
+                    <place>
+                        <geogName>Conca; villa</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/2987</idno>
+                        <note>vd. Bonacini 2000, pp. 669-670.</note>
+                        <link type="places" corresp="#places/2969" subtype="correspondsTo"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/2075"
+                            subtype="dependsOn"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/2001"
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/54" subtype="isGrantedBy"/>
+                    </place>
+                    <place>
+                        <geogName>Fogolana; villa</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/2988</idno>
+                        <note>vd. Bonacini 2000, pp. 669-670.</note>
+                        <link type="places" corresp="#places/2970" subtype="correspondsTo"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/2075"
+                            subtype="dependsOn"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/2001"
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/54" subtype="isGrantedBy"/>
                     </place>
                 </listPlace>
                 <listPlace n="Giacomelli Alessandro">
@@ -6500,7 +6532,7 @@
                         <idno>estates/914</idno>
                         <note/>
                         <link type="people" corresp="#people/70" subtype="isOwnedBy"/>
-                        <link type="juridical_persons" corresp="#juridical_persons/1222"
+                        <link type="juridical_persons" corresp="#juridical_persons/802"
                             subtype="isGrantedTo"/>
                         <link type="places" corresp="#places/304" subtype="correspondsTo"/>
                     </place>
@@ -6510,7 +6542,7 @@
                         <idno>estates/915</idno>
                         <note>De Francesco 2021: 80, 81, 155, 157, 159, 187</note>
                         <link type="people" corresp="#people/900" subtype="isGrantedBy"/>
-                        <link type="juridical_persons" corresp="#juridical_persons/1222"
+                        <link type="juridical_persons" corresp="#juridical_persons/803"
                             subtype="isGrantedTo"/>
                         <link type="estates" corresp="#estates/103" subtype="dependsOn"/>
                     </place>
@@ -6638,15 +6670,360 @@
                         <geogName type="other"/>
                         <idno>estates/932</idno>
                         <note>Wickham 1978: 160-165. Quest'area adibita a pascolo è localizzabile
-                            sul bordo del cratere o valle di Baccano. Si dispone per il territorio
+                            sul bordo del cratere o valle di Baccano. Si dispone, per il territorio,
                             dello statuto duecentesco del castello di Campagnano, edito e commentato
                             in Carbonetti-Vendittelli 2006. Poiché nella valle del Sorbo è
-                            attestata, nelle confinanze di documenti di XI secolo,  la presenza di
-                            un <foreign>pastoricio Sancti Petri </foreign>, è molto probabile che i
+                            attestata, nelle confinanze di documenti di XI secolo, la presenza di un
+                                <foreign>pastoricio Sancti Petri </foreign>, è molto probabile che i
                                 <foreign>pastoricia domnica</foreign> fossero terre pubbliche a
                             disposizione del papato e adibite al pascolo. </note>
                         <link type="juridical_persons" corresp="#juridical_persons/1100"
                             subtype="isOwnedBy"/>
+                    </place>
+                    <place>
+                        <geogName>Talianus maior; <foreign>fundus</foreign></geogName>
+                        <geogName type="other"/>
+                        <idno>estates/933</idno>
+                        <note>De Francesco 2004: 262. Il fondo è localizzabile nell'area compresa
+                            tra la via Trionfale, la Cornelia e l'Aurelia; probabilmente è collegato
+                            alla più antica <foreign>domusculta</foreign>
+                            <foreign>Galeria Aurelia</foreign>. </note>
+                        <link type="people" corresp="#people/901" subtype="isGrantedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/804"
+                            subtype="isGrantedTo"/>
+                    </place>
+                    <place>
+                        <geogName>Talianus minor; <foreign>fundus</foreign></geogName>
+                        <geogName type="other"/>
+                        <idno>estates/934</idno>
+                        <note>De Francesco 2004: 262. Il fondo è localizzabile nell'area compresa
+                            tra la via Trionfale, la Cornelia e l'Aurelia; probabilmente è collegato
+                            alla più antica <foreign>domusculta</foreign>
+                            <foreign>Galeria Aurelia</foreign>. </note>
+                        <link type="people" corresp="#people/901" subtype="isGrantedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/804"
+                            subtype="isGrantedTo"/>
+                    </place>
+                    <place>
+                        <geogName>Fasciola; <foreign>fundus</foreign></geogName>
+                        <geogName type="other"/>
+                        <idno>estates/935</idno>
+                        <note>De Francesco 2004: 262. Il fondo è localizzabile nell'area compresa
+                            tra la via Trionfale, la Cornelia e l'Aurelia; probabilmente è collegato
+                            alla più antica <foreign>domusculta</foreign>
+                            <foreign>Galeria Aurelia</foreign>. </note>
+                        <link type="people" corresp="#people/901" subtype="isGrantedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/804"
+                            subtype="isGrantedTo"/>
+                    </place>
+                    <place>
+                        <geogName>Casanillo; <foreign>fundus</foreign></geogName>
+                        <geogName type="other"/>
+                        <idno>estates/936</idno>
+                        <note>De Francesco 2004: 262. Il fondo è localizzabile nell'area compresa
+                            tra la via Trionfale, la Cornelia e l'Aurelia; probabilmente è collegato
+                            alla più antica <foreign>domusculta</foreign>
+                            <foreign>Galeria Aurelia</foreign>. </note>
+                        <link type="people" corresp="#people/901" subtype="isGrantedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/804"
+                            subtype="isGrantedTo"/>
+                    </place>
+                    <place>
+                        <geogName>Casapindula; <foreign>fundus</foreign></geogName>
+                        <geogName type="other"/>
+                        <idno>estates/937</idno>
+                        <note>De Francesco 2004: 262. Il fondo è localizzabile nell'area compresa
+                            tra la via Trionfale, la Cornelia e l'Aurelia; probabilmente è collegato
+                            alla più antica <foreign>domusculta</foreign>
+                            <foreign>Galeria Aurelia</foreign>. </note>
+                        <link type="people" corresp="#people/901" subtype="isGrantedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/804"
+                            subtype="isGrantedTo"/>
+                    </place>
+                    <place>
+                        <geogName>Rotula; <foreign>fundus</foreign></geogName>
+                        <geogName type="other"/>
+                        <idno>estates/938</idno>
+                        <note>De Francesco 2004: 262. Il fondo è localizzabile nell'area compresa
+                            tra la via Trionfale, la Cornelia e l'Aurelia; probabilmente è collegato
+                            alla più antica <foreign>domusculta</foreign>
+                            <foreign>Galeria Aurelia</foreign>. </note>
+                        <link type="people" corresp="#people/901" subtype="isGrantedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/804"
+                            subtype="isGrantedTo"/>
+                    </place>
+                    <place>
+                        <geogName>Cucumelli; <foreign>fundus</foreign></geogName>
+                        <geogName type="other"/>
+                        <idno>estates/939</idno>
+                        <note>De Francesco 2004: 262. Il fondo è localizzabile nell'area compresa
+                            tra la via Trionfale, la Cornelia e l'Aurelia; probabilmente è collegato
+                            alla più antica <foreign>domusculta</foreign>
+                            <foreign>Galeria Aurelia</foreign>. </note>
+                        <link type="people" corresp="#people/901" subtype="isGrantedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/804"
+                            subtype="isGrantedTo"/>
+                    </place>
+                    <place>
+                        <geogName>Protelari; <foreign>fundus</foreign></geogName>
+                        <geogName type="other"/>
+                        <idno>estates/940</idno>
+                        <note>De Francesco 2004: 262. Il fondo è localizzabile nell'area compresa
+                            tra la via Trionfale, la Cornelia e l'Aurelia; probabilmente è collegato
+                            alla più antica <foreign>domusculta</foreign>
+                            <foreign>Galeria Aurelia</foreign>. </note>
+                        <link type="people" corresp="#people/901" subtype="isGrantedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/804"
+                            subtype="isGrantedTo"/>
+                    </place>
+                    <place>
+                        <geogName>Bretti et Subereta; <foreign>casale</foreign></geogName>
+                        <geogName type="other">Insugherata</geogName>
+                        <idno>estates/941</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/806"
+                            subtype="isOwnedBy"/>
+                        <link type="places" corresp="#places/1227" subtype="correspondsTo"/>
+                    </place>
+                    <place>
+                        <geogName>Cleandris; <foreign>fundus</foreign></geogName>
+                        <geogName type="other"/>
+                        <idno>estates/942</idno>
+                        <note/>
+                        <link type="people" corresp="#people/901" subtype="isGrantedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/804"
+                            subtype="isGrantedTo"/>
+                    </place>
+                    <place>
+                        <geogName>Lardaria; <foreign>casa</foreign></geogName>
+                        <geogName type="other"/>
+                        <idno>estates/943</idno>
+                        <note/>
+                        <link type="people" corresp="#people/901" subtype="isGrantedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/804"
+                            subtype="isGrantedTo"/>
+                    </place>
+                    <place>
+                        <geogName>Attalianus; <foreign>fundus</foreign></geogName>
+                        <geogName type="other">Adtalianus</geogName>
+                        <idno>estates/944</idno>
+                        <note/>
+                        <link type="people" corresp="#people/901" subtype="isGrantedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/804"
+                            subtype="isGrantedTo"/>
+                    </place>
+                    <place>
+                        <geogName>Olivetum; <foreign>fundus</foreign></geogName>
+                        <geogName type="other"/>
+                        <idno>estates/945</idno>
+                        <note/>
+                        <link type="people" corresp="#people/901" subtype="isGrantedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/804"
+                            subtype="isGrantedTo"/>
+                    </place>
+                    <place>
+                        <geogName>Atticianus; <foreign>fundus</foreign></geogName>
+                        <geogName type="other"/>
+                        <idno>estates/946</idno>
+                        <note/>
+                        <link type="people" corresp="#people/901" subtype="isGrantedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/804"
+                            subtype="isGrantedTo"/>
+                    </place>
+                    <place>
+                        <geogName>Colle; <foreign>fundus</foreign></geogName>
+                        <geogName type="other"/>
+                        <idno>estates/947</idno>
+                        <note/>
+                        <link type="people" corresp="#people/901" subtype="isGrantedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/804"
+                            subtype="isGrantedTo"/>
+                    </place>
+                    <place>
+                        <geogName>Pauli; <foreign>fundus</foreign></geogName>
+                        <geogName type="other"/>
+                        <idno>estates/948</idno>
+                        <note/>
+                        <link type="people" corresp="#people/901" subtype="isGrantedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/804"
+                            subtype="isGrantedTo"/>
+                    </place>
+                    <place>
+                        <geogName>Buccege; <foreign>fundus</foreign></geogName>
+                        <geogName type="other"/>
+                        <idno>estates/949</idno>
+                        <note/>
+                        <link type="people" corresp="#people/901" subtype="isGrantedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/804"
+                            subtype="isGrantedTo"/>
+                    </place>
+                    <place>
+                        <geogName>Liciniana; <foreign>massa</foreign></geogName>
+                        <geogName type="other"><foreign>Genfluvio</foreign>; </geogName>
+                        <idno>estates/950</idno>
+                        <note>Il toponimo <foreign>Genfluvio</foreign>, accostabile all'attuale Rio
+                            Fiume, rende molto probabile la localizzazione delle terre che
+                            afferivano alla massa tra la costa e l'entroterra di Santa Marinella e
+                            Santa Severa, proprio in corrispondenza dell'attuale Rio Fiume. Ancora
+                            si discute sulla sua identificazione con gli antichi <foreign>praedia
+                                Liciniana</foreign>. </note>
+                        <link type="people" corresp="#people/901" subtype="isGrantedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/804"
+                            subtype="isGrantedTo"/>
+                        <link type="places" corresp="#places/1231" subtype="proximity"/>
+                    </place>
+                    <place>
+                        <geogName>Casaria; <foreign>fundus</foreign></geogName>
+                        <geogName type="other"/>
+                        <idno>estates/951</idno>
+                        <note/>
+                        <link type="people" corresp="#people/901" subtype="isGrantedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/804"
+                            subtype="isGrantedTo"/>
+                        <link type="places" corresp="#places/432" subtype="proximity"/>
+                    </place>
+                    <place>
+                        <geogName>Scurianus; <foreign>fundus</foreign></geogName>
+                        <geogName type="other"/>
+                        <idno>estates/952</idno>
+                        <note/>
+                        <link type="people" corresp="#people/901" subtype="isGrantedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/804"
+                            subtype="isGrantedTo"/>
+                        <link type="places" corresp="#places/1229" subtype="proximity"/>
+                    </place>
+                    <place>
+                        <geogName>Nobula; <foreign>fundus</foreign></geogName>
+                        <geogName type="other"/>
+                        <idno>estates/953</idno>
+                        <note/>
+                        <link type="people" corresp="#people/901" subtype="isGrantedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/804"
+                            subtype="isGrantedTo"/>
+                    </place>
+                    <place>
+                        <geogName>Palmis; <foreign>fundus</foreign></geogName>
+                        <geogName type="other"/>
+                        <idno>estates/954</idno>
+                        <note/>
+                        <link type="people" corresp="#people/901" subtype="isGrantedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/804"
+                            subtype="isGrantedTo"/>
+                    </place>
+                    <place>
+                        <geogName>Vivarium; <foreign>fundus</foreign></geogName>
+                        <geogName type="other"/>
+                        <idno>estates/955</idno>
+                        <note>Posto lungo la via Clodia, questo fondo deve essere distinto
+                            dall'omonimo <foreign>Vivarium</foreign> afferente al
+                                <foreign>patrimonium Labicanum</foreign>. </note>
+                        <link type="people" corresp="#people/901" subtype="isGrantedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/804"
+                            subtype="isGrantedTo"/>
+                    </place>
+                    <place>
+                        <geogName>Vuriana; <foreign>massa</foreign></geogName>
+                        <geogName type="other">Variana?</geogName>
+                        <idno>estates/956</idno>
+                        <note>Poiché il fondo più importante afferente a questa sembra essere il
+                                <foreign>Varianus</foreign>, articolato in
+                                <foreign>Varianus</foreign> e <foreign>Varianus minor</foreign>, è
+                            probabile che il toponimo originale della massa fosse
+                                <foreign>Variana</foreign> e non <foreign>Vuriana</foreign>; ciò che
+                            leggiamo nel documento dell'854, pervenutoci in copia, sarebbe dunque il
+                            risultato di un errore di trascrizione dall'antico originale papiraceo.
+                            Se il fondo <foreign>Tibulianus</foreign> ha a che fare con le antiche
+                            proprietà di Albio Tibullio, localizzabili fra Tivoli, Gabi e
+                            Preneste-Palestrina, allora è probabile che il blocco di fondi afferenti
+                            alla massa <foreign>Variana</foreign> fosse dislocato nella medesima
+                            zona. </note>
+                    </place>
+                    <place>
+                        <geogName>Varianus; <foreign>fundus</foreign></geogName>
+                        <geogName type="other"/>
+                        <idno>estates/957</idno>
+                        <note/>
+                        <link type="estates" corresp="#estates/956" subtype="dependsOn"/>
+                        <link type="people" corresp="#people/901" subtype="isGrantedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/804"
+                            subtype="isGrantedTo"/>
+                    </place>
+                    <place>
+                        <geogName>Varianus <foreign>minor</foreign>;
+                            <foreign>fundus</foreign></geogName>
+                        <geogName type="other"/>
+                        <idno>estates/958</idno>
+                        <note/>
+                        <link type="estates" corresp="#estates/956" subtype="dependsOn"/>
+                        <link type="people" corresp="#people/901" subtype="isGrantedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/804"
+                            subtype="isGrantedTo"/>
+                    </place>
+                    <place>
+                        <geogName>Terrella; <foreign>fundus</foreign></geogName>
+                        <geogName type="other"/>
+                        <idno>estates/959</idno>
+                        <note/>
+                        <link type="estates" corresp="#estates/956" subtype="dependsOn"/>
+                        <link type="people" corresp="#people/901" subtype="isGrantedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/804"
+                            subtype="isGrantedTo"/>
+                    </place>
+                    <place>
+                        <geogName>Agellus; <foreign>fundus</foreign></geogName>
+                        <geogName type="other"/>
+                        <idno>estates/960</idno>
+                        <note/>
+                        <link type="estates" corresp="#estates/956" subtype="dependsOn"/>
+                        <link type="people" corresp="#people/901" subtype="isGrantedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/804"
+                            subtype="isGrantedTo"/>
+                    </place>
+                    <place>
+                        <geogName>Tibulianus; <foreign>fundus</foreign></geogName>
+                        <geogName type="other"/>
+                        <idno>estates/961</idno>
+                        <note/>
+                        <link type="estates" corresp="#estates/956" subtype="dependsOn"/>
+                        <link type="people" corresp="#people/901" subtype="isGrantedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/804"
+                            subtype="isGrantedTo"/>
+                    </place>
+                    <place>
+                        <geogName>Casambri; <foreign>fundus</foreign></geogName>
+                        <geogName type="other"/>
+                        <idno>estates/962</idno>
+                        <note/>
+                        <link type="estates" corresp="#estates/956" subtype="dependsOn"/>
+                        <link type="people" corresp="#people/901" subtype="isGrantedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/804"
+                            subtype="isGrantedTo"/>
+                    </place>
+                    <place>
+                        <geogName>Mediana; <foreign>fundus</foreign></geogName>
+                        <geogName type="other"/>
+                        <idno>estates/963</idno>
+                        <note>Non è chiaro se il fondo coincida con l'omonimo <foreign>fundus
+                                Mediana</foreign> del <foreign>patrimonium Labicanum</foreign>. Se
+                            il fondo <foreign>Tibulianus</foreign> ha a che fare con le antiche
+                            proprietà di Albio Tibullio, localizzabili fra Tivoli, Gabi e
+                            Preneste-Palestrina, allora è probabile che il blocco di fondi afferenti
+                            alla massa <foreign>Variana</foreign> fosse dislocato nella medesima
+                            zona, e dunque che i due fondi <foreign>Mediana</foreign> coincidano. </note>
+                        <link type="estates" corresp="#estates/956" subtype="dependsOn"/>
+                        <link type="people" corresp="#people/901" subtype="isGrantedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/804"
+                            subtype="isGrantedTo"/>
+                    </place>
+                    <place>
+                        <geogName>Olianus; <foreign>fundus</foreign></geogName>
+                        <geogName type="other"/>
+                        <idno>estates/964</idno>
+                        <note/>
+                        <link type="estates" corresp="#estates/956" subtype="dependsOn"/>
+                        <link type="people" corresp="#people/901" subtype="isGrantedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/804"
+                            subtype="isGrantedTo"/>
                     </place>
                 </listPlace>
                 <listPlace n="Lazzari Tiziana">
@@ -7331,6 +7708,112 @@
                             subtype="isGrantedTo"/>
                         <link type="places" corresp="#places/80" subtype="isWithin"/>
                     </place>
+                    <place>
+                        <geogName><foreign>Civiciano Paliana</foreign>;
+                            <foreign>curtis</foreign></geogName>
+                        <geogName type="other"/>
+                        <idno>estates/1129</idno>
+                        <note>Il domocoltile della corte è menzionato in una carta di vendita del
+                            979. Nelle attestazioni successive la corte appare disarticolata e
+                            quello che era il domocoltile diviso nelle due località distinte di
+                                <foreign>Civiciano</foreign> e <foreign>Paliana</foreign>.</note>
+                        <link type="people" corresp="#people/1252" subtype="isOwnedBy"/>
+                        <link type="people" corresp="#people/125" subtype="isOwnedBy"/>
+                        <link type="places" corresp="#places/1578" subtype="isWithin"/>
+                        <link type="places" corresp="#places/1579" subtype="isWithin"/>
+                    </place>
+                    <place>
+                        <geogName>Gesso; <foreign>curtis</foreign></geogName>
+                        <geogName type="other"/>
+                        <idno>estates/1130</idno>
+                        <note/>
+                        <link type="people" corresp="#people/125" subtype="isOwnedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/47"
+                            subtype="isHeldBy"/>
+                        <link type="places" corresp="#places/1575" subtype="correspondsTo"/>
+                    </place>
+                    <place>
+                        <geogName><foreign>Paulecla</foreign>; <foreign>curtis</foreign></geogName>
+                        <geogName type="other"/>
+                        <idno>estates/1131</idno>
+                        <note/>
+                        <link type="people" corresp="#people/125" subtype="isOwnedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/47"
+                            subtype="isHeldBy"/>
+                        <link type="places" corresp="#places/1577" subtype="correspondsTo"/>
+                    </place>
+                    <place>
+                        <geogName><foreign>Gissadello</foreign>; <foreign>rocca</foreign></geogName>
+                        <geogName type="other"/>
+                        <idno>estates/1132</idno>
+                        <note/>
+                        <link type="people" corresp="#people/125" subtype="isOwnedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/47"
+                            subtype="isHeldBy"/>
+                        <link type="places" corresp="#places/1576" subtype="correspondsTo"/>
+                    </place>
+                    <place>
+                        <geogName><foreign>Petrosa</foreign>; <foreign>castrum</foreign></geogName>
+                        <geogName type="other"/>
+                        <idno>estates/1133</idno>
+                        <note/>
+                        <link type="places" corresp="#places/1583" subtype="correspondsTo"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/47"
+                            subtype="isOwnedBy"/>
+                    </place>
+                    <place>
+                        <geogName><foreign>Soave</foreign>; <foreign>curtis</foreign></geogName>
+                        <geogName type="other"/>
+                        <idno>estates/1134</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/96"
+                            subtype="isOwnedBy"/>
+                        <link type="places" corresp="#places/1586" subtype="correspondsTo"/>
+                    </place>
+                    <place>
+                        <geogName>Camurana; <foreign>curtis</foreign></geogName>
+                        <geogName type="other"><foreign>Camoriana</foreign></geogName>
+                        <idno>estates/1135</idno>
+                        <note/>
+                        <link type="places" corresp="#places/2948" subtype="correspondsTo"/>
+                        <link type="people" corresp="#people/1256" subtype="link" cert="low"/>
+                        <link type="people" corresp="#people/14" subtype="isGrantedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/47"
+                            subtype="isGrantedTo"/>
+                    </place>
+                    <place>
+                        <geogName>Revere; <foreign>curtis</foreign></geogName>
+                        <geogName type="other"/>
+                        <idno>estates/1136</idno>
+                        <note/>
+                        <link type="places" corresp="#places/2981" subtype="correspondsTo"/>
+                    </place>
+                    <place>
+                        <geogName>Mantova; <foreign>curtis</foreign></geogName>
+                        <geogName type="other"/>
+                        <idno>estates/1137</idno>
+                        <note/>
+                        <link type="places" corresp="#places/275" subtype="isWithin"/>
+                        <link type="people" corresp="#people/1257" subtype="link"/>
+                        <link type="people" corresp="#people/48" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/249" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/14" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/118" subtype="isConfirmedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/47"
+                            subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/1259" subtype="isManagedBy"/>
+                    </place>
+                    <place>
+                        <geogName>Ostiglia; <foreign>silva</foreign></geogName>
+                        <geogName type="other"/>
+                        <idno>estates/1138</idno>
+                        <note/>
+                        <link type="places" corresp="#places/2492" subtype="proximity"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/47"
+                            subtype="isClaimedBy"/>
+                        <link type="people" corresp="#people/49" subtype="isOwnedBy" cert="low"/>
+                        <link type="people" corresp="#people/1260" subtype="isOwnedBy" cert="low"/>
+                    </place>
                 </listPlace>
                 <listPlace n="Massa Paola">
                     <place>
@@ -7344,6 +7827,8 @@
                             Muro 2008, p. 126, fig. 8.</note>
                         <link type="places" corresp="#places/3401" subtype="correspondsTo"/>
                         <link type="people" corresp="#people/303" subtype="isOwnedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/85"
+                            subtype="link"/>
                     </place>
                     <place>
                         <geogName><foreign>Casa Polluci</foreign>; <foreign>gaio</foreign>
@@ -7379,10 +7864,12 @@
                             296-297.</note>
                         <link type="people" corresp="#people/303" subtype="isOwnedBy"/>
                         <link type="places" corresp="#places/3418" subtype="correspondsTo"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/85"
+                            subtype="link"/>
                     </place>
                     <place>
                         <geogName><foreign>Stoni</foreign>; <foreign>gaio</foreign> (Ostuni;
-                            BR)</geogName>
+                            Brindisi)</geogName>
                         <geogName type="other"/>
                         <idno>estates/3405</idno>
                         <note>Situato probabilmente nel territorio di Ostuni (BR), cfr. Martin 1993,
@@ -7393,7 +7880,7 @@
                     <place>
                         <geogName><foreign>Matere in Affle</foreign>; <foreign>gaio</foreign>
                             (Matera)</geogName>
-                        <geogName type="other"/>
+                        <geogName type="other"><foreign>Gaio Affle</foreign></geogName>
                         <idno>estates/3406</idno>
                         <note>Situato probabilmente nel territorio di Matera (MT), cfr. Martin 1993,
                             pp. 196-198, carta 6; CSS, I, 1 [11], p. 299, nt. 1. </note>
@@ -7401,20 +7888,25 @@
                         <link type="people" corresp="#people/303" subtype="isOwnedBy"/>
                     </place>
                     <place>
-                        <geogName><foreign>Fecline</foreign>; <foreign>gaio</foreign>  (Ascoli
-                            Satriano; FG)</geogName>
+                        <geogName><foreign>Fecline</foreign>; <foreign>gaio</foreign> (Ascoli
+                            Satriano; Foggia)</geogName>
                         <geogName type="other"/>
                         <idno>estates/3407</idno>
                         <note>Situato nel territorio di Ascoli Satriano (FG), a sud-ovest della
                             città, vicino al <foreign>gaio Paline</foreign>, cfr. Martin 1993, pp.
                             184, 196 nt 213, 197, nt. 219; CSS, I, 1 [2], pp. 292-293; I, 2, pp.
-                            337-338; 6, pp. 343-345; 20, pp. 365-366.</note>
+                            337-338; 6, pp. 343-345; 20, pp. 365-366. Martin ha suggerito di
+                            identificare con il gaio <foreign>Fecline</foreign> il cd. gaio
+                                <foreign>Scla</foreign> (CSS, I, 1 [57], pp. 329-330, qui doc. n.
+                            3572), ipotizzando un'abbreviatura non risoluta, cfr. CSS, p. 330 nt.
+                            1.</note>
                         <link type="places" corresp="#places/3417" subtype="correspondsTo"/>
-                        <link type="people" corresp="#people/303" subtype="isOwnedBy"/>
+                        <link type="people" corresp="#people/303" subtype="isGrantedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/85" subtype="link"/>
                     </place>
                     <place>
-                        <geogName><foreign>In Strata</foreign>; <foreign>gaio</foreign> (Taranto;
-                            TA)</geogName>
+                        <geogName><foreign>In Strata</foreign>; <foreign>gaio</foreign>
+                            (Taranto)</geogName>
                         <geogName type="other"/>
                         <idno>estates/3408</idno>
                         <note>Situato probabilmente non lontano da Taranto (TA), forse sulla via
@@ -7425,7 +7917,7 @@
                     </place>
                     <place>
                         <geogName><foreign>Paline</foreign>; <foreign>gaio</foreign> (Ascoli
-                            Satriano; FG)</geogName>
+                            Satriano; Foggia)</geogName>
                         <geogName type="other"/>
                         <idno>estates/3400</idno>
                         <note>Il <foreign>gaio Paline</foreign> era probabilmente situato nel
@@ -7438,6 +7930,29 @@
                             CSS, I, 1 [3], p. 294, nt. 1; Ficco 2015, p. 48, nt. 20, fig. 3).</note>
                         <link type="places" corresp="#places/3400" subtype="correspondsTo"/>
                         <link type="people" corresp="#people/303" subtype="isOwnedBy"/>
+                    </place>
+                    <place>
+                        <geogName><foreign>Albuti (de)</foreign>; <foreign>gaio</foreign>
+                            (Liburia)</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/3409</idno>
+                        <note>Toponimo non identificato.</note>
+                        <link type="places" corresp="#places/605" subtype="isWithin"/>
+                    </place>
+                    <place>
+                        <geogName><foreign>Aquilone</foreign>; <foreign>curtis</foreign> (Lucera;
+                            Foggia)</geogName>
+                        <geogName type="other"><foreign>Curtis in Luceria, loco qui dicitur
+                                Aquilone</foreign></geogName>
+                        <idno>estates/3410</idno>
+                        <note>La <foreign>curtis</foreign> doveva essere situata sul torrente Celone
+                                (<foreign>Aquilo</foreign>), affluente del Candelaro, che attraversa
+                            il territorio a sud di Lucera e a nord di Troia e Foggia, cfr. CSS, p.
+                            280 nt. 2.</note>
+                        <link type="people" corresp="#people/303" subtype="isGrantedBy"/>
+                        <link type="places" corresp="#places/2349" subtype="proximity"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/85"
+                            subtype="isOwnedBy"/>
                     </place>
                 </listPlace>
                 <listPlace n="Motta Loris">

@@ -35,7 +35,7 @@
                             <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Uncertain tradition</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Uncertain</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -83,12 +83,21 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab><note>Il principe Arechi II offre al monastero di S. Sofia di Benevento (prosegue
-                        l'elenco iniziato con il doc. 3535):</note></ab> <ab>(…) [64] Seu et ecclesia Sancte Marię, que sita est inter duas vias foras ante porta Summae cum
-                        propria terra sua que dicitur domnica per hec <rs key="#Confinia"
-                        >fines</rs>: de capite usque ad ipsa ecclesia habet passos sedecim, de uno
-                        latere via et de alio latere fine alia via, in integrum monasterio Sancte
-                        Sophie concessimus possidendum. (…)</ab>
+                    <ab><note>Il <rs key="#Princeps">principe</rs>
+                            <persName key="#Princeps" ref="#people/303">Arechi II</persName> offre
+                            al monastero di S. Sofia di <placeName
+                                key="#Uncertain_tradition #Cities #Fiscal_property"
+                                ref="#places/110">Benevento</placeName> (prosegue l'elenco iniziato
+                            con il doc. 3535):</note></ab> <ab>(…) [64] Seu et <orgName key="#Churches" ref="#juridical_persons/3432"><rs key="#Churches"
+                                >ecclesia</rs> Sancte Marię</orgName>, que sita est inter duas vias
+                        foras ante <rs key="#Clusae/gates">Porta</rs> Summae cum propria <rs
+                            key="#Landed_possessions">terra</rs> sua que dicitur domnica per hec <rs
+                            key="#Confinia #Size">fines</rs>: de capite usque ad ipsa ecclesia habet
+                        passos sedecim, de uno latere via et de alio latere fine alia via, in
+                        integrum <orgName
+                            key="#Landed_possessions #Fiscal_property #Object #Redistributive #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches #Churches #Monasteries"
+                            ref="#juridical_persons/85"><rs key="#Monasteries">monasterio</rs>
+                            Sancte Sophie</orgName> concessimus possidendum. (…)</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
