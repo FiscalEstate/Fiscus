@@ -35,7 +35,7 @@
                             <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Copy</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">No</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -83,64 +83,87 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>Cum in Dei nomine coniunximus nos domnus vir gloriosissimus Arigis summus
-                        dux gentis Langobardorum in curte nostra que vocatur Montella, ibi veniens
-                        Mauricius venerabilis abba monasterii Sancti Benedicti quod situm dinoscitur
-                        esse infra civitatem nostram Beneventum, ubi xenodochium esse invenitur, et
-                        suggessit nobis eo quod condoma quas bone recordationis domna Theoderada cum
-                        domno Gisulfo filio suo offerserant in predicto monasterio, que habitare
-                        videtur in Prata, quod Zacharias qui fuit abba contra canonicam regulam
-                        quesitasset et modo se a suo servitio subtrahere querant. Nos quippe dum hec
-                        talia audissemus, continuo iussimus ante nostram vestigia venire ipsos
-                        homines, id est Cęlestinum, Lupum et Ursum, qui causam suam et de germanis
-                        suis agebant, et inquisivimus eos pro qua ratione se a servitio ipsius
-                        venerabilis monasterii subtraherent. Qui adserentes dixerunt: «Certe veritas
-                        est quia et nos et parentes nostri domna Theoderada cum domno Gisolfo duce
-                        filio suo contulerunt in ipso monasterio et servi exinde fuimus, et postea
-                        Zacharias, qui ibi abbas fuit, liberos nos constituit per precepta
-                        gloriosissime memorie domni Gisolfi iunioris seu Godescalc ducum, et per
-                        legem qualiter liberi constituti sumus in nostra libertate permanere
-                        debemus». Ad hęc respondebat nominatus Mauricius abbas: «Veritas est, sicut
-                        asseritis, quod vos quodam Zacharias liberas constituit, sed non fecit
-                        secundum legem et sanctorum Patrum institutiones seu canonicam sanctionem,
-                        et ideo vobis ipsa libertas firmis et stabilis esse non debet, sed qualiter
-                        secundum offertionem istam quam ęccę per manibus teneo vos nominata potestas
-                        concessi servire debeatis». Tunc dum hęc omnia nostra gloriosa potestas
-                        intellexisset, fecimus relegi offertionem monasterii quam Mauricius abbas
-                        ostendebat, et insertum ibi invenimus qualiter domna Theoderada cum domno
-                        Gisolfo filio suo duce superius nominatas condomas ibidem concessissent per
-                        suum firmissimum preceptum. Deinde iussimus religi et precepta illa que
-                        Celestinus cum nominatis parentibus suis de sua libertatem ostendebant, ubi
-                        legebatur qualiter eos domnus Gisolfus iunior dux seu Codescalc qui fuerat
-                        dux per rogum quoddam Zacharię liberassent, sed etiam et firmitatem de ipsis
-                        preceptis quam eis emiserant Scauniperga cum Liutprand filio suo. Quibus
-                        relectis et agnitis eorum altercationibus precepimus sacros adduci canones
-                        in nostram presentiam. Quorum capitula sciscitantes ita continentes
+                    <ab>Cum in Dei nomine coniunximus nos domnus vir gloriosissimus <persName
+                            key="#Marquis/duke" ref="#people/303">Arigis</persName> summus <rs
+                            key="#Marquis/duke">dux</rs> gentis Langobardorum in <rs key="#Curtes"
+                            >curte</rs> nostra que vocatur <placeName ref="#places/3463"
+                            key="#Curtes">Montella</placeName>, ibi veniens <persName key="#Abbots"
+                            ref="#people/3489">Mauricius</persName>
+                        <rs key="#Personal_rank">venerabilis</rs>
+                        <rs key="#Abbots">abba</rs>
+                        <orgName ref="#juridical_persons/3400" key="#Churches #Monasteries"><rs
+                                key="#Monasteries">monasterii</rs> Sancti Benedicti</orgName> quod
+                        situm dinoscitur esse infra <rs key="#Cities">civitatem</rs> nostram
+                            <placeName ref="#places/110" key="#Cities">Beneventum</placeName>, ubi
+                            <rs key="#Hospitals">xenodochium</rs> esse invenitur, et suggessit nobis
+                        eo quod <rs key="#Condomae">condoma</rs> quas bone recordationis
+                            <rs>domna</rs>
+                        <persName ref="#people/1932">Theoderada</persName> cum <rs
+                            key="#Marquis/duke">domno</rs>
+                        <persName ref="#people/1931" key="#Marquis/duke">Gisulfo</persName> filio
+                        suo offerserant in predicto monasterio, que habitare videtur in <placeName
+                            key="#Villages/settlements" ref="#places/2377">Prata</placeName>, quod
+                            <persName key="#Abbots" ref="#people/3453">Zacharias</persName> qui fuit
+                            <rs key="#Abbots">abba</rs> contra canonicam regulam quesitasset et modo
+                        se a suo <rs key="#Servitium">servitio</rs> subtrahere querant. Nos quippe
+                        dum hec talia audissemus, continuo iussimus ante nostram vestigia venire
+                        ipsos homines, id est <name ref="Celestinus">Cęlestinum,</name>
+                        <name ref="Lupus">Lupum</name> et <name ref="Ursus">Ursum</name>, qui causam
+                        suam et de germanis suis agebant, et inquisivimus eos pro qua ratione se a
+                        servitio ipsius venerabilis monasterii subtraherent. Qui adserentes
+                        dixerunt: «Certe veritas est quia et nos et parentes nostri domna Theoderada
+                        cum domno Gisolfo duce filio suo contulerunt in ipso monasterio et servi
+                        exinde fuimus, et postea Zacharias, qui ibi abbas fuit, liberos nos
+                        constituit per precepta gloriosissime memorie domni Gisolfi iunioris seu
+                            <persName key="#Marquis/duke" ref="#people/1918">Godescalc</persName>
+                        ducum, et per legem qualiter liberi constituti sumus in nostra libertate
+                        permanere debemus». Ad hęc respondebat nominatus Mauricius abbas: «Veritas
+                        est, sicut asseritis, quod vos quodam Zacharias liberas constituit, sed non
+                        fecit secundum legem et sanctorum Patrum institutiones seu canonicam
+                        sanctionem, et ideo vobis ipsa libertas firmis et stabilis esse non debet,
+                        sed qualiter secundum <rs key="#Marquis’/ducal/princely_diploma"
+                            >offertionem</rs> istam quam ęccę per manibus teneo vos nominata
+                        potestas concessi servire debeatis». Tunc dum hęc omnia nostra gloriosa
+                        potestas intellexisset, fecimus relegi offertionem monasterii quam Mauricius
+                        abbas ostendebat, et insertum ibi invenimus qualiter domna Theoderada cum
+                        domno Gisolfo filio suo duce superius nominatas condomas ibidem
+                        concessissent per suum firmissimum preceptum. Deinde iussimus religi et
+                        precepta illa que Celestinus cum nominatis parentibus suis de sua libertatem
+                        ostendebant, ubi legebatur qualiter eos domnus Gisolfus iunior dux seu
+                        Codescalc qui fuerat dux per rogum quoddam Zacharię liberassent, sed etiam
+                        et firmitatem de ipsis preceptis quam eis emiserant <persName
+                            ref="#people/2002">Scauniperga</persName> cum <persName
+                            ref="#people/374" key="#Marquis/duke">Liutprand</persName> filio suo.
+                        Quibus relectis et agnitis eorum altercationibus precepimus sacros adduci
+                        canones in nostram presentiam. Quorum capitula sciscitantes ita continentes
                         invenimus ·in sanctorum apostolorum seu Nicino nec non et Anquiritano atque
                         Silvestri pape urbis Romę conciliis ut nullus episcoporum, presbyterorum,
                         diaconorum et clericorum qui sanctis et venerabilibus locis preessent res
                         ecclesię distraherent aut alienare presumant, et qui presumerent a proprio
                         gradu disciderent. Post hęc inreprehensibiliter, prestante Deo, iudicium
                         dare poteremus, iussimus aduci edictum gentis nostre Langobardorum. Quod
-                        sciscitantes invenimus qualiter bone recordationes domnus Liutprand rex
-                        instituit ut precepta que facta anteriora essent statuimus firmiores et
-                        stabiliores esse, sicut volumus ut nostra precepta semper roborem opteneant.
-                        Hidcirco decrevimus atque statuimus ut nominati homines, id est Cęlestinus
-                        cum uxore et germanis suis, et Ursu cum uxore, filiis et germanis suis,
-                        atque Lupus cum genitore, uxore et filiis suis, nec non et Rinco cum uxore
-                        et filiis suis seu filiis Albini, et Fusulus cum uxore, filiis et nepotibus
-                        suis, id est filii Butte et Calbuli, sed etiam et Gemulus cum uxore et
-                        filiis suis, qualiter a potestate predicta in iam phato monasterio sunt
-                        concessi, obediant et deserviant perpetuis temporibus in ipso sancto loco et
-                        ipsius custodibus cum omnibus rebus suis et filiis et filiabus, quos et in
-                        nostra presentia sepius dicto abbati Mauricio et in manu tradere iussimus et
-                        precepta ipsorum ante nostrum conspectu cassari fecimus; tantum de filiis
-                        Celestini pro causa pietatis et anime nostre salute, quos asserebat de
-                        arimanna natus esse, decrevimus ut si ita esset veritas liberi et absoluti
-                        permanerent persone eorum, unde et eis preceptum fieri iussimus; ipse vero
-                        Celestinus cum coniuge sua et omnibus rebus suis seu fratre eius et cuncti
-                        omnibus superius nominatus cum rebus et filiis, filiabus suis atque
-                        coniugibus omni in tempore essent servi iam nominati monasterii Sancti
+                        sciscitantes invenimus qualiter bone recordationes <emph>domnus Liutprand
+                            rex instituit ut precepta que facta anteriora essent statuimus firmiores
+                            et stabiliores esse</emph>, sicut volumus ut nostra precepta semper
+                        roborem opteneant. Hidcirco decrevimus atque statuimus ut nominati homines,
+                        id est Cęlestinus cum uxore et germanis suis, et Ursu cum uxore, filiis et
+                        germanis suis, atque Lupus cum genitore, uxore et filiis suis, nec non et
+                            <name ref="Ringo">Rinco</name> cum uxore et filiis suis seu filiis <name
+                            ref="Albinus">Albini</name>, et <name ref="Fusulus">Fusulus</name> cum
+                        uxore, filiis et nepotibus suis, id est filii <name ref="Buttus"
+                            >Butte</name> et <name ref="Calvus">Calbuli</name>, sed etiam et <name
+                            ref="Gemulus">Gemulus</name> cum uxore et filiis suis, qualiter a
+                        potestate predicta in iam phato monasterio sunt concessi, obediant et
+                        deserviant perpetuis temporibus in ipso sancto loco et ipsius custodibus cum
+                        omnibus rebus suis et filiis et filiabus, quos et in nostra presentia sepius
+                        dicto abbati Mauricio et in manu tradere iussimus et precepta ipsorum ante
+                        nostrum conspectu cassari fecimus; tantum de filiis Celestini pro causa
+                        pietatis et anime nostre salute, quos asserebat de <rs key="#Arimannus"
+                            >arimanna</rs> natus esse, decrevimus ut si ita esset veritas liberi et
+                        absoluti permanerent persone eorum, unde et eis preceptum fieri iussimus;
+                        ipse vero Celestinus cum coniuge sua et omnibus rebus suis seu fratre eius
+                        et cuncti omnibus superius nominatus cum rebus et filiis, filiabus suis
+                        atque coniugibus omni in tempore essent servi iam nominati monasterii Sancti
                         Benedicti sicut et alii qui ibidem serviunt. Unde pro firmitates venerabilis
                         loci hoc nostrum preceptum iudicatum fieri iussimus, ut nullo tempore
                         predicti Cęlestinus, Lupus et Ursus vel eorum heredes de sua libertate agere
@@ -148,9 +171,14 @@
                         Mauricio quam et successoribus tuis obediant et deserviant cum omnibus rebus
                         suis, omni repetitione cessante, et in vestra sint potestate, faciendum ex
                         eis canonice quicquid vobis placuerit. Quod vero iudicatum definitionis ex
-                        iussione nominate potestatis dictavi ego Gaydemari referendarius tibi Beati
-                        notario scribendum. Actum in nominata corte nostra Montellari mense augusto
-                        per indictione quinta decima. Feliciter.</ab>
+                        iussione nominate potestatis dictavi ego <persName
+                            key="#Other_palatine_officer" ref="#people/3490">Gaydemari</persName>
+                        <rs key="#Other_palatine_officer">referendarius</rs> tibi <persName
+                            key="#Notary" ref="#people/3491">Beati</persName>
+                        <rs key="#Notary">notario</rs> scribendum. Actum in nominata <rs
+                            key="#Curtes">corte</rs> nostra <placeName key="#Curtes"
+                            ref="#places/3463">Montellari</placeName> mense augusto per indictione
+                        quinta decima. Feliciter.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
