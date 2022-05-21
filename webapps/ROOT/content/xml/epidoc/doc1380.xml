@@ -35,7 +35,7 @@
                             <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Copy</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -84,18 +84,35 @@
             <div type="edition">
                 <div type="textpart">
                     <ab>[I]n nomine Domini Dei Salvatoris nostri Iesu Christi. Concessemus nos
-                        domnus vir gloriosissimus Romo Wald summus dux genti Langubardorum, per
-                        rogum Audelahis gastaldi nostro, tibi Ursi vistearii nostri condoma nomine
-                        Iohanni cum uxorem, filios et filias suas vel cum omnia eorum pertinentia,
-                        qui fuerunt de Greci, de subacto tuo Ursi, quatinus ab hodierno die habeas
+                        domnus <rs key="#Vir_gloriosus/vir_sublimis">vir gloriosissimus</rs>
+                        <persName ref="#people/2004" key="#Marquis/duke">Romowald</persName> summus
+                            <rs key="#Marquis/duke">dux</rs> genti Langubardorum, <rs
+                            key="#Intercessory">per rogum</rs>
+                        <persName ref="#people/3481"
+                            key="#Gastaldus/vicegastaldus #Other_palatine_officer"
+                            >Audelahis</persName>
+                        <rs key="#Gastaldus/vicegastaldus">gastaldi</rs> nostro, tibi <persName
+                            ref="#people/3604" key="#Other_palatine_officer">Ursi</persName>
+                        <rs key="#Other_palatine_officer">vistearii</rs> nostri <rs
+                            key="#Fiscal_property #Object #Redistributive #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_individuals #Condomae"
+                            >condoma</rs> nomine <name ref="Iohannes">Iohanni</name> cum uxorem,
+                        filios et filias suas vel cum omnia eorum pertinentia, qui fuerunt de
+                            <placeName ref="#places/3465"
+                            key="#Villages/settlements #Fiscal_property">Greci</placeName>, de <rs
+                            key="#Subactio">subacto</rs> tuo Ursi, quatinus ab hodierno die habeas
                         et possedeas tam tu quam et filiis filiorum tuorum, et a nullum quemquam
                         quemquam &lt;sic> hominum nunquam habeatis aliquando aliqua questionem aut
                         reprehensionem, sed perpetuis temporibus ipsa iam nominata condoma cum casa,
                         vineas, territurio, cultum vel incultum, cum mobile et inmobile, omnia et in
                         omnibus habere et possedere valeatis. Quod vero preceptum concessionis ex
-                        iussu nominate potestati dictavi ego Persus vicedominus et referendarius
-                        tibi Godeperto notario scribendum. Actum Benevento in palatio mense augusto
-                        per indictionem tertiam. Feliciter.</ab>
+                        iussu nominate potestati dictavi ego <persName ref="#people/3454"
+                            key="#Other_palatine_officer">Persus</persName>
+                        <rs key="#Other_palatine_officer">vicedominus et referendarius</rs> tibi
+                            <persName ref="#people/3605" key="#Notary">Godeperto</persName>
+                        <rs key="#Notary">notario</rs> scribendum. Actum <placeName
+                            ref="#places/110" key="#Cities">Benevento</placeName> in <rs
+                            key="#Palatium">palatio</rs> mense augusto per indictionem tertiam.
+                        Feliciter.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
