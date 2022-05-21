@@ -35,7 +35,7 @@
                             <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Copy</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -83,21 +83,38 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>[I]n nomine Domini Dei Salvatoris nostri Iesu Christi. Concessimus nos vir
-                        gloriosissimus Sico Dei previdentia Langobardorum gentis princeps, per rogum
-                        Radichis gastaldii fidelis nostri, vobis Adelgise filia sancte recordationis
-                        domni Arichis, integram casam et curtem infra hanc Beneventanam civitatem,
-                        qued dicitur curte minorem; est enim fine fine monasterii Sancte Sophie et
-                        et &lt;sic> fine platea maiore et fine andito qui vadit ante regias Alahis
-                        mari pahis usque in platea0; in ea videlicet ratione ut amodo et deinceps
-                        per hoc nostrum roboreum preceptum predicta casa cum integris finibus suis
-                        tu et heredes tui habere et possidere valeatis et quicquid de eadem iudicare
-                        vel disponere volueris in tua sit potestate iudicandi qualiter volueris, et
-                        a nullo ex nostris iudicibus, id est comitibus, gastaldis vel a quibuscumque
-                        agentibus habeatis aliquam requisitionem, sed perpetuis temporibus
-                        possideatis. Quod vero preceptus concessionis ex iussione nominate
-                        potestatis scripsi ego Theodericus notarius. Actum Benevento primo anno,
-                        mense novembrio per indictionem undecimam. Feliciter.</ab>
+                    <ab>[I]n nomine Domini Dei Salvatoris nostri Iesu Christi. Concessimus nos <rs
+                            key="#Vir_gloriosus/vir_sublimis">vir gloriosissimus</rs>
+                        <persName ref="#people/1986" key="#Princeps">Sico</persName> Dei previdentia
+                        Langobardorum gentis <rs key="#Princeps">princeps</rs>, <rs
+                            key="#Intercessory">per rogum</rs>
+                        <persName key="#Intercessory #Gastaldus/vicegastaldus" ref="#people/3499"
+                            >Radichis</persName>
+                        <rs key="#Gastaldus/vicegastaldus">gastaldii</rs> fidelis nostri, vobis
+                            <persName ref="#people/3600">Adelgise</persName> filia sancte
+                        recordationis domni <persName key="#Princeps #Marquis/duke"
+                            ref="#people/303">Arichis</persName>, integram <rs
+                            key="#Fiscal_property #Object #Redistributive #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_individuals"
+                                ><rs key="#Houses">casam</rs> et <rs key="#Curtes">curtem</rs></rs>
+                        infra hanc <placeName key="#Cities #Fiscal_property" ref="#places/110"
+                            >Beneventanam</placeName>
+                        <rs key="#Cities">civitatem</rs>, que dicitur Curte Minorem; est enim <rs
+                            key="#Fines">fine</rs> fine <orgName ref="#juridical_persons/85"
+                            key="#Monasteries">monasterii Sancte Sophie</orgName> et et &lt;sic>
+                        fine platea maiore et fine andito qui vadit ante regias <persName
+                            key="#Marepahis" ref="#people/3601">Alahis</persName>
+                        <rs key="#Marepahis">mariphis</rs> usque in platea; in ea videlicet ratione
+                        ut amodo et deinceps per hoc nostrum roboreum preceptum predicta casa cum
+                        integris finibus suis tu et heredes tui habere et possidere valeatis et
+                        quicquid de eadem iudicare vel disponere volueris in tua sit potestate
+                        iudicandi qualiter volueris, et a nullo ex nostris iudicibus, id est
+                        comitibus, gastaldis vel a quibuscumque agentibus habeatis aliquam
+                        requisitionem, sed perpetuis temporibus possideatis. Quod vero preceptus
+                        concessionis ex iussione nominate potestatis scripsi ego <persName
+                            key="#Notary" ref="#people/3602">Theodericus</persName>
+                        <rs key="#Notary">notarius</rs> Actum <placeName key="#Cities"
+                            ref="#places/110">Benevento</placeName> primo anno, mense novembrio per
+                        indictionem undecimam. Feliciter.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
