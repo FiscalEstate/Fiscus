@@ -30,10 +30,10 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="#"/>
-                            <rs type="record_source" ref="#"/>
-                            <rs type="document_tradition" ref="#"/>
-                            <rs type="fiscal_property"/>
+                            <rs type="text_type" ref="#">--Venditio</rs>
+                            <rs type="record_source" ref="#">Original document</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property">No</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -41,8 +41,8 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate>
-                                <note type="displayed_date"/>
+                            <origDate when="1188-01-08">
+                                <note type="displayed_date">1188 January 8</note>
                                 <note type="dating_elements"/>
                                 <note type="topical_date"/>
                                 <note type="redaction_date"/>
@@ -82,13 +82,20 @@
             <div type="edition">
                 <div type="textpart">
                     <ab>(S) In nomine Domini nostri Iehsu Christi Dei eterni, (…) anni domini
-                        MCLXXXVIII, VII idus ian., indictione VI (…). Manifestus sum ego Deotisalvi
-                        filius quondam Ubertelli quia per hanc cartulam venditionis vendo et trado
-                        tibi Gratiano quondam Gratie videlicet unum petium terre positum al Melo et
-                        terrefinatus ab una parte cum terra Cerretani, secunda parte cum terra Guidi
-                        quondam Gregorii, a tertia Silci Grillii, a quarta parte Gratiani. (…)
+                        MCLXXXVIII, VII idus ian., indictione VI (…). Manifestus sum ego
+                                <persName><name ref="Deotisalvi">Deotisalvi</name></persName> filius
+                        quondam <persName><name ref="Hubertellus">Ubertelli</name></persName> quia
+                        per hanc cartulam venditionis vendo et trado tibi <persName><name
+                                ref="Gratianus">Gratiano</name></persName> quondam <persName><name
+                                ref="Gratia">Gratie</name></persName> videlicet unum petium terre
+                        positum al Melo et terrefinatus ab una parte cum terra <persName><name
+                                ref="Ceredanus">Cerretani</name></persName>, secunda parte cum terra
+                                <persName><name ref="Wido">Guidi</name></persName> quondam
+                                <persName><name ref="Gregorius">Gregorii</name></persName>, a tertia
+                                <persName><name ref="Silcius/Grillus">Silci
+                            Grillii</name></persName>, a quarta parte Gratiani. (…)
                             <foreign>Pena</foreign>: libras sex. <foreign>Testimoni</foreign>:
-                        Guilia (…).</ab>
+                                <persName><name ref="Wilgia">Guilia</name></persName> (…).</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
@@ -98,7 +105,7 @@
                 <p/>
             </div>
             <div type="bibliography" subtype="links">
-                <p/>
+                <p><ref>https://www.archiviodigitale.icar.beniculturali.it/it/185/ricerca/detail/537359</ref></p>
             </div>
             <div type="commentary">
                 <p>Una nota tergale più tarda recita: "Sancto Genaro". Si può forse pensare che il
