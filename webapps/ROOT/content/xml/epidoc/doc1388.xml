@@ -35,7 +35,7 @@
                             <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Copy</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -83,20 +83,32 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>[I]n nomine Domini Dei Salvatoris nostri Iesu Christi. Concessemus nos vir
-                        gloriosissimus domnus Godescalc summus dux genti Langubardorum tibi Aufrid
-                        filio quoddam Ursi thesaurario nostro puero nomine Urso cum uxore, filios et
-                        filias suas, qui in terra tua ad habetandum se collocaverunt in loco qui
-                        dicitur Fenilia, qui fuerunt de acto Sipontino, de subactionem Warnefrid
-                        gastaldei nostro, quatenus ab hodierno die habeas et in tuo iure dominio
-                        vindicis atque defendas tam tu qui supra Aufrid quam et filiis filiorum
-                        tuorum, et nullo quoquo tempore a quempiam hominem nunquam habeatis
-                        aliquando aliqua questione aut reprehensione, sed perpetuis temporibus per
-                        hunc nostrum firmissimum preceptum securiter et firmiter vos superius
-                        nominatis ips predicta familia habere et fluere valeatis. Quod vero
-                        preceptum concessionis ex iussione nominate potestatis scripsi ego Probatus
-                        notarius. Actum in Sipunto in palatio mense martio per indictione octaba.
-                        Feliciter.</ab>
+                    <ab>[I]n nomine Domini Dei Salvatoris nostri Iesu Christi. Concessemus nos <rs
+                            key="#Vir_gloriosus/vir_sublimis">vir gloriosissimus</rs> domnus
+                            <persName key="#Marquis/duke" ref="#people/1918">Godescalc</persName>
+                        summus <rs key="#Marquis/duke">dux</rs> genti Langubardorum tibi <name
+                            ref="Aufridus">Aufrid</name> filio quoddam <persName ref="#people/3623"
+                            key="#Other_palatine_officer">Ursi</persName>
+                        <rs key="#Other_palatine_officer">thesaurario</rs> nostro <rs
+                            key="#Fiscal_property #Object #Redistributive #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_individuals"
+                            >puero nomine <name ref="Ursus">Urso</name> cum uxore, filios et filias
+                            suas</rs>, qui in terra tua ad habetandum se collocaverunt in loco qui
+                        dicitur Fenilia, qui fuerunt de <placeName ref="#places/2836"
+                            key="#Fiscal_property #Actio"><rs key="#Actio">acto</rs>
+                            Sipontino</placeName>, de <rs key="#Subactio">subactionem</rs>
+                        <persName ref="#people/" key="#Gastaldus/vicegastaldus">Warnefrid</persName>
+                        <rs key="#Gastaldus/vicegastaldus">gastaldei</rs> nostro, quatenus ab
+                        hodierno die habeas et in tuo iure dominio vindicis atque defendas tam tu
+                        qui supra Aufrid quam et filiis filiorum tuorum, et nullo quoquo tempore a
+                        quempiam hominem nunquam habeatis aliquando aliqua questione aut
+                        reprehensione, sed perpetuis temporibus per hunc nostrum firmissimum
+                        preceptum securiter et firmiter vos superius nominatis ips predicta familia
+                        habere et fluere valeatis. Quod vero preceptum concessionis ex iussione
+                        nominate potestatis scripsi ego <persName key="#Notary" ref="#people/3625"
+                            >Probatus</persName>
+                        <rs key="#Notary">notarius</rs>. Actum in <placeName key="#Cities"
+                            ref="#places/2836">Sipunto</placeName> in <rs key="#Palatium"
+                            >palatio</rs> mense martio per indictione octaba. Feliciter.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
