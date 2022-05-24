@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    +L.30</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc4054</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">--Offersio/donatio</rs>
+                                    <rs type="record_source" ref="#">Critical edition</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate notBefore="0755-08-01" notAfter="0755-08-31">
+                                <note type="displayed_date">755 August</note>
+                                <note type="dating_elements">Data: errato ottavo anno di regno, da
+                                    correggere in VII, in linea con l’indizione VIII.</note>
+                                <note type="topical_date"><foreign>Griciano</foreign></note>
+                                <note type="redaction_date"/>
+                             </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-06-01" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab><persName key="#Vir_devotus/vir_honestus"><name ref="Gaiprandus"
+                                >Gaiprand</name></persName>
+                        <rs key="#Vir_devotus/vir_honestus">vir devotus</rs>
+                        <foreign>si indirizza alla </foreign><rs key="#Churches">ecclesie</rs>
+                        <orgName key="#Churches" ref="#juridical_persons/254">beati sancti
+                            Frigidiani</orgName> loco <placeName key="#Churches" ref="#places/750"
+                            >Griciano</placeName>. <foreign>Gaiprando</foreign> quia in <rs
+                            key="#Army">exercito</rs> ad <placeName>Francia</placeName> iteratus sum
+                        ambulandum, proinde consideratus sum Dei temure et mercide anime me qualiter
+                        aliquid de <rs key="#Landed_possessions">rebus</rs> meis pro anima mea
+                        Dominus offerat, qualiter mihi Dominus pro parba tribuit magna <foreign>etc.
+                            Perciò offre</foreign> Deo et tibi ecclesie beati Sancti Frigidiani et
+                            <rs key="#Priests">presbitero</rs> qui inibi ordinatus est aut in antea
+                        fueret <rs key="#Casae/cassinae_massaricie">casa</rs> ubi <persName
+                            key="#Casae/cassinae_massaricie"><name ref="Fileradus"
+                            >Filerat</name></persName> massario resedet, hic in <placeName
+                            key="#Casae/cassinae_massaricie #Cereals #Wine #Oil #Acorns"
+                            ref="#places/750">Griciano</placeName>, una cum <rs key="#Cereals"
+                            >terra</rs>, <rs key="#Wine">vinea</rs>, <rs key="#Oil">oliveto</rs>,
+                            <rs key="#Acorns">silva</rs>, cultum et incultum, mobile et inmobile,
+                        omnia et in omnibus, quantum modo ad ipsa casa pertenet, excepto duas <rs
+                            key="#Petiae">petzas</rs> de terra ad <placeName key="#Petiae"
+                            ref="#places/750">deblo <persName><name ref="Iustulus"
+                                >Iustuli</name></persName>,</placeName> quod in meo reserbo
+                        potestatem. <foreign>La donazione è finalizzata alle preghiere per la sua
+                            anima e alla luminaria. Se ne riserva la potestas finché sia in vita.
+                            Pena: maledizione e</foreign> soledos duocentum.
+                            <foreign>Scrive</foreign>: <persName key="#Writer"><name
+                                ref="Sigebertus">Sichipert</name></persName> amico meo. (…) Actum in
+                            <placeName ref="#places/750">Griciano</placeName>.
+                            <foreign>Sottoscrizioni</foreign>: + Gaiprand viri devoti aucturi; +
+                            <persName key="#Witness #Vir_devotus/vir_honestus"><name ref="Rotcaido"
+                                >Rotcaido</name></persName>
+                        <rs key="#Vir_devotus/vir_honestus">viri devoti</rs> germano eius testis; +
+                            <persName key="#Witness #Vir_devotus/vir_honestus"><name
+                                ref="Gausbertus">Gauspert</name></persName>
+                        <rs key="#Vir_devotus/vir_honestus">viri devoti</rs> similiter germano eius
+                        testis; + <persName key="#Witness #Vir_devotus/vir_honestus"><name
+                                ref="Iohannes">Iohanni</name></persName>
+                        <rs key="#Vir_devotus/vir_honestus">viri devoti</rs> testis.
+                            <foreign>Scrive</foreign>: Sichipert </ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>Muratori 1738-1742, V, 627; MDL V/2, n. 51; CDL I, n. 117, pp. 353-355;
+                    ChLA, XXXII, 940.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                         <p><foreign>Nota dorsale (sec. IX):</foreign> Terra Sancti Fridiani de loco
+                    Gricciano. <foreign>Nota dorsale (sec. XI):</foreign> Carta de eclesia Sancti
+                    Frigiani in Griciano. <foreign>Nota dorsale (sec. XI-XII):</foreign> Offersio in
+                    Sancto Frigiano de terris in Griciano. </p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

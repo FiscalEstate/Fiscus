@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Archivio dell’Abbazia di Montecassino, Reg. 3 (Martin et al.,
+                            <foreign>Registrum Petri Diaconi</foreign>, II, n. 219, p.
+                    675)</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc1210</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Compendium</rs>
+                            <rs type="fiscal_property">Yes</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0963-01-16">
+                                <note type="displayed_date">963 January 16</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date"/>
+                                <note type="redaction_date"/>
+                             </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-05-07" who="atagliente">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine Domini salvatoris nostri Iesu Christi Dei eterni. <persName
+                            key="#Princeps" ref="#people/157">Pandolfus</persName> et <persName
+                            key="#Princeps" ref="#people/315">Landolfus</persName> divina ordinante
+                        providentia <rs key="#Princeps">Langobardorum gentis principes</rs>. Cum
+                        principalis excellentia petitionem dilecti sui petenti clementer favet,
+                        quapropter noverit omnium fidelium nostrorum presentium scilicet ac
+                        futurorum sollertia <persName key="#Gastaldus/vicegastaldus"><name
+                                ref="Adenolfus">Adenolfus</name></persName>
+                        <rs>castaldus</rs> et <persName key="#Gastaldus/vicegastaldus"><name
+                                ref="Wido">Vvido</name></persName>
+                        <rs key="#Gastaldus/vicegastaldus">castaldeus</rs>
+                        <rs key="#sonOf">filii</rs> eius, <rs key="#Personal_rank">dilecti</rs>
+                        nostri, nostram obsecraverunt excellentiam quatenus, ob amore omnipotentis
+                        Dei et salvatione anime nostrae, concederemus in <rs key="#Monasteries"
+                            >monasterio</rs>
+                        <orgName key="#Monasteries" ref="#juridical_persons/84">Beati
+                            Benedicti</orgName> confessoris Christi, ubi nunc donus <persName
+                            key="#Abbots" ref="#people/309">Aligernus</persName>
+                        <rs key="#Abbots">abbas</rs> preesse videtur, <rs key="#Landed_possessions"
+                            >terras</rs> quae sunt <rs key="#Fiscal_property">pertinentes sacri
+                            nostri Palatii</rs> in finibus Aquinensi infra <rs
+                            key="#Confinia #Fines">fines</rs> que inferius declaramus, de quibus
+                        petiit a nostra excellentia ut firmitatis apices in eodem sancto monasterio
+                        fieri iuberemus. Cuius petitionem exaudientes, hos firmitatis apices in
+                        eodem sancto monasterio fieri iussimus, per quos omnino sancimus et
+                        perpetualiter habendum nostris et futuris temporibus concedimus in eodem
+                        sancto et venerabile loco, ad possessionem prefati monasterii et de eius
+                        abbatibus et rectoribus, hoc est quantum sacri nostri Palatii pertinentes
+                        esse videntur de <rs key="#Fiscal_property">terris et aquis</rs> que esse
+                        videntur <geogName
+                            key="#Confinia #Rivers #Lakes #Mountains #Landed_possessions #Forests #Fiscal_property"
+                            ref="#estates/246 #estates/313">in finibus Aquinensis</geogName>, sicut
+                        incipit ab ipsa <rs key="#Confinia">Cosa</rs>, et quomodo salit per ipsum
+                        montem <rs key="#Confinia #Mountains">Sancti Donati</rs> per media <rs
+                            key="#Mountains">serra</rs>, et quomodo descendit super ipsi <rs
+                            key="#Confinia #Mountains">monticelli de Marri</rs> et vadit ad ipsi <rs
+                            key="#Confinia">pescli</rs> qui sunt ad pede de ipsu monte de <rs
+                            key="#Confinia #Mountains">Balba</rs>, et quomodo vadit inde per
+                            <placeName key="#Confinia #Mountains" ref="#places/684">Duos
+                            Leones</placeName>, et inde salit per ipse serre super <placeName
+                            key="#Confinia" ref="#places/685">Casale</placeName>, et inde descendit
+                        per ipsum monte super ipse <placeName key="#Villages/settlements #Confinia"
+                            ref="#places/682">Bille de Gareliano</placeName>, et inde vadit ad ipsu
+                        plescu qui nominatur <rs key="#Confinia">Cripta Imperatoris</rs>, et abinde
+                        descendit in <rs key="#Confinia #Rivers">fluvio de Gareliano</rs> et
+                        ascendit per ipso fluvio usque in iunctura ubi se iungunt ipse <rs
+                            key="#Rivers">Rapido</rs> et ipse<rs key="#Rivers"> Carnello</rs>, et ab
+                        illo ascendit per ipso Carnello usque in iunctura de ipsa Cosa ad supradicto
+                        priore fine. Alia terra habentes fines: ab una parte fine Rapidu, de alia
+                        parte fine ipsu Carnellu, et abinde ascendit per ipsum Carnellum usque in
+                        iunctura de ipsa Cosa a supradictos priores fines. Alia terra habentes
+                        fines: ab una parte fine Rapidu, de alia parte fine ipsu Carnellu, de tertia
+                        parte fine <rs key="#Confinia #Rivers">rivu qui dicitur de Marozza</rs> et
+                        fine <rs key="#Confinia">Farnieto</rs> et fine <rs key="#Confinia #Lakes"
+                            >lacu</rs> qui nominatur <rs key="#Lakes">de Radeprando</rs>, et quomodo
+                        vadit usque in silice, de quarta autem parte fine silice. Simulque et
+                        concedimus in eodem sancto venerabili loco aquas et ripas de ipsa <rs
+                            key="#Rivers">Sonia</rs> cum cursu et alveo suo a <rs key="#Confinia"
+                            >Sancto Cosma</rs> et fine ipsu Carnellu. Ea videlicet ratione
+                        supranominatis terris de quantum sacro nostro Palatio infra dictos fines
+                        pertinere videntur una cum iam dictis <rs
+                            key="#Rights_of_use_on_woods/pastures/waters">aquis et ripis et alveis
+                            et cursus</rs> ipsius aque et cum omnia inferius et superius in iam
+                        dictis terris habentibus, cum viis et aquis et anditis suis, cum <rs
+                            key="#Confinia">sepis et limitibus</rs> et cum pertinentiis suis cunctis
+                        et integris, in prefato sancto monasterio ipsa omnia concedimus et ad
+                        possessionem prefati monasterii et de eius abbatibus et rectoribus, ad
+                        habendum, possidendum et iuxta legem faciendum quem voluerint absque
+                        contrarietate comitis, castaldei, iudicis aut cuiuscumque personae
+                        contradictione vel inquietudine, sed perpetuis temporibus pars prefati
+                        monasterii et eius abbatibus et rectoribus habeant et possideant ea omnia
+                        que superius leguntur faciendumque voluerint, nemine in eodem sancto
+                        monasterio aliqua contraria ingerente. Ut autem haec nostra concessio verius
+                        observetur, manu propria scripsimus et ex anulo nostro subter iussimus
+                        sigillari. Signum domni Pandolfi excellentissimi principis. PADOLVS.
+                            <persName key="#Notary" ref="#people/337">Petrus</persName>
+                        <rs key="#Notary">notarius</rs> ex iussione supradicte potestatis scripsi.
+                        Data XVII kalendas Februarii, anno XX(o) principatus domni Pandolfi et anno
+                        quinto principatus domni Landolfi principibus, indictione .VI. Actum in <rs
+                            key="#Cities">civitate</rs>
+                        <placeName key="#Cities" ref="#places/173">Capua</placeName>. </ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>Voigt 1902, n. 153.</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p>Bloch 1986, p. 1347.</p>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>I principi Pandolfo I e Landolfo III, su richiesta del gastaldo Adenolfo e del
+                    figlio Guido, concedono a Montecassino e ad Aligerno tre territori pubblici nel
+                    territorio di Aquino. Riassunto in CMC, II, 2. Indicazione dell'anello con
+                    sigillo.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

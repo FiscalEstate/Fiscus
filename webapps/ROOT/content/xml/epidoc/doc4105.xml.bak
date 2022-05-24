@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    *L.93</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc4105</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">--Offersio/donatio</rs>
+                                    <rs type="record_source" ref="#">Critical edition</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate when="0766-06-26"> 
+                                        <note type="displayed_date">766 June 26</note>
+                                        <note type="dating_elements"/>
+                                        <note type="topical_date">Lucca</note>
+                                        <note type="redaction_date"/>
+                             </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-06-24" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab><persName key="#Other_clerics"><name ref="Teudebrandus"
+                                >Teudiprando</name></persName>
+                        <rs key="#Other_clerics">clerico</rs> filio quondam <persName><name
+                                ref="Audoaldus">Audualdi</name></persName>, habitatur in <placeName
+                            ref="#places/319">Cappiano</placeName>
+                        <foreign>dona pro anima</foreign> Deo et tibi <rs key="#Churches"
+                            >ecclesiae</rs>
+                        <orgName key="#Baptismal_churches" ref="#juridical_persons/614">beati Sancti
+                            Petri,</orgName> sita in ipso <placeName key="#Baptismal_churches"
+                            ref="#places/319">Cappiano</placeName>, duas <rs
+                            key="#Casae/cassinae_massaricie">casas</rs> meas: et est una de ipsis
+                        casis in <placeName key="#Casae/cassinae_massaricie #Landed_possessions"
+                            >Tufo</placeName>, quae per <persName><name ref="Patrontiola"
+                                >Patrontiola</name></persName> massario meo regitur, cum omnibus <rs
+                            key="#Landed_possessions">rebus</rs> ibidem pertenente (…); similiter et
+                        alia casa est in loco ubi vocitatur <placeName
+                            key="#Casae/cassinae_massaricie #Landed_possessions">ad
+                            Montem</placeName>, simulque cum omnibus <rs key="#Landed_possessions"
+                            >rebus</rs> ad ipsam casam pertenentem (…) et ipsam casam regitur per
+                                <persName><name ref="Cunibertulus">Cunipertulum</name></persName>
+                        massarium. <foreign>Se ne riserva l’usufrutto vitalizio</foreign>. Et volo
+                        ut portionem meam de <orgName>Sancto Savino</orgName>, quae mihi contigit,
+                        sit in potestatem ipsius ecclesiae Sancti Petri, <foreign>riservandosene
+                            l’usufrutto vitalizio</foreign>. Actum <placeName ref="#places/4"
+                            >Luca</placeName>. <foreign>Sottoscrizioni</foreign>: (ss) Teudiprandus
+                        clericus; (ss) <persName key="#Witness #Priests"><name ref="Deusdona"
+                                >Deusduna</name></persName>
+                        <rs key="#Priests">presbiter</rs>; (ss) <persName key="#Witness #Priests"
+                                ><name ref="Ragibertus">Rachipertu</name></persName>
+                        <rs key="#Priests">presbiter</rs>; + <persName key="#Witness #Subdeacons"
+                                ><name ref="Deusdedit">Deusdedit</name></persName>
+                        <rs key="#Subdeacons">subdiaconi</rs> filio <persName><name
+                                ref="Teudebertus">Teutperti</name></persName> testis; + <persName
+                            key="#Witness #Other_clerics"><name ref="Celsus">Celsi</name></persName>
+                        <rs key="#Other_clerics">clerici</rs> filio quondam <persName><name
+                                ref="Gisbertus">Ghisperti</name></persName> testis; + <persName
+                            key="#Witness #Vir_devotus/vir_honestus"><name ref="Perolus"
+                                >Peruli</name></persName>
+                        <rs key="#Vir_devotus/vir_honestus">viri devoti</rs> filio quondam
+                                <persName><name ref="Eliseus">Alisei</name></persName> testis.
+                            <foreign>Scrive</foreign>: <persName key="#Writer #Other_clerics"><name
+                                ref="Ostribertuss">Ostripertus</name></persName>
+                        <rs key="#Other_clerics">clericus</rs>.</ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>MDL V/2, n. 97; CDL II, 197, pp. 192-194; ChLA, XXXIV, 991.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                         <p>
+                    <foreign>Nota dorsale (sec. XI-XII)</foreign>: Cartule offersionis Sancti Petri
+                    de Capiano.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

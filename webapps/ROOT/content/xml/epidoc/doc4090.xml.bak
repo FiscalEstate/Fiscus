@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    *H.10</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc4090</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">--Offersio/donatio</rs>
+                                    <rs type="record_source" ref="#">Critical edition</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">Yes</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate when="0763-02-16"> 
+                                        <note type="displayed_date">763 February 16</note>
+                                        <note type="dating_elements"/>
+                                        <note type="topical_date">Lucca</note>
+                                        <note type="redaction_date"/>
+                             </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-06-17" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab><persName key="#Other_clerics" ref="#people/703">Ermipert</persName>
+                        <rs key="#Other_clerics">clerico</rs>, quia ante hos annos sanctae
+                        recordande memoriae <persName key="#Imperial/royal_diploma #Emperor/king"
+                            ref="#people/48">Aistulf</persName>
+                        <rs key="#Emperor/king">rex</rs> per suum <rs key="#Imperial/royal_diploma"
+                            >cessionis preceptum</rs> donavet et confirmavet <rs key="#Churches"
+                            >ecclesia</rs> et <rs key="#Monasteries">monasterio</rs>
+                        <orgName
+                            key="#Fiscal_property #Object #Redistributive #Outflow #Allocation_to_individuals #Churches #Monasteries"
+                            ref="#juridical_persons/283">Sancti Petri</orgName> fundato a quondam
+                            <persName key="#Fiscal_property #Object #Inflow #Churches #Monasteries"
+                            ref="#people/704"><name ref="Sumualdus">Sumuald</name></persName>, hic
+                        prope <rs key="#Walls">muro</rs> huius<placeName key="#Cities #Walls"
+                            ref="#places/4">
+                            <rs key="#Cities">civitatis</rs></placeName>, cum omnia ividem
+                        pertenente in integrum, <persName
+                            key="#Imperial/royal_diploma #Offersio/donatio #Specialized_workers"
+                            ref="#people/390">Auripert</persName>
+                        <rs key="#Specialized_workers">pictori</rs> germani meo, ut in eius esset
+                        potestate regendi, gubernandi, usufructuandi et ordinandi, qualiter ei
+                        placitum fuerit; et postea per <rs key="#Offersio/donatio">cartulam
+                            firmationis</rs> me in ipsa <rs key="#Churches">eclesia</rs> et <rs
+                            key="#Monasteries">monasterio</rs>
+                        <orgName
+                            key="#Offersio/donatio #Fiscal_property #Object #Redistributive #Outflow #Allocation_to_individuals #Churches #Monasteries"
+                            ref="#juridical_persons/283">Sancti Petri</orgName> in omnibus ordinare
+                        et confirmare visus est, secundum qualiter eum, ut dixi bone memorie Aistulf
+                        rex in ipso monasterio confirmaverat, nisi tantum die vite sue usufructu de
+                        ipso monasterio in suo reservavit dominio. Et ego petivi excellentia domno
+                        meo <persName key="#Imperial/royal_diploma #Emperor/king" ref="#people/249"
+                            >Desiderio</persName>
+                        <rs key="#Emperor/king">regi</rs>, ut per suum <rs
+                            key="#Imperial/royal_diploma">preceptum</rs> predictam <rs
+                            key="#Offersio/donatio">donationis et firmationis mei paginam</rs>
+                        confirmaret; ita et factum est. Nunc vero presenti per hanc paginam bona mea
+                        voluntate qualiter iam dicto germano meo in me ipsa <rs key="#Churches"
+                            >eclesia</rs> et <rs key="#Monasteries">monasterio</rs>
+                        <orgName
+                            key="#Imperial/royal_diploma #Offersio/donatio #Fiscal_property #Object #Redistributive #Outflow #Allocation_to_individuals #Churches #Monasteries"
+                            ref="#juridical_persons/283">Sancti Petri</orgName> confirmavet,
+                        similiter et ego confirmare prevideo te domno meo viro beatissimo <persName
+                            key="#Bishops" ref="#people/343">Peredeo</persName>
+                        <rs key="#Bishops">episcopo</rs> in ipsa eclesia et monasterio ut cunctis
+                        diebus in tua et de successoribus tuis sit potestate ividem ordinatione et
+                        inperatione faciendo in omnibus, qualiter Deo et vobis recte et melius
+                        apparuerit; nisi tantum volo adque instituo ut, dum ego advivere meruero, in
+                        mea sit potestate regendi, inperandi et usufructuandi tantum, non in alio
+                        homine aut in eclesia iterum confirmando. <foreign>Poi passi definitivamente
+                            al vescovo.</foreign> Actum <placeName ref="#places/4">Luca</placeName>.
+                            <foreign>Sottoscrizioni</foreign>: (ss) Ermipert clericus; (ss)
+                            <persName key="#Witness #Priests"><name ref="Ragibrandus"
+                                >Rachiprand</name></persName>
+                        <rs key="#Priests">presbiter</rs>; (ss) <persName key="#Witness #Subdeacons"
+                                ><name ref="Perprandus">Periprandus</name></persName>
+                        <rs key="#Subdeacons">subdiaconus</rs>; (ss) <persName
+                            key="#Witness #Other_clerics"><name ref="Petronax"
+                            >Petronaci</name></persName>
+                        <rs key="#Other_clerics">clericus</rs>; (ss) <persName
+                            key="#Witness #Other_clerics"><name ref="Alabrandus"
+                            >Alaprandu</name></persName>
+                        <rs key="#Other_clerics">clericus</rs>; (ss) <persName
+                            key="#Witness #Other_clerics"><name ref="Sprinca"
+                            >Isprinca</name></persName>
+                        <rs key="#Other_clerics">clericus</rs>. <foreign>Scrive</foreign>: <persName
+                            key="#Writer #Deacons"><name ref="Osprandus">Osprandus</name></persName>
+                        <rs key="#Deacons">diaconus</rs>. [<foreign>Copia</foreign>: <persName
+                            key="#Copyist #Priests"><name ref="Gumbertus"
+                            >Gumpertus</name></persName>
+                        <rs key="#Priests">presbiter</rs>].</ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>Muratori 1738-1742, V, 413; MDL V/2, n. 82; CDL II, 170, pp. 126-128;
+                    ChLA, XXXIII, 976-977.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                         <p><foreign>Nota dorsale (sec. XI-XII)</foreign>: Ordinatio Ermiperti
+                    clerici fratris Auriperti pictoris de monasterio Sancti Petri Sumualdi.
+                        <foreign>Cfr. anche Archivio Storico Diocesano di Lucca, Archivio
+                        Arcivescovile di Lucca, *A.40 (copia secolo VIII) ediz. ChLA, XXXIII, 977
+                        (sostanzialmente identica all'originale).</foreign>
+                    <foreign>Nota dorsale (sec. XI-XII)</foreign>: Exemplar acquistionis Peredei de
+                    monasterio Sancti Petri Sumualdi ab Ermiperto clerico.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    Diplomatico, *C.13 </title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc4037</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">--Venditio</rs>
+                                    <rs type="record_source" ref="#">Critical edition</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate when="0746-12-16"> 
+                                        <note type="displayed_date">746 December 16</note>
+                                        <note type="dating_elements"/>
+                                        <note type="topical_date"><foreign>Massa</foreign></note>
+                                        <note type="redaction_date"/>
+                             </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-05-28" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab><persName key="#Vir_devotus/vir_honestus"><name ref="Causulus"
+                                >Causulu</name></persName>
+                        <rs key="#Vir_devotus/vir_honestus">vir honestus</rs> filius quondam
+                                <persName><name ref="Radaldus">Radualdi</name></persName>
+                        <foreign>vende a</foreign>
+                        <persName key="#Priests"><name ref="Tanualdus">Tanualde</name></persName>
+                        viro venerabili <rs key="#Priests">presbitero</rs> de <orgName
+                            key="#Churches" ref="#juridical_persons/243">beato Sancto
+                            Regulu</orgName> tres parti in <placeName
+                            key="#Casae/cassinae_massaricie #Landed_possessions #Wine #Acorns #Hay/fodder"
+                            ref="#places/753">Teutpasciu</placeName> qui vocitatur <placeName
+                            ref="#places/753">Favarius</placeName>, <rs
+                            key="#Casae/cassinae_massaricie">casa</rs>, <rs
+                            key="#Landed_possessions">terra</rs>, <rs key="#Wine">vineis</rs>, cultu
+                        vel incultu, <rs key="#Acorns">silvis</rs> et <rs key="#Hay/fodder"
+                            >pascuas</rs>; quo dix, que ad me vel duis germani meis pertinet,
+                        exceptu quarta parte quen tenu filiis quondam <persName><name
+                                ref="Radipertus">Radiperti</name></persName>;
+                            <foreign>prezzo:</foreign> auris soledus nomero decem et octo;
+                            <foreign>pena in duplum. Scrive:</foreign>
+                        <persName key="#Writer"><name ref="Aldebertus">Altipert</name></persName>
+                        amico meo (…). Actum <geogName key="#Fines" ref="#estates/210"
+                            >Luca</geogName>
+                        <rs key="#Fines">finibus</rs>, <placeName ref="#places/754"
+                            >Massa</placeName>. <foreign>Sottoscrizioni:</foreign> + Causuli viri
+                        honesti vendituri; + <persName key="#Witness #Vir_devotus/vir_honestus"
+                                ><name ref="Radipertus">Ratpert</name></persName>
+                        <rs key="#Vir_devotus/vir_honestus">viri devoti</rs> soceru eius testis; +
+                            <persName key="#Witness #Vir_devotus/vir_honestus"><name
+                                ref="Garipertus">Gairepert</name></persName>
+                        <rs key="#Vir_devotus/vir_honestus">viri devoti</rs> filius quondam
+                                <persName><name ref="Aregis">Arochis</name></persName> testis; +
+                            <persName key="#Witness #Vir_devotus/vir_honestus"><name
+                                ref="Ildebrandus">Elprandi</name></persName>
+                        <rs key="#Vir_devotus/vir_honestus">viri devoti</rs> testis; + <persName
+                            key="#Witness #Vir_devotus/vir_honestus"><name ref="Regulus"
+                                >Reculi</name></persName>
+                        <rs key="#Vir_devotus/vir_honestus">viri devoti</rs> filius quondam
+                        Vitaliani testis; + <persName key="#Witness #Vir_devotus/vir_honestus"><name
+                                ref="Bonari homo Pisanus">Bonari</name></persName>
+                        <rs key="#Vir_devotus/vir_honestus">viri devoti</rs> filius quondam
+                                <persName><name ref="Auradus">Auradi</name></persName> homo
+                            <placeName ref="#places/66">Pisanus</placeName> testis.
+                            <foreign>Scrive:</foreign> Altipert vir devotus. </ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>MDL V/2, n. 35; CDL I, n. 87, pp. 254-256; ChLA, XXXI, 925.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                         <p><foreign>Nota dorsale (sec. VIII)</foreign>: carta de Causulo de
+                    T[anualdo] Sancti Reguli. <foreign>Nota dorsale (sec. XII ex):</foreign> cartula
+                    Sancti Reguli de casis et rebus in Teopascio.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

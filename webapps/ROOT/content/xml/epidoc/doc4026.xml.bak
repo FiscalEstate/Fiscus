@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    Diplomatico, +G.92</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc4026</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">--Venditio</rs>
+                                    <rs type="record_source" ref="#">Critical edition</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate notBefore="0739-01-01" notAfter="0739-01-31">
+                                <note type="displayed_date">739 January</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">S. Pietro, territorio di Lucca</note>
+                                <note type="redaction_date"/>
+                             </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-05-26" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab><persName key="#Vir_devotus/vir_honestus"><name ref="Pettus"
+                                >Pettu</name></persName>
+                        <rs key="#Vir_devotus/vir_honestus">viro devoto</rs> filio quondam
+                                <persName><name ref="Aldus de vico Viniale">Alti</name></persName>
+                        de <placeName key="#Vici" ref="#places/751"><rs key="#Vici">vico</rs>
+                            Viniale</placeName>
+                        <foreign>vende ad</foreign>
+                        <persName key="#Priests"><name ref="Aloinus">Aloin</name></persName> viro
+                        venerabili <rs key="#Priests">presbitero</rs> aliquantula <rs
+                            key="#Landed_possessions">terrula</rs> iuris meis in loco qui vocitator
+                            <placeName key="#Landed_possessions #Size" ref="#places/295"
+                            >Limite</placeName>, ubi vocavolum est <placeName
+                            key="#Landed_possessions #Size" ref="#places/295"
+                            >Centuporche</placeName>, et est <rs key="#Size">plus mino scaffiliorum
+                            tre</rs>: capu uno tene in via publica, et alio caput tene in limite, et
+                        de latere uno tene in <rs key="#Landed_possessions">terra</rs> de filii
+                        quondam <persName key="#Confinia #Landed_possessions"><name ref="Alfredus"
+                                >Alfridi</name></persName>, et de alio latere in <rs
+                            key="#Landed_possessions">terra</rs>
+                        <persName key="#Confinia #Landed_possessions"><name ref="Audulfus"
+                                >Audolfi</name></persName>; <foreign>prezzo</foreign>: auri soledos
+                        numero octo; <foreign>pena in duplum</foreign>. <foreign>Scrive</foreign>:
+                            <persName key="#Writer"><name ref="Teuderadus"
+                            >Teuderado</name></persName> amico nostro. (…) Actum ad <rs
+                            key="#Churches">eclesia</rs>
+                        <orgName key="#Churches">beati Sancti Petri</orgName>, <rs key="#Comitatus"
+                            >territurio</rs>
+                        <geogName key="#Comitatus" ref="#estates/210">Lucense</geogName>.
+                            <foreign>Sottoscrizioni</foreign>: + Petto viri devoti venditori; +
+                            <persName key="#Witness #Vir_devotus/vir_honestus"><name ref="Allo"
+                                >Alloni</name></persName>
+                        <rs key="#Vir_devotus/vir_honestus">viri devoti</rs> testis; + <persName
+                            key="#Witness #Vir_devotus/vir_honestus"><name ref="Maurus"
+                            >Mauri</name></persName>
+                        <rs key="#Vir_devotus/vir_honestus">viri devoti</rs> testis; + <persName
+                            key="#Witness #Vir_devotus/vir_honestus"><name ref="Walfredus"
+                                >Walfridi</name></persName> filio quondam <persName><name
+                                ref="Alfredus">Alfrid</name></persName>
+                        <rs key="#Vir_devotus/vir_honestus">viri devoti</rs> testis.
+                            <foreign>Scrive</foreign>: Teuderado </ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>MDL V/2, n. 26; CDL I, n. 68; ChLA, XXXI, 915.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                         <p>Nota dorsale (sec. VIII): Cartula de Pettu. Nota dorsale (sec. XII ex.):
+                    Venditio terre in Limite. </p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

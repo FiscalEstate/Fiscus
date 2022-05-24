@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    Diplomatico, * H 17</title>
+            </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                        </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc600</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#"
+                                >--Libellus/precaria/emphyteusis</rs>
+                                    <rs type="record_source" ref="#">Original document</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate when="0905-07-29">
+                                <note type="displayed_date">905 July 29</note>
+                                <note type="dating_elements">Stile dell’incarnazione</note>
+                                <note type="topical_date">Lucca</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance>
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                            <place></place>
+                        </listPlace>
+                        <listPerson>
+                            <person></person>
+                        </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-07-20" who="ptomei">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab>I fratelli <persName key="#Priests"><name ref="Giselbrandus/Giso"
+                                >Ghisalprando detto Ghiso</name></persName>
+                        <rs key="#Priests">prete</rs> e <persName key="#Subdeacons"><name
+                                ref="Ghisulfus">Ghisolfo</name></persName>
+                        <rs key="#Subdeacons">suddiacono</rs> del <persName>fu <name
+                                ref="Giselbertus/Cillo">Ghisalperto detto Cillo</name></persName>
+                        ricevono in livello dal <rs key="#Bishops">vescovo</rs> di Lucca <persName
+                            ref="#people/213" key="#Bishops">Pietro</persName>, una casella posta
+                        infra <rs key="#Cities">civitate</rs> ista Lucense prope <orgName
+                            key="#Mother_churches" ref="#juridical_persons/68"><rs
+                                key="#Mother_churches">ecclesia</rs> Sancti Martini</orgName>, di
+                        pertinenza dello stesso vescovato, <rs key="#Confinia">confinante</rs> uno
+                        caput cum uno lato con terra del vescovato que fuit porticale, alio capo con
+                        una casa del vescovato, alio capo in via, con tutte le sue dipendenze. Si
+                        impegnano entro i successivi due anni, infra ipsa terra, a levare et
+                        claudere seo coperire una casa, a bene gubernare seu meliorare la casa. Si
+                        impegnano a versare pro omni censum et iustitia al vescovo e ai suoi
+                        successori ogni mese di maggio il censo annuale di 3 denari d’argento. Se
+                        non rispetteranno i suddetti impegni, promettono di versare al vescovo e ai
+                        suoi successori la pena di 60 soldi d’argento. Chiedono al <rs
+                            key="#Writer #Notary">notaio</rs> e <rs key="#Scabini">scabino</rs>
+                        <persName key="#Writer #Notary #Scabini"><name ref="Petrus"
+                            >Pietro</name></persName> la stesura di due <rs key="#Ordinatio"
+                            >cartulas</rs>. Actum <placeName ref="#places/4"
+                            key="#Cities #Mother_churches #Bishops">Luca</placeName>. <rs
+                            key="#Witness">Testimoni</rs> sottoscrittori: <persName key="#Witness"
+                                ><name ref="Gausfredus">Cosfridi</name></persName>, <persName
+                            key="#Witness"><name ref="Ghisulfus">Ghisolfo</name></persName>,
+                            <persName key="#Witness"><name ref="Imelfredus"
+                            >Imalfridi</name></persName>, <persName key="#Witness #Notary"><name
+                                ref="Ostribertus">Ostriperto</name></persName>
+                        <rs key="#Notary">notarius</rs>.</ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>MDL, 5/3, n. 1089, p. 32.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                        <p>Sottoscrizioni autografe: il prete Ghisalprando detto Ghiso, il
+                    suddiacono Ghisolfo, Cosfridi, Ghisolfo, Imalfridi, il notaio Ostriperto.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

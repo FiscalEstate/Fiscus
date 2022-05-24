@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title><foreign>Registrum Petri Diaconi</foreign>, f. 87vA-B (=C)</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc2006</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property">Yes</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0885-05">
+                                <note type="displayed_date">885 May</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date"/>
+                                <note type="redaction_date"/>
+                             </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-02-08" who="gzornetta">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>Idem quoque <persName ref="#people/113" key="#Prevosts"><rs key="#Prevosts"
+                                >prepositus</rs></persName> alio <rs
+                            key="#Marquis’/ducal/princely_diploma">precepto</rs> adquisivit ab
+                            <persName key="#Marquis’/ducal/princely_diploma #Princeps"
+                            ref="#people/111">Aione</persName>
+                        <rs key="#Princeps">principe</rs>
+                        <rs
+                            key="#Landed_possessions #Property_of_persons_without_heirs">cuncta</rs> quae <persName
+                            key="#Gastaldus/vicegastaldus #Landed_possessions #Property_of_persons_without_heirs"
+                            ref="#people/116">Poto</persName>
+                        <rs key="#Gastaldus/vicegastaldus">gastaldeus</rs> filius supradicti
+                                <persName><name ref="Poto">Potonis</name></persName> possidere
+                        videbatur in pertinentiis <placeName ref="#places/112"
+                            key="#City_territory #Landed_possessions #Property_of_persons_without_heirs #Fiscal_property #Textual_occurrence #Object #Inflow #Inheritance #Outflow #Allocation_to_church"
+                            >Alifanis</placeName> et <placeName ref="#places/111"
+                            key="#City_territory #Landed_possessions #Property_of_persons_without_heirs #Fiscal_property #Textual_occurrence #Object #Inflow #Inheritance #Outflow #Allocation_to_church"
+                            >Telesinis</placeName>, ad opus videlicet et utilitatem <orgName
+                            key="#Monasteries #Landed_possessions #Property_of_persons_without_heirs"
+                            ref="#juridical_persons/84"><rs key="#Monasteries"
+                            >monasterii</rs></orgName> huius.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>RPD 200c: 599-560; Voigt 1902: 80</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>the original document is: Archivio di Montecassino, aula III, capsa XII, n.
+                    21</p>
+            </div>
+        </body>
+    </text>
+</TEI>

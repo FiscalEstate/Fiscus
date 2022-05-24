@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Roma, Biblioteca Vaticana, Cod. Barb. lat. 2724, cc. 166v-167v
+                        (<foreign>Chronicon Vulturnense</foreign>, II, n. 94)</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc2041</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Offersio/donatio</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property">Yes</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0955-01">
+                                <note type="displayed_date">0955 January</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Benevento</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-09-14" who="gzornetta">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                <ab>In nomine Domini. <date>Anno quadragesimo secundo regnante domno Constantino
+                            magno imperatore, et .XVI°. anno principatus domni <persName
+                                key="#Princeps" ref="#people/156">Landulfi</persName> gloriosi <rs
+                                key="#Princeps">principis</rs>, et .XII°. anno principatus domni
+                                <persName key="#Princeps" ref="#people/157">Pandulfi</persName>
+                            filii eius, mense ianuario, .XIIIa. indiccione</date>. Ideoque nos
+                                <persName><name ref="Alfanus">Alfanus</name></persName> et
+                                <persName><name ref="Aldemarius">Aldemari</name></persName>, germani
+                        filii quondam <persName ref="#people/1953" key="#Count">Aldemari</persName>,
+                        qui fuit <rs key="#Count">comes</rs>, et <persName
+                            key="#Gastaldus/vicegastaldus" ref="#people/1952">Audoaldus</persName>
+                        <rs key="#Gastaldus/vicegastaldus">castaldeus</rs>, filius quondam
+                                <persName><name ref="Aldemarius">Aldemari</name></persName>, et
+                            <persName key="#Gastaldus/vicegastaldus" ref="#people/1951">Landulfus
+                            </persName><rs key="#Gastaldus/vicegastaldus">castaldeus</rs>, filius
+                        bone memorie <persName><name ref="Poto">Potoni</name></persName>, sicut
+                        nobis aptum et congruum est, bona etenim nostra voluntate, et pro firma
+                        stabilitate interesse idoneos subscriptos testes, per hanc quoque <rs
+                            key="#Offersio/donatio">cartulam</rs> unanimiter et pari consensu
+                        donavimus tibi <persName key="#Abbots" ref="#people/1939">Leoni</persName>,
+                        venerabili <rs key="#Abbots">abbati</rs>
+                        <rs key="#Monasteries">monasterii</rs>
+                        <orgName ref="#juridical_persons/1900" key="#Monasteries #Abbots">Sancti
+                            Vincencii</orgName>, situm super <rs key="#Rivers">fluvium</rs>
+                        <placeName key="#Rivers" ref="#places/609">Vulturnum</placeName>, integram
+                        ipsam <rs key="#Curtes">curtem</rs> nostram de <rs key="Fines">finibus</rs>
+                        <geogName key="Fines #Curtes #Villas #Landed_possessions #Churches"
+                            ref="#estates/1901">Benafro</geogName> propinquo <rs key="#Churches"
+                            >ecclesia</rs>
+                        <orgName key="#Churches" ref="#juridical_persons/1914">Sancti
+                            Nycandri</orgName>, ubi dicitur <placeName
+                            key="#Rivers #Curtes #Landed_possessions #Fiscal_property #Textual_occurrence #Mention #Function #Redistributive #Outflow #Allocation_to_individuals #Roads #Churches"
+                            ref="#places/2333"><geogName
+                                key="#Curtes #Fiscal_property #Textual_occurrence #Mention #Function #Redistributive #Outflow #Allocation_to_individuals"
+                                ref="#estates/1912">Preta Lata</geogName></placeName>, cum omnibus
+                        suis <rs key="#Landed_possessions">pertinenciis</rs>, que fuit domnica, quam
+                        quidam <persName key="#Other_palatine_officer" ref="#people/1950"
+                            >Aldemari</persName>
+                        <rs key="#Other_palatine_officer">thesaurarius</rs> bisavius noster,
+                        concessam habuit a parte sacri palacii, per <rs
+                            key="#Marquis’/ducal/princely_diploma">preceptum</rs> ab anulis bonorum
+                        preceptorum utraque parte sigillatum, cum omnia et in omnibus ad eandem
+                        curtem pertinentibus. In primis ipsum <rs key="#Landed_possessions"
+                            >campum</rs> qui dicitur de Balzemundu, habet fines: de uno latere
+                        [.....], unde per tempus <rs key="#Rivers">aqua</rs> decurrit, que dicitur
+                        Fermina; alio latere fossatu; unum caput tenet in silice; aliud caput in <rs
+                            key="#Villas">villa</rs>, que nominatur <geogName key="#Villas"
+                            ref="#estates/1911">Cacafolline</geogName>; alium campum ibique, habet
+                        fines: de una parte <rs key="#Roads">silice</rs>, que venit de <placeName
+                            key="#Roads" ref="#places/2300">Benafro</placeName>, et pergit circa
+                            <orgName ref="#juridical_persons/1910">Sanctam Cristinam</orgName>; alia
+                        parte via, que venit da Benafro, et pergit ad <orgName
+                            ref="#juridical_persons/1904">Sanctam Mariam</orgName>; tercia parte in
+                        ipsa Fermina; quarta parte terra predicti vestri monasterii. Infra hos vero
+                        fines exinde nec nobis, nec quarte partis uxorum nostrorum, nec cuique
+                        alteri habendum nullam reservavimus, sed in integrum eandem curtem cum
+                        omnibus suis pertinenciis et territoriis ad predictam curtem pertinentibus
+                        in finibus Benafro, una cum inferius et superius, et cum viis et anditis
+                        suis, et cum omnibus suis pertinenciis, tibi iam dicto Leoni abbati ad
+                        partem eiusdem monasterii, eiusque rectoribus donavimus habendum et
+                        possidendum. unde pro confirmandam hanc nostram donacionem recepimus a te,
+                        nomine Leone abbate, iuxta legem launegild camiso uno. Similiter donavimus
+                        tibi, ad partem eiusdem vestri monasterii, supradictum preceptum
+                        concessionis ex ipsa curte, per supra susceptum launegild, ea racione, ut
+                        amodo et semper tu iam dictus Leo abbas, et pars eiusdem vestri monasterii
+                        eandem nostram donacionem habere et possidere valeatis securiter, inde
+                        faciendum vos et posteri vestri omnia que volueritis, sine contradiccione
+                        nostra et de nostris heredibus, et sine cuiuscumque requisicione. Quod si
+                        aliquo tempore nos vel nostri heredes tecum, aut cum posteris tuis, seu cum
+                        parte eiusdem monasterii, per qualicumque inventa occasione causare aut
+                        contendere quesierimus de supradicta nostra donacione, volendo illam de
+                        vestra tollere proprietate et dominacione, vel si illud retornare aut
+                        removere quesierimus, centum solidos bizanteos tibi Leoni abbati, et ad
+                        posteros tuos, vel ad partem eiusdem monasterii pena nos, et nostros heredes
+                        componere obligamus, et in antea omni tempore per invitis taciti maneamus,
+                        et hec cartula omni tempore firma et stabilis permaneat. Quod te <persName
+                            key="#Notary
+                        #Other_clerics"><name ref="Sichelpotus"
+                                >Sichelpotum</name></persName>
+                        <rs key="#Other_clerics">clericum</rs> et <rs key="#Notary">notarium</rs>
+                        taliter scribere rogavimus. Actum in <placeName ref="#places/110"
+                            >Benevento</placeName>, feliciter feliciter feliciter.</ab>
+                </div>
+            </div>
+                <div type="bibliography" subtype="editions">
+                    <p>CV II, n. 94, pp. 69-70</p>
+                </div>
+            <div type="bibliography" subtype="additional">
+                <p>Marazzi 2013: 186-187; Di Muro 2008: 117</p>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

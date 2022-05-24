@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Biblioteca Ambrosiana, D, I, n° 14</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc1112</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property">Yes</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0899-03-28">
+                                <note type="displayed_date">899 march 28</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Pavia</note>
+                                <note type="redaction_date"/>
+                             </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-02-08" who="cstedile">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine domini nostri Iesu Christi Dei eterni. <persName
+                            key="#Emperor/king" ref="#people/21">Berengarius</persName> divina
+                        favente clementia <rs key="#Emperor/king">rex</rs>. Si circa servos et
+                        ancillas Dei munificentiam nostrae benignitatis largimur, credimus hoc ad
+                        animae nostrae salutem efficaciter pertinere. Igitur omnium fidelium sanctae
+                        Dei Ecclesiae nostrorumque presentium scilicet et futurorum cognoscat
+                        industria, qualiter quaedam Dei ancilla <persName key="#Abbesses"
+                            ref="#people/1511">Rihsinda</persName> nomine <rs key="#Monasteries"
+                            >monasterii</rs>
+                        <orgName
+                            key="#Cartula #Islands #Landed_possessions #Forests #Fisheries #Fiscal_property #Inflow #Inheritance #Purchase #Gift #Ports #Fluvial_transport #Teloneum #Rights_of_use_on_woods/pastures/waters #Privileges #Immunity #Tuitio/bannum/mundeburdium #Churches #Freeborn #Royal_slave #Private_foundations"
+                            ref="#juridical_persons/129">sanctae Dei genitricis semperque virginis
+                            Mariae <rs key="#Abbesses">abbatissa</rs>, quod est situm infra
+                                <placeName ref="#places/65">urbem Ticinensem</placeName> et
+                            nominatur Teodote</orgName>, pro diversis monasterii sui utilitatibus ob
+                        amorem superni muneris <rs key="#Imperial/royal_diploma">preceptum</rs>
+                        confirmacionis fieri dignaremur. Cuius precibus, quia iuste petiis,
+                        libentissime adquiescentes, hoc <rs key="#Immunity">immunitatis nostrae
+                            preceptum</rs> conscribi iussimus, per quod omnino precipientes iubemus,
+                        ut eadem <rs key="#Abbesses">abbatissa</rs> degens sub regula sancti
+                        Benedicti id monasterium cum onmibus adiacentiis iuste et legaliter
+                        pertinentibus mobilibus atque immobilibus rebus acquisitis et acquirendis
+                        usque in finem vite sue teneat atque possideat. Insuper etiam confirmamus
+                        omnes res quascumque idem monasterium longo tempore dinoscitur possedisse a
+                                <persName><name ref="Gregorius">Gregorio</name></persName> ipsius
+                        monasterii <rs key="#Private_foundations">fundatore</rs>, id est inter
+                        ceteras res <rs
+                            key="#Landed_possessions #Fiscal_property #Textual_occurrence #Object #Inflow #Purchase #Outflow #Allocation_to_churches"
+                            >campus Zavani</rs> quem ipse quondam tanti monasterii fundator
+                        comparavit a <persName><name ref="Tado">Tatone</name></persName> et
+                                <persName><name ref="Laurentius">Laurentio</name></persName> cum
+                            <orgName
+                            key="#Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches #Immunity #Churches #Freeborn #Royal_slave"
+                            >ecclesia in honore sanctae Mariae quae dicitur Corbellaria</orgName> et
+                        alia <orgName
+                            key="#Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches #Immunity #Churches #Freeborn #Royal_slave"
+                            ref="#juridical_persons/134">ecclesia in honore sancti
+                            Vincentii</orgName> in loco quae dicitur <placeName key="#Churches"
+                            ref="#places/1800">Venerosassi</placeName>, cunctisque aliis rebus in
+                        omnibus locis atque vocalibus eidem sancto cenobio a tanto fundacionis
+                        institutore <rs key="#Fiscal_property #Inflow #Inheritance">concessis de
+                            iure parentum</rs> seu <rs key="#Fiscal_property #Inflow #Gift"
+                            >donatione</rs>, traditione regum aliorumque hominum, <rs
+                            key="#Fiscal_property #Inflow #Purchase">comparatione</rs> quoque et
+                        quarumcumque <rs key="#Cartula">legalium conscriptione cartarum</rs> aut
+                        postea pretaxatum venerabile monasterium a donis regum atque imperatorum
+                        predecessorum nostrorum aliorumque diversorum hominum emptione, donatione,
+                        fidelium quoque oblatione, traditione, comparatione, commutatione,
+                        libellorum cartarumque conscriptione acquisivit ac deiceps iuste et
+                        legaliter acquerire potuerit, <rs
+                            key="#Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
+                            >tranquillo iure per hoc nostrae auctoritatis praeceptum possideat</rs>.
+                        Et ut liceat eidem coenobio secundum regulam sancti Benedicti de propria
+                        congregatione abbatissam eligere, sintque omnes res eiusdem monasterii tam
+                            <rs key="#Freeborn">homines liberi</rs> et <rs key="#Royal_slave"
+                            >servi</rs> quamque omnes alias res sub regali defensione munite atque
+                        defense, et si necessitas fuerit, de rebus et familiis ipsius per
+                        inquisitionem circumquaque manentium bonorum hominum, sicut de nostris
+                        regalibus rebus, rei veritas approbetur. Hoc quoque statuimus, ut <rs
+                            key="#Privileges">nullus rei publice minister neque aliquis ex
+                            iudiciaria potestate homines eiusdem monasterii liberos aut servos
+                            deinceps inquietare presumat, vel loca ad causas audiendas vel freda
+                            exigenda aut tributa vel mansiones aut paratas faciendas nec
+                            fideiussores tollendos aut homines eiusdem ecclesiae igenuos vel servos
+                            super terram ipsius commanentes distringendos nec ullas redibiciones aut
+                            inlicitas occasiones requirendas ingredi audeat</rs>, et quicquid exinde
+                            <rs key="#Fiscal_property">fiscus noster</rs> vel pars publica sperare
+                        potuit in eodem sancto monasterio secundum concessionem et confirmationem
+                            <persName key="#Emperor/king" ref="#people/9">Lotharii</persName> et
+                            <persName key="#Emperor/king" ref="#people/110">Hludovuici</persName>
+                        <rs key="#Emperor/king">imperatorum</rs> predecessorum et consanguineorum
+                        nostrorum solemni et perpetua stabilitate firmamus. Damusque ei licentiam
+                        secundum eorum statuta de <geogName
+                            key="#Forests #Fiscal_property #Textual_occurrence #Object #Allocation_to_churches"
+                            ref="#estates/162"><rs key="#Forests">silva</rs> Carbonaria</geogName>
+                        <rs key="#Rights_of_use_on_woods/pastures/waters">materiamen ad reparationem
+                            ipsius monasterii suscipere ac ligna ad usum ignis habere</rs> iuxta
+                        temporis oportunitatem, et quandocumque necessitas imminet, <rs
+                            key="#Fluvial_transport">naves eius per <rs key="#Ports">Ticinensem
+                                portum</rs> tam per <rs key="#Ports">portum Buricum</rs> quamque per
+                            quemlibet alterum discurrere possint </rs>absque alicuius impedimento
+                        vel <rs key="#Teloneum">telonei exactione</rs>, et omnes rerum
+                        commutationes, quas predicta Rihsinda abbatissa fecit, maneant inconvulse.
+                        Haec autem omnia superius allegata sicuti a predecessoribus nostris regibus
+                        seu imperatoribus concessa et confirmata sunt, inconvulse concedimus ac
+                        firmamus eidem venerabili loco perfruendum, temporibus perpetuis iure
+                        firmissimo possidenda, ut sub <rs key="#Tuitio/bannum/mundeburdium"
+                            >tiutiones nostare mundburdo</rs> secure ac sinceriter perseverent.
+                        Insuper confirmamus in prefato monasterio pro mercede animae nostrae <rs
+                            key="#Fisheries #Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches #Bridges/pontoons"
+                            >vadum unum in Pado ad piscandum</rs>, ubi nominatur <placeName
+                            ref="#places/310"
+                            key="#Fisheries #Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches #Bridges/pontoons"
+                                ><geogName>Caput Lacti</geogName></placeName>, habentem terminum
+                        superiorem in <placeName>Quocuzo Gepidasco</placeName>, inde percurrit ad
+                        eum locum ubi Agonia influit Padum. Stabilimus etiam predicto venerabili
+                        monasterio <rs
+                            key="#Islands #Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
+                            >insulas</rs> iuxta predictam piscationem ex utraque parte Padi,
+                        quicquid antiquo tempore idem monasterium seu moderno optinuit vel Padus
+                        invasit aut in futurum irruperit de propriis ipsius monasterii rebus fine
+                            <placeName>Nebiasco</placeName> usque in fluvium Agonia, deinde ipse
+                        finis descendit in Padum et ad termino qui vocatur
+                            <placeName>Grindolado</placeName> percurrit in melum insitum, deinde ad
+                        portum Caput Lacti, quantum idem monasterium preterito tempore optinuit suo
+                        iure et nunc legaliter obtinere videtur, seu quod <persName
+                            key="#Emperor/king" ref="#people/217">Cunipert</persName>
+                        <rs key="#Emperor/king">rex</rs> inibi per suum contulit preceptum.
+                        Precipientes ergo iubemus ut nemo ex fidelibus sanctae Dei Ecclesiae simul
+                        nostris neque presentibus neque absentibus parti predicti monasterii de his
+                        omnibus, quae supra a nobis concessa et confirmata sunt, quolibet tempore
+                        ullam presumat inferre molestiam aut contrarietatem, sed sub omni
+                        integritate, sicuti a nobis concessa et confirmata sunt, perhenniter ibidem
+                        ad utilitatem monasterii ipsius sine aliqua diminutione permaneant. Si quis
+                        autem contra huius nostri precepti securitatem aliquam violentiam aut
+                        invasionem inferre temptaverit, sciat se compositurum <rs key="#Penalty"
+                            >auri optimi libras XXX</rs>, <rs key="#Camera_regis">medietatem palatio
+                            nostro</rs> et <rs key="#Camera_of_other_public_authorities">reliquam
+                            medietatem parti eiusdem monasterii</rs>. Et ut haec nostra auctoritas
+                        pleniorem in Dei nomine optineat vigorem, manu propria supter firmavimus et
+                        anuli nostri impressione insigniri iussimus. Signum domni Berengarii
+                        gloriosissimi regis. <persName key="#Chancellor"><name ref="Petrus"
+                                >Petrus</name></persName>
+                        <rs key="#Chancellor">cancellarius</rs> ad vicem <persName
+                            key="#Archchancellor #Bishops" ref="#people/58">Petri</persName>
+                        <rs key="#Bishops">episcopi</rs> et <rs key="#Archchancellor"
+                            >archicancellarii</rs> recognovi et subscripsi. Data V kal. Aprilis,
+                        anno incarnationis Domini DCCCXCVIII, anno vero regni domni Berengarii
+                        gloriosissimi regis XII, indictione II. Actum <placeName ref="#places/65"
+                            >Papiae</placeName> palatio regio. In Dei nomine feliciter, amen.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>DD B I, pp. 79-83, n° XXVII</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p>De Angelis Cappabianca 1981; Rosenwein 1996
+                    https://www.jstor.org/stable/2865414?seq=1#metadata_info_tab_contents; Greci
+                    2016</p>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Archivio Abbaziale di Nonantola, Pergamene, I 8</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc24</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property">yes</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0780-07-28">
+                                <note type="displayed_date">780 July 28</note>
+                                <note type="dating_elements"></note>
+                                <note type="topical_date">Lippspringe (Sassonia, DE)</note>
+                                <note type="redaction_date"/>
+                             </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                   <place></place>
+                </listPlace>
+             <listPerson>
+                <person></person>
+            </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change who="emanarini" when="2021-01-14">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>
+                        <persName key="#emperor/king #patricius" ref="#people/14">Carolus</persName>
+                        gratia Dei <rs key="#Emperor/king">rex</rs> Francorum et Langobadorum ac <rs
+                            key="#patricius">patricius</rs> Romanorum omnibus fidelibus nostris tam
+                        presentibus quamque futuris. Si ea, que erga locis venerabilibus per
+                        strumenta anteriorum regum iuste ac rationabiliter largita vel condonata
+                        sunt, nostro munimine confirmamus, regiam, inquit, exercimus consuetudinem,
+                        atque hoc nobis ad eternam beatitudinem in Dei nomine pertinere confidimus.
+                        Unde compertum sit omnium vestrorum magnitudini, qualiter venerabilis vir
+                            <persName
+                            key="#Imperial/royal_diploma #Curtes #Tolls #Monasteries #Abbots"
+                            ref="#people/49">Anselmus</persName>
+                        <rs key="#Abbots">abbas</rs> de <rs key="#Monasteries">monasterio</rs>
+                        noncupante <orgName key="#monasteries" ref="#juridical_persons/47">
+                            <placeName ref="#places/15" key="#Monasteries">Nonantola</placeName>
+                        </orgName>, quod est constructum in onore omnium apostolorum et beati
+                        Silvestri confessoris, situm in <rs key="#City_territory">terraturio</rs>
+                        <placeName key="#City_territory" ref="#places/38">Motinense</placeName>,
+                        clementiae regni nostri petiit, eo quod <persName key="#emperor/king"
+                            ref="#people/48">Haixtulfus</persName> vel ceteri quondam reges ac
+                        reliqui Deo timentes homines eorum res ad memoratum sanctum locum
+                        condonassent. Idcirco memoratus abbas celsitudini, nostre, ut ecclesias duas
+                        in onore <orgName key="#Churches">
+                            <orgName key="#Churches">Sancti Martini</orgName>
+                        </orgName> sitas in ipsas fine Motinense una cum earum apendiciis, etiam et
+                        waldora, terris, silvis, pratis, pascois, saltora, confinibus, piscariis seu
+                        et <rs key="#tolls">portatico</rs> illo de <geogName
+                            key="#curtes #tolls #fiscal_property" ref="#estates/50"><placeName
+                                ref="#places/40" key="#curtes #tolls #fiscal_property">Cive
+                                Nova</placeName></geogName>, que annue collegitur, etiam hoc, quod
+                        per bonum hominum largietate ibidem iuste conlatum fuit aut in antea
+                        delegatum fuerit, per nostrum <rs key="#Imperial/royal_diploma"
+                            >preceptum</rs>, sicut in eorum anteriora decleratur precepta, que
+                        anteriores reges ibidem delegaverunt, confirmare deberemus. Cuis petitioni
+                        denegare noluimus, sed ita prestitisse atque in omnibus confirmasse
+                        cognuscite. Precipientes enim iubemus, ut, sicut, in anteriorum regum
+                        declaratur precepta, omnes res, que ad illo monasterio, ut superius intimata
+                        legitur, pertinentur, etiam terris, waldora, silvis, saltora, confinibus
+                        atque piscariis seu de portatico illo de Cive Nova, quod annoe collegitur,
+                        vel quicquid nos seu, ut diximus, anteriores reges vel ceteri homines ibidem
+                        delegavimus, cum omnia, quicquid dici vel nominari potest, in quibuslibet
+                        locis hoc quieto ordine teneant atque possedeant, vel quicquid exinde agere
+                        pro oportunitate ipsius monastirii voluerint, liberum in omnibus perfruantur
+                        arbitrium, quatenus melius eis delectet pro nobis etiam fidelibus nostri
+                        Domini misericordia adtentius exorare. Et ut certius credatis, de anulo
+                        nostro subter sigellavimus <persName key="#notary"><name ref="Ghiltbertus"
+                                >Giltbertus</name></persName> advicem <persName key="#chancellor"
+                                ><name ref="Rado">Radoni</name></persName> recognovi et s.
+                            <date>Data V Kalendas Augustas anno XII et septimo regni nostri</date>;
+                        actum <placeName key="#Palatium">Lippia Gyspringae</placeName> in
+                            <placeName>Saxonia</placeName>, in Dei nominine feliciter. Amen
+                        semper.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>CHLA 29, n. 883.</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p>Manarini 2017.</p>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
