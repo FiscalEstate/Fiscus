@@ -35,7 +35,7 @@
                             <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Copy</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -83,20 +83,33 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>In nomine Domini Dei Salvatoris nostri Iesu Christi. Concessimus nos vir
-                        gloriosissimus Radelchis Dei previdentia Langobardorum gentis princeps, per
-                        rogum Garetrude dilecte coniugis nostre, tibi Autulo aurifici nostro
-                        integras res que fuit Munduli et Ibbruli servi sacri nostri palatii in
-                        Folianense, quas liberi homines sine preceptum tenunt per annos quindecim et
-                        ipsi servis defuncti sunt; pertinet ex mari parsato predicte coniugis
-                        nostre; in ea videlicet ratione ut amodo et deinceps per hoc nostrum
-                        roboreum preceptum predictas res tu et heredes tui habere et possidere
-                        valeatis, et a nullo ex nostris iudicibus, id est comitibus, gastaldeis vel
-                        a quibuscumque agentibus habeatis aliquam requisitionem, sed perpetuis
-                        temporibus possideatis. Quod vero preceptum concessionis ex iussione
-                        superius dictii potestatis uti prelegitur scripsi ego Benedictus notarius.
-                        Actum Benevento septimo anno, mense Octubrio, nona indictione.
-                        Feliciter.</ab>
+                    <ab>In nomine Domini Dei Salvatoris nostri Iesu Christi. Concessimus nos <rs
+                            key="#Vir_gloriosus/vir_sublimis">vir gloriosissimus</rs>
+                        <persName ref="#people/3463" key="#Princeps">Radelchis</persName> Dei
+                        previdentia Langobardorum gentis <rs key="#Princeps">princeps</rs>, <rs
+                            key="#Intercessory">per rogum</rs>
+                        <persName ref="#people/3636" key="#Principissa">Garetrude</persName> dilecte
+                        coniugis nostre, tibi <name ref="Autulus">Autulo</name>
+                        <rs key="#Gold #Specialized_workers">aurifici</rs> nostro <rs
+                            key="#Fiscal_property #Object #Redistributive #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_individuals"
+                            >integras res</rs> que fuit <name ref="Mundulus">Munduli</name> et <name
+                            ref="Ibbrulus">Ibbruli</name>
+                        <rs key="#Slave">servi</rs> sacri nostri <rs key="#Palatium">palatii</rs> in
+                            <placeName ref="#places/3464"
+                            key="#Villages/settlements #Curtes #Fiscal_property"
+                            >Folianense</placeName>, quas <rs key="#Freeborn">liberi homines</rs>
+                        sine preceptum tenunt per annos quindecim et ipsi servis defuncti sunt;
+                        pertinet ex <rs key="#Marepahis">mariparsato</rs> predicte coniugis nostre;
+                        in ea videlicet ratione ut amodo et deinceps per hoc nostrum roboreum
+                        preceptum predictas res tu et heredes tui habere et possidere valeatis, et a
+                        nullo ex nostris iudicibus, id est comitibus, gastaldeis vel a quibuscumque
+                        agentibus habeatis aliquam requisitionem, sed perpetuis temporibus
+                        possideatis. Quod vero preceptum concessionis ex iussione superius dictii
+                        potestatis uti prelegitur scripsi ego <persName key="#Notary"
+                            ref="#people/3637">Benedictus</persName>
+                        <rs key="#Notary">notarius</rs>. Actum <placeName key="#Cities"
+                            ref="#places/110">Benevento</placeName> septimo anno, mense octubrio,
+                        nona indictione. Feliciter.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
