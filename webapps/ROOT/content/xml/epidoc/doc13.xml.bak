@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Archivio Capitolare di Parma (DD Ka III, n. 126)</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2020">2020</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc13</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2020"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property">yes</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0885-06-22">
+                                <note type="displayed_date">22 giugno 885</note>
+                                <note type="dating_elements"></note>
+                                <note type="topical_date">Etrepy - in villa Stirpiacum</note>
+                                <note type="redaction_date"/>
+                             </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                   <place></place>
+                </listPlace>
+            <listPerson>
+                <person></person>
+            </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change who="tlazzari" when="2020-12-26">creation of record</change>
+           <change when="2020-12-27" who="tlazzari"/>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>(C.) In nomine sanctae et individuae trinitatis. <persName key="#emperor/king" ref="#people/32">Karolus</persName> divina favente clementia <rs key="#emperor/king">imperator</rs> augustus. Quanto amplius et deo dicatis locis imperialis munificentiae liberalitatem impendimus, eo amplius divinum nobis favorem absque dubio reconciliamus et nostro imperio quae sunt satis utilia providemus. Ideoque omnium sanctae dei ecclesiae nostrorumque fidelium praesentium scilicet et futurorum cognoscat unanimitas, <persName key="#episcopus" ref="#people/31">Uuicbodum</persName> venerabilem episcopum per <persName key="#consiliarius_regis #chancellor" ref="#people/33">Liutuuardum</persName> reverendum presulem strenuum atque intimum consiliarium nostrum nostrique palatii summum archicancellarium nostram petiisse clementiam, ut pro dei summi debita veneratione et beati martyris Nicomedis honore <geogName key="#curtes" ref="#estates/35">cortecellam quandam comitatus P[a]rm[e]nsis quae dicitur Euorianum</geogName> cum rebus ad eam pertinentibus concedere et ei in ius proprietate ipsius confirmare dignaremur, eo videlicet ordine ut eo <orgName key="#churches">loci, quo praedicti martyris Christi <placeName ref="#places/29">Nicomedis</placeName> corpus reconditurus est</orgName>, iuxta ipsius arbitrium respicere et perpetualiter debeat permanere.Nos vero piam iam dicti antistitis sumopere perpendentes intentionem nec minus etiam nostrae mercedis augmentationem sollicite considerantes dignis praetibus assensum dedimus statuentes et per hoc nostrae magnitudinis donativum praefatam <geogName key="#curtes #mansi #royal_slave" ref="#estates/35">cortecellam Euorianum</geogName> cum <rs key="#mansi">XV mansis</rs> et universis que ad ipsam respicere debent rebus cum <rs key="#royal_slave">familiis utriusque sexus</rs> supra taxato venerabili episcopo Uuicbodo fideli nostro in perpetuum stabilientes atque in ius dominumque ipsius omnimodis corroborantes, ut secundum quod provisioni et ordinatione ipsius optime visum fuerit, ad sacrosancti loci usus, ubi beati martyris Nicomedis venerabiles exuvie recondende sunt, proficere debeant tam praenominata corticella possessio quamque et omnes quae illi pertinere debent qualescumque res, omni publice partis repetitione vel iniusta molestatione in perpetuum sopita. Si quis autem, quod non putamus, tam de praelibatis reb[us nostra m]unificentia conlatis quamque et aliis, quD[as ex hoc [nun]c et deinceps fidelium Christi devotio ibidem contulerit, u[llam] diminorationem vel invasionem inferre praesumpserit, immunitatis nostrae poena tamquam temerarius violator partim iam dicti venerabili loci componere compellatur. Et ut haec nostrae largitatis traditio pleniorem in dei nomine optineat firmitatem, hoc idem praeceptum propria manu firmavimus et anulo nostro iussimus sigillari.Signum (MF.) domni Karoli serenissimi imperatoris augusti. <persName key="#notary">Inquirinus</persName> <rs key="#notary">n[otarius</rs> advicem <persName key="#chancellor" ref="#people/33">Liutuuardi] archicancellarii</persName> recognovit et (SR.) (SI. D.) <date>D[ata x] kal. iul. anno i[ncarnationi]s domini [dccclxxxv, indictione iii, anno vero regni domni karoli] viii, imperii a[utem ...]</date>; actum in <placeName>villa Stirpiacum</placeName>; [in dei nomine] fel[iciter] amen.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>DD Ka III, n. 126, pp. 202-203. Benassi, CD Parm., 1, n. 18, p. 54.</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p>Destefanis 2009 <ref corresp="http://www.rmoa.unina.it/763/1/RM-Destefanis-Appennino.pdf">http://www.rmoa.unina.it/763/1/RM-Destefanis-Appennino.pdf</ref>
+                </p>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>Manca la segnatura nell'edizione MGH.</p>
+            </div>
+           
+        </body>
+    </text>
+</TEI>

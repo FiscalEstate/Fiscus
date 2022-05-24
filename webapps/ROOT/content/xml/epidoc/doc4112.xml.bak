@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    *E.30</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc4112</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">--Venditio</rs>
+                                    <rs type="record_source" ref="#">Critical edition</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate notBefore="0767-09-01" notAfter="0767-09-30">
+                                <note type="displayed_date">767 September</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Lucca</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-06-26" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab><persName key="#Vir_devotus/vir_honestus"><name
+                                ref="Fridulus de Brancalo">Fridulo</name></persName>
+                        <rs key="#Vir_devotus/vir_honestus">virum devotum</rs> filio quondam
+                                <persName><name ref="Chicus">Chichi</name></persName> de <placeName
+                            ref="#places/499">Brancalo</placeName>
+                        <foreign>vende a</foreign>
+                        <persName key="#Priests"><name ref="Deusdedit">Deusdede</name></persName>
+                        <rs key="#Priests">presbitero</rs> rector <rs key="#Churches">eclesie</rs>
+                        <orgName key="#Churches" ref="#juridical_persons/267">Sancti
+                        Gergi</orgName>, una <rs key="#Petiae">petiola terra</rs> mea, qui <rs
+                            key="#Wine">viti</rs> superposita sunt, qui havere visu sum in loco
+                            <placeName key="#Petiae #Wine" ref="#places/1021">Genariano</placeName>,
+                        prope Sancto Gergius; et est uno capo et uno latere tenente in <rs
+                            key="#Wine">vinea</rs>
+                        <persName key="#Confinia #Wine"><name ref="Baruttula"
+                            >Baruttule</name></persName>, et alio capo in via publicha, et alio
+                        latere in <rs key="#Wine">vinea</rs>
+                        <persName key="#Confinia #Wine"><name ref="Asperulus"
+                            >Asperuli</name></persName>. <foreign>Prezzo</foreign>: auri soledos
+                        nomero dua. <foreign>Pena in duplum</foreign>. Actum <placeName
+                            ref="#places/4">Luca</placeName>. <foreign>Sottoscrizioni</foreign>: +
+                        Friduli vindituri; + <persName key="#Witness #Vir_devotus/vir_honestus"
+                                ><name ref="Dulcipertus de Quaratana">Dulcipert</name></persName>
+                        filio quondam <persName><name ref="Eriteus">Aritei</name></persName>
+                        <rs key="#Vir_devotus/vir_honestus">viri devoti</rs> de <placeName
+                            ref="#places/239">Quaratana</placeName> testis; + <persName
+                            key="#Witness #Moneyers #Vir_devotus/vir_honestus"><name
+                                ref="Perisindus">Perisindi</name></persName>
+                        <rs key="#Moneyers">munitario</rs>
+                        <rs key="#Vir_devotus/vir_honestus">viri devoti</rs>; + <persName
+                            key="#Witness"><name ref="Warniprandus de Quarentana"
+                            >Warniprand</name></persName> de <placeName ref="#places/239"
+                            >Quaretana</placeName> filio <persName><name ref="Theodorus"
+                                >Teudori</name></persName> testis; (ss) <persName
+                            key="#Witness #Other_clerics"><name ref="Emmo">Emmo</name></persName>
+                        <rs key="#Other_clerics">clericus</rs>. <foreign>Scrive</foreign>: <persName
+                            key="#Writer"><name ref="Gisbrandus">Ghisprand</name></persName>.</ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>MDL V/2, n. 104; CDL II, 210, pp. 228-229; ChLA, XXXIV, 998.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                         <p><foreign>Nota dorsale (sec. XII)</foreign>: Venditio vinee in Branculo
+                    loco Genariano.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

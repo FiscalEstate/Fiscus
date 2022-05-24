@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    ++O.65</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc4117</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">--Offersio/donatio</rs>
+                                    <rs type="record_source" ref="#">Critical edition</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate when="0768-07-22"> 
+                                        <note type="displayed_date">768 July 22</note>
+                                        <note type="dating_elements"/>
+                                        <note type="topical_date">Lucca</note>
+                                        <note type="redaction_date"/>
+                             </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-07-22" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab><persName key="#Placitum/iudicatum"><name ref="Gausfredus"
+                                >Gausfrid</name></persName> una cum coniuge mea <persName
+                            key="#Placitum/iudicatum"><name ref="Gausberga"
+                            >Gausperga</name></persName>, abitatoribus in <placeName
+                            ref="#places/1024">Vada</placeName>, quia ante hos annos per <rs
+                            key="#Offersio/donatio">cartulam offersionis</rs> quondam <persName
+                            key="#Offersio/donatio #Petiae"><name ref="Pretestatus"
+                                >Praetestatus</name></persName> germanus meus, idest Gauspergae,
+                        dedit <rs key="#Churches">ecclesiae</rs>
+                        <orgName key="#Churches" ref="#juridical_persons/613">Sancti
+                            Colombani</orgName> pro anima sua <rs key="#Petiae">terrulam</rs> quae
+                        est iuxta <orgName key="#Mother_churches" ref="#juridical_persons/68">Sancti
+                            Martini</orgName>. Pro hac re nos qui supra Gausfrid seu Gasperga vir et
+                        coniux per hanc cartulam pro animae nostrae remedio tertiam portionem de
+                        ipsa <rs key="#Petiae">terra</rs>, quam ego <rs key="#Placitum/iudicatum"
+                            >per iudicium vici</rs> tecum uxor mea, offerre videmur Deo et tibi
+                        praedictae <rs key="#Churches">ecclesiae</rs>
+                        <orgName key="#Churches" ref="#juridical_persons/613">beati Sancti
+                            Colombani</orgName> (…). Actum <placeName ref="#places/4"
+                            >Luca</placeName>. <foreign>Sottoscrizioni</foreign>: + Gausfridi; +
+                        Gausperga; + <persName key="#Witness #Other_clerics"><name ref="Birrica"
+                                >Birrica</name></persName>
+                        <rs key="#Other_clerics">clericus</rs>; (ss) <persName key="#Witness"><name
+                                ref="Tachipertus">Tachipertu</name></persName>; (ss) <persName
+                            key="#Witness"><name ref="Willeradus">Willerad</name></persName>; (ss)
+                            <persName key="#Witness" ref="#people/702">Sunderadu</persName>; (ss)
+                            <persName key="#Witness" ref="#people/708">Perisundus</persName> filius
+                        Sunderadi (ss). <foreign>Scrive</foreign>: <persName
+                            key="#Writer #Other_clerics"><name ref="Ostribertus"
+                            >Austripertus</name></persName>
+                        <rs key="#Other_clerics">clericus</rs>.</ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>MDL IV/1, n. 66 (ad an. 768); reg. MDL V/2, n. 109; CDL II, 221, pp.
+                    256-257; ChLA, XXXIV, 1003.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                         <p>Persone: Desiderio re; Adelchis re; Gausfrid, abitator in Vada (sp.
+                    Gausperga); Gausperga hon. fem. (sp. Gausfrid; sor. Praetestatus); Praetestatus
+                    (fr. Gausperga); Austripertus cler; Birrica cler; Tachipertu; Vuillerad;
+                    Sunderadu; Perisindus (f. Sunderadi); Sunderadi (p. Perisindus). Luoghi: Luca
+                    [Lucca]; Vada [Vada]. Chiese: ecclesiae Sancti Colombani [S. Colombano (di
+                    Lucca)]; Sancti Martini [S. Martino]. Cariche: . Note: prob. donazione che
+                    chiude informalmente una lite. Indice: donazione - rif. a lite - fam. Peredeo
+                    vesc. <foreign>Nota dorsale (sec. VIII-IX)</foreign>: + cartula da Gausfredi et
+                    muliere eius Gosperga de Vada de terra Pretestati. <foreign>Nota dorsale (sec.
+                        XI)</foreign>: offersione. <foreign>Nota dorsale (sec. XII)</foreign>: de
+                    Vada. <foreign>Nota dorsale (sec. XII)</foreign>: Offersio in Sancto Columbano
+                    de terra iuxta Sanctum Martinum. </p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

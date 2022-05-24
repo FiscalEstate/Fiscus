@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Roma, Biblioteca Vaticana, Cod. Barb. lat. 2724, cc. 143r-144v
+                        (<foreign>Chronicon Vulturnense</foreign>, II, n. 77)</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc2033</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">-Placitum/iudicatum</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property">Yes</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate notBefore="0897-03-31" notAfter="0897-08">
+                                <note type="displayed_date">897 March 31-August</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Benevento</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-08-25" who="gzornetta">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>Dum in <placeName key="#Palatium #Assembly" ref="#places/110"
+                            >Beneventano</placeName>
+                        <rs key="#Palatium">palacio</rs> stetissem ego <persName
+                            key="#Gastaldus/vicegastaldus #Judge #fidelisOf" ref="#people/1928"
+                            >Lodoicus</persName>
+                        <rs key="#Gastaldus/vicegastaldus">castaldeus</rs> et <rs key="#Judge"
+                            >iudex</rs>, in presencia domne <persName key="#Queen" ref="#people/91"
+                            >Ageltrudis</persName>
+                        <rs key="#Queen">imperatricis</rs> auguste, et domni <persName
+                            key="#Princeps" ref="#people/1927">Radelchis</persName>
+                        <rs key="#Princeps">principis</rs>, et tunc in eorum presencia reclamavit
+                            <persName key="#Abbots" ref="#people/1926">Maio</persName>, <rs
+                            key="#Abbots">abbas</rs>
+                        <rs key="#Monasteries">monasterii</rs>
+                        <orgName key="#Monasteries #Abbots #Other_minor_officer"
+                            ref="#juridical_persons/1900">Sancti Vincencii</orgName>, ut <persName
+                                ref="#people/1933" key="#Other_clerics">Bernardus</persName>
+                        <rs key="#Other_clerics">clericus</rs>, filius idem <persName
+                           ><name ref="Bernardus">Bernardi</name></persName>,
+                        malo ordine introisset in <rs key="#Monasteries">monasterio</rs>
+                        <orgName
+                            key="#Landed_possessions #Fiscal_property #Textual_occurrence #Mention #Monasteries"
+                            ref="#juridical_persons/1908">Sancte Marie</orgName>, que vocatur ad
+                        Castanietum, propinquo <rs key="#Castle">castro</rs>
+                        <placeName
+                            key="#Castle #Landed_possessions #Fiscal_property #Textual_occurrence #Mention #Function #Redistributive #Outflow #Allocation_to_churches #Monasteries"
+                            ref="#places/2321">Piniano</placeName>, et contra racionem illud teneret
+                        cum <rs key="#Landed_possessions">terris</rs> cultis et incultis, in qua
+                        edificata est, querebat cum eo exinde facere finem. Ipsa denique predicta
+                        domina Ageltruda augusta, et domnus Radelchis iusserunt eisdem Bernardo
+                        clerico, et iudici, ut ipse iudex pro parte palacii, et ipse Bernardus a
+                        parte sua, eo quod ipsum monasterium ipse tenere videretur, de hac re
+                        responderet abbati; et mihi qui supra Lodoici iudici <rs key="#fidelisOf"
+                            >fideli</rs> suo preceperat, ut auditis eorum querimoniis iustam legis
+                        racionem inter eos definiremus. Egresso quoque me ab eorum presencia
+                        continuo advocavi mecum interesse <persName key="#Gastaldus/vicegastaldus"
+                                ><name ref="Telbertus">Telbertum</name></persName>
+                        <rs key="#Gastaldus/vicegastaldus">castaldeum</rs>, <persName
+                            key="#Gastaldus/vicegastaldus #Judge"><name ref="Otilo"
+                            >Otilonem</name></persName>
+                        <rs key="#Gastaldus/vicegastaldus">castaldeum</rs> et <rs key="#Judge"
+                            >iudex</rs>, <persName><name ref="Gaideris">Gaiderisi</name></persName>
+                        filius <persName><name ref="Bernardus">Bernardi</name></persName>,
+                                <persName><name ref="Grimoaldus">Grimoaldus</name></persName> filius
+                                <persName><name ref="Rato">Ratonis</name></persName>,
+                                <persName><name ref="Zotto">Zottone</name></persName> filius
+                                <persName><name ref="Claffo">Claffonis</name></persName>,
+                                <persName><name ref="Potelfrit">Potefrit</name></persName> filius
+                                <persName><name ref="Roffrit">Roffrit</name></persName>,
+                                <persName><name ref="Audoaldus">Audoaldus</name></persName> filius
+                                <persName><name ref="Trasarius">Trasari</name></persName>, et
+                                <persName><name ref="Radelpotus">Radelpoto</name></persName> filius
+                        predicti <persName><name ref="Roffrit">Roffrit</name></persName>, quatenus
+                        et ipsi in hac definicione pro firmissima securitate per partes <rs
+                            key="#Assembly">assisteret</rs>. Interea superius memoratus Maio abbas,
+                        una cum <persName key="#Advocatus_of_other_public_authorities"><name
+                                ref="Adelgardus">Adelgardo</name></persName> suo <rs
+                            key="#Advocatus_of_other_public_authorities">abbocatore</rs>
+                        suprascripto causare ceperat cum eodem Bernardo, quod ipse contra racionem
+                        introisset, ut dictum est, in predicto monasterio Sancte Marie, et res atque
+                        familias eiusdem cenobii tenens, et nunc teneret. Ob hoc querebat ab eis
+                        responsum audire, et exinde finem facere. Tunc ipsi<persName
+                            key="#Missus_of_other_public_authorities" ref="#people/1929">
+                            Bernardus</persName> et <persName
+                            key="#Missus_of_other_public_authorities" ref="#people/1930"
+                            >Heroicus</persName>, qui <rs key="#Missus_of_other_public_authorities"
+                            >missi</rs> erant a parte palacii inde dare responsum, pariter dixerunt,
+                        ut non malo ordine neque contra racionem isdem Bernardus in eodem cenobio
+                        introisset, neque res et familias eius possedisset; sed a parte palacii ei
+                        in <rs
+                            key="#Marquis’/ducal/princely_diploma #Fiscal_property #Textual_occurrence #Mention #Function #Redistributive #Outflow #Allocation_to_individuals"
+                            >beneficio</rs> datum esset, ideo ibi introisse, et possedisse, atque
+                        dominaret. Ad hec isdem Maio abbas cum eodem suo abbocatore statim
+                        responderunt, ut pars palacii illud nullatenus dare potuisset, eo quod ei
+                        pertinere non deberet, sed legibus predicto monasterio Sancti Vincencii
+                        pertinuisset, et pertinere deberet. Nos talia audientes interrogavimus
+                        predictum Bernardum et Heroicum, unde illud monasterium Sancte Marie, cum
+                        pertinenciis eius, in <rs
+                            key="#Fiscal_property #Textual_occurrence #Mention">parte palacii</rs>
+                        pertineret. Qui dixerunt, ut semper sub dominacione palacii fuisset, et esse
+                        deberet, et monasterio Sancti Vincencii nequaquam pertineret. Rursum
+                        interrogavimus predictum Maionem abbatem, quomodo ipsum cenobium Sancte
+                        Marie suo monasterio pertinere deberet. Qui dixit, una cum prefato
+                        abbocatore suo, ut olim ipsum cenobium Sancte Marie constructum fuisset a
+                        domna <persName key="#Marquis/duke" ref="#people/1932">Theoderada</persName>
+                        <rs key="#Marquis/duke">ducissa</rs> in Castanieto, propinquo castro
+                        Piniano, et tam ab ea, quam a domno <persName key="#Marquis/duke"
+                            ref="#people/1931">Gysulfo</persName>
+                        <rs key="#Marquis/duke">duce</rs> filio eius datum fuisse illud monasterium,
+                        cum omnibus suis pertinenciis, in prefato cenobio Sancti Vincencii, et
+                        postea a singulis principibus, seu ab imperatoribus, qui interfuerunt, per
+                            <rs
+                            key="#Marquis’/ducal/princely_diploma #Fiscal_property #Textual_occurrence #Mention #Function #Redistributive #Outflow #Allocation_to_churches"
+                            >precepta</rs> concessum abuisset in eodem monasterio Sancti Vincencii
+                        integras dominaciones suas, quales pars palacii ex eodem monasterio Sancte
+                        Marie abuit. Et ex tunc quo predicta domna Theoderada, et Gysulfus filius
+                        eius ipsum monasterium, cum suis omnibus pertinenciis, in prefato monasterio
+                        Sancti Vincencii fuisset offertum, et usque in tempore domni <persName
+                            key="#Princeps" ref="#people/115">Adelchis</persName>
+                        <rs key="#Princeps">principis</rs>, tam ipse abbas, quam et predecessores
+                        eius in sua potestate et ordinacione tenuisset eundem monasterium Sancte
+                        Marie, cum suis omnibus pertinenciis, et dominasset absque contradiccione
+                        palacii. Nos qui supra, cum talia audissemus, diximus eidem Maioni abbati,
+                        ut si hec precepta, que dixerat, habuisset, coram nobis ostenderet. Et
+                        statim coram nobis ostendit unam <rs key="#Offersio/donatio">chartulam
+                            offercionis</rs>, quam nos legi fecimus, continentem ita, et cetera,
+                        sicut ibidem legebatur. Cumque iam dicta offercio relecta est hec contra
+                        ipsos, Bernardus et Heroicus pro parte palacii responderunt, ut non esset
+                        veritas, ut ipse Maio abbas, et predecessores eius in sua potestate et
+                        ordinacione tenuisset, et dominasset eundem monasterium Sancte Marie, cum
+                        omnibus suis pertinenciis, ut dixerat, sed semper sub potestate, et
+                        ordinacione palacii fuisset. Nos ergo talia audientes interrogabimus
+                        Bernardum et Heroicum, si per testes talem approbacionem facere possent,
+                        quod pars palacii illum monasterium Sancte Marie, sicut dixerat, sub sua
+                        dominacione et ordinacione per triginta annos habuisset, et haberet etiam in
+                        antea. Qui dixerunt, ut inde consignare non possent. At vero, iuxta decreta
+                        principum, testes istius statuerunt, ut si inde ausi fuerint pars monasterii
+                        iurare iuxta legem et consuetudinem terre istius per sacramenta, illas
+                        definiret. Quod nos secundum illorum statuta iudicavimus, ut ipse Maio abbas
+                        quinque <rs key="#Other_minor_officer">scariones</rs> sui monasterii iurare
+                        faceret, quod illum monasterium Sancte Marie, et ipse dicte terre culte vel
+                        inculte per iam dictos fines ab illo tempore, quod predictum est, et usque
+                        ad tempus eiusdem domni Adelchis, tam ipse Maio abbas, quam et antecessores
+                        eius in sua potestate et ordinacione tenuisset, et dominasset, et sive ab
+                        eadem domna Theoderada, et Gysulfo filio eius, qui per predictam
+                        offercionem, nec non et ab imperatoribus, sive principibus testes ipsorum
+                        precepta, sicut dixerat in eorum [.....], in eodem cenobio Sancti Vincencii
+                        emissa habuisset, ut superius dixerat. In eodem vero die uterque ante nos
+                        venerunt, et continuo ipse Maio abbas ostendit quinque scariones sui
+                        monasterii, idest <persName key="#Other_minor_officer"><name
+                                ref="Magelgarius">Magelgarius</name></persName>, et <persName
+                            key="#Other_minor_officer"><name ref="Maio">Maione</name></persName>,
+                            <persName key="#Other_minor_officer"><name ref="Stephanus"
+                                >Stephanus</name></persName>, <persName key="#Other_minor_officer"
+                                ><name ref="Ragimpertus">Ragimpertus</name></persName>, et <persName
+                            key="#Other_minor_officer"><name ref="Odelpertus"
+                            >Odelpertus</name></persName>, et ita eos ad sancta evangelia iurare
+                        fecit predicto Bernardo, et Heroico pro parte palacii, quod ab illo tempore,
+                        quo predicta domna Theoderada, et Gysolfus filius eius ipsum monasterium
+                        Sancte Marie cum predicta terra culta vel inculta, per iam dictos fines, cum
+                        omni eius pertinencia datum et offertum fuit per iam dicta offercione, ut
+                        diximus, in memorato monasterio Sancti Vincencii, et usque ad tempus domni
+                        Adelchis securiter ipse Maio abbas, et antecessores sui, sine contradiccione
+                        partis palacii, in ea potestate et ordinacione tenuisset et dominasset, et
+                        postea a singulis imperatoribus et principibus precepta emissa abuisset de
+                        quanta et quali dominacione de eodem monasterio Sancte Marie, a parte
+                        palacii, habere debuisset. Post hec sacramenta data, nos qui supra Lodoicus
+                        castaldeus et iudice definienda <rs key="#Placitum/iudicatum">iudicavi</rs>,
+                        coram supradictis nobilioribus viris, quorum nomina superius dicta sunt, qui
+                        mecum pariter in hac definicione interfuerunt, ut amodo et deinceps iuris
+                        prefati monasterii Sancti Vincencii, eiusque rectores, eundem monasterium
+                        Sancte Marie, cum omnibus suis pertinenciis, in sua dominacione habere et
+                        possidere securiter, sine requisicione a pars palacii et de aliis omnibus
+                        hominibus valeant iure quieto in perpetuum.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>CV II, n. 77, pp. 14-18</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

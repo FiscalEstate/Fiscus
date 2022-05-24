@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    Diplomatico, + G 60</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus
+                        Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc26</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Venditio</rs>
+                            <rs type="record_source" ref="#">Original document</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property">Yes</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="1006-11-19">
+                                <note type="displayed_date">1006 November 19</note>
+                                <note type="dating_elements">Stile dell'incarnazione</note>
+                                <note type="topical_date"><foreign>Bibbia</foreign> (Ponticelli di
+                                    Santa Maria a Monte, Pisa)</note>
+                                <note type="redaction_date"/>
+                             </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change who="ptomei" when="2021-01-14">creation of record</change>
+                <change when="2021-02-16" who="ptomei">changes</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>Il <rs key="#Priests">prete</rs>
+                        <persName key="#Priests"><name ref="Teobaldus">Tetbaldo</name></persName>
+                        <rs key="#Clerical_concubinage">figlio della <persName
+                                key="#Clerical_concubinage">fu <name ref="Rodelinda/Rotia">Rodilinda
+                                    detta Rozia</name></persName></rs>, vende ai fratelli
+                                <persName><name ref="Eritius/Venerandus">Erizio detto
+                                Venerando</name></persName> e <persName><name ref="Petrus"
+                                >Pietro</name></persName> del <persName>fu <name ref="Petrus"
+                                >Pietro</name></persName> un appezzamento di terra, cum cassina
+                        super se abentes, posto in loco et finibus <placeName ref="#places/23"
+                            >Catiana</placeName> ubi dicitur <placeName
+                            key="#Curtes #Petiae #Fiscal_property #Mention #Emperor/king #Queen"
+                            ref="#places/23"><rs key="#Curtes #Fiscal_property #Mention">Curte</rs>
+                            <rs key="#Queen">Regine</rs></placeName> quas mihi per cartule scripte
+                        sunt manibus Heriberti notarii domni imperatoris <rs key="#Venditio">ex
+                            conparationem</rs> obvenit da <persName><name ref="Albo"
+                            >Albone</name></persName> del <persName>fu <name ref="Teobaldus/Teutius"
+                                >Tetbaldo detto Teuzio</name></persName> e dalla moglie
+                                <persName><name ref="Bonitia">Bonizia</name></persName> del
+                            <persName>fu <name ref="Rotius/Omicius">Rozio detto
+                            Omicio</name></persName>, <rs key="#Confinia">confinante</rs> ambas
+                        capitas in via publica, lato uno con <rs
+                            key="#Petiae #Fiscal_property #Mention">terra</rs> del <rs
+                            key="#Emperor/king">re</rs>, alio lato con terra dei suddetti fratelli,
+                        con tutte le sue dipendenze et cum exempler de suprascripte cartule, per il
+                        prezzo di 15 soldi d'argento. Chiede al <rs key="#Writer #Notary">notaio
+                            imperiale</rs>
+                        <persName key="#Writer #Notary"><name ref="Eribertus"
+                            >Eriberto</name></persName> la stesura della cartula. Actum in loco ubi
+                        dicitur <placeName ref="#places/62">Bibbia</placeName> prope <rs
+                            key="#Castle">castello</rs> et <orgName key="#Churches"
+                            ref="#juridical_persons/72"><rs key="#Churches">eclesia</rs> Sancte
+                            Marie ubi dicitur <placeName key="#Castle #Churches" ref="#places/63">
+                                ad Monte</placeName></orgName>. <rs key="#Witness">Testimoni</rs>
+                        sottoscrittori: <persName key="#Witness"><name ref="Rotius"
+                            >Rozio</name></persName> del <persName>fu <name ref="Rotius/Omicius"
+                                >Rozio detto Omicio</name></persName>, <persName key="#Witness"
+                                ><name ref="Ildebrandus">Ildebrando</name></persName> del
+                            <persName>fu <name ref="Rodulfus">Rodolfo</name></persName>, <persName
+                            key="#Witness"><name ref="Rodulfus">Rodolfo</name></persName> del
+                            <persName>fu <name ref="Alboinus">Albuino</name></persName>.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p>Pescaglini Monti 2012, p. 341; Tomei 2018, pp. 84-85.</p>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>Per l'ubicazione del luogo di rogazione dell'atto vedasi Dini 1979, p. 63. Curte
+                    Regine è divenuto toponimo.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    Diplomatico,  A.55</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc4030</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">--Venditio</rs>
+                                    <rs type="record_source" ref="#">Critical edition</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate notBefore="0740-04-01" notAfter="0740-04-30">
+                                <note type="displayed_date">740 April</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Lucca</note>
+                                <note type="redaction_date"/>
+                             </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-05-27" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab><persName key="#Vir_devotus/vir_honestus"><name
+                                ref="Barunciusavitaturis in Castro Novo vico Canpulo"
+                                >Baruncio</name></persName>
+                        <rs key="#Vir_devotus/vir_honestus">viro honesto</rs> filio quondam
+                                <persName><name ref="Adrianus">Atriani</name></persName> avitaturis
+                        in <placeName ref="#places/443">Castro Novo</placeName>
+                        <placeName ref="#places/631">vico Canpulo</placeName>
+                        <foreign>vende</foreign> a <persName key="#Other_clerics"><name
+                                ref="Gundualdus">Gundualdi</name></persName>
+                        <rs key="#Other_clerics">clirici</rs> uno pezzo de <rs key="#Wine"
+                            >vinea</rs> qui est posita ad <placeName
+                            key="#Petiae #Landed_possessions #Wine #Hay/fodder" ref="#places/632"
+                            >Trasicclu</placeName>, <rs key="#Landed_possessions">sorte</rs> mea in
+                        integrum in ipso loco; et alio<rs key="#Petiae"> pezziolo de terra</rs>
+                        vacua qui est atfinis de <rs key="#Hay/fodder">pratum</rs>
+                        <persName key="#Confinia #Hay/fodder"><name ref="Autchis"
+                            >Autchisi</name></persName>, sorte mea in integrum, qui mihi cuntigent
+                        da <persName><name ref="Aurulus">Aurulu</name></persName> gunsobrino meo.
+                            <foreign>Prezzo</foreign>: auri soledos nomero duo tantum; pena in
+                        duplum. <foreign>Scrive</foreign>
+                        <persName key="#Writer #Vir_devotus/vir_honestus"><name ref="Teudebertus"
+                                >Teutpert</name></persName>
+                        <rs key="#Vir_devotus/vir_honestus">virum devotum</rs>. (…) Actum <placeName
+                            ref="#places/4">Luca</placeName>. <foreign>Sottoscrivono</foreign>: +
+                        Baruncioni viri honesti vendituris; + <persName
+                            key="#Witness #Vir_devotus/vir_honestus"><name
+                                ref="Gaifredus de Marilau">Gaifridi</name></persName>
+                        <rs key="#Vir_devotus/vir_honestus">viri devoti</rs> de <placeName
+                            ref="#places/60">Marilau</placeName> testis; + <persName
+                            key="#Witness #Vir_devotus/vir_honestus"><name ref="Ansbaldus"
+                                >Anspaldi</name></persName>
+                        <rs key="#Vir_devotus/vir_honestus">viri devoti</rs> testis; + <persName
+                            key="#Witness"><name ref="Anspertus">Anssipert</name></persName> filio
+                                <persName><name ref="Teudebertus">Teupert</name></persName> testis. </ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>MDL V/2, n. 28; CDL I, n. 74, pp. 211-223; ChLA, XXXI, 918.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                         <p><foreign>Verso: mano dello scrittore</foreign>: Gaufridi, Anspaldi,
+                    Anssipert. <foreign>Nota dorsale (sec VIII)</foreign>: Carta de Baroncio.
+                        <foreign>Nota dorsale (sec XII ex.)</foreign>: Venditio vinee in
+                    Campulo.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

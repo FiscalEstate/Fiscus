@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Roma, Biblioteca Vaticana, Cod. Barb. lat. 2724, cc. 204v-205r
+                        (<foreign>Chronicon Vulturnense</foreign>, II, n. 128) </title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc2075</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Libellus/precaria/emphyteusis</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property">Uncertain</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0971-02">
+                                <note type="displayed_date">971 February</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Benevento</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-11-05" who="gzornetta">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine Domini. <date>Vicesimo octavo anno principatus domni <persName
+                                key="#Princeps" ref="#people/157">Pandolfi</persName> gloriosi <rs
+                                key="#Princeps">principis</rs>, et tercio anno principatus domni
+                                <persName key="#Princeps" ref="#people/167">Landolfi</persName>
+                            filio eius, mense februario, quartadecima indiccione</date>.
+                        Memoratorium factum a me <persName key="#Abbots" ref="#people/1955"
+                            >Paulus</persName>, humilis <rs key="#Abbots">abbas</rs>
+                        <rs key="#Monasteries">monasterii</rs>
+                        <orgName key="#Monasteries #Abbots #Rent_in_money"
+                            ref="#juridical_persons/1900">Sancti Vincencii</orgName>, quod
+                        edificatum est super <rs key="#Rivers">fluvio</rs>
+                        <placeName key="#Rivers" ref="#places/609">Vulturno</placeName>, et
+                            <persName key="#Other_clerics #Notary #Advocatus" ref="#people/2401"
+                            >Madelfrid</persName>, <rs key="#Other_clerics">clericus</rs> atque <rs
+                            key="#Notary">notarius</rs> et scriba <rs key="#Advocatus"
+                            >advocatorem</rs> eiusdem nostri monasterii, de hoc quod in sacratissimo
+                            <placeName key="#Palatia" ref="#places/110">Beneventano</placeName>
+                        <rs key="#Palatia">palacio</rs>, ante idoneos homines qui subterscripti
+                        sunt, ordine conveniencie iuxta legem, dedimus et tradidimus <persName
+                            key="#Coloni/tenants"><name ref="Iohannes">Iohanni</name></persName>
+                        filius <persName key="#Other_clerics"><name ref="Maraldus"
+                            >Maraldi</name></persName>
+                        <rs key="#Other_clerics">clerici</rs>; et <persName
+                            key="#Coloni/tenants #Other_clerics"><name ref="Michael"
+                                >Michaheli</name></persName> clerici filius <persName
+                            key="#Other_clerics"><name ref="Saudus">Saudi</name></persName>
+                        <rs key="#Other_clerics">clerici</rs>; et <persName key="#Coloni/tenants"
+                                ><name ref="Iohannes">Iohannes</name></persName> filius <persName
+                            key="#Judge"><name ref="Iohannes">Iohannis</name></persName>
+                        <rs key="#Judge">iudicis</rs>, qui sunt commorantes ex <rs key="#Cities"
+                            >civitate</rs>
+                        <placeName
+                            key="#Cities #City_territory #Houses #Cereals #Animals #Hay/fodder #Casalini/fundamenta #Landed_possessions #Wine #Mills #Churches #Castle #Slave #Slave_labour"
+                            ref="#places/554">Lisine</placeName>, ipsa <rs key="#Churches"
+                            >ecclesia</rs> cum ipso <rs key="#Castle">castello</rs> ex ipso
+                        montecellu, pertinentem predicti nostri monasterii, de <rs
+                            key="#City_territory">finibus</rs> ex eadem civitate Lisine, super ipso
+                            <rs key="#Rivers">fluvio</rs>
+                        <placeName key="#Rivers #Mills #Fisheries #Fish" ref="#places/685"
+                            >Caldole</placeName>, et eum ipso <rs key="#Mills">molino</rs> quomodo
+                        edificatum est in eodem fluvio Caldole, et cum ipsa <rs
+                            key="#Fisheries #Fish">piscacione</rs> et pertinenciis suis ex eodem
+                        fluvio Caldole, et cum ipso <rs key="#Rivers">fluvio</rs>
+                        <placeName key="#Rivers #Fisheries #Fish" ref="#places/2828"
+                            >Sagri</placeName>, cum <rs key="#Fisheries #Fish">piscacione</rs> et
+                        pertinenciis, et ipsa foce de <placeName key="#Rivers #Fisheries #Fish"
+                            ref="#places/2827">Sancto Focato</placeName> cum <rs
+                            key="#Fisheries #Fish">piscacione</rs> et pertinenciis, et <rs
+                            key="#Landed_possessions">terris</rs> et <rs key="#Wine">vineis</rs>
+                        eiusdem nostri monasterii pertinentibus, de finibus ex ipsa civitate Lisine,
+                        et muricetis suis et cum aliis omnibus aquis et <rs
+                            key="#Animals #Hay/fodder">pascuis</rs> suis eiusdem nostri monasterii
+                        pertinentibus, de finibus eiusdem civitati, et <rs key="#Houses">casis</rs>
+                        et <rs key="#Castle">castris</rs> et <rs key="#Casalini/fundamenta"
+                            >casaline</rs> et fosse de intus eadem civitate, pertinentes ipsius
+                        nostri monasterii, quam et a foras eadem civitate Lisine, tali tenore illud
+                        eorum dedimus et tradidimus cum due <rs key="#Slave #Slave_labour"
+                            >mancipie</rs> eiusdem nostre ecclesie, nomina illarum <persName
+                            key="#Slave #Slave_labour"><name ref="Domenica"
+                            >Domeneca</name></persName> et <persName key="#Slave #Slave_labour"
+                                ><name ref="Segarda">Segarda</name></persName> cum duobus filiis
+                        suis, ut amodo et usque ad decem annos expletos in integrum illud prelegitur
+                        ipsum tenere, dominaremus et laboraremus, et ad laborandum daremus, et ipsum
+                        resideremus, et omnem suam utilitatem illud peragere, et amodo et usque in
+                        eodem constitutum quanta piscacione in ipse eorum Dominus dederit totum
+                        illud sue proprietatis haberemus, et quantum <rs key="#Cereals">frugium</rs>
+                        ex ipso molino et de ipsis rebus illorum Dominus dederit totum illud sibi
+                        habeant; et pro censu ex ipse atque et molinum, et de rebus, et de ipse case
+                        et casaline, et fosse et pro ipse ancille et servis annualiter daretis ipsis
+                        et suis heredibus mihi vel ad successoribus meis aut mandaretis nobis omni
+                        anno in kalendas ianuarias <rs key="#Rent_in_money">quinquaginta solidi
+                            Constantini</rs> boni pesanti, de quibus guadiam nobis dederunt
+                        supradicti Iohannes et Michahele clerici, et Iohannes, et mediatores nobis
+                        posuerunt <persName key="#Abbots #Deacons"><name ref="Aio"
+                            >Aio</name></persName>
+                        <rs key="#Deacons">diaconus</rs> et <rs key="#Abbots">abbas</rs> et
+                                <persName><name ref="Iohannes">Iohannes</name></persName> germanis
+                        filii quondam <persName><name ref="Roffridus">Roffridi</name></persName>,
+                        tali tenore ut si ea que prelegitur ipsis et suis heredibus mihi vel ad
+                        successoribus meis seu ad partem iam dicti nostri monasterii non
+                        adimpleverint vel si hoc qualitercumque se retrahere aut removere
+                        quesierint, centum solidos Constantinos nobis componere obligaverunt, vel
+                        illius homini qui hunc <rs key="#Libellus/precaria/emphyteusis">brebem</rs>
+                        a parte eiusdem nostri monasterii eorum in causacionem ostenderint et omnia,
+                        ut dictum est, per innvitis nobis adimplerent, per eandem guadiam et
+                        predictos mediatores et obligata pena, et ante posuerunt ad pignerandum ad
+                        ipsi mediatori nostri sine calumnia, in omnia sua legitima et inlegitima, et
+                        ad completum eodem constitutum remitteremus in integrum illud ad partem iam
+                        dicti nostri monasterii, cum ipsum brebem, quod inde eorum emisimus atque
+                        firmavimus, per eandem guadiam et predictos mediatores et obligata pena.
+                        Actum Beneventi feliciter. Ego <persName key="#Notary #Other_clerics"><name
+                                ref="Sikelpotus">Sikelpoto</name></persName>
+                        <rs key="#Other_clerics">clericus</rs> et <rs key="#Notary">notarius</rs>
+                        interfui. Ego <persName key="#Witness"><name ref="Gaiderisus">Gaiderisi</name></persName>.
+                        Ego <persName key="#Witness"><name ref="Ademarius">Ademari</name></persName>. Ego <persName key="#Witness"><name ref="Adelfus">Adelfe</name></persName>. Ego
+                        <persName key="#Witness"><name ref="Dauferius">Dauferi</name></persName> me
+                        subscripsi.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>CV II, n. 128, pp. 178-180</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

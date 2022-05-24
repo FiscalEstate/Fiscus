@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Roma, Biblioteca Vaticana, Cod. Barb. lat. 2724, cc. 106r-v
+                        (<foreign>Chronicon Vulturnense</foreign>, I, n. 58)</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc2027</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property">Yes</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0833-05">
+                                <note type="displayed_date">833 May</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Benevento</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-07-15" who="gzornetta">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine domini Dei salvatoris Iesu Christi. Nos <rs
+                            key="#Vir_gloriosus/vir_sublimis">vir gloriosissimus</rs>
+                        <persName key="#Princeps #Vir_gloriosus/vir_sublimis" ref="#people/186"
+                            >Sicardus</persName>, Dei providencia, Beneventane provincie <rs
+                            key="#Princeps"> princeps</rs>, per rogum <persName
+                            key="#Intercessory #Other_palatine_officer" ref="#people/1905"
+                            >Roffrid</persName>, <rs key="#Other_palatine_officer">referendarii</rs>
+                        nostri, concedimus in <rs key="#Monasteries">monasterio</rs>
+                        <orgName
+                            key="#Monasteries #Abbots #Landed_possessions #Rivers #Mountains #Churches"
+                            ref="#juridical_persons/1900">Beatissimi Vincencii martyris</orgName>,
+                        quod situm, est in finibus Samnie, iuxta <rs key="#Rivers">fluvio</rs>
+                        <placeName key="#Rivers" ref="#places/609">Vulturno</placeName>, ubi vir
+                        verabi1is <persName key="#Abbots" ref="#people/1903">Epyphanius</persName>
+                        <rs key="#Abbots">abbas</rs>, orator noster, preesse videtur, <rs
+                            key="#Landed_possessions">terras</rs> cum <rs key="#Mountains"
+                            >montibus</rs> uno se tenente, per hos fines: prima parte unde oritur
+                            <rs key="#Rivers">riagine</rs>, que dicitur <placeName key="#Rivers"
+                            ref="#places/2309">Ravennola</placeName>, et quomodo decurrit iam dicta
+                        riagine de ipsa Ravennola, unde per tempus aqua decurrit, et qui exfinat
+                        inter hec terra et <rs key="#Landed_possessions">terras</rs> et <rs
+                            key="#Mountains">montes</rs>, quos concessos habet domnus <persName
+                            key="#Princeps" ref="#people/303">Arichis</persName>
+                        <rs key="#Princeps">princeps</rs> in iam prefato cenobio; de secunda parte
+                        riagine, que dicitur Ravennola; da tercia parte unde incipit orire iam dicta
+                        Ravennola, deinde incipiente circa <rs key="#Landed_possessions">terras</rs>
+                        ei <rs key="#Mountains #Fiscal_property #Textual_occurrence #Mention">montes
+                            puplicos</rs>, usque in <placeName
+                            key="#Mountains #Fiscal_property #Textual_occurrence #Function #Redistributive #Outflow #Allocation_to_churches"
+                            ref="#places/2326">montem</placeName>, qui est super urbem <placeName
+                            key="#Mountains #Landed_possessions #Rivers" ref="#places/2300"
+                            >Benafro</placeName>; quarta parte incipiente da iam dicto monte,
+                        qualiter vadit per cilios aliorum moncium, usque in montem iam dicti
+                        monasterii, qui est super terras, que vocatur <geogName
+                            key="#Landed_possessions #Mountains #Fiscal_property #Textual_occurrence #Function #Redistributive #Outflow #Allocation_to_churches"
+                            ref="#estates/1929">Arcora</geogName>, que est hereditas <orgName
+                            key="#Mountains #Landed_possessions #Fiscal_property #Textual_occurrence #Mention #Churches"
+                            ref="#juridical_persons/1904">Sancte Dei genitricis Marie</orgName>, que
+                        nominatur <placeName
+                            key="#Mountains #Landed_possessions #Fiscal_property #Textual_occurrence #Function #Redistributive #Outflow #Allocation_to_churches #Churches"
+                            ref="#places/2330">Oliveto</placeName>, subiecta iam dicto monasterio,
+                        et qualiter vadit circa <rs key="#Mountains">montes</rs> iam dicte <rs
+                            key="#Churches">ecclesie</rs> Sancte Marie, et montes iam dicti cenobii.
+                        Ideo in iam dicto monasterio concessimus in integrum iam dictas terras et
+                        montes per iam dictos fines possidendum, in ea videlicet racione, ut a modo
+                        et deinceps, per hoc nostrum roboratum, preceptum, cuncta, ut superius
+                        leguntur, habere et possidere valeatis vos iam nominatus Epyphanius abbas,
+                        atque successoribus et rectoribus iam dicti vestri monasterii, ita ut a
+                        nullis ex nostris iudicibus, idest comitibus et gastaldeis, vel a
+                        quibuscumque hominibus non habeatis de predictis terris et montibus aliquam
+                        requisicionem vel molestacionem, sed perpetuis temporibus possideatis. Quod
+                        vero <rs key="#Marquis’/ducal/princely_diploma">preceptum</rs> firmitatis,
+                        ex iussione tue potestatis, scripsi ego <persName key="#Notary"><name
+                                ref="Leodericus">Leodericus</name></persName>
+                        <rs key="#Notary">notarius</rs>. <date>Actum <placeName key="#Palatium"
+                                ref="#places/110">Benevento</placeName>, in sacro <rs
+                                key="#Palatium">palacio</rs>, primo anno principatus eius, mense
+                            magio, undecima indiccione</date>, feliciter. </ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>CV I, 58, pp. 293-294</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p>Marazzi 2012: 31-32</p>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

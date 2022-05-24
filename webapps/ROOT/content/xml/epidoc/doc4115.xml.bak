@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    *B.34</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc4115</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">--Offersio/donatio</rs>
+                                    <rs type="record_source" ref="#">Critical edition</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate when="0768-05-04">
+                                <note type="displayed_date">768 May 5</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Lucca</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-07-16" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab><persName key="#Priests"><name ref="Anacardus"
+                            >Anacardo</name></persName>
+                        <rs key="#Priests">presbitero</rs> rectori <rs key="#Churches"
+                            >ecclesiae</rs> beati <orgName key="#Churches"
+                            ref="#juridical_persons/232">Sancti Petri</orgName> sita in loco
+                            <placeName key="#Churches" ref="#places/597">Castellione</placeName>
+                        prope <placeName ref="#places/597">Fernetam</placeName>
+                        <foreign>dona pro anima</foreign> Deo et tibi <rs key="#Churches"
+                            >ecclesiae</rs>
+                        <orgName key="#Churches #Private_foundations" ref="#juridical_persons/613"
+                            >beati Sancti Colombani</orgName>, <rs key="#Private_foundations"
+                            >constructa</rs> a viro beatissimo domno <persName
+                            key="#Bishops #Private_foundations" ref="#people/343">Peredeo</persName>
+                        in Dei nomine <rs key="#Bishops">episcopo</rs> prope <rs key="#Walls"
+                            >murum</rs>
+                        <rs key="#Cities">civitatis</rs> nostrae <placeName
+                            key="#Cities #Walls #Churches #Private_foundations" ref="#places/4"
+                            >Lucensis</placeName>, <rs key="#Churches">ecclesiam</rs> ipsam ubi
+                        resedere videor, cum <rs key="#Landed_possessions">omnibus rebus</rs> meis,
+                        tam quam ipsam rem quam ibidem per dotem confirmavi quam et ubique mihi
+                        pertenentem <rs key="#Cereals">terram</rs>, <rs key="#Wine">vineam</rs>, <rs
+                            key="#Fruits/vegetables">orta</rs>, <rs key="#Oil">oliveta</rs>, <rs
+                            key="#Acorns">silvas</rs>, <rs key="#Chestnuts">castaneum</rs>,
+                        virgarium (…), nisi scerpham meam et pannos, buttes et arca vel alia
+                        usitilia casae seu <rs key="#Animals">nutrimina</rs>, quae in meam reservo
+                        potestatem. <foreign>Ne riserva l’usufrutto vitalizio, ma non la possibilità
+                            di cedere i beni, per sé et per</foreign>
+                        <persName><name ref="Auriperta">Auriperta</name></persName> presbiteria mea
+                        (…). <foreign>Dopo la sua morte i beni e la chiesa appartengano</foreign> in
+                        iamdicta ecclesia <foreign>(scil. di S. Colombano)</foreign> vel de <rs
+                            key="#Bishops">pontefice</rs> qui pro tempore fuerit (…). Actum
+                            <placeName ref="#places/4">Luca</placeName>.
+                            <foreign>Sottoscrizioni:</foreign> (ss) Anacard presbiter; + <persName
+                            key="#Witness #Specialized_workers"><name ref="Pettus"
+                            >Petti</name></persName>
+                        <rs key="#Specialized_workers">aurificis</rs> germani eius testis; +
+                            <persName key="#Witness #Other_clerics"><name ref="Peredeulus"
+                                >Peretheuli</name></persName>
+                        <rs key="#Other_clerics">acoliti</rs> filii quondam <persName><name
+                                ref="Gauseradus">Gauderadi</name></persName> testis; (ss) <persName
+                            key="#Witness #Priests"><name ref="Firmus">Firmo</name></persName>
+                        <rs key="#Priests">presbiter</rs>; (ss) <persName
+                            key="#Witness #Other_clerics"><name ref="Sprinca"
+                            >Sprinca</name></persName>
+                        <rs key="#Other_clerics">clericus</rs>; (ss) <persName
+                            key="#Witness #Other_clerics"><name ref="Emmo">Emmo</name></persName>
+                        <rs key="#Other_clerics">clericus</rs>. <foreign>Scrive</foreign>: <persName
+                            key="#Writer #Other_clerics"><name ref="Ostribertus"
+                            >Austripertus</name></persName>
+                        <rs key="#Other_clerics">clericus</rs>.</ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>MDL IV/1, 23; reg. MDL V/2, n. 106; CDL II, 219, pp. 252-254; ChLA,
+                    XXXIV, 1001.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p><foreign>Nota dorsale (sec. VIII-IX)</foreign>: + dotem da Anacardo
+                    presbitero. <foreign>Nota dorsale (sec. XI-XII)</foreign>: Offersio de Farneta.
+                        <foreign>Nota dorsale (sec. IX):</foreign> In Sancto Columbano. </p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

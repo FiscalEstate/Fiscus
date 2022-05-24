@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio di Stato di Siena, Diplomatico, S. Agostino, 994 agosto
+                    26</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc1455</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">--Testamentum/iudicatum</rs>
+                                    <rs type="record_source" ref="#">Original document</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate when="0994-08-26"> 
+                                        <note type="displayed_date">994 August 26</note>
+                                        <note type="dating_elements">Anno di impero di Ottone. </note>
+                                        <note type="topical_date">
+                                    <foreign>Morrano</foreign></note>
+                                        <note type="redaction_date"/>
+                             </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-04-02" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab><persName key="#Priests"><name ref="Beritius"
+                            >Beritio</name></persName>
+                        <rs key="#Priests">presbitero</rs> filio <persName><name ref="Liutia"
+                                >Liutie</name></persName> (…) per anc cartula pro anime mee remedium
+                        dà in potestate (…) <persName><name ref="Rotius">Roitio</name></persName> et
+                                <persName><name ref="Petrus/Bonitius">Petro que Bonitio
+                                vocatur</name></persName> gg. filii bone memorie <persName><name
+                                ref="Liutius">Liuti</name></persName> (…) <rs
+                            key="#Landed_possessions">terris</rs> et <rs key="#Wine">vineis</rs> (…)
+                        in loco et finibus <placeName key="#Landed_possessions #Wine"
+                            ref="#places/274">Morrano</placeName> et in <placeName
+                            key="#Landed_possessions #Wine">Paratine</placeName> seu in <placeName
+                            key="#Landed_possessions #Wine">Pissinalita</placeName> et in <placeName
+                            key="#Landed_possessions #Wine">Ranoclagia</placeName> sive que dicitur
+                            <placeName key="#Landed_possessions #Wine">Quercia</placeName>, et per
+                        aliis locibus quas mihi per cartula scripta est manibus <persName
+                            key="#Writer #Notary"><name ref="Iohannes">Iohannis</name></persName>
+                        <rs key="#Notary">notarii</rs> domini imperatoris <rs key="#Venditio">ex
+                            conparationem</rs> obvenerunt da <persName><name
+                                ref="Liutius de Morrano">Liutio</name></persName> abitator loco
+                        Morrano filio quondam <persName><name ref="Cuneradus"
+                            >Cuneradi</name></persName> (…), tam in vita mea quam et post obito meo.
+                        Chiede a <persName key="#Writer #Notary"><name ref="Iohannes"
+                                >Iohannes</name></persName>
+                        <rs key="#Notary">notarius</rs> domini imperatoris la stesura della cartula.
+                        Actum [Mo]rrano infra <rs key="#Comitatus">comitato et territurio</rs>
+                        <geogName key="#Comitatus" ref="#estates/154">Rosellensi</geogName>.
+                        Testimoni: <persName key="#Witness"><name ref="Teudelasius/Teutius"
+                                >Teudilascio que Teutio vocatur</name></persName> filius bone
+                        memorie <persName><name ref="Petrus">Petri</name></persName>; <persName
+                            key="#Witness"><name ref="Teutius">Teuti</name></persName> filius bone
+                        memorie <persName><name ref="Bonitius">Boniti</name></persName>; <persName
+                            key="#Witness"><name ref="Rodulfus">Rodulfi</name></persName> filio bone
+                        memorie similiter <persName><name ref="Bonitius">Boniti</name></persName>. </ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>Reg. Lisini 1908: 503</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p>foto disponibile inserire link.</p>
+                    </div>
+                    <div type="commentary">
+                        <p>Matronimico. Nota tergale XII sec.: cartula in Piscinalita et Ranoclaia.
+                    Berizio prete sottoscrive autografamente.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

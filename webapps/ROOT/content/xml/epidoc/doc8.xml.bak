@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Archivio Abbaziale di Nonantola, Pergamene, IV 28</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2020">2020</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc8</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2020"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">Commutatio</rs>
+                            <rs type="record_source" ref="#">Original document</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property">Uncertain</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0936-05-07">
+                                <note type="displayed_date">936 May 7</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date"><foreign>in vico Luculeta</foreign>, pieve
+                                    di S. Giovanni in Persiceto (Bologna)</note>
+                                <note type="redaction_date">XI</note>
+                             </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                   <place></place>
+                </listPlace>
+            <listPerson>
+                <person></person>
+            </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change who="emanarini" when="2020-12-21">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine Domini. Temporibus domni <persName key="#Popes" ref="#people/87"
+                            >Leoni</persName>
+                        <rs key="#Popes">apostolici</rs>, pontificatus eius in Dei nomini anno
+                        primo, | regnate domno <persName key="#Emperor/king" ref="#people/79"
+                            >Ugone</persName> et domno <persName key="#Emperor/king"
+                            ref="#people/72">Lothario</persName> filio eius magnis <rs
+                            key="#Emperor/king">regibus</rs>
+                        <date>anno domni | Ugoni decimo et domni Lothari VI, die septimo mensis
+                            ma(i)i, indictione VIIII</date>, in <rs key="#Vici">vico</rs>
+                        <placeName key="#Vici">Lucoleta</placeName> infra <rs
+                            key="#Plebs #Baptismal_churches">plebem</rs>
+                        <orgName key="#Plebs #Baptismal_churches" ref="#juridical_persons/74">Sancti
+                            Iohannis</orgName> in <placeName key="#Vici #Plebs #Baptismal_churches"
+                            ref="#places/27">Persecita</placeName>, <rs key="#City_territory"
+                            >territorio</rs>
+                        <placeName key="#City_territory" ref="#places/38">Motinense</placeName> vel
+                            <placeName key="#City_territory #Plebs" ref="#places/7"
+                            >Bononiense</placeName>. <rs key="#Commutatio">Commutant</rs> inter se |
+                        presenti die domnus <persName
+                            key="#Commutatio #Libellus/precaria/emphyteusis #Curtes #Fundi #Petiae #Count"
+                            ref="#people/23">Bonefatius</persName>
+                        <rs key="#count">comes</rs> filius bone memorie dom(ni) <persName
+                            ref="#people/24" key="#Count">Ubaldi</persName> comitis, dans ipse
+                        suprascriptus do(m)nu(s) | Bonefatius comes de iure suo in iure domni
+                            <persName ref="#people/22"
+                            key="#Commutatio #Curtes #Fundi #Petiae #Abbots">Ingelberti</persName>
+                        venerabilis <rs key="#Abbots">abbatis</rs>
+                        <orgName ref="#juridical_persons/47" key="#Curtes #Fundi #Monasteries"
+                            >monasterii <placeName ref="#places/15" key="#Monasteries"
+                                >Nonantule</placeName></orgName> territorio Moti|(ne)nsi eiusque
+                        successoribus in perpetuis temporibus possidendum. Idest in <rs key="#Fundi"
+                            >fundo</rs>
+                        <placeName
+                            key="#Fundi #Petiae #Maiores #Wine #Wood #Agricultural_workers #Other_minor_officer"
+                            ref="#places/71">Gaiolo</placeName> omnibus rebus et casis qu(e) |
+                        fuerunt recte et laborate per <persName key="#Agricultural_workers"><name
+                                ref="Geminianus/Paulicio">Geminiano</name> Paulicio</persName> et
+                        modo fiunt laborate per <persName key="#Agricultural_workers"><name
+                                ref="Iohannes/Presurio">Iohanne</name> Presurio</persName> et
+                        detinet | de ipsis rebus per infiteosin <persName><name ref="Berno"
+                                >Berno</name></persName> et <persName><name ref="Ursus/Paulicio"
+                                >Urso</name> Paulicio</persName>, <persName><name ref="Azo"
+                                >Azo</name></persName> et <persName key="#Other_minor_officer"><name
+                                ref="Ursus">Urso</name></persName>
+                        <rs key="#Other_minor_officer">dec(ani)</rs>, et sunt ipse res ad ratione |
+                        facta int(er) <rs key="#Petiae">terra</rs>
+                        <rs key="#Maiores">aratoria</rs> et <rs key="#Wine">vineata</rs> et terra
+                        cum <rs key="#Wood">frascario</rs> iuge L et VI. Item in fundo<placeName
+                            key="#Maiores #Petiae #Wine #Wood #Agricultural_workers #Houses #Fundi"
+                            ref="#places/72">Viniole</placeName> | omnibus rebus et casis et vineis,
+                        terris cum omni sua pertinentia int(er) terra aratoria et frascario et
+                        vineata | ad ratione facta sunt iuges XVI et fiunt laborate ipse res per
+                            <persName key="#Agricultural_workers"><name ref="Samuel"
+                                >Samuhelem</name></persName> et <persName
+                            key="#Agricultural_workers"><name ref="Iohannes"
+                            >Iohannem</name></persName> et <persName key="#Agricultural_workers"
+                                ><name ref="Petrus">Petrum</name></persName>; | simulque in fundo
+                            <placeName
+                            key="#Maiores #Petiae #Wine #Wood #Agricultural_workers #Houses #Forests #Casae/cassinae_massaricie #Fundi"
+                            ref="#places/73">Riolo</placeName> omnibus rebus et casis, terris,
+                        vineis, c[u]m omni sua pertinentia in integrum, quod est int(er) terra | de
+                                <persName><name ref="Ismael">Hismahel</name></persName> et alia
+                        terra cum <rs key="#Forests">silva</rs> et frascario, iuges XVII et habet
+                        ibi <rs key="#Casae/cassinae_massaricie">massaricia</rs> una que | fuit
+                        recta et laborata per <persName key="#Agricultural_workers"><name
+                                ref="Andreas/Glutto">Andream</name> Glutto</persName> que habet
+                        int(er) terra aratoria et vineata et silva|ta iuges XVIII. Et sunt de ipsis
+                        rebus in <placeName key="#Fundi" ref="#places/74">Arcuado</placeName> iuges
+                        IIIIor. E(t) est de suprascripis rebus in fundo | <placeName
+                            key="#Fundi #Maiores #Wine #Wood #Casae/cassinae_massaricie"
+                            >Rusti</placeName>, <rs key="#Casae/cassinae_massaricie">massaricia</rs>
+                        I, insimul cum terra aratoria et frascario et vineata ad ratione facta |
+                        iuges XXVI in suprascripto fundo. Item in fundo <placeName key="#Fundi"
+                            ref="#places/75">Gavili</placeName> super totas omnes res meas et
+                        pertinen|tias que ad nomen meum pertinent in suprascripto fundo aut in
+                        circumiacentiis fundi[s] et modo | detinent per <rs
+                            key="#Libellus/precaria/emphyteusis">enfiteusin</rs>
+                        <persName key="#Libellus/precaria/emphyteusis"><name ref="Rainfredus"
+                                >Rainfredus</name></persName>, <persName><name ref="Petrus"
+                                >Petrus</name></persName>, <persName
+                            key="#Libellus/precaria/emphyteusis"><name ref="Adalbertus"
+                                >Adelbertus</name></persName>, <persName
+                            key="#Libellus/precaria/emphyteusis"><name ref="Iohannes"
+                                >Iohannes</name></persName>
+                        <persName><name ref="Christinus">Cristini</name></persName>, <persName
+                            key="#Libellus/precaria/emphyteusis"><name ref="Daibertus"
+                                >Daibertus</name></persName>, <persName
+                            key="#Libellus/precaria/emphyteusis"><name ref="Petrus"
+                            >Petrus</name></persName> et res | de <persName
+                            key="#Libellus/precaria/emphyteusis"><name ref="Sigenulfus"
+                                >Siginulfo</name></persName> et <persName
+                            key="#Libellus/precaria/emphyteusis"><name ref="Andreas"
+                            >Andrea</name></persName>, item <persName
+                            key="#Libellus/precaria/emphyteusis"><name ref="Petrus"
+                            >Petrus</name></persName>, <persName
+                            key="#Libellus/precaria/emphyteusis #Priests"><name ref="Martinus"
+                                >Martinus</name></persName>
+                        <rs key="#Priests">presbiter</rs> et <persName
+                            key="#Libellus/precaria/emphyteusis"><name ref="Leo"
+                            >Leo</name></persName> et reliqui. Et in <placeName
+                            key="#Casae/cassinae_massaricie" ref="#places/76">Gebolini</placeName>
+                        massariciola | una que est iuges III. Itemque <placeName
+                            key="#Petiae #Fiscal_property #Object" ref="#places/27">terra que
+                            dicitur Regia</placeName>
+                        <rs key="#Fiscal_property #Object">in fundo </rs><placeName key="#Fundi"
+                            ref="#places/27">Persecetano</placeName> per singulas petiolas | mihi
+                        pertinente ad ratione facta iuges XXX. Item in fundo <placeName
+                            key="#Fundi #Maiores #Wood" ref="#places/82">Corticelle</placeName>,
+                        terra aratoria | cum frascario quanta ibi habemus omnia in integrum, quod
+                        est ad ratione facta iuges LXXV. | Et est ipsa res super totum insimul per
+                        singula loca et fundoras sicut superius legitur iu[ges] | CCXLVII. Simulque
+                        dans suprascriptus domnus Bonefatius comes de iure suo in iure domni
+                        I[n]|gelberti venerabili abbatis monasterii Nonantule suisque successoribus,
+                        idest omnibus rebus et casis iuris sui qu[e] | habere visus est trans <rs
+                            key="#Rivers">fluvium Padum</rs> in locis et fundis seu casalibus que
+                        dicitur <placeName key="#Fundi #Casalia">Fabrica</placeName> et <placeName
+                            key="#Fundi #Casalia" ref="#places/78">Badr[i]|niana</placeName> et in
+                        pago <placeName key="#Pagus" ref="#places/77">Figariole</placeName> seu in
+                        plebe de <placeName key="#Curtes #Plebs #Baptismal_churches"
+                            ref="#places/79"><orgName key="#Plebs #Baptismal_churches"
+                                ref="#juridical_persons/76">Septi Policino</orgName></placeName>
+                        omnia in integrum quicquid invenire potueri|tis in ipsis suprascriptis
+                        casalibus vel fundoras cum <rs key="#Curtes">curte mea que dicitur <geogName
+                                key="#Curtes" ref="#estates/81">Septi
+                                Policino</geogName></rs> in <rs key="#Comitatus">comitatu</rs>
+                        <geogName key="#Comitatus" ref="#estates/84">Ferariense</geogName>, cum
+                        omnia pertinentia que superius leguntur, que pertinet ad ipsam curtem cum
+                        omnia super se et infra se habente sicut superius legitur in integrum, cum
+                        terris, casis, edificiis, cispidibus, curtis, | hortis, areis, puteis,
+                        aquis, rivis, rupinis aquarum, paludibus, piscacionibus, miscionibus,
+                        venatio|nibus, arbustis, arboribus vel [animal]ibus a suprascritis rebus
+                        mihi pertinentibus in suprascriptas fundoras | sicut superius legitur in
+                        integrum. Et si amplius de ipsis rebus in suprascriptis locis inveneritis |
+                        in vestro iure vestrorumque successorum permaneat. Et sunt ipse res insimul
+                        super totum per singula | loca una cum ipsa curte cum suis pertinentiis et
+                        apenditiis vel cum super se aut in[fra] | se aspicientibus iuges DCCCCXVIII.
+                        Hec autem que superius leguntur temp[ore] | domni Ingelberti abbatis
+                        translata sunt de breviario domni Bonifatii bone memorie | comitis causa
+                        recordationis in breviari(um) sancte Nonantulensis ecclesiae. Et hec que |
+                        sequuntur tra[n]slata sunt de breviario Nonantulensis ecclesie in breviarium
+                        domni | Bonefatii bone memorie comitis. Dedit ipse suprascriptus venerabilis
+                        Ingelbertus abbas monasteri Non[antule] | de iure ecclesie in iure domni
+                        Bonefatii bone memorie comitis eiusque heredibus in perpet[uis tem]|poribus
+                        possidendum curtem unam que vocatur <geogName
+                            key="#Curtes #Wine #Oil #Chestnuts" ref="#estates/82"
+                            >Funziano</geogName> in <rs key="#Comitatus">comitatu</rs>
+                        <geogName key="#Comitatus" ref="#estates/83">Florentino</geogName> [in
+                        lo]|co qui vocatur <placeName key="#Curtes #Wine #Oil #Chestnuts"
+                            ref="#places/81">Maceline qui et Funziano</placeName> vocatus cum
+                        omnibus rebus et pertinentiis su[is] | ad ipsam curtem pertinentibus una cum
+                        casis et rebus illis que sunt posite in loco qui dicitur
+                            <placeName>Sebe[..2..]no</placeName> et in loco que dicitur
+                            <placeName>Susiano</placeName> et <placeName>Memuniano</placeName> vel
+                        ubi et ubi infra suprascriptis com|itatibus ad ipsa curtem pertinentibus per
+                        quovis titulum in integrum una cum terris, vineis, ca|sis, edificiis, seu
+                        colonis et massariciis. Et hec sunt nomina illorum: <persName
+                            key="#Agricultural_workers"><name ref="Sigo">Sigo</name></persName>,
+                            <persName key="#Agricultural_workers"><name ref="Lupus"
+                            >Lupo</name></persName>, <persName key="#Agricultural_workers"><name
+                                ref="Albertus">Alperto</name></persName>, | <persName
+                            key="#Agricultural_workers"><name ref="Leopardus"
+                            >Leopardo</name></persName>, <persName key="#Agricultural_workers"><name
+                                ref="Barantinus">Barantino</name></persName>, <persName
+                            key="#Agricultural_workers"><name ref="Savinus"
+                        >Savino</name></persName>, <persName key="#Agricultural_workers"><name
+                                ref="Baruncius">Baruntio</name></persName>, <persName
+                            key="#Agricultural_workers"><name ref="Giso">Giso</name></persName>,
+                            <persName key="#Agricultural_workers"><name ref="Leopardo"
+                                >Leopardo</name></persName>, <persName key="#Agricultural_workers"
+                                ><name ref="Martinus">Martino</name></persName>, <persName
+                            key="#Agricultural_workers"><name ref="Ildus">Ildo</name></persName>,
+                            <persName key="#Agricultural_workers"><name ref="Lupus"
+                            >Lupo</name></persName>, | <persName key="#Agricultural_workers"><name
+                                ref="Stefanus">Stephano</name></persName>, <persName
+                            key="#Agricultural_workers"><name ref="Daibertus"
+                            >Taiberto</name></persName>, <persName key="#Agricultural_workers"><name
+                                ref="Ursus">Urso</name></persName>, <persName
+                            key="#Agricultural_workers"><name ref="Teudebertus"
+                            >Teoperto</name></persName>, item <persName key="#Agricultural_workers"
+                                ><name ref="Ursus">Urso</name></persName>, <persName
+                            key="#Agricultural_workers"><name ref="Rotius">Rozo</name></persName> et
+                        alio <persName key="#Agricultural_workers"><name ref="Ursus"
+                            >Urso</name></persName>, <persName key="#Agricultural_workers"><name
+                                ref="Donatus">Donato</name></persName>, <persName
+                            key="#Agricultural_workers"><name ref="Ursesredus"
+                            >Ursesredo</name></persName>, <persName key="#Agricultural_workers"
+                                ><name ref="Ursus">Urso</name></persName> et alio <persName
+                            key="#Agricultural_workers"><name ref="Ursus">Urso</name></persName>,
+                            <persName key="#Agricultural_workers"><name ref="Grimizus"
+                                >Grimizo</name></persName>, <persName key="#Agricultural_workers"
+                                ><name ref="Leo">Leo</name></persName>, <persName
+                            key="#Agricultural_workers"><name ref="Ansulus"
+                        >Ansulo</name></persName>. Istis suprascriptis residentibus in terra | que
+                        pertinet de suprascript(am) curtem et est ipsa cors per apodismu(m) ad
+                        rationem facta | iuges mil(le) CLXIIIor, et sunt tulpi <rs key="#Wine"
+                            >vinearum</rs> in ea per num(erum) XXX, et tres | milia XXV una cum
+                        silvis et <rs key="#Chestnuts">casteneto</rs> et <rs key="#Oil">oliveto</rs>
+                        et pascuis, pratis, silvis, | salectis, arbustis, arboribus pomiferis,
+                        fructiferis diversique generibus, aquis, rivis, | rupinis, usibus aquarum
+                        fontibus, cultum et incultum cum omnia super se et infra se ha|bentem omnia
+                        in integrum sicut superius comprehensum est ad ipsam curtem pertinentibus; |
+                        et si amplius de ipsis rebus infra prenominata loca invenire potueritis in
+                        vestro iure | permaneat.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>Manarini 2014, n. 1; Tiraboschi, n. 86.</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p>Manarini 2016; Castagnetti-Ciaralli 2011, p. 143; Gaudenzi 1901.</p>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>Atto di tradizione incerta. Ritenuto falso da Gaudenzi e da Castagnetti. Copia
+                    semplica del XII secolo. A tergo di mano coeva un testo dal titolo «In
+                    nativitate evangelistarum [..3..]»; di mano del XIII secolo: «Comutatio pro qua
+                    monaster(ius) h[abet] Gazolum infra alia bona»; di mano del XV secolo:
+                    «Comutatio Bonifatii marchionis | cum Abbatia de locis trans Padum | in
+                    Ferrariensi».</p>
+            </div>
+           
+        </body>
+    </text>
+</TEI>

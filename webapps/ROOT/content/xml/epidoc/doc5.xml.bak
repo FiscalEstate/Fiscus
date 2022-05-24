@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Biblioteca civica di Udine, Processus in lite abb. Sestensis, f. 94' </title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2020">2020</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc5</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2020"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property">Yes</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0781-06-11">
+                                <note type="displayed_date"> 781 June 11</note>
+                                <note type="dating_elements">anno impero (Carlo Magno)</note>
+                                <note type="topical_date"></note>
+                                <note type="redaction_date"/>
+                             </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                   <place></place>
+                </listPlace>
+             <listPerson>
+                <person></person>
+            </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change who="ecinello" when="2020-12-19">creation of record</change>
+           <change when="2020-12-20" who="ecinello"/>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>
+                        <persName key="#Emperor/king" ref="#people/14">Carolus</persName> gratia dei
+                            <rs key="#emperor/king">rex</rs> Francorum et Langobardorum ac patricius
+                        Romanorum omnibus episcopis abbatibus ducibus comitibus gastaldiis vel
+                        reliquis fidelibus nostris presentibus et futuris. Comperiat magnitudo seu
+                        industria vestra, qualiter vir venerabilis <persName key="#Abbots"
+                            ref="#people/15">Beatus</persName>
+                        <rs key="#abbots">abbas</rs> de <orgName key="#Monasteries"
+                            ref="#juridical_persons/66"><rs key="#Monasteries">monasterio</rs>
+                            <placeName key="#Monasteries" ref="#places/11"
+                            >Sexto</placeName></orgName>, quod est positum super <rs key="#rivers"
+                            >fluvium</rs> Edago in honore sancte dei genitricis Marie vel beatorum
+                        sanctorum Petri et Johannis Baptiste, clementie regni nostri suggessit, eo
+                        quod <persName key="#Emperor/king" ref="#people/13">Adelchis</persName>, qui
+                        fuit <rs key="#emperor/king">rex</rs> Langobardorum, suo dono ei
+                        concessisset ex fisco nostro, quod in <rs key="#palatium">palacio</rs>
+                        nostro seu <geogName
+                            key="#Curtes #Fiscal_property #Textual_occurrence #Mention #Marquis/duke #Public_exactions"
+                            ref="#estates/310">in <rs key="#Curtes #Marquis/duke">curte ducali</rs>
+                            nostra <placeName key="#Curtes" ref="#places/13">Tarvisana
+                            </placeName></geogName>consuetudo [erat] persolvendi de <rs
+                            key="#Vici #Rural_communities">vico</rs> qui dicitur <placeName
+                            key="#Vici #Rent_in_kind #Public_exactions #Rural_communities"
+                            ref="#places/39">Sacco</placeName>, qui est positus <geogName
+                            key="#Fines" ref="#estates/125">in ipso <rs key="#fines">fine</rs>
+                            Tarvisano</geogName>, <rs
+                            key="#Cereals #Minores #Pigs #Rent_in_kind #Public_exactions">saligine
+                            modia centum et porcos quinquaginta</rs>, nec non confirmasset ei
+                        prefatus Adelchis aliqua <rs key="#Wood">runcora</rs> et <rs key="#forests"
+                            >silvam</rs>, que est posita in loco qui dicitur <placeName
+                            key="#Forests #Wood">Rivaria</placeName> in <rs key="#city_territory"
+                            >territorio civitatis</rs> nostre <placeName key="#City_territory"
+                            ref="#places/12">Foroiuliane</placeName>, per loca designata, sicut per
+                        ipsius Adelchis declaratur preceptum. Similiter innotuit nobis prefatus
+                        abbas, quod fecisset <rs key="#Commutatio">commutationem</rs> cum <persName
+                            key="#Gastaldus/vicegastaldus"><name ref="Rotecari"
+                            >Roticaris</name></persName>, qui fuit <rs
+                            key="#gastaldus/vicegastaldus">gastaldus</rs>, et dedisset ei <rs
+                            key="#Hay/fodder">prata</rs> et <rs key="#Forests">silvam</rs> in loco
+                        ubi nominatur <placeName key="#Forests #Hay/fodder">Crimastes</placeName>
+                        seu recepisset in <rs key="#commutatio">commutationem</rs> de <rs
+                            key="#Curtes #Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches"
+                            >curte nostra</rs> in <geogName
+                            key="#Commutatio #Curtes #Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches"
+                            ref="#estates/309"><placeName
+                                key="#Commutatio #Curtes #Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches"
+                                >Ripefracta</placeName></geogName>, similiter <rs
+                            key="#Commutatio #Hay/fodder #Textual_occurrence #Object #Outflow #Allocation_to_churches"
+                            >prata</rs> et <rs
+                            key="#Commutatio #Forests #Textual_occurrence #Object #Outflow #Allocation_to_churches"
+                            >silvam</rs> in <placeName
+                            key="#Commutatio #Forests #Hay/fodder #Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches"
+                            ref="#places/19">Biberons</placeName> per loca designata, sicut per
+                        prefati Adelchis declaratur <rs key="#Imperial/royal_diploma"
+                            >confirmationem</rs>. Nos vero hanc causam diligenter discutientes una
+                        cum fidelibus ac proceribus nostris ita invenimus, quod legibus ipsius
+                        donatio ac confirmatio stare non poterat. Proinde anime nostre considerantes
+                        mercedem et ipsius venerabilis viri attendentes petitionem denuo
+                        suprascripta omnia in elemosina nostra iam fato monasterio per preceptum
+                        auctoritatis nostre donamus atque concedimus perpetualiter ad possidendum,
+                        ita ut memoratus Beatus abbas suique successores omnes supra memoratas res
+                        quieto ordine ex nostra largitate teneant et possideant et ad ipsam casam
+                        dei perpetualiter in augmentum proficiant; et nullus <rs key="#Marquis/duke"
+                            >dux</rs> aut <rs key="#Gastaldus/vicegastaldus">gastaldius</rs> vel <rs
+                            key="#Other_minor_officer #Iudiciaria">quicumque de iudiciaria potestate
+                        </rs>est constitutus vel qualiscumque ulla opposita persona contra hoc
+                        auctoritatis nostre preceptum audeat ire quandoque, sed omni tempore ad
+                        ipsum sanctum locum perpetualiter domino adiuvante proficiat. Et ut hec
+                        preceptio firmior sit, manu propria subter eam firmavimus et de anulo nostro
+                        sigillari iussimus. Signum (M.) Caroli gloriosissimi regis. <persName><name
+                                ref="Uuigboldus ">Wigbaldus</name></persName> advicem
+                                <persName><name ref="Rado">Radoni</name>
+                        </persName>recognovi et scripsi. Data iii idus iunias, anno tertio decimo et
+                        septimo regni nostri.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>MGH, DD. Kar., I, n. 134 (781), pp. 184-185.</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p>Cammarosano 1988, p. 43; Castagnetti 1997; Gasparri 2011, p. 81 e 2004, p. 268. </p>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+           
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    +K.48</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc4106</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">--Commutatio</rs>
+                                    <rs type="record_source" ref="#">Critical edition</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate when="0766-07-01">
+                                <note type="displayed_date">766 July 1</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Lucca</note>
+                                <note type="redaction_date"/>
+                             </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-06-24" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab><persName><name ref="Braifred de Pisa">Braifred</name></persName>
+                        filio quondam <persName><name ref="Ermulus">Ermuli</name></persName>,
+                        havitator in <rs key="#Cities">civitate</rs>
+                        <placeName key="#Cities" ref="#places/66">Pisana</placeName>
+                        <foreign>permuta beni con</foreign> viro beatissimo <persName key="#Bishops"
+                            ref="#people/343">Peredeo</persName> in Dei nomine <rs key="#Bishops"
+                            >episcopo</rs>
+                        <orgName key="#Mother_churches" ref="#juridical_persons/68">sanctae Lucensis
+                                <rs key="#Mother_churches">ecclesiae</rs></orgName>.
+                            <foreign>Cede</foreign>: <rs key="#Slave_labour #Slave">ancilla</rs> mea
+                                nomine <persName key="#Testamentum/iudicatum #Slave_labour #Slave"><name ref="Aluaria"
+                                >Alvara</name></persName> mulier massarii vestri <persName><name
+                                ref="Ursulus">Ursuli</name></persName>, qui resedet in loco prope
+                            <placeName key="#Slave_labour #Slave" ref="#places/749"
+                            >Tucciano</placeName>
+                        <rs key="#Fines">finibus</rs>
+                        <geogName key="#Fines" ref="#estates/600"><placeName key="#Fines"
+                                ref="#places/619">Suanense</placeName></geogName>, cum duo
+                                <rs key="#Testamentum/iudicatum #Slave_labour #Slave">infantuli</rs> eius, qui mihi <rs key="#Testamentum/iudicatum"
+                            >obvenerunt</rs> per quondam <persName
+                            key="#Testamentum/iudicatum #Slave_labour #Slave"><name ref="Walderamus"
+                                >Walderamus</name></persName> socero meo. Et secundum legem pro eos
+                        per cartulam <foreign>riceve in cambio</foreign>
+                        <rs key="#Slave_labour #Slave">ancilla</rs> sanctae <rs
+                            key="#Mother_churches">ecclesiae</rs> vestrae nomine <persName
+                            key="#Slave_labour #Slave"><name ref="Gaiperga"
+                            >Gaiperga</name></persName>, cum infantes eius duo nomine <persName
+                            key="#Slave_labour #Slave"><name ref="Teuperga"
+                            >Teudiperga</name></persName> et <persName key="#Slave_labour #Slave"
+                                ><name ref="Teudebertus">Teudepert</name></persName>. <foreign>Pena
+                            in duplum</foreign>. Actum <placeName ref="#places/4">Luca</placeName>.
+                            <foreign>Sottoscrizioni</foreign>: + Braifred promissori; (ss) <persName
+                            key="#Witness #Priests"><name ref="Amabilis">Amabilis</name></persName>
+                        <rs key="#Priests">presbiter</rs>; (ss) <persName
+                            key="#Witness #Other_clerics"><name ref="Ostribertus"
+                            >Ostripertus</name></persName>
+                        <rs key="#Other_clerics">clericus</rs>; + <persName key="#Witness"><name
+                                ref="Filingus de Pisa">Filinghi</name></persName> filio quondam
+                                <persName><name ref="Godolinus">Gudolini</name></persName> de
+                            <placeName ref="#places/66">Pisa</placeName>. <foreign>Scrive</foreign>:
+                            <persName key="#Writer #Deacons"><name ref="Osprandus"
+                            >Osprandus</name></persName>
+                        <rs key="#Deacons">diaconus</rs>.</ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>MDL IV/1, n. 14; MDL V/2, n. 98; CDL II, 199, pp. 196-197; ChLA, XXXIV,
+                    992.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                         <p>Persone: Desiderio re; Adelchis re; Braifred, havitator in civitate
+                    Pisana (f. Ermuli; genero Vualderamus); Ermuli (p. Braifred); Peredeo ep (di
+                    Lucca); Alvara ancilla; Ursuli mass; Vualderamus (socero Braifred); Gaiperga
+                    ancilla (mt. Teudiperga, Teudepert); Osprandus diac; Amabilis pbr; Ostripertus
+                    cler; Filinghi de Pisa (f. Gudolini); Gudolini (p. Filinghi). Luoghi: Lucensis
+                    ecclesiae, Luca [Lucca]; civitate Pisana [Pisa]; loco Tucciano; finibus Suanense
+                    [Sovana]. Chiese: . Cariche: . Note: . Indice: permuta - pisa - servi - Maremama
+                    - fines - fam. Peredeo. <foreign>Nota dorsale (sec. VIII-IX)</foreign>:
+                    Offersio; Cartula de viganium de muliere Ursuli. <foreign>Nota dorsale (sec.
+                        XI-XII)</foreign>: Viganeum de ancilla in Tuciana in comitatu Suanensi. </p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Archivio Abbaziale di Nonantola, Pergamene, VI 1</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc6001</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">-Placitum/iudicatum</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property"/>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="1001-01-27">
+                                <note type="displayed_date">1001 January 27</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Farfengo (Brescia)</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-12-14" who="emanarini">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>(S) Dum in Dei nomine locus qui dicitur <placeName>Farfingo</placeName><rs
+                            key="#Iudiciaria"> iudiciaria </rs><placeName
+                            key="#Iudiciaria #Comitatus" ref="#places/9">Bresia[nensi]</placeName> .
+                        . . .eorum data licencia in iudicio resideret domnus <persName
+                            key="#Marquis/duke #Count #Marca/ducatum #Comitatus" ref="#people/2122"
+                            >Teudaldus</persName><rs key="#Marquis/duke"> marchio</rs> et <rs
+                            key="#Count">comes</rs> ipsius <rs key="#Comitatus">comitatus</rs>
+                        Bresianense unicuique iusticias faciendas et deliberandas, residentibus cum
+                        eo <persName key="#Judge">Petro</persName>, <persName key="#Judge"
+                            >Eriberto</persName>, <persName key="#Judge">Gundelbertus</persName>,
+                            <persName key="#Judge">Teuzo</persName>, <persName key="#Judge"
+                            >Autegerius</persName>, <persName key="#Judge">Adoaldus</persName>,
+                            <persName key="#Judge">Ermericus</persName>
+                        <rs key="#Other_palatine_officer #Judge">iudices sacri palacii</rs>,
+                            <persName key="#vassusOf">Ildefosulo</persName>, <persName
+                            key="#vassusOf">Ardoino</persName>, <persName key="#vassusOf"
+                            >Raginardo</persName>, <persName key="#vassusOf">Adame,</persName>
+                        <persName key="#vassusOf">Frugero</persName>, <persName key="#vassusOf"
+                            >Girardo</persName>, <persName key="#vassusOf">Vuido</persName>,
+                            <persName key="#vassusOf">Sigezo</persName>
+                        <rs key="#vassusOf">vassis</rs> suprascripti Teudaldi marchio et comes et
+                        reliqui plures. Ibique eorum veniens presencia <persName
+                            key="#Advocatus_of_other_public_authorities">Atho</persName> filius
+                        quondam <persName>Everardi</persName>
+                        <rs key="#Advocatus_of_other_public_authorities">avocato</rs>
+                        <orgName ref="#juridical_persons/47"
+                            key="#Advocatus_of_other_public_authorities #Monasteries"><placeName
+                                key="#Monasteries" ref="#places/15">Sancti
+                            Silvestri</placeName></orgName> et rettulit: 'Tam plures vices me
+                        reclamavit ad vos, domnus Teudaldus marchio et comes istius comitatu
+                        Bresianense, super <persName key="#Count #Comitatus">Boso</persName> comes
+                        filius quondam <persName>Manfredi</persName>, qui mihi a pars ipsius <rs
+                            key="#Monasteries">abacia</rs> sancti Silvestri malo ordine et contra
+                        lege detinent ac contradicent <rs key="#Churches">capella</rs> una, qui est
+                        in loco ubi dicitur a <placeName key="#Geography">Solara</placeName>, qui
+                        est consecrata in onore <placeName key="#Churches"><orgName key="#Churches"
+                                >sancte Marie virginis</orgName></placeName>, una simul cum <rs
+                            key="#Casae/cassinae_massaricie">casis masariciis</rs> et omnibus rebus
+                        a dicta capella pertinentibus, unde vos, donus Teutaldus marchio et comes,
+                        da vestra parte plures <rs key="#Missus_of_other_public_authorities"
+                            >misos</rs> direxistis, ut ipse Boso ad vestrum <rs key="#Assembly"
+                            >placitum</rs> veniset et michi a pars ipsius <placeName
+                            key="#Monasteries" ref="#places/15"><orgName key="#Monasteries"
+                                ref="#juridical_persons/47">abacia sancti
+                            Silvestri</orgName></placeName> de iam dicta capella cum omnibus rebus a
+                        se pertinentibus iusticiam feciset, set minime eum ad vestrum placitum abere
+                        potuistis. Unde quero, ut vos, donus Teutaldus marchio et comes, propter
+                        Deum et anime donni inperatoris ac vestre mercedis me a pars ipsius
+                            <placeName key="#Monasteries" ref="#places/15"><orgName
+                                key="#Monasteries" ref="#juridical_persons/47"><rs
+                                    key="#Monasteries">monesterio</rs> sancti
+                            Silvestri</orgName></placeName> de eadem capella cum omnibus rebus a se
+                        pertinentibus salva querela investiatis cousque ipse Boso ad placitum veniad
+                        et michi a pars ipsius monesterii iusticiam faciad’. Cum ipse Atho avocatus
+                        taliter retulisset, ad hec ipse donnus Teudaldus marchio et comes recordatus
+                        dixit, quod plures misos eidem Bosoni comes ex sua parte diresiset, ut ipse
+                        Boso comes ad suum placitum veniset, et eidem Athoni avocatus a parte ipsius
+                        monesterio sancti Silvestri de iam dicta capella cum omnibus a se
+                        pertinentibus iusticiam fecisset, set minime eum ad suum placitum abere
+                        potuit. Cum ipse donnus Teudaldus marchio et comes taliter retuliset, tunc
+                        per fustem quam suam tenebat manu eodem Atho avocato sancti Silvestri de
+                        eadem capella cum omnibus rebus a se pertinentibus a pars ipsius monesterio
+                        sancti Silvestri salva querela investivit cousque ipse Boso comes ad
+                        placitum veniad et eidem Athoni avocatus a parte ipsius monesterii iusticiam
+                        faciad . Insuper misit <rs key="#Tuitio/bannum/mundeburdium">bannum</rs>
+                        donni inperatoris in mancusos aureos mille, ut nulla magna parvaque persona
+                        eundem Atho et pars ipsius monesterii sancti Silvestri sine legali iudicio
+                        devestire audead. Qui vero fecerit, predictos mille mancusos aureos
+                        conpositurus se anoscat, medietatem parti <rs key="#Camera">camere</rs>
+                        donni inperatoris et medietatem pars ipsius abacia sancti Silvestri. Et anc
+                        noticia, qualiter acta est, fieri admonuerunt. Quidem et ego <persName
+                            key="#Notary">Agino</persName>
+                        <rs key="#Notary">notario</rs> ex iussione suprascripti Teudaldi marchio et
+                        comes seu iudicum amonetione scrisi. Anno donni <persName
+                            key="#Emperor/king" ref="#people/7">Ottoni tercio</persName>
+                        <rs key="#Emperor/king">inperator</rs> augustus anno inperii eius Deo
+                        propicio ic in Italia quinto, sesto kalendas februarii, indicione
+                        quartadecima. Teudaldus marchio subscripsi. (S) Petrus iudex sacri palacii
+                        interfui. (S) Eribertus iudex sacri palacii interfuit. (S) Adoaldus iudex
+                        sacri palacii interfui. (S) Teuzo iudex sacri palacii interfui. 25 (S)
+                        Atecherius iudex sacri palatii interfui. (S) Gundelbertus iudex sacri
+                        palatii interfui.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>Manaresi, n. 259. </p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

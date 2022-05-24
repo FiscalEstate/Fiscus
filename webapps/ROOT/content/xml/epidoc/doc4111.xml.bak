@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    +H.51</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc4111</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">--Offersio/donatio</rs>
+                                    <rs type="record_source" ref="#">Critical edition</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate when="0767-05-01">
+                                <note type="displayed_date">767 May 1</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Lucca</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-06-26" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab><persName key="#Deacons"><name ref="Ausbertus"
+                            >Osperto</name></persName> et <persName key="#Deacons"><name
+                                ref="Osprandus">Osprando</name></persName>
+                        <rs key="#Deacons">diaconibus</rs> germanis filiis quondam <persName><name
+                                ref="Autelmus">Autelmi</name></persName>, quia <rs
+                            key="#Venditio #Testamentum/iudicatum">per cartulam tradedit</rs> nobis
+                        quondam <persName key="#Testamentum/iudicatum #Priests"><name ref="Auderat"
+                                >Auderadus</name></persName>
+                        <rs key="#Priests">presbiter</rs>
+                        <rs key="#Landed_possessions">res suas</rs>, ut eas venundare deberimus et
+                        despensare pro animae ipsius remedio, qualiter melius praeviderimus;
+                            <foreign>donano perciò</foreign> Deo et tibi <rs key="#Mother_churches"
+                            >ecclesiae</rs>
+                        <orgName key="#Mother_churches" ref="#juridical_persons/68">beati Sancti
+                            Martini</orgName>, ubi est domus episcoporum, <rs
+                            key="#Casae/cassinae_massaricie">casam</rs> ipsius presbiteri, quae est
+                        prope porticalem eiusdem basilice, ubi est scola; ipsam casam cum <rs
+                            key="#Casalini/fundamenta">fundamento</rs>, curticella, <rs
+                            key="#Fruits/vegetables">orto</rs>; quae ei <rs key="#Venditio">ex
+                            conparatione</rs> da filiis quondam <persName key="#Venditio"><name
+                                ref="Sigefredus">Seifridi</name></persName> obevenit.
+                            <foreign>Riservano l’usufrutto vitalizio della casa a</foreign>
+                        <persName><name ref="Teuperga">Teudiperga</name></persName> filia quondam
+                                <persName><name ref="Gundulus">Gunduli</name></persName>
+                        <foreign>e la</foreign> potestate regendi et gubernandi et resedendi.
+                            <foreign>Poi passi sotto la potestà della chiesa di S. Martino</foreign>
+                        (…) Actum <placeName
+                            key="#Venditio #Testamentum/iudicatum #Casae/cassinae_massaricie #Casalini/fundamenta #Fruits/vegetables #Mother_churches"
+                            ref="#places/4">Luca</placeName>. <foreign>Sottoscrizioni</foreign>:
+                        (ss) Ospertus diaconus; (ss) Osprandus diaconus; (ss) <persName
+                            key="#Witness #Priests"><name ref="Filosofronius"
+                            >Filosofronius</name></persName>
+                        <rs key="#Priests">presbiter</rs>; (ss) <persName key="#Witness #Subdeacons"
+                                ><name ref="Gauseramus">Gauseramus</name></persName>
+                        <rs key="#Subdeacons">subdiaconus</rs>; (ss) <persName
+                            key="#Witness #Other_clerics"><name ref="Iohannes"
+                            >Iohannes</name></persName>
+                        <rs key="#Other_clerics">clericus</rs>; (ss) <persName
+                            key="#Witness #Other_clerics"><name ref="Andreas"
+                            >Andreas</name></persName>
+                        <rs key="#Other_clerics">clericus</rs>. <foreign>Scrive</foreign>: <persName
+                            key="#Writer #Other_clerics"><name ref="Ostribertus"
+                            >Austripertus</name></persName>
+                        <rs key="#Other_clerics">clericus</rs>.</ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>MDL V/2, n. 103; CDL II, 207, pp. 221-223; ChLA, XXXIV, 997.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                         <p>
+                    <foreign>Nota dorsale (sec. VIII-IX)</foreign>: Offersio da Ospert et Osprand
+                    diaconi in Sancto Martino.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>
