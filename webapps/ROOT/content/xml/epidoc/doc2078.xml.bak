@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Roma, Biblioteca Vaticana, Cod. Barb. lat. 2724, cc. 162r-163r
+                        (<foreign>Chronicon Vulturnense</foreign>, II, n. 91)</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc2078</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">-Papal concession</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property">Uncertain</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0930-09">
+                                <note type="displayed_date">930 September</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Roma</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-12-06" who="gzornetta">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab><persName key="#Popes" ref="#people/236">Stephanus</persName>
+                        <rs key="#Popes">episcopus</rs> servus servorum Dei. <persName key="#Abbots"
+                            ref="#people/2409">Rambaldo</persName> viro venerabili <rs key="#Abbots"
+                            >abbati</rs>
+                        <rs key="#Monasteries">monasterii</rs>
+                        <orgName key="#Monasteries #Abbots" ref="#juridical_persons/1900">Christi
+                            Martyris Vincencii</orgName>, quod situm est in partibus Sapmnie,
+                        territorio <geogName key="#Monasteries #Abbots" ref="#estates/1902"
+                            >Beneventano</geogName>, super fontem <placeName key="#Rivers"
+                            ref="#places/609">Vulturni</placeName>
+                        <rs key="#Rivers">fluminis</rs>, et per te cunctis successoribus tuis in
+                        eodem venerabili monasterio regulariter promovendis in perpetuum. Pia
+                        sollicitudine curam agentes sacrarum Dei ecclesiarum, utpote pro salute
+                        ovium a Deo nobis commissarum, et maxime Deo famulancium monachorum,
+                        satagimus ut divine contemplacioni insistentibus opem ferre possimus, ut cum
+                        eis eciam divine remuneracionis graciam consequamur. Petentibus igitur
+                        vobis, ut monasterium Beati Vincencii martyris Christi cum omnibus sibi
+                        pertinentibus, cellis, cappellis, castellis, et terris, sub iurisdicione
+                        Sancte Romane Ecclesie nostri privilegii auctoritate muniremus, <rs
+                            key="#Papal_concession">concedimus</rs> illud vobis vestrisque legitimis
+                        successoribus abbatibus detinendum, ut nullius alterius ecclesie dicionibus
+                        submittatur, sed cum omnibus sibi pertinentibus cellis, sive monasteriis,
+                            <rs key="#Monasteries">monasterium</rs> videlicet <orgName
+                            key="#Monasteries" ref="#juridical_persons/1922">Beati Petri</orgName>
+                        iuxta <rs key="#Rivers">fluvium</rs>
+                        <placeName key="#Rivers" ref="#places/2348">Sabbati</placeName>, territorio
+                        Beneventano, <rs key="#Monasteries">monasterium</rs>
+                        <orgName key="#Monasteries" ref="#juridical_persons/1912">domini
+                            Salvatoris</orgName> in <placeName key="#Monasteries" ref="#places/112"
+                            >Alife</placeName>; <rs key="#Cells/hermitages">cellam</rs>
+                        <orgName key="#Cells/hermitages" ref="#juridical_persons/1956">Sancte
+                            Marie</orgName> in duas Basilicas; <rs key="#Cells/hermitages"
+                            >cellam</rs>
+                        <orgName key="#Cells/hermitages" ref="#juridical_persons/1962">Sancte
+                            Marie</orgName> iuxta <rs key="#Rivers">fluvium</rs>
+                        <placeName key="#Cells/hermitages #Rivers" ref="#places/2372"
+                            >Trinium</placeName>; <rs key="#Cells/hermitages">cellam</rs>
+                        <orgName key="#Cells/hermitages" ref="#juridical_persons/1908">Sancte
+                            Marie</orgName> in Castanieto; <rs key="#Cells/hermitages">cellam</rs>
+                        <orgName key="#Cells/hermitages" ref="#juridical_persons/2306">Sancte Marie</orgName> in
+                        <placeName key="#Cells/hermitages" ref="#places/2829">Palene</placeName>; <rs key="#Cells/hermitages">cellam</rs>
+                        <orgName key="#Cells/hermitages" ref="#juridical_persons/1940">Sancte
+                            Marie</orgName> in Apinianici; <rs key="#Cells/hermitages">cellam</rs>
+                        <orgName key="#Cells/hermitages" ref="#juridical_persons/1929">Sancti
+                            Petri</orgName> in Vipera; <rs key="#Cells/hermitages">cellam</rs>
+                        <orgName key="#Cells/hermitages" ref="#juridical_persons/1930">Sancti
+                            Vincencii</orgName> in <placeName key="#Cells/hermitages"
+                            ref="#places/2354">Toccu</placeName>, cum omnibus monasteriis, et
+                        cellis, sub apostolice Sedis proteccione permaneant. Preterea quecumque a
+                        regibus, ducibus, principibus, vel reliquis fidelibus, ad idem monasterium
+                        collata sunt, vel in posterum conferri contigerit, et que predecessorum
+                        nostrorum privilegiis confirmata vestris predecessoribus constat, firma
+                        vobis, vestrisque successoribus, et illibata permaneant. Decernimus quoque,
+                        ut nulli omnino hominum liceat predictum monasterium temere perturbare, aut
+                        eius possessiones auferre, vel ablatas retinere, minuere, vel temerariis
+                        vexacionibus fatigare; sed omnia integra conserventur, eorum, pro quorum
+                        substentacione et gubernacione concessa sunt, usibus omnimodis profutura,
+                        obeunte te nunc eius loci abbate, vel tuorum successorum, nullus ibi
+                        qualibet astucia, seu violencia preponatur, nisi quem fratres communi
+                        consensu vel saniori consilio elegerim secundum timorem Dei, et beati
+                        Benedicti regulam a Romano pontifice consecrandum. chrisma, oleum sanctum,
+                        consecraciones altarium, sive basilicarum, ordinaciones monachorum, sive
+                        clericorum monasterio pertinencium, a quo malueritis, accipietis catholico
+                        episcopo, interdicimus eciam, ne quis episcoporum ex eodem monasterio
+                        abbatem, vel monachum ad suam synodum audeat provocare, vel excommunicare;
+                        nec ibi cuiuslibet ecclesie sacerdotem, preter Sedem apostolicam, dicionem
+                        aliquam habere permittimus, adeo ut nisi ab abbate fuerit invitatus, nec
+                        missarum sollepmnia ibidem celebrare presumat. Sacerdotes et clerici de
+                        quacumque ecclesia, si venerint ad habitandum in congregacione fratrum, aut
+                        monachicum suscipiendi habitum, statim recipiantur, nec a quolibet
+                        prohibeantur; nec presumat quispiam eidem monasterio, et cellis, vel
+                        possessionibus, vel rebus eius violenter incumbere, vel quamlibet malicie
+                        iacturam inferre; sed omni tempore idem locus cum pertinenciis libere et
+                        quiete sub apostolice Sedis proteccione servetur. Si quis autem huius nostri
+                        apostolici privilegii constitucionem temerare presumpserit, nisi digne
+                        emendaverit, honoris sui dignitatem ammittat, et alienus a corpore, et
+                        sanguine domini nostri Iesu Christi fiat, et cum diabolo, et eius ministris
+                        eterno incendio dampnetur. Qui autem hec iuste et pie observaverit,
+                        benediccionis graciam plenissime a Domino consequatur, et eterne vite
+                        particeps esse mereatur. Bene valete. Scriptum per manum <persName
+                            key="#Scriniarius"><name ref="Andreas">Andree</name></persName>, <rs
+                            key="#Scriniarius">scriniarii</rs> Sancte Romane Ecclesie, mense
+                        septembris, indiccione quarta. <date>Data per manum <persName
+                                key="#Papal_court_officer"><name ref="Stephanus"
+                                >Stephani</name></persName>
+                            <rs key="#Papal_court_officer">primicerii</rs>, anno pontificatus domni
+                            Stephani summi pontificis septimi. .IIIo.</date>
+                    </ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>CV II, n. 90, pp. 57-60</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

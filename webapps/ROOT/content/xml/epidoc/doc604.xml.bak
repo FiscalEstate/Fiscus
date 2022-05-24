@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    Diplomatico, * H 40</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                        </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc604</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">-Placitum/iudicatum</rs>
+                                    <rs type="record_source" ref="#">Original document</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate when="0904-12-25">
+                                <note type="displayed_date">904 December 25</note>
+                                <note type="dating_elements">Anno di regno di Berengario</note>
+                                <note type="topical_date">Lucca, in laubia ipsius episcopatui Sancti
+                                    Martini</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance>
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                            <place></place>
+                        </listPlace>
+                        <listPerson>
+                            <person></person>
+                        </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-10-08" who="ptomei">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                <div type="textpart">
+                    <ab>Il <rs key="#Bishops">vescovo</rs> di Lucca <persName ref="#people/213"
+                            key="#Bishops">Pietro</persName> siede in giudizio hic <rs key="#Cities"
+                            >civitate</rs>
+                        <placeName ref="#places/4"
+                            key="#Cities #Laubia/topia #Churches #Mother_churches #Bishops"
+                            >Luca</placeName> in <rs key="#Laubia/topia">laubia</rs> ipsius <orgName
+                            key="#Mother_churches" ref="#juridical_persons/68"><rs
+                                key="#Mother_churches">episcopatui</rs> Sancti Martini</orgName> con
+                        il suddiacono Ghisalprando <rs key="#Missus_of_other_public_authorities"
+                            >missus</rs> del <rs key="#Marquis/duke">marchese</rs>
+                        <persName key="#Marquis/duke" ref="#people/137">Adalberto</persName>, gli
+                        scabini Ghisalfridi, Benedetto, Adalperto, Leone e Cosperto; assistono, fra
+                        gli altri, <persName>Fra(...)</persName>, Flaiperto, <persName><name
+                                ref="Auripertus">Auriperto</name></persName>, Ghisolfo del <persName
+                            key="#Notary">fu <name ref="Georgius">Giorgio</name></persName>
+                        <rs key="#Notary">notaio</rs>, <persName><name ref="Gausfredus"
+                                >Cosfridi</name></persName> di <persName><name ref="Adalbrandus"
+                                >Adalprando</name></persName>, <persName><name ref="Leo"
+                                >Leone</name></persName>, <persName><name
+                                ref="Arderadus/Ardo de Marila">Arderado detto Ardo</name> de
+                                <placeName ref="#places/60">Marila</placeName></persName>,
+                                <persName><name ref="Teudebertus">Teuperto</name></persName>,
+                                <persName><name ref="David">Davide</name></persName>,
+                                <persName><name ref="Benedictus">Benedetto</name></persName> di
+                        Benedetto scabino, <persName>Erm(...)</persName>,
+                            <persName>(...)malberto</persName> fratelli, <persName><name
+                                ref="Christianus de Ovurno">Cristiano</name> de <placeName
+                                ref="#places/2113">Ovurno</placeName></persName>, altro
+                                <persName><name ref="Auripertus de Cumpito">Auriperto</name> de
+                                <placeName ref="#places/721">Cumpito</placeName></persName>,
+                            <persName key="#Other_clerics"><name ref="Aufridus"
+                            >Aufridi</name></persName>
+                        <rs key="#Other_clerics">chierico</rs>, <persName key="#Other_clerics"><name
+                                ref="Sigelfredus">Sicalfridi</name></persName>
+                        <rs key="#Other_clerics">chierico</rs>, <persName><name ref="Adalfredus"
+                                >Adalfridi</name></persName> e <persName><name
+                                ref="Garibaldus de Wamo">Gheripaldo</name> de <placeName
+                                ref="#places/179">Wamo</placeName></persName>, <persName><name
+                                ref="Willimundus">Wilimundo</name></persName>, <persName
+                            key="#Other_clerics"><name ref="Gumbertus">Gumperto</name></persName>
+                        <rs key="#Other_clerics">chierico</rs>, <persName><name ref="Gunfredus"
+                                >Gumfridi</name></persName>, <persName><name ref="Ostribertus"
+                                >Ostriperto</name></persName> (...). Si presenta da una parte il <rs
+                            key="#Notary">notaio</rs> e <rs key="#Scabini">scabino</rs>
+                        <persName key="#Notary #Advocatus_of_other_public_authorities #Scabini"
+                                ><name ref="Petrus">Pietro</name></persName>
+                        <rs key="#Advocatus_of_other_public_authorities">advocatus</rs> dello stesso
+                        vescovato, dall’altra i fratelli <persName><name ref="Ghisulfus"
+                                >Ghisolfo</name></persName> e <persName><name ref="Tassilo"
+                                >Tassilo</name></persName> del <persName>fu <name ref="Ostribertus"
+                                >Ostriperto</name></persName>, in lite fra loro: secondo il notaio e
+                        scabino la <orgName key="#Churches" ref="#juridical_persons/1708"><rs
+                                key="#Churches">chiesa</rs> di San Lorenzo</orgName> sita in loco et
+                        finibus <placeName ref="#places/334" key="#Churches">Arsina</placeName> con
+                        la metà delle sue dipendenze è una pertinenza della chiesa di (...) sito hic
+                        Luca, qui est de suppotestatem del vescovato di San Martino; il fratelli non
+                        contraddicono questa affermazione, ammettendo che la chiesa con la metà
+                        delle sue dipendenze spettano ad pars <orgName key="#Churches"
+                            ref="#juridical_persons/246"><rs key="#Churches">ecclesie</rs> Sancti
+                            Georgii</orgName> et predicti episcopatui Sancti Martini. Si chiede al
+                            <rs key="#Writer #Notary">notaio</rs>
+                        <persName key="#Writer #Notary"><name ref="Teuderandus"
+                            >Teuderando</name></persName> la scrittura della notitia. <rs
+                            key="#Witness">Testimoni</rs> sottoscrittori: <persName
+                            key="#Witness #Missus_of_other_public_authorities #Subdeacons"><name
+                                ref="Giselbrandus">Ghisalprando</name></persName>
+                        <rs key="#Subdeacons">subdiaconus</rs>, <persName
+                            key="#Witness #Notary #Scabini"><name ref="Giselfredus"
+                                >Ghisalfridi</name></persName>
+                        <rs key="#Notary">notarius</rs> et <rs key="#Scabini">schabinus</rs>,
+                            <persName key="#Witness #Notary #Scabini"><name ref="Adalbertus"
+                                >Adalperto</name></persName>
+                        <rs key="#Notary">notarius</rs> et <rs key="#Scabini">schabinus</rs>,
+                            <persName key="#Witness #Notary #Scabini"><name ref="Leo"
+                            >Leone</name></persName>
+                        <rs key="#Notary">notarius</rs> et <rs key="#Scabini">schabinus</rs>,
+                            <persName key="#Witness #Notary #Scabini"><name ref="Gausbertus"
+                                >Cosperto</name></persName>
+                        <rs key="#Notary">notarius</rs> et <rs key="#Scabini">schabinus</rs>,
+                            <persName key="#Witness #Scabini"><name ref="Benedictus"
+                                >Benedetto</name></persName>
+                        <rs key="#Scabini">schabinus</rs>, <persName key="#Witness"
+                            ref="#people/150">Fraolmi</persName>, <persName key="#Witness"><name
+                                ref="Flaipertus">Flaiperto</name></persName>, <persName
+                            key="#Witness"><name ref="Iohannes">Giovanni</name></persName>,
+                            <persName key="#Witness"><name ref="Roppaldus"
+                            >Roppaldo</name></persName>, <persName key="#Witness"><name
+                                ref="Ghisulfus">Ghisolfo</name></persName>.</ab>
+                </div>
+            </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>MDL, 4/2, App. n. 57, pp. 75-76; Manaresi, n. 116, pp. 429-431;
+                        <ref>http://saame.it/fonte/placiti-toscani-toscana-26/</ref>.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                        <p>Sottoscrizioni autografe: il suddiacono Ghisalprando, il notaio e scabino
+                    Ghisalfridi, il notaio e scabino Adalperto, il notaio e scabino Leone, il notaio
+                    e scabino Cosperto, lo scabino Benedetto, Fraolmi, Flaiperto, Giovanni,
+                    Roppaldo, Ghisolfo.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

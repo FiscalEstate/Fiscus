@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Archivio di Stato di Firenze, Diplomatico, Riformagioni. Atti Pubblici, 1029
+                    gennaio 3, n. 27 (Giorgetti, n. 37)</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus
+                        Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc1427</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Venditio</rs>
+                            <rs type="record_source" ref="#">Original document</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property">No</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="1121-02-10">
+                                <note type="displayed_date">1121 February 10</note>
+                                <note type="dating_elements">Datata secondo l’anno
+                                    dell’incarnazione, stile senese. L’indizione sarebbe in difetto
+                                    di un’unità, se si pensasse a una datazione secondo lo stile
+                                    pisano.</note>
+                                <note type="topical_date"/>
+                                <note type="redaction_date"/>
+                             </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-03-21" who="scollavini">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>Cartula de Morgolatico et da Livellaria. In nomine domini nostri Iesu
+                        Christi Dei eterni. Anno dominice incarnationis eius millesimo centesimo
+                        vicesimo, quarto idus februarii, indictione XIIa. Manifesti sumus nos
+                                <persName><name ref="Hugo">Ugo</name></persName> quondam
+                                <persName><name ref="Rodelandus">Rollandi</name></persName> et
+                                <persName><name ref="Saracinus">Saracenus</name></persName> quondam
+                                <persName><name ref="Rodulfus">Rodulfi</name></persName> insimul
+                        ambo per hanc cartula venditionis vindimus et tradimus tibi, <persName
+                            key="#Monks"><name ref="Benignus">Benigno</name></persName>
+                        <rs key="#Monks">monaco</rs> de <rs key="#Churches">ecclesia</rs> et <rs
+                            key="#Monasteries">monasterio</rs>
+                        <orgName key="#Churches #Monasteries" ref="#juridical_persons/78">Sancti
+                            Quirici</orgName> de <placeName ref="#places/86" key="#Monasteries"
+                            >Populonio</placeName>, idest tres <rs key="#Petiae">petias</rs> de
+                        terris, que una videtur esse in loco <placeName key="#Petiae"
+                            >Morgolatico</placeName>, et continere videtur latus in terra <persName
+                            key="#Confinia #Petiae"><name ref="Rogerius">Rugerii</name></persName>
+                        quondam <persName><name ref="Brunectus">Brunetti</name></persName>, capo in
+                        terra <orgName key="#Confinia #Petiae">Sancte Marie de Masio</orgName>,
+                        aliud latus in terra <persName key="#Confinia #Petiae" ref="#people/104"
+                            >Rugeri</persName> quondam <persName><name ref="Ildebrandus"
+                                >Ildebrandi</name></persName>, aliud capud in terra <orgName
+                            key="#Confinia #Petiae" ref="#juridical_persons/78">Sancti
+                            Quirici</orgName>, quae est de vestro monasterio; secunda petia de terra
+                        est in loco <placeName key="#Petiae" ref="#places/134"
+                            >Livellaria</placeName>, que tenet capud unum in via puplica, latus in
+                        terra de fil(iis) <persName key="#Confinia #Petiae"><name ref="Heinricus"
+                                >Enrigi</name></persName>, aliud latus cum capite in terra <orgName
+                            key="#Confinia #Petiae" ref="#juridical_persons/78">Sancti
+                            Quirici</orgName>, de vestro predicto monasterio; tertia vero petia est
+                        in loco Livellaria, circumdata est ex omni parte de terra <orgName
+                            key="#Confinia #Petiae" ref="#juridical_persons/78">Sancti
+                            Quirici</orgName>. Suprascriptas has tres petias vindo et trado tibi
+                        Benigno tuisque confratribus ad partem et hutilitatem vestri predicti
+                        monasterii Sancti Quirici, ut ab odie in antea sit in vestra potestate eam
+                        habendi, tenendi, regendi, gubernandi et faciendi exinde quicquid facere
+                        volueritis ad partem et utilitatem prefati monasterii vestri Sancti Quirici;
+                        in integrum eas vindimus et tradimus cum inferioribus et superioribus suis
+                        seu cum ascensioribus et ingressoribus suis tibi, qui supra Benigno, tuisque
+                        confratribus vindimus et tradimus pro que recepimus pretium pro valentes
+                        solidos XXXta in prefinito. Unde repromittimus nos, qui supra Ugo et
+                        Saracenus, una cum nostris heredibus tibi, qui supra Benigno, tuisque
+                        confratribus et posteris successoribus vestri ad partem et hutilitatem
+                        predicti monasterii Sancti Quirici, ut si nos in aliquo tempore aliquid
+                        exinde intentionaverimus aut retolli vel subtrai quesierimus, nos vel ille
+                        homo cui nos eam dedissemus aut dederimus per quodlibet ingenium, et eam ab
+                        omni homines defendere non potuerimus et non defensaverimus, tunc spondimus
+                        nos, qui supra Ugo et Saracenus, una cum nostris heredibus tibi, qui supra
+                        Benigno monaco, tuisque confratribus vel posterisque successoribus vestri
+                        componere ad partem predicti mo[nasterii] Sancti Quirici suprascriptam
+                        venditionem in consimili loco sub estimatione qualis tunc fuerit. Tamen si
+                        nos exinde auctores nec defensores querere nec dare volueritis, licentiam
+                        habeatis absque nostra persona, si vestra fuerit voluntas, exinde causam
+                        agendi, responsum reddendi, finem ponendi modis omnibus vobis eam defensandi
+                        cum cartula ista, qualiter iuxta legem melius potueritis, quia in tali
+                        [ordine] hanc cartulam <persName key="#Writer #Notary"><name ref="Petrus"
+                                >Petrum</name></persName> domni regis <rs key="#Notary"
+                            >notarium</rs> scribere rogavimus. Actum in loco <placeName
+                            ref="#places/132">Vignale</placeName>. Signa manuum suprascriptorum
+                        Ugonis et Saraceni qui hanc cartulam fieri rogaverunt. Signa manuum
+                            <persName key="#Witness"><name ref="Hugo">Ugonis</name></persName>
+                        quondam <persName><name ref="Coruccius">C[o]ruc[c]i</name></persName> [et]
+                            <persName key="#Witness"><name ref="Gherardus">Gerardi</name></persName>
+                        quondam <persName><name ref="Rainerius">Raineri</name></persName> et
+                            <persName key="#Witness"><name ref="Raginmundus"
+                            >Raimondi</name></persName> quondam <persName><name ref="Teobaldus"
+                                >Tebaldi</name></persName> testium. Petrus domni regis notarius post
+                        tradita complevi et dedi. </ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>Giorgetti, n. 37</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

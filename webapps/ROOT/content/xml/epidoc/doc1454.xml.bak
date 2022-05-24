@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio di Stato di Siena, Diplomatico, S. Agostino, 952
+                    novembre</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc1454</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">--Venditio</rs>
+                                    <rs type="record_source" ref="#">Original document</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate notBefore="0952-11-01" notAfter="0952-11-30">
+                                <note type="displayed_date">952 November</note>
+                                <note type="dating_elements">Anno di regno di Berengario e
+                                    Adalberto. I dati cronologici non concordano: datato secondo
+                                    l’indizione.</note>
+                                <note type="topical_date">Sant’Abbiano, Roccastrada</note>
+                                <note type="redaction_date"/>
+                             </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-04-02" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab><persName><name ref="Sigefredus/Bonitius">Sigifridi qui Bonitio
+                                vocatur</name></persName> del fu <persName><name ref="Gausbertus"
+                                >Gosberto</name></persName> vende all’<rs key="#Archpriests"
+                            >arciprete</rs>
+                        <persName key="#Archpriests"><name ref="Petrus">Pietro</name></persName>
+                        figlio della fu <persName><name ref="Anna">Anna</name></persName> tutte le
+                            <rs key="#Casae/cassinae_massaricie">casis et rebus massariciis</rs> che
+                        possiede infra <rs key="#Comitatus">comitato et terreturio</rs>
+                        <geogName key="#Comitatus" ref="#estates/154"><placeName ref="#places/273"
+                                >Roselle</placeName></geogName> in loco et finibus <placeName
+                            key="#Casae/cassinae_massaricie" ref="#places/272">Nussina</placeName>
+                        con la sua porzione de <rs key="#Churches">cappella</rs>
+                        <orgName key="#Churches" ref="#juridical_persons/157">Sancti
+                            Martini</orgName> e tutte le loro dipendenze, <rs
+                            key="#Casae/cassinae_massaricie">casis et rebus massariciis</rs> poste
+                        in [l]oco <placeName key="#Casae/cassinae_massaricie" ref="#places/288"
+                            >Sassi</placeName>; in loco ubi dicitur <placeName
+                            key="#Casae/cassinae_massaricie" ref="#places/271">Pratello</placeName>;
+                        e in loco <placeName key="#Casae/cassinae_massaricie">Castria</placeName>
+                        poste infra <rs key="#Comitatus">comitato et terreturio</rs>
+                        <geogName key="#Comitatus" ref="#estates/107">Voloterrensis</geogName>, con
+                        tutte le loro dipendenze, per il prezzo di 100 soldi d’argento. Chiede al
+                            <rs key="#Notary">notaio</rs> regio <persName key="#Writer #Notary"
+                                ><name ref="Firmus">Fermo</name></persName> la stesura della
+                        cartula. Actum loco <placeName ref="#places/270">Tabiano</placeName>
+                        <rs key="#Comitatus">terreturio</rs>
+                        <geogName key="#Comitatus" ref="#estates/154">Rosellenses</geogName>.
+                        Testimoni: <persName key="#Witness"><name ref="Raginaldus"
+                            >Rainaldo</name></persName>; <persName key="#Witness"><name ref="Azo"
+                                >Acio</name></persName>; <persName key="#Witness"><name
+                                ref="Camarinus">Camarino</name></persName>; <persName key="#Witness"
+                                ><name ref="Eribertus">Eriberto</name></persName>.</ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>Reg. Lisini 1908: 501; <foreign>RegSen</foreign>: 6, n. 16.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p>Foto disponibile da fare link</p>
+                    </div>
+                    <div type="commentary">
+                        <p>Matronimico. Nota dorsale sec. XI: cartula de Castria. Sigifridi, Acio,
+                    Camarino, Eriberto sottoscrivono autografamente.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

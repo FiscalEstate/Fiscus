@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    Diplomatico, ++ S 2</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                        </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc598</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#"
+                                >--Libellus/precaria/emphyteusis</rs>
+                                    <rs type="record_source" ref="#">Original document</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate when="0905-02-13">
+                                <note type="displayed_date">905 February 13</note>
+                                <note type="dating_elements">Anno di regno di Berengario</note>
+                                <note type="topical_date">Lucca</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance>
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                            <place></place>
+                        </listPlace>
+                        <listPerson>
+                            <person></person>
+                        </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-07-20" who="ptomei">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab><persName ref="#people/150">Fraolmi</persName> del <persName
+                            ref="#people/211">fu Teudimundo</persName> riceve in livello dal <rs
+                            key="#Bishops">vescovo</rs> di Lucca <persName ref="#people/213"
+                            key="#Bishops">Pietro</persName>, la <orgName
+                            ref="#juridical_persons/226" key="#Churches"><rs key="#Churches"
+                                >chiesa</rs> di San Lorenzo sita in loco et finibus <placeName
+                                key="#Churches" ref="#places/180">Vacchule</placeName></orgName>, di
+                        pertinenza del <orgName key="#Mother_churches" ref="#juridical_persons/68"
+                                ><rs key="#Mother_churches">vescovato</rs> di San Martino</orgName>,
+                        con tutte le sue dipendenze. Si impegna affinché per sua disposizione nella
+                        chiesa si tengano officium Dei et luminaria seo missarum solemnia. Si
+                        impegna a versare pro omni censum et iustitiam al vescovo e ai suoi
+                        successori a Lucca al duomo ogni mese di marzo il censo annuale di 60 denari
+                        d’argento ad pars del vescovato di San Martino, e a far venire a Lucca legem
+                        et iustitiam faciendum, gli stessi uomini che abiteranno le case di
+                        pertinenza della chiesa a mandato del vescovo. Se non rispetterà i suddetti
+                        impegni, promette con il figlio <persName ref="#people/1801"
+                            >Fraolmi</persName> e i suoi eredi di versare al vescovo e ai suoi
+                        successori la pena di 100 soldi d’argento. Chiede al <rs
+                            key="#Writer #Notary">notaio</rs> e <rs key="#Scabini">scabino</rs>
+                        <persName key="#Writer #Notary #Scabini"><name ref="Petrus"
+                            >Pietro</name></persName> la stesura di due <rs key="#Ordinatio"
+                            >cartulas</rs>. Actum <placeName ref="#places/4"
+                            key="#Mother_churches #Bishops">Luca</placeName>. <rs key="#Witness"
+                            >Testimoni</rs> sottoscrittori: <persName
+                            key="#Witness #Notary #Scabini"><name ref="Adalbertus"
+                            >Adalperto</name></persName>
+                        <rs key="#Notary">notarius</rs> et <rs key="#Scabini">schabinus</rs>,
+                            <persName key="#Witness"><name ref="Ghisulfus"
+                            >Ghisolfo</name></persName>, <persName key="#Witness"><name
+                                ref="Ghisulfus">Ghisolfo</name></persName>, <persName key="#Witness"
+                                ><name ref="Roppaldus">Roppaldo</name></persName>, <persName
+                            key="#Witness #Scabini"><name ref="Benedictus"
+                            >Benedetto</name></persName>
+                        <rs key="#Scabini">schabinus</rs>, <persName key="#Witness #Notary #Scabini"
+                                ><name ref="Gausbertus">Cosperto</name></persName>
+                        <rs key="#Notary">notarius</rs> et <rs key="#Scabini">schabinus</rs>.</ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>MDL, 5/3, n. 1087, pp. 30-31.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                        <p>Sottoscrizioni autografe: Fraolmi, il notaio e scabino Adalperto,
+                    Ghisolfo, Ghisolfo, Roppaldo, lo scabino Benedetto, il notaio e scabino
+                    Cosperto.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

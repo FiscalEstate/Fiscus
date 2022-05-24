@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    Diplomatico, *A.70</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc4033</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">--Venditio</rs>
+                                    <rs type="record_source" ref="#">Critical edition</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate notAfter="0742-10-30" notBefore="0742-10-01">
+                                <note type="displayed_date">742 ottobre</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Lucca</note>
+                                <note type="redaction_date"/>
+                             </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-05-27" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab><persName key="#Vir_devotus/vir_honestus"><name
+                                ref="Maurus traspadanus">Mauro</name></persName> transpadanus,
+                        havitator in <rs key="#Cities">civitatem</rs>
+                        <placeName key="#Cities" ref="#places/507">Pistoriense</placeName>, genero
+                                <persName><name ref="Felicissimus de Pisca"
+                            >Filicissimi</name></persName> de <placeName ref="#places/464"
+                            >Piscia</placeName>
+                        <foreign>vende</foreign> a <persName><name ref="Crispinus negotians"
+                                >CrispinusCrispinuli</name></persName> negudianti parte mea de <rs
+                            key="#Landed_possessions">terra</rs> et <rs key="#Wine">vineam</rs> quem
+                        avire visum sum in <placeName
+                            key="#Landed_possessions #Wine #Hay/fodder #Slave_labour #Slave"
+                            ref="#places/464">Piscia</placeName>, parte qui mihi etvinet per <rs
+                            key="#Offersio/donatio">donationem</rs> da <persName
+                            key="#Offersio/donatio"><name ref="Sturmulus"
+                        >Sturnulo</name></persName>, qui est posita ad latum de <rs
+                            key="#Landed_possessions">terra</rs> tua ipsius <persName
+                            key="#Confinia #Petiae #Wine"><name ref="Crispinus negotians"
+                                >Crispine</name></persName>, et vineas est posita similiter ad latum
+                        de <rs key="#Wine">vineas</rs> tua ipsius <placeName key="#Wine #Hay/fodder"
+                            ref="#places/464">ad Sorbulo</placeName>; quod est parte mea de <rs
+                            key="#Hay/fodder">prato</rs>, hoc est quarta parte in integro, similiter
+                        et de vinea, qui mihi cuntiget, quarta parte de integra sorte mea (…); et
+                        uno <rs key="#Slave_labour #Slave">serbo</rs> nomine <persName
+                            key="#Slave_labour #Slave"><name ref="Dolculus"
+                            >Dulculo</name></persName>. <foreign>Prezzo</foreign>: auri soledos
+                        bonos expendivile nomero trigenta et quinque tantum. <foreign>Pena in
+                            duplum. Scrive</foreign>: <persName
+                            key="#Writer #Vir_devotus/vir_honestus"><name ref="Teudebertus"
+                                >Teutpert</name></persName>
+                        <rs key="#Vir_devotus/vir_honestus">vir devotum</rs> (…). Actum <placeName
+                            ref="#places/4">Luca</placeName>. <foreign>Sottoscrizioni:</foreign> +
+                        Mauri <rs key="#Vir_devotus/vir_honestus">viri honesti</rs> vendituri; +
+                            <persName key="#Witness #Vir_devotus/vir_honestus"><name ref="Pettus"
+                                >Petti</name></persName>
+                        <rs key="#Vir_devotus/vir_honestus">viri devoti</rs> filio <persName><name
+                                ref="Autelmus">Authelmi</name></persName> testis; + <persName
+                            key="#Witness #Vir_devotus/vir_honestus"><name ref="Tachipertus"
+                                >Tachipert</name></persName>
+                        <rs key="#Vir_devotus/vir_honestus">viri devoti</rs> germano <persName><name
+                                ref="Amelongus">Amalongo</name></persName> testis; + <persName
+                            key="#Witness #Specialized_workers #Vir_devotus/vir_honestus"><name
+                                ref="Bonichis caldorario de Porta Sancto Donati"
+                            >Bonichis</name></persName>
+                        <rs key="#Vir_devotus/vir_honestus">viri devoti</rs>
+                        <rs key="#Specialized_workers">caldorario</rs> de <placeName ref="#places/4"
+                            >porta Sancto Donati</placeName> testis; <foreign>Scrive</foreign>:
+                        Teutpert. <foreign>Segue</foreign>: + Ego <persName
+                            key="#Witness #Vir_devotus/vir_honestus"><name ref="Aldebertus"
+                                >Altipert</name></persName>
+                        <rs key="#Vir_devotus/vir_honestus">vir devotus</rs> in anc cartula
+                        suscripsi. </ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>MDL V/2, n. 31; CDL, I, n. 80, pp. 233-235; ChLA, XXXI, 921.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                         <p><foreign>Nota dorsale (sec. XII ex.)</foreign>: Cartula venditionis
+                    cuiusdam vinee in […] Piscionore; <foreign>altra mano</foreign>:
+                    vinditionis.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

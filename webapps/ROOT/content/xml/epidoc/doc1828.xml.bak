@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Archivio Capitolare Vercelli (DD B I; doc. 5)</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc1828</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property">Yes</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate notBefore="0001" notAfter="0001" when="0901-03-01">
+                                <note type="displayed_date">901 March </note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Pavia</note>
+                                <note type="redaction_date"/>
+                             </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-06-23" who="cciccopiedi">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine domini Dei aeterni. <persName key="#Emperor/king" ref="#people/21"
+                            >Berengarius</persName> divina favente clementia <rs key="#Emperor/king"
+                            >rex</rs>. Noverit igitur omnium fidelium nostrorum presetium silicet et
+                        futurorum industria, qualiter <persName key="#vassusOf #fidelisOf"><name
+                                ref="Grimoaldus">Grimoaldus</name></persName> dilectus <rs
+                            key="#vassusOf">vassus</rs> fidelis noster petit nostram clementiam
+                        postulans quatinus quoddam <rs key="#Monasteries">monasteriolum</rs> in
+                        honore <orgName
+                            key="#Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches #Monasteries"
+                            ref="#juridical_persons/107">sancti Archangeli Michaelis
+                        </orgName>constructum quod dicitur <placeName
+                            key="#Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches #Monasteries"
+                            ref="#places/328">Laucegium</placeName>
+                        <orgName key="#Mother_churches" ref="#juridical_persons/81">ecclesiae
+                                <placeName key="#Mother_churches" ref="#places/106"
+                                >Vercellensi</placeName> Beati Eusebii</orgName>, ubi <persName
+                            key="#Bishops" ref="#people/519">Sebastianus</persName>
+                        <rs key="#Bishops">episcopus</rs> preesse videtur, in cuius parroechia
+                        consistit, perpetua firmitate <rs key="#Imperial/royal_diploma"
+                            >traderemus</rs>. Non quoque pro salvatione utriusque ecclesie ea que
+                        postulaverat libenter attendimus, atque supradictum monasteriolum beato
+                        Eusebio suisque successoribus ordinandum et disponendum perpetua firmitate
+                        tradidimus, ita videlicet ut regalis ordo in eodem monasterio sub triginta
+                        monachorum quantitate vel amplius permaneat, et ipsa electio que eosdem
+                        fratres regere debeat inter eos pariter et episcopum sedis Beati Eusebii
+                        permaneat quantum inter illos talis invenire potuerit, qui vita <rs
+                            key="#Monks">monachorum</rs> et ecclesiastico officio secundum regulam
+                        sancti Benedicti ordinare et sapienter disponere prevaleat. Et ut haec
+                        nostrae alacritatis preceptum inde fieri iussimus, per quod decernimus atque
+                        iubemus ut supradicta traditio et constitutio perpetualiter permaneat sicut
+                        a nostris antecessoribus ipsum monasterium iam dicto episcopio concessum et
+                        constitutum fuit, quoniam eundem preceptum propria manu firmavimus et
+                        iussimus sigillari anulo nostro. Si quis vero traditionem hanc nostram
+                        violare in aliquo temptaverit, mancusos mille persolvendum culpabilis
+                        iudicetur, medietatem nostro palatio et medietatem ecclesie Beati Eusebii
+                        eiusque rectoribus cui vim inferre conatus est. Signum domni Berengarii
+                        serenissimi regis. <persName key="#Notary"><name ref="Restus notarius"
+                                >Restus</name></persName>
+                        <rs key="#Notary">notarius</rs> ad vicem <persName key="#Archchancellor"
+                                ><name ref="Ardingus">Ardingi</name></persName>
+                        <rs key="#Archchancellor">archicancellarii</rs> recognovi. Data octavo id.
+                        iul., anno incarnationis Domini nongentesimo primo, indicione tercia, anno
+                        vero regni domni Berenarii Deo propitio terciodecimo. Actum civitate
+                            <placeName ref="#places/65">Papia</placeName> in Dei nomine feliciter,
+                        amen. </ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>DD B I; doc. 5; p. 375 </p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

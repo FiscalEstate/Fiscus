@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Biblioteca Apostolica Vaticana, Vat. Lat. 3833, ff. 89v-90r (Deusdedit, nr.
+                    257)</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc1539</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">-Papal concession (papyrus)</rs>
+                            <rs type="record_source" ref="#">Original document</rs>
+                            <rs type="document_tradition" ref="#">Compendium</rs>
+                            <rs type="fiscal_property">Yes</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate notBefore="0741" notAfter="0752">
+                                <note type="displayed_date">741 December 3 – 752 March 15</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date"/>
+                                <note type="redaction_date">1083-1087</note>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-12-16" who="dinternullo">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>Idem in eodem (<persName key="#Popes" ref="#people/69">Zacharias</persName>
+                        locat) <persName><name ref="Hysidorus">Hysidoro</name></persName>
+                        <rs key="#Fundi">fundum</rs>
+                        <geogName
+                            key="#Fundi #Fiscal_property #Object #Outflow #Allocation_to_individuals #Rent_in_money"
+                            ref="#estates/893">Sororum</geogName> et <rs key="#Fundi">fundum</rs>
+                        <geogName
+                            key="#Fundi #Fiscal_property #Object #Outflow #Allocation_to_individuals #Rent_in_money"
+                            ref="#estates/894">Virorum</geogName> via Lavicana miliario plus minus
+                        .XIIII., <rs key="#Rent_in_money">prestat numero .II. auri solidos</rs>. </ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>Deusdedit, Collectio Canonum, nr. 257, p. 375</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p>Marazzi 1998: 303-304</p>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p><ref>https://digi.vatlib.it/view/MSS_Vat.lat.3833</ref></p>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

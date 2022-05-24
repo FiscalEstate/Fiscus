@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    +N.38</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc4101</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">--Venditio</rs>
+                                    <rs type="record_source" ref="#">Critical edition</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate when="0765-08-24"> 
+                                        <note type="displayed_date">765 August 24</note>
+                                        <note type="dating_elements"/>
+                                        <note type="topical_date">Lucca</note>
+                                        <note type="redaction_date"/>
+                             </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-06-20" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab><persName><name ref="Bandus">Bando</name></persName> filio quondam
+                                <persName><name ref="Aricausus">Aricaus</name></persName>
+                        <foreign>vende pro anima a</foreign>
+                        <persName><name ref="Ragiberta">Rachiperta</name></persName> relicta quondam
+                                <persName><name ref="Ratfunsus">Ratfuns</name></persName> nepoti meo
+                        portione mea de <rs key="#Landed_possessions">res nostra</rs> quem habemus
+                        ad <placeName key="#Landed_possessions #Cereals #Wine #Chestnuts"
+                            ref="#places/1016">Ruchi</placeName>, <rs key="#Cereals">terris</rs>,
+                            <rs key="#Wine">vineis</rs>, <rs key="#Chestnuts">castanetis</rs>.
+                            <foreign>Prezzo</foreign>: auri soledos nomero sex. <foreign>Pena in
+                            duplum</foreign>. Actum <placeName ref="#places/4">Luca</placeName>.
+                            <foreign>Sottoscrizioni</foreign>: + Bandi vindituri; + <persName
+                            key="#Witness"><name ref="Ermulus">Ermuli</name></persName> genero eius
+                        testis; + <persName key="#Witness #Other_clerics"><name ref="Anspertus"
+                                >Asperti</name></persName>
+                        <rs key="#Other_clerics">clerici</rs> filio quondam <persName><name
+                                ref="Radaldus">Raduald</name></persName> testis; (ss) <persName
+                            key="#Witness #Other_clerics"><name ref="Rainbertus"
+                            >Rignipertu</name></persName>
+                        <rs>clericus</rs>. <foreign>Scrive</foreign>: <persName
+                            key="#Writer #Deacons"><name ref="Osprandus">Osprandus</name></persName>
+                        <rs key="#Deacons">diaconus</rs>.</ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>MDL V/2, n. 93; CDL II, 191, pp. 178-179; ChLA, XXXIV, 987.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                         <p><foreign>Nota dorsale (sec. XII)</foreign>: Venditio terrarum in
+                    Ruchi.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

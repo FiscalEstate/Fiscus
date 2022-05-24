@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Archivio Abbaziale di Nonantola, Pergamene, III 27</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus
+                        Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc6006</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">-Placitum/iudicatum</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property"/>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate notBefore="0898-07-01" notAfter="0898-07-31">
+                                <note type="displayed_date">898 July 1/31</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Cinquanta (San Giorgio di Piano;
+                                    Bologna)</note>
+                                <note type="redaction_date">XI </note>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-12-13" who="emanarini">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab> Dum in Dei nomine <rs key="#Villas">villa</rs> que dicitur <placeName
+                            key="#Placitum/iudicatum #Houses #Villas #Assembly" ref="#places/1505"
+                            >Quingentas</placeName> intus <rs key="#Houses">casa</rs>
+                        <persName key="#Houses #Local_elites"><name ref="Geminianus"
+                                >Geminiano</name></persName>, ubi domnus <persName
+                            key="#Placitum/iudicatum #Count #Assembly #seniorOf" ref="#people/1208"
+                            >Vuidus</persName>
+                        <rs key="#Count">comes</rs>
+                        <placeName
+                            key="#Cities #Notary #Scabini #Comitatus #Mother_churches #City_territory"
+                            ref="#places/38"><geogName
+                                key="#Placitum/iudicatum #Count #Viscount #Gastaldus/vicegastaldus #Notary #Judge #Comitatus #Pagus #Fines #Local_elites #Scabini #Boni_viri/boni_homines #Rural_communities #Arimannus"
+                                ref="#estates/208">Mutinensis</geogName></placeName>
+                        <rs key="#Assembly">resedebat ad singulis iustitias faciendas ac
+                            deliberandas, resedebant cum eos</rs>
+                        <persName key="#Witness #vassusOf" ref="#people/1209">Agino</persName>
+                        <rs key="#vassusOf">vasso</rs> domni imperatoris et <persName
+                            key="#Viscount #Witness" ref="#people/1210">Bertulfo</persName>
+                        <rs key="#Viscount">vicecomite</rs>
+                        <placeName key="#Viscount #Local_elites #Judge" ref="#places/40">Civitate
+                            Nova</placeName>, <persName
+                            key="#Witness #Gastaldus/vicegastaldus #vassusOf" ref="#people/1211"
+                            >Geilo</persName> et <persName
+                            key="#Witness #Gastaldus/vicegastaldus #vassusOf" ref="#people/1212"
+                            >Oso</persName> adque <persName
+                            key="#Witness #Gastaldus/vicegastaldus #vassusOf" ref="#people/1213"
+                            >Isoardo</persName>
+                        <rs key="#Gastaldus/vicegastaldus">castaldiis</rs> et vassis ipsius comiti,
+                        item et <persName key="#Notary #Scabini"><name ref="Paulus"
+                            >Paulo</name></persName> et <persName key="#Notary #Witness #Scabini"
+                                ><name ref="Lupicinus">Lupicino</name></persName> seu et <persName
+                            key="#Notary #Scabini"><name ref="Gisempertus"
+                            >Giseberto</name></persName>
+                        <rs key="#Notary">notariis</rs> et <rs key="#Scabini">scavinis</rs>
+                        <rs key="#Cities">civitate</rs> Mutine et <persName key="#Scabini"><name
+                                ref="Ratcausus de Castello Olariano">Rascauso</name></persName>
+                        scavino de <placeName key="#Castle #Scabini" ref="#places/1506">Castello
+                            Olariano</placeName> adque <persName key="#Witness #Scabini"><name
+                                ref="Constantinus de Verabulo">Costantino</name></persName> et
+                            <persName key="#Scabini #Witness"><name ref="Venerus de Verabulo"
+                                >Venerio</name></persName> et <persName key="#Scabini #Witness"
+                                ><name ref="Iohannes de Verabulo">Iohannes</name></persName>
+                        scavinis de <placeName key="#Scabini" ref="#places/1512"
+                            >Verabulo</placeName> et <persName key="#Witness#Notary #Scabini"><name
+                                ref="Ermenaldus de Persiceta">Ermenaldus</name></persName> et
+                            <persName key="#Notary #Witness #Scabini"><name
+                                ref="Martinus de Persiceta">Martinus</name></persName> notariis et
+                        scavinis de <rs key="#Pagus">pago</rs>
+                        <placeName key="#Notary #Pagus #Scabini" ref="#places/27"
+                            >Persicete</placeName>, <persName key="#Notary #Witness #Local_elites"
+                                ><name ref="Gregorius de Salto">Gregorius</name>
+                        </persName>et <persName key="#Notary #Local_elites"><name
+                                ref="Lupus de Salto">Lupus</name></persName>, notariis et <rs
+                            key="#Local_elites">dativis</rs> da <placeName
+                            key="#Local_elites #Plebs #Notary" ref="#places/1501">Salto</placeName>,
+                            <persName key="#Scabini #Witness"><name ref="Iohannes de Brento"
+                                >Iohannes</name></persName> de quondam <persName><name
+                                ref="Constantinus">Constantino</name></persName> scavinus de
+                            <placeName key="#Scabini" ref="#places/1507">Brento</placeName>,
+                            <persName key="#Scabini #Witness"><name ref="Apollinaris de Mesturiano"
+                                >Apolenaris</name></persName> scavinus de <placeName key="#Scabini"
+                            >Mesturiano</placeName>, <persName key="#Scabini"><name
+                                ref="Lupicinus de Feroniano">Lupicinus</name></persName> scavinus de
+                            <placeName key="#Scabini" ref="#places/1508">Feroniano</placeName>,
+                        itemque <persName key="#Witness"><name ref="Ingo">Ingo</name></persName>
+                        filio <persName><name ref="Walpertus">Vualperti</name></persName> de
+                        comitato Motinensi, <persName key="#Local_elites"><name
+                                ref="Reginaldus de Montevelio">Reginaldo</name></persName> et
+                            <persName key="#Local_elites #Witness"><name
+                                ref="Iohannes de Montevelio">Ioannes</name> de <persName><name
+                                    ref="Petronilla">Petronilla</name></persName></persName> de
+                            <placeName ref="#places/446" key="#Local_elites">Montevelio</placeName>,
+                            <persName key="#Local_elites"><name ref="Dachipertus"
+                            >Dagipertus</name></persName> et <persName key="#Local_elites"><name
+                                ref="Teutelmus">Teutelmus</name></persName> et <persName
+                            key="#Local_elites #Witness"><name ref="Leo">Leo</name> de
+                                    <persName><name ref="Entruda"
+                            >Entruda</name></persName></persName> et <persName
+                            key="#Witness #Local_elites"><name ref="Recuinus"
+                            >Recuino</name></persName> germanis et <persName key="#Local_elites"
+                                ><name ref="Petrus">Petro</name></persName> de condam
+                                <persName><name ref="Paulus">Paulini</name></persName> et <persName
+                            key="#Local_elites #Witness"><name ref="Landus">Lando</name></persName>,
+                            <persName key="#Witness #Local_elites"><name ref="Tassimannus"
+                                >Taxemanno</name></persName> filio quondam <persName><name
+                                ref="Ariberta">Ariperte</name></persName>, <persName
+                            key="#Witness #Local_elites"><name ref="Totila">Totila</name></persName>
+                        et <persName key="#Local_elites"><name ref="Eribertus"
+                            >Eriberto</name></persName> germanis, <persName key="#Local_elites"
+                                ><name ref="Iohannes">Iohannes</name></persName> filio quondam
+                                <persName><name ref="Petrus">Petri</name>
+                            <persName><name ref="Dominicus">Dominici</name></persName></persName> et
+                            <persName key="#Local_elites #Witness"><name ref="Rimpaldus"
+                                >Rimpaldo</name></persName> et <persName><name ref="Blancus"
+                                >Blanca</name></persName> filio quondam <persName><name
+                                ref="Dominicus">Dominici</name></persName>, itemque ibi aderant cum
+                        eis <persName key="#Local_elites #Witness"><name ref="Willibaldus"
+                                >Vuillibaldo</name></persName>, <persName key="#Local_elites"><name
+                                ref="Geminianus de Civitate Nova">Geminiano</name></persName> de
+                        Civitate Nova, <persName key="#Scabini"><name ref="Bonipertus de Saliceto"
+                                >Bonipertus</name></persName> scavinus de <placeName key="#Scabini"
+                            ref="#places/1509">Saliceto</placeName>,<persName
+                            key="#Witness #Local_elites"><name ref="Natalis de Glandito"
+                                >Natalis</name></persName>,<persName key="#Notary"><name
+                                ref="Agibrandus de Glandito">Agriprandus</name></persName> notarius
+                        et <persName key="#Witness #Local_elites"><name ref="Benedictus de Glandito"
+                                >Benedicto</name></persName> de <placeName
+                            key="#Notary #Local_elites" ref="#places/1510">Glandito</placeName>,
+                            <persName key="#Local_elites #Rural_communities"><name
+                                ref="Aribaldus de Sorbaria">Aripaldo</name></persName>, <persName
+                            key="#Local_elites #Rural_communities"><name ref="Adroaldus de Sorbaria"
+                                >Aldroaldo</name></persName>, <persName
+                            key="#Local_elites #Rural_communities"><name ref="Bandus de Sorbaria"
+                                >Bando</name></persName>, <persName
+                            key="#Local_elites #Rural_communities"><name ref="Martinus de Sorbaria"
+                                >Martinus</name></persName> de <persName><name ref="Lupus"
+                                >Luponi</name></persName>, <persName
+                            key="#Arimannus #Rural_communities"><name ref="Iohannes de Sorbaria"
+                                >Iohannes</name></persName>
+                        <rs key="#Arimannus">arimani</rs> et <persName
+                            key="#Local_elites #Rural_communities"><name ref="Iohannes de Sorbaria"
+                                >Iohannes</name></persName> filio <persName><name ref="Petrus/Longo"
+                                >Petro Longo</name></persName>, <persName
+                            key="#Local_elites #Rural_communities"><name
+                                ref="Radipertus de Sorbaria">Radberto</name></persName> filio
+                        quondam <persName><name ref="Garipertus">Gariberti</name></persName>,
+                            <persName key="#Local_elites #Rural_communities"><name
+                                ref="Arimundus de Sorbaria">Arimundo</name></persName> de <placeName
+                            key="#Local_elites #Rural_communities #Arimannus" ref="#places/1511"
+                            >Sorbaria</placeName>, <persName key="#Local_elites #Rural_communities"
+                                ><name ref="Martinus">Martinus</name></persName> filio quondam
+                                <persName><name ref="Iohannes">Iohannis</name></persName> de ...
+                        filio quondam <persName><name ref="Lupus">Luponi</name></persName> ...,
+                                <persName>...<name ref="..gebertus">geberto</name></persName>,
+                            <persName key="#Local_elites #Rural_communities #Witness"><name
+                                ref="Adroaldus de Sorbaria">Adroaldo</name></persName>, <persName
+                            key="#Local_elites #Rural_communities"><name ref="Gaidaldus de Sorbaria"
+                                >Gaidaldo</name></persName>, <persName
+                            key="#Local_elites #Rural_communities"><name
+                                ref="Leontardus de Sorbaria">Leontardo</name></persName>, et
+                            <persName key="#Local_elites #Rural_communities"><name
+                                ref="Agimundus de Sorbaria">Agimundo</name></persName>
+                        <rs key="#Local_elites #Rural_communities">toti de</rs> Sorbaria, <persName
+                            key="#Local_elites"><name ref="Andreas de Riparia"
+                            >Andrea</name></persName> de <placeName key="#Local_elites"
+                            ref="#places/1513">Riparia</placeName>, <persName
+                            key="#Witness #Local_elites"><name ref="Iohannes de Solaria"
+                                >Iohannes</name>
+                            <persName><name ref="Maurus">Mauri</name></persName></persName>,
+                            <persName key="#Witness #Local_elites"><name ref="Iohannes"
+                                >Iohannes</name>
+                            <persName><name ref="Fileradus">Fileradi</name></persName></persName>,
+                            <persName key="#Local_elites"><name ref="Ursus">Urso</name> de
+                                    <persName><name ref="Stephanus"
+                            >Stephano</name></persName></persName>, <persName key="#Local_elites"
+                                ><name ref="Wido">Vuido</name></persName> ... , <persName
+                            key="#Witness #Local_elites"><name ref="Bonifredus de Linare"
+                                >Bonifredus</name></persName> de <placeName key="#Local_elites"
+                            ref="#places/1524">Linare</placeName>, <persName
+                            key="#Local_elites #Witness"><name ref="Ansulfus de Baise"
+                                >Ansulfo</name></persName>, <persName key="#Local_elites"><name
+                                ref="Lupus de Baise">Lupo</name></persName>, <persName
+                            key="#Local_elites"><name ref="Teudebertus de Baise"
+                            >Teoperto</name></persName>, toti tres de <placeName key="#Local_elites"
+                            ref="#places/1514">Baise</placeName>, <persName key="#Local_elites"
+                                ><name ref="Lupus de Colina">Lupo</name></persName> de <placeName
+                            key="#Local_elites" ref="#places/1515">Colina</placeName>, <persName
+                            key="#Local_elites #Witness #Scabini"><name ref="Hubaldus de Liviciano"
+                                >Upaldo</name></persName> filio quondam <persName><name
+                                ref="Adalbrandus">Adelprandi</name></persName> scavini, <persName
+                            key="#Local_elites"><name ref="Iohannes de Liviciano"
+                            >Iohannes</name></persName> filio <persName><name ref="Lupicinus"
+                                >Lupicini</name></persName> de <placeName
+                            key="#Scabini #Local_elites" ref="#places/1516">Liviciano</placeName>,
+                            <persName key="#Local_elites"><name ref="Pastrus de Manno"
+                            >Pastro</name></persName> de <placeName key="#Local_elites"
+                            ref="#places/1517">Manno</placeName>, <persName key="#Local_elites"
+                                ><name ref="Teudebertus de Viniseto">Teoperto</name></persName> de
+                            <placeName key="#Local_elites" ref="#places/1520">Viniseto</placeName>,
+                            <persName key="#Scabini #Local_elites"><name ref="Petrus de Renno"
+                                >Petro</name></persName> filio <persName><name ref="Ratcausus"
+                                >Rascausi</name></persName> scavini, <persName
+                            key="#Witness #Local_elites"><name ref="Robertus de Renno"
+                                >Roperto</name></persName> filio <persName><name ref="Ildebertus"
+                                >Ildeberto</name></persName>, Lederado filio <persName><name
+                                ref="Rainerius de Renno">Raginerio</name></persName>, <persName
+                            key="#Local_elites"><name ref="Warnerius de Renno"
+                            >Vuarnerio</name></persName> filio <persName><name ref="Rainerius"
+                                >Raginerio</name></persName>de <placeName key="#Local_elites"
+                            ref="#places/1518">Renno</placeName>,<persName key="#Local_elites"><name
+                                ref="Adalbertus de Pantiano">Adelperto</name></persName>et <persName
+                            key="#Local_elites"><name ref="Oldericus de Pantiano"
+                            >Oterico</name></persName> germanis, <persName
+                            key="#Local_elites #Witness"><name ref="Madeladus de Pantiano"
+                                >Madelaldo</name></persName> filio quondam <persName><name
+                                ref="Madelaldus">Madelaldi</name></persName>, <persName
+                            key="#Local_elites"><name ref="Iohannes de Pantiano"
+                            >Iohannes</name></persName> et <persName key="#Local_elites"><name
+                                ref="Aldebertus de Pantiano">Aldeperto</name></persName> germanis de
+                            <placeName key="#Local_elites" ref="#places/1519">Pantiano</placeName>,
+                            <persName key="#Local_elites"><name ref="Ado de Budrio"
+                            >Ado</name></persName> et <persName key="#Local_elites"><name
+                                ref="Iohannes de Budrio">Iohannes</name></persName> germanis de
+                            <placeName key="#Local_elites" ref="#places/1521">Budrio</placeName>,
+                            <persName key="#Local_elites"><name ref="Bennus de Mandrie"
+                            >Benno</name></persName> et <persName key="#Witness #Local_elites"><name
+                                ref="Atto de Mandrie">Atio</name></persName> germanis de <placeName
+                            key="#Local_elites" ref="#places/1522">Mandrie</placeName>, <persName
+                            key="#Local_elites"><name ref="Maginfredus de Gurgo"
+                            >Mainfredo</name></persName> de <placeName key="#Local_elites"
+                            ref="#places/1523">Gurgo</placeName>, <persName key="#Local_elites"
+                                ><name ref="Grasulfus">Grasulfo</name></persName> de <persName><name
+                                ref="Bernaiolus">Bernaiolo</name></persName>, <persName
+                            key="#Local_elites"><name ref="Berno de Renno">Berno</name></persName>
+                        et <persName key="#Local_elites"><name ref="Eberardus de Renno"
+                                >Eberardo</name></persName> germanis de Renno, <persName
+                            key="#Local_elites"><name ref="Rodulfus">Rodulfus</name></persName>
+                        filio quondam <persName><name ref="Aimo">Aimoni</name></persName>, <persName
+                            key="#Local_elites"><name ref="Petrus">Petrus</name></persName> filio
+                        quondam <persName><name ref="Danihel">Danieli</name></persName>, <persName
+                            key="#Witness #Local_elites"><name ref="Aimo">Aimo</name></persName>
+                        filio quondam <persName><name ref="Eberardus">Eberardi</name></persName> et
+                        reliqui plures <rs key="#Boni_viri/boni_homines">bonorum hominum</rs>
+                        circumadstantibus. Ibique veniens in istorum superscriptorum presentia domno
+                            <persName
+                            key="#Advocatus_of_other_public_authorities #Monasteries #Abbots"
+                            ref="#people/1214">Leopardus</persName> venerabilis <rs key="#Abbots"
+                            >abbas</rs>
+                        <rs key="#Monasteries">monasterii</rs> sanctorum omnium apostolorum Christi
+                        confessoris <orgName
+                            key="#Imperial/royal_diploma #Vici #Rivers #Marshes/lagoons/tombolos #Shores #Casae/cassinae_massaricie #Cereals #Wine #Hay/fodder #Wood #Animals #Slave_labour #Agricultural_workers #Ports #Roads #Canals #Advocatus_of_other_public_authorities #Rights_of_use_on_woods/pastures/waters #Public_infrastructures #Monasteries #Abbots #Aldius"
+                            ref="#juridical_persons/47">Silvestri</orgName> sito <placeName
+                            ref="#places/15" key="#Monasteries">Nonantule</placeName>
+                        <rs key="#City_territory">terretorio</rs> Motinensi, una cum <persName
+                            key="#Advocatus_of_other_public_authorities #Scabini" ref="#people/1205"
+                            >Petrone</persName> scavino <rs key="#Advocatus">advocato</rs> suo et
+                        ostenserunt ibi <rs key="#Imperial/royal_diploma">preceptum</rs> unum domni
+                        Flavii <persName key="#Imperial/royal_diploma #Emperor/king"
+                            ref="#people/48">Astulfi</persName>
+                        <rs key="#Emperor/king">regis</rs> et ibi relectum fuit et continebat in
+                        ipsum preceptum per quam donaverat in monasterio <orgName
+                            key="#Imperial/royal_diploma #Offersio/donatio #Vici #Rivers #Marshes/lagoons/tombolos #Shores #Curtes #Casae/cassinae_massaricie #Cereals #Wine #Hay/fodder #Wood #Animals #Slave_labour #Agricultural_workers #Ports #Monasteries #Priests #Abbots #Aldius"
+                            ref="#juridical_persons/1102">domini Salvatoris et beate semperque
+                            virginis genetricis eius Marie</orgName> sito in loco qui nominatur
+                            <placeName key="#Monasteries" ref="#places/1500">Fainano</placeName> et
+                        venerabili viro <persName
+                            key="#Imperial/royal_diploma #Offersio/donatio #Abbots" ref="#people/49"
+                            >Anselmo</persName> abbati <rs key="#Curtes">curtem</rs> unam in finibus
+                        suis <placeName
+                            key="#Areas #Marshes/lagoons/tombolos #Curtes #Forests #Local_elites #Witness #Fines #Rural_communities"
+                            ref="#places/1504"><geogName
+                                key="#Marshes/lagoons/tombolos #Curtes #Forests #Fines #Rural_communities"
+                                ref="#estates/1103">Solariensis</geogName></placeName>, cui
+                        vocabulum est <geogName
+                            key="#Curtes #Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches #Rivers #Marshes/lagoons/tombolos #Shores #Casae/cassinae_massaricie #Vici #Cereals #Wine #Hay/fodder #Wood #Animals #Fiscal_property #Slave_labour #Agricultural_workers #Ports #Aldius"
+                            ref="#estates/1102"><placeName
+                                key="#Vici #Rivers #Marshes/lagoons/tombolos #Shores #Curtes #Casae/cassinae_massaricie #Cereals #Wine #Hay/fodder #Wood #Animals #Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches #Slave_labour #Agricultural_workers #Ports #Aldius"
+                                ref="#places/1503">Canetulo</placeName></geogName>, cum omnia ad se
+                        pertinente, que a <persName
+                            key="#Imperial/royal_diploma #Offersio/donatio #Marquis/duke #fidelisOf"
+                            ref="#people/1215">Peredeo</persName>
+                        <rs key="#Marquis/duke">duce</rs> possessa fuit et defensa, et ipsam curtem
+                        cum omnia ad se pertinente superscriptum Peredeum <rs key="#fidelisOf"
+                            >fidelem</rs> suum in sua presentia <persName
+                            key="#Monasteries #Priests">Andreati</persName>
+                        <rs key="#Priests">presbitero</rs> superscripti monasterii <rs
+                            key="#Offersio/donatio">tradere fecit</rs>, ut ipsum sanctum monasterium
+                        securo omnia possedere valeat in integrum. Erat preceptum ipsum at anulo
+                        domni regis sigillatum et <rs>ex dicto</rs> domni regis per <persName
+                            key="#Notary"><name ref="Teudebertus">Teoperto</name></persName>
+                        notario, ex dictatum et <rs key="#Writer">scripto</rs> per mano <persName
+                            key="#Writer #Notary"><name ref="Iohannes">Iohannis</name></persName>
+                        notarii, dato <placeName ref="#places/594" key="#Palatia"
+                            >Ravenna</placeName>
+                        <rs key="#Palatia">in palatio</rs>, <date>pridie kalendas iunias, anno
+                            felicissimi regni eius sexto, indictione octava</date>. Iterum ibi locum
+                        ostendebat alium preceptum quomodo a Peredeo dux defensa fuit. Continebatur
+                        in eo per quam donaverat ei <persName
+                            key="#Imperial/royal_diploma #Emperor/king" ref="#people/12"
+                            >Liutprandus</persName> rex et concedere per suum adsiduum et fidelem
+                        servitium curtem suam, quam habebat in <rs key="#Areas">terretorio
+                            Solariense</rs>, cui vocabulum erat Canetulo, cum universa edificia et
+                        terretoria vel <rs key="#Work_and_workers #Agricultural_workers"
+                            >familia</rs>, <rs key="#Cereals">campis</rs>, <rs key="#Hay/fodder"
+                            >pratis</rs>, <rs key="#Animals">pascuis</rs>, <rs key="#Wine"
+                            >vineis</rs>, <rs key="#Wood">silvis astalariis</rs>, <rs key="#Shores"
+                            >rivis</rs> et<rs key="#Marshes/lagoons/tombolos"> padulibus</rs>,
+                        cultum et incultum, movile et inmovile seseque moventibus, cum <rs
+                            key="#Slave_labour">servis</rs> et <rs key="#Aldius">aldionibus</rs>
+                        masculis et feminis utriusque sexus, et <rs key="#Casae/cassinae_massaricie"
+                            >casas massaricias</rs> numerus septuaginta et nove, et <rs key="#Ports"
+                            >porto</rs> que esse videtur in<rs key="#Rivers"> fluvio</rs> Moclena,
+                        et <rs key="#Vici">vico</rs> qui dicitur <placeName key="#Vici #Ports"
+                            ref="#places/1525">Siculo</placeName>, omnia in integro. Et erat ipsum
+                        precepto sigillato ab anulo domni regi et ex dicto domni regis per <persName
+                            key="#Writer #Notary"><name ref="Asterius">Asterium</name></persName>
+                        notarium scriptum, dato in <placeName
+                            key="#Ports #Fiscal_property #Textual_occurrence #Mention #Function #Residential"
+                            ref="#places/1527"><geogName
+                                key="#Ports #Fiscal_property #Textual_occurrence #Mention #Function #Residential"
+                                ref="#estates/1104"><rs key="#Ports">Caput</rs>
+                            Lambri</geogName></placeName>, <date>vicesimasecunda die mensis
+                            novembris, anno regni eius quinto, indictione secunda</date>. Et post
+                        hec ostensit ipse domnus Leopardus venerabilis abbas monasterii Nonantulani
+                        una cum Petrone scavino avocatore ipsius monasterii <rs
+                            key="#Placitum/iudicatum">iudicatum</rs> unum in quo continebatur inter
+                        cetera qualiter domnus <persName key="#Emperor/king" ref="#people/14"
+                            >Carolus</persName> piissimo rex direxit suum missum nomine <persName
+                            key="#Missus_regis #Abbots" ref="#people/1216">Adelardus</persName>
+                        abbas, ut in eius elemosina unde contentio erat inter partes superscripti
+                        monasterii Nonantulani et Aecclesiae Motinensis et populo Solariensis de
+                        illis rebus et paludibus seu et rebus de curte Canetulo in fine Solarienses
+                        deliberarent, et relegebat in ipsum iudicatum quomodo <persName
+                            key="#Placitum/iudicatum #Bishops" ref="#people/152">Gisus</persName>
+                        <rs key="#Bishops">episcopus</rs>
+                        <orgName
+                            key="#Advocatus_of_other_public_authorities #Mother_churches #Bishops #Deacons"
+                            ref="#juridical_persons/96">Aeclesie Motinensis</orgName> una cum
+                            <persName key="#Advocatus_of_other_public_authorities #Deacons"
+                            ref="#people/1218">Marino</persName> diacono avocatore suo a parte
+                        sancti Geminiani et singuli homines de Solaria in iuditio steterant cum
+                            <persName
+                            key="#Placitum/iudicatum #Abbots #Roads #Canals #Rights_of_use_on_woods/pastures/waters #Public_infrastructures"
+                            ref="#people/119">Petrus</persName> abbas monasterii Nonantulani et
+                            <persName
+                            key="#Placitum/iudicatum #Advocatus_of_other_public_authorities #Monasteries"
+                            ref="#people/1217">Pastor</persName> advocatus ipsius monasterii de
+                        illis rebus et padulibus que esse videtur in fines Solarienses, idest
+                            <placeName ref="#places/1528"
+                            key="#Landed_possessions #Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches"
+                            >Capriana</placeName>, <placeName
+                                key="#Landed_possessions #Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches"
+                            >Pontonaria</placeName>, <placeName
+                                key="#Forests #Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches"
+                            ref="#places/1530">Lupuleto</placeName>, et padules <placeName
+                                key="#Marshes/lagoons/tombolos #Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches"
+                            ref="#places/1531"><geogName
+                                key="#Marshes/lagoons/tombolos #Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches"
+                                ref="#estates/1107">Grumulese</geogName></placeName> et <placeName
+                                    key="#Marshes/lagoons/tombolos #Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches"
+                            ref="#places/1532"><geogName
+                                key="#Marshes/lagoons/tombolos #Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches"
+                                ref="#estates/1108">Decimanise</geogName></placeName> et <placeName
+                                    key="#Marshes/lagoons/tombolos #Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches"
+                            ref="#places/1533"><geogName
+                                key="#Marshes/lagoons/tombolos #Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches"
+                                ref="#estates/1109">Iulianise</geogName></placeName>, ante predictus
+                        Adelardus abbas et misso idem augusti, et pars monasterii super Gisum
+                        episcopum et Marino diacono advocatore ipsius Motinensis et singulis homines
+                        de Solaria per testimonia et per iudicia super eos advicit, et relegebat
+                        quod tertiam portionem de <rs key="#Forests">silva</rs>
+                        <geogName
+                            key="#Forests #Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches"
+                            ref="#estates/1105">Lupuleto</geogName> habere deberent ad parte sancti
+                        Geminiani et silvetella <geogName
+                            key="#Forests #Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches"
+                            ref="#estates/1106">Sancte Marie</geogName> per designatis rebus, nam de
+                        aliis superscriptis rebus et silvis et padulibus, sicut superius legitur,
+                        proprio monasterii Nonantulani esse, et ipsi <rs key="#Witness">testes</rs>
+                        unum ad unum ad sanctas Dei evangelias firmaverunt et de ei testificaverunt
+                        sicut superius legitur. Et erat scriptum et firmatum per manu <persName
+                            key="#Writer #Notary"><name ref="Martinus">Martino</name></persName>
+                        notario et a testibus roboratum et firmatum ab eodem Adelardo abbate et
+                        misso, et erat <date>tempore domni Caroli imperatoris, anni imperii eius
+                            tricesimoseptimo, de mense magio, per indictione quarta</date>. Item
+                        ostensit preceptum domni <persName ref="#people/118"
+                            key="#Imperial/royal_diploma #Emperor/king #Roads #Canals #Rights_of_use_on_woods/pastures/waters #Public_infrastructures"
+                            >Hlodovici</persName> imperatoris qualiter concesserat in suprascripto
+                        monasterio Nonantulano et Petro abbati et suis posteris fluvio Scultenna qui
+                        et Pannarius nuncupatur, ut haberet <rs
+                            key="#Rights_of_use_on_woods/pastures/waters">licenciam deducendi</rs>
+                        ubicumque eis melius visum fuerit, et concesserat eis secundum preceptas et
+                        iudicatum silvas et paludes, <rs key="#Canals">fossa</rs> Lavatura currente,
+                        et ex alia parte fluvio Gena a <rs key="#Roads">strata publica</rs> in
+                        subtus usque Rosalise, et utrasque ripas fluminis sicut <rs
+                            key="#Public_infrastructures">ad publicum pertinet</rs>. Et erat
+                        preceptum ipsum firmatum manu propria idem augusti et a suo anulo sigillati,
+                            <date>dato kalendas iunias, anno imperii eius vigesimo, indiccione
+                            undecima</date>, et scriptum per manum <persName
+                            key="#Writer #Archchancellor"><name ref="Elisachar"
+                            >Elisachar</name></persName>. Deinde ostendit alium iudicatum da tempore
+                        domni <persName key="#Placitum/iudicatum #Emperor/king" ref="#people/110"
+                            >Hluduvici</persName> imperatoris in quo continebatur inter cetera
+                        qualiter <persName key="#Bishops" ref="#people/1220">Ionas</persName>
+                        venerabilis episcopus Eclesie Motinensis et <persName
+                            key="#Advocatus_of_other_public_authorities #Clergy/religious_persons"
+                            ref="#people/1221">Urso</persName>
+                        <rs key="#Clergy/religious_persons">clericus</rs> avocatore ipsius Eclesie
+                        una cum <persName key="#Abbots" ref="#people/1219">Liuttefrid</persName>
+                        abbate venerabilis monasterii Nonantulani et <persName
+                            key="#Advocatus_of_other_public_authorities" ref="#people/1222"
+                            >Paulo</persName> advocato ipsius monasterii in presencia <rs
+                            key="#Judge">iudicis</rs> domni imperatoris in placito in curte
+                            <geogName
+                            key="#Curtes #Fiscal_property #Textual_occurrence #Mention #Function #Residential"
+                            ref="#estates/1101"><placeName
+                                key="#Curtes #Fiscal_property #Textual_occurrence #Mention #Function #Residential"
+                                ref="#places/1502">Saviniano</placeName></geogName>, ubi domnus
+                        Hludovuicus imperator preerat, de illis superscriptis rebus et padulibus et
+                        silvis seo et flumine altercationem inter se habuerunt, et relegebat inibi
+                        omnia sicut superius legitur et quomodo se professi fuerunt Ionas
+                        venerabilis episcopus et Urso clericus avocatore ipsius eclesie ut ipsas
+                        preceptas et iudicatas bona essent et non contradicerent, tunc ipsis iudices
+                        domni imperatoris et auditores , cum taliter audissent, ut certam iusticiam
+                        esse monasterii, iudicaverunt ut iuxta eorum precepta et iudicata pars
+                        monasterii haberent et possiderent a propietatem. Et erat scriptum per manum
+                            <persName key="#Writer #Notary"><name ref="Audebertus"
+                            >Audeperti</name></persName> notarii domni imperatoris et a testibus
+                        roboratum, erat emisso <date>anni imperii domni Hludovuici imperatoris
+                            sexto, mense aprelis per indiccione tercia</date>. Cum ipsas preceptas
+                        et iudicatas relecta fuissent, tunc superscriptus domnus Vuidus illustri
+                        comes interrogavit superscripti iudices de Civitate Nova si ipsas preceptas
+                        et iudicatas bona sunt, aut pars monasterii legibus habere deberent. Qui
+                        dixerunt: “Preceptas et iudicatas istas bona sunt et pars monasterii legibus
+                        habere et possidere debent”. Iterum interrogavit suprascriptus domno Vuido
+                        illustri comes ad omnes suprascriptorum iudices et auditores hominibus
+                        resedentibus acstantibus si istas preceptas et iudicatas sicut superius
+                        legitur bona sunt, aut pars monasterii habere debet. Qui dixerunt omnes vere
+                        quia: “Iudicatas et preceptas bona sunt et pars monasterii habere et
+                        possidere debent.” Et in eo modo finita est causa. Quidem et ego <persName
+                            key="#Writer #Notary #Local_elites"><name ref="Lupus"
+                            >Lupius</name></persName> notarius dativo huius <rs
+                            key="#Plebs #Notary #Local_elites">plebem</rs><orgName key="#Plebs"
+                            ref="#juridical_persons/1103"> sancti Vicencii Saltus [Spani]</orgName>
+                        anc noticia per ammonicionem et ex iussionem domni Vuidoni illustri comitis
+                        et de superscriptis scavinis pro securitate ipsius monasterii scripsi,
+                            <date>anni imperii domni <persName ref="#people/136" key="#Emperor/king"
+                                >Lamberti</persName> Deo propicio septimo, mense iulio, indiccione
+                            prima</date>. Signo manus Vuido illustri comitis, qui interfuit. Signo
+                        manus Aginoni vasso domni imperatoris, qui ibi fuit. S[igno manus Geilo
+                        gastaldio], qui ibi fuit. Signo manus Bertulfi vicecomiti, qui ibi fuit.
+                        Signo manus Oso gastaldio, qui ibi fuit. Signo manus Isoardo castaldio, qui
+                        ibi fuit. Ego Ermenaldo scavinus ibi fui. Ego Martinus scavinus ibi fuit.
+                        Ego Lopicinus scavinus ibi fui. Ego Gregorius scavinus ibi fui. Ego Iohannes
+                        scavinus ibi fui. Ego Apolenaris scavinus ibi fui. Ego Costantino scavimus
+                        ibi fui. Ego Venerio scavimus ibi fui. Ego Iohannes scavinus ibi fuit. Ego
+                        Upaldo scavinus ibi fui. Ego Leo ibi fui. Ego lngo ibi fui. Ego
+                                <persName><name ref="Leo">Leo</name></persName> ibi fui. Ego
+                        Madelaldo ibi fui. Ego <persName key="#Witness #Local_elites #Scabini"><name
+                                ref="Giselbertus">Giseverto</name></persName> scavinus ibi fui. Ego
+                            <persName key="#Witness #Local_elites #Scabini"><name ref="Garimundus"
+                                >Garimundo</name></persName> scavinus ibi fui. Signo manus <persName
+                            key="#Scabini #Witness #Local_elites"><name ref="Stephanus"
+                                >Stephanus</name></persName> scavinus de Solaria, qui ibi fuit. Ego
+                        Vuillibaldo ibi fui. Ego Natale scavinus ibi fui. Ego <persName
+                            key="#Witness #Local_elites"><name ref="Ansualdus"
+                            >Ansaldus</name></persName> ibi fui. Ego Roperto ibi fui. Ego <persName
+                            key="#Witness #Local_elites"><name ref="Gauderigus"
+                            >Gauderigo</name></persName> ibi fui. Ego Teoperto ibi fui. Ego
+                            <persName key="#Witness #Local_elites"><name ref="Florus"
+                            >Fluro</name></persName> ibi fui. Ego Benedicto ibi fui. Ego Ansulfo ibi
+                        fui. Ego <persName key="#Local_elites #Witness"><name ref="Aribertus"
+                                >Ariberto</name></persName> ibi fui. Ego Actio ibi fui. Ego Iohannes
+                        de Sorbaria ibi fui. Ego <persName key="#Witness"><name ref="Rimpaldus"
+                                >Rimpaldo</name></persName> ibi fui. Ego <persName key="#Notary"
+                                ><name ref="Resto">Restano</name></persName> notarius ibi fui. Ego
+                            <persName key="#Witness #Notary"><name ref="Agibrandus"
+                            >Agiprando</name></persName> notarius ibi fui. Ego <persName
+                            key="#Witness #Notary"><name ref="Desiderius"
+                            >Desiderio</name></persName> notarius ibi fui. Signo manus Taxemanno,
+                        qui ibi fuit. Signo manus Aimo, qui ibi fuit. Signo manus <persName
+                            key="#Witness #Local_elites #Alemannus"><name
+                                ref="Liuderadus de Regienesi">Lederado</name> de <placeName
+                                key="#Alemannus #Witness" ref="#places/191"
+                            >Regiensi</placeName></persName> genus <rs key="#Alemannus"
+                            >Alemannorum</rs>, qui ibi fuit . Signo manus Recuino, qui ibi fuit.
+                        Signo manus <persName key="#Witness #Local_elites"><name ref="Garibaldus"
+                                >Vuarimbaldo</name></persName>, qui ibi fuit. Ego <persName
+                            key="#Witness #Local_elites"><name ref="Iohannes"
+                            >Iohannes</name></persName> ibi fuit. Signo manus Iohannes de
+                        Petronilla, qui ibi fuit. Signo manus Lando, qui ibi fuit. Signo manus
+                            <persName key="#Local_elites #Witness"><name ref="Ilderadus de Casale"
+                                >Ilderato</name> de <placeName ref="#places/1529"
+                            >Casale</placeName></persName>, qui ibi fuit. Signo manus Bonifredo de
+                        Linare, qui ibi fuit. Signo manus <persName key="#Witness #Local_elites"
+                                ><name ref="Fulterodus de Verabula">Fulterodo</name> de
+                            Verabula</persName>, qui ibi fuit. Signo manus <persName key="#Witness"
+                                ><name ref="Taitius">Tatio</name></persName> filio <persName><name
+                                ref="Ermefredus">Ermemfredi</name></persName>, qui ibi fuit. Signo
+                        manus Totile, qui ibi fuit. Signo manus <persName key="#Witness"><name
+                                ref="Ildebertus de Pantiano">Ildeverti</name> de
+                        Pantiano</persName>, qui ibi fuit. Signo manus Adroaldo de Sorbaria, qui ibi
+                        fuit. Signo manus <persName key="#Local_elites #Witness"><name
+                                ref="Iohannes/Iohannito">Iohannis qui vocatur
+                            Iohannito</name></persName>, qui ibi fuit. Signo manus <persName
+                            key="#Local_elites #Witness"><name ref="Arimundus de Solaria"
+                                >Arimodo</name></persName> et <persName key="#Witness #Local_elites"
+                                ><name ref="Nobilis de Solaria">Nobilis</name> de
+                        Solaria</persName>, qui ibi fuerunt. Signo manus <persName
+                            key="#Local_elites #Witness"><name ref="Heila de Solaria"
+                            >Heila</name></persName> et <persName key="#Witness #Local_elites"><name
+                                ref="Lupus de Solaria">Lupo</name></persName> et <persName
+                            key="#Local_elites #Witness"><name ref="Martinus de Solaria"
+                                >Martino</name></persName>, toti de Solaria, qui ibi fuerunt. Signo
+                        manus Iohannis Mauri de Solaria, qui ibi fuit. Signo manus Iohannis
+                        Fileradi, qui ibi fuit. Ego Lupus notarius dativo ibi fui et hanc notitiam
+                        scripsi. </ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>Manaresi, n. 106.</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p>Lazzari 2006; Manarini 2017.</p>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>Da inserire il tag 'dictator' una volta approvato nel thesaurus.
+                    Le località <foreign>Mesturiano</foreign> e <foreign>Pontonaria</foreign> non sono state
+                    identificate. Si è scelto di non attribuire al toponimo
+                        <foreign>Rosalese</foreign> alcuna coordinata geografica, data la complessa
+                    morfologia dell'area di pianura in questione. Non è chiaro, inoltre, se al corso
+                    d'acqua detto <foreign>flumen Rosalese</foreign>, collegato al corso dello Gena
+                    e confinante con Palata Pepoli e Casumaro, sia riferibile anche un toponimo con
+                    il medesimo nome. Il toponimo <foreign>Casale</foreign> è stato identificato con
+                    l'odierno San Pietro in Casale in provincia di Bologna in virtù della contiguità
+                    territoriale con il resto degli intervenuti.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

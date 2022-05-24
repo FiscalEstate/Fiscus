@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Archivio di Stato di Firenze, Diplomatico, Riformagioni. Atti Pubblici, 1029
+                    gennaio 3, n. 23 (Giorgetti, n. 49)</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus
+                        Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc1423</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Transactional breve</rs>
+                            <rs type="record_source" ref="#">Original document</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property">Uncertain</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate notAfter="1131-03-23" notBefore="1130-03-24">
+                                <note type="displayed_date">[1130 March 24-1131 March 23]</note>
+                                <note type="dating_elements">Datato solo secondo l'anno
+                                    dell'incarnazione (1131). Si può supporre che l'abate di
+                                    Montecristo, che stende il breve, impiegasse lo stile
+                                    pisano.</note>
+                                <note type="topical_date">S. Quirico di Populonia</note>
+                                <note type="redaction_date"/>
+                             </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-03-18" who="scollavini">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>Breve de Livellaria. In Christi nomine, amen. Breve recordationis facimus
+                        qualiter <rs key="#Count">comes</rs>
+                        <persName><name ref="Gotefredus">Gottifredus</name></persName>, filius
+                                <persName><name ref="Hugo">Ugonis</name></persName> quondam
+                                <persName><name ref="Teudicius">Teudici</name></persName>, veniens
+                        in claustrum Sancti Quirici, <rs key="#Monasteries">monasterium</rs>
+                        <placeName ref="#places/86" key="#Monasteries">Populoniensis</placeName>,
+                        cum <persName><name ref="Hugo">Ugone</name></persName> cognato suo et <rs
+                            key="#Transactional_breve">petivit</rs> ab eo medietatem [de] una <rs
+                            key="#Petiae">petia</rs> de terra, quae est posita in loco ubi dicitur
+                            <placeName
+                            key="#Petiae #Fiscal_property #Object #Redistributive #Iure_proprietatis/pleno_iure #Count"
+                            ref="#places/134">Livellaria</placeName>, prope <rs key="#Churches"
+                            >ecclesia</rs>
+                        <orgName key="#Churches" ref="#juridical_persons/145">Sancti
+                            Christofori</orgName>, et illa petia predicta de terra obvenerat illi
+                            <rs key="#Landed_possessions #Consortes/shared_possessions">ex parte
+                            Uselminga</rs>, ut sibi eam daret proprietario iure quod et fecit.
+                        Postmodum [predictus] comes Gotifredus, una cum iam dicto Ugone, veniens
+                        ante <rs key="#Altars">altare</rs>
+                        <orgName ref="#juridical_persons/78" key="#Monasteries #Altars">sancti
+                            Salvatoris et sancti Quirici</orgName>, in presentia domni <persName
+                            key="#Abbots" ref="#people/103">Mauri</persName>
+                        <rs key="#Abbots">abbatis</rs> et suorum fratrum, posuit investitionem super
+                        predictum altare, causa donationis, tali ordine, ut predictum monasterium ab
+                        eo die in antea haberet et possideret, absque ulla molestia, pro anima
+                                <persName><name ref="Robertus">Roberti</name></persName> fratri sui,
+                        perpetuo iure. Si quis autem prefatam <rs
+                            key="#Petiae #Fiscal_property #Object #Redistributive #Allocation_to_churches #Count"
+                            >terram</rs> predicto monasterio aliquando tempore eam molestare aut
+                        inquietare voluerit, promisit se predictus Gottifredus ea[m] ab omnibus
+                        hominibus esse defensaturum, iuxta suum posse. Quod si non fecerit,
+                        spopondit se esse compositurum libras X. Sicque rogavit <persName
+                            key="#Writer #Abbots" ref="#people/257">Henrigum</persName>
+                        <rs key="#Abbots">abbatem</rs>
+                        <placeName ref="#places/144" key="#Monasteries"><orgName
+                                ref="#juridical_persons/91">Montis Christi</orgName></placeName>,
+                        qui ibi intererat, ut hec ita describeret ad memoriam posterorum, quod et
+                        fecit. Hoc autem factum est anno millesimo C XXXI ab incarnatione domini
+                        nostri Iesu Christi. </ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>Giorgetti, n. 49</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
