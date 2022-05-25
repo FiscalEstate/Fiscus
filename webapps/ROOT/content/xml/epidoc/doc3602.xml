@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Archivio Abbaziale di Nonantola, Pergamene, XXIX.21</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2022">2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DiSCi UniBo</publisher>
+                <idno type="filename">doc3602</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+                </availability>
+                <date when="2022"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Judicial breve</rs>
+                            <rs type="record_source" ref="#">Original document</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property">No</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate notAfter="1201-06-20">
+                                <note type="displayed_date">1200 circa</note>
+                                <note type="dating_elements">Rossella Rinaldi data il documento
+                                    intorno al 1200 (R. Rinaldi, Considerazioni sulle istituzioni
+                                    ecclesiastiche nelle campagne emiliane fra i secoli VIII-XII, in
+                                    “ La bassa modenese. Storia, tradizione, ambiente”, quaderno n.
+                                    6, San Felice sul Panaro (Modena), 1984, p. 30). Sicuramente la
+                                    carta è precedente alla rimozione dell'abate Bonifacio, avvenuta
+                                    il 20 giugno 1201. </note>
+                                <note type="topical_date"/>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace></origPlace>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-05-24" who="ncerretani">creation of record</change>
+                <change/>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>Postquam domnus <persName key="#Abbots">Bonifacius</persName> fuit <rs
+                            key="#Abbots">abbas</rs> de <rs key="#Monasteries">monasterio</rs>
+                        <orgName key="#Monasteries" ref="#juridical_persons/47">Sancti
+                            Silvestri</orgName> […] civitate de possessionibus ecclesie <orgName
+                            key="#Monasteries" ref="#juridical_persons/47">Sancti
+                            Silvestri</orgName> pro negotiis abbatis de <rs key="#Mansi">mansis</rs>
+                        et <rs key="#Production_units">casamentis</rs>
+                        <rs key="#Churches">ecclesie</rs>
+                        <orgName key="#Churches">Sancte Fusce</orgName> que ecclesia erat ditissima
+                        […] <placeName key="#Cities" ref="#places/59">veronensium</placeName> et
+                        camera horum venditionum nullo modo scivimus. Quando abbas <persName
+                            key="#Abbots">Bonifatius</persName> ivit ultra mare promisit fratribus
+                        monasterii […] ecclesiam et fracta promissione cum fuit <placeName
+                            key="#Geographic_regions">Venetiis</placeName> accepit a supradicta
+                        ecclesia <orgName key="#Monasteries">Sancte Fusce</orgName> in <placeName
+                            key="#Cities" ref="#places/13">Trivisiensi</placeName>
+                        <rs key="#Cities">civitate</rs> sita […] de ultramarinis partibus accepit de
+                        eadem ecclesia pro suo debito inter denarios et alias res <rs key="#Value"
+                            >triginta libras veronensium</rs>. Post […] Quicum in tempore
+                        paupertatem et illius ecclesie et non modicum eius gravamus respo […] pose
+                        dare sine magno […] cum autem abbas hoc renueret surrexit quidam alius
+                        monacus et […] honesto et temperato monaco qui optime servabat ecclesiam et
+                        dedit […] aliis ad destructione supradicta ecclesia contra voluntatem
+                        capituli […]. Item […] in civitate <placeName key="#Cities" ref="#places/69"
+                            >Vincentiae</placeName> […] ad servitium Dei IIIIor monaci cum <rs
+                            key="#Clergy/religious_persons">capellano</rs> et servitoribus et
+                        equitaturis eius factus fuit abbas. Modo ita ad nichilum redacta est quod
+                        omnes possessiones suas et possessiones <rs key="#Clergy/religious_persons"
+                            >capellarum</rs> eiusdem ecclesie sub pignore et usuris tenentur […]
+                        unus monacus vel etiam capellanus potest ibi vivere. Item ecclesia nostra
+                        sita in <orgName key="#Churches"><placeName key="#Churches"
+                                ref="#places/145"><geogName key="#Mansi #Churches/religious_bodies"
+                                    ref="#estates/116">Nogaria</geogName></placeName></orgName>
+                        quando factus est abbas stabant ibi honorifice IIIIor monachi cum capellano
+                        et equitaturis et servitoribus; nunc autem ita destructa est quod IIIIor <rs
+                            key="#Mansi">mansos</rs> eiusdem ecclesie in perpetuo vendidit et XII
+                            <rs key="#Mansi">mansos</rs> alios eiusdem ecclesie usque ad XX annos
+                        pignori obligavit et camera qua nunc facta sint nescimus. Item ecclesia
+                        monasterii noviter in <orgName key="#Monasteries"><placeName
+                                key="#Cities #Monasteries" ref="#places/59"
+                            >Veronensi</placeName></orgName> civitate facta de possessionibus suis
+                        venditum est quantitatem eius nescimus et insuper <rs key="#Value">LXXX
+                            libras veronensium</rs> vigilatur super omnes possessiones ipsius
+                        ecclesie. Postquam domnus <persName key="#Abbots">Bonifacius</persName> fuit
+                        factus abbas monasterii <orgName key="#Monasteries"
+                            ref="#juridical_persons/47">Sancti Silvestri</orgName> de <placeName
+                            key="#Monasteries" ref="#places/15">Nonantula</placeName> vendidit de
+                        possessionibus seu de<rs key="#Mansi"> mansis</rs> et <rs
+                            key="#Production_units">casamentis</rs> ecclesie <placeName
+                            key="#Cities #Churches" ref="#places/13"><orgName key="#Churches"
+                                    ><geogName key="#Production_units #Mansi"
+                                >trivisine</geogName></orgName></placeName> tantum unde accepit <rs
+                            key="#Value">mille quingentas libras veronensium</rs>, quos denarios
+                        dedit per dotem cuidam domine <persName key="#Bonds"><name ref="Palmere"
+                                >Palmere</name></persName>. Item quando domnus abbas ivit ultra mare
+                        accepit licentiam a fratribus et promisit se non amplius exigere nec
+                        accipere aliquid ab aliqua <rs key="#Churches">ecclesia</rs>
+                        <orgName key="#Monasteries" ref="#juridical_persons/47"><placeName
+                                key="#Monasteries" ref="#places/15">Sancti
+                            Silvestri</placeName></orgName>. Ivit ad predictam ecclesiam<placeName
+                            key="#Cities #Churches" ref="#places/13"><orgName key="#Churches">
+                                trivisinam</orgName></placeName> et suis suasionibus dedit illi
+                        prior <persName key="#Priors"><name ref="Nicolaus"
+                            >Nicolaus</name></persName>
+                        <rs key="#Value">libras veronensium L</rs> inter denarios et alias res de
+                        eadem ecclesia. Item pro debito suo quod fecerat ultra mare quando venit
+                        dedit idem <persName key="#Priors">Nicolaus</persName>
+                        <rs key="#Value">XXX libras in dcnariis et aliis rebus</rs>. Post parvum
+                        tempus, venientibus fratribus iussione ipsius abbatis ad monasterium, petit
+                        auxilium ab eodem priore et interrogavit ab eo quantum posset dare; et ille
+                        respondit se posse dare sine magno gravamine ex sue domus <rs key="#Value"
+                            >XX libras</rs>. Abbas vero cum instaret, quod plus vellet, et ille
+                        negaret se non plus posse dare sine destructione ecclesie, surrexit quidam
+                        monachus et promisit quod daret <rs key="#Value">ducentas Iibras
+                            veronensium</rs>, si daret sibi ecclesiam <orgName key="#Churches"
+                                ><placeName key="#Cities #Churches" ref="#places/13"
+                                >trivisinam</placeName></orgName>; qui gavisus de promissione
+                        abstulit ecclesiam priori <persName key="#Priors">Nicolao</persName> et
+                        dedit alii qui solvit abbati <rs key="#Value">C viginti octo libras
+                            veronensium</rs>. ltem in ecclesia nostra de <orgName key="#Churches"
+                                ><placeName key="#Cities #Churches" ref="#places/69"
+                                >Vicentina</placeName></orgName> civitate stabant ho[…] quattuor
+                        monachi et quinque, sex cum <rs key="#Clergy/religious_persons"
+                            >capellano</rs> et servientibus et equitaturis, cum factus fuit abbas;
+                        nunc vero ad nihilum ita redacta est, quod unus monachus vel clericus in ea
+                        potest vivere, quod omnes possessiones illius ecclesie et possessiones
+                        capellanorum eiusdem ecclesie fuerunt pignori obligate. Item monasterium
+                        nostrum de <placeName
+                            key="#Village/castle_territory #Churches/religious_bodies"
+                            ref="#places/145"><orgName key="#Churches/religious_bodies"
+                                >Nogaria</orgName></placeName>, quod est situm in episcopatu
+                            <orgName key="#Dioecesis"><placeName key="#Cities #Dioecesis"
+                                ref="#places/59">Verone</placeName></orgName>, et quatuor monachi
+                        cum capellano et servientibus et equitaturis honorifice stabant ibi, cum
+                        factus fuit abbas; nunc vero ad nihilum redactum est, quia quatuor <rs
+                            key="#Mansi">mansos</rs> istius monasterii in perpetuum alienavit et XII
+                        mansos alios eiusdem monasterii sub pignore usque ad viginti annos tradidit.
+                        Item ecclesia nostra noviter facta in civitate <placeName key="#Cities"
+                            ref="#places/59">Veronensi</placeName> possessiones quasdam vendidit et
+                        insuper <rs key="#Value">LXXX libras veronensium</rs> super possessionibus
+                        eiusdem ecclesie sub […] accepit. Item in ecclesia nostra de <orgName
+                            key="#Churches/religious_bodies"><placeName key="#Cities #Churches"
+                                ref="#places/275">Mantua</placeName></orgName>, in qua stabant duo
+                        monachi cum factus fuit abbas, vendidit tantum de possessionibus eiusdem
+                        ecclesie, unde accepit <rs key="#Value">octoaginta libras veronensium</rs>
+                        et modo in ea nullus potest stare. Item in comitatu <orgName
+                            key="#Comitatus"><placeName key="#Comitatus" ref="#places/9"
+                                >Brisiensi</placeName></orgName> erant possessiones et istas dedit
+                        pro <rs key="#Value">viginti quinque libris imperialium</rs>, que valebant
+                        et valent hodie <rs key="#Value">ducentas libras imperialium</rs>. Item
+                        ecclesia nostra <placeName key="#Cities #Churches" ref="#places/80"><orgName
+                                key="#Churches">Ferrariensis</orgName></placeName> habebat
+                        possessiones que extendebantur per tria miliaria continue et plus, et ea
+                        dedit. Item ecclesia nostra in <placeName key="#Cities #Churches"
+                            ref="#places/191"><orgName key="#Churches">Regina</orgName></placeName>
+                        civitate habebat <rs key="#Curtes">curtem</rs>, que dicebatur <placeName
+                            key="#Curtes"><geogName key="#Curtes">Cella</geogName></placeName>, quam
+                        vendidit cum ecclesia in ea manente <placeName key="#Cities"
+                            ref="#places/191">regino</placeName>
+                        <rs key="#Bishops">episcopo</rs> et <rs key="#Value">quatuor viginti libras
+                            imperialium</rs> de ea accepit. Item ecclesia nostra in civitate
+                            <orgName key="#Cities #Churches"><placeName key="#Cities #Churches"
+                                ref="#places/38">Mutina</placeName></orgName>, que, cum abbas factus
+                        est, pauper erat, et de voluntate sua et omnium fratrum ditata est in
+                        possessionibus, ita quod quattuor fratres, quando tres manebant; post parum
+                        temporis, venditis omnibus possessionibus quas eidem ecclesie contulerat,
+                        expoliavit et in […] quas habebat illa ecclesia antequam esset abbas
+                        vendidit. Item quidam frater noster <persName key="#Monks"
+                            >Martinus</persName> nomine emit ab ipso abbate possessione nomine
+                        ecclesie <orgName key="#Churches">Sancti</orgName> […] de <placeName
+                            key="#Curtes" ref="#places/1504">Solaria</placeName>, quas ipse abbas
+                        post parum temporis abstulit et cuidam servo <persName key="#link">Iohannis
+                            de Canaceto</persName> dedit. Item de possessionibus nostre ecclesie
+                        positis in loco qui dicitur <orgName key="#Churches"><placeName
+                                key="#Churches">Folio</placeName></orgName> vendidit predictus abbas
+                        cuidam civi <placeName key="#Cities" ref="#places/38">Mutine</placeName> duo
+                        iugera seu quantum octo paria <rs key="#Cows">boum</rs> possunt in una die
+                        arare. Item <rs key="#Hospitals">hospitali</rs> nostro de <placeName
+                            key="#Hospitals"><orgName key="#Hospitals"
+                            >Spinalamberto</orgName></placeName> consueverant ibi manere duo fratres
+                        cum clericis et servientibus et equo et duobus paribus boum et armentis <rs
+                            key="#Animals">bestiarum</rs> et conversis; quedam pars possessionum
+                        eiusdem hospitalis vendita est, quedam pignori obligata tenetur, et ita ad
+                        nihilum redactum est, quod nec unus clericus inibi potest vivere. Item in
+                            <placeName key="#Cities #Churches" ref="#places/7"
+                            >Bononiensi</placeName> civitate habebamus quamdam ecclesiam que
+                        vocabatur <orgName key="#Churches">Sanctus Georgius</orgName>, cui eidem
+                        ecclesie abbas cum consilio fratrum dederat possessiones cuiusdam militis
+                        que remanserat ecclesie Sancti Silvestri, et eam his possessionibus dotavit
+                        et duos monachos cum capellano ibi instituit; post parum verum temporis,
+                        calva occasione inventa, monachos inde abstulit et omnes possessiones sibi
+                        donatas vendidit et sic eam exspoliavit. Item monasterium nostrum honorabile
+                            <orgName key="#Monasteries"><placeName key="#Monasteries">Vallis
+                                Fabrice</placeName></orgName>, quando factus fuit abbas, ditissimum
+                        invenit, quia quando <placeName key="#Cities" ref="#places/52"
+                            >Roma</placeName> venit causa sue consecrationis fere per mensem cum
+                        triginta equitaturis ibi stetit in pane et vino et anona et in omnibus
+                        expensis ad plenum satisfecit; cum autem inde recederet destrarios sub
+                        pignore possessionum illius ecclesie accepit et plures vices tum in
+                        destrariis, tum in palafredis, tum in aliis expensis acceptis, tum quia
+                        priores ab eo constitutos mala diversa ibi facientes nullo modo emendavit,
+                        nec correxit, possessiones eiusdem monasterii istis de causis in pignore
+                        tenentur et magna pars possessionum eiusdem ecclesie est alienata; et sic
+                        ecclesia predicta in discordia personarum quasi sine rectore et emendatore,
+                        manens propter venditiones et donationes et alienationes predictarum
+                        possessionum, ad destructionem fere pervenit, et que ecclesia in omnibus Deo
+                        et hominibus abundabat, nunc in paupertate fere omnibus amissis iacet
+                        prostrata. Item <placeName key="#Churches/religious_bodies"><orgName
+                                key="#Churches/religious_bodies">Sancta Maria in
+                            Gotuli</orgName></placeName>, capella monasterii Vallis Fabrice, habebat
+                        olim quamdam curiam, que dicitur <placeName key="#Administrative_units"
+                                ><orgName key="#Administrative_units">Fermule</orgName></placeName>,
+                        et illam curiam quibusdam hominibus in precariam concesserat; sed illis
+                        mortuis Deo disponente ad ecclesiam erat reversa ex qua cum crederetur
+                        vivere et Deo servire et ipsam semper tenere, superveniens abbas rogatu
+                        quorumdam nobilium ecclesie predicte abstulit et eam pro favore hominum, que
+                            <rs key="#Value">ducentas libras lucensium</rs> valebat, statim eis
+                        investivit et instrumentum fecit. Item monasterium de <placeName
+                            key="#Monasteries" ref="#places/2"><orgName key="#Monasteries">Sancte
+                                Marie in Mamme</orgName></placeName> honorabile fuit, ad quod cum
+                        domnus abbas <persName key="#Abbots">Bonifacius</persName> sepe iret et
+                        collectas a monasterio et hominibus eiusdem monasterii sepe acciperet; et
+                        cum prior eiusdem monasterii timeret ne a predicto monasterio abbas
+                        removeret, dedit abbati <rs key="#Value">C libras lucensium</rs>, ne abbas
+                        inde eum removeret, et sibi fecit inde instrumentum, pro quibus denariis
+                        solvendis fecit magnam collectam ab hominibus eiusdem monasterii, et etiam
+                        donicatum <orgName key="#Administrative_units">Sancti Benedicti</orgName>
+                        vendidit. Item ecclesia <orgName key="#Churches">Sancti Felicis in
+                            Plazza</orgName> in civitate <placeName key="#Cities" ref="#places/2"
+                            >Florentina</placeName> quedam pauper ecclesia erat, in qua stabant
+                        nostri fratres; sed cum abbas vellet vendere quamdam curiam illius ecclesie,
+                            <rs key="#Consules">consules</rs> civitatis vendicionem prohibuerunt;
+                        tandem abbas sub pignore bonorum illius ecclesie <rs key="#Value">LXX libras
+                            lucensium</rs> accepit, unde possessiones illius ecclesie pro ea sunt
+                        vendite et alienate. Et quoniam mala monasterii non sunt pretermittenda,
+                        habet monasterium Nonantulanum infra se obedientias suas seu sacrestiam,
+                        firmariam, camera fratrum et hospitale iuxta se: de omnibus est dicendum,
+                        sed primum de sacrestia. Sacrestia habebat mansum unum in curte castri
+                            <orgName key="#Village/castle_territory"><placeName
+                                key="#Village/castle_territory">Rastellini</placeName></orgName> in
+                        quo stabant due familie servientes secretario, quem abstulit et dedit
+                        fratribus suis carnalibus, unde ipse secretarius habebat reditum <rs
+                            key="#Cereals">grani</rs> et <rs key="#Wine">vini</rs> et nummorum et
+                        aliarum condictionum. Item quidam abbas predecessor istius pro remedio anime
+                        sue dedit cum consilio suorum fratrum sive monachorum unum mansum terre
+                        eisdem monacis, cuius medietatem dedit camere pro <rs key="#Clothings"
+                            >indumentis</rs> fratrum, aliam medietatem dedit inter firmariam et
+                        hospitale, unde annuatim fratres de conventu communiter vigiliam faciebant
+                        et refectionem ab obediencialibus predictis habebant. Abbas autem ne unus
+                        invideret alteri ab omnibus obedientiis, seu sacrestia, camera, firmaria et
+                        hospitali equaliter abstulit, quasi aliquid execrabile et aliis vendidit.
+                        Item vendidit abbas in nomine <persName>Andrea Dominico Cesarolo</persName>
+                        terra monasterii que erat manentia tria iugera terre et sexstarios sex. Item
+                        vendidit <persName key="#childOf">Bertholoto</persName> filio <persName
+                            key="#parentOf">Gerardi da <placeName key="#parentOf" ref="#places/445"
+                                >Ganaceto</placeName></persName> manentia in <placeName>Geminiani de
+                            Formicine</placeName> VII pecias terre. Item vendidit
+                            <persName>Malagamba da Gazo</persName> XXIIII iugera manentie. Item
+                        vendidit <persName>Gato da Gazo</persName> XVI iugera manentie. Item
+                        vendidit <persName>Alberto de Petro de Costantino de Senita</persName> II
+                        iugera manentie. Item vendidit <persName key="#familyOf">Richilde</persName>
+                        sorori <persName key="#familyOf">Magalo</persName> […] de Nonantula I iuger
+                        et medietatem alterius de manentia. Item vendidit <persName>Guigolo de
+                            Ronco</persName> et <persName>Bonutisigna</persName> filie <persName
+                            key="#parentOf">Martine Aldegerii</persName> de manentiam quam habebant
+                        a monasterio. Item vendidit <persName key="#Work_and_workers">Petro
+                            Bono</persName> ferario de Nonantula et <persName>Amardino</persName> et
+                            <persName>Sigego</persName> filiis <persName key="#parentOf"
+                            >Alberti</persName> ferariii iuger et mediatatem alterius de manentia.
+                        Item vendidit <persName>Alberto</persName> et <persName>Marsilio</persName>
+                        filiis <persName key="#parentOf">Petri Durige</persName> VI iugera manentie.
+                        Item vendidit <persName>Cosso de
+                            <placeName>Roncolamberto</placeName></persName> X sexstarios manentie.
+                        Item vendidit <persName>Splacio</persName> et <persName>Gibertino
+                            Siginulfi</persName> de Nonantula XV iugera de manentie. Item vendidit
+                            <persName key="#Priests">Alberto</persName> presbitero et fratri suo
+                            <persName key="#familyOf">Iohanni</persName> filiis
+                            <persName>Maltraversi de Gazo</persName> VII iugera et media de
+                        manentie. Item vendidit <persName>Iugulino</persName> filio <persName
+                            key="#parentOf">Ramponi</persName> et <persName>G</persName>[…] et filie
+                        eius <persName key="#childOf">Enchilde</persName> et <persName
+                            key="#childOf">Beldie</persName> VI iugera manentie. Item vendidit
+                            <persName>Alberto</persName> et <persName>Petro</persName> fiIiis
+                            <persName key="#parentOf">Martini Aldini da Gavile</persName> et
+                                <persName><name ref="Nigro">Nigro</name></persName> I iuger et media
+                        de manentia. Item vendidit <persName>Pultronario</persName> XX iugera terre
+                        in sparato que erat donicata monasterii. Item vendidit
+                            <persName>F</persName>[…] <persName>Tramaci</persName> et
+                            <persName>Liute</persName> et fratri eius <persName key="#familyOf"
+                            >Currigato</persName> et uxori eius <persName key="#marriage"
+                            >Gualdrade</persName> XVIIII pecias terre de manentie que iacebat in
+                        Ronco. Item vendidit <persName>Andree</persName> et
+                            <persName>Girardo</persName> et <persName><name ref="Pietro Bono">Petro
+                                Bono</name></persName> et <persName>Albertino Pelagallo</persName>
+                        de Nonantula XVII iugera manentie. Item vendidit <persName>Benage</persName>
+                        et <persName>Alte</persName> […] Nonantula filiis <persName key="#parentOf"
+                            >Guillimoti</persName> III iugera manentie. Item vendidit <persName
+                            key="#familyOf">Stefano Catali de Orto Veclo</persName> et <persName
+                            key="#familyOf">Alberto Catali</persName> et fratribus filiis <persName
+                            key="#familyOf">Viviano</persName> XII iugera manentie. Item vendidit
+                            <persName key="#familyOf">Girardo</persName> et fratri eius <persName
+                            key="#familyOf">Bono Martino</persName> quondam
+                            <persName>Burgisse</persName> filiis <persName>Obantutura</persName>
+                        XXIII iugera in curia Nonantule set Sparato que erat donicata monasterii.
+                        Item vendidit <persName>Seraphinello de Ubaldo de la Maga</persName> de
+                        Nonatula XI iugera […]. Item vendidit <persName key="#familyOf"
+                            >Dominico</persName> et fratri eius <persName key="#familyOf"
+                            >Martino</persName> filiis <persName key="#parentOf">Gandulfi</persName>
+                        dedit <persName key="#familyOf">Dominico</persName> et fratri eius <persName
+                            key="#familyOf">Martino</persName> filiis <persName key="#parentOf"
+                            >Gandulfi de la Fosa da Mangolino</persName> I iuger et media manentie.
+                        Item vendidit<persName key="#familyOf"> B</persName>[…] de Nonantula et
+                            <persName key="#familyOf">Nigro</persName> fratre eius III iugera
+                        manentie. Item vendidit <persName>Albrico de Iohanne de Cano</persName> de
+                        Nonantula III iugera manentie. Item vendidit <persName>Donato de
+                            Nonantula</persName> V iugera et II sexstarios manentie. Item vendidit
+                            <persName>Petro</persName> filio <persName key="#familyOf"
+                            >Aldemanni</persName> de <placeName>Sancta Iustina</placeName> I iuger
+                        et media manentie. Item vendidit <persName key="#childOf"
+                            >Filicherio</persName> filio <persName key="#parentOf">Lusci de
+                            Ermega</persName> et <rs key="#nephew/nieceOf">nepoti</rs> suo XII
+                        iugera manentie. Item vendidit <persName>Pegoloto</persName> filio
+                            […]<persName>liani</persName> V iugera manentie. Item vendidit
+                            <persName>Benedicto de Blasio de Gago</persName> et
+                            <persName>Engilino</persName> VIIII iugera manentie. Item vendidit
+                            <persName>Gratiano de Iohanne de Malaflama de Sancta Iustina</persName>
+                        […] iugera manentie. Item vendidit <persName>Dominico de Ronco</persName> et
+                            <rs key="#Bonds">sociis</rs> suam manentiam. Item vendidit
+                            <persName>Bernardino</persName> de […]nta de Mutina IIII iugera. Item
+                        vendidit <persName key="#familyOf">Bogulino</persName> et fratri
+                            eius<persName key="#familyOf"> Lilio</persName> et <persName>Stefano de
+                            Borungo</persName> IIII iugera manentie. Item vendidit
+                            <persName>Petro</persName> […]<persName>gulfardo </persName>de Nonantula
+                        VI iugera manentie. Item vendidit <persName key="#childOf"
+                            >Udrigitto</persName> filio <persName key="#parentOf">Fridolphini de
+                            Bodrongo</persName> IIII iugera manentie. Item vendidit <persName
+                            key="#childOf">A[…]ino</persName> filio <persName key="#parentOf"
+                            >Iohannis Boni</persName> […] IIII iugera manentie. Item vendidit
+                            <persName>Enriceto Iohannis Pelati de Mangolino</persName> et
+                            <persName>Guidocto</persName> et <persName>Funcius Iohanni filiis
+                            Be</persName>[…]. </ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>Tiraboschi 1785, n. 394.</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p>Tiraboschi 1785</p>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
