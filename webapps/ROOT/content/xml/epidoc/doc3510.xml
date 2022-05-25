@@ -35,7 +35,7 @@
                             <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Copy</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">No</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -83,58 +83,69 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>Cum coniunximus nos vir gloriosissimus domnus <persName ref="#people/1918"
-                            >Godescalc</persName> summus dux gentis Langubardorum in waldo Noceto,
-                        locus qui nominatur Valneo, tunc venerunt <name ref="Ringo">Ringo</name> cum
-                        partionariis suis et <name ref="Reparatus">Reparatus</name> cum germanos
-                        suos nec non <name ref="Leo">Leo</name> cum germanos suos, qui fuerunt de
-                        quoddam <name ref="Wadulfus">Wadulfi</name>, et <name ref="Rodo">Rodo</name>
-                        cum fratres suos, qui fuerunt de quoddam <name ref="Rodecausus"
-                            >Rodecausi</name>, intentionandum adversus <name ref="Deusdedit"
-                            >Deosdedit</name> venerabile abbatem monasterii Sancti Iohanni.
+                    <ab>Cum coniunximus nos <rs key="#Vir_gloriosus/vir_sublimis">vir
+                            gloriosissimus</rs> domnus <persName key="#Marquis/duke"
+                            ref="#people/1918">Godescalc</persName> summus <rs key="#Marquis/duke"
+                            >dux</rs> gentis Langubardorum in <geogName ref="#estates/3401"
+                            key="#Gai"><rs key="#Gualdi">waldo</rs>
+                            <placeName ref="#places/3401" key="#Gualdi">Noceto</placeName>
+                        </geogName>, locus qui nominatur Valneo, tunc venerunt <name ref="Ringo"
+                            >Ringo</name> cum partionariis suis et <name ref="Reparatus"
+                            >Reparatus</name> cum germanos suos nec non <name ref="Leo">Leo</name>
+                        cum germanos suos, qui fuerunt de quoddam <name ref="Wadulfus"
+                            >Wadulfi</name>, et <name ref="Rodo">Rodo</name> cum fratres suos, qui
+                        fuerunt de quoddam <name ref="Rodecausus">Rodecausi</name>, intentionandum
+                        adversus <name ref="Deusdedit">Deosdedit</name>
+                        <rs key="#Personal_rank">venerabile</rs>
+                        <rs key="#Abbots">abbatem</rs>
+                        <orgName key="#Monasteries" ref="#juridical_persons/3407"><rs
+                                key="#Monasteries">monasterii</rs> Sancti Iohanni</orgName>.
                         Asserebat pars nominatorum Rincuni, Reparati, Leuni et Roduni dicentes eo
-                        quod: «casales ubi resedere videmur, id est in Sapione, locum qui nominatur
-                        Monumentum seu et Perno, nobis a nominato Wadulfo domino nostro et a domno
-                            <name ref="Romualdus">Romuwald</name> dati sunt, et cum ipso casales
-                        liberi demissi sumus tam in Foro Novo et inordinata cum superius nominates
-                        casales, et firmatas habemus exinde precepturas tam nostre libertatis vel
-                        eorum concessionis et per legem securi possidere debemus tam libertatem
-                        domni Romvvald quam et concessionis». Ad hęc respondebat pars Deodedi abbas
-                        dicens: «Non est ita quod vobis Wadulfus superius dictus casale in Sapione,
-                        id est Monumentum et Perenum dedisset, sed ante quam nominatus Wadulfus ad
-                        manum potestatis ipsa substantia sua tingasset, semper greges suas in
-                        integrum cum pastores de omni peculia in ipsa loca pascuum abere visi
-                        fuerunt, tam ipse quam etiam et <name ref="Tindo">Tindo</name> germanus
-                        eius, et dum advenisset ad manum nominate potestatis, domnus bone memorie
-                        Romvvald sic mihi exinde firmavit suum preceptum de integra portione
-                        nominati Wadulfi in predictus casales, sed tantummodo exinde reservavit ad
-                        suam potestatem clausuria qui facta est, nam reliqua omnia nobis concessit,
-                        unde et eius tempore talem illicitam altercationem mecum habuistes, sed dum
-                        ad eius aures advenisset, tunc ipsius potestas direxit in iam phatos casales
-                            <name ref="Rodiperto">Rodperto</name> filio <name ref="Radulfus"
-                            >Radulfi</name>, qui vos exinde foras minavit; vos quidem venistes cum
-                        preceptura vestra et mecum iudicium habuistes; tunc ille cognoscente per
-                        testimonium, iterum michi exinde suum firmavit iudicatum, quem et pręsens
-                        ostendo, et legibus possidere debeo secundum eius preceptum et iudicatum iam
-                        phata territoria». Ideo nostra qui super gloriosa potestas, dum hec talis
-                        intentio ante nostris piis vistigiis examinata fuisset, tunc fecimus
-                        relegere preceptum et iudicatum domni Romvvald quem Deusdedi firmatum
-                        habebat, similiter et preceptura et cartule libertatis de nominatas causa
-                        dictores vel de territuria, iuste previdemus inter eos decernere ut
+                        quod: «<rs key="#Casalia">casales</rs> ubi resedere videmur, id est in
+                            <placeName ref="#places/3470" key="#Rivers">Sapione</placeName>, locum
+                        qui nominatur Monumentum seu et Perno, nobis a nominato Wadulfo domino
+                        nostro et a domno <name ref="Romualdus">Romuwald</name> dati sunt, et cum
+                        ipso casales liberi demissi sumus tam in Foro Novo et inordinata cum
+                        superius nominates casales, et firmatas habemus exinde precepturas tam
+                        nostre libertatis vel eorum concessionis et per legem securi possidere
+                        debemus tam libertatem domni Romvvald quam et concessionis». Ad hęc
+                        respondebat pars Deodedi abbas dicens: «Non est ita quod vobis Wadulfus
+                        superius dictus casale in Sapione, id est Monumentum et Perenum dedisset,
+                        sed ante quam nominatus Wadulfus ad manum potestatis ipsa substantia sua
+                        tingasset, semper <rs key="#Sheep">greges</rs> suas in integrum cum pastores
+                        de omni peculia in ipsa loca pascuum abere visi fuerunt, tam ipse quam etiam
+                        et <name ref="Tindo">Tindo</name> germanus eius, et dum advenisset ad manum
+                        nominate potestatis, domnus bone memorie Romvvald sic mihi exinde firmavit
+                        suum preceptum de integra portione nominati Wadulfi in predictus casales,
+                        sed tantummodo exinde reservavit ad suam potestatem clausuria qui facta est,
+                        nam reliqua omnia nobis concessit, unde et eius tempore talem illicitam
+                        altercationem mecum habuistes, sed dum ad eius aures advenisset, tunc ipsius
+                        potestas direxit in iam phatos casales <name ref="Rodiperto">Rodperto</name>
+                        filio <name ref="Radulfus">Radulfi</name>, qui vos exinde foras minavit; vos
+                        quidem venistes cum preceptura vestra et mecum iudicium habuistes; tunc ille
+                        cognoscente per testimonium, iterum michi exinde suum firmavit iudicatum,
+                        quem et pręsens ostendo, et legibus possidere debeo secundum eius preceptum
+                        et iudicatum iam phata territoria». Ideo nostra qui super gloriosa potestas,
+                        dum hec talis intentio ante nostris piis vistigiis examinata fuisset, tunc
+                        fecimus relegere preceptum et iudicatum domni Romvvald quem Deusdedi
+                        firmatum habebat, similiter et preceptura et cartule libertatis de nominatas
+                        causa dictores vel de territuria, iuste previdemus inter eos decernere ut
                         preceptura tria, id est Rincuni et Ractuli seu Inportuni, qui resedunt in
                         Perno, ut sibi habeant medietatem de ipso casale Perno, id est fine rivo qui
                         vocatur Volutablo et rivo qui dicitur Vibente et fine vallune de Salsa qui
                         refacet et discendet in Vibente qualiter signa posita sunt; nam in amplius
                         nullam licentiam habeant querendi ipse Rinco cum partionariis suis. Unde et
                         iterum pro ampliorem agnoscendum certa veritate, direximus in eodem locum
-                            <name ref="Crissus">Crissi</name> gastaldum et <name ref="Podo"
-                            >Potiune</name> vesterarium quibus ambulantes in eodem loco cognuerunt
-                        quod iuxta fuit nostra declitio de casale Perno; de autem Rodone et Reparato
-                        et Leone cum fratres suos ut si haberent cartulas in eorum presentiam
-                        adducere minus nemesseant foras de casale Monumenta. Illi vero neque
-                        cartulas Wadulfi, neque preceptoras ostendere potuerit, sed etiam et quem
-                        nobis in Nocentum ostensa sunt falsa apparuerunt. Quibus reversi
-                        nuntiaverunt nobis nominata iudices quod talem agnovissent, et nulla
+                            <persName>Crissi</persName>
+                        <rs key="#Gastaldus/vicegastaldus">gastaldum</rs> et
+                            <persName>Potiune</persName>
+                        <rs key="#Other_palatine_officer">vesterarium</rs> quibus ambulantes in
+                        eodem loco cognuerunt quod iuxta fuit nostra declitio de casale Perno; de
+                        autem Rodone et Reparato et Leone cum fratres suos ut si haberent cartulas
+                        in eorum presentiam adducere minus nemesseant foras de casale Monumenta.
+                        Illi vero neque cartulas Wadulfi, neque preceptoras ostendere potuerit, sed
+                        etiam et quem nobis in Nocentum ostensa sunt falsa apparuerunt. Quibus
+                        reversi nuntiaverunt nobis nominata iudices quod talem agnovissent, et nulla
                         ostendere valuerunt et per singulos dies dantes tranquillitatem nequaquam
                         ostensi sunt. Placuit nobis ut esseant de nominatos casales. Propterea hunc
                         nostrum iudicatum fieri iussimus ut nullo quoquo tempore neque Rodo cum
@@ -145,9 +156,11 @@
                         qui super Deusdedi abbas quam etiam et posteris tuis qua in predictum
                         sanctum locum deservierit securiter et firmiter per hunc nostrum firmissimum
                         iudicatum ipsa territuria in integrum habere et possidere valeatis. Quod
-                        vero iudicatum definitionis ex iussus nominate potestatis scripsi ego <name
-                            ref="Prasinus">Prasinus</name> notarius. Actus Benevento in palatio
-                        mense Februario per indictione decima. Feliciter.</ab>
+                        vero iudicatum definitionis ex iussus nominate potestatis scripsi ego
+                            <persName ref="#people/3496" key="#Notary">Prasinus</persName>
+                        <rs key="#Notary">notarius</rs>. Actus <placeName key="#Cities"
+                            ref="#places/110">Benevento</placeName> in <rs key="#Palatium"
+                            >palatio</rs> mense februario per indictione decima. Feliciter.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
