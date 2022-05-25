@@ -35,7 +35,7 @@
                             <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Copy</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -83,22 +83,31 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>In nomine Domini Dei Salvatoris nostri Iesu Christi. Concessimus nos vir
-                        gloriosissimus <persName ref="#people/373">Grimoald</persName> Dei
-                        previdentia Beneventane provincie princeps, per rogum <name ref="Ado"
-                            >Adonis</name> diaconi nostri, tibi <name ref="Deusdona">Deodone</name>
-                        que fuistis filia <name ref="Faraldus">Faroaldi</name>, puerum nomine <name
-                            ref="Prandulus">Prandulu</name> qui fuit servum tuus, cum <name
-                            ref="Enildi">Enildi</name> uxor sua que fuit libera, qui puerorumque
-                        neclecta ad nostra sunt potestate devoluti, in ea videlicet ratione ut amodo
-                        et deinceps per hoc nostrum roboreum preceptus predicta familia tu et quem
-                        tibi heredem facere volueris habere et possidere valeatis et quodcumque ex
-                        ipsa familia facere volueris in tua sit potestate, et a nullo ex nostris
-                        iudicibus, id est comitibus, gastaldis vel a quibuscumque agentibus habeatis
-                        aliquam requisitionem, sed perpetuis temporibus possideatis. Quod vero
-                        preceptus concessionis ex iussione nominate potestatis scripsi ego <name
-                            ref="Teudericus">Theodericus</name> notarius. Actus Beneventus secundo
-                        anno, mense septembrio per septima indictione. Feliciter.</ab>
+                    <ab>In nomine Domini Dei Salvatoris nostri Iesu Christi. Concessimus nos <rs
+                            key="#Vir_gloriosus/vir_sublimis">vir gloriosissimus</rs>
+                        <persName ref="#people/2000" key="#Princeps">Grimoald</persName> Dei
+                        previdentia Beneventane provincie <rs key="#Princeps">princeps</rs>, <rs
+                            key="#Intercessory">per rogum</rs>
+                        <name ref="Ado">Adonis</name>
+                        <rs key="#Deacons">diaconi</rs> nostri, tibi <rs
+                            key="#Fiscal_property #Object #Redistributive #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_individuals"
+                                ><name ref="Deusdona">Deodone</name> que fuistis filia <name
+                                ref="Faraldus">Faroaldi</name>, puerum nomine <name ref="Prandulus"
+                                >Prandulu</name> qui fuit <rs key="#Slave">servum</rs> tuus, cum
+                                <name ref="Enildi">Enildi</name> uxor sua que fuit <rs
+                                key="#Freeborn">libera</rs></rs>, qui puerorumque neclecta <rs
+                            key="#Fiscal_property #Mention #Inflow">ad nostra sunt potestate
+                            devoluti</rs>, in ea videlicet ratione ut amodo et deinceps per hoc
+                        nostrum roboreum preceptus predicta familia tu et quem tibi heredem facere
+                        volueris habere et possidere valeatis et quodcumque ex ipsa familia facere
+                        volueris in tua sit potestate, et a nullo ex nostris iudicibus, id est
+                        comitibus, gastaldis vel a quibuscumque agentibus habeatis aliquam
+                        requisitionem, sed perpetuis temporibus possideatis. Quod vero preceptus
+                        concessionis ex iussione nominate potestatis scripsi ego <persName
+                            ref="#people/3602" key="#Notary">Theodericus</persName>
+                        <rs key="#Notary">notarius</rs>. Actus <placeName key="#Cities"
+                            ref="#places/110">Beneventus</placeName> secundo anno, mense septembrio
+                        per septima indictione. Feliciter.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
