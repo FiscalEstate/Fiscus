@@ -110,7 +110,7 @@
       <xsl:if test="contains($uncertain_places, concat(' ',$id,' ')) and not(contains($certain_places, concat(' ',$id,' ')))"><xsl:text>k@</xsl:text></xsl:if> <!-- all occurrences from uncertain tradition -->
       <!--<xsl:if test="matches($all_keys, '.*(uncertain_tradition).*')"><xsl:text>k@</xsl:text></xsl:if> <!-\- at least one occurrence from uncertain tradition -\->-->
       <xsl:value-of select="$id"/><xsl:text>": "</xsl:text><xsl:choose>
-        <xsl:when test="contains(normalize-space(tei:geogName/tei:geo), ';')"><xsl:value-of select="substring-before(tei:geogName/tei:geo, ';')"/></xsl:when>
+        <xsl:when test="contains(normalize-space(tei:geogName/tei:geo), ';')"><xsl:value-of select="substring-before(normalize-space(tei:geogName/tei:geo), ';')"/></xsl:when>
         <xsl:otherwise><xsl:value-of select="normalize-space(tei:geogName/tei:geo)"/></xsl:otherwise>
       </xsl:choose><xsl:text>"</xsl:text><xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if>
     </xsl:for-each>
@@ -135,10 +135,10 @@
             <xsl:value-of select="$subdirectory" /><xsl:text>_</xsl:text>
             <xsl:value-of select="$index_type" /><xsl:text>_index</xsl:text>
           </field>
-            <field name="index_map_polygons"><xsl:value-of select="$map_polygons"/></field>
-            <field name="index_map_lines"><xsl:value-of select="$map_lines"/></field>
-            <field name="index_map_points"><xsl:value-of select="$map_points"/></field>
-            <field name="index_map_labels"><xsl:value-of select="$map_labels"/></field>
+          <field name="index_map_polygons"><xsl:value-of select="normalize-space($map_polygons)"/></field>
+          <field name="index_map_lines"><xsl:value-of select="normalize-space($map_lines)"/></field>
+          <field name="index_map_points"><xsl:value-of select="normalize-space($map_points)"/></field>
+          <field name="index_map_labels"><xsl:value-of select="normalize-space($map_labels)"/></field>
           <xsl:apply-templates select="current()" />
         </doc>
       </xsl:for-each>
