@@ -35,7 +35,7 @@
                             <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Copy</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">No</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -83,11 +83,17 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>In nomine Domini Dei Salvatoris nostri Iesu Christi. Firmamus nos domnus vir
-                        gloriosissimus Romovvald summus dux gentis Langobardorum, per rogum Ursi
-                        duddi et referendarii nostri, vobis Iohanni et sorori tue Tundile secundum
-                        qualiter a nostra potestatem postulastes, ut si tibi Iohanni Dominus
-                        donaverit spadium ad bibendum simulque et sorori tue et dum venerit ei
+                    <ab>In nomine Domini Dei Salvatoris nostri Iesu Christi. Firmamus nos domnus <rs
+                            key="#Vir_gloriosus/vir_sublimis">vir gloriosissimus</rs>
+                        <persName ref="#people/2004" key="#Marquis/duke">Romovvald</persName> summus
+                            <rs key="#Marquis/duke">dux</rs> gentis Langobardorum, <rs
+                            key="#Intercessory">per rogum</rs>
+                        <persName ref="#people/3606" key="#Other_palatine_officer"
+                            >Ursi</persName><rs key="#Other_palatine_officer"> duddi et
+                            referendarii</rs> nostri, vobis Iohanni et sorori tue <name
+                            ref="Tundila">Tundile</name> secundum qualiter a nostra potestatem
+                        postulastes, ut si tibi <name ref="Iohannes Dominus">Iohanni Dominus</name>
+                        donaverit spatium ad bibendum simulque et sorori tue et dum venerit ei
                         tempus ut sibi virum sociare debeas, ut tu Iohanne debeas eam ordinare et in
                         omnibus dotem dare sicuti omnem fratrem disponet sororem suam ad virum
                         sodandum et hec postulastes nostram qui supram potestatem ut sicut habet
@@ -95,12 +101,17 @@
                         et sine filium de legitima uxore mortuus fuerit, ut omnia et in omnibus
                         portionem substantie tue remaneat Tundile sorori tue possedendum; et iterum
                         postulaste ut, quod absit fieri, et vos Iohannis et soror tua sine filios de
-                        hac luce transieritis, ut omnem portionem substantie tue in potestate Autie
-                        genetrici vestre remaneat, ut ipsa exinde pro salutis animabus vestris
-                        peragat. Quam vero chartulam firmationis ex iussione nominate potestati
-                        dictavi ego qui supra Ursus duddus et referendarius tibi Iohanni notario
-                        scribendum. Actum Benevento in palatio, mense iulio per indictione tertia
-                        decima. Feliciter.</ab>
+                        hac luce transieritis, ut omnem portionem substantie tue in potestate <name
+                            ref="Autia">Autie</name> genetrici vestre remaneat, ut ipsa exinde pro
+                        salutis animabus vestris peragat. Quam vero chartulam firmationis ex
+                        iussione nominate potestati dictavi ego qui supra <persName
+                            ref="#people/3606" key="#Other_palatine_officer">Ursus</persName><rs
+                            key="#Other_palatine_officer"> duddus et referendarius</rs>tibi
+                            <persName ref="#people/3497" key="#Notary">Iohanni</persName>
+                        <rs key="#Notary">notario</rs> scribendum. Actum <placeName
+                            ref="#places/110" key="#Cities">Benevento</placeName> in <rs
+                            key="#Palatium">palatio</rs>, mense iulio per indictione tertia decima.
+                        Feliciter.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">

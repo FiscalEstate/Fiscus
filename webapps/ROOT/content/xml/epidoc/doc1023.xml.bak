@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Archivio Abbaziale di Nonantola, Pergamene IV 8 </title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc1023</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Libellus/precaria/emphyteusis</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property">Yes</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0910-08-02">
+                                <note type="displayed_date">910 August 2</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Monastero di Santa Maria in Gazzo </note>
+                                <note type="redaction_date">X pm </note>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-02-08" who="ecinello">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine nostri Domini Jhesu Christi regnante domno nostro <persName
+                            key="#Emperor/king" ref="#people/21">Berengario</persName>
+                        <rs key="#Emperor/king">rege</rs> hic in Italia anno uigisimo tercio sub die
+                        secondo de mense augusto indicione tercia decima feliciter. Secundum
+                        peticione uestra <persName
+                            key="#Coloni/tenants #Conductores #Freeborn #sonOf"><name
+                                ref="Landevertus">Landeuertus</name>
+                            <rs key="#sonOf">filius</rs></persName> quondam
+                                <persName><name>Aziuertus</name></persName>, et <persName
+                            key="#Coloni/tenants #Conductores #sonOf"><name ref="Iohannes">Johannes
+                                    <rs key="#sonOf">fiulius</rs></name></persName> quondam
+                                <persName><name ref="Iso de casale Corvulo">Isoni de <rs
+                                    key="#Casalia">casale </rs>Coruulo </name></persName><rs
+                            key="#Freeborn">liberis hominibus</rs> locaui uobis ego in Dei nomine
+                            <persName key="#Count" ref="#people/166">Anselmus </persName><geogName
+                            key="#Comitatus" ref="#estates/124"><rs key="#Count">comite </rs><rs
+                                key="#Comitatus">comitatus</rs> ueronensis</geogName>, idest in
+                        integrum <rs key="#Landed_possessions">ariale </rs>uno una cum <rs
+                            key="#Mills">aquimolo</rs> suo juris proprietatis mee quem habere uisus
+                        sum, que situs est in <rs key="#Rivers">fluuio Tartaris</rs> in <rs
+                            key="#Ports">porto</rs> de <geogName
+                            key="#Landed_possessions #Mills #Storage_units #Defensive_elements #Ports"
+                                ><placeName
+                                key="#Landed_possessions #Mills #Storage_units #Defensive_elements #Ports"
+                                ref="#places/572">Rouescello</placeName></geogName> non longe
+                            de<orgName key="#Churches">
+                            <rs key="#Churches">capella</rs> Sancti Zenonis de eodem <placeName
+                                key="#Churches" ref="#places/572">loco
+                            Rouescello</placeName></orgName> ab ipso ariale una cum aquimulo, et
+                        gresso et regresso suo, ubi dicitur ad <rs key="#Defensive_elements"
+                            >fossato</rs>, omnia in integrum uobis locaui, eam uero racione ut super
+                        ipso ariale <rs key="#Mills #Privileges #Public_infrastructures">mulino
+                            edificare debeatis</rs>, cum <rs key="#Mills #Kilns #Storage_units"
+                            >tecto super se habente et rodas et cum uniuersis municionibus et
+                            fabrica sua</rs>, que ad ipso molino pertinere dinoscitur, et omnia
+                        sicut supra legitur habere, et cum eo fideliter laborare debeatis uos et
+                        heredibus uestris <rs key="#Coloni/tenants">libellario nomine ad annos
+                            uiginti et nouem</rs>, et exinde reddere debeatis <rs key="#Census"
+                            >censum</rs> annualiter pro omni festiuitate Sancti Martini quod est de
+                        mense november anteposito in ipso anno, nobis et heredibus nostris aut cui
+                        nos dederimus <rs key="#Cereals #Maiores #Minores">anona selg.
+                                (<foreign>sic</foreign>) modio uno, segal. modia dua, ordio modio
+                            uno, milio modia dua, surico modia dua</rs>, quod faciunt in summa super
+                        totum anona modia octo, et ipsa anona infra<geogName key="#Castle #Census"
+                            ref="#estates/519">
+                            <rs key="#Castle">castrum, que in suprascripto loco Rouescello
+                                constructum fuerit</rs></geogName>, dare debeatis et sic [ ] <rs
+                            key="#Missus">missum</rs> ipsa anona recepere debead. <rs key="#Exenia"
+                            >Exenia </rs>uero per annum in ipsa festiuitate Sancti Martini dare
+                        debeatis, <rs key="#Poultry">pullo bono uno</rs> caldola una, <rs
+                            key="#Wine">uino sectario uno,</rs> aliud uobis [] super imponatur.
+                        Proptere(a) spondeo atque repromitto me ego suprascriptus Anselmus [m]eis
+                        heredes uobis suprascriptis petitores uel ad uestris heredibus, si de
+                        suprascripto ariale et mol[estare ] uos foris excutere, tollere, contendere
+                        aut minuare uoluerimus [ ] annos uiginti et nouem, aut aliqua super imposita
+                        uobis facere temptauerimus, nisi quod hic superius legitur, et clare factum
+                        fuerit, tunc componam ego uel meis her[edibus] uobis uel uestris heredibus
+                            <rs key="#Penalty">pena argentum solidos numeratos uiginti et
+                        nouem</rs>, et post pena co[ ], hec prensens pagina in eodem statu ut supra
+                        legitur firmam et stabilis permaneat usque ad suprascriptos annos uiginti et
+                        nouem cum stipulacione subnixa. Acto in <orgName key="#Monasteries"
+                            ref="#juridical_persons/136"><placeName key="#Monasteries"
+                                ref="#places/564"><rs key="#Monasteries">monasterio</rs> Sancte
+                                Marie sito in Gagio</placeName></orgName> feliciter. Signum + manum
+                        superscripti domini <persName key="#Count #Salian" ref="#people/166">Anselmi
+                            </persName><rs key="#Count">comitis</rs>
+                        <rs key="#Salian">ex franquorum (<foreign>sic</foreign>) genere</rs>, qui
+                        hanc pagina fieri rogauit ad omnia superscripta et ei relecta est. Signum
+                            <persName key="#Witness #Sculdahis" ref="#people/612">[ ]delmo
+                            </persName><rs key="#Sculdahis">sculdasio</rs>
+                        <rs key="#Witness">teste</rs>. Signum + + + manibus <persName
+                            key="#Witness #sonOf"><name ref="Ausbertus">Auspertus <rs key="#sonOf"
+                                    >filius</rs></name></persName>
+                        <persName><name ref="Amalbertus">quondam Amelberti</name></persName>,
+                            <persName key="#Witness"><name ref="Plato de Telidiano"
+                            >Platone</name></persName> et <persName key="#Witness"><name
+                                ref="Iohannes de Telidiano">Johanne <placeName ref="#places/595">de
+                                    Telidiano</placeName>
+                                <rs key="#sonOf">filius</rs></name></persName>
+                        <persName><name ref="Giselbertus">quondam Giseluerti</name></persName>, et
+                                <persName><name ref="Lupus">Lupo <rs key="#sonOf">fiulius</rs>
+                            </name></persName>
+                        <persName><name ref="Teudebertus de Rouescello">quondam Teudibertus
+                            </name></persName><placeName ref="#places/572">de Rouescello</placeName>
+                        <rs key="#Witness">testes</rs>. Signum + manu <persName
+                            key="#Salian #sonOf #vassusOf"><name ref="Iso">Isoni <rs key="#Salian"
+                                    >ex franquorum genere</rs>
+                                <rs key="#vassusOf">uasso</rs></name></persName>
+                        <persName key="#seniorOf"><name ref="Amizo">Amizoni</name></persName>
+                        <rs key="#Witness">teste</rs>. Signum + manu <persName key="#Witness #sonOf"
+                                ><name ref="Teudo">Teudoni</name></persName>
+                        <rs key="#sonOf">fiulius</rs>
+                        <persName><name ref="Odelbertus">quondam Odelberti</name></persName>
+                        <rs key="#Witness">teste</rs>. + Ego <persName key="#Witness"><name
+                                ref="Madelbertus">Madelbertus </name></persName>rogatus <rs
+                            key="#Witness">testis</rs> manu mea subscripsi. + Ego <persName
+                            key="#Notary" ref="#people/611">Pedelbertus <rs key="#Notary"
+                                >notarius</rs></persName> rogatus manu mea qui hanc paginam scripsi,
+                        et post tradita complevi. </ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>Fainelli, CDV, II, n. 95, pp. 122-124.</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>La seconda sottoscrizione, benché priva dell’iniziale nell’edizione di Fainelli,
+                    può essere identificata con quella di personaggio presente anche alla rogazione
+                    del primo testamento di Anselmo, cioè Adelmo sculdascio e vassallo del conte
+                    stesso, v. CDV, II, n. 88, pp. 109-115. A. Castagnetti 2011, p. 20 e n. 128;
+                    Castagnetti 1990/II, p. 65 e 83.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

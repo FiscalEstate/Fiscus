@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Archivio di Stato di Firenze, Diplomatico, Riformagioni. Atti Pubblici, 1029
+                    gennaio 3, n. 39 (Giorgetti, n. 20)</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus
+                        Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc1439</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Libellus/precaria/emphyteusis</rs>
+                            <rs type="record_source" ref="#">Original document</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property">Yes</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="1079-08-25">
+                                <note type="displayed_date">1079 August 25</note>
+                                <note type="dating_elements">Datata secondo l'anno
+                                    dell'incarnazione, stile pisano.</note>
+                                <note type="topical_date"><foreign>Bellare</foreign></note>
+                                <note type="redaction_date"/>
+                             </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-03-24" who="scollavini">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>Libello de suprascripta cartula a Veneruccio et a Tuccio. In nomine domini
+                        nostri Iesu Christi Dei eterni. Anno ab incarnatione eius millesimo
+                        octuagesimo, octavo kalendas septembris, indictione secunda. Manifesti sumus
+                        nos <persName><name ref="Veneruccius/Weruccius">Veneruccio</name></persName>
+                        filius quondam <persName><name ref="Iohannes">Iohanni</name></persName> et
+                                <persName><name ref="Tuccius">Tuccio</name></persName> filius
+                        quondam <persName><name ref="Morus">Mori</name></persName> quia tu <persName
+                            key="#Abbots" ref="#people/108">Cunitjo</persName> in Christi nomine <rs
+                            key="#Abbots">abbas</rs> de <rs key="#Churches">ecclesia</rs> et <rs
+                            key="#Monasteries">monasterio</rs>
+                        <orgName key="#Churches #Monasteries" ref="#juridical_persons/78">Domini,
+                            Sancte Marie et Sancti Quirici</orgName>, sito loco <placeName
+                            ref="#places/86" key="#Monasteries">Populonio</placeName> per cartula
+                        livellario nomine a.ccensum et perexsolvendum dedisti nobis medietatem
+                        integram de duo <rs key="#Petiae">petiis</rs> de terris positi una ex ipse,
+                        que est <rs key="#Wine">vinea</rs>, in loco et finibus <placeName
+                            key="#Petiae #Wine" ref="#places/87">Valli</placeName>, prope <rs
+                            key="#Churches">ecclesia</rs> qui iam fuit <orgName
+                            key="#Petiae #Wine #Churches" ref="#juridical_persons/153">Sancti
+                            Donati</orgName>, que est tenentes ambobus capitibus cum uno latere in
+                        vie et alio lato tenet in <rs
+                            key="#Confinia #Petiae #Wine #Consortes/shared_possessions">terra et
+                            vinea Ubertinga</rs>; secunda petia de terra, quod est <rs
+                            key="#Cereals">campo</rs>, posita in loco et finibus ubi dicitur
+                            <placeName
+                            key="#Petiae #Landed_possessions #Cereals #Fiscal_property #Mention #Count"
+                            ref="#places/149">Monticelli</placeName>, est tenentem uno capo in terra
+                            <orgName key="#Confinia #Petiae" ref="#juridical_persons/79">Sancti
+                            Petri</orgName>
+                        <placeName ref="#places/85" key="#Monasteries">Monteviridi</placeName> et
+                        aliud capud tenet in <rs
+                            key="#Confinia #Landed_possessions #Cereals #Fiscal_property #Mention #Count"
+                            >terra</rs>
+                        <rs key="#Count">comitorum</rs>, latus unum tenet in via et aliut in <rs
+                            key="#Rivers">rivo</rs> que dicitur <placeName ref="#places/87"
+                            key="#Rivers">Merdancio</placeName>. De is suprascriptis petiis de
+                        terris qualiter ab omnibus partibus circumdati sunt per designatis locis, ut
+                        dictum est, medietatem in integram cum inferioribus et superioribus suis seu
+                        cum accessionibus et ingressibus suis nobis eas ad pars suprascripte
+                        ecclesie et monasterio livellario nomine dedisti, tali ordinem ut da admodum
+                        in nostra, qui supra Vueruccio et Tuccio, vel de nostris heredibus sint
+                        potestatem eas abendi, tenendi, imperandi, gubernandi, laborare faciendi,
+                        meliorandi et nobis eas privatum nomine habendi et usum fructuandi et exinde
+                        tibi vel ad posterisque successoribus tuis ad pars suprascripte ecclesie et
+                        monasterio per singulos annos, per omne mense septembris, censum in vobis
+                        reddere debeamus ad suprascripto monasterio, vobis vel ad misso vestro, aut
+                        a ministerialem illum, qui per tempore ibidem fuerit ordinatus sive ad illi
+                        monachi, qui ibidem per tempore Deo militant per nos aut per misso nostro
+                        argentum denarios bonis expendibiles de moneta de Lucca nummos XII tantum.
+                        Et si nos vobis hec omnia, qualiter superius legitur, per singulos annos
+                        taliter non fecerimus et non conservaverimus aut si predicte medietatem de
+                        predictis petjis de terris quas nobis livellario nomine dedisti de pars
+                        suprascripta ecclesia relaxaverimus vel si per nos peiorata fuerit per
+                        colibet ingenio, spondemus nos, qui supra Weruccio et Tuccio, una cum
+                        nostris heredibus componere tibi qui supra Cunitjo abbas vel ad posterisque
+                        successoribus tuis ad pars suprascripta ecclesia et monasterio penam
+                        argentum optimum libras X, quia taliter inter nos convenimus et duo inter
+                        nos libelli <persName key="#Writer #Notary"><name ref="Sisemundus"
+                                >Sesmundo</name></persName>
+                        <rs key="#Notary">notario</rs> domni regis scribere rogavimus. Actum loco
+                            <placeName ref="#places/157" key="#Churches">Bellare</placeName>, iusta
+                            <rs key="#Churches">ecclesia</rs>
+                        <orgName key="#Churches" ref="#juridical_persons/154">Sancti
+                            Iustiniani</orgName>. Signa manuum suprascripti Werucci et Tucci qui
+                        hunc libellum fieri rogaverunt. Signa manuum <persName key="#Witness"><name
+                                ref="Cantarellus">Cantarelli</name></persName> et <persName
+                            key="#Witness"><name ref="Ildebrandus">Ildibra[n]di</name></persName>
+                        germani filii quondam <persName><name ref="Gotitius"
+                            >Gotitj</name></persName> et <persName key="#Witness"><name
+                                ref="Heinricus">Enrigi</name></persName> filii quondam
+                                <persName><name ref="Iohannes">Iohanni</name></persName> testium.
+                        Sesmundo notarius domni regis post tradita complevi et dedi. </ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>Giorgetti, n. 20</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

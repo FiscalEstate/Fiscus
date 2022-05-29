@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    +L.51</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc4051</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">--Commutatio</rs>
+                                    <rs type="record_source" ref="#">Critical edition</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">Yes</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate notBefore="0754-07-01" notAfter="0754-07-02">
+                                <note type="displayed_date">754 July [1-2]</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Lucca</note>
+                                <note type="redaction_date"/>
+                             </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-05-30" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab>+ In Dei nomine. Regnante domno nostro Aistolfo rege, anno regni
+                        eius quinto, per indictionem septima, mense iulio; feliciter. Dum per
+                        iussionem domno excilentissimo <persName ref="#people/48"
+                            key="#Emperor/king">Aistolf</persName>
+                        <rs key="#Emperor/king">rege</rs> demandatum fuisset mihi <persName
+                            key="#Marquis/duke" ref="#people/389">Alpert</persName>
+                        <rs key="#Marquis/duke">duci</rs> seo et <persName key="#Bishops"
+                            ref="#people/320">Walprand</persName>
+                        <rs key="#Bishops">episcopi</rs>
+                        <rs key="#Commutatio">viganeum</rs> facere de res <persName
+                            key="#Specialized_workers" ref="#people/390">Auripert</persName>
+                        <rs key="#Specialized_workers">pictori</rs> cum <geogName key="#Curtes"
+                            ref="#estates/78"><rs key="#Curtes">curte</rs> domni <rs
+                                key="#Emperor/king">regi</rs></geogName>, ita et factum est. Unde
+                        duas cartulas uno tenore fuirunt conscriptas. Et dum per preceptum ipsius
+                        domno nostro confermatus fieri devirent, requisivimus cartula illa quem de
+                        partis <rs key="#Curtes #Emperor/king">curtis regia</rs> de ipso viganium
+                        inn <rs key="#Mother_churches">eclesia</rs>
+                        <orgName key="#Mother_churches" ref="#juridical_persons/68">Sancti
+                            Martini</orgName> data fuera; minime ea iungere potuimus, eo quod in <rs
+                            key="#Army">exercitus</rs> domno nostro peruerat. Et dum hec dictum
+                        fuisset domno regi per <persName key="#Bishops" ref="#people/343"
+                            >Peredeus</persName> vir beatissimus <rs key="#Bishops">episcopus</rs>,
+                        eo quod ipsa cartula minime invenire potuisset, demandavet ipse piissimo
+                        domno regi, alia tale cartula relevare per ipso <rs key="#Notary"
+                            >notario</rs>, qui ea antea scripserad, qualis ille erat, quem de parte
+                        eclesie ad curtis regia emissat fuerad. Placuet adque convinet inter
+                        eclesiam Sancti Martini nec non et curtes domni regi, et qualiter au ipso
+                        piissimo et ad Deo conserbato domno Aistolf rege est demandatum, ut cambium
+                        de curte ipsius <placeName ref="#places/4">Lucense</placeName> in predicta
+                        eclesia Sancti Martini melioratum datum fieri devirent pro personas de
+                        germanis vel germanas Auripert pictori seo et <rs key="#Work_and_workers"
+                            >homenis</rs> pertinentibus eorum vel <rs key="#Landed_possessions"
+                            >res</rs> quem ad manum sua abuirunt, qui sunt pertenentes eclesie
+                        sancti Martini. Unde consentientem vir beatissimus Walprand episcopus et au
+                        ipso ordinati fuirunt da parte eclesie ipsa commutationem faciendum
+                            <persName key="#Missus #Archpriests"><name ref="Iordanus"
+                                >Iordanni</name></persName>
+                        <rs key="#Archpriests">arcipresbitero</rs>, <persName
+                            key="#Missus #Archdeacons"><name ref="Ragibertus"
+                            >Rachipert</name></persName>
+                        <rs key="#Archdeacons">arcidiaconus</rs> et <persName
+                            key="#Other_minor_officer #Missus" ref="#people/391">Auduaci</persName>
+                        <rs key="#Other_minor_officer">scario</rs>; et da parte domni regi ab Alpert
+                        duce ordinati fuirunt ad ipsa res extimandum <persName
+                            key="#Other_minor_officer #Missus_of_other_public_authorities"
+                            ref="#people/392">Teutpert</persName>
+                        <rs key="#Other_minor_officer">scario</rs>, <persName
+                            key="#Missus_of_other_public_authorities"><name ref="Teudebrandus"
+                                >Teutprand</name></persName> filio quondam <persName><name
+                                ref="Teudulus">Teuppoli</name></persName> et <persName
+                            key="#Missus_of_other_public_authorities"><name ref="Grasulus"
+                                >Grasulus</name></persName> negudias. Unde constat dedisset eclesia
+                        Sancti Martini: in primis, <rs key="#Casae/cassinae_massaricie">casa
+                            avitationis</rs> ipsius Auripert vel de germani eius una cum <rs
+                            key="#Casalini/fundamenta">fundamenta</rs> sua hic infra <placeName
+                            ref="#places/4"
+                            key="#Casae/cassinae_massaricie #Casalini/fundamenta #Landed_possessions #Fiscal_property #Object #Inflow #Purchase"
+                                ><rs key="#Cities">civitate</rs></placeName>; et recipet in viganei
+                        locum a curte domni regi <rs key="#Casae/cassinae_massaricie">casa</rs> cum
+                            <rs key="#Casalini/fundamenta">fundamenta</rs> [sua hic] prope <rs
+                            key="#Walls">muro</rs>
+                        <placeName ref="#places/4"
+                            key="#Casae/cassinae_massaricie #Casalini/fundamenta #Fiscal_property #Object #Outflow #Counter-gift"
+                                ><rs key="#Cities">civitatis</rs></placeName>, ubi residerunt
+                            <persName key="#Other_minor_officer" ref="#people/393"
+                            >Aumundulo</persName> et <persName key="#Other_minor_officer"
+                            ref="#people/394">Silvolus</persName>, <rs key="#Other_minor_officer"
+                            >qui fuerunt epistolas deportantes</rs>; et pro <rs
+                            key="#Landed_possessions">terra</rs> quem abuirunt Auripert vel de
+                        germani eius ad area ubi ipse casella edificata est, recipet eclesia Sancti
+                        Martini terra in atpretiato sub extimationem intra clausura illa prope muro
+                        civitatis ubi ipse casella Aumunduli et Silvoli edificata est; et pro <rs
+                            key="#Casae/cassinae_massaricie">casa</rs> quam abuirunt in loco
+                            <placeName
+                            key="#Casae/cassinae_massaricie #Cereals #Wine #Oil #Fiscal_property #Object #Inflow #Purchase"
+                            ref="#places/704">Lupelia</placeName> et in <placeName ref="#places/325"
+                            key="#Casae/cassinae_massaricie #Cereals #Wine #Oil #Fiscal_property #Object #Inflow #Purchase"
+                            >Pumpiano</placeName> prope <rs key="#Churches">eclesia</rs>
+                        <orgName key="#Churches" ref="#juridical_persons/251">Sancti
+                            Machari</orgName> cum <rs key="#Cereals">terris</rs>, <rs key="#Wine"
+                            >vineis</rs>, <rs key="#Oil">olivitis</rs>, vel omnia quantum in
+                        suprascriptas locas avire visis fuirunt, recipet eclesia Sancti Martini <rs
+                            key="#Casae/cassinae_massaricie">casa</rs>
+                        <persName key="#Casae/cassinae_massaricie"><name ref="Willulus"
+                                >Willuli</name></persName> et <rs key="#Casae/cassinae_massaricie"
+                            >casa</rs>
+                        <persName key="#Casae/cassinae_massaricie"><name ref="Gairepertulus"
+                                >Gaipertuli</name></persName> et <rs
+                            key="#Casae/cassinae_massaricie">casa</rs>
+                        <persName key="#Casae/cassinae_massaricie"><name ref="Filipertus"
+                                >Filipert</name></persName> in loco [… <placeName
+                            key="#Casae/cassinae_massaricie #Casalini/fundamenta #Landed_possessions #Cereals #Wine #Oil #Chestnuts #Acorns #Fiscal_property #Object #Outflow #Counter-gift"
+                            ref="#places/513">Tu]rre</placeName> cum <rs key="#Casalini/fundamenta"
+                            >fundamentas</rs> suas, <rs key="#Landed_possessions #Cereals"
+                            >terris</rs>, <rs key="#Wine">vineis</rs>, <rs key="#Oil">olivitis</rs>,
+                            <rs key="#Acorns">silvis</rs>, <rs key="#Chestnuts">castaneitis</rs>,
+                        omnia et in omnibus ad ipsas suprascriptas casas pertenentes in integrum;
+                            <rs key="#Fiscal_property #Object #Exceptive">excepto homenis de ipse
+                            case et fondamenta eorum hic infra civitate</rs> et <rs>terre</rs> eorum
+                        ultra <rs key="#Rivers">fluvium</rs> Ausare, <rs
+                            key="#Fiscal_property #Object #Exceptive">quem a curte domni regi est
+                            reserbatum</rs>. Et de terre qui fuirunt de suprascripte case da Turre,
+                        qui sunt hic circa civitatem, recipet eclesia Sancti Martini per mensura pro
+                        terre qui fuerant Auripert vel de germani eius, in primis <rs key="#Cereals"
+                            >campo</rs>
+                        <placeName
+                            key="#Size #Cereals #Fiscal_property #Object #Outflow #Counter-gift"
+                            >Fontanolas</placeName>
+                        <rs key="#Size">modiorum sex et sistariorum octo</rs> pro <rs key="#Cereals"
+                            >campo</rs> ipsius Auripert vel de germani eius, loco qui dicitur
+                            <placeName
+                            key="#Size #Cereals #Fiscal_property #Object #Inflow #Purchase">ad
+                            Ausare</placeName>, quod est <rs key="#Size">modiorum sex</rs>;
+                        similiter recipet <rs key="#Mother_churches">eclesia</rs> Sancti Martini
+                        duas <rs key="#Petiae">petias de terra</rs> in loco <placeName
+                            key="#Petiae #Size #Fiscal_property #Object #Outflow #Counter-gift #Royal_slave"
+                            >Roncho</placeName>, una qui fuet <persName key="#Royal_slave"><name
+                                ref="Protestulus">Protestuli</name></persName>
+                        <rs key="#Royal_slave">serbo domni regi</rs> et illa alia ipsorum case
+                        pertenentem de <geogName key="#Curtes" ref="#estates/316"><placeName
+                                key="#Fiscal_property #Mention" ref="#places/513"
+                            >Turrem</placeName></geogName>, qui ad ipsi hominis avitaturis in Turre
+                        da <persName><name ref="Sassulus">Saxulo</name></persName> in <rs
+                            key="#Commutatio #Fiscal_property #Mention #Inflow #Purchase"
+                            >viganium</rs> obvinet, qui sunt inter ambas petias <rs key="#Size"
+                            >sistariorum duas minus de quinque modiorum</rs> propter duas petias de
+                        terra qui fuerant Auripert vel de germani eius in ipso loco <placeName
+                            key="#Petiae #Size #Textual_occurrence #Object #Inflow #Purchase"
+                            >Roncho</placeName>, quod sunt per mensura <rs key="#Size">quattuor
+                            sistariorum minus de quinque modiorum</rs>; et de <rs
+                            key="#Landed_possessions">terre</rs> ipsorum homenis avitaturis in
+                            <placeName
+                            key="#Landed_possessions #Size #Fiscal_property #Object #Exceptive"
+                            ref="#places/513">Turre</placeName>, hic circa civitate, <rs
+                            key="#Fiscal_property #Object #Exceptive">reserbatum est a curte domni
+                            regi terra <rs key="#Size">scaffiliorum tris</rs>, qui est prope <rs
+                                key="#Landed_possessions">terra</rs>
+                            <persName><name ref="Sassulus">Saxuli</name></persName></rs>; et pro <rs
+                            key="#Wine">vinea</rs> ipsius Auripert vel de germani eius <placeName
+                            key="#Size #Wine #Fiscal_property #Object #Inflow #Purchase">ultra <rs
+                                key="#Rivers">fluvium</rs> Ausere</placeName>, qui est per mensura
+                            <rs key="#Size">modiloco uno</rs>, et recipet eclesia Sancti Martini de
+                        ipsis suprascritptis homenis de Turre, in ipso loco <placeName
+                            key="#Wine #Fiscal_property #Object #Outflow #Counter-gift"
+                            ref="#places/513">Turre</placeName>
+                        <rs key="#Wine">vinea</rs> prope <rs key="#Churches">eclesia</rs>
+                        <orgName key="#Churches" ref="#juridical_persons/252">Sancti
+                            Martini</orgName>, alio modiloco, sub extimationem. Et ipse edificia
+                        Auripert seo de germani eius in atpretiato fuirunt amplius <rs key="#Value"
+                            >valentem soledus quatragenta</rs>, et ipse edificias quem curtes hic
+                        prope civitate dedet eclesie Sancti Martini, et qualiter placuet domno regi,
+                        ut ipse viganium quem curtes regia dare amplius valentem melioratus super
+                        ipsum cambium quem ad eclesiam Sancti Martini reciperat, soledus
+                        quatragenta; et de ipsa terra quem dedet curte regia relicum fuet <rs
+                            key="#Size">sistariorum quattuordeci</rs> tam pro ipsa meliorationem
+                        quam et pro ipsas fabricas que amplius fuet valentem. Omnia adimplivet
+                        curtis domni regi eclesie Sancti Martini de fondamento et clausura illa ubi
+                        ipse casa ipsorum Aumunduli et Sivoli edificata est, cum <rs
+                            key="#Fruits/vegetables">pomis</rs> vel omnia ipsa clausura in integrum,
+                        excepto res movile. De <rs key="#Slave_labour">hominis</rs> viro dedet <rs
+                            key="#Mother_churches">eclesia</rs> Sancti Martini: <rs
+                            key="#Fiscal_property #Object #Inflow #Purchase #Slave_labour"><persName
+                                key="#Slave_labour"><name ref="Ansebrandus"
+                                >Ansprand</name></persName>, <persName key="#Slave_labour"><name
+                                    ref="Catocciulus">Catocciulo</name></persName>, <persName
+                                key="#Slave_labour"><name ref="Fusculus">Fosculo</name></persName>,
+                                <persName key="#Slave_labour #Other_clerics"><name ref="Emmulus"
+                                    >Hemmulo</name></persName>
+                            <rs key="#Other_clerics">clerico</rs>, <persName key="#Slave_labour"
+                                    ><name ref="Teulus">Teulo</name></persName>, <persName
+                                key="#Slave_labour"><name ref="Mauriculus"
+                                >Mauriculo</name></persName>, <persName key="#Slave_labour"><name
+                                    ref="Aurifia">Aurifia</name></persName>, <persName
+                                key="#Slave_labour"><name ref="Auriperga"
+                                >Auriperga</name></persName>, <persName key="#Slave_labour"><name
+                                    ref="Castaldus">Castaldu</name></persName>, <persName
+                                key="#Slave_labour">[…lo]</persName> et <persName
+                                key="#Slave_labour"><name ref="Auricundula"
+                                >Aricondula</name></persName></rs>; et recipet a <rs key="#Curtes"
+                            >curte</rs> domni <rs key="#Emperor/king">regi</rs>: <rs
+                            key="#Fiscal_property #Object #Outflow #Counter-gift #Slave_labour"
+                                ><persName key="#Slave_labour"><name ref="Mauripertus"
+                                    >Mauripert</name></persName>, <persName key="#Slave_labour"
+                                    ><name ref="Baroncellus">Baroncello</name></persName>, <persName
+                                key="#Slave_labour"><name ref="Bonari">Bonari</name></persName>,
+                                <persName key="#Slave_labour"><name ref="Agibrandus"
+                                >Agiprand</name></persName>, <persName key="#Slave_labour"><name
+                                    ref="Lucibrandus">Luciprand</name></persName>, <persName
+                                key="#Slave_labour"><name ref="Audibertus"
+                                >Audipert</name></persName> et <persName key="#Slave_labour"><name
+                                    ref="Maginperga">Magniperga</name></persName>, <persName
+                                key="#Slave_labour"><name ref="Ermetruda"
+                                >Ermitroda</name></persName>, <persName key="#Slave_labour"><name
+                                    ref="Ciontula">Ciontula</name></persName>, <persName
+                                key="#Slave_labour"><name ref="Maurella">Maurella</name></persName>
+                            et <persName key="#Slave_labour"><name ref="Ansperta"
+                                >Asperta</name></persName>, <persName key="#Slave_labour"><name
+                                    ref="Sigebertus">Seipert</name></persName>, <persName
+                                key="#Slave_labour"><name ref="Teudebertus"
+                                >Teudipert</name></persName>, <persName
+                                key="#Slave_labour #Other_clerics"><name ref="Ildebertus"
+                                    >Hildipert</name></persName>
+                            <rs key="#Other_clerics">clerico</rs> et <persName key="#Slave_labour"
+                                    ><name ref="Gaitroda">Gaitroda</name></persName></rs>. Modo viro
+                        qualiter ipse cambium ex urtaque partis factum vel contraditum est,
+                        stavilitum diveat permanire, qualiter suprascriptua commutatio acta est per
+                        Walprand episcopus et Alpert duce. Unde duas cartulas uno tenure conscriptas
+                            <persName key="#Writer #Notary"><name ref="Radalbertus"
+                            >Radalpert</name></persName>
+                        <rs key="#Notary">notario</rs> scrivere commonuemus. Actum <placeName
+                            ref="#places/4">Luca</placeName>, regnum et indictionem suprascripta;
+                        feliciter. Cartula ista relevata est per demandationem ipsius domno nostro
+                        Aistolf <rs key="#Emperor/king">regi</rs>
+                        <date>inn anno septimo, indictione nona, mense septembrio</date>. + Ego
+                        Alpert dux in anc cartula commutationis a me facta et Walprando episcopo,
+                        sicut supra legitur, propria manu mea scuscripsi. + Ego Teutprand, qui in
+                        hanc cummutationem interfuit ad ipsam res extimandum, manus mea suscripsi.
+                        Signum + manus <persName key="#Witness #Vir_devotus/vir_honestus"><name
+                                ref="Alateus">Alatei</name></persName> filio quondam <persName><name
+                                ref="Alahis">Alais</name></persName>
+                        <rs key="#Vir_devotus/vir_honestus">viri devoti</rs> testis. + Ego <persName
+                            key="#Witness #Priests"><name ref="Teuderadus"
+                            >Teuderadu</name></persName>
+                        <rs key="#Priests">presbiter</rs> in ach cartula comutationis facta a
+                        Gualprandu episcopus et Alpertu duce propria manus mea me teste supcripsi. +
+                        Ego <persName key="#Witness #Priests"><name ref="Filosofronius"
+                                >Filosofronius</name></persName>
+                        <rs key="#Priests">presbiter</rs> in hanc cartula cummutationis facta a
+                        Gualprand episcopus et Alpert dux propria manus mea testis subscripsi. + Ego
+                            <persName key="#Witness"><name ref="Gairepertus"
+                            >Gairipert</name></persName> i hanc cartula cummutationis facta ad
+                        Walprand episcopus et Alpert dux, sicot superius legitor, me teste
+                        supiscripsi. + Ego <persName key="#Witness"><name ref="Sintrualdus"
+                                >Suintrualdus</name></persName> in hanc cartula cummutationis facta
+                        ad Walprandus episcopus seo Alpertu dux, sicut superius legetur, me tesstes
+                        subscripsi. + Ego Radalpert, qui hanc cartula relevavi per
+                        demandamandationem ipsius domno nostro regi per dicto Alpert doci, et
+                        qualiter ipsius demadatio fuet, conplivi et dedi. </ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>Muratori 1738-1742, I, 135; MDL IV/1, n. 47; reg. MDL V/2, n. 49; CDL I,
+                    n. 113, pp. 328-333; ChLA, XXXII, 942.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                         <p><foreign>Nota dorsale (sec XI):</foreign> Viganeum inter Austulfum regem
+                    et episcopatum huius civitatis. <foreign>Nota dorsale (sec XI):</foreign>
+                    Viganeum inter Agistulfum regem et episcopum huius civitatis. <foreign>Nota
+                        dorsale (sec. XI-XII): </foreign>Viganeum […]ris huic ecclesie ab Aistulfo
+                    rege in cambium dans hic prope Lucam et in Runco atque in plebe Turri.
+                        <foreign>Nota dorsale (forse sec. XI):</foreign> Guamo.
+                        <foreign>Sottoscrizioni autografe del duca Alpert; di Teutprando, . Ozzei
+                        Fontanella (suburbio S di Lucca?) Ronco (pianura S di Lucca?). La relevatio
+                        è compiuta nel settembre 755</foreign>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

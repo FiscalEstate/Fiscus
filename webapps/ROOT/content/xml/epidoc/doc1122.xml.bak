@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Cremona, Archivio di Stato, <foreign>Archivio Segreto</foreign> n°
+                    2817</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc1122</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">-Placitum/iudicatum</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property">Yes</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate notBefore="0903-01-31" notAfter="0903-12-31">
+                                <note type="displayed_date">903 January</note>
+                                <note type="dating_elements">L'anno XV di regno, se corretto,
+                                    indicherebbe che il placito si tenne nella prima settimana di
+                                    gennaio.</note>
+                                <note type="topical_date">Piacenza</note>
+                                <note type="redaction_date">XII ineunte</note>
+                            </origDate>
+                            <origPlace>Sanctus Sixtus; <foreign>monasterium</foreign>
+                                (Piacenza)</origPlace>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-02-08" who="cstedile">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>Dum in Dei nomine <placeName ref="#places/43" key="#Monasteries">civitate
+                            Placencia</placeName> ad <rs key="#Monasteries">monasterio</rs>
+                        <orgName key="#Curtes #Churches #Monasteries" ref="#juridical_persons/53"
+                            >Sancte Resurrectionis Iesu Christi</orgName> domnus gloriosissimus
+                            <persName key="#Emperor/king" ref="#people/21">Berengarius</persName>
+                        <rs key="#Emperor/king">rex</rs> preerat in monasterium ipsum a karissima
+                        domna <persName key="#Emperor/king" ref="#people/55">Ingelberga</persName>
+                        <rs key="#Queen">inperatrix</rs> constructum esse videtur, intus aecclesia
+                        maiore ipsius monasteri in iuditio residerent <persName
+                            key="#Witness #Count #Palatine_count" ref="#people/57">Sigefredus</persName>
+                        <rs key="#Palatine_count">comes palatii</rs> et <rs key="#Count">comes</rs>
+                        ipsius <geogName key="#Comitatus" ref="#estates/105">comitis
+                            Placentinis</geogName> una cum <persName key="#Witness #Bishops" ref="#people/20"
+                            >Everardus</persName> ipsius <orgName ref="#juridical_persons/223"
+                                ><placeName ref="#places/43">Placentiae</placeName></orgName>,
+                        <persName key="#Witness #Bishops"><name ref="Ildegerius"
+                            >Ildegerius</name></persName>
+                        <orgName ref="#juridical_persons/1400"><placeName ref="#places/262"
+                            >Laudensis</placeName></orgName>, <persName key="#Witness #Bishops"><name
+                                ref="Adelmannus">Adelmannus</name></persName>
+                        <orgName ref="#juridical_persons/1401"><placeName ref="#places/309"
+                                >Concordiensis</placeName></orgName> venerabilibus <rs
+                                    key="#Bishops">episcopis</rs>, <persName key="#Witness #Judge"><name
+                                ref="Adelgrasus">Aldegrasus</name></persName>, <persName
+                                    key="#Witness #Judge"><name ref="Aldebertus">Aldebertus</name></persName>,
+                        <persName key="#Witness #Judge"><name ref="Aquilinus"
+                            >Aquilinus</name></persName>, <persName key="#Witness #Judge"><name ref="Farimundus"
+                                >Farimundus</name></persName>, <persName key="#Witness #Judge"><name
+                                ref="Stadelpertus">Stadelbertus</name></persName> et <persName
+                                    key="#Witness #Judge"><name ref="Bernardus">Bernardus</name></persName>
+                        <rs key="#Judge">iudices</rs> idem augusti, <persName key="#Witness #Notary"><name
+                                ref="Ansemundus">Ansemundus</name></persName>
+                        <rs key="#Notary">notarius</rs> et reliqui; ibique eorum veniens presentia
+                            <persName key="#Abbesses"><name ref="Adelberga"
+                            >Adelberga</name></persName>
+                        <rs key="#Abbesses">abbatissa</rs> eiusdem monasterii una cum <persName
+                            key="#Advocatus_of_other_public_authorities"><name ref="Madelbertus"
+                                >Madelbertus</name></persName>
+                        <rs key="#Advocatus_of_other_public_authorities">advocato ipsius
+                            monasterii</rs> et ostense sunt ibi <rs key="#Cartula">cartule una</rs>,
+                        ubi continebatur in ea ab ordine: «In Christi nomine, igitur itaque ego in
+                        Dei nomine <persName key="#Queen #Salian" ref="#people/242"
+                            >Irmengarda</persName> Deo devota filia bone memoriae domni <persName
+                            key="#Emperor/king" ref="#people/110">Lodoici</persName>
+                        <rs key="#Emperor/king">imperatoris</rs> qui profesa sum vivere <rs
+                            key="#Salian">ex natione mea lege Salica</rs>, vobis <persName
+                            key="#Abbesses"><name ref="Sconburga">Scanburgi</name></persName>
+                        <rs key="#Abbesses">abbatissa</rs>
+                        <orgName
+                            key="#Houses #Natural_landscape #Rivers #Mountains #Curtes #Casae/cassinae_massaricie #Landed_possessions #Forests #Fisheries #Mills #Wine #Fruits/vegetables #Hay/fodder #Ports #Local_markets #Public_exactions #Churches #Royal_slave #Royal_aldius"
+                            ref="#juridical_persons/53">coenobii monasterio Sanctorum Sixti et
+                            Fabiani</orgName>, qui fundatum est intra civitate Placentia, quas
+                        quondam augusta Angelberga olim imperatrix genitrix mea a fundamentum
+                        aedificavit in propriis rebus suis, dono, cedo, confero pro remedium anime
+                        meae vel quondam augustorum genitori et genitrix mea, ut dixit, pro remedium
+                        anime meae vobis Sconburgae abbatisse vel ad successoribus tuis in perpetuum
+                        ad usum et stipendium <rs key="#Nuns/sanctimoniales">monacharum Dei ibique
+                            degentium</rs>, qui cotidie in ipsum sanctum et venerabilem locum
+                        deserviunt, futuris temporibus eorum iure abendum, hoc est <rs
+                            key="#Curtes #Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
+                            >curtes duas iuris meas</rs> qui sunt positas <geogName
+                            key="#Curtes #Comitatus" ref="#estates/193">in comitatu <placeName
+                                ref="#places/191">Regiensis</placeName></geogName>; una ex his in
+                        fundo et loco <geogName
+                            key="#Curtes #Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
+                            ref="#estates/40"><placeName ref="#places/33"
+                                key="#Curtes #Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
+                                >Wardestalla</placeName></geogName> hubi <geogName
+                            key="#Houses #Natural_landscape #Rivers #Mountains #Curtes #Casae/cassinae_massaricie #Landed_possessions #Forests #Fisheries #Mills #Wine #Fruits/vegetables #Hay/fodder #Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches #Ports #Local_markets #Public_exactions #Teloneum #Royal_slave #Royal_aldius"
+                            ref="#estates/194"><placeName
+                                key="#Curtes #Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
+                                ref="#places/435">Felina</placeName></geogName> dicitur, alia hubi
+                            <geogName
+                            key="#Houses #Natural_landscape #Rivers #Mountains #Curtes #Casae/cassinae_massaricie #Landed_possessions #Forests #Fisheries #Mills #Wine #Fruits/vegetables #Hay/fodder #Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches #Ports #Local_markets #Public_exactions #Teloneum #Royal_slave #Royal_aldius #Curtes #Casae/cassinae_massaricie #Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches #Churches"
+                            ref="#estates/38"><placeName
+                                key="#Curtes #Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
+                                ref="#places/32">Luciaria</placeName></geogName> dicitur cum <rs
+                            key="#Churches">capellas duas</rs>, una qui est in honore <orgName
+                            key="#Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches #Churches"
+                            ref="#juridical_persons/140">sancti Georgii</orgName>, alia in honore
+                            <orgName
+                            key="#Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches #Churches"
+                            ref="#juridical_persons/139">sancti Petri</orgName>. Has vero
+                        prenominatas curtes cum omnibus earum adiacentiis vel pertinentiis suis <rs
+                            key="#Fiscal_property #Outflow #Allocation_to_churches">de meo iure et
+                            dominio transfundo in prenominatum coenobium</rs> ad usum et stipendia
+                        monacharum Dei ibique degentium, confirmo abendum futuris temporibus tam <rs
+                            key="#Houses">casis</rs> scilicet, <rs key="#Landed_possessions"
+                            >terris</rs>, <rs key="#Wine">vineis</rs>, <rs key="#Hay/fodder"
+                            >pratis</rs>, <rs key="#Landed_possessions">pascuis</rs>, <rs
+                            key="#Forests">silvis</rs>, <rs>salectis</rs>, <rs>stationibus</rs>, <rs
+                            key="#Mountains">montibus</rs>, <rs key="#Natural_landscape">vallibus,
+                            ripis, rupinis</rs>, <rs key="#Landed_possessions">divisum et
+                            indivisum</rs>, <rs key="#Rivers">aquis aquarumque decursibus</rs>, <rs
+                            key="#Fisheries">Bundini atque Ducalis piscationibus</rs>, <rs
+                            key="#Mills">molendinis</rs>, <rs key="#Fruits/vegetables">arboribus
+                            pomiferis et inpomiferis</rs>, tam <rs
+                            key="#Local_markets #Public_exactions">mercatas</rs> quamque et <rs
+                            key="#Teloneum">toloneum</rs> seu <rs key="#Ports">portoras</rs> in <rs
+                            key="#Rivers">fluvio Padi</rs> cum omnia iura et adiacentiis suarum cum
+                            <rs key="#Royal_slave">servos et ancillas</rs>, <rs key="#Royal_aldius"
+                            >aldiones vel aldionas utriusque sexus</rs>, quicquid dici aut nominari
+                        potest, omnia ad integritatem a <persName key="#Emperor/king"
+                            ref="#people/110">genitore meo</persName> aut <persName key="#Queen"
+                            ref="#people/55">genitrice mea</persName> sicut fuerunt posesse vel
+                        defense et modo a me sunt posesse, nisi tantum anteposita <rs key="#Curtes"
+                            >curticella una</rs>
+                        <geogName ref="#estates/193" key="#Comitatus">in comitatu
+                            Regisiano</geogName> in loco qui dicitur <geogName
+                            key="#Curtes #Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
+                            ref="#estates/77"><placeName
+                                key="#Curtes #Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
+                                >Lectora Paludani</placeName></geogName>, cum <rs
+                            key="#Casae/cassinae_massaricie">duobus masariciis</rs> qui pertinere
+                        videntur de curte Luciaria, qui regere videtur una per filio <persName><name
+                                ref="Bonivertus">Boniverti</name></persName> et alia per
+                                <persName><name ref="Albertus/Adelmannus">Alberto</name></persName>
+                        de ipso loco, qui Adelmanni dicimus, per cartulam dedi seu et <rs
+                            key="#Landed_possessions">sortes tres et dimidia</rs> in <placeName
+                            key="#Landed_possessions">Runcarioli</placeName> qui pertinet de curte
+                        Wardestalla, quas <persName key="#Deacons"><name ref="Everardus"
+                                >Evrardi</name></persName>
+                        <rs key="#Deacons">diacono</rs> usufructario dedi diebus vite suae; post
+                        eius discessum deveniant in predicto cenobium, ut supra, pro remedium anime
+                        meae, nam altera omnia, ut supra, una cum accessione et introitu suarum cum
+                        superiora et inferiora suarum cum omnia super astantem vel abentem ex
+                        integrum ita abendi, tenendi, possedendi, fruendi et faciendi exinde tam vos
+                        quamque et successoribus vestris secundum Deum quod voluerit, ut dixi, pro
+                        remedium anime meae et quondam genitori et genitrice mea. Si quis vero, quod
+                        in futuris esse non credo, si fuerint in postmodum aut ego ipsa Hirmengarda
+                        aut aliquis de eredibus ac proheredibus meis seu quislibet ulla oppositaque
+                        persona qui contra hanc cartulis donationis seu cessionis vel offersionis
+                        meae, quae pro anima mea fieri et firmare rogavi, venire aut frangere vel
+                        emutare voluerit et ad me et ad heredibus meis vobis defensatum non fuerit,
+                        tunc tantum et alteris im tantum vobis daturus esse promitto in consimili
+                        loco, et insuper <rs key="#Penalty">aurum obtimum libras quinque, argentum
+                            ponderas decem</rs> vobis coactum exsolvat, et quod repecierimus et
+                        vindicare non valeamus, set presens donationis vel cessio ista omnique
+                        tempore firma et inconvulsa permaneat cum stipulatione subnixa. Et taliter
+                        iusta et secundum legem meam Salicam, in qua manifesta sum vivere, vobis
+                        Sconburge abbatisse ad partem earum monache, que cotidie in iam dicto
+                        sanctum et venerabilem locum deserviunt, trado et legitimam faticio
+                        investituram ad usum et stipendia habendum <rs key="#Public_rituals">per
+                            vuasonem terrae cultellum festucum nodatum frondes arborum </rs>presenti
+                        die eorum iure habendum omnia sicut supra legimus; et me exinde foris
+                        abvuarpisco et abasasito feci his presentibus, et birgamina cum atramentario
+                        de terra levavi et <persName key="#Notary"><name ref="Leo"
+                            >Leone</name></persName>
+                        <rs key="#Notary">notarius</rs> scribere rogavi. Quidem et ego Leo notarius
+                        rescribsi pridie kal. Decembr., anno domni <persName key="#Emperor/king"
+                            ref="#people/82">Witoni</persName>
+                        <rs key="#Emperor/king">rex</rs> tercio, indictione nona. Actum Placentia.
+                        Signum manus suprascripte Hermengarde Deo devota qui hanc cartulam fieri et
+                        firmare rogavi. Signum manus <persName key="#Witness"><name ref="Fulcus"
+                                >Fulconi</name></persName> ex <rs key="#Natio">genere Francorum</rs>
+                        testis. Signum manus <persName key="#Witness"><name ref="Albericus"
+                                >Alberici</name></persName> [ex] genere Francorum. Signum manus
+                            <persName key="#Witness"><name ref="Roduinus">Rodoini</name></persName>
+                        ex genere Francorum. Signum manus <persName key="#Witness"><name
+                                ref="Wallaro">Vuallaroni</name></persName> ex genere Francorum
+                        testis. Signum manus <persName key="#Witness"><name ref="Radulfus"
+                                >Ratulfi</name></persName> ex genere Francorum testis. Ego Leo
+                        notarius scriptor huius cartule postradita complevi et dedi». Quidem et ego
+                            <persName key="#Notary"><name ref="Andreas">Andreas</name></persName>
+                        <rs key="#Notary">notarius</rs> domni regis ex iussione Sigifredi comiti
+                        sacri palacii et amonitione predictorum iudicum scripsi. Anno regni domni
+                        Berengarii regi Deo propiciatio XV, mense ianuario, indicione sexta. Signum
+                        [manus] suprascripto Sigifredi comiti palatii qui ut supra interfui.
+                        Heverardus humilis episcopus interfui et subscripsi. Adalmannus episcopus
+                        interfui et subscripsi. Aldegrasus iudex regis interfui. Adelbertus iudex
+                        domni regis interfui. Farimundus iudex domni regis interfui.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>DD B I, pp. 107-111, n° XXXVII</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p>Cimino 2012.</p>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

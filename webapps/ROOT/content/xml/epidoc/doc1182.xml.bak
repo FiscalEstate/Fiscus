@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Bergamo, Archivio Capitolare, fasc. 13, B.</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc1182</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Compendium</rs>
+                            <rs type="fiscal_property">Yes</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0899">
+                                <note type="displayed_date"/>
+                                <note type="dating_elements"/>
+                                <note type="topical_date"/>
+                                <note type="redaction_date">X ineunte (21 novembre 911).</note>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-02-08" who="cstedile">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>Manifesta causa est mihi <persName key="#Bishops" ref="#people/78"
+                            >Adelberto</persName> humili <rs key="#Bishops">episcopo</rs>
+                        <orgName ref="#juridical_persons/189">sancte <placeName ref="#places/10"
+                                >Bergomensis</placeName> ecclesie</orgName>, quia moderno tempore
+                        [statui] et ordinavi <rs key="#Collegiate_churches">canonicam</rs> in
+                            <orgName key="#Collegiate_churches">ecclesia Beati Vincenci martiris
+                            Christi</orgName> sita infra ipsam urbem ubi prope est domus ipsius
+                        sedis, et statui ibi in ipsa ecclesia ordinarios canonice vivere, et
+                        concessi ibi <rs key="#Houses">casas</rs> et res vel <rs key="#Royal_slave"
+                            >familias</rs> ad ipsam canonicam in subsidium eorum <rs key="#Monks"
+                            >fratrum</rs>, <rs key="#Priests">sacerdotum</rs> et relicorum
+                        ordinariorum aberi ad eorum refeccionem pro tempore. Mihi coque <rs
+                            key="#Emperor/king">reges et imperatores</rs> per precepta aliquod casas
+                        et res et familias <rs key="#Fines">in finibus <geogName key="#Comitatus"
+                                ref="#estates/270"><rs key="#Comitatus">comitatus</rs>
+                                Bergomensis</geogName></rs> donevarunt et concesserunt, maxime autem
+                        domnus <persName key="#Emperor/king" ref="#people/21">Berengarius</persName>
+                        rex, qui presenti tempore est, mihi confirmavit et <rs
+                            key="#Fiscal_property #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_individuals"
+                            >concessit ipsas casas et res vel familias proprietario iure</rs>
+                        abendum, dignum est exinde in sanctis et venerabilibus locis offerre.
+                        Preterito namque tempore <rs key="#Periodic_markets">mercatum</rs> mihi ab
+                        eodem domno Berengario serenissimo rege proprietario iure conlatum quod
+                        Beati Alexandri dicitur, eo quod eiusdem sacri martiris festivitate iuxta
+                        prefatam urbem annualiter perficiatur eisdem canonicis ordi[n]ariis in
+                        subsidium quod exinde posset aquiri pro anime prelibati regis nostreque et
+                        parentum nostorum remedio devote concessit, modo ego qui supra Adelbertus
+                        episcopus... dono et ofero ad ipsam sanctam congregacionem id est ad
+                        canonicos ordinarios suprascripte ecclesie Sancti Vincenci.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>DD B I, pp. 406-407, Diplomi perduti n° 8</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

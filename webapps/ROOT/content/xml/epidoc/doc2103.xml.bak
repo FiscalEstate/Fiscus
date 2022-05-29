@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Milano, Biblioteca Ambrosiana, Pergamene, n° 807</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc2103</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property"/>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0871-04-14">
+                                <note type="displayed_date">871 aprile 14</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Benevento</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-02-08" who="cstedile">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine domini nostri Iesu Christi dei aeterni. <persName
+                            key="#Emperor/king" ref="#people/110">Hludouuicus</persName> gratia dei
+                            <rs key="#Emperor/king">imperator</rs> augustus. Si circa servos et
+                        ancillas dei munificentia nostrae benignitatis intulerimus, credimus hoc ad
+                        animae nostrae salutem efficatiter pertinere. Igitur omnium fidelium sanctae
+                        dei eclesiae nostrorumque industria, qualiter quaedam dei ancilla <persName
+                            key="#Abbesses"><name ref="Asia">Asia</name></persName> quondam <rs
+                            key="#Abbesses">abbatissa</rs>
+                        <rs key="#Monasteries">monasterii</rs>
+                        <orgName
+                            key="#Rivers #Islands #Landed_possessions #Forests #Fisheries #Walls #Ports #Roads #Fluvial_transport #Rights_of_use_on_woods/pastures/waters #Immunity #Inquisitio #Monasteries"
+                            ref="#juridical_persons/129">sanctae dei genetricis Mariae, quod
+                            nuncupatur Theodotae</orgName>, situm in urbe <placeName
+                            ref="#places/65">Ticinensi</placeName>, pro diversis utilitatibus
+                        eiusdem monasterii expetiit praecepta a domino ac genitore nostro <persName
+                            key="#Emperor/king" ref="#people/9">Hlothario</persName> imperatore de
+                        quadam <rs key="#Landed_possessions">terra</rs>
+                        <rs key="#Walls">muroque</rs> iuxta monasterium ipsum, qui urbis ipsius
+                        terminum includebat, ut ipse tam monasterii septum muniret quam urbis fines
+                        usque ad publicam viam includeret. Concessit etiam, ut res omnes, quascumque
+                        monasterium idem longo tempore possedit aut postea iuste ac legaliter tam
+                        emptione, donatione quam fidelium oblatione adquisivit ac deinceps similiter
+                        iuste et legaliter adquirere potuerit, <rs
+                            key="#Fiscal_property #Inflow #Purchase #Gift #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
+                            >tranquillo iure possideat</rs>, et ut nullus rei publicae minister aut
+                        aliquis ex iudiciaria potestate presumeret homines eiusdem monasterii
+                        liberos aut servos inquietare vel loca ad causas audiendas vel freda
+                        exigenda vel tributa aut mansiones vel paratas faciendas nec fideiussores
+                        tollendos aut homines eiusdem eclesiae tam ingenuos quam servos super terram
+                        ipsius commanentes distringendos nec ullas redibitiones aut inlicitas
+                        occasiones requirendas. Et quicquid exinde fisco nostro sperare poterat, in
+                        eodem sancto monasterio sollemni et perpetua securitate concessit. Dedit
+                        etiam licentiam de <geogName
+                            key="#Forests #Wood #Fiscal_property #Textual_occurrence #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches #Rights_of_use_on_woods/pastures/waters"
+                            ref="#estates/162"><rs key="#Forests">silva</rs>
+                            <placeName
+                                key="#Forests #Fiscal_property #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
+                                >Carbonaria</placeName></geogName> materiamen ad reparationem ipsius
+                        monasterii suscipere ac <rs key="#Rights_of_use_on_woods/pastures/waters"
+                                ><rs key="#Wood">ligna</rs> ad usum ignis habere</rs> secundum
+                        temporis oportunitatem. Et quando necessitas imminet, navem illius per <rs
+                            key="#Ports">Ticinensem portum</rs>
+                        <rs key="#Fluvial_transport">discurrere liceat</rs> absque alicuius
+                        controversia. Et commutationes rerum omnes, quas predicta Asia fecit,
+                        maneant inconvulsae. Et ut liceat eidem coenobio secundum regulam sancti
+                        Benedicti de propria congregatione abbatissam eligere. Et sint res eius sub
+                            <rs key="#Immunity">imperiali immunitate</rs> defensae. Et si necessitas
+                        evenerit, de rebus et familiis ipsius per <rs key="#Inquisitio"
+                            >inquisitionem imperialem</rs> rei veritas adprobetur. Nos autem
+                        precibus <persName key="#Abbesses"><name ref="Caila"
+                            >Cailae</name></persName> ipsius monasterii religiosae abbatissae atque
+                        congregationis eius stimulati ob animae nostrae mercedem pie considerantes
+                        haec omnia, sicut a domino ac genitore nostro concessa sunt, inconvulse
+                        concedimus ac firmamus eidem venerabili loco perfruendum, sollemni iure
+                        statuimus possidenda, et sub nostra tuitione secure ac sinceriter
+                        perseverent. Insuper concedimus in praefato monasterio pro mercede animae
+                        nostrae vadum unum in <rs key="#Rivers">Pado</rs>
+                        <rs key="#Fisheries">ad piscandum</rs>, ubi nominatur <placeName
+                            ref="#places/310" key="#Fisheries">Caput lacti</placeName>, habentem
+                        terminum superiorem in <placeName>Cocuzo Gepidasco</placeName>, inde
+                        percurrit ad eum locum, ubi Agonia influit in Padum. Concedimus etiam in
+                        praedicto venerabili monasterio <rs key="#Islands">insulas</rs> iuxta
+                        praedictam <rs key="#Fisheries">piscationem</rs> ex utraque parte Padi,
+                        quicquid antiquo tempore idem monasterium seu moderno optinuit vel Padus
+                        invasit aut in futurum inruperit de propriis ipsius monasterii rebus fine
+                            <placeName>Nebiasco</placeName> usque in fluvium Agonia, deinde ipse
+                        finis descendit in Padum et a termino, qui vocatur
+                            <placeName>Grindolado</placeName>, percurrit in Melum insitum, deinde ad
+                        portum Caput lacti, quantum idem monasterium praeterito tempore obtinuit suo
+                        iure et nunc obtinere videtur seu quod <persName key="#Emperor/king"
+                            ref="#people/217">Chunipert</persName>
+                        <rs key="#Emperor/king">rex</rs> inibi per suum contulit <rs
+                            key="#Imperial/royal_diploma">praeceptum</rs>. Precipientes ergo
+                        iubemus, ut nemo fidelium nostrorum parti praedicti monasterii de his
+                        omnibus, quae supra a nobis concessa sunt, quolibet tempore ullam praesumat
+                        inferre molestiam aut contrarietatem, sed sub omni integritate, sicut a
+                        nobis concessa sunt et hac auctoritate nostra condonata sunt, perenniter
+                        [i]b[i]dem ad utilitatem monasterii sine diminutione permaneant. Si quis
+                        autem contra huius nostri praecepti securitatem violentiam eidem monasterio
+                        temptaverit inferre, componat <rs key="#Penalty">auri optimi libras
+                        sex</rs>, <rs key="#Camera_regis">medietatem palatio nostro</rs>, <rs
+                            key="#Camera_of_other_public_authorities">reliquam medietatem parti
+                            eiusdem monasterii</rs>. Et ut haec nostra auctoritas pleniorem obtineat
+                        vigorem et a fidelibus nostris diligentius observetur, manu propria subter
+                        firmavimus et anuli nostri inpressione adsignari iussimus.   Signum (MF.)
+                        domni Hludouuici serenissimi augusti. Et ego <persName
+                            key="#Chaplain #Priests"><name ref="Gauginus">Gauginus</name></persName>
+                        <rs key="#Priests">sacerdos</rs> atque <rs key="#Chaplain">cappellanus</rs>
+                        iussu ipsius serenissimi augusti scripsi et (SR.) (SI. D.) Acta <placeName
+                            ref="#places/110">Beneuenti</placeName>; data XVIII kl. mai., anno
+                        Christo propitio imperii serenissimi augusti domni Hludouuici XXII,
+                        indictione IIII; feliciter in domino amen.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>MGH DD Lu II, pp. 170-171, n° 53</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>In questo diploma si fa riferimento a MGH DD Lo I, pp. 117-119, n° 38. Il
+                    contenuto viene ripreso da Berengario I in DD B I, pp. 242-243, n° XC.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivio Storico Diocesano di Lucca, Archivio Arcivescovile di Lucca,
+                    Diplomatico, +I.92</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc4034</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">--Venditio</rs>
+                                    <rs type="record_source" ref="#">Critical edition</rs>
+                                    <rs type="document_tradition" ref="#">Original</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate notBefore="0742-10-01" notAfter="0745-08-31">
+                                <note type="displayed_date">[742 Octobert - 745 August]</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">San Donato <foreign>in
+                                    Fasqua</foreign></note>
+                                <note type="redaction_date"/>
+                             </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance type="findspot">
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2021-05-27" who="scollavini">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab><persName key="#Vir_devotus/vir_honestus"><name ref="Ermithancus"
+                                >Emithancu</name></persName>
+                        <rs key="#Vir_devotus/vir_honestus">vir honestus</rs> filius <persName><name
+                                ref="Emmus">Emmi</name></persName> una cum coiuge sua <persName
+                            key="#Vir_devotus/vir_honestus">Teuflada</persName> filia quondam
+                                <persName><name ref="Muccius">Muccioni</name></persName>
+                        <foreign>vendono a</foreign>
+                        <persName key="#Priests"><name ref="Tanualdus">Tanualdi</name></persName>
+                        viro venerabili <rs key="#Priests">presbitero</rs> de <orgName
+                            key="#Churches" ref="#juridical_persons/243">beatus Sancto
+                            Reculi</orgName> medietate de <rs key="#Casae/cassinae_massaricie"
+                            >case</rs> me in <placeName ref="#places/672"
+                            key="#Casae/cassinae_massaricie #Landed_possessions #Cereals #Wine #Fruits/vegetables #Acorns"
+                            >Paternu</placeName>, <rs key="#Casae/cassinae_massaricie">case</rs>
+                        <persName key="#Casae/cassinae_massaricie"><name ref="Minculus"
+                                >Minculi</name></persName> et <persName
+                            key="#Casae/cassinae_massaricie"><name ref="Raccorus"
+                            >Racculi</name></persName> cum <rs key="#Landed_possessions">terra</rs>
+                        et <rs key="#Wine">vineas</rs>, <rs key="#Cereals">campis</rs>, <rs
+                            key="#Acorns">silvis</rs>, cum <rs key="#Fruits/vegetables">arbustra
+                            fructefera,</rs> cum fontis; omnia in adpretiato in tregenta soledus (…)
+                        quem tertio homo Deus timente dixere. <foreign>Prezzo</foreign>: auris
+                        soledus nomero tregenta. <foreign>Pena in duplum. Scrive</foreign>:
+                            <persName key="#Writer"><name ref="Albertus">Alipertu</name></persName>
+                        amico meo. (…) Actum ad <rs key="#Monasteries">monstio</rs>
+                        <orgName key="#Monasteries">Sanctu Donatu</orgName> in <placeName
+                            key="#Monasteries">Fasqua</placeName>, in <rs key="#Fines">finibus</rs>
+                        <geogName key="#Fines" ref="#estates/107">Voloterrana</geogName>.
+                            <foreign>Sottoscrizioni</foreign>: + Ermitanchi viri honesti vendituri;
+                        + Teufrada <rs key="#Vir_devotus/vir_honestus">viro honesta</rs>
+                        venditricis; + <persName key="#Witness #Vir_devotus/vir_honestus"><name
+                                ref="Auduinus">Aiduini</name></persName>
+                        <rs key="#Vir_devotus/vir_honestus">viri devoti</rs>, parente eius, testis;
+                        + <persName key="#Witness #Vir_devotus/vir_honestus"><name ref="Alboinus"
+                                >Albuini</name></persName>
+                        <rs key="#Vir_devotus/vir_honestus">viri devoti</rs> filius quondam
+                                <persName><name ref="Baruncius">Baronci</name></persName> testis; +
+                            <persName key="#Witness #Vir_devotus/vir_honestus"><name ref="Ursus"
+                                >Ursu</name></persName>
+                        <rs key="#Vir_devotus/vir_honestus">viri devoti</rs> filius quondam
+                                <persName><name ref="Fridualdus">Fridualdi</name></persName> parente
+                        eius testis; + <persName key="#Witness #Vir_devotus/vir_honestus"><name
+                                ref="Tachipertus">Tachipert</name></persName>
+                        <rs key="#Vir_devotus/vir_honestus">viri devoti</rs> filius quondam
+                                <persName><name ref="Teudemarius">Teudimari</name></persName>
+                        testis; + <persName key="#Witness #Vir_devotus/vir_honestus"><name
+                                ref="Baroncellus">Baroncellu</name></persName>
+                        <rs key="#Vir_devotus/vir_honestus">viri devoti</rs> filius quondam
+                                <persName><name ref="Troncius">Tronci</name></persName> testis; +
+                            <persName key="#Witness #Vir_devotus/vir_honestus"><name ref="Mazulius"
+                                >Mazulio</name></persName>
+                        <rs key="#Vir_devotus/vir_honestus">viri devoti</rs> filius quondam
+                                <persName><name ref="Teudemarius">Teudimari</name></persName>
+                        testis; + <persName key="#Witness #Vir_devotus/vir_honestus"><name
+                                ref="Pincius">Pinci</name></persName>
+                        <rs key="#Vir_devotus/vir_honestus">viri devoti</rs> filius quondam
+                                <persName><name ref="Baruncius">Barunco</name></persName> testis. </ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>MDL IV/1, n. 42; reg. MDL V/2, n. 32; CDL, I, n. 84, pp. 248-250; ChLA,
+                    XXXI, 922.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                         <p><foreign>Nota dorsale (sec. VIII)</foreign>: carta de Paterno
+                    f[..]n[..]s[.] Sancti Reguli. <foreign>Nota dorsale (sec XII ex)</foreign>:
+                    Offersio Sancto Regulo de casis in Paterno. </p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

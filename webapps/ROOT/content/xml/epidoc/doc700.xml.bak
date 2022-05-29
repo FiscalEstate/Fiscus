@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Archivio Abbaziale di Nonantola, Pergamene, I 11</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus
+                        Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc700</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property">Yes</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate notBefore="0797-01" notAfter="0797-06">
+                                <note type="displayed_date">797 Jannuary/June</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Aachen (DE)</note>
+                                <note type="redaction_date"/>
+                             </origDate>
+                            <origPlace/>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place/>
+                </listPlace>
+                <listPerson>
+                    <person/>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-02-23" who="emanarini">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>
+                        <persName key="#Imperial/royal_diploma" ref="#people/14">Carolus</persName>
+                        gratia Dei <rs key="emperor/king">rex</rs> Francorum et Langobardorum ac <rs
+                            key="patricius">patricius</rs> Romanorum. […] qualiter vir venerabilis
+                            <persName ref="#people/49"
+                            key="#Imperial/royal_diploma #Offersio/donatio #Abbots">
+                            Anselmus</persName>
+                        <rs key="#Abbots">abba</rs> ex <orgName ref="#juridical_persons/47"
+                            key="#Imperial/royal_diploma #Offersio/donatio #Fundi #Fiscal_property #Monasteries"
+                            >monasterio</orgName>, quod est constructum in honore Dei et sanctorun
+                        omnium apostolorum vel Sancti Silvestri confessor Christi et Sancti
+                        Benedicti abbatis in <rs key="#City_territory">territorio</rs>
+                        <placeName ref="#places/38" key="#City_territory">Motoninse</placeName> loco
+                        noncupante <placeName ref="#places/15" key="#Monasteries"
+                            >Nonantulas</placeName>, missa petitioni serenitate nostrae suggessit,
+                        eo quod quidam <rs key="#Lombard">Langobardus</rs> nomine <persName
+                            key="#Offersio/donatio" ref="#people/86">Adoin</persName>, filius
+                            <persName ref="#people/89">Vectari</persName> quondam, omnes res
+                        proprietatis sue, quantumcumque in territoria <placeName ref="#places/69"
+                            key="#City_territory">Vicentina</placeName> et <placeName
+                            ref="#places/59" key="#City_territory">Veroninse</placeName> ubi et ubi
+                        per singulas civitates et territoria visus fuit habere, cum omni integritate
+                        ad super scriptum monasterium per cartolam <rs key="#Offersio/donatio"
+                            >donationis</rs> sue visus est delegasse, et adserit se ipsas res cum
+                        aequitatis ordine ad partem monasterii sui quieto tramite possidere. Sed pro
+                        integra firmitate petiit celsitudini nostrae, ut hoc denuo circa ipsum
+                        sanctum locum ex nostra indulgentia, quicquid praedictus Adoinus ad ipsam
+                        causam Dei iuste et racionabiliter visus est delegasse, plenissima
+                        deliberatione cedere et confirmare deberemus, sicuti pro mercedes nostrae
+                        augmentum visi sumus fecisse. Quapropter per presentem auctoritatem nostram
+                        decernimus ac iubemus, ut inspecta ipsa donatione praedicti Adoini quondam,
+                        sicut per eam declaratur quicquid ad praephatum monasterium iusto tramite
+                        delegavit, deinceps per hoc nostrum serenitatis atque confirmationis
+                        praeceptum ad ipsum sanctum locum perpetualiter proficiat in augmentis. Et
+                        specialiter concedimus ad super scriptum monasterium pro anime nostrae
+                        salutem res illas in territurio <placeName key="#City_territory"
+                            ref="#places/7">Bononiense</placeName>, quas <persName
+                            key="#Imperial/royal_diploma #Fiscal_property #Emperor/king"
+                            ref="#people/12">Liutprandus quondam rex</persName>
+                        <persName
+                            key="#Imperial/royal_diploma #Libellus/precaria/emphyteusis #Fiscal_property #extendedHouseholdOf"
+                            ref="#people/88">Gregorio quondam <persName><name ref="Grecus"
+                                    >Greco</name></persName> iocatori</persName> suo et eius filiis
+                        per suum confirmavit <rs key="#Imperial/royal_diploma">praeceptum</rs>, <rs
+                            key="#Fundi">fundo</rs>
+                        <placeName key="#Fundi #Fiscal_property">Caldario</placeName> et <placeName
+                            key="#Fundi #Fiscal_property"> Cesaretico</placeName> et fundo
+                            <placeName key="#Fundi #Fiscal_property"> Casa Novola</placeName>, sicut
+                        ipse Gregorius per praeceptum ante dicti Liutprandi regis vel per <rs
+                            key="#Libellus/precaria/emphyteusis">enfiteusi</rs> tenuit et postea
+                        iure legitimo nostro devenerunt dominio in integrum, ita ut ab hodiernum
+                        diem ante dictus Anselmus abba suique successores, qui fuerint rectores in
+                        ipso monasterio, vel monachi inibi sub sancta regula consistentes per hanc
+                        nostram auctoritatem habeant concessum, quatenus melius eis delectet pro
+                        nobis vel pro stabilitate regni nostri adtentius Domini misericordiam
+                        exorare. Et ut haec praeceptio atque confirmatio firmior habeantur et
+                        diuturnis temporibus melius conservetur, manu propria subter firmavimus et
+                        de anulo nostro sigillari iussimus. Signum Caroli gloriosissimi regis
+                            <persName key="#Chancellor"><name ref="Erchanbold"
+                            >Ercanbaldus</name></persName> relegi et sub […] Actum <placeName
+                            key="#Palatium" ref="#places/83">Aquis palatio publico</placeName>. […] </ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>CHLA 29, n. 884.</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p>Manarini 2017.</p>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
