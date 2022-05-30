@@ -35,7 +35,7 @@
                             <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Copy</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -84,26 +84,41 @@
             <div type="edition">
                 <div type="textpart">
                     <ab>In nomine Domini Dei Salvatoris nostri Iesu Christi. Concessemus nos domnus
-                        vir gloriosissimus <persName ref="#people/2004">Romvvald</persName> summus
-                        dux gentis Langubardorum, per rogum <name ref="Anno">Annuni</name>
-                        attionario nostro, tibi <name ref="Teuderacis">Theodoraci</name> venerabili
-                        abbati nostro qui in Sancto Petro ad Aqua Sancti Potiti deservire visuhis,
-                        filiis quoddam <name ref="Iohannes Dalmatinus">Iohanni Dalmatini</name>, id
-                        est <name ref="Zillone">Zillone</name> et <name ref="Warnicausus"
-                            >Warnecauso</name>, <name ref="Stephanus">Stephano</name> seu et <name
-                            ref="Therferada">Therferada</name> cum casa et terrola in quantum habere
-                        visi sunt, qui fuerunt coloni nostri de subactionem nominati Annuni
-                        attionario nostro et habitare videntur in loco qui nominatur Gratiano,
-                        quatenus ab hodierno die habeas et possedeas tam tu qui supra Theodoraci
-                        abbas quanque et posterisque tuis qui in ipsum nominato venerabilis locum
-                        deservierint, et a nullus quempiam hominem nunquam habeatis aliquando
-                        aliquam questionem aut reprehensionem, sed perpetuis temporibus per hunc
-                        nostrum firmissimum preceptum ipsis iam dictis filiis quoddam Iohannis una
-                        cum omnia eorum pertinentiam securiter et firmiter habere et possidere
-                        valeatis. Quod vero preceptum concessionis ex iussione nominate potestati
-                        dictavi ego <name ref="Persus">Persus</name> vice dominus et referendarii
-                        tibi <name ref="Warnicausus">Warnecauso</name> notario scribendum. Acto in
-                        Borfaniana mense magio per indictione septima. Feliciter.</ab>
+                            <rs key="#Vir_gloriosus/vir_sublimis">vir gloriosissimus</rs>
+                        <persName ref="#people/2004" key="#Marquis/duke">Romvvald</persName> summus
+                        summus <rs key="#Marquis/duke">dux</rs> gentis Langobardorum, <rs
+                            key="#Intercessory">per rogum</rs>
+                        <name ref="Annus">Annuni</name>
+                        <rs key="#Actionarii/actores">attionario</rs> nostro, tibi <persName
+                            ref="#people/3608" key="#Abbots">Theodoraci</persName>
+                        <rs key="#Personal_rank">venerabili</rs>
+                        <rs key="#Abbots">abbati</rs> nostro qui in  <orgName
+                            ref="#juridical_persons/3416" key="#Churches">Sancto Petro ad Aqua
+                            Sancti Potiti</orgName> deservire visuhis, <rs
+                            key="#Fiscal_property #Object #Redistributive #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
+                            >filiis quoddam <name ref="Iohannes Dalmatinus">Iohanni
+                            Dalmatini</name>, id est <name ref="Zillone">Zillone</name> et <name
+                                ref="Warnicausus">Warnecauso</name>, <name ref="Stephanus"
+                                >Stephano</name> seu et <name ref="Therferada">Therferada</name> cum
+                                <rs key="#Houses">casa</rs> et <rs key="#Landed_possessions"
+                                >terrola</rs></rs> in quantum habere visi sunt, qui fuerunt <rs
+                            key="#Coloni/tenants">coloni</rs> nostri de <rs key="#Subactio"
+                            >subactionem</rs> nominati Annuni <rs key="#Actionarii/actores"
+                            >attionario</rs> nostro et habitare videntur in loco qui nominatur
+                        Gratiano, quatenus ab hodierno die habeas et possedeas tam tu qui supra
+                        Theodoraci abbas quanque et posterisque tuis qui in ipsum nominato
+                        venerabilis locum deservierint, et a nullus quempiam hominem nunquam
+                        habeatis aliquando aliquam questionem aut reprehensionem, sed perpetuis
+                        temporibus per hunc nostrum firmissimum preceptum ipsis iam dictis filiis
+                        quoddam Iohannis una cum omnia eorum pertinentiam securiter et firmiter
+                        habere et possidere valeatis. Quod vero preceptum concessionis ex iussione
+                        nominate potestati dictavi ego <persName ref="#people/3454"
+                            key="#Other_palatine_officer">Persus</persName>
+                        <rs key="#Other_palatine_officer">vice dominus et referendarii</rs> tibi
+                            <persName ref="#people/3613" key="#Notary">Warnecauso</persName>
+                        <rs key="#Notary">notario</rs> scribendum. Acto in <placeName
+                            ref="#places/3471" key="#Villages/settlements">Borfaniana</placeName>
+                        mense magio per indictione septima. Feliciter.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
