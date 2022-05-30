@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Lucca, Archivio Storico Diocesano, Archivio Arcivescovile, Diplomatico, + B
+                    79</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc3348</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Libellus/precaria/emphyteusis</rs>
+                            <rs type="record_source" ref="#">Original document</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property">Uncertain</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0887-03-27">
+                                <note type="displayed_date">887 March 27</note>
+                                <note type="dating_elements">Settimo anno d'impero di Carlo il
+                                    Grosso</note>
+                                <note type="topical_date">Lucca</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace></origPlace>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-02-08" who="mviti">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab><persName><name ref="Andreas">Andreas</name></persName> filio
+                            <persName>quondam <name ref="Petrus">Petri</name>
+                        </persName>et <persName><name ref="Ildebertus">Ildiperto</name></persName>
+                        filio <persName>quondam <name ref="Ildebrandus">Ildiprandi</name></persName>
+                        ricevono da <persName ref="#people/214" key="#Bishops">Gherardus</persName>,
+                        gratia Dei huius sancte Lucanem ecclesie humilis <rs key="#Bishops"
+                            >episcopus</rs>, per cartula livellario nomine ad laborandum et
+                        gubernandum seo meliorandum (…), duo petiis de terris et una alia petia de
+                        terra quod est quercieto in loco et finibus <placeName ref="#places/513"
+                            >Turre</placeName> ubi vocitatur <placeName>Canneto</placeName>,
+                        pertenentes <rs key="#Churches">ecclesie</rs> vestre <orgName
+                            ref="#juridical_persons/70" key="#Churches">Sancti Fridiani</orgName>
+                        sita <placeName key="#Cities" ref="#places/4">foras <rs key="#Cities"
+                                >civitate</rs> ista Lucense</placeName>, quod est de subpotestatem
+                        ecclesie <rs key="#Mother_churches">episcopatui</rs> vestro <orgName
+                            ref="#juridical_persons/68" key="#Mother_churches">Sancti
+                            Martini</orgName>; quas ipse terre et quercieto nos ipsis usque modo ad
+                        manus nostra abuimus, qui una ex ipse petia vocitatur ad
+                            <placeName>Canneto</placeName> et illa alia petia vocitatur ad
+                            <placeName>Quercieto Aurie</placeName>, et ille tertia petia de terra
+                        vocitatur <placeName>ante casa domuli</placeName></ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>MDL, 5/2, n. 952, p. 587; ChLA, 85, n. 42, pp. 144-147</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p>Viti 2019-2020, p. 190</p>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>Sottoscrizioni autografe: notarius (scrittore). Sottoscrizioni con
+                        <foreign>Signa</foreign>: </p>
+            </div>
+        </body>
+    </text>
+</TEI>
