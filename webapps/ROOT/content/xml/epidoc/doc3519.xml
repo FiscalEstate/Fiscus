@@ -35,7 +35,7 @@
                             <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Copy</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -84,11 +84,12 @@
             <div type="edition">
                 <div type="textpart">
                     <ab>[I]n nomine Domini salvatoris nostri Iesu Christi Dei eterni. <persName
-                            ref="#people/2486">Paldolfus</persName> et <persName ref="#people/2902"
-                            >Landolfus</persName> filius eius divina ordinante providentia
-                        Langobardorum gentis principes. Cum principali excellentia petitionibus
-                        dilectorum suorum omnibus iuste petentibus clementer favet, igitur noverit
-                        omnium fidelium nostrorum presentium scilicet ac futurorum sagacitas
+                            ref="#people/2486" key="#Princeps">Paldolfus</persName> et <persName
+                            ref="#people/2902" key="#Princeps">Landolfus</persName> filius eius
+                        divina ordinante providentia Langobardorum gentis <rs key="#Princeps"
+                            >principes</rs>. Cum principali excellentia petitionibus dilectorum
+                        suorum omnibus iuste petentibus clementer favet, igitur noverit omnium
+                        fidelium nostrorum presentium scilicet ac futurorum sagacitas
                             <name>Randoisio</name> comite dilectum nostrum fidelem hac filius
                             <name>Berardi</name> comiti per <name>Roffridum</name> comitem dilectum
                         nostrum fratrem nostram adiisse a Deo protegendam principalem dignitatem,
@@ -113,11 +114,13 @@
                         duocenti, medietatem sacri nostri palatii et medietatem tibi supra dicti
                         Randoisi comiti tuisque heredibus. Ut hec autem ab omnibus immobiliter
                         obserbetur, manu propria scripsimus et anulis nostris subter iussimus
-                        sigillari. <name ref="Madelbertus">Madelbertus</name> scriba ex iussione
-                        supra diete potestatis scripsi. Datur enim undecimo die intrante mense
-                        augusto in anno undecimo principatus domni Paldolfi gloriosi principis et
-                        sexto anno principatus domni Landolfi magnifici principis filii eius, quinta
-                        indictione. Actus in sacratissimo Benevento palatio.</ab>
+                        sigillari. <persName ref="#people/3445" key="#Writer">Madelbertus</persName>
+                        <rs key="#Writer">scriba</rs> ex iussione supra diete potestatis scripsi.
+                        Datur enim undecimo die intrante mense augusto in anno undecimo principatus
+                        domni Paldolfi gloriosi principis et sexto anno principatus domni Landolfi
+                        magnifici principis filii eius, quinta indictione. Actus in sacratissimo
+                            <placeName key="#Cities" ref="#places/110">Benevento</placeName>
+                        <rs key="#Palatium">palatio</rs>.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
