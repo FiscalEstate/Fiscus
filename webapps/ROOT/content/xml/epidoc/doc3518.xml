@@ -35,7 +35,7 @@
                             <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Copy</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -83,35 +83,50 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>In nomine Domini Dei Salvatoris nostri Iesu Christi. Concessimus nos vir
-                        gloriosissimus <persName ref="#people/1927">Radelchis</persName>
-                        Dei previdentia Langobardorum gentis princeps filius domni bone memorie
-                            <persName ref="#people/115">Adelchis</persName>, per rogum <name
-                            ref="Arichis">Arechis</name> fidelis nostri vobis <name ref="Grima"
+                    <ab>In nomine Domini Dei Salvatoris nostri Iesu Christi. Concessimus nos <rs
+                            key="#Vir_gloriosus/vir_sublimis">vir gloriosissimus</rs>
+                        <persName ref="#people/1927" key="#Princeps">Radelchis</persName> Dei
+                        previdentia Langobardorum gentis <rs key="#Princeps">princeps</rs> filius
+                        domni bone memorie <persName ref="#people/115" key="#Princeps"
+                            >Adelchis</persName>, <rs key="#Intercessory">per rogum</rs>
+                        <name ref="Arichis">Arechis</name> fidelis nostri vobis <name ref="Grima"
                             >Grima</name>, velamine sancte religionis induta, <name ref="Aiones"
-                            >Aiones</name> et <name ref="Ursus">Ursus</name> filio tuo <name
-                            ref="Iamprandus">Iamprandus</name> servus sacri nostri palatii ex loco
-                        Curtesani filius <name ref="Pertualdus">Pertoaldi</name> servus nostri
-                        palatii cum uxore, filiis, filiabus suis et cum omnibus cispitibus et
-                        pertinentiis suis, seu et omnibus rebus substantiis quibus fuit <name
-                            ref="Lupus">Lupi</name> et <name ref="Ermengari">Ermengari</name> seu
-                            <name ref="Alderissi">Alderissi</name> liberi hominibus cum omnibus
-                        pertinentiis eorum ex loco Piscatori, hęc est mobilibus atque inmobilibus,
-                        omnia vero in omnibus eorum pertinentiis, pro quo [s]ine heredes
-                        decesserunt, seu et concessimus vobis omnes illos porstatico quibus per
-                        singulas portas et pusterolas huius civitatis Beneventane annualiter dare
-                        debetis, ut exinde absque datione solutis maneatis, seu et concessimus vobis
-                        omnes servos vestros qui sibi liberas feminas tulerunt vel qui in antea
-                        tulerint uxores cum ipsis suis uxoribus, cum filiis, filiabus suis, sicut
-                        legibus ad nostram evenerunt vel evenerint potestatem, in ea videlicet
-                        ratione ut amodo et deinceps per hoc nostrum roboreum preceptum predicta
-                        omnia que superius legitur vos et vestris heredibus habere et possidere
-                        valeatis, et a nullo ex nostris iudicibus, id est comitibus, gastaldeis vel
-                        a quibuscumque agentibus habeatis aliquam requisitionem, sed perpetuis
-                        temporibus possideatis. Quod vero preceptum concessionis ex iussione
-                        nominate potestatis scripsi ego <name ref="Erchemfrid">Herchemfrid</name>
-                        notarius. Actum Benevento primo anno, mense ianuario, quarta decima
-                        indictione. Feliciter.</ab>
+                            >Aiones</name> et <name ref="Ursus">Ursus</name> filio tuo <rs
+                            key="#Fiscal_property #Object #Redistributive #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_individuals"
+                                ><name ref="Iamprandus">Iamprandus</name>
+                            <rs key="#Palatium #Slave">servus sacri nostri palatii</rs> ex loco
+                            Curtesani filius <name ref="Pertualdus">Pertoaldi</name>
+                            <rs key="#Palatium #Slave">servus nostri palatii</rs> cum uxore, filiis,
+                            filiabus suis et cum omnibus cispitibus et pertinentiis suis, seu et
+                            omnibus rebus substantiis quibus fuit <name ref="Lupus">Lupi</name> et
+                                <name ref="Ermengari">Ermengari</name> seu <name ref="Alderissi"
+                                >Alderissi</name>
+                            <rs key="#Freeborn">liberi hominibus</rs> cum omnibus pertinentiis eorum
+                            ex loco Piscatori, hęc est mobilibus atque inmobilibus, omnia vero in
+                            omnibus eorum pertinentiis</rs>, <rs
+                            key="#Fiscal_property #Mention #Inflow #Property_of_persons_without_heirs"
+                            >pro quo [s]ine heredes decesserunt</rs>, seu et concessimus vobis omnes
+                        illos <rs key="#Public_exactions">porstatico</rs> quibus per singulas <rs
+                            key="#Ports">portas et pusterolas</rs> huius <rs key="#Cities"
+                            >civitatis</rs>
+                        <placeName ref="#places/110" key="#Cities">Beneventane</placeName>
+                        annualiter dare debetis, ut exinde <rs key="#Privileges #Exemption">absque
+                            datione solutis maneatis</rs>, seu et concessimus vobis omnes <rs
+                            key="#Fiscal_property #Object #Redistributive #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_individuals #Slave"
+                            >servos</rs> vestros qui sibi <rs key="#Freeborn">liberas feminas</rs>
+                        tulerunt vel qui in antea tulerint uxores cum ipsis suis uxoribus, cum
+                        filiis, filiabus suis, sicut legibus <rs
+                            key="#Fiscal_property #Mention #Inflow">ad nostram evenerunt vel
+                            evenerint potestatem</rs>, in ea videlicet ratione ut amodo et deinceps
+                        per hoc nostrum roboreum preceptum predicta omnia que superius legitur vos
+                        et vestris heredibus habere et possidere valeatis, et a nullo ex nostris
+                        iudicibus, id est comitibus, gastaldeis vel a quibuscumque agentibus
+                        habeatis aliquam requisitionem, sed perpetuis temporibus possideatis. Quod
+                        vero preceptum concessionis ex iussione nominate potestatis scripsi ego
+                            <persName ref="#people/3468" key="#Notary">Herchemfrid</persName>
+                        <rs key="#Notary">notarius</rs>. Actum <placeName key="#Cities"
+                            ref="#places/110">Benevento</placeName> primo anno, mense ianuario,
+                        quarta decima indictione. Feliciter.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
