@@ -35,7 +35,7 @@
                             <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Copy</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -83,24 +83,39 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>In nomine Domini Dei Salvatoris nostri Iesu Christi. Concessimus nos vir
-                        gloriosissimus <persName ref="#people/1927">Radelchis</persName> Dei
-                        previdentia Longobardorum gentis princeps, per rogum <name ref="Radelgari"
-                            >Radelgarii</name> dilecti filii nostri, tibi <name ref="Dodo"
-                            >Totoni</name> thesaurarii nostri filius <name ref="Sindebertus"
-                            >Sindelperti</name> integrum waldum sacri nostri Palatii qui esse
-                        videtur finibus Larinensis, cum servis et ancillis ibi residentibus, cum
-                        cespitibus omnibusque pertinentiis iam dictorum servorum, pertinent ex
-                        gastaldato Quinto Decimo, et cuncta que ibidem in atto Larinense ex ipso
-                        Quinto Decimi gastaldato pertinet, in ea videlicet ratione ut amodo et
+                    <ab>In nomine Domini Dei Salvatoris nostri Iesu Christi. Concessimus nos <rs
+                            key="#Vir_gloriosus/vir_sublimis">vir gloriosissimus</rs>
+                        <persName key="#Princeps" ref="#people/1927">Radelchis</persName> Dei
+                        previdentia Longobardorum gentis <rs key="#Princeps">princeps</rs>, <rs
+                            key="#Intercessory">per rogum</rs>
+                        <name ref="Radelgari">Radelgarii</name> dilecti filii nostri, tibi <persName
+                            ref="#people/3639" key="#Other_palatine_officer">Totoni</persName>
+                        thesaurarii nostri filius <name ref="Sindebertus">Sindelperti</name>
+                        integrum <rs
+                            key="#Gualdi #Fiscal_property #Object #Redistributive #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_individuals"
+                            >waldum</rs>
+                        <rs key="#Palatium">sacri nostri Palatii</rs> qui esse videtur finibus
+                            <placeName ref="#places/700" key="#Cities #Fiscal_property"
+                            >Larinensis</placeName>, cum <rs key="#Slave">servis et ancillis</rs>
+                        ibi residentibus, cum cespitibus omnibusque pertinentiis iam dictorum
+                        servorum, pertinent ex <rs
+                            key="#Gastaldus/vicegastaldus #Other_administrative_unit"
+                            >gastaldato</rs>
+                        <placeName ref="#places/2304"
+                            key="#Villages/settlements #Fiscal_property #Gastaldus/vicegastaldus #Other_administrative_unit"
+                            >Quinto Decimo</placeName>, et cuncta que ibidem in atto Larinense ex
+                        ipso Quinto Decimi gastaldato pertinet, in ea videlicet ratione ut amodo et
                         deinceps per hoc nostrum roboreum preceptum predicta omnia que superius
                         leguntur tu et heredes tui in integrum habere et possidere valeatis, et a
                         nullo ex nostris iudicibus , id est comitibus, gastaldeis vel a quibuscumque
                         agentibus habeatis aliquam requisitionem, sed perpetuis temporibus
                         possideatis. Quod vero preceptum concessionis ex iussione supra dicte
-                        potestatis scripsi ego <name ref="Audoaldus">Audoaldus</name> notarius.
-                        Actus Beneventus in sacro palatio secundo anno, mense octubrio, quarta
-                        indictione. Feliciter.</ab>
+                        potestatis scripsi ego <persName ref="#people/3465" key="#Notary"
+                            >Audoaldus</persName>
+                        <rs key="#Notary">notarius</rs>. Actus <placeName key="#Cities"
+                            ref="#places/110">Beneventus</placeName> in sacro <rs key="#Palatium"
+                            >palatio</rs> secundo anno, mense octubrio, quarta indictione.
+                        Feliciter.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
