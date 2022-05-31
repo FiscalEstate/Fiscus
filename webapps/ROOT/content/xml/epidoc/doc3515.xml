@@ -35,7 +35,7 @@
                             <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Copy</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -83,35 +83,58 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>In nomine Domini Dei Salvatoris nostri Iesu Christi. Concessimus nos vir
-                        gloriosissimus <persName ref="#people/1927">Radelchis</persName> Dei
-                        previdentia Langobardorum gentis princeps, per rogum <name ref="Garetruda"
-                            >Garetrude</name> gloriose dilecte coniugi nostre, vobis <name
-                            ref="Dodo">Totonis</name> thesaurario nostro filius <name
-                            ref="Sindebertus">Sindelperti</name> integrum waldum in Canali de fine
-                        in fine waldo; iste pertinet de actu Silva Nigra; et concessimus vobis
-                        nominatum waldum in Sappione; finis istius waldi hec sunt: de una parte fine
-                        fluvio Sappione, de alia parte fine mare, de tertia parte fine waldo
-                        ęcclesias Sancti Martini que pertinet in Prata, de quarta parte finet
-                        Crapola; infra hos fines quantum sacri nostri palatii pertinet vobis
-                        concessimus; iste waldu pertinet de actu Radano et Silva Nigra; et
-                        concessimus vobis sepe dict[o] <name ref="Maiorinus">Maiurinum</name> servum
-                        sacri nostri palatii cum uxore sua et uno filio, et ipse filius eius cum
-                        uxore sua et uno filio, et <name ref="Scaperissi">Scaperissi</name> cum
-                        uxore sua et uno filio, et ipse filius eius cum uxore sua et uno filio,
-                        simulque <name ref="Tindo">Tindene</name> cum uxore suoii et uno filio; isti
-                        omnes cum omnibus pertinentiis suis fuerunt servi nostri palatii, pertineunt
-                        de actu Silva Nigra; et concessimus vobis alium <name ref="Tindo"
-                            >Tindonem</name> servum sacri nostri palatii cum uxore sua et cum uno
-                        filio suo, et ipse filius eius cum uxore sua et cuntis pertinentiis eorum,
-                        pertinet de actu Raiano; in ea videlicet ratione ut amodo et deinceps per
-                        hoc nostrum roboreum preceptum predicta omnia que superius legitur vos et
-                        vestri heredes habere et possidere valeatis, et a nullo ex nostris
-                        iudicibus, id est comitibus, gastaldis vel a quibuscumque agentibus habeatis
-                        aliquam requisitionem, sed perpetuis temporibus possideatis. Quod vero
-                        preceptum concessionis ex iussione supradicte potestatis scripsi ego <name
-                            ref="Audoaldus">Audoaldus</name> notarius. Actus Beneventus in sacro
-                        palatio primo anno, mense novembrio, tertia indictione. Feliciter.</ab>
+                    <ab>In nomine Domini Dei Salvatoris nostri Iesu Christi. Concessimus nos <rs
+                            key="#Vir_gloriosus/vir_sublimis">vir gloriosissimus</rs>
+                        <persName key="#Princeps" ref="#people/3463">Radelchis</persName> Dei
+                        previdentia Langobardorum gentis <rs key="#Princeps">princeps</rs>, <rs
+                            key="#Intercessory">per rogum</rs>
+                        <persName ref="#people/3636" key="#Principissa">Garetrude</persName>
+                        gloriose dilecte coniugi nostre, vobis <persName ref="#people/3639"
+                            key="#Other_palatine_officer">Totonis</persName>
+                        <rs key="#Other_palatine_officer">thesaurario</rs> nostro filius <name
+                            ref="Sindebertus">Sindelperti</name> integrum <rs
+                            key="#Gualdi #Fiscal_property #Object #Redistributive #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_individuals"
+                            >waldum</rs> in Canali de fine in fine waldo; iste pertinet de
+                            <placeName ref="#places/3472" key="#Gualdi #Fiscal_property #Actio">actu
+                            Silva Nigra</placeName>. et concessimus vobis nominatum <rs
+                            key="#Gualdi #Fiscal_property #Object #Redistributive #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_individuals"
+                            >waldum</rs> in <placeName ref="#places/3470" key="#Rivers"
+                            >Sappione</placeName>; finis istius waldi hec sunt: de una parte fine
+                            <rs key="#Rivers">fluvio</rs> Sappione, de alia parte fine <rs
+                            key="#Sea">mare</rs>, de tertia parte fine <rs key="#Gualdi">waldo</rs>
+                        <rs key="#Churches">ęcclesia</rs>
+                        <orgName ref="#juridical_persons/3446" key="#Churches">Sancti
+                            Martini</orgName>, que pertinet in Prata de quarta parte finet Crapola;
+                        infra hos fines quantum sacri nostri palatii pertinet vobis concessimus;
+                        iste waldu pertinet de <placeName ref="#places/3473"
+                            key="#Fiscal_property #Actio">actu Radano </placeName> et <placeName
+                            ref="#places/3472" key="#Fiscal_property #Actio">Silva
+                        Nigra</placeName>; et concessimus vobis sepe dict[o] <rs
+                            key="#Fiscal_property #Object #Redistributive #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_individuals"
+                                ><name ref="Maiorinus">Maiurinum</name> servum sacri nostri palatii
+                            cum uxore sua et uno filio, et ipse filius eius cum uxore sua et uno
+                            filio, et <name ref="Scaperissi">Scaperissi</name> cum uxore sua et uno
+                            filio, et ipse filius eius cum uxore sua et uno filio, simulque <name
+                                ref="Tindo">Tindene</name> cum uxore suoii et uno filio</rs>; isti
+                        omnes cum omnibus pertinentiis suis fuerunt <rs key="#Palatium #Slave">servi
+                            nostri palatii</rs>, pertineunt de actu Silva Nigra; et concessimus
+                        vobis alium <rs
+                            key="#Fiscal_property #Object #Redistributive #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_individuals"
+                                ><name ref="Tindo">Tindonem</name>
+                            <rs key="#Palatium #Slave">servum sacri nostri palatii</rs> cum uxore
+                            sua et cum uno filio suo, et ipse filius eius cum uxore sua et cuntis
+                            pertinentiis eorum</rs>, pertinet de actu Raiano; in ea videlicet
+                        ratione ut amodo et deinceps per hoc nostrum roboreum preceptum predicta
+                        omnia que superius legitur vos et vestri heredes habere et possidere
+                        valeatis, et a nullo ex nostris iudicibus, id est comitibus, gastaldis vel a
+                        quibuscumque agentibus habeatis aliquam requisitionem, sed perpetuis
+                        temporibus possideatis. Quod vero preceptum concessionis ex iussione
+                        supradicte potestatis scripsi ego <persName ref="#people/3465" key="#Notary"
+                            >Audoaldus</persName>
+                        <rs key="#Notary">notarius</rs>. Actus <placeName key="#Cities"
+                            ref="#places/110">Beneventus</placeName> in sacro <rs key="#Palatium"
+                            >palatio</rs> primo anno, mense novembrio, tertia indictione.
+                        Feliciter.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">

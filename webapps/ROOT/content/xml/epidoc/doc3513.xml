@@ -35,7 +35,7 @@
                             <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Copy</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -83,23 +83,37 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>In nomine Domini Dei Salvatoris nostri Iesu Christi. Concessimus nos vir
-                        gloriosissimus <persName ref="#people/1927">Radelchis</persName> Dei
-                        previdentia Langobardor um gentis princeps, per rogum <name ref="Ursus"
-                            >Ursi</name> dilecti filii nostri, vobis <name ref="Gaidenardus"
-                            >Gaydenardo</name> gastaldo nostro curtem sacri nostri palatii in
-                        Mataloni quas ante hos dies <name ref="Landulfus">Landulfi</name> concessa
-                        habuimus, predicta vero curte pro merito culpe eius ad nostras rediit
-                        potestates, et concessimus tibi prephato vineas et terras, servos et
-                        ancillas et cum omnia sua pertinentia, in ea videlicet ratione ut amodo et
-                        deinceps per hoc nostrum roboreum preceptum predicta curtem cum vineis et
-                        terris seu servis et ancillis et cum omnibus suis pertinentibus in integrum
-                        vos et heredes vestri habere et possidere valeatis, et a nullo ex nostris
-                        iudicibus, id est comitibus, gastaldis vel a quibuscumque agentibus habeatis
-                        aliquam requisitionem, sed perpetuis temporibus possideatis. Quod vero
-                        preceptus concessionis ex iussione nominate potestatis scripsi ego <name
-                            ref="Teudericus">Theodericus</name>. Actus Beneventus secundo anno,
-                        mense magio, quarta indictione. Feliciter.</ab>
+                    <ab>In nomine Domini Dei Salvatoris nostri Iesu Christi. Concessimus nos <rs
+                            key="#Vir_gloriosus/vir_sublimis">vir gloriosissimus</rs>
+                        <persName ref="#people/3463" key="#Princeps">Radelchis</persName> Dei
+                        previdentia Langubardorum gentis <rs key="#Princeps">princeps</rs>, <rs
+                            key="#Intercessory">per rogum</rs>
+                        <name ref="Ursus">Ursi</name> dilecti filii nostri, vobis <persName
+                            ref="#people/3663" key="#Gastaldus/vicegastaldus">Gaydenardo</persName>
+                        <rs key="#Gastaldus/vicegastaldus">gastaldo</rs> nostro <rs
+                            key="#Curtes #Fiscal_property #Object #Redistributive #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_individuals"
+                            >curtem</rs>
+                        <rs key="#Palatium">sacri nostri palatii</rs> in <placeName key="#Cities"
+                            ref="#places/3444">Mataloni</placeName> quas ante hos dies <name
+                            ref="Landulfus">Landulfi</name>
+                        <rs key="#Fiscal_property #Mention #Outflow">concessa habuimus</rs>,
+                        predicta vero curte <rs
+                            key="#Fiscal_property #Mention #Inflow #Confiscation">pro merito culpe
+                            eius ad nostras rediit potestates</rs>, et concessimus tibi prephato
+                        vineas et terras, servos et ancillas et cum omnia sua pertinentia, in ea
+                        videlicet ratione ut amodo et deinceps per hoc nostrum roboreum preceptum
+                        predicta <rs
+                            key="#Fiscal_property #Object #Redistributive #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_individuals"
+                                ><rs key="#Curtes">curtem</rs> cum <rs key="#Wine">vineis</rs> et
+                                <rs key="#Landed_possessions">terris</rs> seu <rs key="#Slave"
+                                >servis et ancillis</rs> et cum omnibus suis pertinentibus</rs> in
+                        integrum vos et heredes vestri habere et possidere valeatis, et a nullo ex
+                        nostris iudicibus, id est comitibus, gastaldis vel a quibuscumque agentibus
+                        habeatis aliquam requisitionem, sed perpetuis temporibus possideatis. Quod
+                        vero preceptus concessionis ex iussione nominate potestatis scripsi ego
+                            <persName ref="#people/3462" key="#Writer">Theodericus</persName>. Actus
+                            <placeName key="#Cities" ref="#places/110">Beneventus</placeName>
+                        secundo anno, mense magio, quarta indictione. Feliciter.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
