@@ -35,7 +35,7 @@
                             <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Copy</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -83,21 +83,28 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>In nomine Domini Dei Salvatoris nostri Iesu Christi. Concessimus nos vir
-                        gloriosissimus <persName ref="#people/115">Adelghis</persName> Dei
-                        previdentia Langobardorum gentis princeps, per rogum [**]eponis comitis
-                        nostri, tibi <name ref="Trasarius">Trasari</name> fideli nostro filius <name
-                            ref="Lupus">Lupi</name> omnes servos tuos qui sibi liberas feminas
+                    <ab>In nomine Domini Dei Salvatoris nostri Iesu Christi. Concessimus nos <rs
+                            key="#Vir_gloriosus/vir_sublimis">vir gloriosissimus</rs>
+                        <persName ref="#people/115" key="#Princeps">Adelghis</persName> Dei
+                        previdentia Langobardorum gentis <rs key="#Princeps">princeps</rs>, <rs
+                            key="#Intercessory">per rogum</rs> [**]eponis comitis nostri, tibi <name
+                            ref="Trasarius">Trasari</name> fideli nostro filius <name ref="Lupus"
+                            >Lupi</name> omnes <rs
+                            key="#Fiscal_property #Object #Redistributive #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_individuals #Slave"
+                            >servos</rs> tuos qui sibi <rs key="#Freeborn">liberas feminas</rs>
                         tulerunt vel nostro tempore tulerint uxores cum ipsis suis uxoribus et cum
-                        filiis, filiabus eorum, qualiter secundum legem ad nostram evenerunt vel
-                        evenerint potestatem, in ea videlicet ratione ut amodo et deinceps per hoc
-                        nostrum roboreum preceptum predicta familia qualiter superius legitur tu et
-                        heredes tui habere et possidere valeatis, et a nullo ex nostris iudicibus,
-                        id est comitibus, gastaldeis vel a quibuscumque agentibus habeatis aliquam
-                        requisitionem, sed perpetuis temporibus possideatis. Quod vero preceptum
-                        concessionis ex iussione supra dicte potestatis scripsi ego <name
-                            ref="Benedictus">Benedictus</name> notarius. Actus Benevento secundo
-                        anno, mense magio, tertia indictione. Feliciter.</ab>
+                        filiis, filiabus eorum, qualiter secundum legem <rs
+                            key="#Fiscal_property #Mention #Inflow">ad nostram evenerunt vel
+                            evenerint potestatem</rs>, in ea videlicet ratione ut amodo et deinceps
+                        per hoc nostrum roboreum preceptum predicta familia qualiter superius
+                        legitur tu et heredes tui habere et possidere valeatis, et a nullo ex
+                        nostris iudicibus, id est comitibus, gastaldeis vel a quibuscumque agentibus
+                        habeatis aliquam requisitionem, sed perpetuis temporibus possideatis. Quod
+                        vero preceptum concessionis ex iussione supra dicte potestatis scripsi ego
+                            <persName ref="#people/3637" key="#Notary">Benedictus</persName>
+                        <rs key="#Notary">notarius</rs>. Actus <placeName key="#Cities"
+                            ref="#places/110">Benevento</placeName> secundo anno, mense magio,
+                        tertia indictione. Feliciter.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
