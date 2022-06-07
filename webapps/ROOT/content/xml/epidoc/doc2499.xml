@@ -4,7 +4,7 @@
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
-                <title>Lucca, Archivio di Stato, Altopascio 1, c. </title>
+                <title>Lucca, Archivio di Stato, Altopascio 1, c. 105r.</title>
             </titleStmt>
             <editionStmt>
                 <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
@@ -29,10 +29,10 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="#"/>
-                            <rs type="record_source" ref="#"/>
-                            <rs type="document_tradition" ref="#"/>
-                            <rs type="fiscal_property"/>
+                            <rs type="text_type" ref="#">--Offersio/donatio</rs>
+                            <rs type="record_source" ref="#">Original document</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property">No</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -40,10 +40,10 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate>
-                                <note type="displayed_date"/>
-                                <note type="dating_elements"/>
-                                <note type="topical_date"/>
+                            <origDate when="1112-03-29">
+                                <note type="displayed_date">1112 March 29</note>
+                                <note type="dating_elements">Stile dell'incarnazione</note>
+                                <note type="topical_date">Buggiano (Pistoia)</note>
                                 <note type="redaction_date"/>
                             </origDate>
                             <origPlace></origPlace>
@@ -72,7 +72,7 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2022-02-03" who="other">creation of record</change>
+                <change when="2022-06-07" who="agiacomelli">creation of record</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -80,10 +80,30 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>In anno dominice incarnationis millesimo centesimo duodecimo quarto, kalend.
-                        madi, indictione quinta. Manifestus sum ego Bernarduccius filius olim
-                        Signorelli di Bocano et per hanc cartulam, pro anime mee remedio, dono et
-                        offero</ab>
+                    <ab>In anno dominice incarnationis millesimo centesimo duodecimo, quarto kalend.
+                        madi, indictione quinta. Manifestus sum ego
+                                <persName><name>Bernarduccius</name></persName> filius olim
+                                <persName><name>Signorelli</name></persName> di <placeName
+                            ref="#places/3222">Bocano</placeName> et per hanc cartulam, pro anime
+                        mee remedio, dono et offero (…) Deo et <rs key="#Hospitals">hospityo</rs>
+                        illo (…) in loco qui nuncupatur <placeName ref="#places/3207"
+                            >Tepasco</placeName> et <orgName ref="#juridical_persons/3206"><rs
+                                key="#Churches">ecclesie</rs> Sancti Gilii et Sancti Iacobi
+                            Apostoli</orgName> due petye terre aratoria iuris mei <foreign>che si
+                            trovano a</foreign> Campum Boiani. Una petia dicitur Lacium ad Portum
+                        Omnipilie. Est per mensuram iustam cultra una (…). Caput unum tenet in terra
+                            <orgName>Sancti Laurenti</orgName>, aliud caput tenet in padule, latus
+                        unum tenet in terra filii <persName>Centi</persName> et filii
+                                <persName><name ref="Hubertus">Uberti</name></persName> (…). Alia
+                        petya <foreign>si trova</foreign> ibi prope, est per mensuram iusta cultra
+                        una. <foreign>Ha il primo capo confinante con</foreign> via della cuna, que
+                        pergit ad portum, aliud caput tenet in terra filiorum
+                            <persName>Bellini</persName>, latus unum tenet in terra <persName><name
+                                ref="Hughicio">Ugiccionis</name></persName> (…), aliud latus tenet
+                        in terra <persName>Anici</persName> filii <persName><name ref="Hugolinus"
+                                >Ugolini</name></persName> et <persName><name>Ugiccionis</name> de
+                                <placeName>Camulgano</placeName></persName>. (…) Actum in predicto
+                        loco Bocani in domo predicti <persName>Bernarducci</persName>.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
@@ -96,7 +116,9 @@
                 <p/>
             </div>
             <div type="commentary">
-                <p/>
+                <p>L'atto è stato tramandato in un registro tardomedievale. Il formulario
+                    sembrerebbe rimaneggiato in fase di trascrizione: con termini impropri, si
+                    potrebbe forse parlare di un "aggiornamento".</p>
             </div>
         </body>
     </text>
