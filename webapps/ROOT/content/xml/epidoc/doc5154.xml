@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Milano, Archivio di Stato, Pergamene per fondi, Mantova, S. Benedetto di
+                    Polirone, cart. 205, n. 60</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2022">2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DiSCi UniBo</publisher>
+                <idno type="filename">doc5154</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+                </availability>
+                <date when="2022"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Venditio</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property"/>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate notBefore="1137-01-01" notAfter="1137-12-31">
+                                <note type="displayed_date">1137</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Nogara (Verona)</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace>Sanctus Benedictus in Pado Lironi; monasterium
+                                (Mantova)</origPlace>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-06-03" who="bferretti">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>(SN) In nomine domini Dei eterni. Anno ab incarnatione eius millesimo
+                        CXXXVII indicione quintadecima. Constat me <persName
+                            key="#childOf #Roman #Witness #Petiae #Landed_possessions #Houses"><name
+                                ref="Bonacausa">Bonacausa</name></persName>
+                        <rs key="#childOf">filius</rs> quondam <persName key="#parentOf #Roman"
+                                ><name ref="Iohannis/de Ambrosius">Iohannis</name></persName> de
+                                <persName><name ref="Ambrosius">Ambrosius</name></persName>, qui
+                        professus sum ex nacione mea lege vivere <rs key="#Roman">Romana</rs>,
+                        accepisse sicuti et in presencia <rs key="#Witness">testium</rs> accepi a te
+                            <persName key="#Monks"><name ref="Albertus">Alberto</name></persName>,
+                        venerabilis <rs key="#Monks #Monasteries">frater</rs>
+                        <rs key="#Monasteries">monasterio</rs>
+                        <orgName key="#Monasteries #Monks #Petiae #Landed_possessions #Houses"
+                            ref="#juridical_persons/2001">Sancto Benedicto</orgName>, <rs
+                            key="#Price">denarios bonos Veronensis monete solidos XX</rs> finito
+                        precio pro <rs key="#Petiae #Landed_possessions">pecia una de terra</rs>
+                        <rs key="#Houses">casiva</rs> que est posita <rs key="#Areas">in loco et
+                            fundo</rs>
+                        <placeName key="#Areas #Vici" ref="#places/145">Nogarie</placeName>, locus
+                        ubi dicitur <placeName
+                            key="#Petiae #Landed_possessions #Houses #Common_land" ref="#places/399"
+                            >Aspo</placeName>. Coherent ei: de uno latere <persName><name
+                                ref="Balduinus/Dotoa">Balduino Dotoa</name></persName> habet, de
+                        alio latere ipso emtore habet, de ambobus capitibus <rs key="#Common_land"
+                            >plubicus</rs> percurens. Que autem suprascripta pecia de terra cum
+                        eadem casa super se habente iuris mei in suprascripto loco, una cum
+                        accessionibus et ingressionibus earum seu cum superioribus et inferioribus
+                        qualiter supra legitur in integrum ab hac die tibi cui supra suprascripto
+                        Alberto venerabilis frater pro suprascripto precio vendimus, tradimus et
+                        mancipamus, nulli alii vendita, donata, alienata, obnoxiata vel tradita nisi
+                        tibi, et facias exinde tu et tuorum successorum aut cui tu dederis iure
+                        proprietario nomine quicquid volueritis, sine omni mea et heredurn meorum
+                        contradicione. Quidem spondeo atque prornitto me ego una cum meis heredibus
+                        tibi cui supra suprascripto Alberto venerabilis frater et tuorum successorum
+                        aut cui tu dederis suprascriptam terram cum casa super se habente, qualiter
+                        superius legitur, in integrum ab omni homine defensare; quod si defendere
+                        non potuero aut si tibi exinde aliquid per quodvis ingenium subtraere
+                        quesierimus, tunc <rs key="#Penalty">in duplum</rs> eandem vendicionem ut
+                        supra legitur tibi restituo, sicut pro tempore fuerit meliorata aut valuent
+                        sub estimacione in consimili loco. Actum est hoc in <rs key="#Vici"
+                            >vico</rs> Nogaria. Feliciter. Signum + pro inposicione manus
+                        suprascipta Bonacausa, qui hanc <rs key="#Venditio">cartam vendicionis</rs>
+                        fieri rogavit et supradictum precium acceperunt ut supra legitur. Signum +
+                        manuum suprascriptorum <persName key="#Witness #Venditio"><name
+                                ref="Marchion">Marchio</name></persName>, <persName
+                            key="#Witness #Venditio"><name ref="Albertus/de Vuilielmo"
+                                >Alberto</name></persName> de <persName><name ref="Wilielmus"
+                                >Vuilelmo</name></persName>, <persName key="#Witness #Venditio"
+                                ><name ref="Albertus/de Crescenzo">Alberto</name></persName> de
+                                <persName><name ref="Crescentius">Cresenzo</name></persName>,
+                            <persName key="#Witness #Venditio"><name ref="Gherardus/de Bondeno"
+                                >Girardo</name></persName> da <placeName>Bondeno</placeName>. (SN)
+                        Ego <persName key="#Notary #Writer #Venditio"><name ref="Masnerius"
+                                >Masnerius</name></persName>
+                        <rs key="#Notary">notarius</rs> sacri palacii interfui et hanc cartam
+                        vendicionis <rs key="#Writer">scripsi</rs>. </ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>CDP II n. 37, pp. 74-75.</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
