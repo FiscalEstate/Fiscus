@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Lucca, Archivio di Stato, Altopascio 1, c. 134v.</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2022">2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DiSCi UniBo</publisher>
+                <idno type="filename">doc4200</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+                </availability>
+                <date when="2022"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#"/>
+                            <rs type="record_source" ref="#">Original document</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property"/>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate>
+                                <note type="displayed_date"/>
+                                <note type="dating_elements"/>
+                                <note type="topical_date"/>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace></origPlace>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-06-08" who="agiacomelli">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In Christi nomine. Breve memorie qualiter infra <placeName ref="#places/4"
+                            >Lucense</placeName> civitate, prope <orgName>ecclesiam Sancte
+                            Iulie</orgName>, in conspectu <persName>Albertini Grechi</persName>,
+                            <persName>Schotti Natalis</persName> quondam <persName key="#Judge"
+                            >Fralmi <rs key="#Judge">iudicis</rs></persName>,
+                            <persName>Guiglielmus</persName> et <persName>Herighus</persName>
+                        germani et filii <persName>Aliotti</persName> et
+                            <persName>Rughittia</persName> mater eorum, relicta quondam suprascripti
+                        Aliotti et quondam filia <persName>Herici <rs>comitis</rs></persName>, (…)
+                        investierunt <persName>Roggierum</persName> hospitalarium <orgName
+                            key="#Hospitals" ref="#juridical_persons/3206"><rs key="#Hospitals"
+                                >ospitalis</rs> Sancti Gilii de loco <placeName ref="#places/3207"
+                                key="#Hospitals">Altepascio</placeName></orgName> (…) de tota terra
+                        eorum illa que vocatur Collo della Marca, que est prope <placeName
+                            ref="#places/3202">Montem Falconis</placeName>. Que tenet unum caput in
+                        via publica, aliut caput tenet in palude, latus unum in rivo qui vocatur
+                        Rimoni, aliut in rivo que et iusta terram de <placeName ref="#places/2482"
+                            >Staffoli</placeName>. (…) Custodes et rectores <foreign>si impegnano
+                            a</foreign> reddendi (…) per se vel per suum missum eisdem germanis et
+                        matri eorum vel eorum heredes vel eorum misso in qualicumque loco in anno in
+                        mense mai soldi tres bon. luc. (…) Prefati germani pro se et pro aliis
+                        germanis suis et suprascripta eorum matre obligaverunt se suosque heredes
+                        ac proheredes sub pena librarum decem argenti ottimi et consulum et
+                        treguanorum luc. (…) Anno dominice incarnationis millesimo centesimo
+                        septuagesimo secundo, sexto idue aprelis, indictione quinta. <persName
+                            key="#Writer #Notary">Dulcis <rs key="#Notary">notarius</rs></persName>
+                        domni imperatoris ibi interfui et memorie causa hec pub. lict.
+                        denotavi.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
