@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Lucca, Archivio di Stato, Altopascio 1, c. 138r.</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2022">2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DiSCi UniBo</publisher>
+                <idno type="filename">doc4201</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+                </availability>
+                <date when="2022"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Venditio</rs>
+                            <rs type="record_source" ref="#">Original document</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property">No</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate notBefore="1145-01-01" notAfter="1145-12-31">
+                                <note type="displayed_date">1145</note>
+                                <note type="dating_elements">Stile dell'incarnazione</note>
+                                <note type="topical_date">Lucca</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace></origPlace>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-06-08" who="agiacomelli">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine domini nostri Iehsu Christi dei eterni, anno ab incarnatione eius
+                        millesimo centesimo quadragesimo quinto, pridie (…), indictione ottava.
+                        Manifestus sum ego <persName><name ref="Albertus"
+                        >Albertus</name></persName>, divina gratia presbiter et prepositus <orgName
+                            ref="#juridical_persons/3205" key="#Churches #Monasteries"><rs
+                                key="#Churches">ecclesie</rs> et <rs key="#Monasteries"
+                                >monasterii</rs> sancti Giorgi</orgName> siti in civitate Luc., quod
+                        consensu et consilio cum fratrum suprascripti monasterii, pro utilitate
+                        eiusdem ecclesie et monasterio, vendo et trado tibi <persName><name
+                                ref="Martinus">Martino</name></persName>, rectori <orgName
+                            ref="#juridical_persons/3206" key="#Churches #Hospitals">ecclesie et <rs
+                                key="#Hospitals">hospitali</rs> sancti Gilii de loco <placeName
+                                ref="#places/3207" key="#Churches #Hospitals"
+                            >Altopascio</placeName></orgName>, ad opus eiusdem hospitalis, idest
+                        unam petiam de terra que est campus pertinente suprascripte ecclesie
+                        monasterii sancti Georgi, que esse videtur in loco et finibus <placeName
+                            ref="#places/319">Cappiano</placeName>, ubi dicitur <placeName
+                            ref="#places/3228">Ultrario</placeName>. Que tenet unum caput in terra
+                                <persName><name ref="Andreas">Andree</name></persName> et aliud
+                        caput in terra suprascripti Sancti Georgi quam tenet <persName><name
+                                ref="Rainuccius">Ranuccius</name></persName> quondam <persName><name
+                                ref="Bocalieri">Bocalieri</name></persName>. Latus unum in terra
+                        suprascripti sancti Georgi, quam tenet <persName><name ref="Berno"
+                                >Bernuccus</name></persName>, et aliud latus in terra suprascripti
+                        sancti Georgi. Hanc autem suprascriptam petiam de terra que est campus,
+                        qualiter ab omni parte circumdata est per designata capita et latera, que
+                        est per mensuram ad iustam pertica mensuratori modiorum unum et stariorum
+                        *** vel si plus inventa fuerit, in integrum una cum inferioribus et
+                        superioribus seu cum accessionis ingressibus eius, tibi eam vendo et trado.
+                        Pro quibus a te recepi pretium solidorum sixaginta lucensis monete. (…)
+                        Actum <placeName ref="#places/4" key="#Churches #Monasteries"
+                            >Luca</placeName>. <persName key="#Writer #Notary"><name ref="Heinricus"
+                                >Hericus</name>
+                            <rs key="#Notary">notarius</rs></persName> domni imperatoris post
+                        traditam complevi et dedi, et repromissio ad defendi contra omnes homines ad
+                        penam librarum d. CC ottimi argenti (…).</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

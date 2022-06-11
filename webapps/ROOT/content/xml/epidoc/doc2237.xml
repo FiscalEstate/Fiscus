@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Montecassino, Archivio privato, Carte di Pomposa, fasc. CV, n. 2892</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2022">2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DiSCi UniBo</publisher>
+                <idno type="filename">doc2237</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+                </availability>
+                <date when="2022"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">-Cartula</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property"/>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate notBefore="0975-03-01" notAfter="0975-03-31">
+                                <note type="displayed_date">975 March</note>
+                                <note type="dating_elements">Mezzetti, <foreign>Le carte</foreign>,
+                                    p. 38 combina l’indizione terza con l’abbaziato di Andrea,
+                                    documentato alla guida del monastero di Sant’Apollinare Nuovo
+                                    tra 973 e 983. L’indizione terza cade nel 975, anno che trova
+                                    del resto piena conferma negli estremi cronologici dell’attività
+                                    del tabellione Stefano (949-986).</note>
+                                <note type="topical_date">Ravenna</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace><foreign>Sancta Maria in Pomposia</foreign></origPlace>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-02-03" who="cstedile">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine Domini. Consta me <persName key="#Deacons #Abbots #Monks"
+                            ref="#people/1554">Andreas</persName> gratja Dei <rs key="#Deacons"
+                            >diac(onus)</rs> et <rs key="#Monks">monahus</rs> atque <rs
+                            key="#Abbots">abb(as)</rs> regule <rs key="#Monasteries"
+                            >mon(asterii)</rs>
+                        <orgName
+                            key="#Fundi #Landed_possessions #Rent_in_money #Monasteries #Deacons #Abbots #Monks"
+                            ref="#juridical_persons/1487">Sancti Apolenaris qui vocatur
+                            Novo</orgName> accepissem et accepi at vobis <persName><name
+                                ref="Apollinaris">Apolenaris</name></persName> filio quondam
+                                <persName><name ref="Iohannes">Ioh(anni)s</name></persName>
+                        <rs key="#Rent_in_money">pensionem</rs> pro tres <rs
+                            key="#Landed_possessions">untjas</rs> in int(egro) qui est posita in <rs
+                            key="#Fundi">fundum</rs> qui vocatur <geogName
+                            key="#Fundi #Landed_possessions #Rent_in_money"><placeName
+                                key="#Fundi #Landed_possessions #Rent_in_money"
+                                >Colopedio</placeName></geogName> cum omnibus sibi pertinentibus,
+                        territorio <geogName key="#Fundi #Fines"><placeName key="#Fundi #Fines"
+                                ref="#places/3515">Liv(iense)</placeName></geogName>, <rs
+                            key="#Plebs">pl(ebe)</rs>
+                        <orgName key="#Plebs" ref="#juridical_persons/1488">Sancte
+                            Reparate</orgName>, quas per <rs key="#Libellus/precaria/emphyteusis"
+                            >enfiteusin</rs> tenere viso estis at iure suprascripti mon(asterii)
+                        nostri, pro indicionibus transactus usque in ista press(ente) tertja et per
+                        unaquaque ind(itjone) den(arii) quinque tantum. Unde pro munimine vestro
+                        fetjt vobis unc deaccepto in mense martjo, ind(itjone) suprascripta tertja,
+                            <placeName ref="#places/594">Ra[venne]</placeName>. Andrea et abba
+                        S(an)c(t)i Apolinaris in oc diaccepto s(ub)s(cripsi).</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>Mezzetti, <foreign>Le carte</foreign>, pp. 38-39, n° 14</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>Redatto dal tabellione Stefano, che redige anche i documenti 13 (Mezzetti,
+                        <foreign>Le carte</foreign>, pp. 34-37) e 21 (ibid. pp. 49-52).</p>
+            </div>
+        </body>
+    </text>
+</TEI>
