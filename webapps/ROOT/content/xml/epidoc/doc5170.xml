@@ -4,7 +4,8 @@
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
-                <title>New York, Pierpont Morgan Library, ms. 729, f. 106r</title>
+                <title>Mantova, Biblioteca Comunale Teresiana, ms. 448 (D.IV.2), f. 212v, col. B,
+                    ll. 1-18</title>
             </titleStmt>
             <editionStmt>
                 <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
@@ -13,7 +14,7 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DiSCi UniBo</publisher>
-                <idno type="filename">doc5164</idno>
+                <idno type="filename">doc5170</idno>
                 <availability xml:lang="en" status="free">
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                         texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
@@ -29,9 +30,9 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="#">-Breve/memoratorium</rs>
+                            <rs type="text_type" ref="#">-Littera/mandatum</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
-                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
                             <rs type="fiscal_property"/>
                         </summary>
                         <msItem xml:id="msItem1">
@@ -40,11 +41,12 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate notAfter="1141-12-31">
-                                <note type="displayed_date">(ante 1141)</note>
+                            <origDate notBefore="1141-06-28" notAfter="1143-06-28">
+                                <note type="displayed_date">(1141? - <foreign>ante</foreign> 1143)
+                                    Juny 28</note>
                                 <note type="dating_elements"/>
-                                <note type="topical_date"/>
-                                <note type="redaction_date"/>
+                                <note type="topical_date">Laterano (Roma)</note>
+                                <note type="redaction_date">XII</note>
                             </origDate>
                             <origPlace>Sanctus Benedictus in Pado Lironi; monasterium
                                 (Mantova)</origPlace>
@@ -73,7 +75,7 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2022-06-10" who="bferretti">creation of record</change>
+                <change when="2022-06-13" who="bferretti">creation of record</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -81,23 +83,27 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>Dominus <rs key="#Abbots">abbas</rs>
-                        <persName key="#Abbots #Monasteries" ref="#people/3568">Henricus</persName>
-                        cum consensu omnium fratrum qui ibi praesentes erant in capitulo dedit
-                        domino <persName key="#marriage"><name ref="Aurius/Dandolo">Aurio
-                                Dandali</name></persName> ut quando de hac vita migraverit
-                        tricesimum in hoc <rs key="#Monasteries">monasterio</rs> habeat, et omne
-                        debitum persolvatur ei ab omnibus fratribus de missis et psalmis quod
-                        persolvitur uni ex fratribus nostris professis. Per omnes quoque obędientias
-                        nostras breve mittatur ut ipsum debitum ei persolvant. Omni quoque anno in
-                        dei depositionis eius omnia signa pulsentur et officium pro eius
-                        anniversario fiat et missa in conventu. <rs key="#marriage">Coniugi</rs>
-                        quoque eius omnia similiter dedit, quae et illi: tricesimum scilicet debitum
-                        de missis et psalmis, et anniversarium.</ab>
+                    <ab><persName key="#Bishops #Popes" ref="#people/51">INNocentius</persName>
+                        <rs key="#Bishops">episcopus</rs>
+                        <rs key=" #Popes">servis servorum</rs> Dei dilecto filio <persName key="#Abbots #Monasteries" ref="#people/3570">G[uillelmo]</persName>
+                        <rs key="#Abbots">abbati</rs>
+                        <orgName key="#Monasteries #Abbots #Books" ref="#juridical_persons/2001">Sancti Benedicti supra Padum</orgName>. Salutem et apostolicam
+                        benedictionem. Beati Benedicti <rs key="#Monasteries">monasterium</rs>
+                        tamquam beati Petri proprium sub sedis apostolice gremio volumus confovere
+                        et in suis opportunitatibus adiuvare. Tu vero dilecte in Domino filio
+                        G[uillelme] abbas in commisso tibi monasterii regimine ita temet ipsum
+                        satagas laudabiliter exercere ut que bona sunt meliora facias, et resecanda
+                        ferro discretionis abscidas. Subditos quoque tuos professionem suam
+                        observare et beati Benedicti regulam iuxta bonum propositum observare
+                        paterna benignitate coherceas. Nos enim quę ad Deum pertinet tibi opem et
+                        consilium impendere parati sumus. <rs key="#Books">Librum</rs> nostrum
+                        studiosius perficere elabores, fratres tuos pro nobis orantes potestate in
+                        Domino salutamus. Datum <placeName ref="#places/52">Laterani</placeName>
+                        IIII kal. Iulii.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p>CDP II n. 46bis, p. 89.</p>
+                <p>CDP II n. 50ter, p. 98.</p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p/>
