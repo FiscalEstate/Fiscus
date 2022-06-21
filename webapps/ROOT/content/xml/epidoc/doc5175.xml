@@ -4,7 +4,8 @@
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
-                <title/>
+                <title>Milano, Archivio di Stato, Pergamene per fondi, Mantova, S. Benedetto di
+                    Polirone, cart. 206, n. 10</title>
             </titleStmt>
             <editionStmt>
                 <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
@@ -13,7 +14,7 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DiSCi UniBo</publisher>
-                <idno type="filename"/>
+                <idno type="filename">doc5175</idno>
                 <availability xml:lang="en" status="free">
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                         texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
@@ -29,10 +30,10 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="#"/>
-                            <rs type="record_source" ref="#"/>
-                            <rs type="document_tradition" ref="#"/>
-                            <rs type="fiscal_property"/>
+                            <rs type="text_type" ref="#">--Offersio/donatio</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property">No</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -40,13 +41,15 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate>
-                                <note type="displayed_date"/>
+                            <origDate notBefore="1145-05-01" notAfter="1145-05-31">
+                                <note type="displayed_date">1145 May</note>
                                 <note type="dating_elements"/>
-                                <note type="topical_date"/>
+                                <note type="topical_date">Campese (Bassano del Grappa;
+                                    Vicenza)</note>
                                 <note type="redaction_date"/>
                             </origDate>
-                            <origPlace></origPlace>
+                            <origPlace>Sanctus Benedictus in Pado Lironi; monasterium
+                                (Mantova)</origPlace>
                         </origin>
                         <provenance>
                             <location>
@@ -72,7 +75,7 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2022-02-03" who="other">creation of record</change>
+                <change when="2022-06-17" who="bferretti">creation of record</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -80,11 +83,65 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab/>
+                    <ab>(SN) Anno Domini millesimo CXLV, die mensis madii. Vobis <persName
+                            key="#Priors #Monasteries #Offersio/donatio" ref="#people/3745"
+                            >Iohannii</persName>
+                        <rs key="#Priors">priori</rs>
+                        <rs key="#Monasteries">monasterii</rs>
+                        <orgName
+                            key="#Monasteries #Priors #Offersio/donatio #Landed_possessions #Wine"
+                            ref="#juridical_persons/2420">Sancte Crucis</orgName>, in eundem
+                        monasterio Sancte Crucis, ego quidemn <persName
+                            key="#Offersio/donatio #Landed_possessions #Wine #siblingOf"><name
+                                ref="Aimo/de Wiperto/de Margnano">Aimus</name></persName> de
+                                <persName><name ref="Wibertus">Wiperto</name></persName> de loco
+                            <placeName key="#Landed_possessions #Wine #Roads" ref="#places/4107"
+                            >Margnano</placeName> offero, in suprascriptam ecclcsiam, <rs
+                            key="#Landed_possessions">clausuram unam</rs> cum <rs key="#Wine"
+                            >vinea</rs> super se habentem et partim vacua posita in <geogName
+                            key="#Comitatus" ref="#estates/125"><rs key="#Comitatus">comitatu</rs>
+                            <placeName key="#Comitatus" ref="#places/13"
+                            >Trivisiensi</placeName></geogName>, pertinenti Margnani; ab uno latere
+                        Rodulfinus, ab alio <rs key="#Roads">vie</rs> percurit. Quam autem
+                        suprascriptam clausuram cum vinea superdictam, una cum accessionibus et
+                        ingressionibus seu cum superioribus et inferioribus suis qualiter superius
+                        legitur in integrum, in suprascriptum monasterium ecclesie Sancte Crucis
+                        offero, dono, cedo, trado, confero per presentern <rs
+                            key="#Offersio/donatio">car(tulam) offersionis</rs> in suprascriptum
+                        monasterium ad abendum confirmo, faciendum exinde pars suprascripti
+                        monasterii quicquid voluerint sine contradictione suprascripti Aimonis vel
+                        eius heredum. Equidem spondeo atque promitto ego qui supra Aimus, una cum
+                        meis heredibus suprascripto priori et suprascripto monasterio suisque
+                        successoribus ab omni homine defensare seu warentare; quod si defensare non
+                        potuerimus vel si vobis exinde quovis ingenio subtrahere quesierimus, tunc
+                            <rs key="#Penalty">in duplum</rs> suprascriptam offersionenm et dacionem
+                        vobis restituamus, sicut pro tempore fuerit meli[o]rata aut valuerit sub
+                        estimatione in consimili loco. Actum in <placeName ref="#places/4108"
+                            >Camposion</placeName> ad suprascriptum monasterium. Signum manuum + + +
+                        Aimo, hanc cartulam offersionis fieri rogavit. Signum testium + + <persName
+                            key="#Offersio/donatio #Witness"><name ref="Iohannes/de Aimo"
+                                >Iohannes</name></persName> de Aimo, <persName
+                            key="#Offersio/donatio #Witness"><name ref="Artvichus/de Margnano"
+                                >Artvichus</name></persName> de Margnano, <persName
+                            key="#Offersio/donatio #Witness #siblingOf"><name ref="Adelgerius"
+                                >Aldegerius</name></persName> Aimonis <rs key="#siblingOf"
+                            >frater</rs>, <persName key="#Offersio/donatio #Witness"><name
+                                ref="Ardoinus">Arduinus</name></persName>, <persName
+                            key="#Offersio/donatio #Witness"><name ref="Ezelo"
+                            >Ezili</name></persName>, <persName key="#Offersio/donatio #Witness"
+                                ><name ref="Iohannes/Cagarabia">Iohannes
+                        Cagarabia</name></persName>, <persName key="#Offersio/donatio #Witness"
+                                ><name ref="Iohannes/de Masnada">Iohannes</name></persName> de
+                        Masnada rogati <rs key="#Witness">testes</rs> interfuerunt. (SN) Ego
+                            <persName key="#Judge #Notary #Causidicus #Offersio/donatio #Writer"
+                                ><name ref="Arnaldus">Arnaldus</name></persName>
+                        <rs key="#Judge">iudex</rs> sacri palacii <rs key="#Notary">notarius</rs> et
+                            <rs key="#Causidicus">causidicus</rs> interfui et <rs key="#Writer"
+                            >scripsi</rs>. </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p/>
+                <p>CDP II n. 54, pp. 106-107.</p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p/>

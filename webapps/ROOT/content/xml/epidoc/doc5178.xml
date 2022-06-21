@@ -4,7 +4,8 @@
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
-                <title/>
+                <title>Milano, Archivio di Stato, Pergamene per fondi, Mantova, S. Benedetto di
+                    Polirone, cart. 206, n. 11</title>
             </titleStmt>
             <editionStmt>
                 <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
@@ -13,7 +14,7 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DiSCi UniBo</publisher>
-                <idno type="filename"/>
+                <idno type="filename">doc5178</idno>
                 <availability xml:lang="en" status="free">
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                         texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
@@ -29,9 +30,9 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="#"/>
-                            <rs type="record_source" ref="#"/>
-                            <rs type="document_tradition" ref="#"/>
+                            <rs type="text_type" ref="#">--Judicial breve</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
                             <rs type="fiscal_property"/>
                         </summary>
                         <msItem xml:id="msItem1">
@@ -40,13 +41,14 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate>
-                                <note type="displayed_date"/>
+                            <origDate when="1146-12-09">
+                                <note type="displayed_date">1146 December 9</note>
                                 <note type="dating_elements"/>
-                                <note type="topical_date"/>
+                                <note type="topical_date">Costa di Rovigo (Rovigo)</note>
                                 <note type="redaction_date"/>
                             </origDate>
-                            <origPlace></origPlace>
+                            <origPlace>Sanctus Benedictus in Pado Lironi; monasterium
+                                (Mantova)</origPlace>
                         </origin>
                         <provenance>
                             <location>
@@ -72,7 +74,7 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2022-02-03" who="other">creation of record</change>
+                <change when="2022-06-18" who="bferretti">creation of record</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -80,11 +82,102 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab/>
+                    <ab>+ In Dei nomine. Anno domini nostri Iesu Christi natalis millesimo centesimo
+                        XLVI, tempore <persName key="#Popes">Eugenii</persName>
+                        <rs key="#Popes">pape</rs> et <persName key="#Emperor/king"
+                            >Chouradi</persName>
+                        <rs key="#Emperor/king">regis</rs>, die mensis decenbris nono, indictione
+                        VIIII. In loco qui dicitur <placeName key="#Rural_communities"
+                            >Costa</placeName>, iuxta <rs key="#Rivers">flumen</rs>
+                        <placeName key="#Rivers">Adticis</placeName>. Controversia fuit inter
+                            <persName key="#Abbots" ref="#people/3747">Paulum</persName>, <rs
+                            key="#Abbots">abbatem</rs>
+                        <orgName key="#Abbots" ref="#juridical_persons/1460">Sancte Marie</orgName>
+                        de <placeName ref="#places/4179">Ponposia</placeName>, et <persName
+                            key="#Priors #Monasteries" ref="#people/3716">Madebelatum</persName>,
+                            <rs key="#Priors">priorem</rs>
+                        <rs key="#Monasteries">monasterii</rs>
+                        <orgName key="#Monasteries #Priors" ref="#juridical_persons/2075">Sancti
+                            Cipriani</orgName> de <placeName key="#Monasteries" ref="#places/914"
+                            >Venecia</placeName>, cella <orgName ref="#juridical_persons/2001"
+                            >Sancti Benedicti in Lairone</orgName>, et fuit in audientia, datis
+                        pignoribus, iudicum <persName key="#Judge"><name
+                                ref="Iohannes/iudex/de Vado">Iohannis</name></persName>
+                        <rs key="#Judge">iudicis</rs> de <placeName>Vado</placeName> et <persName
+                            key="#Judge"><name ref="Adelgerius/de Sancta Cruce"
+                            >Adegerii</name></persName> de <placeName>Sancta Cruce</placeName>,
+                        precepto domini <persName key="#Cardinals">Guidonis</persName>
+                        <rs key="#Cardinals">cardinalis</rs>
+                        <orgName key="#Cardinals" ref="#juridical_persons/1100">ecclesie
+                            Romane</orgName>. Petebat enim predictus abbas adversus predictum
+                        priorem totam scilicet possessionem predicte Coste quam predictum
+                        monasterium Sancti Cipriani tenebat, et <rs key="#Witness">testes</rs>
+                        predictus abbas producebat. E contra prior prenominatus respondebat per se
+                        et per suos auctores, <rs key="#childOf">filios</rs> quondam <rs
+                            key="#Marquis/duke">marchionis</rs>
+                        <persName key="#Marquis/duke #parentOf" ref="#people/3533"
+                            >Fulconis</persName>, per longiora tempora quiete possedisse et
+                        quamplures testes ex his in placito proferebat. Hinc inde quampluribus
+                        dictis rationibus, lis taliter finem accepit, quod prescripti iudices, qui
+                        pignora habebant, et per rationem et per convenientiam voluntate et consensu
+                        utriusque partis iusserint ut predictus prior daret <rs key="#Price">XVcim
+                            libras denariorum Veronensium</rs> supradicto abbati, et abbas cum <rs
+                            key="#Advocatus">advocato</rs> suo <persName ref="#people/3748"
+                            >Saliinguerra</persName> fecit finem perpetualiter prescripto priori
+                        suisque successoribus de tota illa possessione qua dicitur Costa, sicuti
+                        continetur in cartula Sancti Cipriani, infra hec latera: unum latus fiumen
+                        Attisscis, salium latu <rs key="#Canals">fossa</rs> que dicitur
+                            <placeName>Gaibo</placeName>, uno caput
+                        <placeName>Policinus</placeName>, de subto <placeName>Rametelli</placeName>,
+                        alio capite <persName><name ref="Albarus/de Publicano"
+                            >Albarus</name></persName> de Publicano. Preter <rs key="#Lakes"
+                            >lacum</rs> unum, <rs key="#Rights_of_use_on_woods/pastures/waters">quem
+                            debent piscare</rs>
+                        <rs key="#Rural_communities">homines <placeName
+                            key="#Villas #Rural_communities" ref="#places/4781"><rs key="#Villas"
+                                    ref="#places/4180">ville</rs> Martiane</placeName></rs> per
+                        abbatem tantum et homines predicte Coste, iure Sancti Cipriani tantum et non
+                        alii communiter. Et hoc totum firmatum est per abbatem, sub pena <rs
+                            key="#Penalty">centum librarum denariorum Verone</rs>. Ad hec fuerunt
+                        testes presentes: <persName key="#Marquis/duke #siblingOf #Witness"
+                            ref="#people/3749">Bonifatius</persName> et <persName
+                            key="#Marquis/duke #siblingOf #Witness" ref="#people/3750"
+                            >Albertus</persName>
+                        <rs key="#siblingOf">germani</rs> marchiones, predictus Saliinguerra,
+                            <persName key="#childOf #Witness" ref="#people/3752">Albertus</persName>
+                        filius quondam <persName key="#Count #parentOf" ref="#people/3751"
+                            >Maltraversi</persName>
+                        <rs key="#Count">comitis</rs>, <persName key="#Advocatus #Witness"><name
+                                ref="Alferius/advocatus Ferariensis">Alferus</name></persName>,
+                            <persName key="#Advocatus #Witness"><name
+                                ref="Bernardus/advocatus Ferariensis">Bernardus</name></persName>,
+                            <persName key="#Advocatus #Witness"><name
+                                ref="Rodulfus/advocatus Ferariensis">Rodulfus</name></persName>,
+                            <persName key="#Advocatus #Witness"><name
+                                ref="Gherardus/advocatus Ferariensis">Gerardus</name></persName>
+                        advocati <placeName key="#Advocatus" ref="#places/80"
+                            >Ferarienses</placeName>, <persName key="#Advocatus #Witness"><name
+                                ref="Heinricus/advocatus/de Urbana">Henricus</name></persName> de
+                            <placeName ref="#places/4135">Urbana</placeName>, <persName
+                            key="#Advocatus #Witness"><name ref="Iohannes/advocatus/de Monte Silice"
+                                >Iohannes</name></persName> de <placeName ref="#places/918">Monte
+                            Silice</placeName> advocati, <persName key="#Witness"><name
+                                ref="Azo/de Policina">Aço</name></persName> de Policina, <persName
+                            key="#Witness"><name ref="Peregrinus/de Remedello"
+                            >Peregrinus</name></persName> de Ramedello, <persName key="#Witness"
+                                ><name ref="Beritius/de Nitiche">Beriçus</name></persName> de
+                        Nithiche, <persName key="#Witness"><name ref="Albericus/Musa de Bove"
+                                >Albericus Musa de Bove</name></persName>, <persName key="#Witness"
+                                ><name ref="Causus">Caucus</name></persName> quondam <persName><name
+                                ref="Agnellus">Agnelli</name></persName> et alii quam plures. Et ego
+                            <persName key="#Notary #Writer"><name ref="Angelbertus"
+                                >Angelbertus</name></persName> Ferariensis <rs key="#Notary"
+                            >notarius</rs> predicta supradictorum iudicum <rs key="#Writer"
+                            >scripsi</rs> hec omnia pro memoria retinenda. </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p/>
+                <p>CDP II n. 57, pp. 111-112.</p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p/>
