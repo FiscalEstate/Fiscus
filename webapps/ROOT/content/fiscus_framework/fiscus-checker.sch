@@ -18,6 +18,21 @@
         </rule>
     </pattern>
     
+    <pattern  id="Test_names_not_to_contain_commas">
+        <rule context="//t:placeName[not(@type='other')][ancestor::t:listPlace[@type='places']]">
+            <report test="contains(., ',')">one or more place names contains commas (,): replace them with semicolons (;)</report>
+        </rule>
+        <rule context="//t:geogName[not(@type='other')][ancestor::t:listPlace[@type='estates']]">
+            <report test="contains(., ',')">one or more estates names contains commas (,): replace them with semicolons (;)</report>
+        </rule>
+        <rule context="//t:orgName[not(@type='other')][ancestor::t:listOrg]">
+            <report test="contains(., ',')">one or more juridical person names contains commas (,): replace them with semicolons (;)</report>
+        </rule>
+        <rule context="//t:persName[not(@type='other')][ancestor::t:listPerson]">
+            <report test="contains(., ',')">one or more person names contains commas (,): replace them with semicolons (;)</report>
+        </rule>
+    </pattern>
+    
     <pattern id="Test_presence_of_main_name">
         <rule context="//t:place[ancestor::t:listPlace[@type='places']]">
             <report test="not(descendant::t:placeName[not(@type='other')][.//text()])">one or more places are without (main) name</report>
