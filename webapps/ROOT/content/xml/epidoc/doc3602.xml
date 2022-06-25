@@ -40,15 +40,8 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate notAfter="1201-06-20">
-                                <note type="displayed_date">1200 circa</note>
-                                <note type="dating_elements">Rossella Rinaldi data il documento
-                                    intorno al 1200 (R. Rinaldi, Considerazioni sulle istituzioni
-                                    ecclesiastiche nelle campagne emiliane fra i secoli VIII-XII, in
-                                    “ La bassa modenese. Storia, tradizione, ambiente”, quaderno n.
-                                    6, San Felice sul Panaro (Modena), 1984, p. 30). Sicuramente la
-                                    carta è precedente alla rimozione dell'abate Bonifacio, avvenuta
-                                    il 20 giugno 1201. </note>
+                            <origDate notAfter="1201-06-20" notBefore="1200-01-01">
+                                <note type="displayed_date">1200 </note>
                                 <note type="topical_date"/>
                                 <note type="redaction_date"/>
                             </origDate>
@@ -80,7 +73,8 @@
             <listChange>
                 <change when="2022-05-24" who="ncerretani">creation of record</change>
                 <change when="2022-05-27" who="ncerretani">minor changes</change>
-                <change when="2022-06-25" who="ncerretani">minor changes</change>
+                <change when="2022-06-25" who="ncerretani">changes</change>
+                <change/>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -119,12 +113,11 @@
                             >capellarum</rs> eiusdem ecclesie sub pignore et usuris tenentur […]
                         unus monacus vel etiam capellanus potest ibi vivere. Item ecclesia nostra
                         sita in <orgName key="#Churches"><placeName key="#Churches"
-                                ref="#places/145"><geogName key="#Mansi #Churches/religious_bodies"
-                                    ref="#estates/116">Nogaria</geogName></placeName></orgName>
-                        quando factus est abbas stabant ibi honorifice IIIIor monachi cum capellano
-                        et equitaturis et servitoribus; nunc autem ita destructa est quod IIIIor <rs
-                            key="#Mansi">mansos</rs> eiusdem ecclesie in perpetuo vendidit et XII
-                            <rs key="#Mansi">mansos</rs> alios eiusdem ecclesie usque ad XX annos
+                                ref="#places/145">Nogaria</placeName></orgName> quando factus est
+                        abbas stabant ibi honorifice IIIIor monachi cum capellano et equitaturis et
+                        servitoribus; nunc autem ita destructa est quod IIIIor <rs key="#Mansi"
+                            >mansos</rs> eiusdem ecclesie in perpetuo vendidit et XII <rs
+                            key="#Mansi">mansos</rs> alios eiusdem ecclesie usque ad XX annos
                         pignori obligavit et camera qua nunc facta sint nescimus. Item ecclesia
                         monasterii noviter in <orgName key="#Monasteries"><placeName
                                 key="#Cities #Monasteries" ref="#places/59"
@@ -137,9 +130,8 @@
                             key="#Monasteries" ref="#places/15">Nonantula</placeName> vendidit de
                         possessionibus seu de<rs key="#Mansi"> mansis</rs> et <rs
                             key="#Production_units">casamentis</rs> ecclesie <placeName
-                            key="#Churches" ref="#places/13"><orgName key="#Churches"><geogName
-                                    key="#Production_units #Mansi"
-                            >trivisine</geogName></orgName></placeName> tantum unde accepit <rs
+                            key="#Churches" ref="#places/13"><orgName key="#Churches"
+                                >trivisine</orgName></placeName> tantum unde accepit <rs
                             key="#Value">mille quingentas libras veronensium</rs>, quos denarios
                         dedit per dotem cuidam domine <persName key="#Bonds"><name ref="Palmere"
                                 >Palmere</name></persName>. Item quando domnus abbas ivit ultra mare
@@ -193,10 +185,9 @@
                         fuit abbas, vendidit tantum de possessionibus eiusdem ecclesie, unde accepit
                             <rs key="#Value">octoaginta libras veronensium</rs> et modo in ea nullus
                         potest stare. Item in comitatu <placeName key="#Comitatus" ref="#places/9"
-                                ><geogName key="#Comitatus" ref="#estates/312"
-                            >Brisiensi</geogName></placeName> erant possessiones et istas dedit pro
-                            <rs key="#Value">viginti quinque libris imperialium</rs>, que valebant
-                        et valent hodie <rs key="#Value">ducentas libras imperialium</rs>. Item
+                            >Brisiensi</placeName> erant possessiones et istas dedit pro <rs
+                            key="#Value">viginti quinque libris imperialium</rs>, que valebant et
+                        valent hodie <rs key="#Value">ducentas libras imperialium</rs>. Item
                         ecclesia nostra <placeName key="#Churches" ref="#places/80"><orgName
                                 key="#Churches">Ferrariensis</orgName></placeName> habebat
                         possessiones que extendebantur per tria miliaria continue et plus, et ea
@@ -400,7 +391,14 @@
                 <p/>
             </div>
             <div type="commentary">
-                <p/>
+                <p>
+                    <note type="dating_elements">Rossella Rinaldi data il documento intorno al 1200
+                        (R. Rinaldi, Considerazioni sulle istituzioni ecclesiastiche nelle campagne
+                        emiliane fra i secoli VIII-XII, in “ La bassa modenese. Storia, tradizione,
+                        ambiente”, quaderno n. 6, San Felice sul Panaro (Modena), 1984, p. 30).
+                        Sicuramente la carta è precedente alla rimozione dell'abate Bonifacio,
+                        avvenuta il 20 giugno 1201. </note>
+                </p>
             </div>
         </body>
     </text>
