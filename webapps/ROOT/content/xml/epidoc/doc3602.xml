@@ -4,7 +4,7 @@
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
-                <title>Archivio Abbaziale di Nonantola, Pergamene, XXIX.21</title>
+                <title>Nonantola, Archivio Abbaziale, Pergamene, XXIX.21</title>
             </titleStmt>
             <editionStmt>
                 <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
@@ -29,7 +29,7 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="#">--Judicial breve</rs>
+                            <rs type="text_type" ref="#">-Breve/memoratorium</rs>
                             <rs type="record_source" ref="#">Original document</rs>
                             <rs type="document_tradition" ref="#">Original</rs>
                             <rs type="fiscal_property">No</rs>
@@ -40,15 +40,8 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate notAfter="1201-06-20">
-                                <note type="displayed_date">1200 circa</note>
-                                <note type="dating_elements">Rossella Rinaldi data il documento
-                                    intorno al 1200 (R. Rinaldi, Considerazioni sulle istituzioni
-                                    ecclesiastiche nelle campagne emiliane fra i secoli VIII-XII, in
-                                    “ La bassa modenese. Storia, tradizione, ambiente”, quaderno n.
-                                    6, San Felice sul Panaro (Modena), 1984, p. 30). Sicuramente la
-                                    carta è precedente alla rimozione dell'abate Bonifacio, avvenuta
-                                    il 20 giugno 1201. </note>
+                            <origDate notAfter="1201-06-20" notBefore="1200-01-01">
+                                <note type="displayed_date">1200 </note>
                                 <note type="topical_date"/>
                                 <note type="redaction_date"/>
                             </origDate>
@@ -80,6 +73,7 @@
             <listChange>
                 <change when="2022-05-24" who="ncerretani">creation of record</change>
                 <change when="2022-05-27" who="ncerretani">minor changes</change>
+                <change when="2022-06-25" who="ncerretani">changes</change>
                 <change/>
             </listChange>
         </revisionDesc>
@@ -97,10 +91,10 @@
                         et <rs key="#Production_units">casamentis</rs>
                         <rs key="#Churches">ecclesie</rs>
                         <orgName key="#Churches">Sancte Fusce</orgName> que ecclesia erat ditissima
-                        […] <placeName key="#Cities" ref="#places/59">veronensium</placeName> et
-                        camera horum venditionum nullo modo scivimus. Quando abbas <persName
-                            key="#Abbots">Bonifatius</persName> ivit ultra mare promisit fratribus
-                        monasterii […] ecclesiam et fracta promissione cum fuit <placeName
+                        […] <placeName ref="#places/59">veronensium</placeName> et camera horum
+                        venditionum nullo modo scivimus. Quando abbas <persName key="#Abbots"
+                            >Bonifatius</persName> ivit ultra mare promisit fratribus monasterii […]
+                        ecclesiam et fracta promissione cum fuit <placeName
                             key="#Geographic_regions">Venetiis</placeName> accepit a supradicta
                         ecclesia <orgName key="#Monasteries">Sancte Fusce</orgName> in <placeName
                             key="#Cities" ref="#places/13">Trivisiensi</placeName>
@@ -119,12 +113,11 @@
                             >capellarum</rs> eiusdem ecclesie sub pignore et usuris tenentur […]
                         unus monacus vel etiam capellanus potest ibi vivere. Item ecclesia nostra
                         sita in <orgName key="#Churches"><placeName key="#Churches"
-                                ref="#places/145"><geogName key="#Mansi #Churches/religious_bodies"
-                                    ref="#estates/116">Nogaria</geogName></placeName></orgName>
-                        quando factus est abbas stabant ibi honorifice IIIIor monachi cum capellano
-                        et equitaturis et servitoribus; nunc autem ita destructa est quod IIIIor <rs
-                            key="#Mansi">mansos</rs> eiusdem ecclesie in perpetuo vendidit et XII
-                            <rs key="#Mansi">mansos</rs> alios eiusdem ecclesie usque ad XX annos
+                                ref="#places/145">Nogaria</placeName></orgName> quando factus est
+                        abbas stabant ibi honorifice IIIIor monachi cum capellano et equitaturis et
+                        servitoribus; nunc autem ita destructa est quod IIIIor <rs key="#Mansi"
+                            >mansos</rs> eiusdem ecclesie in perpetuo vendidit et XII <rs
+                            key="#Mansi">mansos</rs> alios eiusdem ecclesie usque ad XX annos
                         pignori obligavit et camera qua nunc facta sint nescimus. Item ecclesia
                         monasterii noviter in <orgName key="#Monasteries"><placeName
                                 key="#Cities #Monasteries" ref="#places/59"
@@ -137,9 +130,8 @@
                             key="#Monasteries" ref="#places/15">Nonantula</placeName> vendidit de
                         possessionibus seu de<rs key="#Mansi"> mansis</rs> et <rs
                             key="#Production_units">casamentis</rs> ecclesie <placeName
-                            key="#Cities #Churches" ref="#places/13"><orgName key="#Churches"
-                                    ><geogName key="#Production_units #Mansi"
-                                >trivisine</geogName></orgName></placeName> tantum unde accepit <rs
+                            key="#Churches" ref="#places/13"><orgName key="#Churches"
+                                >trivisine</orgName></placeName> tantum unde accepit <rs
                             key="#Value">mille quingentas libras veronensium</rs>, quos denarios
                         dedit per dotem cuidam domine <persName key="#Bonds"><name ref="Palmere"
                                 >Palmere</name></persName>. Item quando domnus abbas ivit ultra mare
@@ -148,7 +140,7 @@
                         <orgName key="#Monasteries" ref="#juridical_persons/47"><placeName
                                 key="#Monasteries" ref="#places/15">Sancti
                             Silvestri</placeName></orgName>. Ivit ad predictam ecclesiam<placeName
-                            key="#Cities #Churches" ref="#places/13"><orgName key="#Churches">
+                            key="#Churches" ref="#places/13"><orgName key="#Churches">
                                 trivisinam</orgName></placeName> et suis suasionibus dedit illi
                         prior <persName key="#Priors"><name ref="Nicolaus"
                             >Nicolaus</name></persName>
@@ -163,50 +155,47 @@
                         negaret se non plus posse dare sine destructione ecclesie, surrexit quidam
                         monachus et promisit quod daret <rs key="#Value">ducentas Iibras
                             veronensium</rs>, si daret sibi ecclesiam <orgName key="#Churches"
-                                ><placeName key="#Cities #Churches" ref="#places/13"
-                                >trivisinam</placeName></orgName>; qui gavisus de promissione
-                        abstulit ecclesiam priori <persName key="#Priors">Nicolao</persName> et
-                        dedit alii qui solvit abbati <rs key="#Value">C viginti octo libras
-                            veronensium</rs>. ltem in ecclesia nostra de <orgName key="#Churches"
-                                ><placeName key="#Cities #Churches" ref="#places/69"
-                                >Vicentina</placeName></orgName> civitate stabant ho[…] quattuor
-                        monachi et quinque, sex cum <rs key="#Clergy/religious_persons"
-                            >capellano</rs> et servientibus et equitaturis, cum factus fuit abbas;
-                        nunc vero ad nihilum ita redacta est, quod unus monachus vel clericus in ea
-                        potest vivere, quod omnes possessiones illius ecclesie et possessiones
-                        capellanorum eiusdem ecclesie fuerunt pignori obligate. Item monasterium
-                        nostrum de <placeName
-                            key="#Village/castle_territory #Churches/religious_bodies"
-                            ref="#places/145"><orgName key="#Churches/religious_bodies"
-                                >Nogaria</orgName></placeName>, quod est situm in episcopatu
-                            <orgName key="#Dioecesis"><placeName key="#Cities #Dioecesis"
-                                ref="#places/59">Verone</placeName></orgName>, et quatuor monachi
-                        cum capellano et servientibus et equitaturis honorifice stabant ibi, cum
-                        factus fuit abbas; nunc vero ad nihilum redactum est, quia quatuor <rs
-                            key="#Mansi">mansos</rs> istius monasterii in perpetuum alienavit et XII
-                        mansos alios eiusdem monasterii sub pignore usque ad viginti annos tradidit.
-                        Item ecclesia nostra noviter facta in civitate <placeName key="#Cities"
-                            ref="#places/59">Veronensi</placeName> possessiones quasdam vendidit et
-                        insuper <rs key="#Value">LXXX libras veronensium</rs> super possessionibus
-                        eiusdem ecclesie sub […] accepit. Item in ecclesia nostra de <orgName
-                            key="#Churches/religious_bodies"><placeName key="#Cities #Churches"
-                                ref="#places/275">Mantua</placeName></orgName>, in qua stabant duo
-                        monachi cum factus fuit abbas, vendidit tantum de possessionibus eiusdem
-                        ecclesie, unde accepit <rs key="#Value">octoaginta libras veronensium</rs>
-                        et modo in ea nullus potest stare. Item in comitatu <placeName
-                            key="#Comitatus" ref="#places/9"><geogName key="#Comitatus"
-                                ref="#estates/312">Brisiensi</geogName></placeName> erant
-                        possessiones et istas dedit pro <rs key="#Value">viginti quinque libris
-                            imperialium</rs>, que valebant et valent hodie <rs key="#Value">ducentas
-                            libras imperialium</rs>. Item ecclesia nostra <placeName
-                            key="#Cities #Churches" ref="#places/80"><orgName key="#Churches"
-                                >Ferrariensis</orgName></placeName> habebat possessiones que
-                        extendebantur per tria miliaria continue et plus, et ea dedit. Item ecclesia
-                        nostra in <placeName key="#Cities #Churches" ref="#places/191"><orgName
-                                key="#Churches">Regina</orgName></placeName> civitate habebat <rs
-                            key="#Curtes">curtem</rs>, que dicebatur <placeName key="#Curtes"
-                                ><geogName key="#Curtes">Cella</geogName></placeName>, quam vendidit
-                        cum ecclesia in ea manente <placeName key="#Cities" ref="#places/191"
+                                ><placeName key="#Churches" ref="#places/13"
+                            >trivisinam</placeName></orgName>; qui gavisus de promissione abstulit
+                        ecclesiam priori <persName key="#Priors">Nicolao</persName> et dedit alii
+                        qui solvit abbati <rs key="#Value">C viginti octo libras veronensium</rs>.
+                        ltem in ecclesia nostra de <orgName key="#Churches"><placeName
+                                key="#Cities #Churches" ref="#places/69"
+                            >Vicentina</placeName></orgName> civitate stabant ho[…] quattuor monachi
+                        et quinque, sex cum <rs key="#Clergy/religious_persons">capellano</rs> et
+                        servientibus et equitaturis, cum factus fuit abbas; nunc vero ad nihilum ita
+                        redacta est, quod unus monachus vel clericus in ea potest vivere, quod omnes
+                        possessiones illius ecclesie et possessiones capellanorum eiusdem ecclesie
+                        fuerunt pignori obligate. Item monasterium nostrum de <placeName
+                            key="#Churches/religious_bodies" ref="#places/145"><orgName
+                                key="#Churches/religious_bodies">Nogaria</orgName></placeName>, quod
+                        est situm in episcopatu <orgName key="#Dioecesis"><placeName
+                                key="#Dioecesis" ref="#places/59">Verone</placeName></orgName>, et
+                        quatuor monachi cum capellano et servientibus et equitaturis honorifice
+                        stabant ibi, cum factus fuit abbas; nunc vero ad nihilum redactum est, quia
+                        quatuor <rs key="#Mansi">mansos</rs> istius monasterii in perpetuum
+                        alienavit et XII mansos alios eiusdem monasterii sub pignore usque ad
+                        viginti annos tradidit. Item ecclesia nostra noviter facta in civitate
+                            <placeName key="#Cities" ref="#places/59">Veronensi</placeName>
+                        possessiones quasdam vendidit et insuper <rs key="#Value">LXXX libras
+                            veronensium</rs> super possessionibus eiusdem ecclesie sub […] accepit.
+                        Item in ecclesia nostra de <orgName key="#Churches/religious_bodies"
+                                ><placeName key="#Churches" ref="#places/275"
+                            >Mantua</placeName></orgName>, in qua stabant duo monachi cum factus
+                        fuit abbas, vendidit tantum de possessionibus eiusdem ecclesie, unde accepit
+                            <rs key="#Value">octoaginta libras veronensium</rs> et modo in ea nullus
+                        potest stare. Item in comitatu <placeName key="#Comitatus" ref="#places/9"
+                            >Brisiensi</placeName> erant possessiones et istas dedit pro <rs
+                            key="#Value">viginti quinque libris imperialium</rs>, que valebant et
+                        valent hodie <rs key="#Value">ducentas libras imperialium</rs>. Item
+                        ecclesia nostra <placeName key="#Churches" ref="#places/80"><orgName
+                                key="#Churches">Ferrariensis</orgName></placeName> habebat
+                        possessiones que extendebantur per tria miliaria continue et plus, et ea
+                        dedit. Item ecclesia nostra in <placeName key="#Cities #Churches"
+                            ref="#places/191"><orgName key="#Churches">Regina</orgName></placeName>
+                        civitate habebat <rs key="#Curtes">curtem</rs>, que dicebatur <placeName
+                            key="#Curtes"><geogName key="#Curtes">Cella</geogName></placeName>, quam
+                        vendidit cum ecclesia in ea manente <placeName ref="#places/191"
                             >regino</placeName>
                         <rs key="#Bishops">episcopo</rs> et <rs key="#Value">quatuor viginti libras
                             imperialium</rs> de ea accepit. Item ecclesia nostra in civitate
@@ -243,20 +232,20 @@
                         donatas vendidit et sic eam exspoliavit. Item monasterium nostrum honorabile
                             <orgName key="#Monasteries"><placeName key="#Monasteries">Vallis
                                 Fabrice</placeName></orgName>, quando factus fuit abbas, ditissimum
-                        invenit, quia quando <placeName key="#Cities" ref="#places/52"
-                            >Roma</placeName> venit causa sue consecrationis fere per mensem cum
-                        triginta equitaturis ibi stetit in pane et vino et anona et in omnibus
-                        expensis ad plenum satisfecit; cum autem inde recederet destrarios sub
-                        pignore possessionum illius ecclesie accepit et plures vices tum in
-                        destrariis, tum in palafredis, tum in aliis expensis acceptis, tum quia
-                        priores ab eo constitutos mala diversa ibi facientes nullo modo emendavit,
-                        nec correxit, possessiones eiusdem monasterii istis de causis in pignore
-                        tenentur et magna pars possessionum eiusdem ecclesie est alienata; et sic
-                        ecclesia predicta in discordia personarum quasi sine rectore et emendatore,
-                        manens propter venditiones et donationes et alienationes predictarum
-                        possessionum, ad destructionem fere pervenit, et que ecclesia in omnibus Deo
-                        et hominibus abundabat, nunc in paupertate fere omnibus amissis iacet
-                        prostrata. Item <placeName key="#Churches/religious_bodies"><orgName
+                        invenit, quia quando <placeName ref="#places/52">Roma</placeName> venit
+                        causa sue consecrationis fere per mensem cum triginta equitaturis ibi stetit
+                        in pane et vino et anona et in omnibus expensis ad plenum satisfecit; cum
+                        autem inde recederet destrarios sub pignore possessionum illius ecclesie
+                        accepit et plures vices tum in destrariis, tum in palafredis, tum in aliis
+                        expensis acceptis, tum quia priores ab eo constitutos mala diversa ibi
+                        facientes nullo modo emendavit, nec correxit, possessiones eiusdem
+                        monasterii istis de causis in pignore tenentur et magna pars possessionum
+                        eiusdem ecclesie est alienata; et sic ecclesia predicta in discordia
+                        personarum quasi sine rectore et emendatore, manens propter venditiones et
+                        donationes et alienationes predictarum possessionum, ad destructionem fere
+                        pervenit, et que ecclesia in omnibus Deo et hominibus abundabat, nunc in
+                        paupertate fere omnibus amissis iacet prostrata. Item <placeName
+                            key="#Churches/religious_bodies"><orgName
                                 key="#Churches/religious_bodies">Sancta Maria in
                             Gotuli</orgName></placeName>, capella monasterii Vallis Fabrice, habebat
                         olim quamdam curiam, que dicitur <placeName key="#Administrative_units"
@@ -402,7 +391,14 @@
                 <p/>
             </div>
             <div type="commentary">
-                <p/>
+                <p>
+                    <note type="dating_elements">Rossella Rinaldi data il documento intorno al 1200
+                        (R. Rinaldi, Considerazioni sulle istituzioni ecclesiastiche nelle campagne
+                        emiliane fra i secoli VIII-XII, in “ La bassa modenese. Storia, tradizione,
+                        ambiente”, quaderno n. 6, San Felice sul Panaro (Modena), 1984, p. 30).
+                        Sicuramente la carta è precedente alla rimozione dell'abate Bonifacio,
+                        avvenuta il 20 giugno 1201. </note>
+                </p>
             </div>
         </body>
     </text>
