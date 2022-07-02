@@ -34,7 +34,7 @@
                             <rs type="text_type" ref="#">-Placitum/iudicatum</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Copy</rs>
-                            <rs type="fiscal_property">No</rs>
+                            <rs type="fiscal_property"/>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -76,6 +76,7 @@
         <revisionDesc>
             <listChange>
                 <change when="2021-08-12" who="bferretti">creation of record</change>
+                <change when="2022-07-02" who="bferretti">changes</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -98,17 +99,17 @@
                             >Ottoni</persName> gloriossissimo <rs key="#Emperor/king"
                             >imperatori</rs> augusti ab eo directus ad singulorum hominum iusticias
                         faciendas ac deliberandas, residentibus cum eum <persName
-                            key="#Placitum/iudicatum #Witness #Judge"><name ref="Ansebrandus"
+                            key="#Placitum/iudicatum #Witness #Judge"><name ref="Ansebrandus/iudex"
                                 >Ansprandus</name></persName>, <persName
-                            key="#Placitum/iudicatum #Witness #Judge"><name ref="Deusdedit"
+                                    key="#Placitum/iudicatum #Witness #Judge"><name ref="Deusdedit/iudex"
                                 >Deodatus</name></persName>, <persName
-                            key="#Placitum/iudicatum #Witness #Judge"><name ref="Eribertus"
+                                    key="#Placitum/iudicatum #Witness #Judge"><name ref="Eribertus/iudex"
                                 >Eribertus</name></persName>, <persName
                             key="#Placitum/iudicatum #Commutatio #Writer #Witness #Notary #Judge #Advocatus_of_other_public_authorities"
                             ref="#people/2108">Urso</persName>, <persName
-                            key="#Placitum/iudicatum #Witness #Judge"><name ref="Teutius"
+                            key="#Placitum/iudicatum #Witness #Judge"><name ref="Teutius/iudex"
                                 >Teuzo</name></persName>, <persName
-                            key="#Placitum/iudicatum #Witness #Judge"><name ref="Adalbertus"
+                                    key="#Placitum/iudicatum #Witness #Judge"><name ref="Adalbertus/iudex"
                                 >Adelbertus</name></persName>
                         <rs key="#Judge">iudices</rs> domni imperatori ac regi, <persName
                             key="#Placitum/iudicatum #Witness #vassusOf" ref="#people/2116"
@@ -127,7 +128,7 @@
                             >Bismanto</placeName>, <persName><name ref="Garialdus"
                             >Gariardus</name></persName> filius quondam <persName><name ref="Azo"
                                 >Azoni</name></persName>, <persName><name ref="Liutius"
-                            >Liuzo</name></persName> filius quondam <persName><name ref="Sigefredus"
+                            >Liuzo</name></persName> filius quondam <persName><name ref="Sigefredus/de Fregnana"
                                 >Sigefredi</name></persName> de <placeName>Fregnana</placeName>,
                             <persName key="#Placitum/iudicatum #Witness #siblingOf #vassusOf"
                             ref="#people/2104">Aldevertus</persName> de superasscripto loco
@@ -147,7 +148,7 @@
                             key="#Placitum/iudicatum #Palatium #Laubia/topia #Mother_churches #Bishops"
                             ref="#juridical_persons/108">sancte Regensis ecclesie</orgName>, in sala
                         propria ipsius domui in <rs key="#Laubia/topia">laubia</rs> maiore ipsius
-                        [sale in iudicio resed]isset <persName><name ref="Garimundus"
+                        [sale in iudicio resed]isset <persName><name ref="Garimundus/iudex"
                                 >Vuarmundus</name></persName> iudex et missus domni imperatoris per
                         data licencia domni <persName
                             key="#Placitum/iudicatum #Mother_churches #Bishops">Ermenaldi</persName>
@@ -158,12 +159,12 @@
                         filius bone memorie <persName key="#Count"><name ref="Rainerius"
                                 >Rain[erii</name></persName> comite vas]sus domni imperatoris,
                             <persName key="#Placitum/iudicatum #Witness #Judge"><name
-                                ref="Giselbertus">Giselbertus</name></persName>, <persName
-                            key="#Placitum/iudicatum #Judge"><name ref="Rotchildus/Rozo">Roschildus
+                                ref="Giselbertus/iudex">Giselbertus</name></persName>, <persName
+                                    key="#Placitum/iudicatum #Judge"><name ref="Rotchildus/Rozo/iudex">Roschildus
                                 qui et Rozo</name></persName>, <persName
-                            key="#Placitum/iudicatum #Witness #Judge"><name ref="Aribertus"
+                                    key="#Placitum/iudicatum #Witness #Judge"><name ref="Aribertus/iudex"
                                 >Aribertus</name></persName>, Teuzo, <persName
-                            key="#Placitum/iudicatum #Judge"><name ref="Iohannes"
+                                    key="#Placitum/iudicatum #Judge"><name ref="Iohannes/iudex"
                             >Iohannes</name></persName>, Adelbertus iudices domni imperatoris,
                             <persName key="#Placitum/iudicatum #Witness #Notary"><name ref="Gausus"
                                 >Causus</name></persName>, <persName
@@ -213,12 +214,12 @@
                             indicione quarta</date>. <rs key="#Commutatio">Commutacio</rs> bone
                         fidei noscitur esse contractum ut vicem empcionis optineant firmita[tem
                         eodemque nexu obligant contrahentes.] Placuit itaque bona voluntate convenit
-                        inter <persName key="#Commutatio #Archpriests #Prevosts" ref="#people/2109"
+                        inter <persName key="#Commutatio #Archpriests #Prevosts #Collegiate_churches" ref="#people/2109"
                             >Martinus</persName>
                         <rs key="#Priests">presbiter</rs> et <rs key="#Prevosts">prepositus</rs>
                         <orgName
-                            key="#Commutatio #Islands #Curtes #Areas #Landed_possessions #Forests #Fisheries #Cereals #Wine #Mother_churches #Prevosts"
-                            ref="#juridical_persons/1418"><rs key="#Churches/religious_bodies"
+                            key="#Commutatio #Islands #Curtes #Areas #Landed_possessions #Forests #Fisheries #Cereals #Wine #Mother_churches #Collegiate_churches #Prevosts"
+                            ref="#juridical_persons/1418"><rs key="#Collegiate_churches"
                                 >canonice</rs> Sancte Marie et Sancti Michaelis</orgName> sita
                         Regio quod [una per consensum et auctoritatem fratrum] seniorum
                             <rs>cannonicorum</rs> ipsius ecclesie, et inter Adelbertus qui et Atto
@@ -237,7 +238,7 @@
                         seu <placeName
                             key="#Commutatio #Islands #Landed_possessions #Forests #Fisheries #Cereals #Wine #Castle"
                             ref="#places/2400">insula Sancti Benedicti</placeName> prope <rs
-                            key="#Rivers">fluvio Padi</rs> ubi [<rs key="#Castle">castrum</rs> inibi
+                                key="#Rivers">fluvio</rs> <placeName key="#Rivers" ref="#places/4196">Padi</placeName> ubi [<rs key="#Castle">castrum</rs> inibi
                         con]structum vel edifficatum fuit seu cum <rs key="#Fisheries"
                             >pisscacionibus</rs> ipsius loci seu <placeName
                             key="#Commutatio #Islands #Landed_possessions #Forests #Cereals #Wine"
@@ -251,17 +252,18 @@
                             <orgName key="#Mother_churches" ref="#juridical_persons/1426">sancte
                                 <placeName key="#Mother_churches" ref="#places/275"
                                 >Mantuanense</placeName> ecclesie</orgName>, da [tercia parte da
-                        medio die] tenente in fluvio Pado, da quarta parte de subto <rs
-                            key="#Rivers">fluvio Largione</rs>, quod si alie sunt affines. Quidem et
+                        medio die] tenente in fluvio Pado, da quarta parte de subto <placeName
+                            key="#Rivers" ref="#places/4197">fluvio Largione</placeName>, quod si alie sunt affines. Quidem et
                         ad invicem recepit iam [dictus Martinus archi]presbiter et prepositus
                         ampliorata et meliorata causa sicut lex continet ab eodem Adelbertus ad
                         partem predicte cannonice, id sunt rebus illis iuris [predicti Adelberti
-                        quibus] ipsis rebus esse videntur in comitatu Regense infra fines designate
-                        Chruxtum et <rs key="#Rivers">fluvio Quarismo</rs> et <rs key="#Rivers"
-                            >fluvio Rodano</rs> et <rs key="#Rivers">fluvio [Baniolo</rs> et in
+                        quibus] ipsis rebus esse videntur in comitatu Regense
+                        <geogName key="#Fines" ref="#estates/3700"><rs key="#Fines">fines</rs> designate Chruxtum</geogName>
+                        et <placeName key="#Rivers" ref="#places/4198">fluvio Quarismo</placeName> et <placeName key="#Rivers" ref="#places/4199"
+                            >fluvio Rodano</placeName> et <placeName key="#Rivers" ref="#places/4400">fluvio [Baniolo</placeName> et in
                         loco] qui dicitur <placeName key="#Forests">Grasito</placeName>
-                        <geogName key="#Commutatio #Forests" ref="#estates/2006">silva que dicitur
-                            Mantuana</geogName> et sunt rebus ipsis ad super ascripta mensura illis
+                        <placeName key="#Commutatio #Forests" ref="#places/4401">silva que dicitur
+                            Mantuana</placeName> et sunt rebus ipsis ad super ascripta mensura illis
                         rebus in suprascripta civitate Regio modia qu[attor, et illis] rebus foris
                         ipsa civitate in loco <placeName
                             key="#Commutatio #Landed_possessions #Cereals #Wine #Hay/fodder"
