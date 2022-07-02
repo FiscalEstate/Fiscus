@@ -34,7 +34,7 @@
                             <rs type="text_type" ref="#">--Commutatio</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Copy</rs>
-                            <rs type="fiscal_property">No</rs>
+                            <rs type="fiscal_property"/>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -90,16 +90,18 @@
                         septembris, indicione quarta. <rs key="#Commutatio">Commutacio</rs> bone
                         fidei noscitur esse contractum ut vicem empcionis optineant firmita[tem
                         eodemque nexu obligant contrahentes.] Placuit itaque bona voluntate convenit
-                        inter <persName key="#Commutatio #Archpriests #Prevosts" ref="#people/2109"
-                            >Martinus</persName>
+                        inter <persName
+                            key="#Commutatio #Archpriests #Prevosts #Collegiate_churches"
+                            ref="#people/2109">Martinus</persName>
                         <rs key="#Priests">presbiter</rs> et <rs key="#Prevosts">prepositus</rs>
                         <orgName
-                            key="#Commutatio #Islands #Curtes #Areas #Landed_possessions #Forests #Fisheries #Cereals #Wine #Mother_churches #Prevosts"
-                            ref="#juridical_persons/1418"><rs key="#Churches/religious_bodies"
+                            key="#Commutatio #Islands #Curtes #Areas #Landed_possessions #Forests #Fisheries #Cereals #Wine #Collegiate_churches #Mother_churches #Prevosts"
+                            ref="#juridical_persons/1418"><rs key="#Collegiate_churches"
                                 >canonice</rs></orgName>
-                        <orgName key="#Mother_churches" ref="#juridical_persons/108">Sancte Marie et
-                            Sancti Michaelis</orgName> sita <placeName
-                            key="#Cities #Mother_churches #Local_elites #Boni_viri/boni_homines"
+                        <orgName key="#Mother_churches #Collegiate_churches"
+                            ref="#juridical_persons/108">Sancte Marie et Sancti Michaelis</orgName>
+                        sita <placeName
+                            key="#Cities #Mother_churches #Collegiate_churches #Local_elites #Boni_viri/boni_homines"
                             ref="#places/191">Regio</placeName> quod [una per consensum et
                         auctoritatem fratrum] seniorum <rs key="#Canons">cannonicorum</rs> ipsius
                         ecclesie, et inter <persName
@@ -122,9 +124,10 @@
                         seu <placeName
                             key="#Commutatio #Islands #Landed_possessions #Forests #Fisheries #Cereals #Wine #Castle"
                             ref="#places/2400">insula Sancti Benedicti</placeName> prope <rs
-                            key="#Rivers">fluvio Padi</rs> ubi [<rs key="#Castle">castrum</rs> inibi
-                        con]structum vel edifficatum fuit seu cum <rs key="#Fisheries"
-                            >pisscacionibus</rs> ipsius loci seu <placeName
+                            key="#Rivers">fluvio</rs>
+                        <placeName key="#Rivers">Padi</placeName> ubi [<rs key="#Castle"
+                            >castrum</rs> inibi con]structum vel edifficatum fuit seu cum <rs
+                            key="#Fisheries">pisscacionibus</rs> ipsius loci seu <placeName
                             key="#Commutatio #Islands #Landed_possessions #Forests #Cereals #Wine"
                             ref="#places/2402">insula Gurgo Pedangnolo</placeName> cum suorum
                         pertinenciis; et sunt rebus ipsis per [mensura et racionem] ad pertica
@@ -136,18 +139,19 @@
                             <orgName key="#Mother_churches" ref="#juridical_persons/1426">sancte
                                 <placeName key="#Mother_churches" ref="#places/275"
                                 >Mantuanense</placeName> ecclesie</orgName>, da [tercia parte da
-                        medio die] tenente in fluvio Pado, da quarta parte de subto <rs
-                            key="#Rivers">fluvio Largione</rs>, quod si alie sunt affines. Quidem et
-                        ad invicem recepit iam [dictus Martinus archi]presbiter et prepositus
-                        ampliorata et meliorata causa sicut lex continet ab eodem Adelbertus ad
-                        partem predicte cannonice, id sunt rebus illis iuris [predicti Adelberti
-                        quibus] ipsis rebus esse videntur in <geogName key="#Comitatus"
-                            ref="#estates/193">comitatu Regense</geogName> infra fines designate
-                        Chruxtum et <rs key="#Rivers">fluvio Quarismo</rs> et <rs key="#Rivers"
-                            >fluvio Rodano</rs> et <rs key="#Rivers">fluvio [Baniolo</rs> et in
-                        loco] qui dicitur <placeName key="#Forests">Grasito</placeName>
-                        <geogName key="#Commutatio #Forests" ref="#estates/2006">silva que dicitur
-                            Mantuana</geogName> et sunt rebus ipsis ad super ascripta mensura illis
+                        medio die] tenente in fluvio Pado, da quarta parte de subto <placeName
+                            key="#Rivers" ref="#places/4197">fluvio Largione</placeName>, quod si
+                        alie sunt affines. Quidem et ad invicem recepit iam [dictus Martinus
+                        archi]presbiter et prepositus ampliorata et meliorata causa sicut lex
+                        continet ab eodem Adelbertus ad partem predicte cannonice, id sunt rebus
+                        illis iuris [predicti Adelberti quibus] ipsis rebus esse videntur in
+                            <geogName key="#Comitatus" ref="#estates/193">comitatu
+                                Regense</geogName> infra <geogName key="#Fines" ref="#estates/3700"><rs key="#Fines">fines</rs> designate Chruxtum</geogName> et <placeName key="#Rivers" ref="#places/4198"
+                                    >fluvio Quarismo</placeName> et <placeName key="#Rivers" ref="#places/4199">fluvio Rodano</placeName> et <placeName
+                                        key="#Rivers" ref="#places/4400">fluvio [Baniolo</placeName> et in loco] qui dicitur <placeName
+                            key="#Forests">Grasito</placeName>
+                        <placeName key="#Commutatio #Forests" ref="#places/4401">silva que dicitur
+                            Mantuana</placeName> et sunt rebus ipsis ad super ascripta mensura illis
                         rebus in suprascripta civitate Regio modia qu[attor, et illis] rebus foris
                         ipsa civitate in loco <placeName
                             key="#Commutatio #Landed_possessions #Cereals #Wine #Hay/fodder"
@@ -184,9 +188,9 @@
                         pre[videndam commu]tacionem accesserunt super iam dictis rebus predictus
                         Martinus archipresbiter et prepositus seu <persName
                             key="#Commutatio #Witness #Missus #Deacons #Canons"><name
-                                ref="Grasulfus">Grasulfus</name></persName> et <persName
+                                ref="Grasulfus/diaconus">Grasulfus</name></persName> et <persName
                             key="#Commutatio #Witness #Missus #Deacons #Canons"><name
-                                ref="Warnerius">Bernerius</name></persName>
+                                ref="Warnerius/diaconus">Bernerius</name></persName>
                         <rs key="#Deacons">diaconi</rs> et ordinarii ip[sius canno]nice una cum
                             <persName key="#Commutatio #Witness #Missus #Missus_regis #Priests"
                             ref="#people/2111">Andreas</persName> presbiter <rs key="#Missus_regis"
