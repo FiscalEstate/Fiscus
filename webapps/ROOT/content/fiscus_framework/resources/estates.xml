@@ -931,7 +931,9 @@
                     <geogName type="other"/>
                     <idno>estates/125</idno>
                     <note/>
-                    <link type="places" corresp="#places/13" subtype="isPartOf"/>
+                    <link type="places" corresp="#places/13" subtype="isWithin"/>
+                        <link type="estates" corresp="#estates/61" subtype="isWithin"/>
+                        <link type="places" corresp="#places/39" subtype="isWithin"/>
                 </place>
                 <place>
                     <geogName><foreign>Cortalta</foreign>; curtis</geogName>
@@ -2732,13 +2734,13 @@
                     <geogName type="other"/>
                     <idno>estates/297</idno>
                     <note/>
-                    <link type="people" corresp="#people/21" subtype="link"/>
                     <link type="people" corresp="#people/153" subtype="link"/>
-                    <link type="people" corresp="#people/188" subtype="link"/>
+                    <link type="people" corresp="#people/188" subtype="rectorOf"/>
                     <link type="juridical_persons" corresp="#juridical_persons/92" subtype="link"/>
-                    <link type="places" corresp="#places/12" subtype="link"/>
+                    <link type="places" corresp="#places/12" subtype="isWithin"/>
                     <link type="places" corresp="#places/607" subtype="bordersOn"/>
                         <link type="places" corresp="#places/2705" subtype="bordersOn"/>
+                        <link type="places" corresp="#places/933" subtype="isWithin"/>
                 </place>
                 <place>
                     <geogName>Pozzuolo; <foreign>castrum</foreign></geogName>
@@ -4342,8 +4344,8 @@
                             per cui l'identificazione con Rivarotta di Pasiano di Pordenone appare
                             la più convincente. Per l'identificazione, v. Paschini 1911, p. 116. </note>
                         <link type="places" corresp="#places/925" subtype="correspondsTo"/>
-                        <link type="people" corresp="#people/21" subtype="isConfirmedBy" cert="low"/>
-                        <link type="people" corresp="#people/631" subtype="isConfirmedTo" cert="low"/>
+                        <link type="people" corresp="#people/21" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/631" subtype="isConfirmedTo"/>
                         <link type="estates" corresp="#estates/504" subtype="isWithin"/>
                         <link type="juridical_persons" corresp="#juridical_persons/66"
                             subtype="dependsOn"/>
