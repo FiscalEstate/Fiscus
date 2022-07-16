@@ -212,20 +212,16 @@
                 <place>
                     <geogName>Sacco; <foreign>curtis</foreign></geogName>
                     <idno>estates/61</idno>
-                    <note>Cfr. Castagnetti 1997.</note>
+                    <note>Castagnetti 1997.</note>
                     <link type="places" corresp="#places/39" subtype="correspondsTo"/>
                         <link type="people" corresp="#people/13" subtype="isGrantedBy"/>
                         <link type="people" corresp="#people/14" subtype="isConfirmedBy"/>
-                        <link type="people" corresp="#people/15" subtype="rendersCollectedBy"/>
-                        <link type="people" corresp="#people/21" subtype="isConfirmedBy" cert="low"/>
-                        <link type="people" corresp="#people/631" subtype="isConfirmedTo" cert="low"/>
+                        <link type="people" corresp="#people/15" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/21" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/631" subtype="isConfirmedTo"/>
                         <link type="estates" corresp="#estates/125" subtype="isWithin"/>
                         <link type="juridical_persons" corresp="#juridical_persons/66"
-                            subtype="dependsOn" cert="low"/>
-                        <link type="places" corresp="#places/943" subtype="link"/>
-                        <link type="places" corresp="#places/913" subtype="link"/>
-                        <link type="places" corresp="#places/911" subtype="link"/>
-                        <link type="places" corresp="#places/920" subtype="link"/>
+                            subtype="dependsOn"/>
                         <link type="estates" corresp="#estates/524" subtype="link"/>
                         <link type="estates" corresp="#estates/517" subtype="link"/>
                         <link type="estates" corresp="#estates/515" subtype="link"/>
@@ -344,6 +340,7 @@
                 </place>
                 <place>
                     <geogName><foreign>Villola</foreign>; <foreign>curtis</foreign></geogName>
+                    <geogName type="other"><foreign>Villole</foreign></geogName>
                     <idno>estates/80</idno>
                     <note>Secondo il Tiraboschi, <foreign>Dizionario</foreign> II, p. 409, si trova
                             nel Mantovano (lo conferma, d'altronde, il testamento di Angelberga).
@@ -366,8 +363,10 @@
                             subtype="isGrantedTo"/>
                         <link type="people" corresp="#people/125" subtype="isConfirmedBy"/>
                         <link type="people" corresp="#people/2122" subtype="isGrantedBy"/>
-                        <link type="estates" corresp="#estates/2995" subtype="bordersOn"/>
-                        <link type="estates" corresp="#estates/2999" subtype="bordersOn"/>
+                        <link type="estates" corresp="#estates/2095" subtype="bordersOn"/>
+                        <link type="estates" corresp="#estates/2099" subtype="bordersOn"/>
+                    <link type="places" corresp="#places/4405" subtype="bordersOn"/>
+                    <link type="places" corresp="#places/4196" subtype="bordersOn"/>
                 </place>
                 <place>
                     <geogName>Settepolesini; <foreign>curtis</foreign></geogName>
@@ -935,7 +934,9 @@
                     <geogName type="other"/>
                     <idno>estates/125</idno>
                     <note/>
-                    <link type="places" corresp="#places/13" subtype="isPartOf"/>
+                    <link type="places" corresp="#places/13" subtype="isWithin"/>
+                        <link type="estates" corresp="#estates/61" subtype="isWithin"/>
+                        <link type="places" corresp="#places/39" subtype="isWithin"/>
                 </place>
                 <place>
                     <geogName><foreign>Cortalta</foreign>; curtis</geogName>
@@ -1875,6 +1876,8 @@
                         <link type="people" corresp="#people/55" subtype="isGrantedBy"/>
                         <link type="people" corresp="#people/21" subtype="isConfirmedBy"/>
                         <link type="people" corresp="#people/173" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/1639" subtype="link"/>
+                        <link type="people" corresp="#people/3753" subtype="link"/>
                 </place>
                 <place>
                     <geogName>Modena; <foreign>comitatus</foreign></geogName>
@@ -2734,13 +2737,13 @@
                     <geogName type="other"/>
                     <idno>estates/297</idno>
                     <note/>
-                    <link type="people" corresp="#people/21" subtype="link"/>
                     <link type="people" corresp="#people/153" subtype="link"/>
-                    <link type="people" corresp="#people/188" subtype="link"/>
+                    <link type="people" corresp="#people/188" subtype="rectorOf"/>
                     <link type="juridical_persons" corresp="#juridical_persons/92" subtype="link"/>
-                    <link type="places" corresp="#places/12" subtype="link"/>
+                    <link type="places" corresp="#places/12" subtype="isWithin"/>
                     <link type="places" corresp="#places/607" subtype="bordersOn"/>
                         <link type="places" corresp="#places/2705" subtype="bordersOn"/>
+                        <link type="places" corresp="#places/933" subtype="isWithin"/>
                 </place>
                 <place>
                     <geogName>Pozzuolo; <foreign>castrum</foreign></geogName>
@@ -4344,8 +4347,8 @@
                             per cui l'identificazione con Rivarotta di Pasiano di Pordenone appare
                             la più convincente. Per l'identificazione, v. Paschini 1911, p. 116. </note>
                         <link type="places" corresp="#places/925" subtype="correspondsTo"/>
-                        <link type="people" corresp="#people/21" subtype="isConfirmedBy" cert="low"/>
-                        <link type="people" corresp="#people/631" subtype="isConfirmedTo" cert="low"/>
+                        <link type="people" corresp="#people/21" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/631" subtype="isConfirmedTo"/>
                         <link type="estates" corresp="#estates/504" subtype="isWithin"/>
                         <link type="juridical_persons" corresp="#juridical_persons/66"
                             subtype="dependsOn"/>
@@ -4626,11 +4629,19 @@
                         <geogName>Gonzaga; <foreign>curtis</foreign></geogName>
                         <geogName type="other"><foreign>Gunziaga</foreign></geogName>
                         <idno>estates/2003</idno>
-                        <note/>
+                        <note>Nel 967 la <foreign>curtis</foreign> passò per permuta dal monastero
+                            di Leno ad Adalberto Atto di Canosa (CDP I n. 10, pp. 83-87 = doc5010):
+                            dal relativo documento si apprende che si estendeva per 500 iugeri, di
+                            cui 420 erano selva, e che confinava a N ed E con beni del monastero
+                            piacentino di San Sisto e a E con quello reggiano di San
+                            Prospero.</note>
                         <link type="people" corresp="#people/2100" subtype="isOwnedBy"/>
                         <link type="juridical_persons" corresp="#juridical_persons/501"
                             subtype="dependsOn"/>
                         <link type="places" corresp="#places/2414" subtype="correspondsTo"/>
+                        <link type="places" corresp="#places/4402" subtype="bordersOn"/>
+                        <link type="places" corresp="#places/4403" subtype="bordersOn"/>
+                        <link type="places" corresp="#places/4196" subtype="bordersOn"/>
                     </place>
                     <place>
                         <geogName>Marmirolo; <foreign>curtis</foreign></geogName>
@@ -4650,14 +4661,10 @@
                         <link type="juridical_persons" corresp="#juridical_persons/108" subtype="link"/>
                     </place>
                     <place>
-                        <geogName><foreign>Mantuana</foreign>; <foreign>silva</foreign></geogName>
+                        <geogName>riusare</geogName>
                         <geogName type="other"/>
                         <idno>estates/2006</idno>
-                        <note>Roversi Monaco 1995, p. 35: “fra Cadlbosco di Sotto (Vicozoaro) e
-                            Villa Argine (Domus de Boscho) si estendevano i boschi dell’Argine e
-                            della Curtis Mantuana.”</note>
-                        <link type="estates" corresp="#estates/193" subtype="isWithin"/>
-                        <link type="places" corresp="#places/275" subtype="proximity"/>
+                        <note/>
                     </place>
                     <place>
                         <geogName>Quistello; <foreign>curtis</foreign></geogName>
@@ -4671,6 +4678,9 @@
                         <link type="juridical_persons" corresp="#juridical_persons/2054"
                             subtype="dependsOn"/>
                         <link type="people" corresp="#people/125" subtype="isConfirmedBy"/>
+                        <link type="places" corresp="#places/4405" subtype="bordersOn"/>
+                        <link type="places" corresp="#places/4196" subtype="bordersOn"/>
+                        <link type="places" corresp="#places/4408" subtype="bordersOn"/>
                     </place>
                     <place>
                         <geogName>Corfino; <foreign>curtis</foreign></geogName>
@@ -5069,7 +5079,7 @@
                         <idno>estates/2050</idno>
                         <note>Definita <foreign>villa</foreign> nel 1115.</note>
                         <link type="places" corresp="#places/482" subtype="correspondsTo"/>
-                        <link type="people" corresp="#people/1" subtype="isOwnedBy"/>
+                        <link type="people" corresp="#people/1" subtype="isGrantedBy"/>
                         <link type="juridical_persons" corresp="#juridical_persons/2001"
                             subtype="dependsOn"/>
                         <link type="people" corresp="#people/127" subtype="isConfirmedBy"/>
@@ -5376,7 +5386,7 @@
                     <place>
                         <geogName>Libiola; <foreign>villa</foreign></geogName>
                         <geogName type="other"/>
-                        <idno>estates/2982</idno>
+                        <idno>estates/2082</idno>
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/2001"
                             subtype="isOwnedBy"/>
@@ -5386,7 +5396,7 @@
                     <place>
                         <geogName>Sustinente; <foreign>curtis</foreign></geogName>
                         <geogName type="other"/>
-                        <idno>estates/2983</idno>
+                        <idno>estates/2083</idno>
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/2001"
                             subtype="dependsOn"/>
@@ -5396,7 +5406,7 @@
                     <place>
                         <geogName>Casalbarbato; <foreign>curtis</foreign></geogName>
                         <geogName type="other"/>
-                        <idno>estates/2984</idno>
+                        <idno>estates/2084</idno>
                         <note>L'esistenza di una <foreign>curtis</foreign> a Casabarbato è attestata
                             solo nel 1115, ma la località risultava già precedentemente pertinenza
                             polironiana.</note>
@@ -5408,7 +5418,7 @@
                     <place>
                         <geogName>Marengo; <foreign>silva</foreign></geogName>
                         <geogName type="other"/>
-                        <idno>estates/2985</idno>
+                        <idno>estates/2085</idno>
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/2001"
                             subtype="isOwnedBy"/>
@@ -5417,7 +5427,7 @@
                     <place>
                         <geogName>Campitello; <foreign>curtis</foreign></geogName>
                         <geogName type="other"/>
-                        <idno>estates/2986</idno>
+                        <idno>estates/2086</idno>
                         <note/>
                         <link type="places" corresp="#places/2489" subtype="correspondsTo"/>
                         <link type="juridical_persons" corresp="#juridical_persons/1426"
@@ -5427,7 +5437,7 @@
                     <place>
                         <geogName>Conca; villa</geogName>
                         <geogName type="other"/>
-                        <idno>estates/2987</idno>
+                        <idno>estates/2087</idno>
                         <note>vd. Bonacini 2000, pp. 669-670.</note>
                         <link type="places" corresp="#places/2969" subtype="correspondsTo"/>
                         <link type="juridical_persons" corresp="#juridical_persons/2075"
@@ -5439,7 +5449,7 @@
                     <place>
                         <geogName>Fogolana; villa</geogName>
                         <geogName type="other"/>
-                        <idno>estates/2988</idno>
+                        <idno>estates/2088</idno>
                         <note>vd. Bonacini 2000, pp. 669-670.</note>
                         <link type="places" corresp="#places/2970" subtype="correspondsTo"/>
                         <link type="juridical_persons" corresp="#juridical_persons/2075"
@@ -5490,6 +5500,7 @@
                         <geogName type="other"/>
                         <idno>estates/2092</idno>
                         <note/>
+                        <link type="places" corresp="#places/4195" subtype="correspondsTo"/>
                     </place>
                     <place>
                         <geogName>Montecleda; curtis</geogName>
@@ -5507,7 +5518,7 @@
                         <geogName>Pegognaga; <foreign>silva</foreign></geogName>
                         <geogName type="other"><foreign>Piguniaga</foreign>;
                                 <foreign>Pigugnaga</foreign></geogName>
-                        <idno>estates/2994</idno>
+                        <idno>estates/2094</idno>
                         <note/>
                         <link type="places" corresp="#places/34" subtype="correspondsTo"/>
                         <link type="people" corresp="#people/3202" subtype="isGrantedBy"/>
@@ -5515,34 +5526,41 @@
                     <place>
                         <geogName>Recorlandi; <foreign>curtis</foreign></geogName>
                         <geogName type="other"><foreign>Runco Rolandi</foreign></geogName>
-                        <idno>estates/2995</idno>
+                        <idno>estates/2095</idno>
                         <note/>
                         <link type="places" corresp="#places/2488" subtype="correspondsTo"/>
                     </place>
                     <place>
                         <geogName>Venezia; <foreign>ducatus</foreign></geogName>
                         <geogName type="other"/>
-                        <idno>estates/2996</idno>
+                        <idno>estates/2096</idno>
                         <note/>
                     </place>
                     <place>
                         <geogName>Modena; <foreign>pagus</foreign></geogName>
                         <geogName type="other"/>
-                        <idno>estates/2997</idno>
+                        <idno>estates/2097</idno>
                         <note/>
                     </place>
                     <place>
                         <geogName><foreign>Sableta</foreign>; <foreign>curtis</foreign></geogName>
                         <geogName type="other"/>
-                        <idno>estates/2998</idno>
+                        <idno>estates/2098</idno>
                         <note/>
                     </place>
                     <place>
                         <geogName>Villa Saviola; <foreign>curtis</foreign></geogName>
                         <geogName type="other"><foreign>Saviola</foreign></geogName>
-                        <idno>estates/2999</idno>
+                        <idno>estates/2099</idno>
                         <note/>
-                        <link type="places" corresp="#places/4791" subtype="correspondsTo"/>
+                        <link type="places" corresp="#places/4191" subtype="correspondsTo"/>
+                    </place>
+                    <place>
+                        <geogName><foreign>Chruxtum</foreign>; <foreign>fines</foreign></geogName>
+                        <geogName type="other"/>
+                        <idno>estates/3700</idno>
+                        <note/>
+                        <link type="estates" corresp="#estates/193" subtype="isWithin"/>
                     </place>
                 </listPlace>
                 <listPlace n="Giacomelli Alessandro">
@@ -8088,7 +8106,7 @@
                         <geogName type="other"/>
                         <idno>estates/3404</idno>
                         <note>Situato probabilmente lungo il corso del fiume Biferno, in provincia
-                            di Cmpobasso, cfr. Martin 1993, pp. 197 nt. 216, 198 nt. 227, carta 6;
+                            di Campobasso, cfr. Martin 1993, pp. 197 nt. 216, 198 nt. 227, carta 6;
                             CSS, I, 1 [7], pp. 296-297.</note>
                         <link type="people" corresp="#people/303" subtype="isOwnedBy"/>
                         <link type="places" corresp="#places/3418" subtype="correspondsTo"/>
@@ -8203,7 +8221,8 @@
                             <foreign>curtis</foreign></geogName>
                         <geogName type="other"/>
                         <idno>estates/3413</idno>
-                        <note/>
+                        <note>Contrada a NO di Castello del Lago (Venticano, Avellino) e a SE di
+                            Cubante, cfr. CSS, I, 1 [40] nt. 1.</note>
                         <link type="people" corresp="#people/303" subtype="isGrantedBy"/>
                         <link type="juridical_persons" corresp="#juridical_persons/85"
                             subtype="isOwnedBy"/>
@@ -8295,7 +8314,9 @@
                                 <foreign>Locubante</foreign>;
                             <foreign>Leocovante</foreign></geogName>
                         <idno>estates/3421</idno>
-                        <note/>
+                        <note>La corte palaziale è concessa dal principe Sicardo al monastero
+                            beneventano di S. Sofia e alla badessa Wilerona, insieme con il gualdo
+                                <foreign>Cerberese</foreign> (cfr. CSS, VI, 32 - a. 833).</note>
                         <link type="places" corresp="#places/3480" subtype="correspondsTo"/>
                         <link type="people" corresp="#people/186" subtype="isGrantedBy"/>
                         <link type="juridical_persons" corresp="#juridical_persons/85"
@@ -8318,12 +8339,33 @@
                             <foreign>curtis</foreign></geogName>
                         <geogName type="other"/>
                         <idno>estates/3423</idno>
-                        <note/>
+                        <note>La corte dipende dalla cappella di S. Quirico, a sua volta dipendente
+                            dal Palazzo, cfr. CSS, III, 40.</note>
                         <link type="juridical_persons" corresp="#juridical_persons/3447"
                             subtype="dependsOn"/>
                         <link type="places" corresp="#places/2800" subtype="correspondsTo"/>
                         <link type="people" corresp="#people/3666" subtype="isGrantedTo"/>
                         <link type="people" corresp="#people/305" subtype="isGrantedBy"/>
+                    </place>
+                    <place>
+                        <geogName><foreign>Saba</foreign>; <foreign>curtis</foreign>
+                            (Benevento)</geogName>
+                        <geogName type="other"><foreign>Saba</foreign>,
+                            <foreign>Sava</foreign></geogName>
+                        <idno>estates/3424</idno>
+                        <note>La <foreign>curtis Saba</foreign> si trovava probabilmente nel
+                            territorio di Benevento. Una contrada <foreign>Sava</foreign> esiste
+                            anche a Montemarano (AV), dove sorgeva un tempo il monastero di S.
+                            Leonardo, cfr. CDV, III, p. 306 nt. 1.</note>
+                        <link type="places" corresp="#places/110" subtype="proximity"/>
+                    </place>
+                    <place>
+                        <geogName><foreign>Furculana</foreign>; <foreign>curtis</foreign> (Forchia;
+                            Benevento)</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/3425</idno>
+                        <note>Situata nel territorio di Forchia (Benevento).</note>
+                        <link type="places" corresp="#places/3437" subtype="correspondsTo"/>
                     </place>
                 </listPlace>
                 <listPlace n="Motta Loris">
@@ -8532,10 +8574,15 @@
                 </listPlace>
                 <listPlace n="Ribani Filippo">
                     <place>
-                        <geogName>XXX</geogName>
+                        <geogName><foreign>Ruberino</foreign>; <foreign>curtis</foreign></geogName>
                         <geogName type="other"/>
                         <idno>estates/3600</idno>
                         <note/>
+                        <link type="people" corresp="#people/110" subtype="isConfirmedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/224"
+                            subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/3904" subtype="isGrantedBy"/>
+                        <link type="places" corresp="#places/1936" subtype="proximity"/>
                     </place>
                 </listPlace>
                 <listPlace n="Rivera Magos Victor">
@@ -10963,6 +11010,7 @@
                         <link type="people" corresp="#people/124" subtype="isGrantedBy"/>
                         <link type="juridical_persons" corresp="#juridical_persons/53"
                             subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/55" subtype="isGrantedBy"/>
                     </place>
                     <place>
                         <geogName><foreign>Rivis</foreign>; <foreign>curtis</foreign></geogName>
