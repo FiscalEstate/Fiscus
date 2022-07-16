@@ -34,7 +34,7 @@
                             <rs type="text_type" ref="#">--Offersio/donatio</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Original</rs>
-                            <rs type="fiscal_property">No</rs>
+                            <rs type="fiscal_property"/>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -76,6 +76,7 @@
         <revisionDesc>
             <listChange>
                 <change when="2021-09-08" who="bferretti">creation of record</change>
+                <change when="2022-07-09" who="bferretti">minor changes</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -118,9 +119,11 @@
                                 key="#Areas #Curtes #Landed_possessions #Houses #Cells/hermitages #Wine #Cereals #Hay/fodder #Animals #Forests #Marshes/lagoons/tombolos #Fisheries #Shores #Rights_of_use_on_woods/pastures/waters"
                                 ref="#places/482">Burbascio</placeName></geogName>, omnia et ex
                         omnibus quantum ad ipsa curticella pertinet in integrum. Coeret ei fines: da
-                        mane mihi reservo; da meridie decurrit <rs key="#Rivers">Mincio fluvio</rs>;
-                        da sera <rs key="#Canals">fossa</rs> de suprascripto Burbascio; da monti
-                        <rs key="#Rivers">Gricia</rs> de media silva ut dictum est; tam casis cum <rs
+                        mane mihi reservo; da meridie decurrit <placeName key="#Rivers"
+                            ref="#places/4411">Mincio <rs key="#Rivers">fluvio</rs></placeName>; da
+                        sera <placeName key="#Canals"><rs key="#Canals">fossa</rs> de suprascripto
+                            Burbascio</placeName>; da monti <placeName ref="#places/4409"
+                            >Gricia</placeName> de media silva ut dictum est; tam casis cum <rs
                             key="#Landed_possessions">sediminibus</rs> et <rs key="#Wine"
                             >vineis</rs> cum areis suarum, seu <rs key="#Cereals">terris
                             arabilis</rs> et <rs key="#Hay/fodder">pratis</rs>, <rs
@@ -154,23 +157,23 @@
                         <placeName key="#Cities" ref="#places/275">Mantua</placeName> feliciter.
                         Bonefacius marcihio subscripsi. Signum manibus ++ <persName
                             key="#Offersio/donatio #Witness #Lombard"><name ref="Sigitius"
-                                >Sighizoni</name></persName> lege viventes Langobardorum rogatis
-                            <rs>testis</rs>. Signum manibus <persName
+                                >Sighizoni</name></persName> lege viventes Langobardorum rogatis <rs
+                            key="#Witness">testis</rs>. Signum manibus <persName
                             key="#Offersio/donatio #Witness #Lombard"><name ref="Atto"
                             >Atoni</name></persName> lege viventes Langobardorum rogatus testis.
                         Signum manibus <persName key="#Offersio/donatio #Witness #Lombard"><name
                                 ref="Raginardus">Rainardi</name></persName> lege viventes
                         Langobardorum rogatus testis. (S.) Scripsi ego <persName
-                            key="#Offersio/donatio #Writer #Notary"><name ref="Benzo"
-                            >Benzo</name></persName>
+                            key="#Offersio/donatio #Writer #Notary"><name ref="Benzo/notarius"
+                                >Benzo</name></persName>
                         <rs key="#Notary">notarius</rs> post tradita conplevit et dedi. </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p>CDP I 017, pp. 106-108.</p>
+                <p>CDP I n. 17, pp. 106-108.</p>
             </div>
             <div type="bibliography" subtype="additional">
-                <p/>
+                <p>Rinaldi 2003, pp. 100-102.</p>
             </div>
             <div type="bibliography" subtype="links">
                 <p/>
@@ -184,7 +187,7 @@
                         “<foreign>filius bone memorie Teudaldi</foreign>”: il documento quindi
                     dovette essere stilato sia dopo il 1007, anno di fondazione del monastero, sia
                     dopo il 1012, presunto anno di morte di Tedaldo di Canossa. La data qui
-                    suggerita (1019)è la prima che dopo il 1004 rispetti la concordanza tra anno e
+                    suggerita (1019) è la prima che dopo il 1004 rispetti la concordanza tra anno e
                     indizione, ma corrisponde al sesto anno d’impero di Enrico II; va quindi presa
                     come ipotesi e accettata prudenzialmente.»</p>
                 <p>Il “<foreign>Gricia</foreign>” è un corso d’acqua minore tra Mincio e Tartaro: il

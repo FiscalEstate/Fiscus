@@ -34,7 +34,7 @@
                             <rs type="text_type" ref="#">--Transactional breve</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Original</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">No</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -45,7 +45,8 @@
                             <origDate when="1068-03-26">
                                 <note type="displayed_date">1068 March 26</note>
                                 <note type="dating_elements"/>
-                                <note type="topical_date">'<foreign>villa Asspi</foreign>'</note>
+                                <note type="topical_date"><foreign>Aspus</foreign> (Nogara,
+                                    Verona)</note>
                                 <note type="redaction_date"/>
                             </origDate>
                             <origPlace>Sanctus Benedictus in Pado Lironi; monasterium
@@ -76,6 +77,7 @@
         <revisionDesc>
             <listChange>
                 <change when="2021-10-29" who="bferretti">creation of record</change>
+                <change when="2022-07-14" who="bferretti">minor changes</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -83,50 +85,54 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>+ Diem mercurii qui est septimo kalendas aprelis, presentia <rs>bonorum
-                            hominum</rs> quorum nomina subter leguntur, in <placeName
+                    <ab>+ Diem mercurii qui est septimo kalendas aprelis, presentia <rs
+                            key="#Boni_viri/boni_homines">bonorum hominum</rs> quorum nomina subter
+                        leguntur, in <placeName
                             key="#Villas #Mills #Rivers #Landed_possessions #Wine #Cereals"
                             ref="#places/399"><rs key="#Villas">villa</rs> Asspi</placeName>
                         pertinentia <rs key="#Castle">castris</rs>
                         <placeName key="#Castle" ref="#places/145">Nogarie</placeName> per vuasonem
                         terre que in sua tenebat manu, <persName
-                            key="#Mills #Landed_possessions #Wine #Cereals #childOf"><name
+                            key="#Mills #Landed_possessions #Wine #Cereals #Iure_proprietatis/pleno_iure #childOf"><name
                                 ref="Rosa">Rosa</name></persName>
                         <rs key="#childOf">filia</rs> quondam <persName key="faherOf"><name
                                 ref="Dominicus">Dominici</name></persName> investivit <persName
-                            key="#Priests #Monks"><name ref="Dominicus">Dominicum</name></persName>
+                            key="#Priests #Monks"><name ref="Dominicus/monachus"
+                            >Dominicum</name></persName>
                         <rs key="#Priests">presbiterum</rs> et <rs key="#Monks">monachum</rs>
                         <rs key="#Monasteries">monasterii</rs>
                         <orgName
-                            key="#Monasteries #Mills #Landed_possessions #Wine #Cereals #Priests #Monks"
-                            ref="#juridical_persons/2001">Sancti Benedicti</orgName> po situm inter
-                            <rs key="#Rivers">Padum</rs> et <rs key="#Rivers">Largionem</rs> ad iura
-                        ipsius monasterii de omnibus rebus territoriis iuris sui seu et de parte <rs
-                            key="#Mills">molendini</rs> quem habere in <rs key="#Rivers"
-                            >Tartaro</rs>, tam <rs key="#Landed_possessions">sediminis</rs> quam <rs
+                            key="#Monasteries #Mills #Landed_possessions #Wine #Cereals #Iure_proprietatis/pleno_iure #Priests #Monks"
+                            ref="#juridical_persons/2001">Sancti Benedicti</orgName> positum inter
+                            <placeName key="#Rivers" ref="#places/4196">Padum</placeName> et
+                            <placeName key="#Rivers" ref="#places/4197">Largionem</placeName> ad
+                        iura ipsius monasterii de omnibus rebus territoriis iuris sui seu et de
+                        parte <rs key="#Mills">molendini</rs> quem habere in <placeName
+                            key="#Rivers" ref="#places/4410">Tartaro</placeName>, tam <rs
+                            key="#Landed_possessions">sediminis</rs> quam <rs
                             key="#Landed_possessions">terris</rs> cum <rs key="#Wine">vineis</rs> et
                             <rs key="#Cereals">arabilis</rs>, tam in eadem villa Asspi quam in
                         pertinentiis predicti castri seu in <geogName key="#Comitatus"
                             ref="#estates/124"><rs key="#Comitatus">comitatu</rs>
                             <placeName key="#Comitatus" ref="#places/59"
                             >Veronese</placeName></geogName>, ita ut faciat exinde a presenti die
-                        pars ipsius monasterii aut cuius pars monasterii dederit proprietario nomine
-                        quicquid voluerit, sine omni contradictionem predicte Rose suorumque eredum;
-                        et si exinde agere aut causare presumpserit ut componat ipsa res <rs>in
-                            duplo</rs>. <persName key="#Witness"><name ref="Ambrosius"
-                                >Ambrosius</name></persName> et <persName key="#Witness"><name
-                                ref="Dominicus">Dominicus</name></persName> atque <persName
-                            key="#Witness"><name ref="Bonacausa">Bonacausa</name></persName> et
-                            <persName key="#Witness #Deacons"><name ref="Albitius"
-                            >Albizo</name></persName>
+                        pars ipsius monasterii aut cuius pars monasterii dederit <rs
+                            key="#Iure_proprietatis/pleno_iure">proprietario nomine</rs> quicquid
+                        voluerit, sine omni contradictionem predicte Rose suorumque eredum; et si
+                        exinde agere aut causare presumpserit ut componat ipsa res <rs
+                            key="#Penalty">in duplo</rs>. <persName key="#Witness #Boni_viri/boni_homines"><name
+                                ref="Ambrosius">Ambrosius</name></persName> et <persName
+                                    key="#Witness #Boni_viri/boni_homines"><name ref="Dominicus">Dominicus</name></persName> atque
+                        <persName key="#Witness #Boni_viri/boni_homines"><name ref="Bonacausa"
+                            >Bonacausa</name></persName> et <persName key="#Witness #Boni_viri/boni_homines #Deacons"><name
+                                ref="Albitius/diaconus">Albizo</name></persName>
                         <rs key="#Deacons">diaconus</rs> seu et <persName
-                            key="#Witness #Other_clerics"><name ref="Iohannes/Angnel"
+                            key="#Witness #Boni_viri/boni_homines #Other_clerics"><name ref="Iohannes/Angnel/clericus"
                                 >Iohannes</name>
                             <rs key="#Other_clerics">clericus</rs> qui Angnel</persName> vocatur et
-                            <persName key="#Witness"><name ref="Albitius/dal Casale">Albizo</name>
-                            dal Casale</persName> interfuerunt. Factum est hoc <date>anno ab
-                            incarnacione domini nostri Iesu Christi milesimo sexagesimo VIllvo,
-                            indictione sexta</date>. </ab>
+                        <persName key="#Witness #Boni_viri/boni_homines" ref="#people/2164">Albizo dal Casale</persName>
+                        interfuerunt. Factum est hoc anno ab incarnacione domini nostri Iesu Christi
+                        milesimo sexagesimo VIIIvo, indictione sexta. </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
