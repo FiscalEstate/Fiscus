@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Cremona, Biblioteca Statale, Libreria Civica, Codice Sicardo, p. 3, n.
+                    3</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2022">2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DiSCi UniBo</publisher>
+                <idno type="filename">5302</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+                </availability>
+                <date when="2022"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property">Yes</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0858-03-11">
+                                <note type="displayed_date">858 March 11</note>
+                                <note type="dating_elements"><p>I dati cronologici non concordano:
+                                        l'indizione infatti riporta all'anno 861, mentre l'ottavo
+                                        anno di impero coincide con l'858; la data dell'858 è
+                                        ritenuta più plausibile, sebbene anche quella dell'861
+                                        potrebbe accordarsi con l'itinerario del sovrano (cfr.
+                                            <foreign>RI</foreign>, I, 3, 1, Böhmer, Zielinski, p.
+                                        71, n. 168).</p></note>
+                                <note type="topical_date">Mantova</note>
+                                <note type="redaction_date">XIII in</note>
+                            </origDate>
+                            <origPlace></origPlace>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-07-10" who="fribani">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>Privilegium de Ruberino, quod est prope Fornovum In nomine domini nostri
+                        Iesu Christi Dei eterni. <persName ref="#people/110" key="#Emperor/king"
+                            >Hludovicus</persName>, gratia Dei <rs key="#Emperor/king"
+                            >imperator</rs> augustus. Omnium fi|delium Sancte Dei Ęcclesie ac
+                        nostrorum presentium videlicet et futurorum comperiet indu|stria,
+                            quod<persName key="#vassusOf #fidelisOf #officeHolderFor"
+                            ref="#people/3904"> Ruthcherius</persName> quondam fidelis <rs
+                            key="#vassusOf">vassus</rs> et <rs key="#officeHolderFor"
+                            >ministerialis</rs> noster de hac luce | discedens quandam curtem sue
+                        proprietatis nomine <geogName key="#Curtes" ref="#estates/3600"
+                            >Ruberino</geogName> in <rs key="#Comitatus">comitatu</rs>, scilicet |
+                        Bergamense, prope <rs key="#Churches">plebem</rs> que dicitur <placeName
+                            ref="#places/1936" key="#Churches">Forum Novum</placeName>, ad partem
+                            <orgName ref="#juridical_persons/224" key="#Churches">Ęcclesie
+                            Cremo|nensis</orgName> obtulisset ac iure proprietario pro anime sue
+                        remedio per <rs key="#executorOfTheWillOf">rogatores</rs> suos, <persName
+                            key="#executorOfTheWillOf"><name ref="Guntherius"
+                            >Gunthe|ri</name></persName>, videlicet <persName
+                            key="#executorOfTheWillOf"><name ref="Giroldus"
+                            >Gyroldum</name></persName> atque <persName key="#executorOfTheWillOf"
+                                ><name ref="Hillonis">Hillonem</name></persName>, per conscriptionis
+                        paginam tradidit et per <rs key="#fidelisOf">fideles</rs> | nostros in
+                        nostra presentia eandem traditionis paginam quam predictus ille vassus
+                        noster | rogatorque ipsius rei fecerat undique roborari iussimus, set pro
+                        ampliori firmitate ac to|cius securitatis augmenti placuit nobis id ipsum
+                        nostra ac imperiali auctoritate mu|niri. Et ideo anc nostre auctoritatis
+                        roborationem superaddentes fieri iussimus, per quam omni|no sancimus
+                        firmumque mansurum constituimus, ut nullus <rs key="#Count">comes</rs> neque
+                        ullus <rs key="#officeHolderFor">rei pu|blice minister </rs>nec quispiam
+                        heredum vel proheredum predicti Ruthcheri atque ulla intercidens et |
+                        opposita persona quippiam retractationis aut invasionis inquietudinem in his
+                        rebus | ullo umquam tempore contra prefatam Ecclesiam aut rectores eius
+                        inferre presumat nec quis|quam inde causare conetur, set sicut in nostra
+                        presentia tradite et a nostris fidelibus fue|runt roborate, ita nostris et
+                        futuris temporibus nostra hac imperiali auctoritate corrobora|te ad partem
+                        predicte Cremonensis Ęcclesie iure proprietario maneant inconvulsa | cum
+                        omnibus integritatibus, veluti in brevi testato continetur. Si quis autem
+                        contra hanc nostram | auctoritatem ire temptaverit ac de prescriptis rebus
+                        parte prefate Ęcclesie inquietare que|sierit, penam <rs key="#Immunity"
+                            >immunitatis</rs> nostre, sicut de rebus ceterarum ęcclesiarum, hoc est
+                        triginta | libras argenti ipsi componet Ęcclesie. Et ut hoc certius
+                        crederetur ac diligentius | observaretur, de anulo nostro subter iussimus
+                        sigillari. <persName key="#Notary"><name ref="Plato">P(lat)o</name>
+                            not(arius)</persName> ad invicem <persName ref="#people/3906">Dructemiri
+                        </persName>recognovi. Data V idus mar(cii) anno imperii domni Luodovici pii
+                        imperatoris in Italia VIII, ind(ictione) VIIII. Actum | <placeName
+                            ref="#places/275">Mantua </placeName><rs key="#Cities">civitate</rs> et
+                            <rs key="#Palatium">palatio regio</rs>, feliciter in Domino amen.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>Codex Sicardi; HPM 13, col. 117, n. LXII; Falconi, Carte cremonesi, I, p. 39, n.
+                    15; MGH DD Lu II, n. 28.</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p>https://www.lombardiabeniculturali.it/cdlm/edizioni/cr/cremona-sicardo/carte/vescovosicardo0858-03-11</p>
+            </div>
+            <div type="commentary">
+                <p>Secondo i curatori dell'edizione MGH il diploma fu redatto dallo scrittore di
+                    cancelleria con l'utilizzo di un diploma di Ludovico II non più conservato e del
+                    diploma datato 851 gennaio 10, di cui al Codice Sicardo, n. 8.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

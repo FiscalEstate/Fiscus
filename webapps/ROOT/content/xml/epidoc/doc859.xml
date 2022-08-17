@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Siena, Archivio di Stato, Diplomatico, Riformagioni, 816 novembre 17</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2022">2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DiSCi UniBo</publisher>
+                <idno type="filename">doc859</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+                </availability>
+                <date when="2022"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property">Yes</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0816-11-17">
+                                <note type="displayed_date">816 November 17</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Compiègne (FR)</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace>Sanctus Salvator; monasterium (Abbadia San Salvatore; Monte
+                                Amiata; Siena)</origPlace>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-02-03" who="ltabarrini">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine Domini Dei et salvatoris nostri Iesu Christi. <foreign><persName
+                                ref="#people/118" key="#Emperor/king">Ludovico</persName> conferma
+                            al</foreign> vir venerabilis <persName ref="#people/1648" key="#Abbots"
+                            >Audoaldus</persName>
+                        <rs key="#Abbots">abba</rs> ex <rs key="#Monasteries">monasterio</rs>
+                        <orgName ref="#juridical_persons/301" key="#Immunity #Monasteries">Sancti
+                            Salvatoris</orgName> quod est situm in <placeName ref="#places/737"
+                            >monte Aimado</placeName> in <rs key="#Geographic_regions"
+                            >territorio</rs>
+                        <placeName ref="#places/3505" key="#Geographic_regions">Clusino</placeName>,
+                        detulit obtutibus nostris auctoritatem <rs key="#Immunity">inmunitas</rs>
+                        domni et genitoris nostri <persName ref="#people/14">Karoli</persName> in
+                        cui continebatur insertum, qualiter predictum monasterium ob amorem Dei
+                        tranquillitatemque monachorum ibidem consistentium semper sub plenissima
+                        tuitione et inmunitatis defensione habuisset. <foreign>Pertanto
+                            disponiamo</foreign> ut nullus iudex publicus vel quislibet ex
+                        iudiciaria potestate in ecclesias aut loca vel agros seu reliquas
+                        possessiones praedicti monasterii, quas moderno tempore iuste et legaliter
+                        possidet, vel quae deinceps in iure ipsius sancti loci volueri divina pietas
+                        augeri, ad causas audiendas vel <rs key="#Fodrum">freda</rs> exigenda aut
+                        mansiones vel paratas faciendas aut fideiussores tollendos aut homines
+                        ipsius monasterii tam ingenuos quam et servos super terram ipsius
+                        conmanentes nec <rs key="#Army">ad hostem distringendos</rs> nec ullas <rs
+                            key="#Public_exactions">redibitiones</rs> aut inlicitas occasiones
+                        requirendas ullo umquam tempore ingredi audeat, vel ea quae supra memorata
+                        sunt penitus exigere praesumat. Continebatur etiam in eadem auctoritate,
+                        qualiter confirmasset idem domnus imperator ad ipsum monasterium res idest:
+                            <rs key="#Churches">ecclesiam</rs>
+                        <orgName ref="#juridical_persons/1511"
+                            key="#Fiscal_property #Textual_occurrence #Object #Function #Exceptive #Fiscal_reserve #Outflow #Allocation_to_churches #Churches"
+                                ><placeName ref="#places/1944"
+                                key="#Fiscal_property #Textual_occurrence #Object #Function #Exceptive #Fiscal_reserve #Outflow #Allocation_to_churches #Churches"
+                                >Sancti Petri in Carmarita</placeName></orgName> adque <rs
+                            key="#Cells/hermitages">cellulam</rs>
+                        <orgName ref="#juridical_persons/1454"
+                            key="#Fiscal_property #Textual_occurrence #Object #Function #Exceptive #Fiscal_reserve #Outflow #Allocation_to_churches #Cells/hermitages"
+                                ><placeName ref="#places/1947"
+                                key="#Fiscal_property #Textual_occurrence #Object #Function #Exceptive #Fiscal_reserve #Outflow #Allocation_to_churches #Cells/hermitages"
+                                >Sancti Savini</placeName></orgName> et <orgName
+                            ref="#juridical_persons/1452"
+                            key="#Fiscal_property #Textual_occurrence #Object #Function #Exceptive #Fiscal_reserve #Outflow #Allocation_to_churches #Cells/hermitages"
+                                ><placeName ref="#places/1946"
+                                key="#Fiscal_property #Textual_occurrence #Object #Function #Exceptive #Fiscal_reserve #Outflow #Allocation_to_churches #Cells/hermitages"
+                                >Sancti Restude</placeName></orgName> vel <orgName
+                            ref="#juridical_persons/1456"
+                            key="#Fiscal_property #Textual_occurrence #Object #Function #Exceptive #Fiscal_reserve #Outflow #Allocation_to_churches #Cells/hermitages"
+                                ><placeName ref="#places/1945"
+                                key="#Fiscal_property #Textual_occurrence #Object #Function #Exceptive #Fiscal_reserve #Outflow #Allocation_to_churches #Cells/hermitages"
+                                >Sancti Petri</placeName></orgName> seu et <orgName
+                            ref="#juridical_persons/1455"
+                            key="#Fiscal_property #Textual_occurrence #Object #Function #Exceptive #Fiscal_reserve #Outflow #Allocation_to_churches #Cells/hermitages"
+                                ><placeName ref="#places/1948"
+                                key="#Fiscal_property #Textual_occurrence #Object #Function #Exceptive #Fiscal_reserve #Outflow #Allocation_to_churches #Cells/hermitages"
+                                >Sancti Stephani</placeName></orgName> in <placeName
+                            ref="#places/430">Terquino</placeName> cum eorum pertinentia.
+                            <foreign>Si disponde che quando l'abate e i suoi successori</foreign> de
+                        hac luce migraverint, quamdiu ipsi monachi inter se tales invenire
+                        potuerint, qui ipsam congregationem regere valeant, per hanc nostram
+                        auctoritatem et consensum vel dilecti filii nostri <persName
+                            ref="#people/1649">Bernardi</persName> regis licentiam habeant eligendi
+                        abbates, quatenus ipsos monachos, qui ibidem famulari videntur, pro nobis et
+                        coniuge proleque nostra atque stabilitate totius imperii a Deo nobis
+                        concessi atque conservandi iugiter misericordiam exorare delectet.
+                            <foreign>Abbiamo sottoscritto</foreign> et anuli nostri inpressione
+                        singari iussimus. Signum Hludovvici serenissimi imperatoris. <persName
+                            key="#Deacons"><name ref="Durandus">Durandus</name></persName>
+                        <rs key="#Deacons">diaconus</rs> advicem <persName ref="#people/1650"
+                            >Helisachar</persName> recognovi et *** Data XV kalendas decembres anno
+                        Christo propitio tertio imperii domni Hludovvici piissimi augusti,
+                        indictione X. Actum <placeName ref="#places/1943" key="#Palatium"
+                            >Conpendio</placeName>
+                        <rs key="#Palatium">palatio</rs>. In Dei nomine; feliciter; amen.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>ChLA LXI, pp. 82-85, n. 25; CDA I, pp. 152-154, n. 77.</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

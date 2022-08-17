@@ -34,7 +34,7 @@
                             <rs type="text_type" ref="#">--Offersio/donatio</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Original</rs>
-                            <rs type="fiscal_property">No</rs>
+                            <rs type="fiscal_property"/>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -76,6 +76,7 @@
         <revisionDesc>
             <listChange>
                 <change when="2021-09-08" who="bferretti">creation of record</change>
+                <change when="2022-07-09" who="bferretti">minor changes</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -107,17 +108,17 @@
                             aufersionis</rs> abendum relinquo, idest <rs key="#Petiae">pecia</rs>
                         una de <rs key="#Forests">terra silvata</rs> cum <rs
                             key="#Landed_possessions">area</rs> ubi estad iuris mei, quam abere viso
-                        sum super <rs key="#Rivers">fluvio Padi</rs> in <rs key="#Areas">loco et
-                            fundo</rs> qui dicitur <placeName
-                            key="#Areas #Forests #Landed_possessions" ref="#places/2476"
-                            >Saetinienti</placeName>; et est pecia ipsa de terra silvata cum area
-                        ubi estad per mensura iusta <rs key="#Size">iugeas legitimes mille</rs>.
-                        Coerit ei a mane <rs key="#Rivers">fluvio qui dicitur Tartaro</rs>; a
-                        meridie ipso fluvio Padi; a sera fracta et caput de
-                            <placeName>Logollo</placeName>, <placeName ref="#places/2924"
-                            >Tribullaria</placeName> et <placeName ref="#places/2925"
-                            >Sablonaria</placeName>; a nulla ora <placeName key="#Casalia"><rs
-                                key="#Casalia">casale</rs> de Vernisco</placeName> et
+                        sum super <placeName key="#Rivers" ref="#places/4196"><rs key="#Rivers"
+                                >fluvio</rs></placeName> Padi in <rs key="#Areas">loco et fundo</rs>
+                        qui dicitur <placeName key="#Areas #Forests #Landed_possessions"
+                            ref="#places/2476">Saetinienti</placeName>; et est pecia ipsa de terra
+                        silvata cum area ubi estad per mensura iusta <rs key="#Size">iugeas
+                            legitimes mille</rs>. Coerit ei a mane <placeName key="#Rivers"
+                            ref="#places/4410">fluvio qui dicitur Tartaro</placeName>; a meridie
+                        ipso fluvio Padi; a sera fracta et caput de <placeName>Logollo</placeName>,
+                            <placeName ref="#places/2924">Tribullaria</placeName> et <placeName
+                            ref="#places/2925">Sablonaria</placeName>; a nulla ora <placeName
+                            key="#Casalia"><rs key="#Casalia">casale</rs> de Vernisco</placeName> et
                             <placeName>Corona</placeName> et <placeName>Susenagi
                         Sellani</placeName>: et in aliquit ipso Tartaro et <placeName key="#Lakes"
                             ref="#places/2926"><rs key="#Lakes">laco</rs> Melani</placeName>,
@@ -130,7 +131,7 @@
                         inferioribus suis qualiter superius mensura et coerencias legitur et sunt
                         conpreensi in integrum. ab ac die in eadem monasterio Sancte Marie et Sancti
                         Benedicti et Sancti Michaeli archangeli et Sancti Petri apostoli Cristi dono
-                        et aufero, et.per presentem cartulam aufersionis in eadem monasterio abendum
+                        et aufero, et per presentem cartulam aufersionis in eadem monasterio abendum
                         relinquo; et facias exinde ipsi monachis qui in eadem monasterio ordinati
                         sunt vel in antea ordinati fuerint a pars ipsius monasterii proprietario
                         nomine quicquit voluent sme omni mea et heredum meorum contradicione. Quidem
@@ -152,15 +153,15 @@
                             key="#Offersio/donatio #Witness #Lombard"><name ref="Waldegarius"
                                 >Vualkerii</name></persName> lege Langobardorum viventes rogatis
                         testes. (S.) Ego qui supra <persName key="#Offersio/donatio #Writer #Notary"
-                                ><name ref="Bonafides">Bonafides</name></persName>
+                                ><name ref="Bonafides/notarius">Bonafides</name></persName>
                         <rs key="#Notary">notarius</rs> scripsi post tradita compievi et dedi. </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p>CDP I 016, pp. 103-105.</p>
+                <p>CDP I n. 16, pp. 103-105.</p>
             </div>
             <div type="bibliography" subtype="additional">
-                <p/>
+                <p>Rinaldi 2003, pp. 100-102.</p>
             </div>
             <div type="bibliography" subtype="links">
                 <p/>
@@ -168,7 +169,9 @@
             <div type="commentary">
                 <p>I toponimi <foreign>Logollo</foreign>, <foreign>Vernisco</foreign>,
                         <foreign>Corona</foreign> e <foreign>Susenagi Sellani</foreign> non sono
-                    identificati.</p>
+                    identificati. Per <foreign>Tribullaria</foreign> e <foreign>Sablonaria</foreign>
+                    l’editrice del documento, Carla Villani, propone l’identificazione con
+                    Trivellano (Moglia; Mantova) e Sabbioncello (Quingentole; Mantova).</p>
             </div>
         </body>
     </text>

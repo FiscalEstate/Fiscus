@@ -75,6 +75,7 @@
         <revisionDesc>
             <listChange>
                 <change when="2022-03-17" who="bferretti">creation of record</change>
+                <change when="2022-07-20" who="bferretti">minor changes</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -84,46 +85,74 @@
                 <div type="textpart">
                     <ab>+ In nomine sanctę et individuę Trinitatis. Anno ab incarnacione domini
                         nostri Iesu Christi millesimo centesimo nono, quintodecimo kalendas aprelis,
-                        indicione secunda. <rs>Breve recordationi</rs> pro futuris temporibus ad
-                        memoriam retinendum qualiter <rs>comitissa</rs>
-                        <persName>Matilda</persName>, <rs>filia</rs> quondam
-                            <persName>Bonefacii</persName> qui fuit <rs>dux et marchio</rs>, fecit
-                        cartulam concessionis a presenti die <rs>monasterio</rs>
-                        <orgName>Sancti Benedicti quod est scitum iuxta fluvium Padi</orgName>,
-                        nominative de <rs>insula</rs> ubi iam dictum monasterium est edificatum, in
-                        qua insula extat <rs>castrum</rs> et <placeName><rs>burgum</rs>
-                            Gubernoli</placeName>. Sed peticione eiusdem dominę,
-                            <persName>Albericus</persName>
-                        <rs>abbas</rs> supradicti monasterii concessit ei iam dictum castrum et
-                        burgum, eo tinore ordine ut quamdiu ipsum castrum vel burgum ibi
+                        indicione secunda. <rs key="#Transactional_breve">Breve recordationi</rs>
+                        pro futuris temporibus ad memoriam retinendum qualiter <rs key="#Countess"
+                            >comitissa</rs>
+                        <persName
+                            key="#Countess #childOf #Transactional_breve #milesOf #Albergaria/gifori #Intercessory"
+                            ref="#people/125">Matilda</persName>, <rs key="#childOf">filia</rs>
+                        quondam <persName key="#Marquis/duke #parentOf" ref="#people/1"
+                            >Bonefacii</persName> qui fuit <rs key="#Marquis/duke">dux et
+                            marchio</rs>, fecit cartulam concessionis a presenti die <rs
+                            key="#Monasteries">monasterio</rs>
+                        <orgName key="#Monasteries #Abbots #Transactional_breve #Albergaria/gifori"
+                            ref="#juridical_persons/2001">Sancti Benedicti quod est scitum iuxta
+                            fluvium Padi</orgName>, nominative de <placeName
+                            key="#Islands Castle #Burgi #Albergaria/gifori" ref="#places/2400"><rs
+                                key="#Islands">insula</rs> ubi iam dictum monasterium est
+                            edificatum</placeName>, in qua insula extat <rs key="Castle"
+                            >castrum</rs> et <placeName key="#Burgi" ref="#places/2418"><rs
+                                key="#Burgi">burgum</rs> Gubernoli</placeName>. Sed <rs key="#Intercessory">peticione</rs>
+                        eiusdem dominę, <persName key="#Abbots #Monasteries" ref="#people/2189"
+                            >Albericus</persName>
+                        <rs key="#Abbots">abbas</rs> supradicti monasterii concessit ei iam dictum
+                        castrum et burgum, eo tinore ordine ut quamdiu ipsum castrum vel burgum ibi
                         permanserit, iam dicta domina vel qui in eius loco successerit persolvat
-                        suprascripto abbati <rs>solidos centum Lucensis monetę</rs> vel eius
-                        successoribus in festivitate videlicet Sancti Martini aut infra eius
-                        octavam. Si vero iam dictum castrum et burgum, vel per eandem dominam vel
-                        per eius successores, exinde tultum vel translatum fuerit, area eiusdem
+                        suprascripto abbati <rs key="#Census">solidos centum Lucensis monetę</rs>
+                        vel eius successoribus in festivitate videlicet Sancti Martini aut infra
+                        eius octavam. Si vero iam dictum castrum et burgum, vel per eandem dominam
+                        vel per eius successores, exinde tultum vel translatum fuerit, area eiusdem
                         castri et burgi in prefati monasterii potestate persistat. Hoc etiam iam
-                        dictus abbas peticioni eiusdem dominę concessit, ut beneficia quę milites
-                        ipsius domine in <geogName><rs>curte</rs> Villule</geogName> vel in eadem
-                        insula Sancti Benedicti eatenus ab ipsa tenuerant, deinceps sicut et
-                        proprius ex parte ipsius teneant; ipsa vero domina pro eis iam dieta
-                        beneficia eidem monasterio serviat. <rs>Albergariam</rs> quoque villanorum
-                        de curte Villulę, vel de insula Sancti Benedicti, quam ipsa domina usque
-                        tunc habuerat iam dictus abbas eadem concessit: hii sunt autem
-                            <persName>Zacharellus</persName> cum manso uno;
-                            <persName>Martinus</persName> montanarius eiusque <rs>consortes</rs> cum
-                        manso uno; <rs>Iohannes Bonizo</rs> et eius consortes cum manso uno;
-                            <rs>Dominicellus</rs> cum manso uno; <rs>Dominicus de Aggere</rs> cum
-                        quarta parte mansi unius. Post decessum vero iam dicte dominę tam hec
-                        albergaria villanorum istorum, quam beneficia militum iam nominata,
-                        deveniant in potestate iam nominati monasterii sicut in cartula concessionis
-                        continetur. Si quis vero contra hoc facere temptaverit sciat se compositurum
-                            <rs key="#Penalty">libras centum</rs> et post penam solutam presens hec
-                        conventio in sua firmitate permaneat. Actum <placeName>Gunzacha</placeName>
-                        feliciter. Matilda Dei gratia si quid est <rs key="#Witness"
-                        >subscripsi</rs>. Ibi erat <persName>Ardoinus de Palude</persName>,
-                            <persName>Saso de Bibianello</persName>, <persName>Rodulfus
-                            Piloso</persName>, Gerardus filius Bosonis, Rolandus camerarius,
-                            <persName>Opizo de Gonzaga</persName> qui fuerunt testes rogati. </ab>
+                        dictus abbas peticioni eiusdem dominę
+                        concessit, ut beneficia quę <rs key="#milesOf">milites</rs> ipsius domine in
+                        <geogName key="#Curtes #Agricultural_workers #Albergaria/gifori" ref="#estates/80"><rs
+                                key="#Curtes">curte</rs> Villule</geogName> vel in eadem insula
+                        Sancti Benedicti eatenus ab ipsa tenuerant, deinceps sicut et proprius ex
+                        parte ipsius teneant; ipsa vero domina pro eis iam dieta beneficia eidem
+                        monasterio serviat. <rs key="#Albergaria/gifori">Albergariam</rs> quoque <rs
+                            key="#Agricultural_workers">villanorum</rs> de curte Villulę, vel de
+                        insula Sancti Benedicti, quam ipsa domina usque tunc habuerat iam dictus
+                        abbas eadem concessit: hii sunt autem <persName key="#Agricultural_workers"
+                                ><name ref="Zaccarellus">Zacharellus</name></persName> cum manso
+                        uno; <persName key="#Agricultural_workers #Consortes/shared_possessions"
+                                ><name ref="Martinus/montanarius">Martinus</name>
+                            montanarius</persName> eiusque <rs key="#Consortes/shared_possessions"
+                            >consortes</rs> cum manso uno; <persName
+                            key="#Agricultural_workers #Consortes/shared_possessions"><name
+                                ref="Iohannes/Bonizo">Iohannes Bonizo</name></persName> et eius
+                        consortes cum manso uno; <persName key="#Agricultural_workers"><name
+                                ref="Dominicus">Dominicellus</name></persName> cum manso uno;
+                            <persName key="#Agricultural_workers"><name ref="Dominicus/de Aggere"
+                                >Dominicus</name> de Aggere</persName> cum quarta parte mansi unius.
+                        Post decessum vero iam dicte dominę tam hec albergaria villanorum istorum,
+                        quam beneficia militum iam nominata, deveniant in potestate iam nominati
+                        monasterii sicut in cartula concessionis continetur. Si quis vero contra hoc
+                        facere temptaverit sciat se compositurum <rs key="#Penalty">libras
+                            centum</rs> et post penam solutam presens hec conventio in sua firmitate
+                        permaneat. Actum <placeName ref="#places/2414">Gunzacha</placeName>
+                        feliciter. Matilda Dei gratia si quid est subscripsi. Ibi erat <persName
+                            key="#Witness #Transactional_breve" ref="#people/3500">Ardoinus de
+                            Palude</persName>, <persName key="#Witness #Transactional_breve"
+                            ref="#people/2193">Saso de Bibianello</persName>, <persName
+                            key="#Witness #Transactional_breve" ref="#people/3782">Rodulfus
+                            Piloso</persName>, <persName
+                            key="#Witness #Transactional_breve #childOf" ref="#people/3780"
+                            >Gerardus</persName> filius <persName key="#parentOf"><name ref="Boso"
+                                >Bosonis</name></persName>, <persName
+                            key="#Witness #Transactional_breve"><name ref="Rodelandus/camerarius"
+                                >Rolandus</name> camerarius</persName>, <persName
+                            key="#Witness #Transactional_breve" ref="#people/3517">Opizo de Gonzaga
+                        </persName> qui fuerunt <rs key="#Witness">testes</rs> rogati. </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">

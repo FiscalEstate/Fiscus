@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:lang="en">
+                <fileDesc>
+                    <titleStmt>
+                        <title>Lucca, Archivio Storico Diocesano, Archivio Capitolare, D, F
+                    8</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                            <date when="2021">2021</date>
+                        </edition>
+                        </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fiscus - DISCI UniBo</publisher>
+                        <idno type="filename">doc2399</idno>
+                        <availability xml:lang="en" status="free">
+                            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                                texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                                4.0)</licence>
+                        </availability>
+                        <date when="2021"/>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <altIdentifier>
+                                    <idno type="uri"/>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <rs type="text_type" ref="#">--Offersio/donatio</rs>
+                                    <rs type="record_source" ref="#">Original document</rs>
+                                    <rs type="document_tradition" ref="#">Compendium</rs>
+                                    <rs type="fiscal_property">No</rs>
+                                </summary>
+                                <msItem xml:id="msItem1">
+                                    <textLang mainLang="" otherLangs=""/>
+                                </msItem>
+                            </msContents>
+                            <history>
+                                <origin>
+                                    <origDate when="1081-04-16">
+                                <note type="displayed_date">1081 April 16</note>
+                                <note type="dating_elements">Stile dell'incarnazione</note>
+                                <note type="topical_date">Lucca</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                                    <origPlace/>
+                                </origin>
+                                <provenance>
+                                    <location>
+                                        <placeName/>
+                                    </location>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                        <listPlace>
+                            <place></place>
+                        </listPlace>
+                        <listPerson>
+                            <person></person>
+                        </listPerson>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <textClass>
+                        <keywords>
+                            <term/>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change when="2022-06-09" who="langeli">creation of record</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition">
+                        <div type="textpart">
+                            <ab><persName><name ref="Stephanus">Stefano</name></persName> del
+                            <persName>fu <name ref="Martinus">Martino</name></persName> e
+                                <persName><name ref="Iohannes">Giovanni</name></persName> del
+                            <persName>fu <name ref="Martinus">Martino</name></persName> offrono pro
+                        anima loro all’<rs key="#Hospitals">ospitale</rs> di <orgName
+                            ref="#juridical_persons/68" key="#Hospitals">San Martino</orgName>,
+                        posto infra hanc <rs key="#Cities">urbem</rs>
+                        <placeName key="#Cities" ref="#places/4">Luca</placeName> prope la <rs
+                            key="#Churches">chiesa</rs> di <orgName key="#Churches"
+                            ref="#juridical_persons/3300">Sant’Alessandro</orgName> e prope la <rs
+                            key="#Collegiate_churches">canonica</rs> di <orgName
+                            ref="#juridical_persons/68" key="#Collegiate_churches">San
+                            Martino</orgName>, duos portionis de tres portionis de medietatem di un
+                        appezzamento di terra, cum casa super se abentes seo curte et vinea, posto
+                        in loco et finibus <placeName ref="#places/3125">Rogano</placeName> ubi
+                        dicitur <placeName ref="#places/3125">in Plactia</placeName>, <rs
+                            key="#Confinia #Landed_possessions">confinante</rs> uno capo in via
+                        plubica, alio capo cum uno lato con terra di <persName
+                            key="#Confinia #Landed_possessions"><name ref="Gherardus"
+                                >Gherardo</name></persName> et de suis consortibus, alio lato con
+                        terra della <rs key="#Churches">chiesa</rs> di <orgName
+                            key="#Confinia #Landed_possessions #Churches">San Donato</orgName>, con
+                        tutte le sue dipendenze. Chiedono al <rs
+                            key="#Notary #Writer #Other_palatine_officer">notaio del sacro
+                            palazzo</rs>
+                        <persName key="#Notary #Writer #Other_palatine_officer"><name ref="Paulus"
+                                >Paolo</name></persName> la stesura della cartula. Actum Luca. <rs
+                                    key="#Witness">Testimoni</rs> sottoscrittori: <persName key="#Witness #Specialized_workers"><name
+                                ref="Iohannes">Giovanni</name></persName>
+                                <rs key="#Specialized_workers">faber</rs> del <persName>fu <name ref="Dominicus"
+                            >Domenico</name></persName>, <persName key="#Witness"><name ref="Pepo"
+                            >Pepo</name></persName> del <persName>fu <name ref="Albitius"
+                                >Albizio</name></persName>, <persName key="#Witness"><name ref="Dominicus"
+                                >Domenico</name></persName> del <persName>fu <name ref="Rusticus"
+                                    >Rustico</name></persName>, <persName key="#Witness"><name ref="Iohannes"
+                                >Giovanni</name></persName> del <persName>fu <name ref="Martinus"
+                                >Martino</name></persName>.</ab>
+                        </div>
+                    </div>
+                    <div type="bibliography" subtype="editions">
+                        <p>RCLu, I, n. 456, pp. 189-190.</p>
+                    </div>
+                    <div type="bibliography" subtype="additional">
+                        <p/>
+                    </div>
+                    <div type="bibliography" subtype="links">
+                        <p/>
+                    </div>
+                    <div type="commentary">
+                        <p/>
+                    </div>
+                </body>
+            </text>
+        </TEI>

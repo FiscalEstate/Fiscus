@@ -99,7 +99,7 @@
                     <orgName>Sancta Maria et Sancta Iustina; episcopium (Padova) </orgName>
                     <idno>juridical_persons/65</idno>
                     <note></note>
-                    <link type="people" corresp="#people/58" subtype="link"/>
+                    <link type="people" corresp="#people/58" subtype="rectorOf"/>
                 </org>
                 
                 <org>
@@ -125,7 +125,7 @@
                         <link type="people" corresp="#people/639" subtype="link"/>
                 </org>
                 <org>
-                    <orgName>Casa Dei; coenobium (Cadeo; Piacenza)</orgName>
+                    <orgName>La Chaise-Dieu; coenobium (FR)</orgName>
                     <idno>juridical_persons/67</idno>
                     <note>Ciliberti e Salvestrini 2014.</note>
                     <link type="places" corresp="#places/57" subtype="isWithin"/>
@@ -791,11 +791,14 @@
                     <link type="people" corresp="#people/21" subtype="link"/>
                 </org>
                 <org>
-                    <orgName>Sanctus Modestus; monasterium (Benevento)</orgName>
+                    <orgName>Sanctus Modestus; ecclesia; monasterium (Benevento)</orgName>
                     <orgName type="other"/>
                     <idno>juridical_persons/122</idno>
                     <note/>
                     <link type="places" corresp="#places/110" subtype="isWithin"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/85"
+                            subtype="isOwnedBy"/>
+                        <link type="people" corresp="#people/303" subtype="isConfirmedBy"/>
                 </org>
                 <org>
                     <orgName>Sanctus Stephanus; monasterium (Vercelli)</orgName>
@@ -1753,7 +1756,8 @@
                 </org>
                 <org>
                     <orgName>Sancta Maria; episcopium (Cremona)</orgName>
-                    <orgName type="other"/>
+                    <orgName type="other"><foreign>Sancta Maria et Sanctus
+                            Stefanus</foreign></orgName>
                     <idno>juridical_persons/224</idno>
                     <note/>
                     <link type="places" corresp="#places/58" subtype="isWithin"/>
@@ -2444,29 +2448,36 @@
                     <orgName type="other"/>
                     <idno>juridical_persons/302</idno>
                     <note>Marrocchi 2014.</note>
-                    <link type="places" corresp="#places/756" subtype="isWithin"/>
-                    <link type="juridical_persons" corresp="#juridical_persons/301" subtype="link"/>
-                    <link type="people" corresp="#people/21" subtype="link"/>
-                        <link type="people" corresp="#people/110" subtype="link"/>
-                        <link type="people" corresp="#people/72" subtype="link"/>
-                        <link type="people" corresp="#people/79" subtype="link"/>
-                        <link type="people" corresp="#people/252" subtype="link"/>
-                        <link type="people" corresp="#people/173" subtype="link"/>
-                        <link type="people" corresp="#people/130" subtype="link"/>
+                    <link type="places" corresp="#places/756" subtype="correspondsTo"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/301"
+                            subtype="isGrantedTo"/>
+                    <link type="people" corresp="#people/21" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/110" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/72" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/79" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/252" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/173" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/130" subtype="isConfirmedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/301"
+                            subtype="isHeldBy"/>
                 </org>
                 <org>
                     <orgName>Sanctus Stephanus; ecclesia (Monticello Amiata; Grosseto)</orgName>
                     <orgName type="other"/>
                     <idno>juridical_persons/303</idno>
                     <note>Marrocchi 2014.</note>
-                    <link type="places" corresp="#places/757" subtype="isWithin"/>
-                    <link type="juridical_persons" corresp="#juridical_persons/301" subtype="link"/>
-                    <link type="people" corresp="#people/21" subtype="link"/>
-                        <link type="people" corresp="#people/110" subtype="link"/>
-                        <link type="people" corresp="#people/72" subtype="link"/>
-                        <link type="people" corresp="#people/79" subtype="link"/>
-                        <link type="people" corresp="#people/252" subtype="link"/>
-                        <link type="people" corresp="#people/173" subtype="link"/>
+                    <link type="places" corresp="#places/757" subtype="correspondsTo"/>
+                    <link type="juridical_persons" corresp="#juridical_persons/301"
+                            subtype="isHeldBy"/>
+                    <link type="people" corresp="#people/21" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/110" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/72" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/79" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/252" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/173" subtype="isConfirmedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/301"
+                            subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/9" subtype="isGrantedBy"/>
                 </org>
                 <org>
                     <orgName>Sanctus Michael Archangelus; ecclesia (Monte di Brancoli;
@@ -2486,7 +2497,7 @@
                             Natzari</foreign></orgName>
                     <idno>juridical_persons/305</idno>
                     <note>Chiesa conosciuta anche con la doppia dedicazione ai santi Eufemia e
-                            Nazario</note>
+                            Nazario, vd. Belli Barsali 1973, p. 529, n. 13.</note>
                     <link type="juridical_persons" corresp="#juridical_persons/68"
                             subtype="dependsOn"/>
                     <link type="places" corresp="#places/4" subtype="isWithin"/>
@@ -3200,13 +3211,15 @@
                             Michaeli archangeli et Sancti Petri apostoli</orgName>
                         <idno>juridical_persons/2001</idno>
                         <note/>
-                        <link type="places" corresp="#places/2400" subtype="correspondsTo"/>
+                        <link type="places" corresp="#places/4413" subtype="correspondsTo"/>
                         <link type="people" corresp="#people/2122" subtype="isGrantedBy"/>
                         <link type="people" corresp="#people/1" subtype="isGrantedBy"/>
                         <link type="people" corresp="#people/2134" subtype="isGrantedBy"/>
                         <link type="people" corresp="#people/2181" subtype="isGrantedBy"/>
                         <link type="juridical_persons" corresp="#juridical_persons/2091"
                             subtype="link"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1100"
+                            subtype="dependsOn"/>
                     </org>
                     <org>
                         <orgName>Malcesine; plebs</orgName>
@@ -3236,21 +3249,19 @@
                         <link type="places" corresp="#places/2475" subtype="correspondsTo"/>
                         <link type="juridical_persons" corresp="#juridical_persons/1425"
                             subtype="isGrantedTo"/>
-                        <link type="people" corresp="#people/2136" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/2136" subtype="isOwnedBy"/>
                         <link type="juridical_persons" corresp="#juridical_persons/2001"
                             subtype="dependsOn"/>
                         <link type="people" corresp="#people/52" subtype="isConfirmedBy"/>
                         <link type="people" corresp="#people/2181" subtype="isGrantedBy"/>
                         <link type="people" corresp="#people/127" subtype="isConfirmedBy"/>
-                        <link type="juridical_persons" corresp="#juridical_persons/1425"
-                            subtype="link"/>
                     </org>
                     <org>
                         <orgName>Sancta Maria; plebs (Medole; Mantova)</orgName>
                         <orgName type="other">Sancta Dei genitricis Maria</orgName>
                         <idno>juridical_persons/2005</idno>
                         <note/>
-                        <link type="places" corresp="#places/2475" subtype="isWithin"/>
+                        <link type="places" corresp="#places/2475" subtype="correspondsTo"/>
                         <link type="juridical_persons" corresp="#juridical_persons/1425"
                             subtype="dependsOn"/>
                     </org>
@@ -3258,8 +3269,8 @@
                         <orgName>Sanctus Benedictus; monasterium (Gonzaga; Mantova)</orgName>
                         <orgName type="other"/>
                         <idno>juridical_persons/2006</idno>
-                        <note>Nella permuta del 967 aprile 22 (CDP I n. 10, pp. 83-87) la chiesa di
-                            San Benedetto è ancora solo una <foreign>capella</foreign>. La
+                        <note>Nella permuta del 967 aprile 22 (CDP I n. 10, pp. 83-87 = doc5010) la
+                            chiesa di San Benedetto è ancora solo una <foreign>capella</foreign>. La
                             dedicazione è da mettere in relazione alla prima proprietà nota: il
                             monastero di San Benedetto di Leno.</note>
                         <link type="places" corresp="#places/2414" subtype="correspondsTo"/>
@@ -3278,10 +3289,9 @@
                         <orgName>Sancta Maria; monasterium (Felonica; Mantova)</orgName>
                         <orgName type="other"/>
                         <idno>juridical_persons/2007</idno>
-                        <note/>
+                        <note>Bonacini 2000, p. 364; Goez 1995b.</note>
                         <link type="places" corresp="#places/2479" subtype="correspondsTo"/>
                         <link type="people" corresp="#people/292" subtype="isGrantedBy"/>
-                        <link type="people" corresp="#people/2141" subtype="rectorOf"/>
                     </org>
                     <org>
                         <orgName>Sancta Maria de Reno; ecclesia et canonica</orgName>
@@ -3710,11 +3720,9 @@
                         <orgName type="other"/>
                         <idno>juridical_persons/2052</idno>
                         <note/>
-                        <link type="places" corresp="#places/2490" subtype="link"/>
-                        <link type="people" corresp="#people/2100" subtype="link"/>
-                        <link type="juridical_persons" corresp="#juridical_persons/2001"
-                            subtype="link"/>
-                        <link type="estates" corresp="#estates/2004" subtype="link"/>
+                        <link type="places" corresp="#places/2490" subtype="correspondsTo"/>
+                        <link type="people" corresp="#people/2100" subtype="isOwnedBy"/>
+                        <link type="estates" corresp="#estates/2004" subtype="isWithin"/>
                     </org>
                     <org>
                         <orgName>Sanctus Possidonius; capella (San Possidonio; Modena)</orgName>
@@ -3799,6 +3807,7 @@
                         <link type="places" corresp="#places/2403" subtype="correspondsTo"/>
                         <link type="people" corresp="#people/52" subtype="isConfirmedBy"/>
                         <link type="people" corresp="#people/127" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/125" subtype="isGrantedBy"/>
                     </org>
                     <org>
                         <orgName>Sanctus Andreas; ecclesia (Gabbiana; Mantova)</orgName>
@@ -4877,7 +4886,7 @@
                         <orgName type="other"/>
                         <idno>juridical_persons/2477</idno>
                         <note/>
-                        <link type="places" corresp="#places/4789" subtype="correspondsTo"/>
+                        <link type="places" corresp="#places/4189" subtype="correspondsTo"/>
                         <link type="juridical_persons" corresp="#juridical_persons/1420"
                             subtype="link"/>
                     </org>
@@ -5109,6 +5118,15 @@
                         <orgName type="other"/>
                         <idno>juridical_persons/3227</idno>
                         <note/>
+                    </org>
+                    <org>
+                        <orgName>Sanctus Petrus; plebs (Ripoli; Cerreto Guidi; Firenze)</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/3228</idno>
+                        <note>Il piviere di Ripoli comprendeva, fino a una certa altezza
+                            cronologica, anche la località di Fucecchio. I conti Cadolingi tentarono
+                            per questo di far promuovere al rango di chiesa battesimale San
+                            Giovanni, depotenziando così la pieve di San Pietro.</note>
                     </org>
                 </listOrg>
                 <listOrg n="Internullo Dario">
@@ -5463,10 +5481,10 @@
                             statua equestre, cfr. CSS, p. 292 nt. 1; Cuozzo, Esposito 2018, p. 3
                             (coord. 41.13133984108429, 14.782458379959806).</note>
                         <link type="juridical_persons" corresp="#juridical_persons/85"
-                            subtype="dependsOn"/>
+                            subtype="isGrantedTo"/>
                         <link type="places" corresp="#places/110" subtype="isWithin"/>
                         <link type="juridical_persons" corresp="#juridical_persons/3401"
-                            subtype="dependsOn" cert="low"/>
+                            subtype="isOwnedBy" cert="low"/>
                         <link type="people" corresp="#people/303" subtype="isGrantedBy"/>
                     </org>
                     <org>
@@ -5475,12 +5493,15 @@
                             (Benevento)</orgName>
                         <orgName type="other"/>
                         <idno>juridical_persons/3401</idno>
-                        <note>Il monastero di S. Sofia <foreign>ad ponticellum</foreign> sorgeva
-                            subito fuori le mura della città di Benevento, presso Porta Aurea, nella
-                            contrada <foreign>Ponticelli</foreign>, cfr. Cuozzo, Esposito 2018
-                            (coord. 41.1348805162701, 14.785806676949106).</note>
-                        <link type="places" corresp="#places/110" subtype="proximity"/>
+                        <note>Il monastero di S. Sofia <foreign>ad ponticellum</foreign>, fondato
+                            dall'abate <foreign>Zacharias</foreign>, sorgeva subito fuori le mura
+                            della città di Benevento, presso Porta Aurea, nella contrada
+                                <foreign>Ponticelli</foreign>, cfr. Cuozzo, Esposito 2018 (coord.
+                            41.1348805162701, 14.785806676949106).</note>
+                        <link type="places" corresp="#places/3426" subtype="correspondsTo"/>
                         <link type="people" corresp="#people/303" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/3453" subtype="rectorOf"/>
+                        <link type="people" corresp="#people/158" subtype="isConfirmedBy"/>
                     </org>
                     <org>
                         <orgName><foreign>Sanctus Abundius</foreign>; <foreign>ecclesia</foreign>
@@ -5492,10 +5513,8 @@
                             CSS, I, 1 [9], p. 298, nt. 1.CSS, I, 1 [3], p. 294.</note>
                         <link type="places" corresp="#places/3400" subtype="isWithin"/>
                         <link type="juridical_persons" corresp="#juridical_persons/85"
-                            subtype="dependsOn"/>
+                            subtype="isConfirmedTo"/>
                         <link type="people" corresp="#people/303" subtype="isGrantedBy"/>
-                        <link type="juridical_persons" corresp="#juridical_persons/85"
-                            subtype="isOwnedBy"/>
                     </org>
                     <org>
                         <orgName><foreign>Sanctus Magnus</foreign>; <foreign>ecclesia</foreign>
@@ -5504,11 +5523,9 @@
                         <idno>juridical_persons/3403</idno>
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/85"
-                            subtype="dependsOn"/>
+                            subtype="isGrantedTo"/>
                         <link type="places" corresp="#places/3401" subtype="isWithin"/>
                         <link type="people" corresp="#people/303" subtype="isGrantedBy"/>
-                        <link type="juridical_persons" corresp="#juridical_persons/85"
-                            subtype="isOwnedBy"/>
                     </org>
                     <org>
                         <orgName><foreign>Sanctus Iohannes</foreign>; <foreign>ecclesia</foreign>
@@ -5520,11 +5537,9 @@
                             14.977100731475332), cfr. Gravina 2004, p. 6, nt. 10. Cfr anche Martin
                             1993, pp. 184, 198; CSS, I, 1 [6], pp. 295-296</note>
                         <link type="juridical_persons" corresp="#juridical_persons/85"
-                            subtype="dependsOn"/>
+                            subtype="isGrantedTo"/>
                         <link type="places" corresp="#places/3402" subtype="isWithin"/>
                         <link type="people" corresp="#people/303" subtype="isGrantedBy"/>
-                        <link type="juridical_persons" corresp="#juridical_persons/85"
-                            subtype="isOwnedBy"/>
                     </org>
                     <org>
                         <orgName><foreign>Sanctus Martinus</foreign>; <foreign>ecclesia</foreign>
@@ -5538,9 +5553,7 @@
                             nt. 489, 240 nt. 495, carta 6; CSS, I, 1 [8], p. 297, nt. 1.</note>
                         <link type="people" corresp="#people/303" subtype="isConfirmedBy"/>
                         <link type="juridical_persons" corresp="#juridical_persons/85"
-                            subtype="dependsOn"/>
-                        <link type="juridical_persons" corresp="#juridical_persons/85"
-                            subtype="isOwnedBy"/>
+                            subtype="isConfirmedTo"/>
                         <link type="places" corresp="#places/3408" subtype="isWithin"/>
                     </org>
                     <org>
@@ -5556,12 +5569,10 @@
                             S.Angelo, nel comune di Lucito (CB) (coord. 41.74849596444761,
                             14.649578098324382).</note>
                         <link type="places" corresp="#places/3409" subtype="correspondsTo"/>
-                        <link type="juridical_persons" corresp="#juridical_persons/85"
-                            subtype="dependsOn"/>
                         <link type="estates" corresp="#estates/3404" subtype="isWithin"/>
                         <link type="people" corresp="#people/303" subtype="isGrantedBy"/>
                         <link type="juridical_persons" corresp="#juridical_persons/85"
-                            subtype="isOwnedBy"/>
+                            subtype="isGrantedTo"/>
                     </org>
                     <org>
                         <orgName><foreign>Sanctus Iohannes a Porta Aurea</foreign>;
@@ -5578,6 +5589,13 @@
                         <link type="people" corresp="#people/305" subtype="isGrantedBy"/>
                         <link type="people" corresp="#people/154" subtype="isGrantedBy"/>
                         <link type="people" corresp="#people/304" subtype="isGrantedBy"/>
+                        <link type="places" corresp="#places/173" subtype="link"/>
+                        <link type="places" corresp="#places/728" subtype="link"/>
+                        <link type="places" corresp="#places/2354" subtype="link"/>
+                        <link type="places" corresp="#places/3437" subtype="link"/>
+                        <link type="places" corresp="#places/3438" subtype="link"/>
+                        <link type="places" corresp="#places/3436" subtype="link"/>
+                        <link type="places" corresp="#places/84" subtype="link"/>
                     </org>
                     <org>
                         <orgName><foreign>Sanctus Archangelus</foreign>; <foreign>ecclesia</foreign>
@@ -5587,6 +5605,11 @@
                         <note>La chiesa era forse situata presso l'antico insediamento di Ostuni
                             (BR), cfr. Martin 1993, pp. 198-199; CSS, I, 1 [9], p. 298, nt. 1.CSS,
                             I, 1 [9], p. 298, nt. 1.</note>
+                        <link type="places" corresp="#places/3416" subtype="proximity"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/85"
+                            subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/303" subtype="isGrantedBy"/>
+                        <link type="estates" corresp="#estates/3405" subtype="correspondsTo"/>
                     </org>
                     <org>
                         <orgName><foreign>Sancta Maria</foreign>; <foreign>ecclesia</foreign>
@@ -5595,6 +5618,11 @@
                         <idno>juridical_persons/3409</idno>
                         <note>La chiesa era probabilmente situata presso Matera (MT), cfr. Martin
                             1993, p. 198; CSS, I, 1 [11], p. 299, nt. 1.</note>
+                        <link type="places" corresp="#places/3415" subtype="proximity"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/85"
+                            subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/303" subtype="isConfirmedBy"/>
+                        <link type="estates" corresp="#estates/3406" subtype="correspondsTo"/>
                     </org>
                     <org>
                         <orgName><foreign>Sancta Maria ad Pletta</foreign>;
@@ -5608,6 +5636,10 @@
                             769, cfr. Lepore 1995, p. 89, nt. 215; CSS, III, 23, p. 517, nt.
                             1.</note>
                         <link type="places" corresp="#places/112" subtype="proximity"/>
+                        <link type="people" corresp="#people/303" subtype="isConfirmedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/85"
+                            subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/3643" subtype="isOwnedBy"/>
                     </org>
                     <org>
                         <orgName><foreign>Sanctus Stephanus</foreign>; <foreign>ecclesia</foreign>
@@ -5615,6 +5647,10 @@
                         <orgName type="other"/>
                         <idno>juridical_persons/3411</idno>
                         <note/>
+                        <link type="places" corresp="#places/110" subtype="proximity"/>
+                        <link type="people" corresp="#people/303" subtype="isOwnedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/85"
+                            subtype="isHeldBy"/>
                     </org>
                     <org>
                         <orgName><foreign>Sanctus Paulus</foreign>; ecclesia;
@@ -5628,6 +5664,8 @@
                             Lepore 1995, pp. 115-118; Rotili 2016, pp. 241, 247.</note>
                         <link type="places" corresp="#places/110" subtype="isWithin"/>
                         <link type="people" corresp="#people/2486" subtype="isConfirmedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3424"
+                            subtype="isConfirmedTo"/>
                     </org>
                     <org>
                         <orgName><foreign>Sanctus Stephanus in Strata</foreign>;
@@ -5637,6 +5675,10 @@
                         <note>La chiesa era probabilmente situata non lontano da Taranto (TA), forse
                             sulla via Appia, cfr. Martin 1993, p. 196, nt. 214; CSS, I, 1 [10], pp.
                             298-299; CSS, I, 8, pp. pp. 347-349, ntt. 1, 3.</note>
+                        <link type="places" corresp="#places/3414" subtype="proximity"/>
+                        <link type="people" corresp="#people/303" subtype="isConfirmedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/85"
+                            subtype="isConfirmedTo"/>
                     </org>
                     <org>
                         <orgName><foreign>Sanctus Mercurius</foreign>; <foreign>ecclesia</foreign>
@@ -5647,7 +5689,7 @@
                             territorio di Ascoli Satriano (FG), cfr. Martin 1993, pp. 184, 197; CSS,
                             I, 1 [4], p. 294; 2, pp. 337-338.</note>
                         <link type="juridical_persons" corresp="#juridical_persons/85"
-                            subtype="dependsOn"/>
+                            subtype="isGrantedTo"/>
                         <link type="people" corresp="#people/303" subtype="isGrantedBy"/>
                         <link type="estates" corresp="#estates/3407" subtype="isWithin"/>
                         <link type="places" corresp="#places/3417" subtype="correspondsTo"/>
@@ -5661,15 +5703,15 @@
                             territorio di Ascoli Satriano (FG), cfr. Martin 1993, pp. 184, 197, 240
                             nt. 495; CSS, I, 1 [4], p. 294; 2, pp. 337-338; 5, pp. 341-343.</note>
                         <link type="juridical_persons" corresp="#juridical_persons/85"
-                            subtype="dependsOn"/>
+                            subtype="isGrantedTo"/>
                         <link type="people" corresp="#people/303" subtype="isGrantedBy"/>
                         <link type="estates" corresp="#estates/3407" subtype="isWithin"/>
                         <link type="places" corresp="#places/3417" subtype="correspondsTo"/>
                     </org>
                     <org>
-                        <orgName><foreign>Sanctus Petrus</foreign> di <foreign>Aqua
-                            Sancta</foreign>; <foreign>ecclesia</foreign> (<foreign>in gaio
-                                Fecline</foreign>; Foggia)</orgName>
+                        <orgName><foreign>Sanctus Petrus</foreign>
+                            <foreign>ad Aqua Sancti Potiti</foreign>; <foreign>ecclesia</foreign>
+                                (<foreign>in gaio Fecline</foreign>; Foggia)</orgName>
                         <orgName type="other"/>
                         <idno>juridical_persons/3416</idno>
                         <note>La chiesa si trovava nel <foreign>gaio Fecline</foreign>, nel
@@ -5677,10 +5719,11 @@
                             240 nt. 495, carte 6-7; CSS, I, 1 [2], pp. 292-293; [35], p. 315; 6, pp.
                             343-345.</note>
                         <link type="juridical_persons" corresp="#juridical_persons/85"
-                            subtype="dependsOn"/>
+                            subtype="isGrantedTo"/>
                         <link type="people" corresp="#people/303" subtype="isGrantedBy"/>
                         <link type="estates" corresp="#estates/3407" subtype="isWithin"/>
-                        <link type="places" corresp="#places/3417" subtype="correspondsTo"/>
+                        <link type="places" corresp="#places/3417" subtype="proximity"/>
+                        <link type="people" corresp="#people/3608" subtype="isHeldBy"/>
                     </org>
                     <org>
                         <orgName><foreign>Sanctus Stephanus</foreign>; <foreign>ecclesia</foreign>
@@ -5690,6 +5733,11 @@
                         <note>La chiesa si trovava nel <foreign>gaio Fecline</foreign>, nel
                             territorio di Ascoli Satriano (Foggia), cfr. Martin 1993, pp. 184, 198;
                             CSS, I, 1 [35], p. 315; 20, pp. 365-366.</note>
+                        <link type="juridical_persons" corresp="#juridical_persons/85"
+                            subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/303" subtype="isGrantedBy"/>
+                        <link type="estates" corresp="#estates/3407" subtype="isWithin"/>
+                        <link type="places" corresp="#places/3417" subtype="proximity"/>
                     </org>
                     <org>
                         <orgName><foreign>Sanctus Adiutor</foreign>; <foreign>ecclesia</foreign>
@@ -5700,6 +5748,10 @@
                         <idno>juridical_persons/3418</idno>
                         <note>Secondo Martin si fa forse riferimento a S. Agata dei Goti (BN), cfr.
                             CSS, I, 1 [28], p. 312 nt. 1.</note>
+                        <link type="juridical_persons" corresp="#juridical_persons/85"
+                            subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/303" subtype="isGrantedBy"/>
+                        <link type="places" corresp="#places/3419" subtype="proximity"/>
                     </org>
                     <org>
                         <orgName><foreign>Sanctus Marcellus in Dilombato</foreign>;
@@ -5707,6 +5759,10 @@
                         <orgName type="other"/>
                         <idno>juridical_persons/3419</idno>
                         <note>Chiesa non identificata.</note>
+                        <link type="juridical_persons" corresp="#juridical_persons/85"
+                            subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/303" subtype="isGrantedBy"/>
+                        <link type="places" corresp="#places/3424" subtype="isWithin"/>
                     </org>
                     <org>
                         <orgName><foreign>Sanctus Stephanus</foreign>; <foreign>ecclesia</foreign>
@@ -5738,14 +5794,16 @@
                             Benevento per offrire al santuario una difesa dalle minacce saracene e
                             ultimato presumibilmente nell'871, cfr. Cicco 2006, p. 359.</note>
                         <link type="places" corresp="#places/3432" subtype="isWithin"/>
-                        <link type="people" corresp="#people/2004" subtype="isGrantedBy"/>
-                        <link type="people" corresp="#people/158" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/2004" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/158" subtype="isConfirmedBy"/>
                         <link type="people" corresp="#people/14" subtype="isConfirmedBy"/>
                         <link type="people" corresp="#people/110" subtype="isConfirmedBy"/>
                         <link type="people" corresp="#people/136" subtype="isConfirmedBy"/>
                         <link type="people" corresp="#people/173" subtype="isConfirmedBy"/>
                         <link type="people" corresp="#people/157" subtype="isConfirmedBy"/>
                         <link type="people" corresp="#people/3401" subtype="isConfirmedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1913"
+                            subtype="isConfirmedTo"/>
                     </org>
                     <org>
                         <orgName><foreign>Sancti Lupulus et Zosimus</foreign>;
@@ -5821,7 +5879,7 @@
                         <link type="places" corresp="#places/605" subtype="isWithin"/>
                         <link type="people" corresp="#people/303" subtype="isGrantedBy"/>
                         <link type="juridical_persons" corresp="#juridical_persons/85"
-                            subtype="dependsOn"/>
+                            subtype="isGrantedTo"/>
                         <link type="estates" corresp="#estates/3409" subtype="isWithin"/>
                     </org>
                     <org>
@@ -5835,17 +5893,23 @@
                     <org>
                         <orgName><foreign>Sancta Maria et Sanctus Petrus princeps
                                 apostolorum</foreign><foreign>in Massana</foreign>;
-                                <foreign>ecclesia</foreign> (nel territorio di Alife;
-                            Caserta)</orgName>
-                        <orgName type="other"/>
+                                <foreign>monasterium</foreign> (Alife; Caserta)</orgName>
+                        <orgName type="other"><foreign>Sancta Maria in Massana</foreign></orgName>
                         <idno>juridical_persons/3430</idno>
-                        <note>Alla prima metà del sec. VIII, rimontano la fondazione del monastero
+                        <note>Alla prima metà del sec. VIII rimonta la fondazione del monastero
                             femminile di S. Maria e S. Pietro a <foreign>Massana</foreign>, nel
                             territorio di Alife e presso il Volturno, già ricordato in uno strumento
                             del 719 (cfr. Di Muro 2007, p. 13; Franco 2017, p. 43 nt. 5),
                             probabilmente nella località 'Quarto di S. Pietro', così chiamata perché
                             la tradizione vuole che l'apostolo Pietro vi si fermasse a predicare
-                            (cfr. D'Avino, p. 8).</note>
+                            (cfr. D'Avino, p. 8). I monaci del monastero di S. Quirico di
+                                <foreign>Massana</foreign> potevano vivere in questo monastero, per
+                            concessione del duca Gisulfo II (a. 743), CSS, II, 13, pp.
+                            456-458.</note>
+                        <link type="places" corresp="#places/112" subtype="proximity"/>
+                        <link type="people" corresp="#people/303" subtype="isGrantedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/85"
+                            subtype="isGrantedTo"/>
                     </org>
                     <org>
                         <orgName><foreign>Sanctus Laurentius</foreign>; <foreign>ecclesia</foreign>
@@ -5856,7 +5920,7 @@
                             [49], pp. 323-324.</note>
                         <link type="places" corresp="#places/3442" subtype="isWithin"/>
                         <link type="juridical_persons" corresp="#juridical_persons/85"
-                            subtype="dependsOn"/>
+                            subtype="isConfirmedTo"/>
                         <link type="people" corresp="#people/303" subtype="isConfirmedBy"/>
                     </org>
                     <org>
@@ -5868,6 +5932,9 @@
                             fronte alla <foreign>Porta Summa</foreign>, cfr. CSS, I, 1 [64], pp.
                             333-334.</note>
                         <link type="places" corresp="#places/110" subtype="proximity"/>
+                        <link type="people" corresp="#people/303" subtype="isGrantedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/85"
+                            subtype="isGrantedTo"/>
                     </org>
                     <org>
                         <orgName><foreign>Sanctus Martinus</foreign>; <foreign>ecclesia</foreign>
@@ -5876,8 +5943,9 @@
                         <idno>juridical_persons/3433</idno>
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/85"
-                            subtype="dependsOn"/>
+                            subtype="isGrantedTo"/>
                         <link type="people" corresp="#people/303" subtype="isGrantedBy"/>
+                        <link type="places" corresp="#places/3444" subtype="isWithin"/>
                     </org>
                     <org>
                         <orgName><foreign>Sanctus Petrus</foreign>; <foreign>ecclesia</foreign> (in
@@ -5885,6 +5953,10 @@
                         <orgName type="other"/>
                         <idno>juridical_persons/3434</idno>
                         <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/85"
+                            subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/303" subtype="isGrantedBy"/>
+                        <link type="places" corresp="#places/2377" subtype="proximity"/>
                     </org>
                     <org>
                         <orgName><foreign>Beatus Archangelus Michael</foreign>;
@@ -5893,6 +5965,11 @@
                         <orgName type="other"/>
                         <idno>juridical_persons/3435</idno>
                         <note>(i<foreign>n gaio Matere in Affle</foreign>; Matera)</note>
+                        <link type="juridical_persons" corresp="#juridical_persons/85"
+                            subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/303" subtype="isGrantedBy"/>
+                        <link type="places" corresp="#places/3415" subtype="proximity"/>
+                        <link type="estates" corresp="#estates/3406" subtype="correspondsTo"/>
                     </org>
                     <org>
                         <orgName><foreign>Sanctus Cataldus</foreign>; <foreign>episcopium</foreign>
@@ -5910,6 +5987,7 @@
                         <note>La chiesa era forse ubicata non lontano da Ascoli Satriano, nel
                                 <foreign>territorio Virisianum</foreign>, <foreign>in finibus
                                 Apulee</foreign> (cfr. CSS, I, 28, pp. 384-385 nt. 7).</note>
+                        <link type="places" corresp="#places/3446" subtype="proximity"/>
                     </org>
                     <org>
                         <orgName><foreign>Sanctus Marcianus</foreign>; <foreign>ecclesia</foreign>
@@ -5919,8 +5997,12 @@
                         <note>Nella pianta di Liborio Pizzella del 1764, stampata nelle memorie di
                             Borgia, figura una 'chiesa diruta di S. Marciano' subito fuori la porta
                             sul Calore, superato il ponte a nord della città (coord. geogr.
-                            41.13491237458109, 14.77425820871536), cfr. CSS, I, 33, p. 393 nt.
-                            1.</note>
+                            41.13491237458109, 14.77425820871536), cfr. CSS, I, 33, p. 393 nt. 1.
+                            Nel 1028 la chiesa fu offerta dai principi Landolfo V e Pandolfo III al
+                            sacerdote e monaco Leo e al sacerdote <foreign>Iaquintus fil.
+                                Maraldi</foreign>, vita natural durante. Dopo la loro morte la
+                            comunità eleggerà l'abate con il consenso dei principi, cfr. CSS, III,
+                            46, pp. 567-570.</note>
                         <link type="places" corresp="#places/110" subtype="proximity"/>
                     </org>
                     <org>
@@ -5936,7 +6018,8 @@
                             (Benevento)</orgName>
                         <orgName type="other"/>
                         <idno>juridical_persons/3440</idno>
-                        <note/>
+                        <note>Dipendeva dalla cappella palatina di S. Salvatore di Benevento, cfr.
+                            CSS., I, 43, pp. 413-414.</note>
                         <link type="places" corresp="#places/110" subtype="isWithin"/>
                         <link type="juridical_persons" corresp="#juridical_persons/3439"
                             subtype="dependsOn"/>
@@ -5947,6 +6030,7 @@
                         <orgName type="other"/>
                         <idno>juridical_persons/3441</idno>
                         <note/>
+                        <link type="places" corresp="#places/2836" subtype="isWithin"/>
                     </org>
                     <org>
                         <orgName><foreign>Sanctus Quiricus</foreign>
@@ -5954,29 +6038,62 @@
                             Caserta)</orgName>
                         <orgName type="other"/>
                         <idno>juridical_persons/3442</idno>
-                        <note/>
+                        <note>I monaci del monastero di S. Quirico potranno vivere nel monastero di
+                                <foreign>Sancta Maria et Sanctus Petrus princeps
+                                apostolorum</foreign><foreign>in Massana</foreign> (Alife; Caserta),
+                            css, II, 13, pp. 456-458.</note>
+                        <link type="juridical_persons" corresp="#juridical_persons/3430"
+                            subtype="link"/>
                     </org>
                     <org>
                         <orgName><foreign>Sanctus Petrus</foreign>; <foreign>ecclesia</foreign>
                             (Quintodecimo; Avellino)</orgName>
                         <orgName type="other"/>
                         <idno>juridical_persons/3443</idno>
-                        <note/>
+                        <note>Nel 746 il duca Gisulfo II sentenzia a favore di
+                                <foreign>Benedictus</foreign>, sacerdote della chiesa di S. Maria di
+                            Quintodecimo, contro le pretese di Theodoraci, abate del monastero di S.
+                            Pietro di Benevento, il quale pretendeva la proprietà della chiesa di S.
+                            Pietro di Quintodecimo, a suo dire offerta al monastero beneventano al
+                            tempo della duchessa Theudorada, che invece apparteneva a S. Maria,
+                            essendo stata offerta dalla duchessa soltanto <foreign>per
+                                calciaria</foreign>, cfr. CSS, III, 3, pp. 483-486.</note>
+                        <link type="juridical_persons" corresp="#juridical_persons/3444"
+                            subtype="dependsOn"/>
+                        <link type="places" corresp="#places/2304" subtype="isWithin"/>
+                        <link type="people" corresp="#people/3608" subtype="isClaimedBy"/>
                     </org>
                     <org>
                         <orgName><foreign>Sancta Maria</foreign>; <foreign>ecclesia</foreign>
                             (Quintodecimo; Avellino)</orgName>
                         <orgName type="other"/>
                         <idno>juridical_persons/3444</idno>
-                        <note/>
+                        <note>Nel 746 il duca Gisulfo II sentenzia a favore di
+                                <foreign>Benedictus</foreign>, sacerdote della chiesa di S. Maria di
+                            Quintodecimo, contro le pretese di Theodoraci, abate del monastero di S.
+                            Pietro di Benevento, il quale pretendeva la proprietà della chiesa di S.
+                            Pietro di Quintodecimo, a suo dire offerta al monastero beneventano al
+                            tempo della duchessa Theudorada, che invece apparteneva a S. Maria,
+                            essendo stata offerta dalla duchessa soltanto <foreign>per
+                                calciaria</foreign>, cfr. CSS, III, 3, pp. 483-486.</note>
+                        <link type="places" corresp="#places/2304" subtype="isWithin"/>
                     </org>
                     <org>
                         <orgName><foreign>Sanctus Gregorius</foreign>; <foreign>ecclesia</foreign>
                             (Benevento)</orgName>
                         <orgName type="other"/>
                         <idno>juridical_persons/3445</idno>
-                        <note><foreign>Ecclesia Beati Gregorii (…) quem Felicita ancella Dei a
-                                fundamentis edificavit</foreign> (CSS, I, 4, P. 340).</note>
+                        <note>La chiesa, edificata e offerta dalla monaca Felicita al Palazzo, fu
+                            esentata dalla giurisdizione vescovile e tale esenzione è confermata tra
+                            il 751 e il 756 dai duchi Scauniperga e Liutprando (CSS, III,10, pp.
+                            496-497), per essere infine offerta da Arechi II al monastero di S.
+                            Sofia di Benevento (CSS, I, 4, p. 340).</note>
+                        <link type="places" corresp="#places/110" subtype="link"/>
+                        <link type="people" corresp="#people/303" subtype="isGrantedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/85"
+                            subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/2002" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/374" subtype="isConfirmedBy"/>
                     </org>
                     <org>
                         <orgName><foreign>Sanctus Martinus in Prata</foreign>;
@@ -5985,13 +6102,16 @@
                         <idno>juridical_persons/3446</idno>
                         <note>Potrebbe forse identicìficarsi con S. Martino in Pensilis
                             (Campobasso), cfr. CSS, p. 544 nt. 3.</note>
+                        <link type="places" corresp="#places/3458" subtype="correspondsTo"/>
                     </org>
                     <org>
                         <orgName><foreign>Sanctus Quiricus</foreign>; cappella di Palazzo
                             (Benevento)</orgName>
-                        <orgName type="other"><foreign>S. Cyricus</foreign></orgName>
+                        <orgName type="other"><foreign>S. Cyricus</foreign>; <foreign>S.
+                                Ciricus</foreign></orgName>
                         <idno>juridical_persons/3447</idno>
                         <note/>
+                        <link type="places" corresp="#places/110" subtype="isWithin"/>
                     </org>
                     <org>
                         <orgName><foreign>Sanctus Nazarius</foreign>; <foreign>ecclesia</foreign>
@@ -5999,6 +6119,7 @@
                         <orgName type="other"/>
                         <idno>juridical_persons/3448</idno>
                         <note/>
+                        <link type="places" corresp="#places/3444" subtype="proximity"/>
                     </org>
                     <org>
                         <orgName><foreign>Sanctus Angelus ad Cerros</foreign>;
@@ -6012,6 +6133,7 @@
                                 pertinentia</foreign>, e cioè dai limiti esterni dei possessi di S.
                             Angelo <foreign>ad Cerros</foreign>, che può stare in zona, ma non in
                             assoluta prossimità di Monte Tairano, cfr. Cielo 2006, p. 40.</note>
+                        <link type="places" corresp="#places/3437" subtype="proximity"/>
                     </org>
                     <org>
                         <orgName><foreign>Sanctus Marcianus de Tabernole</foreign>;
@@ -6042,6 +6164,68 @@
                         <idno>juridical_persons/3452</idno>
                         <note/>
                     </org>
+                    <org>
+                        <orgName>Sancta Eufemia de Siponto; ecclesia (Manfredonia; Foggia)</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/3453</idno>
+                        <note>La chiesa non esiste più: la città di Siponto fu scossa da un violento
+                            terremoto nel 1223 e un altro terremoto la ridusse in rovine nel
+                            1255.</note>
+                        <link type="places" corresp="#places/2836" subtype="isWithin"/>
+                        <link type="people" corresp="#people/303" subtype="isGrantedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/85"
+                            subtype="isOwnedBy"/>
+                    </org>
+                    <org>
+                        <orgName>Sancti Nicandrus et Felix de Bubata; ecclesia (Manfredonia;
+                            Foggia)</orgName>
+                        <orgName type="other"><foreign>in actus Sipontino</foreign></orgName>
+                        <idno>juridical_persons/3454</idno>
+                        <note>La chiesa si trovava a <foreign>Bubata</foreign>,
+                                nell'<foreign>actus</foreign> di Siponto, cfr. CSS, I, 7, pp.
+                            346-347.</note>
+                        <link type="places" corresp="#places/2836" subtype="isWithin"/>
+                        <link type="people" corresp="#people/303" subtype="isGrantedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/85"
+                            subtype="isOwnedBy"/>
+                    </org>
+                    <org>
+                        <orgName>Sanctus Adiutor <foreign>ad Anzanum</foreign>; ecclesia (Ceppaloni;
+                            Benevento)</orgName>
+                        <orgName type="other"><foreign>in finibus Collina</foreign></orgName>
+                        <idno>juridical_persons/3455</idno>
+                        <note><foreign>Collina</foreign> era probabilmente situata nel territorio di
+                            Ceppaloni, cfr. CSS, I, 9, p. 351 nt. 5.</note>
+                        <link type="places" corresp="#places/3451" subtype="proximity"/>
+                        <link type="people" corresp="#people/303" subtype="isGrantedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/85"
+                            subtype="isOwnedBy"/>
+                    </org>
+                    <org>
+                        <orgName>Sanctus Petrus; ecclesia (Manfredonia; Foggia)</orgName>
+                        <orgName type="other"><foreign>in actus Sipontino</foreign></orgName>
+                        <idno>juridical_persons/3456</idno>
+                        <note>La chiesa era sita  nell'<foreign>actus</foreign> di Siponto nei
+                            pressi della località <foreign>Bubata</foreign>, sul Cervaro, vicino
+                            alla strada di S. Palumba e del <foreign>casale Buccellati</foreign>,
+                            cfr. CSS, I, 34, pp. 393-395.</note>
+                    </org>
+                    <org>
+                        <orgName>Sanctus Stephanus <foreign>in vico de Martino</foreign>;
+                            ecclesia</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/3457</idno>
+                        <note>Chiesa non identificata, concessa dal principe Pandolfo II al
+                            monastero di S. Sofia di Benevento fino a quando il monastero di S.
+                            Vincenzo al Volturno non avesse restituito all'abbazia beneventana i
+                            beni di cui si era appropriato nel principato di Capua, cfr. CSS, VI,
+                            27, pp. 754-757.</note>
+                        <link type="juridical_persons" corresp="#juridical_persons/1900"
+                            subtype="dependsOn"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/85"
+                            subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/2486" subtype="isGrantedBy"/>
+                    </org>
                 </listOrg>
                 <listOrg n="Motta Loris">
                     <org>
@@ -6058,6 +6242,24 @@
                         <link type="people" corresp="#people/172" subtype="link"/>
                         <link type="people" corresp="#people/1306" subtype="link"/>
                         <link type="places" corresp="#places/1614" subtype="link"/>
+                    </org>
+                </listOrg>
+                <listOrg n="Redeghieri Alessio">
+                    <org>
+                        <orgName>XXX</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/2900</idno>
+                        <note/>
+                    </org>
+                </listOrg>
+                <listOrg n="Ribani Filippo">
+                    <org>
+                        <orgName>Sanctus Laurentius; plebs (Genivolta; Cremona)</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/3500</idno>
+                        <note/>
+                        <link type="people" corresp="#people/110" subtype="link"/>
+                        <link type="people" corresp="#people/3909" subtype="isHeldBy"/>
                     </org>
                 </listOrg>
                 <listOrg n="Rivera Magos Victor">
@@ -6263,7 +6465,7 @@
                     <org>
                         <orgName>Sancta Maria; capitulum canonicorum cathedralis (Reggio
                             Emilia)</orgName>
-                        <orgName type="other"/>
+                        <orgName type="other">Sancta Maria et Sanctus Michael</orgName>
                         <idno>juridical_persons/1418</idno>
                         <note/>
                         <link type="people" corresp="#people/21" subtype="link"/>
@@ -6333,7 +6535,7 @@
                         <idno>juridical_persons/1425</idno>
                         <note/>
                         <link type="places" corresp="#places/9" subtype="isWithin"/>
-                        <link type="people" corresp="#people/2136" subtype="isOwnedBy"/>
+                        <link type="people" corresp="#people/2136" subtype="isGrantedBy"/>
                     </org>
                     <org>
                         <orgName>Sanctus Petrus; episcopium (Mantova)</orgName>
@@ -6613,16 +6815,22 @@
                         <link type="places" corresp="#places/2721" subtype="isWithin"/>
                     </org>
                     <org>
-                        <orgName>Sancta Restituta; <foreign>cella</foreign>/<foreign>plebs</foreign>
-                            (Tarquinia; Viterbo)</orgName>
-                        <orgName type="other"/>
+                        <orgName>Sancta Restituta; <foreign>plebs</foreign> (Tarquinia;
+                            Viterbo)</orgName>
+                        <orgName type="other">Anche attestata come
+                            <foreign>cella</foreign>.</orgName>
                         <idno>juridical_persons/1452</idno>
-                        <note/>
-                        <link type="people" corresp="#people/130" subtype="link"/>
+                        <note>Oggetto di scavo a partire dal 1999; cf. Casocavallo e Maggiore
+                            2013.</note>
+                        <link type="people" corresp="#people/130" subtype="isConfirmedBy"/>
                         <link type="juridical_persons" corresp="#juridical_persons/301"
-                            subtype="link"/>
-                        <link type="people" corresp="#people/261" subtype="link"/>
+                            subtype="isHeldBy"/>
+                        <link type="people" corresp="#people/261" subtype="isConfirmedBy"/>
                         <link type="places" corresp="#places/430" subtype="bordersOn"/>
+                        <link type="people" corresp="#people/118" subtype="isGrantedBy"/>
+                        <link type="places" corresp="#places/1946" subtype="correspondsTo"/>
+                        <link type="people" corresp="#people/252" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/9" subtype="isConfirmedBy"/>
                     </org>
                     <org>
                         <orgName>de Valeriano; abbatia</orgName>
@@ -6635,34 +6843,50 @@
                         <link type="estates" corresp="#estates/2327" subtype="isWithin"/>
                     </org>
                     <org>
-                        <orgName>Sanctus Savinus; <foreign>cella</foreign>
-                            (Tarquinia; Viterbo)</orgName>
+                        <orgName>Sanctus Savinus; cella (Tarquinia; Viterbo)</orgName>
                         <orgName type="other"/>
                         <idno>juridical_persons/1454</idno>
-                        <note/>
-                        <link type="people" corresp="#people/130" subtype="link"/>
+                        <note>Sulla chiesa di Santa Restituta, in località San Savino, cf. la pagina
+                            https://web.uniroma1.it/cencelle/cencelle/il-territorio-0/il-complesso-di-santa-restituta</note>
+                        <link type="people" corresp="#people/130" subtype="isConfirmedBy"/>
                         <link type="juridical_persons" corresp="#juridical_persons/301"
-                            subtype="link"/>
-                        <link type="people" corresp="#people/261" subtype="link"/>
-                        <link type="people" corresp="#people/130" subtype="link"/>
+                            subtype="isHeldBy"/>
+                        <link type="people" corresp="#people/261" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/130" subtype="isConfirmedBy"/>
                         <link type="places" corresp="#places/430" subtype="bordersOn"/>
+                        <link type="people" corresp="#people/118" subtype="isGrantedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/301"
+                            subtype="isGrantedTo"/>
+                        <link type="places" corresp="#places/1947" subtype="correspondsTo"/>
+                        <link type="people" corresp="#people/9" subtype="isConfirmedBy"/>
                     </org>
                     <org>
-                        <orgName>Sanctus Stephanus; <foreign>cella</foreign>
-                            (Tarquinia; Viterbo)</orgName>
+                        <orgName>Sanctus Stephanus; cella (Tarquinia; Viterbo)</orgName>
                         <orgName type="other"/>
                         <idno>juridical_persons/1455</idno>
-                        <note/>
-                        <link type="people" corresp="#people/130" subtype="link"/>
+                        <note>Secondo Kurze (CDA III/2, p. 346), l'elenco delle proprietà nei
+                            diplomi indirizzati a S. Salvatore non permette di chiarire se abbiamo a
+                            che fare con una sola <foreign>cella</foreign>, contemporaneamente
+                            intitolata a S. Savino, S. Restituta, S. Pietro e S. Stefano, oppure con
+                            più <foreign>cellae</foreign>. Nel diploma di Ludovico il Pio (cf.
+                            doc859) si utilizza prima il singolare 'cellulam', poi, però, si parla
+                            di 'pertinentia earum'. Sarei incline a considerarle come enti
+                            diversi.</note>
+                        <link type="people" corresp="#people/130" subtype="isConfirmedBy"/>
                         <link type="juridical_persons" corresp="#juridical_persons/301"
-                            subtype="link"/>
-                        <link type="people" corresp="#people/110" subtype="link"/>
-                        <link type="people" corresp="#people/21" subtype="link"/>
-                        <link type="people" corresp="#people/79" subtype="link"/>
-                        <link type="people" corresp="#people/173" subtype="link"/>
-                        <link type="people" corresp="#people/130" subtype="link"/>
-                        <link type="people" corresp="#people/261" subtype="link"/>
+                            subtype="isHeldBy"/>
+                        <link type="people" corresp="#people/110" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/21" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/79" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/173" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/130" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/261" subtype="isConfirmedBy"/>
                         <link type="places" corresp="#places/430" subtype="bordersOn"/>
+                        <link type="people" corresp="#people/118" subtype="isGrantedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/301"
+                            subtype="isGrantedTo"/>
+                        <link type="places" corresp="#places/1948" subtype="correspondsTo"/>
+                        <link type="people" corresp="#people/9" subtype="isConfirmedBy"/>
                     </org>
                     <org>
                         <orgName>Sanctus Petrus; <foreign>cella</foreign>
@@ -6670,11 +6894,17 @@
                         <orgName type="other"/>
                         <idno>juridical_persons/1456</idno>
                         <note/>
-                        <link type="people" corresp="#people/130" subtype="link"/>
+                        <link type="people" corresp="#people/130" subtype="isConfirmedBy"/>
                         <link type="juridical_persons" corresp="#juridical_persons/301"
-                            subtype="link"/>
-                        <link type="people" corresp="#people/261" subtype="link"/>
+                            subtype="isHeldBy"/>
+                        <link type="people" corresp="#people/261" subtype="isConfirmedBy"/>
                         <link type="places" corresp="#places/430" subtype="bordersOn"/>
+                        <link type="people" corresp="#people/118" subtype="isGrantedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/301"
+                            subtype="isGrantedTo"/>
+                        <link type="places" corresp="#places/1945" subtype="correspondsTo"/>
+                        <link type="people" corresp="#people/252" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/9" subtype="isConfirmedBy"/>
                     </org>
                     <org>
                         <orgName>Sanctus Mamas; <foreign>capella</foreign>
@@ -6808,21 +7038,26 @@
                         <link type="people" corresp="#people/79" subtype="link"/>
                     </org>
                     <org>
-                        <orgName>Sanctus Cesareus; ecclesia et capitolum canonicorum (San Cesario
-                            sul Panaro; Modena)</orgName>
+                        <orgName>Sanctus Cesareus; ecclesia (San Cesario sul Panaro;
+                            Modena)</orgName>
                         <orgName type="other"/>
                         <idno>juridical_persons/1469</idno>
-                        <note/>
-                        <link type="places" corresp="#places/269" subtype="isWithin"/>
+                        <note>Matilde vi insediò una comunità canonicale, attestata a partire dal
+                            1110 (CDP I n. 76, pp. 240-246 = doc5077). Nel 1145 papa Eugenio III
+                            affidò la chiesa, donata da Matilde alla Santa Sede, al monastero di
+                            Polirone e contestualmente dispose che la cominità canonicale vi fosse
+                            sostituita da una monastica (CDP II n. 53, pp. 104-106 =
+                            doc5174).</note>
+                        <link type="places" corresp="#places/269" subtype="correspondsTo"/>
                         <link type="juridical_persons" corresp="#juridical_persons/47"
                             subtype="link"/>
                         <link type="people" corresp="#people/72" subtype="link"/>
                         <link type="people" corresp="#people/79" subtype="link"/>
                         <link type="people" corresp="#people/233" subtype="link"/>
                         <link type="people" corresp="#people/92" subtype="link"/>
-                        <link type="estates" corresp="#estates/155" subtype="dependsOn"/>
                         <link type="people" corresp="#people/51" subtype="isGrantedBy"/>
                         <link type="people" corresp="#people/3578" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/125" subtype="isGrantedBy"/>
                     </org>
                     <org>
                         <orgName>Celavinnium; <foreign>plebs</foreign>
@@ -7103,6 +7338,46 @@
                         <note/>
                         <link type="places" corresp="#places/2752" subtype="isWithin"/>
                     </org>
+                    <org>
+                        <orgName>Sanctus Petrus in Margarita; ecclesia (Tarquinia;
+                            Viterbo)</orgName>
+                        <orgName type="other"><foreign>Garmarita</foreign>,
+                                <foreign>Carmarita</foreign>, <foreign>Gurmarita</foreign></orgName>
+                        <idno>juridical_persons/1511</idno>
+                        <note>Cf. Passeri 1993, <foreign>ad indicem</foreign>; Marrocchi 2014,
+                                <foreign>ad indicem</foreign>.</note>
+                        <link type="places" corresp="#places/430" subtype="proximity"/>
+                        <link type="places" corresp="#places/1944" subtype="correspondsTo"/>
+                        <link type="people" corresp="#people/252" subtype="isConfirmedBy"/>
+                    </org>
+                    <org>
+                        <orgName>Sanctus Benedictus; ecclesia (Castell'Azzara; Grosseto)</orgName>
+                        <orgName type="other">Attestata anche come
+                            <foreign>cella</foreign></orgName>
+                        <idno>juridical_persons/1512</idno>
+                        <note>Sull'identificazione della chiesa cf. CDA III/2, pp. 329-330. Si
+                            trovava ai piedi dell'attuale Monte Boceno, 5 km a nord-est di
+                            Castell'Azzara (ibid., p. 248).</note>
+                        <link type="people" corresp="#people/252" subtype="isConfirmedBy"/>
+                        <link type="places" corresp="#places/1949" subtype="correspondsTo"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/301"
+                            subtype="isGrantedTo"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/301"
+                            subtype="isHeldBy"/>
+                    </org>
+                    <org>
+                        <orgName>Sanctus Severus; cella (<foreign>Paterno</foreign>; Latera;
+                            Viterbo)</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/1513</idno>
+                        <note/>
+                        <link type="people" corresp="#people/9" subtype="isGrantedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/301"
+                            subtype="isHeldBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/301"
+                            subtype="isGrantedTo"/>
+                        <link type="places" corresp="#places/1950" subtype="correspondsTo"/>
+                    </org>
                 </listOrg>
                 <listOrg n="Tagliente Antonio">
                     <org>
@@ -7254,9 +7529,10 @@
                 <listOrg n="Viti Mattia">
                     <org>
                         <orgName>Sanctus Alexander; ecclesia (Lucca)</orgName>
-                        <orgName type="other"/>
+                        <orgName type="other">Sant'Alessandro Maggiore</orgName>
                         <idno>juridical_persons/3300</idno>
-                        <note/>
+                        <note>La prima notizia della chiesa risale all'anno 893 ma potrebbe essere
+                            assai precedente, vd. Belli Barsali 1973, p. 537, n. 48.</note>
                         <link type="places" corresp="#places/4" subtype="isWithin"/>
                         <link type="juridical_persons" corresp="#juridical_persons/305"
                             subtype="link"/>
@@ -7372,6 +7648,14 @@
                         <link type="juridical_persons" corresp="#juridical_persons/3311"
                             subtype="dependsOn"/>
                     </org>
+                    <org>
+                        <orgName>Sanctus Salvator in Muro; ecclesia (Lucca)</orgName>
+                        <orgName type="other">ecclesia Domini et Salvatoris</orgName>
+                        <idno>juridical_persons/3315</idno>
+                        <note>Costruita a nord esternamente alla cinta muraria di Lucca, vd. Belli
+                            Barsali 1973, p. 536, n. 43.</note>
+                        <link type="places" corresp="#places/4" subtype="isWithin"/>
+                    </org>
                 </listOrg>
                 <listOrg n="Zornetta Giulia">
                     <org>
@@ -7459,6 +7743,9 @@
                         <link type="people" corresp="#people/1939" subtype="isConfirmedTo"/>
                         <link type="people" corresp="#people/300" subtype="isConfirmedBy"/>
                         <link type="people" corresp="#people/305" subtype="link"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/85"
+                            subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/2486" subtype="isGrantedBy"/>
                     </org>
                     <org>
                         <orgName>Sanctus Medicus <foreign>in loco Forano</foreign>;
@@ -7726,6 +8013,9 @@
                             subtype="dependsOn"/>
                         <link type="people" corresp="#people/1954" subtype="isGrantedBy"/>
                         <link type="people" corresp="#people/1955" subtype="isGrantedTo"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/85"
+                            subtype="isOwnedBy"/>
+                        <link type="people" corresp="#people/303" subtype="isGrantedBy"/>
                     </org>
                     <org>
                         <orgName>Sanctus Martinus <foreign>in monte Marsico</foreign>; monasterium
@@ -7789,7 +8079,8 @@
                     </org>
                     <org>
                         <orgName>Sanctus Petrus; monasterium (Benevento)</orgName>
-                        <orgName type="other">San Pietro sul fiume Sabato</orgName>
+                        <orgName type="other">San Pietro sul fiume Sabato; San Pietro
+                            Maggiore</orgName>
                         <idno>juridical_persons/1922</idno>
                         <note/>
                         <link type="places" corresp="#places/110" subtype="isWithin"/>
@@ -7830,6 +8121,9 @@
                             subtype="dependsOn"/>
                         <link type="people" corresp="#people/1974" subtype="isConfirmedBy"/>
                         <link type="people" corresp="#people/1975" subtype="isConfirmedTo"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/85"
+                            subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/2486" subtype="isGrantedBy"/>
                     </org>
                     <org>
                         <orgName>Sanctus Stephanus de Loco Sano; cella (Avellino)</orgName>
@@ -9156,6 +9450,14 @@
                         <link type="places" corresp="#places/2836" subtype="isWithin"/>
                         <link type="people" corresp="#people/157" subtype="isConfirmedBy"/>
                         <link type="people" corresp="#people/167" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/2004" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/158" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/14" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/110" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/136" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/173" subtype="isConfirmedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1913"
+                            subtype="isConfirmedTo"/>
                     </org>
                     <org>
                         <orgName>Sancta Maria; episcopium (Segni; Roma)</orgName>
