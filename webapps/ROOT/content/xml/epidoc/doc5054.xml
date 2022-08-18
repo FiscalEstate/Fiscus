@@ -33,7 +33,7 @@
                             <rs type="text_type" ref="#">-Littera/mandatum</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Copy</rs>
-                            <rs type="fiscal_property">No</rs>
+                            <rs type="fiscal_property"/>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -41,7 +41,7 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate notBefore="1098-01-01" notAfter="1099-12-31">
+                            <origDate notBefore="1098" notAfter="1099">
                                 <note type="displayed_date">(1098-1099)</note>
                                 <note type="dating_elements"/>
                                 <note type="topical_date"/>
@@ -84,40 +84,41 @@
                 <div type="textpart">
                     <ab><persName key="#Popes #Bishops" ref="#people/2170">Urbanus</persName>
                         <rs key="#Bishops">episcopus</rs>
-                        <rs key="#Popes">servus servorum Dei</rs> inclitae <persName key="#childOf"
-                            ref="#people/125">M[athildi</persName>] unicae beati Petri filiae,
-                        salutem et apostolicam benedictionem. Conquaestus est filius noster <rs
-                            key="#Monasteries">coenobi</rs>
-                        <orgName key="#Monasteries #Abbots" ref="#juridical_persons/2001">Sancti
+                        <rs key="#Popes">servus servorum Dei</rs> inclitae <persName
+                            key="#childOf #Marquis’/ducal/princely_diploma" ref="#people/125"
+                            >M[athildi</persName>] unicae beati Petri filiae, salutem et apostolicam
+                        benedictionem. Conquaestus est filius noster <rs key="#Monasteries"
+                            >coenobi</rs>
+                        <orgName key="#Monasteries #Abbots #Commutatio" ref="#juridical_persons/2001">Sancti
                             Benedicti</orgName>
                         <rs key="#Abbots">abbas</rs> super quadam <rs key="#Churches">ecclesia</rs>
                         <orgName key="#Churches #Other_clerics" ref="#juridical_persons/2058">Sancti
                             Floriani</orgName> a beatae memoriae <rs key="#parentOf">patre</rs> tuo
-                            <persName key="#parentOf" ref="#people/1">B[onifacio</persName>] in
+                        <persName key="#parentOf #Churches" ref="#people/1">B[onifacio</persName>] in
                         praedio eiusdem monasterii fundata, et a religione tua iamdicto coenobio
                         postea reddita. Quam cum monasterium illud quiete tenuisse, et a <rs
                             key="#Other_clerics">cappellanis</rs> suis eam regi, utpote, quod suum
                         erat, sine molestia, et alicuius controversia administrari fecisset, facta
                             <rs key="#Commutatio">commutatione</rs> inter <placeName key="#Bishops"
                             ref="#places/275">Mantuanum</placeName> episcopum, et monasterium, de
-                        monasteriis episcopatus, et de ecclesiis abbaciae, sicut bene novit
-                        prudentia tua; cumque postea id destructum fuisset, utrisque partibus, quod
-                        proprium erat recipientibus, hanc solam ecclesiam, de qua fit quaerimonia,
-                        episcopus sibi retinuit, eamque monasterio reddere noluit. Quando etiam
-                        monasterium illud, ecclesie <orgName ref="#juridical_persons/1100">Sancti
-                            Petri</orgName>, cui, licet indigni, praesidemus, <rs
-                            key="#Marquis’/ducal/princely_diploma">concessione</rs> tua traditum
-                        est, abbatis cappellanus populum illius terrae regebat, baptisma celebrabat,
-                        et quicquid ad animarum curam pertinet permissione Mantuanorum episcoporum
-                        ibi regebat. Volumus itaque, et praecipimus, ut monasterium nostrum, quod
-                        suum erat, quodque iure tenebat, ex integro recipiat, nullamque bonorum
-                        suorum diminutionem ullo modo de his, quae tenebat, patiatur, ut si sub
-                        ditione nostra enim, ut volumus, crevit, imminutionem nullo modo de his quae
-                        tenebat patiatur. Oportet igitur, ut in praesentia <placeName key="#Bishops"
-                            ref="#places/191">Regiensis</placeName> episcopi, et aliorum prudentium
-                        virorum, Mantuanum episcopum conveniens, eique praecipias, ut ea, quae
-                        monasterii fuerunt, sibi restituat, et illa in pace ipsum possidere
-                        permittat.</ab>
+                        monasteriis <orgName key="#Bishops #Commutatio" ref="#juridical_persons/1426">episcopatus</orgName>, et
+                        de ecclesiis abbaciae, sicut bene novit prudentia tua; cumque postea id
+                        destructum fuisset, utrisque partibus, quod proprium erat recipientibus,
+                        hanc solam ecclesiam, de qua fit quaerimonia, episcopus sibi retinuit,
+                        eamque monasterio reddere noluit. Quando etiam monasterium illud, ecclesie
+                            <orgName ref="#juridical_persons/1100">Sancti Petri</orgName>, cui,
+                        licet indigni, praesidemus, <rs key="#Marquis’/ducal/princely_diploma"
+                            >concessione</rs> tua traditum est, abbatis cappellanus populum illius
+                        terrae regebat, baptisma celebrabat, et quicquid ad animarum curam pertinet
+                        permissione Mantuanorum episcoporum ibi regebat. Volumus itaque, et
+                        praecipimus, ut monasterium nostrum, quod suum erat, quodque iure tenebat,
+                        ex integro recipiat, nullamque bonorum suorum diminutionem ullo modo de his,
+                        quae tenebat, patiatur, ut si sub ditione nostra enim, ut volumus, crevit,
+                        imminutionem nullo modo de his quae tenebat patiatur. Oportet igitur, ut in
+                        praesentia <placeName key="#Bishops" ref="#places/191">Regiensis</placeName>
+                        episcopi, et aliorum prudentium virorum, Mantuanum episcopum conveniens,
+                        eique praecipias, ut ea, quae monasterii fuerunt, sibi restituat, et illa in
+                        pace ipsum possidere permittat.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
@@ -130,7 +131,21 @@
                 <p/>
             </div>
             <div type="commentary">
-                <p/>
+                <p>Il documento in questione costituisce la prima menzione della chiesa polironiana
+                    di San Floriano e solo da questo documento apprendiamo la sua fondazione per
+                    iniziativa di Bonifacio e la sua donazione al cenobio ‘di famiglia’ da parte di
+                    Matilde. E questo documento è noto grazie all’edizione che ne offre il
+                        <foreign>Bullarium Casinense</foreign> del Margarini, un’edizione che non
+                    riporta alcuna data. L’editore del testo qui riportato, Paolo Golinelli, ritiene
+                    che il vescovo reggiano citato sia Bonseniore, coinvolto nelle faccende di San
+                    Floriano a titolo di vicario papale e propone quindi di collocare questa
+                        <foreign>littera</foreign> di Urbano II verso gli ultimi anni del suo
+                    pontificato. Sempre secondo Golinelli, il vescovo mantovano a cui il papa ordina
+                    di restituire la chiesa a Polirone sarebbe Conone, di parte imperiale. Una bolla
+                    di Pasquale II del 1105 (CDP I n. 61, pp. 207-211 = doc5062) qualifica la chiesa
+                    di San Floriano come <foreign>plebs</foreign>: nel documento in questione non
+                    c’è traccia che la chiesa abbia lo <foreign>status</foreign> plebano. </p>
+                <p>Cfr. MGH DD Mat. Dep.n. 63, p. 432.</p>
             </div>
         </body>
     </text>
