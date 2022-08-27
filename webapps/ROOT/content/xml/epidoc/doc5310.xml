@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Cremona, Archivio di Stato, Pergamene, n. 1</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2022">2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DiSCi UniBo</publisher>
+                <idno type="filename">5310</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+                </availability>
+                <date when="2022"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property">Yes</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0882-02-15">
+                                <note type="displayed_date">882 February 15</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Ravenna</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace>La pergamena è stata recentemente collocata tra le pergamene
+                                del Capitolo cattedrale, in realtà appartiene all'archivio
+                                vescovile; secondo quanto scritto nell'introduzione alla citata
+                                edizione MGH il diploma venne in possesso della famiglia Albertoni e
+                                fu quindi restituita dal conte Muzio Luigi Albertoni all'Archivio
+                                Capitolare di Cremona.</origPlace>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-08-27" who="fribani">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>Privilegium de libertate ecclesiarum IN NOMINE SANCTE ET INDIVIDUE
+                        TRINITATIS. <persName ref="#people/32" key="#Emperor/king"
+                            >KAROLUS</persName> DIVINA FAVEN|te clementia <rs key="#Emperor/king"
+                            >imperator</rs> augustus. Si petitionibus sacerdotum iustis et
+                        rationabilibus anui|mus et necessitudines iniustas sublevamus, id nobis
+                        procul dubio ad eternam bea|titudinem capescendam pertinere confidimus. Quia
+                        decet imperiale fastigium sibi subditas par|tes opressas pravitate abiecta
+                        exigendo et ad p(ropri)um Deo favente statum redintegran|do perducere.
+                        Quapropter omnium fidelium Sancte Dei Ęcclesie nostrorumque presentium
+                        scilicet et futu|rorum comperiat industria, quia venientibus nobis
+                            <placeName ref="#places/594">Ravennam</placeName> ad colloquium
+                        spiritalis pa|tris nostri domni <persName ref="#people/350" key="#Popes"
+                            >Iohannis,</persName> videlicet summi <rs key="#Popes">Romani pontificis
+                            et universalis pape</rs>, pervenit | ad nostram noticiam maxime
+                        venerabilium <rs key="#Bishops">episcoporum</rs> et populi proclamatio de
+                        plurimis sibi | illatis superstitionibus et iniustis <rs
+                            key="#Extortions_by_officers">oppressionibus a seculari et publica
+                            potestate</rs>, ita ut | contempto timore Dei et abiectis a
+                        predecessoribus nostris interdictis per <rs key="#Churches">plebes et
+                            ęcclesias </rs>seu ecclesia|stica predia et domos <rs
+                            key="#Placitum/iudicatum #Assembly">placita</rs> teneant, districtiones
+                        in <rs key="#Freeborn">liberos</rs>, <rs key="#Manentes">massarias super
+                            eclesiasti|cas res residentes</rs> et <rs key="#Slave">servos </rs>et
+                            <rs key="#Aldius">aldionos</rs> faciant, <rs key="#Public_exactions"
+                            >tributa</rs> ab eis exigant, <rs key="#Census">census</rs> et <rs
+                            key="#Exenia">do|naria,</rs>
+                        <rs key="#Angaria">angarias</rs> etiam et <rs key="#Operae">operes</rs> et
+                        non solum ab eis, set ab omnibus liberis <rs key="#Arimannus">erimannis</rs>
+                        et Ęcclesie fi|liis, quod Deo odibile certissime credimus, quia tales
+                        violentias aput Christianos non de|bere fieri non dubitamus. Ideoque omnium
+                        nostrorum fidelium tam reverentissimorum episcoporum quam|que et illustrium
+                            <rs key="#Count">comitum</rs> reliquorum fidelium nostrorum coetu freti
+                            <rs key="#Assembly">conscilio generali</rs> Dei no|straque imperiali
+                        auctoritate omnes has superstitiones et importunas violentias funditus | ab
+                        hodierna die et deinceps abolendas et extirpandas radicitus modis omnibus
+                        de|cernimus, statuentes ut in <orgName ref="#juridical_persons/224"
+                            key="#Churches">Sancta Cremonensi Ęcclesia</orgName> nullus comes
+                        nullusque <rs key="#Judge">iudex |</rs> vel quelibet iudiciarie potestatis
+                        persona tam in plebibus quamque in <rs key="#Monasteries">monasteriis,</rs>
+                        titu|lis, aliisque ęcclesiis vel <rs key="#Houses">domibus seu urbanis vel
+                            rusticis</rs> possessionibus ad eandem pertinen|tibus placita tenere,
+                        massarios et colonos, liberos, aldiones vel servos quosque residen|tes super
+                        res ad predictam Sanctam Ęcclesiam pertinentes quolibet modo <rs
+                            key="#Immunity">distringere, pignerare, | angariare, census et
+                            redibitiones et donaria  aliqua exigere quoquo modo presu|mat</rs>, set
+                        liberos massarios quos legalis choactio exigit querere ad placitum per <rs
+                            key="#Patronatus">patro|num</rs> seu <rs key="#Advocatus">advocatum</rs>
+                        ad placita ducantur, ut legalis diffinitio legali contentioni finem |
+                        inponat. Haec etiam in omnibus liberis et erimannis prefate Sanctę
+                        Cremonensi Ęcclesie filiis et in | eiusdem <rs key="#Dioecesis">diocesi</rs>
+                        co(m)manentibus massariis et colonis observari omnimodis iubemus, |
+                        videlicet ut ab eis nec donaria aut redibitiones neque pignorationes vel
+                        iniuste distr|ictiones exigantur, set unusquisque, cum legalis censura
+                        exigit, a patrono suo ad placitum | deducatur, ne pignorationes occasio
+                        aditum rapine de predatoribus in aliquo prestet. | Interdicimus etiam nemini
+                        licere alienas res presumptive invadere occasione cartule | ab eo facte (w)
+                        que vestituram legitimam non habuisse dinoscitur, set, si quis adquisitor |
+                        extiterit, non ante invadere alienas res Ecclesię vel cuiuspiam liberi
+                        homines pervadere presumat, | ante quam auctor cartole legali et iudiciaria
+                        diffinitione eas vindicet et tunc de|mum cui vult liberam atribuendi habeat
+                        facultatem. Hęc vero nostra inperialis insti|tutio et tantorum (x) fidelium
+                        nostrorum tam reverentissimorum episcoporum quamque et ceterorum fide|lium
+                        generaliter promulgata et sancita auctoritas in omnibus parroechiis,
+                        comita|tibus et marchis per tocius nostri Imperii fines in toto regno
+                        Romanorum et Longobar|dorum et ducatus Italie, Spoleti et Tuscie, ut Deo
+                        favente per infinita tempora proprium | robur obtineat nullique temeratori
+                        (y) inpune eam contempnere facultas existat. Quam | si quis violare
+                        presumpserit, centum libras auri se compositurum agnoscat, medietatem |
+                        Ecclesie cui violentiam intulerit et medietatem palacio nostro. Et ut hęc
+                        nostrę auctori|tatis preceptum firmius habeatur veriusque credatur, propria
+                        manu firmavimus et anu|lo nostro iussimus insigniri. SIGNUM KAROLI (M)
+                        IMPERATORIS AUGUSTI. INQUIRINUS NOTARIUS AD VICEM LIUTUARDI ARCHICANGELARII
+                        RECOGNOVI. Data XV kalendas marcii, anno incarnationis Domini DCCCLXXXII,
+                        indictione XV, anno ve|ro imperii domni (z) Karoli secundo. Actum Ravennam
+                        civitas (aa), in Dei nomine, feliciter, AMEN.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>Codex Sicardi; HPM 13, col. 521, n. CCCIX; MGH DD Ka III, p. 85, n. 51; Manaresi,
+                    I, p. 441, n. 120; Falconi, Carte cremonesi,  I, p. 66, n. 25.</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p>https://www.lombardiabeniculturali.it/cdlm/edizioni/cr/cremona-sicardo/carte/vescovosicardo0882-02-15B</p>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
