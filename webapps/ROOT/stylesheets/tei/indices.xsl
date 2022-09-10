@@ -153,9 +153,9 @@
               openPopupById(window.location.href.substring(window.location.href.lastIndexOf("#") +1));
 
               <!--var sliderControl = L.control.sliderControl({layer: L.layerGroup(markers)});
-        mymap.addControl(sliderControl);
-        sliderControl.startSlider();-->
-              <!-- to be fixed: what to put in $year; how to display date ranges; how to use legend filters (best to change approach and use separate arrays of places based on periods? Cf. https://github.com/svitkin/leaflet-timeline-slider) -->
+              mymap.addControl(sliderControl);
+              sliderControl.startSlider();-->
+            <!-- https://github.com/dwilhelm89/LeafletSlider; to be fixed: what to put in $year; how to display date RANGES; how to use legend filters (best to change approach and use separate arrays of places based on periods? Cf. https://github.com/svitkin/leaflet-timeline-slider) -->
             </script>
         </div>
         </xsl:if>
