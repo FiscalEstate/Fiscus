@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Salerno, Archivio Storico Diocesano, Arca I, n. 1 (ed. Giordano, <foreign>Le
+                        pergamene</foreign>, n. 1)</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc5500</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property">Yes</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0841-08">
+                                <note type="displayed_date">841 August</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Salerno</note>
+                                <note type="redaction_date">Copia autentica del XII secolo (1179
+                                    May)</note>
+                            </origDate>
+                            <origPlace></origPlace>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-09-05" who="pmassa">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine domini Dei salvatoris Iesu Christi. Nos domnus <rs
+                            key="#Vir_gloriosus/vir_sublimis">vir gloriosissimus</rs>
+                        <persName key="#Princeps" ref="#people/351">Sicenolfus</persName> Dei
+                        providentia Longobardorum gentis <rs key="#Princeps">princeps</rs>, pro
+                        salutis anime nostre et ex gentis nostre salvationis, <rs
+                            key="#Intercessory">per rogum</rs>
+                        <persName key="#Intercessory #Count #fidelisOf">Grimoaldi</persName>
+                        <rs key="#Count">comiti</rs> fideli nostro concedimus in <rs
+                            key="#Mother_churches">episcopio</rs>
+                        <orgName key="#Mother_churches" ref="#juridical_persons/2326">sancte sedis
+                            Salernitane Ecclesie</orgName>, ubi nunc <persName key="#Bishops"
+                            >Alo</persName>
+                        <rs key="#Bishops">episcopus</rs> preesse videtur, <orgName
+                            key="#Fiscal_property #Object #Outflow #Allocation_to_churches #Monasteries"
+                            >monasterio</orgName>
+                        <orgName key="#Monasteries">Sancti Petri de Palatio</orgName> qui es in
+                        S[.]coline cum terris et vineis, campis et silvis seu pascuis cum servis et
+                        ancillis et omnem suam pertinentiam; insimul et concedimus in predictam
+                        sanctam sedem <rs key="#Baptismal_churches">plebem</rs>
+                        <orgName
+                            key="#Fiscal_property #Object #Outflow #Allocation_to_churches #Baptismal_churches"
+                            >Sancte Marie</orgName> de <geogName>Nuceria</geogName> cum omnem suam
+                        substantiam cum servis et ancillis et omnem suam pertinentiam; quam et
+                        concedimus in eodem sancto episcopio <rs
+                            key="#Mills #Fiscal_property #Object #Inflow #Outflow #Allocation_to_churches"
+                            >molina</rs> ipsa in flubio <geogName key="#Rivers">Lirno</geogName> qui
+                        fuerunt de <persName>Leone Scrofella</persName>, qui habunt fines ipsa
+                        terra: de una parte fine predictum flumen Lirno; de duas partes fine via
+                        publica cum arcaturia et sedimen de predicta molina. In ea videlicet ratione
+                        ut amodo et deinceps, per hoc nostrum roboreum preceptum, predicta omnia que
+                        superius legitur in predictam sanctam sedem permaneat eius rectoribus
+                        dominandi atque possidendi et fruendi nomine et a nullo ex nostris
+                        iudicibus, idest comitibus, gastaldeis vel a quibuscumque agentibus habeatis
+                        aliquam requisitionem, set in perpetuis temporibus omnia que superius
+                        legitur in eadem sancta sede permaneat eius rectoribus ordinandum et
+                        dominandum atque securiter habendum. Quod vero preceptum concessionis ex
+                        iussione suprascripte potestati scripsi ego <persName key="#Notary"
+                            >Ragemprandus</persName>
+                        <rs key="#Notary">notarius</rs>. Actum <placeName ref="#places/84"
+                            key="#Cities">Salerno</placeName>, secundo anno, mense augusto, quarta
+                        indictione</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p><emph>Editions</emph>: Muratori 1732-1742, <foreign>Dissertatio trigesima
+                        quarta</foreign>, coll. 77-78 (secondo il quale il diploma non sarebbe
+                    autentico); Paesano 1846-1857, II, pp. 217-219; Giordano 2014, pp. 3-4, n. 1
+                    (source of the text reproduced here). <emph>Document summaries</emph>: Di Meo
+                    1795-1819, IV, p. 41; Schipa 1887 [1968]*, p. 740 [249]*; Paesano 1846-1857, I,
+                    p. 216; Voigt 1902, p. 115; Balducci 1970, p. 2, 122; Taviani Carozzi 1991, II,
+                    p. 1131; RIM 2002, n. 683.</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p>Orlando 1884-1887, I, p. 247; Id., III, p. 430; Crisci 1976-1984, p. 109; Crisci,
+                    Campagna 1962, p. 59; Pratesi 1951, p. 463; Falcone 1981, p. 1024; Fonseca 1987,
+                    p. 30.</p>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>Il <foreign>preceptum</foreign>, ad oggi deperdito, era stato emesso dal principe
+                    longobardo di Salerno Siconolfo e nel maggio 1179 fu letto e trascritto in un
+                    documento redatto dal notaio <foreign>Iohannes</foreign> su richiesta di
+                    Sebastiano, abate della chiesa di S. Gramazio e rappresentante di
+                        <foreign>Romoaldus</foreign>, vescovo di Salerno, cfr. Giordano 2014, p.
+                    394-395, n. 178.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
