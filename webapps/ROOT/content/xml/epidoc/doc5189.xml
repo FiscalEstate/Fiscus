@@ -4,7 +4,8 @@
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
-                <title/>
+                <title>Milano, Archivio di Stato, Pergamene per fondi, Mantova, S. Benedetto di
+                    Polirone, cart. 206, n. 20</title>
             </titleStmt>
             <editionStmt>
                 <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
@@ -13,7 +14,7 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DiSCi UniBo</publisher>
-                <idno type="filename"/>
+                <idno type="filename">doc5189</idno>
                 <availability xml:lang="en" status="free">
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                         texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
@@ -29,9 +30,9 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="#"/>
-                            <rs type="record_source" ref="#"/>
-                            <rs type="document_tradition" ref="#"/>
+                            <rs type="text_type" ref="#">--Judicial breve</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
                             <rs type="fiscal_property"/>
                         </summary>
                         <msItem xml:id="msItem1">
@@ -40,13 +41,13 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate>
-                                <note type="displayed_date"/>
+                            <origDate when="1152-04-04">
+                                <note type="displayed_date">1152 April 4</note>
                                 <note type="dating_elements"/>
-                                <note type="topical_date"/>
+                                <note type="topical_date">Mantova</note>
                                 <note type="redaction_date"/>
                             </origDate>
-                            <origPlace></origPlace>
+                            <origPlace> Sanctus Benedictus in Pado Lironi; monasterium</origPlace>
                         </origin>
                         <provenance>
                             <location>
@@ -72,7 +73,7 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2022-02-03" who="other">creation of record</change>
+                <change when="2022-10-12" who="bferretti">creation of record</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -80,11 +81,90 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab/>
+                    <ab>In Christi nomine. Die veneris qui fuit quarto die intrante mense aprilis.
+                        Qualiter <rs key="#Boni_viri/boni_homines">bonorum virorum</rs> presentia
+                        nomina quorum hic inferius leguntur. De lite et altercatione quam movebat et
+                        faciebat <persName key="#childOf #Judicial_breve #Landed_possessions"><name
+                                ref="Mantuanus">Mantuanus</name></persName>, <rs key="#childOf"
+                            >filius</rs>
+                        <persName key="#parentOf"><name ref="Iohannes/grammaticus"
+                            >Iohannis</name></persName>
+                        <rs>gramatici</rs>, de <rs key="#Landed_possessions">duobus iugeribus
+                            terrę</rs> quę fuere patrui sui, <persName><name ref="Guicomannus"
+                                >Guicomanno</name></persName>, qui ex parte <orgName
+                            key="#Judicial_breve #Landed_possessions #Churches #Abbots"
+                            ref="#juridical_persons/2001">Sancti Benedicti</orgName> possidebat. Sic
+                        diffinita est, sub iudicio <rs key="#Count #Judicial_breve">comitis</rs>
+                        <persName key="#Count">Abbatis</persName>, cui querimonia facta fuit.
+                        Quoniam comes, consilio <rs key="#Judge">iudicum</rs>, silicet <persName
+                            key="#Judge #Judicial_breve"><name ref="Aribrandus/iudex"
+                                >Ariprandi</name></persName>, <persName key="#Judge #Judicial_breve"
+                                ><name ref="Petrusbonus/iudex">Petriboni</name></persName>,
+                            <persName key="#Judge #Judicial_breve"><name ref="Rodufus/iudex"
+                                >Rodulfi</name></persName>, <persName key="#Judge #Judicial_breve"
+                                ><name ref="Lanfrancus/iudex">Lanfranci</name></persName>, <persName
+                            key="#Judge #Judicial_breve"><name ref="Mutellus/iudex"
+                            >Mutelli</name></persName>, legitimos <rs key="#Witness">testes</rs>
+                        recepit, qui iureiurando firmaverunt esse iuris Sancti Benedicti per datum
+                        Martini gramatici predictam terram unde lis erat; et sic ratione cognita,
+                        Petrusbonus iudex, iussione comitis Abbatis et consiolio eius ac iudicum,
+                        absolvit <rs key="#Churches">ecclesiam</rs> Sancti Benedicti et ipsum
+                        Guicomannum a petitione predicti Mantuani de predicta terra. Et hoc factum
+                        fuit in presentia domini <persName key="#Bishops #Witness #Judicial_breve"
+                            >Grasindonii</persName>
+                        <rs key="#Bishops">episcopi</rs> et <persName
+                            key="#Archpriests #Witness #Judicial_breve"><name
+                                ref="Rigitius/archipresbiter">Rigizonis</name></persName>
+                        <rs key="#Archpriests">archipresbiteri</rs> […] et domni <persName
+                            key="#Abbots #Witness #Judicial_breve">Uberti</persName>
+                        <rs key="#Abbots">abbatis</rs> Sancti Benedicti et domni <persName
+                            key="#Priors #Witness #Judicial_breve">Adę</persName>
+                        <rs key="#Priors">prioris</rs>
+                        <orgName ref="#juridical_persons/2416">Sancti Martini</orgName> et domni
+                            <persName key="#Witness #Judicial_breve"><name ref="Bonus"
+                            >Boni</name></persName>. Actum est hoc in claustro <orgName
+                            key="#Priors" ref="#juridical_persons/1426">Sancti Petri</orgName>. In
+                        millesimo centesimo quinquagesimo secundo, indictione XV. Haec sunt nomina
+                        illorum qui iuraverunt: <persName
+                            key="#Boni_viri/boni_homines #Witness #Judicial_breve"><name
+                                ref="Milo/de Orlando">Milo</name></persName> de <persName><name
+                                ref="Rodelandus">Or[la]ndo</name></persName>, <persName
+                            key="#Boni_viri/boni_homines #Witness #Judicial_breve"><name
+                                ref="Ambrosius/Fricavena">Ambrosius Fricavena</name></persName>,
+                            <persName key="#Boni_viri/boni_homines #Witness #Judicial_breve"><name
+                                ref="Tedaldus/de Verderi">Tedaldus</name></persName> de
+                            <placeName>Verderi</placeName>, <persName
+                            key="#Gastaldus/vicegastaldus #Boni_viri/boni_homines #Witness #Judicial_breve"
+                                ><name ref="Lanfrancus/castaldus">Lanfrancus</name></persName>
+                        <rs key="#Gastaldus/vicegastaldus">castaldus</rs> Milonis de Orlando et
+                            <persName
+                            key="#Gastaldus/vicegastaldus #Boni_viri/boni_homines #Witness #Judicial_breve #parentOf"
+                                ><name ref="Martinus/castaldus">Martinus</name></persName>
+                        castaldus. Isti vero homines ibi interfuerunt: <persName
+                            key="#Witness #Judicial_breve"><name ref="Sigefredus/de Sancta Agata"
+                                >Siginfredus</name></persName> de <placeName>Sancta
+                            Agathe</placeName>, <persName key="#Witness #Judicial_breve"><name
+                                ref="Wido/de Turre">Guido</name></persName> de Turre, <persName
+                            key="#Witness #Judicial_breve"><name ref="Oddo/de Geza"
+                            >Oddo</name></persName> de Geza, <persName
+                            key="#Witness #Judicial_breve"><name ref="Albertus/Azonis/Enrici"
+                                >Albertus</name></persName>
+                        <persName><name ref="Azo/Enrici">Azonis</name></persName>
+                        <persName><name ref="Heinricus">Enrici</name></persName>, <persName
+                            key="#Witness #Judicial_breve"><name ref="Peregrinus/beccarius"
+                                >Pelegrinus</name></persName>
+                        <rs key="#Specialized_workers">beccarius</rs>, <persName
+                            key="#Witness #Judicial_breve #childOf"><name ref="Gandulfus"
+                                >Gandulfinus</name></persName> filius Martini castaldi, qui rogati
+                        sunt [te]stes. (SN) Ego <persName key="#Notary #Writer #Judicial_breve"
+                            ref="#people/3720">Albertus Castellanus</persName>
+                        <rs key="#Notary">notarius</rs> sacri palatii his interfui et hoc <rs
+                            key="#Judicial_breve">breve</rs> iussione comitis <rs key="#Writer"
+                            >scripsi</rs>. </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p/>
+                <p>CDP II n. 67, pp. 133-135.</p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p/>

@@ -4,7 +4,8 @@
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
-                <title/>
+                <title>Liber privilegiorum S. Benedicti Polironensis, Verona, Biblioteca civica,
+                    cod. 736</title>
             </titleStmt>
             <editionStmt>
                 <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
@@ -13,7 +14,7 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DiSCi UniBo</publisher>
-                <idno type="filename"/>
+                <idno type="filename">doc5190</idno>
                 <availability xml:lang="en" status="free">
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                         texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
@@ -29,9 +30,9 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="#"/>
-                            <rs type="record_source" ref="#"/>
-                            <rs type="document_tradition" ref="#"/>
+                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
                             <rs type="fiscal_property"/>
                         </summary>
                         <msItem xml:id="msItem1">
@@ -40,13 +41,13 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate>
-                                <note type="displayed_date"/>
+                            <origDate when="1152" notBefore="1152-08-25" notAfter="1152-10-16">
+                                <note type="displayed_date">1152 (August 25 - October 16)</note>
                                 <note type="dating_elements"/>
-                                <note type="topical_date"/>
+                                <note type="topical_date">Fulda (DE)</note>
                                 <note type="redaction_date"/>
                             </origDate>
-                            <origPlace></origPlace>
+                            <origPlace> Sanctus Benedictus in Pado Lironi; monasterium</origPlace>
                         </origin>
                         <provenance>
                             <location>
@@ -72,7 +73,7 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2022-02-03" who="other">creation of record</change>
+                <change when="2022-10-12" who="bferretti">creation of record</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -80,11 +81,80 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab/>
+                    <ab>In nomine sancte et individue trinitatis. <persName
+                            key="#Emperor/king #Imperial/royal_diploma" ref="#people/124"
+                            >Fredericus</persName> dei gratia Romanorum <rs key="#Emperor/king"
+                            >rex</rs> augustus. Si antecessorum nostrorum regum et imperatorum pie
+                        devotionis limitem prosequentes et circa ecclesias dei opera pietatis
+                        exercentes ipsas earumque bona regali potentia a deo nobis concessa
+                        conservare ac deffendere studuerimus, id nobis tam ad presentis vite
+                        tranquilitatem quam ad eternam beatitudinem promerendam profuturum fore non
+                        ambigimus. Quapropter universis Christi regnique nostri fidelibus tam
+                        futuris quam presentibus notuum esse volumus, qualiter nos omnipotentis dei
+                        causa et ob regni nostri firmam stabilitatem <rs key="#Monasteries"
+                            >monasterium</rs>
+                        <orgName key="#Monasteries #Imperial/royal_diploma"
+                            ref="#juridical_persons/2001">sancti Benedicti</orgName> super
+                            <placeName ref="#places/4196">Padum</placeName> situm cum omnibus
+                        possessionibus eius, quas nunc habet vel in futuro iuste acquisierit, per
+                        hanc <rs key="#Imperial/royal_diploma">mondiburdialem paginam</rs> in
+                        tutellam nostre deffenssionis suscipimus. Universa quoque, que eidem
+                        monasterio ab antecessoribus nostris <persName>Henrico</persName> videlicet
+                        imperatore III° et <persName>Henrico</persName> IIII° parentibus nostris nec
+                        non a <persName>Lotario</persName> imperatore seu a dilectissimo patruo
+                        nostro et antecessore dive memorie <persName>Conrado</persName> data,
+                        concessa et confirmata sunt, imperiali clementia et privilegii nostri
+                        auctoritate donamus et confirmarnus. Ad hec ob anime prefati dilecti patrui
+                        nostri Conradi perpetuam salutem <rs key="#Mansi">octo mansos</rs> in <rs
+                            key="#Villas">villa</rs>, que dicitur <placeName key="#Villas #Mansi"
+                            ref="#places/361">Lectus Paludanus</placeName>, sitos, quos ipse eidem
+                        monasterio contulit, una cum <rs key="#Landed_possessions">braida</rs>
+                        cellule <placeName key="#Landed_possessions" ref="#places/2414"
+                            >Gonzagie</placeName> adiacente sancta Benedicto fratribusque ibidem sub
+                        regula eius deo militantibus damus et lege in perpetuum valitura
+                        confirmamus. Addimus quoque sub attestatione et confirmatione presentis
+                        pagine, quicquid Lotharius imperator eidem monasterio in <placeName
+                            ref="places/34">Pigugnaga</placeName> contulit. Ut autem hec
+                        antecessorum nostrorum et nostra traditio supradicto monasterio in posterum
+                        evo rata et inconvulsa permaneant, hanc cartam inde conscribi et sigilli
+                        nostri impressione insigniri iussimus edicto regali statuentes, ut, si quis
+                        contra hec nostre concessionis seu confirmationis statuta venire
+                        presumpserit, <rs key="#Penalty">centum libras auri</rs>
+                        <rs key="#Camera_regis">camere nostre</rs> et <rs key="#Churches"
+                            >ecclesie</rs> compositurus regali banno subiaceat. <rs key="#Witness"
+                            >Testes</rs> quoque, in quorum presentia hec facta sunt, <rs
+                            key="#Professional_writer">scribi</rs> et <rs key="#Notary">notari</rs>
+                        fecimus, quorum nomina hec sunt: <persName key="#Abbots #Witness #Imperial/royal_diploma" ref="#people/3787"
+                            >Maroquardus</persName>
+                        <orgName key="#Abbots" ref="#juridical_persons/2478"><placeName
+                                key="#Abbots" ref="#places/4421">Fuldensis</placeName></orgName>
+                        <rs key="#Abbots">abbas</rs>, <persName key="#Abbots #Witness #Imperial/royal_diploma" ref="#people/3788"
+                            >Henricus</persName>
+                        <orgName key="#Abbots" ref="#juridical_persons/2479"><placeName
+                                key="#Abbots" ref="#places/4422"
+                            >Heriffeldensis</placeName></orgName> abbas, magister <persName
+                                key="#Notary #Witness #Imperial/royal_diploma">Henricus</persName> notarius,
+                        <persName key="#Prevosts #Witness #Imperial/royal_diploma">Conradus</persName>
+                        <placeName key="#Prevosts" ref="#places/1609">Vuormatus</placeName>
+                        <rs key="#Prevosts">prepositus</rs>, <persName key="#Count #siblingOf #Witness #Imperial/royal_diploma"
+                            >Gothefridus</persName>
+                        <rs key="#Count">comes</rs> et <rs key="#siblingOf">frater</rs> eius
+                        <persName key="#siblingOf #Witness #Imperial/royal_diploma">Poppo</persName>, <persName key="#Count #Witness #Imperial/royal_diploma"
+                            >Otto</persName> [*******] comes iunior, <persName key="#Count #Witness #Imperial/royal_diploma"
+                            >Odalricus</persName> comes de <placeName key="#Count"
+                                >Lenzeburchus</placeName>, comes <persName key="#Count #Witness #Imperial/royal_diploma"
+                        >Egeno</persName>. Signum domni Frederici Romanorum regis augusti. (M) Ego
+                        <persName key="#Chancellor" ref="#people/3789">Arnoldus</persName>
+                        <rs key="#Chancellor">canzellarius</rs> vice <persName key="#Archbishops #Archchancellor" ref="#people/3728">Heinrici</persName>
+                        <placeName key="#Archbishops" ref="#places/2968">Maguntini</placeName>
+                        <rs key="#Archbishops">archiepiscopi</rs> et <rs key="#Archchancellor"
+                            >archicanzellarii</rs> recognovi. Data Fulde anno dominice incarnationis
+                        M°CLII°, regnante domno Frederico Romanorum rege glorioso, anno vero regni
+                        eius I, indictione XV; actum in Christo feliciter. </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p/>
+                <p>CDP II n. 68, pp. 135-136; MGH DD F I/1 n. 28, pp. 47-49.</p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p/>

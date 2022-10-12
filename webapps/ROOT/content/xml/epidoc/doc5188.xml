@@ -75,6 +75,7 @@
         <revisionDesc>
             <listChange>
                 <change when="2022-06-23" who="bferretti">creation of record</change>
+                <change when="2022-10-12" who="bferretti">changes</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -85,8 +86,9 @@
                     <ab>In nomine sancte et individue Trinitatis. Anno Domini millesimo centesimo
                         quinquagesimo primo, octavo idus iulii, indicione quartadecima. In presencia
                             <rs key="#Boni_viri/boni_homines">bonorum hominum</rs> quorum nomina
-                        sunt hec, scilicet maister <persName key="#Boni_viri/boni_homines #childOf"
-                                ><name ref="Hugo">Ugonius</name></persName>
+                        sunt hec, scilicet <rs>maister</rs>
+                        <persName key="#Boni_viri/boni_homines #childOf"><name ref="Hugo"
+                                >Ugonius</name></persName>
                         <rs key="#childOf">filius</rs>
                         <persName key="#parentOf"><name ref="Albericus/lombardus"
                             >Albrici</name></persName> lonbardi, <persName
@@ -99,7 +101,8 @@
                         <placeName key="#Castle">Monte Vello</placeName>, <persName
                             key="#Boni_viri/boni_homines #siblingOf #uncle/auntOf"><name
                                 ref="Gherardus/dei Marchionis">Gerardum</name></persName> et
-                        <persName key="#Boni_viri/boni_homines #parentOf #siblingOf #uncle/auntOf"><name
+                            <persName
+                            key="#Boni_viri/boni_homines #parentOf #siblingOf #uncle/auntOf"><name
                                 ref="Aço/dei Marchionis">Açonem</name></persName> dei Marchionis,
                             <persName key="#childOf"><name ref="Marchesus/dei Marchionis"
                                 >Marchise</name></persName> filius predicti Açonis, <persName
@@ -126,13 +129,14 @@
                             <persName key="#Boni_viri/boni_homines"><name ref="Andreas/Salvaticus"
                                 >Andreas Salvaticus</name></persName>, <persName
                             key="#Boni_viri/boni_homines"><name ref="Albertus/de Feregnano"
-                                >Alberto</name></persName> de Feregnano, <persName
-                            key="#Boni_viri/boni_homines"><name ref="Raginaldus/de Ortona"
-                                >Rainaldus</name></persName> de Ortona, <persName
-                            key="#Boni_viri/boni_homines"><name ref="Wido/Maltalonis">Guido qui
-                                vocatur Maltalonis</name></persName> et alii multi ibi adstantibus.
-                        Et maister <persName><name ref="Bulgarus">Bulgarus</name></persName>
-                        cognitoris ex concessione domini <rs key="#Popes">pape</rs>
+                                >Alberto</name></persName> de <placeName>Feregnano</placeName>,
+                            <persName key="#Boni_viri/boni_homines"><name ref="Raginaldus/de Ortona"
+                                >Rainaldus</name></persName> de <placeName>Ortona</placeName>,
+                            <persName key="#Boni_viri/boni_homines"><name ref="Wido/Maltalonis"
+                                >Guido qui vocatur Maltalonis</name></persName> et alii multi ibi
+                        adstantibus. Et maister <persName><name ref="Bulgarus"
+                            >Bulgarus</name></persName> cognitoris ex concessione domini <rs
+                            key="#Popes">pape</rs>
                         <persName key="#Popes" ref="#people/409">Eugenii</persName> cognitoris eius
                         cause quae vertebatur inter donnum <persName key="#Priests #Monks #Witness"
                                 ><name ref="Martinus/presbiter et monachus"
@@ -145,9 +149,9 @@
                             prophete</orgName>, et Gerardo et Açonem et <rs key="#siblingOf"
                             >fratrem</rs> suo <persName key="#siblingOf #uncle/auntOf"><name
                                 ref="Hugo">Ugonem</name></persName> et pro <rs key="#nephew/nieceOf"
-                                    >nepotem</rs> illorum <persName key="#nephew/nieceOf"><name ref="Petrus"
-                            >Petro</name></persName> filius <persName><name ref="Gotius"
-                            >Goço</name></persName>, propter quadraginta solidos denariorum
+                            >nepotem</rs> illorum <persName key="#nephew/nieceOf"><name ref="Petrus"
+                                >Petro</name></persName> filius <persName><name ref="Gotius"
+                                >Goço</name></persName>, propter quadraginta solidos denariorum
                         Lucensium accepti a donnus predictus Martinus, fecerunt finem et
                         transactionem ipsi prefati donni Martini et eius omnibus successoribus im
                         perpetuum de omni iure et actione quam se putabant habere contra ipsum
@@ -164,7 +168,8 @@
                         scole predictus donnus Bulgarus, indictione predicta quartadecima.
                         Prenominatis refutatoris hoc <rs>instrumentum refutacionis</rs> ut supra
                         legitur fieri rogaverunt. Ego in Dei nomine <persName
-                            key="#Notary #Writer #childOf"><name ref="Wido">Vuido</name></persName>
+                            key="#Notary #Writer #childOf"><name ref="Wido/notarius"
+                            >Vuido</name></persName>
                         <rs key="#Notary">notarius</rs> filius <persName key="#parentOf"><name
                                 ref="Petrus/Curialis">Petri Curialis</name></persName> hoc
                         refutacionis instrumentum ut supra legitur <rs key="#Writer">scripsi</rs> et
@@ -241,7 +246,7 @@
                         «dimitte modo me arare, et ego ab hinc oram pro monachos»; et postea tempore
                         seminis dixit: «cras. eris cum seminabimus et interdicere, et exibo quia
                         quod facto iussione vicecomitis facto». § Set alia die seminavit, nobis
-                        ignorantlbus, et postea cum invenimus eos çapulantes voluimus eis eicere,
+                        ignorantibus, et postea cum invenimus eos çapulantes voluimus eis eicere,
                         set non potuimus et concurrimus ad arma et ipsi fugerunt, et vidi Arbertum
                         de Remengarda refutare quod habebat et totam fractam designavit pro Sancta
                         Maria. § <persName key="#Witness"><name ref="Wilielmus"
