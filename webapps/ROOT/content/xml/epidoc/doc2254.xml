@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Montecassino, Archivio privato, Carte di Pomposa, fasc. I, n. 12</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2022">2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DiSCi UniBo</publisher>
+                <idno type="filename">doc2254</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+                </availability>
+                <date when="2022"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Venditio</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property"/>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0987-03-09">
+                                <note type="displayed_date">987 March 9</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Ravenna</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace><foreign>Sancta Maria in Pomposia</foreign></origPlace>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-02-03" who="cstedile">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine Patris et Filii et Spiritu Sancti. Anno Deo propicio pontificatus
+                        domni nostri <persName key="#Popes" ref="#people/240">Ioh(anni)s</persName>
+                        <rs key="#Popes">summi pontifitj et uni[versalis] pape</rs> in apostolica
+                        sacratissima beati Petri apostoli Domini sede secundo, die nono m(ense)
+                        marcio, indicione qui[ntadeci]ma, <placeName ref="#places/594"
+                            >RAVENNE</placeName>. Profitens profitemur nos quidem in Dei nomine
+                            <persName key="#marriage"><name ref="Florus">Florus</name></persName> et
+                            <persName key="#marriage"><name ref="Dominitia"
+                            >Dominitja</name></persName> iugal(is) abita[tores in l]ocum qui vocatur
+                            <placeName key="#Villages/settlements" ref="#places/3528"
+                            >Granariolo</placeName> per huius paginam nostre votjs, professionis,
+                        sponsionis simulque venditjonis, transfersionis, perpetualis transhaccionis
+                        et corporalis traditjonis velhuti instrumenti virtutum a pressenti die
+                        nostre paginam vobis presentem in Christi nomine <persName
+                            key="#Consules #Vir_magnificus"><name ref="Andreas de Guandillo"
+                                >Andreas</name></persName>
+                        <rs key="#Vir_magnificus">v(ir) m(agnificus)</rs>
+                        <rs key="#Consules">consul(e)</rs> qui vocatur de Guandillo comparatore
+                        tuisque filiis et heredibus in perpetuum dans, damus et vendimus seo
+                        transferrimus necnon transcribimus adque subdutjmus in iura et dominium tuum
+                        suprascripto comparatore et in tuisque filiis et heredibus in perpetuum eo
+                        quod nobis pertinet hundique nobis hovenisse per quovis modis vel titulum,
+                        idest omnes res et pertinentjas nostras in int(egro) quantascumque nobis
+                        pertinet per quocumque modum vel titulum in <rs key="#Massae">massa</rs> qui
+                        vocatur <placeName
+                            key="#Massae #Landed_possessions #Forests #Cereals #Wine #Fruits/vegetables #Hay/fodder"
+                                ><geogName
+                                key="#Massae #Landed_possessions #Forests #Cereals #Wine #Fruits/vegetables #Hay/fodder"
+                                >Prata</geogName></placeName>, cum <rs key="#Landed_possessions"
+                            >terris</rs>, <rs key="#Wine">vineis</rs>, <rs key="#Cereals"
+                            >campis</rs>, <rs key="#Hay/fodder">pratis</rs>, <rs key="#Hay/fodder"
+                            >pascuis</rs>, <rs key="#Forests">silvis</rs>, <rs>salectis</rs>,
+                            <rs>satjonalibus</rs>, <rs>arbustis</rs>, <rs key="#Fruits/vegetables"
+                            >arboribus</rs> et cum omnibus ad easdem pertinentibus, sit(as) <rs
+                            key="#Fines">teritorio</rs>
+                        <placeName key="#Massae #Fines #Plebs" ref="#places/3513"><geogName
+                                key="#Massae #Fines #Plebs" ref="#estates/2424"
+                                >Fav(entino)</geogName></placeName>, <rs key="#Plebs">plebe</rs>
+                        <orgName key="#Massae #Plebs">Sancti Ioh(anni)s qui vocatur in <placeName
+                                key="#Massae #Plebs" ref="#places/3527"
+                        >Axiata</placeName></orgName>, huna cum suis iustis et certis <rs
+                            key="#Confinia">interrafinibus</rs> vel omnibus ad easdem pertinentibus
+                        ut superius legitur. Ut in omnibus liceat tibi suprascripto comparatore a
+                        pressenti die aut quandoque volueris in ibidem introire et prehocupare adque
+                        ingredere ex potestatem sine ullo alicuius obstaculo vel inpedimentum
+                        tamquam per legitimam et nostram corporalem traditjonem et per hec paginam
+                        vinditjonis transfersionis ad nobis in vobis facta adque traditam et per
+                        istum nostrum missum nomine ******* *********** quem de nostris manibus in
+                        vestris mitimus in press(entja) testium, que ic subter subscripturi sunt, ut
+                        illuc vobiscum pergat ad suprascripta res et in nostra vice vobis
+                        corporaliter tradat adque investiat, abendi dominium et potestatem, quietum
+                        tramite abe[atis ...].</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>Mezzetti, <foreign>Le carte</foreign>, pp. 68-70, n° 31.</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
