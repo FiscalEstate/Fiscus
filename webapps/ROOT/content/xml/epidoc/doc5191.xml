@@ -30,9 +30,9 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="#"/>
-                            <rs type="record_source" ref="#"/>
-                            <rs type="document_tradition" ref="#"/>
+                            <rs type="text_type" ref="#">--Venditio</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
                             <rs type="fiscal_property"/>
                         </summary>
                         <msItem xml:id="msItem1">
@@ -41,10 +41,10 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate>
-                                <note type="displayed_date"/>
+                            <origDate when="1152-03-05">
+                                <note type="displayed_date">1152 or 1153 March 5</note>
                                 <note type="dating_elements"/>
-                                <note type="topical_date"/>
+                                <note type="topical_date">Parma</note>
                                 <note type="redaction_date"/>
                             </origDate>
                             <origPlace> Sanctus Benedictus in Pado Lironi; monasterium</origPlace>
@@ -73,7 +73,7 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2022-10-12" who="bferretti">creation of record</change>
+                <change when="2022-10-14" who="bferretti">creation of record</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -81,11 +81,65 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab/>
+                    <ab>(SN) In nomine sancte et individue Trinitatis. Anno ab incarnacione domini
+                        nostri Iesu Christi millesimo centesimo quinquagesimo secundo, quinto die
+                        intrante mense marcii, indicione secunda. Constat nos <persName
+                            key="#childOf #siblingOf #Lombard #Venditio #Petiae #Cereals #Wine #Iure_proprietatis/pleno_iure"
+                            ><name ref="Wido">Guidonem</name></persName> et <persName key="#childOf #siblingOf #Lombard #Venditio #Petiae #Cereals #Wine #Iure_proprietatis/pleno_iure"><name
+                                ref="Grecus">Grecum</name></persName>
+                        <rs key="#childOf">filios</rs> quondam <persName key="#parentOf #Lombard"><name
+                                ref="Iohannes/Gusia">Iohannis Gusie</name></persName>, qui
+                        pro[fes]si sumus ex nacione nostra lege vivere <rs key="#Lombard"
+                            >Longobardorum</rs>, accepissemus nos sicuti et in presencia <rs
+                                key="#Witness">testium</rs> accepimus a te <persName key="#Priors" ref="#people/3721"
+                            >Iohanni</persName>
+                        <rs key="#Priors">priori</rs>
+                        <orgName key="#Priors #Venditio" ref="#juridical_persons/2071">Sancti
+                            Leonardi</orgName>
+                        <rs key="#Price">argentum denariorum bonorum Mediolanensium libras tres,
+                            minus denarios decem et octo</rs>, finito precio sicut inter nos
+                        convenit pro <rs key="#Petiae #Cereals #Wine">pecia una terre in parte
+                            vidata et in parte aratoria</rs>
+                        <rs key="#Iure_proprietatis/pleno_iure">iuris nostri</rs>, posita a Sancto
+                        Leonardo, ad opus <rs key="#Monasteries">monesterii</rs>
+                        <orgName key="#Monasteries" ref="#juridical_persons/2001">Sancti Benedicti
+                            de Arone</orgName>, que est per mensuram iustam ad perticam legitimam de
+                        pedibus duodecim mensuratam <rs key="#Size">sestaria tres minus tabulam
+                            unam</rs>. Habet fines: a mane <orgName ref="#juridical_persons/2480">Sancti Mathei</orgName>, a
+                        meridie <persName><name ref="Bernardus">Bernardi</name></persName>, a sera
+                            <rs key="#Roads">vie</rs>, de subtus iamscripti monesterii, sibique alie
+                        sunt coerencie in integrum. Quam autem iamscriptam peciam una cum
+                        accessionibus et ingressibus eius seu cum superioribus et inferioribus suis
+                        ab hac die eidem monesterio Sancti Benedicti vendimus, tradimus, mancipamus,
+                        nulli alii venditam, donatam, alienatam, obnoxiatam vel traditam nisi
+                        iamscripto monesterio. Et facias exinde a presenti die proprietario iure
+                        quicquid voluerit, sine omni nostra et heredum nostrorum contradicione.
+                        Equidem spondemus atque promittimus nos et nostros heredes iamscripto
+                        monesterio aut cui legaliter dederit iamscriptam vendicionem ab omni homine
+                        contradicente defendere; quod si defensarc non potuerimus aut si iamscripte
+                        ecclesie per quodvis ingenium subtracre quesierimus, tunc <rs key="#Penalty"
+                            >in duplum</rs> iamscriptam vendicionem predicte ecclesie restituamus,
+                        sicut pro tempore fuerit meliorata aut valuerit sub estimacione in consimili
+                        loco. Et nec michi liceat ullo tempore de hoc facto aliter facere, nolle
+                        quod volui set quod a nobis semel factum vel quod scriptum est, omnia
+                        inviolabiliter conservare promittimus cum stipulacione subnixa. Actum Sancta
+                        Leonardo. Feliciter. (S.) Signa manuum iamscriptorum <rs key="#siblingOf"
+                            >fratrum</rs> qui hanc <rs key="#Venditio">cartulam</rs> fieri
+                        rogaverunt. (S.) Signa manuum <persName key="#Witness #Venditio"><name
+                                ref="Hugo">Ugonis</name></persName>, <persName
+                            key="#Witness #Venditio"><name ref="Ardicionus"
+                            >Ardicionis</name></persName>, <persName key="#Witness #Venditio"><name
+                                ref="Bonusfilius">Bonifilii</name></persName>, <persName
+                            key="#Witness #Venditio"><name ref="Bernardus"
+                            >Bernardi</name></persName> rogati testes. (SN) <rs key="#Writer"
+                            >Scripsi</rs> ego <persName key="#Notary #Writer #Venditio"><name
+                                ref="Maginfredus">Mainfredus</name></persName>
+                        <rs key="#Notary">notarius</rs> sacri palacii hanc cartulam post traditam
+                        cumplevi. </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p/>
+                <p>CDP II n. 69, pp. 137-138.</p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p/>
@@ -94,7 +148,8 @@
                 <p/>
             </div>
             <div type="commentary">
-                <p/>
+                <p>L'editore, Andrea Goldoni, segnala la discordanza di un'unità tra anno e
+                    indizione.</p>
             </div>
         </body>
     </text>
