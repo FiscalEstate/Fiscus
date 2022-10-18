@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Montecassino, Archivio privato, Carte di Pomposa, fasc. I, n. 3</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2022">2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DiSCi UniBo</publisher>
+                <idno type="filename">doc2258</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+                </availability>
+                <date when="2022"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">-Cartula</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property"/>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0989-03-08">
+                                <note type="displayed_date">989 March 8</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Ravenna</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace><foreign>Sancta Maria in Pomposia</foreign></origPlace>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-02-03" who="cstedile">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine Patris et Filii et Spiritu Sancti. Anno Deo propitj[o]
+                        pontificatus domni nostri <persName key="#Popes" ref="#people/240"
+                            >Ioh(anni)s</persName>
+                        <rs key="#Popes">summi pontifitjs et huni[ve]rsalis pape</rs> in apostolica
+                        sacratissima beati P[e]tri apostoli Domini sede quarto, die hoctavo m(ense)
+                        marcio, indicione secunda, <placeName ref="#places/594"
+                            >Rav(enne)</placeName>. Plura enim exsistut pacta que solo verbo manere
+                        potest, set hob hoc necesse est scripture vinculi anotari, ne verientje
+                        temporum hoblivionis mandentur vel iurgia ge[n]erentur; et ea enim que bono
+                        animo ac spontanea mea voluntate irrefragabiliter promituntur, inviolabili
+                        vincul[o] hobserventur. Id[c]irco et ego <persName><name
+                                ref="Petrus/de Luliano">Petrus qui vocatur de
+                            Luliano</name></persName> petit[or]e pro me et pro pers[o]na et in vice
+                                <persName><name ref="Maria">M[a]ria</name></persName> iugale mea
+                        profitens profitemur nos per h[ui]us pagina nostr[e vo]tjs, professionis,
+                        sponsionis simulque pacti, statutum convenientje, largietatis a pressenti
+                        die nostre paginam te [pressente] i[n Dei nomine
+                                <persName><name>...]ius[...]</name></persName> quondam <persName
+                            key="#Priests"><name ref="Iohannis/de Abatia"
+                            >Ioh(anni)s</name></persName>
+                        <rs key="#Priests">presbiter</rs> qui vocabatur de Abatia tuisque filiis et
+                        heredibus per hec [pagina pacti larg]ietatis concedentes concedistis,
+                        largi[e]ntes et lar[gi]st[is] no[bis rem] iuris vestris suprascripto
+                        o[rdi]natore, idest omnes res atque pertinentjas tuas in int(egro)
+                        q[uan]tas[cum]que tibi pertinet in [sin]gu[lis locis] corum vocabula sunt
+                            <placeName
+                            key="#Landed_possessions #Forests #Cereals #Maiores #Minores #Wine #Fruits/vegetables #Hay/fodder #Wood #Linen"
+                            >Iulia</placeName> et <placeName
+                            key="#Landed_possessions #Forests #Cereals #Maiores #Minores #Wine #Fruits/vegetables #Hay/fodder #Wood #Linen"
+                            >Casella</placeName>, cum <rs key="#Landed_possessions">terris</rs>, <rs
+                            key="#Cereals">cam[pi]s</rs>, <rs key="#Hay/fodder">pra[ti]s</rs>, <rs
+                            key="#Hay/fodder">p[a]scuis</rs>, <rs key="#Forests">si[lvis</rs>,
+                            <rs>salectis</rs>, <rs>sa]tjonalibus</rs>, <rs>arbustis</rs>, <rs
+                            key="#Fruits/vegetables">arboribus</rs> et cum omnibus [at] suprascripta
+                        [res] pertinen[tibus] in int(egro) [...] sit(as) <rs key="#Fines"
+                            >teritorio</rs>
+                        <geogName key="#Fines" ref="#estates/2423"><placeName key="#Fines"
+                                ref="#places/594">R[avennate]</placeName></geogName>, in <placeName
+                            ref="#places/3534">Decimo</placeName>, <rs key="#Plebs">plebe</rs>
+                        <orgName key="#Plebs" ref="#juridical_persons/1493">Sancti
+                            Cassiani</orgName>, huna cum suis iustis et certis <rs key="#Confinia"
+                            >in [terra] finibus</rs> vel [ad eas]dem pertinentibus ut superius
+                        legitur. Hec omnia abendum, tenendum, laborandum, defensandum et in omnibus
+                        melliora[ndum, in annis] atvenientibus viginti et nove at renovandum, salva
+                        [san]atjon[e domnica dandum]. Ita sane ut inferramus domnice rratjonibus nos
+                        suprascripti [p]eti[toris nostri]sque filiis tibi suprascripto ordinatore et
+                        tuis filiis et heredibus singulis quibusque [an]ni hoc est <rs
+                            key="#Rent_in_kind">terratic[o]</rs>: de <rs key="#Maiores">labore
+                            maiore</rs> modio quinto, <rs key="#Linen">lino</rs> m(anna) quinta, <rs
+                            key="#Minores">minuto</rs> [m]odio sexto; et si <rs key="#Wine"
+                            >vinea</rs> in ibi[dem] pastenaverimus postquam incollomo fuerit,
+                        deduct[a] anfora tercia, <rs key="#Fruits/vegetables">arbor</rs> pe[cto]
+                        ponente duas vice pitjolo semel intjso, postea sit vobis c[o]lloni cesso; et
+                        omnique ano dare tibi debeamus de <rs key="#Wood">linge</rs> carras duas, si
+                        bubus abuerimus, et si bu[bus] non abuerimus absque omni calumnie
+                        remaneamus; aducta omnia iustitja domnica vestra in [in]t(egro) per nos
+                        suprascripti petit[ori]s usque ic civitate Rav(enne), in domo vestra; et non
+                        abeamus licentjam tritulare, vindimiare sine iussione domnica vestra. Maiore
+                        quidem domnico vestro vel vestra dominatjone cum onore et hobedientja
+                        susipere debeamus cum fide et puritate sin[e] dolo vel fraude. Pro eo quia
+                        exinde accepisti cal(tjarium) in manibus tuis suprascripto ordinatore de
+                        manibus meis suprascripti petitore pro me et pro suprascripta coniux mea, in
+                        press(entja) <rs key="#Witness">testium</rs> qui ic subter subscripturi
+                        sunt, caltjario nomine, idest mantello [u]no pro sol(idis) duas ana
+                        d(enarii)s duodecim. QUOD SI QUOD absi et avertas divina [potentjam] et
+                        omnia que superius legitur n[o]n o[b]servaverimus vel adimpelverimus et
+                        contra he[c ir]e [vel agere aut] contend[ere volu]ero per [quod]libet
+                        [mo]dum vel titulum pro qui[bus iurata voce dicimus per Deum omnipotentem
+                        sedemque sanctam apostolicam et vi]tam suprascriptorum [dom]norum nostrorum
+                        atestatj[onem confirmamus et hunc pactum a nobis in vobis factum minime
+                        valere nequiverint, tunc daturo nos esse promittimus suprascripti petitoris
+                        una] cum nostris filiis [et heredibus a tibi suprascripto ordinatore et tuis
+                        filiis et heredibus ante omnis litis] initjum aut inter[pellatjonem pene
+                        nomine <rs key="#Penalty">auri untjas</rs> ...et post pene solutjonem
+                        manente hanc pagina pacti largietatis in suo robore et firmitate. Quam vero]
+                        anc paginam [pacti largietatis ... <persName key="#Tabellio"><name
+                                ref="Andreas">Andreas</name></persName>] Christi misericordia <rs
+                            key="#Tabellio">tabellionem</rs> huius ci[vitatis Ravenne scribendum
+                        rogavi et subter manus me]a propria firma[v]i testibusque at me rogi[tis
+                        optuli subscribendum eorumque pressencia eam tibi cui supra con]tradidimus,
+                        sub d[ie et mense et indicione suprascripta secunda, Ravenne]. [Signum manus
+                        Petrus iam]dicti petitoris [at omnia suprascripta] [cui relectum] est.
+                        Mar[...]. <persName key="#Witness"><name ref="Iohannes"
+                            >Ioh(anne)s</name></persName> [filius quondam <persName><name
+                                ref="Albertus">Aliperto</name></persName>] anc pag(inam) [pacti
+                        la]rgietatis [sicut s]up(erius) l(egitur) roga[tus tes][te subscrispsi].
+                            <persName key="#Witness"><name ref="Iohannes"
+                            >Ioh(anne)s</name></persName> [filius ... anc paginam pacti largietatis]
+                        sic(ut) sup(erius) l(egitur) ro[gatus teste subscripsi]. [Andreas in Dei
+                        nomine] tabellionem huius civitatis Rav(enne) [huic pagine pacti largietatis
+                        sicut] superius legitur post roboratjonem testium [atque tradita] co[nplevi
+                        et absolvit]. Notitjam testium idest: Mar[...] pell[...], | [Iohannes]
+                        filius quondam Aliperto, Ioh(anne)s filius [...].</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>Mezzetti, <foreign>Le carte</foreign>, pp. 80-83, n° 35.</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>Mezzetti, <foreign>Le carte</foreign>, p. 80, su base paleografica individua come
+                    tabellione rogatario Andrea, attivo tra il 984 e il 990.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
