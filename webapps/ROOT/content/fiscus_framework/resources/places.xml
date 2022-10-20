@@ -5752,12 +5752,18 @@
                     </place>
                     <place>
                         <placeName>Capodistria (SL)</placeName>
-                        <placeName type="other"><foreign>Iustinopolis</foreign></placeName>
+                        <placeName type="other"><foreign>Iustinopolis</foreign>;
+                                <foreign>Capras</foreign></placeName>
                         <geogName type="coord"><geo>45.540984, 13.731537</geo></geogName>
                         <link type="people" corresp="#people/21" subtype="link"/>
                         <link type="people" corresp="#people/349" subtype="link"/>
                         <idno>places/593</idno>
                         <note/>
+                        <link type="people" corresp="#people/239" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/651" subtype="isConfirmedTo"/>
+                        <link type="places" corresp="#places/956" subtype="dependsOn"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/92"
+                            subtype="rendersCollectedBy"/>
                     </place>
                     <place>
                         <placeName>Ravenna</placeName>
@@ -10146,6 +10152,29 @@
                         <link type="people" corresp="#people/239" subtype="isGrantedBy" cert="low"/>
                         <link type="people" corresp="#people/651" subtype="isGrantedTo" cert="low"/>
                         <link type="estates" corresp="#estates/92" subtype="dependsOn"/>
+                    </place>
+                    <place>
+                        <placeName>Isola (SL)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo>45.536175, 13.663422</geo></geogName>
+                        <idno>places/956</idno>
+                        <note/>
+                        <link type="people" corresp="#people/651" subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/239" subtype="isConfirmedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/92"
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/650" subtype="isGrantedTo"/>
+                    </place>
+                    <place>
+                        <placeName>Istria</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo/></geogName>
+                        <idno>places/957</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/92"
+                            subtype="rendersCollectedBy"/>
+                        <link type="places" corresp="#places/956" subtype="isWithin"/>
+                        <link type="places" corresp="#places/593" subtype="isWithin"/>
                     </place>
                 </listPlace>
                 <listPlace n="Collavini Simone">
