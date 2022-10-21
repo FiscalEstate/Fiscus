@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Montecassino, Archivio privato, Carte di Pomposa, fasc. CIII, n. 2844</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2022">2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DiSCi UniBo</publisher>
+                <idno type="filename">doc2264</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+                </availability>
+                <date when="2022"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">-Cartula</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property"/>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate notBefore="0997-01-01" notAfter="0997-12-31">
+                                <note type="displayed_date">997</note>
+                                <note type="dating_elements">Il documento è datato da Mezzetti,
+                                        <foreign>Le carte</foreign>, p. 86, in base all'incrocio del
+                                    dato fornito dall'indizione coi nomi dei religiosi
+                                    menzionati.</note>
+                                <note type="topical_date"/>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace><foreign>Sancta Maria in Pomposia</foreign></origPlace>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-02-03" who="cstedile">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In n(omine) D(omi)ni. Constat me <persName key="#Priests"><name
+                                ref="Dominicus">Dominicus</name></persName>
+                        <rs key="#Priests">p(res)b(ite)r</rs>
+                        <orgName ref="#juridical_persons/80">s(an)c(t)e <placeName ref="#places/7"
+                                >Bon(onien)s(is)</placeName> Eccl(esie)</orgName> p(re)positus <rs
+                            key="#Monasteries">mon(asterii)</rs>
+                        <rs key="#Hospitals">exenedochio</rs>
+                        <orgName key="#Fundi #Petiae #Hay/fodder #Monasteries #Hospitals">S(an)c(t)i
+                            Donati</orgName> accepi a te <persName key="#Priests"><name ref="Leo"
+                                >Leo</name></persName>
+                        <rs key="#Priests">p(res)b(ite)ro</rs> ite(m)q(ue) s(an)c(t)e
+                        Bon(onien)s(is) Eccl(esie) filius q(uon)da(m) <persName><name
+                                ref="Leo/Petronge">Leoni Petronge</name></persName>
+                        <rs key="#Rent_in_money">pensio</rs> p(ro) reb(us) illis in <rs key="#Fundi"
+                            >fund(o)</rs>
+                        <geogName key="#Fundi"><placeName key="#Fundi"
+                            >Salecto</placeName></geogName> et p(ro) <rs key="#Petiae #Hay/fodder"
+                            >petja una t(er)re q(ui) est prato</rs> in loco q(ui) d(icitu)r
+                            <geogName key="#Petiae #Hay/fodder"><placeName key="#Petiae #Hay/fodder"
+                                >Pulia</placeName></geogName>, quas p(er) <rs
+                            key="#Libellus/precaria/emphyteusis">enfiteosin</rs> tenetis ad iura
+                        s(uprascrip)ti mon(asterii), p(ro) om(n)ia sic(ut) in ipsa enfiteosint
+                        leg(itur) in <rs key="#Rent_in_money">arg(ento) den(arium) dimediu(m)</rs>,
+                        indic(ione) detjma. Unde p(ro) m(unimine) v(estro) fa(cio) vob(is) h(oc)
+                        d(eaccepto) in m(ense) mar(cio), ind(icione) s(uprascrip)ta detjma. Scripto
+                        p(er) m(anum) <persName key="#Notary #Priests"><name ref="Iohannes"
+                                >Ioh(ann)es</name></persName><rs key="#Priests"> p(res)b(ite)r</rs>
+                        et <rs key="#Notary">no(tarius)</rs> s(an)c(t)e Bon(onien)s(is) Eccl(esie).
+                        Dominicus p(res)b(ite)r m(anu) m(ea) s(ub)s(cripsi).</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>Mezzetti, <foreign>Le carte</foreign>, pp. 94-95, n° 41.</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
