@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Roma, Archivio di Stato, <foreign>Collezione Pergamene</foreign>,
+                        <foreign>Pomposa</foreign>, cass. 199, nr. 1</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2022">2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DiSCi UniBo</publisher>
+                <idno type="filename">doc2274</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+                </availability>
+                <date when="2022"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property"/>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="1001-11-22">
+                                <note type="displayed_date">1001 November 22</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Ravenna</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace><foreign>Sancta Maria in Pomposia</foreign></origPlace>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-02-03" who="cstedile">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine sanctae et individuae Trinitatis. <persName key="#Emperor/king"
+                            ref="#people/7">Otto tercius</persName> servus apostolorum. Omnium
+                        fidelium nostrorum tam presentium quam et futurorum noverit universitas,
+                        quod nos a domno <persName key="#Archbishops" ref="#people/1568"
+                            >Frederico</persName> sanctae Ravennatis Ecclesiae archie[piscopo]
+                        monasterium Sanctae Mariae in Pomposia per comcambium accipientes, econtra
+                        donavimus sanctae Ravennati Ecclesiae omnia p[l]acita et districtus et
+                        bannum de omni terra sancti Appollinaris et de omnibus episcopatibus sive
+                        comitatibus de quibus precepta habentur in sancta Ravennati Ecclesia. Unde
+                        abbaciam Sancte Mariae in Pomposia ab omni subieccione archiepiscoporum sive
+                        aliorum excutimus, ut regalis sit, nulli dominantium personae subiecta
+                        sintque monachi eius ab omni secularis servitii infestatione securi. Qui de
+                        suis qualem voluerint abbatem eligant ab episcopo Comaclensi consecrandum;
+                        qui si sibi pro pecunia vel pro aliqua humana potestate molestus esse
+                        voluerit, veniat ad archiepiscopum suum Ravennatem ab eo benedicendus ET, si
+                        hoc in isto, quod in priori, invenerit, ad qualemcumque episcopum desideret
+                        causa consecrationis properet. Si quis hoc preceptum fregerit, componat
+                        c[entum] libras auri cocti, medietatem kamere nostrae et medietatem
+                        prelibat[o m]onasterio. Quod ut verius credatur, hanc paginam manu propria
+                        roborata sigillari iussimus. Signum domni Ottonis caesaris invictissimi .
+                        Heribertus cancellarius vice Petri episcopi recognovit . Data X k. decemb.,
+                        anno dominicê incarnationis M primo, indictione XV, anno tercii Ottonis
+                        regnantis XVII, imperii V. Actum Ravenne; feliciter amen.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>Mezzetti, <foreign>Le carte</foreign>, pp. 115-120, n° 52.</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
