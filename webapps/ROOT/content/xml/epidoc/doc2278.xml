@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Montecassino, Archivio privato, Carte di Pomposa, fasc. II, n. 19, v.</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2022">2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DiSCi UniBo</publisher>
+                <idno type="filename">doc2278</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+                </availability>
+                <date when="2022"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Testamentum</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property"/>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate notBefore="0999-09-01" notAfter="1003-01-08">
+                                <note type="displayed_date">Between 999 September 1 and 1003 January
+                                    8</note>
+                                <note type="dating_elements">Mezzetti, <foreign>Le carte</foreign>,
+                                    p. 124: Termine <foreign>post quem</foreign> per la redazione
+                                    della <foreign>rogatio</foreign> è la prima data di attestazione
+                                    del tabellione, anch’essa frutto di congettura (cfr. p. 105 n.
+                                    48); termine <foreign>ante quem</foreign> può invece essere
+                                    considerato il momento della confezione del livello sul
+                                        <foreign>recto</foreign>.</note>
+                                <note type="topical_date"/>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace><foreign>Sancta Maria in Pomposia</foreign></origPlace>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-02-03" who="cstedile">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>[...] <persName><name ref="Lulianus">de Luli[anus]</name></persName> vir
+                        meus unu[m] lon[garium] <rs key="#Saltworks">salinarum</rs> in <placeName
+                            key="#Saltworks">fundam[ento] Sancti Iohanni[s...]</placeName>e qui
+                        vocatur I[...] et unum long[arium salinarum in fundamento ...] [...] cu[m]
+                        solo t[er][re u]bi [...]rainus dederit [... pro] anima mea [...]o uno [...]
+                        et asi[..] [...] uno [so]lo terre sue iusta lato [..] [...] volo [...]o
+                        [ca]then[a] una fumaricia et [... p]lumacio uno et panno [...] et
+                        [...]et[..] una et pro anima mea [...] volo [...] pro anima mea et de
+                        Luliano [..] <rs key="#Landed_possessions">tres porciones de terra</rs> quas
+                        [...] clusuria mea quod est [...] Leo [... r]es et porcion[es ... mi]chi
+                        pertinet et per <rs key="#Libellus/precaria/emphyteusis">enfiteusi[n]</rs>
+                        [...] die [...] ut sit pro anima me[a] [... vo]lo ut abeat <persName><name
+                                ref="Leo">Leo</name></persName> n[.]r[..] [...] et medietate de una
+                        ba[...] [... v]olo [...] <persName key="#Priests"><name
+                                ref="Iohannes/de Abatia">Ioh(anni)s</name></persName>
+                        <rs key="#Priests">presbiter</rs> [qui vocatur de Ab]acia [... v]olo ut
+                        [abeat] [...] volo ut abea[t ...]st id[...]nam ve[...] [...] <persName><name
+                                ref="Maria">Maria</name></persName> ger[mana mea] [...] [...]
+                        Luliano, <persName><name ref="Domenicus">Domini[cu]s</name></persName>,
+                                <persName><name ref="Paulus">Pa[u]llo</name></persName>,
+                                <persName><name ref="Martinus">Martinus</name></persName> de
+                        Ma[...].</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>Mezzetti, <foreign>Le carte</foreign>, p. 124, n° 55.</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
