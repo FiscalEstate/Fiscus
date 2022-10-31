@@ -2613,11 +2613,16 @@
                         <geogName type="coord"><geo>45.33453, 11.24382</geo></geogName>
                         <idno>places/259</idno>
                         <note/>
-                        <link type="estates" corresp="#estates/136" subtype="link"/>
-                        <link type="people" corresp="#people/179" subtype="link"/>
-                        <link type="people" corresp="#people/21" subtype="link"/>
+                        <link type="people" corresp="#people/179" subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/21" subtype="isGrantedBy"/>
                         <link type="juridical_persons" corresp="#juridical_persons/90"
-                            subtype="link"/>
+                            subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/79" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/625" subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/655" subtype="isOwnedBy"/>
+                        <link type="people" corresp="#people/656" subtype="isOwnedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/504"
+                            subtype="rendersCollectedBy"/>
                     </place>
                     <place>
                         <placeName>Canosa di Puglia (Barletta-Andria-Trani)</placeName>
@@ -10176,6 +10181,17 @@
                         <link type="places" corresp="#places/956" subtype="isWithin"/>
                         <link type="places" corresp="#places/593" subtype="isWithin"/>
                         <link type="people" corresp="#people/652" subtype="isManagedBy"/>
+                    </place>
+                    <place>
+                        <placeName><foreign>Begozio</foreign> (Begosso; Verona)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo>45.144879, 11.412117</geo></geogName>
+                        <idno>places/958</idno>
+                        <note/>
+                        <link type="people" corresp="#people/625" subtype="isOwnedBy"/>
+                        <link type="people" corresp="#people/655" subtype="isOwnedBy"/>
+                        <link type="people" corresp="#people/656" subtype="isOwnedBy"/>
+                        <link type="estates" corresp="#estates/1451" subtype="isWithin"/>
                     </place>
                 </listPlace>
                 <listPlace n="Collavini Simone">
