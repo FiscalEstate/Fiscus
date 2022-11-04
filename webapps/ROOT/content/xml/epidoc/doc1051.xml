@@ -94,7 +94,7 @@
                         <placeName key="#Placitum/iudicatum #Missus_regis" ref="#places/1822">in
                             Piscaria</placeName> ad universorum <rs key="#Placitum/iudicatum">causas
                             audiendas</rs> et recta iudicia terminanda resedissent, ibique veniens
-                            <persName key="#Abbots">Leo</persName>
+                            <persName key="#Abbots" ref="#people/668">Leo</persName>
                         <rs key="#Abbots">abba</rs> et <rs
                             key="#Advocatus_of_other_public_authorities">advocatus</rs><orgName
                             key="#Advocatus_of_other_public_authorities #Decima #Public_exactions #Rights_of_use_on_woods/pastures/waters #Monasteries #Abbots"
@@ -107,7 +107,8 @@
                         <rs key="#Advocatus_of_other_public_authorities">advocatos</rs><persName
                             key="#Count #Extortions_by_officers" ref="#people/663"> Goradi
                             </persName><rs key="#Count">comitis</rs> dicentes, quod pars prefati
-                        Goradi <placeName key="#Forests" ref="#places/2492"><rs key="#Forests"
+                        Goradi <placeName key="#Forests #Fiscal_property #Object" ref="#places/2492"
+                                ><rs key="#Forests #Fiscal_property #Textual_occurrence #Object"
                                 >silvam</rs>, que dicitur Hostilia</placeName>, et <rs
                             key="#Hay/fodder">pascua</rs> pertinentem ex iure sancti Zenonis suo
                         iure occupasset inlicite et <rs key="#Extortions_by_officers">contra
@@ -129,32 +130,45 @@
                             key="#Rights_of_use_on_woods/pastures/waters">capuli</rs> seu <rs
                             key="#Decima">decime</rs> et omnem <rs key="#Public_exactions"
                             >exactionem</rs> pertinere absque qualibet in parte aliquod redibitionis
-                        debitum, salvo suo iure in integrum <geogName key="#Fines"
-                            ref="#estates/1138"><rs key="#Fines">territorio</rs>, ubi Hostilia
-                            nuncupatur</geogName>, cuius fines sunt a <rs key="#Rivers"
-                                ><placeName>Pado</placeName></rs> usque<placeName> in caput
-                            Turnioni</placeName> et a <placeName><rs key="#Canals">fossa</rs> Lubia
-                        </placeName>usque ad <placeName>fossam regiam</placeName> et
-                            <placeName>Pollicinem</placeName> iuxta <placeName><geogName><rs
-                                    key="#Castle">castrum</rs> Reueri.</geogName></placeName>
-                        Ideoque ad prefatum sanctum ac venerabilem hos nostrae auctoritatis apices
-                        fieri iussimus, per quos absque qualibet inquietudine ab hinc in futurum
-                        nostra auctoritate teneat iusteque fruendo possideat. Insuper retulit nobis
-                        Rataldus episcopus, cui prefatum monasterium nostra auctoritate ad regendum
-                        commissum erat, eo quod Goradus comes aliquas ei inferat contracausationes
-                        de quibusdam rebus et mancipiis, que olim predecessor prefati Goradi
-                            <persName>Uuluinus</persName> nomine cum episcopo Brixanae <rs
-                            key="#Mother_churches">aecclesiae</rs>
-                        <persName>Chuniberto</persName> nomine <rs key="#Commutatio"
-                            >commutaverat</rs> et econtra sibi placitam acceperat commutationem.
-                        Quae dum utilia post aliquot dies idem Rataldus venerabilis episcopus
-                        prefate sancti Zenonis ecclesiae esse cognovisset, datis in <rs key="#Price"
-                            >recompensatione</rs> parti predictae Brexane ecclesiae congruentibus
-                        rebus et <rs>mancipiis</rs> a <persName>Petro</persName> quondam eiusdem
-                        ecclesiae episcopo commutario ordine parti prenominatae sancti Zenonis
-                        ecclesiae conquisivit ad habendum. Sed quia regiae potestatis missus inter
-                        has defuerat commutationes, pro huiusmodi occasionibus ahimendis, ne ideo ab
-                        eadem ecclesia auferantur, quoniam legaliter absque regio misso non poterant
+                        debitum, salvo suo iure in integrum <geogName
+                            key="#Rivers #Forests #Hay/fodder #Canals #Fines #Decima #Public_exactions #Rights_of_use_on_woods/pastures/waters"
+                            ref="#estates/1138"><rs key="#Fines ">territorio</rs>, ubi Hostilia
+                            nuncupatur</geogName>, cuius fines sunt a <placeName
+                            key="#Rivers #Boundary_settings" ref="#places/4196"><rs
+                                key="#Rivers #Boundary_settings">Pado</rs></placeName>
+                            usque<placeName key="#Boundary_settings">
+                            <rs key="#Boundary_settings">in caput Turnioni</rs></placeName> et a
+                            <placeName key="#Canals #Boundary_settings"><rs
+                                key="#Canals #Boundary_settings">fossa</rs> Lubia </placeName>usque
+                        ad <placeName key="#Boundary_settings #Canals">fossam regiam</placeName> et
+                            <placeName key="#Boundary_settings" ref="#places/959"
+                            >Pollicinem</placeName> iuxta <placeName
+                            key="#Boundary_settings #Castle" ref="#places/2981"><geogName
+                                key="#Castle #Boundary_settings" ref="#estates/1136"><rs
+                                    key="#Castle #Boundary_settings">castrum</rs>
+                            Reueri.</geogName></placeName> Ideoque ad prefatum sanctum ac
+                        venerabilem hos nostrae auctoritatis apices fieri iussimus, per quos absque
+                        qualibet inquietudine ab hinc in futurum nostra auctoritate teneat iusteque
+                        fruendo possideat. Insuper retulit nobis Rataldus episcopus, cui prefatum
+                        monasterium nostra auctoritate ad regendum commissum erat, eo quod Goradus
+                        comes aliquas ei inferat contracausationes de quibusdam rebus et mancipiis,
+                        que olim predecessor prefati Goradi <persName key="#Commutatio #Count"
+                            ref="#people/666">Uuluinus</persName> nomine cum episcopo <orgName
+                            key="#Commutatio #Landed_possessions #Mother_churches #Bishops #Slave"
+                            ref="#juridical_persons/1425">Brixanae <rs key="#Mother_churches"
+                                >aecclesiae</rs></orgName>
+                        <persName key="#Commutatio #Bishops" ref="#people/665">Chuniberto</persName>
+                        nomine <rs key="#Commutatio">commutaverat</rs> et econtra sibi placitam
+                        acceperat commutationem. Quae dum utilia post aliquot dies idem Rataldus
+                        venerabilis episcopus prefate sancti Zenonis ecclesiae esse cognovisset,
+                        datis in <rs key="#Price">recompensatione</rs> parti predictae Brexane
+                        ecclesiae congruentibus <rs key="#Landed_possessions">rebus</rs> et <rs
+                            key="#Slave">mancipiis</rs> a <persName key="#Price #Bishops"
+                            ref="#people/667">Petro</persName> quondam eiusdem ecclesiae episcopo
+                        commutario ordine parti prenominatae sancti Zenonis ecclesiae conquisivit ad
+                        habendum. Sed quia regiae potestatis missus inter has defuerat
+                        commutationes, pro huiusmodi occasionibus ahimendis, ne ideo ab eadem
+                        ecclesia auferantur, quoniam legaliter absque regio misso non poterant
                         commutari, hanc nostram auctoritatem super prefatas commutationes addere
                         libuit, per quas iubemus rate mansurum sanctimus, ut nullus fidelium sancte
                         dei ecclesiae nostrorumque ab hinc in antea inde aliquam parti sepe dicti
@@ -168,11 +182,13 @@
                             <rs key="#Camera_regis">camere nostrae </rs>et medietatem iam dicto
                         monasterio sancti Zenonis, si aliqua contrarietatis violentia illata fuerit.
                         Et ut hoc certissime credatur et diligentius observetur, manu propria
-                        roboravimus et anuli nostri inpressione insigniri iussimus. Dructemirus <rs
-                            key="#Subdeacons">subdiaconus</rs> atque <rs key="#Notary">notarius</rs>
-                        advicem Hermenfredi scripsi (SR. NN.) Data XVIII kl. feb. anno Christo
-                        propitio imperii domni Hludouuici serenissimi imperatoris XX et Hlotharii
-                        XI, indictione XI; actum <placeName
+                        roboravimus et anuli nostri inpressione insigniri iussimus. <persName
+                            key="#Notary #Subdeacons" ref="#people/3906">Dructemirus</persName>
+                        <rs key="#Subdeacons">subdiaconus</rs> atque <rs key="#Notary">notarius</rs>
+                        advicem <persName><name ref="Ermenfredus">Hermenfredi</name></persName>
+                        scripsi (SR. NN.) Data XVIII kl. feb. anno Christo propitio imperii domni
+                        Hludouuici serenissimi imperatoris XX et Hlotharii XI, indictione XI; actum
+                            <placeName
                             key="#Fiscal_property #Textual_occurrence #Mention #Function #Residential #Palatium"
                             ref="#places/275">Mantua</placeName>
                         <rs
