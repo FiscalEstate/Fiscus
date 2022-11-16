@@ -4794,11 +4794,12 @@
                         <link type="people" corresp="#people/3002" subtype="isGrantedBy"/>
                     </place>
                     <place>
-                        <geogName>Gaeta; ducatus</geogName>
+                        <geogName>Gaeta; <foreign>ducatus</foreign></geogName>
                         <geogName type="other"/>
                         <idno>estates/3001</idno>
                         <note/>
                         <link type="people" corresp="#people/3002" subtype="isHeldBy"/>
+                        <link type="people" corresp="#people/3010" subtype="isHeldBy"/>
                     </place>
                     <place>
                         <geogName>Maddaloni; <foreign>fines</foreign></geogName>
@@ -4811,6 +4812,35 @@
                         <geogName type="other"><foreign>Liguria</foreign></geogName>
                         <idno>estates/3003</idno>
                         <note/>
+                    </place>
+                    <place>
+                        <geogName>Marcianofreddo; <foreign>casale</foreign></geogName>
+                        <geogName type="other"/>
+                        <idno>estates/3004</idno>
+                        <note/>
+                        <link type="people" corresp="#people/3010" subtype="isGrantedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="isGrantedTo"/>
+                    </place>
+                    <place>
+                        <geogName><foreign>Gariliani</foreign>; <foreign>villa</foreign></geogName>
+                        <geogName type="other"/>
+                        <idno>estates/3005</idno>
+                        <note>Il toponimo indica una sua plausibile ubicazione presso il corso del
+                            Garigliano. Viene menzionata in proposito della cessione di un prete,
+                            Marius, al monastero di S. Lorenzo d'Aversa. La concessione coinvolgeva
+                            plausibilmente anche i beni, le dipendenze, i villici e i canoni del
+                            suddetto. </note>
+                    </place>
+                    <place>
+                        <geogName><foreign>Patria</foreign>; <foreign>gualdus</foreign></geogName>
+                        <geogName type="other"/>
+                        <idno>estates/3006</idno>
+                        <note/>
+                        <link type="places" corresp="#places/701" subtype="proximity" cert="low"/>
+                        <link type="people" corresp="#people/3010" subtype="isConfirmedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="isConfirmedTo"/>
                     </place>
                 </listPlace>
                 <listPlace n="Del Mercato Evelina">
@@ -11416,7 +11446,9 @@
                     </place>
                     <place>
                         <geogName>Tassinum; <foreign>fundus</foreign></geogName>
-                        <geogName type="other"/>
+                        <geogName type="other"><foreign>Tassini</foreign>;
+                            <foreign>Taxeni</foreign>; <foreign>Tasine</foreign>;
+                                <foreign>Fussione</foreign>.</geogName>
                         <idno>estates/2436</idno>
                         <note>Griguolo, Gallo, <foreign>I cartulari</foreign>, p. 115.</note>
                         <link type="places" corresp="#places/3532" subtype="correspondsTo"/><link
