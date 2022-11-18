@@ -10450,6 +10450,7 @@
                         <idno>places/4002</idno>
                         <note/>
                         <link type="estates" corresp="#estates/3000" subtype="correspondsTo"/>
+                        <link type="people" corresp="#people/3010" subtype="isConfirmedBy"/>
                     </place>
                     <place>
                         <placeName>Acerra (Napoli)</placeName>
@@ -10459,12 +10460,11 @@
                         <note/>
                     </place>
                     <place>
-                        <placeName>Maddaloni (Caserta)</placeName>
-                        <placeName type="other"><foreign>Macdaloni</foreign></placeName>
-                        <geogName type="coord"><geo>41.034367, 14.379515</geo></geogName>
+                        <placeName>XXX</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo/></geogName>
                         <idno>places/4004</idno>
                         <note/>
-                        <link type="estates" corresp="#estates/3002" subtype="isWithin"/>
                     </place>
                     <place>
                         <placeName>Casolla (fraz. di Caivano; Napoli)</placeName>
@@ -10533,7 +10533,7 @@
                         <note/>
                     </place>
                     <place>
-                        <placeName>Domicella</placeName>
+                        <placeName>Domicella (Avellino)</placeName>
                         <placeName type="other"/>
                         <geogName type="coord"><geo>40.88099368378448,
                             14.59266943363476</geo></geogName>
@@ -10550,6 +10550,65 @@
                         <link type="juridical_persons" corresp="#juridical_persons/3000"
                             subtype="rendersCollectedBy"/>
                         <link type="people" corresp="#people/3010" subtype="isGrantedBy"/>
+                    </place>
+                    <place>
+                        <placeName><foreign>Pontem silicis</foreign> (Caserta)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo style="line">41.02093276940471,
+                                14.188582921487157; 40.9840385162592, 14.195697355631879;
+                                40.999544069367616, 14.32240469663685; 41.0179082730574,
+                                14.316996690007578</geo></geogName>
+                        <idno>places/4015</idno>
+                        <note>Il luogo prendeva il nome da un ponte sul fiume Clanio - o forse
+                            trattasi del ponte medesimo. Nell'impossibilità di ricostruire con
+                            precisione il tortuoso corso antico del fiume Clanio e individuare il
+                            sito in questione, è possibile quantomeno circoscriverne
+                            approsimativamente l'ubicazione all'area tra Teverola e Marcianise
+                            (Caserta). A questa località pertinevano due mulini menzionati in un
+                            diploma di conferma dei beni di S. Lorenzo d'Aversa.</note>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="link"/>
+                        <link type="people" corresp="#people/3010" subtype="isConfirmedBy"/>
+                    </place>
+                    <place>
+                        <placeName>Calabricito (Caserta)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo>41.01408076405787,
+                            14.392311603185215</geo></geogName>
+                        <idno>places/4016</idno>
+                        <note>Il testo del diploma di Riccardo II di Capua presenta numerose
+                            corruttele, ma risulta evidente che al monastero di S. Lorenzo d'Aversa,
+                            tra I vari beni concessi e confermati, ve ne fossero alcuni -
+                            impossibili da identificare, ma forse comprendenti un mulino - in
+                            località "...labricitam". Libertini (RNAM V, doc. 444) propone di
+                            emendare il testo in "Calabricitam". Se si accetta la proposta di
+                            Libertini, essa può essere identificata con il comune odierno di
+                            Calabricito.</note>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="link"/>
+                        <link type="people" corresp="#people/3010" subtype="isConfirmedBy"/>
+                    </place>
+                    <place>
+                        <placeName><foreign>Rapale</foreign></placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo/></geogName>
+                        <idno>places/4017</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="rendersCollectedBy"/>
+                        <link type="people" corresp="#people/3010" subtype="isConfirmedBy"/>
+                    </place>
+                    <place>
+                        <placeName><foreign>Piponis</foreign> (Caserta)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo>41.013917535382014,
+                            14.199389706513601</geo></geogName>
+                        <idno>places/4018</idno>
+                        <note>Villaggio scomparso ubicato nel territorio di Casaluce (Libertini
+                            2011)</note>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/3010" subtype="isConfirmedBy"/>
                     </place>
                 </listPlace>
                 <listPlace n="Del Mercato Evelina">
@@ -15852,13 +15911,18 @@
                     </place>
                     <place>
                         <placeName>Maddaloni (Caserta)</placeName>
-                        <placeName type="other"><foreign>Mataluni</foreign></placeName>
+                        <placeName type="other"><foreign>Mataluni</foreign>;
+                                <foreign>Macdaloni</foreign>;
+                            <foreign>Matarono</foreign></placeName>
                         <geogName type="coord"><geo>41.036702324304805,
                             14.381140632775342</geo></geogName>
                         <idno>places/3444</idno>
                         <note>Microtoponomastica: <foreign>Sancta Maria a cappella ubi Grauzufuli
                                 vocatur </foreign>; <foreign>Sausilianu o Sasillanu</foreign>;
                                 <foreign>Asenareca</foreign></note>
+                        <link type="estates" corresp="#estates/3002" subtype="isWithin"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="rendersCollectedBy"/>
                     </place>
                     <place>
                         <placeName><foreign>Sanctus Stephanus inter flumina</foreign>
@@ -21558,7 +21622,7 @@
                         <link type="estates" corresp="#estates/1916" subtype="isWithin"/>
                     </place>
                     <place>
-                        <placeName>Clanio (Caerta) flumen</placeName>
+                        <placeName>Clanio; flumen (Caserta)</placeName>
                         <placeName type="other">Lanius; Laneo; Lagno</placeName>
                         <geogName type="coord"><geo style="line">40.945416, 14.034755; 41.001388,
                                 14.175304; 40.974766, 14.40484; 40.926543, 14.364149; 40.915286,
@@ -21571,6 +21635,8 @@
                         <link type="people" corresp="#people/401" subtype="isGrantedTo"/>
                         <link type="juridical_persons" corresp="#juridical_persons/84"
                             subtype="dependsOn"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="link"/>
                     </place>
                     <place>
                         <placeName>Campoli Appennino (L'Aquila)</placeName>
