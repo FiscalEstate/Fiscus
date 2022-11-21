@@ -30,10 +30,10 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="#">-</rs>
-                            <rs type="record_source" ref="#"/>
-                            <rs type="document_tradition" ref="#"/>
-                            <rs type="fiscal_property"/>
+                            <rs type="text_type" ref="#">--Venditio</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property">No</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -45,13 +45,14 @@
                             
                             
                              <origDate when="0890-02-09">
-                                <note type="displayed_date"/>
+                                <note type="displayed_date">890 February 9</note>
                                 <note type="dating_elements"/>
                                 <note type="topical_date"/>
                                 <note type="redaction_date"/>
                             </origDate>
                                 
-                            <origPlace/>
+                            <origPlace>Sanctus Martinus de Cociano; plebs (Crevalcore;
+                                Bologna)</origPlace>
                         </origin>
                         <provenance type="findspot">
                             <location>
@@ -85,13 +86,39 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>Gariburga del fu Everardo di Levizzano Rangone, col consenso del suo
-                        avvocato Teoprando, vende alla chiesa di S. Martino di Cozzano, nella
-                        persona di Pietro diacono e preposito, tutti i suoi beni</ab>
+                    <ab><persName key="#Wine"><name ref="Gariberga">Gariburga</name></persName> del fu
+                                <persName><name ref="Everardus">Everardo</name></persName> di
+                            <placeName ref="#places/1595">Levizzano Rangone</placeName>, col
+                        consenso del suo <rs key="#Advocatus">avvocato</rs>
+                        <persName key="#Advocatus"><name ref="Teudebrandus">Teoprando</name></persName>, vende alla
+                        <rs key="#Churches">chiesa</rs> di <orgName key="#Wine #Prevosts #Deacons #Churches"
+                            ref="#juridical_persons/1107">S. Martino</orgName> di <placeName key="#Churches"
+                                ref="#places/1590">Cozzano</placeName>, nella persona di <persName key="#Prevosts #Deacons"><name
+                                ref="Petrus">Pietro</name></persName>
+                        <rs key="#Deacons">diacono</rs> e <rs key="#Prevosts">preposito</rs>, tutti
+                        i suoi beni, tra cui delle <rs key="#Wine">vigne</rs>, al <rs key="#Price"
+                            >prezzo</rs> di sedici soldi. Il detto prezzo «fuit misso directus da
+                        pars predicta ecclesie Sancti Martini et Petroni diacono ad ipsum precium
+                        dandum nomine <persName key="#Medical_doctors"><name ref="Natale">Natale</name></persName>
+                        <rs key="#Medical_doctors">medicus</rs>». ... «Signo + manu suprascripti
+                        Gariburgi vinditrice qui fieri rogavit, cui relectum est. Signo + manu
+                        suprascripti Teoprandi [advoca]tor[e eius suprascripti] Gariburgi qui eidem
+                        consensit et manu sua posuit. Signo +++++ manibus <persName key="#Vir_devotus/vir_honestus #Witness"><name
+                            ref="Robertus">Roperti</name></persName> et <persName key="#Vir_devotus/vir_honestus #Witness"><name
+                                ref="Damianus">Damiani</name></persName> et <persName key="#Vir_devotus/vir_honestus #Witness"><name
+                                    ref="Rainbertus">Ragiverti</name></persName> et <persName key="#Vir_devotus/vir_honestus #Witness"><name
+                                ref="Martinus">Martini</name></persName> [et ..5.. vir devotus] <rs
+                            key="#Vir_devotus/vir_honestus">vir devotus</rs>, vir devotus, vir
+                        devotus, vir devotus rogatis <rs key="#Witness">testis</rs>. + <rs
+                            key="#Writer">Scripta</rs> cartula vindicioni per manu <persName key="#Notary #Writer"><name
+                                ref="Gisbertus">Giseverti</name></persName>
+                        <rs key="#Notary">notario</rs> p[ostra]dicta co[n]plevit et dedit et
+                        roboratam ad testibus tradic[ta conplevit] et dedit et coram testibus
+                        relegebit».</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p>ChLA 89, 25</p>
+                <p>ChLA 89, 25.</p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p/>
