@@ -7341,6 +7341,9 @@
                         <link type="people" corresp="#people/2492" subtype="isConfirmedBy"/>
                         <link type="people" corresp="#people/2449" subtype="isConfirmedTo"/>
                         <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/3010" subtype="isConfirmedBy"/>
                     </place>
                     <place>
                         <placeName>Montebamboli (Massa Marittima; Grosseto)</placeName>
@@ -10456,6 +10459,8 @@
                         <note>Villaggio scomparso nel territorio di Casaluce (Libertini 2011)</note>
                         <link type="estates" corresp="#estates/3000" subtype="correspondsTo"/>
                         <link type="people" corresp="#people/3010" subtype="isConfirmedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="rendersCollectedBy"/>
                     </place>
                     <place>
                         <placeName>Acerra (Napoli)</placeName>
@@ -10482,6 +10487,9 @@
                         <link type="juridical_persons" corresp="#juridical_persons/3000"
                             subtype="isGrantedTo"/>
                         <link type="people" corresp="#people/3002" subtype="isGrantedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/3010" subtype="isConfirmedBy"/>
                     </place>
                     <place>
                         <placeName>Marcianofreddo (fraz. di Alvignano; Caserta)</placeName>
@@ -10591,7 +10599,7 @@
                         <idno>places/4016</idno>
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/3000"
-                            subtype="link"/>
+                            subtype="rendersCollectedBy"/>
                         <link type="people" corresp="#people/3010" subtype="isConfirmedBy"/>
                     </place>
                     <place>
@@ -10617,6 +10625,8 @@
                             subtype="isConfirmedTo"/>
                         <link type="people" corresp="#people/3010" subtype="isConfirmedBy"/>
                         <link type="places" corresp="#places/2337" subtype="proximity"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="rendersCollectedBy"/>
                     </place>
                     <place>
                         <placeName><foreign>Ceraso</foreign></placeName>
@@ -10632,6 +10642,34 @@
                         <idno>places/4020</idno>
                         <note>Impossibile da localizzare con precisione, sorgeva nella campagna di
                             Aversa (Libertini 2011)</note>
+                    </place>
+                    <place>
+                        <placeName>Montanaro (fraz. di Francolise; Caserta)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo>41.20397708152307,
+                            14.075927204092917</geo></geogName>
+                        <idno>places/4021</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="rendersCollectedBy"/>
+                    </place>
+                    <place>
+                        <placeName>Pantano (Acerra; Napoli)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo>40.97383719269404,
+                            14.373596105053892</geo></geogName>
+                        <idno>places/4022</idno>
+                        <note/>
+                        <link type="places" corresp="#places/4003" subtype="proximity"/>
+                        <link type="places" corresp="#places/4023" subtype="proximity"/>
+                    </place>
+                    <place>
+                        <placeName><foreign>Suessola</foreign> (Acerra; Napoli)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo>40.98981248963761,
+                            14.398913533788507</geo></geogName>
+                        <idno>places/4023</idno>
+                        <note/>
                     </place>
                 </listPlace>
                 <listPlace n="Del Mercato Evelina">
@@ -20557,8 +20595,8 @@
                     </place>
                     <place>
                         <placeName>Carinola (Caserta)</placeName>
-                        <placeName type="other"><foreign>Calino</foreign>;
-                            <foreign>Calmo</foreign></placeName>
+                        <placeName type="other"><foreign>Calino</foreign>; <foreign>Calmo</foreign>;
+                                <foreign>Calme</foreign></placeName>
                         <geogName type="coord"><geo>41.170384, 14.015121</geo></geogName>
                         <idno>places/2363</idno>
                         <note>Calino andrebbe identificata con Calinoli, oggi Carinola (Libertini
