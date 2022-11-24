@@ -32,7 +32,7 @@
                             <rs type="text_type" ref="#">--Libellus/precaria/emphyteusis</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Original</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -81,37 +81,54 @@
             <div type="edition">
                 <div type="textpart">
                     <ab>[In nomine P]atris et Filii et Spiritu Sancti. Anno Deo propicio
-                        pontificatus domni nostri Ioh(anni)s summi pontifici et [u]niversalis pape
-                        in apostolica sacratissima beati Petri apostoli Domini sede tercio, regnante
-                        vero domnus Enricus rex in Italia sede anno tercio, die vigesimo mense
-                        december, indicione quart[a], Cumiaclo. Petimus at vobis in Dei nomine
-                        domnus Ioh(anne)s gr(aci)a Dei presbiter et monachus atque abate regule
-                        mon(asterii) Sancte Marie qui vocatur in Pomposia, una per consensum et
-                        auctoritatem congregacionem et deserviencium eiusdem mon(asterii), uti nobis
-                        in Christi nomine Iulianus qui vocatur Venetico et Gualderada iugal(is), et
-                        si unum ante alium mortuo fuerit sine filiis cadeant at ipsum qui
-                        supervixerit, in nostrisque filiis et heredibus livellarii nomine
-                        concedistis et largist[is] atque confirmastis nobis rem iuris vestris
-                        suprascripto mon(asterio), idest una pecia terre cum etdifficio super se
-                        abentem, asibus clausa, colonellis contructa, canniculis tecta, qui est
-                        posita istius Cumiaclo, in regione Sancte Marie qui vocatur Fermonsa,
-                        habentem in longitudinem suam pedes sedecim et simisse uno et in latitudinem
-                        suam pedes quindecim et simisse uno; hat duobus lateribus pos(idente)
-                        Romualdo filio Dominicus seo at tercio latere iuris ipsius mon(asterii)
-                        atque at quar[t]o latere androna de comune et sibi pertinentibus qui
-                        decurrit at plathea publica, et at suprascripta rem vel at prenominato
-                        accesso et ipso accesso etsiente per ribo quamque et per terra andito at
-                        canal(em) da campo qui vocatur da Boria, cum ingresso et egresso suo et cum
-                        omnibus at easdem pertinentibus sicut superius legitur; eas abendum,
-                        tenendum, possidendum, defensandum et in omnibus meliorandum in annis
-                        atvenientibus viginti et novem at renovandum salva sanacione domnica dandum.
-                        Ita sane ut inferatis domnice racionibus vobis vestrisque sucessoribus dare
-                        debeamus singulis quibusque anni omne festivitate sancte Marie in mense
-                        agusto infra indicione den(arios) decem tantum pensionem ut dictum est
-                        persolvatur. Pro quia exinde accepistis de manibus nostris suprascriptis
-                        petitoris in manibus tuis suprascripto domno Ioh(anne)s abb(ate) in
-                        pres(encia) testium, qui ic supter supscripturi sunt, calciarii nomine,
-                        idest duppla una pro in arientum sol(idis) decem et per unumquemque
+                        pontificatus domni nostri <persName key="#Popes" ref="#people/1572"
+                            >Ioh(anni)s</persName> summi pontifici et [u]niversalis <rs key="#Popes"
+                            >pape</rs> in apostolica sacratissima beati Petri apostoli Domini sede
+                        tercio, regnante vero domnus <persName key="#Emperor/king" ref="#people/130"
+                            >Enricus</persName>
+                        <rs key="#Emperor/king">rex</rs> in Italia sede anno tercio, die vigesimo
+                        mense december, indicione quart[a], <placeName ref="#places/485"
+                            >Cumiaclo</placeName>. Petimus at vobis in Dei nomine domnus <persName
+                            key="#Priests #Abbots #Monks" ref="#people/1569">Ioh(anne)s</persName>
+                        gr(aci)a Dei <rs key="#Priests">presbiter</rs> et <rs key="#Monks"
+                            >monachus</rs> atque <rs key="#Abbots">abate</rs> regule <rs
+                            key="#Monasteries">mon(asterii)</rs>
+                        <orgName key="#Monasteries" ref="#juridical_persons/1460">Sancte Marie qui
+                            vocatur in <placeName ref="#places/4179">Pomposia</placeName></orgName>,
+                        una per consensum et auctoritatem congregacionem et deserviencium eiusdem
+                        mon(asterii), uti nobis in Christi nomine <persName><name
+                                ref="Iulianus/Venetico">Iulianus qui vocatur
+                            Venetico</name></persName> et <persName><name ref="Waldrada"
+                                >Gualderada</name></persName> iugal(is), et si unum ante alium
+                        mortuo fuerit sine filiis cadeant at ipsum qui supervixerit, in nostrisque
+                        filiis et heredibus <rs key="#Libellus/precaria/emphyteusis">livellarii
+                            nomine</rs> concedistis et largist[is] atque confirmastis nobis rem
+                        iuris vestris suprascripto mon(asterio), idest una <rs key="#Petiae">pecia
+                            terre</rs> cum <rs key="#Houses">etdifficio</rs> super se abentem,
+                        asibus clausa, colonellis contructa, canniculis tecta, qui est posita istius
+                        Cumiaclo, in regione <orgName ref="#juridical_persons/1481">Sancte Marie qui
+                            vocatur Fermonsa</orgName>, habentem in <rs key="#Size">longitudinem
+                            suam pedes sedecim et simisse uno et in latitudinem suam pedes quindecim
+                            et simisse uno</rs>; hat duobus lateribus pos(idente) <persName
+                            key="#Confinia"><name ref="Romualdus">Romualdo</name></persName> filio
+                                <persName><name ref="Domenicus">Dominicus</name></persName> seo at
+                            <rs key="#Confinia">tercio latere iuris ipsius mon(asterii)</rs> atque
+                        at quar[t]o latere <rs key="#Confinia">androna de comune</rs> et sibi
+                        pertinentibus qui decurrit at <rs key="#Roads">plathea publica</rs>, et at
+                        suprascripta rem vel at prenominato accesso et ipso accesso etsiente per <rs
+                            key="#Rivers">ribo</rs> quamque et per terra andito at <rs key="#Canals"
+                            >canal(em)</rs> da campo qui vocatur da <placeName
+                            key="#Landed_possessions #Canals">Boria</placeName>, cum ingresso et
+                        egresso suo et cum omnibus at easdem pertinentibus sicut superius legitur;
+                        eas abendum, tenendum, possidendum, defensandum et in omnibus meliorandum in
+                        annis atvenientibus viginti et novem at renovandum salva sanacione domnica
+                        dandum. Ita sane ut inferatis domnice racionibus vobis vestrisque
+                        sucessoribus dare debeamus singulis quibusque anni omne festivitate sancte
+                        Marie in mense agusto infra indicione den(arios) decem tantum pensionem ut
+                        dictum est persolvatur. Pro quia exinde accepistis de manibus nostris
+                        suprascriptis petitoris in manibus tuis suprascripto domno Ioh(anne)s
+                        abb(ate) in pres(encia) testium, qui ic supter supscripturi sunt, calciarii
+                        nomine, idest duppla una pro in arientum sol(idis) decem et per unumquemque
                         sol(idum) ana den(arii) duodecim. Si quis vero pars nostrum contra os
                         libello ire temtaverimus ante perfinitum tempus sicut superius legitur, det
                         pars partis fidem servantis ante omnis litis inicium aut interpellacionem
