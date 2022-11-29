@@ -313,6 +313,8 @@
                         <link type="estates" corresp="#estates/193" subtype="isWithin"/>
                         <link type="people" corresp="#people/37" subtype="isConfirmedBy"/>
                         <link type="people" corresp="#people/173" subtype="isConfirmedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/2001"
+                            subtype="isGrantedTo"/>
                     </place>
                     <place>
                         <geogName>Lucca; <foreign>curtis</foreign></geogName>
@@ -337,7 +339,7 @@
                             Angelberga). Cf. anche Manarini 2017, nota 125.</note>
                         <link type="juridical_persons" corresp="#juridical_persons/53"
                             subtype="isHeldBy"/>
-                        <link type="places" corresp="#places/362" subtype="proximity"/>
+                        <link type="places" corresp="#places/362" subtype="correspondsTo"/>
                         <link type="people" corresp="#people/79" subtype="isConfirmedBy"/>
                         <link type="people" corresp="#people/233" subtype="isConfirmedBy"/>
                         <link type="people" corresp="#people/234" subtype="isConfirmedBy"/>
@@ -4824,6 +4826,8 @@
                         <link type="juridical_persons" corresp="#juridical_persons/3000"
                             subtype="isConfirmedTo"/>
                         <link type="people" corresp="#people/3010" subtype="isConfirmedBy"/>
+                        <link type="places" corresp="#places/4006" subtype="correspondsTo"/>
+                        <link type="people" corresp="#people/3019" subtype="isConfirmedBy"/>
                     </place>
                     <place>
                         <geogName><foreign>Gariliani</foreign>; <foreign>villa</foreign></geogName>
@@ -4843,9 +4847,8 @@
                         <idno>estates/3006</idno>
                         <note/>
                         <link type="places" corresp="#places/701" subtype="proximity" cert="low"/>
-                        <link type="people" corresp="#people/3010" subtype="isConfirmedBy"/>
                         <link type="juridical_persons" corresp="#juridical_persons/3000"
-                            subtype="isConfirmedTo"/>
+                            subtype="rendersCollectedBy"/>
                     </place>
                     <place>
                         <geogName><foreign>Campum Landonis</foreign>;
@@ -4863,6 +4866,39 @@
                         <idno>estates/3008</idno>
                         <note/>
                         <link type="places" corresp="#places/4025" subtype="correspondsTo"/>
+                    </place>
+                    <place>
+                        <geogName>Clanio; <foreign>fines</foreign></geogName>
+                        <geogName type="other"><foreign>Laneus</foreign></geogName>
+                        <idno>estates/3009</idno>
+                        <note/>
+                        <link type="places" corresp="#places/2865" subtype="correspondsTo"/>
+                    </place>
+                    <place>
+                        <geogName>Ceraso; <foreign>startia</foreign></geogName>
+                        <geogName type="other"/>
+                        <idno>estates/3010</idno>
+                        <note><foreign>Startia</foreign> è sinonimo di <foreign>campus</foreign> (Du
+                            Cange): trattasi di un generico appezzamento di terra, probabilmente di
+                            natura compatta, non inframmezzato da terre altrui.</note>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/3010" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/3019" subtype="isConfirmedBy"/>
+                        <link type="places" corresp="#places/4019" subtype="correspondsTo"/>
+                    </place>
+                    <place>
+                        <geogName>Ad Duplum; <foreign>startia</foreign></geogName>
+                        <geogName type="other"/>
+                        <idno>estates/3011</idno>
+                        <note><foreign>Startia</foreign> è sinonimo di <foreign>campus</foreign>
+                            (DuCange): trattasi di un generico appezzamento di terra, probabilmente
+                            di natura compatta, non inframmezzato da terre altrui.</note>
+                        <link type="places" corresp="#places/4034" subtype="correspondsTo"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/3010" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/3019" subtype="isConfirmedTo"/>
                     </place>
                 </listPlace>
                 <listPlace n="Del Mercato Evelina">
@@ -4954,7 +4990,8 @@
                     </place>
                     <place>
                         <geogName>Quistello; <foreign>curtis</foreign></geogName>
-                        <geogName type="other"><foreign>Custello</foreign></geogName>
+                        <geogName type="other"><foreign>Custello</foreign>;
+                                <foreign>Crustellum</foreign></geogName>
                         <idno>estates/2007</idno>
                         <note/>
                         <link type="places" corresp="#places/2417" subtype="correspondsTo"/>
@@ -4968,6 +5005,8 @@
                         <link type="places" corresp="#places/4196" subtype="bordersOn"/>
                         <link type="places" corresp="#places/4408" subtype="bordersOn"/>
                         <link type="people" corresp="#people/52" subtype="isConfirmedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/53"
+                            subtype="isGrantedTo"/>
                     </place>
                     <place>
                         <geogName>Corfino; <foreign>curtis</foreign></geogName>

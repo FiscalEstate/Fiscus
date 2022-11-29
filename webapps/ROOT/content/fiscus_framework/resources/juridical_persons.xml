@@ -3242,7 +3242,10 @@
                         <orgName>Sanctus Blasius; monasterium (Aversa; Caserta)</orgName>
                         <orgName type="other"/>
                         <idno>juridical_persons/3001</idno>
-                        <note>Si trova a circa 500m dal monastero di San Lorenzo ad Septimum</note>
+                        <note>Si trova a circa 500m dal monastero di San Lorenzo ad Septimum. In un
+                            diploma di Riccardo II in favore di S. Biagio (RNAM V, doc. 505), viene
+                            specificato che trattasi di un monastero femminile (<foreign>monasterium
+                                puellarum</foreign>). </note>
                         <link type="juridical_persons" corresp="#juridical_persons/3000"
                             subtype="isGrantedTo"/>
                         <link type="people" corresp="#people/3002" subtype="isGrantedBy"/>
@@ -3250,6 +3253,8 @@
                         <link type="juridical_persons" corresp="#juridical_persons/3000"
                             subtype="isConfirmedTo"/>
                         <link type="places" corresp="#places/4000" subtype="isWithin"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="dependsOn"/>
                     </org>
                     <org>
                         <orgName>Sanctus Archangelus Terraczanus; ecclesia (Fuorigrotta;
@@ -3280,6 +3285,7 @@
                         <link type="people" corresp="#people/3002" subtype="isConfirmedBy"/>
                         <link type="people" corresp="#people/3010" subtype="isConfirmedBy"/>
                         <link type="places" corresp="#places/4003" subtype="isWithin"/>
+                        <link type="people" corresp="#people/3019" subtype="isConfirmedBy"/>
                     </org>
                     <org>
                         <orgName>Sanctus Severinus; cella et ecclesia (Acerra; Napoli)</orgName>
@@ -3291,6 +3297,7 @@
                         <link type="people" corresp="#people/3002" subtype="isConfirmedBy"/>
                         <link type="places" corresp="#places/4003" subtype="isWithin"/>
                         <link type="people" corresp="#people/3010" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/3019" subtype="isConfirmedBy"/>
                     </org>
                     <org>
                         <orgName>Sancta Maria que dicitur ad la spelunca; cella et ecclesia
@@ -3310,6 +3317,7 @@
                         <link type="juridical_persons" corresp="#juridical_persons/3000"
                             subtype="isConfirmedTo"/>
                         <link type="people" corresp="#people/3010" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/3019" subtype="isConfirmedBy"/>
                     </org>
                     <org>
                         <orgName>Sanctus Laurentius; monasterium (Capua; Caserta)</orgName>
@@ -3318,10 +3326,11 @@
                         <note>Secondo Aldo Cecere
                             (http://web.tiscalinet.it/arte_aversa/E-Rubrica/4-San%20Lorenzo.htm) il
                             cenobio di San Lorenzo di Capua (cfr. RNAM 2011, V, doc. 210bis, 213 e
-                            250), di cui non sono mai state rinvenute vestigia, va identificato con
-                            il monastero di San Lorenzo ad Septimum. Ma un diploma di Giordano I e
-                            Riccardo II, in cui S. Lorenzo di Capua viene ceduto a S. Lorenzo di
-                            Aversa, rende insostenibile questa interpretazione.</note>
+                            250), di cui non sono mai state rinvenute vestigia, deve essere
+                            identificato con il monastero di San Lorenzo ad Septimum. Ma diversi
+                            diplomi (di Giordano I, Riccardo II e Roberto I), in cui S. Lorenzo di
+                            Capua viene ceduto a S. Lorenzo di Aversa, rendono insostenibile questa
+                            interpretazione.</note>
                         <link type="juridical_persons" corresp="#juridical_persons/3000"
                             subtype="isGrantedTo"/>
                         <link type="people" corresp="#people/3010" subtype="isGrantedBy"/>
@@ -3329,6 +3338,7 @@
                         <link type="juridical_persons" corresp="#juridical_persons/3000"
                             subtype="isConfirmedTo"/>
                         <link type="people" corresp="#people/3010" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/3019" subtype="isConfirmedBy"/>
                     </org>
                     <org>
                         <orgName>Sanctus Andreas; ecclesia (Carinola; Caserta)</orgName>
@@ -3342,6 +3352,7 @@
                         <link type="juridical_persons" corresp="#juridical_persons/3000"
                             subtype="isConfirmedTo"/>
                         <link type="people" corresp="#people/3010" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/3019" subtype="isConfirmedBy"/>
                     </org>
                     <org>
                         <orgName>Sancta Maria; ecclesia (Mignano Monte Lungo; Caserta)</orgName>
@@ -3352,6 +3363,7 @@
                         <link type="people" corresp="#people/3010" subtype="isConfirmedBy"/>
                         <link type="juridical_persons" corresp="#juridical_persons/3000"
                             subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/3019" subtype="isConfirmedBy"/>
                     </org>
                     <org>
                         <orgName>Sanctus Andreas; ecclesia (Sessa Aurunca; Caserta)</orgName>
@@ -3365,12 +3377,15 @@
                         <link type="juridical_persons" corresp="#juridical_persons/3000"
                             subtype="isConfirmedTo"/>
                         <link type="people" corresp="#people/3010" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/3019" subtype="isConfirmedBy"/>
                     </org>
                     <org>
                         <orgName>Sancta Crux; monasterium (Caiazzo; Caserta)</orgName>
                         <orgName type="other"/>
                         <idno>juridical_persons/3010</idno>
-                        <note/>
+                        <note>Il monastero di Santa Croce <foreign>in Calatiae</foreign> (RNAM, doc.
+                            534) è evidente errore dello scriba, da emendare con
+                                <foreign>Caiatie</foreign></note>
                         <link type="juridical_persons" corresp="#juridical_persons/3000"
                             subtype="isGrantedTo"/>
                         <link type="people" corresp="#people/3010" subtype="isGrantedBy"/>
@@ -3378,9 +3393,10 @@
                         <link type="people" corresp="#people/3010" subtype="isConfirmedBy"/>
                         <link type="juridical_persons" corresp="#juridical_persons/3000"
                             subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/3019" subtype="isConfirmedBy"/>
                     </org>
                     <org>
-                        <orgName>Sancta Reparata et Sanctus Blasius; ecclesia </orgName>
+                        <orgName>Sancta Reparata; ecclesia </orgName>
                         <orgName type="other"/>
                         <idno>juridical_persons/3011</idno>
                         <note/>
@@ -3390,6 +3406,7 @@
                         <link type="juridical_persons" corresp="#juridical_persons/3000"
                             subtype="isConfirmedTo"/>
                         <link type="people" corresp="#people/3010" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/3019" subtype="isConfirmedBy"/>
                     </org>
                     <org>
                         <orgName>Sancta Maria; ecclesia (Giugliano in Campania; Napoli)</orgName>
@@ -3413,6 +3430,7 @@
                         <link type="juridical_persons" corresp="#juridical_persons/3000"
                             subtype="isConfirmedTo"/>
                         <link type="people" corresp="#people/3010" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/3019" subtype="isConfirmedBy"/>
                     </org>
                     <org>
                         <orgName>Sancta Maria; ecclesia (Domicella; Avellino)</orgName>
@@ -3426,6 +3444,7 @@
                         <link type="juridical_persons" corresp="#juridical_persons/3000"
                             subtype="isConfirmedTo"/>
                         <link type="people" corresp="#people/3010" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/3019" subtype="isConfirmedBy"/>
                     </org>
                     <org>
                         <orgName>Sanctus Angelus; ecclesia (Lauro; Avellino)</orgName>
@@ -3439,6 +3458,7 @@
                         <link type="juridical_persons" corresp="#juridical_persons/3000"
                             subtype="isConfirmedTo"/>
                         <link type="people" corresp="#people/3010" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/3019" subtype="isConfirmedBy"/>
                     </org>
                     <org>
                         <orgName>Sanctus Angelus de Monte christi; ecclesia </orgName>
@@ -3452,10 +3472,10 @@
                         <link type="juridical_persons" corresp="#juridical_persons/3000"
                             subtype="isConfirmedTo"/>
                         <link type="people" corresp="#people/3010" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/3019" subtype="isConfirmedBy"/>
                     </org>
                     <org>
-                        <orgName>Sancta Dei genitrix et virgo Maria; ecclesia (Maddaloni;
-                            Caserta)</orgName>
+                        <orgName>Sancta Maria; ecclesia (Maddaloni; Caserta)</orgName>
                         <orgName type="other"/>
                         <idno>juridical_persons/3017</idno>
                         <note/>
@@ -3477,6 +3497,7 @@
                         <link type="people" corresp="#people/3010" subtype="isConfirmedBy"/>
                         <link type="juridical_persons" corresp="#juridical_persons/3000"
                             subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/3019" subtype="isConfirmedBy"/>
                     </org>
                     <org>
                         <orgName>Sanctus Petrus; ecclesia (Capua; Caserta)</orgName>
@@ -3507,6 +3528,7 @@
                             subtype="isConfirmedTo"/>
                         <link type="people" corresp="#people/3010" subtype="isConfirmedBy"/>
                         <link type="places" corresp="#places/4022" subtype="isWithin"/>
+                        <link type="people" corresp="#people/3019" subtype="isConfirmedBy"/>
                     </org>
                     <org>
                         <orgName>Sancta Maria; ecclesia (Casolla; Caivano; Napoli)</orgName>
@@ -3517,6 +3539,7 @@
                         <link type="people" corresp="#people/3010" subtype="isConfirmedBy"/>
                         <link type="juridical_persons" corresp="#juridical_persons/3000"
                             subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/3019" subtype="isConfirmedBy"/>
                     </org>
                     <org>
                         <orgName>Sanctus Renatus in vico Cupoli; ecclesia (Villa Linterno;
@@ -3528,6 +3551,7 @@
                         <link type="juridical_persons" corresp="#juridical_persons/3000"
                             subtype="isConfirmedTo"/>
                         <link type="places" corresp="#places/4024" subtype="isWithin"/>
+                        <link type="people" corresp="#people/3019" subtype="isConfirmedBy"/>
                     </org>
                     <org>
                         <orgName>Sanctus Vitus in loco Spanguati; ecclesia </orgName>
@@ -3538,6 +3562,7 @@
                         <link type="juridical_persons" corresp="#juridical_persons/3000"
                             subtype="isConfirmedTo"/>
                         <link type="places" corresp="#places/4027" subtype="isWithin"/>
+                        <link type="people" corresp="#people/3019" subtype="isConfirmedBy"/>
                     </org>
                     <org>
                         <orgName>Sancta Maria Capella; ecclesia (Maddaloni; Caserta)</orgName>
@@ -3551,16 +3576,55 @@
                         <link type="people" corresp="#people/3018" subtype="isGrantedBy"/>
                         <link type="juridical_persons" corresp="#juridical_persons/3000"
                             subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/3018" subtype="isHeldBy" cert="low"/>
+                        <link type="people" corresp="#people/3019" subtype="isConfirmedBy"/>
                     </org>
                     <org>
                         <orgName>Sanctus Iohannes ad Plescum; ecclesia (Nola; Napoli)</orgName>
                         <orgName type="other"/>
                         <idno>juridical_persons/3027</idno>
                         <note/>
-                        <link type="people" corresp="#people/3000" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/3010" subtype="isConfirmedBy"/>
                         <link type="juridical_persons" corresp="#juridical_persons/3000"
                             subtype="isConfirmedTo"/>
                         <link type="places" corresp="#places/4032" subtype="proximity"/>
+                        <link type="people" corresp="#people/3019" subtype="isConfirmedBy"/>
+                    </org>
+                    <org>
+                        <orgName>Sancta Maria de Iugnano; ecclesia (Maddaloni; Caserta)</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/3028</idno>
+                        <note>Forse identificabile come la chiesa di <foreign>Sancta Maria di
+                                Iunianus in finibus Laniensis</foreign> nella piana di
+                            Liburia.</note>
+                        <link type="places" corresp="#places/3444" subtype="proximity"/>
+                        <link type="places" corresp="#places/4044" subtype="isWithin"/>
+                        <link type="places" corresp="#places/4045" subtype="proximity"/>
+                        <link type="places" corresp="#places/4046" subtype="proximity"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3428"
+                            subtype="link" cert="low"/>
+                        <link type="people" corresp="#people/3019" subtype="isConfirmedBy"/>
+                    </org>
+                    <org>
+                        <orgName>Sanctus Blasius; ecclesia</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/3029</idno>
+                        <note/>
+                        <link type="people" corresp="#people/3010" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/3010" subtype="isGrantedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="isConfirmedTo"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/3019" subtype="isConfirmedBy"/>
+                    </org>
+                    <org>
+                        <orgName>Sanctus Barbatus; ecclesia (Aversa; Caserta)</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/3030</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="dependsOn"/>
                     </org>
                 </listOrg>
                 <listOrg n="Del Mercato Evelina">
@@ -6401,6 +6465,7 @@
                         <link type="people" corresp="#people/3010" subtype="isConfirmedBy"/>
                         <link type="juridical_persons" corresp="#juridical_persons/3000"
                             subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/3019" subtype="isConfirmedBy"/>
                     </org>
                     <org>
                         <orgName><foreign>Sanctus Petrus</foreign>; <foreign>ecclesia</foreign> (in

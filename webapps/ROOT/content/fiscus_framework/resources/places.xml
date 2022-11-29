@@ -7344,6 +7344,7 @@
                         <link type="juridical_persons" corresp="#juridical_persons/3000"
                             subtype="isConfirmedTo"/>
                         <link type="people" corresp="#people/3010" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/3019" subtype="isConfirmedBy"/>
                     </place>
                     <place>
                         <placeName>Montebamboli (Massa Marittima; Grosseto)</placeName>
@@ -10461,6 +10462,7 @@
                         <link type="people" corresp="#people/3010" subtype="isConfirmedBy"/>
                         <link type="juridical_persons" corresp="#juridical_persons/3000"
                             subtype="rendersCollectedBy"/>
+                        <link type="people" corresp="#people/3019" subtype="isConfirmedBy"/>
                     </place>
                     <place>
                         <placeName>Acerra (Napoli)</placeName>
@@ -10497,11 +10499,10 @@
                         <geogName type="coord"><geo>41.218999, 14.337424</geo></geogName>
                         <idno>places/4006</idno>
                         <note/>
-                        <link type="estates" corresp="#estates/3004" subtype="correspondsTo"/>
                     </place>
                     <place>
                         <placeName><foreign>Gariliani</foreign></placeName>
-                        <placeName type="other"/>
+                        <placeName type="other"><foreign>Gareliani</foreign></placeName>
                         <geogName type="coord"><geo/></geogName>
                         <idno>places/4007</idno>
                         <note>Oggi scomparso. Forse ubicato tra Casapesenna e Villa Literno, in
@@ -10527,11 +10528,14 @@
                         <note/>
                     </place>
                     <place>
-                        <placeName>XXX</placeName>
+                        <placeName><foreign>Ad Fractam</foreign></placeName>
                         <placeName type="other"/>
                         <geogName type="coord"><geo/></geogName>
                         <idno>places/4010</idno>
                         <note/>
+                        <link type="estates" corresp="#estates/3009" subtype="isWithin"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3001"
+                            subtype="rendersCollectedBy"/>
                     </place>
                     <place>
                         <placeName>Fossa di Valle (fraz. di Pompei; Napoli)</placeName>
@@ -10593,7 +10597,8 @@
                     <place>
                         <placeName>Calabricito (Caserta)</placeName>
                         <placeName type="other"><foreign>Calabricita</foreign>;
-                                <foreign>Calabrizitum</foreign></placeName>
+                                <foreign>Calabrizitum</foreign>;
+                            <foreign>Calambricitum</foreign></placeName>
                         <geogName type="coord"><geo>41.01408076405787,
                             14.392311603185215</geo></geogName>
                         <idno>places/4016</idno>
@@ -10691,11 +10696,15 @@
                         <note/>
                     </place>
                     <place>
-                        <placeName>XXX</placeName>
+                        <placeName>Casoria (Napoli)</placeName>
                         <placeName type="other"/>
-                        <geogName type="coord"><geo/></geogName>
+                        <geogName type="coord"><geo>40.920195630530415,
+                            14.288868823319625</geo></geogName>
                         <idno>places/4026</idno>
                         <note/>
+                        <link type="estates" corresp="#estates/3009" subtype="isWithin"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3001"
+                            subtype="rendersCollectedBy"/>
                     </place>
                     <place>
                         <placeName><foreign>Spanguati</foreign></placeName>
@@ -10706,7 +10715,7 @@
                     </place>
                     <place>
                         <placeName><foreign>Cancia</foreign> (Caserta)</placeName>
-                        <placeName type="other"/>
+                        <placeName type="other"><foreign>Cantia</foreign></placeName>
                         <geogName type="coord"><geo style="line">41.09283142942563,
                                 14.024320345498106; 40.973892434317456, 14.111684708829756;
                                 40.955270233108216, 14.008841372260328; 41.063759714053354,
@@ -10714,10 +10723,15 @@
                         <idno>places/4028</idno>
                         <note>Ubicato nell'attuale Terra dei Mazzoni (Libertini 2011). La Terra dei
                             Mazzoni, definitivamente bonificata tra XIX e X secolo, si estende
-                            approssimativamente dal Lago Patria al Basso Volturno. Per assonanza
-                            (quindi con un'ipotesi del tutto speculativa), si potrebbe tentare di
-                            identificare la località di <foreign>Cancia</foreign> con il comune di
-                            Cancello ed Arnone.</note>
+                            approssimativamente dal Lago Patria al Basso Volturno. Per assonanza, si
+                            potrebbe tentare di identificare la località di
+                                <foreign>Cancia</foreign> con il comune di Cancello ed Arnone. Da
+                            notare come, in un diploma di conferma di Roberto di Capua (RNAM 2011,
+                            doc. 534), i beni confermati nella località di <foreign>Cancia</foreign>
+                            seguano, nell'elenco, proprio i beni ubicati ad
+                                <foreign>Arnone</foreign>: quest'ultimo si può senz'altro
+                            identificare proprio con il predetto comune di Cancello ed Arnone
+                            (CE).</note>
                         <link type="juridical_persons" corresp="#juridical_persons/3000"
                             subtype="rendersCollectedBy"/>
                     </place>
@@ -10731,17 +10745,19 @@
                         <link type="juridical_persons" corresp="#juridical_persons/3000"
                             subtype="isConfirmedTo"/>
                         <link type="people" corresp="#people/3010" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/3019" subtype="isConfirmedBy"/>
                     </place>
                     <place>
                         <placeName><foreign>Fornicara</foreign>;
                             <foreign>cripta</foreign></placeName>
-                        <placeName type="other"/>
+                        <placeName type="other"><foreign>Fornicaria</foreign></placeName>
                         <geogName type="coord"><geo/></geogName>
                         <idno>places/4030</idno>
                         <note>Forse ubicata nei pressi di Capua (Libertini 2011)</note>
                         <link type="people" corresp="#people/3010" subtype="isConfirmedBy"/>
                         <link type="juridical_persons" corresp="#juridical_persons/3000"
                             subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/3019" subtype="isConfirmedBy"/>
                     </place>
                     <place>
                         <placeName>Cervino (Caserta)</placeName>
@@ -10757,14 +10773,19 @@
                         <link type="people" corresp="#people/3010" subtype="isConfirmedBy"/>
                         <link type="juridical_persons" corresp="#juridical_persons/3000"
                             subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/3019" subtype="isConfirmedBy"/>
                     </place>
                     <place>
                         <placeName>Castel Cicala (Nola; Napoli)</placeName>
-                        <placeName type="other"><foreign>Cibali</foreign></placeName>
+                        <placeName type="other"><foreign>Cibali</foreign>;
+                            <foreign>Cicala</foreign></placeName>
                         <geogName type="coord"><geo>40.917580528520276,
                             14.554345732394028</geo></geogName>
                         <idno>places/4032</idno>
                         <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="rendersCollectedBy"/>
+                        <link type="people" corresp="#people/3010" subtype="isOwnedBy"/>
                     </place>
                     <place>
                         <placeName><foreign>Casa Paci</foreign></placeName>
@@ -10777,7 +10798,7 @@
                     </place>
                     <place>
                         <placeName><foreign>Ad Duplum</foreign></placeName>
-                        <placeName type="other"/>
+                        <placeName type="other"><foreign>Adupplum</foreign></placeName>
                         <geogName type="coord"><geo/></geogName>
                         <idno>places/4034</idno>
                         <note/>
@@ -10792,6 +10813,202 @@
                         <note>Il comune cambiò toponimo nel 1950.</note>
                         <link type="juridical_persons" corresp="#juridical_persons/3000"
                             subtype="rendersCollectedBy"/>
+                    </place>
+                    <place>
+                        <placeName><foreign>Trasolfu</foreign></placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo/></geogName>
+                        <idno>places/4036</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3001"
+                            subtype="rendersCollectedBy"/>
+                        <link type="estates" corresp="#estates/3009" subtype="isWithin"/>
+                    </place>
+                    <place>
+                        <placeName><foreign>Campu</foreign></placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo/></geogName>
+                        <idno>places/4037</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3001"
+                            subtype="rendersCollectedBy"/>
+                    </place>
+                    <place>
+                        <placeName><foreign>Campu Bunituli</foreign></placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo/></geogName>
+                        <idno>places/4038</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3001"
+                            subtype="rendersCollectedBy"/>
+                    </place>
+                    <place>
+                        <placeName>Trentola-Ducenta (Caserta)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo>40.975383431781985,
+                            14.176865949753775</geo></geogName>
+                        <idno>places/4039</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3001"
+                            subtype="rendersCollectedBy"/>
+                        <link type="places" corresp="#places/605" subtype="isWithin"/>
+                    </place>
+                    <place>
+                        <placeName><foreign>Sambucitu</foreign></placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo/></geogName>
+                        <idno>places/4040</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="rendersCollectedBy"/>
+                        <link type="places" corresp="#places/3444" subtype="proximity"/>
+                    </place>
+                    <place>
+                        <placeName><foreign>Arbustolo</foreign>
+                        </placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo/></geogName>
+                        <idno>places/4041</idno>
+                        <note>Villaggio scomparso, forse sito nel territorio di Gricignano d'Aversa
+                            (Libertini 2011)</note>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="rendersCollectedBy"/>
+                    </place>
+                    <place>
+                        <placeName><foreign>Gruptolam</foreign></placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo/></geogName>
+                        <idno>places/4042</idno>
+                        <note/>
+                        <link type="places" corresp="#places/4032" subtype="proximity"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="rendersCollectedBy"/>
+                    </place>
+                    <place>
+                        <placeName>Cimitile (Napoli)</placeName>
+                        <placeName type="other"><foreign>Cimiterium</foreign></placeName>
+                        <geogName type="coord"><geo>40.94539035687558,
+                            14.521828421772788</geo></geogName>
+                        <idno>places/4043</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="rendersCollectedBy"/>
+                        <link type="places" corresp="#places/4032" subtype="proximity"/>
+                        <link type="people" corresp="#people/3032" subtype="rendersCollectedBy"/>
+                    </place>
+                    <place>
+                        <placeName><foreign>Iugnanum</foreign></placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo/></geogName>
+                        <idno>places/4044</idno>
+                        <note/>
+                        <link type="places" corresp="#places/3444" subtype="proximity"/>
+                    </place>
+                    <place>
+                        <placeName><foreign>Sambuca</foreign></placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo/></geogName>
+                        <idno>places/4045</idno>
+                        <note/>
+                        <link type="places" corresp="#places/3444" subtype="proximity"/>
+                        <link type="places" corresp="#places/4040" subtype="correspondsTo"
+                            cert="low"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="rendersCollectedBy"/>
+                        <link type="estates" corresp="#estates/3002" subtype="isWithin"/>
+                    </place>
+                    <place>
+                        <placeName><foreign>Ad la Spannella</foreign></placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo/></geogName>
+                        <idno>places/4046</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="rendersCollectedBy"/>
+                        <link type="places" corresp="#places/3444" subtype="proximity"/>
+                    </place>
+                    <place>
+                        <placeName><foreign>Alicicini</foreign></placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo/></geogName>
+                        <idno>places/4047</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="rendersCollectedBy"/>
+                        <link type="places" corresp="#places/3444" subtype="proximity"/>
+                    </place>
+                    <place>
+                        <placeName>Sancti Martini; <foreign>pons</foreign></placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo/></geogName>
+                        <idno>places/4048</idno>
+                        <note>Microtoponomastica: <foreign>Fossas Figulorum</foreign>;
+                                <foreign>Anglonem iuxta Laneum</foreign>;
+                                <foreign>Frigidus</foreign>; <foreign>Fossatellum</foreign>;
+                                <foreign>Frascaritum</foreign></note>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="rendersCollectedBy"/>
+                        <link type="places" corresp="#places/173" subtype="proximity"/>
+                    </place>
+                    <place>
+                        <placeName><foreign>Alli Russi</foreign></placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo/></geogName>
+                        <idno>places/4049</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="rendersCollectedBy"/>
+                        <link type="estates" corresp="#estates/3002" subtype="isWithin"/>
+                    </place>
+                    <place>
+                        <placeName><foreign>Ad Paludem</foreign></placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo/></geogName>
+                        <idno>places/4050</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="rendersCollectedBy"/>
+                        <link type="estates" corresp="#estates/3002" subtype="isWithin"/>
+                    </place>
+                    <place>
+                        <placeName><foreign>Centum Palumbi</foreign></placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo/></geogName>
+                        <idno>places/4051</idno>
+                        <note/>
+                        <link type="estates" corresp="#estates/3002" subtype="isWithin"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="rendersCollectedBy"/>
+                    </place>
+                    <place>
+                        <placeName>Cancello ed Arnone (Caserta)</placeName>
+                        <placeName type="other"><foreign>Arnone</foreign></placeName>
+                        <geogName type="coord"><geo>41.075525346330934,
+                            14.026400876839764</geo></geogName>
+                        <idno>places/4052</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="rendersCollectedBy"/>
+                    </place>
+                    <place>
+                        <placeName><foreign>Via Munda</foreign> (Aversa; Caserta)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo/></geogName>
+                        <idno>places/4053</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="rendersCollectedBy"/>
+                        <link type="people" corresp="#people/3031" subtype="rendersCollectedBy"/>
+                        <link type="people" corresp="#people/3032" subtype="rendersCollectedBy"/>
+                        <link type="places" corresp="#places/4000" subtype="proximity"/>
+                    </place>
+                    <place>
+                        <placeName><foreign>Casorbici</foreign></placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo/></geogName>
+                        <idno>places/4054</idno>
+                        <note/>
+                        <link type="places" corresp="#places/3444" subtype="proximity"/>
                     </place>
                 </listPlace>
                 <listPlace n="Del Mercato Evelina">
@@ -16113,6 +16330,8 @@
                                 vocatur </foreign>; <foreign>Sausilianu o Sasillanu</foreign>;
                                 <foreign>Asenareca</foreign></note>
                         <link type="estates" corresp="#estates/3002" subtype="isWithin"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="rendersCollectedBy"/>
                     </place>
                     <place>
                         <placeName><foreign>Sanctus Stephanus inter flumina</foreign>
@@ -16936,13 +17155,63 @@
                         <link type="estates" corresp="#estates/3601" subtype="isWithin"/>
                     </place>
                     <place>
-                        <placeName> Valle Bardonecchia (Torino)</placeName>
-                        <placeName type="other"/>
+                        <placeName>Valle di Bardonecchia (Torino)</placeName>
+                        <placeName type="other"><foreign>Vallis Bardinisca</foreign></placeName>
                         <geogName type="coord"><geo>45.036539, 6.824002; 45.046004, 6.821262;
                                 45.099110, 6.704659; 45.087074, 6.679695; 45.036539,
                             6.824002</geo></geogName>
                         <idno>places/4317</idno>
-                        <note>Valle dell'omonimo torrente.</note>
+                        <note>La valle di Bardonecchia segue il corso della Dora di Bardonecchia,
+                            dall'omonimo centro abitato a Oulx.</note>
+                        <link type="juridical_persons" corresp="#juridical_persons/1443"
+                            subtype="isConfirmedTo" cert="low"/>
+                        <link type="people" corresp="#people/9" subtype="isConfirmedBy" cert="low"/>
+                    </place>
+                    <place>
+                        <placeName><foreign>Diobia</foreign> (Bardonecchia; Torino)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo>45.075367, 6.692739</geo></geogName>
+                        <idno>places/4318</idno>
+                        <note><foreign>castellum</foreign></note>
+                        <link type="places" corresp="#places/4317" subtype="isWithin"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1443"
+                            subtype="isConfirmedTo" cert="low"/>
+                        <link type="people" corresp="#people/9" subtype="isConfirmedBy" cert="low"/>
+                    </place>
+                    <place>
+                        <placeName><foreign>Vallis Diobiasca</foreign> (Bardonecchia; Torino) </placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo>45.057078, 6.674855</geo></geogName>
+                        <idno>places/4319</idno>
+                        <note>Appendice della valle di Bardonecchia.</note>
+                        <link type="places" corresp="#places/4317" subtype="proximity"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1443"
+                            subtype="isConfirmedTo" cert="low"/>
+                        <link type="people" corresp="#people/9" subtype="isConfirmedBy" cert="low"/>
+                    </place>
+                    <place>
+                        <placeName><foreign>Vallis Armeasca</foreign> (Bardonecchia;
+                            Torino)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo>45.103524, 6.691184</geo></geogName>
+                        <idno>places/4320</idno>
+                        <note>Appendice della valle di Bardonecchia.</note>
+                        <link type="places" corresp="#places/4317" subtype="proximity"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1443"
+                            subtype="isConfirmedTo" cert="low"/>
+                        <link type="people" corresp="#people/9" subtype="isConfirmedBy" cert="low"/>
+                    </place>
+                    <place>
+                        <placeName><foreign>Vallis Allonica</foreign> (Bardonecchia;
+                            Torino)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo>45.088263, 6.727063</geo></geogName>
+                        <idno>places/4321</idno>
+                        <note>Appendice della valle di Bardonecchia.</note>
+                        <link type="places" corresp="#places/4317" subtype="proximity"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1443"
+                            subtype="isConfirmedTo" cert="low"/>
+                        <link type="people" corresp="#people/9" subtype="isConfirmedBy" cert="low"/>
                     </place>
                 </listPlace>
                 <listPlace n="Rivera Magos Victor">
@@ -18565,13 +18834,6 @@
                         <note/>
                     </place>
                     <place>
-                        <placeName>Cortenovo (Villafranca in Lunigiana; Massa-Carrara)</placeName>
-                        <placeName type="other"/>
-                        <geogName type="coord"><geo>44.2628288, 9.9882767</geo></geogName>
-                        <idno>places/3511</idno>
-                        <note/>
-                    </place>
-                    <place>
                         <placeName>Imola (Bologna)</placeName>
                         <placeName type="other"/>
                         <geogName type="coord"><geo>44.2628288, 9.9882767</geo></geogName>
@@ -18691,7 +18953,7 @@
                         <note/>
                     </place>
                     <place>
-                        <placeName>Pieve Cesato (fraz. Faenza; Ravenna)</placeName>
+                        <placeName>Pieve Cesato (Faenza; Ravenna)</placeName>
                         <placeName type="other"/>
                         <geogName type="coord"><geo>44.336700, 11.958820</geo></geogName>
                         <idno>places/3527</idno>
@@ -18834,6 +19096,13 @@
                         <placeName type="other"/>
                         <geogName type="coord"><geo>45.011108, 11.740960</geo></geogName>
                         <idno>places/3544</idno>
+                        <note/>
+                    </place>
+                    <place>
+                        <placeName>Crespino (Rovigo)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo>44.982390, 11.885900</geo></geogName>
+                        <idno>places/3545</idno>
                         <note/>
                     </place>
                    
