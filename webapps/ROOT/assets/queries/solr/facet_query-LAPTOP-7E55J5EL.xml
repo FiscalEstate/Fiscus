@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<query q_fields="document_type" range_fields="origin_date">
+  <df default="true">text</df>
+  <q default="true">*</q>
+  <document_type>(epidoc)</document_type>
+  <facet>true</facet>
+  <facet.field>author</facet.field>
+  <facet.field>ancient_document_type</facet.field> 
+  <facet.field>record_source</facet.field>
+  <facet.field>document_tradition</facet.field>
+  <facet.field>fiscal_property</facet.field>
+  <facet.field>provenance</facet.field>
+  <facet.field>topical_date</facet.field>
+  <facet.field>redaction_date</facet.field>
+  
+  <facet.field>estates</facet.field>
+  <facet.field>juridical_persons</facet.field>
+  <facet.field>people</facet.field>
+  <facet.field>places</facet.field>
+  <facet.field>dates</facet.field>
+  <facet.field>keywords_-_alphabetically</facet.field>
+  <facet.field>keywords_-_level_1</facet.field>
+  <facet.field>keywords_-_level_2</facet.field>
+  <facet.field>keywords_-_level_3</facet.field>
+  <facet.field>keywords_-_level_4</facet.field>
+  <facet.field>keywords_-_level_5</facet.field>
+  <facet.limit>-1</facet.limit>
+  <facet.mincount>1</facet.mincount>
+  <!-- facet.sort's value may be either "index" (alphabetic order of
+       value) or "count" (numeric order of count). -->
+  <facet.sort>index</facet.sort>
+  <!-- The number of rows returned by Solr at once (that is the number
+       displayed per page of results). -->
+  <rows default="true">10000</rows>
+  <start default="true">0</start>
+</query>
