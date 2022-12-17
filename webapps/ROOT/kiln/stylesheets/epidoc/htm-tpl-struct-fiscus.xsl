@@ -310,26 +310,20 @@
   <xsl:template priority="10" match="t:ab[@type='level6']">
     <p class="ab6"><span class="ab"><xsl:apply-templates/></span></p>
   </xsl:template>
-  
-  <xsl:template match="t:div//t:ref[not(@corresp)][starts-with(., 'http')]">
-    <a>
-      <xsl:attribute name="href">
-        <xsl:value-of select="."/>
-      </xsl:attribute>
-      <xsl:attribute name="target">
-        <xsl:value-of select="'_blank'"/>
-      </xsl:attribute>
-      <xsl:apply-templates/>
-    </a>
-  </xsl:template>
     
-    <xsl:template match="t:div//t:ref[@corresp]">
+  <xsl:template priority="10" match="t:div//t:ref">
     <xsl:choose>
-      <xsl:when test="@type='fiscus'">
-        <a target="_blank" href="{concat('./', @corresp, '.html')}"><xsl:apply-templates/></a>
+      <xsl:when test="@corresp and @type='fiscus'">
+        <a href="./{@corresp}.html" target="_blank"><xsl:apply-templates/></a>
+      </xsl:when>
+      <xsl:when test="@corresp">
+        <a href="{@corresp}" target="_blank"><xsl:apply-templates/></a>
+      </xsl:when>
+      <xsl:when test="not(@corresp) and starts-with(., 'http')">
+        <a href="{.}" target="_ blank"><xsl:apply-templates/></a>
       </xsl:when>
       <xsl:otherwise>
-        <a target="_blank" href="{@corresp}"><xsl:apply-templates/></a>
+        <xsl:apply-templates/>
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
