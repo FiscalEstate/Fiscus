@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Montecassino, Archivio privato, Carte di Pomposa, fasc. III, n. 35</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2022">2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DiSCi UniBo</publisher>
+                <idno type="filename">doc5403</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+                </availability>
+                <date when="2022"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Libellus/precaria/emphyteusis</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property"/>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="1009-11-02">
+                                <note type="displayed_date">1009 November 2</note>
+                                <note type="dating_elements">Mezzetti, Le carte, p. 171, propone di
+                                    datare il documento sulla base del documento n. 79 (pp.  pp.
+                                    168-170), scritto dal medesimo tabellione pochi giorni prima di
+                                    questo livello.</note>
+                                <note type="topical_date">Grignano Polesine (Rovigo)</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace><foreign>Sancta Maria in Pomposia</foreign></origPlace>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-02-03" who="cstedile">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine Patris et Filii et Spiritu Sancti. Anno Deo propitjo pontificato
+                        domni nostris <persName key="#Popes" ref="#people/1572"
+                            >Ioh(anni)s</persName> summi pontifitjs et univer[sali <rs key="#Popes"
+                            >pa]pe</rs> in apostolica sacratissima beati Petri apostoli Domini sede
+                        anno septimo, inperatore in Italia [non]dum abemus, in Dei nomine die
+                        secundo mense novemb(er), ind(itjone) octava, in <rs key="#Vici">vico</rs>
+                        qui vocatur <placeName key="#Vici" ref="#places/3541">Gragnano</placeName>.
+                        Petimus ad te in Dei [nomine] donn(us) <persName
+                            key="#Notary #Other_clerics #Abbots" ref="#people/1560"
+                            >Gerardus</persName> v(ir) v(ene)r(abilis) [<rs key="#Other_clerics"
+                            >clericus</rs>] et [<rs key="#Notary">no]tarius</rs>
+                        <orgName key="#Churches" ref="#juridical_persons/1471">sancte <placeName
+                                ref="#places/594">Ravenati</placeName> Ecclesie</orgName> et <rs
+                            key="#Abbots">abb(as)</rs>
+                        <rs key="#Monasteries">mo(nesterius)</rs>
+                        <orgName key="#Monasteries" ref="#juridical_persons/1474">Sancte Marie qui
+                            vocatur in Senodocchio</orgName>, [item][quem filius] donn(us) <persName
+                            key="#Marquis/duke" ref="#people/1573">Gerardus</persName> ex [genere]
+                            <rs key="#Marquis/duke">dutjs</rs> genitore suo, uti nobis
+                                <persName><name ref="Petrus/Botaro">Petrus qui vocatur
+                            Botaro</name></persName> et <persName><name ref="Adam"
+                            >Adam</name></persName> cum fratribus s[uis] [et] <persName><name
+                                ref="Barutto">Baruto</name></persName> et <persName><name
+                                ref="Domenicus levita">Dominicus levita</name></persName> cum
+                        fr[atribus et co]nsortibus suis et <persName><name ref="Domenicus"
+                                >Dominicus</name></persName> et <persName><name ref="Martinus"
+                                >Martinus</name></persName> et <persName><name ref="Mercurio"
+                                >Mercurius</name></persName> et <persName><name ref="Petrus"
+                                >Petrus</name></persName> cum fratribus suis, <persName><name
+                                ref="Iohannes/Domenicus levita">Ioh(anne)s qui vocatur Dominicus
+                                levita</name></persName> seo subcessoribus suis ************** seo
+                        filiis vestris tantum <rs key="#Libellus/precaria/emphyteusis">libellum</rs>
+                        no[mine] [con]cedistis nobis rem iuris predicti mo(nesterii) vestris, idest
+                        tota et integra <rs key="#Landed_possessions">omnes res vel sortes et
+                            portjone</rs>, quanta vos s[uprascripti] [p]etitoris tenere visi estis
+                        per anteriore libellum, qui est p[osita] in <rs key="#Fundi">fundo</rs> qui
+                        vocatur <geogName key="#Fundi #Landed_possessions" ref="#estates/2437"
+                            >Gragnano</geogName> per singulis lotjs; omnia cum <rs
+                            key="#Landed_possessions">[ter][ris</rs>, <rs key="#Wine">v]ineis</rs>,
+                            <rs key="#Cereals">campis</rs>, <rs key="#Hay/fodder">pratis</rs>, <rs
+                            key="#Hay/fodder">pascuis</rs>, <rs key="#Forests">silvis</rs>,
+                            <rs>salecti</rs>, <rs key="#Marshes/lagoons/tombolos">padulibus</rs>,
+                            <rs key="#Landed_possessions">satj[ona]bilibus</rs>, <rs>arbustis</rs>,
+                            <rs key="#Fruits/vegetables">arboribus</rs> se(h)u et <rs
+                            key="#Rights_of_use_on_woods/pastures/waters">venatjonibus</rs> et <rs
+                            key="#Fisheries">pissc[a]tjonibus</rs> et <rs
+                            key="#Rights_of_use_on_woods/pastures/waters">accupatjonibus</rs> suis
+                        vel omnibus ad easdem pertinentibus cod superius legitur, constituto <rs
+                            key="#Fines">territorio</rs>
+                        <geogName key="#Fines" ref="#estates/2420"><placeName key="#Fines"
+                                ref="#places/3522">Adriensis</placeName></geogName>, <rs
+                            key="#Plebs">plebem</rs> [<orgName key="#Plebs"
+                            ref="#juridical_persons/1486">Sancti] [Stef]ani qui vocatur in
+                                <placeName ref="#places/4181">Villa Martjana</placeName></orgName>;
+                        una cum suis iustis et certis <rs key="#Confinia">interrafinibus</rs>, ok
+                        est: ab uno llatere termine qui decurri[t] [...... us]que ad <rs
+                            key="#Confinia #Canals">fossa qui vocatur Busovetere</rs> et ab alio
+                        llatere fossa corente inter <placeName>Cenosa</placeName> et padule se(h)u
+                        ad tertjo [llatere] <rs key="#Fundi">fundo</rs> qui vocatur <geogName
+                            key="#Confinia #Fundi" ref="#estates/2419"><placeName
+                                key="#Confinia #Fundi" ref="#places/3524"
+                            >Corneto</placeName></geogName> atque a quarto llatere <rs key="#Fundi"
+                            >fundo</rs> qui vocatur <geogName key="#Confinia #Fundi"
+                            ref="#estates/2436"><placeName key="#Confinia #Fundi" ref="#places/3532"
+                                >Tassini</placeName></geogName>, cum ingrexo et egrexo suo vel
+                        omnibus eisdem pertinentibus cod superius legitur; abendum, tenendum,
+                        roncandum, laborandum, cultandum, pastinandum, propaginandum, adtegulo et
+                        canal(e) in ibidem fatjendum, restaurandum, supersedendum, defensandum et in
+                        omnibus meliorandum, si ingnuste et ratjonabiliter ad vobis petimus ne ab
+                        alis nemine detinentur, in annis advenientibus viinti et nove ad renovandum,
+                        ad altero libellum renovandum ad salva sanatjone domnica dandum. Ita sanead
+                        ut inferamus domnice ratjonibus vobis vestrisque subcessoribus de quidquid
+                        inibi Dominus condonare iusserit, occ est terratico: tritico et sicale in
+                        campo capa quarta, traenda per nos ad area triturandum; faba in area modio
+                        quarto; mesturia granata in area modio quinto; trisico, mileo, panico in
+                        area modi[o] octavo; lino manna detjma gramulata per nos; vino anfora
+                        quarta, duabus vitjbus arbore pecto ponendo pitjolo intjso, postead sit
+                        nobis petitore recessum; et sit vinea pastinaverimus fruere eam debeamus
+                        annis decem et postea redere debeamus sicut de cetera vinea; et sit ronco
+                        feceritis fruere debeatis annis quinque et postea redere debeatis sicut de
+                        alias terra; pullatica vero dare debeamus omnique annos per unocoque
+                        petitores pullos duos, oves quinque; glandatico dare debeamus, si glande
+                        abuerimus, detjmo porco; deductum omnem terratico domnicum in integro per
+                        vos petitores ad ripa ubi nave domnica potuerit pervenire. Maiore quidem
+                        domnico nostro vel nostra dominatjone subsipere debeamus et subsseptjone eis
+                        facere et passere debeamus et bratjatica eis persolvere per unocoque
+                        petitores de grano manolitere stario uno; et non abeamus licentja nos
+                        suprascripti petitoris hunc libellum aut suprascripta res alicui omini dare
+                        vel vendere se(h)u transferere aut oponere vel comutuare aut in alio
+                        v(e)n(erabili) locum relinquere per nullum ingenium vel argumentum; nec
+                        etjam non abeamus licentja ad nullum publicum ministrum ire ratjone mitendi
+                        aut aliqua funtjo[n]e eis facere de ipsa res [set] sub vestra disstritjone
+                        vel vestrum missum subsipere debeamus et [hec omnia] sicut superius legitur
+                        cum fide et [puritate], sine dolo vel fraude. [Si] quis vero pars nostra
+                        contra os libellum ire temtaverimus aut [omni]a que superius legitur non
+                        o[b]se[rvav]erimus usque ad perfinitum tempus sicut superius legitur, det
+                        pars parte fidem servante ante [o]mnis [litis] initjum aut interpellatjonis
+                        pene no[mine auri untjes due et post penam soluta manente] et anc paginam
+                        petitjonis libellum in suo [omnium] robore [et firmitatis. Quam vero paginam
+                        libellum uno pari] tenore conscripto per m[anus] meas Andr[eas in Dei nomine
+                        tabe]ll(ionem) [de comitato Gavellensi et] de vico qui vocatur Copario
+                        scribe[n]d[um] rogavi et subter [manus nostre] proprie fi[rmavimus] et unus
+                        alterius [nobis pariter] contradidit, cod cod[secuti sumus Deum] agamus et
+                        vobis maxima gr(atj)a. Signum suprascripto Petrus qui vocatur Botario
+                        petitore ad omnia suprascripta cui relectum est. Signum suprascripto Adam
+                        cum fratribus suis petitore ad omnia suprascripta cui relectum est. Signum
+                        suprascripto Baruto petitore ad omnia suprascripta cui relectum est.
+                        Ioh(anne)s q(ui) v(ocatur) Dominicus levita petitore ad om(ni)a suprascripta
+                        cu reletu(m) est. Signum suprascripta [...... ad omnia suprascripta cui
+                        relectum] est. Signum Dominicus petitore ad omnia suprascripta cui relectum
+                        est. Signum suprascripto Martinus petitore ad omnia suprascripta cui
+                        relectum est. Signum suprascripto Mercurius petitore ad omnia suprascripta
+                        cui relectum est. Signum suprascripto Petrus petitore ad omnia suprascripta
+                        cui relectum est.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>Mezzetti, <foreign>Le carte</foreign>, pp. 170-173, n° 80.</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
