@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Montecassino, Archivio privato, Carte di Pomposa, fasc. I, n. 13</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2022">2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DiSCi UniBo</publisher>
+                <idno type="filename">doc5407</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+                </availability>
+                <date when="2022"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">-Cartula</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property"/>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="1011-12-19">
+                                <note type="displayed_date">1011 December 19</note>
+                                <note type="dating_elements">Bacchini e Samartiani datano tale carta
+                                    al 988 e gli archivisti cassinesi al 998, ma Mezzetti,
+                                        <foreign>Le carte</foreign>, p. 182, data al 1011 tenendo
+                                    conto del periodo di attività del notaio Giovanni (1008-1021) e
+                                    della cifra indizionale secondo il computo bizantino. Nel 1011
+                                    però il papa in carica è Sergio e non Giovanni.</note>
+                                <note type="topical_date">Bologna</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace><foreign>Sancta Maria in Pomposia</foreign></origPlace>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-02-03" who="cstedile">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab><persName key="#Witness"><name ref="Petrus">Petrus</name></persName> filio
+                                <persName><name ref="Leo de Garimanno">Leo[ni de
+                            Gari][manno]</name></persName> et <persName key="#Witness"><name
+                                ref="Petrus">Petrus</name></persName> filio <persName><name
+                                ref="Damianus">Damiano</name></persName>. Cartula concessionis que
+                        fetjt Ioh(anne)s et Maria [i]ugalis in manu <persName><name
+                                ref="Petrus de Benedicto">Petrus de Benedicto</name></persName>. Die
+                        nonodetjmo mens[is de]cember, ind(itjone) detjma. [I]n nomine [Domini].
+                        Temporibus domni <persName key="#Uncertain_tradition #Popes"
+                            ref="#people/1572">Ioh(anni)s</persName>
+                        <rs key="#Popes">apostolitj</rs>, pontificatui eius in Dei nomine anno
+                        tertjo sitque regante domno <persName key="#Emperor/king" ref="#people/130"
+                            >Enri[co]</persName> [<rs key="#Emperor/king">rex]</rs> regni eius in
+                        Dei nomine anno septi[m]o, die nonodetjmo mensis december, inditjone detjma.
+                        Et ideo in Dei n[omine ego] <persName><name ref="Iohannes/Cuntadore"
+                                >Ioh(anne)s qui vocatur Cuntadore</name></persName> et
+                                <persName><name ref="Maria">Maria</name></persName> iugalis ut per
+                        hanc cartulam manifestatjonis concessionis mea con[venientja] d[amus et
+                        c]oncedimus tibi Petrus qui vocatur de Benedicto tuisque heredibus ad
+                        abendum tenendum et possidendum, idest [foris hanc] <rs key="#Cities"
+                            >tjvi(tatem)</rs>
+                        <placeName key="#Cities" ref="#places/7">Bononia</placeName>, in loco ubi
+                        ditjtur <placeName key="#Wine">Pozale</placeName>, <rs key="#Wine">petja una
+                            terra vineata</rs> cum intro[ito et exito suo usque] [in <rs
+                            key="#Roads">vi]a publica</rs> vel cum omnes super se et [i]nfra se
+                        abentem in integrum; <rs key="#Confinia">finis</rs> de iamdicta petja terra
+                        vin[eata...]: ab uno latere poss(idet) <persName><name ref="Ursus"
+                                >Urso</name></persName> filius quondam <persName key="#Priests"
+                                ><name ref="Ursus/de Abraam">Ursoni qui vocatur de
+                            Abraam</name></persName>
+                        <rs key="#Priests">presbitero</rs>, de alio latere poss(idet) <persName
+                            key="#Priests"><name ref="Petrus">Petrus</name></persName>
+                        <rs key="#Priests">presbiter</rs>
+                        <orgName key="#Churches" ref="#juridical_persons/80">sancte Bononiense
+                            Ecclesie</orgName>, filio <persName><name ref="Bona"
+                            >Bona</name></persName>, a tertjo latere poss(idet) <persName><name
+                                ref="Trasulfus">Traxulfo</name></persName> filius quondam
+                                <persName><name ref="Iohannes de Gelzo">Ioh(anni)s de
+                            Gelzo</name></persName>, quarto latere via que pergiit [...] de Pulia,
+                        infra isti designatis lateribus omnia integriter in integrum vel si quis
+                        aliis adfines [sunt]. Ipsa suprascripta petja terra vineata qualiter supra
+                        legitur a presenti die ut per hanc cartulam manifestatjonis concessionis mea
+                        convenientj[a d]amus et concedimus vos suprascriptis iugalibus tibi
+                        suprascripto Petrus tuisque heredibus ad abendum, tenendum et possidendum
+                        e[t fa]tjendum et quiquit vobis placuerit a s[a]lva iustitja domnica
+                        persolvendum. Et licentjam sit vobis vestrisque heredi[bus omni]cumque
+                        tempore vobis oporte fuerit exinde innovandi sine ullo molestatjone vel
+                        contrariet[ate], ut neque ad nos qui supra Ioh(anne)s et Maria iugalis neque
+                        ad nostris heredibus nullam exinde abeatis molestatjonem a[u]t causatjonem
+                        set promittimus nos suprascriptis Ioh(anne)s et Maria iugalis vel heredibus
+                        nostris predicta petja terra qualiter supra legitur tibi suprascripto Petrus
+                        vel a tuis heredibus omni tempore ab omni homine defensare promittimus; et
+                        si minime defensare potuerimus aut contra hanc cartulam manifestatjonis
+                        concessionis a vobis facta aliquando per cocumque ingenium, cot umanum
+                        sensum capere potest, agere aut causare presumserimus aut agentibus
+                        consense[ri]mus et non permanserimus in ea omnia qualiter supra legitur,
+                        tunc daturi promittimus nos suprascriptis Ioh(anne)s et Maria iugalis vel
+                        heredibus nostris componere et dare tibi suprascripto Petrus vel a tuis
+                        heredibus, pene nomine, in <rs key="#Penalty">argen(tum) denariorum mancosos
+                            quadraginta</rs> et pos pena soluta presens cartula sicut supra legitur
+                        omni tempore in sua maneat firmitatem. Hactum in tjvitate Bononia, inditjone
+                        suprascripta detjma. Signum manibus suprascripti Ioh(anne)s et Maria iugalis
+                        qui hanc cartulam manifestatjonis concessionis sicut supra legitur fieri
+                        rogavimus et eorum relectum est. Signum manibus <persName key="#Witness"
+                                ><name ref="Iohannes/Bonazo">Ioh(anne)s qui vocatur
+                            Bonazo</name></persName> filio <persName><name ref="Iohannes/Gannoso"
+                                >Ioh(anni)s Gannoso</name></persName> rogatus <rs key="#Witness"
+                            >teste</rs>. Ego Petrus filio q(uon)da(m) Leoni de Garimanno rogatus
+                        teste s(ub)s(cripsi). Ego Petrus filio Damiano rogat(us) a s(uprascrip)ti
+                        sic(ut) p(ra) l(egitur) me teste s(ub)s(cripsi). Ego <persName
+                            key="#Witness"><name ref="Gherardus">Garardo</name></persName> filio
+                        q(uon)da(m) <persName><name ref="Rofredus">Rofredo</name></persName>
+                        rogat(us) me teste ub)s(cripsi). Ego <persName key="#Witness"><name
+                                ref="Petrus">Petrus</name></persName> filius q(uon)da(m)
+                                <persName><name ref="Domnitius de Leo Damiani">Dominitj de Leo
+                                Damiani</name></persName> (tu)s me teste s(ub)s(cripsi). Scripta
+                        hanc cartulam manifestatjonis concessionis per manum <persName key="#Notary"
+                                ><name ref="Iohannes">Ioh(anni)s</name></persName>
+                        <rs key="#Notary">not(arii)</rs> sacri pa[latji] scripsi pos roborata a
+                        testibus tradita vidi, complevi et dedi.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>Mezzetti, <foreign>Le carte</foreign>, pp. 181-184, n° 84</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
