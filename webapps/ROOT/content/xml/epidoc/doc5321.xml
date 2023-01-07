@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Arezzo, Archivio Capitolare (MGH DD Lo I, p. 80, n. 14)</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2022">2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DiSCi UniBo</publisher>
+                <idno type="filename">doc5321</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+                </availability>
+                <date when="2022"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property">Yes</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0833-12-09">
+                                <note type="displayed_date">833 December 9</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Aachen (DE)</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace></origPlace>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2023-01-05" who="fribani">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>(C.) In nomine domini nostri Iesu Christi dei aeterni. <persName
+                            ref="#people/9" key="#Emperor/king">Hlotharius</persName> divina
+                        ordinante providentia<rs key="#Emperor/king"> imperator </rs>augustus. [C]um
+                        iustis petitionibus sacerdotum ac servorum dei, quas nostris auribus
+                        insinuaverint, libenter annuimus et eas cum dei auxilio ad effectum
+                        pervenire fecerimus, non solum regiam et imperialem consuetudinem exercemus,
+                        verum aetiam hoc nobis procul dubio t[am ad sta]tum regni terreni
+                        corroborandum quam ad aeternae vitae beatitudinem capessendam profuturum
+                        esse confidimus. Idcirco notum fieri volumus omnibus fidelibus sanctae dei
+                        ecclesiae et nostris praesentibus scilicet et futuris, quia * vir
+                        venerabilis <persName ref="#people/3925" key="#Bishops">Petrus</persName>
+                        sanctae <orgName ref="#juridical_persons/1402"
+                            key="#Allocation_to_churches #Mother_churches"><placeName
+                                ref="#places/505">Aretine</placeName> *<rs key="#Mother_churches">
+                                ecclesiae</rs>
+                        </orgName><rs key="#Bishops">episcopus</rs> direxit ad serenitatem c[ulminis
+                        nost]ri <rs key="#Missus_of_other_public_authorities">missos suos</rs>
+                        <persName key="#Missus_of_other_public_authorities #Other_clerics"><name
+                                ref="Winigildus">Uuinigildum</name></persName><rs
+                            key="#Other_clerics"> clericum</rs> et <persName
+                            key="#Missus_of_other_public_authorities #vassusOf"><name
+                                ref="Theodizius">Theodizium</name></persName>
+                        <rs key="#vassusOf">vassallum</rs>, qui in manibus gestabant <rs
+                            key="#Imperial/royal_diploma">praeceptum</rs> domni et genitoris nostri,
+                        * in quod continebatur, * qualiter <orgName ref="#juridical_persons/3508"
+                            key="#Churches">ecclesiam sancti Amsani</orgName>, ubi ipse in corpore
+                        requiescit, cum reliquas ecclesias iam olim de sibi commissa sede fuisset
+                        subtracta et iterum tempore domni <persName key="#Popes" ref="#people/3926"
+                            >Leonis</persName>
+                        <rs key="#Popes">papae</rs> et prestantissimi imperatoris avi nostri
+                            <persName key="#Emperor/king" ref="#people/14">Karoli</persName> tempore
+                        per suum praeceptum restituta. Detulerunt aetiam <rs
+                            key="#Placitum/iudicatum">iudicatum</rs> manibus<rs
+                            key="#Boni_viri/boni_homines"> bonorum virorum</rs> roboratum, in quod
+                        continebatur, qualiter secundum legem et iustitiam in praesentia <rs
+                            key="#Missus_regis">missorum nostrorum</rs>
+                        <persName key="#Missus_regis #Bishops" ref="#people/3927"
+                            >Agibrandi</persName> sanctae <orgName ref="#juridical_persons/204"
+                            key="#Mother_churches">Florentine ecclesiae</orgName> episcopi et
+                            <persName ref="#people/3928" key="#Missus_regis #Bishops"
+                            >Petroni</persName> sanctae <orgName ref="#juridical_persons/210"
+                            key="#Mother_churches">Uulterrensis ecclesiae</orgName> episcopi <rs
+                            key="#Monasteries">monasterium</rs>
+                        <orgName ref="#juridical_persons/3509" key="#Monasteries">sancti Petri, quod
+                            vocatur ad Axo</orgName>, cum omnia pertinentia sua de <persName
+                            ref="#people/3929" key="#Abbots">Vigilio</persName>
+                        <rs key="#Abbots">abbati</rs> et <rs
+                            key="#Advocatus_of_other_public_authorities">advocatibus </rs>suis
+                        recepisset et ad sibi commissae ecclesiae per ipsum iudicatum suaeque
+                        potestati revocasset. Petiit obnixe per eosdem missos suos nostram
+                        excellentiam praedictus vir venerabilis Petrus episcopus, ut paternum morem
+                        sequeremus <rs key="#Allocation_to_churches">nostram * confirmationem
+                            superaddere iuberemus, per quam praedictas ecclesias cum omnia
+                            pertinentia eorum ipse successoresque sui absque inquietudine aut
+                            contrarietate tenere et possidere valerent.</rs> Cuius petitionem
+                        denegare noluimus, sed ut in auctoritate domni et genitoris nostri invenimus
+                        et sicut prestantissimus imperator Karolus avus scilicet noster per suam
+                        confirmavit auctoritatem, ita hanc nostram decrevimus superaddere
+                        auctoritatem, praecipientes [omn]ino atque statuentes, ut praedicta sancta
+                        Aretina ecclesia iam nominata loca, id est ecclesiam sancti Amsani cum
+                        ceteris ecclesiis seu ecclesiam sancti Petri in Axo cum omnia pertinentia
+                        sua, ita teneat atque possideat, sicuti in praecepto avi nostri bonae
+                        memoriae Karoli prestantissimi imperatoris seu in domni et genitoris nostri
+                        videlicet praedecessorum regum <rs key="#Lombard">Langobardorum</rs>
+                        continetur et sicuti in praedicto iudicato in praesentia praedictorum
+                        missorum nostrorum facto exaratum invenimus. Et quicquid deinceps secundum
+                        dei voluntatem facere et disponere voluerit, liberam in omnibus habeat
+                        potestatem faciendi absque alicuius inquietudine aut inlicita contrarietate,
+                        eo videlicet modo, ut sub potestate sancti Donati nostris futurisque
+                        temporibus inviolabiliter atque inconvulse per hanc nostram auctoritatem
+                        maneant. Et ut haec auctoritas ab omnibus melius credatur et diligentius
+                        conservetur, manu propria subter firmavimus et anuli nostri inpressione
+                        adsignari iussimus (NT.: ipse senior fieri iussit). Signum (MF.) Hlotharii
+                        gloriosissimi augusti. (C.) <persName key="#Notary"><name ref="Liudualdus"
+                                >Liuthadus</name></persName>
+                        <rs key="#Notary">notarius</rs> recognovi et (SR. NT.: Liuthadus notarius
+                        recognovi et subscripsi) (SI. D.) Data V id. kld. decembris anno Christo
+                        propitio domni Hlotharii imperii in Francia I, in Italia XIII, indictione
+                        XII; actum <placeName ref="#places/83"
+                            key="#Fiscal_property #Textual_occurrence #Mention #Residential #Palatium"
+                            >Aquisgrani</placeName>
+                        <rs key="#Palatium">palatio regio</rs>; in dei nomine feliciter amen. </ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>MGH DD Lo I, p. 80, n. 14</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
