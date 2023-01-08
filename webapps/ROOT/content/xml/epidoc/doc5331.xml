@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Penne, Archivio Storico Comunale (MGH DD Lo I, p. 105, n. 30)</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2022">2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DiSCi UniBo</publisher>
+                <idno type="filename">doc5331</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+                </availability>
+                <date when="2022"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property">No</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0837-01-13">
+                                <note type="displayed_date">837 January 13</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date"/>
+                                <note type="redaction_date">XVII</note>
+                            </origDate>
+                            <origPlace></origPlace>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2023-01-08" who="fribani">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine domini nostri Iesu Christi dei aeterni. <persName ref="#people/9"
+                            key="#Emperor/king">Hlotarius</persName> divina ordinante providentia
+                            <rs key="#Emperor/king">imperator</rs> augustus. Nostrae imperialis
+                        excellentiae augumentum est, si fidelium nostrorum petitionibus libenter
+                        annuimus, maxime sacerdotum, quorum praecibus nos deo appropinquari
+                        confidimus. Igitur comperiat magnitudo fidelium sanctae ecclesiae atque
+                        nostrorum praesentium videlicet et futurorum, quia <persName key="#Bishops"
+                            ref="#people/3938">Amadeus</persName> venerabilis <placeName
+                            key="#Cities" ref="#places/1820"><orgName ref="#juridical_persons/1428"
+                                key="#Immunity #Mother_churches">Pennensis</orgName></placeName>
+                        <rs key="#Cities">urbis</rs>
+                        <rs key="#Bishops">episcopus</rs> ad clementiam nostram veniens ostendit
+                        nobis <rs key="#Imperial/royal_diploma">praeceptum</rs> [scriptum]
+                        auctoritate sancitum super rebus ecclesiae, cuius dominus eum commisit
+                        praeesse pastorem, in quo continebatur, ut nemo publice rei iudex vel
+                        quislibet ex iudiciaria potestate urbes et ecclesias vel agros iuste et
+                        rationabiliter ad memoratae sedis ecclesiam pertinentes ingredi audeat ad
+                        causas audiendum vel quippiam exigendum vel aliquas redibitiones
+                        requirendum. Itaque depraecatus est fastigium sublimitatis nostrae et
+                        petiit, ut praecepto nostrae auctoritatis et renovationis iuberemus idem
+                        praeceptum corroborari et innovari. Quapropter eius praecibus clementer
+                        annuentes hoc praeceptum nostrae corroborationis decrevimus fieri ad prioris
+                        praecepti confirmationem et iubemus, ut, sicut supra dictum est, <rs
+                            key="#Immunity">nullus iudex nec publice actionis exactor urbem aut
+                            villas aut agros seu reliquas possessiones iam nuncupatae sanctae
+                            ecclesiae iniuste subire audeat &lt;...> exigendum vel ad causas
+                            audiendum vel quippiam exercendum in iudiciaria potestate</rs>, sed per
+                        hoc nostrae institutionis decretum liceat memorato episcopo, viro
+                        venerabili, suisque successoribus praedicte sedis ecclesiam recturis
+                        &lt;...> cum clericis et cum omnibus suis hominibus quiete et pacifice per
+                        ventura tempora vivere et possidere et pro nobis et coniuge seu liberis
+                        nostris nec non pro regni nostri stabilitate et augumento largiter domini
+                        nostri misericordiam implorare. Et ut huius nostrae iussionis institutio
+                        pleniorem in dei nomine et stabiliorem vigorem obtineat, manu propria et
+                        signo nostro iussimus adsignare. Signum (M.) Hlotarii serenissimi
+                        imperatoris. <persName ref="#people/1235" key="#Chancellor"
+                            >Agilma[rus</persName>
+                        <rs key="#Chancellor">cancellarius</rs>]. Data idus ianuarii anno Christo
+                        propitio imperii [...] domni Hlotarii imperatoris XVIII, indictione [XV];
+                        actum [in nostro]<rs
+                            key="#Fiscal_property #Textual_occurrence #Mention #Function #Residential #Palatium"
+                            > palatio regio</rs>; in dei nomine amen.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>MGH DD Lo I, p. 105, n. 30</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
