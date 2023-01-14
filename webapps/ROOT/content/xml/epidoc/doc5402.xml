@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Montecassino, Archivio privato, Carte di Pomposa, fasc. III, n. 34</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2022">2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DiSCi UniBo</publisher>
+                <idno type="filename">doc5402</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+                </availability>
+                <date when="2022"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Libellus/precaria/emphyteusis</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property"/>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="1009-10-29">
+                                <note type="displayed_date">1009 October 29</note>
+                                <note type="dating_elements">Mezzetti, <foreign>Le carte</foreign>,
+                                    pp. 168-169: Gli elementi della formula di datazione ammettono
+                                    due possibili interpretazioni, entro il periodo di rettorato di
+                                    Gerardo a Santa Maria in Xenodochio, tra 977 e 1020. La prima
+                                    possibilità conduce al 994, con l’impiego del calcolo bizantino
+                                    dell’indizione (abituale per il tabellione Andrea) e l’anno di
+                                    pontificato in difetto di tre unità. La seconda possibilità
+                                    porta invece al 1009, con l’uso dell’indizione bizantina e un
+                                    errore nel nome del pontefice, che potrebbe ascriversi alla
+                                    indisponibilità di dati aggiornati da parte del tabellione:
+                                    Giovanni XVIII conclude il suo pontificato con la morte avvenuta
+                                    il 18 luglio 1009 nel suo sesto anno, ma i tabellioni del
+                                    territorio ferrarese calcolano spesso gli anni di questo
+                                    pontefice in eccesso di un’unità. Si ritiene probabile questa
+                                    seconda possibilità.</note>
+                                <note type="topical_date"/>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace><foreign>Sancta Maria in Pomposia</foreign></origPlace>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-02-03" who="cstedile">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine Patris et Filii et Spiritu Sancti. Anno Deo propitjo pontificato
+                        domni nostris <persName key="#Popes" ref="#people/1572"
+                            >Ioh(anni)s</persName> summi pontifitjs et universali <rs key="#Popes"
+                            >pape</rs> in apostolica sacratissima beati Petri apostoli Domini sede
+                        anno septimo, inperatore in Italia nondum abemus, in Dei nomine die vigesimo
+                        nono mense octub(er), ind(itjone) octava. Petimus ad vobis quidem in Dei
+                        nomine donn(o) <persName key="#Other_clerics #Abbots" ref="#people/1560"
+                            >Gerardo</persName> v(ir) v(ene)r(abilis) <rs key="#Other_clerics"
+                            >clericus</rs> et <rs key="#Abbots">abb(as)</rs>
+                        <rs key="#Monasteries">monesterius</rs>
+                        <orgName key="#Rivers #Marshes/lagoons/tombolos #Fundi #Landed_possessions #Forests #Fisheries #Cereals #Maiores #Minores #Legumes #Wine #Fruits/vegetables #Hay/fodder #Linen #Levies #Monasteries" ref="#juridical_persons/1474">Sancte Dei
+                            genetrices Marie qui vocatur in Senodocchio</orgName> itemquem filius
+                        consentjente donn(us) <persName key="#Marquis/duke" ref="#people/1573"
+                            >Gerardus dutjs conda Farialdi</persName> filiis abitantis in <rs
+                            key="#Cities">tjvitate</rs>
+                        <placeName key="#Cities" ref="#places/594">Ravenna</placeName>, uti nobis
+                                <persName><name ref="Martinus/de Vitalis">Martinus qui vocatur de
+                                Vitalis</name></persName> cum fratribus suis se(h)u filiis vestris
+                        tantum <rs key="#Libellus/precaria/emphyteusis">libellum</rs> nomine
+                        concedistis nobis rem iuris suprascripti monesteriis Sancte Marie, idest <rs
+                            key="#Fundi">fundo</rs>
+                        <geogName
+                            key="#Rivers #Marshes/lagoons/tombolos #Fundi #Landed_possessions #Forests #Fisheries #Cereals #Maiores #Minores #Legumes #Wine #Fruits/vegetables #Hay/fodder #Linen #Levies"
+                            ref="#estates/2443"><placeName key="#Rivers #Marshes/lagoons/tombolos #Fundi #Landed_possessions #Forests #Fisheries #Cereals #Maiores #Minores #Legumes #Wine #Fruits/vegetables #Hay/fodder #Linen #Levies"
+                            >Orbana</placeName></geogName> in integro se(h)u et fundo <geogName
+                                key="#Rivers #Marshes/lagoons/tombolos #Fundi #Landed_possessions #Forests #Fisheries #Cereals #Maiores #Minores #Legumes #Wine #Fruits/vegetables #Hay/fodder #Linen #Levies" ref="#estates/2444"><placeName key="#Rivers #Marshes/lagoons/tombolos #Fundi #Landed_possessions #Forests #Fisheries #Cereals #Maiores #Minores #Legumes #Wine #Fruits/vegetables #Hay/fodder #Linen #Levies"
+                                >Bonisago</placeName></geogName> in integro, iusta <rs
+                            key="#Confinia">ll(ateribus)</rs> coerente se: hab uno llatere ructa qui
+                        vocatur de Bonisago et ab alio llatere fundo qui vocatur <geogName
+                            key="#Confinia #Fundi" ref="#estates/2419"><placeName
+                                key="#Confinia #Fundi" ref="#places/3524"
+                            >Cornedo</placeName></geogName> se(h)u ad tertjo llatere fundo qui
+                        vocatur <geogName key="#Confinia #Fundi" ref="#estates/2445"><placeName
+                                key="#Confinia #Fundi" ref="#places/3544"
+                            >Arquada</placeName></geogName> atque a quarto llatere <rs key="#Rivers"
+                            >Pelestrina</rs> percorente; omnia cum <rs key="#Landed_possessions"
+                            >terris</rs>, <rs key="#Cereals">campis</rs>, <rs key="#Hay/fodder"
+                            >pratis</rs>, <rs key="#Hay/fodder">pascuis</rs>, <rs key="#Forests"
+                            >silvis</rs>, <rs>salecti</rs>, <rs key="#Marshes/lagoons/tombolos"
+                            >padulibus</rs>, <rs key="#Fisheries">pisscatjonibus</rs> se(h)u et <rs
+                            key="#Landed_possessions">satjonabilibus</rs> vel omnibus eisdem
+                        pertinentibus, constituto <rs key="#Fines">territorio</rs>
+                        <geogName key="#Fines" ref="#estates/2420"><placeName key="#Fines"
+                                ref="#places/3522">Adriensis</placeName></geogName>, <rs
+                            key="#Plebs">plebem</rs>
+                        <orgName key="#Rivers #Marshes/lagoons/tombolos #Fundi #Landed_possessions #Forests #Fisheries #Cereals #Maiores #Minores #Legumes #Wine #Fruits/vegetables #Hay/fodder #Linen #Levies #Plebs" ref="#juridical_persons/1486">Sancti Stefani qui
+                            vocatur in <placeName ref="#places/4181">Villa
+                            Martjana</placeName></orgName>, sit ingnure et ratjonabiliter ad vobis
+                        petimus ne ab alis minime detinetur; ec omnia concedistis nobis abendum,
+                        tenendum, laborandum, cultandum, roncandum, defensandum, pastinandum et in
+                        omnibus meliorandum, in annis advenientibus viinti et novem [ad] renovandum,
+                        ad salva sanatjone domnica dandum ad alte[rum] libellum renovandum. Ita
+                        sanead ut inferamus domnice ratj[o]nibus vobis vestrisque subcessoribus det
+                        quidquid inibi Dominus annualiter condon[a]re iussi, ok est <rs
+                            key="#Levies">terratico</rs>: <rs key="#Cereals #Maiores">tritico</rs>
+                        et <rs key="#Cereals #Maiores">sicale</rs> et <rs key="#Legumes">faba</rs>
+                        et <rs key="#Cereals">mesturi[a] granata</rs> in area modio quinto; <rs
+                            key="#Cereals #Minores">trisico</rs>, <rs key="#Cereals #Minores"
+                            >mileo</rs>, <rs key="#Cereals #Minores">panico</rs> in area modio
+                        octavo; <rs key="#Linen">lino</rs> manipula detjma gramulata per nos; et sit
+                            <rs key="#Wine">vinea</rs> pastinaverimus fruere debeamus annis decem et
+                        postea redere debeamus anfora quarta, semel <rs key="#Fruits/vegetables"
+                            >arbore</rs> pecto ponendo pitjolo intjso postead sit nobis petitores
+                        recessum; et sit ronco fecerimus fruere debeamus annis quinque et postea
+                        redere debeamus terratico sicut de alia terra; deductum omnem terraticum
+                        domnicum in integro per nos suprascripti petitoris usque ad ripa ubi nave
+                        domnica potuerit pervenire; autore silicet vestre ecclesie vel vestra
+                        dominatjone subsipere debeamus et septjone eis facere cum onore et
+                        obedientja; et non abeamus licentja nos suprascripti petitoris unc libellum
+                        aut suprascripta res alicui omini dare vel vendere se(h)u transferere aut
+                        oponere vel comutuare aut in alio ve(nerabili) locum relinquere per nullum
+                        ingenium vel argumentum nisi inter nos petitoribus; ec omnia sicut superius
+                        legitur cum fidem et puritate agere debeamus sine aliqua fraude vel dolum;
+                        et non abeamus licentja ad nullum <rs key="#Other_minor_officer">publicum
+                            ministum</rs> ire ratjone mitendi nec aliqua funtjone facere de ipsa res
+                        set sub vestra disstritjone vel de autoribus <orgName
+                            ref="#juridical_persons/1471" key="#Cereals #Maiores #Levies">sancte
+                            Ravenati Ecclesie</orgName> subsistere debeamus et <rs
+                            key="#Cereals #Maiores #Levies">bratiatica</rs> eis persolvere de <rs
+                            key="#Cereals">grano manolitere</rs> stario uno et ministerial(em) vel
+                            <rs key="#Missus">vestrum missum</rs> pasere debeamus. Et si quis vero
+                        pars nostra contra unc paginam petitjonis libellum ire tentaverimus aut
+                        omnia que superius legitur non observaverimus usque ad perfinitum tempus
+                        sicut superius legitur, det pars parte fidem servante ante omnis litis
+                        initjum aut interpellatjonis pene nomine <rs key="#Penalty">auri untjes
+                            due</rs> et post penam soluta manente et ancc paginam petitjonis
+                        libellum in suo omnium robore et firmitatis. Quam vero paginam libellum
+                        scribendum rogavi <persName key="#Tabellio" ref="#people/1565"
+                            >Andreas</persName> in Dei nomine <rs key="#Tabellio">tabell(ionem)</rs>
+                        de <rs key="#Comitatus">comitato</rs>
+                        <geogName key="#Comitatus" ref="#estates/2435"><placeName key="#Comitatus"
+                                ref="#places/3538">Gavell(ensi)</placeName></geogName> et de <rs
+                            key="#Vici">vico</rs> qui vocatur <placeName key="#Vici"
+                            ref="#places/3521">Copario</placeName> scribendum rogavi et subter manus
+                        nostre proprie firmavimus et unus alterius nobis pariter contradimus, cod
+                        codsecuti sumus Deum agamus et vobis maxima gr(atj)a. Signum suprascripto
+                        Martinus qui vocatur de Vitalis petitores ad omnia suprascripta cui relectum
+                        est.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>Mezzetti, <foreign>Le carte</foreign>, pp. 168-170, n° 79.</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -30,10 +30,10 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="#">-</rs>
-                            <rs type="record_source" ref="#"/>
-                            <rs type="document_tradition" ref="#"/>
-                            <rs type="fiscal_property"/>
+                            <rs type="text_type" ref="#">--Offersio/donatio</rs>
+                            <rs type="record_source" ref="#">Edition</rs>
+                            <rs type="document_tradition" ref="#">Uncertain tradition</rs>
+                            <rs type="fiscal_property">No</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -44,11 +44,15 @@
                             
                             
                             
-                             <origDate notAfter="0861-12-31" notBefore="0853-01-01">
-                                <note type="displayed_date"/>
-                                <note type="dating_elements"/>
-                                <note type="topical_date"/>
-                                <note type="redaction_date"/>
+                             <origDate notAfter="0855-11-17" notBefore="0851-01-01">
+                                <note type="displayed_date">851 January 1/855 November 17</note>
+                                <note type="dating_elements">Gli anni di regno di Ludovico (34)
+                                    risultano inverosimili; l'indizione decima non cade in alcun
+                                    anno dell'abbaziato di Liutfrid (851-855). Come generica
+                                    indicazione cronologica si scelgono gli anni di
+                                    abbaziato.</note>
+                                <note type="topical_date">Mantova</note>
+                                <note type="redaction_date">XI-XII</note>
                             </origDate>
                                 
                             <origPlace/>
@@ -85,11 +89,53 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>Donazione in favore del Monastero da parte di Warto Vassallo Imperiale</ab>
+                    <ab>Domnus imperator <persName key="#Emperor/king" ref="#people/110"
+                            >Ludovicus</persName> divina ordinante providentia <rs
+                            key="#Emperor/king">imperator</rs> augustus, anno imperii eorum XXXIV,
+                        tertiodecimo kalendas novembris, indictione decima. <rs key="#Monasteries"
+                            >Monasterio</rs>
+                        <orgName key="#Monks #Abbots #Monasteries" ref="#juridical_persons/47"
+                            >beatissimorum apostolorum et Christi confessoris Silvestri</orgName>
+                        sito <placeName key="#Monasteries" ref="#places/15">Nonantulam</placeName>
+                        in <rs key="#City_territory">territorio</rs>
+                        <placeName key="#City_territory" ref="#places/38">Motinense</placeName>, ubi
+                            <persName key="#Abbots" ref="#people/1219">Liutefredus</persName>
+                        <rs key="#Abbots">abbas</rs> esse videtur, ego in Dei nomine <persName
+                            key="#vassusOf #Alemannus" ref="#people/1265">Warti</persName>
+                        <rs key="#vassusOf">vassus</rs> domni imperatoris, legibus vivens <rs
+                            key="#Alemannus">Allamannorum</rs>, presens presentibus dixi: Quisquis
+                        in sanctis ac venerabilibus locis ex suis aliquid contulerit rebus, iuxta
+                        auctoris vocem centuplum accipiet, et vitam possidebit eternam, ideo ego
+                        Warti vassus domni imperatoris, dono et offero a die presenti in antea hac
+                        venerabilem locum idest <rs key="#Casae/cassinae_massaricie">casa curtem
+                            massariciam</rs> iuris mei, quam habeo in loco et in fundo <placeName
+                            key="#Hay/fodder #Wine #Cereals #Forests #Fruits/vegetables #Casae/cassinae_massaricie"
+                            >Madio</placeName>, territorio <placeName
+                            key="#Casae/cassinae_massaricie #Cities #City_territory"
+                            ref="#places/59">Veroniense</placeName>, tam mea porcionem, quamque
+                        quondam <persName><name ref="Teobaldus">Teovaldi</name></persName> germano
+                        meo, ut dictum est, tam casas cum <rs key="#Fruits/vegetables">horto</rs>,
+                            <rs key="#Cereals">campis</rs>, <rs key="#Wine">vineis</rs>, <rs
+                            key="#Hay/fodder">pratis</rs> et <rs key="#Forests">silvis</rs> vel
+                        omnia et in omnibus quicquid in predicto loco vel inibi circiter ea per
+                        singula loca et casaliam ad ipsa casa pertinet … et intus <rs key="#Cities"
+                            >civitate</rs> Verona casa in loco dicto <placeName key="#Houses"
+                            >Cortina</placeName> … a <persName><name ref="Isaac"
+                            >Isachio</name></persName> germ.. possessam, et defensatam fuerint …
+                        sanctum hac venerabilem locum in subsidium <rs key="#Monks">fratrum</rs> do
+                        et offero per presente cartula, … <persName key="#Writer #Notary"><name
+                                ref="Andrea">Andrea</name></persName>
+                        <rs key="#Notary">notarius</rs>
+                        <rs key="#Writer">tradidit</rs> scribere rogavi, in qua subter confirmavi, …
+                        Actum in civitate <placeName
+                            key="#Fiscal_property #Cities #Function #Residential #Palatium"
+                            ref="#places/275">Mantua</placeName>, in <rs
+                            key="#Fiscal_property #Function #Residential #Palatium">palacio</rs>
+                        ...</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p>Mur Ant II n. 245a</p>
+                <p>Muratori 1739 (vol. II), coll. 245-246.</p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p/>

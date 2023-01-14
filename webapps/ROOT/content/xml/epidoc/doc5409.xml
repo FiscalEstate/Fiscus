@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Montecassino, Archivio privato, Carte di Pomposa, fasc. III, n. 43</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2022">2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DiSCi UniBo</publisher>
+                <idno type="filename">doc5409</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+                </availability>
+                <date when="2022"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Libellus/precaria/emphyteusis</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property">Yes</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate notBefore="1012-05-08" notAfter="1012-05-14">
+                                <note type="displayed_date">Between 1012 May 8 and 1012 May
+                                    14</note>
+                                <note type="dating_elements">Per la datazione di questa carta, la
+                                    corrispondenza tra il primo anno di papa Benedetto VIII e
+                                    l’ottavo anno di regno di Enrico II si ottiene nell’intervallo
+                                    tra 8 e 14 maggio 1012, cui corrisponde l’indizione decima
+                                    (Mezzetti, <foreign>Le carte</foreign>, p. 188).</note>
+                                <note type="topical_date">Comacchio (Ferrara)</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace><foreign>Sancta Maria in Pomposia</foreign></origPlace>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-02-03" who="cstedile">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>[In nomine Patris et Filii et Spiritu San]cti. Anno De[o] pro[picio
+                        pontificat]us domni nostri <persName key="#Popes" ref="#people/2137"
+                            >Ben[edicti</persName> summi pontificis et univer]salis <rs key="#Popes"
+                            >pape</rs> in apostolica [sacratissima beati Petri apostoli Domini] sede
+                        primo [sitque regnan]te vero dom(nus) <persName key="#Popes"
+                            ref="#people/130">Hen[ricus</persName>
+                        <rs key="#Emperor/king">re]x</rs> in Ita[lia anno oc]tavo, die [...][...
+                        indicione] detjma, <placeName ref="#places/485">Cumiaclo</placeName>.
+                        Petistis at nobis in Dei nomine dom(nus) <persName key="#Abbots"
+                            ref="#people/1574">Guido</persName> gr(aci)a Dei [<rs key="#Abbots"
+                            >abbas</rs>
+                        <rs key="#Monasteries">monasterii</rs>
+                        <orgName key="#Wine #Monasteries" ref="#juridical_persons/1460">Sancte Marie
+                            qui vocatur in] [<placeName key="#Monasteries" ref="#places/4179"
+                                >Pomposia</placeName></orgName>, una per c]onsensum <rs key="#Monks"
+                            >fratrum</rs> deservientjum eiusdem mon(asterii) qui iuste et legaliter
+                        d[ucunt regulam beati Benedicti], [uti vobis in Dei nomine] <persName
+                            key="#Coloni/tenants"><name ref="Iohannes/Callicario">Ioh(anne)s qui
+                                vocatur Callicario</name></persName> et <persName
+                            key="#Coloni/tenants"><name ref="Bonitia">Boniza</name></persName>
+                        iugal(is) seo filiis et heredibus suis libellarii nomine [c]oncedimus et
+                        largimus atque [con][firmamus vobis re]m iuris nostri suprascripto
+                        mon(asterio), idest <rs key="#Wine">una petja terre aliquis cum tulpis
+                            vinearum</rs> super se abente et aliquis in[... ess]e videntur, qui est
+                        poss(ita) istius <rs key="#Fines">teritorio</rs>
+                        <geogName key="#Fines" ref="#estates/2449"><placeName key="#Fines"
+                                ref="#places/485">Cummiaclensis</placeName></geogName>, in loco qui
+                        vocatur <placeName
+                            key="#Wine #Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_individuals"
+                            ref="#places/3552">iusta fluvio Aquainversa mino[re</placeName>, <rs
+                            key="#Size">in lo]ngitudinem suam pedes usque in valle quantum scutere
+                            et laborare potueritis</rs> et in latitudinem suam pedes [...]ta; <rs
+                            key="#Confinia">interrafines</rs> eius hoc est: ab uno latere <persName
+                            key="#Confinia #Priests"><name ref="Domenicus"
+                            >Dominicus</name></persName>
+                        <rs key="#Priests">presbiter</rs> quem detinet at iura <rs key="#Bishops"
+                            >episcopo</rs>
+                        <orgName key="#Churches" ref="#juridical_persons/1498">Sancti
+                            Cassiani</orgName>
+                        <placeName ref="#places/485">Cumia[c]lensis</placeName>, [ab alio latere
+                        ...] villicus at iura suprascripto episcopo seo a tertjo latere <rs
+                            key="#Confinia #Natural_landscape">valle</rs> sibique pertinente atque
+                        at quarto latere <rs key="#Confinia #Roads">via publica</rs> percorente [...
+                        qui vocatur Aqu]ainversa minore, cum ingresso et egresso suo et cum omnibus
+                        at suprascriptas res pertinentibus sicut superius legitur; eas abendum,
+                        [tenen]dum defensandum et in omnibus meliorandum in annis atvenientibus
+                        viginti et novem at renovandum, salva [sanatjone domnica] dandum. Ita sane
+                        ut inferatis domnice ratjonibus nobis nostrisque sucessoribus rendere
+                        debeatis omnique an[no...]ere anfora tertja, arbore pecto ponente semel
+                        postea sit vobis coloni cesso; et de ipsa [..] [...] pastinare et
+                        propaginare debeatis et fruere debeatis annos ses, postea rendere debeatis
+                        [sicut de cetera terra], similiter arbore semel pecto ponente postea sit
+                        vobis coloni cesso; per[vect]um ip[so <rs key="#Levies">t]eratico</rs> per
+                        nos <rs key="#Coloni/tenants">coloni</rs> [... Cumi]aclo, in mansione vestra
+                        domnicata. Pro eo quia exinde accepit de manibus nostris peti[toris in
+                        manibus tuis suprascripto domno Guido] [abbate in presencia <rs
+                            key="#Witness">te]stium</rs>, qui ic supter supscripturi sunt, caltjarii
+                        nomine, idest <rs key="#Price">libro uno pro in arien[tum soli]dos decem et
+                            per unumquem[que] sol(idum) [ana denarii duodecim</rs>]. Maiore quidem
+                        domnico nostro vel nostra dominatjone cum onore et obedientja susipere
+                        debeatis et [supcessionem] [ei facere cum fide et] puritate seo umilitate
+                        sine aliquam fraude vel dolo. Si quis vero pars [nostrum c]ontra os libello
+                        ire [tem][taverimus ante perfini]tum tempus sicut superius legitur det pars
+                        partis fidem servantis ante [omnis] litis initjum aut interpellatjonem <rs
+                            key="#Penalty">pene [nomine auri un]tjas duas</rs>, et [pos] penem
+                        sol(ucionem) m(anente) os libello in suo robore. Cos vero libello uno tinore
+                        conscripto <persName key="#Tabellio" ref="#people/1566">Petrus</persName> in
+                        Dei [nomine] [<rs key="#Tabellio">tabellionem</rs> et d]ativus scribend[um
+                        r]ogavimus et unus alterius nobis pariter iubemus, quod consecuti sumus
+                        agamus Deum et vobis [maximas gracias]. [Signum manibus nostris <persName
+                            key="#Witness"><name ref="Leo/de Pomposia">Leo qui vocatur] de
+                                Pomposia</name></persName>, <persName key="#Witness"><name
+                                ref="Leo/Rere">Leo de Rere</name></persName>, <persName
+                            key="#Witness"><name ref="Iulianus">Iubiano</name></persName> testibus
+                        vocatis at omnia suprascripta cui relectum est. Petrus in Dei nomine
+                        tabell(io) et dativus scriptor huius paginam libelli de omnibus sicut
+                        superius legitur pos roboratjonem [testium atque tradita com]plevi et
+                        apsolvi. Notitjam testium idest: Leo vir clarissimus qui vocatur de
+                        Pom[posia], Leo vir clarissimus qui vocatur de Re[re], Iubiano vir
+                        clarissimus te[ste], <persName key="#Vir_clarissimus"><name ref="Leo"
+                                >Leo</name></persName>
+                        <rs key="#Vir_clarissimus">vir clarissimus</rs> filio quondam
+                                <persName><name ref="Rainerius">Rainiero</name></persName>,
+                            <persName key="#Vir_clarissimus"><name ref="Iohannes"
+                            >Ioh(anne)s</name></persName> vir clarissimus filio quondam
+                                <persName><name ref="Laurentius de Insula">Laurentj[i] de
+                                [In]sol[a]</name></persName>.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>Mezzetti, <foreign>Le carte</foreign>, pp. 187-189, n° 86.</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

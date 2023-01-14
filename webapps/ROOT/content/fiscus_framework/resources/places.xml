@@ -199,7 +199,6 @@
                             8.292337507009508</geo></geogName>
                         <idno>places/20</idno>
                         <note><foreign>Caput curtis</foreign> compreso tra Trino e Tricerro</note>
-                        <link type="estates" corresp="#estates/247" subtype="proximity"/>
                         <link type="estates" corresp="#estates/131" subtype="link"/>
                         <link type="people" corresp="#people/318" subtype="link"/>
                     </place>
@@ -350,6 +349,8 @@
                             subtype="dependsOn"/>
                         <link type="juridical_persons" corresp="#juridical_persons/71"
                             subtype="dependsOn"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/70"
+                            subtype="dependsOn"/>
                     </place>
                     <place>
                         <placeName>Prata (Suvereto; Livorno)</placeName>
@@ -408,7 +409,7 @@
                         <note/>
                     </place>
                     <place>
-                        <placeName>Lovadina (Treviso)</placeName>
+                        <placeName>Lovadina (Spresiano; Treviso)</placeName>
                         <geogName type="coord"><geo>45.76828142666548,
                             12.280131205916407</geo></geogName>
                         <idno>places/42</idno>
@@ -430,12 +431,12 @@
                         <note>Frazione di Ferriere</note>
                     </place>
                     <place>
-                        <placeName>Boccolo dei Tassi (Parma)</placeName>
+                        <placeName>Boccolo dei Tassi (Bardi; Parma)</placeName>
                         <geogName type="coord"><geo>44.66831404365939,
                             9.665308836847544</geo></geogName>
                         <idno>places/45</idno>
                         <note>Frazione di Bardi</note>
-                        <link type="places" corresp="#places/1900" subtype="link"/>
+                        <link type="places" corresp="#places/1900" subtype="proximity"/>
                     </place>
                     <place>
                         <placeName>Pordenone</placeName>
@@ -446,11 +447,11 @@
                         <note/>
                     </place>
                     <place>
-                        <placeName>Groppallo (Piacenza)</placeName>
+                        <placeName>Groppallo (Farini; Piacenza)</placeName>
                         <geogName type="coord"><geo>44.697088964344644,
                             9.598995619453492</geo></geogName>
                         <idno>places/47</idno>
-                        <note>Frazione di Farini</note>
+                        <note/>
                     </place>
                     <place>
                         <placeName>Alice (Santhià)</placeName>
@@ -687,13 +688,16 @@
                     </place>
                     <place>
                         <placeName>Vignola (Modena)</placeName>
-                        <placeName type="other">Vingiolum</placeName>
+                        <placeName type="other"><foreign>Vingiolum</foreign>;
+                                <foreign>Viniole</foreign></placeName>
                         <geogName type="coord"><geo>44.478069, 11.007980</geo></geogName>
                         <idno>places/72</idno>
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/47"
                             subtype="isOwnedBy"/>
                         <link type="people" corresp="#people/23" subtype="isOwnedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1120"
+                            subtype="isOwnedBy"/>
                     </place>
                     <place>
                         <placeName>Riolo (Modena)</placeName>
@@ -1302,6 +1306,8 @@
                         <link type="people" corresp="#people/14" subtype="isConfirmedBy"/>
                         <link type="juridical_persons" corresp="#juridical_persons/47"
                             subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/110" subtype="link"/>
+                        <link type="people" corresp="#people/239" subtype="isConfirmedBy" cert="low"/>
                     </place>
                     <place>
                         <placeName>Cà Cameazzo (Fiorano Modenese; Modena)</placeName>
@@ -1542,6 +1548,8 @@
                         <geogName type="coord"><geo>43.9682009, 10.5312118</geo></geogName>
                         <idno>places/169</idno>
                         <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/72"
+                            subtype="dependsOn"/>
                     </place>
                     <place>
                         <placeName>Diecimo (Borgo a Mozzano; Lucca)</placeName>
@@ -1659,7 +1667,7 @@
                     </place>
                     <place>
                         <placeName>Vaccoli (San Lorenzo a Vaccoli; Lucca; Lucca)</placeName>
-                        <placeName type="other"/>
+                        <placeName type="other"><foreign>Vacchule</foreign></placeName>
                         <geogName type="coord"><geo>43.799969, 10.483017</geo></geogName>
                         <idno>places/180</idno>
                         <note>Microtoponomastica: <foreign>Vitiliano</foreign>, <foreign>Colle
@@ -1668,6 +1676,8 @@
                         <link type="juridical_persons" corresp="#juridical_persons/246"
                             subtype="dependsOn"/>
                         <link type="juridical_persons" corresp="#juridical_persons/71"
+                            subtype="dependsOn"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/242"
                             subtype="dependsOn"/>
                     </place>
                     <place>
@@ -1908,6 +1918,8 @@
                         <idno>places/202</idno>
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/230"
+                            subtype="dependsOn"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/231"
                             subtype="dependsOn"/>
                     </place>
                     <place>
@@ -2359,7 +2371,8 @@
                     <place>
                         <placeName>Corazzano (San Miniato; Pisa)</placeName>
                         <placeName type="other"><foreign>Quaratiana</foreign>;
-                                <foreign>Waratiana</foreign>; <foreign>Quaretana;</foreign>
+                                <foreign>Quarantjana</foreign>; <foreign>Waratiana</foreign>;
+                                <foreign>Quaretana;</foreign>
                             <foreign>Quaratana</foreign>; </placeName>
                         <geogName type="coord"><geo>43.627409, 10.861959</geo></geogName>
                         <idno>places/239</idno>
@@ -2368,7 +2381,8 @@
                                 Monte Alto</foreign>.</note>
                         <link type="juridical_persons" corresp="#juridical_persons/273"
                             subtype="dependsOn"/>
-                        <link type="places" corresp="#places/68" subtype="dependsOn"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/68"
+                            subtype="dependsOn"/>
                     </place>
                     <place>
                         <placeName>Prignano sulla Secchia (Reggio Emilia)</placeName>
@@ -3384,6 +3398,8 @@
                             subtype="dependsOn"/>
                         <link type="juridical_persons" corresp="#juridical_persons/256"
                             subtype="dependsOn"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/611"
+                            subtype="dependsOn"/>
                     </place>
                     <place>
                         <placeName>Celle (Pescaglia; Lucca)</placeName>
@@ -4232,11 +4248,17 @@
                         <link type="estates" corresp="#estates/190" subtype="link"/>
                     </place>
                     <place>
-                        <placeName>Felino (Parma)</placeName>
+                        <placeName><foreign>Felina</foreign> (Guastalla)</placeName>
                         <placeName type="other"/>
                         <geogName type="coord"><geo>44.695900, 10.241200</geo></geogName>
                         <idno>places/435</idno>
-                        <note/>
+                        <note>Si trova all'interno dei <foreign>fines</foreign> di Guastalla
+                            (Falconi, <foreign>Le carte</foreign> I, pp. 72-74, n. 27, 882 giugno 1)
+                            e nel <foreign>loco et fundo</foreign> di Guastalla (ibid., pp. 90-93,
+                            n. 37, 903 gennaio). Da non confondere con Felino (Parma) né con Felina
+                            (Reggio Emilia), troppo distanti da Guastalla. <foreign>Contra</foreign>
+                            Cimino 2012, p. 153, nota 61, che la identifica con Felino nei pressi di
+                            Parma.</note>
                         <link type="estates" corresp="#estates/194" subtype="link"/>
                     </place>
                     <place>
@@ -4266,6 +4288,8 @@
                         <geogName type="coord"><geo>43.9783717, 10.5625334</geo></geogName>
                         <idno>places/438</idno>
                         <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/283"
+                            subtype="dependsOn"/>
                     </place>
                     <place>
                         <placeName>Paganico (Capannori; Lucca)</placeName>
@@ -4424,9 +4448,6 @@
                         <geogName type="coord"><geo>44.722729, 9.702430</geo></geogName>
                         <idno>places/456</idno>
                         <note/>
-                        <link type="juridical_persons" corresp="#juridical_persons/148"
-                            subtype="link"/>
-                        <link type="people" corresp="#people/21" subtype="link"/>
                     </place>
                     <place>
                         <placeName>Bioglio (Biella)</placeName>
@@ -4699,6 +4720,7 @@
                         <link type="people" corresp="#people/55" subtype="isGrantedBy"/>
                         <link type="juridical_persons" corresp="#juridical_persons/53"
                             subtype="isGrantedTo"/>
+                        <link type="estates" corresp="#estates/2449" subtype="isWithin"/>
                     </place>
                     <place>
                         <placeName>Lammari (Capannori; Lucca)</placeName>
@@ -4718,6 +4740,8 @@
                         <link type="juridical_persons" corresp="#juridical_persons/70"
                             subtype="dependsOn"/>
                         <link type="people" corresp="#people/149" subtype="isHeldBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/231"
+                            subtype="dependsOn"/>
                     </place>
                     <place>
                         <placeName>Sorbano del Vescovo (Lucca; Lucca)</placeName>
@@ -4957,7 +4981,10 @@
                         <placeName type="other"><foreign>Conca</foreign></placeName>
                         <geogName type="coord"><geo>43.9112701, 10.4682333</geo></geogName>
                         <idno>places/513</idno>
-                        <note/>
+                        <note>Microtoponomastica: <foreign>Canneto</foreign>; <foreign>ad Quercieto
+                                Aurie</foreign>; <foreign>ante Casa Domuli</foreign>. I
+                            microtoponimi sono forse ricordati dalle odierne località di Querce e
+                            Cannajo poste nei dintorni di Torre (Lucca).</note>
                         <link type="people" corresp="#people/147" subtype="isHeldBy"/>
                     </place>
                     <place>
@@ -5624,6 +5651,7 @@
                         <link type="people" corresp="#people/1643" subtype="isConfirmedBy"/>
                         <link type="people" corresp="#people/80" subtype="isConfirmedBy"/>
                         <link type="people" corresp="#people/32" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/3905" subtype="link"/>
                     </place>
                     <place>
                         <placeName><foreign>Mugnano</foreign> (Casa Mugnana Alta; San Miniato;
@@ -5699,6 +5727,8 @@
                         <idno>places/586</idno>
                         <note>Microtoponomastica: <foreign>Mulo</foreign></note>
                         <link type="juridical_persons" corresp="#juridical_persons/230"
+                            subtype="dependsOn"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/231"
                             subtype="dependsOn"/>
                     </place>
                     <place>
@@ -5778,6 +5808,9 @@
                         <idno>places/594</idno>
                         <note/>
                         <link type="estates" corresp="#estates/2423" subtype="isWithin"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1460"
+                            subtype="link"/>
+                        <link type="people" corresp="#people/2137" subtype="link"/>
                     </place>
                     <place>
                         <placeName><foreign>Tillioano;</foreign><foreign> villa</foreign> (Nogara;
@@ -5877,7 +5910,8 @@
                     </place>
                     <place>
                         <placeName>Liburia; plana (Caserta)</placeName>
-                        <placeName type="other">Terra di Lavoro</placeName>
+                        <placeName type="other">Terra di Lavoro;
+                            <foreign>Liguria</foreign></placeName>
                         <geogName type="coord"><geo>40.859389, 14.378426; 40.868472, 14.526018;
                                 40.980681, 14.531612; 41.037883, 14.399463; 41.106098, 14.257818;
                                 41.069247, 14.123426; 40.987468, 14.090684; 40.899773, 14.181239;
@@ -5922,6 +5956,9 @@
                         <link type="people" corresp="#people/2001" subtype="isConfirmedTo"/>
                         <link type="people" corresp="#people/2492" subtype="isConfirmedBy"/>
                         <link type="people" corresp="#people/2449" subtype="isConfirmedTo"/>
+                        <link type="estates" corresp="#estates/3003" subtype="correspondsTo"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3002"
+                            subtype="rendersCollectedBy"/>
                     </place>
                     <place>
                         <placeName><foreign>Pantanus</foreign> (Benevento)</placeName>
@@ -6033,6 +6070,8 @@
                         <link type="people" corresp="#people/2451" subtype="isGrantedBy"/>
                         <link type="people" corresp="#people/2449" subtype="isGrantedTo"/>
                         <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="rendersCollectedBy"/>
                     </place>
                     <place>
                         <placeName>Lete; flumen (Caserta)</placeName>
@@ -7247,6 +7286,8 @@
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
                             subtype="dependsOn"/>
                         <link type="people" corresp="#people/303" subtype="isGrantedby"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="rendersCollectedBy"/>
                     </place>
                     <place>
                         <placeName>Janula; castellum (Frosinone)</placeName>
@@ -7307,7 +7348,7 @@
                             subtype="link"/>
                     </place>
                     <place>
-                        <placeName>Patria; lacus (Napoli)</placeName>
+                        <placeName>Patria; <foreign>lacus</foreign> (Napoli)</placeName>
                         <placeName type="other"/>
                         <geogName type="coord"><geo>40.937497, 14.033355</geo></geogName>
                         <idno>places/701</idno>
@@ -7335,6 +7376,13 @@
                         <link type="people" corresp="#people/2492" subtype="isConfirmedBy"/>
                         <link type="people" corresp="#people/2449" subtype="isConfirmedTo"/>
                         <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/3010" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/3019" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/3002" subtype="isGrantedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="isGrantedTo"/>
                     </place>
                     <place>
                         <placeName>Montebamboli (Massa Marittima; Grosseto)</placeName>
@@ -8173,15 +8221,6 @@
                         <note/>
                     </place>
                 </listPlace>
-                <listPlace n="Cerretani Nicola">
-                    <place>
-                        <placeName>XXX</placeName>
-                        <placeName type="other"/>
-                        <geogName type="coord"><geo/></geogName>
-                        <idno>places/3600</idno>
-                        <note/>
-                    </place>
-                </listPlace>
                 <listPlace n="Ciccopiedi Caterina">
                     <place>
                         <placeName>Cerrione (Biella)</placeName>
@@ -8207,8 +8246,9 @@
                             subtype="isGrantedTo"/>
                     </place>
                     <place>
-                        <placeName>Montem Beroardum; Mottalciata (Biella)</placeName>
-                        <placeName type="other"><foreign>Montem Beroardum</foreign></placeName>
+                        <placeName><foreign>Montem Beroardum</foreign>; Mottalciata
+                            (Biella)</placeName>
+                        <placeName type="other"/>
                         <geogName type="coord"><geo>45.503219, 8.20713</geo></geogName>
                         <idno>places/802</idno>
                         <note/>
@@ -10426,11 +10466,862 @@
                 </listPlace>
                 <listPlace n="De Angelis Valerio">
                     <place>
-                        <placeName>XXX</placeName>
-                        <placeName type="other"/>
-                        <geogName type="coord"><geo/></geogName>
+                        <placeName>Aversa (Caserta)</placeName>
+                        <placeName type="other"><foreign>Adversa</foreign></placeName>
+                        <geogName type="coord"><geo>40.974951, 14.206118</geo></geogName>
                         <idno>places/4000</idno>
                         <note/>
+                        <link type="estates" corresp="#estates/3017" subtype="isWithin"/>
+                    </place>
+                    <place>
+                        <placeName>Fuorigrotta (Napoli)</placeName>
+                        <placeName type="other"><foreign>Foras cripta</foreign></placeName>
+                        <geogName type="coord"><geo>40.826107, 14.195089</geo></geogName>
+                        <idno>places/4001</idno>
+                        <note>Microtoponomastica: la chiesa di S. Archangelus Terraczanus, ubicata
+                            presso Fuorigrotta, risulta essere edificata su un monte che sovrasta il
+                            fiume <foreign>Anglane</foreign>. Si è proposto di identificare tale
+                            luogo con il lago di Agnano, ma permangono molte incertezze, dal momento
+                            che il termine <foreign>amnis</foreign> indica sempre acqua
+                            corrente.</note>
+                    </place>
+                    <place>
+                        <placeName><foreign>Nobole</foreign> (Casaluce; Caserta)</placeName>
+                        <placeName type="other"><foreign>Nobile</foreign></placeName>
+                        <geogName type="coord"><geo style="line">40.99734451989512,
+                                14.205887531414477; 40.9978627566686, 14.181854938068593;
+                                41.02363989250721, 14.178765033193482; 41.02571198800446,
+                                14.211552356968417</geo></geogName>
+                        <idno>places/4002</idno>
+                        <note>Villaggio scomparso nel territorio di Casaluce (Libertini 2011)</note>
+                        <link type="estates" corresp="#estates/3000" subtype="correspondsTo"/>
+                        <link type="people" corresp="#people/3010" subtype="isConfirmedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="rendersCollectedBy"/>
+                        <link type="people" corresp="#people/3019" subtype="isConfirmedBy"/>
+                    </place>
+                    <place>
+                        <placeName>Acerra (Napoli)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo>40.945507, 14.376308</geo></geogName>
+                        <idno>places/4003</idno>
+                        <note/>
+                    </place>
+                    <place>
+                        <placeName><foreign>Campum Landonis</foreign> (Maddaloni;
+                            Caserta)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo/></geogName>
+                        <idno>places/4004</idno>
+                        <note>Probabilmente non lontano da Maddaloni (Libertini 2011).</note>
+                        <link type="places" corresp="#places/3444" subtype="proximity"/>
+                    </place>
+                    <place>
+                        <placeName>Casolla (fraz. di Caivano; Napoli)</placeName>
+                        <placeName type="other"><foreign>Casolla vallenzana</foreign></placeName>
+                        <geogName type="coord"><geo>40.946946, 14.305759</geo></geogName>
+                        <idno>places/4005</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/3002" subtype="isGrantedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/3010" subtype="isConfirmedBy"/>
+                    </place>
+                    <place>
+                        <placeName>Marcianofreddo (fraz. di Alvignano; Caserta)</placeName>
+                        <placeName type="other"><foreign>Marzanum frigidum</foreign></placeName>
+                        <geogName type="coord"><geo>41.218999, 14.337424</geo></geogName>
+                        <idno>places/4006</idno>
+                        <note/>
+                    </place>
+                    <place>
+                        <placeName><foreign>Gariliani</foreign></placeName>
+                        <placeName type="other"><foreign>Gareliani</foreign></placeName>
+                        <geogName type="coord"><geo/></geogName>
+                        <idno>places/4007</idno>
+                        <note>Oggi scomparso. Forse ubicato tra Casapesenna e Villa Literno, in
+                            provincia di Caserta (Libertini 2011)</note>
+                        <link type="estates" corresp="#estates/3005" subtype="correspondsTo"/>
+                    </place>
+                    <place>
+                        <placeName><foreign>Zampicari</foreign> (Sessa Aurunca; Caserta)</placeName>
+                        <placeName type="other"><foreign>Canpicari</foreign></placeName>
+                        <geogName type="coord"><geo/></geogName>
+                        <idno>places/4008</idno>
+                        <note/>
+                        <link type="people" corresp="#people/3010" subtype="isConfirmedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="isConfirmedTo"/>
+                        <link type="places" corresp="#places/571" subtype="proximity"/>
+                    </place>
+                    <place>
+                        <placeName>Mignano Monte Lungo (Caserta)</placeName>
+                        <placeName type="other"><foreign>Miniano</foreign></placeName>
+                        <geogName type="coord"><geo>41.408327, 13.984937</geo></geogName>
+                        <idno>places/4009</idno>
+                        <note/>
+                    </place>
+                    <place>
+                        <placeName><foreign>Ad Fractam</foreign> (Aversa; Caserta)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo/></geogName>
+                        <idno>places/4010</idno>
+                        <note/>
+                        <link type="estates" corresp="#estates/3009" subtype="isWithin"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3001"
+                            subtype="rendersCollectedBy"/>
+                    </place>
+                    <place>
+                        <placeName>Fossa di Valle (fraz. di Pompei; Napoli)</placeName>
+                        <placeName type="other"><foreign>Vallo</foreign></placeName>
+                        <geogName type="coord"><geo>40.756074, 14.489073</geo></geogName>
+                        <idno>places/4011</idno>
+                        <note/>
+                    </place>
+                    <place>
+                        <placeName>Lauro (Avellino)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo>40.879553279496044,
+                            14.630009354048314</geo></geogName>
+                        <idno>places/4012</idno>
+                        <note/>
+                    </place>
+                    <place>
+                        <placeName>Domicella (Avellino)</placeName>
+                        <placeName type="other"><foreign>Dominicella</foreign></placeName>
+                        <geogName type="coord"><geo>40.88099368378448,
+                            14.59266943363476</geo></geogName>
+                        <idno>places/4013</idno>
+                        <note/>
+                    </place>
+                    <place>
+                        <placeName>Nocera Inferiore (Salerno)</placeName>
+                        <placeName type="other"><foreign>Nucerie</foreign></placeName>
+                        <geogName type="coord"><geo>40.750110952806764,
+                            14.64200020859534</geo></geogName>
+                        <idno>places/4014</idno>
+                        <note>Si è scelto di identificarla con Noceria Inferiore, piuttosto che con
+                            Noceria Superiore. La scelta è stata dettata da un diploma di Riccardo
+                            II, principe di Capua, in cui sono cedute le decime dell'annona e delle
+                            vigne: sono coltivi che prediligono le basse altitudini e Noceria
+                            Inferiore è più a valle.</note>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="rendersCollectedBy"/>
+                        <link type="people" corresp="#people/3010" subtype="isGrantedBy"/>
+                    </place>
+                    <place>
+                        <placeName><foreign>Ponte a Selice</foreign> (Caserta)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo style="line">41.02093276940471,
+                                14.188582921487157; 40.9840385162592, 14.195697355631879;
+                                40.999544069367616, 14.32240469663685; 41.0179082730574,
+                                14.316996690007578</geo></geogName>
+                        <idno>places/4015</idno>
+                        <note>Il luogo prendeva il nome da un ponte sul fiume Clanio - o forse
+                            trattasi del ponte medesimo. Nell'impossibilità di ricostruire con
+                            precisione il tortuoso corso antico del fiume Clanio e individuare il
+                            sito in questione, è possibile quantomeno circoscriverne
+                            approssimativamente l'ubicazione all'area tra Teverola e Marcianise
+                            (Caserta). A questa località pertinevano due mulini menzionati in un
+                            diploma di conferma dei beni di S. Lorenzo d'Aversa.</note>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="link"/>
+                        <link type="people" corresp="#people/3010" subtype="isConfirmedBy"/>
+                    </place>
+                    <place>
+                        <placeName>Calabricito (Caserta)</placeName>
+                        <placeName type="other"><foreign>Calabricita</foreign>;
+                                <foreign>Calabrizitum</foreign>;
+                            <foreign>Calambricitum</foreign></placeName>
+                        <geogName type="coord"><geo>41.01408076405787,
+                            14.392311603185215</geo></geogName>
+                        <idno>places/4016</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="rendersCollectedBy"/>
+                        <link type="people" corresp="#people/3010" subtype="isConfirmedBy"/>
+                    </place>
+                    <place>
+                        <placeName><foreign>Rapale</foreign></placeName>
+                        <placeName type="other"><foreign>Rampale</foreign></placeName>
+                        <geogName type="coord"><geo/></geogName>
+                        <idno>places/4017</idno>
+                        <note>Villaggio scomparso dell'area di Aversa (Libertini 2011)</note>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="rendersCollectedBy"/>
+                        <link type="people" corresp="#people/3010" subtype="isConfirmedBy"/>
+                        <link type="places" corresp="#places/4000" subtype="proximity"/>
+                    </place>
+                    <place>
+                        <placeName><foreign>Piponis</foreign> (Casaluce; Caserta)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo>41.013917535382014,
+                            14.199389706513601</geo></geogName>
+                        <idno>places/4018</idno>
+                        <note>Villaggio scomparso ubicato nel territorio di Casaluce (Libertini
+                            2011)</note>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/3010" subtype="isConfirmedBy"/>
+                        <link type="places" corresp="#places/2337" subtype="proximity"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="rendersCollectedBy"/>
+                    </place>
+                    <place>
+                        <placeName><foreign>Ceraso</foreign></placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo/></geogName>
+                        <idno>places/4019</idno>
+                        <note/>
+                    </place>
+                    <place>
+                        <placeName><foreign>Monte Christi</foreign></placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo/></geogName>
+                        <idno>places/4020</idno>
+                        <note>Impossibile da localizzare con precisione, sorgeva nella campagna di
+                            Aversa (Libertini 2011)</note>
+                    </place>
+                    <place>
+                        <placeName>Montanaro (fraz. di Francolise; Caserta)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo>41.20397708152307,
+                            14.075927204092917</geo></geogName>
+                        <idno>places/4021</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="rendersCollectedBy"/>
+                    </place>
+                    <place>
+                        <placeName>Pantano (Acerra; Napoli)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo>40.97383719269404,
+                            14.373596105053892</geo></geogName>
+                        <idno>places/4022</idno>
+                        <note/>
+                        <link type="places" corresp="#places/4003" subtype="proximity"/>
+                        <link type="places" corresp="#places/4023" subtype="proximity"/>
+                        <link type="estates" corresp="#estates/3008" subtype="proximity"/>
+                    </place>
+                    <place>
+                        <placeName><foreign>Suessola</foreign> (Acerra; Napoli)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo>40.98981248963761,
+                            14.398913533788507</geo></geogName>
+                        <idno>places/4023</idno>
+                        <note/>
+                    </place>
+                    <place>
+                        <placeName><foreign>Cupulum</foreign> (Villa Linterno; Caserta)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo style="line">41.01565189071469,
+                                14.043362106584663; 40.99110935086986, 14.059964858507911;
+                                40.99356401613355, 14.104295917766896; 41.021334122865085,
+                                14.090945251271911</geo></geogName>
+                        <idno>places/4024</idno>
+                        <note>Oggi località campestre denominata Li Cuponi (Libertini 2011).</note>
+                    </place>
+                    <place>
+                        <placeName>Marigliano (Napoli)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo>40.90774694176808,
+                            14.451945855965192</geo></geogName>
+                        <idno>places/4025</idno>
+                        <note/>
+                    </place>
+                    <place>
+                        <placeName>Casoria (Napoli)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo>40.920195630530415,
+                            14.288868823319625</geo></geogName>
+                        <idno>places/4026</idno>
+                        <note/>
+                        <link type="estates" corresp="#estates/3009" subtype="isWithin"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3001"
+                            subtype="rendersCollectedBy"/>
+                    </place>
+                    <place>
+                        <placeName><foreign>Spanguati</foreign></placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo/></geogName>
+                        <idno>places/4027</idno>
+                        <note>Nella campagna di Aversa (Libertini 2011)</note>
+                    </place>
+                    <place>
+                        <placeName><foreign>Cancia</foreign> (Caserta)</placeName>
+                        <placeName type="other"><foreign>Cantia</foreign></placeName>
+                        <geogName type="coord"><geo style="line">41.09283142942563,
+                                14.024320345498106; 40.973892434317456, 14.111684708829756;
+                                40.955270233108216, 14.008841372260328; 41.063759714053354,
+                                13.91596754502578</geo></geogName>
+                        <idno>places/4028</idno>
+                        <note>Ubicato nell'attuale Terra dei Mazzoni (Libertini 2011). La Terra dei
+                            Mazzoni, definitivamente bonificata tra XIX e X secolo, si estende
+                            approssimativamente dal Lago Patria al Basso Volturno. Per assonanza, si
+                            potrebbe tentare di identificare la località di
+                                <foreign>Cancia</foreign> con il comune di Cancello ed Arnone. Da
+                            notare come, in un diploma di conferma di Roberto di Capua (RNAM 2011,
+                            doc. 534), i beni confermati nella località di <foreign>Cancia</foreign>
+                            seguano, nell'elenco, proprio i beni ubicati ad
+                                <foreign>Arnone</foreign>: quest'ultimo si può senz'altro
+                            identificare proprio con il predetto comune di Cancello ed Arnone
+                            (CE).</note>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="rendersCollectedBy"/>
+                    </place>
+                    <place>
+                        <placeName><foreign>Nolitum</foreign> (Cardito; Napoli) </placeName>
+                        <placeName type="other"> </placeName>
+                        <geogName type="coord"><geo>40.94387322748174,
+                            14.296281768684914</geo></geogName>
+                        <idno>places/4029</idno>
+                        <note>Si è ritenuta più convincente la localizzazione fornita dai RNAM
+                            (Libertini 2011). Graham Loud identifica l'abitato con l'attuale comune
+                            di Nusco, in provincia di Avellino (Loud 1981)</note>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/3010" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/3019" subtype="isConfirmedBy"/>
+                    </place>
+                    <place>
+                        <placeName><foreign>Fornicara</foreign>;
+                            <foreign>cripta</foreign></placeName>
+                        <placeName type="other"><foreign>Fornicaria</foreign></placeName>
+                        <geogName type="coord"><geo/></geogName>
+                        <idno>places/4030</idno>
+                        <note>Forse ubicata nei pressi di Capua (Libertini 2011)</note>
+                        <link type="people" corresp="#people/3010" subtype="isConfirmedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/3019" subtype="isConfirmedBy"/>
+                    </place>
+                    <place>
+                        <placeName>Cervino (Caserta)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo>41.040390811443906,
+                            14.421754973390577</geo></geogName>
+                        <idno>places/4031</idno>
+                        <note>La zona montuosa confermata da Riccardo II di Capua tra le proprietà
+                            di S. Lorenzo di Aversa, è così descritta: "<foreign>cum monte Cervino
+                                sicuti vadit via que cernit hunc montem ab alio monte</foreign>". È
+                            plausibile che quest'area corrisponda proprio all'attuale località di
+                            Cervino, sita tra le montagne che sovrastano Maddaloni.</note>
+                        <link type="people" corresp="#people/3010" subtype="isConfirmedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/3019" subtype="isConfirmedBy"/>
+                    </place>
+                    <place>
+                        <placeName>Castel Cicala (Nola; Napoli)</placeName>
+                        <placeName type="other"><foreign>Cibali</foreign>;
+                            <foreign>Cicala</foreign></placeName>
+                        <geogName type="coord"><geo>40.917580528520276,
+                            14.554345732394028</geo></geogName>
+                        <idno>places/4032</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="rendersCollectedBy"/>
+                        <link type="people" corresp="#people/3010" subtype="isOwnedBy"/>
+                    </place>
+                    <place>
+                        <placeName><foreign>Casa Paci</foreign></placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo/></geogName>
+                        <idno>places/4033</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="rendersCollectedBy"/>
+                    </place>
+                    <place>
+                        <placeName><foreign>Ad Duplum</foreign></placeName>
+                        <placeName type="other"><foreign>Adupplum</foreign></placeName>
+                        <geogName type="coord"><geo/></geogName>
+                        <idno>places/4034</idno>
+                        <note/>
+                    </place>
+                    <place>
+                        <placeName>Villa di Briano (Caserta)</placeName>
+                        <placeName type="other"><foreign>Forignano Piccolo</foreign>;
+                                <foreign>Forignano Minore</foreign>; </placeName>
+                        <geogName type="coord"><geo>41.0000667645399,
+                            14.161473564462517</geo></geogName>
+                        <idno>places/4035</idno>
+                        <note>Il comune cambiò toponimo nel 1950.</note>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="rendersCollectedBy"/>
+                    </place>
+                    <place>
+                        <placeName><foreign>Trasolfu</foreign> (Aversa; Caserta)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo/></geogName>
+                        <idno>places/4036</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3001"
+                            subtype="rendersCollectedBy"/>
+                        <link type="estates" corresp="#estates/3009" subtype="isWithin"/>
+                    </place>
+                    <place>
+                        <placeName><foreign>Campu</foreign> (Aversa; Caserta)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo/></geogName>
+                        <idno>places/4037</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3001"
+                            subtype="rendersCollectedBy"/>
+                    </place>
+                    <place>
+                        <placeName><foreign>Campu Bunituli</foreign> (Aversa; Caserta)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo/></geogName>
+                        <idno>places/4038</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3001"
+                            subtype="rendersCollectedBy"/>
+                    </place>
+                    <place>
+                        <placeName>Trentola-Ducenta (Caserta)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo>40.975383431781985,
+                            14.176865949753775</geo></geogName>
+                        <idno>places/4039</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3001"
+                            subtype="rendersCollectedBy"/>
+                        <link type="places" corresp="#places/605" subtype="isWithin"/>
+                    </place>
+                    <place>
+                        <placeName><foreign>Sambucitu</foreign> (Maddaloni; Caserta)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo/></geogName>
+                        <idno>places/4040</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="rendersCollectedBy"/>
+                        <link type="places" corresp="#places/3444" subtype="proximity"/>
+                        <link type="places" corresp="#places/4058" subtype="proximity"/>
+                    </place>
+                    <place>
+                        <placeName><foreign>Arbustolo</foreign>
+                        </placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo/></geogName>
+                        <idno>places/4041</idno>
+                        <note>Villaggio scomparso, forse sito nel territorio di Gricignano d'Aversa
+                            (Libertini 2011)</note>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="rendersCollectedBy"/>
+                        <link type="places" corresp="#places/605" subtype="isWithin"/>
+                    </place>
+                    <place>
+                        <placeName><foreign>Gruptolam</foreign>(Nola; Napoli)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo/></geogName>
+                        <idno>places/4042</idno>
+                        <note/>
+                        <link type="places" corresp="#places/4032" subtype="proximity"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="rendersCollectedBy"/>
+                    </place>
+                    <place>
+                        <placeName>Cimitile (Napoli)</placeName>
+                        <placeName type="other"><foreign>Cimiterium</foreign></placeName>
+                        <geogName type="coord"><geo>40.94539035687558,
+                            14.521828421772788</geo></geogName>
+                        <idno>places/4043</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="rendersCollectedBy"/>
+                        <link type="places" corresp="#places/4032" subtype="proximity"/>
+                        <link type="people" corresp="#people/3032" subtype="rendersCollectedBy"/>
+                    </place>
+                    <place>
+                        <placeName><foreign>Iugnanum</foreign></placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo/></geogName>
+                        <idno>places/4044</idno>
+                        <note/>
+                        <link type="places" corresp="#places/3444" subtype="proximity"/>
+                    </place>
+                    <place>
+                        <placeName><foreign>Sambuca</foreign> (Maddaloni; Caserta)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo/></geogName>
+                        <idno>places/4045</idno>
+                        <note/>
+                        <link type="places" corresp="#places/3444" subtype="proximity"/>
+                        <link type="places" corresp="#places/4040" subtype="correspondsTo"
+                            cert="low"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="rendersCollectedBy"/>
+                        <link type="estates" corresp="#estates/3002" subtype="isWithin"/>
+                    </place>
+                    <place>
+                        <placeName><foreign>Ad la Spannella</foreign></placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo/></geogName>
+                        <idno>places/4046</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="rendersCollectedBy"/>
+                        <link type="places" corresp="#places/3444" subtype="proximity"/>
+                    </place>
+                    <place>
+                        <placeName><foreign>Alicicini</foreign> (Maddaloni; Caserta)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo/></geogName>
+                        <idno>places/4047</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="rendersCollectedBy"/>
+                        <link type="places" corresp="#places/3444" subtype="proximity"/>
+                    </place>
+                    <place>
+                        <placeName>Sancti Martini; <foreign>pons</foreign></placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo/></geogName>
+                        <idno>places/4048</idno>
+                        <note>Microtoponomastica: <foreign>Fossas Figulorum</foreign>;
+                                <foreign>Anglonem iuxta Laneum</foreign>;
+                                <foreign>Frigidus</foreign>; <foreign>Fossatellum</foreign>;
+                                <foreign>Frascaritum</foreign></note>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="rendersCollectedBy"/>
+                        <link type="places" corresp="#places/173" subtype="proximity"/>
+                    </place>
+                    <place>
+                        <placeName><foreign>Alli Russi</foreign> (Maddaloni; Caserta)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo/></geogName>
+                        <idno>places/4049</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="rendersCollectedBy"/>
+                        <link type="estates" corresp="#estates/3002" subtype="isWithin"/>
+                    </place>
+                    <place>
+                        <placeName><foreign>Ad Paludem</foreign> (Maddaloni; Caserta)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo/></geogName>
+                        <idno>places/4050</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="rendersCollectedBy"/>
+                        <link type="estates" corresp="#estates/3002" subtype="isWithin"/>
+                    </place>
+                    <place>
+                        <placeName><foreign>Centum Palumbi</foreign> (Maddaloni;
+                            Caserta)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo/></geogName>
+                        <idno>places/4051</idno>
+                        <note/>
+                        <link type="estates" corresp="#estates/3002" subtype="isWithin"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="rendersCollectedBy"/>
+                    </place>
+                    <place>
+                        <placeName>Cancello ed Arnone (Caserta)</placeName>
+                        <placeName type="other"><foreign>Arnone</foreign></placeName>
+                        <geogName type="coord"><geo>41.075525346330934,
+                            14.026400876839764</geo></geogName>
+                        <idno>places/4052</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="rendersCollectedBy"/>
+                    </place>
+                    <place>
+                        <placeName><foreign>Via Munda</foreign> (Aversa; Caserta)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo/></geogName>
+                        <idno>places/4053</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="rendersCollectedBy"/>
+                        <link type="people" corresp="#people/3031" subtype="rendersCollectedBy"/>
+                        <link type="people" corresp="#people/3032" subtype="rendersCollectedBy"/>
+                        <link type="places" corresp="#places/4000" subtype="proximity"/>
+                    </place>
+                    <place>
+                        <placeName><foreign>Casorbici</foreign></placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo/></geogName>
+                        <idno>places/4054</idno>
+                        <note/>
+                        <link type="places" corresp="#places/3444" subtype="proximity"/>
+                    </place>
+                    <place>
+                        <placeName><foreign>Ad Monumentum</foreign>;
+                            <foreign>silva</foreign></placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo/></geogName>
+                        <idno>places/4055</idno>
+                        <note/>
+                        <link type="places" corresp="#places/4015" subtype="proximity"/>
+                    </place>
+                    <place>
+                        <placeName><foreign>Pasqualitu</foreign></placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo/></geogName>
+                        <idno>places/4056</idno>
+                        <note/>
+                    </place>
+                    <place>
+                        <placeName><foreign>Punticellum</foreign> (Capua; Caserta)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo/></geogName>
+                        <idno>places/4057</idno>
+                        <note/>
+                        <link type="people" corresp="#people/3022" subtype="rendersCollectedBy"/>
+                    </place>
+                    <place>
+                        <placeName><foreign>Palude</foreign> (Maddaloni; Caserta)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo/></geogName>
+                        <idno>places/4058</idno>
+                        <note/>
+                        <link type="estates" corresp="#estates/3002" subtype="isWithin"/>
+                    </place>
+                    <place>
+                        <placeName><foreign>Sclavium</foreign>;
+                            <foreign>castellum</foreign></placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo/></geogName>
+                        <idno>places/4059</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="rendersCollectedBy"/>
+                    </place>
+                    <place>
+                        <placeName><foreign>Rosello</foreign></placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo/></geogName>
+                        <idno>places/4060</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="rendersCollectedBy"/>
+                    </place>
+                    <place>
+                        <placeName><foreign>Odoricis</foreign></placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo/></geogName>
+                        <idno>places/4061</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="rendersCollectedBy"/>
+                    </place>
+                    <place>
+                        <placeName>Castel Volturno (Caserta)</placeName>
+                        <placeName type="other"><foreign>Castellum maris</foreign></placeName>
+                        <geogName type="coord"><geo>41.02240580513158,
+                            13.978572012133556</geo></geogName>
+                        <idno>places/4062</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="rendersCollectedBy"/>
+                    </place>
+                    <place>
+                        <placeName>Calvi Risorta (Caserta)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo>41.215423714208285,
+                            14.128625183557965</geo></geogName>
+                        <idno>places/4063</idno>
+                        <note>Fu sede vescovile. Dal 1986 la diocesi di Calvi è stata fusa con la
+                            diocesi di Teano. </note>
+                    </place>
+                    <place>
+                        <placeName>Vitulazio (Caserta)</placeName>
+                        <placeName type="other"><foreign>Vitolacci</foreign></placeName>
+                        <geogName type="coord"><geo>41.163522717103724,
+                            14.21610403999178</geo></geogName>
+                        <idno>places/4064</idno>
+                        <note/>
+                    </place>
+                    <place>
+                        <placeName>Melito di Napoli (Napoli)</placeName>
+                        <placeName type="other"><foreign>Malito</foreign></placeName>
+                        <geogName type="coord"><geo>40.920878312188776,
+                            14.230442310252805</geo></geogName>
+                        <idno>places/4065</idno>
+                        <note/>
+                    </place>
+                    <place>
+                        <placeName>Megaride; isola (Napoli)</placeName>
+                        <placeName type="other"><foreign>insula maris</foreign></placeName>
+                        <geogName type="coord"><geo>40.82806401433217,
+                            14.248194483467342</geo></geogName>
+                        <idno>places/4066</idno>
+                        <note>Trattasi dell'odierno isolotto su cui sorge Castel dell'Ovo.  </note>
+                    </place>
+                    <place>
+                        <placeName><foreign>Feciata</foreign> (Casal di Principe;
+                            Caserta)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo>41.02987520702308,
+                            14.111171943196831</geo></geogName>
+                        <idno>places/4067</idno>
+                        <note>Villaggio scomparso nel territorio di Casal di Principe (Libertini
+                            2011).</note>
+                        <link type="estates" corresp="#estates/3003" subtype="isWithin"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3041"
+                            subtype="rendersCollectedBy"/>
+                    </place>
+                    <place>
+                        <placeName><foreign>Campus Rosali</foreign> (Casal di Principe;
+                            Caserta)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo/></geogName>
+                        <idno>places/4068</idno>
+                        <note/>
+                        <link type="places" corresp="#places/4067" subtype="isWithin"/>
+                        <link type="estates" corresp="#estates/3003" subtype="isWithin"/>
+                    </place>
+                    <place>
+                        <placeName><foreign>Scarafina</foreign> (Caserta)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo/></geogName>
+                        <idno>places/4069</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3041"
+                            subtype="rendersCollectedBy"/>
+                        <link type="estates" corresp="#estates/3003" subtype="isWithin"/>
+                    </place>
+                    <place>
+                        <placeName>Casapuzzano (fraz. di Orta di Atella; Caserta)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo>40.97329099697677,
+                            14.26520056993295</geo></geogName>
+                        <idno>places/4070</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3041"
+                            subtype="rendersCollectedBy"/>
+                        <link type="estates" corresp="#estates/3003" subtype="isWithin"/>
+                    </place>
+                    <place>
+                        <placeName><foreign>Preturo</foreign> (Nocera Inferiore;
+                            Salerno)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo/></geogName>
+                        <idno>places/4071</idno>
+                        <note/>
+                        <link type="places" corresp="#places/4014" subtype="proximity"/>
+                    </place>
+                    <place>
+                        <placeName><foreign>Bucito</foreign> (Nocera Inferiore; Salerno)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo/></geogName>
+                        <idno>places/4072</idno>
+                        <note/>
+                        <link type="places" corresp="#places/4014" subtype="proximity"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3043"
+                            subtype="rendersCollectedBy"/>
+                    </place>
+                    <place>
+                        <placeName><foreign>Sancto Laurentio</foreign> (Nocera Inferiore;
+                            Salerno)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo/></geogName>
+                        <idno>places/4073</idno>
+                        <note/>
+                        <link type="places" corresp="#places/4014" subtype="proximity"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3043"
+                            subtype="rendersCollectedBy"/>
+                    </place>
+                    <place>
+                        <placeName><foreign>Puteo de Golfulu</foreign> (Nocera Inferiore;
+                            Salerno)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo/></geogName>
+                        <idno>places/4074</idno>
+                        <note/>
+                        <link type="places" corresp="#places/4014" subtype="proximity"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3043"
+                            subtype="rendersCollectedBy"/>
+                    </place>
+                    <place>
+                        <placeName>Vieste (Foggia)</placeName>
+                        <placeName type="other"><foreign>Besti</foreign></placeName>
+                        <geogName type="coord"><geo>41.881703940089736,
+                            16.175618786821854</geo></geogName>
+                        <idno>places/4075</idno>
+                        <note/>
+                    </place>
+                    <place>
+                        <placeName>Gargano; mons (Foggia)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo>41.73413468376344,
+                            15.766991506451165</geo></geogName>
+                        <idno>places/4076</idno>
+                        <note/>
+                    </place>
+                    <place>
+                        <placeName>Adriatico; mare </placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo/></geogName>
+                        <idno>places/4077</idno>
+                        <note/>
+                    </place>
+                    <place>
+                        <placeName><foreign>Casali</foreign> (fraz. Lago Patria; Giugliano in
+                            Campania; Napoli)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo/></geogName>
+                        <idno>places/4078</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="rendersCollectedBy"/>
+                    </place>
+                    <place>
+                        <placeName>Vena; canalis (Castel Volturno; Napoli)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo>40.94940407553139,
+                            14.015903473937392</geo></geogName>
+                        <idno>places/4079</idno>
+                        <note>Oggi corrisponde ad un canale collettore delle acque scolanti di un
+                            polder situato a Nord ovest del lago Patria, esteso circa 850
+                            ettari.</note>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="rendersCollectedBy"/>
+                    </place>
+                    <place>
+                        <placeName><foreign>Campo Galiani</foreign> (Aversa; Caserta)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo/></geogName>
+                        <idno>places/4080</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="rendersCollectedBy"/>
+                    </place>
+                    <place>
+                        <placeName>Ischia; insula (Napoli)</placeName>
+                        <placeName type="other"><foreign>Iscla Maior</foreign></placeName>
+                        <geogName type="coord"><geo>40.72693378638138,
+                            13.906315429954608</geo></geogName>
+                        <idno>places/4081</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="rendersCollectedBy"/>
+                    </place>
+                    <place>
+                        <placeName><foreign>Cervanus</foreign> (Aversa; Caserta)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo/></geogName>
+                        <idno>places/4082</idno>
+                        <note/>
+                        <link type="estates" corresp="#estates/3017" subtype="isWithin"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3001"
+                            subtype="rendersCollectedBy"/>
+                    </place>
+                    <place>
+                        <placeName><foreign>Degazzanu</foreign> (Caserta)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo/></geogName>
+                        <idno>places/4083</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3001"
+                            subtype="rendersCollectedBy"/>
+                        <link type="estates" corresp="#estates/3003" subtype="isWithin"/>
                     </place>
                 </listPlace>
                 <listPlace n="Del Mercato Evelina">
@@ -13794,6 +14685,13 @@
                         <idno>places/3248</idno>
                         <note>Ceccarelli 2009.</note>
                     </place>
+                    <place>
+                        <placeName>Uzzano (Pistoia)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo>43.8975738, 10.7017319</geo></geogName>
+                        <idno>places/3249</idno>
+                        <note/>
+                    </place>
                 </listPlace>
                 <listPlace n="Internullo Dario">
                     <place>
@@ -14208,6 +15106,7 @@
                         <idno>places/1501</idno>
                         <note/>
                         <link type="estates" corresp="#estates/208" subtype="isWithin"/>
+                        <link type="estates" corresp="#estates/2439" subtype="isWithin"/>
                     </place>
                     <place>
                         <placeName>Savignano sul Panaro (Modena)</placeName>
@@ -14392,11 +15291,11 @@
                     </place>
                     <place>
                         <placeName>Panzano (Castelfranco Emilia; Modena)</placeName>
-                        <placeName type="other"><foreign/></placeName>
+                        <placeName type="other"><foreign>Panzanum de Monacis</foreign></placeName>
                         <geogName type="coord"><geo>44.620932000711775,
                             11.039967608212235</geo></geogName>
                         <idno>places/1519</idno>
-                        <note/>
+                        <note>Alla metà del secolo X era di proprietà del monastero di Leno.</note>
                         <link type="estates" corresp="#estates/208" subtype="isWithin"/>
                         <link type="people" corresp="#people/1208" subtype="link"/>
                     </place>
@@ -14657,7 +15556,7 @@
                     </place>
                     <place>
                         <placeName><foreign>Pons Marmoriolo</foreign> (Alseno; Piacenza)</placeName>
-                        <placeName type="other">Pontecello in Strata</placeName>
+                        <placeName type="other"><foreign>Pontecello in Strata</foreign></placeName>
                         <geogName type="coord"><geo>44.8933670925768,
                             9.97272102887933</geo></geogName>
                         <idno>places/1540</idno>
@@ -14670,8 +15569,8 @@
                                 11.106746; 44.737136, 11.077387; 44.747079,
                             11.046516</geo></geogName>
                         <idno>places/1541</idno>
-                        <note>Secondo Tiraboschi il toponimo doveva trovarsi nella zona di Solare e
-                            la corte di <foreign>Canetolum</foreign>: Tiraboschi, Dizionario, II, p.
+                        <note>Secondo Tiraboschi il toponimo doveva trovarsi nella zona di Solara e
+                            la corte di <foreign>Canetulum</foreign>: Tiraboschi, Dizionario, II, p.
                             52.</note>
                     </place>
                     <place>
@@ -14689,6 +15588,8 @@
                         <geogName type="coord"><geo>44.619066, 10.723257</geo></geogName>
                         <idno>places/1543</idno>
                         <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/47"
+                            subtype="isOwnedBy"/>
                     </place>
                     <place>
                         <placeName>Montagnano (Castell'Arquato; Piacenza)</placeName>
@@ -15128,8 +16029,8 @@
                             11.14507086593601</geo></geogName>
                         <idno>places/1590</idno>
                         <note>Toponimo ora scomparso, ma localizzato nei pressi di Crevalcore:
-                            Tiraboschi I, p. 216. Le coordinate fornite sono pertanto
-                            indicative.</note>
+                            Tiraboschi I, p. 216. Le coordinate fornite sono pertanto indicative.
+                            Cfr. anche Balboni 2001, pp. 33-41.</note>
                     </place>
                     <place>
                         <placeName><foreign>Caput Mincio</foreign> (Bagnolo San Vito;
@@ -15170,6 +16071,129 @@
                         <idno>places/1594</idno>
                         <note>L'area segnalata è solo identificativa.</note>
                         <link type="people" corresp="#people/12" subtype="link"/>
+                    </place>
+                    <place>
+                        <placeName>Levizzano Rangone (Castelvetro di Modena; Modena)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo>44.482342447161436,
+                            10.912683422296752</geo></geogName>
+                        <idno>places/1595</idno>
+                        <note/>
+                    </place>
+                    <place>
+                        <placeName><foreign>Tortilianum</foreign> (Vignola; Modena)</placeName>
+                        <placeName type="other"><foreign>Turtiano</foreign></placeName>
+                        <geogName type="coord"><geo>44.489235974078134,
+                            10.996013004146395</geo></geogName>
+                        <idno>places/1596</idno>
+                        <note/>
+                        <link type="estates" corresp="#estates/1123" subtype="isWithin"/>
+                    </place>
+                    <place>
+                        <placeName><foreign>Riocivum</foreign> (Castell'Arquato;
+                            Piacenza)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo>44.877573, 9.83872; 44.845661, 9.917041;
+                                44.811028, 9.879143; 44.841369, 9.812544</geo></geogName>
+                        <idno>places/1597</idno>
+                        <note>L'area di localizzazione è puramente indicativa e fa riferimento alla
+                            località di Castell'Arquato.</note>
+                        <link type="juridical_persons" corresp="#juridical_persons/1120"
+                            subtype="isOwnedBy"/>
+                    </place>
+                    <place>
+                        <placeName><foreign>Trimiolo</foreign> (Scandiano; Reggio
+                            Emilia)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo>44.614201, 10.723704; 44.621189, 10.700948;
+                                44.632931, 10.703166; 44.641911, 10.720147; 44.630026,
+                                10.755199</geo></geogName>
+                        <idno>places/1598</idno>
+                        <note>Toponimo non ubicabile con precisione posto probabilmente in
+                            territorio reggiano. Per proporre almeno un'area di localizzazione
+                            ipotetica si fa riferimento all'informazione di vicinanza con
+                            Arceto.</note>
+                        <link type="juridical_persons" corresp="#juridical_persons/47"
+                            subtype="isOwnedBy"/>
+                    </place>
+                    <place>
+                        <placeName><foreign>Varianise</foreign> (Scandiano; Reggio
+                            Emilia)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo>44.614201, 10.723704; 44.621189, 10.700948;
+                                44.632931, 10.703166; 44.641911, 10.720147; 44.630026,
+                                10.755199</geo></geogName>
+                        <idno>places/1599</idno>
+                        <note>Toponimo non ubicabile con precisione posto probabilmente in
+                            territorio reggiano. Per proporre almeno un'area di localizzazione
+                            ipotetica si fa riferimento all'informazione di vicinanza con
+                            Arceto.</note>
+                        <link type="juridical_persons" corresp="#juridical_persons/47"
+                            subtype="isOwnedBy"/>
+                    </place>
+                    <place>
+                        <placeName>Pieve di Coriano (Mantova)</placeName>
+                        <placeName type="other"><foreign>Coriano</foreign></placeName>
+                        <geogName type="coord"><geo>45.033802068186326,
+                            11.107655894291376</geo></geogName>
+                        <idno>places/3600</idno>
+                        <note/>
+                    </place>
+                    <place>
+                        <placeName><foreign>Canneto</foreign> (Sermide; Mantova) </placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo>44.994784, 11.219652; 44.977125, 11.321416;
+                                44.957763, 11.308035; 44.970923, 11.199452</geo></geogName>
+                        <idno>places/3601</idno>
+                        <note>L'identificazione è resa assai difficoltosa dalla genericità delle
+                            indicazioni: la località era posta nel comitato di Mantova, tra Po e
+                            Bondeno. Un documento matildico del 1082 (MGH DD Mat n. A3) permette di
+                            associarlo alla corte di Sermide, benché gli editori non lo riconoscano
+                            come toponimo. Quali coordinate si inseriscono quindi quelle di un'area
+                            nei pressi di quella località.</note>
+                        <link type="people" corresp="#people/21" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/1209" subtype="isGrantedTo"/>
+                    </place>
+                    <place>
+                        <placeName>Gabba (Lizzano in Belvedere; Bologna)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo>44.18472927161581,
+                            10.915195128584633</geo></geogName>
+                        <idno>places/3602</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/47"
+                            subtype="isOwnedBy"/>
+                        <link type="people" corresp="#people/239" subtype="isConfirmedBy" cert="low"/>
+                        <link type="people" corresp="#people/110" subtype="link"/>
+                    </place>
+                    <place>
+                        <placeName>Capugnano (Porretta Terma; Bologna)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo>44.15687674170384,
+                            10.950784034905949</geo></geogName>
+                        <idno>places/3603</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/47"
+                            subtype="isGrantedTo" cert="low"/>
+                        <link type="people" corresp="#people/239" subtype="isGrantedBy" cert="low"/>
+                    </place>
+                    <place>
+                        <placeName>Leo; <foreign>flumen</foreign></placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo>44.26647134306011,
+                            10.864001295742208</geo></geogName>
+                        <idno>places/3604</idno>
+                        <note>Corso d'acqua che bagna Fanano; con il torrente Scoltenna forma
+                            l'attuale corso del Panaro.</note>
+                    </place>
+                    <place>
+                        <placeName><foreign>Gena</foreign>; <foreign>flumen</foreign></placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo>44.62474871770857,
+                            11.043491970419971</geo></geogName>
+                        <idno>places/3605</idno>
+                        <note>Ormai perso nelle canalizzazioni agricole, in alcuni punti della
+                            pianura nonantola il suo corso coicide ora con il Canale Torbido.</note>
                     </place>
                 </listPlace>
                 <listPlace n="Massa Paola">
@@ -15548,9 +16572,9 @@
                             subtype="link"/>
                     </place>
                     <place>
-                        <placeName><foreign>Pons Sanctae Anastasiae</foreign> o <foreign>Pons
-                                Lapideum</foreign> (Ponte; Benevento)</placeName>
-                        <placeName type="other"/>
+                        <placeName><foreign>Pons Sanctae Anastasiae</foreign> (Ponte;
+                            Benevento)</placeName>
+                        <placeName type="other"><foreign>Pons Lapideum</foreign></placeName>
                         <geogName type="coord"><geo>41.21144600950681,
                             14.691047244299348</geo></geogName>
                         <idno>places/3431</idno>
@@ -15726,13 +16750,19 @@
                     </place>
                     <place>
                         <placeName>Maddaloni (Caserta)</placeName>
-                        <placeName type="other"><foreign>Mataluni</foreign></placeName>
+                        <placeName type="other"><foreign>Mataluni</foreign>;
+                                <foreign>Macdaloni</foreign>; <foreign>Matarono</foreign>;
+                                <foreign>Mataloni</foreign>; <foreign>Magdalone</foreign>;
+                                <foreign>Madaloni</foreign></placeName>
                         <geogName type="coord"><geo>41.036702324304805,
                             14.381140632775342</geo></geogName>
                         <idno>places/3444</idno>
                         <note>Microtoponomastica: <foreign>Sancta Maria a cappella ubi Grauzufuli
                                 vocatur </foreign>; <foreign>Sausilianu o Sasillanu</foreign>;
                                 <foreign>Asenareca</foreign></note>
+                        <link type="estates" corresp="#estates/3002" subtype="isWithin"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="rendersCollectedBy"/>
                     </place>
                     <place>
                         <placeName><foreign>Sanctus Stephanus inter flumina</foreign>
@@ -16393,6 +17423,7 @@
                         <link type="people" corresp="#people/80" subtype="isConfirmedBy"/>
                         <link type="people" corresp="#people/1643" subtype="isConfirmedBy"/>
                         <link type="people" corresp="#people/110" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/3905" subtype="link"/>
                     </place>
                     <place>
                         <placeName><foreign>Brivisula</foreign></placeName>
@@ -16414,6 +17445,7 @@
                         <link type="people" corresp="#people/80" subtype="isConfirmedBy"/>
                         <link type="people" corresp="#people/1643" subtype="isConfirmedBy"/>
                         <link type="people" corresp="#people/110" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/3905" subtype="link"/>
                     </place>
                     <place>
                         <placeName>Vulpariolo (Cremona)</placeName>
@@ -16428,6 +17460,7 @@
                         <link type="people" corresp="#people/80" subtype="isConfirmedBy"/>
                         <link type="people" corresp="#people/1643" subtype="isConfirmedBy"/>
                         <link type="people" corresp="#people/110" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/3905" subtype="link"/>
                     </place>
                     <place>
                         <placeName>Adda;<foreign> flumen</foreign></placeName>
@@ -16455,7 +17488,8 @@
                             9.984648997408392</geo></geogName>
                         <idno>places/4305</idno>
                         <note><foreign>Villa regia</foreign>: cf. MGH DD Lu II, p. 290 s.v.
-                                <foreign>Casiriano</foreign></note>
+                                <foreign>Casiriano</foreign>. L'identificazione del toponimo è solo
+                            probabile.</note>
                         <link type="people" corresp="#people/110" subtype="link"/>
                     </place>
                     <place>
@@ -16494,8 +17528,7 @@
                         <geogName type="coord"><geo>47.270103838900084,
                             9.64577630295903</geo></geogName>
                         <idno>places/4309</idno>
-                        <note/>
-                        <link type="estates" corresp="#estates/3602" subtype="correspondsTo"/>
+                        <note>Sernagiotto 2016, p. 248 nota 811.</note>
                     </place>
                     <place>
                         <placeName>Mazzo di Valtellina (Sondrio)</placeName>
@@ -16547,13 +17580,169 @@
                         <note/>
                     </place>
                     <place>
-                        <placeName>Castelseprio (Varese)</placeName>
-                        <placeName type="other"/>
-                        <geogName type="coord"><geo>45.713775809256816,
-                            8.861946475749626</geo></geogName>
+                        <placeName>Seprio (Varese-Como)</placeName>
+                        <placeName type="other"><foreign>Fines Sibriensis</foreign></placeName>
+                        <geogName type="coord"><geo>45.595224, 8.929837; 45.755833, 9.017759;
+                                45.919349, 8.631176; 45.595224, 8.929837</geo></geogName>
                         <idno>places/4316</idno>
+                        <note>cf. MGH DD Lo I, p. 519 s.v. <foreign>Sibriensis</foreign>. </note>
+                    </place>
+                    <place>
+                        <placeName>Valle di Bardonecchia (Torino)</placeName>
+                        <placeName type="other"><foreign>Vallis Bardinisca</foreign></placeName>
+                        <geogName type="coord"><geo>45.036539, 6.824002; 45.046004, 6.821262;
+                                45.099110, 6.704659; 45.087074, 6.679695; 45.036539,
+                            6.824002</geo></geogName>
+                        <idno>places/4317</idno>
+                        <note>La valle di Bardonecchia segue il corso della Dora di Bardonecchia,
+                            dall'omonimo centro abitato a Oulx.</note>
+                        <link type="juridical_persons" corresp="#juridical_persons/1443"
+                            subtype="isConfirmedTo" cert="low"/>
+                        <link type="people" corresp="#people/9" subtype="isConfirmedBy" cert="low"/>
+                    </place>
+                    <place>
+                        <placeName><foreign>Diobia</foreign> (Bardonecchia; Torino)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo>45.075367, 6.692739</geo></geogName>
+                        <idno>places/4318</idno>
+                        <note><foreign>castellum</foreign></note>
+                        <link type="places" corresp="#places/4317" subtype="isWithin"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1443"
+                            subtype="isConfirmedTo" cert="low"/>
+                        <link type="people" corresp="#people/9" subtype="isConfirmedBy" cert="low"/>
+                    </place>
+                    <place>
+                        <placeName><foreign>Vallis Diobiasca</foreign> (Bardonecchia; Torino) </placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo>45.057078, 6.674855</geo></geogName>
+                        <idno>places/4319</idno>
+                        <note>Appendice della valle di Bardonecchia.</note>
+                        <link type="places" corresp="#places/4317" subtype="proximity"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1443"
+                            subtype="isConfirmedTo" cert="low"/>
+                        <link type="people" corresp="#people/9" subtype="isConfirmedBy" cert="low"/>
+                    </place>
+                    <place>
+                        <placeName><foreign>Vallis Armeasca</foreign> (Bardonecchia;
+                            Torino)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo>45.103524, 6.691184</geo></geogName>
+                        <idno>places/4320</idno>
+                        <note>Appendice della valle di Bardonecchia.</note>
+                        <link type="places" corresp="#places/4317" subtype="proximity"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1443"
+                            subtype="isConfirmedTo" cert="low"/>
+                        <link type="people" corresp="#people/9" subtype="isConfirmedBy" cert="low"/>
+                    </place>
+                    <place>
+                        <placeName><foreign>Vallis Allonica</foreign> (Bardonecchia;
+                            Torino)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo>45.088263, 6.727063</geo></geogName>
+                        <idno>places/4321</idno>
+                        <note>Appendice della valle di Bardonecchia.</note>
+                        <link type="places" corresp="#places/4317" subtype="proximity"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1443"
+                            subtype="isConfirmedTo" cert="low"/>
+                        <link type="people" corresp="#people/9" subtype="isConfirmedBy" cert="low"/>
+                    </place>
+                    <place>
+                        <placeName>Pagno (Cuneo)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo>44.6117349364592,
+                            7.42625331945921</geo></geogName>
+                        <idno>places/4322</idno>
                         <note/>
-                        <link type="estates" corresp="#estates/3601" subtype="isWithin"/>
+                    </place>
+                    <place>
+                        <placeName>Casetta (Castelnuovo Berardenga; Siena)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo>43.3064274327524,
+                            11.418432965431414</geo></geogName>
+                        <idno>places/4323</idno>
+                        <note/>
+                    </place>
+                    <place>
+                        <placeName><foreign>Campus Fugianus</foreign> (Foiano della Chiana;
+                            Arezzo)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo>43.256533648291054,
+                            11.79302922303188</geo></geogName>
+                        <idno>places/4324</idno>
+                        <note/>
+                    </place>
+                    <place>
+                        <placeName>Remiremont (FR)</placeName>
+                        <placeName type="other"><foreign>Romarici monte</foreign></placeName>
+                        <geogName type="coord"><geo>48.01784762944551,
+                            6.589287418415784</geo></geogName>
+                        <idno>places/4325</idno>
+                        <note/>
+                        <link type="people" corresp="#people/9" subtype="link"/>
+                    </place>
+                    <place>
+                        <placeName>Dorna (Arezzo)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo>43.408512, 11.760239</geo></geogName>
+                        <idno>places/4326</idno>
+                        <note/>
+                    </place>
+                    <place>
+                        <placeName>Piscinale della Chiassa (Arezzo)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo>43.526313, 11.879140</geo></geogName>
+                        <idno>places/4327</idno>
+                        <note/>
+                    </place>
+                    <place>
+                        <placeName>Campione d'Italia (Como)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo>45.967513, 8.973303</geo></geogName>
+                        <idno>places/4328</idno>
+                        <note/>
+                    </place>
+                    <place>
+                        <placeName>Terno d'Isola (Bergamo)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo>45.680825, 9.530181</geo></geogName>
+                        <idno>places/4329</idno>
+                        <note/>
+                    </place>
+                    <place>
+                        <placeName>Olcio (Lecco)</placeName>
+                        <placeName type="other"><foreign>Aucis</foreign></placeName>
+                        <geogName type="coord"><geo>45.935365, 9.314032</geo></geogName>
+                        <idno>places/4330</idno>
+                        <note/>
+                    </place>
+                    <place>
+                        <placeName>Onno (Lecco)</placeName>
+                        <placeName type="other"><foreign>Conni</foreign></placeName>
+                        <geogName type="coord"><geo>45.907673, 9.295309</geo></geogName>
+                        <idno>places/4331</idno>
+                        <note/>
+                    </place>
+                    <place>
+                        <placeName>Locate di Triulzi (Milano)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo>45.357688, 9.227621</geo></geogName>
+                        <idno>places/4332</idno>
+                        <note/>
+                    </place>
+                    <place>
+                        <placeName>Lambro; <foreign>flumen</foreign></placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo>45.137560, 9.544727</geo></geogName>
+                        <idno>places/4333</idno>
+                        <note/>
+                    </place>
+                    <place>
+                        <placeName>Massenzatico (Reggio Emilia)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo>44.734139075918236,
+                            10.69786634207208</geo></geogName>
+                        <idno>places/4334</idno>
+                        <note/>
                     </place>
                 </listPlace>
                 <listPlace n="Rivera Magos Victor">
@@ -16899,7 +18088,7 @@
                             subtype="link"/>
                     </place>
                     <place>
-                        <placeName>Varano Marchesi (fraz. di Medesano; Parma)</placeName>
+                        <placeName>Varano Marchesi (Medesano; Parma)</placeName>
                         <placeName type="other"/>
                         <geogName type="coord"><geo>44.753160, 10.031870</geo></geogName>
                         <idno>places/1841</idno>
@@ -17589,6 +18778,9 @@
                         <geogName type="coord"><geo>46.319740, 9.397880</geo></geogName>
                         <idno>places/2732</idno>
                         <note/>
+                        <link type="people" corresp="#people/9" subtype="link"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/227"
+                            subtype="link"/>
                     </place>
                     <place>
                         <placeName>Pienza (Siena)</placeName>
@@ -17895,7 +19087,7 @@
                         <note/>
                     </place>
                     <place>
-                        <placeName>Capiate (Olginate; Lecco)</placeName>
+                        <placeName>Capiate (Lecco)</placeName>
                         <placeName type="other"/>
                         <geogName type="coord"><geo>45.779945, 9.426734</geo></geogName>
                         <idno>places/2775</idno>
@@ -18176,13 +19368,6 @@
                         <note/>
                     </place>
                     <place>
-                        <placeName>Cortenovo (Villafranca in Lunigiana; Massa-Carrara)</placeName>
-                        <placeName type="other"/>
-                        <geogName type="coord"><geo>44.2628288, 9.9882767</geo></geogName>
-                        <idno>places/3511</idno>
-                        <note/>
-                    </place>
-                    <place>
                         <placeName>Imola (Bologna)</placeName>
                         <placeName type="other"/>
                         <geogName type="coord"><geo>44.2628288, 9.9882767</geo></geogName>
@@ -18288,9 +19473,9 @@
                         <link type="people" corresp="#people/1560" subtype="isConfirmedBy"/>
                     </place>
                     <place>
-                        <placeName>Villamarzana (Rovigo)</placeName>
+                        <placeName>XXX</placeName>
                         <placeName type="other"/>
-                        <geogName type="coord"><geo>45.014540, 11.698440</geo></geogName>
+                        <geogName type="coord"><geo/></geogName>
                         <idno>places/3525</idno>
                         <note/>
                     </place>
@@ -18302,7 +19487,7 @@
                         <note/>
                     </place>
                     <place>
-                        <placeName>Pieve Cesato (fraz. Faenza; Ravenna)</placeName>
+                        <placeName>Pieve Cesato (Faenza; Ravenna)</placeName>
                         <placeName type="other"/>
                         <geogName type="coord"><geo>44.336700, 11.958820</geo></geogName>
                         <idno>places/3527</idno>
@@ -18404,9 +19589,11 @@
                     <place>
                         <placeName><foreign>Curte Conca</foreign> (Cattolica; Rimini)</placeName>
                         <placeName type="other"/>
-                        <geogName type="coord"><geo>43.962147, 12.719263</geo></geogName>
+                        <geogName type="coord"><geo/></geogName>
                         <idno>places/3539</idno>
                         <note/>
+                        <link type="places" corresp="#places/3554" subtype="proximity"/>
+                        <link type="estates" corresp="#estates/2451" subtype="isWithin"/>
                     </place>
                     <place>
                         <placeName><foreign>Silbule</foreign></placeName>
@@ -18428,11 +19615,227 @@
                     </place>
                     <place>
                         <placeName>Maccaretolo (San Pietro in Casale; Bologna)</placeName>
-                        <placeName type="other"/>
+                        <placeName type="other"><foreign>Macaritico</foreign></placeName>
                         <geogName type="coord"><geo>44.720380, 11.431060</geo></geogName>
                         <idno>places/3542</idno>
                         <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1497"
+                            subtype="isManagedBy"/>
                     </place>
+                    <place>
+                        <placeName>Scacciano (Rimini)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo>43.975262, 12.656179</geo></geogName>
+                        <idno>places/3543</idno>
+                        <note/>
+                    </place>
+                    <place>
+                        <placeName>Arquà Polesine (Rovigo)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo>45.011108, 11.740960</geo></geogName>
+                        <idno>places/3544</idno>
+                        <note/>
+                    </place>
+                    <place>
+                        <placeName>Crespino (Rovigo)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo>44.982390, 11.885900</geo></geogName>
+                        <idno>places/3545</idno>
+                        <note/>
+                    </place>
+                    <place>
+                        <placeName>Gaibana (Ferrara)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo>44.752540, 11.655140</geo></geogName>
+                        <idno>places/3546</idno>
+                        <note/>
+                    </place>
+                    <place>
+                        <placeName>Galliera (Bologna)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo>44.750640, 11.391420</geo></geogName>
+                        <idno>places/3547</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1497"
+                            subtype="isManagedBy"/>
+                    </place>
+                    <place>
+                        <placeName>Reno; fiume (Toscana; Emilia-Romagna)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo/></geogName>
+                        <idno>places/3548</idno>
+                        <note/>
+                    </place>
+                    <place>
+                        <placeName>Gatula; <foreign>canalis</foreign> (Ferrara)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo/></geogName>
+                        <idno>places/3549</idno>
+                        <note/>
+                    </place>
+                    <place>
+                        <placeName>Laterclo; <foreign>Ferrara</foreign></placeName>
+                        <placeName type="other"><foreign>Fossa molendini</foreign></placeName>
+                        <geogName type="coord"><geo/></geogName>
+                        <idno>places/3550</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1460"
+                            subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/2137" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/1574" subtype="isGrantedTo"/>
+                        <link type="estates" corresp="#estates/2410" subtype="isWithin"/>
+                        <link type="estates" corresp="#estates/2454" subtype="bordersOn"/>
+                    </place>
+                    <place>
+                        <placeName>Vaccolino (Ferrara)</placeName>
+                        <placeName type="other"><foreign>Silva</foreign></placeName>
+                        <geogName type="coord"><geo>44.801430, 12.177980</geo></geogName>
+                        <idno>places/3551</idno>
+                        <note/>
+                    </place>
+                    <place>
+                        <placeName><foreign>Iuxta fluvio Aquainversa</foreign></placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo/></geogName>
+                        <idno>places/3552</idno>
+                        <note/>
+                        <link type="estates" corresp="#estates/2449" subtype="isWithin"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1460"
+                            subtype="isManagedBy"/>
+                    </place>
+                    <place>
+                        <placeName>Morciano di Romagna (Rimini)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo>43.915001, 12.651570</geo></geogName>
+                        <idno>places/3553</idno>
+                        <note/>
+                    </place>
+                    <place>
+                        <placeName>Cattolica (Rimini)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo>43.962540, 12.744954</geo></geogName>
+                        <idno>places/3554</idno>
+                        <note/>
+                    </place>
+                    <place>
+                        <placeName><foreign>Prata Tegueriense</foreign> (Ravenna)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo/></geogName>
+                        <idno>places/3555</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1460"
+                            subtype="isOwnedBy"/>
+                        <link type="places" corresp="#places/594" subtype="proximity"/>
+                    </place>
+                    <place>
+                        <placeName><foreign>Ariesto</foreign>; <foreign>regio</foreign>
+                            (Ravenna)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo/></geogName>
+                        <idno>places/3556</idno>
+                        <note/>
+                        <link type="places" corresp="#places/594" subtype="isWithin"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1460"
+                            subtype="rendersCollectedBy"/>
+                    </place>
+                    <place>
+                        <placeName><foreign>Curba</foreign> (Ferrara)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo/></geogName>
+                        <idno>places/3557</idno>
+                        <note/>
+                        <link type="estates" corresp="#estates/2410" subtype="isWithin"/>
+                    </place>
+                    <place>
+                        <placeName>Lamone; <foreign>flumen</foreign></placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo>44.334641, 11.968936</geo></geogName>
+                        <idno>places/3558</idno>
+                        <note>Le coordinate indicano la porzione di <foreign>ripa</foreign> del
+                            fiume Lamone che si trova tra le località di
+                                <foreign>Bigacciolo</foreign> e <foreign>Campobedulli</foreign>, in
+                            prossimità della <foreign>massa</foreign> Prata, che è concessa da papa
+                            Benedetto VIII al monastero di S. Maria di Pomposa.</note>
+                        <link type="juridical_persons" corresp="#juridical_persons/1460"
+                            subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/2137" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/1574" subtype="isGrantedTo"/>
+                    </place>
+                    <place>
+                        <placeName>Lagosanto (Ferrara)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo>44.763191, 12.144040</geo></geogName>
+                        <idno>places/3559</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1460"
+                            subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/2137" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/1574" subtype="isGrantedTo"/>
+                    </place>
+                    <place>
+                        <placeName>Arciprete; <foreign>canalis</foreign> (Ferrara)</placeName>
+                        <placeName type="other"><foreign>Archipresbiter</foreign></placeName>
+                        <geogName type="coord"><geo/></geogName>
+                        <idno>places/3560</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1460"
+                            subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/2137" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/1574" subtype="isGrantedTo"/>
+                        <link type="estates" corresp="#estates/2410" subtype="isWithin"/>
+                        <link type="estates" corresp="#estates/2454" subtype="dependsOn"/>
+                    </place>
+                    <place>
+                        <placeName>Monticelli (Ferrara)</placeName>
+                        <placeName type="other"><foreign>Monticello Lacisco</foreign></placeName>
+                        <geogName type="coord"><geo>44.915414, 12.189406</geo></geogName>
+                        <idno>places/3561</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1460"
+                            subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/2137" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/1574" subtype="isGrantedTo"/>
+                        <link type="estates" corresp="#estates/2410" subtype="isWithin"/>
+                        <link type="estates" corresp="#estates/2454" subtype="dependsOn"/>
+                    </place>
+                    <place>
+                        <placeName>Massenzatica (Ferrara)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo>44.923680, 12.173259</geo></geogName>
+                        <idno>places/3562</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1460"
+                            subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/2137" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/1574" subtype="isGrantedTo"/>
+                        <link type="estates" corresp="#estates/2410" subtype="isWithin"/>
+                        <link type="estates" corresp="#estates/2454" subtype="dependsOn"/>
+                    </place>
+                    <place>
+                        <placeName>Goro; <foreign>flumen</foreign> (Ferrara)</placeName>
+                        <placeName type="other"><foreign>Gaurus</foreign></placeName>
+                        <geogName type="coord"><geo/></geogName>
+                        <idno>places/3563</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1460"
+                            subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/2137" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/1574" subtype="isGrantedTo"/>
+                        <link type="estates" corresp="#estates/2410" subtype="isWithin"/>
+                    </place>
+                    <place>
+                        <placeName>Conca Agatule; <foreign>flumen</foreign> (Ferrara)</placeName>
+                        <placeName type="other"><foreign>Conca Agathe</foreign></placeName>
+                        <geogName type="coord"><geo/></geogName>
+                        <idno>places/3564</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1460"
+                            subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/2137" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/1574" subtype="isGrantedTo"/>
+                        <link type="estates" corresp="#estates/2410" subtype="isWithin"/>
+                    </place>
+                   
                    
                 </listPlace>
                 <listPlace n="Tabarrini Lorenzo">
@@ -19439,6 +20842,8 @@
                                 Ucciana</foreign>, posto <foreign>prope fluvio Arno et prope rivo
                                 Eubula</foreign> con l'attuale Bucciano su base puramente
                             ipotetica.</note>
+                        <link type="juridical_persons" corresp="#juridical_persons/231"
+                            subtype="dependsOn"/>
                     </place>
                     <place>
                         <placeName>Santa Margherita a Saletta (Fiesole; Firenze)</placeName>
@@ -19479,13 +20884,16 @@
                     <place>
                         <placeName><foreign>Ceriana</foreign></placeName>
                         <placeName type="other"/>
-                        <geogName type="coord"><geo/></geogName>
+                        <geogName type="coord"><geo>44.067057, 10.303879</geo></geogName>
                         <idno>places/3318</idno>
-                        <note>Il toponimo non risulta identificabile, ma una nota tergale del secolo
-                            XIII lo colloca <foreign>in Carecini</foreign> (vd. ChLA, 85, n. 44),
-                            area corrispondente agli attuali Comuni di Careggine e Vagli Sotto nella
-                            Provincia di Lucca. Nella zona si segnala la presenza di toponimi quali
-                            Cerreta (diffuso in entrambi i Comuni) e Cerroni.</note>
+                        <note>Il toponimo non risulta identificabile con certezza. Una nota tergale
+                            del secolo XIII, tuttavia, lo colloca <foreign>in Carecini</foreign>
+                            (vd. ChLA, 85, n. 44), area corrispondente agli attuali Comuni di
+                            Careggine e Vagli Sotto in Garfagnana. Nella zona si segnala la
+                            ricorrenza del toponimo Cerreta-La Cerreta di cui fornisco le cordinate.
+                            Per ulteriori riflessioni e altre ipotesi circa l'esatta localizzazione
+                            del toponimo, si veda il commento della scheda relativa al documento di
+                            cui sopra.</note>
                         <link type="juridical_persons" corresp="#juridical_persons/70"
                             subtype="dependsOn"/>
                     </place>
@@ -19556,6 +20964,16 @@
                                 Castellaccio</foreign>). Preferiamo comunque indicare il toponimo
                                 <foreign>Castello</foreign> meglio attestato e conservato per l'area
                             versiliese-pietrasantina.</note>
+                    </place>
+                    <place>
+                        <placeName>Cerqueto (San Lorenzo; Bagni di Lucca; Lucca)</placeName>
+                        <placeName type="other"><foreign>Cerquieto</foreign></placeName>
+                        <geogName type="coord"><geo>44.024937, 10.656793</geo></geogName>
+                        <idno>places/3325</idno>
+                        <note>Microtoponomastica: <foreign>Vivario</foreign> (forse corrispondente
+                            all'odierno toponimo Vaglio); <foreign>rivo qui dicitur
+                            Silani</foreign>.</note>
+                        <link type="places" corresp="#places/3304" subtype="dependsOn"/>
                     </place>
                 </listPlace>
                 <listPlace n="Zornetta Giulia">
@@ -20108,10 +21526,14 @@
                     </place>
                     <place>
                         <placeName>Giugliano in Campania (Napoli)</placeName>
-                        <placeName type="other"><foreign>Linianu</foreign></placeName>
+                        <placeName type="other"><foreign>Linianu</foreign>;
+                                <foreign>Iuliano</foreign>; <foreign>Sancta
+                            Iulianes</foreign></placeName>
                         <geogName type="coord"><geo>40.927445, 14.201242</geo></geogName>
                         <idno>places/2341</idno>
                         <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3001"
+                            subtype="rendersCollectedBy"/>
                     </place>
                     <place>
                         <placeName>Marano di Napoli (Napoli)</placeName>
@@ -20126,6 +21548,7 @@
                         <geogName type="coord"><geo>41.217145, 13.563995</geo></geogName>
                         <idno>places/2343</idno>
                         <note/>
+                        <link type="estates" corresp="#estates/3001" subtype="isWithin"/>
                     </place>
                     <place>
                         <placeName>Petralata (Caserta)</placeName>
@@ -20278,6 +21701,8 @@
                         <geogName type="coord"><geo>40.837361, 14.055758</geo></geogName>
                         <idno>places/2356</idno>
                         <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="rendersCollectedBy"/>
                     </place>
                     <place>
                         <placeName>Trita; valle (L'Aquila)</placeName>
@@ -20329,10 +21754,12 @@
                     </place>
                     <place>
                         <placeName>Carinola (Caserta)</placeName>
-                        <placeName type="other"/>
+                        <placeName type="other"><foreign>Calino</foreign>; <foreign>Calmo</foreign>;
+                                <foreign>Calme</foreign></placeName>
                         <geogName type="coord"><geo>41.170384, 14.015121</geo></geogName>
                         <idno>places/2363</idno>
-                        <note/>
+                        <note>Calino andrebbe identificata con Calinoli, oggi Carinola (Libertini
+                            2011).</note>
                         <link type="estates" corresp="#estates/1937" subtype="isWithin"/>
                     </place>
                     <place>
@@ -20707,7 +22134,7 @@
                             nt. 1.</note>
                     </place>
                     <place>
-                        <placeName><foreign>Centora</foreign> (Caserta)</placeName>
+                        <placeName><foreign>Centora</foreign> (Parete; Caserta)</placeName>
                         <placeName type="other"/>
                         <geogName type="coord"><geo>40.9050347, 14.1202264</geo></geogName>
                         <idno>places/2801</idno>
@@ -20716,6 +22143,8 @@
                         <link type="places" corresp="#places/2351" subtype="proximity"/>
                         <link type="places" corresp="#places/701" subtype="proximity"/>
                         <link type="places" corresp="#places/605" subtype="isWithin"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="rendersCollectedBy"/>
                     </place>
                     <place>
                         <placeName>Villa Literno (Caserta)</placeName>
@@ -20725,7 +22154,7 @@
                         <note/>
                     </place>
                     <place>
-                        <placeName>Sant'Angelo in Formis (Caserta)</placeName>
+                        <placeName>Sant'Angelo in Formis (Capua; Caserta)</placeName>
                         <placeName type="other"/>
                         <geogName type="coord"><geo>41.119108, 14.250875</geo></geogName>
                         <idno>places/2803</idno>
@@ -21411,7 +22840,7 @@
                         <link type="estates" corresp="#estates/1916" subtype="isWithin"/>
                     </place>
                     <place>
-                        <placeName>Clanio (Caerta) flumen</placeName>
+                        <placeName>Clanio; flumen (Caserta)</placeName>
                         <placeName type="other">Lanius; Laneo; Lagno</placeName>
                         <geogName type="coord"><geo style="line">40.945416, 14.034755; 41.001388,
                                 14.175304; 40.974766, 14.40484; 40.926543, 14.364149; 40.915286,
@@ -21424,6 +22853,9 @@
                         <link type="people" corresp="#people/401" subtype="isGrantedTo"/>
                         <link type="juridical_persons" corresp="#juridical_persons/84"
                             subtype="dependsOn"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="link"/>
+                        <link type="estates" corresp="#estates/3009" subtype="isWithin"/>
                     </place>
                     <place>
                         <placeName>Campoli Appennino (L'Aquila)</placeName>

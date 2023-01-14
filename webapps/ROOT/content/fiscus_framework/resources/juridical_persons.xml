@@ -75,6 +75,10 @@
                         subtype="link"/>
                         <link type="estates" corresp="#estates/208" subtype="isWithin"/>
                         <link type="people" corresp="#people/80" subtype="link"/>
+                        <link type="people" corresp="#people/173" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/239" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/7" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/79" subtype="link"/>
                 </org>
                 
                 <org>
@@ -374,7 +378,8 @@
                     <orgName type="other">Edificata <foreign>infra Beneventanam veterem civitatem,
                                 iuxta Palatium</foreign></orgName>
                     <idno>juridical_persons/85</idno>
-                    <note/>
+                        <note/>
+                    <note/>                  
                     <link type="places" corresp="#places/110"
                         subtype="isWithin"/>
                         <link type="people" corresp="#people/302" subtype="isConfirmedTo"/>
@@ -485,12 +490,12 @@
                     <orgName type="other"/>
                     <idno>juridical_persons/95</idno>
                     <note/>
-                    <link type="places" corresp="#places/147"
-                        subtype="link"/>
+                    <link type="places" corresp="#places/147" subtype="isWithin"/>
                     <link type="people" corresp="#people/72" subtype="link"/>
                     <link type="people" corresp="#people/79" subtype="link"/>
                     <link type="people" corresp="#people/21" subtype="link"/>
                         <link type="people" corresp="#people/173" subtype="link"/>
+                        <link type="people" corresp="#people/9" subtype="link"/>
                 </org>
                 <org>
                     <orgName>Sanctus Geminianus; episcopium (Modena)</orgName>
@@ -865,7 +870,7 @@
                     <link type="places" corresp="#places/91 #places/87" subtype="isPartOf"/>
                 </org>
                 <org>
-                    <orgName>Guastalla; <foreign>commune</foreign></orgName>
+                    <orgName>Guastalla; commune</orgName>
                     <orgName type="other"/>
                     <idno>juridical_persons/128</idno>
                     <note/>
@@ -1025,6 +1030,11 @@
                     <link type="places" corresp="#places/32" subtype="isWithin"/>
                     <link type="estates" corresp="#estates/38" subtype="dependsOn"/>
                         <link type="people" corresp="#people/242" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/9" subtype="isConfirmedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/108"
+                            subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/3940" subtype="link"/>
+                        <link type="people" corresp="#people/3941" subtype="isConfirmedTo"/>
                 </org>
                 <org>
                     <orgName>Sanctus Petrus; ecclesia (Cittanova; Modena)</orgName>
@@ -1800,6 +1810,7 @@
                     <link type="people" corresp="#people/223" subtype="link"/>
                     <link type="people" corresp="#people/172" subtype="link"/>
                     <link type="people" corresp="#people/321" subtype="link"/>
+                        <link type="people" corresp="#people/9" subtype="link"/>
                 </org>
                 <org>
                     <orgName>Sancta Maria Ursimanni; ecclesia et monasterium (Lucca)</orgName>
@@ -2490,8 +2501,8 @@
                 <org>
                     <orgName>Sanctus Michael Archangelus; ecclesia (Monte di Brancoli;
                         Lucca)</orgName>
-                    <orgName type="other"><foreign>ecclesia Sancte Marie et beati Mihaelis et Sancti
-                                Petri princeps apostolorum</foreign></orgName>
+                    <orgName type="other"><foreign>ecclesia beati Sancti Angeli ad
+                            Monte</foreign></orgName>
                     <idno>juridical_persons/304</idno>
                     <note/>
                     <link type="places" corresp="#places/759" subtype="isWithin"/>
@@ -2731,7 +2742,7 @@
                         <link type="people" corresp="#people/521" subtype="link"/>
                     </org>
                     <org>
-                        <orgName>Ivrea; <foreign>commune</foreign></orgName>
+                        <orgName>Ivrea; commune</orgName>
                         <orgName type="other"/>
                         <idno>juridical_persons/405</idno>
                         <note/>
@@ -3223,10 +3234,594 @@
                 </listOrg>
                 <listOrg n="De Angelis Valerio">
                     <org>
-                        <orgName>XXX</orgName>
-                        <orgName type="other"/>
+                        <orgName>Sanctus Laurentius ad Septimum; monasterium (Aversa;
+                            Caserta)</orgName>
+                        <orgName type="other"><foreign>Sanctus Laurentius de
+                            Aversa</foreign></orgName>
                         <idno>juridical_persons/3000</idno>
+                        <note>Secondo Aldo Cecere
+                            (http://web.tiscalinet.it/arte_aversa/E-Rubrica/4-San%20Lorenzo.htm) il
+                            cenobio di San Lorenzo di Capua (cfr. RNAM 2011, V, doc. 210bis, 213 e
+                            250), di cui non sono mai state rinvenute vestigia, va identificato con
+                            il monastero di San Lorenzo ad Septimum. Ma un diploma di Giordano I e
+                            Riccardo II, in cui S. Lorenzo di Capua viene ceduto a S. Lorenzo di
+                            Aversa, rende insostenibile questa interpretazione.</note>
+                        <link type="places" corresp="#places/4000" subtype="isWithin"/>
+                    </org>
+                    <org>
+                        <orgName>Sanctus Blasius; monasterium et ecclesia (Aversa;
+                            Caserta)</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/3001</idno>
+                        <note>Monastero femminile, ubicato a circa 500m dal monastero di San Lorenzo
+                            ad Septimum. </note>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/3002" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/3010" subtype="isConfirmedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="isConfirmedTo"/>
+                        <link type="places" corresp="#places/4000" subtype="isWithin"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="dependsOn"/>
+                    </org>
+                    <org>
+                        <orgName>Sanctus Archangelus Terraczanus; ecclesia et monasterium
+                            (Fuorigrotta; Napoli)</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/3002</idno>
+                        <note>"<foreign>que in partibus neapoli est foras cripta situm in monte qui
+                                est desuper amne qui vocatur Anglane</foreign>": la chiesa in
+                            questione è ubicata su un monte sovrastante il fiume Anglane. Questo
+                            fiume va in realtà identificato con il lago di Agnano presso
+                            Fuorigrotta? Il termine <foreign>amnis</foreign> impone cautela, poichè
+                            esso indica tipicamente un corso d'acqua, non un lago. La chiesa risulta
+                            possedere delle dipendenze in Liburia.</note>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/3001" subtype="isGrantedBy"/>
+                        <link type="places" corresp="#places/4001" subtype="proximity"/>
+                    </org>
+                    <org>
+                        <orgName>Sanctus Conon; cella et ecclesia (Acerra; Napoli)</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/3003</idno>
+                        <note>È ragionevole considerare la cella di Sanctus Conus di Acerra e la
+                            chiesa di Sanctus Conon di Acerra come il medesimo ente.</note>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/3002" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/3010" subtype="isConfirmedBy"/>
+                        <link type="places" corresp="#places/4003" subtype="isWithin"/>
+                        <link type="people" corresp="#people/3019" subtype="isConfirmedBy"/>
+                    </org>
+                    <org>
+                        <orgName>Sanctus Severinus; cella et ecclesia (Acerra; Napoli)</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/3004</idno>
                         <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/3002" subtype="isConfirmedBy"/>
+                        <link type="places" corresp="#places/4003" subtype="isWithin"/>
+                        <link type="people" corresp="#people/3010" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/3019" subtype="isConfirmedBy"/>
+                    </org>
+                    <org>
+                        <orgName>Sancta Maria que dicitur ad la spelunca; cella et ecclesia
+                            (Boscoreale; Napoli)</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/3005</idno>
+                        <note>Secondo Giacinto Libertini, la fondazione dell'omonima chiesa
+                            nell'area di Casolla Valenzana risale a fine XII-inizio XIII secolo. Le
+                            precedenti attestazioni di un ente, ecclesiastico o monastico, così
+                            intitolato, vanno invero riferite alla struttura sita presso il Vesuvio,
+                            in località Boscoreale (Libertini 2004; Cimmelli 1988).</note>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/3001" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/3002" subtype="isConfirmedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/3010" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/3019" subtype="isConfirmedBy"/>
+                    </org>
+                    <org>
+                        <orgName>Sanctus Laurentius; monasterium (Capua; Caserta)</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/3006</idno>
+                        <note>Secondo Aldo Cecere
+                            (http://web.tiscalinet.it/arte_aversa/E-Rubrica/4-San%20Lorenzo.htm) il
+                            cenobio di San Lorenzo di Capua (cfr. RNAM 2011, V, doc. 210bis, 213 e
+                            250), di cui non sono mai state rinvenute vestigia, deve essere
+                            identificato con il monastero di San Lorenzo ad Septimum. Ma diversi
+                            diplomi (di Giordano I, Riccardo II e Roberto I), in cui S. Lorenzo di
+                            Capua viene ceduto a S. Lorenzo di Aversa, rendono insostenibile questa
+                            interpretazione.</note>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/3010" subtype="isGrantedBy"/>
+                        <link type="places" corresp="#places/173" subtype="isWithin"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/3010" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/3019" subtype="isConfirmedBy"/>
+                    </org>
+                    <org>
+                        <orgName>Sanctus Andreas; ecclesia (Carinola; Caserta)</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/3007</idno>
+                        <note/>
+                        <link type="places" corresp="#places/2363" subtype="isWithin"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/3010" subtype="isGrantedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/3010" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/3019" subtype="isConfirmedBy"/>
+                    </org>
+                    <org>
+                        <orgName>Sancta Maria; ecclesia (Mignano Monte Lungo; Caserta)</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/3008</idno>
+                        <note/>
+                        <link type="places" corresp="#places/4009" subtype="proximity"/>
+                        <link type="people" corresp="#people/3010" subtype="isConfirmedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/3019" subtype="isConfirmedBy"/>
+                    </org>
+                    <org>
+                        <orgName>Sanctus Andreas; ecclesia (Sessa Aurunca; Caserta)</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/3009</idno>
+                        <note/>
+                        <link type="places" corresp="#places/571" subtype="proximity"/>
+                        <link type="people" corresp="#people/3010" subtype="isGrantedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="isGrantedTo"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/3010" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/3019" subtype="isConfirmedBy"/>
+                    </org>
+                    <org>
+                        <orgName>Sancta Crux; monasterium (Caiazzo; Caserta)</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/3010</idno>
+                        <note>Il monastero di Santa Croce <foreign>in Calatiae</foreign> (RNAM, doc.
+                            534) è evidente errore dello scriba, da emendare con
+                                <foreign>Caiatie</foreign></note>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/3010" subtype="isGrantedBy"/>
+                        <link type="places" corresp="#places/3483" subtype="proximity"/>
+                        <link type="people" corresp="#people/3010" subtype="isConfirmedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/3019" subtype="isConfirmedBy"/>
+                    </org>
+                    <org>
+                        <orgName>Sancta Reparata; ecclesia </orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/3011</idno>
+                        <note/>
+                        <link type="people" corresp="#people/3010" subtype="isGrantedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="isGrantedTo"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/3010" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/3019" subtype="isConfirmedBy"/>
+                    </org>
+                    <org>
+                        <orgName>Sancta Maria; ecclesia (Giugliano in Campania; Napoli)</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/3012</idno>
+                        <note/>
+                        <link type="people" corresp="#people/3010" subtype="isGrantedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="isGrantedTo"/>
+                        <link type="places" corresp="#places/2341" subtype="isWithin"/>
+                    </org>
+                    <org>
+                        <orgName>Sanctus Salvator; ecclesia (Pompei; Napoli)</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/3013</idno>
+                        <note/>
+                        <link type="places" corresp="#places/4011" subtype="isWithin"/>
+                        <link type="people" corresp="#people/3010" subtype="isGrantedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="isGrantedTo"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/3010" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/3019" subtype="isConfirmedBy"/>
+                    </org>
+                    <org>
+                        <orgName>Sancta Maria; ecclesia (Domicella; Avellino)</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/3014</idno>
+                        <note/>
+                        <link type="people" corresp="#people/3010" subtype="isGrantedBy"/>
+                        <link type="places" corresp="#places/4013" subtype="isWithin"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="isGrantedTo"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/3010" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/3019" subtype="isConfirmedBy"/>
+                    </org>
+                    <org>
+                        <orgName>Sanctus Angelus; ecclesia (Lauro; Avellino)</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/3015</idno>
+                        <note/>
+                        <link type="people" corresp="#people/3010" subtype="isGrantedBy"/>
+                        <link type="places" corresp="#places/4012" subtype="isWithin"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="isGrantedTo"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/3010" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/3019" subtype="isConfirmedBy"/>
+                    </org>
+                    <org>
+                        <orgName>Sanctus Angelus de Monte christi; ecclesia </orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/3016</idno>
+                        <note/>
+                        <link type="people" corresp="#people/3010" subtype="isGrantedBy"/>
+                        <link type="places" corresp="#places/4020" subtype="isWithin"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="isGrantedTo"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/3010" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/3019" subtype="isConfirmedBy"/>
+                    </org>
+                    <org>
+                        <orgName>Sancta Maria; ecclesia (Maddaloni; Caserta)</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/3017</idno>
+                        <note/>
+                        <link type="places" corresp="#places/3444" subtype="isWithin"/>
+                    </org>
+                    <org>
+                        <orgName>Sanctus Angelus ad Cicalusi; ecclesia (Capua; Caserta)</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/3018</idno>
+                        <note/>
+                        <link type="people" corresp="#people/399" subtype="isGrantedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="isGrantedTo"/>
+                    </org>
+                    <org>
+                        <orgName>Sanctus Iohannes; ecclesia (Mignano Monte Lungo; Caserta)</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/3019</idno>
+                        <note/>
+                        <link type="places" corresp="#places/4009" subtype="proximity"/>
+                        <link type="people" corresp="#people/3010" subtype="isConfirmedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/3019" subtype="isConfirmedBy"/>
+                    </org>
+                    <org>
+                        <orgName>Sanctus Petrus; ecclesia (Capua; Caserta)</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/3020</idno>
+                        <note/>
+                        <link type="people" corresp="#people/3010" subtype="isConfirmedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="isConfirmedTo"/>
+                        <link type="places" corresp="#places/173" subtype="isWithin"/>
+                    </org>
+                    <org>
+                        <orgName>Sanctus Nicolaus in Saone; ecclesia (Carinola; Caserta)</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/3021</idno>
+                        <note/>
+                        <link type="people" corresp="#people/3010" subtype="isConfirmedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="isConfirmedTo"/>
+                        <link type="places" corresp="#places/2363" subtype="proximity"/>
+                    </org>
+                    <org>
+                        <orgName>Sanctus Laurentius; ecclesia (Pantano; Napoli)</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/3022</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/3010" subtype="isConfirmedBy"/>
+                        <link type="places" corresp="#places/4022" subtype="isWithin"/>
+                        <link type="people" corresp="#people/3019" subtype="isConfirmedBy"/>
+                    </org>
+                    <org>
+                        <orgName>Sancta Maria; ecclesia (Casolla; Caivano; Napoli)</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/3023</idno>
+                        <note/>
+                        <link type="places" corresp="#places/4005" subtype="isWithin"/>
+                        <link type="people" corresp="#people/3010" subtype="isConfirmedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/3019" subtype="isConfirmedBy"/>
+                    </org>
+                    <org>
+                        <orgName>Sanctus Renatus in vico Cupoli; ecclesia (Villa Linterno;
+                            Caserta)</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/3024</idno>
+                        <note/>
+                        <link type="people" corresp="#people/3010" subtype="isConfirmedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="isConfirmedTo"/>
+                        <link type="places" corresp="#places/4024" subtype="isWithin"/>
+                        <link type="people" corresp="#people/3019" subtype="isConfirmedBy"/>
+                    </org>
+                    <org>
+                        <orgName>Sanctus Vitus in loco Spanguati; ecclesia </orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/3025</idno>
+                        <note/>
+                        <link type="people" corresp="#people/3010" subtype="isConfirmedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="isConfirmedTo"/>
+                        <link type="places" corresp="#places/4027" subtype="isWithin"/>
+                        <link type="people" corresp="#people/3019" subtype="isConfirmedBy"/>
+                    </org>
+                    <org>
+                        <orgName>Sancta Maria Capella; ecclesia (Maddaloni; Caserta)</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/3026</idno>
+                        <note/>
+                        <link type="people" corresp="#people/3010" subtype="isConfirmedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="isConfirmedTo"/>
+                        <link type="places" corresp="#places/3444" subtype="proximity"/>
+                        <link type="people" corresp="#people/3018" subtype="isGrantedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/3018" subtype="isHeldBy"/>
+                        <link type="people" corresp="#people/3019" subtype="isConfirmedBy"/>
+                    </org>
+                    <org>
+                        <orgName>Sanctus Iohannes ad Plescum; ecclesia (Nola; Napoli)</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/3027</idno>
+                        <note/>
+                        <link type="people" corresp="#people/3010" subtype="isConfirmedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="isConfirmedTo"/>
+                        <link type="places" corresp="#places/4032" subtype="proximity"/>
+                        <link type="people" corresp="#people/3019" subtype="isConfirmedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="dependsOn"/>
+                    </org>
+                    <org>
+                        <orgName>Sancta Maria de Iugnano; ecclesia (Maddaloni; Caserta)</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/3028</idno>
+                        <note>Forse identificabile come la chiesa di <foreign>Sancta Maria di
+                                Iunianus in finibus Laniensis</foreign> nella piana di
+                            Liburia.</note>
+                        <link type="places" corresp="#places/3444" subtype="proximity"/>
+                        <link type="places" corresp="#places/4044" subtype="isWithin"/>
+                        <link type="places" corresp="#places/4045" subtype="proximity"/>
+                        <link type="places" corresp="#places/4046" subtype="proximity"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3428"
+                            subtype="link" cert="low"/>
+                        <link type="people" corresp="#people/3019" subtype="isConfirmedBy"/>
+                    </org>
+                    <org>
+                        <orgName>Sanctus Blasius; ecclesia</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/3029</idno>
+                        <note/>
+                        <link type="people" corresp="#people/3010" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/3010" subtype="isGrantedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="isConfirmedTo"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/3019" subtype="isConfirmedBy"/>
+                    </org>
+                    <org>
+                        <orgName>Sanctus Barbatus; ecclesia (Aversa; Caserta)</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/3030</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="dependsOn"/>
+                    </org>
+                    <org>
+                        <orgName>Sanctus Benedictus Pictolus; ecclesia (Capua; Caserta)</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/3031</idno>
+                        <note>Il notaio <foreign>Eustasius</foreign>, alla corte del principe
+                            Giordano II di Capua, viene definito <foreign>habitator</foreign> della
+                            città di Capua, residente presso la suddetta chiesa. Essa dunque era
+                            sita probabilmente all'interno della città, o perlomeno non distante
+                            dalle sue mura.</note>
+                        <link type="places" corresp="#places/173" subtype="isWithin" cert="low"/>
+                    </org>
+                    <org>
+                        <orgName>Sanctus Michael; ecclesia</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/3032</idno>
+                        <note/>
+                    </org>
+                    <org>
+                        <orgName>Sanctus Vincentius; monasterium (Capua; Caserta)</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/3033</idno>
+                        <note/>
+                    </org>
+                    <org>
+                        <orgName>Sanctus Petrus; ecclesia</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/3034</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3033"
+                            subtype="dependsOn"/>
+                    </org>
+                    <org>
+                        <orgName>Sanctus Georgius; ecclesia</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/3035</idno>
+                        <note/>
+                    </org>
+                    <org>
+                        <orgName>Sancta Maria; ecclesia (Capua; Caserta)</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/3036</idno>
+                        <note/>
+                        <link type="people" corresp="#people/399" subtype="isGrantedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="isGrantedTo"/>
+                    </org>
+                    <org>
+                        <orgName>Sanctus Nycandrus; ecclesia (Capua; Caserta)</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/3037</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/399" subtype="isGrantedBy"/>
+                    </org>
+                    <org>
+                        <orgName>Sancta Cosma et Sanctus Donatus; ecclesia (Vitulazio;
+                            Caserta)</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/3038</idno>
+                        <note/>
+                        <link type="people" corresp="#people/399" subtype="isGrantedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="isGrantedTo"/>
+                        <link type="places" corresp="#places/4064" subtype="isWithin"/>
+                    </org>
+                    <org>
+                        <orgName>Sanctus Sebastianus; monasterium (Napoli)</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/3039</idno>
+                        <note/>
+                        <link type="places" corresp="#places/2350" subtype="isWithin"/>
+                    </org>
+                    <org>
+                        <orgName>Sanctus Nicolaus; ecclesia (Melito di Napoli; Napoli)</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/3040</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3039"
+                            subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/3052" subtype="isGrantedBy"/>
+                        <link type="places" corresp="#places/4065" subtype="isWithin"/>
+                    </org>
+                    <org>
+                        <orgName>Sanctus Salvator in insula maris; monasterium (Napoli)</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/3041</idno>
+                        <note/>
+                    </org>
+                    <org>
+                        <orgName>Sanctus Egidius; monasterium (Nocera Inferiore; Salerno)</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/3042</idno>
+                        <note/>
+                        <link type="places" corresp="#places/4071" subtype="isWithin"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3043"
+                            subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/3022" subtype="isGrantedBy"/>
+                    </org>
+                    <org>
+                        <orgName>Sancta Maria et Sanctus Trypho; monasterium (Ravello;
+                            Salerno)</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/3043</idno>
+                        <note/>
+                    </org>
+                    <org>
+                        <orgName>Sancta Maria in Calena; ecclesia </orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/3044</idno>
+                        <note>è ubicata <foreign>inter montem Garganum, et mare Adriaticum, juxta
+                                castellum, quod dicitur Besti</foreign> (Vieste).</note>
+                        <link type="places" corresp="#places/3410" subtype="isWithin"/>
+                        <link type="places" corresp="#places/4076" subtype="proximity"/>
+                        <link type="places" corresp="#places/4077" subtype="proximity"/>
+                        <link type="places" corresp="#places/4075" subtype="proximity"/>
+                        <link type="people" corresp="#people/3001" subtype="isGrantedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/84"
+                            subtype="isGrantedTo"/>
+                    </org>
+                    <org>
+                        <orgName>Sanctus Stephanus Protomartyr et Sancta Agatha; archiepiscopium
+                            (Capua; Caserta)</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/3045</idno>
+                        <note/>
+                    </org>
+                    <org>
+                        <orgName>Sanctus Angelus in Formis; ecclesia (Capua; Caserta)</orgName>
+                        <orgName type="other"><foreign>Sanctus Michael Archangelus ad
+                                Formam</foreign>; <foreign>Sanctus Michael Archangelus Arcu
+                                Dianae</foreign></orgName>
+                        <idno>juridical_persons/3046</idno>
+                        <note/>
+                        <link type="people" corresp="#people/3045" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/3001" subtype="isGrantedTo"/>
+                    </org>
+                    <org>
+                        <orgName>Sanctus Iohannes; ecclesia (Capua; Caserta)</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/3047</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3046"
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/3045" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/3001" subtype="isGrantedTo"/>
+                    </org>
+                    <org>
+                        <orgName>Sanctus Salvator; ecclesia (Capua; Caserta)</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/3048</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3046"
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/3045" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/3001" subtype="isGrantedTo"/>
+                    </org>
+                    <org>
+                        <orgName>Sanctus Hilarius; ecclesia </orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/3049</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3046"
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/3045" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/3001" subtype="isGrantedTo"/>
+                    </org>
+                    <org>
+                        <orgName>Sanctus Iohannes de Landepoldi; ecclesia (Capua; Caserta)</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/3050</idno>
+                        <note/>
+                        <link type="people" corresp="#people/3045" subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/3001" subtype="isGrantedBy"/>
+                    </org>
+                    <org>
+                        <orgName>Sancta Iuliana; ecclesia (Giugliano in Campania; Napoli)</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/3051</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3001"
+                            subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/3010" subtype="isConfirmedBy"/>
+                        <link type="places" corresp="#places/2341" subtype="isWithin"/>
                     </org>
                 </listOrg>
                 <listOrg n="Del Mercato Evelina">
@@ -4785,8 +5380,7 @@
                         <link type="places" corresp="#places/52" subtype="isWithin"/>
                     </org>
                     <org>
-                        <orgName>Sancti Silvestrus et Martinus in Montibus; ecclesia
-                            (Roma)</orgName>
+                        <orgName>Sancti Silvester et Martinus in Montibus; ecclesia (Roma)</orgName>
                         <orgName type="other"/>
                         <idno>juridical_persons/2456</idno>
                         <note>Titolo cardinalizio.</note>
@@ -5573,20 +6167,39 @@
                         <link type="places" corresp="#places/1567" subtype="isWithin"/>
                     </org>
                     <org>
-                        <orgName>Bologna; <foreign>commune</foreign></orgName>
+                        <orgName>Bologna; commune</orgName>
                         <orgName type="other"/>
                         <idno>juridical_persons/1119</idno>
                         <note/>
                     </org>
+                    <org>
+                        <orgName>Sancta Maria in Tortilianum; ecclesia (Vignola; Modena)</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/1120</idno>
+                        <note/>
+                        <link type="places" corresp="#places/1596" subtype="isWithin"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/47"
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/1267" subtype="isHeldBy"/>
+                    </org>
+                    <org>
+                        <orgName>Sanctus Petrus in Sicculo; ecclesia (San Pietro in Elda; San
+                            Prospero; Modena)</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/1121</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/47"
+                            subtype="dependsOn"/>
+                        <link type="people" corresp="#people/239" subtype="isGrantedBy" cert="low"/>
+                        <link type="places" corresp="#places/1525" subtype="isWithin"/>
+                    </org>
                 </listOrg>
                 <listOrg n="Massa Paola">
                     <org>
-                        <orgName><foreign>Sanctus Benedictus ad Xenodochium</foreign>;
-                                ecclesia; monasterium
+                        <orgName>Sanctus Benedictus ad Xenodochium; ecclesia; monasterium
                             (Benevento)</orgName>
-                        <orgName type="other"><foreign>Sancti Archangelus et Benedictus in
-                                Senodichio</foreign>; <foreign>Sanctus Benedictus ad
-                                Caballum</foreign></orgName>
+                        <orgName type="other">Sancti Archangelus et Benedictus in Senodichio;
+                            Sanctus Benedictus ad Caballum</orgName>
                         <idno>juridical_persons/3400</idno>
                         <note>La chiesa di S. Benedetto era situata vicino al monastero di S. Sofia,
                             nel luogo conosciuto come <foreign>ad Xenodochium</foreign>, adiacente
@@ -6061,6 +6674,13 @@
                             subtype="isGrantedTo"/>
                         <link type="people" corresp="#people/303" subtype="isGrantedBy"/>
                         <link type="places" corresp="#places/3444" subtype="isWithin"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/3010" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/3010" subtype="isConfirmedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/3019" subtype="isConfirmedBy"/>
                     </org>
                     <org>
                         <orgName><foreign>Sanctus Petrus</foreign>; <foreign>ecclesia</foreign> (in
@@ -6382,6 +7002,8 @@
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/1443"
                             subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/9" subtype="isGrantedBy"/>
+                        <link type="places" corresp="#places/4322" subtype="isWithin"/>
                     </org>
                     <org>
                         <orgName>Sanctus Dionisius; monasterium (Paris)</orgName>
@@ -6389,6 +7011,10 @@
                         <idno>juridical_persons/3502</idno>
                         <note/>
                         <link type="people" corresp="#people/3921" subtype="isHeldBy"/>
+                        <link type="places" corresp="#places/4314" subtype="link"/>
+                        <link type="people" corresp="#people/9" subtype="link"/>
+                        <link type="places" corresp="#places/2788" subtype="link"/>
+                        <link type="people" corresp="#people/118" subtype="link"/>
                     </org>
                     <org>
                         <orgName>Sanctus Fidelis; monasteriolum </orgName>
@@ -6398,9 +7024,114 @@
                         <link type="juridical_persons" corresp="#juridical_persons/227"
                             subtype="isConfirmedTo" cert="low"/>
                         <link type="people" corresp="#people/9" subtype="isConfirmedBy" cert="low"/>
-                        <link type="places" corresp="#places/4313" subtype="correspondsTo"/>
-                        <link type="people" corresp="#people/118" subtype="isConfirmedBy" cert="low"
-                        />
+                        <link type="places" corresp="#places/4313" subtype="proximity"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3502"
+                            subtype="isClaimedBy" cert="low"/>
+                        <link type="people" corresp="#people/14" subtype="isGrantedBy" cert="low"/>
+                    </org>
+                    <org>
+                        <orgName>Sanctus Salvator et beatissima semper virgo Maria; hospitale
+                            (Moncenisio)</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/3504</idno>
+                        <note/>
+                        <link type="people" corresp="#people/9" subtype="link"/>
+                        <link type="places" corresp="#places/3725" subtype="correspondsTo"/>
+                        <link type="people" corresp="#people/118" subtype="link"/>
+                    </org>
+                    <org>
+                        <orgName>Plebs (Mazzo di Valtellina; Sondrio)</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/3505</idno>
+                        <note/>
+                        <link type="people" corresp="#people/9" subtype="isConfirmedBy" cert="low"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/227"
+                            subtype="isConfirmedTo" cert="low"/>
+                        <link type="places" corresp="#places/4310" subtype="isWithin"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3502"
+                            subtype="isClaimedBy" cert="low"/>
+                        <link type="people" corresp="#people/14" subtype="isGrantedBy" cert="low"/>
+                    </org>
+                    <org>
+                        <orgName>Plebs (Bormio; Sondrio)</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/3506</idno>
+                        <note/>
+                        <link type="people" corresp="#people/9" subtype="isConfirmedBy" cert="low"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/227"
+                            subtype="isConfirmedTo" cert="low"/>
+                        <link type="places" corresp="#places/4311" subtype="isWithin"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3502"
+                            subtype="isClaimedBy" cert="low"/>
+                        <link type="people" corresp="#people/14" subtype="isGrantedBy" cert="low"/>
+                    </org>
+                    <org>
+                        <orgName>Plebs (Poschiavo; CH)</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/3507</idno>
+                        <note/>
+                        <link type="people" corresp="#people/9" subtype="isConfirmedBy" cert="low"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/227"
+                            subtype="isConfirmedTo" cert="low"/>
+                        <link type="places" corresp="#places/4312" subtype="isWithin"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3502"
+                            subtype="isClaimedBy" cert="low"/>
+                        <link type="people" corresp="#people/14" subtype="isGrantedBy" cert="low"/>
+                    </org>
+                    <org>
+                        <orgName>Sanctus Amsanus; ecclesia (Castelnuovo Berardenga; Siena)</orgName>
+                        <orgName type="other">S. Ansano a Dofana</orgName>
+                        <idno>juridical_persons/3508</idno>
+                        <note/>
+                        <link type="people" corresp="#people/9" subtype="link"/>
+                        <link type="places" corresp="#places/4323" subtype="correspondsTo"/>
+                    </org>
+                    <org>
+                        <orgName>Sanctus Petrus ad Axo; monasterium</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/3509</idno>
+                        <note/>
+                        <link type="people" corresp="#people/9" subtype="link"/>
+                    </org>
+                    <org>
+                        <orgName>Sanctus Andreas apostolus; ecclesia (Città di Castello)</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/3510</idno>
+                        <note/>
+                        <link type="people" corresp="#people/9" subtype="isGrantedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1402"
+                            subtype="isGrantedTo"/>
+                        <link type="places" corresp="#places/1803" subtype="isWithin"/>
+                    </org>
+                    <org>
+                        <orgName>Sanctus Genesius; cappella (Limonta)</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/3511</idno>
+                        <note/>
+                        <link type="estates" corresp="#estates/260" subtype="dependsOn"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/95"
+                            subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/9" subtype="isGrantedBy"/>
+                    </org>
+                    <org>
+                        <orgName>Sancta Christina; monasterium (Corteolona)</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/3512</idno>
+                        <note/>
+                        <link type="places" corresp="#places/342" subtype="isWithin"/>
+                        <link type="people" corresp="#people/9" subtype="link"/>
+                    </org>
+                    <org>
+                        <orgName>Sanctus Domninus; capella (Massenzatico; Reggio Emilia)</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/3513</idno>
+                        <note/>
+                        <link type="estates" corresp="#estates/3616" subtype="dependsOn"/>
+                        <link type="people" corresp="#people/9" subtype="isGrantedBy" cert="low"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/108"
+                            subtype="isGrantedTo" cert="low"/>
+                        <link type="people" corresp="#people/3941" subtype="isGrantedTo" cert="low"/>
+                        <link type="people" corresp="#people/3940" subtype="link" cert="low"/>
                     </org>
                 </listOrg>
                 <listOrg n="Rivera Magos Victor">
@@ -6694,19 +7425,22 @@
                     </org>
                     <org>
                         <orgName>Sanctus Petrus in Castello; ecclesia (Arezzo)</orgName>
-                        <orgName type="other"/>
+                        <orgName type="other">S. Pietro a Castello (Castelsecco)</orgName>
                         <idno>juridical_persons/1427</idno>
                         <note>Secondo MGH DD Lo I, p. 498, la Chiesa di San Pietro in Castello si
                             trovava nella città di Arezzo o nei dintorni. Schieffer ritiene
                             difficile la sua identificazione con la chiesa di San Pietro di
-                            Castelvecchio nel territorio di Siena.</note>
+                            Castelvecchio nel territorio di Siena. Per l'identificazione del
+                            toponimo <foreign>Castello</foreign> con Castelsecco (collina
+                            sovrastante la città di Arezzo), cf. Bougard 2012, p. 64.</note>
                         <link type="juridical_persons" corresp="#juridical_persons/1402"
-                            subtype="link"/>
+                            subtype="isGrantedTo"/>
                         <link type="people" corresp="#people/72" subtype="link"/>
                         <link type="people" corresp="#people/79" subtype="link"/>
-                        <link type="people" corresp="#people/9" subtype="link"/>
+                        <link type="people" corresp="#people/9" subtype="isGrantedBy"/>
                         <link type="people" corresp="#people/234" subtype="link"/>
                         <link type="people" corresp="#people/173" subtype="link"/>
+                        <link type="places" corresp="#places/505" subtype="correspondsTo"/>
                     </org>
                     <org>
                         <orgName>Sancti Maximus et Maria; episcopium (Penne; Pescara)</orgName>
@@ -6856,7 +7590,7 @@
                         <link type="people" corresp="#people/92" subtype="link"/>
                         <link type="juridical_persons" corresp="#juridical_persons/1442"
                             subtype="link"/>
-                        <link type="places" corresp="#places/1896" subtype="proximity"/>
+                        <link type="places" corresp="#places/1896" subtype="correspondsTo"/>
                     </org>
                     <org>
                         <orgName>Sancta Maria de Pollicino; ecclesia (Breme; Pavia)</orgName>
@@ -7082,7 +7816,7 @@
                         <link type="people" corresp="#people/281" subtype="link"/>
                     </org>
                     <org>
-                        <orgName>Sancta Maria in Pomposia; <foreign>monasterius</foreign> (Pomposa;
+                        <orgName>Sancta Maria in Pomposia; <foreign>monasterium</foreign> (Pomposa;
                             Ferrara)</orgName>
                         <orgName type="other"/>
                         <idno>juridical_persons/1460</idno>
@@ -7091,8 +7825,7 @@
                         <link type="places" corresp="#places/3530" subtype="bordersOn"/>
                     </org>
                     <org>
-                        <orgName>Sanctus Benedictus; <foreign>monasterium</foreign>
-                            (Subiaco; Roma)</orgName>
+                        <orgName>Sanctus Benedictus; monasterium (Subiaco; Roma)</orgName>
                         <orgName type="other">Sacro Speco</orgName>
                         <idno>juridical_persons/1461</idno>
                         <note/>
@@ -7103,8 +7836,7 @@
                         <link type="people" corresp="#people/173" subtype="link"/>
                     </org>
                     <org>
-                        <orgName>Sancta Anatholia; <foreign>ecclesia</foreign>
-                            (Santa Anatolia; Rieti)</orgName>
+                        <orgName>Sancta Anatholia; ecclesia (Santa Anatolia; Rieti)</orgName>
                         <orgName type="other"/>
                         <idno>juridical_persons/1462</idno>
                         <note/>
@@ -7115,8 +7847,7 @@
                         <link type="estates" corresp="#estates/2364" subtype="isWithin"/>
                     </org>
                     <org>
-                        <orgName>Sancta Maria; <foreign>episcopium</foreign>
-                            (Rieti)</orgName>
+                        <orgName>Sancta Maria; episcopium (Rieti)</orgName>
                         <orgName type="other"/>
                         <idno>juridical_persons/1463</idno>
                         <note/>
@@ -7125,18 +7856,15 @@
                             subtype="link"/>
                     </org>
                     <org>
-                        <orgName>Sanctus Victorinus Celano; <foreign>monasterium</foreign>
-                            (L'Aquila)</orgName>
+                        <orgName>Sanctus Victorinus Celano; monasterium (L'Aquila)</orgName>
                         <orgName type="other"/>
                         <idno>juridical_persons/1464</idno>
                         <note/>
                         <link type="places" corresp="#places/2771" subtype="proximity"/>
                     </org>
                     <org>
-                        <orgName>Sancta Maria <foreign>ad Perticam</foreign>; <foreign>ecclesia</foreign>
-                            (Pavia)</orgName>
-                        <orgName type="other"><foreign>ad Perticas</foreign>; <foreign>in
-                            Pertica</foreign></orgName>
+                        <orgName>Sancta Maria ad Perticam; ecclesia (Pavia)</orgName>
+                        <orgName type="other">ad Perticas; in Pertica</orgName>
                         <idno>juridical_persons/1465</idno>
                         <note/>
                         <link type="places" corresp="#places/65" subtype="proximity"/>
@@ -7146,8 +7874,7 @@
                         <link type="people" corresp="#people/79" subtype="link"/>
                     </org>
                     <org>
-                        <orgName>Sanctus Michael Maior; <foreign>ecclesia</foreign>
-                            (Pavia)</orgName>
+                        <orgName>Sanctus Michael Maior; ecclesia (Pavia)</orgName>
                         <orgName type="other"/>
                         <idno>juridical_persons/1466</idno>
                         <note/>
@@ -7158,8 +7885,7 @@
                         <link type="people" corresp="#people/79" subtype="link"/>
                     </org>
                     <org>
-                    <orgName>Sancta Mustiola; <foreign>ecclesia</foreign>
-                        (Pavia)</orgName>
+                    <orgName>Sancta Mustiola; ecclesia (Pavia)</orgName>
                     <orgName type="other">Sancta Mostiola</orgName>
                     <idno>juridical_persons/1467</idno>
                     <note/>
@@ -7170,7 +7896,7 @@
                     <link type="people" corresp="#people/79" subtype="link"/>
                     </org>
                     <org>
-                        <orgName>Sancta Maria <foreign>delle stuoie</foreign>; <foreign>monasterium</foreign>
+                        <orgName>Sancta Maria <foreign>delle stuoie</foreign>; monasterium
                             (Pavia)</orgName>
                         <orgName type="other">Monasterium Vetus</orgName>
                         <idno>juridical_persons/1468</idno>
@@ -7204,8 +7930,7 @@
                         <link type="people" corresp="#people/125" subtype="isGrantedBy"/>
                     </org>
                     <org>
-                        <orgName>Celavinnium; <foreign>plebs</foreign>
-                            (Pavia)</orgName>
+                        <orgName>Celavinnium; plebs (Pavia)</orgName>
                         <orgName type="other"/>
                         <idno>juridical_persons/1470</idno>
                         <note>Secondo Rossetti 1975 potrebbe corrispondere all'attuale Cilavegna
@@ -7215,22 +7940,22 @@
                         <link type="places" corresp="#places/3504" subtype="correspondsTo"/>
                     </org>
                     <org>
-                        <orgName>Sancta Resurrectio Iesu Christi; <foreign>episcopium</foreign>
-                            (Ravenna)</orgName>
+                        <orgName>Sancta Resurrectio Iesu Christi; episcopium (Ravenna)</orgName>
                         <orgName type="other"><foreign>Hagìa Anástasis</foreign></orgName>
                         <idno>juridical_persons/1471</idno>
                         <note/>
                         <link type="places" corresp="#places/594" subtype="isWithin"/>
                         </org>
                     <org>
-                        <orgName>Sancti Iohannes et Barbacionis; <foreign>monasterium</foreign> (Ravenna)</orgName>
+                        <orgName>Sancti Iohannes et Barbacionis; monasterium (Ravenna)</orgName>
                         <orgName type="other"/>
                         <idno>juridical_persons/1472</idno>
                         <note/>
                         <link type="places" corresp="#places/594" subtype="isWithin"/>
                     </org>
                     <org>
-                        <orgName>Sancta Maria Castro qui dicitur Tiberiacis; <foreign>plebs</foreign> (Brisighella; Ravenna)</orgName>
+                        <orgName>Sancta Maria Castro qui dicitur Tiberiacis; plebs (Brisighella;
+                            Ravenna)</orgName>
                         <orgName type="other"><foreign>Sanctae Mariae in Tiveriaci</foreign></orgName>
                         <idno>juridical_persons/1473</idno>
                         <note/>
@@ -7238,23 +7963,21 @@
                         <link type="places" corresp="#places/3510" subtype="isWithin"/>
                     </org>
                     <org>
-                        <orgName>Sancta Maria in Xenodochio; <foreign>monasterium</foreign>
-                            (Ravenna)</orgName>
+                        <orgName>Sancta Maria in Xenodochio; monasterium (Ravenna)</orgName>
                         <orgName type="other"/>
                         <idno>juridical_persons/1474</idno>
                         <note/>
                         <link type="places" corresp="#places/594" subtype="isWithin"/>
                     </org>
                     <org>
-                        <orgName>Sancta Crux; <foreign>episcopium</foreign> (Forlì)</orgName>
+                        <orgName>Sancta Crux; episcopium (Forlì)</orgName>
                         <orgName type="other"/>
                         <idno>juridical_persons/1475</idno>
                         <note/>
                         <link type="places" corresp="#places/3515" subtype="isWithin"/>
                     </org>
                     <org>
-                        <orgName><foreign>Sanctus Georgius in Tamara</foreign>;
-                                <foreign>plebs</foreign></orgName>
+                        <orgName>Sanctus Georgius in Tamara; plebs (Copparo; Ferrara)</orgName>
                         <orgName type="other"/>
                         <idno>juridical_persons/1476</idno>
                         <note/>
@@ -7262,8 +7985,7 @@
                         <link type="estates" corresp="#estates/2410" subtype="isWithin"/>
                     </org>
                     <org>
-                        <orgName>Sanctus Zacharias; <foreign>monasterium</foreign>
-                            (Ravenna)</orgName>
+                        <orgName>Sanctus Zacharias; monasterium (Ravenna)</orgName>
                         <orgName type="other">Sanctus Zacharias et Sanctus Iohannes
                             Baptista</orgName>
                         <idno>juridical_persons/1477</idno>
@@ -7337,10 +8059,13 @@
                         <orgName type="other"/>
                         <idno>juridical_persons/1486</idno>
                         <note/>
-                        <link type="places" corresp="#places/3525" subtype="correspondsTo"/>
+                        <link type="places" corresp="#places/4181" subtype="correspondsTo"/>
                         <link type="estates" corresp="#estates/2410" subtype="isWithin"/>
                         <link type="estates" corresp="#estates/2419" subtype="isWithin"/>
                         <link type="people" corresp="#people/1560" subtype="link"/>
+                        <link type="estates" corresp="#estates/2441" subtype="isWithin"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1474"
+                            subtype="isManagedBy"/>
                     </org>
                     <org>
                         <orgName>Sanctus Apollinaris quod dicitur Novus;
@@ -7421,10 +8146,101 @@
                         <link type="places" corresp="#places/3537" subtype="proximity"/>
                         <link type="estates" corresp="#estates/2434" subtype="isWithin"/>
                     </org>
+                    <org>
+                        <orgName>Sanctus Andreas in Arquada; <foreign>plebs</foreign> (Arquà
+                            Polesine; Rovigo)</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/1496</idno>
+                        <note/>
+                        <link type="places" corresp="#places/3544" subtype="isWithin"/>
+                        <link type="estates" corresp="#estates/2410" subtype="isWithin"/>
+                    </org>
+                    <org>
+                        <orgName>Sanctus Vincentius <foreign>Saltuspano</foreign>;
+                                <foreign>plebs</foreign> (Bologna)</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/1497</idno>
+                        <note/>
+                        <link type="places" corresp="#places/3542" subtype="proximity"/>
+                        <link type="places" corresp="#places/1501" subtype="proximity"/>
+                        <link type="places" corresp="#places/3547" subtype="proximity"/>
+                        <link type="estates" corresp="#estates/4239" subtype="isWithin"/>
+                    </org>
+                    <org>
+                        <orgName>Sanctus Cassianus; ecclesia (Comacchio)</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/1498</idno>
+                        <note/>
+                        <link type="places" corresp="#places/485" subtype="isWithin"/>
+                    </org>
+                    <org>
+                        <orgName>Sanctus Georgius in Conca; <foreign>plebs</foreign>
+                            (Rimini)</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/1499</idno>
+                        <note/>
+                        <link type="places" corresp="#places/3554" subtype="proximity"/>
+                    </org>
+                    <org>
+                        <orgName>Sanctus Venantius; <foreign>ecclesia</foreign> (Lagosanto;
+                            Ferrara)</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/3600</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1460"
+                            subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/2137" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/1574" subtype="isGrantedTo"/>
+                        <link type="estates" corresp="#estates/2410" subtype="isWithin"/>
+                        <link type="places" corresp="#places/3559" subtype="proximity"/>
+                        <link type="estates" corresp="#estates/2454" subtype="dependsOn"/>
+                    </org>
+                    <org>
+                        <orgName>Sancta Maria; <foreign>ecclesia</foreign> (Lagosanto;
+                            Ferrara)</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/3601</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1460"
+                            subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/2137" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/1574" subtype="isGrantedTo"/>
+                        <link type="estates" corresp="#estates/2410" subtype="isWithin"/>
+                        <link type="places" corresp="#places/3559" subtype="proximity"/>
+                        <link type="estates" corresp="#estates/2454" subtype="dependsOn"/>
+                    </org>
+                    <org>
+                        <orgName>Sanctus Martinus qui vocatur Laco Sancto; <foreign>plebs</foreign> (Lagosanto;
+                            Ferrara)</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/3602</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1460"
+                            subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/2137" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/1574" subtype="isGrantedTo"/>
+                        <link type="estates" corresp="#estates/2410" subtype="isWithin"/>
+                        <link type="places" corresp="#places/3559" subtype="proximity"/>
+                        <link type="estates" corresp="#estates/2454" subtype="dependsOn"/>
+                    </org>
+                    <org>
+                        <orgName>Sanctus Petrus; <foreign>ecclesia</foreign> (Lagosanto;
+                            Ferrara)</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/3603</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1460"
+                            subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/2137" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/1574" subtype="isGrantedTo"/>
+                        <link type="estates" corresp="#estates/2410" subtype="isWithin"/>
+                        <link type="places" corresp="#places/3559" subtype="proximity"/>
+                        <link type="estates" corresp="#estates/2454" subtype="dependsOn"/>
+                    </org>
                 </listOrg>
                 <listOrg n="Tabarrini Lorenzo">
                     <org>
-                        <orgName>Piacenza; <foreign>commune</foreign></orgName>
+                        <orgName>Piacenza; commune</orgName>
                         <orgName type="other"/>
                         <idno>juridical_persons/1500</idno>
                         <note/>
@@ -7796,6 +8612,8 @@
                         <idno>juridical_persons/3306</idno>
                         <note/>
                         <link type="places" corresp="#places/3311" subtype="isWithin"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/68"
+                            subtype="dependsOn"/>
                     </org>
                     <org>
                         <orgName>Sanctus Romulus; episcopium (Fiesole)</orgName>
@@ -7871,6 +8689,20 @@
                         <note>Costruita a nord esternamente alla cinta muraria di Lucca, vd. Belli
                             Barsali 1973, p. 536, n. 43.</note>
                         <link type="places" corresp="#places/4" subtype="isWithin"/>
+                    </org>
+                    <org>
+                        <orgName>Sanctus Valentinus prope Suppinula; ecclesia</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/3316</idno>
+                        <note/>
+                    </org>
+                    <org>
+                        <orgName>Sancta Maria in Purgatile; ecclesia (Piazza di Brancoli;
+                            Lucca)</orgName>
+                        <orgName type="other">ecclesia Sancte Marie et beati Mihaelis et Sancti
+                            Petri princeps apostolorum; Sancta Maria de Brancalo</orgName>
+                        <idno>juridical_persons/3317</idno>
+                        <note/>
                     </org>
                 </listOrg>
                 <listOrg n="Zornetta Giulia">
