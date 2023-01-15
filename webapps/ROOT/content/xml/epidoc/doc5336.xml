@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Brescia, Biblioteca Queriniana  (MGH DD Lo I, p. 265, n. 115)</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2022">2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DiSCi UniBo</publisher>
+                <idno type="filename">doc5336</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+                </availability>
+                <date when="2022"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property">Yes</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0851-09-08">
+                                <note type="displayed_date">851 September 8</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Gondreville (FR)</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace></origPlace>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2023-01-15" who="fribani">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>(C.) In nomine domini nostri Iesu Christi dei aeterni. <persName
+                            ref="#people/9" key="#Emperor/king">Hlotharius</persName> et <persName
+                            key="#Emperor/king" ref="#people/110">Hludouuicus</persName> divina
+                        ordinante providentia <rs key="#Emperor/king">imperatores</rs> augusti.
+                        Dignum est, ut imperialis celsitudo, cum omnium fidelium suorum utilitatibus
+                        consulit, maxime eorum convenienter et studiose praevideat et curam gerat
+                        honoribus, qui sibi vinculo consanguinitatis adstricti artius fore
+                        cernuntur. Igitur omnium fidelium sanctae dei ecclesiae ac nostrorum
+                        praesentium futurorumque noverit sollertia, quia quondam amantissima <rs
+                            key="#marriage">coniunx</rs> nostra praedicti Hludouuici augusti <rs
+                            key="#parentOf">genetrix</rs>
+                        <persName ref="#people/10" key="#marriage #parentOf"
+                        >Hirmingardis</persName>, dum adviveret, nostram petiit celsitudinem, ut ei
+                        et <rs key="#childOf">filiae</rs> nostrae <persName key="#childOf"
+                            ref="#people/11">Gisle</persName> in vita eorum <rs
+                            key="#Fiscal_property #Fiscal_reserve">confirmaremus</rs>
+                        <orgName ref="#juridical_persons/30"
+                            key="#Fiscal_property #Function #Exceptive #Fiscal_reserve #Monasteries"
+                                ><rs key="#Monasteries">monasterium</rs>, quod est constructum in
+                            honore dei et salvatoris nostri Iesu Christi</orgName> infra muros
+                            <placeName ref="#places/9"
+                            key="#Fiscal_property #Function #Exceptive #Fiscal_reserve #Monasteries"
+                            >Brixiae</placeName>, sicuti et fecisse noscimur. Sed ea de hac luce
+                        recedente placuit nobis denuo auctoritatis nostrae litteris idem <rs
+                            key="#Imperial/royal_diploma">praeceptum</rs> renovare atque confirmare
+                        in nomine memoratae filiae nostrae Gisle, sororis scilicet memorati
+                        Hludouuici augusti, taliter, ut cum omnibus <rs key="#Cells/hermitages"
+                            >cellis</rs> et <rs key="#Hospitals">senodochiis</rs> seu <rs
+                            key="#Curtes">curtibus</rs> ad iam dictum monasterium aspicientibus,
+                            <geogName ref="#estates/1514"
+                            key="#Curtes #Fiscal_property #Function #Exceptive #Fiscal_reserve"
+                                ><placeName
+                                key="#Curtes #Fiscal_property #Function #Exceptive #Fiscal_reserve"
+                                ref="#places/1913">Alina</placeName></geogName> scilicet,
+                        <geogName key="#Curtes #Fiscal_property #Function #Exceptive #Fiscal_reserve"
+                            ref="#estates/1515">Campora</geogName>,
+                        Sextuno, monasterium in Luca, quod Allo dux edificavit, et monasterium in
+                        Papia, qui vocatur Regine, et portum Placentinum cum hospitale sancti
+                        Benedicti in monte Longo nec non et monasterium situm in Syrmione vel cetera
+                        quaeque ad praedictum monasterium pertinentia taliter, ut sepe dicta
+                        carissima filia no[st]ra sororque sepe dicti augusti, dum advixerit, cuncta,
+                        quae supra dicta sunt, firmiter obtinere usuque fructuario dominari possit.
+                        Unde et hos apices pari consensu fieri censuimus, per quos firmiter sancimus
+                        et statuentes decernimus, ut, quemadmodum praedictum est, universa, quae
+                        praescripta sunt, ad praefatum monasterium pertinentia Gisla filia nostra,
+                        quandiu in hac erumnali luce manserit, teneat, habeat atque possideat et
+                        ordine fructuario gubernet atque disponat vel secundum regularem
+                        institutionem sancti Benedicti, prout melius valuerit, iuxta dei voluntatem
+                        regat, postposita longe cuiuslibet controversia vel inquietudine, eo
+                        dumtaxat tenore, ut, si nos sepe dicte filiae nostrae superstites fuerimus,
+                        nostrae dominationi iam fatum monasterium cum omnibus ad se pertinentibus
+                        reservetur. Unicuique vero successorum nostrorum interdicimus et sub divina
+                        invocatione contestamur, quatenus, si ipsa nobis supervixerit, nihil ex
+                        hiis, quae in hoc scripto continentur, illi minuere vel auferre
+                        mol[i]a[tur]; quod si fecerit, optamus atque omnimodis inprecamur, ut huius
+                        rei rationem deo universorum iudici rectorumque rectori et domino dominorum
+                        plenissime reddat. Praecepta interea, quae nostra sunt auctoritate firmata
+                        de stipendiis sororum inibi deo militantium, volumus, ut fixa et stabilia
+                        permaneant per tempora succedentia sine ulla immutatione. Et ut haec nostrae
+                        confirmationis auctoritas pleniorem in dei nomine obtineat vigorem, manibus
+                        propriis subter eam firmavimus et anuli nostri impressione [adsignari]
+                        iussimus. Signum (MF.) Hlotharii serenissimi augusti. Signum (MF.)
+                        Hludouuici gloriosissimi imperatoris. (C. NT.: Remigius habebat signum;
+                        Rodmundus) Hrodmundus notarius advicem Hilduini recognovi et (SR. NT.:
+                        Rodmundus notarius advicem Hilduini recognovi. Remigius magister fieri
+                        iussit) (SI.) Data VI id. septb. anno Christo propitio imperii domni
+                        Hlotharii pii imperatoris in Italia XXXII et in Francia XII, indictione XV;
+                        actum Gundulfi villa palatio regio; in dei nomine feliciter amen.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>MGH DD Lo I, p. 265, n. 115</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
+<?oxy_options track_changes="on"?>
