@@ -4,7 +4,7 @@
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
-                <title>Bergamo, Biblioteca Civica Angelo Mai (MGH DD Lo I, p. 130, n. 43)</title>
+                <title>Milano, Biblioteca Ambrosiana (MGH DD Lo I, p. 165, n. 59)</title>
             </titleStmt>
             <editionStmt>
                 <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
@@ -13,7 +13,7 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DiSCi UniBo</publisher>
-                <idno type="filename">doc5339</idno>
+                <idno type="filename">doc5340</idno>
                 <availability xml:lang="en" status="free">
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                         texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
@@ -30,7 +30,7 @@
                     <msContents>
                         <summary>
                             <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
-                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="record_source" ref="#">Original document</rs>
                             <rs type="document_tradition" ref="#">Original</rs>
                             <rs type="fiscal_property">No</rs>
                         </summary>
@@ -40,10 +40,10 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate notBefore="0837" notAfter="0855">
-                                <note type="displayed_date">840?</note>
+                            <origDate when="0841-07-20">
+                                <note type="displayed_date">841 July 20</note>
                                 <note type="dating_elements"/>
-                                <note type="topical_date"/>
+                                <note type="topical_date">Aachen (DE)</note>
                                 <note type="redaction_date"/>
                             </origDate>
                             <origPlace></origPlace>
@@ -72,7 +72,7 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2022-01-16" who="fribani">creation of record</change>
+                <change when="2023-01-16" who="fribani">creation of record</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -83,32 +83,39 @@
                     <ab>(C.) In nomine domini nostri Iesu Christi dei aeterni. <persName
                             ref="#people/9" key="#Emperor/king">Hlotharius</persName> divina
                         ordinante providentia <rs key="#Emperor/king">imperator</rs> augustus.
-                        Omnibus fidelibus nostris notum sit, quia vir venerabilis <persName
-                            key="#Bishops" ref="#people/3944">Ageno</persName>
-                        <placeName ref="#places/10" key="#Cities"><orgName
-                                ref="#juridical_persons/189" key="#Inquisitio #Mother_churches"
-                                >Bergamensis</orgName></placeName>
-                        <rs key="#Cities">urbis</rs>
-                        <rs key="#Bishops">episcopus</rs> deprecatus est celsitudinem nostram, ut de
-                        rebus aecclesiae Alexandri scilicet et Uincentii beatissimorum martyrum, cui
-                        ipse episcopali iure preesse dinoscitur, <rs key="#Inquisitio"
-                            >inquisitionem</rs> concederemus faciendam in quibuslibet <rs
-                            key="#Comitatus">comitatibus</rs> vel locis propter pravorum hominum
-                        invasionem, ne praefata aecclesia de facultate rerum suarum dispendium
-                        pateretur. Cuius precibus propter mercedis nostrae augmentum adquiescentes
-                        has nostrae auctoritatis litteras fieri iussimus, quibus concedimus atque
-                        praecipimus, ut, cum necessitas exigerit, de rebus praefatae sedis
-                        inquisitio fiat per circummanentes et idoneos homines, qui degent in illis
-                        locis, ubi ipsae res adiacent, nec non et de rebus <rs
-                            key="#Baptismal_churches">baptismalium aecclesiarum</rs> vel <rs
-                            key="#Hospitals">synodochiorum</rs> eius, ne per malorum hominum
-                        invasionem aut iniustam refragationem amittat, quod ei iuste et legaliter
-                        habere competit. Et ut hoc ab omnibus fidelibus nostris diligentius
-                        observetur, de anulo nostro subter iussimus sigillari. (SI.)</ab>
+                        Omnibus fidelibus nostris presentibus et futuris notum sit, quia deo devota
+                        femina nomine <persName key="#Abbots" ref="#people/3947">Asia</persName> et
+                        ex <rs key="#Monasteries">monasterio</rs>
+                        <orgName ref="#juridical_persons/129" key="#Inquisitio #Monasteries"
+                                ><placeName ref="#places/65">Teodotis</placeName></orgName>
+                        <rs key="#Abbots">abbatissa</rs> retulit serenitati nostrae, quod de rebus
+                        ecclesiae suae vel familiis multum pateretur diminutionem atque dispendium a
+                        pravis vel invasoribus hominibus. Unde nostram depr[ecata] est pietatem, ut
+                        et <rs key="#mundualdusOf">tutorem</rs> monasterii sui illi concederemus et
+                        nostrae auctoritatis scriptum fieri iuberemus concedendo <rs
+                            key="#Inquisitio">inquisitionem</rs> de rebus et <rs
+                            key="#Landed_possessions">mancipiis</rs> eiusdem cenobii. Cuius precibus
+                        ob divinum amorem adquiescentes <persName ref="#people/3945"
+                            key="#Count #Inquisitio">Leonem</persName> et <persName
+                            ref="#people/3946" key="#Count #Inquisitio">Iohannem</persName>
+                        <rs key="#Count">comites</rs> constituimus ad peragendam huiuscemodi
+                        advocationem, hoc simul nostrae excellentiae scriptum fieri decernentes, per
+                        quod precipimus, ut ubicumque necessitas postulaverit, de rebus vel familiis
+                        memorate ecclesiae vera fiat inquisitio per veraces et idoneos homines et
+                        quorum testimonium dinoscitur esse probabile. Ut autem a nobis hoc iussum
+                        esse credatis ac diligentius observetis, de anulo nostro subter iussimus
+                        sigillari (SI. D.). Data XIII kal. aug. anno Christo propitio imperii domni
+                        Hlotharii pii imperatoris in Italia XXII et in Francia II, indictione IIII;
+                        actum <placeName ref="#places/83"
+                            key="#Fiscal_property #Textual_occurrence #Mention #Function #Residential #Palatium"
+                            >Aquisgrani</placeName>
+                        <rs
+                            key="#Fiscal_property #Textual_occurrence #Mention #Function #Residential #Palatium"
+                            >palatio</rs>; in dei nomine feliciter amen.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p>MGH DD Lo I, p. 130, n. 43</p>
+                <p>MGH DD Lo I, p. 165, n. 59</p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p/>
