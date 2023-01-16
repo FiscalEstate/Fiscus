@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Milano, Biblioteca Ambrosiana (MGH DD Lo I, p. 165, n. 59)</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2022">2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DiSCi UniBo</publisher>
+                <idno type="filename">doc5340</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+                </availability>
+                <date when="2022"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Imperial/royal diploma</rs>
+                            <rs type="record_source" ref="#">Original document</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property">No</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0841-07-20">
+                                <note type="displayed_date">841 July 20</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Aachen (DE)</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace></origPlace>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2023-01-16" who="fribani">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>(C.) In nomine domini nostri Iesu Christi dei aeterni. <persName
+                            ref="#people/9" key="#Emperor/king">Hlotharius</persName> divina
+                        ordinante providentia <rs key="#Emperor/king">imperator</rs> augustus.
+                        Omnibus fidelibus nostris presentibus et futuris notum sit, quia deo devota
+                        femina nomine <persName key="#Abbots" ref="#people/3947">Asia</persName> et
+                        ex <rs key="#Monasteries">monasterio</rs>
+                        <orgName ref="#juridical_persons/129" key="#Inquisitio #Monasteries"
+                                ><placeName ref="#places/65">Teodotis</placeName></orgName>
+                        <rs key="#Abbots">abbatissa</rs> retulit serenitati nostrae, quod de rebus
+                        ecclesiae suae vel familiis multum pateretur diminutionem atque dispendium a
+                        pravis vel invasoribus hominibus. Unde nostram depr[ecata] est pietatem, ut
+                        et <rs key="#mundualdusOf">tutorem</rs> monasterii sui illi concederemus et
+                        nostrae auctoritatis scriptum fieri iuberemus concedendo <rs
+                            key="#Inquisitio">inquisitionem</rs> de rebus et <rs
+                            key="#Landed_possessions">mancipiis</rs> eiusdem cenobii. Cuius precibus
+                        ob divinum amorem adquiescentes <persName ref="#people/3945"
+                            key="#Count #Inquisitio">Leonem</persName> et <persName
+                            ref="#people/3946" key="#Count #Inquisitio">Iohannem</persName>
+                        <rs key="#Count">comites</rs> constituimus ad peragendam huiuscemodi
+                        advocationem, hoc simul nostrae excellentiae scriptum fieri decernentes, per
+                        quod precipimus, ut ubicumque necessitas postulaverit, de rebus vel familiis
+                        memorate ecclesiae vera fiat inquisitio per veraces et idoneos homines et
+                        quorum testimonium dinoscitur esse probabile. Ut autem a nobis hoc iussum
+                        esse credatis ac diligentius observetis, de anulo nostro subter iussimus
+                        sigillari (SI. D.). Data XIII kal. aug. anno Christo propitio imperii domni
+                        Hlotharii pii imperatoris in Italia XXII et in Francia II, indictione IIII;
+                        actum <placeName ref="#places/83"
+                            key="#Fiscal_property #Textual_occurrence #Mention #Function #Residential #Palatium"
+                            >Aquisgrani</placeName>
+                        <rs
+                            key="#Fiscal_property #Textual_occurrence #Mention #Function #Residential #Palatium"
+                            >palatio</rs>; in dei nomine feliciter amen.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>MGH DD Lo I, p. 165, n. 59</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
