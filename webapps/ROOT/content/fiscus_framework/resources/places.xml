@@ -5959,6 +5959,8 @@
                         <link type="estates" corresp="#estates/3003" subtype="correspondsTo"/>
                         <link type="juridical_persons" corresp="#juridical_persons/3002"
                             subtype="rendersCollectedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3001"
+                            subtype="rendersCollectedBy"/>
                     </place>
                     <place>
                         <placeName><foreign>Pantanus</foreign> (Benevento)</placeName>
@@ -10854,7 +10856,7 @@
                     </place>
                     <place>
                         <placeName><foreign>Trasolfu</foreign> (Aversa; Caserta)</placeName>
-                        <placeName type="other"/>
+                        <placeName type="other"><foreign>Trasulfi</foreign></placeName>
                         <geogName type="coord"><geo/></geogName>
                         <idno>places/4036</idno>
                         <note/>
@@ -10873,12 +10875,13 @@
                     </place>
                     <place>
                         <placeName><foreign>Campu Bunituli</foreign> (Aversa; Caserta)</placeName>
-                        <placeName type="other"/>
+                        <placeName type="other"><foreign>Campu Bonituli</foreign></placeName>
                         <geogName type="coord"><geo/></geogName>
                         <idno>places/4038</idno>
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/3001"
                             subtype="rendersCollectedBy"/>
+                        <link type="places" corresp="#places/605" subtype="isWithin"/>
                     </place>
                     <place>
                         <placeName>Trentola-Ducenta (Caserta)</placeName>
@@ -11443,10 +11446,31 @@
                         <geogName type="coord"><geo>40.96447353282034,
                             14.229544285876452</geo></geogName>
                         <idno>places/4094</idno>
-                        <note>Microtoponomastica: ad Clusuram</note>
+                        <note>Microtoponomastica: <foreign>ad Clusuram</foreign>.</note>
                         <link type="juridical_persons" corresp="#juridical_persons/3001"
                             subtype="rendersCollectedBy"/>
                         <link type="estates" corresp="#estates/3009" subtype="isWithin"/>
+                    </place>
+                    <place>
+                        <placeName>Marcianise (Caserta)</placeName>
+                        <placeName type="other"><foreign>Marzanisi</foreign></placeName>
+                        <geogName type="coord"><geo>41.02916880077198,
+                            14.29219173114377</geo></geogName>
+                        <idno>places/4095</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3001"
+                            subtype="rendersCollectedBy"/>
+                        <link type="estates" corresp="#estates/3009" subtype="isWithin"/>
+                    </place>
+                    <place>
+                        <placeName><foreign>Ad Terminum </foreign>(Caserta)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo/></geogName>
+                        <idno>places/4096</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3001"
+                            subtype="rendersCollectedBy"/>
+                        <link type="places" corresp="#places/605" subtype="isWithin"/>
                     </place>
                 </listPlace>
                 <listPlace n="Del Mercato Evelina">
@@ -16823,6 +16847,9 @@
                             376, perg. 3 (qui doc. n. 1310).</note>
                         <link type="places" corresp="#places/2354" subtype="isWithin"/>
                         <link type="people" corresp="#people/2486" subtype="link"/>
+                        <link type="estates" corresp="#estates/3009" subtype="isWithin"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3001"
+                            subtype="rendersCollectedBy"/>
                     </place>
                     <place>
                         <placeName><foreign>Viviano</foreign> (Benevento)</placeName>
