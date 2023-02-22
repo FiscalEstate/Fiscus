@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Montecassino, Archivio privato, Carte di Pomposa, fasc. III, n. 49</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2022">2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DiSCi UniBo</publisher>
+                <idno type="filename">doc5432</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+                </availability>
+                <date when="2022"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Libellus/precaria/emphyteusis</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property"/>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="1018-03-12">
+                                <note type="displayed_date">1018 March 12</note>
+                                <note type="dating_elements">Mezzetti, <foreign>Le carte</foreign>,
+                                    p. 243: Nella formula di datazione, non v’è corrispondenza tra i
+                                    vari elementi. Tenendo ferma la cifra indizionale, si propone di
+                                    datare la carta al 1018, con l’anno di pontificato in eccesso di
+                                    una unità e l’anno di regno di Enrico II in difetto di tre
+                                    unità.</note>
+                                <note type="topical_date">Ruina (Ferrara)</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace><foreign>Sancta Maria in Pomposia</foreign></origPlace>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-02-03" who="cstedile">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine Patris et Filii et Spiritu Sancti. Anno Deo propitjo pontificato
+                        donus <persName key="#Popes" ref="#people/2137">Benedicto</persName> summo
+                            <rs key="#Popes">pontifices</rs> et universali pape in apostolica
+                        sacratissima beati Petri apostoli Domini sede anno septimo, regantem donus
+                            <persName key="#Emperor/king" ref="#people/130">Enricus</persName> vero
+                            <rs key="#Emperor/king">inperio</rs> in Intalia anno undetjmo in Dei
+                        nomine, die duodetjmo mense martjo, ind(itjone) prima, in <rs key="#Vici"
+                            >vico</rs> qui vocatur <placeName key="#Vici" ref="#places/3594"
+                            >Ruvina</placeName>. Petisstis ad me quidem in Dei nomine donus
+                            <persName key="#Other_clerics #Abbots" ref="#people/1560"
+                            >Garardo</persName>
+                        <rs key="#Other_clerics">clericus</rs> et <rs key="#Abbots">abas</rs> de <rs
+                            key="#Monasteries">mo(nasterio)</rs>
+                        <orgName ref="#juridical_persons/1474"
+                            key="#Libellus/precaria/emphyteusis #Fundi #Monasteries">Sancta Maria
+                            qui vocatur in Senedochio</orgName>, filio qui vocatur de <persName
+                            key="#Judge" ref="#people/1573">Faraldo</persName>
+                        <rs key="#Judge">iudices</rs>, patrono qui est abitator in <rs key="#Cities"
+                            >tjvitate</rs>
+                        <placeName key="#Cities" ref="#places/594">Ravena</placeName>, uti me
+                        presentem in Dei nomine <persName><name ref="Valerius/Gastaudo">Valero qui
+                                vocatur Gastaudo</name></persName> petitore se(h)u filiis et
+                        heredibus tuis <rs key="#Libellus/precaria/emphyteusis">libella(rio)
+                            nomine</rs> concedimus nos suprascripto patrono de rem iuris nostris
+                        suprascripto patrono, que nos tenere viso sum ad iure <orgName
+                            ref="#juridical_persons/1471" key="#Fundi">sancte Ravenati
+                            Ecclesie</orgName>, idest tota et integras omnes res vel <rs
+                            key="#Landed_possessions">sortes et portjones</rs> quatacumque pertinet
+                        per cocumque modum vel titulum ad <persName><name ref="Florellus"
+                                >Florello</name></persName> et a <persName><name
+                                ref="Martinus Richus">Martino Rico</name></persName> et ad
+                                <persName><name ref="Iohannes/Balbo">Ioh(anne)s qui vocatur
+                                Balbo</name></persName> et ad <persName><name ref="Romana"
+                                >Romana</name></persName> in <rs key="#Fundi">fundo</rs> qui vocatur
+                            <geogName ref="#estates/2427"
+                            key="#Libellus/precaria/emphyteusis #Houses #Marshes/lagoons/tombolos #Fundi #Casalia #Landed_possessions #Forests #Fisheries #Penalty #Cereals #Wine #Fruits/vegetables #Hay/fodder #Rent_in_money #Rights_of_use_on_woods/pastures/waters"
+                                ><placeName ref="#places/3531"
+                                key="#Libellus/precaria/emphyteusis #Houses #Marshes/lagoons/tombolos #Fundi #Casalia #Landed_possessions #Forests #Fisheries #Penalty #Cereals #Wine #Fruits/vegetables #Hay/fodder #Rent_in_money #Rights_of_use_on_woods/pastures/waters"
+                                >Laugnano</placeName></geogName>, per singuli lotjs, omnia cum <rs
+                            key="#Landed_possessions">terris</rs> et <rs key="#Wine">vineis</rs>,
+                            <rs key="#Cereals">campis</rs>, <rs key="#Hay/fodder">partis</rs>, <rs
+                            key="#Hay/fodder">pascuis</rs>, <rs key="#Forests">silvis</rs>,
+                            <rs>salecti</rs>, <rs key="#Marshes/lagoons/tombolos">padulibus</rs>,
+                            <rs key="#Fisheries">piscatjonibus</rs>, <rs
+                            key="#Rights_of_use_on_woods/pastures/waters">venatjonibus</rs>,
+                            <rs>arbustis</rs>, <rs key="#Fruits/vegetables">arboribus, pumiferis,
+                            frutiferis et infrutiferis</rs>, <rs key="#Houses">case</rs> se(h)u et
+                            <rs key="#Casalia">casalibus</rs> vel omnibus eisdem pertinentibus qod
+                        superius legitur; abendum, tenendum, laborandum, cultandum, rogandum,
+                        pastinadum, defensandum et in omnibus meliorandum in anis advenientibus
+                        viinti et nove ad salve caltjarie donice dadum, denariorum libres
+                        *********** ad altero libellum renovandum sicut superius legitur. Prestate
+                        coque nos suprascripto petitore cum suis filiis et heredibus tibi
+                        suprascripto patrono cum tuis filiis et heredibus vel subcessoribus inferere
+                        debeo sinculi quibusque anis omnis mense martjo infra ind(itjone), sine
+                        aliqua tardietatem aut in nelectum, <rs key="#Rent_in_money">denariis
+                            dui</rs> tantum pensio ut dictum est persolvatur. No abentis licentjam
+                        suprascripto petitore de ipsa suprascripta res que superius legitur cum tuis
+                        filiis et heredibus annul platjto neque disticta andare nec vindere nec
+                        donare nec comutuare nisi inter fratribus et consortibus, nisi ad me
+                        suprascripto patrono et de meis filiis et heredibus vel subcessoribus.
+                        Promitentes pretera nuc nulique temporibus diebus vite mee suprascripto
+                        patrono cum meis filiis et heredibus vel subcessoribus tibi suprascripto
+                        petitore cum tuis filiis et heredibus testus huius paginam petitjonis
+                        inviolare set inviolabiliter modis omnibus et adinplere promitimus nos
+                        suprascripto petitore cum meis filiis et heredibus. Qod sit qod absit et
+                        avertad divina potentja et omnia no observavero vel adinplevero suprascripto
+                        petitore cum suis filiis et heredibus ante omnis litis inintjum aut
+                        interpellatjone pene nomine <rs key="#Penalty">auri obtimi untjas due</rs>
+                        et post penam soluta manentem et os libellum in suo omnium robore et
+                        firmitatis. Qod vero libellum uno pari tenore conscripto <persName
+                            key="#Tabellio"><name ref="Iohannes">Ioh(anne)s</name></persName> in Dei
+                        nomine <rs key="#Tabellio">tabellio</rs> scribendum rogavi et subter manus
+                        suas proprias firmavi <rs key="#Witness">testibusquem</rs> ad me rogitis
+                        obtulit subscribenda eorumque presentjam eam tibi corum supra contradimus,
+                        sub die, mense et ind(itjone) suprascripta prima, in vico qui vocatur
+                        Ruvina. Signum suprascripto Valero petito ad omnia suprascripta cui relectum
+                        est. Signum <persName key="#Witness"><name ref="Wido"
+                            >Guiho</name></persName> et <persName key="#Witness"><name
+                                ref="Gausulfus/de Widoni">Gagiulfo filio qui vocatur de
+                            Guiho</name></persName> et <persName key="#Witness"><name
+                                ref="Domenicus">Dominicus</name></persName> ad omnia suprascripti
+                        testi cui rellecti sunt. Noticiam testjum idest: Guiho vir honestus testes,
+                        Guiho vir honestus testes, Dominicus vir honestus testes. Ioh(anne)s
+                        tabellio de castello qui vocatur Rudige scriptor huius paginam petitjonis
+                        sicut superius legitur post roboratjonem testium atque [tradi]ta complevi et
+                        absolvi.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>Mezzetti, <foreign>Le carte</foreign>, pp. 243-245, n° 109.</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
