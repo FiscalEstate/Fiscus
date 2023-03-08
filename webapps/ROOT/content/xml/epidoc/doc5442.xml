@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Carte di Pomposa (Mezzetti, <foreign>Le carte</foreign>, pp. 267-268, n°
+                    120).</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2022">2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DiSCi UniBo</publisher>
+                <idno type="filename">doc5442</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+                </availability>
+                <date when="2022"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">-Cartula</rs>
+                            <rs type="record_source" ref="#">Edition</rs>
+                            <rs type="document_tradition" ref="#">Uncertain tradition</rs>
+                            <rs type="fiscal_property"/>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate notBefore="1020-03-01" notAfter="1021-03-31">
+                                <note type="displayed_date">1020 March and 1021 March</note>
+                                <note type="dating_elements">Mezzetti, <foreign>Le carte</foreign>,
+                                    p. 267: conosciamo il solo dato dell’indizione da combinare con
+                                    la menzione agli abati di Pomposa e di San Teodoro di Ravenna:
+                                    Andrea notaio della Chiesa di Ravenna è attestato come rettore
+                                    del monastero di San Teodoro nel 1007, mentre l’abate di Pomposa
+                                    Guido risulta in carica dal 1010. La prima quietanza, registrata
+                                    in un anno cui corrisponde l’indizione terza, risale dunque al
+                                    1020; il rinnovo del pagamento avviene l’anno successivo.</note>
+                                <note type="topical_date">Ravenna</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace><foreign>Sancta Maria in Pomposia</foreign></origPlace>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-02-03" who="cstedile">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine Domini. Stat me domnus <persName><name ref="Andreas"
+                                >Andreas</name></persName> reverentissimus <rs key="#Other_clerics"
+                            >clericus</rs> et <rs key="#Notary">notarius</rs>
+                        <orgName key="#Churches" ref="#juridical_persons/1471">sancte <placeName
+                                ref="#places/594">Ravennatis</placeName> Ecclesie</orgName> et <rs
+                            key="#Abbots">abbas</rs>
+                        <rs key="#Monasteries">monasterii</rs>
+                        <orgName key="#Monasteries">Sancti Theodoris Christi martiris</orgName>
+                        accepisse accepit ad te <persName key="#Abbots" ref="#people/1574"
+                            >Vuido</persName> prudentissimus et <rs key="#Abbots">abbas</rs>
+                        <rs key="#Monasteries">monasterii</rs>
+                        <orgName key="#Monasteries" ref="#juridical_persons/1460">Sancte Marie que
+                            vocatur a <placeName ref="#places/4179">Pomposia</placeName></orgName>
+                        pensionem per <rs key="#Fundi">tres fundorum</rs> quorum vocabula sunt
+                                <geogName><placeName>Fabricianellus</placeName></geogName> et
+                                <geogName><placeName>Bethuli</placeName></geogName> et
+                                <geogName><placeName>Sablune</placeName></geogName> et <rs
+                            key="#Wine">quatuor vinee</rs> principales integre que sunt posite in
+                            <rs key="#Fundi">fundum</rs> qui vocatur <geogName key="#Fundi #Wine"
+                                ><placeName key="#Fundi #Wine">Finciatiquo</placeName></geogName>
+                        quoerente se et cum omnibus sibi pertinentibus, sitas <rs key="#Fines"
+                            >territorio</rs>
+                        <geogName key="#Fines" ref="#estates/2410"><placeName key="#Fines"
+                                ref="#places/80">Ferrariensis</placeName></geogName>, plebis Sancti
+                        Donati, que vos per paginam pacti tenere videtur iuris prefati monasterii,
+                        pro transacti indicionibus usque in ista presentem indicione et per
+                        unaquamque indicionem denariorum Venetiquorum triginta et sexto. Unde pro
+                        munimine vestro fecit vobis hoc deaccepto in mense marti pro transacto mense
+                        marcio pro indicione tertia, Ravenne. Ego Andreas clericus sancte Ravennatis
+                        Ecclesie et abbas monasterii Sancti Theodori in hac die subscripsi per
+                        indictionem tertiam. Ego Andreas clericus sancte Ravennatis Ecclesie et
+                        abbas monasterii Sancti Theodori in hac die subscripsi per indictionem
+                        quartam. </ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>Mezzetti, <foreign>Le carte</foreign>, pp. 267-268, n° 120.</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

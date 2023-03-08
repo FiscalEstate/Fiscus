@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Montecassino, Archivio privato, Carte di Pomposa, fasc. CV, n. 2892</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2022">2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DiSCi UniBo</publisher>
+                <idno type="filename">doc5440</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+                </availability>
+                <date when="2022"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">-Cartula</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property"/>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate notBefore="1020-03-01" notAfter="1020-03-31">
+                                <note type="displayed_date">1020 March</note>
+                                <note type="dating_elements">Mezzetti, <foreign>Le carte</foreign>,
+                                    p. 264: La datazione della quietanza è ricostruita alla luce
+                                    della serie delle registrazioni, scandite dalla cifra
+                                    indizionale: il documento a pp. 137-138, n° 63, scritto in un
+                                    anno corrispondente alla terza indizione, è datato 1005; la
+                                    terza indizione cade di nuovo nel 1020.</note>
+                                <note type="topical_date">Ravenna</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace><foreign>Sancta Maria in Pomposia</foreign></origPlace>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-02-03" who="cstedile">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine D(omi)ni. Consta me <persName key="#Priests #Monks"><name
+                                ref="Anastasius">Anastasius</name></persName>
+                        <rs key="#Priests">p(res)b(i)t(er)</rs> et <rs key="#Monks">[m]onachus</rs>
+                        atque p(re)positu(s) <rs key="#Monasteries">mon(asterii)</rs>
+                        <orgName key="#Monasteries" ref="#juridical_persons/1487">S(an)c(t)i
+                            Apolinaris q(ui) vocat(ur) Novo</orgName> in oc [de]ac[cep]to
+                        subscripsi, indiccione III. Ego <persName key="#Abbots"><name
+                                ref="Richardus">Richardus</name></persName> abb(as) in hoc
+                        diacep(tum) man(u) meas s(ub)s(cripsi).</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>Mezzetti, <foreign>Le carte</foreign>, pp. 264-265, n° 118.</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>Fa parte della serie di quietanze di pagamento per la località di Colopedio.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
