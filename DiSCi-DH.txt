@@ -103,25 +103,26 @@ sudo apt install php7.3-mysql [NB: php7.3, not other versions]
 sudo apt-get install sendmail
 /var/log/apache2/error.log
 /var/log/apache2/access.log
-/var/www/xxx/config.inc.php
+/var/www/foldername/config.inc.php
 /etc/php/7.3/apache2/php.ini [NB: uncomment extension=mysqli.so]
 sudo systemctl start apache2 [may be needed after restarting server]
 
 ## Apache setup
 sudo a2dissite 000-default
-sudo nano /etc/apache2/sites-available/xxx.conf
-  <VirtualHost ip:80>ServerName xxx
+sudo nano /etc/apache2/sites-available/foldername.conf
+  <VirtualHost ip:80>
+  ServerName foldername
   ServerAdmin webmaster@localhost
-  DocumentRoot /var/www/xxx
+  DocumentRoot /var/www/foldername
   ErrorLog ${APACHE_LOG_DIR}/error.log
   CustomLog ${APACHE_LOG_DIR}/access.log combined
   </VirtualHost>
-sudo a2ensite xxx
+sudo a2ensite foldername
 sudo systemctl reload apache2
 
-sudo chown -R $USER:$USER /var/www/xxx
-sudo mkdir /var/www/xxx_files [outside OJS 'xxx' folder]
-sudo chmod -R 777 xxx_files
+sudo chown -R $USER:$USER /var/www/foldername
+sudo mkdir /var/www/foldername_files [outside OJS 'foldername' folder]
+sudo chmod -R 777 foldername_files
 
 ## MySQL setup
 CREATE USER 'user'@'localhost' IDENTIFIED WITH mysql_native_password BY 'pwd'
@@ -130,11 +131,11 @@ GRANT ALL PRIVILEGES ON db.* TO 'user'@'localhost' WITH GRANT OPTION
 sudo mysql -u user -p
 
 ## OJS setup
-cd /var/www/xxx
+cd /var/www/foldername
 sudo php tools/install.php
 
 FILE SETTINGS:
-Directory for uploads: ../xxx_files
+Directory for uploads: ../foldername_files
 
 ADMINISTRATOR ACCOUNT:
 Username: user
@@ -149,9 +150,19 @@ Password: pwd
 Database name: db
 
 ##installer.miscSettings##:
-Repository Identifier: xxx
-allowed_hosts = "["localhost", "xxx", "ip"]"
+Repository Identifier: foldername
+allowed_hosts = "["localhost", "foldername", "ip"]"
 SMTP server settings
 smtp = On
 smtp_server = smtpmail
 smtp_port = 25
+
+----------------------------------------------------------------------------
+# OJS DiSCi
+Sito: https://disci-pubblicazioni.unibo.it/
+Server: ssh xxx@personale.dir.unibo.it@disci-pubblicazioni.unibo.it (credenziali unibo, previa autorizzazione e uso di VPN)
+FortiClient VPN: Unibo VPN, -, vpn.unibo.it, 443, None, Save login; credenziali unibo
+mail: storicamente@unibo.it
+smtpmail: smtprelay.unibo.it
+foldername: storicamente
+db: storicamente_db
