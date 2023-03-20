@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Lucca, Archivio Storico Diocesano, Archivio Arcivescovile, Diplomatico, + I
+                    91</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc3358</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Libellus/precaria/emphyteusis</rs>
+                            <rs type="record_source" ref="#">Original document</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property">Yes</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0874-10-16">
+                                <note type="displayed_date">874 October 16</note>
+                                <note type="dating_elements">Venticinquesimo anno d'impero di
+                                    Ludovico II</note>
+                                <note type="topical_date">Lucca</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace></origPlace>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2023-02-03" who="mviti">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab><persName><name ref="Iohannes">Iohannes</name></persName> filio
+                            <persName>quondam <name ref="Petrus">Petri</name></persName> riceve da
+                            <persName key="#Subdeacons"><name ref="Daniel">Daniel</name></persName>
+                        <rs key="#Subdeacons">subdiaconus</rs> filio <persName>bone memorie <name
+                                ref="Andreas">Andree</name></persName> (…) livellario nomine (…)
+                        casa et res illa in loco <placeName>Villa Orbana</placeName>, qui modo
+                        regitur per <persName><name ref="Ildus">Ildo</name></persName> et pertenens
+                            <rs key="#Churches">ecclesie</rs>
+                        <orgName ref="#juridical_persons/132"
+                            key="#Libellus/precaria/emphyteusis #Emperor/king #Churches #Subdeacons #vassusOf"
+                            >Sancti Silvester</orgName>, quas tu per <rs
+                            key="#Libellus/precaria/emphyteusis">libello</rs> abis da <persName
+                            key="#Emperor/king #vassusOf">Ghisalmari</persName>
+                        <rs key="#Emperor/king #vassusOf">vuasso domni imperatoris</rs>;
+                        suprascripta casa cum terris, vineis, olivis, silvis, virgareis, pratis,
+                        pascuis, (…); la manterrà dum tu per libello abis. Obbligo: homines in ipsa
+                        casa ad residendum et abitandum mittere debeamus, et tam ipsa casa et res
+                        bene laborare et gubernare seo in omnibus meliorare (…) Censo: per singulos
+                        annos, usque dum eas per ipso libello abis, rendere debeamus medietatem
+                        vinum puro a tertiam vices uba legitime calcata et indi vinata, nam non
+                        pondum levandum et medietate oleo; et per homnem mense aprelis (…) argentum
+                        denarios bonos expendivilis numero sesaginta septe; et per homne Cena Domini
+                        (…) pario pulli cum ovas decem; et a mandato tuo hic Luca venire debeamus
+                        iustitiam faciendum; et si tu aut misso tuo ibidem per vindemmia super
+                        palmentum veneritis, nos vos recipere et gubernare debeamus tantum (…).
+                        Pena: argentum solidos viginti (…). <persName key="#Writer #Notary"><name
+                                ref="Lopo">Lopo</name></persName>
+                        <rs key="#Notary">notarius</rs> scrive due <rs
+                            key="#Libellus/precaria/emphyteusis">cartulas</rs>. Actum <placeName
+                            ref="#places/4" key="#Churches">Luca</placeName>.</ab>
+                    <ab>Sottoscrivono come <rs key="#Witness">testimoni</rs>: <persName
+                            key="#Witness"><name ref="Teudemundus">Teudimundus</name></persName>,
+                            <persName key="#Witness"><name ref="Teudebertus"
+                            >Teupertus</name></persName>, <persName key="#Witness #Notary #Scabini"
+                                ><name ref="Adalfredus">Adalfridi</name></persName>
+                        <rs key="#Notary">notarius</rs> et <rs key="#Scabini">schabinus</rs>,
+                            <persName key="#Witness"><name ref="Gundelbrandus"
+                            >Gundelprandus</name></persName>, <persName key="#Witness"
+                                ><name>Atrimundo</name></persName>.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>ChLA, 83, n. 38, pp. 126-127; MDL, 5/2, n. 854, p. 522</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>Sottoscrizioni autografe: notarius (scrittore). Sottoscrizioni con
+                        <foreign>Signa</foreign>: Note tergali:</p>
+            </div>
+        </body>
+    </text>
+</TEI>
