@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Montecassino, Archivio privato, Carte di Pomposa, fasc. V, n. 78</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2022">2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DiSCi UniBo</publisher>
+                <idno type="filename">doc5448</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+                </availability>
+                <date when="2022"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">-Papal concession</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property">Yes</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate notBefore="1022-07-01" notAfter="1022-07-31">
+                                <note type="displayed_date">1022 July</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date"/>
+                                <note type="redaction_date">XII sm</note>
+                            </origDate>
+                            <origPlace><foreign>Sancta Maria in Pomposia</foreign></origPlace>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-02-03" who="cstedile">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab><persName key="#Popes" ref="#people/2137">Benedictus</persName> episcopus
+                        servus servorum Dei. <persName key="#Abbots" ref="#people/1574"
+                            >Widoni</persName> venerabili <rs key="#Abbots">abbati</rs>
+                        <rs key="#Monasteries">monasterii</rs>
+                        <orgName
+                            key="#Natural_landscape #Rivers #Marshes/lagoons/tombolos #Islands #Villas #Curtes #Landed_possessions #Forests #Fisheries #Hay/fodder #Fiscal_property #Fortifications #Public_exactions #Fodrum #Privileges #Districtio #Churches #Monasteries #Abbots #Monks #Freeborn #Slave"
+                            ref="#juridical_persons/1460">sancte Dei genitricis Marie domine
+                            nostre</orgName> qui positum est in <rs key="#Islands">insula</rs> que
+                        dicitur <placeName key="#Islands" ref="#places/4179">Pomposia</placeName>
+                        successoribusque tuis in perpetuum. Quoniam semper sunt concedenda quê
+                        rationabilibus congruunt desideriis, oportet ut devotio conditoris piê
+                        conservationis in privilegiis prestandis oraculis minime denegetur. Igitur
+                        quia postulavit tua sanctitas curvatis genibus nostram piam voluntatem,
+                        quatenus prefatum monasterium sancte Dei genitricis Marie domine nostre in
+                        insula Pomposia situm privilegio apostolico roboraretur, ne id videlicet
+                        alicui hominum preter Deo et regi subiugatum, per illam itaque auctoritatem,
+                        quam Christus dominus noster beato Petro apostolorum principi et sancte
+                        Ecclesie rectoribus concessit, constituimus et ordinamus ut numquam locus
+                        ipse aut res ad ipsum pertinentes preter Deo et regi alicui submittatur
+                        persone nullusque mortalium preter <rs key="#Fiscal_property">regie
+                            potestatis</rs> culmen in prefato monasterio aut in <rs key="#Curtes"
+                            >cortibus</rs> vel in <rs key="#Fortifications">castellis</rs> sive in
+                            <rs key="#Plebs">plebibus</rs> aut in <rs key="#Churches">cellis</rs>
+                        seu in <rs key="#Villas">villis</rs>, <rs key="#Rivers">aquis aquarumque
+                            decursibus</rs>, <rs key="#Natural_landscape">ripis</rs>, <rs
+                            key="#Hay/fodder">pascuis</rs>, <rs key="#Forests">silvis</rs>, <rs
+                            key="#Fisheries">piscationibus</rs>, <rs key="#Marshes/lagoons/tombolos"
+                            >paludibus</rs> omnibusque rebus mobilibus et immobilibus ad ipsum
+                        pertinentibus necnon in servis Dei aut in <rs key="#Slave">famulis utriusque
+                            sexus</rs> sive etiam in <rs key="#Freeborn">liberis</rs> super <rs
+                            key="#Landed_possessions">terras</rs> eiusdem monasterii residentibus
+                        aliquam ordinationem vel auctoritatem sive potestatem aut iurisdicionem
+                        tenere vel conversationem <rs key="#Monks">monachorum</rs> impedire seu
+                        molestiam inferre presumat aut in aliquibus locis ipsius monasterii <rs
+                            key="#Districtio">districtum habere vel iudicare</rs> seu aliquod
+                        placitum absque licentia abbatis tenere vel res monasterii invadere aut
+                        quovis modo alienare aut <rs key="#Fodrum">fodrum</rs> vel <rs
+                            key="#Public_exactions">paratas seu aliquas publicas functiones</rs>
+                        exigere vel requirere audeat et tam a potestate <rs key="#Archbishops"
+                            >archiepiscoporum</rs> quam ab omnium subtraimus regali tantummodo vel
+                        imperiali submissum ditioni vel defensioni. Necnon et confirmamus vobis <rs
+                            key="#Fisheries">piscariam</rs> que vocatur <geogName key="#Fisheries"
+                            ref="#estates/2457"><placeName key="#Fisheries"
+                            >Bolana</placeName></geogName> cum suis pertinentiis. Si quis autem,
+                        quod minime optamus, inobediens et contemtor huius nostri privilegii in toto
+                        vel in parte repertus fuerit vel occasione cuiuslibet persone temerare
+                        presumserit nisi resipuerit, maledictionem a Patre et Filio et Spiritu
+                        Sancto consequatur et cum diabolo eiusque sociis atrocissimis penis et
+                        eterno incendio deputetur nec resurrectione electorum futura dignus
+                        inveniatur et a communione et sancte matris Ecclesie sinu et a consortio
+                        sanctorum sit alienus. Scriptum per manus <persName key="#Scriniarius"><name
+                                ref="Stephanus">Stephani</name></persName>
+                        <rs key="#Scriniarius">primiscriniarii</rs> sancte apostolice sedis in mense
+                        iuleo et indictione quinta. BENE VALETE.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>Mezzetti, <foreign>Le carte</foreign>, pp. 279-282, n° 126.</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
