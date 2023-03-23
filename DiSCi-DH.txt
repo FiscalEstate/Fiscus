@@ -1,0 +1,168 @@
+# Strumenti Digital Humanities
+
+## Strumenti e metodologie che facilitano l’analisi comparata di documenti
+
+### Annotazione semantica di documenti secondo lo standard XML TEI
+
+* TEI Publisher: https://teipublisher.com/
+	* Es. https://teipublisher.com/index.html#tp-featured-project 
+
+* Kiln: https://kiln.readthedocs.io/en/latest/
+	* Es. https://kiln.readthedocs.io/en/latest/projects.html
+	* Es. http://archiviomonaci.uniroma1.it/
+
+* EFES: https://github.com/EpiDoc/EFES/wiki 
+	* Es. https://github.com/EpiDoc/EFES/wiki/Projects-using-EFES
+
+### Annotazione semantica di immagini
+
+* Pelagios - Recogito: https://recogito.pelagios.org/
+	* Es. https://pro.europeana.eu/page/issue-12-pelagios 
+
+### Lettura automatica di documenti da riproduzioni fotografiche
+Tramite tecnologie OCR (Optical Character Recognition) o HTR (Handwritten Text Recognition).
+* Transkribus: https://transkribus.eu/
+
+### Analisi di testi
+* Voyant Tools: https://voyant-tools.org/
+* Iramuteq: http://www.iramuteq.org/
+
+### Visualizzazione dei dati tramite carte geografiche, linee temporali, grafici, gallerie di immagini
+* Palladio: https://hdlab.stanford.edu/palladio/ 
+* OpenAtlas: https://openatlas.eu/
+* Neatline: https://neatline.org/ 
+* RAWGraphs: https://rawgraphs.io/ 
+* Nodegoat: https://nodegoat.net/
+* Mirador: https://projectmirador.org/
+
+## Strumenti per la pubblicazione online dei risultati
+
+### Strumenti di digital publishing per archivi e raccolte di testi o risorse multimediali
+Eventualmente organizzati secondo un filo interpretativo in mostre virtuali/gallerie/showcase.
+* Omeka: https://omeka.org/, https://info.omeka.net/showcase/
+* xDams: https://www.xdams.org/
+
+### Strumenti di digital storytelling basati su carte geografiche, linee temporali, grafici
+* StoryMapJS: https://storymap.knightlab.com/
+* TimelineJS: https://timeline.knightlab.com/ 
+* StorylineJS: http://storyline.knightlab.com/ 
+* HyperCities. Thick Mapping in the Digital Humanities: https://www.hypercities.com/ 
+
+### Strumenti di multimedia digital publishing per singoli testi 
+Articoli scientifici, monografie etc. arricchiti da immagini, audio, video, contenuti navigabili.
+* Scalar: https://scalar.me/anvc/scalar/showcase/
+
+### Strumenti di digital publishing XML, per collezioni di documenti
+* TEI Publisher: https://teipublisher.com/
+* Kiln: https://kiln.readthedocs.io/en/latest/
+* EFES: https://github.com/EpiDoc/EFES/wiki 
+
+### Strumenti per la pubblicazione online di datasets in open access
+* Zenodo: https://zenodo.org/
+* AMS Acta (UniBo): https://amsacta.unibo.it/
+
+### Strumenti per la pubblicazione online dei dati organizzati in un database relazionale
+* Heurist: http://heuristnetwork.org/ 
+
+### Strumenti per la trascrizione collaborativa / crowsourcing
+* FromThePage: https://fromthepage.com/ (crowdsourcing manuscript transcription)
+
+### Strumenti per altre forme di lavoro collaborativo
+* GitHub: https://github.com/ (GitHub Desktop: https://desktop.github.com/; GitHub Pages: https://pages.github.com/)
+* Google Drive: https://www.google.com/drive/
+
+## Esempi di progetti DH
+* Progetti DH Fondazione Bruno Kessler: https://dh.fbk.eu/category/projects/ 
+* Progetti Stanford Literary Lab (cf. Distant Reading): https://litlab.stanford.edu/
+
+## Standard, vocabolari condivisi _et sim._
+* Dublin Core Metadata Initiative: https://dublincore.org/
+* CIDOC Conceptual Reference Model (CRM): http://www.cidoc-crm.org/
+* Text Encoding Initiative (TEI): https://tei-c.org/
+* Linked Open Data (LOD): https://en.wikipedia.org/wiki/Linked_data, https://lod-cloud.net/ 
+* Linked Open Vocabularies (LOV): https://lov.linkeddata.es/dataset/lov/ 
+* Simple Knowledge Organization System (SKOS): https://www.w3.org/TR/skos-reference/ 
+* Resource Description Framework (RDF): https://www.w3.org/RDF/ 
+* eXtensible Markup Language (XML): https://it.wikipedia.org/wiki/XML, https://www.w3.org/XML/ 
+
+## Altre risorse utili
+* The Programming Historian: https://programminghistorian.org/
+* TEI by Example: https://teibyexample.org/
+* Peripleo: https://peripleo.pelagios.org/
+* Pythia: https://colab.research.google.com/drive/16RfCpZLm0M6bf3eGIA7VUPclFdW8P8pZ
+* BaseX: https://basex.org/
+* TEIGarage (former OxGarage): https://teigarage.tei-c.org/
+* Roma: https://roma.tei-c.org/
+* CHET-C-JS: https://cds.library.brown.edu/projects/chet-c/chetc.html
+
+----------------------------------------------------------------------------
+# Installazione OJS
+// install apache2, php + mysql support, mysql, ojs
+sudo apt install php-xml
+sudo apt install php7.3-mysql [NB: php7.3, not other versions]
+sudo apt-get install sendmail
+/var/log/apache2/error.log
+/var/log/apache2/access.log
+/var/www/foldername/config.inc.php
+/etc/php/7.3/apache2/php.ini [NB: uncomment extension=mysqli.so]
+sudo systemctl start apache2 [may be needed after restarting server]
+
+## Apache setup
+sudo a2dissite 000-default
+sudo nano /etc/apache2/sites-available/foldername.conf
+  <VirtualHost ip:80>
+  ServerName foldername
+  ServerAdmin webmaster@localhost
+  DocumentRoot /var/www/foldername
+  ErrorLog ${APACHE_LOG_DIR}/error.log
+  CustomLog ${APACHE_LOG_DIR}/access.log combined
+  </VirtualHost>
+sudo a2ensite foldername
+sudo systemctl reload apache2
+
+sudo chown -R $USER:$USER /var/www/foldername
+sudo mkdir /var/www/foldername_files [outside OJS 'foldername' folder]
+sudo chmod -R 777 foldername_files
+
+## MySQL setup
+CREATE USER 'user'@'localhost' IDENTIFIED WITH mysql_native_password BY 'pwd'
+CREATE DATABASE db
+GRANT ALL PRIVILEGES ON db.* TO 'user'@'localhost' WITH GRANT OPTION
+sudo mysql -u user -p
+
+## OJS setup
+cd /var/www/foldername
+sudo php tools/install.php
+
+FILE SETTINGS:
+Directory for uploads: ../foldername_files
+
+ADMINISTRATOR ACCOUNT:
+Username: user
+Password: pwd
+Email: mail
+
+DATABASE SETTINGS:
+Database driver: mysql
+Host: localhost
+Username: user
+Password: pwd
+Database name: db
+
+##installer.miscSettings##:
+Repository Identifier: foldername
+allowed_hosts = "["localhost", "foldername", "ip"]"
+SMTP server settings
+smtp = On
+smtp_server = smtpmail
+smtp_port = 25
+
+----------------------------------------------------------------------------
+# OJS DiSCi
+Sito: https://disci-pubblicazioni.unibo.it/
+Server: ssh xxx@personale.dir.unibo.it@disci-pubblicazioni.unibo.it (credenziali unibo, previa autorizzazione e uso di VPN)
+FortiClient VPN: Unibo VPN, -, vpn.unibo.it, 443, None, Save login; credenziali unibo
+mail: storicamente@unibo.it
+smtpmail: smtprelay.unibo.it
+foldername: storicamente
+db: storicamente_db

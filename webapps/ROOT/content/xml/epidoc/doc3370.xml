@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Lucca, Archivio Storico Diocesano, Archivio Arcivescovile, Diplomatico, </title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DISCI UniBo</publisher>
+                <idno type="filename">doc3370</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Offersio/donatio</rs>
+                            <rs type="record_source" ref="#">Original document</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property">Yes</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="0865-04-05">
+                                <note type="displayed_date">865 April 5</note>
+                                <note type="dating_elements">Quindicesimo anno d'impero di Ludovico
+                                    II</note>
+                                <note type="topical_date">Lucca</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace></origPlace>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2023-02-03" who="mviti">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab><persName ref="#people/3308" key="#Offersio/donatio #childOf"
+                            >Eriprandus</persName>
+                        <rs key="#childOf">filio</rs>
+                        <persName ref="#people/3307" key="#Commutatio #parentOf">bone memorie
+                            Eriprandi</persName> dona pro anima alla ecclesie <orgName
+                            key="#Baptismal_churches">Sancti Cassiani</orgName>, quo est <rs
+                            key="#Baptismal_churches">plebe batismalis</rs> sita loco prope
+                            <placeName ref="#places/443" key="#Castle #Baptismal_churches"><rs
+                                key="#Castle">Castello</rs> Novo</placeName>, id est casis et rebus
+                        meis illis quam abeo in ipso <placeName ref="#places/443"
+                            key="#Castle #Baptismal_churches"><rs key="#Castle"
+                            >Castello</rs></placeName> prope suprascripta ecclesia Sancti Casciani,
+                        quas predicti <rs key="#parentOf">genitori mei</rs>, <rs key="#Commutatio"
+                            >per cartula scripta ex manibus <persName key="#Notary">quondam <name
+                                    ref="Gundalbrandus">Gundelprandi</name></persName>
+                            <rs key="#Notary">notarii</rs> ex comparationem</rs> obvenit da quondam
+                                <persName><name>Appo</name></persName> filio quondam
+                                <persName><name>Austruli de <placeName ref="#places/703"
+                                    >Versiciano</placeName></name></persName> et eidem Appi <rs
+                            key="#Commutatio">per cartulam ex comparationem</rs> obvenit da
+                                <persName><name ref="Peredeo/Ghiso">quondam Pereteo que
+                            Ghiso</name></persName> vocabatur filio <persName>quondam
+                                <name>Asperti</name></persName>; tam casis domnicatis quam et
+                        massariciis, cum edificiis et fundamentis, curtis, ortalia, terris, vineis,
+                        silvis, virgareis, pratis, pascuis, cultum vel incultum (…), una cum <rs
+                            key="#Commutatio">ipsas venditionis cartulas</rs> et cum <rs
+                            key="#Parchment_documents">alio monimen</rs> (…). <persName
+                            key="#Writer #Notary"><name ref="Protasius">Protasius</name></persName>
+                        <rs key="#Notary">notarius</rs> scrive la cartula. Actum <placeName
+                            ref="#places/4">Luca</placeName>
+                    </ab>
+                    <ab>Sottoscrivono come <rs key="#Witness">testimoni</rs>: <persName
+                            key="#Witness"><name ref="Iohannes">Ioannes</name></persName>, <persName
+                            key="#Witness"><name ref="Gumbertus">Gumpertum</name></persName>,
+                            <persName key="#Witness"><name ref="Albertus"
+                        >Alpertus</name></persName>, <persName key="#Witness #Archdeacons"><name
+                                ref="Sichimundus">Sichimundus</name></persName>
+                        <rs key="#Archdeacons">archidiaconus</rs>, <persName key="#Witness"><name
+                                ref="Leo">Leo</name></persName>, <persName key="#Witness"><name
+                                ref="Lopo">Lopo</name></persName>, <persName key="#Witness"><name
+                                ref="Teobaldus">Teopaldo</name></persName>. </ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>ChLA, 82, n. 1, pp. 16-19; MDL, 5/2, n. 772, p. 465</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>Sottoscrizioni autografe: Heriprandus (autore), Ioannes, Gumpertum, Alpertus,
+                    Sichimundus archidiaconus, Leo, Lopo, Teopaldo, Protasius notarius (scrittore).
+                    Note tergali: in basso al centro, capovolta e leggibile con la lampada di Wood,
+                    di mano del rogatario: <foreign>Cartula offersionis da Eriprando filio b(one)
+                        m(emorie) [Er]iprandi d[…]</foreign>; di seguito, a sinistra, del secolo
+                    XII: <foreign>Off(ersio) in pl(ebe) de</foreign> &lt;in sopralinea>
+                        <foreign>Fosciana De casis et reb(us) intra eand(em) plebe(m)</foreign>.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
