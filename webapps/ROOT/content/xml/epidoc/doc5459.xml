@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Carte di Pomposa (Mezzetti, <foreign>Le carte</foreign>, p. 303, n°
+                    137)</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2022">2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DiSCi UniBo</publisher>
+                <idno type="filename">doc5459</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+                </availability>
+                <date when="2022"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Libellus/precaria/emphyteusis</rs>
+                            <rs type="record_source" ref="#">Edition</rs>
+                            <rs type="document_tradition" ref="#">Compendium</rs>
+                            <rs type="fiscal_property"/>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate notBefore="1026-01-01" notAfter="1026-12-31">
+                                <note type="displayed_date">Between 1026 January 1 and 1026 December
+                                    31</note>
+                                <note type="dating_elements">Mezzetti, <foreign>Le carte</foreign>,
+                                    p. 303: l'indizione nona corrisponde all'anno 1026.</note>
+                                <note type="topical_date">Ferrara</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace><foreign>Sancta Maria in Pomposia</foreign></origPlace>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-02-03" who="cstedile">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>Concessio in <rs key="#Libellus/precaria/emphyteusis">emphyteusim</rs>
+                        medietatis <rs key="#Canals">canalis</rs> et <rs key="#Fisheries"
+                            >piscariê</rs> vocatur <geogName
+                            key="#Libellus/precaria/emphyteusis #Fisheries #Canals"><placeName
+                                key="#Libellus/precaria/emphyteusis #Fisheries #Canals"
+                                >Carpeno</placeName></geogName> finientis in aliam aquam iuxta
+                        prêdictum canale, quê medietas <rs key="#Confinia">confinatur</rs> ab primo
+                        latere a <rs key="#Canals">fossa</rs> de <placeName key="#Confinia #Canals"
+                            >Truncamorso</placeName> percurrente usque ad <placeName key="#Confinia"
+                            >Sablonizo</placeName>, a secundo a fossa del <placeName
+                            key="#Confinia #Canals">Sorbo</placeName> et a tertio usque ad medium
+                        lamum quod nominatur <placeName key="#Confinia #Rivers">Lainus, seu
+                            Lavinus</placeName>
+                        <rs key="#Rivers">flumen</rs>, terminus inter vicinos <placeName
+                            ref="#places/80">Ferrariê</placeName> et in <rs key="#Fines"
+                            >territorio</rs>
+                        <placeName key="#Fines" ref="#places/38"><geogName key="#Fines"
+                                ref="#estates/208">Mutinensi</geogName></placeName>, facta a
+                        <persName key="#Notary"><name ref="Gherardus">Gerhardo</name></persName>, favore
+                        <persName><name ref="Georgius">Georgii</name></persName> et <persName><name ref="Grasianensis">Grasianensis</name></persName> cum iure substituendi successoris. Actum Ferrariê,
+                        rog. Gerhardi <rs key="Notary">notarii</rs> Ferrariensis, indictione IX, cêtera deperdita.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>Mezzetti, <foreign>Le carte</foreign>, p. 303, n° 137.</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>Mezzetti, per la sua edizione delle carte di Pomposa, si rifà in parte a una
+                    serie di regesti realizzati da Bacchini nel XVIII secolo (cfr. Bacchini,
+                        <foreign>Regesto cronologico</foreign>, (sec. XVIII in.), alla data
+                    1025).</p>
+            </div>
+        </body>
+    </text>
+</TEI>
