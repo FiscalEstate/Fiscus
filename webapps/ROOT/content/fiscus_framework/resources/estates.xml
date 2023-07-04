@@ -14220,6 +14220,7 @@
                         <link type="people" corresp="#people/7" subtype="link"/>
                         <link type="juridical_persons" corresp="#juridical_persons/1471"
                             subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/1590" subtype="isClaimedBy"/>
                     </place>
                     <place>
                         <geogName>Perupto; <foreign>fundus</foreign></geogName>
@@ -14435,13 +14436,25 @@
                         <link type="places" corresp="#places/4616" subtype="correspondsTo"/>
                     </place>
                     <place>
-                        <geogName>Ostellato; <foreign>fundus</foreign></geogName>
+                        <geogName>Ostellato;
+                            <foreign>fundus</foreign>/<foreign>curtis</foreign></geogName>
                         <geogName type="other"/>
                         <idno>estates/2487</idno>
                         <note/>
                         <link type="places" corresp="#places/4619" subtype="correspondsTo"/>
                         <link type="juridical_persons" corresp="#juridical_persons/1460"
-                            subtype="isOwnedBy"/>
+                            subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/1590" subtype="isGrantedBy"/>
+                    </place>
+                    <place>
+                        <geogName>Munterioni; <foreign>fundus</foreign></geogName>
+                        <geogName type="other"/>
+                        <idno>estates/2488</idno>
+                        <note/>
+                        <link type="estates" corresp="#estates/2480" subtype="isWithin"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1460"
+                            subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/1590" subtype="isGrantedBy"/>
                     </place>
                 </listPlace>
                 <listPlace n="Tabarrini Lorenzo">
