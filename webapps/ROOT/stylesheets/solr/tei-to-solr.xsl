@@ -49,7 +49,7 @@
   <xsl:template match="tei:summary/tei:rs[@type='record_source']" mode="facet_record_source">
     <field name="record_source">
       <xsl:choose>
-        <xsl:when test="text()">
+        <xsl:when test="text() or node()/text()">
           <xsl:value-of select="normalize-space(translate(., '/', '／'))"/>
         </xsl:when>
         <xsl:otherwise>
@@ -62,7 +62,7 @@
   <xsl:template match="tei:msContents/tei:summary/tei:rs[@type='document_tradition']" mode="facet_document_tradition">
     <field name="document_tradition">
       <xsl:choose>
-        <xsl:when test="text()">
+        <xsl:when test="text() or node()/text()">
           <xsl:value-of select="normalize-space(translate(., '/', '／'))"/>
         </xsl:when>
         <xsl:otherwise>
@@ -75,7 +75,7 @@
   <xsl:template match="tei:origDate/tei:note[@type='topical_date']" mode="facet_topical_date">
     <field name="topical_date">
       <xsl:choose>
-        <xsl:when test="text()">
+        <xsl:when test="text() or node()/text()">
           <xsl:value-of select="normalize-space(translate(translate(., '/', '／'), '?', ''))"/>
         </xsl:when>
         <xsl:otherwise>
@@ -88,7 +88,7 @@
   <xsl:template match="tei:origDate/tei:note[@type='redaction_date']" mode="facet_redaction_date">
     <field name="redaction_date">
       <xsl:choose>
-        <xsl:when test="text()">
+        <xsl:when test="text() or node()/text()">
           <xsl:value-of select="normalize-space(translate(translate(., '/', '／'), '?', ''))"/>
         </xsl:when>
         <xsl:otherwise>

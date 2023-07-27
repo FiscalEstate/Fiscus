@@ -163,7 +163,7 @@
          @ref value being recorded. -->
     <field name="provenance">
       <xsl:choose>
-        <xsl:when test="text()">
+        <xsl:when test="text() or node()/text()">
           <xsl:value-of select="normalize-space(translate(translate(., '/', '／'), '?', ''))"/>
         </xsl:when>
         <xsl:otherwise>
