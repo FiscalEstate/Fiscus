@@ -7388,6 +7388,8 @@
                         <link type="people" corresp="#people/3002" subtype="isGrantedBy"/>
                         <link type="juridical_persons" corresp="#juridical_persons/3000"
                             subtype="isGrantedTo"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/84"
+                            subtype="rendersCollectedBy"/>
                     </place>
                     <place>
                         <placeName>Montebamboli (Massa Marittima; Grosseto)</placeName>
@@ -7428,6 +7430,9 @@
                         <link type="people" corresp="#people/401" subtype="isConfirmedTo"/>
                         <link type="people" corresp="#people/2492" subtype="isConfirmedBy"/>
                         <link type="people" corresp="#people/2449" subtype="isConfirmedTo"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/84"
+                            subtype="rendersCollectedBy"/>
+                        <link type="estates" corresp="#estates/3026" subtype="isWithin"/>
                     </place>
                     <place>
                         <placeName><foreign>Furca Sancti Valentini</foreign> (Cassino;
@@ -11688,6 +11693,7 @@
                         <link type="people" corresp="#people/3002" subtype="isGrantedBy"/>
                         <link type="juridical_persons" corresp="#juridical_persons/84"
                             subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/3002" subtype="isConfirmedBy"/>
                     </place>
                     <place>
                         <placeName>Rocca d'Evandro; <foreign>castellum</foreign>
@@ -11699,6 +11705,80 @@
                         <link type="juridical_persons" corresp="#juridical_persons/84"
                             subtype="isGrantedTo"/>
                         <link type="people" corresp="#people/3002" subtype="isGrantedBy"/>
+                    </place>
+                    <place>
+                        <placeName>Valle di Comino (Frosinone)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo>41.692081, 13.764524</geo></geogName>
+                        <idno>places/4516</idno>
+                        <note/>
+                    </place>
+                    <place>
+                        <placeName><foreign>Carnellus</foreign>; <foreign>flumen</foreign> (Sora;
+                            Frosinone)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo>41.691206121891106,
+                            13.605190408660329</geo></geogName>
+                        <idno>places/4517</idno>
+                        <note>Il toponimo <foreign>Carnellus</foreign> in moltissimi documenti
+                            medioevali in archivio di Montecassino viene dato, a più riprese,
+                            talvolta al fiume Rapido, talvolta al Liri. Va ricordato che attualmente
+                            Carnello è una località del Sorano a ridosso del fiume Fibreno
+                            (Pistilli, "L'uccelliera di Varrone a Cassino", Studi Cassinati, 2010,
+                            n. 3). </note>
+                        <link type="juridical_persons" corresp="#juridical_persons/84"
+                            subtype="rendersCollectedBy"/>
+                    </place>
+                    <place>
+                        <placeName><foreign>Limata</foreign> (Sora; Frosinone)</placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo/></geogName>
+                        <idno>places/4518</idno>
+                        <note/>
+                        <link type="places" corresp="#places/4517" subtype="proximity"/>
+                    </place>
+                    <place>
+                        <placeName>Ausonia (Frosinone)</placeName>
+                        <placeName type="other"><foreign>Castrum Fractae</foreign>;
+                                <foreign>Castellum Fractae</foreign></placeName>
+                        <geogName type="coord"><geo>41.35522404749749,
+                            13.748134510758193</geo></geogName>
+                        <idno>places/4519</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/84"
+                            subtype="isGrantedTo"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/84"
+                            subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/3001" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/3002" subtype="isConfirmedBy"/>
+                    </place>
+                    <place>
+                        <placeName>Conca della Campania (Caserta)</placeName>
+                        <placeName type="other"><foreign>Conca</foreign></placeName>
+                        <geogName type="coord"><geo>41.332972534933106,
+                            13.989588832758976</geo></geogName>
+                        <idno>places/4520</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/84"
+                            subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/3001" subtype="isGrantedTo"/>
+                    </place>
+                    <place>
+                        <placeName>Cocuruzzo (fraz. di Rocca d'Evandro; Caserta)</placeName>
+                        <placeName type="other"><foreign>Cucuruzcu</foreign></placeName>
+                        <geogName type="coord"><geo>41.35989801364758,
+                            13.910153339121235</geo></geogName>
+                        <idno>places/4521</idno>
+                        <note/>
+                    </place>
+                    <place>
+                        <placeName><foreign>Turrem de Mare</foreign></placeName>
+                        <placeName type="other"/>
+                        <geogName type="coord"><geo/></geogName>
+                        <idno>places/4522</idno>
+                        <note>Non ancora identificato, probabilmente un luogo fortificato lungo le
+                            coste tirreniche, verisimilmente nel tratto di mare compreso tra la foce
+                            del Garigliano e il lago di Patria.</note>
                     </place>
                 </listPlace>
                 <listPlace n="Del Mercato Evelina">
@@ -22369,6 +22449,9 @@
                         <link type="people" corresp="#people/2448" subtype="isGrantedTo"/>
                         <link type="people" corresp="#people/2492" subtype="isConfirmedBy"/>
                         <link type="people" corresp="#people/2449" subtype="isConfirmedTo"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/84"
+                            subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/3002" subtype="isGrantedBy"/>
                     </place>
                     <place>
                         <placeName>Sora (Frosinone)</placeName>
@@ -24120,10 +24203,13 @@
                     </place>
                     <place>
                         <placeName>Piedimonte Matese (Caserta)</placeName>
-                        <placeName type="other"/>
+                        <placeName type="other"><foreign>Pede Monte</foreign></placeName>
                         <geogName type="coord"><geo>41.349842, 14.369247</geo></geogName>
                         <idno>places/2383</idno>
                         <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/84"
+                            subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/3002" subtype="isGrantedBy"/>
                     </place>
                     <place>
                         <placeName>Ponte di Merola (Caserta)</placeName>
