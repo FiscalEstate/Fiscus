@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../../tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Montecassino, Archivio, Aula II, Capsa XII, n. 1</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2022">2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DiSCi UniBo</publisher>
+                <idno type="filename">doc4570</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+                </availability>
+                <date when="2022"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property">No</rs>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate notBefore="1078-01-01" notAfter="1080-12-31">
+                                <note type="displayed_date">1078 January 1 - 1080 December 31</note>
+                                <note type="dating_elements">Graham Loud propone il 1078 come data
+                                    cronica, mentre Leccisotti propende per posticiparla al 1080. Ma
+                                    si evince dal documento come, nella delegazione presente a
+                                    Cassino, il giudice capuano <foreign>Iohannes</foreign> sia
+                                    stato inviato da Riccardo I: essendo egli deceduto nell'Aprile
+                                    del 1078, è verisimile che il documento sia databile ai primi
+                                    mesi del 1078.</note>
+                                <note type="topical_date">San Germano (oggi Cassino), <foreign>in
+                                        curte abbatis</foreign></note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace></origPlace>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2023-08-07" who="vdeangelis">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab><persName key="#Princeps" ref="#people/3002">Iordanus</persName> Dei gratia
+                            <rs key="#Princeps">princeps</rs>. Hoc scriptum memorie fieri iubeo, ut
+                        a me fidelibusque meis constanter credi possit et conservari, quomodo a me
+                        ordinatus sit <placeName key="#Villages/settlements" ref="#places/109"
+                            >Sancti Gemani</placeName> in <rs key="#Curtes">curte</rs>
+                        <rs key="#Abbots">abbatis</rs>
+                        <persName key="#Abbots #Personal_rank" ref="#people/2421"
+                            >Desiderii</persName> pietatis fama <rs key="#Personal_rank"
+                            >venerabilis</rs>, ego vero proclamationem suorum hominum qui <rs
+                            key="#Castle">castellus</rs>
+                        <placeName key="#Castle" ref="#places/4523">Pedemontem</placeName> habitant
+                        facio, quoniam ipsi mihi meisque iniuriam intulerunt, quod minime decuissed,
+                        pre <rs key="#Landed_possessions">cetera terras ceterasque
+                        possessiones</rs>, quas sub <rs key="#Cartula">cartulam</rs> scripti ab
+                        incolis <placeName ref="#places/2795">Aquinatibus</placeName> emerant
+                        homines eiusdem abbatis ad hec de <rs key="#Castle">castello</rs> notato
+                        nomine <placeName key="#Castle" ref="#places/4514">Terano</placeName> et de
+                            <rs key="#Fines">finibus</rs> locorum que infra fines continentur, quod
+                            <rs key="#parentOf">genitori</rs> meo atque simul mihi sancitum et ac
+                        ratum est. In <orgName key="#Monasteries" ref="#juridical_persons/84">Sancti
+                            Benedicti</orgName>
+                        <rs key="#Monasteries">cenobio</rs> quoque autem Aquinates nostri
+                        querimoniam agere studebant abbati de <rs key="#Castle">opido</rs> nomine
+                            <placeName key="#Castle" ref="#places/4525">Sarracinisco</placeName>,
+                        quoniam ipse habas cum antecessoribus suis cum pace et sine querela
+                        habuerunt et adhuc retinet hic. Postea vero cum a <rs
+                            key="#Intercessory #Monks">monachorum</rs> collegia ab ipsoque abbate
+                        humiliter <rs key="#Intercessory">rogatus</rs> fuissem, ne contra eum neque
+                        sibi contra subditos quicquam malivolentie machinari velle, nec mei mecum,
+                        quod a me ab aversariorum incursum muniri et defensari debent. Ideo quod
+                        bonum et utile hoc fuisse cognoveram, presentibus istis, videlicet <persName
+                            key="#Witness"><name ref="Gherardus de Ravannela">Girardo de
+                                Ravennela</name></persName>, <persName key="#Witness"
+                            ref="#people/4206">Rotberto de Labolita</persName>, <persName
+                            key="#Witness"><name ref="Wilielmus de Sancto Laudo">Guillemo de Sancto
+                                Laudo</name></persName>, et cum his <rs key="#Bishops">episcopo</rs>
+                        <persName key="#Witness #Bishops" ref="#people/4207">Ambrosio</persName>
+                        <placeName key="#Bishops" ref="#places/2856">Terracinense</placeName>, <rs
+                            key="#Prevosts">preposito</rs> autem <persName ref="#people/2416"
+                            key="#Witness #Prevosts">Oderisio</persName>, <persName
+                            key="#Witness #Prevosts" ref="#people/4208">Iohanne</persName>
+                        <rs key="#Prevosts">preposito</rs>
+                        <orgName ref="#juridical_persons/2321">Sancti Benedicti Capuensis</orgName>,
+                        a quibusdam astantibus <rs key="#Witness #Monks">monachis</rs>, cum
+                            <persName ref="#people/3064" key="#Witness #Judge">Iohanne
+                            Capuensi</persName>
+                        <rs key="#Judge">iudice</rs> misso a <rs key="#Princeps">principe</rs>
+                        <persName key="#Princeps #parentOf" ref="#people/3001">Richardo</persName>,
+                        quod virga ei condonavi et omnem malivolentiam et nostram quam contra
+                        homines Pedemontis diu memorie commendaveram, eademque traditione
+                        hereditates, quarum prius mentionem feci, eisdem qui eas prius quam
+                                <persName><name ref="Wilielmus de Menterolo">Guillelmus de
+                                Menterolo</name></persName> inde finem daret cum abbate emerant
+                        tempore Guillelmi antecessorum, quas dato fine cum abbate emerunt, non a me
+                        conceditur. Illos igitur qui castellum Saraciniscum habitant, ut supra
+                        dictum est, cum pace et quiete esse concedo, exceptis duobus hominibus,
+                        quorum alter habitat Teramus, nomine <persName><name ref="Iohannes"
+                                >Iohannes</name></persName>, alter autem <placeName
+                            ref="#places/4524">Plumbarolium</placeName>, nomine <persName><name
+                                ref="Petrucius">Petrucium</name></persName>. Siquis autem, superbia
+                        elatus vel contumeliam constituta, hic infringere laboraverit, sese reum
+                        abbato Casini Montis dandum certam emendationem sciat, videlicet <rs
+                            key="#Penalty">centum auri libras</rs>. Quatenus servetur, precipio
+                        omnibus hec dicta conservare. Hanc paginam manu propria confirmatam sigilli
+                        nostri notamine iussimus inprimi. <persName key="#Writer"><name
+                                ref="Wilielmus">Guillemus</name></persName>.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>Ed. E. Gattula, <foreign>Accessiones ad Historiam Abbatiae Casinensis</foreign>,
+                    Venezia 1734, p. 189-190; T. Leccisotti, <foreign>Abbazia di Montecassino. I
+                        regesti dell'archivio</foreign>, Roma 1964-1977, vol. II, p. 85;
+                        <foreign>Reg. Petr. Diac.</foreign> fol. 179v, n. 414; <foreign>Registrum
+                        Petri Diaconi (Montecassino, Archivio dell’abbazia, Reg.3)</foreign>,
+                    Istituto Storico Italiano per il Medioevo e École Française de Rome, 2016, vol.
+                    III, pp. 1172-1173 (source of the text reproduced here).</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
