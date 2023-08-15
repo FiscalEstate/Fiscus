@@ -29,10 +29,10 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="#"/>
-                            <rs type="record_source" ref="#"/>
-                            <rs type="document_tradition" ref="#"/>
-                            <rs type="fiscal_property"/>
+                            <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -40,11 +40,11 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate>
-                                <note type="displayed_date"/>
+                            <origDate when="1082-09-24">
+                                <note type="displayed_date">1082 September 24</note>
                                 <note type="dating_elements"/>
-                                <note type="topical_date"/>
-                                <note type="redaction_date"/>
+                                <note type="topical_date">Capua</note>
+                                <note type="redaction_date">1131-1133</note>
                             </origDate>
                             <origPlace></origPlace>
                         </origin>
@@ -72,7 +72,7 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2022-02-03" who="other">creation of record</change>
+                <change when="2023-08-15" who="vdeangelis">creation of record</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -80,42 +80,79 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>In nomine Domini salvatoris nostri Iesu Christi Dei eterni. Iordanus
-                        Capuanorum princeps. Cum principalis excellentia petitioni dilecti sui
+                    <ab>In nomine Domini salvatoris nostri Iesu Christi Dei eterni. <persName
+                            key="#Witness #Princeps #Marquis/duke #Vir_gloriosus/vir_sublimis"
+                            ref="#people/3002">Iordanus</persName> Capuanorum <rs key="#Princeps"
+                            >princeps</rs>. Cum principalis excellentia petitioni dilecti sui
                         clementer favet, igitur notum sit omnibus fidelibus nostris presentibus et
                         absentibus nos, quem ad hoc divina gratia promovit in principem ut
-                        ecclesiarum defensor atque ditator existam, pro salute anime patris mei
-                        principis Richardi ac matris mee Fredesinde, mei etiam et uxoris mee
-                        Gaytelgrime et heredum meorum, prudentia ipsius mee coniugis interveniente
-                        et Goffridi Ridelli, ecclesiam Sancti Rufi constructam in civitate Capuana,
-                        que nobis concessa est a nostris fidelibus Capuanis et per sacramentum
-                        firmata, cum omnibus pertinentiis suis intus Capuam et foras, qualiter
-                        antiquitus pertinuit prefate ecclesie quovis modo et qualiter tenuit et
-                        dominatus fuit Herluinus cappellanus noster, cum servis et ancillis, cum
-                        curtisanis et aldiis, cum aquis et piscationibus, cum silvis et pascuis, cum
-                        paludibus et universis pertinentiis suis, dedisse, concessisse et
-                        confirmasse monasterio Sancti Benedicti constructa in Monte Casino per hoc
-                        principale scriptum et domno Desiderio eiusdem monasterii venerabili abbati
-                        cunctisque successoribus, nemine prefato monasterio domnoque abbati et suis
-                        successorum ex prescripta concessione aliquam contrariam vel molestiam
-                        ingerentem. Quod siquis huius nostri precepti violator extiterit, mille
-                        libras auri obtimi componat, medietatem nostre camere et medietatem predicto
-                        monasterio, et domno abati cunctisque suis successoribus et, soluta pena,
-                        hoc preceptum firmum et inviolabile maneat in perpetuum. Et ut firmus
-                        credatur et diligentius observetur, manus nostra propria subscripsimus et
-                        nostri sigilli inpressione sigillari precepimus. Signum domni Iordani
-                        gloriosi principis. IORDANIS. Ex iussione prefate serenissime potestatis
-                        scripsi ego Cansolinus in anno principatus ipsius vicesimo quinto et
-                        vicesimo anno ducatus eius Gaiete. Data octabo kalendas Octubris, anno ab
+                        ecclesiarum defensor atque ditator existam, pro salute anime <rs
+                            key="#parentOf">patris</rs> mei <rs key="#Princeps">principis</rs>
+                        <persName key="#Princeps #parentOf" ref="#people/3001">Richardi</persName>
+                        ac <rs key="#parentOf">matris</rs> mee <persName key="#parentOf"
+                            ref="#people/3003">Fredesinde</persName>, mei etiam et <rs
+                            key="#marriage">uxoris</rs> mee <persName key="#Intercessory #marriage"
+                            ref="#people/3011">Gaytelgrime</persName> et <rs key="#heirTo"
+                            >heredum</rs> meorum, prudentia ipsius mee coniugis <rs
+                            key="#Intercessory">interveniente</rs> et <persName key="#Intercessory"
+                            ref="#people/4211">Goffridi Ridelli</persName>, <rs key="#Churches"
+                            >ecclesiam</rs>
+                        <orgName
+                            key="#Marshes/lagoons/tombolos #Forests #Fisheries #Hay/fodder #Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Inflow #Gift #Outflow #Iure_proprietatis/pleno_iure #Coloni/tenants #Rights_of_use_on_woods/pastures/waters #Churches #Aldius #Slave"
+                            ref="#juridical_persons/3060">Sancti Rufi</orgName> constructam in <rs
+                            key="#Cities">civitate</rs>
+                        <placeName key="#Cities" ref="#places/173">Capuana</placeName>, que nobis
+                        concessa est a nostris <rs key="#fidelisOf">fidelibus</rs> Capuanis et per
+                        sacramentum firmata, cum omnibus pertinentiis suis intus Capuam et foras,
+                        qualiter antiquitus pertinuit prefate ecclesie quovis modo et qualiter
+                        tenuit et dominatus fuit <persName key="#Chaplain" ref="#people/4212"
+                            >Herluinus</persName>
+                        <rs key="#Chaplain">cappellanus</rs> noster, cum <rs key="#Slave">servis et
+                            ancillis</rs>, cum <rs key="#Coloni/tenants">curtisanis</rs> et <rs
+                            key="#Aldius">aldiis</rs>, cum <rs
+                            key="#Rights_of_use_on_woods/pastures/waters">aquis</rs> et <rs
+                            key="#Fisheries #Fish">piscationibus</rs>, cum <rs key="#Forests"
+                            >silvis</rs> et <rs
+                            key="#Hay/fodder #Rights_of_use_on_woods/pastures/waters">pascuis</rs>,
+                        cum <rs key="#Marshes/lagoons/tombolos">paludibus</rs> et universis
+                        pertinentiis suis, dedisse, concessisse et confirmasse <rs
+                            key="#Monasteries">monasterio</rs>
+                        <orgName key="#Immunity #Monasteries" ref="#juridical_persons/84">Sancti
+                            Benedicti</orgName> constructa in <placeName ref="#places/109">Monte
+                            Casino</placeName> per hoc principale scriptum et domno <persName
+                            key="#Abbots #Personal_rank" ref="#people/2421">Desiderio</persName>
+                        eiusdem monasterii <rs key="#Personal_rank">venerabili</rs>
+                        <rs key="#Abbots">abbati</rs> cunctisque successoribus, <rs key="#Immunity"
+                            >nemine prefato monasterio domnoque abbati et suis successorum ex
+                            prescripta concessione aliquam contrariam vel molestiam ingerentem</rs>.
+                        Quod siquis huius nostri precepti violator extiterit, <rs key="#Penalty"
+                            >mille libras auri obtimi </rs>componat, medietatem nostre camere et
+                        medietatem predicto monasterio, et domno abati cunctisque suis successoribus
+                        et, soluta pena, hoc preceptum firmum et inviolabile maneat in perpetuum. Et
+                        ut firmus credatur et diligentius observetur, manus nostra propria
+                        subscripsimus et nostri sigilli inpressione sigillari precepimus. Signum
+                        domni Iordani <rs key="#Vir_gloriosus/vir_sublimis">gloriosi</rs> principis.
+                            <persName
+                            key="#Witness #Princeps #Marquis/duke #Vir_gloriosus/vir_sublimis"
+                            ref="#people/3002">IORDANIS</persName>. Ex iussione prefate serenissime
+                        potestatis scripsi ego <persName key="#Writer" ref="#people/3005"
+                            >Cansolinus</persName> in anno principatus ipsius vicesimo quinto et
+                        vicesimo anno <rs key="#Marquis/duke #Marca/ducatum">ducatus</rs> eius
+                            <placeName key="#Cities" ref="#places/2343"><geogName
+                                key="#Marca/ducatum" ref="#estates/3001"
+                            >Gaiete</geogName></placeName>. Data octabo kalendas Octubris, anno ab
                         incarnatione Domini nostri Iesu Christi .M. octoagesimo secundo. Scriptum
-                        Capue per sextam indictionem. </ab>
+                            <placeName key="#Cities" ref="#places/173">Capue</placeName> per sextam
+                        indictionem. </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p><foreign>Reg. Petr. Diac.</foreign> fol. 180v, n. 417; Ed. Martin et al.,
+                <p><foreign>Reg. S. Angeli in Formis</foreign> fol. 29r ; Ed. M. Inguanez,
+                        <foreign>Regesto di S. Angelo in Formis</foreign>, Montecassino 1925, pp.
+                    55-56; <foreign>Reg. Petr. Diac.</foreign> fol. 181r, n. 418; Ed. Martin et al.,
                         <foreign>Registrum Petri Diaconi (Montecassino, Archivio dell’abbazia,
                         Reg.3)</foreign>, Istituto Storico Italiano per il Medioevo e École
-                    Française de Rome, 2016, vol. III, pp. 1179-1180 (source of the text reproduced
+                    Française de Rome, 2016, vol. III, pp. 1181-1182 (source of the text reproduced
                     here).</p>
             </div>
             <div type="bibliography" subtype="additional">
