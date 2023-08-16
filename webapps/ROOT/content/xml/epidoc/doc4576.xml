@@ -29,10 +29,10 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="#"/>
-                            <rs type="record_source" ref="#"/>
+                            <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Uncertain tradition</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -40,11 +40,12 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate>
-                                <note type="displayed_date"/>
-                                <note type="dating_elements"/>
-                                <note type="topical_date"/>
-                                <note type="redaction_date"/>
+                            <origDate notBefore="1073-01-01" notAfter="1073-01-31">
+                                <note type="displayed_date">1073 January 1 - 1073 January 31</note>
+                                <note type="dating_elements">Jean-Marie Martin propone il 1073 come
+                                    data cronica. </note>
+                                <note type="topical_date">Gaeta</note>
+                                <note type="redaction_date">1131-1133</note>
                             </origDate>
                             <origPlace></origPlace>
                         </origin>
@@ -72,7 +73,7 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2022-02-03" who="other">creation of record</change>
+                <change when="2023-08-16" who="vdeangelis">creation of record</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -81,20 +82,37 @@
             <div type="edition">
                 <div type="textpart">
                     <ab>In nomine Domini nostri Iesu Christi. Primo etenim anno, gratia Dei
-                        auxiliante, Gaieta civitate regentibus domno Iordano glorioso princeps
-                        civitatis Capue et dux Gaiete prefate, mense Ianuario, indictione undecima,
-                        Gaieta. Ideoque me qui supra domno Iordano gratia Dei princeps et Rapizza
-                        iugalibus a presenti nanque die et omnem futurum tempus tradimus et
-                        offerimus in monasterio sacro cenobio Sancti Benedicti castro Casino et per
-                        te quoque domno venerabilis abbas ipsius monasterio domno Desiderio, una
-                        etenim pro redemptione anime nostre et animabus omnium nostrorum parentum,
-                        id est concedimus et tradidimus atque offerimus in supradicto cenovio, hoc
-                        est totum et inclito ipso monasterio Sancti Herasmi Furmiano destructe cum
-                        omnia et in omnibus illorum pertinentiis, quodcumque ibidem pertinet vel
-                        pertinentes fuerit. Et nichil nobis ibidem aliquid reservavimus nec dicimus
-                        reservaris, et totum et inclito iam dicto monasterio Sancti Herasmi cum
-                        omnia et in omnibus illorum pertinentiis, sicuti superius dictum et
-                        confirmatum habemus, permaneat in vestro monasterio sacro cenovio Sancti
+                        auxiliante, <placeName key="#Cities" ref="#places/2343">Gaieta</placeName>
+                        <rs key="#Cities">civitate</rs> regentibus domno <persName
+                            key="#Witness #Princeps #Marquis/duke #Vir_gloriosus/vir_sublimis"
+                            ref="#people/3002">Iordano</persName>
+                        <rs key="#Vir_gloriosus/vir_sublimis">glorioso</rs>
+                        <rs key="#Princeps">princeps</rs>
+                        <rs key="#Cities">civitatis</rs>
+                        <placeName key="#Cities" ref="#places/173">Capue</placeName> et <rs
+                            key="#Marquis/duke">dux</rs> Gaiete prefate, mense Ianuario, indictione
+                        undecima, <placeName key="#Cities" ref="#places/2343">Gaieta</placeName>.
+                        Ideoque me qui supra domno Iordano gratia Dei princeps et <persName
+                            key="#Witness #marriage" ref="#people/4214">Rapizza</persName>
+                        <rs key="#marriage">iugalibus</rs> a presenti nanque die et omnem futurum
+                        tempus tradimus et offerimus in <rs key="#Monasteries">monasterio</rs> sacro
+                        cenobio <orgName key="#Immunity #Monasteries" ref="#juridical_persons/84"
+                            >Sancti Benedicti castro Casino</orgName> et per te quoque domno <rs
+                            key="#Personal_rank">venerabilis</rs>
+                        <rs key="#Abbots">abbas</rs> ipsius monasterio domno <persName
+                            key="#Abbots #Personal_rank" ref="#people/2421">Desiderio</persName>,
+                        una etenim pro redemptione anime nostre et animabus omnium nostrorum
+                        parentum, id est concedimus et tradidimus atque offerimus in supradicto
+                        cenovio, hoc est totum et inclito ipso <rs key="#Monasteries"
+                            >monasterio</rs>
+                        <orgName
+                            key="#Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Iure_proprietatis/pleno_iure #Monasteries"
+                            ref="#juridical_persons/3062">Sancti Herasmi Furmiano</orgName>
+                        destructe cum omnia et in omnibus illorum pertinentiis, quodcumque ibidem
+                        pertinet vel pertinentes fuerit. Et nichil nobis ibidem aliquid reservavimus
+                        nec dicimus reservaris, et totum et inclito iam dicto monasterio Sancti
+                        Herasmi cum omnia et in omnibus illorum pertinentiis, sicuti superius dictum
+                        et confirmatum habemus, permaneat in vestro monasterio sacro cenovio Sancti
                         Benedicti et per te qui supra domno Desiderio gratia Dei venerabilis abbas
                         et de suis posteris successoribus sit potestates ad frugiandum et dominandum
                         et possidendum vel detinendum, etiam regendum, tantu qui supra domno
@@ -102,28 +120,43 @@
                         Similiter vobis vestrisque posteris successoribus confirmamus iam dicta
                         nostra offertione, ut licentiam et potestatem habeatis pro utilitate
                         predicto cenobio Sancti Benedicti Monte Casino quicquid de exinde facere
-                        volueritis. Et neque a nos qui supra Iordano gratia Dei princeps et Rapizza
-                        iugalibus, neque a nostris heredibus et neque a nobis nulla summissa humana
-                        persona nunquam exinde avebitis querela aut calumnia sustenibitis vos neque
-                        vestris posteris successoribus in sempiternum, in ea tale amonitione per
-                        antiquis patribus, ut siquis quascumque magnis aut parvis hominibus contra
-                        hanc nostra concessione vel offertione aliquid reluctare seu disrumpere aut
-                        iniare quesierit, nullo modo itaque valeat adimpleri quod repetit, sed
-                        primis omnium iram Dei omnipotentis super eum incurrat et habeat
-                        maledictione a trecentis decem et octo patrum, et parte habeat cum ille
-                        impio Iuda traditor Domini nostri Iesu Christi, insuper compositurus existat
-                        eademque persona illa qui hoc inquietare presumpserit auri purissimi libras
-                        quinquaginta et, soluta pena, hec nostra cartula offertionis et traditionis,
-                        ut superius legitur, firma permaneat imperpetuum. Quem scribendum iussimus a
-                        Leone presbytero et scriba de civitate, in mense et indictione dicta. Ego
-                        Iordanus gratia Dei princeps. Signum manus de domna Rapizza qui scribere
-                        iussit. Ego Marinus filio domno Marinus Pede Acetu. Ego Bonushomo. Ego Leo
-                        presbyter et scriba suprascripte civitatis complebi et absolbi in mense et
-                        indictione dicta. </ab>
+                        volueritis. <rs key="#Immunity">Et neque a nos qui supra Iordano gratia Dei
+                            princeps et Rapizza iugalibus, neque a nostris heredibus et neque a
+                            nobis nulla summissa humana persona nunquam exinde avebitis querela aut
+                            calumnia sustenibitis vos neque vestris posteris successoribus in
+                            sempiternum</rs>, in ea tale amonitione per antiquis patribus, ut siquis
+                        quascumque magnis aut parvis hominibus contra hanc nostra concessione vel
+                        offertione aliquid reluctare seu disrumpere aut iniare quesierit, nullo modo
+                        itaque valeat adimpleri quod repetit, sed primis omnium iram Dei
+                        omnipotentis super eum incurrat et habeat maledictione a trecentis decem et
+                        octo patrum, et parte habeat cum ille impio Iuda traditor Domini nostri Iesu
+                        Christi, insuper compositurus existat eademque persona illa qui hoc
+                        inquietare presumpserit <rs key="#Penalty">auri purissimi libras
+                            quinquaginta</rs> et, soluta pena, hec nostra cartula offertionis et
+                        traditionis, ut superius legitur, firma permaneat imperpetuum. Quem
+                        scribendum iussimus a <persName key="#Writer #Professional_writer #Priests"
+                            >Leone</persName>
+                        <rs key="#Priests">presbytero</rs> et <rs key="#Professional_writer"
+                            >scriba</rs> de civitate, in mense et indictione dicta. Ego <persName
+                            key="#Witness #Princeps #Marquis/duke #Vir_gloriosus/vir_sublimis"
+                            ref="#people/3002">Iordanus</persName> gratia Dei princeps. Signum manus
+                        de domna <persName key="#Witness #marriage" ref="#people/4214"
+                            >Rapizza</persName> qui scribere iussit. Ego <persName
+                            key="#Witness #childOf"><name ref="Marinus">Marinus</name></persName>
+                        <rs key="#childOf">filio</rs> domno <persName key="#Witness"><name
+                                ref="Marinus Pede Acetu">Marinus Pede Acetu</name></persName>. Ego
+                            <persName key="#Witness"><name ref="Bonushomo"
+                            >Bonushomo</name></persName>. Ego Leo presbyter et scriba suprascripte
+                        civitatis complebi et absolbi in mense et indictione dicta. </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p/>
+                <p><foreign>Codex Diplomaticus Cajetanus</foreign>, Monte Cassino 1891, vol. II, pp.
+                    20-22, n. 205; <foreign>Reg. Petr. Diac.</foreign> fol. 183r, n. 426; Ed. Martin
+                    et al., <foreign>Registrum Petri Diaconi (Montecassino, Archivio dell’abbazia,
+                        Reg.3)</foreign>, Istituto Storico Italiano per il Medioevo e École
+                    Française de Rome, 2016, vol. III, pp. 1199-1200 (source of the text reproduced
+                    here).</p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p/>
@@ -132,7 +165,9 @@
                 <p/>
             </div>
             <div type="commentary">
-                <p>Il documento è un falso.</p>
+                <p>Il documento è un falso (cfr. P. Fedele, "Il ducato di Gaeta all'inizio della
+                    conquista Normanna", <foreign>Archivio storico per le provincie napoletane
+                        XXIX</foreign>, 1904, pp. 103-109).</p>
             </div>
         </body>
     </text>
