@@ -29,10 +29,10 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="#"/>
-                            <rs type="record_source" ref="#"/>
-                            <rs type="document_tradition" ref="#"/>
-                            <rs type="fiscal_property"/>
+                            <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -40,10 +40,10 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate>
-                                <note type="displayed_date"/>
+                            <origDate when="1085-02-22">
+                                <note type="displayed_date">1085 February 2</note>
                                 <note type="dating_elements"/>
-                                <note type="topical_date"/>
+                                <note type="topical_date">Capua</note>
                                 <note type="redaction_date"/>
                             </origDate>
                             <origPlace></origPlace>
@@ -72,7 +72,7 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2022-02-03" who="other">creation of record</change>
+                <change when="2023-08-16" who="vdeangelis">creation of record</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -80,36 +80,76 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>In nomine Domini nostri Iesu Christi Dei eterni. Iordanus divina providentia
-                        Capuanorum princeps petitioni dilecti sui clementer favet. Notum sit omnibus
-                        sancte et catholice Ecclesie filiis me, quem ad hoc divina gratia promovit
-                        in principem ut ecclesiarum defensor atque ditator existam, ob salutem et
-                        redemptionem anime principis Richardi patris mei et Fredesinde matris mee et
-                        ob meorum peccatorum indulgentiam, dedisse, concessisse et confirmasse
-                        monasterio Sancti Benedicti confessoris Christi sito in Monte Casino et
-                        domino Desiderio eiusdem monasterii venerabili abbati, per interventum
-                        Gaytelgrimme principisse uxoris mee, ecclesiam Sancte Agathe constructam
-                        prope muros Aversane urbis, cum curtibus et terris et villanis et cum
-                        universis suis pertinentiis, quas princeps Richardus pater meus ibi dedit,
-                        et qualiter Gualterius capellanus eam tenuit, cum omnibus suis pertinentiis
-                        in die obitus suis, ad possessionem, potestatem et dominationem predicti
-                        monasterii Sancti Benedicti et domni abbatis suorumque successorum, remota
-                        omni contrarietate et molestatione mortalium. Quod siquis, diabolica
-                        suasione compulsus, hanc nostram dationem, oblationem, concessionem violare
-                        irritasve facere temptaverit, centum auri optimi libras persolvat, medietate
+                    <ab>In nomine Domini nostri Iesu Christi Dei eterni. <persName
+                            key="#Witness #Princeps #Marquis/duke #Vir_gloriosus/vir_sublimis"
+                            ref="#people/3002">Iordanus</persName> divina providentia Capuanorum <rs
+                            key="#Princeps">princeps</rs> petitioni dilecti sui clementer favet.
+                        Notum sit omnibus sancte et catholice Ecclesie filiis me, quem ad hoc divina
+                        gratia promovit in principem ut ecclesiarum defensor atque ditator existam,
+                        ob salutem et redemptionem anime <rs key="#Princeps">principis</rs>
+                        <persName key="#Princeps #parentOf" ref="#people/3001">Richardi</persName>
+                        <rs key="#parentOf">patris</rs> mei et <persName key="#parentOf"
+                            ref="#people/3003">Fredesinde</persName>
+                        <rs key="#parentOf">matris</rs> mee et ob meorum peccatorum indulgentiam,
+                        dedisse, concessisse et confirmasse <rs key="#Monasteries">monasterio</rs>
+                        <orgName key="#Immunity #Monasteries" ref="#juridical_persons/84">Sancti
+                            Benedicti </orgName>confessoris Christi sito in <placeName
+                            ref="#places/109">Monte Casino</placeName> et domino <persName
+                            key="#Abbots #Personal_rank" ref="#people/2421">Desiderio</persName>
+                        eiusdem monasterii <rs key="#Personal_rank">venerabili</rs>
+                        <rs key="#Abbots">abbati</rs>, per <rs key="#Intercessory">interventum</rs>
+                        <persName key="#Intercessory #Principissa #marriage" ref="#people/3011"
+                            >Gaytelgrimme</persName>
+                        <rs key="#Principissa">principisse</rs>
+                        <rs key="#marriage">uxoris</rs> mee, <rs key="#Churches">ecclesiam</rs>
+                        <orgName
+                            key="#Curtes #Landed_possessions #Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Iure_proprietatis/pleno_iure #Coloni/tenants #Churches"
+                            ref="#juridical_persons/3061">Sancte Agathe</orgName> constructam prope
+                            <rs key="#Walls">muros</rs>
+                        <placeName key="#Cities #Walls" ref="#places/4000">Aversane</placeName>
+                        <rs key="#Cities">urbis</rs>, cum <rs key="#Curtes">curtibus</rs> et <rs
+                            key="#Landed_possessions">terris</rs> et <rs key="#Coloni/tenants"
+                            >villanis</rs> et cum universis suis pertinentiis, quas princeps
+                        Richardus pater meus ibi dedit, et qualiter <persName key="#Chaplain"
+                            ref="#people/4213">Gualterius</persName>
+                        <rs key="#Chaplain">capellanus</rs> eam tenuit, cum omnibus suis
+                        pertinentiis in die obitus suis, ad possessionem, potestatem et dominationem
+                        predicti monasterii Sancti Benedicti et domni abbatis suorumque successorum,
+                            <rs key="#Immunity">remota omni contrarietate et molestatione
+                            mortalium.</rs> Quod siquis, diabolica suasione compulsus, hanc nostram
+                        dationem, oblationem, concessionem violare irritasve facere temptaverit, <rs
+                            key="#Penalty">centum auri optimi libras</rs> persolvat, medietate
                         nostro Palatio et medetiatem prescripto monasterio et predicto abbati
                         suisque successoribus, et soluta pena hoc scriptum firmum et inviolabile
                         maneat in perpetuum et firmum credatur et diligentius ab omnibus observetur,
                         manu mea subscripsi et mei sigilli inpressione feci sigillare. Signum domni
-                        Iordani gloriosi principis. IORDANVS. Per iussionem prefate serenissime
-                        potestatis scripsi ego Cansolinus iudex in anno principatus ipsius vicesimo
-                        octabo et vicesimo tertio anno ducatus eius Gaiete. Data octabo kalendas
-                        Martii, anno ab incarnatione Domini nostri Iesu Christi M octoagesimo
-                        quinto. Scriptum Capue per nonam indictionem.</ab>
+                        Iordani <rs key="#Vir_gloriosus/vir_sublimis">gloriosi</rs> principis.
+                            <persName
+                            key="#Witness #Princeps #Marquis/duke #Vir_gloriosus/vir_sublimis"
+                            ref="#people/3002">IORDANVS</persName>. Per iussionem prefate
+                        serenissime potestatis scripsi ego <persName key="#Writer #Judge"
+                            ref="#people/3005">Cansolinus</persName>
+                        <rs key="#Judge">iudex</rs> in anno principatus ipsius vicesimo octabo et
+                        vicesimo tertio anno <rs key="#Marquis/duke #Marca/ducatum">ducatus</rs>
+                        eius <placeName key="#Cities" ref="#places/2343"><geogName
+                                key="#Marca/ducatum" ref="#estates/3001"
+                            >Gaiete</geogName></placeName>. Data octabo kalendas Martii, anno ab
+                        incarnatione Domini nostri Iesu Christi M octoagesimo quinto. Scriptum
+                            <placeName key="#Cities" ref="#places/173">Capue</placeName> per nonam
+                        indictionem.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p/>
+                <p>Ed. E. Gattula, <foreign>Accessiones ad Historiam Abbatiae Casinensis</foreign>,
+                    Venezia 1734, p. 191; T. Leccisotti, <foreign>Abbazia di Montecassino. I regesti
+                        dell'archivio</foreign>, Roma 1964-1977, vol. II, pp. 67-68; <foreign>Reg.
+                        S. Angeli in Formis</foreign> fol. 32v ; Ed. M. Inguanez, <foreign>Regesto
+                        di S. Angelo in Formis</foreign>, Montecassino 1925, pp. 62-63;
+                        <foreign>Reg. Petr. Diac.</foreign> fol. 181r, n. 419; Ed. Martin et al.,
+                        <foreign>Registrum Petri Diaconi (Montecassino, Archivio dell’abbazia,
+                        Reg.3)</foreign>, Istituto Storico Italiano per il Medioevo e École
+                    Française de Rome, 2016, vol. III, pp. 1183-1184 (source of the text reproduced
+                    here).</p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p/>
