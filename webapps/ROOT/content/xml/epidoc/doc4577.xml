@@ -4,7 +4,8 @@
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
-                <title>Registrum Petri Diaconi, fol. 214r, n. 509</title>
+                <title>Montecassino, Archivio dell'abbazia, Reg. n. 3, fol. 214r, n. 509 (Reg. Pet.
+                    Diac.)</title>
             </titleStmt>
             <editionStmt>
                 <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
@@ -29,10 +30,10 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="#"/>
-                            <rs type="record_source" ref="#"/>
-                            <rs type="document_tradition" ref="#"/>
-                            <rs type="fiscal_property"/>
+                            <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -40,11 +41,11 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate>
-                                <note type="displayed_date"/>
+                            <origDate when="1089-02-24">
+                                <note type="displayed_date">1089 February 24</note>
                                 <note type="dating_elements"/>
-                                <note type="topical_date"/>
-                                <note type="redaction_date"/>
+                                <note type="topical_date">Capua</note>
+                                <note type="redaction_date">1131-1133</note>
                             </origDate>
                             <origPlace></origPlace>
                         </origin>
@@ -72,7 +73,7 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2022-02-03" who="other">creation of record</change>
+                <change when="2023-08-19" who="vdeangelis">creation of record</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -80,66 +81,92 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>In nomine Domini salvatoris nostri Iesu Christi. Domni Iordanis divina
-                        ordinante clementia Capuanorum princeps petitioni dilecti sui clementer
-                        favet. Notum sit omnibus sancte et catholice Ecclesie filiis Richardum
-                        principem patrem meum, quia cognovit locum qui dicitur ad Arcum Diane, in
-                        quo ecclesia Sancti Angeli constructa est, utilem ad congregationem
-                        monachorum et construendum monasterium, angustum tamen, adeo quod non erat
-                        amplius quam ecclesia nuper constructa accingit et officina monachorum,
-                        dedisse pro eo in commutationem Ildebrando Capuano archiepiscopo ecclesiam
-                        magnam constructam in Capuam, vocabulo Sancti Iohannis Areppaldi, ditatam
-                        terris multis et ornamentis et libris, et recepit in commutationem ipsam
-                        ecclesiam Sancti Angeli ad Arcum Diane et aliam ecclesiam Sancti Angeli
-                        constructam in Capuam, que nuncupatur de Odaldisci. Et quia pro suo tempore
-                        religiosus ille locus cepit augmentari, additis suis rebus secundum quod
-                        placuit, quam maxime crevit. Quapropter a me et ab uxore mea locus ille
+                    <ab>In nomine Domini salvatoris nostri Iesu Christi. Domni <persName
+                            key="#Witness #Princeps #Marquis/duke" ref="#people/3002"
+                            >Iordanis</persName> divina ordinante clementia Capuanorum <rs
+                            key="#Princeps">princeps</rs> petitioni dilecti sui clementer favet.
+                        Notum sit omnibus sancte et catholice Ecclesie filiis <persName
+                            key="#Princeps #parentOf" ref="#people/3001">Richardum</persName>
+                        <rs key="#Princeps">principem</rs>
+                        <rs key="#parentOf">patrem</rs> meum, quia cognovit locum qui dicitur ad
+                            <placeName ref="#places/2803">Arcum Diane</placeName>, in quo ecclesia
+                            <orgName
+                            key="#Fiscal_property #Textual_occurrence #Mention #Inflow #Gift #Churches #Monasteries"
+                            ref="#juridical_persons/3046">Sancti Angeli</orgName> constructa est,
+                        utilem ad congregationem <rs key="#Monks">monachorum</rs> et construendum
+                            <rs key="#Monasteries">monasterium</rs>, angustum tamen, adeo quod non
+                        erat amplius quam ecclesia nuper constructa accingit et officina monachorum,
+                        dedisse pro eo in <rs key="#Commutatio">commutationem</rs>
+                        <persName key="#Archbishops" ref="#people/3063">Ildebrando</persName>
+                        Capuano <rs key="#Archbishops">archiepiscopo</rs>
+                        <rs key="#Churches">ecclesiam</rs> magnam constructam in <placeName
+                            ref="#places/173" key="#Cities">Capuam</placeName>, vocabulo <orgName
+                            ref="#juridical_persons/3050"
+                            key="#Landed_possessions #Fiscal_property #Textual_occurrence #Mention #Outflow #Counter-gift #Luxury #Books #Churches"
+                            >Sancti Iohannis Areppaldi</orgName>, ditatam <rs
+                            key="#Landed_possessions">terris multis</rs> et <rs key="#Luxury"
+                            >ornamentis</rs> et <rs key="#Books">libris</rs>, et recepit in
+                        commutationem ipsam ecclesiam Sancti Angeli ad Arcum Diane et aliam <rs
+                            key="#Churches">ecclesiam</rs>
+                        <orgName key="#Churches">Sancti Angeli constructam in Capuam, que nuncupatur
+                            de Odaldisci</orgName>. Et quia pro suo tempore religiosus ille locus
+                        cepit augmentari, additis suis rebus secundum quod placuit, quam maxime
+                        crevit. Quapropter a me et ab <rs key="#marriage">uxore</rs> mea locus ille
                         valde diligitur, Die quadam ego prescriptus Iordanus princeps, divina
                         inspiratione compulsus, ivi ad prescriptam ecclesiam Sancti Angeli ad Arcum
                         Diane causa orationis, et religiosorum plurimorum monachorum a me postulavit
-                        prudentia, Iohannis scilicet monachi et decani et Maynardi et Petri et
-                        aliorurn monachorum, quatenus per firmitatis apices concederem monasterio
-                        que possidebant et dominabantur. Quorum precibus favens, per huius
-                        concessionis paginam concedo que princeps Richardus pater meus dedit et que
-                        ego postea tribui et que eidem pertinent monasterio et que possidebat e
-                        dominabantur. Illius vero loci fines primum indico sic concedens: ex una
-                        parte sunt cave cimentaree qualiter pergitur per ecclesiam Sancti Marcelli
-                        et ad terram que dicitur Bertarisci, et qualiter redit per latera montis et
-                        per ipsas criptas et ascendit inde per canalem qui dicitur ad Ficum Fusculam
-                        et qualiter redit per ipsam viam antiquam et per Rickibellum et qualiter
-                        descendit per latera Calvini et per terram monasterii Sancti Benedicti
-                        constructi in Capuam et qualiter descendit per terram Sancti Vincentii usque
-                        ad cavas cimentarias. Et concedo quicquid continetur in cartula oblationis
-                        quod pater meus prescriptus obtulit eiusdem monasterio Sancti Angeli,
-                        Sarzanum et homines et terras a Sancto Martino qui dicitur ad Lavem et per
-                        ipsum Battiticzum, ubi modo sedent homines vestri et usque in Ventuvanam.
-                        Concedo quoque eidem monasterio Sancti Angeli ecclesiam Sancti Angeli de
-                        Odaldisci cum terris et servis et cum omnibus suis pertinentibus, et
-                        ecclesiam Sancti Benedicti Pictoli cum ecclesiis et terris et pertinentibus
-                        suis, que ecclesie sunt in Capuam, et Sanctum Petrum de Scafati cum
-                        monasteriis, servis et terris et omnibus suis pertinentibus, et ecclesiam
-                        Sancti Rufi cum servis et terris et omnibus suis pertinentibus, et ecclesiam
-                        Sancte Agathe sitam prope muros Aversane urbis, cum hominibus et terris et
-                        universis suis pertinentibus, et unum castanetum optimum et terras pro
-                        servitio hospitum que est prope Baptiticzum in finibus Sarzani. Omnia
-                        prescripta concedo et confirmo perpetualiter prescripto monasterio Sancti
-                        Angeli subdito monasterio Sancti Benedicti Montis Casini, cui Oderisius
-                        venerabilis abbas preesse videtur, ab eodem vero abbate ordinatus Girdus est
-                        prepositus monasterio Sancti Angeli, ad possessionem eiusdem monasterii et
-                        dominationem. Quod siquis huius concessionis violator esse presumpserit,
-                        centum auri optimi libras persolvat, medietatem eiusdem monasterio eiusque
-                        rectoribus et medietatem fisco meo, et soluta hac pena, huius mee
-                        concessionis pagina firma et inviolabilis maneat semper. Et ut firmus
-                        credatur et diligentius observetur, manu mea subscripsi et meo sigillo feci
-                        decorare. Signum domni Iordani gloriosissimi principis. IORDANVS. Ex
-                        iussione predicti principis scripsi ego Canzolinus iudex in anno principatus
-                        ipsius tricesimo primo et vicesimo sexto anno ducatus eius Gaiete. Data
-                        sexto kalendas Martii, anno ab incarnatione Domini nostri Iesu Christi .M.
-                        LXXX nono. Scriptum Capue per indictionem duodecimam. </ab>
+                        prudentia, <persName key="#Other_clerics #Monks"><name ref="Iohannes"
+                                >Iohannis</name></persName> scilicet <rs key="#Monks">monachi</rs>
+                        et <rs key="#Other_clerics">decani</rs> et Maynardi et Petri et aliorurn
+                        monachorum, quatenus per firmitatis apices concederem monasterio que
+                        possidebant et dominabantur. Quorum precibus favens, per huius concessionis
+                        paginam concedo que princeps Richardus pater meus dedit et que ego postea
+                        tribui et que eidem pertinent monasterio et que possidebat e dominabantur.
+                        Illius vero loci fines primum indico sic concedens: ex una parte sunt cave
+                        cimentaree qualiter pergitur per ecclesiam Sancti Marcelli et ad terram que
+                        dicitur Bertarisci, et qualiter redit per latera montis et per ipsas criptas
+                        et ascendit inde per canalem qui dicitur ad Ficum Fusculam et qualiter redit
+                        per ipsam viam antiquam et per Rickibellum et qualiter descendit per latera
+                        Calvini et per terram monasterii Sancti Benedicti constructi in Capuam et
+                        qualiter descendit per terram Sancti Vincentii usque ad cavas cimentarias.
+                        Et concedo quicquid continetur in cartula oblationis quod pater meus
+                        prescriptus obtulit eiusdem monasterio Sancti Angeli, Sarzanum et homines et
+                        terras a Sancto Martino qui dicitur ad Lavem et per ipsum Battiticzum, ubi
+                        modo sedent homines vestri et usque in Ventuvanam. Concedo quoque eidem
+                        monasterio Sancti Angeli ecclesiam Sancti Angeli de Odaldisci cum terris et
+                        servis et cum omnibus suis pertinentibus, et ecclesiam Sancti Benedicti
+                        Pictoli cum ecclesiis et terris et pertinentibus suis, que ecclesie sunt in
+                        Capuam, et Sanctum Petrum de Scafati cum monasteriis, servis et terris et
+                        omnibus suis pertinentibus, et ecclesiam Sancti Rufi cum servis et terris et
+                        omnibus suis pertinentibus, et ecclesiam Sancte Agathe sitam prope muros
+                        Aversane urbis, cum hominibus et terris et universis suis pertinentibus, et
+                        unum castanetum optimum et terras pro servitio hospitum que est prope
+                        Baptiticzum in finibus Sarzani. Omnia prescripta concedo et confirmo
+                        perpetualiter prescripto monasterio Sancti Angeli subdito monasterio Sancti
+                        Benedicti Montis Casini, cui Oderisius venerabilis abbas preesse videtur, ab
+                        eodem vero abbate ordinatus Girdus est prepositus monasterio Sancti Angeli,
+                        ad possessionem eiusdem monasterii et dominationem. Quod siquis huius
+                        concessionis violator esse presumpserit, centum auri optimi libras
+                        persolvat, medietatem eiusdem monasterio eiusque rectoribus et medietatem
+                        fisco meo, et soluta hac pena, huius mee concessionis pagina firma et
+                        inviolabilis maneat semper. Et ut firmus credatur et diligentius observetur,
+                        manu mea subscripsi et meo sigillo feci decorare. Signum domni Iordani
+                        gloriosissimi principis. IORDANVS. Ex iussione predicti principis scripsi
+                        ego Canzolinus iudex in anno principatus ipsius tricesimo primo et vicesimo
+                        sexto anno ducatus eius Gaiete. Data sexto kalendas Martii, anno ab
+                        incarnatione Domini nostri Iesu Christi .M. LXXX nono. Scriptum Capue per
+                        indictionem duodecimam. </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p/>
+                <p>Ed. E. Gattula, <foreign>Accessiones ad Historiam Abbatiae Casinensis</foreign>,
+                    Venezia 1734, p. 202-203; <foreign>Reg. S. Angeli in Formis</foreign> fol. 30r ;
+                    Ed. M. Inguanez, <foreign>Regesto di S. Angelo in Formis</foreign>, Montecassino
+                    1925, pp. 56-59; <foreign>Reg. Petr. Diac.</foreign> fol. 214r, n. 509; Ed.
+                    Martin et al., <foreign>Registrum Petri Diaconi (Montecassino, Archivio
+                        dell’abbazia, Reg.3)</foreign>, Istituto Storico Italiano per il Medioevo e
+                    École Française de Rome, 2016, vol. III, pp. 1394-1395 (source of the text
+                    reproduced here).</p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p/>
