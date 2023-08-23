@@ -33,7 +33,7 @@
                             <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Copy</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -41,10 +41,11 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate>
-                                <note type="displayed_date"/>
+                            <origDate notBefore="1117-02-01" notAfter="1117-02-28">
+                                <note type="displayed_date">1117 February 1 - 1117 February
+                                    28</note>
                                 <note type="dating_elements"/>
-                                <note type="topical_date"/>
+                                <note type="topical_date">Capua</note>
                                 <note type="redaction_date">1131-1133</note>
                             </origDate>
                             <origPlace></origPlace>
@@ -81,52 +82,87 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>In nomine Domini salvatoris nostri Iesu Christi Dei eterni. Robbertus divina
-                        ordinante clementia Capuanorum princeps petitioni dilectorum suorum baronum
-                        clementer favet. Nos Robbertus divina ordinante clementia Capuanorum
-                        princeps notum fieri volumus universis huius sancte catholice Ecclesie
-                        cunctisque baronibus ac militibus fidelibusque nostris quoniam nos, quem
-                        divina clementia commovit in principem ut ecclesiarum Dei ditator atque
-                        defensor existam, et specialiter Casinensis monasterii, cuius nobis defensio
-                        atque tutela commissa est, predecessorum nostrorum gloriosorum principum
-                        exempla sequentes, que idem monasterium exaltare ac multis opibus ditare
-                        studuerunt, nos quoque in quantum possumus idem facere properamus. Igitur ad
-                        salutem et remedium animarum quondam gloriosorum principum, Richardus
-                        scilicet avi ac Iordani patris necnon secundi Richardi fratris nostri, ac ob
-                        statum nostri principatus, interventu quoque domni Pandulfi venerabilis
-                        episcopi Teanensis et nostrorum dilectorum baronum, videlicet Richardi filii
-                        Bartholomei et Leonis Fundani consulis et Thome de Calvo ac Ugoni de Pulita,
-                        per hoc videlicet principale scriptum in perpetuum damus, tradimus,
-                        concedimus ac confirmamus prefato monasterio Sancti Benedicti et venerabili
-                        domno Girardo eiusdem monasterii abbati omnibusque suis successoribus,
-                        castrum silicet qui vocatur Suio cum hominibus et terris cultis et incultis,
-                        planis, montibus, silvis, pascuis, aquis, aquarum decursibus et cum omnibus
-                        eiusdem castri pertinentiis, sicuti Richardus de Aquila et Andreas filius
-                        eius tenuerunt illud octo dies antequam mortui essent, ad possessionem et
-                        potestatem et dominationem ipsius monasterii et memorati domni Girardi
-                        venerabili abbati et omnium successorum eius, faciendi de eorum castro et de
-                        tota eius pertinentia ut prediximus, utilitatem ipsius monasterii, remota
-                        omni inquietudine, contrarietate et molestia nostra et omnium principum et
-                        successorum nostrorum vel principum, comitum vel vicecomitum, iudicum,
-                        sculdaorum, castaldeorum aliorumque hominum mortalium persone. Quod siquis
-                        huius nostre concessionis et confirmationis pagine contemptor aut violator
-                        extiterit, aut contra hoc principale scriptum agere presumpserit, mille
-                        libras auri purissimi persolvat, medietatem iam nominato monasterio Sancti
-                        Benedicti et prephato domno Girardo venerabili abbati et successoribus eius,
-                        et medietatem nostro sacro Capuano Palatio, et soluta pena librarum auri hoc
-                        principale scriptum cum omnibus que et qualiter continet firmum ac
-                        inviolabile maneat imperpetuum. Et ut firmius credatur et diligentius ab
-                        omnibus observetur, manu propria illud corroboravimus et nostri sigilli
-                        inpressione iussimus insigniri. Signum domini Robberti gloriosissimi ac
-                        magnifici principis. ROBBERTVS. Ex iussione prephate serenissime potestatis
-                        scripsi ego Quiriacus palatinus iudex in anno dominice incarnationis
-                        millesimo centesimo septimo decimo, et decimo anno principatus prephati
-                        domni Robberti gloriosi principis Capue. Data in Capuana civitate mense
-                        Februario per indictionem decimam. </ab>
+                    <ab>In nomine Domini salvatoris nostri Iesu Christi Dei eterni. <persName
+                            key="#Princeps" ref="#people/3019">Robbertus</persName> divina ordinante
+                        clementia Capuanorum <rs key="#Princeps">princeps</rs> petitioni dilectorum
+                        suorum baronum clementer favet. Nos Robbertus divina ordinante clementia
+                        Capuanorum princeps notum fieri volumus universis huius sancte catholice
+                        Ecclesie cunctisque baronibus ac militibus fidelibusque nostris quoniam nos,
+                        quem divina clementia commovit in principem ut ecclesiarum Dei ditator atque
+                        defensor existam, et specialiter <orgName key="#Monasteries"
+                            ref="#juridical_persons/84">Casinensis</orgName>
+                        <rs key="#Monasteries">monasterii</rs>, cuius nobis defensio atque tutela
+                        commissa est, predecessorum nostrorum <rs key="#Vir_gloriosus/vir_sublimis"
+                            >gloriosorum</rs>
+                        <rs key="#Princeps">principum</rs> exempla sequentes, que idem monasterium
+                        exaltare ac multis opibus ditare studuerunt, nos quoque in quantum possumus
+                        idem facere properamus. Igitur ad salutem et remedium animarum quondam
+                        gloriosorum principum, <persName key="#Princeps #grandparentOf"
+                            ref="#people/3001">Richardus</persName> scilicet <rs
+                            key="#grandparentOf">avi</rs> ac <persName key="#Princeps #parentOf"
+                            ref="#people/3002">Iordani</persName>
+                        <rs key="#parentOf">patris</rs> necnon <persName key="#Princeps #siblingOf"
+                            ref="#people/3010">secundi Richardi</persName>
+                        <rs key="#siblingOf">fratris</rs> nostri, ac ob statum nostri principatus,
+                            <rs key="#Intercessory">interventu</rs> quoque domni <persName
+                            key="#Intercessory #Bishops #Personal_rank" ref="#people/4218"
+                            >Pandulfi</persName>
+                        <rs key="#Personal_rank">venerabilis</rs>
+                        <rs key="#Bishops">episcopi</rs>
+                        <placeName ref="#places/174">Teanensis</placeName> et nostrorum dilectorum
+                        baronum, videlicet <persName key="#Intercessory"><name
+                                ref="Richardus fil. Bartholomaei">Richardi filii
+                            Bartholomei</name></persName> et <persName
+                            key="#Intercessory #Consul/hypatos" ref="#people/4219">Leonis</persName>
+                        <placeName ref="#places/2855">Fundani</placeName>
+                        <rs key="#Consul/hypatos">consulis</rs> et <persName key="#Intercessory"
+                                ><name ref="Thomas de Calvi">Thome de Calvo</name></persName> ac
+                            <persName ref="#people/3040" key="#Intercessory">Ugoni de
+                            Pulita</persName>, per hoc videlicet principale scriptum in perpetuum
+                        damus, tradimus, concedimus ac confirmamus prefato monasterio Sancti
+                        Benedicti et <rs key="#Personal_rank">venerabili</rs> domno <persName
+                            key="#Abbots #Personal_rank" ref="#people/4216">Girardo</persName>
+                        eiusdem monasterii <rs key="#Abbots">abbati</rs> omnibusque suis
+                        successoribus, <rs key="#Castle">castrum</rs> silicet qui vocatur <placeName
+                            key="#Rivers #Mountains #Landed_possessions #Forests #Hay/fodder #Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Iure_proprietatis/pleno_iure #Coloni/tenants #Castle #Rights_of_use_on_woods/pastures/waters"
+                            ref="#places/4526">Suio</placeName> cum <rs key="#Coloni/tenants"
+                            >hominibus</rs> et <rs key="#Landed_possessions">terris cultis et
+                            incultis</rs>, planis, <rs key="#Mountains">montibus</rs>, <rs
+                            key="#Forests">silvis</rs>, <rs
+                            key="#Rights_of_use_on_woods/pastures/waters"><rs key="#Hay/fodder"
+                                >pascuis</rs>, aquis</rs>, <rs key="#Rivers">aquarum decursibus</rs>
+                        et cum omnibus eiusdem castri pertinentiis, sicuti Richardus de Aquila et
+                        Andreas filius eius tenuerunt illud octo dies antequam mortui essent, ad
+                        possessionem et potestatem et dominationem ipsius monasterii et memorati
+                        domni Girardi venerabili abbati et omnium successorum eius, faciendi de
+                        eorum castro et de tota eius pertinentia ut prediximus, utilitatem ipsius
+                        monasterii, remota omni inquietudine, contrarietate et molestia nostra et
+                        omnium principum et successorum nostrorum vel principum, comitum vel
+                        vicecomitum, iudicum, sculdaorum, castaldeorum aliorumque hominum mortalium
+                        persone. Quod siquis huius nostre concessionis et confirmationis pagine
+                        contemptor aut violator extiterit, aut contra hoc principale scriptum agere
+                        presumpserit, mille libras auri purissimi persolvat, medietatem iam nominato
+                        monasterio Sancti Benedicti et prephato domno Girardo venerabili abbati et
+                        successoribus eius, et medietatem nostro sacro Capuano Palatio, et soluta
+                        pena librarum auri hoc principale scriptum cum omnibus que et qualiter
+                        continet firmum ac inviolabile maneat imperpetuum. Et ut firmius credatur et
+                        diligentius ab omnibus observetur, manu propria illud corroboravimus et
+                        nostri sigilli inpressione iussimus insigniri. Signum domini Robberti
+                        gloriosissimi ac magnifici principis. ROBBERTVS. Ex iussione prephate
+                        serenissime potestatis scripsi ego Quiriacus palatinus iudex in anno
+                        dominice incarnationis millesimo centesimo septimo decimo, et decimo anno
+                        principatus prephati domni Robberti gloriosi principis Capue. Data in
+                        Capuana civitate mense Februario per indictionem decimam. </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p/>
+                <p><foreign>Codex Diplomaticus Cajetanus</foreign>, Monte Cassino 1891, vol. II, pp.
+                    196-198, n. 290; Ed. E. Gattula, <foreign>Accessiones ad Historiam Abbatiae
+                        Casinensis</foreign>, Venezia 1734, pp. 232-233; <foreign>Reg. Petr.
+                        Diac.</foreign> fol. 242v, n. 577; Ed. Martin et al., <foreign>Registrum
+                        Petri Diaconi (Montecassino, Archivio dell’abbazia, Reg.3)</foreign>,
+                    Istituto Storico Italiano per il Medioevo e École Française de Rome, 2016, vol.
+                    III, pp. 1569-1570 (source of the text reproduced here).</p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p/>
