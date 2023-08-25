@@ -32,7 +32,7 @@
                             <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Original</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -82,11 +82,12 @@
             <div type="edition">
                 <div type="textpart">
                     <ab>In nomine Domini salvatoris nostri Iesu Christi Dei eterni.<persName
-                            key="#Princeps" ref="#people/3022"> Secundus Iordanus</persName> divina
-                        ordinante clementia Capuanorum <rs key="#Princeps">princeps</rs> petitioni
-                        suorum fidelium clementer favet. Igitur notum fieri volumus omnibus
-                        fidelibus sancte ac catholice Ecclesie quoniam, ob salutem et remedium
-                        animarum quondam <rs key="#Vir_gloriosus/vir_sublimis">gloriosorum</rs>
+                            key="#Witness #Princeps #Vir_gloriosus/vir_sublimis" ref="#people/3022">
+                            Secundus Iordanus</persName> divina ordinante clementia Capuanorum <rs
+                            key="#Princeps">princeps</rs> petitioni suorum fidelium clementer favet.
+                        Igitur notum fieri volumus omnibus fidelibus sancte ac catholice Ecclesie
+                        quoniam, ob salutem et remedium animarum quondam <rs
+                            key="#Vir_gloriosus/vir_sublimis">gloriosorum</rs>
                         <rs key="#Princeps">principum</rs>, videlicet <persName
                             key="#Princeps #Vir_gloriosus/vir_sublimis #grandparentOf"
                             ref="#people/3001">Richardi primi</persName> principis <rs
@@ -96,7 +97,7 @@
                         <rs key="#parentOf">patris</rs> atque <persName
                             key="#Princeps #Vir_gloriosus/vir_sublimis #siblingOf"
                             ref="#people/3010">secundi Richardi</persName>, quam et <persName
-                            key="#Princeps #Vir_gloriosus/vir_sublimis #siblingOf"
+                            key="#Witness #Princeps #Vir_gloriosus/vir_sublimis #siblingOf"
                             ref="#people/3019">Robberti</persName> principum <rs key="#siblingOf"
                             >fratrum</rs> nostrorum et ob statum nostri principatus, consilio quoque
                         ac <rs key="#Intercessory">interventu</rs> domni <persName
@@ -117,52 +118,73 @@
                         perpetuum, una cum <persName key="#childOf" ref="#people/3042"
                             >Robberto</persName> nostro dilectissimo <rs key="#childOf">filio</rs>,
                         damus et tradendo confirmamus in <rs key="#Monasteries">monasterio</rs>
-                        <orgName key="#Monasteries" ref="#juridical_persons/84">Sancti Benedicti
-                            Montis Casinensis</orgName>, in quo domnus <persName
+                        <orgName key="#Immunity #Monasteries" ref="#juridical_persons/84">Sancti
+                            Benedicti Montis Casinensis</orgName>, in quo domnus <persName
                             key="#Cardinals #Abbots" ref="#people/4222">Oderisius</persName>
                         <rs key="#Cardinals">cardinalis</rs> et <rs key="#Abbots">abbas</rs> preesse
-                        dinoscitur, hoc est totum et integrum castrum quod nominatur Lu Pica cum
-                        munitione et turri et universis pertinentiis eius, sicut Richardus filius
-                        Raonis Pignardi illud tenuit et dominatus est quindecim dies antequam Leo
-                        Fundanus ibi capperetur, qui videlicet Richardus nepharia et flagitiosa
-                        proditione quam fecit de Leone de Fundis ita foris ferit, ut tam ipse quam
-                        sua omnia in nostra potestate iure perveniret. Nam cum esset cum eo in
-                        securitate per sacramenta, compater quoque eius et amicus fuisset, post
-                        datum ei prandium in domo sua, hostiliter, tyrannorum more comprendit tam
-                        ipsum quam Petrum filium eius et Marinum de Etro et homines eorum. Hunc
-                        supradictum castrum cum superioribus suis et inferioribus suis, cum terris
-                        cultis et incultis, cum silvis, pascuis, fontibus aquarumque decursibus et
-                        cum universis, ut dictum est, pertinentiis eius nos predicti pater et filius
-                        per hoc idem principale scriptum in perpetuum damus et tradendo confirmamus
-                        ad possessionem et potestatem ac dominationem prephati monasterii et iam
-                        dicti domni Oderisii cardenalis et abbas et eius successoribus, faciendi
-                        exinde quicquid eis placuerit ex nostra plenissima largitate, remota ex his
-                        omnibus predictis omni inquietudine, contrarietate vel molestia omnium
-                        principum successorum nostrorum vel viceprincipum, comitum vel vicecomitum,
-                        iudicum, sculdahorum, castaldeorum aliorumque omnium mortalium personarum.
-                        Preterea per hanc nostre concessionis paginam confirmamus iam dicto
-                        monasterio Sancti Benedicti et tibi domino Oderisio abbati tuisque
-                        successoribus omnia ea que predecessores nostri principes, videlicet
-                        Richardus avus et Iordanus pater noster et secundus Richardus et Robbertus
-                        principes eidem venerabili loco aut monasteriis ad illum pertinentibus
-                        contulerunt vel quicquid nos ipsi eis concessimus aut aliquis ex baronibus
-                        nostris seu quelibet alia persona ex voluntate nostra eis optulit, ut
-                        tempore omni deinceps ea firmiter habeatis et possideatis absque omni
-                        molestia aut contradictione cuilibet persone. Quod siquis huius nostre
+                        dinoscitur, hoc est totum et integrum <rs key="#Castle">castrum</rs> quod
+                        nominatur <placeName
+                            key="#Rivers #Landed_possessions #Forests #Hay/fodder #Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Inflow #Confiscation #Outflow #Iure_proprietatis/pleno_iure #Castle #Tower #Walls #Rights_of_use_on_woods/pastures/waters #Property_of_criminals/political_traitors"
+                            ref="#places/4538">Lu Pica</placeName> cum <rs key="#Walls"
+                            >munitione</rs> et <rs key="#Tower">turri</rs> et universis pertinentiis
+                        eius, sicut <persName key="#childOf" ref="#people/4223">Richardus</persName>
+                        <rs key="#childOf">filius</rs>
+                        <persName ref="#people/4224">Raonis Pignardi</persName> illud tenuit et
+                        dominatus est quindecim dies antequam <persName ref="#people/4219">Leo
+                            Fundanus</persName> ibi capperetur, qui videlicet Richardus <rs
+                            key="#Property_of_criminals/political_traitors">nepharia et flagitiosa
+                            proditione quam fecit de Leone de Fundis ita foris ferit, ut tam ipse
+                            quam sua omnia in nostra potestate iure perveniret</rs>. Nam cum esset
+                        cum eo in securitate per sacramenta, compater quoque eius et amicus fuisset,
+                        post datum ei prandium in domo sua, hostiliter, tyrannorum more comprendit
+                        tam ipsum quam <persName key="#childOf" ref="#people/4225">Petrum</persName>
+                        <rs key="#childOf">filium</rs> eius et <persName><name ref="Marinus de Etro"
+                                >Marinum de Etro</name></persName> et <rs key="#homoOf">homines</rs>
+                        eorum. Hunc supradictum castrum cum superioribus suis et inferioribus suis,
+                        cum <rs key="#Landed_possessions">terris cultis et incultis</rs>, cum <rs
+                            key="#Forests">silvis</rs>, <rs
+                            key="#Hay/fodder #Rights_of_use_on_woods/pastures/waters">pascuis</rs>,
+                            <rs key="#Rivers #Rights_of_use_on_woods/pastures/waters">fontibus
+                            aquarumque decursibus</rs> et cum universis, ut dictum est, pertinentiis
+                        eius nos predicti pater et filius per hoc idem principale scriptum in
+                        perpetuum damus et tradendo confirmamus ad possessionem et potestatem ac
+                        dominationem prephati monasterii et iam dicti domni Oderisii cardenalis et
+                        abbas et eius successoribus, faciendi exinde quicquid eis placuerit ex
+                        nostra plenissima largitate, <rs key="#Immunity">remota ex his omnibus
+                            predictis omni inquietudine, contrarietate vel molestia omnium principum
+                            successorum nostrorum vel viceprincipum, comitum vel vicecomitum,
+                            iudicum, sculdahorum, castaldeorum aliorumque omnium mortalium
+                            personarum.</rs> Preterea per hanc nostre concessionis paginam
+                        confirmamus iam dicto monasterio Sancti Benedicti et tibi domino Oderisio
+                        abbati tuisque successoribus omnia ea que predecessores nostri principes,
+                        videlicet Richardus avus et Iordanus pater noster et secundus Richardus et
+                        Robbertus principes eidem venerabili loco aut monasteriis ad illum
+                        pertinentibus contulerunt vel quicquid nos ipsi eis concessimus aut aliquis
+                        ex baronibus nostris seu quelibet alia persona ex voluntate nostra eis
+                        optulit, ut tempore omni deinceps ea firmiter habeatis et possideatis absque
+                        omni molestia aut contradictione cuilibet persone. Quod siquis huius nostre
                         concessionis, confirmationis pagine contemptor aut violator estiterit aut
-                        contra hoc principale scriptum agere temptaverit, mille libras auri
-                        purissimi persolvat, medietatem prenominato monasterio Sancti Benedicti et
-                        iam dicto domino Oderisio abbati vel successoribus eius, et medietatem
-                        nostro sacro Palatio, solutaque pena librarum auri hoc principale scriptum
-                        firmum, munitum atque inviolabile maneat in perpetuum. Ut autem hoc
-                        principale scriptum firmius credatur et diligenter ab omnibus observetur,
-                        manu propria subscribens illud corroboravimus et nostros sigillo illud
-                        insigniri iussimus. Signum domni Iordani secundi principis Capue. Signum
-                        Roberti filii eius. Ego qui supra Otto Dei clementia archiepiscopus. Ex
-                        iussione prephate serenissime potestatis scripsi ego Philippus palatinus
-                        iudex in anno dominice incarnationis millesimo centesimo XXV et V anno
-                        principatus prescripti domni Iordani gloriosissimi principis Capue. Datum
-                        Capue in mense Februario per indictionem tertiam. </ab>
+                        contra hoc principale scriptum agere temptaverit, <rs key="#Penalty">mille
+                            libras auri purissimi </rs>persolvat, medietatem prenominato monasterio
+                        Sancti Benedicti et iam dicto domino Oderisio abbati vel successoribus eius,
+                        et medietatem nostro sacro Palatio, solutaque pena librarum auri hoc
+                        principale scriptum firmum, munitum atque inviolabile maneat in perpetuum.
+                        Ut autem hoc principale scriptum firmius credatur et diligenter ab omnibus
+                        observetur, manu propria subscribens illud corroboravimus et nostros sigillo
+                        illud insigniri iussimus. Signum domni <persName
+                            key="#Witness #Princeps #Vir_gloriosus/vir_sublimis" ref="#people/3022"
+                            >Iordani secundi</persName> principis Capue. Signum <persName
+                            key="#Witness #childOf" ref="#people/3042">Roberti</persName> filii
+                        eius. Ego qui supra <persName key="#Intercessory #Witness #Archbishops"
+                            ref="#people/4221">Otto</persName> Dei clementia <rs key="#Archbishops"
+                            >archiepiscopus</rs>. Ex iussione prephate serenissime potestatis
+                        scripsi ego <persName key="#Writer #Judge" ref="#people/3037"
+                            >Philippus</persName>
+                        <rs key="#Judge">palatinus iudex</rs> in anno dominice incarnationis
+                        millesimo centesimo XXV et V anno principatus prescripti domni Iordani <rs
+                            key="#Vir_gloriosus/vir_sublimis">gloriosissimi</rs> principis Capue.
+                        Datum <placeName key="#Cities" ref="#places/173">Capue</placeName> in mense
+                        Februario per indictionem tertiam. </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
