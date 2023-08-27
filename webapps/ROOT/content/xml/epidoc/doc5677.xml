@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../../tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Montecassino, Archivio privato, Carte di Pomposa, fasc. IX, n. 185</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2022">2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DiSCi UniBo</publisher>
+                <idno type="filename">doc5677</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+                </availability>
+                <date when="2022"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Libellus/precaria/emphyteusis</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property"/>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="1066-03-21">
+                                <note type="displayed_date">1066 March 21</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Ravenna</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace><foreign>Sancta Maria in Pomposia</foreign></origPlace>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-02-03" who="cstedile">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine Domini. Temporibus Heinrici regis filii quondam Heinrici
+                        imperatoris anno decimo, die vigesima prima mensis marcii, indic(ione)
+                        quarta, <placeName ref="#places/594">RAV(enne)</placeName>. Fecit cartam <rs
+                            key="#Libellus/precaria/emphyteusis">enfit(eosis)</rs> domnus <persName
+                            key="#Monks"><name ref="Wido Pomposianus">Wido</name></persName>
+                        <rs key="#Monks">monachus</rs>
+                        <orgName key="#Monasteries" ref="#juridical_persons/1460"><placeName
+                                ref="#places/4179">Pomposie</placeName></orgName>, ad firmandam ab
+                            <rs key="#Abbots">abbate</rs> ipsius monasterii cum consensu aliorum
+                        monachorum, <persName><name ref="Petrus de Walterio">Petro de
+                            Waltero</name></persName> pro se et pro <persName><name ref="Walterius"
+                                >Waltero</name></persName> avunculo suo eorumque filiis et nepotibus
+                        de omnibus rebus illis, quas detinet <persName><name
+                                ref="Iohannes de Teutio">Iohannes de Teucio</name></persName> iure
+                        suprascripti monasterii, positas in loco qui dicitur <placeName
+                            key="#Libellus/precaria/emphyteusis" ref="#places/4606">Campus
+                            Domnicus</placeName>, <rs>territorio</rs> Faventino, | plebe Sancti
+                        Iohannis in Axiata. Et call(ciarium) inde recepit | den(ariorum)
+                        Veron(ensium) libras decem, eo tenore si intra | totum mensem madii ipse aut
+                        abbas suprascripti monasterii sive | alii rectores persolverint predictas
+                        libras pre|nominatis petitoribus aut suprascriptorum heredibus, ipsi
+                        debebunt reci|pere absque omni alio lucro, et si intra totum mensem | madii
+                        non persolverint, deinde in antea | debebunt habere omnes fructus et
+                        redditus | illius terre donec illis sit persolutum totum | suprascriptum
+                        deditum.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>Mezzetti, <foreign>Le carte</foreign>, vol. 2, doc. 47 (in preparazione).</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
