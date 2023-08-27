@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../../tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Carte di Pomposa (Mezzetti, <foreign>Le carte</foreign>, vol. 2, doc. 43 (in
+                    preparazione))</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2022">2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DiSCi UniBo</publisher>
+                <idno type="filename">doc5673</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+                </availability>
+                <date when="2022"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">-Cartula</rs>
+                            <rs type="record_source" ref="#">Edition</rs>
+                            <rs type="document_tradition" ref="#">Uncertain tradition</rs>
+                            <rs type="fiscal_property"/>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="1064-12-24">
+                                <note type="displayed_date">1064 December 24</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Ravenna</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace><foreign>Sancta Maria in Pomposia</foreign></origPlace>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-02-03" who="cstedile">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine Domini. Temporibus Henrici regis filii quondam Heinrici
+                        imperatoris anno octavo, die vigesimaquarta mensis decembris, indictione
+                        secunda, <placeName ref="#places/594">Ravenne</placeName>. Dum adesem ego
+                            <persName key="#Tabellio"><name ref="Wido">Wido</name></persName> Dei
+                        misericordia Ravenas <rs key="#Tabellio">tabelio</rs> in antica mansionis
+                        Sergi de Tederaldo ibique mecum viri qui is nominibus nominantur, idest
+                        Ingizo de Rorolius, Bonizo filius eius, Bonus filius de Leone tabellio,
+                        Petrus qui vocatur de Martinus, Walterius et alii; in nostrorum omnium
+                        presentia accepit virgam manu sua <persName><name ref="Sergius de Tederado"
+                                >Sergius de Tederado</name></persName>, iamdictus dedit eam in manum
+                            <persName key="#Monks"><name ref="Wido Pomposianus"
+                            >Widonis</name></persName>
+                        <rs key="#Monks">monachi</rs>
+                        <rs key="#Monasteries">monasterii</rs>
+                        <orgName key="#Monasteries" ref="#juridical_persons/1460">Sancte Marie quod
+                            vocatur in <placeName ref="#places/4179">Pomposia</placeName></orgName>,
+                        spondens obligavit se suosque filios et heredes de <rs
+                            key="#Landed_possessions">terra</rs> et <rs key="#Wine">vinea</rs> cum
+                        omnibus ibi pertinentibus, quas habuit per <rs
+                            key="#Libellus/precaria/emphyteusis">enfiteusim</rs> a predicto
+                        monasterio, posita in <rs key="#Massae">massa</rs>
+                        <geogName
+                            key="#Venditio #Libellus/precaria/emphyteusis #Massae #Landed_possessions #Wine"
+                            ref="#estates/3935"><placeName
+                                key="#Venditio #Libellus/precaria/emphyteusis #Massae #Landed_possessions #Wine"
+                                >Maseoli</placeName></geogName>, quas Sergius monasterio <rs
+                            key="#Venditio">vendidit</rs>; quod neque ipse neque suis filiis et
+                        heredibus neque aliqua persona ab eo summissa vel summittenda predicto
+                        monasterio neque illius abbati neque rectoribus ipsius monasterii obediencia
+                        que res nec eos inquietabit neque damnum illi inde faciet vel ad placitum
+                        conducet. Et si omnia supradicta non observabunt sed contra facere
+                        presumserint, obligavit se daturum et compositurum cum suis filiis et
+                        heredibus abbati aut rectoribus ipsius monasterii <rs key="#Penalty">auri
+                            uncias sex</rs> et soluta pena, sponsio et obligatio maneat firma. Eo
+                        tamen tenore si prenominatum monasterium Pomposie dictam terram unquam
+                        recuperabit, enfiteosin olim facta a Sergio debebit ipsum monasterium illi
+                        habere et tenere firmam. Et ipse aut sui filii et nepotes qui terram
+                        recuperant debebunt reddere prefato monasterio quindecim libras denariorum
+                        Veneticorum. Quos modo dictus Wido monachus sibi coram testibus pro illius
+                        terre sponsione et obligacione dedit. Hoc factum est sub die menseque et
+                        indictione supradicta secunda, Ravenne.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>Mezzetti, <foreign>Le carte</foreign>, vol. 2, doc. 43 (in preparazione).</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>Mezzetti, per la sua edizione delle carte di Pomposa, si rifà in parte a una
+                    serie di copie di tradizione incerta realizzate da Federici nel XVIII secolo
+                    (Federici, <foreign>Codex</foreign>, I, pp. 820-822, da A perduto).</p>
+            </div>
+        </body>
+    </text>
+</TEI>
