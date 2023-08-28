@@ -30,10 +30,10 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
+                            <rs type="text_type" ref="#">--Promissio</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Copy</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -41,8 +41,8 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate>
-                                <note type="displayed_date"/>
+                            <origDate notBefore="1106-01-01" notAfter="1107-12-31">
+                                <note type="displayed_date">1106 January 1 - 1107 December 31</note>
                                 <note type="dating_elements"/>
                                 <note type="topical_date"/>
                                 <note type="redaction_date">1131-1133</note>
@@ -81,26 +81,63 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>Ego Robbertus frater secundi Richardi principis promitto et iuro tibi domno
-                        Octoni Casinensis monasterio abbati, per hec sacra evangelia Dei, quod ab
-                        hac hora in antea non ero in consilio vel in facto seu consensum ut vitam
-                        vel menbrum de tuo corpore perdas, ut captus sis ad tuam damnitate. Honorem
-                        et terram, quam Casinensem monasterium Sancti Benedicti tenuit et dominatum
-                        est, vel conquisivit infra principatum Capuanum seu ducatum Gaietanum
-                        tempore Richardi principis avi mei et Iordani principis fratris mei, et quod
-                        postea ibi vel suis subditis ecclesiis offertum vel datum est usque nunc, et
-                        nominatim ecclesiam Sancte Agathe sitam prope muros Aversane urbis cum
-                        omnibus terris et hominibus, quos Iordanis principis pater meus dedit et
-                        concessit predicto monasterio, et oppidum Pontiscurbi cum his pertinentiis,
-                        qualiter Richardus princeps frater meus illud concessit et confirmavit
-                        predicto monasterio et domno Oderisio abbati, adiuvabo te et predictum
-                        monasterium ad tenendum et defendendum contra omnes homines qui vobis illud
-                        vel inde auferre temptaverint si inde ammonitus fuero. Omia prescripta
-                        observabo recta fide, absque fraude et malo ingenio, me scientem.</ab>
+                    <ab>Ego <persName ref="#people/3019" key="#siblingOf">Robbertus</persName>
+                        <rs key="#siblingOf">frater</rs>
+                        <persName key="#Princeps" ref="#people/3010">secundi Richardi </persName><rs
+                            key="#Princeps">principis</rs> promitto et iuro tibi domno <persName
+                            key="#Abbots" ref="#people/4228">Octoni</persName>
+                        <orgName key="#Monasteries" ref="#juridical_persons/84">Casinensis</orgName>
+                        <rs key="#Monasteries">monasterio</rs>
+                        <rs key="#Abbots">abbati</rs>, per hec sacra evangelia Dei, quod ab hac hora
+                        in antea non ero in consilio vel in facto seu consensum ut vitam vel menbrum
+                        de tuo corpore perdas, ut captus sis ad tuam damnitate. Honorem et terram,
+                        quam Casinensem monasterium Sancti Benedicti tenuit et dominatum est, vel
+                        conquisivit infra principatum <placeName key="#Cities" ref="#places/173"
+                            >Capuanum</placeName> seu <rs key="#Marca/ducatum">ducatum</rs>
+                        <placeName key="#Cities" ref="#places/2343"><geogName key="#Marca/ducatum"
+                                ref="#estates/3001">Gaietanum</geogName></placeName> tempore
+                            <persName key="#Princeps #grandparentOf" ref="#people/3001"
+                            >Richardi</persName>
+                        <rs key="#Princeps">principis</rs>
+                        <rs key="#grandparentOf">avi</rs> mei et <persName
+                            key="#Princeps #siblingOf" ref="#people/3022">Iordani</persName>
+                        <rs key="#Princeps">principis</rs>
+                        <rs key="#siblingOf">fratris</rs> mei, et quod postea ibi vel suis subditis
+                            <rs key="#Churches">ecclesiis</rs> offertum vel datum est usque nunc, et
+                        nominatim <rs key="#Churches">ecclesiam</rs>
+                        <orgName
+                            key="#Landed_possessions #Fiscal_property #Textual_occurrence #Mention #Function #Redistributive #Outflow #Iure_proprietatis/pleno_iure #Coloni/tenants #Churches"
+                            ref="#juridical_persons/3061">Sancte Agathe</orgName> sitam prope <rs
+                            key="#Walls">muros</rs>
+                        <placeName key="#Cities #Walls" ref="#places/4000">Aversane</placeName>
+                        <rs key="#Cities">urbis</rs> cum omnibus <rs key="#Landed_possessions"
+                            >terris</rs> et <rs key="#Coloni/tenants">hominibus</rs>, quos <persName
+                            key="#Princeps #parentOf" ref="#people/3002">Iordanis</persName>
+                        <rs key="#Princeps">principis</rs>
+                        <rs key="#parentOf">pater</rs> meus dedit et concessit predicto monasterio,
+                        et <rs key="#Castle">oppidum</rs>
+                        <placeName
+                            key="#Fiscal_property #Textual_occurrence #Mention #Function #Redistributive #Outflow #Iure_proprietatis/pleno_iure #Castle"
+                            ref="#places/4537">Pontiscurbi</placeName> cum his pertinentiis,
+                        qualiter <persName key="#Princeps #siblingOf" ref="#people/3010"
+                            >Richardus</persName>
+                        <rs key="#Princeps">princeps</rs>
+                        <rs key="#siblingOf">frater</rs> meus illud concessit et confirmavit
+                        predicto monasterio et domno <persName ref="#people/2416" key="#Abbots"
+                            >Oderisio</persName>
+                        <rs key="#Abbots">abbati</rs>, adiuvabo te et predictum monasterium ad
+                        tenendum et defendendum contra omnes homines qui vobis illud vel inde
+                        auferre temptaverint si inde ammonitus fuero. Omia prescripta observabo
+                        recta fide, absque fraude et malo ingenio, me scientem.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p/>
+                <p>Ed. E. Gattula, <foreign>Accessiones ad Historiam Abbatiae Casinensis</foreign>,
+                    Venezia 1734, p. 225; <foreign>Reg. Petr. Diac.</foreign> fol. 257v, n. 630; Ed.
+                    Martin et al., <foreign>Registrum Petri Diaconi (Montecassino, Archivio
+                        dell’abbazia, Reg.3)</foreign>, Istituto Storico Italiano per il Medioevo e
+                    École Française de Rome, 2016, vol. III, p. 1687 (source of the text reproduced
+                    here).</p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p/>
