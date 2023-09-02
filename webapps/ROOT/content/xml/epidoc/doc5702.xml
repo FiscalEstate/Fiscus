@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../../tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Carte di Pomposa (Mezzetti, <foreign>Le carte</foreign>, vol. 2, doc. 74 (in
+                    preparazione))</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2022">2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DiSCi UniBo</publisher>
+                <idno type="filename">doc5702</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+                </availability>
+                <date when="2022"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">-Cartula</rs>
+                            <rs type="record_source" ref="#">Edition</rs>
+                            <rs type="document_tradition" ref="#">Uncertain tradition</rs>
+                            <rs type="fiscal_property"/>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="1077-03-24">
+                                <note type="displayed_date">1077 March 24</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Pomposa (Ferrara)</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace><foreign>Sancta Maria in Pomposia</foreign></origPlace>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-02-03" who="cstedile">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>Die viesimoquarto mensis marcio, indictione quintadecima, in <rs
+                            key="#Islands">insula</rs>
+                        <placeName key="#Islands" ref="#places/4179">Ponposie</placeName>, infra <rs
+                            key="#Funerary_monuments/cemeteries">cimiterio</rs>
+                        <rs key="#Monasteries">monasterii</rs>
+                        <orgName
+                            key="#Islands #Exenia #Levies #Monasteries #Funerary_monuments/cemeteries"
+                            ref="#juridical_persons/1460">Sancte Marie</orgName>. Dum adesset ego
+                            <persName key="#Tabellio"><name ref="Iohannes"
+                            >Iohannes</name></persName>
+                        <rs key="#Tabellio">tabellio</rs> et domnus Petrus monachus celerario et
+                        Dominicus monachus de Purrleca, Iohannes monachus Motunensius et Alleto
+                        monachus et domnus Vitalis monachus et domnus Uberto monachus et Paulinus
+                        monachus et Iohannes de Urbino et Iohannes monachus enim Motuensis et
+                        Iohannes tabellio et Petrus de Cristofalus; in presencia predictorum omnium
+                        apreendid domnus <persName key="#Prevosts" ref="#people/1598"
+                            >Marco</persName>
+                        <rs key="#Prevosts">prepositus</rs>, una cum consensum cuncto convento
+                        prefato monasterio, fuste in manum sua et misit in manum <persName><name
+                                ref="Corbus">Corbone</name></persName> de <placeName
+                            ref="#places/485">Comiaclo</placeName> et dissit: ‘Ego investio tibi de
+                            <rs key="#Houses">mansione</rs> una, quod est domum, que est posito
+                        infra <rs key="#Cities">urbe</rs>
+                        <placeName key="#Cities #Houses" ref="#places/594">Ravenne</placeName>, in
+                        regione <orgName key="#Houses" ref="#juridical_persons/3638">Sancti Iohannis
+                            Baptiste</orgName>; et de <rs key="#Levies">terratico</rs> et ammissere
+                        quam redere debet <persName><name ref="Iohannes/Picolus">Iohannes qui
+                                vocatur Picolo</name></persName> de <placeName ref="#places/4619"
+                            >Ustolado</placeName> cum suis filiis et <rs key="#Exenia">exenio</rs>
+                        omnibus diebus vite suetantum utendi, fruendi et post suum obitu revertat ad
+                        supradictum monasterium nostrum, sup die et mensis et indictione supradicta
+                        quintadecima, in prefata insula.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>Mezzetti, <foreign>Le carte</foreign>, vol. 2, doc. 74 (in preparazione).</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>Mezzetti, per la sua edizione delle carte di Pomposa, si rifà in parte a una
+                    serie di copie di tradizione incerta realizzate da Federici nel XVIII secolo
+                    (Federici, <foreign>Codex</foreign>, I, pp. 912-913, da A perduto).</p>
+            </div>
+        </body>
+    </text>
+</TEI>
