@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../../tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Montecassino, Archivio privato, Carte di Pomposa, fasc. VIII, n. 153</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2022">2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DiSCi UniBo</publisher>
+                <idno type="filename">doc5716</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+                </availability>
+                <date when="2022"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Libellus/precaria/emphyteusis</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property"/>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="1081-11-21">
+                                <note type="displayed_date">1081 November 21</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date"><foreign>Salecto</foreign></note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace><foreign>Sancta Maria in Pomposia</foreign></origPlace>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-02-03" who="cstedile">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine Domini. Anno ab incarnatjone eius millesimo octuagesimo primo,
+                        temporibus domni <persName key="#Popes" ref="#people/265"
+                            >Gregorii</persName> pape cum sede [a]nno octavo, regnante <persName
+                            key="#Emperor/king" ref="#people/77">Henrico</persName> quondam Henritj
+                        impera[tori]s filio, die viesimo primo mensis novembris, ind(itjo)n(e)
+                        quarta, [in <rs key="#Fundi">fun]do</rs>
+                        <geogName key="#Fundi"><placeName key="#Fundi"
+                            >Salecto</placeName></geogName>. Petivi a vobis in Dei nomine <persName
+                            key="#Monks"><name ref="Wido Pomposianus">Wido</name></persName> et
+                            <persName key="#Monks"><name ref="Maurizo Pomposianus"
+                            >Mauritjus</name></persName> hone[sti <rs key="#Monks">m]onachi</rs>
+                        <rs key="#Monasteries">monasterii</rs>
+                        <orgName key="#Monasteries" ref="#juridical_persons/1460">Sancte Marie in
+                                <placeName ref="#places/4179">Ponposea</placeName></orgName>, cum
+                        consensu domni <persName key="#Abbots" ref="#people/1599"
+                            >Geronimi</persName> nostri <rs key="#Abbots">abatis</rs> et cum
+                        consensu monachorum eiusdem monasterii, michi presenti in Christi nomine
+                        <persName
+                            ><name ref="Fuscardus">Fuscardo</name></persName> petitor pro me et 
+                        pro iugale mea silicet <persName
+                            ><name ref="Inga">Inga</name></persName> seu filiis et
+                        nepotibus nostris sub dominium et potestatem <rs key="#Priests">presbiteri</rs> <persName
+                            key="#Priests"><name ref="Petrus">Petri</name></persName> fratris tui,
+                                per <rs key="#Libellus/precaria/emphyteusis">enfiteuticario iure</rs> 
+                                concessistis et largistis michi rem iuris predicti
+                        monasterii vestri, idest omnes res et pertinentjas vestras quas usque modo
+                        posedit <persName key="#Libellus/precaria/emphyteusis"
+                            ><name ref="Petrus Sturianus">Petrus Sturianus</name></persName> 
+                                iure predicto monasterio que sunt posite in fundo
+                        <geogName key="#Fundi" ref="#estates/3949"><placeName key="#Fundi">Meriaule</placeName></geogName>, 
+                                cum ingresso et regresso suo et cum omnibus suis pertinentjis,
+                        sitas <rs key="#Fines">territorio</rs> 
+                                <geogName key="#Fines" ref="#estates/2424"><placeName key="#Fines" ref="#places/3513">Faventino</placeName></geogName> 
+                                acto Corneliensis, <rs key="#Plebs">plebe</rs> 
+                        <orgName key="#Plebs" ref="#juridical_persons/3627">Sancti Iohannis in
+                        Libba</orgName>, <rs key="#Confinia">interraffines</rs> eius hoc est: ab uno latere detinet eres quondam
+                        <persName key="#Confinia"
+                            ><name ref="Rusticus de Comperto">Rustici de Comperto</name></persName>, 
+                        ab alio latere Romaldus filius quondam Alberti
+                        iudicis, a tertjo latere | Uuido presbiteri Ursonis, a quarto latere vos
+                        predicti ordinatoris. Et insuper addi|distis michi una petjola terre que est
+                        posita in fundo Maserie, | cum ingresso et regresso suo et cum omnibus suis
+                        pertinentjis, con|stituta vero in predicto territorio et in predicta plebe,
+                        | interraffines eius idest: ab uno latere detinet Romaldus, ab alio latere
+                        Ugo | Gerardi filius, a tertjo iuris monasterii Sancti Adalberti, a quarto
+                        latere via | percurente. Hec omnia abendas, tenendas, defensandas et in
+                        omnibus | meliorandas, pensionis nomine singulis quibusque anni omni martji
+                        mense infra ind(itjo)n(e) denariis monete Venetje duodetjm tantum, pensio ut
+                        dic|tum est persolvatur. Call(tjarii) | nomine, idest librum unum pro
+                        denariis monete | Venetje libras tres. Si quis vero partis nostre contra
+                        hanc aparam | henfiteosin ire temtaverimus ante perfinitum tempus sicut(a)
+                        superius | legitur det pars partis fidem servantis, ante omne litis
+                        i|nitjum(b) aut interpell(atjonem), pene nomine, | auri untjas duas et post
+                        penam | solutam hec appara henfiteosin maneat ratam. Wido de Faven(tina) |
+                        patria Dei misericordia tabellio scribendum rogavi, sub die et mense et
+                        ind(itjo)n(e) | suprascripta quarta. Signum + manus predicti Fuscardi in ac
+                        appara a me facta subscripsi.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>Mezzetti, <foreign>Le carte</foreign>, vol. 2, doc. 88 (in preparazione).</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
