@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../../tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Carte di Pomposa (Mezzetti, Le carte, vol. 2, doc. 103 (in
+                    preparazione))</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2022">2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DiSCi UniBo</publisher>
+                <idno type="filename">doc5731</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+                </availability>
+                <date when="2022"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Offersio/donatio</rs>
+                            <rs type="record_source" ref="#">Edition</rs>
+                            <rs type="document_tradition" ref="#">Uncertain tradition</rs>
+                            <rs type="fiscal_property"/>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="1087-12-04">
+                                <note type="displayed_date">1087 December 4</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Budrio (Bologna)</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace><foreign>Sancta Maria in Pomposia</foreign></origPlace>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-02-03" who="cstedile">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine sancte et individue Trinitatis. Anno ab incarnacione domini nostri
+                        Iesu Christi millesimo octuagesimo septimo, imperante <persName
+                            key="#Emperor/king" ref="#people/77">Enricus</persName> imperator anno
+                        quarto, die quarto mense december, indictione undecima, in <rs key="#Castle"
+                            >castro</rs> novo qui vocatur <placeName key="#Castle"
+                            ref="#places/4811">Butrio</placeName>. Et ideo in Dei nomine ego quidem
+                                <persName><name ref="Teutuitia">Teutuicha</name></persName> relicta
+                        quondam <persName key="#Count"><name ref="Hugo">Ugone</name></persName>
+                        <rs key="#Count">comite</rs> mea propria hac spontanea voluntate ut per hanc
+                            <rs key="#Offersio/donatio">cartam manifestacionis concessionis atque
+                            transfersionis</rs> necnon simulque perpetualiter transhaccionis do et
+                        concedo ego supradicta Teuticha pro remedio et luminarie anima de
+                        supradictus quondam Ugone qui fuit vir et senior meus tibi in Christi nomine
+                            <persName key="#Monks"><name ref="Teutius Pomposianus"
+                            >Teuzonis</name></persName>
+                        <rs key="#Monks">monachus</rs>
+                        <rs key="#Monasteries">monasterii</rs>
+                        <orgName key="#Offersio/donatio #Petiae #Production #Monasteries"
+                            ref="#juridical_persons/1460">Sancte Marie quod vocatur de <placeName
+                                ref="#places/4179">Ponposia</placeName></orgName> acceptore pro ex
+                        persona et in vice domini <persName key="#Abbots" ref="#people/1599"
+                            >Geronimi</persName>
+                        <rs key="#Abbots">abbatis</rs> predicto monasterio in honore predicta
+                        ecclesia vestrisque successoribus qui ad predicta regula ordinati fuerunt ad
+                        abendum, tenendum et possidendum in perpetuum a iura propria, idest infra
+                            <rs key="#Plebs">plebe</rs>
+                        <orgName key="#Offersio/donatio #Petiae #Production #Plebs"
+                            ref="#juridical_persons/1103">
+                            <placeName ref="#places/1501"
+                                key="#Offersio/donatio #Petiae #Production">Sancti
+                                Vincenci</placeName></orgName> prope <rs key="#Churches"
+                            >ecclesia</rs>
+                        <orgName key="#Offersio/donatio #Petiae #Production #Churches"
+                            ref="#juridical_persons/3645">Sancti Venancii</orgName>
+                        <rs key="#Petiae">pecia</rs> huna <rs key="#Production">terra aratoria</rs>,
+                        que est ad rationes facte <rs key="#Size">tornaturie ses</rs>, abentem per
+                        hunaquaque tornaturia ex omni parte <rs key="#Size">perticas duodecim</rs>,
+                            <rs key="#Confinia">finis</rs> ubi supradicte tornaturie esse videtur:
+                        da uno latere iusta heredes quondam <persName key="#Confinia"><name
+                                ref="Marchisellus de Landulfo">Marchisello de
+                            Landulfo</name></persName>, ab alio latere iusta <persName
+                            key="#Confinia"><name ref="Paganus de Gotefredo">Paganus de
+                                Gotifredo</name></persName> et de ambabus capitibus iusta <rs
+                            key="#Roads">via publica</rs> et si quis aliis afines sunt infra istis
+                        designatis quatuor lateribus sicut mensura et latus designavit sicut supra
+                        legitur ses tornaturie in integrum. Has autem supradicte tornaturie qualiter
+                        supra legitur a presenti die per hanc cartam manifestacionis, cessionis
+                        atque perpetue transhaccionis do et concedo atque transacto ego
+                        supramemorata Teutuicha tibi supradictus acceptore in vice supradictus abas
+                        tuisque successoribus ad abendum, tenendum et possidendum et faciendum
+                        quicquid vobis placuerit, ut neque da me neque supra conceditrice neque da
+                        nostris heredibus aut per submissa vel rogativa persona mea neque per illum
+                        vix ingenium vel argumentum in ullam exinde abeatis molestacionem aut
+                        causacionem vel interrupcionem, set omni tempore ab omni homine defensare et
+                        auctorizare promitto. Alioquin datura me promitto ego supradicta Teutuicha
+                        conceditrice vel heredibus hac pro heredibus vel parentibus meis componere
+                        et dare vobis supradictus Teuzonis acceptoris pro ex persona de supradictus
+                        abas vestrisque successoribus, pene nomine, <rs key="#Penalty">auri optimi
+                            uncias huna </rs> et post penam solutam, presente carta sicut supra
+                        legitur omni tempore in suo robore remaneat. Actum in castro Butrio novo,
+                        indictione supradicta undecima. Signum manus supradicta Teutuicha que hanc
+                        cartam omnia ut supra legitur fieri rogavi. Signum manus testis Girardo de
+                        Anselmo, Enrico Vicecomes, Ubertus de Verdona, Benna de Drutha, Albertus de
+                        Dolia interfuere testes. + Tabellio <persName key="#Tabellio"><name
+                                ref="Hubertus">Ubertus</name></persName> pro rogacione de supradicta
+                        Teutuicha omnia ut supra legitur scripsi et firmavi.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>Mezzetti, Le carte, vol. 2, doc. 103 (in preparazione).</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>Mezzetti, per la sua edizione delle carte di Pomposa, si rifà in parte a una
+                    serie di copie di tradizione incerta realizzate da Federici nel XVIII secolo
+                    (cfr. Federici, <foreign>Codex</foreign>, I, pp. 1071-1075).</p>
+            </div>
+        </body>
+    </text>
+</TEI>
