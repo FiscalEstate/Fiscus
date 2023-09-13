@@ -4882,10 +4882,12 @@
                         <link type="people" corresp="#people/3002" subtype="parentOf"/>
                         <link type="people" corresp="#people/3003" subtype="marriage"/>
                         <link type="people" corresp="#people/3010" subtype="grandparentOf"/>
-                        <link type="people" corresp="#people/3060" subtype="nephew/nieceOf"/>
-                        <link type="people" corresp="#people/3061" subtype="childOf"/>
+                        <link type="people" corresp="#people/3061" subtype="siblingOf"/>
                         <link type="people" corresp="#people/2422" subtype="uncle/auntOf"/>
                         <link type="people" corresp="#people/3042" subtype="greatGrandparentOf"/>
+                        <link type="people" corresp="#people/3060" subtype="nephew/nieceOf"/>
+                        <link type="people" corresp="#people/4236" subtype="siblingOf"/>
+                        <link type="people" corresp="#people/4237" subtype="siblingOf"/>
                     </person>
                     <person>
                         <persName>Iordanus I (principe di Capua; 1078-1091) </persName>
@@ -5419,7 +5421,9 @@
                         <idno>people/3061</idno>
                         <note>Ricoprì contemporaneamente anche la carica di duca di Gaeta.</note>
                         <link type="people" corresp="#people/3060" subtype="nephew/nieceOf"/>
-                        <link type="people" corresp="#people/3001" subtype="parentOf"/>
+                        <link type="people" corresp="#people/3001" subtype="siblingOf"/>
+                        <link type="people" corresp="#people/4236" subtype="siblingOf"/>
+                        <link type="people" corresp="#people/4237" subtype="siblingOf"/>
                     </person>
                     <person>
                         <persName>Aldemarius (1058-1059) notarius </persName>
@@ -6004,6 +6008,25 @@
                         <idno>people/4235</idno>
                         <note/>
                         <link type="people" corresp="#people/3001" subtype="officeHolderFor"/>
+                    </person>
+                    <person>
+                        <persName>Raginulfus II Drengot (?-1088) comes Caiatiae</persName>
+                        <persName type="other">Raynulfus</persName>
+                        <idno>people/4236</idno>
+                        <note/>
+                        <link type="people" corresp="#people/3001" subtype="siblingOf"/>
+                        <link type="people" corresp="#people/3061" subtype="siblingOf"/>
+                        <link type="people" corresp="#people/2422" subtype="parentOf"/>
+                        <link type="people" corresp="#people/4237" subtype="siblingOf"/>
+                    </person>
+                    <person>
+                        <persName>Robertus (ante 1065-1081 ca.) comes </persName>
+                        <persName type="other">Robbertus</persName>
+                        <idno>people/4237</idno>
+                        <note>Fu conte di Vieste e Lucera dal 1065.</note>
+                        <link type="people" corresp="#people/4236" subtype="siblingOf"/>
+                        <link type="people" corresp="#people/3001" subtype="siblingOf"/>
+                        <link type="people" corresp="#people/3061" subtype="siblingOf"/>
                     </person>
                 </listPerson>
                 <listPerson n="Del Mercato Evelina">
@@ -16640,8 +16663,7 @@
                     </person>
                     <person>
                         <persName>Robertus (1065 ca. -1115) comes Alifae et Caiatiae</persName>
-                        <persName type="other">Robertus Drengot Quarrel; Rubbertus;
-                            Robbertus</persName>
+                        <persName type="other">Robertus Drengot Quarrel; Rubbertus</persName>
                         <idno>people/2422</idno>
                         <note>Alle cariche di conte di Alife e Caiazzo, assommò anche quelle di
                             conte di Telese e Sant'Agata de' Goti. </note>
@@ -16653,6 +16675,7 @@
                         <link type="people" corresp="#people/3001" subtype="nephew/nieceOf"/>
                         <link type="people" corresp="#people/3010" subtype="cousinOf"/>
                         <link type="people" corresp="#people/4217" subtype="siblingInLawOf"/>
+                        <link type="people" corresp="#people/4236" subtype="childOf"/>
                     </person>
                     <person>
                         <persName>Alexander III (1100-1181) papa</persName>

@@ -33,7 +33,7 @@
                             <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Copy</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -41,8 +41,8 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate>
-                                <note type="displayed_date"/>
+                            <origDate when="1066-03-06">
+                                <note type="displayed_date">1066 March 6</note>
                                 <note type="dating_elements"/>
                                 <note type="topical_date"/>
                                 <note type="redaction_date">1131-1133</note>
@@ -81,62 +81,113 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab> In nomine Domini salvatoris nostri Iesu Christi Dei eterni. Richardus et
-                        Iordanes divina ordinante providentia Capuanorum principes. Cum principali
-                        excellentia petitioni dilecti sui clementer favent, igitur fidelium
-                        nostrorum presentium omnium ac futurorum universitas noverit qualiter nos
-                        loca Deo ubique dicata cotidie in melius proficere nostra ope adhibita
-                        velimus, singulariter tamen et quasi specialius ceteris locum in quo patris
-                        nostri sanctissimi Benedicti corpus fovetur, que situm in Monte castro
-                        Casino, ubi nunc venerabilis domnus Desiderius regulari discipline eruditus
-                        abbas preest. Nunc autem ob amore Dei, quam et pro salute anime nostre
-                        necnon et pro salute animeque fratrum meorum Robberti et Raynulfi, quam
-                        etiam et ob remedium anime magne recordationis avunculi nostri comitis et
-                        ducis Rainulfi, nobis autem proprio principali iure hereditato a Landulfo
-                        filio Auloaldi necnon a Pandulfo filius quondam Guale nostri dilecti, per
-                        eorum commune interventum damus atque concedimus et confirmamus in prephato
-                        sancto ac venerabili loco turrem que est in finibus Suessa iuxta Gareliano
-                        et dicitur Turre ipsa ad Mare, cum habitationibus que circa eadem turre
-                        fuerint et sun et cum omne quicquit exinde tollere solitum est, cum ecclesia
-                        et quantum cognoscitur per murum inchoatum que fuit pro castellone. Damus
-                        etiam et concedimus in eodem sancto loco terram que est ante ingressu ipsius
-                        castellonis da ipsum Osente que sibi ad fines videtur usque in aqua predicti
-                        fluminis. Piscationes tamen ipsius ab ipsa ora fluminis usque directum cum
-                        ipsa turre que est ex alia parte, quali nostro principatui pertinet, damus
-                        et confirmamus prout nobis bonum videtur prefato sancto loco piscationes
-                        aquarum que appellatur Osentes. Etiam ut nobis melius videtur, concedimus in
-                        supradicto loco inclitus litus maris ab ora prefati fluminis usque in
-                        directum cum bicum qui dicitur Manstri Ianni. Quam etiam datione,
+                    <ab> In nomine Domini salvatoris nostri Iesu Christi Dei eterni. <persName
+                            key="#Witness #Princeps #Marquis/duke #Vir_gloriosus/vir_sublimis #Vir_excellentissimus"
+                            ref="#people/3001">Richardus</persName> et<persName
+                            key="#Princeps #Marquis/duke #Vir_gloriosus/vir_sublimis"
+                            ref="#people/3002"> Iordanes</persName> divina ordinante providentia
+                        Capuanorum <rs key="#Princeps">principes</rs>. Cum principali excellentia
+                        petitioni dilecti sui clementer favent, igitur fidelium nostrorum presentium
+                        omnium ac futurorum universitas noverit qualiter nos loca Deo ubique dicata
+                        cotidie in melius proficere nostra ope adhibita velimus, singulariter tamen
+                        et quasi specialius ceteris <orgName ref="#juridical_persons/84"
+                            key="#Immunity">locum in quo patris nostri sanctissimi Benedicti corpus
+                            fovetur</orgName>, que situm in <placeName ref="#places/109">Monte
+                            castro Casino</placeName>, ubi nunc <rs key="#Personal_rank"
+                            >venerabilis</rs> domnus <persName key="#Abbots #Personal_rank"
+                            ref="#people/2421">Desiderius</persName> regulari discipline eruditus
+                            <rs key="#Abbots">abbas</rs> preest. Nunc autem ob amore Dei, quam et
+                        pro salute anime nostre necnon et pro salute animeque <rs key="#siblingOf"
+                            >fratrum</rs> meorum <persName key="#siblingOf" ref="#people/4237"
+                            >Robberti</persName> et <persName key="#siblingOf" ref="#people/4236"
+                            >Raynulfi</persName>, quam etiam et ob remedium anime magne
+                        recordationis <rs key="#uncle/auntOf">avunculi</rs> nostri <rs key="#Count"
+                            >comitis</rs> et <rs key="#Marquis/duke">ducis</rs>
+                        <persName key="#Marquis/duke #Count #uncle/auntOf" ref="#people/3060"
+                            >Rainulfi</persName>, nobis autem proprio principali iure hereditato a
+                            <persName key="#Intercessory" ref="#people/4201">Landulfo filio
+                            Auloaldi</persName> necnon a <persName key="#Intercessory"
+                            ref="#people/4200">Pandulfo filius quondam Guale</persName> nostri
+                        dilecti, <rs key="#Intercessory">per eorum commune interventum</rs> damus
+                        atque concedimus et confirmamus in prephato sancto ac venerabili loco <rs
+                            key="#Tower">turrem</rs> que est in <rs key="#Fines">finibus</rs>
+                        <placeName key="#Fines" ref="#places/571"><geogName ref="#estates/1913"
+                                >Suessa</geogName></placeName> iuxta <placeName ref="#places/2825"
+                            >Gareliano</placeName> et dicitur <placeName
+                            key="#Houses #Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Iure_proprietatis/pleno_iure #Tower"
+                            ref="#places/4522">Turre ipsa ad Mare</placeName>, cum <rs key="#Houses"
+                            >habitationibus</rs> que circa eadem turre fuerint et sun et <rs
+                            key="#Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Iure_proprietatis/pleno_iure #Public_exactions"
+                            >cum omne quicquit exinde tollere solitum est</rs>, cum <rs
+                            key="#Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Iure_proprietatis/pleno_iure #Churches"
+                            >ecclesia</rs> et quantum cognoscitur per <rs key="#Walls">murum</rs>
+                        inchoatum que fuit pro <rs key="#Fortifications">castellone</rs>. Damus
+                        etiam et concedimus in eodem sancto loco <rs
+                            key="#Landed_possessions #Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Iure_proprietatis/pleno_iure"
+                            >terram</rs> que est ante ingressu ipsius castellonis <placeName
+                            key="#Fortifications" ref="#places/4540">da ipsum Osente</placeName> que
+                        sibi ad <rs key="#Fines">fines</rs> videtur usque in aqua predicti <rs
+                            key="#Rivers">fluminis</rs>. <rs
+                            key="#Fisheries #Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Iure_proprietatis/pleno_iure"
+                            >Piscationes</rs> tamen ipsius ab ipsa <rs key="#Shores">ora</rs>
+                        fluminis usque directum cum ipsa turre que est ex alia parte, quali nostro
+                        principatui pertinet, damus et confirmamus prout nobis bonum videtur prefato
+                        sancto loco piscationes aquarum que appellatur
+                            <placeName>Osentes</placeName>. Etiam ut nobis melius videtur,
+                        concedimus in supradicto loco inclitus <rs
+                            key="#Shores #Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Allocation_to_churches"
+                            >litus</rs>
+                        <rs key="#Sea">maris</rs> ab ora prefati fluminis usque in directum cum <rs
+                            key="#Vici #Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Iure_proprietatis/pleno_iure"
+                            >bicum</rs> qui dicitur <placeName
+                            key="#Vici #Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Iure_proprietatis/pleno_iure"
+                            ref="#places/4541">Manstri Ianni</placeName>. Quam etiam datione,
                         confirmationem atque concessionem totam et integram, qualiter suprascripta
                         sunt, in prefato sancto ac venerabile loco concedimus necnon et prefato
-                        domno Desiderio reverentissimo abbati eiusque successoribus atque rectoribus
-                        regulariter faciendum exinde omnia que pro parte ipsius prefato loco sancto
-                        placuerint. Ob recordationem etiam et nostram eternaliter stabiliendam
-                        dationem ac concessionem, hos nostre firmitatis apices fieri iussimus,
-                        quibus omnino sanccimus et perpetualiter habendum mandamus, ut amodo et
-                        semper ipse domnus Desiderius abbas suisque successores et pars predicti
-                        sanctissimi loci firmiter, secure, libere et quiete habeant et possideant
-                        inclitam predictam turrem cum predictam concessionem per omne, sicut
-                        superius scriptum est, remota omni inquietudine et molestatione qui ius
-                        cumque comitis, iudicis, castaldeis, sculdais et omnium mortalium persone.
-                        Quod si quelibet hominum persona parva vel magna contra hanc nostri precepti
-                        firmnitatem agere presumpserit aut eius violatrix in quocumque fieri
-                        temptaverit, sciat se compositurus auri purissimi libras octoginta,
+                        domno Desiderio <rs key="#Personal_rank">reverentissimo</rs> abbati eiusque
+                        successoribus atque rectoribus regulariter faciendum exinde omnia que pro
+                        parte ipsius prefato loco sancto placuerint. Ob recordationem etiam et
+                        nostram eternaliter stabiliendam dationem ac concessionem, hos nostre
+                        firmitatis apices fieri iussimus, quibus omnino sanccimus et perpetualiter
+                        habendum mandamus, ut amodo et semper ipse domnus Desiderius abbas suisque
+                        successores et pars predicti sanctissimi loci <rs key="#Immunity">firmiter,
+                            secure, libere et quiete habeant et possideant inclitam predictam turrem
+                            cum predictam concessionem per omne, sicut superius scriptum est, remota
+                            omni inquietudine et molestatione qui ius cumque comitis, iudicis,
+                            castaldeis, sculdais et omnium mortalium persone</rs>. Quod si quelibet
+                        hominum persona parva vel magna contra hanc nostri precepti firmnitatem
+                        agere presumpserit aut eius violatrix in quocumque fieri temptaverit, sciat
+                        se compositurus <rs key="#Penalty">auri purissimi libras octoginta</rs>,
                         medietatem nostre camere et medietatem tibi prefato domno Desiderio abbati
                         vel tuis successoribus, et soluta pena huius nostre concessionis pagina
                         munitum, firmum ac stabile maneat in perpetuum. Ut autem hec nostre
                         concessionis pagina firmius credatur diligentiusque credatur ab omnibus
                         observetur, manu nostra corroborabimus et nostri sigilli inpressione
-                        iussimus insigniri. Signum domni Richardi excellentissimi principis.
-                        RICCARDVS. Ex iussione prephate serenissime potestatis scriptum per manus
-                        Iohannis iudicis in anno octabo principatus ipsius domni Richardi et domni
-                        Iordanis gloriosorum principum et tertio anno ducatus illorum Caiete. Data
-                        pridie nonas Martii, anno ab incarnatione Domini nostri Iesu Christi .M.
-                        sexagesimo .VIo., indictione quarta. </ab>
+                        iussimus insigniri. Signum domni <persName
+                            key="#Witness #Princeps #Marquis/duke #Vir_gloriosus/vir_sublimis #Vir_excellentissimus"
+                            ref="#people/3001">Richardi</persName>
+                        <rs key="#Vir_excellentissimus">excellentissimi</rs> principis. RICCARDVS.
+                        Ex iussione prephate serenissime potestatis scriptum per manus <persName
+                            key="#Writer #Judge" ref="#people/3064">Iohannis</persName>
+                        <rs key="#Judge">iudicis</rs> in anno octabo principatus ipsius domni
+                        Richardi et domni Iordanis <rs key="#Vir_gloriosus/vir_sublimis"
+                            >gloriosorum</rs> principum et tertio anno <rs
+                            key="#Marquis/duke #Marca/ducatum">ducatus</rs> illorum <placeName
+                            key="#Cities #Marca/ducatum" ref="#places/2343"><geogName
+                                key="#Marca/ducatum" ref="#estates/3001"
+                            >Caiete</geogName></placeName>. Data pridie nonas Martii, anno ab
+                        incarnatione Domini nostri Iesu Christi .M. sexagesimo .VIo., indictione
+                        quarta. </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p/>
+                <p><foreign>Codex Diplomaticus Cajetanus</foreign>, Monte Cassino 1891, vol. II, pp.
+                    76-78, n. 231; Ed. E. Gattula, <foreign>Accessiones ad Historiam Abbatiae
+                        Casinensis</foreign>, Venezia 1734, p. 166; <foreign>Reg. Petr.
+                        Diac.</foreign> fol. 176, n. 408; Ed. Martin et al., <foreign>Registrum
+                        Petri Diaconi (Montecassino, Archivio dell’abbazia, Reg.3)</foreign>,
+                    Istituto Storico Italiano per il Medioevo e École Française de Rome, 2016, vol.
+                    III, pp. 1153-1154 (source of the text reproduced here).</p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p/>
