@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../../tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Carte di Pomposa (Mezzetti, <foreign>Le carte</foreign>, vol. 2, doc. 129 (in
+                    preparazione))</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2022">2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DiSCi UniBo</publisher>
+                <idno type="filename">doc5755</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+                </availability>
+                <date when="2022"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Libellus/precaria/emphyteusis</rs>
+                            <rs type="record_source" ref="#">Edition</rs>
+                            <rs type="document_tradition" ref="#">Uncertain tradition</rs>
+                            <rs type="fiscal_property"/>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="1105-04-04">
+                                <note type="displayed_date">1105 April 4</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Ferrara</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace><foreign>Sancta Maria in Pomposia</foreign></origPlace>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-02-03" who="cstedile">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine Domini. Anno dominice incarnationis millesimo centesimo quinto,
+                            <persName key="#Emperor/king" ref="#people/77">Henricus</persName>
+                        inperator anno vicesimo secundo, die quarto mensis aprilis, indictione
+                        tertiadecima, in <rs key="#Cities">civitate</rs>
+                        <placeName key="#Cities" ref="#places/80">Ferrarie</placeName>. Omnibus
+                        manifestum est atque congruum atque dispositum desideriis annuere quibus et
+                        venerabiliorum locis utilitatibus meliorandique causa proficiunt. Et ideo
+                        vos quidem in Dei nomine donnus <persName key="#Monks"><name
+                                ref="Teobaldus Pomposianus">Tebaldus</name></persName>
+                        <rs key="#Monks">monacus</rs>, pro ex persona et in vice donni <persName
+                            key="#Abbots" ref="#people/1599">Ieronimi</persName>
+                        <rs key="#Abbots">abatis</rs>
+                        <rs key="#Monasteries">monasterii</rs>
+                        <orgName
+                            key="#Libellus/precaria/emphyteusis #Confinia #Rivers #Marshes/lagoons/tombolos #Landed_possessions #Fisheries #Penalty #Rent_in_money #Monasteries"
+                            ref="#juridical_persons/1460">Sancte Marie <placeName ref="#places/4179"
+                                >Pomposie</placeName></orgName>, una per consensum monachorum donno
+                            <persName key="#Monks"><name ref="Iohannes Pomposianus"
+                            >Iohannis</name></persName> monachi et donni <persName key="#Monks"
+                                ><name ref="Gregorius Pomposianus">Gregorii</name></persName>
+                        monachi ibi astancium et firmancium, hab ec die per <rs
+                            key="#Libellus/precaria/emphyteusis">henfiteosin paginam iure </rs> a
+                        presente die concedistis atque largistis seu confirmastis de rem iuris
+                        proprietatis supradicto monasterio michi presente in Christi nomine
+                            <persName key="#Causidicus"><name ref="Andreas"
+                            >Andreas</name></persName>
+                        <rs key="#Causidicus"> causidicus</rs> meisque filiis et nepotibus vel duos
+                        meos successores qualis mihi placuerit, silicet tota <rs
+                            key="#Landed_possessions">terra</rs> et <rs key="#Rivers">aqua</rs> et
+                            <rs key="#Fisheries">piscaria</rs> cum <rs
+                            key="#Marshes/lagoons/tombolos"> padulibus</rs> et <rs>missionibus</rs>,
+                        que habuit et detinuit et inibi pertinuit <persName key="#Tabellio"><name
+                                ref="Martinus">Martinus</name></persName>
+                        <rs key="#Tabellio">tabellio </rs> et <persName><name ref="Adam de Grauso"
+                                >Adammo de Graunso</name></persName>, in <rs key="#Fundi">fondo</rs>
+                        qui vocatur <geogName key="#Fundi"><placeName key="#Fundi">Spignana
+                            </placeName></geogName>, per singula loca, cunstituto <rs key="#Fines">
+                            territorio</rs>
+                        <geogName key="#Fines" ref="#estates/2420">
+                            <placeName key="#Fines" ref="#places/3522">
+                            Adriense</placeName></geogName>, in <rs key="#Plebs">plebe</rs>
+                        <orgName key="#Plebs">Sancti Michaelis </orgName>, <rs key="#Confinia">inter
+                            afines</rs> eius de toto predicto fondo Spignana: a primo latere
+                        Lauriano, secundo latere <rs key="#Canals">fossa</rs> de <placeName
+                            key="#Confinia #Canals">Caput de Longarie que vocatur de li
+                            Medalia</placeName> descendente in <rs key="#Rivers"> gurgo</rs> qui
+                        vocatur <placeName key="#Confinia #Rivers">Gurtatama</placeName>,
+                        perveniente ipsa fossa iusta latere <rs key="#Land_clearing">Ronco</rs> de
+                        herede quondam <persName key="#Confinia #Land_clearing"><name
+                                ref="Martinus de Geiza">Martino de Geza</name></persName> et
+                        descendente ipsa fossa in <placeName key="#Rivers">Gavelione</placeName>,
+                        tercio latere Gavelione percorente in <placeName key="#Rivers"
+                            >Ravecano</placeName> atque a quarto latere <rs key="#Canals">canale
+                            plubico</rs> percorente, vel si que alie afines sunt, cum suis finibus
+                        et terminibus. Hec omnia concedistis atque largistis mihi meisque filiis et
+                        nepotibus vel duos meos successores habendum, tenendum, piscandum,
+                        laborandum, defensandum et quicquid mihimeisque filiis et nepotibus vel duos
+                        meos successores placuerit faciendum. Ita tamen ut exinde inferre debeam ego
+                        supradicto petitore meisque filiis et nepotibus vel duos meos successores
+                        vobis vestrisque successores, pensione nomine, dare debeamus, idest in <rs
+                            key="#Rent_in_money">arientum de moneta Veronensi denariorum tres</rs>
+                        omni mense marcio, tantum pensio ut dictum est persolvamur. Promitto
+                        preterea ego iamdicto petitore cum meis filiis et nepotibus vel duos meos
+                        successores hanc peticionem inviolabiliter modis omnibus conservare et
+                        adimplere vobis vestrisque successoribus, sub pena <rs key="#Penalty">tres
+                            unciarum auri</rs> et soluta pena stet in sua firmitate. Actum in
+                        supradicto loco, indictione supradicta tercia X. Signum manus mea supradicto
+                        Andrea causidico petitore ad omnia supradicta cui relectum est. Signa + + +
+                        + + manuum testium: Ubertus Papiensis, Uuido de Massaria, Uuido de
+                        Catinaria, Petrus Pizolo Pelo, Paulo filius quondam Iohannes de Petricia
+                        rogatis testibus. Ego <persName key="#Tabellio"><name ref="Gherardus">
+                                Gerardus</name></persName> Dei gratia <rs key="#Tabellio"
+                            >tabellio</rs> de civitate Ferrarie scriptor huius pagine henfiteosin ad
+                        omnia supradicta cui relectum est.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>Mezzetti, <foreign>Le carte</foreign>, vol. 2, doc. 129 (in preparazione).</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>Mezzetti, per la sua edizione delle carte di Pomposa, si rifà in parte a una
+                    serie di copie di tradizione incerta realizzate da Federici nel XVIII secolo
+                    (cfr. Federici, <foreign>Codex</foreign>, II, pp. 40-44, da A perduto).</p>
+            </div>
+        </body>
+    </text>
+</TEI>
