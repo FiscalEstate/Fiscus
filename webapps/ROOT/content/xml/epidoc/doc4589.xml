@@ -33,7 +33,7 @@
                             <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Copy</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -41,8 +41,8 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate>
-                                <note type="displayed_date"/>
+                            <origDate notBefore="1072-08-01" notAfter="1072-08-31">
+                                <note type="displayed_date">1072 August 1 - 1072 August 31</note>
                                 <note type="dating_elements"/>
                                 <note type="topical_date"/>
                                 <note type="redaction_date"/>
@@ -82,39 +82,75 @@
             <div type="edition">
                 <div type="textpart">
                     <ab>Igitur fidelium nostrorum presentium ac futurorum noverit multitudo quoniam
-                        pro salutem animarum nostrarum seu parentum nostrorum Askitini et Roberti,
-                        quam etiam et ob animam magne recordationis avunculi nostri consulis et
-                        ducis Raynulfi, per interventum Landulfi Riche et Pandulfi Guale et Citro
-                        vice principis, per hoc videlicet principale scriptum damus, tradimus,
-                        concedimus et confirmamus in monasterio Sancti Benedicti sito in Monte
-                        Casino, in quo domnus Desiderius divina ordinante clementia venerabilis ac
-                        religiosus cardinalis et abbas regimen tenere videtur, aecclesiam Sancti
-                        Benedicti Piczoli sitam in Capua, non longe ab ecclesia archiepiscopatus
-                        sanctorum martyrum Stephani et Agathes, cum aecclesiis et terris et aquis et
-                        universis pertinentiis suis. Nec non et aecclesiam Sancti Petri qui dicitur
-                        ad Scaphati, sitam in territorio Neapolitano, cum ecclesiis et terris et
-                        servis et universis pertinentiis suis, ad possessionem et proprietatem
-                        prephati monasterii et predicti domni abbatis et eius successorum, ad
-                        habendum et possidendum et faciendum regulariter omnia quae eis placuerint,
-                        remota omni inquietudine vel molestatione cuiuscumque comitis, iudicis,
-                        castaldei, sculdahiset omnium mortalium personae. Quod si quelibet persona
-                        hominum magna vel parva contra hanc nostri precepti firmitatem agere
-                        presumpserit aut eius violator in quocumque fieri temptaverit, sciat se
-                        compositurum auri purissimi libras quinquaginta; medietatem nostre camere et
-                        medietatem prephato monasterio et predicto domno Desiderio reverentissimo
-                        cardinali atque abbati suisque successoribus. Et post solutam paenam, huius
-                        nostre concessionis pagina munita, firma et stabilis maneat in perpetuum. Ut
-                        autem haec nostra concessio, datio atque confirmatio firmius credatur et
-                        diligentius ab omnibus observetur, manu nostra propria corroboravimus et
-                        nostri sigilli impressione iussimus insigniri. (M) Ex iussione prephate
-                        serenissime potestatis, scriptum per manu Iohannis iudicis, anno dominicae
-                        incarnationis millesimo septuagesimo secundo, mense augusto, indictione
-                        decima. In anno principatus ipsius domni Richardi, Deo annuente quarto
-                        decimo. </ab>
+                        pro salutem animarum nostrarum seu <rs key="#familyOf">parentum</rs>
+                        nostrorum <persName key="#familyOf" ref="#people/3061">Askitini</persName>
+                        et <persName key="#familyOf" ref="#people/4237">Roberti</persName>, quam
+                        etiam et ob animam magne recordationis <rs key="#uncle/auntOf">avunculi</rs>
+                        nostri <rs key="#Consul/hypatos">consulis</rs> et <rs key="#Marquis/duke"
+                            >ducis</rs>
+                        <persName key="#Marquis/duke #Consul/hypatos #uncle/auntOf"
+                            ref="#people/4236">Raynulfi</persName>, <rs key="#Intercessory">per
+                            interventum</rs>
+                        <persName key="#Intercessory" ref="#people/4238">Landulfi Riche</persName>
+                        et <persName key="#Intercessory" ref="#people/4200">Pandulfi
+                            Guale</persName> et <persName
+                            key="#Intercessory #Other_palatine_officer" ref="#people/4239"
+                            >Citro</persName>
+                        <rs key="#Other_palatine_officer">vice principis</rs>, per hoc videlicet
+                        principale scriptum damus, tradimus, concedimus et confirmamus in <rs
+                            key="#Monasteries">monasterio</rs>
+                        <orgName key="#Immunity #Monasteries" ref="#juridical_persons/84">Sancti
+                            Benedicti</orgName> sito in <placeName ref="#places/109">Monte
+                            Casino</placeName>, in quo domnus <persName
+                            key="#Cardinals #Abbots #Personal_rank" ref="#people/2421"
+                            >Desiderius</persName> divina ordinante clementia <rs
+                            key="#Personal_rank">venerabilis</rs> ac religiosus <rs key="#Cardinals"
+                            >cardinalis</rs> et <rs key="#Abbots">abbas</rs> regimen tenere videtur,
+                            <rs key="#Churches">aecclesiam</rs>
+                        <orgName
+                            key="#Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Iure_proprietatis/pleno_iure #Churches"
+                            ref="#juridical_persons/3031">Sancti Benedicti Piczoli</orgName> sitam
+                        in <placeName key="#Cities" ref="#places/173">Capua</placeName>, non longe
+                        ab <rs key="#Mother_churches">ecclesia archiepiscopatus</rs>
+                        <orgName key="#Mother_churches" ref="#juridical_persons/3045">sanctorum
+                            martyrum Stephani et Agathes</orgName>, cum <rs key="#Churches"
+                            >aecclesiis</rs> et <rs key="#Landed_possessions">terris</rs> et <rs
+                            key="#Rights_of_use_on_woods/pastures/waters">aquis</rs> et universis
+                        pertinentiis suis. Nec non et <rs key="#Churches">aecclesiam</rs>
+                        <orgName
+                            key="#Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Iure_proprietatis/pleno_iure #Churches"
+                            ref="#juridical_persons/3058">Sancti Petri qui dicitur ad
+                            Scaphati</orgName>, sitam in territorio <placeName key="#Cities"
+                            ref="#places/2350">Neapolitano</placeName>, cum <rs key="#Churches"
+                            >ecclesiis</rs> et <rs key="#Landed_possessions">terris</rs> et <rs
+                            key="#Slave">servis</rs> et universis pertinentiis suis, ad possessionem
+                        et proprietatem prephati monasterii et predicti domni abbatis et eius
+                        successorum, ad habendum et possidendum et faciendum regulariter omnia quae
+                        eis placuerint, <rs key="#Immunity">remota omni inquietudine vel
+                            molestatione cuiuscumque comitis, iudicis, castaldei, sculdahiset omnium
+                            mortalium personae</rs>. Quod si quelibet persona hominum magna vel
+                        parva contra hanc nostri precepti firmitatem agere presumpserit aut eius
+                        violator in quocumque fieri temptaverit, sciat se compositurum <rs
+                            key="#Penalty">auri purissimi libras quinquaginta</rs>; medietatem
+                        nostre camere et medietatem prephato monasterio et predicto domno Desiderio
+                            <rs key="#Personal_rank">reverentissimo</rs> cardinali atque abbati
+                        suisque successoribus. Et post solutam paenam, huius nostre concessionis
+                        pagina munita, firma et stabilis maneat in perpetuum. Ut autem haec nostra
+                        concessio, datio atque confirmatio firmius credatur et diligentius ab
+                        omnibus observetur, manu nostra propria corroboravimus et nostri sigilli
+                        impressione iussimus insigniri. (M) Ex iussione prephate serenissime
+                        potestatis, scriptum per manu <persName key="#Judge" ref="#people/3064"
+                            >Iohannis</persName>
+                        <rs key="#Judge">iudicis</rs>, anno dominicae incarnationis millesimo
+                        septuagesimo secundo, mense augusto, indictione decima. In anno <rs
+                            key="#Princeps">principatus</rs> ipsius domni <persName
+                            key="#Witness #Princeps" ref="#people/3001">Richardi</persName>, Deo
+                        annuente quarto decimo. </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p/>
+                <p><foreign> Reg. S. Angeli in Formis</foreign> fol. 23r ; Ed. M. Inguanez,<foreign>
+                        Regesto di S. Angelo in Formis</foreign>, Montecassino 1925, pp. 45-46.</p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p/>
