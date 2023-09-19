@@ -33,7 +33,7 @@
                             <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Copy</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -41,11 +41,11 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate>
-                                <note type="displayed_date"/>
+                            <origDate when="1093-01-27">
+                                <note type="displayed_date">1093 January 27</note>
                                 <note type="dating_elements"/>
-                                <note type="topical_date"/>
-                                <note type="redaction_date"/>
+                                <note type="topical_date">Capua</note>
+                                <note type="redaction_date">1137-1166</note>
                             </origDate>
                             <origPlace></origPlace>
                         </origin>
@@ -82,53 +82,78 @@
             <div type="edition">
                 <div type="textpart">
                     <ab>Igitur fidelium nostrorum presentium ac futurorum noverit multitudo quoniam
-                        per interventum et consilium Robberti comitis magistri nostri aliorumque
-                        baronum nostrorum, donamus, concedimus et confirmamus in monasterio Sancti
-                        Michahelis archangeli qui dicitur ad Formam et domno Petro venerabili
-                        preposito suisque successoribus, pro redemptione animae Iordanis principis
-                        patris nostri, nec non propter devastationem quam in rebus monasterii
-                        prescripti fecimus cum obsidionem Capuae teneremus, idest inclita una petia
-                        de terra nostro sacro palatio pertinente, quae est propinquo loco qui
-                        dicitur Saxeta, et nominatur Campus cotidianus, quae habeat hos fines: ex
-                        uno latere a parte orientis habet finem via antiqua quae decernit inter hanc
-                        terram et terram quam modo residet pars Gullielmi Frasnellae, habet inde
-                        passus nonaginta sex; ab alio latere quae est ab occidente finem habet cavam
-                        antiquam, et qualiter vadit per ipsam cavam usque ad calcarias antiquas,
-                        habet inde passus centum quadraginta tres, et incipiente ab ipsa calcaria et
-                        ascendit contra montem qui dicitur Cognonillum, habet inde passus
-                        quinquaginta quattuor, et qualiter vadit directe ad canale qui nominatur
-                        Gaderisi, et inde ad montem qui dicitur Quattor natice, habet inde passus
-                        centum sexaginta, et inde descendente per suprascripto monte usque ad cavam
-                        antiquam, habet inde passus centum quindecim, et qualiter ascendit per ipsam
-                        cavam usque ad fossatum antiquum, qui decernit inter hanc terram et terram
-                        prescripti nostri palatii pertinentem, habet inde passus octaginta duo. Et
-                        sunt ibi propinquo cisterne vetere tres, quae simili modo ambo capita
-                        discernunt, unu capu a parte meridiei finis habet terra suprascripti
-                        Guillielmi Frasnella et fossatum veterem, habet inde per traversum passus
-                        octaginta sex, aliud cavud a parte septentrionis finis habet priorem
-                        fossatum qui decernit inter hanc terram et terram prescripti nostri palatii
-                        pertinente, et fuerunt in ipso fossatu a parte orientis calcarie, et inde
-                        habet passus septuaginta sex. Hanc itaque prescripta paetia de terra per
-                        indicate finis et mensuris in prescripto monasterio Sancti Michelis
-                        archangeli, et domno Petro venerabili preposito suisque successoribus,
-                        donamus, concedimus et confirmamus, remota omni inquietitudine,
-                        contrarietate et molestatione omnium mortalium persone. Quod si quislibet
-                        hominum diabolica suasione compulsus hanc nostram donationem, concessionem
-                        et confirmationem, per quodcumque ingenium violator esse temptaverit, decem
-                        libras auri purissimi persolvat; medietatem nostro sacro palatio et
-                        medietatem prescripto monasterio et domno Petro venerabili preposito suisque
-                        successoribus. Et soluta pena, haec nostra donatio, concessio et
-                        confirmatio, firma ac stabilis maneat in perpetuum. Et ut firmius credatur
-                        et diligentius ab omnibus observetur, manu nostra subscrissimus et nostri
-                        sigilli impressione iussimus insigniri. (M) Ex iussione prephate serenissime
-                        potestatis scripsi ego Quiriacus iudex. In anno Domini nostri Iesu Christi
-                        millesimo nonogesimo tertio et tertio decimo anno principatus ipsius domni
-                        Richardi gloriosi principis. Datum sexto kalendas februarii in Capuam per
+                            <rs key="#Intercessory">per interventum et consilium</rs>
+                        <persName key="#Intercessory #Count" ref="#people/2422">Robberti</persName>
+                        <rs key="#Count">comitis</rs> magistri nostri aliorumque baronum nostrorum,
+                        donamus, concedimus et confirmamus in <rs key="#Monasteries">monasterio</rs>
+                        <orgName key="#Immunity #Monasteries" ref="#juridical_persons/3046">Sancti
+                            Michahelis archangeli qui dicitur ad Formam</orgName> et domno <persName
+                            key="#Prevosts #Personal_rank #rectorOf" ref="#people/4240"
+                            >Petro</persName>
+                        <rs key="#Personal_rank">venerabili</rs>
+                        <rs key="#Prevosts #rectorOf">preposito</rs> suisque successoribus, pro
+                        redemptione animae <persName key="#Princeps #parentOf" ref="#people/3002"
+                            >Iordanis</persName>
+                        <rs key="#Princeps">principis</rs>
+                        <rs key="#parentOf">patris</rs> nostri, nec non propter devastationem quam
+                        in rebus monasterii prescripti fecimus cum obsidionem <placeName
+                            key="#Cities" ref="#places/173">Capuae</placeName> teneremus, idest
+                        inclita <rs
+                            key="#Petiae #Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Iure_proprietatis/pleno_iure"
+                            >una petia de terra </rs>nostro sacro palatio pertinente, quae est
+                        propinquo loco qui dicitur <placeName ref="#places/4542">Saxeta</placeName>,
+                        et nominatur <placeName
+                            key="#Petiae #Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Iure_proprietatis/pleno_iure"
+                            ref="#places/4543"><geogName
+                                key="#Petiae #Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Iure_proprietatis/pleno_iure"
+                                ref="#estates/3029">Campus cotidianus</geogName></placeName>, quae
+                        habeat hos <rs key="#Fines">fines</rs>: ex uno latere a parte orientis habet
+                        finem via antiqua quae decernit inter hanc terram et terram quam modo
+                        residet pars Gullielmi Frasnellae, habet inde passus nonaginta sex; ab alio
+                        latere quae est ab occidente finem habet cavam antiquam, et qualiter vadit
+                        per ipsam cavam usque ad calcarias antiquas, habet inde passus centum
+                        quadraginta tres, et incipiente ab ipsa calcaria et ascendit contra montem
+                        qui dicitur Cognonillum, habet inde passus quinquaginta quattuor, et
+                        qualiter vadit directe ad canale qui nominatur Gaderisi, et inde ad montem
+                        qui dicitur Quattor natice, habet inde passus centum sexaginta, et inde
+                        descendente per suprascripto monte usque ad cavam antiquam, habet inde
+                        passus centum quindecim, et qualiter ascendit per ipsam cavam usque ad
+                        fossatum antiquum, qui decernit inter hanc terram et terram prescripti
+                        nostri palatii pertinentem, habet inde passus octaginta duo. Et sunt ibi
+                        propinquo cisterne vetere tres, quae simili modo ambo capita discernunt, unu
+                        capu a parte meridiei finis habet terra suprascripti Guillielmi Frasnella et
+                        fossatum veterem, habet inde per traversum passus octaginta sex, aliud cavud
+                        a parte septentrionis finis habet priorem fossatum qui decernit inter hanc
+                        terram et terram prescripti nostri palatii pertinente, et fuerunt in ipso
+                        fossatu a parte orientis calcarie, et inde habet passus septuaginta sex.
+                        Hanc itaque prescripta paetia de terra per indicate finis et mensuris in
+                        prescripto monasterio Sancti Michelis archangeli, et domno Petro venerabili
+                        preposito suisque successoribus, donamus, concedimus et confirmamus, <rs
+                            key="#Immunity">remota omni inquietitudine, contrarietate et
+                            molestatione omnium mortalium persone</rs>. Quod si quislibet hominum
+                        diabolica suasione compulsus hanc nostram donationem, concessionem et
+                        confirmationem, per quodcumque ingenium violator esse temptaverit, <rs
+                            key="#Penalty">decem libras auri purissimi</rs> persolvat; medietatem
+                        nostro sacro palatio et medietatem prescripto monasterio et domno Petro
+                        venerabili preposito suisque successoribus. Et soluta pena, haec nostra
+                        donatio, concessio et confirmatio, firma ac stabilis maneat in perpetuum. Et
+                        ut firmius credatur et diligentius ab omnibus observetur, manu nostra
+                        subscrissimus et nostri sigilli impressione iussimus insigniri. (M) Ex
+                        iussione prephate serenissime potestatis scripsi ego <persName
+                            key="#Writer #Judge" ref="#people/3012">Quiriacus</persName>
+                        <rs key="#Judge">iudex</rs>. In anno Domini nostri Iesu Christi millesimo
+                        nonogesimo tertio et tertio decimo anno principatus ipsius domni <persName
+                            key="#Witness #Princeps #Vir_gloriosus/vir_sublimis" ref="#people/3010"
+                            >Richardi</persName>
+                        <rs key="#Vir_gloriosus/vir_sublimis">gloriosi</rs>
+                        <rs key="#Princeps">principis</rs>. Datum sexto kalendas februarii in
+                            <placeName key="#Cities" ref="#places/173">Capuam</placeName> per
                         indictionem primam. </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p/>
+                <p><foreign> Reg. S. Angeli in Formis</foreign> fol. 45r ; Ed. M. Inguanez,<foreign>
+                        Regesto di S. Angelo in Formis</foreign>, Montecassino 1925, pp. 84-86.</p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p/>
@@ -137,7 +162,9 @@
                 <p/>
             </div>
             <div type="commentary">
-                <p/>
+                <p>La donazione mette in luce il temporaneo reinsediamento di Riccardo II a Capua
+                    dopo la rivolta del 1091, nonostante la stabilizzazione definitiva del suo
+                    potere sulla città non avvenne prima del 1098.</p>
             </div>
         </body>
     </text>
