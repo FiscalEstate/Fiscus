@@ -33,7 +33,7 @@
                             <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Copy</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">No</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -41,10 +41,10 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate>
-                                <note type="displayed_date"/>
+                            <origDate notBefore="1098-05-01" notAfter="1098-05-31">
+                                <note type="displayed_date">1098 May 1 - 1098 May 31</note>
                                 <note type="dating_elements"/>
-                                <note type="topical_date"/>
+                                <note type="topical_date">Aversa</note>
                                 <note type="redaction_date">1137-1166</note>
                             </origDate>
                             <origPlace></origPlace>
@@ -82,48 +82,94 @@
             <div type="edition">
                 <div type="textpart">
                     <ab>Igitur fidelium nostrorum presentium ac futurorum noverit multitudo. Quoniam
-                        per interventum Tancredi cognomine de Altavilla et Guilielmi filii Guilielmi
-                        Frasnelli et Ugonis de Phaida, quam et ad salutem et remedium animarum
-                        principum Richardi scilicet avi et Iordanis patris nostri, et ob statu
-                        nostri principatus, concedimus et confirmamus per hoc nostrum principalem
-                        scriptum omnipotenti Deo et monasterio Sancti Benedicti sito in Monte
-                        Casino, in quo domnus Oderisius venerabilis abbas praeest, et monasterio
-                        Sancti Arcangeli Michahelis in Formis in quo domnus Sasso venerabilis
-                        prepositus preest, quicquid Paldi qui fuerat comes de Sexto et uxore sua
-                        Maria de hereditate eorum in prenominato monasterio Sancti Benedicti per
-                        cartulam obtulerunt, ubicumque exinde inventus fuerit intro vel foras
-                        civitatibus vel castellis, montibus, planis, aquis atque paludis et silvis,
-                        in omnibus scilicet qualiter in eadem cartula offersionis continere videtur.
-                        Simili modo concedimus et confirmamus in prescriptis monasteriis, ecclesiam
-                        Sancti Benedicti quae est sita in loco qui Dalfiana vocatur, in comitatu
-                        Castello maris, prope Rosellam quae comes Ugo de Molinis in predicto
-                        monasterio Sancti Benedicti, et monasterio Sancti Angeli, per cartula
-                        offersionis dedit cum pertinentiis suis omnibus. Haec omnia predicta
-                        qualiter supra prenotata sunt, Nos prephatus saecundus Richardus Capuanus
-                        princeps, in predictis monasteriis concedimus et confirmamus ad possessionem
-                        et potestatem et dominationem predictis monasteriis et predicti domni
-                        Oderisii abbati et domni Sassoni eorumque successorum atque custodum,
-                        faciendo exinde quicquid eis placuerint. Remota omni contrarietate et
-                        molestatione omnium principum successorum nostrorum, vel vice principum
-                        successorum nostrorum, comitum vel vice comitum, iudicum, sculdahorum,
-                        castaldeorum aliorumque omnium mortalium. Quod si quis huius nostrae
+                        per <rs key="#Intercessory">interventum</rs>
+                        <persName key="#Intercessory" ref="#people/4246">Tancredi cognomine de
+                            Altavilla</persName> et <persName key="#Intercessory #childOf"
+                            ref="#people/4248">Guilielmi</persName>
+                        <rs key="#childOf">filii</rs>
+                        <persName ref="#people/4247">Guilielmi Frasnelli </persName>et <persName
+                            key="#Intercessory" ref="#people/4249">Ugonis de Phaida</persName>, quam
+                        et ad salutem et remedium animarum <rs key="#Princeps">principum</rs>
+                        <persName key="#Princeps #grandparentOf" ref="#people/3001"
+                            >Richardi</persName> scilicet <rs key="#grandparentOf">avi</rs> et
+                            <persName key="#Princeps #parentOf" ref="#people/3002"
+                            >Iordanis</persName>
+                        <rs key="#parentOf">patris</rs> nostri, et ob statu nostri principatus,
+                        concedimus et confirmamus per hoc nostrum principalem scriptum omnipotenti
+                        Deo et <rs key="#Monasteries">monasterio</rs>
+                        <orgName key="#Immunity #Monasteries" ref="#juridical_persons/84">Sancti
+                            Benedicti</orgName> sito in <placeName ref="#places/109">Monte
+                            Casino</placeName>, in quo domnus <persName key="#Abbots #Personal_rank"
+                            ref="#people/2416">Oderisius</persName>
+                        <rs key="#Personal_rank">venerabilis</rs>
+                        <rs key="#Abbots">abbas</rs> praeest, et <rs key="#Monasteries"
+                            >monasterio</rs>
+                        <orgName key="#Immunity #Monasteries" ref="#juridical_persons/3046">Sancti
+                            Arcangeli Michahelis in Formis</orgName> in quo domnus <persName
+                            key="#Prevosts #Personal_rank" ref="#people/4245">Sasso</persName>
+                        <rs key="#Personal_rank">venerabilis</rs>
+                        <rs key="#Prevosts">prepositus</rs> preest, quicquid <persName
+                            key="#Count #marriage" ref="#people/4250">Paldi</persName> qui fuerat
+                            <rs key="#Count">comes</rs> de <placeName key="#Comitatus"
+                            ref="#places/4545"><geogName ref="#estates/3031"
+                            >Sexto</geogName></placeName> et <rs key="#marriage">uxore</rs> sua
+                            <persName key="#marriage"><name ref="Maria">Maria</name></persName> de
+                        hereditate eorum in prenominato monasterio Sancti Benedicti per <rs
+                            key="#Cartula">cartulam</rs> obtulerunt, ubicumque exinde inventus
+                        fuerit intro vel foras <rs key="#Cities">civitatibus</rs> vel <rs
+                            key="#Castle">castellis</rs>, <rs key="#Mountains">montibus</rs>,
+                        planis, <rs key="#Rights_of_use_on_woods/pastures/waters">aquis</rs> atque
+                            <rs key="#Marshes/lagoons/tombolos">paludis</rs> et <rs
+                            key="#Forests #Rights_of_use_on_woods/pastures/waters">silvis</rs>, in
+                        omnibus scilicet qualiter in eadem cartula offersionis continere videtur.
+                        Simili modo concedimus et confirmamus in prescriptis monasteriis, <rs
+                            key="#Churches">ecclesiam</rs>
+                        <orgName key="#Churches" ref="#juridical_persons/3066">Sancti
+                            Benedicti</orgName> quae est sita in loco qui <placeName
+                            ref="#places/4546">Dalfiana</placeName> vocatur, in <rs key="#Comitatus"
+                            >comitatu</rs><placeName ref="#places/4062" key="#Comitatus"><geogName
+                                ref="#estates/3032" key="#Comitatus"> Castello
+                            maris</geogName></placeName>, prope <placeName ref="#places/4547"
+                            >Rosellam</placeName> quae <rs key="#Count">comes</rs>
+                        <persName key="#Count" ref="#people/4251">Ugo de Molinis </persName>in
+                        predicto monasterio Sancti Benedicti, et monasterio Sancti Angeli, per
+                        cartula offersionis dedit cum pertinentiis suis omnibus. Haec omnia predicta
+                        qualiter supra prenotata sunt, Nos prephatus <persName
+                            key="#Witness #Princeps #Vir_gloriosus/vir_sublimis" ref="#people/3010"
+                            >saecundus Richardus</persName>
+                        <placeName key="#Cities" ref="#places/173">Capuanus</placeName>
+                        <rs key="#Princeps">princeps</rs>, in predictis monasteriis concedimus et
+                        confirmamus ad possessionem et potestatem et dominationem predictis
+                        monasteriis et predicti domni Oderisii abbati et domni Sassoni eorumque
+                        successorum atque custodum, faciendo exinde quicquid eis placuerint. <rs
+                            key="#Immunity">Remota omni contrarietate et molestatione omnium
+                            principum successorum nostrorum, vel vice principum successorum
+                            nostrorum, comitum vel vice comitum, iudicum, sculdahorum, castaldeorum
+                            aliorumque omnium mortalium</rs>. Quod si quis huius nostrae
                         concessionis et confirmationis paginae in aliquo contemptor aut violator
-                        esse presumpserit, quinquaginta libras auri purissimi persolvat: medietatem
-                        in predictis monasteriis et predicto domno Oderisio venerabili abbati et
-                        domno Sassoni preposito eorumque successoribus atque custodibus, et
-                        medietatem nostro sacro palatio. Solutaque paena librarum, hoc nostrum
-                        principale scriptum cum omnibus quae continet, firmum munitum atque
-                        inviolabile maneat in perpetuum. Et ut hoc scriptum firmius credatur et
-                        diligentius ab omnibus observetur, manu propria subscripsimus et nostri
-                        sigilli iussimus sigillari. (M) Ex iussionae prephate serenissime
-                        potestatis, scripsi ego Quiriacus iudex. In anno dominicae incarnationis
-                        millesimo nonogesimo octavo, et octavo decimo anno principatus prephati
-                        domni saecundi Richardi gloriosi principis Capuae. Datum apud Aversanam
-                        urbem mense magio per indictionem sextam. </ab>
+                        esse presumpserit, <rs key="#Penalty">quinquaginta libras auri
+                            purissimi</rs> persolvat: medietatem in predictis monasteriis et
+                        predicto domno Oderisio venerabili abbati et domno Sassoni preposito
+                        eorumque successoribus atque custodibus, et medietatem nostro sacro palatio.
+                        Solutaque paena librarum, hoc nostrum principale scriptum cum omnibus quae
+                        continet, firmum munitum atque inviolabile maneat in perpetuum. Et ut hoc
+                        scriptum firmius credatur et diligentius ab omnibus observetur, manu propria
+                        subscripsimus et nostri sigilli iussimus sigillari. (M) Ex iussionae
+                        prephate serenissime potestatis, scripsi ego <persName key="#Writer #Judge"
+                            ref="#people/3012">Quiriacus</persName>
+                        <rs key="#Judge">iudex</rs>. In anno dominicae incarnationis millesimo
+                        nonogesimo octavo, et octavo decimo anno principatus prephati domni
+                            <persName key="#Witness #Princeps #Vir_gloriosus/vir_sublimis"
+                            ref="#people/3010">saecundi Richardi</persName>
+                        <rs key="#Vir_gloriosus/vir_sublimis">gloriosi</rs> principis Capuae. Datum
+                        apud <placeName key="#Cities" ref="#places/4000">Aversanam</placeName>
+                        <rs key="#Cities">urbem</rs> mense magio per indictionem sextam. </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p/>
+                <p><foreign> Reg. S. Angeli in Formis</foreign> fol. 49r ; Ed. M. Inguanez,<foreign>
+                        Regesto di S. Angelo in Formis</foreign>, Montecassino 1925, pp. 91-92
+                    (source of the text reproduced here).</p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p/>
