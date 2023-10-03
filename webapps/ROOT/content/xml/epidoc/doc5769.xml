@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Carte di Pomposa (Mezzetti, <foreign>Le carte</foreign>, vol. 2, doc. 143 (in
+                    preparazione))</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2022">2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DiSCi UniBo</publisher>
+                <idno type="filename">doc5769</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+                </availability>
+                <date when="2022"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Libellus/precaria/emphyteusis</rs>
+                            <rs type="record_source" ref="#">Edition</rs>
+                            <rs type="document_tradition" ref="#">Uncertain tradition</rs>
+                            <rs type="fiscal_property"/>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="1108-01-25">
+                                <note type="displayed_date">1108 January 25</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Ferrara</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace><foreign>Sancta Maria in Pomposia</foreign></origPlace>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-02-03" who="cstedile">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine Patris et Filii et Spiritus Sancti. Anno dominice incarnacionis
+                        millesimo centesimo octavo, <persName key="#Emperor/king" ref="#people/127"
+                            >Henricus</persName> regnante anno primo, die vieximo quinto mensis
+                        genuarius, indictione prima, in <rs key="#Cities">civitate</rs>
+                        <placeName key="#Cities" ref="#places/80">Ferrarie</placeName>. Venerabilium
+                        quidem locorum res que <rs key="#Libellus/precaria/emphyteusis">iure
+                            enfiteotico</rs> plerumque traduntur nisi tueantur et ab ipsis
+                        petitoribus meliorantur, non aliter a sacris permittitur constitutionibus.
+                        Quapropter ego domno <persName key="#Monks"><name ref="Teobaldus"
+                                >Tebaldo</name></persName>
+                        <rs key="#Monks">monachus</rs> per consensum domnus … cunctis silicet
+                        monachis et fratribus ibidem servihentibus consencihentibus mihi per hanc
+                        enfiteoseos paginam concedo et largior rem predicte vestre <rs
+                            key="#Churches">ecclesie</rs>
+                        <orgName key="#Libellus/precaria/emphyteusis #Churches"
+                            ref="#juridical_persons/1460">Sancte Marie que vocatur in <placeName
+                                ref="#places/4179">Pomposiam</placeName></orgName> nobis presentibus
+                            <rs key="#Priests">presbiter</rs>
+                        <persName key="#Priests"><name ref="Demizo">Demizo</name></persName> in una
+                        vero medietatem et <persName><name ref="Sichelmus"
+                            >Sichelmo</name></persName> in alia vero medietatem de rex nostrisque
+                        filiis et nepotibus nostris, filios autem et nepotes si non habuheritis tunc
+                        licead nobis ordinare duos vestros successores unum post alterum qualem
+                        nobis placuherit qui post nostrum habeant rem inferius legendam, hoc est
+                        quantum vobis pertinet sive da materna et quantum pertinet ad
+                                <persName><name ref="Richalda">Richalda</name></persName> et
+                        medietatem de ipsas rex que fuit Richalda quantum comparacionis per cartula
+                        da li Cartilli in Curtale et in <rs key="#Landed_possessions">bradiam</rs> meam et in 
+                        <placeName key="#Landed_possessions">Campo de Arzale</placeName>
+                        et medietatem de <rs key="#Hay/fodder">prado</rs> uno cum 
+                        <rs key="#Landed_possessions">terra</rs> sua posita supraldoze et 
+                        <rs key="#Casalia">casale</rs> uno
+                        posito in <rs key="#Villas">villa</rs> que dicitur <geogName 
+                            key="#Casalia #Fundi #Villas #Hay/fodder #Landed_possessions" ref="#estates/2470"><placeName 
+                                key="#Casalia #Fundi #Villas #Hay/fodder #Landed_possessions" ref="#places/4699">
+                                Popignano</placeName></geogName>: ab uno latere possidens 
+                        <persName key="#Confinia"><name ref="Pincius">Pincino</name></persName>, a
+                        secundo latere ipso conparatore, a tercio atque a quarto latere <rs key="#Roads">via plubica</rs>
+                        percurrente, cum ingressu et exitu suo sibi pertinente; per singulis
+                        fundoris in <rs key="#Fundi">fundo</rs> qui vocatur <geogName 
+                            key="#Fundi"><placeName 
+                                key="#Fundi">Arcoatha</placeName></geogName> et in fundo qui vocatur <geogName 
+                                    key="#Fundi" ref="#estates/2427"><placeName 
+                                        key="#Fundi" ref="#places/3531">Laugnano</placeName></geogName> et
+                        in fundo qui vocatur Popignano et in fundo qui vocatur <geogName 
+                            key="#Fundi"><placeName 
+                                key="#Fundi">Gardelana</placeName></geogName> ….
+                        Dedi nobis investitorem <persName key="#Specialized_workers #Missus"><name ref="Lanfrancus">
+                            Lanfranco</name></persName> <rs key="#Specialized_workers">calegario
+                            </rs> tuum <rs key="#Missus">missum</rs>, qui te in
+                        predictam rem corporaliter investiad; ad habendum, tenendum, possidendum,
+                        ordinandum, disponendum, defensandum et sicut supra legitur meliorandum et
+                        annualiter in omni mense marcii pensionis nomine 
+                        <rs key="#Rent_in_money">denarios Veronenses duo</rs>
+                        mihi meisque successoribus persolvendum. Post dies autem nostros
+                        nostrorumque filiorum et nepotum vel duorum successorum sicut supra legitur
+                        predictas rex quoquomodo fuerit meliorata revertatur in predicta vestra
+                        ecclesia. Si quis vero pars vestrum contra hanc henfiteosin iverit vel si
+                        omnia sicut supra legitur non conservaverit, det pars parti fidem servanti
+                        pene nomine <rs key="#Penalty">auri uncias trex</rs> et soluta pena in sua stet firmitate. Quam
+                        silicet scribere rogavi <persName key="#Tabellio"><name ref="Petrus">Petrus</name></persName> 
+                        Ferrariensis <rs key="#Tabellio">tabellione</rs> et manu mea firmavi
+                        testesque firmare rogavi in die et indictione predicta. Signum manus
+                        predicto domno Tebaldo monachus per consensum de domno … abas conceditore
+                        adfirmans omnia sicut supra legitur. Signum manus
+                        Gregorius de Lothoigo, Iohannes de Bosius, Albertus de Paganus de Roveretho,
+                        Ugo de Heito, Dominicus de Anetha, Foscheratus de Alberatha, Petrus
+                        Calegario, Semore, Lanfranco Calegario testis rogatis adfirmans omnia
+                        sicut supra legitur.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>Mezzetti, <foreign>Le carte</foreign>, vol. 2, doc. 143 (in preparazione).</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>Mezzetti, per la sua edizione delle carte di Pomposa, si rifà in parte a una
+                    serie di copie di tradizione incerta realizzate da Federici nel XVIII secolo
+                    (cfr. Federici, <foreign>Codex</foreign>, II, pp. 116-120, da A perduto).</p>
+            </div>
+        </body>
+    </text>
+</TEI>
