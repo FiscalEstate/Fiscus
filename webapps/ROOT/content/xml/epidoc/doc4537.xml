@@ -4,7 +4,7 @@
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
-                <title>Società Storica Napoletana, Cartario di S. Lorenzo, MS. XXVII, A 3, fol. 12a,
+                <title>Società Storica Napoletana, Cartario di S. Lorenzo, Ms. XXVII, A 3, fol. 12a,
                     Arm. 6, fasc. 16</title>
             </titleStmt>
             <editionStmt>
@@ -33,7 +33,7 @@
                             <rs type="text_type" ref="#">-Cartula</rs>
                             <rs type="record_source" ref="#">Edition</rs>
                             <rs type="document_tradition" ref="#">Copy</rs>
-                            <rs type="fiscal_property">No</rs>
+                            <rs type="fiscal_property">Uncertain</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -41,8 +41,8 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate when="1080-04">
-                                <note type="displayed_date">1080 April</note>
+                            <origDate when="1080-04" notBefore="1080-04-01" notAfter="1080-04-30">
+                                <note type="displayed_date">1080 April 1 - 1080 April 30</note>
                                 <note type="dating_elements"/>
                                 <note type="topical_date"/>
                                 <note type="redaction_date">1290</note>
@@ -83,16 +83,16 @@
                 <div type="textpart">
                     <ab>In nomine Domini; et anno ab incarnatione domini nostri Iesu Christi
                         millesimo octogesimo, mense aprilis, indictione .III. Ego <persName
-                            ref="#people/3074" key="#Witness">Gugliemus de Alno</persName>, cogitans
-                        huiusmodi statum fragilem et caducum, et in nullo stabilitatem obtinere, nec
-                        hominem, sine benefìciis et elemosinis, regnum coeleste posse acquirere,
-                        tandem disposui et ordinavi partem mearum rationum, pro aeterna
-                        remuneratione, in Dei servitio distribuere et offerre; ea propter notum volo
-                        esse cunctis Dei fidelibus, nunc et in perpetuum existentibus, quod ego
-                        praefatus Guiglielmus de Alno, ob amorem Dei et salutem animae nostrae, quam
-                        etiam pro salute genitoris et genitricis nostrae, cum licentia et voluntate
-                        domini <persName key="#Princeps #Vir_magnificus" ref="#people/3002"
-                            >Iordanis</persName>, <rs key="#Vir_magnificus">magnifici</rs>
+                            ref="#people/3074">Gugliemus de Alno</persName>, cogitans huiusmodi
+                        statum fragilem et caducum, et in nullo stabilitatem obtinere, nec hominem,
+                        sine benefìciis et elemosinis, regnum coeleste posse acquirere, tandem
+                        disposui et ordinavi partem mearum rationum, pro aeterna remuneratione, in
+                        Dei servitio distribuere et offerre; ea propter notum volo esse cunctis Dei
+                        fidelibus, nunc et in perpetuum existentibus, quod ego praefatus Guiglielmus
+                        de Alno, ob amorem Dei et salutem animae nostrae, quam etiam pro salute
+                        genitoris et genitricis nostrae, cum licentia et voluntate domini <persName
+                            key="#Princeps #Vir_magnificus" ref="#people/3002">Iordanis</persName>,
+                            <rs key="#Vir_magnificus">magnifici</rs>
                         <rs key="#Princeps">principis</rs>, do, concedo et offero <rs
                             key="#Monasteries">monasterio</rs><orgName key="#Immunity #Monasteries"
                             ref="#juridical_persons/3000"> Sancti Laurentii levitae et martiris
@@ -103,24 +103,29 @@
                         <rs key="#Personal_rank">venerabilis</rs>
                         <rs key="#Abbots">abbas</rs> preaest, <rs key="#Churches">ecclesiam</rs>
                         <orgName ref="#juridical_persons/3021"
-                            key="#Rivers #Landed_possessions #Mills #Coloni/tenants #Churches">S.
-                            Nicolai, que est in Saone</orgName>, in territorio <placeName
+                            key="#Rivers #Landed_possessions #Mills #Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Iure_proprietatis/pleno_iure #Coloni/tenants #Rights_of_use_on_woods/pastures/waters #Churches"
+                            >S. Nicolai, que est in Saone</orgName>, in territorio <placeName
                             ref="#places/2363">Calini</placeName>, cum <rs key="#Landed_possessions"
                             >terris</rs>, <rs key="#Coloni/tenants">hominibus</rs>, et <rs
-                            key="#Mills">molendinis</rs>, et <rs key="#Rivers">cursibus
-                        aquarum</rs>, que sunt in ipsa <placeName ref="#places/695"
+                            key="#Mills">molendinis</rs>, et <rs
+                            key="#Rivers #Rights_of_use_on_woods/pastures/waters">cursibus
+                            aquarum</rs>, que sunt in ipsa <placeName ref="#places/695"
                             >Saone</placeName>, cum omnibus suis pertinentiis cultis et incultis,
-                        silvosis et insilvosis; et <rs key="#Landed_possessions">terras</rs>, et <rs
-                            key="#Coloni/tenants">homines</rs>, et <rs key="#Mills">molendina</rs>,
-                        et <rs key="#Rivers">cursus aquarum</rs>, quae sunt in loco <placeName
-                            ref="#places/4021"
+                        silvosis et insilvosis; et <rs
+                            key="#Landed_possessions #Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Iure_proprietatis/pleno_iure"
+                            >terras</rs>, et <rs key="#Coloni/tenants">homines</rs>, et <rs
+                            key="#Mills #Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Iure_proprietatis/pleno_iure"
+                            >molendina</rs>, et <rs
+                            key="#Rivers #Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Allocation_to_churches #Rights_of_use_on_woods/pastures/waters"
+                            >cursus aquarum</rs>, quae sunt in loco <placeName ref="#places/4021"
                             key="#Rivers #Landed_possessions #Mills #Coloni/tenants"
                             >Montanarii</placeName>, cum omnibus suis pertinentiis cultis et
                         incultis, silvosis et insilvosis; et <persName key="#Priests"><name
                                 ref="Bernardus">Bernardum</name></persName>
                         <rs key="#Priests">presbiterum</rs>, cum <rs key="#Landed_possessions"
                             >terris cultis et incultis</rs>, silvosis et insilvosis, et sicut
-                        tenuerunt Gualberti Herveno, Briptorum conditores, ut amodo in antea iam
+                        tenuerunt <persName><name ref="Walpertus Hervenus">Gualberti
+                            Herveno</name></persName>, Briptorum conditores, ut amodo in antea iam
                         dictum monasterium Sancti Laurentii prefata omnia in perpetuum teneat,
                         possideat et dominetur, libere et absolute ab omni censu, servitute et
                         dominatione, et ab omni serviti conditione.<rs key="#Immunity"> Et
@@ -140,7 +145,7 @@
                         propria corroboravimus, atque subscriptos nobiles testari, et te <persName
                             key="#Writer" ref="#people/3005">Consolinum</persName> illa subscribere
                         rogavimus, in predicto nostro privilegio et subscripte propterea
-                        subsignavit. + Ego <persName key="#Witness" ref="#people/3074">Guilielmus de
+                        subsignavit. + Ego <persName ref="#people/3074">Guilielmus de
                             Alno</persName> qui supra. + Ego <persName key="#Witness"><name
                                 ref="Rodulfus">Rodulfus</name></persName>. + Ego <persName
                             key="#Witness"><name ref="Thomas">Thomas</name></persName>. + Ego
@@ -149,8 +154,7 @@
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p>Ed. A. Gallo, <foreign>Codice Diplomatico Normanno di Aversa</foreign>, Napoli
-                    1927, n. 1, pp. 3-4 (source of the text reproduced here).</p>
+                <p>CDNA, n. 1, pp. 3-4 (source of the text reproduced here).</p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p/>
