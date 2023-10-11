@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../../tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Carte di Pomposa (Mezzetti, <foreign>Le carte</foreign>, vol. 2, doc. 166 (in
+                    preparazione))</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2022">2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DiSCi UniBo</publisher>
+                <idno type="filename">doc5790</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+                </availability>
+                <date when="2022"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Libellus/precaria/emphyteusis</rs>
+                            <rs type="record_source" ref="#">Edition</rs>
+                            <rs type="document_tradition" ref="#">Uncertain tradition</rs>
+                            <rs type="fiscal_property"/>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="1118-02-11">
+                                <note type="displayed_date">1118 February 11</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Ravenna</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace><foreign>Sancta Maria in Pomposia</foreign></origPlace>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-02-03" who="cstedile">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>In nomine Domini. Anno ab incarnacione Domini millesimo centesimo octavo
+                        decimo, imperante <persName key="#Emperor/king" ref="#people/127"
+                            >Heinrico</persName> filio quondam Henrici imperatoris anno septimo, die
+                        undecimo mensis februarii, indictione undecima, <placeName ref="#places/594"
+                            >Ravenne</placeName>. Peto a vobis in Dei nomine domno <persName
+                            key="#Monks"><name ref="Iohannes Pomposianus">Iohanne</name></persName>
+                        gratia Dei <rs key="#Monks">monacho</rs>
+                        <rs key="#Monasteries">monasterii</rs>
+                        <orgName
+                            key="#Libellus/precaria/emphyteusis #Houses #Rivers #Landed_possessions #Penalty #Pigs #Books #Rent_in_kind #Rent_in_money #Monasteries"
+                            ref="#juridical_persons/1460">Sancte Marie in <placeName
+                                ref="#places/4179">Pomposea</placeName></orgName>, cum consensu
+                        monachorum ad confirmandum a domno <persName key="#Abbots"
+                            ref="#people/4303">Uberto</persName> electo <rs key="#Abbots"
+                            >abbate</rs> ipsius monasterii, uti mihi presenti in Christi nomine
+                                <persName><name ref="Widolus"> Guidolo</name></persName> filio
+                        quondam <persName key="#Gastaldus/vicegastaldus"><name ref="Wido"
+                                >Guidonis</name>
+                        </persName>
+                        <rs key="#Gastaldus/vicegastaldus">castaldionis</rs> petitori, pro me et pro
+                                <persName><name ref="Maria">Maria</name></persName> coniuge mea seu
+                        liberis nostris − et qualis de nobis obierit sine liberis, eius porcio cadat
+                        alteri qui vel que supravixerit − per <rs
+                            key="#Libellus/precaria/emphyteusis"> libellum</rs> concedatis nobis,
+                        idest unum <rs key="#Landed_possessions">spacium terre</rs> integrum ubi
+                        nostrum <rs key="#Houses">edificium</rs> esse videtur, quod detinuit iure
+                        vestri monasterii quondam <persName><name ref="Iohannes de Andrea"> Iohannes
+                                de Andrea</name></persName> et predicta iugale mea, cum ripa sua
+                        ante se et cum introitu et exitu suo atque cum omnibus sibi pertinentibus,
+                        constitutum in suburbio Ravenne supra <rs key="#Rivers">fluvium</rs>
+                        <placeName key="#Rivers #Confinia" ref="#places/3558"
+                            >Teguriensem</placeName>: primo latere predicta ripa et flumen, a
+                        secundo detinet <persName key="#Confinia"><name ref="Menzolinus"
+                                >Menzolius</name></persName> iure predicti monasterii vestri, a
+                        tercio <rs key="#Walls">murus</rs>
+                        <rs key="#Cities">civitatis</rs>, a quarto detinet <persName key="#Confinia"
+                                ><name ref="Iustina">Petrus de Iustina</name></persName>. Et insuper
+                        concedistis nobis unum alium spacium terre integrum quod extenditur in <rs
+                            key="#Size">longitudinem suam pedes legitimos triginta et sex</rs>, ubi
+                        vestrum edificium esse videtur, cum ripa sua de <placeName
+                            key="#Rivers #Confinia" ref="#places/4846">Carbonaria</placeName> ante
+                        se et cum introitu et exitu suo per gatulum vestrum <orgName
+                            ref="#juridical_persons/1472">Sancti Barbaciani</orgName> atque cum
+                        omnibus sibi pertinentibus, quod detinuerunt vestro iure predictus Iohannes
+                        de Andrea et supradicta iugale mea: a primo latere iamdicta Carbonaria, a
+                        secundo detinet <persName key="#Confinia"><name ref="Wido de Scofia"> Guido
+                                de Scofia</name></persName> iure supradicti monasterii vestri, a
+                        tercio murus civitatis, a quarto detinet <persName key="#Confinia"><name
+                                ref="Petrus Faber">Petrus faber</name></persName> iure iamdicti
+                        monasterii vestri. Habenda, tenenda, possidenda, restauranda et in omnibus
+                        melioranda in annis advenientibus viginti et novem adrenovandum, sub
+                        pensione omni marcio mense aut infra indictionem <rs key="#Rent_in_money"
+                            >denariorum Veneticorum solidos tres</rs> et <rs
+                            key="#Pigs #Rent_in_kind">unam spallam</rs> in Natale. Et non liceat
+                        nobis petitoribus neque nostris liberis ipsas res totas vel partes aliquo
+                        modo alienare neque in comendacionem alterius mittere. Pro eo quia exinde
+                        accepistis de manu mea, calciarii nomine, <rs key="#Books">librum</rs> unum
+                        pro denariorum <rs key="#Price">Veneticorum solidos centum</rs>. Si quis
+                        vero partis nostre contra hanc peticionem ire temptaverit, det pars parti
+                        fidem servanti, nomine pene <rs key="#Penalty">auri uncias duas</rs> et
+                        soluta pena maneat firma hec peticio. Ego <persName key="#Tabellio"><name
+                                ref="Petrus">Petrus</name></persName> Dei misericordia Ravennas <rs
+                            key="#Tabellio">tabellio</rs> scripsi hanc peticionem.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>Mezzetti, <foreign>Le carte</foreign>, vol. 2, doc. 166 (in preparazione).</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>Mezzetti, per la sua edizione delle carte di Pomposa, si rifà in parte a una
+                    serie di copie di tradizione incerta realizzate da Federici nel XVIII secolo
+                    (cfr. Federici, <foreign>Codex</foreign>, II, pp. 242-245, da A perduto).</p>
+            </div>
+        </body>
+    </text>
+</TEI>
