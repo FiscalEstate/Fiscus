@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../../tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Carte di Pomposa (Mezzetti, <foreign>Le carte</foreign>, vol. 2, doc. 170 (in
+                    preparazione))</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2022">2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DiSCi UniBo</publisher>
+                <idno type="filename">doc5794</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+                </availability>
+                <date when="2022"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Libellus/precaria/emphyteusis</rs>
+                            <rs type="record_source" ref="#">Edition</rs>
+                            <rs type="document_tradition" ref="#">Compendium</rs>
+                            <rs type="fiscal_property"/>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="1130-01-30">
+                                <note type="displayed_date">1130 January 30</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Rimini</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace><foreign>Sancta Maria in Pomposia</foreign></origPlace>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-02-03" who="cstedile">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>Concessio in <rs key="#Libellus/precaria/emphyteusis">emphyteusim</rs>
+                        <rs key="#Landed_possessions">terrarum</rs> in <rs key="#Fines"
+                            >territorio</rs>
+                        <geogName key="#Fines" ref="#estates/2434"><placeName key="#Fines"
+                                ref="#places/1806">Arimini</placeName></geogName>, in <rs
+                            key="#Plebs">plebe</rs>
+                        <orgName key="#Landed_possessions #Plebs" ref="#juridical_persons/1495">S.
+                            Erasmi</orgName>, facta ab <persName key="#Local_elites"><name
+                                ref="Ursus"> Urso</name></persName>
+                        <rs key="#Local_elites">nobili viro</rs> et ab uxore eius, favore
+                                <persName><name ref="Ursus">Ursi</name></persName> filii quondam
+                                <persName><name ref="Martinus">Martini</name></persName>, uxoris,
+                        filiorum et nepotum. Actum Arimini, rog. […] <rs key="#Notary">notarii</rs>,
+                        anno <persName key="#Popes" ref="#people/4309">Anacleti</persName> papę I,
+                        30 ianuarii, ind. VIII.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>Mezzetti, <foreign>Le carte</foreign>, vol. 2, doc. 170 (in preparazione).</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p>Mezzetti, per la sua edizione delle carte di Pomposa, si rifà in parte a una
+                    serie di regesti realizzati da Bacchini nel XVIII secolo (cfr. Bacchini,
+                        <foreign>Regesto cronologico</foreign> (sec. XVIII in.), alla data, da A
+                    perduto).</p>
+            </div>
+        </body>
+    </text>
+</TEI>
