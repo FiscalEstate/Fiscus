@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../../tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>Archivio di Stato di Milano, <foreign>Pergamene per fondi</foreign>, b. 713,
+                    s.n.</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
+                    <date when="2022">2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fiscus - DiSCi UniBo</publisher>
+                <idno type="filename">doc5813</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
+                </availability>
+                <date when="2022"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">--Offersio/donatio</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property"/>
+                        </summary>
+                        <msItem xml:id="msItem1">
+                            <textLang mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate notBefore="1150-12-31" notAfter="1151-12-31">
+                                <note type="displayed_date">1151</note>
+                                <note type="dating_elements"/>
+                                <note type="topical_date">Argelato (Bologna)</note>
+                                <note type="redaction_date"/>
+                            </origDate>
+                            <origPlace><foreign>Sancta Maria in Pomposia</foreign></origPlace>
+                        </origin>
+                        <provenance>
+                            <location>
+                                <placeName/>
+                            </location>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                <listPerson>
+                    <person></person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-02-03" who="cstedile">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>Anno Domini millesimo centesimo [quinqu]agesimo primo, indic(ione)
+                        quartadecima, in presencia Enrici filius Ildebrandi et Ildebrandi filius
+                        Girardi et Liuti […] et Alber[ti et] Iohannis Martinaci et […] Martinus
+                        […][.]o et Sachetus et Guido filius Ariberti fabri, Iohannes medicus
+                        iusiurando iuraverunt quia <persName><name ref="Hubaldus"
+                            >Ubaldus</name></persName> fi[li]us Mauronti fecit cartam de sua parte
+                        unius <rs key="#Petiae">pec[ie] terre</rs>, secundum quod designatum est,
+                        supra ripa <placeName key="#Offersio/donatio #Rivers #Petiae"
+                            ref="#places/3548">Reni</placeName> per <rs key="#Hospitals"
+                            >ospita[lem]</rs> faciendum ad honorem Dei et <orgName
+                            key="#Offersio/donatio #Rivers #Petiae #Hospitals"
+                            ref="#juridical_persons/1460">Sancte Marie <placeName ref="#places/4179"
+                                >Pomposie</placeName></orgName> pro remedio [anime] sue. Postea
+                        statimque in […] presencia supradictorum testimoniorum, Ato clericus et
+                        Costant[i]nus filii Girardi Manducapanem et Albertus Calvus et Guido filius
+                        Albrici Maurontoli scribere rogaverunt mihi <persName key="#Tabellio"><name
+                                ref="Iohannes">Iohanni</name></persName>
+                        <rs key="#Tabellio">tabelioni</rs> cartulam de illorum parte de suprascripta
+                        pecia terre in persona domni <persName key="#Monks"><name
+                                ref="Teudericus Pomposianus">Tederici</name></persName>
+                        <rs key="#Monks">monachi</rs>. <rs key="#Confinia">Confines</rs> tocius
+                        pecie terre qu[e] videtur esse tornat[urie …] heredes […] ma[…]
+                        Rol[… meri]die et ab occidente Reno […] ibi […] Costantinus
+                        permanere debet […] de labora[…]. Et si quis contra hoc quod supra
+                        legitur non observaverit, sub pena <rs key="#Penalty">solidorum quadraginta Lucensium</rs> et post
+                        penam soluta hac carta firma permaneat. Actum in <rs key="#Burgi">burgo</rs> 
+                        <placeName key="#Burgi" ref="#places/4690">Argelate</placeName>. Nos
+                        predicti datores hanc cartam scribere rogavimus. Ego Iohannes notarius hanc
+                        cartam scripsi.</ab>
+                </div>
+            </div>
+            <div type="bibliography" subtype="editions">
+                <p>Mezzetti, <foreign>Le carte</foreign>, vol. 2, doc. 190 (in preparazione).</p>
+            </div>
+            <div type="bibliography" subtype="additional">
+                <p/>
+            </div>
+            <div type="bibliography" subtype="links">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
