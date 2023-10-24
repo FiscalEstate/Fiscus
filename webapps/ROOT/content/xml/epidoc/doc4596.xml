@@ -32,7 +32,7 @@
                             <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Copy</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -40,10 +40,11 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate>
-                                <note type="displayed_date"/>
+                            <origDate notBefore="1099-12-01" notAfter="1099-12-31">
+                                <note type="displayed_date">1099 December 1 - 1099 December
+                                    31</note>
                                 <note type="dating_elements"/>
-                                <note type="topical_date"/>
+                                <note type="topical_date">Capua</note>
                                 <note type="redaction_date">1137-1166</note>
                             </origDate>
                             <origPlace></origPlace>
@@ -81,58 +82,102 @@
             <div type="edition">
                 <div type="textpart">
                     <ab>Igitur fidelium nostrorum presentium ac futurorum noverit multitudo. Quoniam
-                        ad salutem et remedium animarum principum Richardi scilicet avii et Iordani
-                        patris nostri, et ob statum nostri principatus, quam et per interventum
-                        Guilielmi cognomine Coppola nostri fidelis, damus, tradimus, concedimus ac
-                        confirmamus per principale scriptum in monasterio Sancti Angeli quod dicitur
-                        in Formis, subdito monasterio Sancti Benedicti Montis Casini, cui domnus
-                        Oderisius venerabilis abbas et cardinalis sanctae Romane aecclesiae preest,
-                        integram medietatem de una limata cum alveo et ripis, et cum viis suis
-                        ibidem intrandi et exeundi, que limata ipse prenominatus Guilielmus in fevo
-                        a nobis tenebat, et est in Trifisco ab illa parte Saone coniuncta scilicet
-                        cum terra Beati Nycolai confessoris Christi. Et potestatem et licentiam
-                        damus parti predicti monasterii Sancti Angeli ad hac hora in antea in ipsa
-                        medietate de limata quae ei dedimus, molendina construendi et palos in ripis
-                        et in alveo figendi, et clusuria et piscationes et alia omnia quae in ipsa
-                        medietate limate et in ripis et alveo facere voluerit absque omni
+                        ad salutem et remedium animarum <rs key="#Princeps">principum</rs>
+                        <persName key="#Princeps #grandparentOf" ref="#people/3001"
+                            >Richardi</persName> scilicet <rs key="#grandparentOf">avii</rs> et
+                            <persName key="#Princeps #parentOf" ref="#people/3002"
+                            >Iordani</persName>
+                        <rs key="#parentOf">patris</rs> nostri, et ob statum nostri principatus,
+                        quam et <rs key="#Intercessory">per interventum</rs>
+                        <persName key="#Intercessory #fidelisOf" ref="#people/4256">Guilielmi
+                            cognomine Coppola</persName> nostri <rs key="#fidelisOf">fidelis</rs>,
+                        damus, tradimus, concedimus ac confirmamus per principale scriptum in <rs
+                            key="#Monasteries">monasterio</rs>
+                        <orgName key="#Immunity #Monasteries" ref="#juridical_persons/3046">Sancti
+                            Angeli quod dicitur in Formis</orgName>, subdito <rs key="#Monasteries"
+                            >monasterio</rs>
+                        <orgName key="#Monasteries" ref="#juridical_persons/84">Sancti Benedicti
+                            Montis Casini,</orgName> cui domnus <persName
+                            key="#Cardinals #Abbots #Personal_rank" ref="#people/2416"
+                            >Oderisius</persName>
+                        <rs key="#Personal_rank">venerabilis</rs>
+                        <rs key="#Abbots">abbas</rs> et <rs key="#Cardinals">cardinalis</rs> sanctae
+                        Romane aecclesiae preest, integram <rs
+                            key="#Lakes #Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Allocation_to_individuals #Allocation_to_churches #Feudum"
+                            >medietatem de una limata</rs> cum <rs
+                            key="#Riverbed #Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Allocation_to_individuals #Allocation_to_churches #Feudum"
+                            >alveo</rs> et <rs
+                            key="#Rivers #Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Allocation_to_individuals #Allocation_to_churches #Feudum"
+                            >ripis</rs>, et cum <rs key="#Roads">viis</rs> suis ibidem intrandi et
+                        exeundi, que limata ipse prenominatus Guilielmus <rs key="#Feudum">in
+                            fevo</rs> a nobis tenebat, et est in <placeName ref="#places/4549"
+                            >Trifisco</placeName> ab illa parte <placeName ref="#places/695"
+                            >Saone</placeName> coniuncta scilicet cum <rs key="#Landed_possessions"
+                            >terra</rs>
+                        <orgName ref="#juridical_persons/3021" key="#Landed_possessions #Churches"
+                            >Beati Nycolai confessoris Christi</orgName>. <rs key="#Privileges">Et
+                            potestatem et licentiam damus parti predicti monasterii Sancti Angeli ad
+                            hac hora in antea in ipsa medietate de limata quae ei dedimus, molendina
+                            construendi et palos in ripis et in alveo figendi</rs>, et <rs
+                            key="#Fisheries #Fish">clusuria et piscationes</rs> et alia omnia quae
+                        in ipsa medietate limate et in ripis et alveo facere voluerit absque omni
                         contrarietate omnium mortalium personae. Quin etiam in prenominato
-                        monasterio Sancti Angeli per hoc videlicet principale scriptum per
-                        interventum scilicet Ugonis de Fayda, nostri dilecti baronis et fidelis,
-                        damus, tradimus, concedimus ac confirmamus integram unam petiam de terra
-                        quae ipse in fevo a nobis teneaat, et est in territorio castelli nostri qui
-                        vocatur Matalone, in loco ubi dicitur ad Termini, quae continet in se per
-                        passum rationabiliter mensurata uti mox est modios terrae vigenti, cuius
-                        fines haec sunt: ab uno latere est finis via quae pergit ad Saglanum quae
-                        decernit inter fines Matalonis et Lanei; ab alio vero latere est finis terra
-                        nostra puplica, qualiter revolvitur per antiquam viam quae olim ducebatur ad
-                        Suessolam. Ab uno capite est finis via quae pergit ad predictum nostrum
-                        castellum et dicitur ibi ad Cognulum; ab alio vero capite est finis terra
-                        nostra quae nos possidemus. Haec abscripta petia de terra quae aetiam ipse
-                        predictus Ugo nostro concessu pro salute suae animae in prenominato
-                        monasterio dederat, nos quidem prenominatus saecundus Richardus Capuanus
-                        princeps, suo interventu, in prenotato monasterio Sancti Angeli per
-                        predictos fines per hoc videlicet principale scriptum in perpetuum damus,
-                        tradimus, concedimus et confirmamus cum omnibus quae inferius et superius in
-                        ea esse noscuntur, quam et cum viis intrandi et exeundi in ea et de ea, et
-                        cum sepibus et limitibus et universis pertinentiis eius. Quin etiam et per
-                        interventum Girardi Capuani nostri fidelis, in prenominato monasterio Sancti
-                        Angeli in perpetuum tradimus, concedimus et confirmamus per haec principali
-                        pagina, quicquid olim Laydulfus filius cuiusdam Laydulfi per cartulam in
-                        predicto monasterio de terra sua dedit in Sarzano, cum omnibus quae inferius
-                        et superius in ea esse inveniuntur, et cum viis ibidem intrandi et exeundi,
-                        cum sepibus ac limitibus et universis pertinentiis suis. Haec omnia
-                        prescripta quae et qualiter hic superphati sumus, nos prenotatus saecundus
-                        Richardus Capuanus princeps, in prenominato monasterio Sancti Angeli in
-                        perpetuum per principale scriptum damus, tradimus, concedimus et confirmamus
-                        quietae et libere in iure et proprietate perpetua, ad possessionem et
-                        potestatem et dominationem prephati monasterii Sancti Angeli et domni
-                        Saxonis venerabili prepositis eiusdem monasterii et omnium successorum eius,
-                        faciendo ammodo et deinceps omnem utilitatem predicti monasterii. Remota
-                        omni contrarietate et molestia et inquietudine omnium principum successorum
-                        nostrorum vel vice principum, comitum vel vice comitum, iudicum,
-                        sculdahorum, castaldeorum aliorumque omnium mortalium personae. Quod si quis
-                        hoc principale scriptum irritumve facere temptaverit, vel contra haec quo
-                        nostra istituit excellentia agere presumpserit, centum libras auri purissimi
+                        monasterio Sancti Angeli per hoc videlicet principale scriptum <rs
+                            key="#Intercessory">per interventum</rs> scilicet <persName
+                            key="#Intercessory #fidelisOf" ref="#people/4249">Ugonis de
+                            Fayda</persName>, nostri dilecti baronis et <rs key="#fidelisOf"
+                            >fidelis</rs>, damus, tradimus, concedimus ac confirmamus integram <rs
+                            key="#Petiae #Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_individuals #Feudum"
+                            >unam petiam</rs> de terra quae ipse in <rs key="#Feudum">fevo</rs> a
+                        nobis teneaat, et est in <rs key="#Village/castle_territory">territorio</rs>
+                        <rs key="#Castle">castelli</rs> nostri qui vocatur <placeName
+                            key="#Castle #Village/castle_territory" ref="#places/3444"
+                            >Matalone</placeName>, in loco ubi dicitur <placeName key="#Petiae"
+                            ref="#places/4096">ad Termini</placeName>, quae continet in se per
+                        passum rationabiliter mensurata uti mox est<rs key="#Size"> modios terrae
+                            vigenti</rs>, cuius <rs key="#Fines">fines</rs> haec sunt: ab uno latere
+                        est finis via quae pergit ad Saglanum quae decernit inter fines Matalonis et
+                        Lanei; ab alio vero latere est finis terra nostra puplica, qualiter
+                        revolvitur per antiquam viam quae olim ducebatur ad Suessolam. Ab uno capite
+                        est finis via quae pergit ad predictum nostrum castellum et dicitur ibi ad
+                        Cognulum; ab alio vero capite est finis terra nostra quae nos possidemus.
+                        Haec abscripta petia de terra quae aetiam ipse predictus Ugo nostro concessu
+                        pro salute suae animae in prenominato monasterio dederat, nos quidem
+                            prenominatus<persName key="#Princeps #Vir_gloriosus/vir_sublimis"
+                            ref="#people/3010"> saecundus Richardus</persName> Capuanus <rs
+                            key="#Princeps">princeps</rs>, suo interventu, in prenotato monasterio
+                        Sancti Angeli per predictos fines per hoc videlicet principale scriptum in
+                        perpetuum damus, tradimus, concedimus et confirmamus cum omnibus quae
+                        inferius et superius in ea esse noscuntur, quam et cum <rs key="#Roads"
+                            >viis</rs> intrandi et exeundi in ea et de ea, et cum sepibus et
+                        limitibus et universis pertinentiis eius. Quin etiam et <rs
+                            key="#Intercessory">per interventum</rs>
+                        <persName key="#Intercessory #fidelisOf" ref="#people/4257">Girardi Capuani
+                        </persName>nostri <rs key="#fidelisOf">fidelis</rs>, in prenominato
+                        monasterio Sancti Angeli in perpetuum tradimus, concedimus et confirmamus
+                        per haec principali pagina, <rs key="#Production_units">quicquid</rs> olim
+                                <persName><name ref="Laidulfus fil. Laidulfi">Laydulfus filius
+                                cuiusdam Laydulfi</name></persName> per <rs key="#Cartula"
+                            >cartulam</rs> in predicto monasterio de terra sua dedit in <placeName
+                            ref="#places/4528">Sarzano</placeName>, cum omnibus quae inferius et
+                        superius in ea esse inveniuntur, et cum <rs key="#Roads">viis</rs> ibidem
+                        intrandi et exeundi, cum sepibus ac limitibus et universis pertinentiis
+                        suis. Haec omnia prescripta quae et qualiter hic superphati sumus, nos
+                        prenotatus saecundus Richardus Capuanus princeps, in prenominato monasterio
+                        Sancti Angeli in perpetuum per principale scriptum damus, tradimus,
+                        concedimus et confirmamus quietae et libere in iure et proprietate perpetua,
+                        ad possessionem et potestatem et dominationem prephati monasterii Sancti
+                        Angeli et domni <persName key="#Prevosts #Personal_rank" ref="#people/4245"
+                            >Saxonis</persName>
+                        <rs key="#Personal_rank">venerabili</rs>
+                        <rs key="#Prevosts">prepositis</rs> eiusdem monasterii et omnium successorum
+                        eius, faciendo ammodo et deinceps omnem utilitatem predicti monasterii. <rs
+                            key="#Immunity">Remota omni contrarietate et molestia et inquietudine
+                            omnium principum successorum nostrorum vel vice principum, comitum vel
+                            vice comitum, iudicum, sculdahorum, castaldeorum aliorumque omnium
+                            mortalium personae</rs>. Quod si quis hoc principale scriptum irritumve
+                        facere temptaverit, vel contra haec quo nostra istituit excellentia agere
+                        presumpserit, <rs key="#Penalty">centum libras auri purissimi</rs>
                         persolvere cogatur: medietatem omnipotenti Deo et predicto monasterio Sancti
                         Angeli et domno Sassoni venerabili prepositi et successoribus eius, et
                         medietatem nostro sacro palatio. Solutaque paena librarum, hoc principale
@@ -140,13 +185,16 @@
                         in aeternum. Et ut hoc firmius credatur et diligentius ab omnibus
                         observetur, manu propria illud corroboravimus et nostri sigilli impressione
                         iussimus insigniri. (M) Ex iussione prephate serenissime potestatis, scripsi
-                        ego Quiriacus iudex in anno dominice incarnationis millesimo nonogesimo nono
-                        et vicesimo anno principatus ipsius domni secundi Richardi gloriosi
-                        principis Capuae. Datum Capuam in mense decembrio per indictionem octavam. </ab>
+                        ego <persName key="#Writer #Judge" ref="#people/3012">Quiriacus</persName>
+                        <rs key="#Judge">iudex</rs> in anno dominice incarnationis millesimo
+                        nonogesimo nono et vicesimo anno principatus ipsius domni secundi Richardi
+                            <rs key="#Vir_gloriosus/vir_sublimis">gloriosi</rs> principis Capuae.
+                        Datum <placeName key="#Cities" ref="#places/173">Capuam</placeName> in mense
+                        decembrio per indictionem octavam. </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p/>
+                <p><foreign>RSAF</foreign>, pp. 100-102 (source of the text reproduced here).</p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p/>
