@@ -4,7 +4,8 @@
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
-                <title/>
+                <title>Archivio di Stato di Milano, <foreign>Pergamene per fondi</foreign>, c. 713,
+                    s.n.</title>
             </titleStmt>
             <editionStmt>
                 <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
@@ -13,7 +14,7 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DiSCi UniBo</publisher>
-                <idno type="filename"/>
+                <idno type="filename">doc5822</idno>
                 <availability xml:lang="en" status="free">
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                         texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
@@ -29,9 +30,9 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="#"/>
-                            <rs type="record_source" ref="#"/>
-                            <rs type="document_tradition" ref="#"/>
+                            <rs type="text_type" ref="#">-Placitum/iudicatum</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
                             <rs type="fiscal_property"/>
                         </summary>
                         <msItem xml:id="msItem1">
@@ -40,13 +41,19 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate>
-                                <note type="displayed_date"/>
-                                <note type="dating_elements"/>
+                            <origDate notBefore="1176-12-31" notAfter="1177-12-31">
+                                <note type="displayed_date">1177</note>
+                                <note type="dating_elements">Mezzetti, <foreign>Le carte</foreign>,
+                                    vol. 2, doc. 199 (in preparazione) propone indicativamente il
+                                    1177 come anno. Sul <foreign>verso</foreign>, si trova la
+                                    segnatura Bacchini-Federici: «G.IV.18. Ante annum 1180».
+                                    Samaritani 1996, p. 120, data questa carta agli anni 1228-1231,
+                                    durante l'abbaziato del terzo abate pomposiano di nome
+                                    Guido.</note>
                                 <note type="topical_date"/>
                                 <note type="redaction_date"/>
                             </origDate>
-                            <origPlace></origPlace>
+                            <origPlace><foreign>Sancta Maria in Pomposia</foreign></origPlace>
                         </origin>
                         <provenance>
                             <location>
@@ -72,7 +79,7 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2022-02-03" who="other">creation of record</change>
+                <change when="2022-02-03" who="cstedile">creation of record</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -80,14 +87,42 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab/>
+                    <ab>In nomine Patris et Filii et Spiritus Sancti. Ego <persName key="#Judge"
+                                ><name ref="Rodulfus">Rodulfu[s]</name></persName>
+                        <rs key="#Judge">iudex</rs> ex precepto domni <persName key="#Abbots"
+                            ref="#people/4315">Guidonis</persName>
+                        <rs key="#Abbots">abbatis</rs>
+                        <orgName key="#Monasteries" ref="#juridical_persons/1460"><placeName
+                                ref="#places/4179">Pomposie</placeName></orgName> auditor
+                        controversie que vertit inter <persName><name ref="Petrus"
+                            >Petronem</name></persName>, datum curatorem <persName><name
+                                ref="Sidonius">Sidonne</name></persName>, ex una parte et
+                                <persName><name ref="Strufaldus">Strufaldum</name></persName>, datum
+                        curatorem <persName><name ref="Zanzolus">Zanzolo</name></persName> et
+                                <persName><name ref="Benedictulus">Benedictulo</name></persName> et
+                                <persName><name ref="Amidante">Amidante</name></persName> ex alia
+                        parte, de <rs key="#Testamentum">hereditate</rs>
+                        <persName><name ref="Iohannes de Vitale">Iohannis de
+                            Vitali</name></persName> avi illorum. Visis et auditis necnon eorum
+                        rationibus diligenter inspectis et auditis dictis <rs key="#Witness"
+                            >testium</rs> per sacramentum de testamento predictis Iohannis de
+                        Vitali, quia cognovi predictum Iohannem de Vitali reliquisse usumfructum
+                        omnium bonorum suorum <persName><name ref="Maria">Marie</name></persName>
+                        uxori sue donec viveret in testamento suo, predictam Mariam usumfructum
+                        omnium bonorum predicti Iohannis iuri suo quousque vixerit habere debere
+                        promitto Strufaldum vero curatorem Zanzoli et Benedictuli et Amidantis
+                        nomine predictorum quarta partem tocius hereditatis predicti Iohannis de
+                        Vitali avi illorum, excepto de <rs key="#Casalia">casali</rs> posito in
+                            <placeName key="#Testamentum #Casalia">Guarcinore</placeName>, Petroni
+                        curatori Sidonne nomine ipsius Sidone dare condempno, salvo usufructu
+                        relicto Marie uxori predicti Iohannis de Vitali.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p/>
+                <p>Mezzetti, <foreign>Le carte</foreign>, vol. 2, doc. 199 (in preparazione).</p>
             </div>
             <div type="bibliography" subtype="additional">
-                <p/>
+                <p>Samaritani 1996, p. 120.</p>
             </div>
             <div type="bibliography" subtype="links">
                 <p/>
