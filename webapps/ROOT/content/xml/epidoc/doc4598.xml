@@ -32,7 +32,7 @@
                             <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Copy</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -40,10 +40,10 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate>
-                                <note type="displayed_date"/>
+                            <origDate when="1104-11-28">
+                                <note type="displayed_date">1104 November 28</note>
                                 <note type="dating_elements"/>
-                                <note type="topical_date"/>
+                                <note type="topical_date">Capua</note>
                                 <note type="redaction_date">1137-1166</note>
                             </origDate>
                             <origPlace></origPlace>
@@ -81,63 +81,95 @@
             <div type="edition">
                 <div type="textpart">
                     <ab>Igitur notum fieri volumus omnibus fidelibus nostri. Quoniam nos
-                        prenominatus saecundus Richardus Capuanus princeps, olim, videlicet in anno
-                        dominice incarnationis millesimo nonogesimo nono, et nonodecimo anno
-                        principatus nostri Capuae, mense novembrio per indictionem septimam,
-                        dedimus, concessimus ac confirmamus per principalem scriptum in monasterio
-                        Sancti Angeli quod dicitur ad Formam, cum aliis rebus unum portum et sedium
-                        molendinis quod est in Trifisco, inter sedium salicis et sedium ulmi, cum
-                        duobus molendinis in una domo edificati cum aqua et alveo et ripis ex
-                        utraque partibus, de quibus postmodum horta fuit contentio inter prephatum
-                        monasterium et Rainaldum Musca, dicens ipse Raynaldus contra ipsum
-                        monasterium et domnum venerabilem Petrum prepositum ipsius monasterii, quod
-                        aqua, ipsa terra et alveo et ripas de fevo suo erant et ipsa molendina in
-                        suo fevo constructa erant, de qua causa predictus Rainaldus nobiscum
-                        placitatus est in curia nostra et sermocinavit erga nos quod ipsa molendina
-                        et aliis quos nostris hominibus dedimus, constructa essent in portu et aqua
-                        et alveo et ripas suas, et ex iudicio nostre curiae terra ipsa et aqua et
-                        alveo et ripas de suo vetere fevo per sacramentum erga nos comprobavit, et
-                        tunc in suo fevo permanserunt ea omnia. Postmodum vero, predictum Rainaldum
-                        et iam dictum prepositum Petrum, venerunt ad concordiam, et dimisit eidem
-                        monasterio et predicto preposito quietum illud donum quod nos ipsi
-                        monasterio fecimus de predicto portu et sedio molendinis quod est ut supra
-                        diximus in Trifisco, inter sedium salicis et sedium ulmi, cum ipsis duobus
-                        molendinis in una domo edificati cum aquis et alveo et ripis ex utraque
-                        partibus sicuti nos ipsis concessimus. Et acta conventione et concordiam
-                        inter eos, tunc prephatus Raynaldus Musca et Richardus Musca nepos eius
-                        venerunt ad curiam nostram, et deprecati sunt nostram excellentiam ante
-                        Ioffridum de Poholdone et Rannulfum filium Guale et Rodulfu de Mucegros et
-                        Ugonem de Labulita, ut iterum in prephato monasterio Sancti Angeli in
-                        perpetuum illud portum et sedium molendinis, quod est inter sedium salicis
+                        prenominatus <persName key="#Princeps #Vir_gloriosus/vir_sublimis"
+                            ref="#people/3010">saecundus Richardus</persName> Capuanus <rs
+                            key="#Princeps">princeps</rs>, olim, videlicet in anno dominice
+                        incarnationis millesimo nonogesimo nono, et nonodecimo anno principatus
+                        nostri <placeName key="#Cities" ref="#places/173">Capuae</placeName>, mense
+                        novembrio per indictionem septimam, dedimus, concessimus ac confirmamus per
+                        principalem scriptum in <rs key="#Monasteries">monasterio</rs><orgName
+                            key="#Immunity #Monasteries" ref="#juridical_persons/3046"> Sancti
+                            Angeli quod dicitur ad Formam</orgName>, cum aliis rebus <rs
+                            key="#Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Iure_proprietatis/pleno_iure #Ports"
+                            >unum portum</rs> et <rs
+                            key="#Mills #Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Iure_proprietatis/pleno_iure"
+                            >sedium molendinis</rs> quod est in <placeName key="#Mills #Ports"
+                            ref="#places/4549">Trifisco</placeName>, inter sedium salicis et sedium
+                        ulmi, cum <rs
+                            key="#Mills #Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Iure_proprietatis/pleno_iure"
+                            >duobus molendinis</rs> in una <rs key="#Residences">domo</rs> edificati
+                        cum <rs
+                            key="#Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Allocation_to_churches"
+                                ><rs key="#Rights_of_use_on_woods/pastures/waters">aqua</rs> et <rs
+                                key="#Riverbed">alveo</rs> et <rs key="#Shores">ripis</rs> ex
+                            utraque partibus</rs>, de quibus postmodum horta fuit contentio inter
+                        prephatum monasterium et <persName ref="#people/3079">Rainaldum
+                            Musca</persName>, dicens ipse Raynaldus contra ipsum monasterium et
+                        domnum <rs key="#Personal_rank">venerabilem</rs>
+                        <persName key="#Prevosts #Personal_rank" ref="#people/4240"
+                            >Petrum</persName>
+                        <rs key="#Prevosts">prepositum</rs> ipsius monasterii, quod aqua, <rs
+                            key="#Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Allocation_to_individuals #Feudum"
+                            >ipsa <rs key="#Landed_possessions">terra</rs> et <rs key="#Riverbed"
+                                >alveo</rs> et <rs key="#Shores">ripas</rs>
+                        </rs>de <rs key="#Feudum">fevo</rs> suo erant et <rs
+                            key="#Mills #Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Allocation_to_individuals #Feudum"
+                            >ipsa molendina</rs> in suo fevo constructa erant, de qua causa
+                        predictus Rainaldus nobiscum placitatus est in curia nostra et sermocinavit
+                        erga nos quod ipsa molendina et aliis quos nostris hominibus dedimus,
+                        constructa essent in portu et aqua et alveo et ripas suas, et ex iudicio
+                        nostre curiae terra ipsa et aqua et alveo et ripas de suo vetere fevo per
+                        sacramentum erga nos comprobavit, et tunc in suo fevo permanserunt ea omnia.
+                        Postmodum vero, predictum Rainaldum et iam dictum prepositum Petrum,
+                        venerunt ad concordiam, et dimisit eidem monasterio et predicto preposito
+                        quietum illud donum quod nos ipsi monasterio fecimus de predicto portu et
+                        sedio molendinis quod est ut supra diximus in Trifisco, inter sedium salicis
                         et sedium ulmi, cum ipsis duobus molendinis in una domo edificati cum aquis
-                        et alveo et ripas eius ex utraque parte, unde contentio fuit inter illos,
-                        concederemus et confirmaremus, sicuti antea ipsi monasterio per preceptum
-                        concessimus et confirmavimus. Petitio quorum libenter concessimus, et pes
-                        noster obsculatum ab eis, nos igitur prephatus secundus Richardus Capuanus
-                        princeps, iterum ea omnia deprecatu predictorum Raynaldi et Richardi nepos
-                        eius, per hoc principale scriptum in predicto monasterio Sancti Angeti in
-                        perpetuum quiete et libere concedimus ac confirmamus ad possessionem et
-                        potestatem et dominationem ipsius monasterii et iam dicti domni Petri
-                        venerabili prepositi et successorum eius, faciendo exinde utilitatem ipsius
-                        monasterii. Remota omni contrarietate et molestia omnium principum
-                        successorum nostrorum vel vice principum, comitum vel vice comitum, iudicum,
-                        sculdahorum, castaldeorum aliorumque omnium mortalium personae. Quod si quis
-                        huius nostre concessionis et confirmationis paginam contemptor aut violator
-                        extiterit, decem libras auri purissimi persolvat: medietatem predicto
-                        monasterio et memorato domno Petro venerabili preposito et successoribus
-                        eius; et medietatem nostro palatio. Solutaque paena librarum, hoc principale
-                        scriptum qualiter continet, firmum, munitum atque inviolabile maneat in
-                        perpetuum. Et ut hoc scriptum firmius credatur et diligentius ab omnibus
-                        observetur, manu propria illud corroborabimus et nostri sigilli impressione
-                        iussimus illud  insigniri. (M) Ex iussione prephate potestatis, scripsi ego
-                        Quiriacus palatinus iudex, in anno dominice incarnationis millesimo
-                        centesimo quarto, et vicesimo quarto anno principatus ipsius prephati domni
-                        secundi Richardi gloriosi principis Capuae. Datum Capua, vigilia sancti
-                        Andree apostoli, mense novembrio per indictionem tertiadecima.</ab>
+                        et alveo et ripis ex utraque partibus sicuti nos ipsis concessimus. Et acta
+                        conventione et concordiam inter eos, tunc prephatus Raynaldus Musca et
+                            <persName key="#nephew/nieceOf" ref="#people/3085">Richardus
+                            Musca</persName>
+                        <rs key="#nephew/nieceOf">nepos</rs> eius venerunt ad curiam nostram, et
+                        deprecati sunt nostram excellentiam ante <persName ref="#people/4259"
+                            >Ioffridum de Poholdone</persName> et <persName ref="#people/4253"
+                            >Rannulfum filium Guale</persName> et <persName ref="#people/4242"
+                            >Rodulfu de Mucegros</persName> et <persName ref="#people/3040">Ugonem
+                            de Labulita</persName>, ut iterum in prephato monasterio Sancti Angeli
+                        in perpetuum illud portum et sedium molendinis, quod est inter sedium
+                        salicis et sedium ulmi, cum ipsis duobus molendinis in una domo edificati
+                        cum aquis et alveo et ripas eius ex utraque parte, unde contentio fuit inter
+                        illos, concederemus et confirmaremus, sicuti antea ipsi monasterio per
+                        preceptum concessimus et confirmavimus. Petitio quorum libenter concessimus,
+                        et pes noster obsculatum ab eis, nos igitur prephatus secundus Richardus
+                        Capuanus princeps, iterum ea omnia deprecatu predictorum Raynaldi et
+                        Richardi nepos eius, per hoc principale scriptum in predicto monasterio
+                        Sancti Angeti in perpetuum quiete et libere concedimus ac confirmamus ad
+                        possessionem et potestatem et dominationem ipsius monasterii et iam dicti
+                        domni Petri venerabili prepositi et successorum eius, faciendo exinde
+                        utilitatem ipsius monasterii. <rs key="#Immunity">Remota omni contrarietate
+                            et molestia omnium principum successorum nostrorum vel vice principum,
+                            comitum vel vice comitum, iudicum, sculdahorum, castaldeorum aliorumque
+                            omnium mortalium personae.</rs> Quod si quis huius nostre concessionis
+                        et confirmationis paginam contemptor aut violator extiterit, <rs
+                            key="#Penalty">decem libras auri purissimi</rs> persolvat: medietatem
+                        predicto monasterio et memorato domno Petro venerabili preposito et
+                        successoribus eius; et medietatem nostro palatio. Solutaque paena librarum,
+                        hoc principale scriptum qualiter continet, firmum, munitum atque inviolabile
+                        maneat in perpetuum. Et ut hoc scriptum firmius credatur et diligentius ab
+                        omnibus observetur, manu propria illud corroborabimus et nostri sigilli
+                        impressione iussimus illud insigniri. (M) Ex iussione prephate potestatis,
+                        scripsi ego <persName key="#Writer #Judge" ref="#people/3012"
+                            >Quiriacus</persName>
+                        <rs key="#Judge">palatinus iudex</rs>, in anno dominice incarnationis
+                        millesimo centesimo quarto, et vicesimo quarto anno principatus ipsius
+                        prephati domni secundi Richardi <rs key="#Vir_gloriosus/vir_sublimis"
+                            >gloriosi</rs> principis Capuae. Datum <placeName key="#Cities"
+                            ref="#places/173">Capua</placeName>, vigilia sancti Andree apostoli,
+                        mense novembrio per indictionem tertiadecima.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p/>
+                <p><foreign>RSAF</foreign>, pp. 102-104 (source of the text reproduced here).</p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p/>
