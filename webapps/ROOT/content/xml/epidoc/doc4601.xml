@@ -32,7 +32,7 @@
                             <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Copy</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -40,10 +40,11 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate>
-                                <note type="displayed_date"/>
+                            <origDate notBefore="1109-12-01" notAfter="1109-12-31">
+                                <note type="displayed_date">1109 December 1 - 1109 December
+                                    31</note>
                                 <note type="dating_elements"/>
-                                <note type="topical_date"/>
+                                <note type="topical_date">Sant'Angelo in Formis</note>
                                 <note type="redaction_date">1137-1166</note>
                             </origDate>
                             <origPlace></origPlace>
@@ -81,56 +82,83 @@
             <div type="edition">
                 <div type="textpart">
                     <ab>Notum sit omnibus filiis sancte et catholicae aecclesiae, quoniam cum quadam
-                        die nos Robbertus Capuanus princeps apud monasterium Sancti Angeli qui
-                        dicitur in Formis, causa orationis ivissemus, fratres qui ibi Deo iugiter
-                        serviebant, a magnitudine nostra postulaverunt unam petiam de terra nostra
-                        que esse videtur in pede montis nostre arce Sancte Agathes, et est prope
-                        aecclesiam Sancti Marci subdita monasterio Sancti Benedicti Maioris Capuae
-                        quae valde congrua erat ipsi monasterio Sancti Angeli. Quorum petitionibus
-                        digne obtemperans fieri procuravimus et interventu igitur illorum, nec non
-                        ob salutem animarum quondam principum antecessorum nostrorum Richardi
-                        scilicet avi, et Iordani patris, necnon Richardi fratris nostri, ac ob
-                        statum nostri principatus, per hoc videlicet principale scriptum in
-                        perpetuum in prephato monasterio Sancti Angeli, subdito monasterio Sancti
-                        Benedicti Montis Casinas cui domnus Brunus episcopus abbas prehest,
-                        concedimus et confirmamus prephatam integram petiam de terra per hos fines,
-                        sicuti incipit ab introitu vie veteris quae est cava, quae via venit a parte
-                        Laverani, et ascendit usque ad ripas cimentarias directe cum monumento quod
-                        constructum est in monte nostro arcis Sancte Agathes, deinde incipit per
-                        predictas ripas que sunt sub ipso monte et per criptam oleaream quam
-                        predictas ripas que sunt sub ipso monte et per criptam oleaream quam
-                        predicto monasterio similiter concessimus, et vadit directe, et postea
-                        revolvit per predictas ripas circa foveas et diverticula ipsius petiae
-                        terrae, et descendit usque ad aliam viam carraream quae venit a parte
-                        occidentis, deinde incipit ab ipsa via per ripas inferiores similiter
-                        revolvens circa foveas et diverticula, et ascendit usque ad priorem viam.
-                        Haec autem predicta petia de terra per predictos fines una cum omnibus
-                        inferioribus ac superioribus eius, et cum viis in ea intrandi et exeundi,
-                        nos prenominatus Robbertus Capuanus princeps in prephato monasterio Sancti
+                        die nos <persName key="#Princeps #Vir_gloriosus/vir_sublimis"
+                            ref="#people/3019">Robbertus</persName> Capuanus <rs key="#Princeps"
+                            >princeps</rs> apud <rs key="#Monasteries">monasterium</rs>
+                        <orgName key="#Immunity #Monasteries" ref="#juridical_persons/3046">Sancti
+                            Angeli qui dicitur in Formis</orgName>, causa orationis ivissemus, <rs
+                            key="#Intercessory #Monks">fratres</rs> qui ibi Deo iugiter serviebant,
+                        a magnitudine nostra postulaverunt unam <rs
+                            key="#Petiae #Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Iure_proprietatis/pleno_iure"
+                            >petiam</rs> de terra nostra que esse videtur in pede <rs
+                            key="#Mountains">montis</rs> nostre <rs key="#Fiscal_property">arce</rs>
+                        <placeName key="#Mountains" ref="#places/4550">Sancte Agathes</placeName>,
+                        et est prope <rs key="#Churches">aecclesiam</rs>
+                        <orgName key="#Churches" ref="#juridical_persons/3067">Sancti
+                            Marci</orgName> subdita <rs key="#Monasteries">monasterio</rs>
+                        <orgName key="#Monasteries" ref="#juridical_persons/2321">Sancti Benedicti
+                            Maioris Capuae</orgName> quae valde congrua erat ipsi monasterio Sancti
+                        Angeli. Quorum petitionibus digne obtemperans fieri procuravimus et <rs
+                            key="#Intercessory">interventu</rs> igitur illorum, nec non ob salutem
+                        animarum quondam <rs key="#Princeps">principum</rs> antecessorum nostrorum
+                            <persName key="#Princeps #grandparentOf" ref="#people/3001"
+                            >Richardi</persName> scilicet <rs key="#grandparentOf">avi</rs>, et
+                            <persName key="#Princeps #parentOf" ref="#people/3002"
+                            >Iordani</persName>
+                        <rs key="#parentOf">patris</rs>, necnon <persName key="#Princeps #siblingOf"
+                            ref="#people/3010">Richardi</persName>
+                        <rs key="#siblingOf">fratris</rs> nostri, ac ob statum nostri principatus,
+                        per hoc videlicet principale scriptum in perpetuum in prephato monasterio
+                        Sancti Angeli, subdito <rs key="#Monasteries">monasterio</rs><orgName
+                            key="#Monasteries" ref="#juridical_persons/84"> Sancti Benedicti Montis
+                            Casinas</orgName> cui domnus <persName ref="#people/2420"
+                            key="#Bishops #Abbots">Brunus</persName>
+                        <rs key="#Bishops">episcopus</rs>
+                        <rs key="#Abbots">abbas</rs> prehest, concedimus et confirmamus prephatam
+                        integram petiam de terra per hos <rs key="#Fines">fines</rs>, sicuti incipit
+                        ab introitu vie veteris quae est cava, quae via venit a parte Laverani, et
+                        ascendit usque ad ripas cimentarias directe cum monumento quod constructum
+                        est in monte nostro arcis Sancte Agathes, deinde incipit per predictas ripas
+                        que sunt sub ipso monte et per criptam oleaream quam predictas ripas que
+                        sunt sub ipso monte et per criptam oleaream quam predicto monasterio
+                        similiter concessimus, et vadit directe, et postea revolvit per predictas
+                        ripas circa foveas et diverticula ipsius petiae terrae, et descendit usque
+                        ad aliam viam carraream quae venit a parte occidentis, deinde incipit ab
+                        ipsa via per ripas inferiores similiter revolvens circa foveas et
+                        diverticula, et ascendit usque ad priorem viam. Haec autem predicta petia de
+                        terra per predictos fines una cum omnibus inferioribus ac superioribus eius,
+                        et cum <rs key="#Roads">viis</rs> in ea intrandi et exeundi, nos
+                        prenominatus Robbertus Capuanus princeps in prephato monasterio Sancti
                         Angeli per hoc principale scriptum in perpetuum damus, tradimus, concedimus
                         ac confirmamus ad possessionem et potestatem et dominationem ipsius
-                        monasterii, et domni Maynardi venerabili prepositi, et aliorum rectorum
-                        ipsius monasterii, faciendo exinde utilitatem ipsius monasterii. Remota omni
-                        inquietudine, contrarietate et molestia omnium principum successorum
-                        nostrorum vel vice principum, comitum vel vice comitum, iudicum,
-                        sculdahorum, castaldeorum aliorumque omnium mortalium persone. Quod si quis
-                        diabolica suasione compulsus contra hoc scriptum agere temptaverit aut
-                        violator huius doni extiterit, viginti libras auri purissimi persolvat:
-                        medietatem ipsi monasterio, et predicto domno Maynardo reverentissimo
-                        preposito et successoribus eius et parti predicti monasterii; et medietatem
-                        nostro palatio. Solutaque paena librarum, haec nostro datio, traditio,
-                        concessio et confirmatio firma, munita atque inconvulsa maneat in perpetuum.
-                        Et ut firmius credatur et diligentius ab omnibus observetur, manu propria
+                        monasterii, et domni <persName key="#Prevosts #Personal_rank"
+                            ref="#people/4241">Maynardi</persName>
+                        <rs key="#Personal_rank">venerabili</rs>
+                        <rs key="#Prevosts">prepositi</rs>, et aliorum rectorum ipsius monasterii,
+                        faciendo exinde utilitatem ipsius monasterii. <rs key="#Immunity">Remota
+                            omni inquietudine, contrarietate et molestia omnium principum
+                            successorum nostrorum vel vice principum, comitum vel vice comitum,
+                            iudicum, sculdahorum, castaldeorum aliorumque omnium mortalium
+                            persone</rs>. Quod si quis diabolica suasione compulsus contra hoc
+                        scriptum agere temptaverit aut violator huius doni extiterit, <rs
+                            key="#Penalty">viginti libras auri purissimi </rs>persolvat: medietatem
+                        ipsi monasterio, et predicto domno Maynardo reverentissimo preposito et
+                        successoribus eius et parti predicti monasterii; et medietatem nostro
+                        palatio. Solutaque paena librarum, haec nostro datio, traditio, concessio et
+                        confirmatio firma, munita atque inconvulsa maneat in perpetuum. Et ut
+                        firmius credatur et diligentius ab omnibus observetur, manu propria
                         subscripsimus et corroborabimus illud, et nostri sigilli inpressione
                         iussimus insigniri. (M) Ex iussione prephate serenissime potestatis, scripsi
-                        ego Quiriacus palatinus iudex in anno dominice incarnationis millesimo
-                        centesimo nono, et tertio anno principatus ipsius domni Robberti
-                        gloriosissimi principis Capuae. Datum apud prephatum monasterium, mense
-                        decembrio per indictionem tertiam.  </ab>
+                        ego <persName key="#Writer #Judge" ref="#people/3012">Quiriacus</persName>
+                        <rs key="#Judge">palatinus iudex</rs> in anno dominice incarnationis
+                        millesimo centesimo nono, et tertio anno principatus ipsius domni Robberti
+                            <rs key="#Vir_gloriosus/vir_sublimis">gloriosissimi</rs> principis
+                            <placeName key="#Cities" ref="#places/173">Capuae</placeName>. Datum
+                        apud prephatum monasterium, mense decembrio per indictionem tertiam.  </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p/>
+                <p><foreign>RSAF</foreign>, pp. 114-116 (source of the text reproduced here).</p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p/>
