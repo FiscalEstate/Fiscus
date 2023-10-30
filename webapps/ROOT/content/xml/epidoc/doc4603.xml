@@ -32,7 +32,7 @@
                             <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Copy</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -40,10 +40,10 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate>
-                                <note type="displayed_date"/>
+                            <origDate notBefore="1115-08-01" notAfter="1115-08-31">
+                                <note type="displayed_date">1115 August 1 - 1115 August 31</note>
                                 <note type="dating_elements"/>
-                                <note type="topical_date"/>
+                                <note type="topical_date">Capua</note>
                                 <note type="redaction_date">1137-1166</note>
                             </origDate>
                             <origPlace></origPlace>
@@ -80,48 +80,93 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>Nos Robbertus divina ordinante clementia Capuanorum princeps. Notum fieri
-                        volumus universis filiis sancte ac catholicae aecclesiae, quoniam ad salutem
-                        et remedium animarum quondam gloriosorum principum Richardi scilicet avi ac
-                        Iordanis patris, nec non secundi Richardi fratris nostri, ac ob statum
-                        nostri principatus, interventu quoque Iordanis carissimi fratris nostri et
-                        Grimoaldi comitis palatii, in monasterio Dei et Beati Michahelis archangeli
-                        qui dicitur in Formis, subdito monasterio Sancti Benedicti Montis Casinatis,
-                        cui domnus Girardus venerabilis abbas prehest, per hoc videlicet principale
-                        scriptum in perpetuum damus, tradimus, concedimus ac confirmamus Petrum
-                        presbyterum qui est habitator in arce nostra S. Agathes et Iohannem fratrem
-                        eius qui est habitator infra fines Sarzani, in loco ubi dicitur Pedemonte,
-                        qui fuerunt filii quondam Maynardi presbyteri, cum filiis, filiabus et
-                        heredibus eorum et cum omnibus hereditatibus et possessionibus illorum, et
-                        cum omnibus terris quas nos predicto Petro presbytero dedimus et
-                        concessimus, praeter terras ecclesiarum nostrarum quas ipse habet. Ita ut
-                        amodo et deinceps ipsi omnes predicto monasterio Sancti Michahelis
-                        archangeli et domno Maynardo venerabili preposito ceterisque omnibus
-                        prepositis et ordinatis ipsius monasteriis faciant perhenniter et persolvat
-                        quicquid nobis nostraeque parti publice facere et persolvere debent aut
-                        debuerint, et more facere soliti sunt, ad possessionem et potestatem et
-                        dominationem ipsius monasterii et memorati domni Maynardi venerabilis
-                        prepositi et successorum eius, faciendo exinde quicquid illis placuerit, ad
-                        utilitatem et augmentum ipsius monasterii Sancti Angeli. Remota omni
-                        contrarietate et molestia nostra et omnium principum successorum nostrorum
-                        vel vice principum, comitum vel vice comitum, iudicum sculdahorum,
-                        castaldeorum aliorumque omnium mortalium persone. Quod si quis huius nostre
-                        dationis, traditionis, concessionis et confirmationis paginam, contemptor
-                        aut violator exiterit, aut contra hoc principale scriptum agere
-                        presumpserit, quinque libras auri purissimi persolvat, medietatem predicto
-                        monasterio et prenominato domno Maynardo venerabili preposito et
-                        successoribus suis, et medietatem nostro palatio. Et soluta paena librarum,
-                        haec nostra datio, concessio et confirmatio, firma, munita atque inconcussa
-                        maneat in perpetuum. Et ut hoc scriptum firmius credatur et diligentius ad
-                        omnibus observetur, ex nostro sigillo illud sigillari precepimus et manu
-                        propria illud corroboravimus. (M) Ex iussione prephate potestatis, scripsi
-                        ego Quiriacus iudex. In anno dominice incarnationis millesimo centesimo
-                        quinto decimo, et nono anno principatus prephati domni gloriosi principis
-                        Capuae. Datum in Capuano palatio, mense augusto, per indictionem octavam. </ab>
+                    <ab>Nos <persName key="#Princeps #Vir_gloriosus/vir_sublimis" ref="#people/3019"
+                            >Robbertus</persName> divina ordinante clementia Capuanorum <rs
+                            key="#Princeps">princeps</rs>. Notum fieri volumus universis filiis
+                        sancte ac catholicae aecclesiae, quoniam ad salutem et remedium animarum
+                        quondam <rs key="#Vir_gloriosus/vir_sublimis">gloriosorum</rs>
+                        <rs key="#Princeps">principum</rs>
+                        <persName key="#Princeps #Vir_gloriosus/vir_sublimis #grandparentOf"
+                            ref="#people/3001">Richardi</persName> scilicet <rs key="#grandparentOf"
+                            >avi</rs> ac <persName
+                            key="#Princeps #Vir_gloriosus/vir_sublimis #parentOf" ref="#people/3002"
+                            >Iordanis</persName>
+                        <rs key="#parentOf">patris</rs>, nec non <persName
+                            key="#Princeps #Vir_gloriosus/vir_sublimis #parentOf" ref="#people/3010"
+                            >secundi Richardi</persName>
+                        <rs key="#siblingOf">fratris</rs> nostri, ac ob statum nostri principatus,
+                            <rs key="#Intercessory">interventu</rs> quoque<persName
+                            key="#Intercessory #siblingOf" ref="#people/3022"> Iordanis</persName>
+                        carissimi <rs key="#siblingOf">fratris</rs> nostri et <persName
+                            key="#Intercessory #Palatine_count" ref="#people/4262"
+                            >Grimoaldi</persName>
+                        <rs key="#Palatine_count">comitis palatii</rs>, in <rs key="#Monasteries"
+                            >monasterio</rs>
+                        <orgName key="#Immunity #Monasteries" ref="#juridical_persons/3046">Dei et
+                            Beati Michahelis archangeli qui dicitur in Formis</orgName>, subdito <rs
+                            key="#Monasteries">monasterio</rs>
+                        <orgName key="#Monasteries" ref="#juridical_persons/84">Sancti Benedicti
+                            Montis Casinatis</orgName>, cui domnus <persName
+                            key="#Abbots #Personal_rank" ref="#people/4216">Girardus</persName>
+                        <rs key="#Personal_rank">venerabilis</rs>
+                        <rs key="#Abbots">abbas</rs> prehest, per hoc videlicet principale scriptum
+                        in perpetuum damus, tradimus, concedimus ac confirmamus <persName
+                            key="#Priests #childOf"><name ref="Petrus">Petrum</name></persName>
+                        <rs key="#Priests">presbyterum</rs> qui est habitator in arce
+                            nostra<placeName ref="#places/4550"> S. Agathes</placeName> et <persName
+                            key="#childOf #siblingOf"><name ref="Iohannes"
+                            >Iohannem</name></persName>
+                        <rs key="#siblingOf">fratrem</rs> eius qui est habitator infra <rs
+                            key="#Fines">fines</rs>
+                        <placeName key="#Fines" ref="#places/4528"><geogName ref="#estates/3028"
+                                >Sarzani</geogName></placeName>, in loco ubi dicitur <placeName
+                            ref="#places/4557">Pedemonte</placeName>, qui fuerunt <rs key="#childOf"
+                            >filii</rs> quondam <persName key="#Priests"><name ref="Maginardus"
+                                >Maynardi</name></persName>
+                        <rs key="#Priests">presbyteri</rs>, cum <rs key="#childOf #heirTo">filiis,
+                            filiabus et heredibus eorum</rs> et <rs
+                            key="#Landed_possessions #Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Iure_proprietatis/pleno_iure"
+                            >cum omnibus hereditatibus et possessionibus illorum, et cum omnibus
+                            terris</rs> quas nos predicto Petro presbytero dedimus et concessimus,
+                        praeter <rs key="#Landed_possessions">terras</rs>
+                        <rs key="#Churches">ecclesiarum nostrarum</rs> quas ipse habet. Ita ut amodo
+                        et deinceps ipsi omnes predicto monasterio Sancti Michahelis archangeli et
+                        domno <persName key="#Prevosts #Personal_rank" ref="#people/4241"
+                            >Maynardo</persName>
+                        <rs key="#Personal_rank">venerabili</rs>
+                        <rs key="#Prevosts">preposito</rs> ceterisque omnibus prepositis et
+                        ordinatis ipsius monasteriis faciant perhenniter et persolvat quicquid nobis
+                        nostraeque parti publice facere et persolvere debent aut debuerint, et more
+                        facere soliti sunt, ad possessionem et potestatem et dominationem ipsius
+                        monasterii et memorati domni Maynardi venerabilis prepositi et successorum
+                        eius, faciendo exinde quicquid illis placuerit, ad utilitatem et augmentum
+                        ipsius monasterii Sancti Angeli. <rs key="#Immunity">Remota omni
+                            contrarietate et molestia nostra et omnium principum successorum
+                            nostrorum vel vice principum, comitum vel vice comitum, iudicum
+                            sculdahorum, castaldeorum aliorumque omnium mortalium persone</rs>. Quod
+                        si quis huius nostre dationis, traditionis, concessionis et confirmationis
+                        paginam, contemptor aut violator exiterit, aut contra hoc principale
+                        scriptum agere presumpserit, <rs key="#Penalty">quinque libras auri
+                            purissimi</rs> persolvat, medietatem predicto monasterio et prenominato
+                        domno Maynardo venerabili preposito et successoribus suis, et medietatem
+                        nostro palatio. Et soluta paena librarum, haec nostra datio, concessio et
+                        confirmatio, firma, munita atque inconcussa maneat in perpetuum. Et ut hoc
+                        scriptum firmius credatur et diligentius ad omnibus observetur, ex nostro
+                        sigillo illud sigillari precepimus et manu propria illud corroboravimus. (M)
+                        Ex iussione prephate potestatis, scripsi ego <persName key="#Writer #Judge"
+                            ref="#people/3012">Quiriacus</persName>
+                        <rs key="#Judge">iudex</rs>. In anno dominice incarnationis millesimo
+                        centesimo quinto decimo, et nono anno principatus prephati domni <rs
+                            key="#Vir_gloriosus/vir_sublimis">gloriosi</rs> principis Capuae. Datum
+                        in <placeName key="#Cities" ref="#places/173">Capuano</placeName>
+                        <rs
+                            key="#Fiscal_property #Textual_occurrence #Mention #Function #Residential #Palatium"
+                            >palatio</rs>, mense augusto, per indictionem octavam. </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p/>
+                <p>Gattola 1734, pp. 233-234; <foreign>RSAF</foreign>, pp. 119-120 (source of the
+                    text reproduced here).</p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p/>
