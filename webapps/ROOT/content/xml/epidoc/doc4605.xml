@@ -32,7 +32,7 @@
                             <rs type="text_type" ref="#">-Cartula</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Copy</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">No</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -40,11 +40,12 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate>
-                                <note type="displayed_date"/>
-                                <note type="dating_elements"/>
-                                <note type="topical_date"/>
-                                <note type="redaction_date"/>
+                            <origDate notBefore="1117-11-01" notAfter="1117-11-30">
+                                <note type="displayed_date">1117 November 1 - 1117 November
+                                    30</note>
+                                <note type="dating_elements">Indizione romana</note>
+                                <note type="topical_date">Nocera</note>
+                                <note type="redaction_date">1137-1166</note>
                             </origDate>
                             <origPlace></origPlace>
                         </origin>
@@ -81,40 +82,50 @@
             <div type="edition">
                 <div type="textpart">
                     <ab>In nomine Domini nostri Iesu Christi. Anno ad incarnatione eius M. C. XVII.
-                        mense novembris, decima indictione. Ego Iordanus filius quondam domni
-                        Iordani gloriosi principis Capuane civitatis, propter amorem omnipotentis
-                        Dei et mercedis anime mee. Trado adque concedo tibi domno Maynardo
-                        venerabili preposito monasterio Sancti Angeli sita in pede montis de Rocca
-                        Sancte Agathe, tibi enim pro parte suprascripto monasterio Sancti Angeli et
-                        omnium successorum vestrorum. Hoc est toti homines qui habitant in villa
-                        Sancti Petri ubi alli Scafati dicitur, ut ipsi homines quieti et liberi
-                        fiant de ipsa ecclesia Sancti Angeli. Item potestatem do adque concedo ut
-                        qualiscumque homo sive comite aut de miles sive de nostris propriis ad
-                        habitandum in ipsa villa in terra de ecclesia Sancti Petri venire voluerit,
-                        quietus et liber fiant de suprascripta ecclesia, et nullus homo audet ipsi
-                        homines qui in ipsa villa habitant in aliquo molestare aut precipere, vel
-                        placitum de ipsi homines habere sine iussione prioris qui in ipsa ecclesia
-                        Sancti Petri preest. Item trado et concedo tibi domno Maynardo pro parte et
-                        vice suprascripto monasterio Sancti Angeli et omnium successorum vestrorum,
-                        ut animalia de vestra curia Sancti Petri et de vestri homines qui in villa
-                        Sancti Petri habitant, potestatem habeatis ire pascendo per silvas nostras
-                        et Matina usque ad mare, et si vestris animalibus aliquod dampnum fecerit in
-                        vestra curia iustitiam habeat ipsum hominem qui dampnum patitur. Et ipsum
-                        pasconem absque dono aud servitium habeatis. Item concedo ad vos et ad
-                        vestri homines pro parte et vice suprascripto monasterio ad senper habendum
-                        et possidendum siliquas per nostras silvas rationabiliter conligere sine
-                        dono, et ligna propter curiam vestram facere et propter mansiones ecclesie,
-                        set vestri homines propter suas mansiones habeant incidere viridem et
-                        siccum. Per talem convenientiam tibi domne Maynarde et vestri homines
-                        concedo, ut de ligna virida ad nullum hominem venumdetis. Et de animalia de
-                        vestri homines nec de vestra herbaticum ne detis ullo modo. Et ipsi homines
-                        qui in ipsa terra ecclesie Sancti Petri habitant, vel qui ad habitandum in
-                        ipsa terra de ecclesia venerint medietatem Romane legis in iudicio habeant.
-                        Et nullus homo neque comes neque vice comes aud miles vel nulla persona
-                        magna vel parva ad ipsi homines qui in ipsa terra habitant per vim nil
-                        auferremt vel diripiant, aud aliquod servitium vel homiatum eis imponant,
-                        vel imperent aud requiret, nisi ipsa ecclesia Sancti Angeli eiusque
-                        rectores. Et concedimus ipsi homines ut qualecumque terram de sanum
+                        mense novembris, decima indictione. Ego <persName key="#childOf"
+                            ref="#people/3022">Iordanus</persName>
+                        <rs key="#childOf">filius</rs> quondam domni <persName
+                            key="#Princeps #Vir_gloriosus/vir_sublimis" ref="#people/3002"
+                            >Iordani</persName>
+                        <rs key="#Vir_gloriosus/vir_sublimis">gloriosi</rs>
+                        <rs key="#Princeps">principis</rs>
+                        <placeName key="#Cities" ref="#places/173">Capuane</placeName>
+                        <rs key="#Cities">civitatis</rs>, propter amorem omnipotentis Dei et
+                        mercedis anime mee. Trado adque concedo tibi domno <persName
+                            key="#Prevosts #Personal_rank" ref="#people/4241">Maynardo</persName>
+                        <rs key="#Personal_rank">venerabili</rs>
+                        <rs key="#Prevosts">preposito</rs>
+                        <rs key="#Monasteries">monasterio</rs> Sancti Angeli sita in pede montis de
+                        Rocca Sancte Agathe, tibi enim pro parte suprascripto monasterio Sancti
+                        Angeli et omnium successorum vestrorum. Hoc est toti homines qui habitant in
+                        villa Sancti Petri ubi alli Scafati dicitur, ut ipsi homines quieti et
+                        liberi fiant de ipsa ecclesia Sancti Angeli. Item potestatem do adque
+                        concedo ut qualiscumque homo sive comite aut de miles sive de nostris
+                        propriis ad habitandum in ipsa villa in terra de ecclesia Sancti Petri
+                        venire voluerit, quietus et liber fiant de suprascripta ecclesia, et nullus
+                        homo audet ipsi homines qui in ipsa villa habitant in aliquo molestare aut
+                        precipere, vel placitum de ipsi homines habere sine iussione prioris qui in
+                        ipsa ecclesia Sancti Petri preest. Item trado et concedo tibi domno Maynardo
+                        pro parte et vice suprascripto monasterio Sancti Angeli et omnium
+                        successorum vestrorum, ut animalia de vestra curia Sancti Petri et de vestri
+                        homines qui in villa Sancti Petri habitant, potestatem habeatis ire pascendo
+                        per silvas nostras et Matina usque ad mare, et si vestris animalibus aliquod
+                        dampnum fecerit in vestra curia iustitiam habeat ipsum hominem qui dampnum
+                        patitur. Et ipsum pasconem absque dono aud servitium habeatis. Item concedo
+                        ad vos et ad vestri homines pro parte et vice suprascripto monasterio ad
+                        senper habendum et possidendum siliquas per nostras silvas rationabiliter
+                        conligere sine dono, et ligna propter curiam vestram facere et propter
+                        mansiones ecclesie, set vestri homines propter suas mansiones habeant
+                        incidere viridem et siccum. Per talem convenientiam tibi domne Maynarde et
+                        vestri homines concedo, ut de ligna virida ad nullum hominem venumdetis. Et
+                        de animalia de vestri homines nec de vestra herbaticum ne detis ullo modo.
+                        Et ipsi homines qui in ipsa terra ecclesie Sancti Petri habitant, vel qui ad
+                        habitandum in ipsa terra de ecclesia venerint medietatem Romane legis in
+                        iudicio habeant. Et nullus homo neque comes neque vice comes aud miles vel
+                        nulla persona magna vel parva ad ipsi homines qui in ipsa terra habitant per
+                        vim nil auferremt vel diripiant, aud aliquod servitium vel homiatum eis
+                        imponant, vel imperent aud requiret, nisi ipsa ecclesia Sancti Angeli
+                        eiusque rectores. Et concedimus ipsi homines ut qualecumque terram de sanum
                         exaudinaverint in hereditatem habeant ad respondendum sicut in Matina
                         consuetudo est sine calzaru. Et precipimus ut ipsa ecclesia Sancti Petri,
                         vel suos homines suprascripti neque ad pontem de Scafati, neque in Nuceria
@@ -144,7 +155,8 @@
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p/>
+                <p>Gattola 1734, pp. 234-235; <foreign>RSAF</foreign>, pp. 155-158 (source of the
+                    text reproduced here).</p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p/>
