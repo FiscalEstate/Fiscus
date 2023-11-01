@@ -32,7 +32,7 @@
                             <rs type="text_type" ref="#">-Cartula</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Copy</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">No</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -40,10 +40,10 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate>
-                                <note type="displayed_date"/>
+                            <origDate notBefore="1118-06-01" notAfter="1118-06-30">
+                                <note type="displayed_date">1118 June 1 - 1118 June 30</note>
                                 <note type="dating_elements"/>
-                                <note type="topical_date"/>
+                                <note type="topical_date">Nocera</note>
                                 <note type="redaction_date">1137-1166</note>
                             </origDate>
                             <origPlace></origPlace>
@@ -82,7 +82,13 @@
                 <div type="textpart">
                     <ab>In nomine Domini nostri Iesu Christi. Anno ab incarnatione eius millesimo
                         centesimo octavo decimo, mense iunii, undicesima indictione. Ideoque ego
-                        Iordanus filius quondam domni Iordani gloriosi principis Capuani, propter
+                            <persName key="#childOf" ref="#people/3022">Iordanus</persName>
+                        <rs key="#childOf">filius</rs> quondam domni <persName
+                            key="#Princeps #Vir_gloriosus/vir_sublimis" ref="#people/3002"
+                            >Iordani</persName>
+                        <rs key="#Vir_gloriosus/vir_sublimis">gloriosi</rs>
+                        <rs key="#Princeps">principis</rs>
+                        <placeName key="#Cities" ref="#places/173">Capuani</placeName>, propter
                         amorem omnipotentis Deo, et mercedis anime genitori et genitrice mea, et
                         parentum meorum et mea, do et trado atque concedo tibi domno Maynardo
                         prepositus monasterii Sancti Angeli sita in territorio Capuano, in loco ubi
@@ -152,7 +158,7 @@
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p/>
+                <p><foreign>RSAF</foreign>, pp. 145-147 (source of the text reproduced here).</p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p/>
