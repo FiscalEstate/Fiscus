@@ -32,7 +32,7 @@
                             <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Copy</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -40,10 +40,10 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate>
-                                <note type="displayed_date"/>
+                            <origDate notBefore="1123-04-01" notAfter="1123-04-30">
+                                <note type="displayed_date">1123 April 1 - 1123 April 30</note>
                                 <note type="dating_elements"/>
-                                <note type="topical_date"/>
+                                <note type="topical_date">Capua</note>
                                 <note type="redaction_date">1137-1166</note>
                             </origDate>
                             <origPlace></origPlace>
@@ -81,41 +81,79 @@
             <div type="edition">
                 <div type="textpart">
                     <ab>Igitur fidelium nostrorum presentium ac futurorum noverit multitudo. Quoniam
-                        per interventum Robberti nostri dilectissimi filii ac Odoaldi camerarii et
-                        Mansonis nostrorum dilectorum fidelium, necnon ob salutem et remedium
-                        animarum quondam gloriosorum principum videlicet Richardi primi principis
-                        avi, ac bone memorie Iordani patris atque secundi Richardi quam et Robberti
-                        principum fratrum nostrorum, et ob statum nostri principatus. Per hoc
-                        videlicet principale scriptum in perpetuum damus, tradimus, concedimus ac
-                        confirmamus monasterio Sancti Angeli quod dicitur in Formis in quo domnus
-                        Maurus Dei gratia venerabilis prepositus preesse dinoscitur, scilicet hunc
-                        subscriptum hominem cum omnibus rebus et substantiis ipsius ut ipse faciat
-                        et persolvat predicto monasterio Sancti Angeli et iam dicto domno Mauro
-                        venerabili preposito suisque successoribus semper censum et dationem,
-                        publicalia et scaditionem et alia omnia que parti publice facere aut
-                        persolvere debet aut debuerit. Nomen cuius hoc est, videlicet Simeon
-                        cognomento Caprarius filius quondam Iohannis Benerosi qui est habitator in
-                        loco qui dicitur li Benerosi non multum longe a prefato monasterio Sancti
-                        Angeli. Remota omni inquietudine, contrarietate vel molestia omnium
-                        principum successorum nostrorum vel vice principum, comitum vel vice
-                        comitum, iudicum, sculdaorum, castaldeorum aliorumque omnium mortalium
-                        persone. Quod si quis huius nostre dationis, traditionis, concessionis atque
-                        confirmationis pagine contemptor aut violator extiterit, aut contra hoc
-                        principale scriptum hagere temptaverit, decem librarum auri purissimi
+                            <rs key="#Intercessory">per interventum</rs>
+                        <persName key="#Intercessory #childOf" ref="#people/3042"
+                            >Robberti</persName> nostri dilectissimi <rs key="#childOf">filii</rs>
+                        ac <persName key="#Intercessory #Other_palatine_officer #fidelisOf"
+                            ref="#people/3035">Odoaldi</persName>
+                        <rs key="#Other_palatine_officer">camerarii</rs> et <persName
+                            key="#Intercessory #fidelisOf" ref="#people/4265">Mansonis</persName>
+                        nostrorum dilectorum <rs key="#fidelisOf">fidelium</rs>, necnon ob salutem
+                        et remedium animarum quondam <rs key="#Vir_gloriosus/vir_sublimis"
+                            >gloriosorum</rs> principum videlicet <persName
+                            key="#Princeps #Vir_gloriosus/vir_sublimis #grandparentOf"
+                            ref="#people/3001">Richardi primi</persName>
+                        <rs key="#Princeps">principis</rs>
+                        <rs key="#grandparentOf">avi</rs>, ac bone memorie <persName
+                            key="#Princeps #Vir_gloriosus/vir_sublimis #parentOf" ref="#people/3002"
+                            >Iordani</persName>
+                        <rs key="#parentOf">patris</rs> atque<persName
+                            key="#Princeps #Vir_gloriosus/vir_sublimis #siblingOf"
+                            ref="#people/3010"> secundi Richardi</persName> quam et <persName
+                            key="#Princeps #Vir_gloriosus/vir_sublimis #siblingOf"
+                            ref="#people/3019">Robberti</persName>
+                        <rs key="#Princeps">principum</rs>
+                        <rs key="#siblingOf">fratrum</rs> nostrorum, et ob statum nostri
+                        principatus. Per hoc videlicet principale scriptum in perpetuum damus,
+                        tradimus, concedimus ac confirmamus <rs key="#Monasteries"
+                            >monasterio</rs><orgName key="#Monasteries"
+                            ref="#juridical_persons/3046"> Sancti Angeli quod dicitur in
+                            Formis</orgName> in quo domnus <persName key="#Prevosts #Personal_rank"
+                            ref="#people/4266">Maurus</persName> Dei gratia <rs key="#Personal_rank"
+                            >venerabilis</rs>
+                        <rs key="#Prevosts">prepositus</rs> preesse dinoscitur, scilicet hunc
+                        subscriptum <rs key="#Coloni/tenants">hominem</rs>
+                        <rs
+                            key="#Landed_possessions #Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Iure_proprietatis/pleno_iure"
+                            >cum omnibus rebus et substantiis ipsius</rs> ut ipse faciat et
+                        persolvat predicto monasterio Sancti Angeli et iam dicto domno Mauro
+                        venerabili preposito suisque successoribus semper<rs key="#Census"> censum
+                        </rs>et <rs key="#Datium">dationem</rs>, <rs key="#Public_exactions"
+                            >publicalia et scaditionem</rs> et alia omnia que parti publice facere
+                        aut persolvere debet aut debuerit. Nomen cuius hoc est, videlicet <persName
+                            key="#Coloni/tenants #childOf"><name ref="Symeon Caprarius">Simeon
+                                cognomento Caprarius</name></persName>
+                        <rs key="#childOf">filius</rs> quondam <persName><name
+                                ref="Iohannes Benerosi">Iohannis Benerosi</name></persName> qui est
+                        habitator in loco qui dicitur <placeName ref="#places/5463">li Benerosi
+                        </placeName>non multum longe a prefato monasterio Sancti Angeli. Remota omni
+                        inquietudine, contrarietate vel molestia omnium principum successorum
+                        nostrorum vel vice principum, comitum vel vice comitum, iudicum, sculdaorum,
+                        castaldeorum aliorumque omnium mortalium persone. Quod si quis huius nostre
+                        dationis, traditionis, concessionis atque confirmationis pagine contemptor
+                        aut violator extiterit, aut contra hoc principale scriptum hagere
+                        temptaverit, <rs key="#Penalty">decem librarum auri purissimi</rs>
                         persolvat, medietatem predicto monasterio Sancti Angeli et iam dicto domno
                         Mauro venerabili preposito eiusque successoribus, et medietatem nostro sacro
                         palatio. Solutaque pena librarum auri, hoc principale scriptum firmum,
                         munitum atque inviolabile maneat in perpetuum. Et ut hoc principale scriptum
                         firmius credatur et diligentius ab omnibus observetur, manu propria illud
                         corroboravimus, et nostri sigilli illud insigniri iussimus. (M) Ex iussione
-                        prephate serenissime potestatis, scripsi ego Philippus palatinus iudex. In
-                        anno dominice incarnationis M° C° XX° III°; et tertio anno principatus
-                        predicti domni Iordani gloriosi principis Capue. Data Capue in mense
-                        abrelis, per indictionem primam. </ab>
+                        prephate serenissime potestatis, scripsi ego <persName key="#Writer #Judge"
+                            ref="#people/3037">Philippus</persName>
+                        <rs key="#Judge">palatinus iudex</rs>. In anno dominice incarnationis M° C°
+                        XX° III°; et tertio anno principatus predicti domni <persName
+                            key="#Princeps #Vir_gloriosus/vir_sublimis" ref="#people/3022"
+                            >Iordani</persName>
+                        <rs key="#Vir_gloriosus/vir_sublimis">gloriosi</rs>
+                        <rs key="#Princeps">principis</rs> Capue. Data <placeName key="#Cities"
+                            ref="#places/173">Capue</placeName> in mense abrelis, per indictionem
+                        primam. </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p/>
+                <p>Gattola 1734, pp. 238-239; <foreign>RSAF</foreign>, pp. 131-132 (source of the
+                    text reproduced here).</p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p/>
