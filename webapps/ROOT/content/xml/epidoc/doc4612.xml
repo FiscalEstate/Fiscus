@@ -32,7 +32,7 @@
                             <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Copy</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">No</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -80,37 +80,61 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>+ Nos Robertus divina ordinante clementia Capuanorum princeps per
-                        interventum Goffredi comitis stabuli et Petri Stantionis nec non Aymonis de
-                        Argentia ac Ugonis de la Brilita baronum nostrorum, vobis Giliberto
-                        Parmenterio filio condam Iohannis et Iordano filio cuiusdam Rodulfi de
-                        Argencza burgensibus et fidelibus nostri Averse nec non vestris heredibus
-                        imperpetuum per hoc videlicet principale scriptum concedimus et confirmamus
-                        tintam que vocatur Bascello, ita ut persona alicuius hominum amodo et in
-                        antea in Aversana urbe neque infra hos terminos scilicet: sicut vadit a
-                        laneo Acerrano et usque Patriam et a fossato Neapolim et usque aquam lanei
-                        que decurrit infra Capuanam civitatem nostram et memoratam nostram Aversanam
-                        urbem non habeat potestatem faciendi tintam, que vocatur Bascello absque
-                        volumptate vestra vestrorumque heredum et omnibus illis hominibus, qui per
-                        licentiam et volumptatem vestram vestrorumque heredum ipsa tinta que vocatur
-                        Bassello fecerint securitatem et fidutiam nostram habeant per pacem et per
-                        guerram, veniendi, standi ac redeundi securiter cum omnibus rebus illorum
-                        quas secum duxerint in Aversa ed infra memoratos fines neminem eis aliquam
-                        molestiam ingerente iniuste dando tamen nobis et nostris successoribus
-                        principibus plateaticum et iusticiam nostram, sicut mos est, remota omni
-                        contrarietate et molestia omnium principum successorum nostrorum vel vice
-                        principum, comitum, vel vicecomitum, castaldeorum, aliorumque omnium
-                        mortalium persone. Quod si quis huius nostre concessionis et confirmationis
-                        paginam contemptor aut violator extiterit decem libras auri persolvat,
-                        medietatem nostro sacro palatio et medietatem vobis predictis Giliberto et
-                        Iordano burgensibus vestrisque heredibus et soluta pena hec nostra datio,
-                        concessio et confirmatio firmitatis maneat imperpetuum et ut firmius
-                        credatur et diligentius ab omnibus observetur manu propria subscrissimus et
-                        nostri sigilli impressione iussiumus insigniri. Robertus (M). Ex iussione
-                        predicte potestatis scripsi ego Ruriacus palatinus iudex in anno Dominice
-                        incarnationis MCVIIII et tercio anno principatus predicti domini Roberti
-                        gloriosi principis Capue. Datum apud Aversanam urbem mense iulio per
-                        indictionem IIa </ab>
+                    <ab>+ Nos <persName key="#Princeps" ref="#people/3019">Robertus</persName>
+                        divina ordinante clementia Capuanorum <rs key="#Princeps">princeps</rs>
+                        <rs key="#Intercessory">per interventum</rs>
+                        <persName key="#Intercessory #Other_palatine_officer" ref="#people/3025"
+                            >Goffredi </persName><rs key="#Other_palatine_officer">comitis
+                            stabuli</rs> et<persName key="#Intercessory"> Petri
+                            Stantionis</persName> nec non <persName key="#Intercessory"
+                            ref="#people/3032">Aymonis de Argentia</persName> ac <persName
+                            key="#Intercessory" ref="#people/3040">Ugonis de la Brilita</persName>
+                        baronum nostrorum, vobis <persName
+                            key="#Specialized_workers #childOf #fidelisOf" ref="#people/4275"
+                            >Giliberto Parmenterio</persName>
+                        <rs key="#childOf">filio</rs> condam <persName><name ref="Iohannes"
+                                >Iohannis</name></persName> et <persName key="#childOf #fidelisOf"
+                            ref="#people/4276">Iordano</persName>
+                        <rs key="#childOf">filio</rs> cuiusdam <persName><name
+                                ref="Rodulfus d'Arienzo">Rodulfi de Argencza</name></persName>
+                        burgensibus et <rs key="#fidelisOf">fidelibus</rs> nostri <placeName
+                            key="#Cities" ref="#places/4000">Averse</placeName> nec non vestris <rs
+                            key="#heirTo">heredibus</rs> imperpetuum per hoc videlicet principale
+                        scriptum concedimus et confirmamus <rs key="#Workshops">tintam</rs> que
+                        vocatur Bascello, <rs key="#Privileges">ita ut persona alicuius hominum
+                            amodo et in antea in Aversana urbe neque infra hos <rs key="#Fines"
+                                >terminos</rs> scilicet: sicut vadit a <placeName key="#Rivers"
+                                ref="#places/2865">laneo Acerrano</placeName> et usque <placeName
+                                key="#Lakes" ref="#places/701">Patriam</placeName> et a fossato
+                                <placeName key="#Cities" ref="#places/2350">Neapolim</placeName> et
+                            usque aquam lanei que decurrit infra <placeName key="#Cities"
+                                ref="#places/173">Capuanam</placeName>
+                            <rs key="#Cities">civitatem</rs> nostram et memoratam nostram Aversanam
+                                <rs key="#Cities">urbem</rs> non habeat potestatem faciendi tintam,
+                            que vocatur Bascello absque volumptate vestra vestrorumque heredum</rs>
+                        et omnibus illis hominibus, qui per licentiam et volumptatem vestram
+                        vestrorumque heredum ipsa tinta que vocatur Bassello fecerint securitatem et
+                        fidutiam nostram habeant per pacem et per guerram, veniendi, standi ac
+                        redeundi securiter cum omnibus rebus illorum quas secum duxerint in Aversa
+                        ed infra memoratos fines neminem eis aliquam molestiam ingerente iniuste
+                        dando tamen nobis et nostris successoribus principibus<rs
+                            key="#Public_exactions"> plateaticum et iusticiam nostram</rs>, sicut
+                        mos est, remota omni contrarietate et molestia omnium principum successorum
+                        nostrorum vel vice principum, comitum, vel vicecomitum, castaldeorum,
+                        aliorumque omnium mortalium persone. Quod si quis huius nostre concessionis
+                        et confirmationis paginam contemptor aut violator extiterit <rs
+                            key="#Penalty">decem libras auri </rs>persolvat, medietatem nostro sacro
+                        palatio et medietatem vobis predictis Giliberto et Iordano burgensibus
+                        vestrisque heredibus et soluta pena hec nostra datio, concessio et
+                        confirmatio firmitatis maneat imperpetuum et ut firmius credatur et
+                        diligentius ab omnibus observetur manu propria subscrissimus et nostri
+                        sigilli impressione iussiumus insigniri. Robertus (M). Ex iussione predicte
+                        potestatis scripsi ego <persName key="#Writer #Judge" ref="#people/3012"
+                            >Ruriacus </persName><rs key="#Judge">palatinus iudex</rs> in anno
+                        Dominice incarnationis MCVIIII et tercio anno principatus predicti domini
+                        Roberti <rs key="#Vir_gloriosus/vir_sublimis">gloriosi</rs> principis Capue.
+                        Datum apud <placeName key="#Cities" ref="#places/4000">Aversanam</placeName>
+                        urbem mense iulio per indictionem IIa </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
