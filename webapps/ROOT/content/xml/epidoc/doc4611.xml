@@ -32,7 +32,7 @@
                             <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Original</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">No</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -80,50 +80,71 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>+ In nomine domini Salvatoris nostri Iesu Christi Dei eterni Robbertus
-                        divina ordinante clementia Capuanorum princeps Petitioni dilectorum suorum
+                    <ab>+ In nomine domini Salvatoris nostri Iesu Christi Dei eterni <persName
+                            key="#Princeps #Vir_magnificus #Vir_gloriosus/vir_sublimis"
+                            ref="#people/3019">Robbertus</persName> divina ordinante clementia
+                        Capuanorum <rs key="#Princeps">princeps</rs> Petitioni dilectorum suorum
                         baronum clementer favet Igitur fidelium nostrorum presentium ac futurorum
-                        noverit multitudo. Quoniam per interventum Ugonis de la Bulita et Loffridi
-                        comitistabuli, nec non Ivonis economi nostrorum baronum et fidelium in
-                        monasterio beati Iohannis Baptiste constructo intro hanc nostram Capuanam
-                        civitatem in quo domna Ymigla religiosa abbatissa preese videtur per hoc
-                        principale scriptum in perpetuum concedimus et confirmamus integram unam
-                        peciam de terra et presa cum casa fabrita et terra et presa vacua cum ea
-                        coniuncta, quae predictus Ugo per cartulam in eodem monasterio dedit et est
-                        prope ipsum monasterium et pen[es] ecclesiam Sancti Angeli de Olaldiski et
-                        insimul coniuncte hos habent fines: ab uno latere est finis terra et presa
-                        et casa fabrita ipsius monasterii Sancti Iohannis sunt inde per longitudinem
-                        pedes octoaginta quinque; ab alio vero latere est finis terra et presa quae
-                        fuit Iohannis Maledicti et nunc retinet a nobis prephatus Ivo, sunt inde
-                        pedes octoaginta et tres, ab uno capite et finis trasenda publica, sunt inde
-                        per latitudinem pedes triginta quinque et medium, ab alio vero capite est
-                        finis parietis suprascripti monasterii Sancti Iohannis et finis terra et
-                        presa predicte ecclesie Sancti Angeli sunt inde pedes triginta. Hanc
-                        predicta petia de terra et presa cum casa fabrita et terra et presa vacua
-                        cum ea coniuncta per predictos fines et mensura et qualiter prephatus Ubo
-                        per cartulam in eodem monasterio illa dedit, nos prenotatus Robbertus
-                        Capuanus princeps per hoc videlicet principale scriptum in perpetuum in
-                        prenominato monasterio Sancti Iohannis concedimus ac confirmamus ad
-                        possessionem et potestatem et dominationem predicti monasterii et predicte
-                        domne Ymigle religiose abbatisse et aliorum omnium abbatissarum et rectorum
-                        et rectricum ipsius monasterii faciendo exinde regulariter et secundum
-                        iustitiam utilitatem ipsius monasterii, remota omni inquietudine,
-                        contrarietate et molestia omnium principum successorum nostrorum vel vice
-                        principum, comitum vel vice-comitum, iudicum sculdahorum, aliorumque omnium
-                        mortalium personae. Quod si quis huius nostre concessionis et confirmationis
-                        paginam contemptor aut violator esse presumpserit, viginti libras auri
-                        purissimi persolvat medietatem predicto monasterio Sancti Iohannis et
-                        prephate domne Ymigle religiose abbatisse et omnibus successoribus eius et
-                        rectoribus ipsius monasterii et medietatem nostro sacro palatio, solutaque
-                        pena librarum auri hoc scriptum [cum] omnibus que continet firmita[tibus]
-                        munitum atque inviolabile maneat in perpetuum et ut hoc principale scriptum
-                        firmius credatur et diligentius ab omnibus observetur, manu propria illud
-                        corroboravimus et nostri sigilli impressione iussimus insigniri. + Signum
-                        domini Roberti (M) gloriosissimi ac magnifici principis. Ex iussione
-                        prephate serenissime potestatis scripsi ego Ruriacus palatinus iudex in anno
-                        Dominice incarnationis MCVIII et secundo anno principatus prephati domini
-                        Robberti magnifici principis Capue. Datum Capuam, mense magio per
-                        indictionem primam. </ab>
+                        noverit multitudo. Quoniam <rs key="#Intercessory">per interventum</rs>
+                        <persName key="#Intercessory #fidelisOf" ref="#people/3040">Ugonis de la
+                            Bulita</persName> et <persName
+                            key="#Intercessory #Other_palatine_officer #fidelisOf"
+                            ref="#people/3025">Loffridi</persName>
+                        <rs key="#Other_palatine_officer">comitistabuli</rs>, nec non <persName
+                            key="#Intercessory #Other_palatine_officer #fidelisOf"
+                            ref="#people/4254">Ivonis</persName>
+                        <rs key="#Other_palatine_officer">economi</rs> nostrorum baronum et <rs
+                            key="#fidelisOf">fidelium</rs> in <rs key="#Monasteries">monasterio</rs>
+                        <orgName key="#Monasteries" ref="#juridical_persons/3070">beati Iohannis
+                            Baptiste</orgName> constructo intro hanc nostram <placeName
+                            key="#Cities" ref="#places/173">Capuanam</placeName>
+                        <rs key="#Cities">civitatem</rs> in quo domna <persName key="#Abbesses"
+                            ref="#people/4270">Ymigla</persName> religiosa <rs key="#Abbesses"
+                            >abbatissa</rs> preese videtur per hoc principale scriptum in perpetuum
+                        concedimus et confirmamus integram unam <rs key="#Petiae">peciam</rs> de
+                        terra et <rs key="#Landed_possessions">presa</rs> cum <rs key="#Houses">casa
+                            fabrita</rs> et<rs key="#Landed_possessions"> terra et presa vacua</rs>
+                        cum ea coniuncta, quae predictus Ugo per <rs key="#Cartula">cartulam</rs> in
+                        eodem monasterio dedit et est prope ipsum monasterium et pen[es] <rs
+                            key="#Churches">ecclesiam</rs>
+                        <orgName key="#Churches" ref="#juridical_persons/3063">Sancti Angeli de
+                            Olaldiski</orgName> et insimul coniuncte hos habent <rs key="#Fines"
+                            >fines</rs>: ab uno latere est finis terra et presa et casa fabrita
+                        ipsius monasterii Sancti Iohannis sunt inde per longitudinem pedes
+                        octoaginta quinque; ab alio vero latere est finis terra et presa quae fuit
+                        Iohannis Maledicti et nunc retinet a nobis prephatus Ivo, sunt inde pedes
+                        octoaginta et tres, ab uno capite et finis trasenda publica, sunt inde per
+                        latitudinem pedes triginta quinque et medium, ab alio vero capite est finis
+                        parietis suprascripti monasterii Sancti Iohannis et finis terra et presa
+                        predicte ecclesie Sancti Angeli sunt inde pedes triginta. Hanc predicta
+                        petia de terra et presa cum casa fabrita et terra et presa vacua cum ea
+                        coniuncta per predictos fines et mensura et qualiter prephatus Ubo per
+                        cartulam in eodem monasterio illa dedit, nos prenotatus Robbertus Capuanus
+                        princeps per hoc videlicet principale scriptum in perpetuum in prenominato
+                        monasterio Sancti Iohannis concedimus ac confirmamus ad possessionem et
+                        potestatem et dominationem predicti monasterii et predicte domne Ymigle
+                        religiose abbatisse et aliorum omnium abbatissarum et rectorum et rectricum
+                        ipsius monasterii faciendo exinde regulariter et secundum iustitiam
+                        utilitatem ipsius monasterii, remota omni inquietudine, contrarietate et
+                        molestia omnium principum successorum nostrorum vel vice principum, comitum
+                        vel vice-comitum, iudicum sculdahorum, aliorumque omnium mortalium personae.
+                        Quod si quis huius nostre concessionis et confirmationis paginam contemptor
+                        aut violator esse presumpserit, <rs key="#Penalty">viginti libras auri
+                            purissimi</rs> persolvat medietatem predicto monasterio Sancti Iohannis
+                        et prephate domne Ymigle religiose abbatisse et omnibus successoribus eius
+                        et rectoribus ipsius monasterii et medietatem nostro sacro palatio,
+                        solutaque pena librarum auri hoc scriptum [cum] omnibus que continet
+                        firmita[tibus] munitum atque inviolabile maneat in perpetuum et ut hoc
+                        principale scriptum firmius credatur et diligentius ab omnibus observetur,
+                        manu propria illud corroboravimus et nostri sigilli impressione iussimus
+                        insigniri. + Signum domini Roberti (M) <rs key="#Vir_gloriosus/vir_sublimis"
+                            >gloriosissimi</rs> ac <rs key="#Vir_magnificus">magnifici</rs>
+                        principis. Ex iussione prephate serenissime potestatis scripsi ego <persName
+                            key="#Writer #Judge" ref="#people/3012">Ruriacus</persName>
+                        <rs key="#Judge">palatinus iudex</rs> in anno Dominice incarnationis MCVIII
+                        et secundo anno principatus prephati domini Robberti magnifici principis
+                        Capue. Datum <placeName key="#Cities" ref="#places/173">Capuam</placeName>,
+                        mense magio per indictionem primam. </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
