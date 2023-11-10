@@ -75,6 +75,7 @@
         <revisionDesc>
             <listChange>
                 <change when="2021-05-13" who="vlore">creation of record</change>
+                <change when="2023-11-10" who="pmassa">major changes</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -82,38 +83,43 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>+ In nomine domini nostri ihesu christi. Nos <persName key="#Princeps"
-                            ref="#people/338">guaimarius</persName> et <persName key="#Princeps"
-                            ref="#people/339">guaimarius</persName>, pater et filius, dibina
+                    <ab>+ In nomine domini nostri Ihesu Christi. Nos <persName key="#Princeps"
+                            ref="#people/338">Guaimarius</persName> et <persName key="#Princeps"
+                            ref="#people/339">Guaimarius</persName>, pater et filius, dibina
                         opitulante clementia langobardorum gentis <rs key="#Princeps"
                         >principes</rs>, per postulationem <persName key="#Principissa"
-                            >gaitelgrime</persName> serenissime atque gloriose <rs
+                            ref="#people/4106">Gaitelgrime</persName> serenissime atque gloriose <rs
                             key="#Principissa">principisse</rs> dilecte coniugi et matri nostre,
-                        Quam et pro redemtionis anime et patrie nostre salvationis Concedimus tibi
-                        domino <persName key="#Abbots">adelferi</persName> venerabili <rs
-                            key="#Abbots">abbati</rs> et spirituali patri oratori nostro totam et
+                        Quam et pro redemtionis anime et patrie nostre salvationis concedimus tibi
+                        domino <persName key="#Abbots" ref="#people/4185">Adelferi</persName>
+                        <rs key="#Personal_rank">venerabili</rs>
+                        <rs key="#Abbots">abbati</rs> et spirituali patri oratori nostro totam et
                         inclitam ecclesiam illam cum inclita cripta, in quo ipsa <rs
-                            key="#Churches/religious_bodies #Monasteries">ecclesia</rs> a nobo
-                        fundamine construere fecisti cum tuo espendio in nomine <orgName
-                            key="#Monasteries" ref="#juridical_persons/225">sancte et indibidue
-                            trinitatis</orgName> a foras hanc nostram salernitanam cibitatem in <rs
-                            key="#Other_administrative_unit">pertinentia mitilianense</rs>. Et <rs
+                            key="#Monasteries">ecclesia</rs> a nobo fundamine construere fecisti cum
+                        tuo espendio in nomine <orgName key="#Monasteries"
+                            ref="#juridical_persons/225">Sancte et Indibidue Trinitatis</orgName> a
+                        foras hanc nostram salernitanam cibitatem in <rs
+                            key="#Other_administrative_unit">pertinentia <placeName
+                                ref="#places/4755" key="#Villages/settlements"
+                                >mitilianense</placeName></rs>. Et <rs
                             key="#Fiscal_property #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
                             >cripta ipsa vocatur <geogName
                                 key="#Fiscal_property #Object #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
-                                >arsicza</geogName> cum rebus</rs> a supter et a super iamdictas
-                        cripta et ecclesia, que sunt terris, et vineis, et arbustis, et insites, et
-                        castaneis, et pomis, et bacuum, et rupis, totum uno tenientem per as fines:
-                        de una parte quomodo descendit per medium ballonem, qui dicitur iuniolu, et
-                        coniungit se cum flubio qui selano vocatur; de alia parte quomodo descendit
-                        per medio ribus, qui sassu bibu dicitur, et coniungit se cum predicto flubio
-                        selanu, et sicut descendit ipso flubio selano, et coniungit se cum
-                        supradicto ballone iuniolu: de super parte ad fine rebus predicte ecclesie
+                                >Arsicza</geogName> cum rebus</rs> a supter et a super iamdictas
+                        cripta et ecclesia, que sunt <rs key="#Landed_possessions">terris</rs>, et
+                            <rs key="#Wine">vineis</rs>, et arbustis, et insites, et <rs
+                            key="#Chestnuts">castaneis</rs>, et <rs key="#Fruits/vegetables"
+                            >pomis</rs>, et bacuum, et rupis, totum uno tenientem per as fines: de
+                        una parte quomodo descendit per medium ballonem, qui dicitur Iuniolu, et
+                        coniungit se cum flubio qui Selano vocatur; de alia parte quomodo descendit
+                        per medio ribus, qui Sassu bibu dicitur, et coniungit se cum predicto flubio
+                        Selanu, et sicut descendit ipso flubio Selano, et coniungit se cum
+                        supradicto ballone Iuniolu: de super parte ad fine rebus predicte ecclesie
                         coniunctum est, qualiter vadit de suprana pars a medio predicto ballone
-                        iuniolu usque in medio predicto ribus, qui sassu bibu dicitur. As vero
+                        Iuniolu usque in medio predicto ribus, qui Sassu Bibu dicitur. As vero
                         omnibus supradictis rebus per supradictas fines, cum omni intro se
                         habentibus et suis pertinentiis, et cum vice de viis et anditis suis, totum
-                        et inclitum illud tibi supradicto domino adelferi abbati concessimus; Ut
+                        et inclitum illud tibi supradicto domino Adelferi abbati concessimus; Ut
                         amodo et semper in tua et de tuis successoribus, qui in ipsa ecclesia
                         prefuerint, sint potestatis illud tenendum, dominandum, possidendum et omnia
                         exinde faciendum quod volueritis, et congregationem monachorum quam in ipsa
@@ -121,7 +127,7 @@
                         potestatem habeatis eam ampliare, qualiter volueritis. Item, si volueris,
                         bibente te, vel ad diem obitis tui alium abbatem ibidem ordinare, ad tuam
                         sit potestatem, qualiter volueris; et sibe, te volente vel neglegente, ante
-                        tuam defuntionem abbas per te in predictum monasterium sancte trinitatis
+                        tuam defuntionem abbas per te in predictum monasterium Sancte Trinitatis
                         ordinatus non fuerit, potestatem habead ipsam congregationem monachorum qui
                         in ipso monasterio fuerint, abbatem inter se eligere et ordinare, qualiter
                         voluerint, alio sic faciant semper per omnes bices, quando abbatem eorum
@@ -134,36 +140,39 @@
                             key="#Immunity">pensionem</rs>, nec <rs key="#Immunity">censum</rs>, nec
                             <rs key="#Tolls #Immunity">plateaticum</rs>, nec qualiscumque <rs
                             key="#Operae #Immunity">serbitium</rs> vel <rs key="#Immunity"
-                            >dationem</rs>. Iterum concedimus tibi supradicto domno adelferi abbati
-                        totis et <rs key="#Rivers #Fiscal_property #Object #Outflow">integris albeis
-                            de predicto flubio et de ipsis ribis et ballonibus</rs>, cum omnibus
-                        ripis ex undique partibus ibidem adiunctis, eum omnibus aliis albeis,
-                        fluminibus et aquarum, que ubicunque ad aliis rebus predicti monasterii sunt
-                        et fuerint coniunctos, ut semper potestates habeant pars predicti monasterii
-                        in ipsis albeis clusamina et antepositiones facere et habere, et in ripis
-                        earum fodere, ut aquis ipsis lebare et extorquere et portare per ipsis rebus
-                        ipsius monasterii, ubi aut qualiter voluerint, et molina et omnes suas
-                        utilitates exinde facere et abere, qualiter pars predicti monasterii
-                        voluerint, absque omnibus contrarietatibus nostra nostrorumque successorum,
-                        vel cuiquam hominum. Item concedimus tibi iamdicto domno adelferii abbati
-                        omnibus liberis illis hominibus qui in omnibus supradictis rebus sunt, vel
-                        fuerint habitantes, <rs key="#Immunity">ut semper sint liberi absoluti a
-                            pars reipublice</rs>; et non habeamus potestatem nec nos, nec
-                        successores nostros eorum tollere aut facere tollere <rs key="#Immunity"
-                            >pensionem</rs>, nec <rs key="#Tolls #Immunity">plateaticum</rs>, nec
-                        qualiscunque <rs key="#Immunity">censa</rs> vel <rs key="#Immunity"
-                            >dationes</rs>, nec quolibet <rs key="#Operae #Immunity">serbitium</rs>
-                        eorum tollere aut inponere, vel exigere querantur; set semper a partibus
-                        reispublicis securis et liberis persistant sub defensione et protectione
-                        tuaque domni adelferi abbati et de successoribus tuis, qui in ipso
-                        monasterio prefuerint. Pariterque concedimus tibi supradicto domno adelferii
-                        abbati, licentias abeatis per rebus nostri palatii vel successorum nostrorum
-                        vos et monachos, et ipsis aliis vestris hominibus, per totis montaneis <rs
-                            key="#Outflow #Allocation_to_churches #Rent_in_kind">lignamina
+                            >dationem</rs>. Iterum concedimus tibi supradicto domno Adelferi abbati
+                        totis et <rs
+                            key="#Rivers #Fiscal_property #Object #Outflow #Rights_of_use_on_woods/pastures/waters"
+                            >integris albeis de predicto flubio et de ipsis ribis et
+                        ballonibus</rs>, cum omnibus ripis ex undique partibus ibidem adiunctis, eum
+                        omnibus aliis albeis, fluminibus et aquarum, que ubicunque ad aliis rebus
+                        predicti monasterii sunt et fuerint coniunctos, ut semper potestates habeant
+                        pars predicti monasterii in ipsis albeis clusamina et antepositiones facere
+                        et habere, et in ripis earum fodere, ut aquis ipsis lebare et extorquere et
+                        portare per ipsis rebus ipsius monasterii, ubi aut qualiter voluerint, et
+                        molina et omnes suas utilitates exinde facere et abere, qualiter pars
+                        predicti monasterii voluerint, absque omnibus contrarietatibus nostra
+                        nostrorumque successorum, vel cuiquam hominum. Item concedimus tibi iamdicto
+                        domno Adelferii abbati omnibus <rs key="#Freeborn">liberis illis
+                            hominibus</rs> qui in omnibus supradictis rebus sunt, vel fuerint
+                        habitantes, <rs key="#Immunity">ut semper sint liberi absoluti a pars
+                            reipublice</rs>; et non habeamus potestatem nec nos, nec successores
+                        nostros eorum tollere aut facere tollere <rs key="#Immunity">pensionem</rs>,
+                        nec <rs key="#Tolls #Immunity">plateaticum</rs>, nec qualiscunque <rs
+                            key="#Immunity">censa</rs> vel <rs key="#Immunity">dationes</rs>, nec
+                        quolibet <rs key="#Operae #Immunity">serbitium</rs> eorum tollere aut
+                        inponere, vel exigere querantur; set semper a partibus reispublicis securis
+                        et liberis persistant sub defensione et protectione tuaque domni Adelferi
+                        abbati et de successoribus tuis, qui in ipso monasterio prefuerint.
+                        Pariterque concedimus tibi supradicto domno Adelferii abbati, licentias
+                        abeatis per rebus nostri palatii vel successorum nostrorum vos et monachos,
+                        et ipsis aliis vestris hominibus, per totis <rs key="#Mountains"
+                            >montaneis</rs>
+                        <rs key="#Outflow #Allocation_to_churches #Rent_in_kind">lignamina
                             abscidere, et tollere</rs>, et portare ubi volueritis, pro utilitatibus,
                         et que congrua sunt predicti monasterii faciendum, qualiter voluerint. Quam
-                        et concedimus tibi supradicto domno adelferi abbati omnes <rs
-                            key="#Object #Inflow #Inheritance #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches"
+                        et concedimus tibi supradicto domno Adelferi abbati omnes <rs
+                            key="#Object #Inflow #Inheritance #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_churches #Property_of_persons_without_heirs"
                             >res ex mortuorum et rebus nostri palatii</rs>, qui infra et erga rebus
                         ipsius monasterii sunt vel fuerint, ut pars ipsius monasterii securiter
                         illud habeat, faciendum quod voluerint. Et si qualiscumque tempore acciderit
@@ -176,20 +185,19 @@
                         illis pars ipsius monasterii voluerint, sacramenta ipsa iurare faciant,
                         qualiter eis per legem iudicatum fuerint, et semper firmum stabilemque
                         permaneant. As omnibus supradictis concessionibus, qualiter supra legitur,
-                        Tu supradictus domnus adelferius et successores tuos, qui in ipso monasterio
-                        sancte trinitatis prefuerint, illud habendum, dominandum, possidendum et
-                        omnia exinde faciendum quod volueritis, et a nullo ex nostris <rs
-                            key="#Judge">iudicibus</rs>, <rs key="#Count">comitibus</rs>, <rs
-                            key="#Sculdahis">sculdais</rs>, <rs key="#Gastaldus/vicegastaldus"
-                            >castaldeis</rs>, vel a <rs key="#Other_minor_officer">quibuscumque
-                            agentibus</rs> patiamini inde molestationes aut contrarietates; set
-                        amodo et deinceps per unc nostrum roboreum preceptum cunctas supradictas
-                        nostras concessiones securiter habeatis in predicta ratione. Quod vero
-                        preceptum concessionis ex iussionibus supradictorum gloriosorum principum
-                        scripsi ego aceprandus clericus — In anno tricesimo septimo principatus
-                        supradicti domni nostri guaimari et septimo anno principatus supradicti
-                        domni guaimari eius filio gloriosis principibus. De mense martius hoctaba
-                        indictione.</ab>
+                        Tu supradictus domnus Adelferius et successores tuos, qui in ipso monasterio
+                        Sancte Trinitatis prefuerint, illud habendum, dominandum, possidendum et
+                        omnia exinde faciendum quod volueritis, et a nullo ex nostris iudicibus,
+                        comitibus, sculdais, castaldeis, vel a quibuscumque agentibus patiamini inde
+                        molestationes aut contrarietates; set amodo et deinceps per unc nostrum
+                        roboreum preceptum cunctas supradictas nostras concessiones securiter
+                        habeatis in predicta ratione. Quod vero preceptum concessionis ex
+                        iussionibus supradictorum gloriosorum principum scripsi ego <persName
+                            key="#Other_clerics">Aceprandus</persName>
+                        <rs key="#Other_clerics">clericus</rs>, in anno tricesimo septimo
+                        principatus supradicti domni nostri Guaimari et septimo anno principatus
+                        supradicti domni guaimari eius filio gloriosis principibus. De mense martius
+                        hoctaba indictione.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
