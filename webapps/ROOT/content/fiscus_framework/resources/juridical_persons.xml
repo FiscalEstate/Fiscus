@@ -389,7 +389,7 @@
                         <link type="people" corresp="#people/156" subtype="isConfirmedBy"/>
                         <link type="people" corresp="#people/304" subtype="isConfirmedBy"/>
                         <link type="people" corresp="#people/305" subtype="isConfirmedBy"/>
-                        <link type="people" corresp="#people/303" subtype="link"/>
+                        <link type="people" corresp="#people/303" subtype="isGrantedBy"/>
                     <link type="people" corresp="#people/305" subtype="link"/>
                     <link type="people" corresp="#people/154" subtype="link"/>
                     <link type="people" corresp="#people/194" subtype="link"/>
@@ -397,6 +397,8 @@
                         <link type="places" corresp="#places/700" subtype="link"/>
                         <link type="juridical_persons" corresp="#juridical_persons/1900"
                             subtype="hostilityFor"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/84"
+                            subtype="isGrantedTo"/>
                 </org>
                 <org>
                     <orgName>Sanctus Cerbonius; episcopium (Populonia; Livorno)</orgName>
@@ -3790,9 +3792,12 @@
                     </org>
                     <org>
                         <orgName>Sanctus Salvator in insula maris; monasterium (Napoli)</orgName>
-                        <orgName type="other"/>
+                        <orgName type="other">monasterium del Salvatore <foreign>insule
+                                maris</foreign>; <foreign>monasterium insule Salvatoris /
+                                Salbatoris</foreign></orgName>
                         <idno>juridical_persons/3041</idno>
                         <note/>
+                        <link type="places" corresp="#places/2350" subtype="isWithin"/>
                     </org>
                     <org>
                         <orgName>Sanctus Egidius; monasterium (Nocera Inferiore; Salerno)</orgName>
@@ -8388,6 +8393,39 @@
                         <idno>juridical_persons/3745</idno>
                         <note/>
                         <link type="places" corresp="#places/4790" subtype="isWithin"/>
+                    </org>
+                    <org>
+                        <orgName>Sancta Maria; monasterium (Banzi; Potenza)</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/3746</idno>
+                        <note/>
+                        <link type="places" corresp="#places/5005" subtype="isWithin"/>
+                        <link type="people" corresp="#people/373" subtype="isGrantedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/84"
+                            subtype="isGrantedTo"/>
+                    </org>
+                    <org>
+                        <orgName>Sanctus Agapitus; cella  (Liburia; Caserta)</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/3747</idno>
+                        <note/>
+                        <link type="places" corresp="#places/5006" subtype="isWithin"/>
+                    </org>
+                    <org>
+                        <orgName><foreign>Sanctus Nazarius</foreign>; ecclesia (Valle di Comino;
+                            Atina; Frosinone)</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/3748</idno>
+                        <note>In un documento del 1032 la chiesa di S. Nazario è detta essere "infra
+                            Cominensem comitatum, in territorio Atino sita prope fluvium qui dicitur
+                            Melfe, quę olim destructa extitit et karissimus atque dilectissimus
+                            noster germanus domnus Atenulfus bone memorie venerabilis abbas predicti
+                            cenobii et ipse restaurator ecclesiarum, reedificare fecerat eadem
+                            ęcclesiam, eo quod antiquitus de sęculo extitit monasterio"
+                            (Montecassino, Archivio Abbaziale, Reg. 3 (Martin et al.,
+                                <foreign>Registrum Petri Diaconi</foreign>, II, n. 276, pp. 846-847)
+                            )</note>
+                        <link type="places" corresp="#places/705" subtype="proximity"/>
                     </org>
                 </listOrg>
                 <listOrg n="Motta Loris">
