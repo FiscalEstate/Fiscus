@@ -32,7 +32,7 @@
                             <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Copy</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -91,9 +91,9 @@
                         <rs key="#Other_palatine_officer">cammerarius</rs> prephati principis <rs
                             key="#childOf">filius</rs> quondam <persName><name ref="Salbertus"
                                 >Salverti</name></persName> declaro in presentia <persName
-                            key="#Judge" ref="#people/3037">Philippi</persName>
-                        <rs key="#Judge">iudicis</rs> sacri palatii etiam et <persName key="#Judge"
-                            ref="#people/4281">Petri</persName>
+                            key="#Witness #Judge" ref="#people/3037">Philippi</persName>
+                        <rs key="#Judge">iudicis</rs> sacri palatii etiam et <persName
+                            key="#Witness #Judge" ref="#people/4281">Petri</persName>
                         <rs key="#Judge">iudicis</rs> et aliorum <rs key="#Witness">testium</rs>
                         quia presenti mense et indictione per <rs key="#Cartula">cartam</rs> bona
                         mea voluntate alienavi idest dedi et tradidi tibi videlicet <persName
@@ -113,11 +113,11 @@
                         dicitur <placeName ref="#places/5465">Turri Sancti Sabastiani</placeName> et
                         ubi dicitur <placeName ref="#places/5466">Montecupu</placeName> in ratione
                         et ordine quem amodum in ipsa carta alienationis continere debet que scripta
-                        debet esse per <persName><name ref="Liutbrandus"
-                            >Liuprandum</name></persName> nominatum roborata vero per predictos
-                        iudices. Unde pro securitate atque defensione predicte filie mee et de suis
-                            <rs key="#heirTo">heredibus</rs> ego qui supra Odoaldus, sicut michi
-                        aptum et congruum est, bona mea volutate per hanc cartam in presentia
+                        debet esse per <persName key="#Writer #Notary" ref="#people/4283"
+                            >Liuprandum</persName> nominatum roborata vero per predictos iudices.
+                        Unde pro securitate atque defensione predicte filie mee et de suis <rs
+                            key="#heirTo">heredibus</rs> ego qui supra Odoaldus, sicut michi aptum
+                        et congruum est, bona mea volutate per hanc cartam in presentia
                         suprascriptorum iudicum et aliorum testium hoc exemplum emitto tibi qui
                         supra Landenulfo pro parte et vice suprascripte filie mee uxoris tue silicet
                         de continentia que continet in unum preceptum meum scriptum, sigillatum et
@@ -244,17 +244,37 @@
                         <rs key="#siblingOf">frater</rs>
                         <persName><name ref="Albericus">Alberici</name></persName> et <persName
                             key="#Coloni/tenants"><name ref="Petrus de Riardu Nubilellu">Petrum de
-                                Riardu Nubilellu</name></persName> in loco
-                            <placeName>Cannatie</placeName> ad <placeName>Sancta Maria a la
-                            Fossa</placeName>, <persName key="#Coloni/tenants"><name
-                                ref="Dominicus de lu Vetranu">Dominicu de lu
-                            Vetranu</name></persName> in loco qui dicitur Li longi, Iohannes
-                        Labaranus et in loco Curti Iaquintus Fragula Stabilis et frater eius in loco
-                        Turris Aurielli, Donatus et frater eius et Petrus Caballeri at Landonus et
-                        Landulfus in loco Punticelli, Dominicu Omne bene et nepos eius in loco lanei
-                        ad Sanctum Marcellinum Maraldum Portam et Stantionem eius ut isti homines
-                        supracripti et filie illorum faciant et persolvant tibi tuisque heredibus.….
-                        semper censum et dationem et alia omnia que parti puplice facere vel
+                                Riardu Nubilellu</name></persName> in loco <placeName
+                            ref="#places/5468">Cannatie</placeName> ad <placeName ref="#places/5467"
+                            >Sancta Maria a la Fossa</placeName>, <persName key="#Coloni/tenants"
+                                ><name ref="Dominicus de lu Vetranu">Dominicu de lu
+                            Vetranu</name></persName> in loco qui dicitur <placeName
+                            ref="#places/5469">Li longi</placeName>, <persName key="#Coloni/tenants"
+                                ><name ref="Iohannes Labaranus">Iohannes Labaranus</name></persName>
+                        et in loco <placeName ref="#places/5470">Curti</placeName>
+                        <persName key="#Coloni/tenants"><name ref="Iaquintus Fragula">Iaquintus
+                                Fragula</name></persName>
+                        <persName key="#Coloni/tenants"><name ref="Stabilis"
+                            >Stabilis</name></persName> et <rs key="#Coloni/tenants #siblingOf"
+                            >frater</rs> eius in loco <placeName ref="#places/5471">Turris
+                            Aurielli</placeName>, <persName key="#Coloni/tenants"><name
+                                ref="Donatus">Donatus</name></persName> et <rs
+                            key="#Coloni/tenants #siblingOf">frater</rs> eius et <persName
+                            key="#Coloni/tenants"><name ref="Petrus Caballeri">Petrus
+                                Caballeri</name></persName> at <persName key="#Coloni/tenants"><name
+                                ref="Lando">Landonus</name></persName> et <persName
+                            key="#Coloni/tenants"><name ref="Landulfus">Landulfus</name></persName>
+                        in loco <placeName ref="#places/4534">Punticelli</placeName>, <persName
+                            key="#Coloni/tenants"><name ref="Dominicus Omne Bene">Dominicu Omne
+                                bene</name></persName> et <rs key="#Coloni/tenants #nephew/nieceOf"
+                            >nepos</rs> eius in loco <placeName ref="#places/2865">lanei</placeName>
+                        ad <placeName ref="#places/2339">Sanctum Marcellinum </placeName><persName
+                            key="#Coloni/tenants"><name ref="Maraldus Porta">Maraldum
+                            Portam</name></persName> et <persName key="#Coloni/tenants"><name
+                                ref="Stantius">Stantionem</name></persName> eius ut isti homines
+                        supracripti et <rs key="#childOf">filie</rs> illorum faciant et persolvant
+                        tibi tuisque heredibus.…. semper <rs key="#Census">censum</rs> et <rs
+                            key="#Datium">dationem</rs> et alia omnia que parti puplice facere vel
                         persolvere debent aut debuerint. Et omnia predicta qualiter superius
                         legitur, nos memoratus secundus Iordanus Capuanorum princeps tibi Odoardo
                         camerario fideli nostro et tuius heredibus per hoc principale scriptum damus
@@ -264,26 +284,32 @@
                         nostrorum et viceprincipum, comitum vel vicecomitum, iudicum, sculdaorum,
                         castaldaorum, aliorumque omnium mortalium persone quos si quis huius nostre
                         concessionis atque confirmationis pagine contemptor aut violator estiterit
-                        aut contra hoc principale scriptum agere tentaveris, viginti libras auri
-                        purissimi persolbat medietatem nostro sacro palatio et medietatem tibi
-                        predicto Odoaldo et tuis heredibus solutaque pena libras auri hoc principale
-                        scriptum firmum, munitum atque inviolabile maneat in perpetuum. Et ut hoc
-                        principale scriptum firmius credatur et diligentius ab omnibus observetur
-                        manu propia subscribens illud corroboravimus et nostri sigilli illud
-                        insigniri iussimus. Ex iussione prephate potestatis Principis Philippus
-                        palatinus iudex in anno Dominice incarnationis millesimo centesimo vicesimo
-                        primo et secundo anno principatus prephati domni Iordani gloriosi
+                        aut contra hoc principale scriptum agere tentaveris, <rs key="#Penalty"
+                            >viginti libras auri purissimi</rs> persolbat medietatem nostro sacro
+                        palatio et medietatem tibi predicto Odoaldo et tuis heredibus solutaque pena
+                        libras auri hoc principale scriptum firmum, munitum atque inviolabile maneat
+                        in perpetuum. Et ut hoc principale scriptum firmius credatur et diligentius
+                        ab omnibus observetur manu propia subscribens illud corroboravimus et nostri
+                        sigilli illud insigniri iussimus. Ex iussione prephate potestatis Principis
+                        Philippus palatinus iudex in anno Dominice incarnationis millesimo centesimo
+                        vicesimo primo et secundo anno principatus prephati domni Iordani gloriosi
                         principis.…. Capue. In mense iulio per indictionem quarta decimam. Et est
                         roboratum per iamdictum Iordanum principem. Et taliter ego qui supra
                         Odoaldus camerarius qualiter michi congruum fuit hoc exemplum emitto tibi
                         qui supra Landenulfo gener mee pro parte et vice predicte filie mee uxoris
                         tue pro securitate atque defensione sua et de suis heredibus et te qui supra
-                        Liuprandum notarium qui interfuisti scribere rogavi. Capua. Ego qui supra
-                        Filippus palatinus iudex. Ego qui supra Petrus iudex. Et taliter ego qui
-                        supra mulier nomine Aduysa qualiter michi congruum fuit cum volutate
-                        suprascripti Bartholomei filii et mundoaldi mei feci et te Iohannes notarius
-                        qui interfuisti scribere rogavi (S). Capua (S). + Ego qui supra Ptolomeus
-                        iudex (S). </ab>
+                        Liuprandum <rs key="#Notary">notarium</rs> qui interfuisti scribere rogavi.
+                            <placeName key="#Cities" ref="#places/173">Capua</placeName>. Ego qui
+                        supra Filippus palatinus iudex. Ego qui supra Petrus iudex. Et taliter ego
+                        qui supra mulier nomine Aduysa qualiter michi congruum fuit cum volutate
+                        suprascripti <persName key="#childOf #mundualdusOf"><name ref="Bartholomeus"
+                                >Bartholomei</name></persName> filii et <rs key="#mundualdusOf"
+                            >mundoaldi</rs> mei feci et te <persName key="#Writer #Notary"
+                            ref="#people/3058">Iohannes</persName>
+                        <rs key="#Notary">notarius</rs> qui interfuisti scribere rogavi (S). Capua
+                        (S). + Ego qui supra <persName key="#Witness #Judge" ref="#people/4284"
+                            >Ptolomeus</persName>
+                        <rs key="#Judge">iudex</rs> (S). </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
