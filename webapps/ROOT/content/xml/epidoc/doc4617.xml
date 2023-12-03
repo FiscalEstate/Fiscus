@@ -32,7 +32,7 @@
                             <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Original</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">No</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -40,8 +40,8 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate>
-                                <note type="displayed_date"/>
+                            <origDate notBefore="1120-01-01" notAfter="1127-12-31">
+                                <note type="displayed_date">1120 January 1 - 1127 December 31</note>
                                 <note type="dating_elements"/>
                                 <note type="topical_date"/>
                                 <note type="redaction_date"/>
@@ -80,26 +80,37 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>….. Robberti nostri dilecti … ….. libus ipsis habitatoribus … ….. anus hoc
-                        est [intragras]... ….. libus quas ….. et ….. ecclesie Sancti Andree ….. …
-                        alienavi et dedit et tradidit …ratione et ordine veluti in ….. mense et
-                        indictione roborate vero per … trum indicem … torum nos prenominatur … … et
-                        concedit tibi qui super Andree clerico et tuis heredibus integras omnes …..
-                        … [Ca]puanam civitatem quam predictus Gaostabilis sacerdos per cartulam tibi
-                        alienavit que a ….. roborata vero per suprascriptum iudicem concedimus
-                        quoque et confirmamus ….. … hos subscriptos homines cum filiis et filiabus
-                        atque heredibus eorum et eum ….. … semper quicquid nobis nostreque publice
-                        parti facere et persolvere debent aut de.…. ….. ubi libet qui sunt
-                        habitatores in curte et terra vestra in loco Limate … … scripta …..
-                        leguntur. Nos memoratus secundus Iordanus [per hoc] principale scriptum per
-                        suprascriptam rationem damus … ….. per predictam rationem quicquid vobis
-                        vestris … ….. principum successorum nostrorum vel viceprincipum … …. atque
-                        confirmationis ….. ….. et medium vobis suprascriptis fratribus et vestris …
-                        ….. principale scriptum firmius credatur.</ab>
+                    <ab>….. <persName ref="#people/3019">Robberti</persName> nostri dilecti … …..
+                        libus ipsis habitatoribus … ….. anus hoc est [integras] ... ….. libus quas
+                        ….. et ….. <rs key="#Churches">ecclesie</rs>
+                        <orgName key="#Churches" ref="#juridical_persons/3072">Sancti Andree
+                        </orgName>….. … alienavit et dedit et tradidit …ratione et ordine veluti in
+                        ….. mense et indictione roborate vero per … trum indicem … torum. Nos
+                        prenominatus … … et concedit tibi qui super <persName key="#Other_clerics"
+                            ref="#people/4285">Andree</persName>
+                        <rs key="#Other_clerics">clerico</rs> et tuis <rs key="#heirTo"
+                            >heredibus</rs> integras omnes ….. … <placeName key="#Cities"
+                            ref="#places/173">[Ca]puanam</placeName>
+                        <rs key="#Cities">civitatem</rs> quas predictus <persName key="#Priests"
+                                ><name ref="Constabilis">Gaostabilis</name></persName>
+                        <rs key="#Priests">sacerdos</rs> per <rs key="#Cartula">cartulam</rs> tibi
+                        alienavit que a ….. roborata vero per suprascriptum <rs key="#Judge"
+                            >iudicem</rs> concedimus quoque et confirmamus ….. … hos subscriptos <rs
+                            key="#Coloni/tenants">homines cum filiis [et] filiabus atque
+                            heredibus</rs> eorum et eum ….. … semper quicquid nobis nostreque
+                        publice parti facere et persolvere debent aut de.…. ….. ubilibet qui sunt
+                        habitatores in <rs key="#Curtes">curte</rs> et terra vestra in loco
+                            <placeName key="#Curtes" ref="#places/4518">Limate</placeName> … …
+                        scripta ….. leguntur. Nos memoratus <persName ref="#people/3022">secundus
+                            Iordanus</persName> [per hoc] principale scriptum per suprascriptam
+                        rationem damus … ….. per predictam rationem quicquid vobis vestris … …..
+                        principum successorum nostrorum vel viceprincipum … …. atque confirmationis
+                        ….. ….. et medium vobis suprascriptis fratribus et vestris … ….. principale
+                        scriptum firmius credatur.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p/>
+                <p>Mazzoleni 1957, pp. 59-60 (source of the text reproduced here).</p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p/>
@@ -108,7 +119,7 @@
                 <p/>
             </div>
             <div type="commentary">
-                <p/>
+                <p>Il documento è in larga misura illeggibile. </p>
             </div>
         </body>
     </text>
