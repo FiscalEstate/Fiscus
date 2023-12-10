@@ -32,7 +32,7 @@
                             <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Original</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -40,10 +40,10 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate>
-                                <note type="displayed_date"/>
+                            <origDate notBefore="1126-09-01" notAfter="1126-09-30">
+                                <note type="displayed_date">1126 September</note>
                                 <note type="dating_elements"/>
-                                <note type="topical_date"/>
+                                <note type="topical_date">Capua</note>
                                 <note type="redaction_date"/>
                             </origDate>
                             <origPlace></origPlace>
@@ -80,85 +80,120 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>+ In nomine Domini Salvatoris nostri Iesu Christi Dei eterni Iordanus divina
-                        ordinante clementia Capuanorum princeps Petitioni suorum dilectorum
-                        clementer et benigne favet et convenit Igitur nos prenotatus Secundus
-                        Iordanus Dei gratia Capuanus princeps, notum fieri volumus omnibus filiis
-                        Sancte ac Catholice Ecclesiae et nostris fidelibus, quoniam ob salutem et
-                        remedium animarum quondam gloriosorum principum, videlicet Richardi Primi
-                        principis avi ac bone memorie Iordani patris, atque Secundi Richardi quam et
-                        Robberti principum fratrum nostrorum ac ob statum nostri principatus,
-                        consilio quoque et interventu Robberti nostri dilectissimi filii nec non
-                        Raynulfi comitis Calatie nostri consanguinei quam et Guilelmi Frassinelli
-                        nostrorum baronum per hoc videlicet principale scriptum in perpetuum damus
-                        ac tradendo confirmamus in monasterio Sanctimonialium Sancti Iohannis
-                        Battiste sito intro hanc nostram Capuanam civitatem in quo domna Gemma sola
-                        Domini misericordia venerabilis ac reliosa abbatissa preest scilicet
-                        integras octuaginta duas pecias terre cum integra medietate de reliquis
-                        tribus petiis terre que videntur esse in subscriptis locis. Quarum prima hos
-                        habet fines et dicitur ad Mabulisi uno latere et uno capite est finis terra
-                        herendum quondam Leonis cognomen de Lufraccu, alio latere est finis via
-                        publica, alio capite est finis rivus Anglene. Secunda petia dicitur ad
-                        Pontem Terminem, uno latere est finis terra Iohannis cognomine de Capua,
-                        alio latere est finis monasterii Sancte Marie per amba capita sunt fines vie
-                        publice. Tertia petia est ibi prope et habet hos fines: uno latere est finis
-                        via publica, alio latere est finis palus nostra et terra quam tenet Rodulfus
-                        filius Raelis a nostra parte et aliquantulum finis via; uno capite a parte
-                        meridie est finis terra herendum ….. daldi ….. et terra quam nunc tenet R.°
-                        de Aczia et terra herendum Ioannis Summ[e] et terra quam nunc residet Falco
-                        Iohannis Russi et terra quam nunc residet suprascriptus R.° de Aczia, alio
-                        capite finis via. Quarta petia est ibi prope et habet hos fines: a prima
-                        parte est finis via comunali, a secunda parte est finis terra Iacobi filii
-                        quondam Ioannis Russi suprascripti; a tertia parte est finis terra quam
-                        tenet suprascriptus R.° de Aczia. Quinta petia dicitur alla Strata non
-                        multum longe a loco qui dicitur Campulisi habetque hos fines: uno latere est
-                        finis via publica, alio latere est finis terra herendum quondam Landenulfi
-                        clerici, per amba capita est finis terra suprascripti monasterii Sancte
-                        Marie. Sexta petia est ibi prope et habet hos fines: a tribus partibus est
-                        finis terra suprascripti monasterii Sancte Marie; a quarta parte est finis
-                        terra herendum quondam suprascripti Landenulfi clerici. Septima petia
-                        dicitur ad Campum de Finile, fines habet: uno latere est finis terra
-                        Maynardi, alio latere est finis terra herendum iam dicti Landenulfi clerici;
-                        uno capite est finis via antigua que dicitur Cava, alio capite est finis
-                        terra Andreae [clerici]. Octava petia de terra est ibi prope, habetque hos
-                        fines: uno latere est finis terra suprascripti Maynardi, alio latere est
-                        finis terra suprascripti Monasterii Sancte Marie; uno capite est finis terra
+                    <ab>+ In nomine Domini Salvatoris nostri Iesu Christi Dei eterni <persName
+                            key="#Princeps" ref="#people/3022">Iordanus</persName> divina ordinante
+                        clementia Capuanorum <rs key="#Princeps">princeps</rs> Petitioni suorum
+                        dilectorum clementer et benigne favet et convenit Igitur nos prenotatus
+                        Secundus Iordanus Dei gratia Capuanus princeps, notum fieri volumus omnibus
+                        filiis Sancte ac Catholice Ecclesiae et nostris fidelibus, quoniam ob
+                        salutem et remedium animarum quondam <rs key="#Vir_gloriosus/vir_sublimis"
+                            >gloriosorum</rs>
+                        <rs key="#Princeps">principum</rs>, videlicet<persName
+                            key="#Princeps #Vir_gloriosus/vir_sublimis #grandparentOf"
+                            ref="#people/3001"> Richardi Primi</persName> principis <rs
+                            key="#grandparentOf">avi</rs> ac bone memorie <persName
+                            key="#Princeps #Vir_gloriosus/vir_sublimis #parentOf" ref="#people/3002"
+                            >Iordani</persName>
+                        <rs key="#parentOf">patris</rs>, atque <persName
+                            key="#Princeps #Vir_gloriosus/vir_sublimis #siblingOf"
+                            ref="#people/3010">Secundi Richardi</persName> quam et <persName
+                            key="#Princeps #Vir_gloriosus/vir_sublimis #siblingOf"
+                            ref="#people/3019">Robberti</persName> principum <rs key="#siblingOf"
+                            >fratrum</rs> nostrorum ac ob statum nostri principatus, consilio quoque
+                        et <rs key="#Intercessory">interventu</rs>
+                        <persName key="#Intercessory #childOf" ref="#people/3042"
+                            >Robberti</persName> nostri dilectissimi <rs key="#childOf">filii</rs>
+                        nec non <persName key="#Intercessory #Count #kinOf" ref="#people/4290"
+                            >Raynulfi</persName>
+                        <rs key="#Count">comitis</rs>
+                        <placeName ref="#places/3483">Calatie</placeName> nostri <rs key="#kinOf"
+                            >consanguinei</rs> quam et <persName key="#Intercessory"
+                            ref="#people/4247">Guilelmi Frassinelli</persName> nostrorum baronum per
+                        hoc videlicet principale scriptum in perpetuum damus ac tradendo confirmamus
+                        in <rs key="#Monasteries">monasterio</rs>
+                        <rs key="#Nuns/sanctimoniales">Sanctimonialium</rs>
+                        <orgName key="#Monasteries #Nuns/sanctimoniales"
+                            ref="#juridical_persons/3070">Sancti Iohannis Battiste</orgName> sito
+                        intro hanc nostram <placeName key="#Cities" ref="#places/173"
+                            >Capuanam</placeName>
+                        <rs key="#Cities">civitatem</rs> in quo domna <persName
+                            key="#Abbesses #Personal_rank" ref="#people/4289">Gemma</persName> sola
+                        Domini misericordia <rs key="#Personal_rank">venerabilis</rs> ac reliosa <rs
+                            key="#Abbesses">abbatissa</rs> preest scilicet integras <rs
+                            key="#Petiae #Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Iure_proprietatis/pleno_iure"
+                            >octuaginta duas pecias</rs> terre cum <rs key="#Petiae">integra
+                            medietate de reliquis tribus petiis</rs> terre que videntur esse in
+                        subscriptis locis. Quarum prima hos habet <rs key="#Fines">fines</rs> et
+                        dicitur ad <placeName key="#Petiae" ref="#places/5485">Mabulisi</placeName>
+                        uno latere et uno capite est finis terra herendum quondam Leonis cognomen de
+                        Lufraccu, alio latere est finis via publica, alio capite est finis rivus
+                        Anglene. Secunda petia dicitur ad <placeName key="#Petiae"
+                            ref="#places/5486">Pontem Terminem</placeName>, uno latere est finis
+                        terra Iohannis cognomine de Capua, alio latere est finis monasterii Sancte
+                        Marie per amba capita sunt fines vie publice. Tertia petia est ibi prope et
+                        habet hos fines: uno latere est finis via publica, alio latere est finis
+                        palus nostra et terra quam tenet Rodulfus filius Raelis a nostra parte et
+                        aliquantulum finis via; uno capite a parte meridie est finis terra herendum
+                        ….. daldi ….. et terra quam nunc tenet R.° de Aczia et terra herendum
+                        Ioannis Summ[e] et terra quam nunc residet Falco Iohannis Russi et terra
+                        quam nunc residet suprascriptus R.° de Aczia, alio capite finis via. Quarta
+                        petia est ibi prope et habet hos fines: a prima parte est finis via
+                        comunali, a secunda parte est finis terra Iacobi filii quondam Ioannis Russi
+                        suprascripti; a tertia parte est finis terra quam tenet suprascriptus R.° de
+                        Aczia. Quinta petia dicitur <placeName ref="#places/5487">alla
+                            Strata</placeName> non multum longe a loco qui dicitur <placeName
+                            ref="#places/5464">Campulisi</placeName> habetque hos fines: uno latere
+                        est finis via publica, alio latere est finis terra herendum quondam
+                        Landenulfi clerici, per amba capita est finis terra suprascripti monasterii
+                        Sancte Marie. Sexta petia est ibi prope et habet hos fines: a tribus
+                        partibus est finis terra suprascripti monasterii Sancte Marie; a quarta
+                        parte est finis terra herendum quondam suprascripti Landenulfi clerici.
+                        Septima petia dicitur ad <placeName ref="#places/5488">Campum de
+                            Finile</placeName>, fines habet: uno latere est finis terra Maynardi,
+                        alio latere est finis terra herendum iam dicti Landenulfi clerici; uno
+                        capite est finis via antigua que dicitur Cava, alio capite est finis terra
+                        Andreae [clerici]. Octava petia de terra est ibi prope, habetque hos fines:
+                        uno latere est finis terra suprascripti Maynardi, alio latere est finis
+                        terra suprascripti Monasterii Sancte Marie; uno capite est finis terra
                         suprascripti Andree clerici, alio capite est finis terre suprascripti
-                        monasterii Sancte Marie. Nona petia de terra est ibi prope non longe ab
-                        ecclesia Sancti Potiti et habet hos fines: uno latere et uno capite est
-                        finis terra suprascripte ecclesiae Sancti Potiti, alio latere est finis
-                        terra quam tenet Gualguanus filius quondam Willelmi Coppola; alio capite
-                        fines predicta via publica. Decima petia est ibi prope, fines habet: uno
-                        latere est finis terra ….. tenet suprascriptis Gualguanus; alio latere est
-                        finis terra ecclesiae Sancte Marie qui dicitur ad Arcum; uno capite est
-                        finis terra suprascripte ecclesiae Sancti Potiti, alio capite est finis
-                        suprascripta via publica. Undecima petia est ibi prope fines habet: uno
-                        latere est finis terra suprascripte ecclesiae Sancte Marie que dicitur ad
-                        Arcum ….. Ioannes [Sike], uno capite est finis terra suprascripte ecclesiae
-                        Sancti Potiti, alio capite est finis suprascripta via publica. Duodecima
-                        petia est ibi prope fines habet: uno latere est finis terra suprascripti
-                        monasterii Sancte Marie, alio latere est finis terra que dicitur dilli
-                        Cannalongi; uno capite est finis terra suprascripti Gualguani, alio capite
-                        est finis suprascripta petia terre. Tertiadecima petia est ibi coniuncta et
-                        habet hos fines: uno latere et uno capite est finis terra suprascripti
-                        monasterii Sancte Marie et terra ecclesiae Sancti Salvatoris, alio latere
-                        est finis terra suprascripti Gualguani; alio capite est finis suprascripta
-                        petia de terra et terra suprascripti monasterii Sancte Marie. Quarta decima
-                        petia terre est ibi prope, fines habet: uno latere est finis terra
-                        suprascripti Gualguani, alio latere est finis terra suprascripti
-                        Cannalongi;; uno capite est finis terra suprascripte ecclesiae domini
-                        Salvatoris, alio capite est finis via publica. Quinta decima petia terre est
-                        prope ecclesiam Sancte Marie que dicitur Allastrata habet [hos fines]: uno
-                        latere est finis terra suprascripte ecclesiae Sancte Marie et terra herendum
-                        Gaudii cognomen de Tianu quam residet predictus R. filius Realis et terra
-                        Petri Desidie et terra Iohannis Constantini et terra suprascripte ecclesiae
-                        Sancti Salvatoris alio latere est finis terra herendum quondam Isembardi
-                        Sellarii; uno capite finis via publica, alio capite finis terra herendum
-                        quondam suprascripti Gaudii. Sestadecima petia est ibi prope, fines habet:
-                        uno latere est finis terra Apollonii presbiteri, alio latere est finis terra
-                        Iohannis Maraldi Purpuri; uno capite est finis via publica, alio capite est
-                        finis terra Iohannis Dominici et terra Petraccle. Octabadecima petia est ibi
-                        prope et habet hos fines: uno latere est finis terra suprascripti Iohannis
+                        monasterii Sancte Marie. Nona petia de terra est ibi prope non longe ab <rs
+                            key="#Churches">ecclesia</rs>
+                        <orgName key="#Churches" ref="#juridical_persons/3081">Sancti
+                            Potiti</orgName> et habet hos fines: uno latere et uno capite est finis
+                        terra suprascripte ecclesiae Sancti Potiti, alio latere est finis terra quam
+                        tenet Gualguanus filius quondam Willelmi Coppola; alio capite fines predicta
+                        via publica. Decima petia est ibi prope, fines habet: uno latere est finis
+                        terra ….. tenet suprascriptis Gualguanus; alio latere est finis terra
+                        ecclesiae Sancte Marie qui dicitur ad Arcum; uno capite est finis terra
+                        suprascripte ecclesiae Sancti Potiti, alio capite est finis suprascripta via
+                        publica. Undecima petia est ibi prope fines habet: uno latere est finis
+                        terra suprascripte ecclesiae Sancte Marie que dicitur ad Arcum ….. Ioannes
+                        [Sike], uno capite est finis terra suprascripte ecclesiae Sancti Potiti,
+                        alio capite est finis suprascripta via publica. Duodecima petia est ibi
+                        prope fines habet: uno latere est finis terra suprascripti monasterii Sancte
+                        Marie, alio latere est finis terra que dicitur dilli Cannalongi; uno capite
+                        est finis terra suprascripti Gualguani, alio capite est finis suprascripta
+                        petia terre. Tertiadecima petia est ibi coniuncta et habet hos fines: uno
+                        latere et uno capite est finis terra suprascripti monasterii Sancte Marie et
+                        terra ecclesiae Sancti Salvatoris, alio latere est finis terra suprascripti
+                        Gualguani; alio capite est finis suprascripta petia de terra et terra
+                        suprascripti monasterii Sancte Marie. Quarta decima petia terre est ibi
+                        prope, fines habet: uno latere est finis terra suprascripti Gualguani, alio
+                        latere est finis terra suprascripti Cannalongi;; uno capite est finis terra
+                        suprascripte ecclesiae domini Salvatoris, alio capite est finis via publica.
+                        Quinta decima petia terre est prope <rs key="#Churches">ecclesiam</rs>
+                        <orgName key="#Churches" ref="#juridical_persons/3082">Sancte Marie que
+                            dicitur Allastrata</orgName> habet [hos fines]: uno latere est finis
+                        terra suprascripte ecclesiae Sancte Marie et terra herendum Gaudii cognomen
+                        de Tianu quam residet predictus R. filius Realis et terra Petri Desidie et
+                        terra Iohannis Constantini et terra suprascripte ecclesiae Sancti Salvatoris
+                        alio latere est finis terra herendum quondam Isembardi Sellarii; uno capite
+                        finis via publica, alio capite finis terra herendum quondam suprascripti
+                        Gaudii. Sestadecima petia est ibi prope, fines habet: uno latere est finis
+                        terra Apollonii presbiteri, alio latere est finis terra Iohannis Maraldi
+                        Purpuri; uno capite est finis via publica, alio capite est finis terra
+                        Iohannis Dominici et terra Petraccle. Octabadecima petia est ibi prope et
+                        habet hos fines: uno latere est finis terra suprascripti Iohannis
                         Constantini, alio latere est finis terra Landenulfi de Lufraccu et Landulfi
                         germani sui et terre suprascripte herendum iam dicti Gaudii; uno capite est
                         finis suprascripta nonadecima petia terre et terre suprascripte herendum iam
@@ -225,29 +260,51 @@
                         Tricesima secunda petia est ibi prope, habet hos fines: uno latere est finis
                         via publica, alio latere est finis terra hered(um) predicti Leonis; uno
                         capite est finis terra quam residet prescriptus R.° de Aczia, alio capite
-                        est finis terra suprascripti Damiani. Tricesima tercia petia est ibi prope
-                        et dicitur ad Arcum, habetque hos fines: uno latere est finis terra
-                        ecclesiae Sancti Petri qui dicitur ad Pontem, alio latere est finis terra
-                        hered(um) predicti Leonis; uno capite est finis terra quam residet predictus
-                        Rodulfus Iudasii et terra hered(um) Maraldi Lauduni, alio capite est finis
-                        de suprascripta heredum Maraldi Lauduni. Tricesima quarta petia dicitur ad
-                        Campum de Cervuli fines habet: uno latere est finis terra predictus
+                        est finis terra suprascripti Damiani. Tricesima tercia <rs key="#Petiae"
+                            >petia</rs> est ibi prope et dicitur <placeName
+                            key="#Petiae #Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Iure_proprietatis/pleno_iure #Fines"
+                            ref="#places/5489"><geogName
+                                key="#Petiae #Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Iure_proprietatis/pleno_iure #Fines"
+                                ref="#estates/3042">ad Arcum</geogName></placeName>, habetque hos
+                            <rs key="#Fines">fines</rs>: uno latere est finis terra ecclesiae Sancti
+                        Petri qui dicitur ad Pontem, alio latere est finis terra hered(um) predicti
+                        Leonis; uno capite est finis terra quam residet predictus Rodulfus Iudasii
+                        et terra hered(um) Maraldi Lauduni, alio capite est finis de suprascripta
+                        heredum Maraldi Lauduni. Tricesima quarta <rs key="#Petiae">petia</rs>
+                        dicitur ad <placeName
+                            key="#Petiae #Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Iure_proprietatis/pleno_iure #Fines"
+                            ref="#places/5490"><geogName
+                                key="#Petiae #Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Iure_proprietatis/pleno_iure #Fines"
+                                ref="#estates/3043">Campum de Cervuli</geogName></placeName>
+                        <rs key="#Fines">fines</rs> habet: uno latere est finis terra predictus
                         archiepiscopus Sancti Stephani, alio latere est finis terra Petri Bissek
                         (sic); uno capite est finis terra hered(um) suprascripti Leonis, alio capite
                         est finis terra quam residet Graffionem et terra heredum Landulphi
-                        Gustabilis. Tricesima quinta petia dicitur ad Puczu, fines habet: uno latere
-                        est finis terra heredum quondam Petri Medi. et terra suprascripti Iacobi
-                        Iohannis Russi, alio latere est finis via publica; uno capite est finis
-                        terra hered(um) suprascripti Petri Medi, alio capite est finis terra heredum
-                        suprascripti Leonis. Tricesima sesta petia est ibi prope, habet hos fines:
-                        uno latere est finis terra heredum quondam Petri Presbiteri Summi, alio
-                        latere est finis terra heredum quondam suprascripti Leonis; uno capite est
-                        finis via publica, alio capite finis Venola. Tricesima septima petia dicitur
-                        allo Pontutu et habet hos fines: uno latere est finis terra ecclesiae Sancti
+                        Gustabilis. Tricesima quinta <rs key="#Petiae">petia</rs> dicitur <placeName
+                            key="#Petiae #Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Iure_proprietatis/pleno_iure #Fines"
+                            ref="#places/5491"><geogName
+                                key="#Petiae #Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Iure_proprietatis/pleno_iure #Fines"
+                                ref="#estates/3044">ad Puczu</geogName></placeName>, <rs
+                            key="#Fines">fines</rs> habet: uno latere est finis terra heredum
+                        quondam Petri Medi. et terra suprascripti Iacobi Iohannis Russi, alio latere
+                        est finis via publica; uno capite est finis terra hered(um) suprascripti
+                        Petri Medi, alio capite est finis terra heredum suprascripti Leonis.
+                        Tricesima sesta petia est ibi prope, habet hos fines: uno latere est finis
+                        terra heredum quondam Petri Presbiteri Summi, alio latere est finis terra
+                        heredum quondam suprascripti Leonis; uno capite est finis via publica, alio
+                        capite finis Venola. Tricesima septima <rs key="#Petiae">petia</rs> dicitur
+                            <placeName
+                            key="#Petiae #Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Iure_proprietatis/pleno_iure #Fines"
+                            ref="#places/5492"><geogName
+                                key="#Petiae #Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Iure_proprietatis/pleno_iure #Fines"
+                                ref="#estates/3045">allo Pontutu</geogName></placeName> et habet hos
+                            <rs key="#Fines">fines</rs>: uno latere est finis terra ecclesiae Sancti
                         Martini, alio latere est finis terra heredum suprascripti Leonis; uno capite
                         est finis terra heredum quondam Iohannis filii Petri Anate, alio capite est
-                        finis prescripta Venola. Tricesima octaba petia est prope ecclesiam Sancti
-                        Stephani qui dicitur ad Corruptum, fines habet: a tribus partibus finis
+                        finis prescripta Venola. Tricesima octaba petia est prope <rs
+                            key="#Churches">ecclesiam</rs>
+                        <orgName key="#Churches" ref="#juridical_persons/3083">Sancti Stephani qui
+                            dicitur ad Corruptum</orgName>, fines habet: a tribus partibus finis
                         terra hered(um) Cioffi Petri Angeli, a quarta parte est finis via publica.
                         Tricesima nona petia est ibi prope, fines habet: uno latere est finis terra
                         hered(um) suprascripti Leonis, alio latere est finis terra suprascripti
@@ -277,41 +334,46 @@
                         finis terra hered(um) suprascripti Leonis et revolvit contra partem orientis
                         iusta ipsam terram suprascripti Iohannis Constantini; uno capite est finis
                         suprascripta via publica, alio capite est finis terra heredum suprascripti
-                        Leonis. Quadragesima quinta petia est in loco Partignanu, fines habet: uno
-                        latere est finis terra heredum Ioannis Siki, alio latere est finis terra que
-                        fuit Petri Dordane quam residet R.° Blodus; uno capite est finis terra
-                        hered(um) Sassi, alio capite est finis terra Angeli Presbiteri. Quadragesima
-                        sexta petia est ibi prope, fines habet: uno latere est finis terra heredum
-                        quondam Martii, alio latere est finis terra Petri Sassi; uno capite est
-                        finis terra quam tenet suprascriptus R.° Blodus, alio capite est finis terra
-                        suprascripti Angeli Presbiteri. Quadragesima septima petia est ibi prope,
-                        fines habet: uno latere est finis terra quam tenet suprascriptus R.° Blodus,
-                        alio latere est finis terra ecclesie Sancti Viti et revolvit contra partem
-                        occidentis iusta ipsam terram et terra quam tenet Aymarius que fuit de
-                        Maraldo de Lumurrone et inde vadit directe contra partem septentrionis iusta
-                        terram de Landenulfi Cici et terram hered(um) quondam suprascripti Sassi et
-                        per amba capita est finis terra hered(um) suprascripti Marcii. Quadragesima
-                        octaba petia dicitur Cesa... fines habet: uno latere est finis terra
-                        hered(um) Petri Sellitti, alio latere est finis terra suprascripti
-                        archiepiscopi; uno capite est finis terra quam tenet suprascriptus R.°
-                        Blodus, alio capite est finis terra heredum suprascripti Marcii.
-                        Quadragesima nona petia est ibi prope, fines habet: uno latere finis via
-                        publica, alio latere est finis terra hered(um) suprascripti Marcii; uno
-                        capite est finis Monticelli, alio capite est finis suprascripti Landenulfi
-                        Cici. Quinquagesima petia est ibi prope, fines habet: uno latere est finis
-                        terra quam tenet suprascriptus Aymarius et terra Landulfi Marii et terra
-                        Gicci, alio latere est finis terra suprascripti Angeli presbiteri; uno
-                        capite est finis terra heredum suprascripti Martii, alio capite est finis
-                        terra Mansi. Quinquagesima prima petia ibi prope, habet hos fines: uno
-                        latere est finis terra quam tenet predictus ….. quam tenet suprascriptus
-                        Giczus; uno capite est finis terra suprascripte ecclesie Sancti Viti, alio
-                        capite est finis terra suprascripti Mansi. Quinquagesima secunda petia est
-                        ibi prope, fines habet; uno latere est finis terra heredum suprascripti
-                        Petri Sellecte, alio latere est finis terra suprascripti monasterii Sancte
-                        Marie; uno capite est finis via, alio capite est ….. petia est in predicto
-                        loco Partinianu, fines habet: [uno] latere est finis via publica, alio
-                        latere est finis terra quam tenet suprascriptus R.° Blodus et terra
-                        hered(um) suprascripti Martii et … revolvit contra partem occidentis
+                        Leonis. Quadragesima quinta petia est in loco <placeName key="#Petiae"
+                            ref="#places/5493">Partignanu</placeName>, fines habet: uno latere est
+                        finis terra heredum Ioannis Siki, alio latere est finis terra que fuit Petri
+                        Dordane quam residet R.° Blodus; uno capite est finis terra hered(um) Sassi,
+                        alio capite est finis terra Angeli Presbiteri. Quadragesima sexta petia est
+                        ibi prope, fines habet: uno latere est finis terra heredum quondam Martii,
+                        alio latere est finis terra Petri Sassi; uno capite est finis terra quam
+                        tenet suprascriptus R.° Blodus, alio capite est finis terra suprascripti
+                        Angeli Presbiteri. Quadragesima septima petia est ibi prope, fines habet:
+                        uno latere est finis terra quam tenet suprascriptus R.° Blodus, alio latere
+                        est finis terra ecclesie Sancti Viti et revolvit contra partem occidentis
+                        iusta ipsam terram et terra quam tenet Aymarius que fuit de Maraldo de
+                        Lumurrone et inde vadit directe contra partem septentrionis iusta terram de
+                        Landenulfi Cici et terram hered(um) quondam suprascripti Sassi et per amba
+                        capita est finis terra hered(um) suprascripti Marcii. Quadragesima octaba
+                            <rs key="#Petiae">petia</rs> dicitur <placeName
+                            key="#Petiae #Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Iure_proprietatis/pleno_iure #Fines"
+                            ref="#places/5494"><geogName
+                                key="#Petiae #Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Iure_proprietatis/pleno_iure #Fines"
+                                ref="#estates/3046">Cesa</geogName></placeName>... <rs key="#Fines"
+                            >fines</rs> habet: uno latere est finis terra hered(um) Petri Sellitti,
+                        alio latere est finis terra suprascripti archiepiscopi; uno capite est finis
+                        terra quam tenet suprascriptus R.° Blodus, alio capite est finis terra
+                        heredum suprascripti Marcii. Quadragesima nona petia est ibi prope, fines
+                        habet: uno latere finis via publica, alio latere est finis terra hered(um)
+                        suprascripti Marcii; uno capite est finis Monticelli, alio capite est finis
+                        suprascripti Landenulfi Cici. Quinquagesima petia est ibi prope, fines
+                        habet: uno latere est finis terra quam tenet suprascriptus Aymarius et terra
+                        Landulfi Marii et terra Gicci, alio latere est finis terra suprascripti
+                        Angeli presbiteri; uno capite est finis terra heredum suprascripti Martii,
+                        alio capite est finis terra Mansi. Quinquagesima prima petia ibi prope,
+                        habet hos fines: uno latere est finis terra quam tenet predictus ….. quam
+                        tenet suprascriptus Giczus; uno capite est finis terra suprascripte ecclesie
+                        Sancti Viti, alio capite est finis terra suprascripti Mansi. Quinquagesima
+                        secunda petia est ibi prope, fines habet; uno latere est finis terra heredum
+                        suprascripti Petri Sellecte, alio latere est finis terra suprascripti
+                        monasterii Sancte Marie; uno capite est finis via, alio capite est ….. petia
+                        est in predicto loco Partinianu, fines habet: [uno] latere est finis via
+                        publica, alio latere est finis terra quam tenet suprascriptus R.° Blodus et
+                        terra hered(um) suprascripti Martii et … revolvit contra partem occidentis
                         suprascripta terra suprascripti monasterii Sancte Marie et deinde vadit
                         directe ….. ipsam terram; uno capite est finis terra suprascripti Angeli
                         presbiteri et terra heredum Petri Dofe, alio capite est finis via publica.
@@ -323,100 +385,115 @@
                         prope, fines habet: uno latere et uno capite est finis terra ecclesie Sancti
                         Georgii, alio latere est finis terra heredum Petri Sassi et terra Ioannis
                         Sellitti …. terra quam suprascriptus R.° Blodus. Quinquagesima sexta petia
-                        est ibi prope locum qui dicitur Pignarii, fines habet: uno latere et uno
-                        capite est finis terra suprascripte ecclesie Sancti Georgii; alio latere est
-                        finis terra Ioannis Benedicti; alio capite est finis subscripta petia.
-                        Quinquagesima septima petia est ibi coniuncta ….. latere et uno capite sunt
-                        vie publice, alio latere est finis terra suprascripte ecclesie Sancti
-                        Georgii et finis suprascripta petia terre et terra suprascripti Ioannis
-                        Benedicti; alio capite est finis terra suprascripte ecclesie Sancti Georgii.
-                        Quinquagesima octaba petia dicta alle Grotte fines habet: uno latere est
-                        finis terra Martini Gaulusi, alio latere est finis terra suprascripti
-                        monasterii Sancte Marie; uno capite est finis via publica, alio capite est
-                        finis terra suprascripti Martini Galusi. Quinquagesima nona petia est ibi
-                        prope, fines habet: uno latere et uno capite est finis terra hered(um)
-                        Martini Galusi, alio latere et alio capite est finis terra suprascripti
-                        monasterii. Sexagesima petia est ibi prope, fines habet: uno latere est
-                        finis terra quam monasterium tenet ….. ….., alio latere finis quam terra
-                        nunc tenet W(illelmus) Pandone; uno capite est finis via publica, alio
-                        capite est finis terra quam tenet suprascriptus W(illelmus). Sexagesima
-                        prima petia dicitur alli Gunuli, fines habet; uno latere est finis terra
-                        hered(um) ….. et terra Landulfi, alio latere finis via publica; uno capite
-                        est finis terra Ioannis Rame alio capite est finis terra hered(um)
-                        suprascripti Leonis. Sexagesima secunda petia est ibi prope, fines habet:
-                        uno latere est finis terra suprascripte ecclesie Sancti Georgii et revolvit
-                        contra partem meridiei iusta ipsam terram et iterum vadit directe contra
-                        partem meridie iusta ipsam terram, alio latere est finis terra hered(um)
-                        quondam Passari; uno capite est finis via publica, alio capite est finis
-                        terra hered(um) suprascripti Leoni et Garofi et subscripte petie terre.
-                        Sexagesima tertia petia terre ibi prope, fines habet: uno latere est finis
-                        terra suprascripti Ioannis Nivie, alio latere est finis terra Ioannis
-                        Alde[mari]; uno capite est finis terra suprascripti monasterii Sancte Marie,
-                        alio capite est finis subscripta petia. Sexagesima quarta petia ibi coniucta
-                        fines habet: uno latere est finis suprascripta petia et terra suprascripti
-                        Ioannis Nivie et terra suprascripti Ioannis Alde[mari] et terra Petri
-                        Landonis et terra Ioannis Martini et finis suprascripta sexagesima secunda
-                        petia, alio latere est finis via publica; uno capite est finis terra
-                        hered(um) predicti Leonis Garofi, alio capite est finis terra suprascripti
-                        monasterii Sancte Marie et terra suprascripti Iohannis Alde[mari].
-                        Sexagesima quinta petia est in loco Deczuli fines habet: uno latere est
-                        finis terra Willelmi de Opisu, alio latere terra Ioannis de Deczuli; uno
-                        capite est finis terra Octonis Scutarii, alio capite est finis terra quam
-                        prescripsit R.° de Aczia. Sexagesima sexta petia est ibi prope, fines habet:
-                        uno latere est finis terra suprascripti Willelmi de Opizu, alio latere et
-                        uno capite est finis terra quam suprascriptus R.° de Aczia, alio capite est
-                        finis terra quam tenet suprascriptus R.° de Aczia. Sexagesima septima petia
-                        est ibi prope, fines habet: uno latere est finis terra quam tenet ipse R.°
-                        de Aczia, alio latere est finis terra ecclesie Sancti Petri; uno capite est
-                        finis via publica, alio capite est finis terra W(illelmi) Pignoni.
-                        Sexagesima octaba petia dicitur alla Fontanella uno latere est finis terra
-                        ecclesie Sancti Castren[sis], alio latere est finis terra suprascripti
-                        archiepiscopi; uno capite est finis via publica, alio capite est finis rivus
-                        qui dicitur de Calvo. Sexagesima nona petia est ibi prope et habet hos
-                        fines: uno latere est finis via publica, alio latere est finis terra
-                        ecclesie Sancti Petri et terra predicti archiepiscopi; alio capite est finis
-                        terra suprascripte ecclesie Sancti Petri, alio capite est finis terra Petri
-                        Ziti. Septuagesima petia est ibi prope, fines habet: uno latere est finis
-                        terra … archiepiscopus, alio latere est finis terra Petri filii quondam
-                        Armani et terra Gustabilis Centia … et terra quam tenet suprascriptus R.° de
-                        Aczia; uno capite est finis terra suprascripti Petri Ziti, alio capite est
-                        finis silva que dicitur Ferrea. Septuagesima prima petia est ibi prope,
-                        fines habet: per amba latera est finis terra quam tenet prescriptus R.° de
-                        Aczia, uno capite est finis terra Georgii, alio capite est finis terra
-                        suprascripti archiepiscopi. Septuagesima secunda petia est ibi prope, fines
-                        habet: uno latere est finis terra Odoaldi Collu in capite et terra Sancti
-                        Georgii et terra quam tenet Ciofus de Sancto Archangelo et terra ecclesie
-                        Sancti Bartolomei, alio latere est finis terra quam tenet suprascriptus R.°
-                        de Aczia, uno capite est finis via publica, alio capite est finis terra
-                        suprascripti archiepiscopi. Septuagesima tertia petia est in loco Cicutu …
-                        fines habet: uno latere est finis terra suprascripti Odoaldi, alio latere
-                        est finis terra quam tenet suprascriptus R.° Blodus; uno capite est finis
-                        via publica, alio capite est finis silva. Septuagesima quarta petia est ibi
-                        prope, fines habet: uno latere est finis terra suprascripti Odoaldi, alio
-                        latere est finis terra quam tenet suprascriptus R.° Blodus per amba capita
-                        sunt vie publice. Septuagesima quinta petia est ibi prope, uno latere est
-                        finis terra hered(um) Landulfi Manci, alio latere est finis terra W(illelmi)
-                        [Densico] uno capite est finis terra suprascripti R.°, alio capite est finis
-                        via publica. Septuagesima sexta petia est ibi prope, fines habet: ab uno
-                        latere est finis terra quam tenet Cib[ertus]; alio capite est finis terra
-                        suprascripti Odoaldi, uno capite est finis terra quam tenet suprascriptus
-                        R°., alio capite est finis via publica. Septuagesima septima petia ibi prope
-                        fines habet: uno latere est finis terra quam tenet predictus Cib[ertus],
+                        est ibi prope locum qui dicitur <placeName key="#Petiae" ref="#places/5495"
+                            >Pignarii</placeName>, fines habet: uno latere et uno capite est finis
+                        terra suprascripte ecclesie Sancti Georgii; alio latere est finis terra
+                        Ioannis Benedicti; alio capite est finis subscripta petia. Quinquagesima
+                        septima petia est ibi coniuncta ….. latere et uno capite sunt vie publice,
+                        alio latere est finis terra suprascripte ecclesie Sancti Georgii et finis
+                        suprascripta petia terre et terra suprascripti Ioannis Benedicti; alio
+                        capite est finis terra suprascripte ecclesie Sancti Georgii. Quinquagesima
+                        octaba <rs key="#Petiae">petia</rs> dicta <placeName
+                            key="#Petiae #Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Iure_proprietatis/pleno_iure #Fines"
+                            ref="#places/5496"><geogName
+                                key="#Petiae #Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Iure_proprietatis/pleno_iure #Fines"
+                                ref="#estates/3047">alle Grotte</geogName></placeName>
+                        <rs key="#Fines">fines</rs> habet: uno latere est finis terra Martini
+                        Gaulusi, alio latere est finis terra suprascripti monasterii Sancte Marie;
+                        uno capite est finis via publica, alio capite est finis terra suprascripti
+                        Martini Galusi. Quinquagesima nona petia est ibi prope, fines habet: uno
+                        latere et uno capite est finis terra hered(um) Martini Galusi, alio latere
+                        et alio capite est finis terra suprascripti monasterii. Sexagesima petia est
+                        ibi prope, fines habet: uno latere est finis terra quam monasterium tenet
+                        ….. ….., alio latere finis quam terra nunc tenet W(illelmus) Pandone; uno
+                        capite est finis via publica, alio capite est finis terra quam tenet
+                        suprascriptus W(illelmus). Sexagesima prima <rs key="#Petiae">petia</rs>
+                        dicitur <placeName
+                            key="#Petiae #Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Iure_proprietatis/pleno_iure #Fines"
+                            ref="#places/5497"><geogName
+                                key="#Petiae #Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Iure_proprietatis/pleno_iure #Fines"
+                                ref="#estates/3048">alli Gunuli</geogName></placeName>, <rs
+                            key="#Fines">fines</rs> habet; uno latere est finis terra hered(um) …..
+                        et terra Landulfi, alio latere finis via publica; uno capite est finis terra
+                        Ioannis Rame alio capite est finis terra hered(um) suprascripti Leonis.
+                        Sexagesima secunda petia est ibi prope, fines habet: uno latere est finis
+                        terra suprascripte ecclesie Sancti Georgii et revolvit contra partem
+                        meridiei iusta ipsam terram et iterum vadit directe contra partem meridie
+                        iusta ipsam terram, alio latere est finis terra hered(um) quondam Passari;
+                        uno capite est finis via publica, alio capite est finis terra hered(um)
+                        suprascripti Leoni et Garofi et subscripte petie terre. Sexagesima tertia
+                        petia terre ibi prope, fines habet: uno latere est finis terra suprascripti
+                        Ioannis Nivie, alio latere est finis terra Ioannis Alde[mari]; uno capite
+                        est finis terra suprascripti monasterii Sancte Marie, alio capite est finis
+                        subscripta petia. Sexagesima quarta petia ibi coniucta fines habet: uno
+                        latere est finis suprascripta petia et terra suprascripti Ioannis Nivie et
+                        terra suprascripti Ioannis Alde[mari] et terra Petri Landonis et terra
+                        Ioannis Martini et finis suprascripta sexagesima secunda petia, alio latere
+                        est finis via publica; uno capite est finis terra hered(um) predicti Leonis
+                        Garofi, alio capite est finis terra suprascripti monasterii Sancte Marie et
+                        terra suprascripti Iohannis Alde[mari]. Sexagesima quinta petia est in loco
+                            <placeName ref="#places/5498">Deczuli</placeName> fines habet: uno
+                        latere est finis terra Willelmi de Opisu, alio latere terra Ioannis de
+                        Deczuli; uno capite est finis terra Octonis Scutarii, alio capite est finis
+                        terra quam prescripsit R.° de Aczia. Sexagesima sexta petia est ibi prope,
+                        fines habet: uno latere est finis terra suprascripti Willelmi de Opizu, alio
+                        latere et uno capite est finis terra quam suprascriptus R.° de Aczia, alio
+                        capite est finis terra quam tenet suprascriptus R.° de Aczia. Sexagesima
+                        septima petia est ibi prope, fines habet: uno latere est finis terra quam
+                        tenet ipse R.° de Aczia, alio latere est finis terra ecclesie Sancti Petri;
+                        uno capite est finis via publica, alio capite est finis terra W(illelmi)
+                        Pignoni. Sexagesima octaba <rs key="#Petiae">petia</rs> dicitur <placeName
+                            key="#Petiae #Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Iure_proprietatis/pleno_iure"
+                            ref="#places/4599"><geogName
+                                key="#Petiae #Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Iure_proprietatis/pleno_iure"
+                                ref="#estates/3049">alla Fontanella</geogName></placeName> uno
+                        latere est finis terra ecclesie Sancti Castren[sis], alio latere est finis
+                        terra suprascripti archiepiscopi; uno capite est finis via publica, alio
+                        capite est finis rivus qui dicitur de Calvo. Sexagesima nona petia est ibi
+                        prope et habet hos fines: uno latere est finis via publica, alio latere est
+                        finis terra ecclesie Sancti Petri et terra predicti archiepiscopi; alio
+                        capite est finis terra suprascripte ecclesie Sancti Petri, alio capite est
+                        finis terra Petri Ziti. Septuagesima petia est ibi prope, fines habet: uno
+                        latere est finis terra … archiepiscopus, alio latere est finis terra Petri
+                        filii quondam Armani et terra Gustabilis Centia … et terra quam tenet
+                        suprascriptus R.° de Aczia; uno capite est finis terra suprascripti Petri
+                        Ziti, alio capite est finis silva que dicitur Ferrea. Septuagesima prima
+                        petia est ibi prope, fines habet: per amba latera est finis terra quam tenet
+                        prescriptus R.° de Aczia, uno capite est finis terra Georgii, alio capite
+                        est finis terra suprascripti archiepiscopi. Septuagesima secunda petia est
+                        ibi prope, fines habet: uno latere est finis terra Odoaldi Collu in capite
+                        et terra Sancti Georgii et terra quam tenet Ciofus de Sancto Archangelo et
+                        terra ecclesie Sancti Bartolomei, alio latere est finis terra quam tenet
+                        suprascriptus R.° de Aczia, uno capite est finis via publica, alio capite
+                        est finis terra suprascripti archiepiscopi. Septuagesima tertia petia est in
+                        loco Cicutu … fines habet: uno latere est finis terra suprascripti Odoaldi,
                         alio latere est finis terra quam tenet suprascriptus R.° Blodus; uno capite
-                        est finis via publica, alio capite est finis Lualla. Septuagesima octava
-                        petia ….. ab ecclesia Sancti Nazarii et dicitur ad Romagnanu, habet hos: uno
-                        latere et uno capite est finis terra Iohannis filii quondam Lan... Lamberti,
-                        alio latere est finis terra Ioannis filii quondam Aczoni; alio capite est
-                        finis via publica. Septuagesima nona petia est non longe a loco qui dicitur
-                        Pignoli habet hos fines: uno latere est finis terra ….. alio latere est
-                        finis terra hered(um) suprascripti Leonis; uno capite est finis terra Rocce,
-                        alio capite est finis terra Frucci. Octuagesima petia dicitur ad Sanctum
-                        Marcum non longe a loco qui dicitur Limarani, habet hos fines: uno latere
-                        est finis ….. quam tenet R.° abbas, alio latere est finis terra suprascripti
-                        ….. capite est finis terra quam tenet Ra. Musca. Octuagesima prima petia in
-                        qua est ortus non longe a turre huius nostre civitatis que dicitur
-                        Arepal[la] habet hos fines: uno latere est finis terra ecclesie Sancti
-                        Ioannis qui dicitur Landelpaldi, alio latere est finis terra de
+                        est finis via publica, alio capite est finis silva. Septuagesima quarta
+                        petia est ibi prope, fines habet: uno latere est finis terra suprascripti
+                        Odoaldi, alio latere est finis terra quam tenet suprascriptus R.° Blodus per
+                        amba capita sunt vie publice. Septuagesima quinta petia est ibi prope, uno
+                        latere est finis terra hered(um) Landulfi Manci, alio latere est finis terra
+                        W(illelmi) [Densico] uno capite est finis terra suprascripti R.°, alio
+                        capite est finis via publica. Septuagesima sexta petia est ibi prope, fines
+                        habet: ab uno latere est finis terra quam tenet Cib[ertus]; alio capite est
+                        finis terra suprascripti Odoaldi, uno capite est finis terra quam tenet
+                        suprascriptus R°., alio capite est finis via publica. Septuagesima septima
+                        petia ibi prope fines habet: uno latere est finis terra quam tenet predictus
+                        Cib[ertus], alio latere est finis terra quam tenet suprascriptus R.° Blodus;
+                        uno capite est finis via publica, alio capite est finis Lualla. Septuagesima
+                        octava petia ….. ab ecclesia Sancti Nazarii et dicitur ad Romagnanu, habet
+                        hos: uno latere et uno capite est finis terra Iohannis filii quondam Lan...
+                        Lamberti, alio latere est finis terra Ioannis filii quondam Aczoni; alio
+                        capite est finis via publica. Septuagesima nona petia est non longe a loco
+                        qui dicitur Pignoli habet hos fines: uno latere est finis terra ….. alio
+                        latere est finis terra hered(um) suprascripti Leonis; uno capite est finis
+                        terra Rocce, alio capite est finis terra Frucci. Octuagesima petia dicitur
+                        ad Sanctum Marcum non longe a loco qui dicitur Limarani, habet hos fines:
+                        uno latere est finis ….. quam tenet R.° abbas, alio latere est finis terra
+                        suprascripti ….. capite est finis terra quam tenet Ra. Musca. Octuagesima
+                        prima petia in qua est ortus non longe a turre huius nostre civitatis que
+                        dicitur Arepal[la] habet hos fines: uno latere est finis terra ecclesie
+                        Sancti Ioannis qui dicitur Landelpaldi, alio latere est finis terra de
                         suprascriptis Cannalongis; uno capite est finis terra hered(um) ….. Sasse et
                         finis trasonda que est carrarea eiusdem petie terre et terra et ortus
                         Landulfi Galbatici et terra et ortus Di...ayni cognomine Coci, alio capite
@@ -478,7 +555,7 @@
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p/>
+                <p>Mazzoleni 1957, pp. 47-58 (source of the text reproduced here).</p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p/>
@@ -487,7 +564,8 @@
                 <p/>
             </div>
             <div type="commentary">
-                <p/>
+                <p>Nell'edizione di Mazzoleni, i nomi propri non completamente identificabili sono
+                    stati abbreviati.</p>
             </div>
         </body>
     </text>
