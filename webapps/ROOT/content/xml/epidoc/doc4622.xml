@@ -32,7 +32,7 @@
                             <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Edition</rs>
                             <rs type="document_tradition" ref="#">Original</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -80,8 +80,10 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>IN NOMINE DOMINI SALVATORIS NOSTRI DEI ETERNI <persName key="#Princeps"
-                            ref="#people/3001">RICCARDUS</persName> ET <persName key="#Princeps"
+                    <ab>IN NOMINE DOMINI SALVATORIS NOSTRI DEI ETERNI <persName
+                            key="#Princeps #Marquis/duke #Vir_gloriosus/vir_sublimis #Vir_excellentissimus"
+                            ref="#people/3001">RICCARDUS</persName> ET <persName
+                            key="#Princeps #Marquis/duke #Vir_gloriosus/vir_sublimis"
                             ref="#people/3002">IORDANUS</persName> DIVINA ORDINANTE PROVIDENTIA
                         CAPUANORUM <rs key="#Princeps">PRINCIPES</rs> CUM PRINCIPALI EXCELLENTIA
                         PETITIONI DILECTI SUI CLEMENTER FAVENT. Igitur omnium nostrorum fidelium
@@ -100,13 +102,14 @@
                             key="#Landed_possessions #Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Iure_proprietatis/pleno_iure"
                             >terras et presas </rs>et <rs
                             key="#Houses #Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Iure_proprietatis/pleno_iure"
-                            >casas</rs> intus ipsam civitatem Suessam. in loco cognomento
-                            <placeName>ortale</placeName> subtus et prope <rs key="#Churches"
-                            >ecclesiam</rs>
-                        <orgName key="#Churches">sancti germani</orgName>; per hos fines et
-                        mensuras. prima namque parte finis platee nostre publice et passus decem.
-                        secunda parte finis medie strictole et passus viginti. tertia enim parte
-                        finis platee nostre publice et passus viginti. quarta denique parte finis
+                            >casas</rs> intus ipsam civitatem Suessam. in loco cognomento <placeName
+                            key="#Houses #Landed_possessions" ref="#places/5114">ortale</placeName>
+                        subtus et prope <rs key="#Churches">ecclesiam</rs>
+                        <orgName key="#Churches" ref="#juridical_persons/3749">sancti
+                            germani</orgName>; per hos <rs key="#Fines">fines</rs> et mensuras.
+                        prima namque parte finis platee nostre publice et passus decem. secunda
+                        parte finis medie strictole et passus viginti. tertia enim parte finis
+                        platee nostre publice et passus viginti. quarta denique parte finis
                         strectole et passus decem. et alias terras et casas intus et propinquo parte
                         ipsi civitatis. que dicitur colomne. que est per fines et mensuras. una
                         parte finis platee nostre publice que pergit ad ipsam ecclesiam sancti
@@ -115,19 +118,22 @@
                         et passus nobem. quartam [<foreign>sic</foreign>] autem parte finis medie
                         strectole et passus nobem. Et criptam cum presam que est ante nostram
                         criptam quo est propinquo predicte case. Et damus. tradimus. concedimus tibi
-                        iam dicto mundo et in tuam liberam potestatem transducimus; terras in loco
-                        isola que est per hos fines. prima parte finis flubii gariliani. secunda et
-                        enim parte finis silbe cognomento monacishce propinquo loco ciculari. Tertia
-                        enim parte finis ausenti qui dicitur ulmitum unde per tempus aqua decurrit.
-                        quarta autem parte finis alii ausenti ubi pons fabritum est et per tempus
-                        inde aqua decurrit. cum viis et anditis suis et cum omnibus eorum
-                        pertinentiis. Ob recordationem etiam et nostram eternabiliter stabiliendam
-                        traditionem ac concessionem et confirmationem hos nostre firmitatis apices
-                        fieri iussimus. quibus omnino sancimus et perpetualiter habendum mandamus.
-                        ut amodo et semper tu prefatus mundus tuique heredes; firmiter. secure.
-                        libere et quiete. habeatis et possideatis; totas et integras terras et
-                        presas et casas intus civitatem suessam in loco cognomento ortale subtus et
-                        prope ipsa ecclesia sancti germani. et totas et integras terras et casas
+                        iam dicto mundo et in tuam liberam potestatem transducimus; <rs
+                            key="#Landed_possessions #Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Iure_proprietatis/pleno_iure"
+                            >terras</rs> in loco <placeName key="#Landed_possessions"
+                            ref="#places/5115">isola</placeName> que est per hos <rs key="#Fines"
+                            >fines</rs>. prima parte finis flubii gariliani. secunda et enim parte
+                        finis silbe cognomento monacishce propinquo loco ciculari. Tertia enim parte
+                        finis ausenti qui dicitur ulmitum unde per tempus aqua decurrit. quarta
+                        autem parte finis alii ausenti ubi pons fabritum est et per tempus inde aqua
+                        decurrit. cum viis et anditis suis et cum omnibus eorum pertinentiis. Ob
+                        recordationem etiam et nostram eternabiliter stabiliendam traditionem ac
+                        concessionem et confirmationem hos nostre firmitatis apices fieri iussimus.
+                        quibus omnino sancimus et perpetualiter habendum mandamus. ut amodo et
+                        semper tu prefatus mundus tuique <rs key="#heirTo">heredes</rs>; firmiter.
+                        secure. libere et quiete. habeatis et possideatis; totas et integras terras
+                        et presas et casas intus civitatem suessam in loco cognomento ortale subtus
+                        et prope ipsa ecclesia sancti germani. et totas et integras terras et casas
                         intus et propinquo porte ipsius civitatis que dicitur columne. Et totam
                         criptam cum presa que est ante ipsam criptam propinquo predicte case. Et
                         totas et integras terras in loco ysola. per omne sicut superius scripta est.
@@ -135,17 +141,23 @@
                         iudicis. sculday. et omnium mortalium persone. Quod si qualibet hominum
                         magna parvare [?] persona. contra hanc nostri presenti firmitatem agere
                         presumpserit aut eius violatrix [?] in quocumque fieri temptaverit sciat se
-                        compositurum auri purissimi libras sex medietatem nostre camere et
-                        medietatem tibi mundu tuisque heredibus. et soluta pena h[uius] nostre
-                        concessionis munitum firmum ac stabile maneat in perpetuum ut autem hec
-                        nostre concessionis pagina firmius credatur diligentiusque ab omnibus
-                        observeatur manu nostra corroborabimus et nostri sigilli impressione
-                        iussimus insigniri. SIGNUM (M) DOMINI RICCARDI EXCELLENTISSIMI PRINCIPIS. Ex
-                        iussione prefate serenissime potestatis. Scriptum per manus alerisii sacri
-                        romani palatii iudicis. In anno septimo principatus ipsius domini Riccard et
-                        domni [Iordani] gloriosorum principum et secundo anno ducatus illorum
-                        caiete. Datur tertia kalendas aprilis. Anno ab incarnatione domini nostri
-                        ihesu christi M sexagesimo quintum. indictione tertia. </ab>
+                        compositurum <rs key="#Penalty">auri purissimi libras sex</rs> medietatem
+                        nostre camere et medietatem tibi mundu tuisque heredibus. et soluta pena
+                        h[uius] nostre concessionis munitum firmum ac stabile maneat in perpetuum ut
+                        autem hec nostre concessionis pagina firmius credatur diligentiusque ab
+                        omnibus observeatur manu nostra corroborabimus et nostri sigilli impressione
+                        iussimus insigniri. SIGNUM (M) DOMINI RICCARDI <rs
+                            key="#Vir_excellentissimus">EXCELLENTISSIMI</rs> PRINCIPIS. Ex iussione
+                        prefate serenissime potestatis. Scriptum per manus <persName
+                            key="#Writer #Judge" ref="#people/3097">alerisii</persName> sacri romani
+                        palatii <rs key="#Judge">iudicis</rs>. In anno septimo principatus ipsius
+                        domini Riccard et domni [Iordani] <rs key="#Vir_gloriosus/vir_sublimis"
+                            >gloriosorum</rs> principum et secundo anno <rs
+                            key="#Marquis/duke #Marca/ducatum">ducatus</rs> illorum <placeName
+                            key="#Cities #Marca/ducatum" ref="#places/2343"><geogName
+                                ref="#estates/3001">caiete</geogName></placeName>. Datur tertia
+                        kalendas aprilis. Anno ab incarnatione domini nostri ihesu christi M
+                        sexagesimo quintum. indictione tertia. </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
