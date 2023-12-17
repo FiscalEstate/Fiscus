@@ -32,7 +32,7 @@
                             <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Edition</rs>
                             <rs type="document_tradition" ref="#">Original</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -42,7 +42,13 @@
                         <origin>
                             <origDate>
                                 <note type="displayed_date"/>
-                                <note type="dating_elements"/>
+                                <note type="dating_elements">La data riportata nel diploma è il
+                                    1067, ma Graham Loud suggerisce, più correttamente, il 1066.
+                                    Tale datazione non solo è più compatibile con gli anni di regno
+                                    e con l'indizione, ma nel 1067 il capo dei ribelli, Adenulfo di
+                                    Aquino, si era ormai riconciliato con il principe, circostanza
+                                    che rende difficilmente spiegabile la confisca dei beni del
+                                    conte di Mignano. </note>
                                 <note type="topical_date"/>
                                 <note type="redaction_date"/>
                             </origDate>
@@ -80,32 +86,48 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>In nomine domini Salvatoris nostri Jesu Christi Dei Eterni, Riccardus, et
-                        Jordanes divina ordinante providentia Capuanorum principes cum principali
+                    <ab>In nomine domini Salvatoris nostri Jesu Christi Dei Eterni, <persName
+                            key="#Princeps" ref="#people/3001">Riccardus</persName>, et <persName
+                            key="#Princeps" ref="#people/3002">Jordanes</persName> divina ordinante
+                        providentia Capuanorum <rs key="#Princeps">principes</rs> cum principali
                         Excellentia petitioni dilecti sui clementer favent. Igitur fidelium
                         nostrorum omnium presencium, ac futurorum universitas noverit, qualiter nos
-                        pro salute animae nostrae, nec non pro salute animarum parentum nostrorum,
-                        quam et per interventum Atenulfi filius domni Sergi Patricii concedimus, et
-                        damus in monasterio S. Benedicti situs in monte castro Casino, ubi nunc Deo
-                        tuente domnus Desiderius venerabilis Abbas praeest, molinum, quod est in
-                        Aqua de Pecia, quae decurrit juxta castrum nostrum Mignani, quod, et
-                        qualiter eum tenuit, et dominavit Landulfus, qui nominavatur Fusco, qui fuit
-                        Comes ejusdem castri, quia ipse Landulfus contra Animam nostram cogitavit,
-                        et consiliabit, idcirco omnes res ejus nostro fisco deducte sunt; itaque
-                        concedimus ipsum praephatum Molinum in supranominato S. loco, ut omnes
-                        refudium, quod exinde accipitur totum sit in ospitale ejusdem S. monasterii
-                        propter pauperes, et egenos nutriendos. Ob recordacionem eciam, et nostram
-                        eternaliter stabiliendam concessionem, atque confimacionem hos nostrae
-                        firmitatis apices fieri jussimus, quibus omnino sancimus, et perpetualiter
-                        habendum, mandamus, ut amodo, et semper ipse prephatus domnus Desiderius
-                        Abbas, et sui successores, et pars prenominati sanctissimi loci per omne,
-                        quemadmodum superius scriptum esse videtur, firmiter secure, livere, et
-                        quiete habere, et possidere valeat; remota omni inquietitudine, vel
-                        molestacione cujuscumque Judicis, Comitis, Castaldeis, Sculdays, et omnium
-                        mortalium persone. Quod si quelibet persona hominum magna, vel parva contra
-                        hanc nostri precepti firmitatem agere praesumpserit, aut ejus violator in
-                        quocumque fieri temptaverit, sciat se compositurus auri libras decem
-                        medietatem nostrae Kamere, et medietatem tibi prephato domno Desiderio
+                        pro salute animae nostrae, nec non pro salute animarum <rs key="#familyOf"
+                            >parentum</rs> nostrorum, quam et per <rs key="#Intercessory"
+                            >interventum</rs>
+                        <persName key="#Intercessory #childOf" ref="#people/4292"
+                            >Atenulfi</persName>
+                        <rs key="#childOf">filius</rs> domni <persName key="#Patricius"
+                            ref="#people/4291">Sergi</persName>
+                        <rs key="#Patricius">Patricii</rs> concedimus, et damus in <rs
+                            key="#Monasteries">monasterio</rs><orgName key="#Monasteries #Hospitals"
+                            ref="#juridical_persons/84"> S. Benedicti situs in monte castro
+                            Casino</orgName>, ubi nunc Deo tuente domnus <persName
+                            key="#Abbots #Personal_rank" ref="#people/2421">Desiderius</persName>
+                        <rs key="#Personal_rank">venerabilis</rs>
+                        <rs key="#Abbots">Abbas</rs> praeest, <rs
+                            key="#Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Inflow #Confiscation #Outflow #Iure_proprietatis/pleno_iure"
+                            >molinum</rs>, quod est in <placeName key="#Rivers" ref="#places/5113"
+                            >Aqua de Pecia</placeName>, quae decurrit juxta <rs key="#Castle"
+                            >castrum</rs> nostrum <placeName key="#Castle" ref="#places/4009"
+                            >Mignani</placeName>, quod, et qualiter eum tenuit, et dominavit
+                            <persName key="#Count">Landulfus, qui nominavatur Fusco</persName>, qui
+                        fuit Comes ejusdem castri, quia ipse Landulfus contra Animam nostram
+                        cogitavit, et consiliabit, idcirco omnes res ejus nostro fisco deducte sunt;
+                        itaque concedimus ipsum praephatum Molinum in supranominato S. loco, ut
+                        omnes refudium, quod exinde accipitur totum sit in ospitale ejusdem S.
+                        monasterii propter pauperes, et egenos nutriendos. Ob recordacionem eciam,
+                        et nostram eternaliter stabiliendam concessionem, atque confimacionem hos
+                        nostrae firmitatis apices fieri jussimus, quibus omnino sancimus, et
+                        perpetualiter habendum, mandamus, ut amodo, et semper ipse prephatus domnus
+                        Desiderius Abbas, et sui successores, et pars prenominati sanctissimi loci
+                        per omne, quemadmodum superius scriptum esse videtur, firmiter secure,
+                        livere, et quiete habere, et possidere valeat; remota omni inquietitudine,
+                        vel molestacione cujuscumque Judicis, Comitis, Castaldeis, Sculdays, et
+                        omnium mortalium persone. Quod si quelibet persona hominum magna, vel parva
+                        contra hanc nostri precepti firmitatem agere praesumpserit, aut ejus
+                        violator in quocumque fieri temptaverit, sciat se compositurus auri libras
+                        decem medietatem nostrae Kamere, et medietatem tibi prephato domno Desiderio
                         Abbati, tuique successores, vel in partem prephati vestri monasterii, et
                         post soluta pena hujus nostrae concessionis munitum firmum, hac stabile
                         maneat in perpetuum. Ut autem hec nostrae concessionis paginam firmius
@@ -120,7 +142,8 @@
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p/>
+                <p>Leccisotti 1965, p. 110; Gattola 1733, p. 158 (source of the text reproduced
+                    here).</p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p/>
