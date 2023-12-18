@@ -32,7 +32,7 @@
                             <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Edition</rs>
                             <rs type="document_tradition" ref="#">Original</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -40,8 +40,8 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate>
-                                <note type="displayed_date"/>
+                            <origDate when="1065-01-19">
+                                <note type="displayed_date">1065 January 19</note>
                                 <note type="dating_elements"/>
                                 <note type="topical_date"/>
                                 <note type="redaction_date"/>
@@ -80,58 +80,93 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>+ In nomine Domini Salvatoris nostri Jesu Christi Dei eterni Riccardus, et
-                        Jordanus divina ordinante providentia Capuanorum principes, cum principali
-                        excellentia petitioni dilecti sui clementer favent. Igitur omnium nostrorum
-                        fidelium scilicet praesentium, ac futurorum pateat sagacitati, qualiter nos
-                        loca Deo ubique dicata de bono in melius proficere studemus, singulariter
-                        tamen, et specialius locum, in quo patris nostri Sanctissimi Benedicti
-                        corpus fovetur, quod situm est in Monte castro Casino, ubi nunc Deo
-                        auxiliante domnus Desiderius venerabilis Abbas praeest ex nostris rebus per
-                        interventum Pandulphi nostri dilecti fidelis, et filii quondam Gualae pro
-                        salute animae nostrae, et parentum nostrorum Roberti, et Rainulphi quam
-                        etiam ob remedium animae magnae recordationis avunculi nostri Comitis, et
-                        Ducis Rainulphi per hanc cartam damus, tradimus, atque concedimus, et
-                        confirmamus in preafato monasterio Casinensi, et domno Desiderio Abbati, et
-                        successoribus ejus, et in eorum liberam potestatem transducimus inclytum
-                        castrum Fractae pertinentem sacro nostro palacio cum muris et portis ipsius
-                        oppidi, et cum omnibus hominibus ibidem commorantibus, vel qui habitaturi
-                        erunt, cum montibus, planis, sylvis, pratis, sylvis, pascuis, aquis, cum
-                        terris, et viis suis, et omnibus pertinentiis ipsius oppidi in integrum
-                        damus, et confirmamus in eodem monasterio Cassinensi in perpetuum, pro quo
-                        videlicet castro Fractensi recepi in commutationem a jam dicto Desiderio
-                        Abbate castellum, quod dicitur Capriata cum omnibus pertinentiis suis
-                        additis insuper trecentis Bizanteis ob recordationem etiam et nostram
-                        eternaliter stabiliendam traditionem, concessionem et confirmationem hos
-                        nostrae firmitatis apices fieri jussimus, quibus omnino sancimus, et
-                        perpetualiter habendum mandamus, ut amodo, et semper ipse domnus Desiderius
-                        Abbas, suique successores, et pars praefati monasterii firmiter, secure,
-                        libere et quiete habeatis, ac possideatis inclytum prefatum castrum Fractae
-                        cum muris, et portis ipsius oppidi, et cum hominibus ibidem commorantibus,
-                        vel qui commoraturi erunt cum terris, montibus, planis, silvis, pratis,
-                        pascuis, aquis, cum terris, et viis suis, et omnibus pertinenciis ipsius
-                        oppidi, sicut superius scriptum est, ut faciatis exinde qualiter parti
-                        praedicti Monasterii necessum fuerit omnia, quae volueritis in perpetuum,
-                        remota omni inquietudine et molestacione cujuscumque Comitis, Castaldeis,
-                        judicis, Sculdais, et omnium mortalium personarum. Quod si quaelibet hominum
-                        magna, parvaque persona contra hanc nostri praecepti firmitatem agere
-                        praesumpserit, aut ejus violatrix in quocumque fieri temptaverit , sciat se
-                        compositurum auri purissimi libras septingentas, medietatem camerae nostrae,
-                        et medietatem tibi praefato domno Desiderio, vel tuis successoribus, seu
+                    <ab>+ In nomine Domini Salvatoris nostri Jesu Christi Dei eterni <persName
+                            key="#Princeps #Marquis/duke #Vir_gloriosus/vir_sublimis #Vir_excellentissimus"
+                            ref="#people/3001">Riccardus</persName>, et <persName
+                            key="#Princeps #Marquis/duke #Vir_gloriosus/vir_sublimis"
+                            ref="#people/3002">Jordanus</persName> divina ordinante providentia
+                        Capuanorum <rs key="#Princeps">principes</rs>, cum principali excellentia
+                        petitioni dilecti sui clementer favent. Igitur omnium nostrorum fidelium
+                        scilicet praesentium, ac futurorum pateat sagacitati, qualiter nos loca Deo
+                        ubique dicata de bono in melius proficere studemus, singulariter tamen, et
+                        specialius <orgName ref="#juridical_persons/84" key="#Monasteries">locum, in
+                            quo patris nostri Sanctissimi Benedicti corpus fovetur,</orgName> quod
+                        situm est in <placeName ref="#places/109">Monte castro Casino</placeName>,
+                        ubi nunc Deo auxiliante domnus <persName key="#Abbots #Personal_rank"
+                            ref="#people/2421">Desiderius</persName>
+                        <rs key="#Personal_rank">venerabilis</rs>
+                        <rs key="#Abbots">Abbas</rs> praeest ex nostris rebus <rs
+                            key="#Intercessory">per interventum</rs>
+                        <persName key="#fidelisOf" ref="#people/4200">Pandulphi nostri dilecti <rs
+                                key="#fidelisOf">fidelis</rs>, et filii quondam Gualae</persName>
+                        pro salute animae nostrae, et <rs key="#familyOf">parentum</rs> nostrorum
+                            <persName ref="#people/2422" key="#familyOf">Roberti</persName>, et
+                            <persName ref="#people/4236" key="#familyOf">Rainulphi</persName> quam
+                        etiam ob remedium animae magnae recordationis <rs key="#uncle/auntOf"
+                            >avunculi</rs> nostri <rs key="#Count">Comitis</rs>, et Ducis <persName
+                            key="#Count #uncle/auntOf" ref="#people/3060">Rainulphi</persName> per
+                        hanc cartam damus, tradimus, atque concedimus, et confirmamus in preafato
+                            <rs key="#Monasteries">monasterio</rs> Casinensi, et domno Desiderio
+                        Abbati, et successoribus ejus, et in eorum liberam potestatem transducimus
+                        inclytum <rs
+                            key="#Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Iure_proprietatis/pleno_iure #Castle"
+                            >castrum</rs>
+                        <placeName
+                            key="#Economy #Landed_possessions #Forests #Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Counter-gift #Coloni/tenants #Castle #Clusae/gates #Walls #Roads #Rights_of_use_on_woods/pastures/waters"
+                            ref="#places/4519">Fractae</placeName> pertinentem sacro nostro palacio
+                        cum <rs key="#Walls">muris</rs> et <rs key="#Clusae/gates">portis</rs>
+                        ipsius <rs key="#Castle">oppidi</rs>, et cum omnibus <rs
+                            key="#Coloni/tenants">hominibus</rs> ibidem commorantibus, vel qui
+                        habitaturi erunt, cum <rs key="#Mountains">montibus</rs>, planis, <rs
+                            key="#Forests">sylvis</rs>, <rs
+                            key="#Rights_of_use_on_woods/pastures/waters">pratis</rs>, sylvis, <rs
+                            key="#Rights_of_use_on_woods/pastures/waters">pascuis, aquis</rs>, cum
+                            <rs key="#Landed_possessions">terris</rs>, et <rs key="#Roads">viis</rs>
+                        suis, et omnibus pertinentiis ipsius oppidi in integrum damus, et
+                        confirmamus in eodem monasterio Cassinensi in perpetuum, pro quo videlicet
+                        castro Fractensi recepi in commutationem a jam dicto Desiderio Abbate <rs
+                            key="#Castle">castellum</rs>, quod dicitur <placeName
+                            key="#Fiscal_property #Textual_occurrence #Object #Inflow #Gift #Castle"
+                            ref="#places/5116">Capriata</placeName> cum omnibus pertinentiis suis
+                        additis insuper<rs key="#Value #Counter-gift"> trecentis Bizanteis</rs> ob
+                        recordationem etiam et nostram eternaliter stabiliendam traditionem,
+                        concessionem et confirmationem hos nostrae firmitatis apices fieri jussimus,
+                        quibus omnino sancimus, et perpetualiter habendum mandamus, ut amodo, et
+                        semper ipse domnus Desiderius Abbas, suique successores, et pars praefati
+                        monasterii firmiter, secure, libere et quiete habeatis, ac possideatis
+                        inclytum prefatum castrum Fractae cum muris, et portis ipsius oppidi, et cum
+                        hominibus ibidem commorantibus, vel qui commoraturi erunt cum terris,
+                        montibus, planis, silvis, pratis, pascuis, aquis, cum terris, et viis suis,
+                        et omnibus pertinenciis ipsius oppidi, sicut superius scriptum est, ut
+                        faciatis exinde qualiter parti praedicti Monasterii necessum fuerit omnia,
+                        quae volueritis in perpetuum, remota omni inquietudine et molestacione
+                        cujuscumque Comitis, Castaldeis, judicis, Sculdais, et omnium mortalium
+                        personarum. Quod si quaelibet hominum magna, parvaque persona contra hanc
+                        nostri praecepti firmitatem agere praesumpserit, aut ejus violatrix in
+                        quocumque fieri temptaverit , sciat se compositurum <rs key="#Penalty">auri
+                            purissimi libras septingentas</rs>, medietatem camerae nostrae, et
+                        medietatem tibi praefato domno Desiderio, vel tuis successoribus, seu
                         partibus praedictis monasterii, et soluta poena hujus nostrae concessionis
                         pagina munitum firmum, ac stabile maneat in perpetuum. Ut autem haec nostrae
                         concessionis pagina firmius credatur, diligentiusque ab omnibus observetur,
                         manu nostra corroboravimus, et nostri sigilli impressione jussimus
-                        insigniri. (M) Signum Domni Riccardi excellentissimi Principis. Ex jussione
-                        prephatae serenissimae potestatis scriptum per manus Alerisii Sacri Romani
-                        palacii judicis in anno septimo principatus ipsius domni Riccardi, et domni
-                        Jordanis gloriosorum principum, et secundo anno Ducatus illorum Cajetae.
-                        Datum quarto decimo Kalendas Februarii anno ab incarnatione domini nostri
-                        Jesu Christi millesimo sexagesimo quinto, indictione tertia. </ab>
+                        insigniri. (M) Signum Domni Riccardi <rs key="#Vir_excellentissimus"
+                            >excellentissimi</rs> Principis. Ex jussione prephatae serenissimae
+                        potestatis scriptum per manus <persName key="#Writer #Judge"
+                            ref="#people/3097">Alerisii</persName> Sacri Romani <rs key="#Judge"
+                            >palacii judicis </rs>in anno septimo principatus ipsius domni Riccardi,
+                        et domni Jordanis <rs key="#Vir_gloriosus/vir_sublimis">gloriosorum</rs>
+                        principum, et secundo anno <rs key="#Marquis/duke #Marca/ducatum"
+                            >Ducatus</rs> illorum <placeName key="#Cities" ref="#places/2343"
+                                ><geogName key="#Marca/ducatum" ref="#estates/3001"
+                                >Cajetae</geogName></placeName>. Datum quarto decimo Kalendas
+                        Februarii anno ab incarnatione domini nostri Jesu Christi millesimo
+                        sexagesimo quinto, indictione tertia. </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p/>
+                <p>Leccisotti 1965, p. 128; Gattola 1734, pp. 165-166 (source of the text reproduced
+                    here).</p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p/>
