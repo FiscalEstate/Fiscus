@@ -32,7 +32,7 @@
                             <rs type="text_type" ref="#">--Promissio</rs>
                             <rs type="record_source" ref="#">Edition</rs>
                             <rs type="document_tradition" ref="#">Original</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -40,10 +40,10 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate>
-                                <note type="displayed_date"/>
+                            <origDate when="1128-02-04">
+                                <note type="displayed_date">1128 February 4</note>
                                 <note type="dating_elements"/>
-                                <note type="topical_date"/>
+                                <note type="topical_date">Capua</note>
                                 <note type="redaction_date"/>
                             </origDate>
                             <origPlace></origPlace>
@@ -80,38 +80,85 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>+ Ego Secundus Robertus Dei gratia Capuanorum princeps promitto, et per haec
-                        sancta Dei evangelia juro tibi domno Segnoricto Cassinensis Monasterii
-                        Abbati, quod ab hac hora et deinceps non ero in consilio, vel in facto, seu
-                        consensu, ut vitam, vel quodlibet membrum tui corporis perdas, aut captus
-                        sis mala captione ad tuum dapnum honorem, et terras, quas Cassinense
-                        monasterium S. Benedicti tenet, et dominatur, vel quod in antea
-                        recuperaverit per se, vel per suos homines, vel in antea meo consiglio infra
-                        principatum Capuanum accquisierit, et quae tempore Richardi principis proavi
-                        mei, et Jordani principis avi, et Richardi, et Robberti principum patruorum
-                        meorum, et Jordani principis patris mei praedicto Cassinensi monasterio, vel
-                        in suis subditis ecclesiis offertum vel datum est usque nunc, et nominatim
-                        ecclesiam Sanctae Agatae sitam prope muros Aversae cum terris, et hominibus
-                        qualiter Jordanus princeps avus meus eidem monasterio dedit, et concessit,
-                        et oppidum Pontiscurbi cum suis pertinentiis, qualiter Richardus princeps
-                        patruus meus illud concessit, et confirmavit praedicto monasterio, et domno
-                        Hoderisio Abbati adjuvabo te, et praedictum monasterium tenere, ac defendere
-                        contra omnes homines, qui tibi illud aut inde auferre temptaverit si inde
-                        summonitus fuero, nisi tale exonium intervenerit, quod propter hoc non sit
-                        inventum, et transacto exonio infra quadraginta dies predicta aut adimplebo,
-                        aut rectum, vel gratam concordiam tibi inde fieri faciam; et facto recto vel
-                        grata concordia, in hoc Sacramento permanebo. Hac omnia praedicta observabo
-                        per bonam fidem, absque fraude, et malo ingenio, quod sit ad praedicti
-                        monasterii, aut tui damnum pertineat. Hoc factum est in Capuana civitate die
-                        Dominico, quarto die stante mense Februarii in anno Dominicae incarnationis
-                        millesimo centesimo vigesimo octavo, per indictionem sextam ante praesencia
-                        subscriptorum testium videlicet. Ri. de Caleno, Ugo de Labolita, Odoal.
-                        Camerarii, Philippi de Surrento, Toftayni de Rivo Matricio, Ro. de Aczia,
-                        Borteraymi, Joannis de Calatia, Juliani de Juttura, Raynaldi de Guelcu. </ab>
+                    <ab>+ Ego<persName key="#Princeps" ref="#people/3042"> Secundus
+                            Robertus</persName> Dei gratia Capuanorum <rs key="#Princeps"
+                            >princeps</rs> promitto, et per haec sancta Dei evangelia juro tibi
+                        domno <persName key="#Abbots" ref="#people/4227">Segnoricto</persName>
+                        <orgName key="#Monasteries" ref="#juridical_persons/84"
+                            >Cassinensis</orgName>
+                        <rs key="#Monasteries">Monasterii</rs>
+                        <rs key="#Abbots">Abbati</rs>, quod ab hac hora et deinceps non ero in
+                        consilio, vel in facto, seu consensu, ut vitam, vel quodlibet membrum tui
+                        corporis perdas, aut captus sis mala captione ad tuum dapnum honorem, et
+                        terras, quas Cassinense monasterium S. Benedicti tenet, et dominatur, vel
+                        quod in antea recuperaverit per se, vel per suos homines, vel in antea meo
+                        consiglio infra principatum Capuanum accquisierit, et <rs
+                            key="#Fiscal_property #Textual_occurrence #Mention #Function #Redistributive #Outflow #Iure_proprietatis/pleno_iure"
+                            >quae</rs> tempore <persName key="#Princeps #greatGrandparentOf"
+                            ref="#people/3001">Richardi</persName>
+                        <rs key="#Princeps">principis</rs>
+                        <rs key="#greatGrandparentOf">proavi</rs> mei, et <persName
+                            key="#Princeps #grandparentOf" ref="#people/3002">Jordani</persName>
+                        <rs key="#Princeps">principis</rs>
+                        <rs key="#grandparentOf">avi</rs>, et <persName
+                            key="#Princeps #uncle/auntOf" ref="#people/3010">Richardi</persName>, et
+                            <persName key="#Princeps #uncle/auntOf" ref="#people/3019"
+                            >Robberti</persName>
+                        <rs key="#Princeps">principum</rs>
+                        <rs key="#uncle/auntOf">patruorum</rs> meorum, et <persName
+                            key="#Princeps #parentOf" ref="#people/4198 #people/3022"
+                            >Jordani</persName>
+                        <rs key="#Princeps">principis</rs>
+                        <rs key="#parentOf">patris</rs> mei praedicto Cassinensi monasterio, vel in
+                        suis subditis <rs key="#Churches">ecclesiis</rs> offertum vel datum est
+                        usque nunc, et nominatim <rs key="#Churches">ecclesiam</rs>
+                        <orgName
+                            key="#Landed_possessions #Fiscal_property #Textual_occurrence #Mention #Function #Redistributive #Outflow #Iure_proprietatis/pleno_iure #Coloni/tenants"
+                            ref="#juridical_persons/3061">Sanctae Agatae</orgName> sitam prope <rs
+                            key="#Walls">muros</rs>
+                        <placeName key="#Cities #Walls" ref="#places/4000">Aversae</placeName> cum
+                            <rs key="#Landed_possessions">terris</rs>, et <rs key="#Coloni/tenants"
+                            >hominibus</rs> qualiter Jordanus princeps avus meus eidem monasterio
+                        dedit, et concessit, et <rs key="#Castle">oppidum</rs>
+                        <placeName
+                            key="#Fiscal_property #Textual_occurrence #Mention #Function #Redistributive #Outflow #Iure_proprietatis/pleno_iure #Castle"
+                            ref="#places/4537">Pontiscurbi</placeName> cum suis pertinentiis,
+                        qualiter Richardus princeps patruus meus illud concessit, et confirmavit
+                        praedicto monasterio, et domno <persName key="#Abbots" ref="#people/4222"
+                            >Hoderisio</persName>
+                        <rs key="#Abbots">Abbati</rs> adjuvabo te, et praedictum monasterium tenere,
+                        ac defendere contra omnes homines, qui tibi illud aut inde auferre
+                        temptaverit si inde summonitus fuero, nisi tale exonium intervenerit, quod
+                        propter hoc non sit inventum, et transacto exonio infra quadraginta dies
+                        predicta aut adimplebo, aut rectum, vel gratam concordiam tibi inde fieri
+                        faciam; et facto recto vel grata concordia, in hoc Sacramento permanebo. Hac
+                        omnia praedicta observabo per bonam fidem, absque fraude, et malo ingenio,
+                        quod sit ad praedicti monasterii, aut tui damnum pertineat. Hoc factum est
+                        in <placeName key="#Cities" ref="#places/173">Capuana</placeName>
+                        <rs key="#Cities">civitate</rs> die Dominico, quarto die stante mense
+                        Februarii in anno Dominicae incarnationis millesimo centesimo vigesimo
+                        octavo, per indictionem sextam ante praesencia subscriptorum <rs
+                            key="#Witness">testium</rs> videlicet. <persName key="#Witness"
+                            ref="#people/4226">Ri. de Caleno</persName>, <persName key="#Witness"
+                            ref="#people/3040">Ugo de Labolita</persName>, <persName
+                            key="#Witness #Other_palatine_officer" ref="#people/3035"
+                            >Odoal.</persName>
+                        <rs key="#Other_palatine_officer">Camerarii</rs>, <persName key="#Witness"
+                            ref="#people/4287">Philippi de Surrento</persName>, <persName
+                            key="#Witness"><name ref="Turstainus de Rivo Matricio">Tostayni de Rivo
+                                Matricio</name></persName>, <persName key="#Witness"><name
+                                ref="Ro. de Aczia">Ro. de Aczia</name></persName>, <persName
+                            key="#Witness"><name ref="Bertram">Borteraymi</name></persName>,
+                            <persName key="#Witness"><name ref="Iohannes de Calatia">Joannis de
+                                Calatia</name></persName>, <persName key="#Witness"><name
+                                ref="Iulianus de Juttura">Juliani de Juttura</name></persName>,
+                            <persName key="#Witness"><name ref="Raginaldus de Guelcu">Raynaldi de
+                                Guelcu</name></persName>. </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p/>
+                <p>Leccisotti 1965, pp. 25-26; Gattola 1734, pp. 247-248 (source of the text
+                    reproduced here).</p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p/>
