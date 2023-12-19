@@ -32,7 +32,7 @@
                             <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Edition</rs>
                             <rs type="document_tradition" ref="#">Copy</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -40,9 +40,21 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate>
-                                <note type="displayed_date"/>
-                                <note type="dating_elements"/>
+                            <origDate notBefore="1098-09-01" notAfter="1100-09-30">
+                                <note type="displayed_date">1098 September 1 - 1100 September
+                                    30</note>
+                                <note type="dating_elements">Il diploma è stato emesso nel ventesimo
+                                    anno di regno del principe Riccardo II. Sappiamo che salì al
+                                    potere tra il maggio del 1090 e il maggio del 1091. Morì nel
+                                    1106, dunque il suo regno non durò vent'anni. Possiamo
+                                    ipotizzare però che alla nascita fosse stato associato al trono
+                                    da suo padre, il principe Giordano I. Dal momento che la sua
+                                    nascita si colloca tra la fine del 1079 e l'inizio del 1080,
+                                    abbiamo proposto una stima conservativa del segmento temporale
+                                    entro il quale datare il documento.Ughelli, nell'edizione di
+                                    riferimento, data il diploma al 1135, ma già Loud nel suo
+                                    censimento dei diplomi aveva segnalato l'errore (Loud 1981, p.
+                                    131).</note>
                                 <note type="topical_date"/>
                                 <note type="redaction_date"/>
                             </origDate>
@@ -81,39 +93,53 @@
             <div type="edition">
                 <div type="textpart">
                     <ab>In nomine Domini Sanctissimi Jesu Christi. Amen. Notum sit omnibus filiis
-                        Sanctae et Catholicae Ecclesiae, quoniam nos Secundus Riccardus Capuanus
-                        Princeps proles bo.me. Dom. Jordani magnifici Principis ob salutem, et
-                        remedium animae ejus, ac ob statum nostri Principatus in Ecclesia Dei, et
-                        Beati Proculi Levitae et Martyris Christi constructa in Castro Puteolano,
-                        cui Dominus Maurus venerabilis Episcopus preest, damus, tradimus,
-                        concedimus, et confirmamus per hoc videlicet principale scriptum in
-                        perpetuam decimationem de auro, et argento, et aliis omnibus que capiuntur
-                        pro nostro jure a servientibus nostris, in Castro nostro Puteolano; excepto
-                        de venatione, ita ut si praefatus Dominus Maurus Episcopus et successores
-                        sui volunt habere hominem illorum in unoquoque decimo die cum serviente
-                        nostro ad recipiendam decimationem suam, sit ibi, et percipiat eam, sin
-                        autem potestatem habeant recipiendi fiducias a serviente nostro, ut
-                        justitiam suam non deneget, neque defraudet eis, et in tempore glandium, et
-                        per unumquemque annum ipse praefatus Venerabilis Episcopus Maurus, et
-                        successores ejus post potestatem et licentiam habeant mittendi in nostro
-                        bosco quatuor homines ad colligendum glandem octo dies, ad proprietatem
-                        dicte Ecclesiae et memorati Episcopi, et successorum ejus: haec omnia ut
-                        supra praefati sumus Nos praefatus Secundus Riccardus Capuanus Princeps in
-                        jam memoratae Ecclesiae Dei, et Beati Proculi Martyris Christi per hoc
-                        principale scriptum in perpetuum damus, concedimus, tradimus, et confirmamus
-                        ad possessionem et potestatem, et dominationem jam dictae Ecclesiae, et
-                        praefati Domini Episcopi Mauri, et omnium successorum ejus, et faciendam
-                        exinde utilitatem prescriptae Ecclesiae remota omni inquietudine, et
-                        contrarietate et molestia omnium Principum successorum nostrorum, vel
+                        Sanctae et Catholicae Ecclesiae, quoniam nos <persName
+                            key="#Princeps #childOf" ref="#people/3010">Secundus
+                            Riccardus</persName> Capuanus <rs key="#Princeps">Princeps</rs>
+                        <rs key="#childOf">proles</rs> bo.me. Dom. <persName
+                            key="#Princeps #Vir_magnificus" ref="#people/3002">Jordani</persName>
+                        <rs key="#Vir_magnificus">magnifici</rs>
+                        <rs key="#Princeps">Principis</rs> ob salutem, et remedium animae ejus, ac
+                        ob statum nostri Principatus in Ecclesia Dei, et <orgName
+                            ref="#juridical_persons/3086">Beati Proculi Levitae et Martyris
+                            Christi</orgName> constructa in <rs key="#Fortifications">Castro</rs>
+                        <placeName key="#Fortifications" ref="#places/5008">Puteolano</placeName>,
+                        cui Dominus <persName key="#Bishops #Personal_rank" ref="#people/4298"
+                            >Maurus</persName>
+                        <rs key="#Personal_rank">venerabilis</rs>
+                        <rs key="#Bishops">Episcopus</rs> preest, damus, tradimus, concedimus, et
+                        confirmamus per hoc videlicet principale scriptum in perpetuam <rs
+                            key="#Decima">decimationem de auro, et argento, et aliis omnibus</rs>
+                        que capiuntur pro nostro jure a servientibus nostris, in Castro nostro
+                        Puteolano; excepto de <rs key="#Game #Decima">venatione</rs>, ita ut si
+                        praefatus Dominus Maurus Episcopus et successores sui volunt habere hominem
+                        illorum in unoquoque decimo die cum serviente nostro ad recipiendam
+                        decimationem suam, sit ibi, et percipiat eam, sin autem potestatem habeant
+                        recipiendi fiducias a serviente nostro, ut justitiam suam non deneget, neque
+                        defraudet eis, et in tempore <rs key="#Acorns">glandium</rs>, et per
+                        unumquemque annum ipse praefatus Venerabilis Episcopus Maurus, et
+                        successores ejus post potestatem et licentiam habeant mittendi in nostro <rs
+                            key="#Forests #Fiscal_property #Textual_occurrence #Mention #Rights_of_use_on_woods/pastures/waters"
+                            >bosco</rs> quatuor homines ad colligendum glandem octo dies, ad
+                        proprietatem dicte Ecclesiae et memorati Episcopi, et successorum ejus: haec
+                        omnia ut supra praefati sumus Nos praefatus Secundus Riccardus Capuanus
+                        Princeps in jam memoratae Ecclesiae Dei, et Beati Proculi Martyris Christi
+                        per hoc principale scriptum in perpetuum damus, concedimus, tradimus, et
+                        confirmamus ad possessionem et potestatem, et dominationem jam dictae
+                        Ecclesiae, et praefati Domini Episcopi Mauri, et omnium successorum ejus, et
+                        faciendam exinde utilitatem prescriptae Ecclesiae remota omni inquietudine,
+                        et contrarietate et molestia omnium Principum successorum nostrorum, vel
                         Viceprincipum, Comitum vel Vicecomitum, Judicum, Scultariorum, Gastaldeorum,
                         aliorumque omnium mortalium, et si quis, etc. Ex concessione praefatae
-                        Serenissimae potestatis scripsi ego Ruriacus Palatinus Judex in Anno
-                        Dominicae Incarnationis 1135. Anno Principatus praefati Domini Secundi
-                        Ricciardi 20. etc. </ab>
+                        Serenissimae potestatis scripsi ego <persName key="#Writer #Judge"
+                            ref="#people/3012">Ruriacus</persName>
+                        <rs key="#Judge">Palatinus Judex </rs>in Anno Dominicae Incarnationis 1135.
+                        Anno Principatus praefati Domini Secundi Ricciardi 20. etc. </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p/>
+                <p>Ughelli-Coleti <foreign>IS</foreign>, VI, p. 278 (source of the text reproduced
+                    here). </p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p/>
