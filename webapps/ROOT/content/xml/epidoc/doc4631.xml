@@ -32,7 +32,7 @@
                             <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Edition</rs>
                             <rs type="document_tradition" ref="#">Copy</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -40,11 +40,11 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate>
-                                <note type="displayed_date"/>
+                            <origDate notBefore="1102-03-01" notAfter="1102-03-31">
+                                <note type="displayed_date">1102 March 1 - 1102 March 31</note>
                                 <note type="dating_elements"/>
-                                <note type="topical_date"/>
-                                <note type="redaction_date"/>
+                                <note type="topical_date">Capua</note>
+                                <note type="redaction_date">1291</note>
                             </origDate>
                             <origPlace></origPlace>
                         </origin>
@@ -80,50 +80,78 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>Nos secundus Riccardus divina ordinante clementia Capuanorum princeps. notum
-                        fieri volumus omnibus filiis catholice ecclesie et nostris fidelibus quoniam
-                        ob salutem et remedium animarum quondam gloriosorum principum
-                        consanguineorum nostrorum. ac ob statum nostri principatus. consilio quoque
-                        et interventu Raynaldi musce nostri dilecti baronis nonnullo et Ugonis
-                        cognomine de phay nostrorum dilectorum fidelium per hac videlicet principale
-                        scriptum in perpetuum damus tradimus. concedimus et confirmamus vobis
-                        Gerbaldo venerabili ac deo digno Archiepiscopo Capuano. vobis enim pro parte
-                        et vice ecclesia sanctorum prothomartirie Stephani et Agathe. que constructa
-                        est intus hanc nostram Capuanam civitatem. hoc est integrum portum nostrum.
-                        cum ripis. aqua et alveo ex utraque parte Volturni fluminie scilicet
-                        qualiter incipit ab una parte a terra et presa ecclesie sancte Reperate que
-                        est in suburbio huius nostre Capuane civitatis prope ponte qui dicitur
-                        casolini et vadit usque ad pontem ipsam et qualiter incipit ab alia parte a
-                        terra et presa et casa alami filii quondam Roberti. et vadit descendendo ad
-                        predictam pontem. Hec omnia prescripta qualiter memorata sunt. una cum
-                        omnibus qui inferius et superius [intus?] esse noscuntur quam et cum viis
-                        suis ibidem [introeundi] et exeundi atque cum omnibus suis pertinentis. nos
+                    <ab>Nos <persName key="#Princeps #Vir_gloriosus/vir_sublimis" ref="#people/3010"
+                            >secundus Riccardus</persName> divina ordinante clementia Capuanorum <rs
+                            key="#Princeps">princeps</rs>. notum fieri volumus omnibus filiis
+                        catholice ecclesie et nostris fidelibus quoniam ob salutem et remedium
+                        animarum quondam <rs key="#Vir_gloriosus/vir_sublimis">gloriosorum</rs>
+                        <rs key="#Princeps">principum</rs>
+                        <rs key="#kinOf">consanguineorum</rs> nostrorum. ac ob statum nostri
+                        principatus. consilio quoque et <rs key="#Intercessory">interventu</rs>
+                        <persName key="#Intercessory #fidelisOf" ref="#people/3079">Raynaldi
+                            musce</persName> nostri dilecti baronis nonnullo et<persName
+                            key="#Intercessory #fidelisOf" ref="#people/4249"> Ugonis cognomine de
+                            phay</persName> nostrorum dilectorum <rs key="#fidelisOf">fidelium</rs>
+                        per hac videlicet principale scriptum in perpetuum damus tradimus.
+                        concedimus et confirmamus vobis <persName key="#Archbishops #Personal_rank"
+                            ref="#people/4299">Gerbaldo</persName>
+                        <rs key="#Personal_rank">venerabili</rs> ac deo digno <rs key="#Archbishops"
+                            >Archiepiscopo</rs> Capuano. vobis enim pro parte et vice <rs
+                            key="#Mother_churches">ecclesia</rs><orgName key="#Mother_churches"
+                            ref="#juridical_persons/3045"> sanctorum prothomartirie Stephani et
+                            Agathe</orgName>. que constructa est intus hanc nostram <placeName
+                            key="#Cities #City_territory" ref="#places/173">Capuanam</placeName>
+                        <rs key="#Cities">civitatem</rs>. hoc est integrum <rs
+                            key="#Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Iure_proprietatis/pleno_iure #Ports"
+                            >portum</rs> nostrum. cum <rs
+                            key="#Rights_of_use_on_woods/pastures/waters"><rs key="#Shores"
+                                >ripis</rs>. aqua et <rs key="#Riverbed">alveo</rs></rs> ex utraque
+                        parte <placeName key="#Rivers #Riverbed #Shores #Ports" ref="#places/609"
+                            >Volturni</placeName>
+                        <rs key="#Rivers">fluminie</rs> scilicet qualiter incipit ab una parte a
+                        terra et presa <rs key="#Churches">ecclesie</rs>
+                        <orgName key="#Churches" ref="#juridical_persons/3011">sancte
+                            Reperate</orgName> que est in <rs key="#City_territory">suburbio</rs>
+                        huius nostre Capuane civitatis prope <rs key="#Bridges/pontoons">ponte</rs>
+                        qui dicitur <placeName key="#Bridges/pontoons" ref="#places/5117"
+                            >casolini</placeName> et vadit usque ad pontem ipsam et qualiter incipit
+                        ab alia parte a terra et presa et casa <persName><name
+                                ref="Alamus fil. Roberti">alami filii quondam
+                            Roberti</name></persName>. et vadit descendendo ad predictam pontem. Hec
+                        omnia prescripta qualiter memorata sunt. una cum omnibus qui inferius et
+                        superius [intus?] esse noscuntur quam et cum <rs key="#Roads">viis</rs> suis
+                        ibidem [introeundi] et exeundi atque cum omnibus suis pertinentis. nos
                         prenominatus secundus ricardus dei gratia Capuanorum princeps vobis
                         prescipto Gerbaldo Capuano Archiepiscopo per hoc videlicet principale
                         scriptum in perpetuum damus. tradimus concedimus et confirmamus ad
                         possessionem et dominationem et potestatem vestram pro parte prefate Capuane
-                        ecclesie. vestorum omnium successorum. faciendo ibidem molendinum. figendo
-                        palos pro clausis et piscatiis faciendis. et pro alliquandis funiculis
-                        ipsius molendini et in predictis ripis aqua et alveo. omnia qua pro
-                        utilitate eiusdem ecclesie. vobis vel eis placuerint. Remota omni
-                        inquietudine. contrarietate et molestia omnium principum successorum
-                        nostrorum vel viceprincipum comitum. vel vicecomitum. iudicum. sculdahorum.
-                        castaldeorum. aliorumque omnium mortalium personarum. quod si quis huius
-                        nostre dationis. traditionis. concessionis vel confirmationis paginam
-                        contemptor aut violator in aliquo esse presumpserit viginti libras auri
-                        purissimi persolvat. medietatem prefate ecclesie sanctorum prothomartiris
+                        ecclesie. vestorum omnium successorum. faciendo ibidem <rs key="#Mills"
+                            >molendinum</rs>. <rs key="#Rights_of_use_on_woods/pastures/waters"
+                            >figendo palos pro clausis et <rs key="#Fisheries">piscatiis</rs>
+                            faciendis</rs>. et pro alliquandis funiculis ipsius molendini et in
+                        predictis ripis aqua et alveo. omnia qua pro utilitate eiusdem ecclesie.
+                        vobis vel eis placuerint. Remota omni inquietudine. contrarietate et
+                        molestia omnium principum successorum nostrorum vel viceprincipum comitum.
+                        vel vicecomitum. iudicum. sculdahorum. castaldeorum. aliorumque omnium
+                        mortalium personarum. quod si quis huius nostre dationis. traditionis.
+                        concessionis vel confirmationis paginam contemptor aut violator in aliquo
+                        esse presumpserit <rs key="#Penalty">viginti libras auri purissimi
+                        </rs>persolvat. medietatem prefate ecclesie sanctorum prothomartiris
                         Stephani et Agathas [sic] et medietatem nostro sacro palatio. Solutaque pena
                         librarum auri. hoc principale scriptum. cum omnibus que continet. firmum
                         munitum atque inviolabile maneat in perpetuum. et ut hoc principale scriptum
                         firmius credatur et diligentius ab omnibus observetur ex nostro sigillo
                         impressionem iussimus illud insigniri. Ex iussione prefate serenissime
-                        potestatis scripsi ego Ruriacus iudex in anno dominice incarnationis m c
-                        secundo. et vicesimo secundo anno principatus prefati donni [sic] secundi
-                        R[iccardi] gloriosi principis Capue. Dato mense mal. Indictione decima. </ab>
+                        potestatis scripsi ego <persName key="#Writer #Judge" ref="#people/3012"
+                            >Ruriacus</persName>
+                        <rs key="#Judge">iudex</rs> in anno dominice incarnationis m c secundo. et
+                        vicesimo secundo anno principatus prefati donni [sic] secundi R[iccardi] <rs
+                            key="#Vir_gloriosus/vir_sublimis">gloriosi</rs> principis Capue. Dato
+                        mense mal. Indictione decima. </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p/>
+                <p>Loud 1980, pp. 174-175 (source of the text reproduced here).</p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p/>
