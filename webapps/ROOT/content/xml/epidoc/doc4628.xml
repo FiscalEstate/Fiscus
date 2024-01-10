@@ -32,7 +32,7 @@
                             <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Edition</rs>
                             <rs type="document_tradition" ref="#">Original</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -40,10 +40,10 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate>
-                                <note type="displayed_date"/>
+                            <origDate notBefore="1132-03-01" notAfter="1132-03-31">
+                                <note type="displayed_date">1132 March 1 - 1132 March 31</note>
                                 <note type="dating_elements"/>
-                                <note type="topical_date"/>
+                                <note type="topical_date">Capua</note>
                                 <note type="redaction_date"/>
                             </origDate>
                             <origPlace></origPlace>
@@ -80,72 +80,120 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>+ In nomine Domini Salvatoris nostri Dei eterni secundus Robbertus divina
-                        ordinante misericordia Capuanus princeps petitioni suorum fidem favet.
-                        Igitur fidelium nostrorum praesentium, ac futurorum noverit multitudo,
-                        quoniam per interventum Sabiae principissae nostrae Karissimae uxoris, et
-                        Odoaldi nostri camerarii, atque Adenulfi Straticoti, et aliorum nostrorum
-                        dilectorum fidelium, ob salutem et remedium animarum quondam gloriosorum
-                        principum parentum antecessorum nostrorum, ac ob statum nostri principatus,
-                        per hoc videlicet principale scriptum remittimus, ac donamus, atque
-                        concedimus in perpetuum monasterio S. Benedicti Montis Cassinensis, in quo
-                        domnus Signorictus domini misericordia venerabilis Abbas praeest, scilicet
-                        quincentos tarenos, quos accipere soliti sumus in omni tertio anno ab
-                        hominibus qui tenent terras de Gualdo procalzati, et tricentos tarenos quos
-                        accipiebamus singulis annis ab hominibus de casa Gensana pro data, similiter
-                        et terras quas relinquunt homines qui sine heredibus moriuntur, quae
-                        dicuntur scaditiones, quae nunc sunt, vel amodo erunt. Item damus et
-                        trademus, confirmamus per hoc idem principale scriptum in perpetuum in
-                        suprascripto monasterio S. Benedicti portum unum molendini, quod esse
-                        dinoscitur in fluvio Vulturnu in loco, qui dicitur Caczoli cum Portu ex
-                        utraque parte fluminis, et cum his, quae ad illud necessaria sunt, quin
-                        etiam damus, et trademus, confirmamus in perpetuum in praedicto monasterio
-                        S. Benedicti Montis Cassinensis, et hominibus ejus, quibus suprascriptus,
-                        Abbas , et successores ejus praeceperint, potestatem piscandi in mari, et in
-                        flumine, in omni territorio castelli, qui dicitur ad mare, sine omni
-                        contradictione. Rursum quoque per hoc idem principale scriptum in perpetuum
-                        damus et trademus, confirmamus praefato monasterio in eodem territorio
-                        Castelli Maris hominem unum piscatorem nostrum nomine Petrum fili quondam
-                        Bibiani cum heredibus ejus, sicut hactenus nobis pertinuit. Insuper damus,
+                    <ab>+ In nomine Domini Salvatoris nostri Dei eterni <persName
+                            key="#Princeps #Vir_gloriosus/vir_sublimis" ref="#people/3042">secundus
+                            Robbertus</persName> divina ordinante misericordia Capuanus <rs
+                            key="#Princeps">princeps</rs> petitioni suorum fidem favet. Igitur
+                        fidelium nostrorum praesentium, ac futurorum noverit multitudo, quoniam per
+                            <rs key="#Intercessory">interventum</rs>
+                        <persName key="#Intercessory #Principissa #marriage" ref="#people/4500"
+                            >Sabiae</persName>
+                        <rs key="#Principissa">principissae</rs> nostrae Karissimae <rs
+                            key="#marriage">uxoris</rs>, et <persName
+                            key="#Intercessory #Other_palatine_officer" ref="#people/3035"
+                            >Odoaldi</persName> nostri <rs key="#Other_palatine_officer"
+                            >camerarii</rs>, atque <persName
+                            key="#Intercessory #Other_palatine_officer" ref="#people/5001"
+                            >Adenulfi</persName>
+                        <rs key="#Other_palatine_officer">Straticoti</rs>, et aliorum nostrorum
+                        dilectorum <rs key="#fidelisOf">fidelium</rs>, ob salutem et remedium
+                        animarum quondam <rs key="#Vir_gloriosus/vir_sublimis">gloriosorum</rs>
+                        <rs key="#Princeps">principum</rs>
+                        <rs key="#kinOf">parentum</rs> antecessorum nostrorum, ac ob statum nostri
+                        principatus, per hoc videlicet principale scriptum remittimus, ac donamus,
+                        atque concedimus in perpetuum <rs key="#Monasteries">monasterio</rs>
+                        <orgName key="#Monasteries" ref="#juridical_persons/84">S. Benedicti Montis
+                            Cassinensis</orgName>, in quo domnus <persName
+                            key="#Abbots #Personal_rank" ref="#people/4227">Signorictus</persName>
+                        domini misericordia <rs key="#Personal_rank">venerabilis</rs>
+                        <rs key="#Abbots">Abbas</rs> praeest, scilicet <rs key="#Value">quincentos
+                            tarenos</rs>, quos accipere soliti sumus in omni tertio anno ab <rs
+                            key="#Coloni/tenants">hominibus</rs> qui tenent terras de <rs
+                            key="#Gualdi #Fiscal_property #Textual_occurrence #Mention">Gualdo</rs>
+                        <rs key="#Public_exactions">procalzati</rs>, et <rs key="#Value">tricentos
+                            tarenos</rs> quos accipiebamus singulis annis ab <rs
+                            key="#Coloni/tenants">hominibus</rs> de <placeName ref="#places/4539"
+                            key="#Coloni/tenants #Public_exactions #Datium #Property_of_persons_without_heirs"
+                            >casa Gensana</placeName> pro <rs key="#Datium">data</rs>, similiter et
+                        terras quas relinquunt homines qui sine heredibus moriuntur, quae dicuntur
+                            <rs key="#Property_of_persons_without_heirs">scaditiones</rs>, quae nunc
+                        sunt, vel amodo erunt. Item damus et trademus, confirmamus per hoc idem
+                        principale scriptum in perpetuum in suprascripto monasterio S. Benedicti <rs
+                            key="#Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Iure_proprietatis/pleno_iure #Ports"
+                            >portum</rs> unum <rs key="#Mills">molendini</rs>, quod esse dinoscitur
+                        in <rs key="#Rivers">fluvio</rs>
+                        <placeName key="#Rivers" ref="#places/609">Vulturnu</placeName> in loco, qui
+                        dicitur <placeName key="#Mills #Ports" ref="#places/5118"
+                            >Caczoli</placeName> cum Portu ex utraque parte fluminis, et cum his,
+                        quae ad illud necessaria sunt, quin etiam damus, et trademus, confirmamus in
+                        perpetuum in praedicto monasterio S. Benedicti Montis Cassinensis, et
+                        hominibus ejus, quibus suprascriptus, Abbas , et successores ejus
+                        praeceperint, <rs key="#Rights_of_use_on_woods/pastures/waters">potestatem
+                            piscandi in <rs key="#Sea">mari</rs>, et in flumine, in omni <rs
+                                key="#Village/castle_territory">territorio</rs>
+                            <rs key="#Castle">castelli</rs></rs>, qui dicitur <placeName
+                            key="#Castle #Rights_of_use_on_woods/pastures/waters #Village/castle_territory"
+                            ref="#places/4062">ad mare</placeName>, sine omni contradictione. Rursum
+                        quoque per hoc idem principale scriptum in perpetuum damus et trademus,
+                        confirmamus praefato monasterio in eodem territorio Castelli Maris <rs
+                            key="#Work_and_workers">hominem unum piscatorem</rs> nostrum
+                            nomine<persName key="#Work_and_workers"><name ref="Petrus fil. Bibiani">
+                                Petrum fili quondam Bibiani</name></persName> cum <rs key="#heirTo"
+                            >heredibus</rs> ejus, sicut hactenus nobis pertinuit. Insuper damus,
                         tradimus, concedimus et confirmamus in perpetuum in suprascripto Monasterio
-                        S. Benedicti, quicquid Riccardus bonae memoriae princeps proavus noster, ac
-                        Jordanus princeps avus noster nec non secundus Riccardus, et Robbertus, quam
-                        secundus Jordanus principes fratres in suprascripto monasterio dederunt, et
+                        S. Benedicti, quicquid <persName key="#Princeps #greatGrandparentOf"
+                            ref="#people/3001">Riccardus</persName> bonae memoriae <rs
+                            key="#Princeps">princeps</rs>
+                        <rs key="#greatGrandparentOf">proavus</rs> noster, ac <persName
+                            key="#Princeps #grandparentOf" ref="#people/3002">Jordanus</persName>
+                        <rs key="#Princeps">princeps</rs>
+                        <rs key="#grandparentOf">avus</rs> noster nec non <persName
+                            key="#Princeps #siblingOf" ref="#people/3010">secundus
+                            Riccardus</persName>, et <persName key="#Princeps #siblingOf"
+                            ref="#people/3019">Robbertus</persName>, quam <persName
+                            key="#Princeps #siblingOf" ref="#people/3022">secundus
+                            Jordanus</persName>
+                        <rs key="#Princeps">principes</rs>
+                        <rs key="#siblingOf">fratres</rs> in suprascripto monasterio dederunt, et
                         nos de rebus nostris dedimus atque concessimus praedicto monasterio S.
-                        Benedicti, et ecclesiis ejus. Praeterea causa devotionis permittimus, atque
-                        concedimus in perpetuum, ut si quis ad praefata monasteria S. Benedicti, vel
-                        ad ecclesias ejus venire ad habitandum, vel residendum, aut de rebus suis
-                        pro anima sua aliquid largiri voluerit, ex permissu nostro liceat eis hoc
-                        facere secundum justitiam, et consuetudinem terrae. Haec omnia praescripta,
-                        qualiter a nobis, vel a praedecessoribus nostris concessa, seu tradita sunt
-                        praedicto monasterio S. Benedicti ibidem inviolabiliter in perpetuum manere
-                        concessimus, ut neque a nobis, neque a successoribus nostris ea deinceps
-                        alienare, seu inquietare liceat, una cum omnibus inferioribus, ac
-                        superioribus earum, et cum viis in eis intrandi, et exeundi, atque cum
-                        omnibus pertinentiis earum nos memoratus secundus Robertus Dei gratia
-                        Capuanorum princeps praephato Monasterio S. Benedicti Montis Cassinensis, ut
-                        superius dicimus per hoc videlicet principale scriptum in perpetuum damus,
-                        et trademus, confirmamus, ad possessionem, et potestatem, atque dominationem
-                        suprascripti Monasterii S. Benedicti Montis Cassinensis, et jamdicti domni
-                        Segnoricti venerabilis Abbatis, ejusque successoribus faciendi exinde
-                        legaliter quicquid eis placuerit, remota omni inquietudine, contrarietate,
-                        vel molestia omnium mortalium personarum. Quod siquis hujus nostrae
-                        concessionis atque confirmationis contemptor extiterit, centum libras auri
-                        purissimi persolvat, medietatem praedicto monasterio S. Benedicti montis
-                        Cassinensi, et praefato domno Signoricto venerabili Abbati, ejusque
+                        Benedicti, et <rs key="#Churches">ecclesiis</rs> ejus. Praeterea causa
+                        devotionis permittimus, atque concedimus in perpetuum, ut si quis ad
+                        praefata monasteria S. Benedicti, vel ad ecclesias ejus venire ad
+                        habitandum, vel residendum, aut de rebus suis pro anima sua aliquid largiri
+                        voluerit, ex permissu nostro liceat eis hoc facere secundum justitiam, et
+                        consuetudinem terrae. Haec omnia praescripta, qualiter a nobis, vel a
+                        praedecessoribus nostris concessa, seu tradita sunt praedicto monasterio S.
+                        Benedicti ibidem inviolabiliter in perpetuum manere concessimus, ut neque a
+                        nobis, neque a successoribus nostris ea deinceps alienare, seu inquietare
+                        liceat, una cum omnibus inferioribus, ac superioribus earum, et cum viis in
+                        eis intrandi, et exeundi, atque cum omnibus pertinentiis earum nos memoratus
+                        secundus Robertus Dei gratia Capuanorum princeps praephato Monasterio S.
+                        Benedicti Montis Cassinensis, ut superius dicimus per hoc videlicet
+                        principale scriptum in perpetuum damus, et trademus, confirmamus, ad
+                        possessionem, et potestatem, atque dominationem suprascripti Monasterii S.
+                        Benedicti Montis Cassinensis, et jamdicti domni Segnoricti venerabilis
+                        Abbatis, ejusque successoribus faciendi exinde legaliter quicquid eis
+                        placuerit, remota omni inquietudine, contrarietate, vel molestia omnium
+                        mortalium personarum. Quod siquis hujus nostrae concessionis atque
+                        confirmationis contemptor extiterit, <rs key="#Penalty">centum libras auri
+                            purissimi</rs> persolvat, medietatem praedicto monasterio S. Benedicti
+                        montis Cassinensi, et praefato domno Signoricto venerabili Abbati, ejusque
                         successoribus, et medietatem nostro sacro palatio, solutaque pena librarum
                         auri, hoc principale scriptum firmum permaneat in perpetuum; ut autem hoc
                         principale scriptum firmius credatur, et diligentius ab omnibus observetur,
                         manu propria subscribens illud corroboravimus, et nostri sigilli expressione
                         illud insigniri jussimus. (M) Ex jussione prefatae potestatis scripsi ego
-                        Philippus Palatinus vice . . . . . . . in anno Dominicae incarnationis
-                        millesimo centesimo trigesimo secundo, et quinto anno principatus
-                        suprascripti domni Robberti gloriosissimi principis Capuae. Datum Capuae in
-                        mense Martii per Indictionem decimam. </ab>
+                            <persName key="#Writer #Other_palatine_officer" ref="#people/3037"
+                            >Philippus</persName> Palatinus <rs key="#Other_palatine_officer"
+                            >vice</rs> . . . . . . . in anno Dominicae incarnationis millesimo
+                        centesimo trigesimo secundo, et quinto anno principatus suprascripti domni
+                        Robberti <rs key="#Vir_gloriosus/vir_sublimis">gloriosissimi</rs> principis
+                        Capuae. Datum <placeName key="#Cities" ref="#places/173">Capuae</placeName>
+                        in mense Martii per Indictionem decimam. </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p/>
+                <p>Gattola 1734, pp. 245-246 (source of the text reproduced here).</p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p/>
