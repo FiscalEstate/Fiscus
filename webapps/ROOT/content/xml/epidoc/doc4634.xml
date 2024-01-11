@@ -32,7 +32,7 @@
                             <rs type="text_type" ref="#">-Cartula</rs>
                             <rs type="record_source" ref="#">Edition</rs>
                             <rs type="document_tradition" ref="#">Copy</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">No</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -40,10 +40,11 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate>
+                            <origDate notBefore="1134-01-01" notAfter="1134-12-31">
                                 <note type="displayed_date"/>
-                                <note type="dating_elements"/>
-                                <note type="topical_date"/>
+                                <note type="dating_elements">La datazione è incerta, ma Loud
+                                    ipotizza che il diploma sia stato emanato nel 1134.</note>
+                                <note type="topical_date">Capua</note>
                                 <note type="redaction_date"/>
                             </origDate>
                             <origPlace></origPlace>
@@ -80,31 +81,67 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>Ego Rainulphus Dei gratia Comes, juro et promitto tibi Domino Stationi
-                        Episcopo, quod usque ad Kal. 5. Octobr. primo venturas assignabo tibi formam
-                        proprietatem tuae Ecclesiae, et in possessionem ponam te, et eandem
-                        Ecclesiam de toto feudo, quod Balcolinus miles tenuit de intus Cajatiam, et
-                        de foris infra finem ejusdem Civitatis, praeter domum, quae est infra
-                        Castrum et praeter terram, quam Malcerius vendidit Rogerio filio Altardi de
-                        Albiniano, et preter terram, de qua Giraldus et Gismundus singularem
-                        calumniam moverunt, quae est in loco Carpanito. Si nos enim praejudicium
-                        providerimus sine fraude, quam tibi promittamus, et post assignationem, et
-                        donationem . . . . . . et idem Cajaccianae Ecclesiae fecero de eodem feudo,
-                        et non ero in facto, concilio, seu consensu, quod tu, vel tui successores in
-                        toto, vel in parte perdatis, sed adjuvabo eandem Ecclesiam, et te, tuosque
-                        successores, illud tenere, defendere, contra omnes homines, qui in toto, vel
-                        in parte auferant, vel auferri consentiant, neque faciam. Haec omnia
-                        observabo sine fraude, et malo ingenio. Et sic Dominus me adjuvet, et haec
-                        sancta quatuor Evangelia Domini. Hoc actum est coram Domino Roberto Capuano
-                        Principe, et Dom. Henrico Agathe Episcopo, Joanne Abbate Diacono ejus,
-                        Riccardo Advocato, Zoffo Curolo milite, Filippo Judice Capuano, et Ursone
-                        Judice Agathae, et Presbytero Hisembrando praefati Principis Capellano,
-                        Petro Presbytero Cajaccianae Ecclesiae, et Guglielmo ejusdem Ecclesiae
-                        Diacono. </ab>
+                    <ab>Ego <persName key="#Count" ref="#people/4290">Rainulphus</persName> Dei
+                        gratia <rs key="#Count">Comes</rs>, juro et promitto tibi Domino <persName
+                            key="#Bishops" ref="#people/5007">Stationi</persName>
+                        <rs key="#Bishops">Episcopo</rs>, quod usque ad Kal. 5. Octobr. primo
+                        venturas assignabo tibi formam proprietatem tuae <rs key="#Mother_churches"
+                            >Ecclesiae</rs>, et in possessionem ponam te, et eandem Ecclesiam de
+                        toto <rs key="#Feudum">feudo</rs>, quod <persName key="#milesOf"><name
+                                ref="Balcolinus">Balcolinus</name></persName>
+                        <rs key="#milesOf">miles</rs> tenuit de intus <placeName
+                            key="#Cities #Dioecesis #City_territory" ref="#places/3483"
+                            >Cajatiam</placeName>, et de foris infra <rs key="#City_territory"
+                            >finem</rs> ejusdem <rs key="#Cities">Civitatis</rs>, praeter <rs
+                            key="#Houses">domum</rs>, quae est infra <rs key="#Fortifications"
+                            >Castrum</rs> et praeter <rs key="#Landed_possessions">terram</rs>, quam
+                                <persName><name ref="Amalgarius">Malcerius</name></persName>
+                        vendidit <persName key="#childOf"><name ref="Rogerius fil. Alardi"
+                                >Rogerio</name></persName>
+                        <rs key="#childOf">filio</rs>
+                        <persName><name ref="Alardus de Albiniano">Altardi de
+                            Albiniano</name></persName>, et preter <rs key="#Landed_possessions"
+                            >terram</rs>, de qua <persName><name ref="Garialdus"
+                            >Giraldus</name></persName> et <persName><name ref="Gismundus"
+                                >Gismundus</name></persName> singularem calumniam moverunt, quae est
+                        in loco <placeName ref="#places/5122">Carpanito</placeName>. Si nos enim
+                        praejudicium providerimus sine fraude, quam tibi promittamus, et post
+                        assignationem, et donationem . . . . . . et idem Cajaccianae Ecclesiae
+                        fecero de eodem feudo, et non ero in facto, concilio, seu consensu, quod tu,
+                        vel tui successores in toto, vel in parte perdatis, sed adjuvabo eandem
+                        Ecclesiam, et te, tuosque successores, illud tenere, defendere, contra omnes
+                        homines, qui in toto, vel in parte auferant, vel auferri consentiant, neque
+                        faciam. Haec omnia observabo sine fraude, et malo ingenio. Et sic Dominus me
+                        adjuvet, et haec sancta quatuor Evangelia Domini. Hoc actum est coram Domino
+                            <persName key="#Witness #Princeps" ref="#people/3042">Roberto</persName>
+                        <placeName ref="#places/173">Capuano</placeName>
+                        <rs key="#Princeps">Principe</rs>, et Dom. <persName key="#Witness #Bishops"
+                            ref="#people/5008">Henrico</persName>
+                        <placeName key="#Dioecesis" ref="#places/728">Agathe</placeName>
+                        <rs key="#Bishops">Episcopo</rs>, <persName key="#Witness #Deacons #Abbots"
+                            ref="#people/5009">Joanne</persName>
+                        <rs key="#Abbots">Abbate</rs>
+                        <rs key="#Deacons">Diacono</rs> ejus, <persName key="#Witness #Advocatus"
+                            ref="#people/5010">Riccardo</persName>
+                        <rs key="#Advocatus">Advocato</rs>, <persName key="#Witness #milesOf"><name
+                                ref="Zoffus Curolus">Zoffo Curolo</name></persName>
+                        <rs key="#milesOf">milite</rs>, <persName key="#Witness #Judge"
+                            ref="#people/3037">Filippo</persName>
+                        <rs key="#Judge">Judice</rs> Capuano, et <persName key="#Witness #Judge"
+                            >Ursone</persName>
+                        <rs key="#Judge">Judice</rs> Agathae, et <rs key="#Priests">Presbytero</rs>
+                        <persName key="#Witness #Chaplain #Priests" ref="#people/5012"
+                            >Hisembrando</persName> praefati Principis <rs key="#Chaplain"
+                            >Capellano</rs>, <persName key="#Witness #Priests" ref="#people/5013"
+                            >Petro</persName>
+                        <rs key="#Priests">Presbytero</rs> Cajaccianae Ecclesiae, et <persName
+                            key="#Witness #Deacons" ref="#people/5014">Guglielmo</persName> ejusdem
+                        Ecclesiae <rs key="#Deacons">Diacono</rs>. </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p/>
+                <p>Ughelli, <foreign>IS</foreign>, VI, p. 446 (source of the text reproduced
+                    here).</p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p/>
