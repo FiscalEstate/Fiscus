@@ -32,7 +32,7 @@
                             <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Original</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -40,10 +40,10 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate>
-                                <note type="displayed_date"/>
+                            <origDate notBefore="1109-05-01" notAfter="1109-05-31">
+                                <note type="displayed_date">1109 May 1 - 1109 May 31</note>
                                 <note type="dating_elements"/>
-                                <note type="topical_date"/>
+                                <note type="topical_date">Capua</note>
                                 <note type="redaction_date"/>
                             </origDate>
                             <origPlace></origPlace>
@@ -80,51 +80,77 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>+ In nomine domini Salvatoris nostri Iesu Christi Dei eterni Robbertus
-                        divina ordinante clementia Capuanorum princeps Petitionibus dilectorum
-                        suorum procerum clementer favet. Igitur fidelium nostrorum presentium et
-                        futurorum noverit multitudo quoniam, per interventum Raynaldi Musce nostri
-                        dilecti baronis vobis Iohanni clerico et canonico ecclesie Sanctorum
-                        Protomartirum scilicet Stephani et Agathes Sancte Capuane Sedis et Pandoni
-                        fratribus fidelibus nostris filiis quondam Olivarii clerici habitatoribus
-                        huius nostre Capuane civitatis, nec non vestris heredibus in perpetuum per
-                        hoc videlicet principale scriptum tradimus concedimus ac confirmamus
-                        integram unam petiam de terra que est foras huius nostre Capuane Civitatis,
-                        scilicet in monte qui vocatur Ragetu …... edificata est ecclesia que vocatur
-                        Sancta Iherusalem et habet in se terra ….….….. et sedilis et hos habet fines
-                        ….. A prima parte que pergit meridiei qualiter in capite ….…...ri a via
-                        publica et qualiter vadit ascendendum usque ad lapides ubi dicitur ….…. est
-                        terra ecclesia Sancti Calisti ….… inde per longitudinem passus centum
-                        nonaginta. A secunda vero parte que est a septentrione ….. a prephata via
-                        publica et qualiter ….… mensurando est finis terra que fuit de li Siccauri
-                        quam modo a nobis prephatus Raynuldus in feudo retinet et finis terra Castri
-                        (?) et de herede quondam Angeli Iubini et finis terra vestra inculta que est
-                        mons sunt inde passus duocentum et quadraginta. A tercia namque parte que
-                        est ad orientem est finis via que est in ipso monte coniuncta cum ipsa
-                        pariete sunt inde per latitudinem passus centum viginti. A quarta quippe
-                        parte que est ab occidente est finis ad suprascripta via publica sunt inde
-                        passus centum quattuor. Hec autem predicta petia de terra per predictos
-                        fines et passus una cum omnibus inferioribus et superioribus eius et cum
-                        viis ibidem intrandi et exeundi, nos prenotatus Robbertus Capuanus Princeps
-                        vobis predictis fratribus tradimus concedimus ac confirmamus per hoc
-                        principale scriptum in perpetuum … vestris heredibus per interventum
-                        scilicet, ut supplicati sumus, predicti Raynaldi Musce ad possessionem
-                        vestram vestrumque heredum faciendo exinde quicquid vobis vestrisque
-                        heredibus placuerit, remota [omni inquie]tudine et molestia omnium mortalium
-                        persone per interventum quoque Loffridi Comitis stabuli nostri, nostri
-                        dilecti fidelis vobis predictis fratribus Iohanni clerico et canonico et
-                        Pandoni vestris heredibus .. per hoc videlicet principale scriptum
-                        concedimus et confirmamus omnes domos et presas et terras et hereditates
-                        concessiones et tenituras [nostras] qualiter predictus ….…... antequam
-                        obisset tam intro hanc nostram Capuanam civitatem quam et de foras ad
-                        possessionem vestram vestrorumque heredum faciendo exinde quicquid vobis
-                        vestrisque heredibus placuerit, remota omni contrarietate et molestia omnium
-                        principum successorum nostrorum vel viceprincipum comitum vel vicecomitum
-                        iudicum sculdahorum gastaldeorum aliorumque omnium mortalium persone et
-                        concedimus et confirmamus vobis vestrisque heredibus in perpetuum ut si
-                        aliquis extraneus homo venerit ad habitandum in curte et terra nostra et
-                        habitaverit ibe quoque ….….. publice pertinet vobis vestrisque heredibus in
-                        perpetuum concedimus et confirmamus hec omnia predicta ut prelegitur. Nos
+                    <ab>+ In nomine domini Salvatoris nostri Iesu Christi Dei eterni <persName
+                            key="#Princeps #Vir_magnificus #Vir_gloriosus/vir_sublimis"
+                            ref="#people/3019">Robbertus</persName> divina ordinante clementia
+                        Capuanorum <rs key="#Princeps">princeps</rs> Petitionibus dilectorum suorum
+                        procerum clementer favet. Igitur fidelium nostrorum presentium et futurorum
+                        noverit multitudo quoniam, <rs key="#Intercessory">per interventum</rs>
+                        <persName key="#Intercessory" ref="#people/3079">Raynaldi Musce</persName>
+                        nostri dilecti baronis vobis <persName key="#Other_clerics #Canons"
+                            ref="#people/5005">Iohanni</persName>
+                        <rs key="#Other_clerics">clerico</rs> et <rs key="#Canons">canonico</rs>
+                        <rs key="#Mother_churches">ecclesie</rs>
+                        <orgName key="#Mother_churches" ref="#juridical_persons/3045">Sanctorum
+                            Protomartirum scilicet Stephani et Agathes</orgName> Sancte <placeName
+                            ref="#places/173" key="#Cities">Capuane</placeName> Sedis et
+                                <persName><name ref="Pando">Pandoni</name></persName>
+                        <rs key="#siblingOf">fratribus</rs>
+                        <rs key="#fidelisOf">fidelibus</rs> nostris <rs key="#childOf">filiis</rs>
+                        quondam <persName key="#Other_clerics"><name ref="Oliverius"
+                            >Olivarii</name></persName>
+                        <rs key="#Other_clerics">clerici</rs> habitatoribus huius nostre Capuane <rs
+                            key="#Cities">civitatis</rs>, nec non vestris <rs key="#heirTo"
+                            >heredibus</rs> in perpetuum per hoc videlicet principale scriptum
+                        tradimus concedimus ac confirmamus <rs
+                            key="#Petiae #Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Iure_proprietatis/pleno_iure"
+                            >integram unam petiam</rs> de terra que est foras huius nostre Capuane
+                        Civitatis, scilicet in <rs key="#Mountains">monte</rs> qui vocatur
+                            <placeName key="#Mountains" ref="#places/5123">Ragetu</placeName> …...
+                        edificata est <rs key="#Churches">ecclesia</rs> que vocatur <orgName
+                            key="#Churches" ref="#juridical_persons/3088">Sancta
+                            Iherusalem</orgName> et habet in se terra ….….….. et sedilis et hos
+                        habet <rs key="#Fines">fines</rs> ….. A prima parte que pergit meridiei
+                        qualiter in capite ….…...ri a via publica et qualiter vadit ascendendum
+                        usque ad lapides ubi dicitur ….…. est terra ecclesia Sancti Calisti ….… inde
+                        per longitudinem passus centum nonaginta. A secunda vero parte que est a
+                        septentrione ….. a prephata via publica et qualiter ….… mensurando est finis
+                        terra que fuit de li Siccauri quam modo a nobis prephatus Raynuldus in feudo
+                        retinet et finis terra Castri (?) et de herede quondam Angeli Iubini et
+                        finis terra vestra inculta que est mons sunt inde passus duocentum et
+                        quadraginta. A tercia namque parte que est ad orientem est finis via que est
+                        in ipso monte coniuncta cum ipsa pariete sunt inde per latitudinem passus
+                        centum viginti. A quarta quippe parte que est ab occidente est finis ad
+                        suprascripta via publica sunt inde passus centum quattuor. Hec autem
+                        predicta petia de terra per predictos fines et passus una cum omnibus
+                        inferioribus et superioribus eius et cum <rs key="#Roads">viis</rs> ibidem
+                        intrandi et exeundi, nos prenotatus Robbertus Capuanus Princeps vobis
+                        predictis fratribus tradimus concedimus ac confirmamus per hoc principale
+                        scriptum in perpetuum … vestris heredibus per interventum scilicet, ut
+                        supplicati sumus, predicti Raynaldi Musce ad possessionem vestram vestrumque
+                        heredum faciendo exinde quicquid vobis vestrisque heredibus placuerit,
+                        remota [omni inquie]tudine et molestia omnium mortalium persone <rs
+                            key="#Intercessory">per interventum</rs> quoque <persName
+                            ref="#people/3025"
+                            key="#Intercessory #Other_palatine_officer #fidelisOf"
+                            >Loffridi</persName>
+                        <rs key="#Other_palatine_officer">Comitis stabuli</rs> nostri, nostri
+                        dilecti <rs key="#fidelisOf">fidelis</rs> vobis predictis fratribus Iohanni
+                        clerico et canonico et Pandoni vestris heredibus .. per hoc videlicet
+                        principale scriptum concedimus et confirmamus omnes<rs
+                            key="#Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Iure_proprietatis/pleno_iure">
+                            <rs key="#Houses">domos</rs> et <rs key="#Landed_possessions">presas et
+                                terras et hereditates concessiones et tenituras [nostras]</rs></rs>
+                        qualiter predictus ….…... antequam obisset tam intro hanc nostram Capuanam
+                        civitatem quam et de foras ad possessionem vestram vestrorumque heredum
+                        faciendo exinde quicquid vobis vestrisque heredibus placuerit, remota omni
+                        contrarietate et molestia omnium principum successorum nostrorum vel
+                        viceprincipum comitum vel vicecomitum iudicum sculdahorum gastaldeorum
+                        aliorumque omnium mortalium persone et concedimus et confirmamus vobis
+                        vestrisque heredibus in perpetuum ut si aliquis extraneus homo venerit ad
+                        habitandum in curte et terra nostra et habitaverit ibe quoque ….….. <rs
+                            key="#Public_exactions">publice pertinet </rs>vobis vestrisque heredibus
+                        in perpetuum concedimus et confirmamus hec omnia predicta ut prelegitur. Nos
                         prenotatus Robbertus Capuanus princeps vobis predictis fratribus .….…..
                         vestrisque heredibus in perpetuum per hoc principale scriptum tradimus
                         concedimus et confirmamus possessionem et potestatem et dominationem vestram
@@ -132,20 +158,25 @@
                         heredibus placuerit remota omni inquietudine et molestia omnium mortalium
                         persone. Quod si quis huius nostre concessionis et confirmationis paginam
                         contemptor aut violator extiterit vel contra hoc scriptum agere
-                        presumpserit, viginti libras auri purissimi persolvat medietatem nostro
-                        palatio et medietatem …. predictis fratribus Iohanni clerico et canonico et
-                        Pandoni vestrisque heredibus solutaque pena librarum hoc principale scriptum
-                        cum omnibus que continet firmum munitum ac inviolabile maneat, in perpetuum.
-                        Et ut [firmius credatur] et diligentius ab omnibus observetur manu propria
-                        subscripsimus et nostri sigilli impressione iussimus illud insigniri. +
-                        Signum domini Robberti (M) gloriosissimi ac magnifici principis. Ex iussione
-                        prephate potestatis scripsi ego Ruriacus palatinus iudex in anno Dominice
-                        incarnationis MCVIIII et tertio anno principatus ipsius domini Robberti
-                        gloriosi principis Capue. Datum Capue mense Magio per indictionem secundam. </ab>
+                        presumpserit, <rs key="#Penalty">viginti libras auri purissimi</rs>
+                        persolvat medietatem nostro palatio et medietatem …. predictis fratribus
+                        Iohanni clerico et canonico et Pandoni vestrisque heredibus solutaque pena
+                        librarum hoc principale scriptum cum omnibus que continet firmum munitum ac
+                        inviolabile maneat, in perpetuum. Et ut [firmius credatur] et diligentius ab
+                        omnibus observetur manu propria subscripsimus et nostri sigilli impressione
+                        iussimus illud insigniri. + Signum domini Robberti (M) <rs
+                            key="#Vir_gloriosus/vir_sublimis">gloriosissimi</rs> ac <rs
+                            key="#Vir_magnificus">magnifici</rs> principis. Ex iussione prephate
+                        potestatis scripsi ego <persName key="#Writer #Judge" ref="#people/3012"
+                            >Ruriacus</persName> palatinus <rs key="#Judge">iudex</rs> in anno
+                        Dominice incarnationis MCVIIII et tertio anno principatus ipsius domini
+                        Robberti gloriosi principis Capue. Datum <placeName key="#Cities"
+                            ref="#places/173">Capue</placeName> mense Magio per indictionem
+                        secundam. </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p/>
+                <p>Mazzoleni 1959, pp. 10-12 (source of the text reproduced here).</p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p/>
