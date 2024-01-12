@@ -32,7 +32,7 @@
                             <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Edition</rs>
                             <rs type="document_tradition" ref="#">Copy</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -40,10 +40,10 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate>
-                                <note type="displayed_date"/>
+                            <origDate notBefore="1125-04-01" notAfter="1125-04-30">
+                                <note type="displayed_date">1125 April 1 - 1125 April 30</note>
                                 <note type="dating_elements"/>
-                                <note type="topical_date"/>
+                                <note type="topical_date">Capua</note>
                                 <note type="redaction_date">1291</note>
                             </origDate>
                             <origPlace></origPlace>
@@ -80,55 +80,80 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>Nos in dei omnipotentie nomine Secundus Iordanus divina providentia
-                        Capuanorum princeps. notum fieri volumnus omnibus filiis sancte et catholice
-                        ecclesie et nostris fidelibus quoniam ob salutem et remedium animarum
-                        quondam gloriosorum principum consanguineorum nostrorum. ac ob statum nostri
-                        principatus. tibi Octoni venerabili ac deo digno arciepiscopo Capuano. tibi
-                        enim pro parte et vice ecclesie sanctorum prothomartiris Stephani et Agathe
-                        que constructa est intus hanc nostram Capuanam civitatem in perpetuum per
-                        hanc videlicet principale scriptum damus. tradimus. concedimus ac
-                        confirmamus. hoc est integram unam ecclesiam nostram sancti tamari cum toto
-                        monticello nostro. in quo constructa est. qui monticellus cum ecclesia est
-                        prope villam Framculisii. et prope villam zormelli et hiis finibus
-                        terminatur. ab uno latere a parte meridiei est finis startia nostra quam
-                        nostre reservamus potestati. et qualiter vadit revolvendo versus
-                        septentrionem. est finis terra ecclesie sancti angeli que constructa est sub
-                        ipso monticello. et iterum revolvit contra orientem. est finis ipsa terra
-                        sancti angeli. et iterum revolvit contra meridiem. est finis similiter terra
-                        sancti angeli et finis terra nostra. ab alio latere. a parte septentrionis
-                        est finis via publica. ab uno capite a parte occidentis est finis via
-                        publica que est montis hunc achristicellum et montem ecclesie domini
-                        Salvatoris de civitate Theani. ab alio capite. a parte orientis est finis
-                        alia startia nostra quam nostre... reservavimus potestati. una cum omnibus
-                        inferioribus ac superioribus suis cum presis excadentiis. redditibus.
-                        divetis. et cum criptis ad radicem ipsius montis existendibus. et cum viis
-                        suis ibidem intrandi. exeundi. atque cum omnibus suis pertinentiis. Nos
-                        memoratus Secundus Iordanus dei gratia Capuanus princeps tibi supradicto
-                        Octoni venerabili archiepiscopo Capuano. et tuis successoribus in perpetuum.
-                        per hoc videlicet principale scriptum. damus et tradendo confirmamus ad
-                        possessionem et potestatem ac dominationem tuam. et successorum tuorum
-                        faciendi exinde suprascripte Capuana ecclesie quicquid tibi tuisque
-                        successoribus placuerit remota omni inquietudine. contrarietate vel molestia
-                        omnium principum successorum nostrum vel Viceprincipum Comitum vel
-                        Vicecomitum. Iudicum. sculdahorum. Castaldeorum. aliorumque omnium mortalium
-                        persone. Quod si quis huius nostre concessionis ac confirmationis pagine
-                        contemptor aut violator extiterit aut Contra hoc principale scriptum agere
-                        temptaverit. Sex libras auri purissimi persolvat. medietatem nostro sacro
-                        palatio. et medietatem tibi suprascripto Octoni venerabili arciepiscopo
-                        Capuano et tuis successoribus. Solutaque pena librarum auri. hoc principale
-                        scriptum firmum munitum. atque inviolabile maneat in perpetuum. ut autem hoc
-                        principale scriptum firmius credatur manu propria subscribende illud
-                        corroboravimus. et nostro Sigillo illud insigni iussimus. Ex iussione
-                        prefate potestatis scripsi. Ego Philippus palatinus iudex. in anno dominice
-                        incarnationis me vicesimo quinto et v ante [<foreign>sic</foreign>;
-                            <foreign>recte</foreign> "anno"] principatus prescripti domi [sic]
-                        Iordani gloriosi principis Capue. Dato Capuano palatio. in mense aprelis.
-                        per indictionem tertiam. </ab>
+                    <ab>Nos in dei omnipotentie nomine Secundus <persName key="#Princeps"
+                            ref="#people/3022">Iordanus</persName> divina providentia Capuanorum <rs
+                            key="#Princeps">princeps</rs>. notum fieri volumnus omnibus filiis
+                        sancte et catholice ecclesie et nostris fidelibus quoniam ob salutem et
+                        remedium animarum quondam <rs key="#Vir_gloriosus/vir_sublimis"
+                            >gloriosorum</rs>
+                        <rs key="#Princeps">principum</rs>
+                        <rs key="#parentOf #familyOf">consanguineorum</rs> nostrorum. ac ob statum
+                        nostri principatus. tibi <persName key="#Archbishops #Personal_rank"
+                            ref="#people/4221">Octoni</persName>
+                        <rs key="#Personal_rank">venerabili</rs> ac deo digno <rs key="#Archbishops"
+                            >arciepiscopo</rs> Capuano. tibi enim pro parte et vice <rs
+                            key="#Mother_churches">ecclesie</rs>
+                        <orgName key="#Mother_churches" ref="#juridical_persons/3045">sanctorum
+                            prothomartiris Stephani et Agathe</orgName> que constructa est intus
+                        hanc nostram <placeName key="#Cities" ref="#places/173">Capuanam</placeName>
+                        <rs key="#Cities">civitatem</rs> in perpetuum per hanc videlicet principale
+                        scriptum damus. tradimus. concedimus ac confirmamus. hoc est integram unam
+                            <rs key="#Churches">ecclesiam</rs> nostram<orgName
+                            key="#Landed_possessions #Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Iure_proprietatis/pleno_iure #Roads #Levies #Property_of_persons_without_heirs #Churches"
+                            ref="#juridical_persons/3090"> sancti tamari</orgName> cum toto <rs
+                            key="#Natural_landscape">monticello</rs> nostro. in quo constructa est.
+                        qui monticellus cum ecclesia est prope <rs key="#Villas">villam</rs>
+                        <placeName key="#Villas" ref="#places/5124"><geogName key="#Villas"
+                                ref="#estates/3054">Framculisii</geogName></placeName>. et prope <rs
+                            key="#Villas">villam</rs>
+                        <placeName key="#Villas" ref="#places/5125"><geogName key="#Villas"
+                                ref="#estates/3055">zormelli</geogName></placeName> et hiis <rs
+                            key="#Fines">finibus</rs> terminatur. ab uno latere a parte meridiei est
+                        finis startia nostra quam nostre reservamus potestati. et qualiter vadit
+                        revolvendo versus septentrionem. est finis terra ecclesie sancti angeli que
+                        constructa est sub ipso monticello. et iterum revolvit contra orientem. est
+                        finis ipsa terra sancti angeli. et iterum revolvit contra meridiem. est
+                        finis similiter terra sancti angeli et finis terra nostra. ab alio latere. a
+                        parte septentrionis est finis via publica. ab uno capite a parte occidentis
+                        est finis via publica que est montis hunc achristicellum et montem ecclesie
+                        domini Salvatoris de civitate Theani. ab alio capite. a parte orientis est
+                        finis alia startia nostra quam nostre... reservavimus potestati. una cum
+                        omnibus inferioribus ac superioribus suis cum <rs key="#Landed_possessions"
+                            >presis</rs>
+                        <rs key="#Property_of_persons_without_heirs">excadentiis</rs>. <rs
+                            key="#Levies">redditibus</rs>. divetis. et cum criptis ad radicem ipsius
+                            <rs key="#Mountains">montis</rs> existendibus. et cum <rs key="#Roads"
+                            >viis</rs> suis ibidem intrandi. exeundi. atque cum omnibus suis
+                        pertinentiis. Nos memoratus Secundus Iordanus dei gratia Capuanus princeps
+                        tibi supradicto Octoni venerabili archiepiscopo Capuano. et tuis
+                        successoribus in perpetuum. per hoc videlicet principale scriptum. damus et
+                        tradendo confirmamus ad possessionem et potestatem ac dominationem tuam. et
+                        successorum tuorum faciendi exinde suprascripte Capuana ecclesie quicquid
+                        tibi tuisque successoribus placuerit remota omni inquietudine. contrarietate
+                        vel molestia omnium principum successorum nostrum vel Viceprincipum Comitum
+                        vel Vicecomitum. Iudicum. sculdahorum. Castaldeorum. aliorumque omnium
+                        mortalium persone. Quod si quis huius nostre concessionis ac confirmationis
+                        pagine contemptor aut violator extiterit aut Contra hoc principale scriptum
+                        agere temptaverit. <rs key="#Penalty">Sex libras auri purissimi</rs>
+                        persolvat. medietatem nostro sacro palatio. et medietatem tibi suprascripto
+                        Octoni venerabili arciepiscopo Capuano et tuis successoribus. Solutaque pena
+                        librarum auri. hoc principale scriptum firmum munitum. atque inviolabile
+                        maneat in perpetuum. ut autem hoc principale scriptum firmius credatur manu
+                        propria subscribende illud corroboravimus. et nostro Sigillo illud insigni
+                        iussimus. Ex iussione prefate potestatis scripsi. Ego <persName
+                            key="#Writer #Judge" ref="#people/3037">Philippus</persName> palatinus
+                            <rs key="#Judge">iudex</rs>. in anno dominice incarnationis me vicesimo
+                        quinto et v ante [sic; <foreign>recte</foreign> "anno"] principatus
+                        prescripti domi [sic] Iordani <rs key="#Vir_gloriosus/vir_sublimis"
+                            >gloriosi</rs> principis Capue. Dato <placeName key="#Cities"
+                            ref="#places/173">Capuano</placeName>
+                        <rs
+                            key="#Fiscal_property #Textual_occurrence #Mention #Function #Residential #Palatium"
+                            >palatio</rs>. in mense aprelis. per indictionem tertiam. </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p/>
+                <p>Loud 1980, pp. 175-176 (source of the text reproduced here).</p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p/>
