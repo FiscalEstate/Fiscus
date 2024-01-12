@@ -170,6 +170,14 @@
       </xsl:if>
       <button type="button" class="expander toggle_all" onclick="$('.expanded').removeClass('hidden'); $('.expander:not(.plus):not(.toggle_all)').text($('.expander:not(.plus):not(.toggle_all)').next().hasClass('hidden') ? 'Show' : 'Hide');">Show all linked items</button><xsl:text> </xsl:text>
       <button type="button" class="expander toggle_all" onclick="$('.expanded').addClass('hidden'); $('.expander:not(.plus):not(.toggle_all)').text($('.expander:not(.plus):not(.toggle_all)').next().hasClass('hidden') ? 'Show' : 'Hide');">Hide all linked items</button>
+      
+      <xsl:if test="doc[str[@name='index_item_name']][not(str[@name='index_thesaurus_hierarchy'])]">
+        <a class="expander" href="#main">Go to main list</a>
+        <xsl:if test="doc[str[@name='index_item_name'][starts-with(., '#')]]">
+          <a class="expander" href="#normalized">Go to normalized names list</a>
+        </xsl:if>
+        <a class="expander" href="#not-normalized">Go to not normalized names list</a>
+      </xsl:if>
     </div>
     </xsl:if>
 
@@ -180,26 +188,30 @@
         <p id="disclaimer">The places listed below are mere geographic references; all the types of transactions or legal actions linked to them are referred to the keywords enumerated at the beginning of each entry.</p>
       </div>
       </xsl:if>
-      <div>
+      <div id="main">
         <xsl:apply-templates select="doc[str[@name='index_item_name'][not(starts-with(., '~'))][not(starts-with(., '#'))]]">
           <xsl:sort select="lower-case(replace(replace(., 'italicsstart', ''), 'italicsend', ''))"/>
         </xsl:apply-templates>
     </div>
     </xsl:if>
     <xsl:if test="doc[str[@name='index_item_name'][starts-with(., '#')]]">
-      <h3 class="sublist_heading">Personal names normalized forms</h3>
-      <div>
-          <xsl:apply-templates select="doc[str[@name='index_item_name'][starts-with(., '#')]]">
-            <xsl:sort select="lower-case(replace(replace(., 'italicsstart', ''), 'italicsend', ''))"/>
-          </xsl:apply-templates>
+      <h3 id="normalized" class="sublist_heading">Personal names normalized forms
+        <xsl:text> </xsl:text><button type="button" class="expander" onclick="$(this).parent().next().toggleClass('hidden'); $(this).text($(this).parent().next().hasClass('hidden') ? 'Show' : 'Hide');">Show</button>
+      </h3>
+      <div class="normalized hidden">
+            <xsl:apply-templates select="doc[str[@name='index_item_name'][starts-with(., '#')]]">
+              <xsl:sort select="lower-case(replace(replace(., 'italicsstart', ''), 'italicsend', ''))"/>
+            </xsl:apply-templates>
         </div>
     </xsl:if>
     <xsl:if test="doc[str[@name='index_item_name'][starts-with(., '~')]]">
-      <h3 class="sublist_heading">Items that have not been normalized</h3>
-      <div>
-          <xsl:apply-templates select="doc[str[@name='index_item_name'][starts-with(., '~')]]">
-            <xsl:sort select="lower-case(replace(replace(., 'italicsstart', ''), 'italicsend', ''))"/>
-          </xsl:apply-templates>
+      <h3 id="not-normalized" class="sublist_heading">Items that have not been normalized
+        <xsl:text> </xsl:text><button type="button" class="expander" onclick="$(this).parent().next().toggleClass('hidden'); $(this).text($(this).parent().next().hasClass('hidden') ? 'Show' : 'Hide');">Show</button>
+      </h3>
+      <div class="not-normalized hidden">
+            <xsl:apply-templates select="doc[str[@name='index_item_name'][starts-with(., '~')]]">
+              <xsl:sort select="lower-case(replace(replace(., 'italicsstart', ''), 'italicsend', ''))"/>
+            </xsl:apply-templates>
       </div>
     </xsl:if>
     

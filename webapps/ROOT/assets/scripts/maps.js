@@ -155,7 +155,7 @@
     var baseMaps = {
     "DARE": dare,
     "Terrain": terrain, 
-    "Watercolor": watercolor,
+    //"Watercolor": watercolor,
     "Open Street Map": osm
     };
     
@@ -175,7 +175,7 @@
     "Fallow land": toggle_fallow_places
     };
     
-    var layers = [osm, terrain, watercolor];
+    var layers = [osm, terrain]; //, watercolor
     
     var markers = purple_places.concat(golden_places);
     

@@ -46,13 +46,13 @@
         var mymap = L.map('mapid', {
         //drawControl: true,
         center: [44, 10.335], zoom: 6.5, zoomControl: true, fullscreenControl: true, 
-        layers: [osm, terrain, watercolor]
+        layers: [osm, terrain] //, watercolor
         });
         
         var baseMaps = {
         "DARE": dare,
         "Terrain": terrain, 
-        "Watercolor": watercolor,
+        //"Watercolor": watercolor,
         "Open Street Map": osm
         }; 
         
