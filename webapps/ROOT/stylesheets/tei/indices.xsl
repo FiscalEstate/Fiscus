@@ -135,7 +135,7 @@
             var points = <xsl:value-of select="doc/str[@name='index_map_points']"/>;
             var map_labels = <xsl:value-of select="doc/str[@name='index_map_labels']"/>;
             <xsl:value-of select="fn:doc(concat('file:',system-property('user.dir'),'/webapps/ROOT/assets/scripts/maps.js'))"/>
-              var mymap = L.map('mapid', { center: [44, 10.335], zoom: 6, fullscreenControl: true, layers: layers });
+            var mymap = L.map('mapid', { center: [44, 10.335], zoom: 6, fullscreenControl: true, measureControl: true, layers: layers });
               L.control.layers(baseMaps, overlayMaps).addTo(mymap);
               L.control.scale().addTo(mymap);
               L.Control.geocoder().addTo(mymap);

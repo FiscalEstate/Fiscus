@@ -10,12 +10,14 @@
         <link rel="stylesheet" href="../../../assets/styles/Control.Geocoder.css" />
         <link rel="stylesheet" href="../../../assets/styles/leaflet.fullscreen.css" />
         <link rel="stylesheet" href="../../../assets/styles/leaflet.draw.css"/>
+        <link rel="stylesheet" href="../../../assets/styles/leaflet.measure.css"/>
         
         <script src="../../../assets/foundation/js/vendor/custom.modernizr.js"></script>
         <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"       integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
         <script src="../../../assets/scripts/leaflet-providers.js"></script>
         <script src="../../../assets/foundation/js/vendor/jquery.js"></script>
         <script src="../../../assets/scripts/leaflet.draw.js"></script>
+        <script src="../../../assets/scripts/leaflet.measure.js"></script>
         
     </head>
     <body>
@@ -45,7 +47,7 @@
         
         var mymap = L.map('mapid', {
         //drawControl: true,
-        center: [44, 10.335], zoom: 6.5, zoomControl: true, fullscreenControl: true, 
+        center: [44, 10.335], zoom: 6.5, zoomControl: true, fullscreenControl: true, measureControl: true,
         layers: [osm, terrain] //, watercolor
         });
         
