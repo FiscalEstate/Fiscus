@@ -1,187 +1,167 @@
 <script type="text/javascript">
-    /* For polygons coordinates */
-    function chunkArray(myArray, chunk_size){
-    var index = 0;
-    var arrayLength = myArray.length;
-    var tempArray = [];
-    for (index = 0; index &lt; arrayLength; index += chunk_size) {
-    myChunk = myArray.slice(index, index+chunk_size);
-    tempArray.push(myChunk);
-    }
-    return tempArray;
-    }
+/*Maps layers*/
+            var dare = L.tileLayer('https://dh.gu.se/tiles/imperium/{z}/{x}/{y}.png', {
+            minZoom: 4,
+            maxZoom: 11,
+            attribution: 'Map data &lt;a href="https://imperium.ahlfeldt.se/"&gt;Digital Atlas of the Roman Empire&lt;/a&gt; CC BY 4.0'
+            });
+            var terrain = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Shaded_Relief/MapServer/tile/{z}/{y}/{x}', {
+            attribution: 'Tiles and source Esri',
+            maxZoom: 13
+            });
+            var watercolor = L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/watercolor/{z}/{x}/{y}.{ext}', {
+            attribution: 'Map tiles &lt;a href="http://stamen.com"&gt;Stamen Design&lt;/a&gt;, &lt;a href="http://creativecommons.org/licenses/by/3.0"&gt;CC BY 3.0&lt;/a&gt;, Map data &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;',
+            subdomains: 'abcd',
+            minZoom: 1,
+            maxZoom: 16,
+            ext: 'jpg'
+            });
+            var osm = L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: 'Map data &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
+            });
+            
+            var baseMaps = {"DARE": dare, "Terrain": terrain, "Open Street Map": osm}; //, "Watercolor": watercolor
+            var layers = [osm, terrain]; //, watercolor             
+
+            let LeafIcon = L.Icon.extend({ options: {iconSize: [14, 14]} });
+            let purpleIcon = new LeafIcon({iconUrl: '../../assets/images/purple.png'});
+            let goldenIcon = new LeafIcon({iconUrl: '../../assets/images/golden.png'});
+            let purpleUncertainIcon = new LeafIcon({iconUrl: '../../assets/images/purple_uncertain.png'});
+            let goldenUncertainIcon = new LeafIcon({iconUrl: '../../assets/images/golden_uncertain.png'});
+            
+            function addPopup(feature, layer) {
+                    let symbols = '';
+                    if (feature.properties.symbols.includes('ports')) {
+                    symbols += '&lt;img src="../../../assets/images/anchor.png" alt="anchor" class="mapicon"/&gt;';
+                    }
+                    if (feature.properties.symbols.includes('fortifications')) {
+                    symbols += '&lt;img src="../../../assets/images/tower.png" alt="tower" class="mapicon"/&gt;';
+                    }
+                    if (feature.properties.symbols.includes('residences')) {
+                    symbols += '&lt;img src="../../../assets/images/sella.png" alt="sella" class="mapicon"/&gt;';
+                    }
+                    if (feature.properties.symbols.includes('revenues')) {
+                    symbols += '&lt;img src="../../../assets/images/coin.png" alt="coin" class="mapicon"/&gt;';
+                    }
+                    if (feature.properties.symbols.includes('estates')) {
+                    symbols += '&lt;img src="../../../assets/images/star.png" alt="star" class="mapicon"/&gt;';
+                    }
+                    if (feature.properties.symbols.includes('tenures')) {
+                    symbols += '&lt;img src="../../../assets/images/square.png" alt="square" class="mapicon"/&gt;';
+                    }
+                    if (feature.properties.symbols.includes('land')) {
+                    symbols += '&lt;img src="../../../assets/images/triangle.png" alt="triangle" class="mapicon"/&gt;';
+                    }
+                    if (feature.properties.symbols.includes('fallow')) {
+                    symbols += '&lt;img src="../../../assets/images/tree.png" alt="tree" class="mapicon"/&gt;';
+                    }
+                    if (feature.properties.certainty === 'low') {
+                    symbols += '&lt;img src="../../../assets/images/uncertain.png" alt="uncertain" class="mapicon"/&gt;';
+                    }
+                    let popupContents = '&lt;a target="_blank" href="/en/places.html#' + feature.properties.id + '"&gt;' + feature.properties.name + '&lt;/a&gt; ' + symbols + ' &lt;span class="block"&gt;Linked documents: ' + feature.properties.mentioningDocsCount + '&lt;/span&gt;'
+                    
+                    layer.bindPopup(popupContents);
+                    
+            }
+            
+            function styleMarker(feature, latlng) {
+                if (feature.geometry.type === 'Point') {
+                   if (feature.properties.isFiscal === 'yes' &amp;&amp; feature.properties.certainty !== 'low') {
+                   return L.marker(latlng, {icon: goldenIcon});
+                   } else if (feature.properties.isFiscal === 'yes' &amp;&amp; feature.properties.certainty === 'low') {
+                   return L.marker(latlng, {icon: goldenUncertainIcon});
+                   } else if (feature.properties.isFiscal === 'no' &amp;&amp; feature.properties.certainty !== 'low') {
+                   return L.marker(latlng, {icon: purpleIcon});
+                   } else if (feature.properties.isFiscal === 'no' &amp;&amp; feature.properties.certainty === 'low') {
+                   return L.marker(latlng, {icon: purpleUncertainIcon});
+                   }
+                }
+            }
+            
+            function furtherStyling(feature) {
+                if (feature.geometry.type === 'Polygon') {
+                    return {color: "green", id:feature.properties.id};
+                } else {
+                    return {id:feature.properties.id};
+                }
+            }
+            
+            function addLayer(featuresArray) {
+              return L.geoJSON(featuresArray, {onEachFeature: addPopup, pointToLayer: styleMarker, style: furtherStyling});
+            }
+            
+            
+            // mapData is defined in results-to-html.xsl and indices.xsl
+            let points = mapData.filter(i => i.geometry.type === 'Point');
+            let polygons = mapData.filter(i => i.geometry.type === 'Polygon');
+            let lines = mapData.filter(i => i.geometry.type === 'LineString');
+            let purple_places = points.filter(i => i.properties.isFiscal === 'no');
+            let golden_places = points.filter(i => i.properties.isFiscal === 'yes');
+            let ports_places = points.filter(i => i.properties.symbols.includes('ports'));
+            let fortifications_places = points.filter(i => i.properties.symbols.includes('fortifications'));
+            let residences_places = points.filter(i => i.properties.symbols.includes('residences'));
+            let revenues_places = points.filter(i => i.properties.symbols.includes('revenues'));
+            let estates_places = points.filter(i => i.properties.symbols.includes('estates'));
+            let tenures_places = points.filter(i => i.properties.symbols.includes('tenures'));
+            let land_places = points.filter(i => i.properties.symbols.includes('land'));
+            let fallow_places = points.filter(i => i.properties.symbols.includes('fallow'));
+            let uncertain_places = points.filter(i => i.properties.certainty === 'low');
+            let select_linked_places = [];
+            
+            var toggle_ports_places = addLayer(ports_places);
+            var toggle_fortifications_places = addLayer(fortifications_places);
+            var toggle_residences_places = addLayer(residences_places);
+            var toggle_revenues_places = addLayer(revenues_places);
+            var toggle_estates_places = addLayer(estates_places);
+            var toggle_tenures_places = addLayer(tenures_places);
+            var toggle_land_places = addLayer(land_places);
+            var toggle_fallow_places = addLayer(fallow_places);
+            var toggle_uncertain_places = addLayer(uncertain_places);
+            var toggle_purple_places = addLayer(purple_places); 
+            var toggle_golden_places = addLayer(golden_places);
+            var toggle_polygons = addLayer(polygons);
+            var toggle_lines = addLayer(lines);
+            var toggle_select_linked_places = addLayer(select_linked_places);
+            
+            var overlayMaps = {
+            "All places linked to fiscal properties": toggle_golden_places,
+            "All places not linked to fiscal properties": toggle_purple_places,
+            "Places not precisely located or wider areas": toggle_polygons,
+            "Rivers": toggle_lines,
+            "From uncertain tradition": toggle_uncertain_places,
+            "Ports and fords": toggle_ports_places,
+            "Fortifications": toggle_fortifications_places,
+            "Residences": toggle_residences_places,
+            "Markets, crafts and revenues": toggle_revenues_places,
+            "Estates and estate units": toggle_estates_places,
+            "Tenures": toggle_tenures_places,
+            "Land plots and rural buildings": toggle_land_places,
+            "Fallow land": toggle_fallow_places
+            };
+            
+            function openPopupById(id){ 
+                toggle_purple_places.eachLayer(function(feature){
+                  if (feature.feature.properties.id === id){
+                      feature.openPopup();
+                  }
+              });
+              toggle_golden_places.eachLayer(function(feature){
+                  if (feature.feature.properties.id === id){
+                      feature.openPopup();
+                  }
+              });
+            }
     
-    /*Maps layers*/
-    var dare = L.tileLayer('https://dh.gu.se/tiles/imperium/{z}/{x}/{y}.png', {
-    minZoom: 4,
-    maxZoom: 11,
-    attribution: 'Map data &lt;a href="https://imperium.ahlfeldt.se/"&gt;Digital Atlas of the Roman Empire&lt;/a&gt; CC BY 4.0'
-    });
-    var terrain = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Shaded_Relief/MapServer/tile/{z}/{y}/{x}', {
-    attribution: 'Tiles and source Esri',
-    maxZoom: 13
-    });
-    var watercolor = L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/watercolor/{z}/{x}/{y}.{ext}', {
-    attribution: 'Map tiles &lt;a href="http://stamen.com"&gt;Stamen Design&lt;/a&gt;, &lt;a href="http://creativecommons.org/licenses/by/3.0"&gt;CC BY 3.0&lt;/a&gt;, Map data &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;',
-    subdomains: 'abcd',
-    minZoom: 1,
-    maxZoom: 16,
-    ext: 'jpg'
-    });
-    var osm = L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: 'Map data &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
-    }); 
-    
-    
-    var polygons_places = [];
-    var lines_places = [];
-    var purple_places = [];
-    var golden_places = [];
-    var ports_places = [];
-    var fortifications_places = [];
-    var residences_places = [];
-    var revenues_places = [];
-    var estates_places = [];
-    var tenures_places = [];
-    var land_places = [];
-    var fallow_places = [];
-    var uncertain_places = [];
-    var select_linked_places = [];
-    
-    var LeafIcon = L.Icon.extend({ options: {iconSize: [14, 14]} });
-    var purpleIcon = new LeafIcon({iconUrl: '../../../assets/images/purple.png'}),
-    goldenIcon = new LeafIcon({iconUrl: '../../../assets/images/golden.png'}),
-    purpleUncertainIcon = new LeafIcon({iconUrl: '../../../assets/images/purple_uncertain.png'}),
-    goldenUncertainIcon = new LeafIcon({iconUrl: '../../../assets/images/golden_uncertain.png'});
-    
-    for (var [key, value] of Object.entries(points)) {
-    var info = key.substring(key.indexOf("@"), key.lastIndexOf("@"));
-    symbols = info.replace('@c', '&lt;img src="../../../assets/images/anchor.png" alt="anchor" class="mapicon"/&gt;').replace('@d', '&lt;img src="../../../assets/images/tower.png" alt="tower" class="mapicon"/&gt;').replace('@e', '&lt;img src="../../../assets/images/sella.png" alt="sella" class="mapicon"/&gt;').replace('@f', '&lt;img src="../../../assets/images/coin.png" alt="coin" class="mapicon"/&gt;').replace('@g', '&lt;img src="../../../assets/images/star.png" alt="star" class="mapicon"/&gt;').replace('@h', '&lt;img src="../../../assets/images/square.png" alt="square" class="mapicon"/&gt;').replace('@i', '&lt;img src="../../../assets/images/triangle.png" alt="triangle" class="mapicon"/&gt;').replace('@j', '&lt;img src="../../../assets/images/tree.png" alt="tree" class="mapicon"/&gt;').replace('@k', '&lt;img src="../../../assets/images/uncertain.png" alt="uncertain" class="mapicon"/&gt;'); 
-    if (key.includes('#a')) {
-    purple_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {time: key.substring(0, key.indexOf("|")), icon: purpleIcon, id:key.substring(key.lastIndexOf("@") +1)}).bindPopup('&lt;a target="_blank" href="places.html#0"&gt;'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(key.indexOf("|") +1, key.indexOf("#")) + '&lt;/a&gt; ' + symbols + ' &lt;span class="block"&gt;Linked documents: ' + key.substring(key.indexOf("#") +1, key.lastIndexOf("#")) + '&lt;/span&gt;'));
-    if (key.includes('c@')) {
-    ports_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {time: key.substring(0, key.indexOf("|")), icon: purpleIcon, id:key.substring(key.lastIndexOf("@") +1)}).bindPopup('&lt;a target="_blank" href="places.html#0"&gt;'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(key.indexOf("|") +1, key.indexOf("#")) + '&lt;/a&gt; ' + symbols + ' &lt;span class="block"&gt;Linked documents: ' + key.substring(key.indexOf("#") +1, key.lastIndexOf("#")) + '&lt;/span&gt;'));
-    }
-    if (key.includes('d@')) {
-    fortifications_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {time: key.substring(0, key.indexOf("|")), icon: purpleIcon, id:key.substring(key.lastIndexOf("@") +1)}).bindPopup('&lt;a target="_blank" href="places.html#0"&gt;'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(key.indexOf("|") +1, key.indexOf("#")) + '&lt;/a&gt; ' + symbols + ' &lt;span class="block"&gt;Linked documents: ' + key.substring(key.indexOf("#") +1, key.lastIndexOf("#")) + '&lt;/span&gt;'));
-    }
-    if (key.includes('e@')) {
-    residences_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {time: key.substring(0, key.indexOf("|")), icon: purpleIcon, id:key.substring(key.lastIndexOf("@") +1)}).bindPopup('&lt;a target="_blank" href="places.html#0"&gt;'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(key.indexOf("|") +1, key.indexOf("#")) + '&lt;/a&gt; ' + symbols + ' &lt;span class="block"&gt;Linked documents: ' + key.substring(key.indexOf("#") +1, key.lastIndexOf("#")) + '&lt;/span&gt;'));
-    }
-    if (key.includes('f@')) {
-    revenues_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {time: key.substring(0, key.indexOf("|")), icon: purpleIcon, id:key.substring(key.lastIndexOf("@") +1)}).bindPopup('&lt;a target="_blank" href="places.html#0"&gt;'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(key.indexOf("|") +1, key.indexOf("#")) + '&lt;/a&gt; ' + symbols + ' &lt;span class="block"&gt;Linked documents: ' + key.substring(key.indexOf("#") +1, key.lastIndexOf("#")) + '&lt;/span&gt;'));
-    }
-    if (key.includes('g@')) {
-    estates_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {time: key.substring(0, key.indexOf("|")), icon: purpleIcon, id:key.substring(key.lastIndexOf("@") +1)}).bindPopup('&lt;a target="_blank" href="places.html#0"&gt;'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(key.indexOf("|") +1, key.indexOf("#")) + '&lt;/a&gt; ' + symbols + ' &lt;span class="block"&gt;Linked documents: ' + key.substring(key.indexOf("#") +1, key.lastIndexOf("#")) + '&lt;/span&gt;'));
-    }
-    if (key.includes('h@')) {
-    tenures_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {time: key.substring(0, key.indexOf("|")), icon: purpleIcon, id:key.substring(key.lastIndexOf("@") +1)}).bindPopup('&lt;a target="_blank" href="places.html#0"&gt;'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(key.indexOf("|") +1, key.indexOf("#")) + '&lt;/a&gt; ' + symbols + ' &lt;span class="block"&gt;Linked documents: ' + key.substring(key.indexOf("#") +1, key.lastIndexOf("#")) + '&lt;/span&gt;'));
-    }
-    if (key.includes('i@')) {
-    land_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {time: key.substring(0, key.indexOf("|")), icon: purpleIcon, id:key.substring(key.lastIndexOf("@") +1)}).bindPopup('&lt;a target="_blank" href="places.html#0"&gt;'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(key.indexOf("|") +1, key.indexOf("#")) + '&lt;/a&gt; ' + symbols + ' &lt;span class="block"&gt;Linked documents: ' + key.substring(key.indexOf("#") +1, key.lastIndexOf("#")) + '&lt;/span&gt;'));
-    }
-    if (key.includes('j@')) {
-    fallow_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {time: key.substring(0, key.indexOf("|")), icon: purpleIcon, id:key.substring(key.lastIndexOf("@") +1)}).bindPopup('&lt;a target="_blank" href="places.html#0"&gt;'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(key.indexOf("|") +1, key.indexOf("#")) + '&lt;/a&gt; ' + symbols + ' &lt;span class="block"&gt;Linked documents: ' + key.substring(key.indexOf("#") +1, key.lastIndexOf("#")) + '&lt;/span&gt;'));
-    }
-    if (key.includes('k@')) {
-    uncertain_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {time: key.substring(0, key.indexOf("|")), icon: purpleUncertainIcon, id:key.substring(key.lastIndexOf("@") +1)}).bindPopup('&lt;a target="_blank" href="places.html#0"&gt;'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(key.indexOf("|") +1, key.indexOf("#")) + '&lt;/a&gt; ' + symbols + ' &lt;span class="block"&gt;Linked documents: ' + key.substring(key.indexOf("#") +1, key.lastIndexOf("#")) + '&lt;/span&gt;'));
-    }
-    }
-    if (key.includes('#b')) {
-    golden_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {time: key.substring(0, key.indexOf("|")), icon: goldenIcon, id:key.substring(key.lastIndexOf("@") +1)}).bindPopup('&lt;a target="_blank" href="places.html#0"&gt;'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(key.indexOf("|") +1, key.indexOf("#")) + '&lt;/a&gt; ' + symbols + ' &lt;span class="block"&gt;Linked documents: ' + key.substring(key.indexOf("#") +1, key.lastIndexOf("#")) + '&lt;/span&gt;'));
-    if (key.includes('c@')) {
-    ports_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {time: key.substring(0, key.indexOf("|")), icon: goldenIcon, id:key.substring(key.lastIndexOf("@") +1)}).bindPopup('&lt;a target="_blank" href="places.html#0"&gt;'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(key.indexOf("|") +1, key.indexOf("#")) + '&lt;/a&gt; ' + symbols + ' &lt;span class="block"&gt;Linked documents: ' + key.substring(key.indexOf("#") +1, key.lastIndexOf("#")) + '&lt;/span&gt;'));
-    }
-    if (key.includes('d@')) {
-    fortifications_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {time: key.substring(0, key.indexOf("|")), icon: goldenIcon, id:key.substring(key.lastIndexOf("@") +1)}).bindPopup('&lt;a target="_blank" href="places.html#0"&gt;'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(key.indexOf("|") +1, key.indexOf("#")) + '&lt;/a&gt; ' + symbols + ' &lt;span class="block"&gt;Linked documents: ' + key.substring(key.indexOf("#") +1, key.lastIndexOf("#")) + '&lt;/span&gt;'));
-    }
-    if (key.includes('e@')) {
-    residences_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {time: key.substring(0, key.indexOf("|")), icon: goldenIcon, id:key.substring(key.lastIndexOf("@") +1)}).bindPopup('&lt;a target="_blank" href="places.html#0"&gt;'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(key.indexOf("|") +1, key.indexOf("#")) + '&lt;/a&gt; ' + symbols + ' &lt;span class="block"&gt;Linked documents: ' + key.substring(key.indexOf("#") +1, key.lastIndexOf("#")) + '&lt;/span&gt;'));
-    }
-    if (key.includes('f@')) {
-    revenues_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {time: key.substring(0, key.indexOf("|")), icon: goldenIcon, id:key.substring(key.lastIndexOf("@") +1)}).bindPopup('&lt;a target="_blank" href="places.html#0"&gt;'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(key.indexOf("|") +1, key.indexOf("#")) + '&lt;/a&gt; ' + symbols + ' &lt;span class="block"&gt;Linked documents: ' + key.substring(key.indexOf("#") +1, key.lastIndexOf("#")) + '&lt;/span&gt;'));
-    }
-    if (key.includes('g@')) {
-    estates_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {time: key.substring(0, key.indexOf("|")), icon: goldenIcon, id:key.substring(key.lastIndexOf("@") +1)}).bindPopup('&lt;a target="_blank" href="places.html#0"&gt;'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(key.indexOf("|") +1, key.indexOf("#")) + '&lt;/a&gt; ' + symbols + ' &lt;span class="block"&gt;Linked documents: ' + key.substring(key.indexOf("#") +1, key.lastIndexOf("#")) + '&lt;/span&gt;'));
-    }
-    if (key.includes('h@')) {
-    tenures_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {time: key.substring(0, key.indexOf("|")), icon: goldenIcon, id:key.substring(key.lastIndexOf("@") +1)}).bindPopup('&lt;a target="_blank" href="places.html#0"&gt;'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(key.indexOf("|") +1, key.indexOf("#")) + '&lt;/a&gt; ' + symbols + ' &lt;span class="block"&gt;Linked documents: ' + key.substring(key.indexOf("#") +1, key.lastIndexOf("#")) + '&lt;/span&gt;'));
-    }
-    if (key.includes('i@')) {
-    land_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {time: key.substring(0, key.indexOf("|")), icon: goldenIcon, id:key.substring(key.lastIndexOf("@") +1)}).bindPopup('&lt;a target="_blank" href="places.html#0"&gt;'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(key.indexOf("|") +1, key.indexOf("#")) + '&lt;/a&gt; ' + symbols + ' &lt;span class="block"&gt;Linked documents: ' + key.substring(key.indexOf("#") +1, key.lastIndexOf("#")) + '&lt;/span&gt;'));
-    }
-    if (key.includes('j@')) {
-    fallow_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {time: key.substring(0, key.indexOf("|")), icon: goldenIcon, id:key.substring(key.lastIndexOf("@") +1)}).bindPopup('&lt;a target="_blank" href="places.html#0"&gt;'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(key.indexOf("|") +1, key.indexOf("#")) + '&lt;/a&gt; ' + symbols + ' &lt;span class="block"&gt;Linked documents: ' + key.substring(key.indexOf("#") +1, key.lastIndexOf("#")) + '&lt;/span&gt;'));
-    }
-    if (key.includes('k@')) {
-    uncertain_places.push(L.marker([value.substring(0, value.lastIndexOf(",")), value.substring(value.lastIndexOf(",") +1)], {time: key.substring(0, key.indexOf("|")), icon: goldenUncertainIcon, id:key.substring(key.lastIndexOf("@") +1)}).bindPopup('&lt;a target="_blank" href="places.html#0"&gt;'.replace("0", key.substring(key.lastIndexOf("@") +1)) + key.substring(key.indexOf("|") +1, key.indexOf("#")) + '&lt;/a&gt; ' + symbols + ' &lt;span class="block"&gt;Linked documents: ' + key.substring(key.indexOf("#") +1, key.lastIndexOf("#")) + '&lt;/span&gt;'));
-    }
-    }
-    };
-    
-    for (var [key, value] of Object.entries(polygons)) {
-    var split_values = value.split(';');
-    split_values.forEach(function(item, index, array) {
-    array[index] = parseFloat(item);
-    });
-    var coords = chunkArray(split_values, 2);
-    polygons_places.push(L.polygon([coords], {time: key.substring(0, key.indexOf("|")), color: 'green', id:key.substring(key.lastIndexOf("@") +1)}).bindPopup('&lt;a target="_blank" href="places.html#0"&gt;'.replace("0", key.substring(key.lastIndexOf("#") +1)) + key.substring(key.indexOf("|") +1, key.indexOf("#")) + '&lt;/a&gt; &lt;span class="block"&gt;Linked documents: ' + key.substring(key.indexOf("#") +1, key.lastIndexOf("#")) + '&lt;/span&gt;'));
-    }; 
-    
-    for (var [key, value] of Object.entries(lines)) {
-    var split_values = value.split(';');
-    split_values.forEach(function(item, index, array) {
-    array[index] = parseFloat(item);
-    });
-    var coords = chunkArray(split_values, 2);
-    lines_places.push(L.polyline([coords], {time: key.substring(0, key.indexOf("|")), color: 'blue', id:key.substring(key.lastIndexOf("@") +1)}).bindPopup('&lt;a target="_blank" href="places.html#0"&gt;'.replace("0", key.substring(key.lastIndexOf("#") +1)) + key.substring(key.indexOf("|") +1, key.indexOf("#")) + '&lt;/a&gt; &lt;span class="block"&gt;Linked documents: ' + key.substring(key.indexOf("#") +1, key.lastIndexOf("#")) + '&lt;/span&gt;'));
-    }; 
-    
-    var toggle_ports_places = L.layerGroup(ports_places);
-    var toggle_fortifications_places = L.layerGroup(fortifications_places);
-    var toggle_residences_places = L.layerGroup(residences_places);
-    var toggle_revenues_places = L.layerGroup(revenues_places);
-    var toggle_estates_places = L.layerGroup(estates_places);
-    var toggle_tenures_places = L.layerGroup(tenures_places);
-    var toggle_land_places = L.layerGroup(land_places);
-    var toggle_fallow_places = L.layerGroup(fallow_places);
-    var toggle_uncertain_places = L.layerGroup(uncertain_places);
-    var toggle_purple_places = L.layerGroup(purple_places); 
-    var toggle_golden_places = L.layerGroup(golden_places);
-    var toggle_polygons = L.layerGroup(polygons_places);
-    var toggle_lines = L.layerGroup(lines_places);
-    var toggle_select_linked_places = L.layerGroup(select_linked_places);
-    
-    var baseMaps = {
-    "DARE": dare,
-    "Terrain": terrain, 
-    //"Watercolor": watercolor,
-    "Open Street Map": osm
-    };
-    
-    var overlayMaps = {
-    "All places linked to fiscal properties": toggle_golden_places,
-    "All places not linked to fiscal properties": toggle_purple_places,
-    "Places not precisely located or wider areas": toggle_polygons,
-    "Rivers": toggle_lines,
-    "From uncertain tradition": toggle_uncertain_places,
-    "Ports and fords": toggle_ports_places,
-    "Fortifications": toggle_fortifications_places,
-    "Residences": toggle_residences_places,
-    "Markets, crafts and revenues": toggle_revenues_places,
-    "Estates and estate units": toggle_estates_places,
-    "Tenures": toggle_tenures_places,
-    "Land plots and rural buildings": toggle_land_places,
-    "Fallow land": toggle_fallow_places
-    };
-    
-    var layers = [osm, terrain]; //, watercolor
-    
-    var markers = purple_places.concat(golden_places);
-    
-    function openPopupById(id){ for(var i = 0; i &lt; markers.length; ++i) { if (markers[i].options.id == id){ markers[i].openPopup(); }; }}
-    
-    function displayById(id){ for(var i = 0; i &lt; markers.length; ++i) { if (markers[i].options.id == id){
-    toggle_select_linked_places.addLayer(markers[i]); 
-    }; }}
+            function displayById(id){ 
+                toggle_purple_places.eachLayer(function(feature){
+                      if (feature.feature.properties.id === id){
+                            toggle_select_linked_places.addLayer(feature); 
+                      }
+                  });
+                  toggle_golden_places.eachLayer(function(feature){
+                      if (feature.feature.properties.id === id){
+                            toggle_select_linked_places.addLayer(feature); 
+                      }
+                  });
+            }
 </script>

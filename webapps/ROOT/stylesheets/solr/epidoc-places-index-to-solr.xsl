@@ -80,7 +80,7 @@
           </xsl:variable>
           <xsl:variable name="allkeys" select="distinct-values(tokenize($all_keys, ', '))"/>
           <xsl:variable name="all_keys_sorted">
-            <xsl:for-each select="$allkeys">
+            <xsl:for-each select="$allkeys[normalize-space(.)!='']">
               <xsl:sort order="ascending"/><xsl:value-of select="."/><xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if>
             </xsl:for-each>
           </xsl:variable>

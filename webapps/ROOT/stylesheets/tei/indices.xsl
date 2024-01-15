@@ -108,9 +108,8 @@
   </xsl:if>
 
     <!-- MAP -->
-    <xsl:if test="doc/str[@name='index_map_labels']">
+    <xsl:if test="doc/str[@name='index_map_data']">
           <div class="row map_box">
-            <!--<div><p>Please note that the map may take some time to load.</p></div>-->
           <div id="mapid" class="map"></div>
           <div class="legend">
             <p>
@@ -130,32 +129,31 @@
             </p>
           </div>
           <script type="text/javascript">
-            var polygons = <xsl:value-of select="doc/str[@name='index_map_polygons']"/>;
-            var lines = <xsl:value-of select="doc/str[@name='index_map_lines']"/>;
-            var points = <xsl:value-of select="doc/str[@name='index_map_points']"/>;
-            var map_labels = <xsl:value-of select="doc/str[@name='index_map_labels']"/>;
+            let mapData = [<xsl:value-of select="doc/str[@name='index_map_data']"/>];
             <xsl:value-of select="fn:doc(concat('file:',system-property('user.dir'),'/webapps/ROOT/assets/scripts/maps.js'))"/>
-            var mymap = L.map('mapid', { center: [44, 10.335], zoom: 6, fullscreenControl: true, measureControl: true, layers: layers });
-              L.control.layers(baseMaps, overlayMaps).addTo(mymap);
-              L.control.scale().addTo(mymap);
-              L.Control.geocoder().addTo(mymap);
-              if (!window.location.href.includes('select')) {
-              toggle_purple_places.addTo(mymap);
-              toggle_golden_places.addTo(mymap);
-              toggle_polygons.addTo(mymap);
-              toggle_lines.addTo(mymap);
+            let mymap = L.map('mapid', { center: [44, 10.335], zoom: 6, fullscreenControl: true, measureControl: true, layers: layers });
+            L.control.layers(baseMaps, overlayMaps).addTo(mymap);
+            L.control.scale().addTo(mymap);
+            L.Control.geocoder().addTo(mymap);
+            
+            var url = String(window.location.href);
+            if (!url.includes('select')) {
+            toggle_purple_places.addTo(mymap);
+            toggle_golden_places.addTo(mymap);
+            toggle_polygons.addTo(mymap);
+            toggle_lines.addTo(mymap);
+            }
+              
+            <!-- to display only places linked to a specific juridical person, whose IDs are in the URL -->
+            if (url.includes('select')) { 
+                  toggle_select_linked_places.addTo(mymap); 
               }
-              <!-- to display only places linked to a specific juridical person, whose IDs are in the URL -->
-              if (window.location.href.includes('select')) { toggle_select_linked_places.addTo(mymap); }
-              var url = String(window.location.href);
               url.substring(url.indexOf("select#") +1, url.lastIndexOf("#")).split("#").forEach(el => displayById(el));
-              <!-- to open popup of specific place, whose ID is at the end of the URL -->
-              openPopupById(window.location.href.substring(window.location.href.lastIndexOf("#") +1));
-
-              <!--var sliderControl = L.control.sliderControl({layer: L.layerGroup(markers)});
-              mymap.addControl(sliderControl);
-              sliderControl.startSlider();-->
-            <!-- https://github.com/dwilhelm89/LeafletSlider; to be fixed: what to put in $year; how to display date RANGES; how to use legend filters (best to change approach and use separate arrays of places based on periods? Cf. https://github.com/svitkin/leaflet-timeline-slider) -->
+              
+            <!-- to open popup of specific place, whose ID is at the end of the URL -->
+            if (url.includes('#') &amp;&amp; !url.includes('select')) {
+                openPopupById(url.substring(url.lastIndexOf("#") +1));
+             }
             </script>
         </div>
         </xsl:if>
