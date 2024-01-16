@@ -10,7 +10,7 @@
                 xmlns:tei="http://www.tei-c.org/ns/1.0">
 
   <!-- XSLT for displaying Solr results. -->
-
+  
   <xsl:param name="root" select="/" />
 
   <xsl:include href="results-pagination.xsl" />
@@ -138,7 +138,8 @@
       <xsl:when test="doc">
         <h3>Results</h3>
         
-        <div class="row map_box search_page">
+        <button class="expander expand-map-in-search" onclick="$(this).next().toggleClass('not-visible'); $(this).text($(this).next().hasClass('not-visible') ? 'Show results on map' : 'Hide map');">Show results on map</button>
+        <div class="row map_box search_page not-visible">
           <div id="mapidsearch" class="map"></div>
           <div class="legend">
             <p>
@@ -157,140 +158,73 @@
               <img src="../../../assets/images/tree.png" alt="tree" class="mapicon"/>Fallow land
             </p>
           </div>
-          
-          <!-- generate map data -->
-          <xsl:variable name="texts" select="collection(concat('file:',system-property('user.dir'), '/webapps/ROOT/content/xml/epidoc/?select=*.xml;recurse=yes'))/tei:TEI[descendant::tei:idno[@type='filename'] = $results/doc/str[@name='document_id']]/tei:text/tei:body/tei:div[@type='edition']"/>
-          <xsl:variable name="keys">
-            <xsl:for-each select="$texts//tei:placeName[@ref]">
-              <!-- it includes also <placeName>s without @key: needed to count certain/uncertain occurrences --> 
-              <p id="{substring-after(@ref, 'places/')}">
-                <xsl:choose>
-                  <xsl:when test="contains(lower-case(@key), 'uncertain_tradition')">
-                    <xsl:attribute name="cert" select="'low'"/>
-                  </xsl:when>
-                  <xsl:otherwise>
-                    <xsl:attribute name="cert" select="'high'"/>
-                  </xsl:otherwise>
-                </xsl:choose>
-                <xsl:value-of select="translate(@key, '#', '')"/><xsl:if test="position()!=last()"><xsl:text> </xsl:text></xsl:if>
-              </p>
-            </xsl:for-each>
-          </xsl:variable>
-          <xsl:variable name="places" select="document(concat('file:',system-property('user.dir'), '/webapps/ROOT/content/fiscus_framework/resources/places.xml'))/tei:TEI/tei:text/tei:body/tei:listPlace[@type='places']/tei:listPlace"/>
+        
+          <xsl:variable name="map_data_raw" select="document(concat('file:',system-property('user.dir'), '/webapps/ROOT/content/map_data.xml'))/mapPlaces/mapPlace"/>
           
           <xsl:variable name="map_data">
-            <xsl:for-each select="$places/tei:place[matches(normalize-space(descendant::tei:geo[1]), '(\d{1,2}(\.\d+){0,1},\s+?\d{1,2}(\.\d+){0,1};\s+?)+\d{1,2}(\.\d+){0,1},\s+?\d{1,2}(\.\d+){0,1}') or matches(normalize-space(descendant::tei:geo[1]), '\d{1,2}(\.\d+){0,1},\s+?\d{1,2}(\.\d+){0,1}')]">
-              <xsl:variable name="name" select="normalize-space(translate(tei:placeName[1], ',', '; '))"/>
-              <xsl:variable name="id" select="substring-after(translate(tei:idno,'#',''), 'places/')"/>
-              <xsl:variable name="idno" select="translate(translate(tei:idno, '#', ''), ' ', '')"/>
-              <xsl:variable name="number_of_mentioning_documents"><xsl:value-of select="count($texts[descendant::tei:placeName[contains(concat(@ref, ' '), concat($idno, ' '))]])"/></xsl:variable>
-              <xsl:variable name="type">
-                <xsl:choose>
-                  <xsl:when test="tei:geogName/tei:geo[1][@style='line']">LineString</xsl:when>
-                  <xsl:when test="tei:geogName/tei:geo[1][not(@style='line')] and contains(descendant::tei:geo[1], ';')">Polygon</xsl:when>
-                  <xsl:otherwise>Point</xsl:otherwise>
-                </xsl:choose>
-              </xsl:variable>
-              <xsl:variable name="coord">
-                <xsl:choose>
-                  <xsl:when test="$type = 'Point'">
-                    [<xsl:value-of select="normalize-space(concat(substring-after(tei:geogName/tei:geo[1], ','), ', ', substring-before(tei:geogName/tei:geo[1], ',')))"/>]
-                  </xsl:when>
-                  <xsl:when test="$type = 'Polygon'">
-                    <xsl:variable name="coord_pairs" select="tokenize(normalize-space(tei:geogName/tei:geo[1]), ';' )"/>
-                    [[<xsl:for-each select="$coord_pairs">
-                      [<xsl:value-of select="normalize-space(concat(substring-after(., ','), ', ', substring-before(., ',')))"/>]<xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if>
-                    </xsl:for-each>]]
-                  </xsl:when>
-                  <xsl:otherwise>
-                    <xsl:variable name="coord_pairs" select="tokenize(normalize-space(tei:geogName/tei:geo[1]), ';' )"/>
-                    [<xsl:for-each select="$coord_pairs">
-                      [<xsl:value-of select="normalize-space(concat(substring-after(., ','), ', ', substring-before(., ',')))"/>]<xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if>
-                    </xsl:for-each>]
-                  </xsl:otherwise>
-                </xsl:choose>
-              </xsl:variable>
-              <xsl:variable name="linked_keys" select="$keys/p[@id=$id]"/>
-              <xsl:variable name="linked_keys_string">
-                <xsl:for-each select="$linked_keys[normalize-space(text())!='']">
-                  <xsl:value-of select="lower-case(.)"/><xsl:text> </xsl:text>
-                </xsl:for-each>
-              </xsl:variable>
-              <xsl:variable name="certainty">
-                <xsl:choose>
-                  <xsl:when test="count($linked_keys[@cert='low']) gt 0 and count($linked_keys[@cert='high']) = 0">
-                    <xsl:text>low</xsl:text> <!-- all occurrences are uncertain: this is the value used to mark a map entry as 'From uncertain tradition' -->
-                  </xsl:when>
-                  <xsl:when test="count($linked_keys[@cert='low']) gt 0 and count($linked_keys[@cert='high']) gt 0">
-                    <xsl:text>medium</xsl:text> <!-- there are at least one certain and one uncertain occurrence: this should be used instead if it is enough to have one uncertain occurrence to mark a map entry as 'From uncertain tradition' -->
-                  </xsl:when>
-                  <xsl:otherwise>
-                    <xsl:text>high</xsl:text> <!-- all occurrences are certain -->
-                  </xsl:otherwise>
-                </xsl:choose>
-              </xsl:variable>
-              <xsl:variable name="all_keys" select="concat(' ', normalize-space($linked_keys_string))"/>
-              <xsl:variable name="is-fiscal">
-                <xsl:choose>
-                  <xsl:when test="matches($all_keys, '.*(fiscal_property).*')">
-                    <xsl:text>yes</xsl:text>
-                  </xsl:when>
-                  <xsl:otherwise>
-                    <xsl:text>no</xsl:text>
-                  </xsl:otherwise>
-                </xsl:choose>
-              </xsl:variable>
-              <xsl:variable name="symbols_raw">
-                <xsl:if test="matches($all_keys, '.* (ports|bridges/pontoons|maritime_trade|fluvial_transport) .*')">, "ports"</xsl:if>
-                <xsl:if test="matches($all_keys, '.* (castle|fortress|tower|clusae/gates|walls|carbonaria|defensive_elements|right_to_fortify) .*')">, "fortifications"</xsl:if>
-                <xsl:if test="matches($all_keys, '.* (residential|palatium|laubia/topia) .*')">, "residences"</xsl:if>
-                <xsl:if test="matches($all_keys, '.* (mills|kilns|workshops|gynaecea|mints|overland_transport|markets|periodic_markets|decima|nona_et_decima|fodrum|albergaria/gifori|profits_of_justice|profits_of_mining/minting|tolls|teloneum|rights_of_use_on_woods/pastures/waters|coinage) .*')">, "revenues"</xsl:if>
-                <xsl:if test="matches($all_keys, '.* (villas|curtes|gai|massae|salae|demesnes|domuscultae|casali|mansi) .*')">, "estates"</xsl:if>
-                <xsl:if test="matches($all_keys, '.* (casae/cassinae_massaricie|casalini/fundamenta) .*')">, "tenures"</xsl:if>
-                <xsl:if test="matches($all_keys, '.* (petiae|landed_possessions) .*')">, "land"</xsl:if>
-                <xsl:if test="matches($all_keys, '.* (mines|quarries|forests|gualdi|cafagia|fisheries|saltworks|other_basins) .*')">, "fallow"</xsl:if>
-              </xsl:variable>
-              <xsl:variable name="symbols">
-                <xsl:choose>
-                  <xsl:when test="starts-with(normalize-space($symbols_raw), ', ')"><xsl:value-of select="substring-after(normalize-space($symbols_raw), ', ')"/></xsl:when>
-                  <xsl:otherwise><xsl:value-of select="normalize-space($symbols_raw)"/></xsl:otherwise>
-                </xsl:choose>
-              </xsl:variable>
-              
-              <xsl:if test="number($number_of_mentioning_documents) gt 0">
-                {"type": "Feature",
-                  "properties": {
-                    "name": "<xsl:value-of select="$name"/>",
-                    "mentioningDocsCount": "<xsl:value-of select="$number_of_mentioning_documents"/>",
-                    "id": "<xsl:value-of select="$id"/>",
-                    "certainty": "<xsl:value-of select="$certainty"/>",
-                    "isFiscal": "<xsl:value-of select="$is-fiscal"/>",
-                    "symbols": [<xsl:value-of select="$symbols"/>]
-                  },
-                  "geometry": {
-                  "type": "<xsl:value-of select="$type"/>",
-                  "coordinates": <xsl:value-of select="$coord"/>
-                  }
-                 }
-                <xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if>
-              </xsl:if>
-            </xsl:for-each>
-          </xsl:variable>
+          <xsl:for-each select="$map_data_raw">
+            <xsl:variable name="item" select="."/>
+            <xsl:variable name="linked_keys" select="linkedKeys/p[@doc=$results/doc/str[@name='document_id']]"/>
+            <xsl:variable name="number_of_mentioning_documents">
+              <xsl:value-of select="count(distinct-values($linked_keys/@doc))"/>
+            </xsl:variable>
+            <xsl:variable name="certainty">
+              <xsl:choose>
+                <xsl:when test="count($linked_keys[@cert='low']) gt 0 and count($linked_keys[@cert='high']) = 0">
+                  <xsl:text>low</xsl:text> <!-- all occurrences are uncertain: this is the value used to mark a map entry as 'From uncertain tradition' -->
+                </xsl:when>
+                <xsl:when test="count($linked_keys[@cert='low']) gt 0 and count($linked_keys[@cert='high']) gt 0">
+                  <xsl:text>medium</xsl:text> <!-- there are at least one certain and one uncertain occurrence: this should be used instead if it is enough to have one uncertain occurrence to mark a map entry as 'From uncertain tradition' -->
+                </xsl:when>
+                <xsl:otherwise>
+                  <xsl:text>high</xsl:text> <!-- all occurrences are certain -->
+                </xsl:otherwise>
+              </xsl:choose>
+            </xsl:variable>
+            <xsl:variable name="symbols">
+              <xsl:if test="$linked_keys[@ports]">"ports", </xsl:if>
+              <xsl:if test="$linked_keys[@fortifications]">"fortifications", </xsl:if>
+              <xsl:if test="$linked_keys[@residences]">"residences", </xsl:if>
+              <xsl:if test="$linked_keys[@revenues]">"revenues", </xsl:if>
+              <xsl:if test="$linked_keys[@estates]">"estates", </xsl:if>
+              <xsl:if test="$linked_keys[@tenures]">"tenures", </xsl:if>
+              <xsl:if test="$linked_keys[@land]">"land", </xsl:if>
+              <xsl:if test="$linked_keys[@fallow]">"fallow", </xsl:if>
+              <xsl:if test="$linked_keys[@fiscal]">"fiscal"</xsl:if>
+              <xsl:if test="not($linked_keys[@fiscal])">"not fiscal"</xsl:if>
+            </xsl:variable>
+            
+            <xsl:if test="number($number_of_mentioning_documents) gt 0">
+              {"type": "Feature",
+              "properties": {
+              "name": "<xsl:value-of select="$item/name"/>",
+              "id": "<xsl:value-of select="$item/id"/>",
+              "mentioningDocsCount": "<xsl:value-of select="$number_of_mentioning_documents"/>",
+              "certainty": "<xsl:value-of select="$certainty"/>",
+              "symbols": [<xsl:value-of select="$symbols"/>]
+              },
+              "geometry": {
+              "type": "<xsl:value-of select="$item/type"/>",
+              "coordinates": <xsl:value-of select="$item/coord"/>
+              }
+              }
+              <xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if>
+            </xsl:if>
+          </xsl:for-each>
+        </xsl:variable>
           
-          <script type="text/javascript">
-            let mapData = [<xsl:value-of select="$map_data"/>];
-            <xsl:value-of select="fn:doc(concat('file:',system-property('user.dir'),'/webapps/ROOT/assets/scripts/maps.js'))"/>
-            let searchmap = L.map('mapidsearch', { center: [42, 12], zoom: 5.5, fullscreenControl: true, measureControl: true, layers: layers });
-            L.control.layers(baseMaps, overlayMaps).addTo(searchmap);
-            L.control.scale().addTo(searchmap);
-            L.Control.geocoder().addTo(searchmap);
-            <!--if (!window.location.href.includes('select')) {-->
-            toggle_purple_places.addTo(searchmap);
-            toggle_golden_places.addTo(searchmap);
-            toggle_polygons.addTo(searchmap);
-            toggle_lines.addTo(searchmap);
-            <!--}-->
-          </script>
+        <script type="text/javascript">
+          let mapData = [<xsl:value-of select="$map_data"/>];
+          <xsl:value-of select="fn:doc(concat('file:',system-property('user.dir'),'/webapps/ROOT/assets/scripts/maps.js'))"/>
+          let searchmap = L.map('mapidsearch', { center: [42, 12], zoom: 5.5, fullscreenControl: true, measureControl: true, layers: layers });
+          L.control.layers(baseMaps, overlayMaps).addTo(searchmap);
+          L.control.scale().addTo(searchmap);
+          L.Control.geocoder().addTo(searchmap);
+          toggle_purple_places.addTo(searchmap);
+          toggle_golden_places.addTo(searchmap);
+          toggle_polygons.addTo(searchmap);
+          toggle_lines.addTo(searchmap);
+        </script>
         </div>
         
         <table class="tablesorter" style="width:100%">

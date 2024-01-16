@@ -66,13 +66,13 @@
             
             function styleMarker(feature, latlng) {
                 if (feature.geometry.type === 'Point') {
-                   if (feature.properties.isFiscal === 'yes' &amp;&amp; feature.properties.certainty !== 'low') {
+                   if (feature.properties.symbols.includes('fiscal') &amp;&amp; feature.properties.certainty !== 'low') {
                    return L.marker(latlng, {icon: goldenIcon});
-                   } else if (feature.properties.isFiscal === 'yes' &amp;&amp; feature.properties.certainty === 'low') {
+                   } else if (feature.properties.symbols.includes('fiscal') &amp;&amp; feature.properties.certainty === 'low') {
                    return L.marker(latlng, {icon: goldenUncertainIcon});
-                   } else if (feature.properties.isFiscal === 'no' &amp;&amp; feature.properties.certainty !== 'low') {
+                   } else if (!(feature.properties.symbols.includes('fiscal')) &amp;&amp; feature.properties.certainty !== 'low') {
                    return L.marker(latlng, {icon: purpleIcon});
-                   } else if (feature.properties.isFiscal === 'no' &amp;&amp; feature.properties.certainty === 'low') {
+                   } else if (!(feature.properties.symbols.includes('fiscal')) &amp;&amp; feature.properties.certainty === 'low') {
                    return L.marker(latlng, {icon: purpleUncertainIcon});
                    }
                 }
@@ -95,8 +95,8 @@
             let points = mapData.filter(i => i.geometry.type === 'Point');
             let polygons = mapData.filter(i => i.geometry.type === 'Polygon');
             let lines = mapData.filter(i => i.geometry.type === 'LineString');
-            let purple_places = points.filter(i => i.properties.isFiscal === 'no');
-            let golden_places = points.filter(i => i.properties.isFiscal === 'yes');
+            let purple_places = points.filter(i => i.properties.symbols.includes('fiscal'));
+            let golden_places = points.filter(i => !(i.properties.symbols.includes('fiscal')));
             let ports_places = points.filter(i => i.properties.symbols.includes('ports'));
             let fortifications_places = points.filter(i => i.properties.symbols.includes('fortifications'));
             let residences_places = points.filter(i => i.properties.symbols.includes('residences'));

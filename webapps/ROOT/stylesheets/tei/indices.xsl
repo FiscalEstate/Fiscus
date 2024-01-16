@@ -249,7 +249,7 @@
         <xsl:if test="arr[@name='index_instance_location']">
           <xsl:text> </xsl:text><button type="button" class="expander" onclick="$(this).next().toggleClass('hidden'); $(this).text($(this).next().hasClass('hidden') ? 'Show' : 'Hide');">Show</button>
           <div class="expanded hidden linked_elements">
-            <h4 class="inline"><xsl:text>Linked documents by date (</xsl:text><xsl:value-of select="count(arr[@name='index_instance_location']/str)"/><xsl:text>):</xsl:text></h4>
+            <h4 class="inline"><xsl:text>Linked documents by date (</xsl:text><xsl:value-of select="count(arr[@name='index_instance_location']/str)"/> total occurrences<xsl:text>):</xsl:text></h4>
             <ul>
               <xsl:apply-templates select="arr[@name='index_instance_location']/str">
                 <xsl:sort><xsl:value-of select="substring-before(substring-after(substring-after(., '#doc'), '#'), '#')"/></xsl:sort>
@@ -452,7 +452,7 @@
   <!-- item list of linked documents -->
   <xsl:template match="arr[@name='index_instance_location']">
     <div class="linked_elements">
-      <h4 class="inline"><xsl:text>Linked documents by date (</xsl:text><xsl:value-of select="count(str)"/><xsl:text>):</xsl:text></h4>
+      <h4 class="inline"><xsl:text>Linked documents by date (</xsl:text><xsl:value-of select="count(str)"/><xsl:text> total occurrences):</xsl:text></h4>
     <xsl:text> </xsl:text>
       <button type="button" class="expander" onclick="$(this).next().toggleClass('hidden'); $(this).text($(this).next().hasClass('hidden') ? 'Show' : 'Hide');">Show</button>
     <ul class="expanded hidden">
