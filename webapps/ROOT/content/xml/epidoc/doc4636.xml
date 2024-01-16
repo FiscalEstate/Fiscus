@@ -29,10 +29,10 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="#"/>
-                            <rs type="record_source" ref="#"/>
+                            <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Copy</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -41,9 +41,9 @@
                     <history>
                         <origin>
                             <origDate notBefore="1094-03-01" notAfter="1094-03-31">
-                                <note type="displayed_date"/>
+                                <note type="displayed_date">1094 March 1 - 1094 March 31</note>
                                 <note type="dating_elements"/>
-                                <note type="topical_date"/>
+                                <note type="topical_date">Aversa</note>
                                 <note type="redaction_date">1094 March 1 - 1094 March 31?</note>
                             </origDate>
                             <origPlace></origPlace>
@@ -80,30 +80,52 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>+ NOS secundus Richardus, divina ordinante clementia Capuanorum princeps,
-                        per interventum Stantionis vice comitis aliorumque fidelium nostrorum, tibi
-                        Rao fideli nostro filio cuiusdam Herbelini habitatori huius nostre urbis
-                        Averse nec non tuisque heredibus in perpetuum damus, concedimus et
-                        confirmamus inclita una petia taerre et ortu nostro palatio pertinente quae
-                        est foras portam Sancti Andree iuxta forum qui dicitur Sabbati quae habet
-                        fines: ab uno latere fine taerra Iohannis Sellari, ab alio latere fine terre
-                        Ivonis Novelli; ab uno capite terra Thome de Venabile. Hec autem prescripta
-                        petia taerre et ortum tibi prephato Rao tuisque heredibus, cum viis in
-                        omnibus intrandi et exeundi et cum omnibus inferioribus ac superioribus
-                        eius, damus, concedimus et confirmamus ad possessionem tuam tuorumque
-                        heredum, faciendo exinde quod volueris. Remota omni contrarietate et
-                        molesta[tione principum successorum nostrorum ve]l vice principum, comitum
-                        vel vice comitum, sculd[ahorum], castaldeorum, aliorumque om[nium mortalium
-                        personae. Quod si quis huius nostrae c[on]cessionis contemptor aut violator
-                        esse temptaverit, quinque libras auri purissimi persolvat, medietatem nostro
-                        sacro palatio, et medietatem tibi tuisque heredibus. Solutaque pena librarum
-                        hoc scriptum firmum, munitum atque inviolabile maneat in perpetuum. Et ut
-                        hoc firmius credatur et diligentius ab omnibus observetur, anulo nostro
-                        iussimus sigillari. DATUM Aversa, mense martio, per indictionem secundam. </ab>
+                    <ab>+ NOS <persName key="#Princeps" ref="#people/3010">secundus
+                            Richardus</persName>, divina ordinante clementia Capuanorum <rs
+                            key="#Princeps">princeps</rs>, <rs key="#Intercessory">per
+                            interventum</rs>
+                        <persName key="#Intercessory #Viscount" ref="#people/3078"
+                            >Stantionis</persName>
+                        <rs key="#Viscount">vice comitis</rs> aliorumque <rs key="#fidelisOf"
+                            >fidelium</rs> nostrorum, tibi <persName key="#childOf #fidelisOf"
+                            ref="#people/5015">Rao</persName>
+                        <rs key="#fidelisOf">fideli</rs> nostro <rs key="#childOf">filio</rs>
+                        cuiusdam <persName><name ref="Herbelinus">Herbelini</name></persName>
+                        habitatori huius nostre <rs key="#Cities">urbis</rs>
+                        <placeName key="#Cities" ref="#places/4000">Averse</placeName> nec non
+                        tuisque <rs key="#heirTo">heredibus</rs> in perpetuum damus, concedimus et
+                        confirmamus inclita una <rs
+                            key="#Petiae #Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Iure_proprietatis/pleno_iure"
+                            >petia</rs> taerre et <rs
+                            key="#Landed_possessions #Fruits/vegetables #Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Iure_proprietatis/pleno_iure"
+                            >ortu</rs> nostro palatio pertinente quae est foras <rs
+                            key="#Clusae/gates">portam</rs>
+                        <placeName key="#Clusae/gates" ref="#places/5127">Sancti Andree</placeName>
+                        iuxta <rs key="#Markets">forum</rs> qui dicitur <placeName key="#Markets"
+                            ref="#places/5128">Sabbati</placeName> quae habet <rs key="#Fines"
+                            >fines</rs>: ab uno latere fine taerra <persName><name
+                                ref="Iohannes Sellarius">Iohannis Sellari</name></persName>, ab alio
+                        latere fine terre <persName><name ref="Ivo Novellus">Ivonis
+                            Novelli</name></persName>; ab uno capite terra <persName
+                            ref="#people/5016">Thome de Venabile</persName>. Hec autem prescripta
+                        petia taerre et ortum tibi prephato Rao tuisque heredibus, cum <rs
+                            key="#Roads">viis</rs> in omnibus intrandi et exeundi et cum omnibus
+                        inferioribus ac superioribus eius, damus, concedimus et confirmamus ad
+                        possessionem tuam tuorumque heredum, faciendo exinde quod volueris. Remota
+                        omni contrarietate et molesta[tione principum successorum nostrorum ve]l
+                        vice principum, comitum vel vice comitum, sculd[ahorum], castaldeorum,
+                        aliorumque om[nium mortalium personae. Quod si quis huius nostrae
+                        c[on]cessionis contemptor aut violator esse temptaverit, <rs key="#Penalty"
+                            >quinque libras auri purissimi</rs> persolvat, medietatem nostro sacro
+                        palatio, et medietatem tibi tuisque heredibus. Solutaque pena librarum hoc
+                        scriptum firmum, munitum atque inviolabile maneat in perpetuum. Et ut hoc
+                        firmius credatur et diligentius ab omnibus observetur, anulo nostro iussimus
+                        sigillari. DATUM <placeName key="#Cities" ref="#places/4000"
+                            >Aversa</placeName>, mense martio, per indictionem secundam. </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p/>
+                <p>Inguanez 1926, pp. 13-14 (source of the text reproduced here). </p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p/>
@@ -113,7 +135,7 @@
             </div>
             <div type="commentary">
                 <p>Loud ipotizza si tratti di una copia allestita contemporaneamente all'emissione
-                    del diploma originale. </p>
+                    del diploma originale (Loud 1981).</p>
             </div>
         </body>
     </text>
