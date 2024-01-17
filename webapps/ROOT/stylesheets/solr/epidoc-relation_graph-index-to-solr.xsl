@@ -14,6 +14,13 @@
   <xsl:param name="subdirectory" />
   
   <!-- GRAPH VARIABLES - START -->
+  <!--<xsl:variable name="places" select="document(concat('file:',system-property('user.dir'), '/webapps/ROOT/content/fiscus_framework/resources/places.xml'))/tei:TEI/tei:text/tei:body/tei:listPlace[@type='places']/tei:listPlace"/>
+  <xsl:variable name="juridical_persons" select="document(concat('file:',system-property('user.dir'), '/webapps/ROOT/content/fiscus_framework/resources/juridical_persons.xml'))/tei:TEI/tei:text/tei:body/tei:listOrg[@type='juridical_persons']/tei:listOrg"/>
+  <xsl:variable name="estates" select="document(concat('file:',system-property('user.dir'), '/webapps/ROOT/content/fiscus_framework/resources/estates.xml'))/tei:TEI/tei:text/tei:body/tei:listPlace[@type='estates']/tei:listPlace"/>
+  <xsl:variable name="people" select="document(concat('file:',system-property('user.dir'), '/webapps/ROOT/content/fiscus_framework/resources/people.xml'))/tei:TEI/tei:text/tei:body/tei:listPerson[@type='people']/tei:listPerson"/>
+  <xsl:variable name="thesaurus" select="document(concat('file:',system-property('user.dir'), '/webapps/ROOT/content/fiscus_framework/resources/thesaurus.xml'))/tei:TEI/tei:teiHeader/tei:encodingDesc/tei:classDecl/tei:taxonomy"/>
+  <xsl:variable name="all_items" select="$places|$juridical_persons|$estates|$people"/>-->
+  
   <!-- generate lists of items, their relations and their labels -->  
   <xsl:variable name="graph_items">
     <xsl:text>{nodes:[</xsl:text>

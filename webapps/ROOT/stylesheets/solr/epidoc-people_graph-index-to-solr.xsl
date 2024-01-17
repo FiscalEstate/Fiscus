@@ -14,6 +14,9 @@
   <xsl:param name="subdirectory" />
   
   <!-- GRAPH VARIABLES - START -->
+  <!--<xsl:variable name="people" select="document(concat('file:',system-property('user.dir'), '/webapps/ROOT/content/fiscus_framework/resources/people.xml'))/tei:TEI/tei:text/tei:body/tei:listPerson[@type='people']/tei:listPerson"/>
+  <xsl:variable name="thesaurus" select="document(concat('file:',system-property('user.dir'), '/webapps/ROOT/content/fiscus_framework/resources/thesaurus.xml'))/tei:TEI/tei:teiHeader/tei:encodingDesc/tei:classDecl/tei:taxonomy"/>-->
+  
   <!-- generate lists of items, their relations and their labels -->  
   <xsl:variable name="people_graph_items">
     <xsl:text>{nodes:[</xsl:text>
