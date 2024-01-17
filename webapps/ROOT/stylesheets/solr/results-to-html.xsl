@@ -159,7 +159,7 @@
             </p>
           </div>
         
-          <xsl:variable name="map_data_raw" select="document(concat('file:',system-property('user.dir'), '/webapps/ROOT/content/map_data.xml'))/mapPlaces/mapPlace"/>
+          <xsl:variable name="map_data_raw" select="document(concat('file:',system-property('user.dir'), '/webapps/ROOT/content/exports/map_raw_data.xml'))/mapPlaces/mapPlace"/>
           
           <xsl:variable name="map_data">
           <xsl:for-each select="$map_data_raw">

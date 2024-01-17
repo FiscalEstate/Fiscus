@@ -239,7 +239,7 @@
           
           <xsl:if test="$element-id and $linkedplaces!=''">
             <field name="index_linked_places">
-              <xsl:value-of select="concat('map.html#select#',translate(string-join($linkedplaces, '#'),'places/',''),'#')"/><xsl:text>~</xsl:text>
+              <xsl:value-of select="concat('resources/map.html#select#',translate(string-join($linkedplaces, '#'),'places/',''),'#')"/><xsl:text>~</xsl:text>
             <xsl:for-each select="$linkedplaces">
               <xsl:variable name="key" select="translate(translate(.,' ',''), '#', '')"/>
               <xsl:value-of select="substring-after($key, 'places/')"/><xsl:text>#</xsl:text>
