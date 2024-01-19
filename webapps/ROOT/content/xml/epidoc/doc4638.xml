@@ -32,7 +32,7 @@
                             <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Copy</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -80,44 +80,83 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>+ In domini salvatoris nostri Iesu Christi Dei eterni. Secundus Richardus
-                        divina ordinante clementia Capuanorum princeps, ob salutem anime sue
+                    <ab>+ In domini salvatoris nostri Iesu Christi Dei eterni. <persName
+                            key="#Princeps #Vir_magnificus #Vir_gloriosus/vir_sublimis"
+                            ref="#people/3010">Secundus Richardus</persName> divina ordinante
+                        clementia Capuanorum <rs key="#Princeps">princeps</rs>, ob salutem anime sue
                         suorumque parentum hoc donum clementer ac benigne factum est. Nos secundus
                         Richardus divina ordinante clementia Capuanorum princeps, notum fieri
                         volumus omnibus fidelibus nostris, quoniam ob salutem et remedium animarum
-                        quondam principum predecessorum nostrorum Richardi silicet avi et Iordani
-                        patris, nec non et omnium parentum nostrorum, ecclesiam beati Pauli, que est
-                        mater in urbe Aversana, honorare et exaltare cupientes, per interventum
-                        quoque domni Iohannis eiusdem ecclesie venerabilis episcopi, et Robberti
-                        Ranulfi comitis filii, et nostrorum dilectorum subscriptorum baronum Hugonis
-                        videlicet de Molinis, Willelmi de Pirolo, Robberti de Medania, Thome de
-                        Venabile, Raynaldi Lupi[ni], Raynaldi de Matalone, Ranulfi filii Guale,
-                        Radulfi de Mucegros, predicte ecclesie Sancti Pauli apostoli, per hoc
-                        principale scriptum in perpetuum damus et tradendo confirmamus, ecc[lesiam]
-                        Sancti Petri Alibissidi, sitam in territorio Nucerie, que est in manu
-                        nostra, cum villanis, presis, casis, fabricis et infrabicis, terris cultis
-                        et incultis, arbustis et universis pertinentiis suis, ad possessionem ac
-                        potestatem atque dominationem prefate ecclesie Beati Pauli apostoli et
-                        memorati domni Iohannis, venerabilis episcopi, cunct[orumque] successorum
-                        eius, remota omni inquietudine, contrarietate atque molestia omnium
-                        principum successorum nostrorum vel vice principum, comitum vel vice
-                        comitum, [iudicum], sculdahorum et castaldeorum, alior[umque omnium
-                        morta]lium personarum. Quod si quis huius nostre donationis et traditionis
-                        pagine contemptor aut [violator] esse presumpserit, quingentas libras auri
-                        purissimi persolvat, medietatem nostro sac[ro palatio et] medietatem
-                        predicte ecclesie Sancti Pauli apostoli Aversane s[edis] et pre[dicto] domno
-                        Iohanni venerabili episcopo eiusque successoribus. Solutaque pena librarum,
-                        hec nostra donatio, firma, munita atque inconvulsa maneat in perpetuum. Et
-                        ut hoc firmius credatur et diligentius ab omnibus observetur, manu propria
-                        subscripsimus et nostri sigilli impressione iussimus insigniri. SIGNUM DOMNI
-                        (M) SECUNDI RICHARDI GLORIOSISSIMI AC MAGNIFICI PRINCIPIS. + EGO ROBBERTUS
-                        COMES. Ex iussione prephate serenissime potestatis, scripsi ego QUIRIACUS
-                        PALATINUS IUDEX, in anno dominice incarnationis M. nonagesimo quinto, et
-                        sextodecimo anno principatus ipsius domni secundi Richardi, gloriosi
-                        principis. DATUM NUCERIAE, mense octubrio, per indictionem quartam. + Ego
-                        Hugo de Molinis. + Ego Raynaldus Lupinus. + Ego Willelmus de Pirolo. + Ego
-                        Raynaldus de Matalone. + Ego Robbertus de Medania. + Ego Ranulfus filius
-                        Guale. + Ego Thoma de Venabile. + Ego Radulfus de Mucegros. </ab>
+                        quondam <rs key="#Princeps">principum</rs> predecessorum nostrorum <persName
+                            key="#Princeps #grandparentOf" ref="#people/3001">Richardi</persName>
+                        silicet <rs key="#grandparentOf">avi</rs> et <persName
+                            key="#Princeps #parentOf" ref="#people/3002">Iordani</persName>
+                        <rs key="#parentOf">patris</rs>, nec non et omnium <rs key="#familyOf"
+                            >parentum</rs> nostrorum, <rs key="#Mother_churches">ecclesiam</rs>
+                        <orgName key="#Mother_churches" ref="#juridical_persons/3053">beati
+                            Pauli</orgName>, que est mater in <rs key="#Cities">urbe</rs>
+                        <placeName key="#Cities #Dioecesis" ref="#places/4000">Aversana</placeName>,
+                        honorare et exaltare cupientes, <rs key="#Intercessory">per interventum
+                        </rs>quoque domni <persName key="#Intercessory #Bishops #Personal_rank"
+                            ref="#people/3056">Iohannis</persName> eiusdem ecclesie <rs
+                            key="#Personal_rank">venerabilis</rs>
+                        <rs key="#Bishops">episcopi</rs>, et <persName
+                            key="#Intercessory #Witness #Count #childOf" ref="#people/2422"
+                            >Robberti</persName>
+                        <persName key="#Count" ref="#people/4236">Ranulfi</persName>
+                        <rs key="#Count">comitis</rs>
+                        <rs key="#childOf">filii</rs>, et nostrorum dilectorum subscriptorum baronum
+                            <persName key="#Intercessory #Witness" ref="#people/4251">Hugonis
+                            videlicet de Molinis</persName>, <persName key="#Intercessory #Witness"
+                            ref="#people/3076">Willelmi de Pirolo</persName>, <persName
+                            key="#Intercessory #Witness" ref="#people/3020">Robberti de
+                            Medania</persName>, <persName key="#Intercessory #Witness"
+                            ref="#people/5016">Thome de Venabile</persName>, <persName
+                            key="#Intercessory #Witness" ref="#people/3080">Raynaldi
+                            Lupi[ni]</persName>, <persName key="#Intercessory #Witness"
+                            ref="#people/5017">Raynaldi de Matalone</persName>, <persName
+                            key="#Intercessory #Witness" ref="#people/4253">Ranulfi filii
+                            Guale</persName>, <persName key="#Intercessory #Witness"
+                            ref="#people/4242">Radulfi de Mucegros</persName>, predicte ecclesie
+                        Sancti Pauli apostoli, per hoc principale scriptum in perpetuum damus et
+                        tradendo confirmamus, <rs key="#Churches">ecc[lesiam] </rs><orgName
+                            key="#Houses #Landed_possessions #Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Iure_proprietatis/pleno_iure #Coloni/tenants #Churches"
+                            ref="#juridical_persons/3802">Sancti Petri Alibissidi</orgName>, sitam
+                        in <rs key="#City_territory">territorio</rs>
+                        <placeName key="#City_territory" ref="#places/4014 #places/4717"><geogName
+                                key="#City_territory" ref="#estates/3035"
+                            >Nucerie</geogName></placeName>, que est in manu nostra, cum <rs
+                            key="#Coloni/tenants">villanis</rs>, <rs key="#Landed_possessions"
+                            >presis</rs>, <rs key="#Houses">casis</rs>, fabricis et infrabicis, <rs
+                            key="#Landed_possessions">terris cultis et incultis</rs>, arbustis et
+                        universis pertinentiis suis, ad possessionem ac potestatem atque
+                        dominationem prefate ecclesie Beati Pauli apostoli et memorati domni
+                        Iohannis, venerabilis episcopi, cunct[orumque] successorum eius, remota omni
+                        inquietudine, contrarietate atque molestia omnium principum successorum
+                        nostrorum vel vice principum, comitum vel vice comitum, [iudicum],
+                        sculdahorum et castaldeorum, alior[umque omnium morta]lium personarum. Quod
+                        si quis huius nostre donationis et traditionis pagine contemptor aut
+                        [violator] esse presumpserit, <rs key="#Penalty">quingentas libras auri
+                            purissimi</rs> persolvat, medietatem nostro sac[ro palatio et]
+                        medietatem predicte ecclesie Sancti Pauli apostoli Aversane<rs
+                            key="#Dioecesis"> s[edis]</rs> et pre[dicto] domno Iohanni venerabili
+                        episcopo eiusque successoribus. Solutaque pena librarum, hec nostra donatio,
+                        firma, munita atque inconvulsa maneat in perpetuum. Et ut hoc firmius
+                        credatur et diligentius ab omnibus observetur, manu propria subscripsimus et
+                        nostri sigilli impressione iussimus insigniri. SIGNUM DOMNI (M) SECUNDI
+                        RICHARDI <rs key="#Vir_gloriosus/vir_sublimis">GLORIOSISSIMI</rs> AC <rs
+                            key="#Vir_magnificus">MAGNIFICI</rs> PRINCIPIS. + EGO ROBBERTUS <rs
+                            key="#Count">COMES</rs>. Ex iussione prephate serenissime potestatis,
+                        scripsi ego <persName key="#Writer #Judge" ref="#people/3012"
+                            >QUIRIACUS</persName>
+                        <rs key="#Judge">PALATINUS IUDEX</rs>, in anno dominice incarnationis M.
+                        nonagesimo quinto, et sextodecimo anno principatus ipsius domni secundi
+                        Richardi, gloriosi principis. DATUM <placeName key="#Cities"
+                            ref="#places/4014 #places/4717">NUCERIAE</placeName>, mense octubrio,
+                        per indictionem quartam. + Ego Hugo de Molinis. + Ego Raynaldus Lupinus. +
+                        Ego Willelmus de Pirolo. + Ego Raynaldus de Matalone. + Ego Robbertus de
+                        Medania. + Ego Ranulfus filius Guale. + Ego Thoma de Venabile. + Ego
+                        Radulfus de Mucegros. </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
