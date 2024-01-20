@@ -32,7 +32,7 @@
                             <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Copy</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -80,45 +80,73 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>+ IN NOMINE DOMINI SALVATORIS NOSTRI IESU CHRISTI DEI ETERNI. ROBBERTUS
-                        DIVINA ORDINANTE CLEMENTIA CAPUANORUM PRINCEPS OB SALUTE ANIME SUE SUORUMQUE
+                    <ab>+ IN NOMINE DOMINI SALVATORIS NOSTRI IESU CHRISTI DEI ETERNI. <persName
+                            key="#Princeps #Vir_magnificus #Vir_gloriosus/vir_sublimis"
+                            ref="#people/3019">ROBBERTUS</persName> DIVINA ORDINANTE CLEMENTIA
+                        CAPUANORUM <rs key="#Princeps">PRINCEPS</rs> OB SALUTE ANIME SUE SUORUMQUE
                         PARENTUM HOC DONUM CLEMENTER AC BENIGNE FAVET. NOS Robbertus divina
                         ordinante clementia Capuanorum princeps, notum fieri volumus omnibus
                         baronibus fidelibus nostris, quoniam ob salutem et remedium animarum quondam
-                        principum Richardi scilicet avi, et Iordani patris nec non Richardi fratris
-                        nostri et matris nostre Gaytelgrime omniumque parentum nostrorum, ecclesiae
-                        Dei et Beati Pauli apostoli Aversanae sedis, cui domnus Robbertus
-                        venerabilis episcopus prehest, concedimus et confirmamus per hoc principale
-                        scriptum in perpetuum, terras et presas et casas, fabricas et infabricas cum
-                        curte quae sunt intro hanc nostram Aversanam civitatem ante prephatam
-                        ecclesiam, cum omnibus edificiis et instrumentis eorum et cum omnibus
-                        inferioribus ac superioribus illarum, nec non cum viis et anditis ipsorum et
-                        cum omnibus pertinentiis illarum, qualiter olim Ingelbertus aepiscopus
-                        Aquinas tenuit, possedit ac dominatus est haec omnia, et promittimus nos
-                        ipsi sanctae ecclesiae et prephato Robberto venerabili aepiscopo et
-                        successoribus eius quod modo et deinceps huius [d]oni et concessionis actor
-                        et procurator ac defensor eis erimus scilicet con[tr]a omnes homines qui
-                        alicui ex eis auferre temptaverint vel invaserint, placitare exinde contra
-                        eis. Haec omnia predicta qualiter superius sunt adnotata, nos prenotatus
-                        Robbertus Capuanus princeps, per hoc principale scriptum, in perpetuum
-                        prephate sanctae aecclesiae Beati Pauli apostoli, Aversane sedis et predicto
-                        domno Robberto venerabili aepiscopo et successoribus eius concedimus ac
-                        confirmamus faciendo exinde utilitatem ipsius sanctae aecclesiae. Remota
-                        omni inquietudine, contrarietate et molestia omnium principum successorum
+                            <rs key="#Princeps">principum</rs>
+                        <persName key="#Princeps #grandparentOf" ref="#people/3001"
+                            >Richardi</persName> scilicet <rs key="#grandparentOf">avi</rs>, et
+                            <persName key="#parentOf" ref="#people/3002">Iordani</persName>
+                        <rs key="#parentOf">patris</rs> nec non <persName key="#Princeps #siblingOf"
+                            ref="#people/3010">Richardi</persName>
+                        <rs key="#siblingOf">fratris</rs> nostri et <rs key="#parentOf">matris</rs>
+                        nostre <persName key="#parentOf" ref="#people/3011">Gaytelgrime</persName>
+                        omniumque <rs key="#parentOf">parentum</rs> nostrorum, <rs
+                            key="#Mother_churches">ecclesiae</rs>
+                        <orgName key="#Mother_churches" ref="#juridical_persons/3053">Dei et Beati
+                            Pauli apostoli</orgName>
+                        <placeName key="#Cities #Dioecesis" ref="#places/4000">Aversanae</placeName>
+                        <rs key="#Dioecesis">sedis</rs>, cui domnus <persName
+                            key="#Bishops #Personal_rank" ref="#people/5018">Robbertus</persName>
+                        <rs key="#Personal_rank">venerabilis</rs>
+                        <rs key="#Bishops">episcopus</rs> prehest, concedimus et confirmamus per hoc
+                        principale scriptum in perpetuum, <rs
+                            key="#Landed_possessions #Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Iure_proprietatis/pleno_iure"
+                            >terras et presas</rs> et <rs
+                            key="#Houses #Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Iure_proprietatis/pleno_iure"
+                            >casas</rs>, fabricas et infabricas cum <rs
+                            key="#Curtes #Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Iure_proprietatis/pleno_iure"
+                            >curte</rs> quae sunt intro hanc nostram Aversanam <rs key="#Cities"
+                            >civitatem</rs> ante prephatam ecclesiam, cum omnibus edificiis et
+                        instrumentis eorum et cum omnibus inferioribus ac superioribus illarum, nec
+                        non cum <rs key="#Roads">viis et anditis</rs> ipsorum et cum omnibus
+                        pertinentiis illarum, qualiter olim <persName key="#Bishops"
+                            ref="#people/5029">Ingelbertus</persName>
+                        <rs key="#Bishops">aepiscopus</rs>
+                        <placeName key="#Cities" ref="#places/2795">Aquinas</placeName> tenuit,
+                        possedit ac dominatus est haec omnia, et promittimus nos ipsi sanctae
+                        ecclesiae et prephato Robberto venerabili aepiscopo et successoribus eius
+                        quod modo et deinceps huius [d]oni et concessionis actor et procurator ac
+                        defensor eis erimus scilicet con[tr]a omnes homines qui alicui ex eis
+                        auferre temptaverint vel invaserint, placitare exinde contra eis. Haec omnia
+                        predicta qualiter superius sunt adnotata, nos prenotatus Robbertus Capuanus
+                        princeps, per hoc principale scriptum, in perpetuum prephate sanctae
+                        aecclesiae Beati Pauli apostoli, Aversane sedis et predicto domno Robberto
+                        venerabili aepiscopo et successoribus eius concedimus ac confirmamus
+                        faciendo exinde utilitatem ipsius sanctae aecclesiae. Remota omni
+                        inquietudine, contrarietate et molestia omnium principum successorum
                         nostrorum vel vice principum, comitum vel vice comitum, iudicum,
                         castaldeorum aliorumque omnium mortalium persone. Quod si quis huius nostre
                         concessionis et confirmationis paginam contemptor aut violator esse in
-                        aliquo presumpserit, quinquaginta libras auri purissimi persolvat,
-                        medietatem prephate ecclesiae et dicto domno Robberto venerabili aepiscopo
-                        et successoribus eius, et medietatem nostro palatio. Solutaque pena
-                        [librarum hec nostra concessio et confirmatio, firma, munita atque
-                        inviolabilis maneat in perpetuum]. Et ut hoc firmius credatur et diligentius
-                        ab omnibus observetur, manu propria [subscribens corrobora]vimus, et nostri
-                        sigilli impressione iussimus insigniri.  SIGNUM DOMINI (M) ROBBERTI
-                        MAGNIFICI PRINCIPIS. Ex iussione prephate potesta[tis], scripsi EGO
-                        QUIRIACUS PALATINUS IUDEX, in anno dominice incarnationis MCVIII° et secundo
-                        anno principatus prephati domni Robberti gloriosi principis Capuae. Datum
-                        nono die intrantis mensis decembris, per indictionem secundam. </ab>
+                        aliquo presumpserit, <rs key="#Penalty">quinquaginta libras auri
+                            purissimi</rs> persolvat, medietatem prephate ecclesiae et dicto domno
+                        Robberto venerabili aepiscopo et successoribus eius, et medietatem nostro
+                        palatio. Solutaque pena [librarum hec nostra concessio et confirmatio,
+                        firma, munita atque inviolabilis maneat in perpetuum]. Et ut hoc firmius
+                        credatur et diligentius ab omnibus observetur, manu propria [subscribens
+                        corrobora]vimus, et nostri sigilli impressione iussimus insigniri. SIGNUM
+                        DOMINI (M) ROBBERTI <rs key="#Vir_magnificus">MAGNIFICI</rs> PRINCIPIS. Ex
+                        iussione prephate potesta[tis], scripsi EGO <persName key="#Judge"
+                            ref="#people/3012">QUIRIACUS</persName>
+                        <rs key="#Judge">PALATINUS IUDEX</rs>, in anno dominice incarnationis
+                        MCVIII° et secundo anno principatus prephati domni Robberti <rs
+                            key="#Vir_gloriosus/vir_sublimis">gloriosi</rs> principis <placeName
+                            key="#Cities" ref="#places/173">Capuae</placeName>. Datum nono die
+                        intrantis mensis decembris, per indictionem secundam. </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
