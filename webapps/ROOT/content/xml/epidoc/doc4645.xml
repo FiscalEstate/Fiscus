@@ -29,10 +29,10 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="#"/>
+                            <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Edition</rs>
                             <rs type="document_tradition" ref="#">Copy</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">No</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -40,10 +40,10 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate>
-                                <note type="displayed_date"/>
+                            <origDate notBefore="1083-09-01" notAfter="1084-05-31">
+                                <note type="displayed_date">1083 September 1 - 1084 May 31</note>
                                 <note type="dating_elements"/>
-                                <note type="topical_date"/>
+                                <note type="topical_date">Aquino</note>
                                 <note type="redaction_date">1172-1183</note>
                             </origDate>
                             <origPlace></origPlace>
@@ -80,33 +80,52 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>+ Nos Iordanus Dei gratia Capue princeps nota fieri volumus omnibus sancte
-                        ecclesie, filiis nostre, subditis dicioni pro salute et redemptione anime
-                        principis Richardi patris mei et matris mee Fredessinde et mee et heredum
-                        meorum concessisse monasterio sancti Mathei sito in monte Castellum
-                        cognominatur subiecto monasterio sancti Benedicti Montis Casinis et domno
-                        Santio ejusdem monasterii custodi atque rectori suisque successoribus in
-                        perpetuum. Videlicet omnes domos, terras et hereditates Raynaldi olim
-                        commorantis Aquinum qualiter fuerunt et pertinuerunt eidem Raynaldo
-                        ubicumque invente fuerint ad possessionem prescripti monasterii sancti
-                        Mathei et domni Santii ejusdem monasterii custodis atque rectoris suorumque
-                        successorum, ad habendum et possidendum et faciendum inde regulariter quod
-                        ei suisque successoribus placuerit. Nemine prefato monasterio et prescripto
-                        domno Santio suisque successoribus aliquam molestie inferente. Quod si quis
-                        diabolico instinctu compulsus hanc nostram concessionis et confirmationis
-                        pagina violare presumpserit, triginta auri optimi libras persolvat,
-                        medietatem nostro palatio et medietatem prephato monasterio et prescripto
-                        domno Santio suisque successoribus: et soluta pena hoc scriptum firmum et
-                        inviolabile maneat in perpetuum. Et ut firmius credatur et diligentius
-                        observetur nostro sigillo fecimus sigillari [L. S.]. Scripsi ego Cansolinus
-                        iudex in Aquino, in anno millesimo octogesimo tertio ab incarnatione Domini
-                        nostri Iesu Christi, et in vicesimo sexto anno principatus prescripti
-                        principis Capue, vicesimo primo anno ducatus ejus Gaiete, per septimam
-                        indictionem [S.T.]. </ab>
+                    <ab>+ Nos <persName key="#Princeps #Marquis/duke" ref="#people/3002"
+                            >Iordanus</persName> Dei gratia Capue <rs key="#Princeps">princeps</rs>
+                        nota fieri volumus omnibus sancte ecclesie, filiis nostre, subditis dicioni
+                        pro salute et redemptione anime <rs key="#Princeps">principis</rs>
+                        <persName key="#Princeps #parentOf" ref="#people/3001">Richardi</persName>
+                        <rs key="#parentOf">patris</rs> mei et <rs key="#parentOf">matris</rs> mee
+                            <persName key="#parentOf" ref="#people/3003">Fredessinde</persName> et
+                        mee et <rs key="#heirTo">heredum</rs> meorum concessisse <rs
+                            key="#Monasteries">monasterio</rs>
+                        <orgName key="#Monasteries" ref="#juridical_persons/3804">sancti Mathei sito
+                            in monte Castellum </orgName>cognominatur subiecto <rs
+                            key="#Monasteries">monasterio</rs>
+                        <orgName key="#Monasteries" ref="#juridical_persons/84">sancti Benedicti
+                            Montis Casinis</orgName> et domno <persName key="#rectorOf"
+                            ref="#people/5031">Santio</persName> ejusdem monasterii custodi atque
+                            <rs key="#rectorOf">rectori</rs> suisque successoribus in perpetuum.
+                        Videlicet omnes <rs key="#Houses">domos</rs>, <rs key="#Landed_possessions"
+                            >terras et hereditates</rs>
+                        <persName><name ref="Raginaldus de Aquino">Raynaldi olim commorantis
+                                Aquinum</name></persName> qualiter fuerunt et pertinuerunt eidem
+                        Raynaldo ubicumque invente fuerint ad possessionem prescripti monasterii
+                        sancti Mathei et domni Santii ejusdem monasterii custodis atque rectoris
+                        suorumque successorum, ad habendum et possidendum et faciendum inde
+                        regulariter quod ei suisque successoribus placuerit. Nemine prefato
+                        monasterio et prescripto domno Santio suisque successoribus aliquam molestie
+                        inferente. Quod si quis diabolico instinctu compulsus hanc nostram
+                        concessionis et confirmationis pagina violare presumpserit, triginta auri
+                        optimi libras persolvat, medietatem nostro palatio et medietatem prephato
+                        monasterio et prescripto domno Santio suisque successoribus: et soluta pena
+                        hoc scriptum firmum et inviolabile maneat in perpetuum. Et ut firmius
+                        credatur et diligentius observetur nostro sigillo fecimus sigillari [L. S.].
+                        Scripsi ego <persName key="#Writer #Judge" ref="#people/3005"
+                            >Cansolinus</persName>
+                        <rs key="#Judge">iudex</rs> in <placeName key="#Cities" ref="#places/2795"
+                            >Aquino</placeName>, in anno millesimo octogesimo tertio ab incarnatione
+                        Domini nostri Iesu Christi, et in vicesimo sexto anno principatus prescripti
+                        principis <placeName key="#Cities" ref="#places/173">Capue</placeName>,
+                        vicesimo primo anno <rs key="#Marquis/duke #Marca/ducatum">ducatus</rs> ejus
+                            <placeName key="#Cities #Marca/ducatum" ref="#places/2343"><geogName
+                                key="#Marca/ducatum" ref="#estates/3001"
+                            >Gaiete</geogName></placeName>, per septimam indictionem [S.T.]. </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p/>
+                <p>Gattola 1733, p. 401; <foreign>RSM</foreign>, pp. 4-5 (source of the text
+                    reproduced here).</p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p/>
