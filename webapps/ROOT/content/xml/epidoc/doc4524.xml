@@ -32,7 +32,7 @@
                             <rs type="text_type" ref="#">-Cartula</rs>
                             <rs type="record_source" ref="#">Edition</rs>
                             <rs type="document_tradition" ref="#">Copy</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -82,55 +82,83 @@
                 <div type="textpart">
                     <ab>+ In nomine domini dei salvatoris nostri Ihesu Christi anno ab incarnatione
                         eius millesimo septuagesimo quarto; vicesimo quarto ygitur anno regnante
-                        domino riccardo per ligurie campanie tellus in comitatu adque principatu cum
-                        domino iordano filio eius gloriosi francorum adque longobardorum
-                        principibus. mense aprelis duodecima indictione Ideoque ego aldoyno franco;
-                        unum ex militibus aversane; videtur mihi abere fegus; beneficii a partibus
-                        prefati principibus pro partibus nostre militie; quapropter pro umilitatis;
+                        domino <persName ref="#people/3001"
+                            key="#Princeps #Vir_gloriosus/vir_sublimis">riccardo</persName> per
+                            <placeName key="#Geographic_regions" ref="#places/605"><geogName
+                                key="#Geographic_regions" ref="#estates/3003">ligurie campanie
+                                tellus</geogName></placeName> in comitatu adque principatu cum
+                        domino <persName key="#Princeps #Vir_gloriosus/vir_sublimis #childOf"
+                            ref="#people/3002">iordano</persName>
+                        <rs key="#childOf">filio</rs> eius <rs key="#Vir_gloriosus/vir_sublimis"
+                            >gloriosi</rs> francorum adque <rs key="#Lombard">longobardorum</rs>
+                        <rs key="#Princeps">principibus</rs>. mense aprelis duodecima indictione
+                        Ideoque ego <persName key="#milesOf" ref="#people/3052">aldoyno
+                            franco</persName>; <rs key="#milesOf">unum ex militibus</rs>
+                        <placeName key="#Cities" ref="#places/4000">aversane</placeName>; videtur
+                        mihi abere <rs
+                            key="#Fiscal_property #Textual_occurrence #Mention #Function #Redistributive #Outflow #Allocation_to_individuals #Feudum"
+                            >fegus</rs>; <rs key="#Beneficium">beneficii</rs> a partibus prefati
+                        principibus pro partibus nostre militie; quapropter pro umilitatis;
                         conpunctione; et urgendo recordatione; peccata mea et timore divini iudicii;
                         quia iniquitatis misterium plerique erroris ministrat; unde ideo; oportet
                         nos deum timere; ne a maioris culpe cumulum perbeniamus quia nichil michi
                         prodesse prudentia cum innorantia dei quia me iusti salunbri compungitur
                         quorum videlicet si corde credo confessione horis tenebo; a xalute Proinde
                         toto mentis studio per consensum et largitate nostri seniori gloriosi
-                        principibus reddimus adque tradimus per manum domini stephani ygumeni de
-                        monasterio sancti sebastiani qui situm est intus neapoli et in suo sancto
-                        cenobio integra ecclesia sancti nicolay; que constructa autem exe videtur;
-                        in loco malito cum omnibus fundoras seu terris suas et cum omnibus ad ipsa
-                        ecclesia pertinentes per quobis modum et simul pariter una inclita petia de
-                        terra in suprascripto loco malitum et nominatur ad illu arcu qui est de unu
-                        capu iusta bia publica; et de unu latu iusta illu foxatu publicu; et de alio
-                        latere iusta terra que in nostra reserbabimus potestate; et de aliu vero
-                        capu iusta terra . . . . . . . . . . . . que est suprascripta inclita petia
-                        per mensura modia sex; et medium vel si plux fueris; suprascriptis omnis
-                        terris et fundoras seu pischine et palmentas cum subsetoria suas; cum viis
-                        et anditas seu introytas earum et omnibus sibi generaliter et integro
-                        pertinentibus ipsius iuris monasterii insimul pertinentes pro eo quod causa
-                        ipsius monasterii iniuste tenuimus pro octoritatis gratia voluntarie nostri
-                        senioris prefati principibus iuste dimittimus et pro orationis ipsius
-                        servorum dei poxumus superna gratia invenire dumque tibi domino stephano
-                        ygumene cunctorumque vestrorum fratrum; tradita sint obedientie illa cum
-                        suprascriptas totas terras et fundoras et cum omnibus eius pertinentibus
-                        sicut superius legitur; ut licentia abeatis; illas tenere et elaborare et
-                        seminare; et frugiare; sibe super vos ipsos vel allaborandum dare cuicunque
-                        volueritis; vos; et posteris vestris cunte et integre faciendi exinde omnia
-                        quecunque volueritis; pro utilitati ipsius sancti vestris monasterii; et
-                        iterum numquam; aliquando; nos suprascripto aldoyno vel nostris heredibus;
-                        aut nostris posteris per vobis et posteris vestris aliquit tollamus; aut
-                        queramus per nullum modum vel per qualibet personas summixas; set nos et
-                        nostris heredibus vel nostris posteriores; vobis suprascripto domino ygumeno
-                        et vestrorum frates; set et a vestris posteris antestare et defenxare
-                        debeamus ab omnibus ominibus; omnique personas; et si quis; ex nos aut
-                        nostris heredibus vel posteris nostris; irritum fecerit; contra; anc
-                        chartulam oblationis; maledictionis abeat ab omnipotente deo et beate marie
-                        et semper virginis; et trecentorum decem et octo patres; abeant partem cum
-                        diabolo; et cum iuda traditore; et cum anna; et caifa et aperiat terra et
-                        degluctiat eos; sicut athan; et abiron; et componat pro parte fide
-                        serbantis; auri libra una; et ec charta; oblationis; qualiter continet firma
-                        robusta permaneat in perpetuum; et te petrus; scribere rogavimus; in
-                        aversane curie per suprascripta indictione duodecima; + ego alduyno concessi
-                        et subscripsi + + ego grimoaldus concessi et subscripsi + + ego savinus
-                        presbyter et iudex + + + </ab>
+                        principibus reddimus adque tradimus per manum domini <persName key="#Abbots"
+                            ref="#people/3053">stephani</persName>
+                        <rs key="#Abbots">ygumeni</rs> de <rs key="#Monasteries">monasterio</rs>
+                        <orgName key="#Monasteries" ref="#juridical_persons/3039">sancti sebastiani
+                        </orgName>qui situm est intus <placeName key="#Cities" ref="#places/2350"
+                            >neapoli</placeName> et in suo sancto cenobio integra <rs
+                            key="#Churches">ecclesia</rs>
+                        <orgName key="#Fundi #Landed_possessions #Churches"
+                            ref="#juridical_persons/3040">sancti nicolay</orgName>; que constructa
+                        autem exe videtur; in loco <placeName ref="#places/4065">malito</placeName>
+                        cum omnibus <rs key="#Fundi">fundoras</rs> seu <rs key="#Landed_possessions"
+                            >terris</rs> suas et cum omnibus ad ipsa ecclesia pertinentes per quobis
+                        modum et simul pariter una inclita <rs key="#Petiae">petia</rs> de terra in
+                        suprascripto loco malitum et nominatur <placeName key="#Petiae"
+                            ref="#places/5144"><geogName key="#Petiae" ref="#estates/3058">ad illu
+                                arcu</geogName></placeName> qui est de unu capu iusta bia publica;
+                        et de unu latu iusta illu foxatu publicu; et de alio latere iusta terra que
+                        in nostra reserbabimus potestate; et de aliu vero capu iusta terra . . . . .
+                        . . . . . . . que est suprascripta inclita petia per mensura <rs key="#Size"
+                            >modia sex; et medium</rs> vel si plux fueris; suprascriptis omnis
+                        terris et fundoras seu <rs key="#Fisheries">pischine</rs> et palmentas cum
+                        subsetoria suas; <rs key="#Roads">cum viis et anditas seu introytas</rs>
+                        earum et omnibus sibi generaliter et integro pertinentibus ipsius iuris
+                        monasterii insimul pertinentes pro eo quod causa ipsius monasterii iniuste
+                        tenuimus pro octoritatis gratia voluntarie nostri senioris prefati
+                        principibus iuste dimittimus et pro orationis ipsius servorum dei poxumus
+                        superna gratia invenire dumque tibi domino stephano ygumene cunctorumque
+                        vestrorum fratrum; tradita sint obedientie illa cum suprascriptas totas
+                        terras et fundoras et cum omnibus eius pertinentibus sicut superius legitur;
+                        ut licentia abeatis; illas tenere et elaborare et seminare; et frugiare;
+                        sibe super vos ipsos vel allaborandum dare cuicunque volueritis; vos; et
+                        posteris vestris cunte et integre faciendi exinde omnia quecunque
+                        volueritis; pro utilitati ipsius sancti vestris monasterii; et iterum
+                        numquam; aliquando; nos suprascripto aldoyno vel nostris <rs key="#heirTo"
+                            >heredibus</rs>; aut nostris posteris per vobis et posteris vestris
+                        aliquit tollamus; aut queramus per nullum modum vel per qualibet personas
+                        summixas; set nos et nostris heredibus vel nostris posteriores; vobis
+                        suprascripto domino ygumeno et vestrorum frates; set et a vestris posteris
+                        antestare et defenxare debeamus ab omnibus ominibus; omnique personas; et si
+                        quis; ex nos aut nostris heredibus vel posteris nostris; irritum fecerit;
+                        contra; anc chartulam oblationis; maledictionis abeat ab omnipotente deo et
+                        beate marie et semper virginis; et trecentorum decem et octo patres; abeant
+                        partem cum diabolo; et cum iuda traditore; et cum anna; et caifa et aperiat
+                        terra et degluctiat eos; sicut athan; et abiron; et componat pro parte fide
+                        serbantis; <rs key="#Penalty">auri libra una</rs>; et ec charta; oblationis;
+                        qualiter continet firma robusta permaneat in perpetuum; et te <persName
+                            key="#Writer" ref="#people/5038">petrus</persName>; scribere rogavimus;
+                        in <placeName key="#Cities" ref="#places/4000">aversane</placeName> curie
+                        per suprascripta indictione duodecima; + ego alduyno concessi et subscripsi
+                        + + ego <persName key="#Witness"><name ref="Grimaldus">grimoaldus
+                            </name></persName>concessi et subscripsi + + ego <persName
+                            key="#Witness #Judge #Priests"><name ref="Savinus"
+                            >savinus</name></persName>
+                        <rs key="#Priests">presbyter</rs> et <rs key="#Judge">iudex</rs> + + + </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
