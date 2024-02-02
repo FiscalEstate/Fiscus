@@ -5652,6 +5652,7 @@
                         <link type="juridical_persons" corresp="#juridical_persons/85"
                             subtype="link"/>
                         <link type="estates" corresp="#estates/3027" subtype="isWithin"/>
+                        <link type="people" corresp="#people/3002" subtype="isHeldBy"/>
                     </place>
                     <place>
                         <placeName><foreign>Rovescello</foreign> (Pellegrina; Isola della Scala;
@@ -11729,6 +11730,10 @@
                         <link type="people" corresp="#people/3002" subtype="isConfirmedBy"/>
                         <link type="juridical_persons" corresp="#juridical_persons/84"
                             subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/3001" subtype="isGrantedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/84"
+                            subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/3022" subtype="isConfirmedBy"/>
                     </place>
                     <place>
                         <placeName><foreign>Casa Furtina</foreign> (Caserta)</placeName>
@@ -11757,6 +11762,9 @@
                         <link type="juridical_persons" corresp="#juridical_persons/84"
                             subtype="isGrantedTo"/>
                         <link type="people" corresp="#people/3002" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/3022" subtype="isConfirmedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/84"
+                            subtype="isConfirmedTo"/>
                     </place>
                     <place>
                         <placeName>Rocca d'Evandro (Caserta)</placeName>
@@ -11817,6 +11825,7 @@
                             subtype="isConfirmedTo"/>
                         <link type="people" corresp="#people/3001" subtype="isGrantedBy"/>
                         <link type="people" corresp="#people/3002" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/3022" subtype="isConfirmedBy"/>
                     </place>
                     <place>
                         <placeName>Conca della Campania (Caserta)</placeName>
@@ -11860,13 +11869,18 @@
                     </place>
                     <place>
                         <placeName>Piedimonte San Germano (Frosinone)</placeName>
-                        <placeName type="other"><foreign>Pede Monte</foreign></placeName>
+                        <placeName type="other"><foreign>Pede Monte</foreign>; <foreign>Pede de
+                                monte</foreign></placeName>
                         <geogName type="coord"><geo/></geogName>
                         <idno>places/4523</idno>
                         <note/>
                         <link type="people" corresp="#people/3002" subtype="isGrantedBy"/>
                         <link type="juridical_persons" corresp="#juridical_persons/84"
                             subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/3022" subtype="isConfirmedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/84"
+                            subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/5039" subtype="isHeldBy"/>
                     </place>
                     <place>
                         <placeName>Piumarola (Villa Santa Lucia; Frosinone)</placeName>
@@ -11905,6 +11919,7 @@
                         <link type="people" corresp="#people/4210" subtype="isOwnedBy"/>
                         <link type="people" corresp="#people/3075" subtype="isHeldBy"/>
                         <link type="people" corresp="#people/4220" subtype="isHeldBy"/>
+                        <link type="people" corresp="#people/5040" subtype="isHeldBy"/>
                     </place>
                     <place>
                         <placeName><foreign>Maior</foreign>; <foreign>lacus</foreign> (Aquino;
@@ -13051,6 +13066,21 @@
                         <idno>places/5144</idno>
                         <note/>
                         <link type="places" corresp="#places/4065" subtype="isWithin"/>
+                    </place>
+                    <place>
+                        <placeName><foreign>Sanctus Salvator</foreign>; <foreign>castellum</foreign>
+                            (Cocuruzzo; Rocca d'Evandro; Caserta)</placeName>
+                        <placeName type="other">Sanctus Salvator de cucuruzzo</placeName>
+                        <geogName type="coord"><geo/></geogName>
+                        <idno>places/5145</idno>
+                        <note/>
+                        <link type="places" corresp="#places/4521" subtype="isWithin"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/84"
+                            subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/3022" subtype="isConfirmedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/84"
+                            subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/3001" subtype="isGrantedBy"/>
                     </place>
                 </listPlace>
                 <listPlace n="Del Mercato Evelina">

@@ -32,7 +32,7 @@
                             <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Original</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -80,42 +80,75 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>Ego Iordanus princeps filius domni Iordani principis, dico et promitto tibi
-                        domno ODERISIO cardinali et abbati casinensis monasterii, quod ab hac die in
-                        antea ero tibi per fidem amicus absque fraude et malo ingenio, et non ero in
-                        facto nec in consilio ut vitam aut membra perdas, aut aliquo ingenio sis
-                        captus ad tuam damnietatem. Abbatiam et honorem quem hodie habes, non ero in
-                        facto aut in consilio aut in consensu ut eum perdas. et totam terram Sancti
-                        Benedicti cum castellis et pertinentiis et villis suis, sicut precepta
-                        imperialia domni Karoli, Ottonis, Enrici, et Chorradi continent; per fines
-                        et terminos suos, Insuper et castella quae postea per concessionem, sive per
-                        cambium, a domno Richardo principe avo meo; monasterio Sancti Benedicti
-                        addita sunt. id est, Mortula. Sanctus Salvator, de cucuruzzo. Fracte, et
-                        Terame, cum omnibus suis pertinentiis. sicut precepta quae predictus avus
-                        meus una cum Iordane principe patre meo fecit; continere videntur. et pedem
-                        de monte quod a parte Sancti Benedicti, in concambio receptum est. a comite
-                        adenulfo. Castellum de Suio cum pertinentiis suis ex utraque parte fluminis,
-                        sicut Goffredus monius tenuit illud, quando Iordanus princeps pater meus
-                        tenebat civitatem suessam. Castrum pontecurvo cum pertinentiis suis sicut
-                        Richardus princeps frater meus et Robertus comes concesserunt, et
-                        firmaverunt illud Sancto Benedicto. Istas et omnes alias terras, castella
-                        videlicet cum pertinentiis eorum; et villas quas hodie habes et dominaris;
-                        ac tenes. per te vel homines tuos, aut in antea cum consilio meo
-                        acquisieris, sicut ab antecessoribus meis principibus, monasterio Sancti
-                        Benedicti, et tibi, atque antecessoribus tuis concessa fuit; et per
-                        sacramentum confirmata. Haec inquam omnia non ero in facto neque in
-                        consilio, ut monasterium Sancti Benedicti, et tu ea perdas. sed contra omnes
-                        homines qui ea vobis tollere quesierint. Adjuvabo te et monasterium Sancti
-                        Benedicti ad ea tenendum et defendendum ad honorem et proficuum suprascripti
-                        monasterii. Omnia haec observabo tibi tuisque successoribus, per bonam fidem
-                        sine fraude et malo ingenio. sic me deus adjuvet et haec sancta Evangelia.
-                        Hoc actum est in capitulo casinensis monasterii, fratribus universis coram
-                        positis, et baronibus principis, videlicet his. Adenulfus comes filius
-                        adenulfi comitis. Enricus de bolita. Manso et Landulfus frater ejus. Abner
-                        filius tristaini. Fuit etiam ibi pandulfus de sexto. et Iordanis pinzasta.
-                        et Paldi de benafro. Pandulfus de fracte. et alii plures milites et boni
-                        homines. Anno dominice incarnationis, Millesimo centesimo vicesimo tertio.
-                        Mense Iunio. indictione prima. </ab>
+                    <ab>Ego <persName key="#Princeps #childOf" ref="#people/3022"
+                            >Iordanus</persName>
+                        <rs key="#Princeps">princeps</rs>
+                        <rs key="#childOf">filius</rs> domni <persName key="#Princeps #parentOf"
+                            ref="#people/3002">Iordani</persName>
+                        <rs key="#Princeps">principis</rs>, dico et promitto tibi domno <persName
+                            key="#Cardinals #Abbots" ref="#people/4222">ODERISIO</persName>
+                        <rs key="#Cardinals">cardinali</rs> et <rs key="#Abbots">abbati</rs>
+                        <orgName key="#Monasteries" ref="#juridical_persons/84">casinensis</orgName>
+                        <rs key="#Monasteries">monasterii</rs>, quod ab hac die in antea ero tibi
+                        per fidem amicus absque fraude et malo ingenio, et non ero in facto nec in
+                        consilio ut vitam aut membra perdas, aut aliquo ingenio sis captus ad tuam
+                        damnietatem. Abbatiam et honorem quem hodie habes, non ero in facto aut in
+                        consilio aut in consensu ut eum perdas. et totam terram Sancti Benedicti cum
+                            <rs key="#Fortress">castellis</rs> et pertinentiis et <rs key="#Villas"
+                            >villis</rs> suis, sicut <rs key="#Imperial/royal_diploma">precepta
+                            imperialia</rs> domni <persName ref="#people/14">Karoli</persName>,
+                            <persName ref="#people/173">Ottonis</persName>, <persName
+                            ref="#people/130">Enrici</persName>, et <persName ref="#people/261"
+                            >Chorradi</persName> continent; per <rs key="#Fines">fines</rs> et
+                        terminos suos, Insuper et <rs key="#Fortress">castella</rs> quae postea per
+                        concessionem, sive per <rs key="#Commutatio">cambium</rs>, a domno <persName
+                            key="#Princeps #grandparentOf" ref="#people/3001">Richardo</persName>
+                        <rs key="#Princeps">principe</rs>
+                        <rs key="#grandparentOf">avo</rs> meo; monasterio Sancti Benedicti addita
+                        sunt. id est, <placeName
+                            key="#Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Iure_proprietatis/pleno_iure #Fortress"
+                            ref="#places/4512">Mortula</placeName>. <placeName
+                            key="#Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Iure_proprietatis/pleno_iure #Fortress"
+                            ref="#places/5145">Sanctus Salvator, de cucuruzzo</placeName>.
+                            <placeName
+                            key="#Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Iure_proprietatis/pleno_iure #Fortress"
+                            ref="#places/4519">Fracte</placeName>, et <placeName
+                            key="#Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Iure_proprietatis/pleno_iure #Fortress"
+                            ref="#places/4514">Terame</placeName>, cum omnibus suis pertinentiis.
+                        sicut precepta quae predictus avus meus una cum Iordane principe <rs
+                            key="#parentOf">patre</rs> meo fecit; continere videntur. et <placeName
+                            key="#Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Iure_proprietatis/pleno_iure #Fortress"
+                            ref="#places/4523">pedem de monte</placeName> quod a parte Sancti
+                        Benedicti, in concambio receptum est. a <rs key="#Count">comite</rs>
+                        <persName key="#Count" ref="#people/5039">adenulfo</persName>. <rs
+                            key="#Fortress">Castellum</rs> de <placeName
+                            key="#Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Iure_proprietatis/pleno_iure #Fortress"
+                            ref="#places/4526">Suio</placeName> cum pertinentiis suis ex utraque
+                        parte <rs key="#Rivers">fluminis</rs>, sicut <persName ref="#people/5040"
+                            >Goffredus monius</persName> tenuit illud, quando Iordanus princeps
+                        pater meus tenebat <rs key="#Cities">civitatem</rs>
+                        <placeName key="#Cities" ref="#places/571">suessam</placeName>. Castrum
+                        pontecurvo cum pertinentiis suis sicut Richardus princeps frater meus et
+                        Robertus comes concesserunt, et firmaverunt illud Sancto Benedicto. Istas et
+                        omnes alias terras, castella videlicet cum pertinentiis eorum; et villas
+                        quas hodie habes et dominaris; ac tenes. per te vel homines tuos, aut in
+                        antea cum consilio meo acquisieris, sicut ab antecessoribus meis
+                        principibus, monasterio Sancti Benedicti, et tibi, atque antecessoribus tuis
+                        concessa fuit; et per sacramentum confirmata. Haec inquam omnia non ero in
+                        facto neque in consilio, ut monasterium Sancti Benedicti, et tu ea perdas.
+                        sed contra omnes homines qui ea vobis tollere quesierint. Adjuvabo te et
+                        monasterium Sancti Benedicti ad ea tenendum et defendendum ad honorem et
+                        proficuum suprascripti monasterii. Omnia haec observabo tibi tuisque
+                        successoribus, per bonam fidem sine fraude et malo ingenio. sic me deus
+                        adjuvet et haec sancta Evangelia. Hoc actum est in capitulo casinensis
+                        monasterii, fratribus universis coram positis, et baronibus principis,
+                        videlicet his. Adenulfus comes filius adenulfi comitis. Enricus de bolita.
+                        Manso et Landulfus frater ejus. Abner filius tristaini. Fuit etiam ibi
+                        pandulfus de sexto. et Iordanis pinzasta. et Paldi de benafro. Pandulfus de
+                        fracte. et alii plures <rs key="#milesOf">milites</rs> et <rs
+                            key="#Boni_viri/boni_homines">boni homines</rs>. Anno dominice
+                        incarnationis, Millesimo centesimo vicesimo tertio. Mense Iunio. indictione
+                        prima. </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
