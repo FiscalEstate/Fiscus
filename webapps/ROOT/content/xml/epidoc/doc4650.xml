@@ -32,7 +32,7 @@
                             <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Edition</rs>
                             <rs type="document_tradition" ref="#">Copy</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -80,11 +80,11 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>Nos <persName key="#Princeps" ref="#people/3019">Robertus</persName> divina
-                        ordinante clementia Capuanum <rs key="#Princeps">Princeps</rs>. Notum haberi
-                        volumus universis fidelibus Sanctae Ecclesiae, quoniam ob salutem et
-                        remedium animarum quondam <rs key="#Vir_gloriosus/vir_sublimis"
-                            >gloriosorum</rs>
+                    <ab>Nos <persName key="#Princeps #Vir_gloriosus/vir_sublimis" ref="#people/3019"
+                            >Robertus</persName> divina ordinante clementia Capuanum <rs
+                            key="#Princeps">Princeps</rs>. Notum haberi volumus universis fidelibus
+                        Sanctae Ecclesiae, quoniam ob salutem et remedium animarum quondam <rs
+                            key="#Vir_gloriosus/vir_sublimis">gloriosorum</rs>
                         <rs key="#Princeps">Principum</rs>
                         <persName key="#Princeps #Vir_gloriosus/vir_sublimis #grandparentOf"
                             ref="#people/3001">Riccardi</persName> scilicet <rs key="#grandparentOf"
@@ -105,10 +105,12 @@
                         <rs key="#Other_palatine_officer">Camerarii</rs> per hoc principale scriptum
                         in perpetuum damus, tradimus, concedimus et confirmamus in <rs
                             key="#Churches">Ecclesia</rs>
-                        <placeName ref="#places/5146">Calatina</placeName> vocabulo <orgName
-                            key="#Churches" ref="#juridical_persons/3806">Sanctae Mariae</orgName>,
-                        in qua Dominus <persName key="#Bishops">Rainulphus</persName> Dei provisu
-                            <placeName key="#Dioecesis" ref="#places/5007">Casertanus</placeName>
+                        <placeName ref="#places/5146" key="#Village/castle_territory"
+                            >Calatina</placeName> vocabulo <orgName key="#Churches"
+                            ref="#juridical_persons/3806">Sanctae Mariae</orgName>, in qua Dominus
+                            <persName key="#Bishops" ref="#people/5043">Rainulphus</persName> Dei
+                        provisu <placeName key="#Dioecesis" ref="#places/5007"
+                            >Casertanus</placeName>
                         <rs key="#Bishops">Episcopus</rs> praesse videtur omnia quae prescripta
                         Ecclesia Calatina modo possidere videtur, et quae in antea juste, ac
                         legaliter acquisierit. Simili modo per hoc principale scriptum in perpetuum
@@ -119,32 +121,51 @@
                         acquisierint a meis hominibus. Iterum per hoc videlicet principale scriptum
                         damus, tradimus, et concedimus, ac confirmamus in praedicta Ecclesia
                         Calatina, ut Tu praedicte Domne Rainulphi Episcope Casertante, et
-                        successores tui, et vestri Homines in Calatino tantum territorio habitantes
-                        potestatem habeatis mittendi animalia vestra, et vestrorum hominum ad
-                        pascendum in montibus, et planis, et in paludibus nostris, et ligna de
-                        silvis nostris tollere quemadmodum milites Magdaloni habitantes hactenus
+                        successores tui, et vestri Homines in <placeName
+                            key="#Village/castle_territory" ref="#places/5146"><geogName
+                                key="#Village/castle_territory" ref="#estates/3059"
+                                >Calatino</geogName></placeName> tantum <rs
+                            key="#Village/castle_territory">territorio</rs> habitantes <rs
+                            key="#Rights_of_use_on_woods/pastures/waters">potestatem habeatis
+                            mittendi <rs key="#Animals">animalia</rs> vestra, et vestrorum <rs
+                                key="#Coloni/tenants">hominum</rs> ad pascendum in <rs
+                                key="#Mountains">montibus</rs>, et planis, et in <rs
+                                key="#Marshes/lagoons/tombolos">paludibus</rs> nostris, et <rs
+                                key="#Wood">ligna</rs> de <rs
+                                key="#Forests #Fiscal_property #Textual_occurrence #Mention"
+                                >silvis</rs> nostris tollere</rs> quemadmodum <rs key="#milesOf"
+                            >milites</rs>
+                        <placeName ref="#places/3444">Magdaloni</placeName> habitantes hactenus
                         usualiter habere soliti sunt et havent. Rursus quoque per hoc principale
                         scriptum damus, concedimus, ac quiete dimittimus in praescripta Ecclesia
-                        Calatina totum Placeatium , quod nos, vel antecessores nostri habere soliti
+                        Calatina <rs
+                            key="#Landed_possessions #Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Iure_proprietatis/pleno_iure"
+                            >totum Placeatium</rs> , quod nos, vel antecessores nostri habere soliti
                         sumus de omnibus rebus, quas tu, et successores tui, vel aliquis Clericorum,
                         aut hominum vestrorum emerit, vel vendiderit, vel aliquis meorum hominibus a
                         vobis, vel a vestris hominibus emerit, vel vendiderit in territorio
-                        Calatino, et ipsum territorium Calatinum dividet in duas petias terrae;
-                        prima quarum hos habet fines, ex uno latere a parte meridiei est finis via,
-                        ab alio latere scilicet semptemtrionis est finis terra Balduini, et finis
-                        terra Riccardi filiorum Berni, et finis terra Lando Lagnese, et terra
-                        haeredum quondam Martini Lagnese, ex uno capite, a parte, Orientis est finis
-                        via publica. Ab alia parte, a parte Occidentis est finis terra Iohandis
-                        Gerardi, et similiter terra, quae fuit Martini Corbi, quam modo possidet
-                        Guglielmus de Magdole, a parte publica est finis terra heredum quondam . . .
-                        . continet firmum munitum, atque inviolabile maneat in perpetuum. Et ut hoc
-                        principale scriptum firmius credatur, et diligentius ab omnibus observetur,
-                        manu propria illud corroboravimus, et ex nostri sigilli impressione illud
+                        Calatino, et ipsum territorium Calatinum dividet in <rs key="#Petiae">duas
+                            petias</rs> terrae; prima quarum hos habet <rs key="#Fines">fines</rs>,
+                        ex uno latere a parte meridiei est finis via, ab alio latere scilicet
+                        semptemtrionis est finis terra Balduini, et finis terra Riccardi filiorum
+                        Berni, et finis terra Lando Lagnese, et terra haeredum quondam Martini
+                        Lagnese, ex uno capite, a parte, Orientis est finis via publica. Ab alia
+                        parte, a parte Occidentis est finis terra Iohandis Gerardi, et similiter
+                        terra, quae fuit Martini Corbi, quam modo possidet Guglielmus de Magdole, a
+                        parte publica est finis terra heredum quondam . . . . continet firmum
+                        munitum, atque inviolabile maneat in perpetuum. Et ut hoc principale
+                        scriptum firmius credatur, et diligentius ab omnibus observetur, manu
+                        propria illud corroboravimus, et ex nostri sigilli impressione illud
                         insigniri jussimus. Ex jussione praefatae Serenissimae Potestatis scripsi.
-                        Ego Philippus Palatinus Notarius, in anno Dominicae Incarnationis millesimo
-                        Centesimo decimonono; et tertiodecimo anno Principatus praefati Domini
-                        Roberti Gloriosissimi Principis Capuae. Datum in Capuano Palatio in mense
-                        Octobris, per Indictionem decimam tertiam.</ab>
+                        Ego <persName key="#Writer #Notary" ref="#people/3037">Philippus</persName>
+                        Palatinus <rs key="#Notary">Notarius</rs>, in anno Dominicae Incarnationis
+                        millesimo Centesimo decimonono; et tertiodecimo anno Principatus praefati
+                        Domini Roberti <rs key="#Vir_gloriosus/vir_sublimis">Gloriosissimi</rs>
+                        Principis Capuae. Datum in <placeName key="#Cities" ref="#places/173"
+                            >Capuano</placeName>
+                        <rs
+                            key="#Fiscal_property #Textual_occurrence #Mention #Function #Residential #Palatium"
+                            >Palatio</rs> in mense Octobris, per Indictionem decimam tertiam.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
