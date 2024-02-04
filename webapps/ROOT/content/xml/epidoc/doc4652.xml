@@ -31,8 +31,8 @@
                         <summary>
                             <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Edition</rs>
-                            <rs type="document_tradition" ref="#">Copy</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="document_tradition" ref="#">Original</rs>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -84,24 +84,43 @@
                 <div type="textpart">
                     <ab>+ In nomine sancte et individue trinitatis. <persName
                             key="#Marquis/duke #childOf #heirTo" ref="#people/5020">W.</persName>
-                        divina favente clementia <rs key="#Marquis/duke">dux</rs>, Roggerii <rs
-                            key="#Vir_gloriosus/vir_sublimis">gloriosi</rs>
+                        divina favente clementia <rs key="#Marquis/duke">dux</rs>, <persName
+                            key="#Marquis/duke #Vir_gloriosus/vir_sublimis" ref="#people/2498"
+                            >Roggerii</persName>
+                        <rs key="#Vir_gloriosus/vir_sublimis">gloriosi</rs>
                         <rs key="#Marquis/duke">ducis</rs>
                         <rs key="#heirTo">heres</rs> et <rs key="#childOf">filius</rs>. Nos ab
                         omnium conditore et gubernatore <foreign>etc.</foreign> Iccirco<rs
-                            key="#Intercessory"> per postulationem </rs>Robberti Capuanorum
-                        principis dilectissimi consanguinei ac baronis nostri, filii quondam
-                        Jordani, qui similiter Capuanorum fuerat princeps, concedimus tibi Jordani
-                        karissimo consanguineo nostro, germano eiusdem Robberti principis ac filio
-                        quondam suprascripti Jordani principis, et propter dilectionem, quam erga
-                        nos habes, ac per hoc nostre ducalis potestatis sigillum confirmamus terras
-                        videlicet et casas et terras vacuas simul coniunctas nostre reipublice
-                        pertinentes intra hanc nostram nobis a deo conservatam Salernitanam
-                        civitatem prope sacrum nostrum Salernitanum vetustum palatium. . . Textum
-                        vero huius nostre concessionis Johanni nostro notario scribere precipimus et
-                        nostro cum tipario plumbea bulla insigniri iussimus, anno dominice
-                        incarnationis millesimo centesimo undevicesimo, ducatus autem nostri anno
-                        nono, mense Maio, duodecima indictione. </ab>
+                            key="#Intercessory"> per postulationem </rs><persName
+                            key="#Intercessory #Princeps #childOf #familyOf" ref="#people/5018"
+                            >Robberti</persName> Capuanorum <rs key="#Princeps">principis</rs>
+                        dilectissimi <rs key="#familyOf">consanguinei</rs> ac baronis nostri, <rs
+                            key="#childOf">filii</rs> quondam <persName key="#Princeps"
+                            ref="#people/3002">Jordani</persName>, qui similiter Capuanorum fuerat
+                            <rs key="#Princeps">princeps</rs>, concedimus tibi <persName
+                            key="#childOf #siblingOf #familyOf" ref="#people/3022"
+                            >Jordani</persName> karissimo <rs key="#familyOf">consanguineo</rs>
+                        nostro, <rs key="#siblingOf">germano</rs> eiusdem Robberti principis ac <rs
+                            key="#childOf">filio</rs> quondam suprascripti Jordani principis, et
+                        propter dilectionem, quam erga nos habes, ac per hoc nostre ducalis
+                        potestatis sigillum confirmamus <rs
+                            key="#Landed_possessions #Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Iure_proprietatis/pleno_iure"
+                            >terras </rs>videlicet et <rs
+                            key="#Houses #Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Iure_proprietatis/pleno_iure"
+                            >casas</rs> et <rs
+                            key="#Landed_possessions #Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Iure_proprietatis/pleno_iure"
+                            >terras vacuas </rs>simul coniunctas nostre reipublice pertinentes intra
+                        hanc nostram nobis a deo conservatam <placeName key="#Cities"
+                            ref="#places/84">Salernitanam</placeName>
+                        <rs key="#Cities">civitatem</rs> prope sacrum nostrum Salernitanum vetustum
+                            <rs
+                            key="#Fiscal_property #Textual_occurrence #Mention #Function #Residential #Palatium"
+                            >palatium</rs>. . . Textum vero huius nostre concessionis <persName
+                            key="#Writer #Notary" ref="#people/5044">Johanni</persName> nostro <rs
+                            key="#Notary">notario</rs> scribere precipimus et nostro cum tipario
+                        plumbea bulla insigniri iussimus, anno dominice incarnationis millesimo
+                        centesimo undevicesimo, ducatus autem nostri anno nono, mense Maio,
+                        duodecima indictione. </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
