@@ -32,7 +32,7 @@
                             <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Edition</rs>
                             <rs type="document_tradition" ref="#">Copy</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -81,12 +81,12 @@
             <div type="edition">
                 <div type="textpart">
                     <ab>+ IN NOMINE DOMINI SALVATORIS NOSTRI IHESU CHRISTI DEI ETERNI: <persName
-                            key="#Princeps" ref="#people/3010">SECUNDUS RICHARDUS</persName> DIVINA
-                        ORDINANTE CLEMENTIA CAPUANORUM <rs key="#Princeps">PRINCEPS</rs>: PRO
-                        REDEMPTIONE ANIME SUE HOC CLEMENTER CONCESSIT ET CONFIRMAVIT. Notum sit
-                        fidelibus dei presentibus et posteris quod Ego Secundus Richardus gratia dei
-                        Capuanorum princeps. ob salutem et remedium animarum <rs key="#Princeps"
-                            >principum</rs>
+                            key="#Princeps #Vir_gloriosus/vir_sublimis" ref="#people/3010">SECUNDUS
+                            RICHARDUS</persName> DIVINA ORDINANTE CLEMENTIA CAPUANORUM <rs
+                            key="#Princeps">PRINCEPS</rs>: PRO REDEMPTIONE ANIME SUE HOC CLEMENTER
+                        CONCESSIT ET CONFIRMAVIT. Notum sit fidelibus dei presentibus et posteris
+                        quod Ego Secundus Richardus gratia dei Capuanorum princeps. ob salutem et
+                        remedium animarum <rs key="#Princeps">principum</rs>
                         <persName key="#Princeps #grandparentOf" ref="#people/3001"
                             >Richardi</persName> scilicet <rs key="#grandparentOf">avi</rs> et
                             <persName key="#Princeps #parentOf" ref="#people/3002"
@@ -360,59 +360,127 @@
                         licentia <rs key="#Count">comitis</rs>
                         <persName key="#Count" ref="#people/3017">Ugonis</persName> domini sui in
                         predicto monasterio dedit. ego nunc do concedo. et confirmo omnino qualiter
-                        predictus Ugo comes per cartulam predictam ecclesiam sancti viti et villanos
-                        in predicto monasterio sancti Laurentii dedit. et tres villanos quos
-                        Robbertus filius Turstayni in annona meo concessu predicto monasterio dedit.
-                        et centum modios terre qui sunt in territorio Cancie quos herbertus bardone
-                        qui a me illos tenebat predicto monasterio meo concessu optulit. et nolitum
-                        cum villanis et terris qualiter Raynaldus musca in predicto monasterio dedit
-                        et quinquaginta modios terre in gualdo. quos ipse Raynaldus musca in
-                        predicto monasterio dedit. et ecclesiam sancte marie que vocatur capella.
-                        que est prope matalonem cum universis suis pertinentiis. et villanos omnes
-                        cum hereditate eorum qualiter Cerbaldus meus capellanus in predicto
-                        monasterio obtulit. et criptam que vocatur fornicaria cum monte Cervino
-                        sicuti vadit via que decernit hunc montem ab alio monte. et ecclesiam sancti
-                        Iohannis que est in territorio Cicale ubi dicitur ad plescum. cum beneficio
-                        suo. et terram quam Ioffridus fessardus in predicto monasterio meo concessu
-                        dedit. et terram quam Rao de pirollo in predicto monasterio meo concessu
-                        dedit. et duos villanos meos cum tota hereditate et familia eorum nomen uni
-                        palumbo cairusus. et nomen alii iohannis alamannus et cautius petiapanis cum
-                        tota hereditate. et familia sua. quem Robbertus de ponte Indulfi monasterio
-                        predicto dedit. et sex modios terre quos mater Aymonis de argentia cum
-                        licentia predicti Aymonis sancto Laurentio dedit. que sunt prope ecclesiam
-                        eandem sancti Iohannis. et hereditatem que fuit quondam petri maraldi. quam
-                        pater meus in predicto monasterio dedit. et hereditates Iohannis franki. et
-                        muski. qualiter predictum monasterium possidet eas. et quadraginta modios
-                        terre quos Roggerius de sancto severino obtulit in predicto monasterio que
-                        sunt ad Cacapici. et Starzam que est ad duplum quam Thomas de venabile in
-                        predicto monasterio dedit. et viginti tres modios terre qui sunt in gualdo
-                        et Ihon filius ermenloth cum licencia mea et Robbertus de ponte indulfi
-                        predicto monasterio dedit. et septem alios modios terre in forignano
-                        pizzulu. et novem modios terre qui sunt ad ceraso. quos ipse predictus Ihon
-                        prefato monasterio dedit. Ita quod medietatem offeruit. et de medietate
-                        excambium suscepit cum licentia Robberti et mea. et omnes alias terras
-                        cultas et incultas. et omnes homines et res mobiles et immobiles. quas
-                        monasterium sancti Laurentii et eius rectores tenuerunt et dominati fuerunt
-                        tempore avi scilicet et patres mei. et nunc tenent. et omnia que deinceps
-                        adquirere iuste et regulariter potuerint. ad possessionem et potestatem et
+                        predictus Ugo comes per <rs key="#Cartula">cartulam</rs> predictam ecclesiam
+                        sancti viti et villanos in predicto monasterio sancti Laurentii dedit. et
+                            <rs key="#Coloni/tenants">tres villanos</rs> quos <persName><name
+                                ref="Robertus fil. Turstaini">Robbertus filius
+                            Turstayni</name></persName> in <placeName key="#Coloni/tenants"
+                            ref="#places/4052">annona</placeName> meo concessu predicto monasterio
+                        dedit. et <rs
+                            key="#Landed_possessions #Size #Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Iure_proprietatis/pleno_iure #Allocation_to_individuals"
+                            >centum modios terre</rs> qui sunt in <rs
+                            key="#Village/castle_territory">territorio</rs>
+                        <placeName key="#Landed_possessions #Village/castle_territory"
+                            ref="#places/4028"><geogName
+                                key="#Landed_possessions #Village/castle_territory"
+                                ref="#estates/3030">Cancie</geogName></placeName> quos
+                                <persName><name ref="Eribertus Bardone">herbertus
+                            bardone</name></persName> qui a me illos tenebat predicto monasterio meo
+                        concessu optulit. et <placeName key="#Landed_possessions #Coloni/tenants"
+                            ref="#places/4029">nolitum</placeName> cum <rs key="#Coloni/tenants"
+                            >villanis</rs> et <rs key="#Landed_possessions">terris</rs> qualiter
+                            <persName ref="#people/3079">Raynaldus musca</persName> in predicto
+                        monasterio dedit et <rs key="#Landed_possessions #Size">quinquaginta modios
+                            terre</rs> in <rs key="#Gualdi">gualdo</rs>. quos ipse Raynaldus musca
+                        in predicto monasterio dedit. et <rs key="#Churches">ecclesiam</rs><orgName
+                            key="#Coloni/tenants #Churches" ref="#juridical_persons/3026"> sancte
+                            marie que vocatur capella</orgName>. que est prope <placeName
+                            ref="#places/3444">matalonem</placeName> cum universis suis
+                        pertinentiis. et <rs key="#Coloni/tenants">villanos</rs> omnes cum
+                        hereditate eorum qualiter <persName key="#Chaplain" ref="#people/3018"
+                            >Cerbaldus</persName> meus <rs key="#Chaplain">capellanus</rs> in
+                        predicto monasterio obtulit. et <rs key="#Natural_landscape">criptam</rs>
+                        que vocatur <placeName
+                            key="#Natural_landscape #Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Iure_proprietatis/pleno_iure"
+                            ref="#places/4030">fornicaria</placeName> cum <rs key="#Mountains"
+                            >monte</rs>
+                        <placeName
+                            key="#Mountains #Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Iure_proprietatis/pleno_iure"
+                            ref="#places/4031">Cervino</placeName> sicuti vadit <rs key="#Roads"
+                            >via</rs> que decernit hunc montem ab alio <rs key="#Mountains"
+                            >monte</rs>. et <rs key="#Churches">ecclesiam</rs>
+                        <orgName
+                            key="#Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Iure_proprietatis/pleno_iure #Churches"
+                            ref="#juridical_persons/3027">sancti Iohannis</orgName> que est in <rs
+                            key="#Village/castle_territory">territorio</rs>
+                        <placeName key="#Village/castle_territory" ref="#places/4032"><geogName
+                                key="#Village/castle_territory" ref="#estates/3062"
+                                >Cicale</geogName></placeName> ubi dicitur ad plescum. cum beneficio
+                        suo. et <rs key="#Landed_possessions">terram</rs> quam <persName><name
+                                ref="Gotefredus Fexardus">Ioffridus fessardus</name></persName> in
+                        predicto monasterio meo concessu dedit. et <rs key="#Landed_possessions"
+                            >terram</rs> quam <persName ref="#people/5062">Rao de pirollo</persName>
+                        in predicto monasterio meo concessu dedit. et <rs key="#Coloni/tenants">duos
+                            villanos </rs>meos <rs
+                            key="#Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Iure_proprietatis/pleno_iure"
+                            >cum tota hereditate</rs> et <rs key="#familyOf">familia</rs> eorum
+                        nomen uni <persName key="#Coloni/tenants"><name ref="Palumbus Cayrusus"
+                                >palumbo cairusus.</name></persName> et nomen alii <persName
+                            key="#Coloni/tenants"><name ref="Iohannes Alamannus">iohannis
+                                alamannus</name></persName> et <persName key="#Coloni/tenants"><name
+                                ref="Pantio Petia Panis">cautius petiapanis</name></persName> cum
+                        tota hereditate. et familia sua. quem<persName ref="#people/3077"> Robbertus
+                            de ponte Indulfi</persName> monasterio predicto dedit. et <rs
+                            key="#Landed_possessions #Size">sex modios terre</rs> quos <rs
+                            key="#parentOf">mater</rs>
+                        <persName ref="#people/3032">Aymonis de argentia</persName> cum licentia
+                        predicti Aymonis sancto Laurentio dedit. que sunt prope ecclesiam eandem
+                        sancti Iohannis. et <rs key="#Property_of_persons_without_heirs"
+                            >hereditatem</rs> que fuit quondam <persName><name ref="Petrus Maraldus"
+                                >petri maraldi</name></persName>. quam pater meus in predicto
+                        monasterio dedit. et <rs key="#Property_of_persons_without_heirs"
+                            >hereditates</rs><persName><name ref="Iohannes Franchi et Muschi">
+                                Iohannis franki. et muski.</name></persName> qualiter predictum
+                        monasterium possidet eas. et <rs key="#Landed_possessions #Size">quadraginta
+                            modios terre</rs> quos <persName><name ref="Rogerius de Sancto Severino"
+                                >Roggerius de sancto severino</name></persName> obtulit in predicto
+                        monasterio que sunt ad <placeName key="#Landed_possessions"
+                            ref="#places/4033">Cacapici</placeName>. et <rs key="#Petiae"
+                            >Starzam</rs> que est <placeName key="#Petiae" ref="#places/4034">ad
+                            duplum</placeName> quam <persName key="#Witness" ref="#people/5016"
+                            >Thomas de venabile</persName> in predicto monasterio dedit. et <rs
+                            key="#Landed_possessions #Size">viginti tres modios terre</rs> qui sunt
+                        in <rs key="#Gualdi">gualdo</rs> et <persName ref="#people/3054">Ihon filius
+                            ermenloth</persName> cum licencia mea et Robbertus de ponte indulfi
+                        predicto monasterio dedit. et <rs key="#Landed_possessions #Size">septem
+                            alios modios terre</rs> in <placeName key="#Landed_possessions"
+                            ref="#places/4035">forignano pizzulu</placeName>. et <rs
+                            key="#Landed_possessions #Size">novem modios terre</rs> qui sunt ad
+                        ceraso. quos ipse predictus Ihon prefato monasterio dedit. Ita quod
+                        medietatem offeruit. et de medietate excambium suscepit cum licentia
+                        Robberti et mea. et <rs key="#Landed_possessions">omnes alias terras cultas
+                            et incultas</rs>. et <rs key="#Coloni/tenants">omnes homines</rs> et res
+                        mobiles et immobiles. quas monasterium sancti Laurentii et eius <rs
+                            key="#rectorOf">rectores</rs> tenuerunt et dominati fuerunt tempore avi
+                        scilicet et patres mei. et nunc tenent. et omnia que deinceps adquirere
+                        iuste et regulariter potuerint. ad possessionem et potestatem et
                         dominationem predicti abbatis et omnium successorum suorum. et ordinatorum.
                         et rectorum prefati monasterii Sancti Laurentii Remota omni contrarietate et
                         molestia omnium mortalium. Preterea do et concedo prefato Sancto monasterio.
                         et domno Guarino venerabili abbati eiusque successoribus ut habeant plenam
-                        potestatem per omnia prescripta loca ordinare et statuere Iudices quos
-                        voluerint. Quod siquis diabolica suasione impulsus hoc scriptum violare
-                        irritumve facere presumpserit. Mille auri libras persolvat. medietatem
-                        nostro palatio et medietatem predicto abbati et successoribus suis et
-                        rectoribus suprascripti monasterii. eisque solutis hoc scriptum firmum et
-                        inviolabile maneat in perpetuum. Et ut firmius credatur et diligentius ab
-                        omnibus observetur manu propria subscripsi. et meo sigillo iussi sigillari.
-                        Horum omnium supradictorum tutor et defensor contra omnes hostes existo.
-                        prout possem meum est. + Thomas de venabili. + Raynaldus Lopinus. + Stantio
-                        viceprinceps. + Iosfridus de ponte Indulfi. + Cervasius. Ex iussione
-                        prephate serenissime potestatis Scripsi. EGO QUIRIACUS IUDEX. In anno
-                        dominice incarnationis. Millesimo. nonagesimo septimo et septimo decimo.
-                        anno principatus ipsius domini Secundi Richardi gloriosi principis Capue.
-                        DATUM quinto kalendas Septembris per quintam indictionem.</ab>
+                        potestatem <rs key="#Immunity #Districtio">per omnia prescripta loca
+                            ordinare et statuere Iudices quos voluerint</rs>. Quod siquis diabolica
+                        suasione impulsus hoc scriptum violare irritumve facere presumpserit. <rs
+                            key="#Penalty">Mille auri libras </rs>persolvat. medietatem nostro
+                        palatio et medietatem predicto abbati et successoribus suis et rectoribus
+                        suprascripti monasterii. eisque solutis hoc scriptum firmum et inviolabile
+                        maneat in perpetuum. Et ut firmius credatur et diligentius ab omnibus
+                        observetur manu propria subscripsi. et meo sigillo iussi sigillari. Horum
+                        omnium supradictorum tutor et defensor contra omnes hostes existo. prout
+                        possem meum est. + Thomas de venabili. + <persName key="#Witness"
+                            ref="#people/3080">Raynaldus Lopinus</persName>. + <persName
+                            key="#Witness #Other_palatine_officer" ref="#people/3078"
+                            >Stantio</persName>
+                        <rs key="#Other_palatine_officer">viceprinceps</rs>. + <persName
+                            key="#Witness" ref="#people/5046">Iosfridus de ponte Indulfi</persName>.
+                        + <persName key="#Witness"><name ref="Gervasius"
+                        >Cervasius</name></persName>. Ex iussione prephate serenissime potestatis
+                        Scripsi. EGO <persName key="#Writer #Judge" ref="#people/3012"
+                            >QUIRIACUS</persName>
+                        <rs key="#Judge">IUDEX</rs>. In anno dominice incarnationis. Millesimo.
+                        nonagesimo septimo et septimo decimo. anno principatus ipsius domini Secundi
+                        Richardi <rs key="#Vir_gloriosus/vir_sublimis">gloriosi</rs> principis
+                        Capue. DATUM quinto kalendas Septembris per quintam indictionem.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
