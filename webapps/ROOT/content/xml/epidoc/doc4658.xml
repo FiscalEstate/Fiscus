@@ -32,7 +32,7 @@
                             <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Scientific literature</rs>
                             <rs type="document_tradition" ref="#">Original</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -84,27 +84,45 @@
                             >Riccardus</persName> et <persName key="#Princeps #Marquis/duke"
                             ref="#people/3002">Iordanes</persName>... <rs key="#Princeps"
                             >principes</rs>... …fidelium... universitas noverit quam <persName
-                            key="#Count" ref="#people/5039">adenulfus</persName> et <persName
-                            key="#Count" ref="#people/5063">landulfus</persName> et <persName
-                            key="#Count" ref="#people/5064">paldolfus</persName> filii landoni
-                        comitis aquinensis cum toti alii <rs key="#Count">comites</rs>
+                            key="#Count #childOf" ref="#people/5039">adenulfus</persName> et
+                            <persName key="#Count #childOf" ref="#people/5063">landulfus</persName>
+                        et <persName key="#Count #childOf" ref="#people/5064">paldolfus</persName>
+                        <rs key="#childOf">filii</rs>
+                        <persName key="#Count" ref="#people/5065">landoni</persName>
+                        <rs key="#Count">comitis</rs> aquinensis cum toti alii <rs key="#Count"
+                            >comites</rs>
                         <placeName key="#Cities" ref="#places/2795">aquini</placeName> contra animam
                         nostram cogitaverunt ac inimicos nostros intra nostram provinciam
                         invitaverunt unde secundum longobardorum legem <rs
                             key="#Fiscal_property #Textual_occurrence #Mention #Inflow #Confiscation #Property_of_criminals/political_traitors"
-                            >omnes ipsorum res nostro fisco deducte sunt</rs>... Nunc autem per
-                        interventum landulfi filii auloaldi et paldulfi filii Guale. damus atque
-                        concedimus tibi iohanni comiti qui clamatur scinto et filio landolfi comitis
-                        nostro dilecto fideli. hoc est castellum sancti iohannis in carreca per has
-                        denique fines... [<foreign>segue la descrizione dei confini</foreign>] totum
-                        et integrum per suprascriptas fines et cum universis suis pertinentiis.
-                        iudicalia. excaditiones de homines qui ibidem residentes sunt vel fuerunt
-                        necnon et omnia alia servitia que iuste suis senoribus facere soliti sunt...
-                        Ex iussione prefate serenissime potestatis scriptum per manus iohannis
-                        iudicis in anno octavo principatus ipsius Riccardi et domini Iordanis... et
-                        tertio anno <rs key="#Marquis/duke #Marca/ducatum">ducatus</rs> illorum
-                        caiete. Datum octabo idus iulii anno ab incarnatione d. n. Ihesu Christi M
-                        sexagesimo sexto indictione tertia. </ab>
+                            >omnes ipsorum res nostro fisco deducte sunt</rs>... Nunc autem <rs
+                            key="#Intercessory">per interventum</rs>
+                        <persName key="#Intercessory" ref="#people/4201">landulfi filii
+                            auloaldi</persName> et <persName key="#Intercessory" ref="#people/4200"
+                            >paldulfi filii Guale</persName>. damus atque concedimus tibi <persName
+                            key="#Count #childOf" ref="#people/5066">iohanni <rs key="#Count"
+                                >comiti</rs> qui clamatur scinto</persName> et <rs key="#childOf"
+                            >filio</rs>
+                        <persName key="#Count #fidelisOf" ref="#people/5067">landolfi</persName>
+                        <rs key="#Count">comitis</rs> nostro dilecto <rs key="#fidelisOf"
+                            >fideli</rs>. hoc est <rs key="#Castle">castellum</rs>
+                        <placeName
+                            key="#Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Iure_proprietatis/pleno_iure #Castle"
+                            ref="#places/5149">sancti iohannis in carreca</placeName> per has
+                        denique <rs key="#Fines">fines</rs>... [<foreign>segue la descrizione dei
+                            confini</foreign>] totum et integrum per suprascriptas fines et cum
+                        universis suis pertinentiis. <rs key="#Profits_of_justice">iudicalia</rs>.
+                            <rs key="#Property_of_persons_without_heirs">excaditiones</rs> de
+                        homines qui ibidem residentes sunt vel fuerunt necnon et omnia alia <rs
+                            key="#Servitium">servitia</rs> que iuste suis senoribus facere soliti
+                        sunt... Ex iussione prefate serenissime potestatis scriptum per manus
+                            <persName key="#Writer #Judge" ref="#people/3064">iohannis</persName>
+                        <rs key="#Judge">iudicis</rs> in anno octavo principatus ipsius Riccardi et
+                        domini Iordanis... et tertio anno <rs key="#Marquis/duke #Marca/ducatum"
+                            >ducatus</rs> illorum <placeName key="#Cities" ref="#places/2343"
+                                ><geogName key="#Cities #Marca/ducatum" ref="#estates/3001"
+                                >caiete</geogName></placeName>. Datum octabo idus iulii anno ab
+                        incarnatione d. n. Ihesu Christi M sexagesimo sexto indictione tertia. </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
