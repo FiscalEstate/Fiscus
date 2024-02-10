@@ -32,7 +32,7 @@
                             <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Original</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -80,10 +80,11 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>+ Nos in Dei omnipotentis nomine<persName key="#Princeps" ref="#people/3042"
-                            > secundus Robbertus</persName>, divina ordinante providentia Capuanorum
-                            <rs key="#Princeps">princeps</rs>, <rs key="#Intercessory">per
-                            interventum </rs><persName key="#Intercessory #Other_palatine_officer"
+                    <ab>+ Nos in Dei omnipotentis nomine<persName
+                            key="#Princeps #Vir_gloriosus/vir_sublimis" ref="#people/3042"> secundus
+                            Robbertus</persName>, divina ordinante providentia Capuanorum <rs
+                            key="#Princeps">princeps</rs>, <rs key="#Intercessory">per interventum
+                            </rs><persName key="#Intercessory #Other_palatine_officer"
                             ref="#people/3035">Odoaldi</persName> nostri <rs
                             key="#Other_palatine_officer">camerarii</rs> et <persName
                             key="#Intercessory #Other_palatine_officer" ref="#people/5070"
@@ -109,51 +110,63 @@
                             key="#Petiae #Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Iure_proprietatis/pleno_iure"
                             >petiam</rs> de terra nostra, que est presa et est intus hanc Capuanam
                         nostram civitatem, in <rs key="#Castle">castellone</rs> nostro qui dicitur
-                            <placeName>Sancti Petri</placeName>, et habet hos <rs key="#Fines"
-                            >fines</rs>: uno latere et uno capite sunt fines vie publice, alio
-                        latere est finis terra nostra, quam nobis reservavimus, alio capite est
-                        finis terra et presa Ottonis Mali vicini. Habet per amba ipsa latera in
-                        longitudinem pedes quadraginta et per amba ipsa capita per traversum pedes
-                        triginta quinque ad mensuram pedum de passu Landonis senioris castaldei
-                        mensurata. Rursum quoque nos memoratus secundus Robbertus, Dei gratia
-                        Capuanorum princeps, per hoc idem principale scriptum in perpetuum damus et
-                        tradendo confirmamus tibi suprascripto Landoni cognomine de Maralda, fideli
-                        nostro, et tuis heredibus, integram omnem partem et pertinentiam nostram,
-                        que nobis pertinens est, de ripa que esse videtur foris murum huius nostre
-                        Capuane civitatis, qui est de castellone nostro qui dicitur Sancti Petri ad
-                        Pontem, coniuncta tamen ipsa ripa in longitudinem cum ipso muro, et insimul
-                        cum integram omnem partem et pertinentiam nostram, que nobis est pertinens,
-                        de aqua et alveo Vulturni fluminis, que coniungit cum iam dicta ripa,
-                        incipiente a suprascripta ripa cum prenotata aqua et alveo Vulturni fluminis
-                        a moro suprascripte ecclesie Sancti Petri et qualiter vadit directe contra
-                        partem meridiei usque in suprascriptam terram et presam nostram, quam nobis
-                        reservavimus, ut prediximus, ita tamen, ut potestatem et licentiam habeas tu
-                        et heredes tui in suprascripta ripa et in iam dicta aqua et alveo palos
-                        figere et facere et habere ibidem omnem utilitatem et necessitatem, que
-                        vobis necesse fuerit iusta rationem, a modo et semper. Hanc autem
-                        suprascriptam terram et presam cum predicta ripa atque cum iam dicta aqua et
-                        alveo Vulturni fluminis una cum omnia ibi habentibus subter et super et cum
-                        viis earum in eis intrandi et exeundi atque cum omnibus earum pertinentiis
-                        nos memoratus secundus Robbertus, Dei gratia Capuanus princeps, tibi
-                        suprascripto Landoni et tuis heredibus, in perpetuum, per hoc videlicet
-                        principale scriptum damus et tradendo confirmamus ad possessionem et
-                        potestatem atque dominationem tuam tuorumque heredum, fatientes exinde
-                        quicquid tibi tuisque heredibus placuerit, remota omni inquietudine,
-                        contrarietate vel molestia omnium principum successorum nostrorum vel
-                        viceprincipum, comitum vel vicecomitum, iudicum, sculdahorum, castaldeorum
-                        aliorumque omnium mortalium personarum. Quod si quis huius nostre
-                        concessionis atque confirmationis pagine contemptor aut violator extiterit,
-                        aut contra hoc principale scriptum hagere teptaverit, decem libras auri
-                        purissimi persolvat, medietatem nostro palatio et medietatem tibi
-                        suprascripto Landoni et tuis heredibus, solutaque pena librarum auri hoc
-                        principale scriptum, qualiter continet, firmum permaneat in perpetuum. Ut
-                        autem hoc principale scriptum firmius credatur et diligentius ab omnibus
-                        observetur, manu propria illud corroboravimus et nostri sigilli illud
-                        insigniri iussimus. (M) Ex iussione prephate potestatis scripsi ego
-                        Philippus palatinus iudex in anno dominice incarnationis .M. C. XXX. I., et
-                        quarto anno principatus prescripti domni secundi Robberti, gloriosissimi
-                        principis Capue. Datum Capuano palatio, in mense iunii, per indictionem
-                        nonam. </ab>
+                            <placeName key="#Castle" ref="#places/5151">Sancti Petri</placeName>, et
+                        habet hos <rs key="#Fines">fines</rs>: uno latere et uno capite sunt fines
+                        vie publice, alio latere est finis terra nostra, quam nobis reservavimus,
+                        alio capite est finis terra et presa Ottonis Mali vicini. Habet per amba
+                        ipsa latera in longitudinem pedes quadraginta et per amba ipsa capita per
+                        traversum pedes triginta quinque ad mensuram pedum de passu Landonis
+                        senioris castaldei mensurata. Rursum quoque nos memoratus secundus
+                        Robbertus, Dei gratia Capuanorum princeps, per hoc idem principale scriptum
+                        in perpetuum damus et tradendo confirmamus tibi suprascripto Landoni
+                        cognomine de Maralda, fideli nostro, et tuis heredibus, <rs
+                            key="#Shores #Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Iure_proprietatis/pleno_iure #Rights_of_use_on_woods/pastures/waters"
+                            >integram omnem partem et pertinentiam nostram, que nobis pertinens est,
+                            de ripa que esse videtur foris murum huius nostre Capuane civitatis, qui
+                            est de castellone nostro qui dicitur Sancti Petri ad Pontem, coniuncta
+                            tamen ipsa ripa in longitudinem cum ipso muro, et insimul cum integram
+                            omnem partem et pertinentiam nostram, que nobis est pertinens, de <rs
+                                key="#Rivers">aqua</rs> et <rs key="#Riverbed">alveo</rs>
+                            <placeName
+                                key="#Rivers #Riverbed #Shores #Rights_of_use_on_woods/pastures/waters"
+                                ref="#places/609">Vulturni</placeName>
+                            <rs key="#Rivers">fluminis</rs>, que coniungit cum iam dicta ripa,
+                            incipiente a suprascripta ripa cum prenotata aqua et alveo Vulturni
+                            fluminis a moro suprascripte ecclesie Sancti Petri et qualiter vadit
+                            directe contra partem meridiei usque in suprascriptam terram et presam
+                            nostram</rs>, quam nobis reservavimus, ut prediximus, ita tamen, ut
+                        potestatem et licentiam habeas tu et heredes tui in suprascripta ripa et in
+                        iam dicta aqua et alveo palos figere et facere et habere ibidem omnem
+                        utilitatem et necessitatem, que vobis necesse fuerit iusta rationem, a modo
+                        et semper. Hanc autem suprascriptam terram et presam cum predicta ripa atque
+                        cum iam dicta aqua et alveo Vulturni fluminis una cum omnia ibi habentibus
+                        subter et super et cum <rs key="#Roads">viis</rs> earum in eis intrandi et
+                        exeundi atque cum omnibus earum pertinentiis nos memoratus secundus
+                        Robbertus, Dei gratia Capuanus princeps, tibi suprascripto Landoni et tuis
+                        heredibus, in perpetuum, per hoc videlicet principale scriptum damus et
+                        tradendo confirmamus ad possessionem et potestatem atque dominationem tuam
+                        tuorumque heredum, fatientes exinde quicquid tibi tuisque heredibus
+                        placuerit, remota omni inquietudine, contrarietate vel molestia omnium
+                        principum successorum nostrorum vel viceprincipum, comitum vel vicecomitum,
+                        iudicum, sculdahorum, castaldeorum aliorumque omnium mortalium personarum.
+                        Quod si quis huius nostre concessionis atque confirmationis pagine
+                        contemptor aut violator extiterit, aut contra hoc principale scriptum hagere
+                        teptaverit, <rs key="#Penalty">decem libras auri purissimi</rs> persolvat,
+                        medietatem nostro palatio et medietatem tibi suprascripto Landoni et tuis
+                        heredibus, solutaque pena librarum auri hoc principale scriptum, qualiter
+                        continet, firmum permaneat in perpetuum. Ut autem hoc principale scriptum
+                        firmius credatur et diligentius ab omnibus observetur, manu propria illud
+                        corroboravimus et nostri sigilli illud insigniri iussimus. (M) Ex iussione
+                        prephate potestatis scripsi ego <persName key="#Writer #Judge"
+                            ref="#people/3037">Philippus</persName>
+                        <rs key="#Judge">palatinus iudex</rs> in anno dominice incarnationis .M. C.
+                        XXX. I., et quarto anno principatus prescripti domni secundi Robberti, <rs
+                            key="#Vir_gloriosus/vir_sublimis">gloriosissimi</rs> principis Capue.
+                        Datum <placeName key="#Cities #Palatium" ref="#places/173"
+                            >Capuano</placeName>
+                        <rs
+                            key="#Fiscal_property #Textual_occurrence #Mention #Function #Residential #Palatium"
+                            >palatio</rs>, in mense iunii, per indictionem nonam. </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
