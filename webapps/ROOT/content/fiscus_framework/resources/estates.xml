@@ -4859,8 +4859,11 @@
                         <idno>estates/3000</idno>
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/3000"
+                            subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/3002" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/3001" subtype="isGrantedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3000"
                             subtype="isGrantedTo"/>
-                        <link type="people" corresp="#people/3002" subtype="isGrantedBy"/>
                     </place>
                     <place>
                         <geogName>Gaeta; <foreign>ducatus</foreign></geogName>
@@ -4945,12 +4948,13 @@
                             subtype="rendersCollectedBy"/>
                     </place>
                     <place>
-                        <geogName>Ceraso; <foreign>startia</foreign></geogName>
+                        <geogName><foreign>de Ceraso</foreign>;
+                            <foreign>startia</foreign></geogName>
                         <geogName type="other"/>
                         <idno>estates/3010</idno>
                         <note><foreign>Startia</foreign> è sinonimo di <foreign>campus</foreign> (Du
-                            Cange): trattasi di un generico appezzamento di terra, probabilmente di
-                            natura compatta, non inframmezzato da terre altrui.</note>
+                            Cange 1883-1887): trattasi di un generico appezzamento di terra dotato,
+                            di solito coerente dal punto di vista spaziale. </note>
                         <link type="juridical_persons" corresp="#juridical_persons/3000"
                             subtype="isConfirmedTo"/>
                         <link type="people" corresp="#people/3010" subtype="isConfirmedBy"/>
@@ -5465,6 +5469,44 @@
                         <idno>estates/3062</idno>
                         <note/>
                         <link type="places" corresp="#places/4032" subtype="correspondsTo"/>
+                    </place>
+                    <place>
+                        <geogName>Motta Filocastro; <foreign>territorium</foreign></geogName>
+                        <geogName type="other"><foreign>territorium Follicastri</foreign></geogName>
+                        <idno>estates/3063</idno>
+                        <note/>
+                        <link type="places" corresp="#places/5130" subtype="correspondsTo"/>
+                    </place>
+                    <place>
+                        <geogName>Tropea; <foreign>territorium</foreign></geogName>
+                        <geogName type="other"/>
+                        <idno>estates/3064</idno>
+                        <note/>
+                        <link type="places" corresp="#places/5131" subtype="correspondsTo"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/84"
+                            subtype="rendersCollectedBy"/>
+                    </place>
+                    <place>
+                        <geogName>Bisignano; <foreign>territorium</foreign></geogName>
+                        <geogName type="other"><foreign>territorio Bisaniensi</foreign></geogName>
+                        <idno>estates/3065</idno>
+                        <note/>
+                        <link type="places" corresp="#places/5133" subtype="correspondsTo"/>
+                    </place>
+                    <place>
+                        <geogName>Troia; <foreign>territorium</foreign></geogName>
+                        <geogName type="other"><foreign>in Traiano territorio</foreign></geogName>
+                        <idno>estates/3066</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/84"
+                            subtype="rendersCollectedBy"/>
+                    </place>
+                    <place>
+                        <geogName>Casolla; <foreign>territorium</foreign></geogName>
+                        <geogName type="other"/>
+                        <idno>estates/3067</idno>
+                        <note/>
+                        <link type="places" corresp="#places/4005" subtype="correspondsTo"/>
                     </place>
                 </listPlace>
                 <listPlace n="Del Mercato Evelina">
