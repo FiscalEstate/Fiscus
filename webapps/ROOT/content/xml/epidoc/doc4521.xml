@@ -40,8 +40,8 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate when="1109-10">
-                                <note type="displayed_date">1109 October</note>
+                            <origDate notBefore="1109-10-01" notAfter="1109-10-31">
+                                <note type="displayed_date">1109 October 1 - 1109 October 31</note>
                                 <note type="dating_elements"/>
                                 <note type="topical_date"/>
                                 <note type="redaction_date"/>
@@ -82,7 +82,7 @@
                 <div type="textpart">
                     <ab>+ Notum sit omnibus filiis sanctae et Catholice aecclesiae. Quoniam Ego
                         prephatus <persName
-                            key="#Princeps #Vir_magnificus #Vir_gloriosus/vir_sublimis #childOf #grandchildOf #siblingOf"
+                            key="#Princeps #Vir_magnificus #Vir_gloriosus/vir_sublimis"
                             ref="#people/3019">Robbertus</persName> gratia dei Capuanus <rs
                             key="#Princeps">princeps</rs>. ob salutem et remedium animarum
                         gloriosorum <rs key="#Princeps">principum</rs>
@@ -151,21 +151,27 @@
                             >aecclesiam</rs>
                         <orgName
                             key="#Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Iure_proprietatis/pleno_iure #Churches"
-                            ref="#juridical_persons/3009">sancti andree </orgName>quae est in
-                        territorio <placeName ref="#places/571">suesse</placeName> cum omnibus que
-                        ei pertinet et modo dominatur. et <rs key="#Churches">aecclesiam</rs>
+                            ref="#juridical_persons/3009">sancti andree </orgName>quae est in <rs
+                            key="#City_territory">territorio</rs>
+                        <placeName ref="#places/571"><geogName key="#City_territory"
+                                ref="#estates/1913">suesse</geogName></placeName> cum omnibus que ei
+                        pertinet et modo dominatur. et <rs key="#Churches">aecclesiam</rs>
                         <orgName key="#Churches" ref="#juridical_persons/3008">sancte
                             Marie</orgName>. et <rs key="#Churches">aecclesiam</rs>
                         <orgName key="#Churches" ref="#juridical_persons/3019">sancti
-                            iohannis</orgName>. quae sunt in territorio <placeName
-                            ref="#places/4009">mignani</placeName> quas <persName ref="#people/4205"
-                            >Ugo sorellus</persName> dedit et optulit <rs key="#Hospitals"
-                            >hospitali</rs> predicti monasterii. cum omnibus suis pertinentiis. et
-                            <rs key="#Monasteries">monasterium</rs>
+                            iohannis</orgName>. quae sunt in <rs key="#Village/castle_territory"
+                            >territorio</rs>
+                        <placeName ref="#places/4009"><geogName key="#Village/castle_territory"
+                                ref="#estates/3052">mignani</geogName></placeName> quas <persName
+                            ref="#people/4205">Ugo sorellus</persName> dedit et optulit <rs
+                            key="#Hospitals">hospitali</rs> predicti monasterii. cum omnibus suis
+                        pertinentiis. et <rs key="#Monasteries">monasterium</rs>
                         <orgName
                             key="#Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Iure_proprietatis/pleno_iure #Monasteries"
-                            ref="#juridical_persons/3010">sanctae Crucis</orgName> quod est in
-                        territorio <placeName ref="#places/3483">Calatiae</placeName>. cum omnibus
+                            ref="#juridical_persons/3010">sanctae Crucis</orgName> quod est in <rs
+                            key="#City_territory">territorio</rs>
+                        <placeName ref="#places/3483"><geogName key="#City_territory"
+                                ref="#estates/3060">Calatiae</geogName></placeName>. cum omnibus
                         suis pertinentiis. et <rs key="#Casalia">Casale</rs> quod dicitur <placeName
                             key="#Casalia #Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Iure_proprietatis/pleno_iure #Coloni/tenants"
                             ref="#places/4006"><geogName
@@ -200,8 +206,8 @@
                             key="#Coloni/tenants">hominibus</rs> et universis pertinentiis earum. et
                             <rs key="#Decima">decimationem</rs>
                         <placeName key="#Wine #Fruits/vegetables #Hay/fodder #Animals #Decima"
-                            ref="#places/4014">nucerie</placeName> de <rs key="#Cereals"
-                        >annona</rs>. et de <rs key="#Wine">vino</rs>. de <rs
+                            ref="#places/4014 #places/4717">nucerie</placeName> de <rs
+                            key="#Cereals">annona</rs>. et de <rs key="#Wine">vino</rs>. de <rs
                             key="#Fruits/vegetables">fructibus</rs> et de <rs key="#Animals"
                             >animalibus</rs>. et <rs key="#Churches">aecclesiam</rs>
                         <orgName
@@ -211,12 +217,15 @@
                         <orgName
                             key="#Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Iure_proprietatis/pleno_iure #Churches"
                             ref="#juridical_persons/3004">sancti Severini</orgName> que sunt in
-                            <placeName ref="#places/4003">acerra</placeName>. et <rs key="#Churches"
-                            >aecclesia</rs><orgName key="#Churches" ref="#juridical_persons/3022">
-                            Sancti laurentii</orgName> quae est in territorio <placeName
-                            ref="#places/4023">Suessole</placeName> et acerre. in <placeName
-                            ref="#places/4022">pantano</placeName> scilicet iuxta <rs key="#Forests"
-                            >boscum</rs>. cum omnibus pertinentiis earum. et <rs
+                            <placeName ref="#places/4003"><geogName key="#Village/castle_territory"
+                                ref="#estates/3038">acerra</geogName></placeName>. et <rs
+                            key="#Churches">aecclesia</rs><orgName key="#Churches"
+                            ref="#juridical_persons/3022"> Sancti laurentii</orgName> quae est in
+                            <rs key="#Village/castle_territory">territorio</rs>
+                        <placeName ref="#places/4023"><geogName key="#Village/castle_territory"
+                                ref="#estates/3061">Suessole</geogName></placeName> et acerre. in
+                            <placeName ref="#places/4022">pantano</placeName> scilicet iuxta <rs
+                            key="#Forests">boscum</rs>. cum omnibus pertinentiis earum. et <rs
                             key="#Landed_possessions">terras</rs> et <rs key="#Coloni/tenants"
                             >villanos</rs> quos <persName ref="#people/3031">Rannulfus de
                             argentia</persName> dedit predicto monasterio in territorio acerre. et
@@ -241,8 +250,9 @@
                             key="#Mills">unum molendinum</rs> ipsius monasterii quod est ad
                             <placeName ref="#places/4016" key="#Mills">calambricitum</placeName> in
                             <rs key="#Rivers">aqua</rs>
-                        <placeName ref="#places/2865">lanei</placeName> cum omnibus predictis
-                        villanis et molendinis pertinentibus. et <rs key="#Priests">presbyterum</rs>
+                        <placeName ref="#places/2865" key="#Mills">lanei</placeName> cum omnibus
+                        predictis villanis et molendinis pertinentibus. et <rs key="#Priests"
+                            >presbyterum</rs>
                         <persName key="#Priests"><name ref="Marius">marium</name></persName> qui
                         habitat in <rs key="#Villas">villa</rs>
                         <placeName key="#Villas #Coloni/tenants" ref="#places/4007"><geogName
@@ -275,8 +285,9 @@
                             key="#Coloni/tenants">curtisanos</rs> qui sunt prope muros averse sicut
                         Ugo blancus ibi dedit. et <rs
                             key="#Hay/fodder #Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Iure_proprietatis/pleno_iure #Rights_of_use_on_woods/pastures/waters"
-                            >viridiarium</rs> quod est iuxta <rs key="#Markets">forum</rs> diei
-                        sabbati. et <rs key="#Lakes">lacum</rs>
+                            >viridiarium</rs> quod est iuxta <rs key="#Markets">forum</rs>
+                        <placeName key="#Markets" ref="#places/5128">diei sabbati</placeName>. et
+                            <rs key="#Lakes">lacum</rs>
                         <placeName
                             key="#Lakes #Fisheries #Fish #Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Allocation_to_churches #Canals #Fluvial_transport"
                             ref="#places/701">patriensem</placeName> cum <rs
@@ -326,17 +337,20 @@
                                 turstayni</name></persName> in <placeName ref="#places/4052"
                             key="#Coloni/tenants">arnone</placeName> concessu predicti fratris mei
                         Richardi principis. in eodem monasterio dedit. Nec non <rs key="#Size"
-                            >centum modios</rs> terrarum qui sunt in territorio <placeName
-                            ref="#places/4028">Cantie</placeName> quos <persName><name
-                                ref="Eribertus Bardone">herbertus bardone</name></persName> concessu
-                        prephata Richardi principis fratris mei in ipso monasterio optulit. et
-                            <placeName ref="#places/4029" key="#Landed_possessions #Coloni/tenants"
-                            >Nolitum</placeName> cum <rs key="#Coloni/tenants">villanis</rs>. et <rs
-                            key="#Landed_possessions">terris</rs> qualiter <persName
-                            ref="#people/3079">Raynaldus mica</persName> in predicto monasterio
-                        dedit. et <rs key="#Size">quinquaginta modios</rs> terrarum qui sunt in <rs
-                            key="#Gualdi">gualdo</rs> quos iamdictus Raynaldus mica ibi dedit. et
-                            <rs key="#Churches">aecclesiam</rs>
+                            >centum modios</rs> terrarum qui sunt in <rs
+                            key="#Village/castle_territory">territorio</rs>
+                        <placeName ref="#places/4028"><geogName key="#Village/castle_territory"
+                                ref="#estates/3030">Cantie</geogName></placeName> quos
+                                <persName><name ref="Eribertus Bardone">herbertus
+                            bardone</name></persName> concessu prephata Richardi principis fratris
+                        mei in ipso monasterio optulit. et <placeName ref="#places/4029"
+                            key="#Landed_possessions #Coloni/tenants">Nolitum</placeName> cum <rs
+                            key="#Coloni/tenants">villanis</rs>. et <rs key="#Landed_possessions"
+                            >terris</rs> qualiter <persName ref="#people/3079">Raynaldus
+                            mica</persName> in predicto monasterio dedit. et <rs key="#Size"
+                            >quinquaginta modios</rs> terrarum qui sunt in <rs key="#Gualdi"
+                            >gualdo</rs> quos iamdictus Raynaldus mica ibi dedit. et <rs
+                            key="#Churches">aecclesiam</rs>
                         <orgName
                             key="#Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Iure_proprietatis/pleno_iure #Coloni/tenants #Churches"
                             ref="#juridical_persons/3026">Sancte mariae quae vocatur
