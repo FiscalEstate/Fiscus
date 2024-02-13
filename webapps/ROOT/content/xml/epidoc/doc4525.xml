@@ -32,7 +32,7 @@
                             <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Edition</rs>
                             <rs type="document_tradition" ref="#">Copy</rs>
-                            <rs type="fiscal_property">No</rs>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -40,8 +40,8 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate when="1121-03">
-                                <note type="displayed_date">1121 March</note>
+                            <origDate notBefore="1121-03-01" notAfter="1121-03-31">
+                                <note type="displayed_date">1121 March 1 - 1121 March 31</note>
                                 <note type="dating_elements"/>
                                 <note type="topical_date">Capua (Caserta)</note>
                                 <note type="redaction_date"/>
@@ -84,19 +84,20 @@
                             ref="#people/3022">secundus Jordanus</persName> divina ordinante
                         clementia Capuanorum <rs key="#Princeps">princeps</rs>. <rs
                             key="#Intercessory">Per interventum</rs>
-                        <persName key="#Intercessory" ref="#people/3032">Aymonis de
-                            argintia</persName>. et <persName key="#Intercessory #Abbots"
+                        <persName key="#Intercessory #fidelisOf" ref="#people/3032">Aymonis de
+                            argintia</persName>. et <persName key="#Intercessory #Abbots #fidelisOf"
                             ref="#people/3036">Robberti</persName>
                         <rs key="#Abbots">abbatis</rs> nec non <persName
-                            key="#Intercessory #Other_palatine_officer" ref="#people/3035"
-                            >Odoaldi</persName>
+                            key="#Intercessory #Other_palatine_officer #fidelisOf"
+                            ref="#people/3035">Odoaldi</persName>
                         <rs key="#Other_palatine_officer">camerarii</rs> atque <persName
-                            key="#Intercessory #childOf"><name ref="Mancio fil. Iacobi"
-                                >Mansonis</name></persName>. et dilecti fili quondam dilecti qui
-                        vocabatur <persName key="#parentOf"><name ref="Iacobus"
-                            >Jaconus</name></persName>. nostrorum dilectorum fidelium. per hoc
-                        videlicet principale scriptum Damus tradimus concedimus ac Confirmamus. <rs
-                            key="#Monasteries">Monasterio</rs>
+                            key="#Intercessory #childOf #fidelisOf"><name ref="Mancio fil. Iacobi"
+                                >Mansonis</name></persName>. et dilecti <rs key="#childOf">fili</rs>
+                        quondam dilecti qui vocabatur <persName key="#fidelisOf"><name ref="Iacobus"
+                                >Jaconus</name></persName>. nostrorum dilectorum <rs
+                            key="#fidelisOf">fidelium</rs>. per hoc videlicet principale scriptum
+                        Damus tradimus concedimus ac Confirmamus. <rs key="#Monasteries"
+                            >Monasterio</rs>
                         <orgName key="#Immunity #Districtio #Monasteries"
                             ref="#juridical_persons/3006">Sancti laurentii capuani</orgName>. sito
                         intus hanc nostram prephatam <placeName key="#Cities #Tower"
@@ -107,12 +108,12 @@
                                 saccuzza</name></persName>. et <rs key="#heirTo">heredes</rs>
                         <persName key="#parentInLawOf"><name ref="Sigo">siconi</name></persName>
                         <rs key="#parentInLawOf">cognati</rs>
-                        <persName key="#parentInLawOf"><name ref="Gillus Normannus">gilii qui
-                                cognominabatur normannus</name></persName>. et <persName><name
-                                ref="Petrus Mons">Petrum montem</name></persName> cum <rs
-                            key="#heirTo">heredibus</rs> eius. et <persName><name ref="Tanso"
-                                >tansonem</name></persName> cum <rs key="#heirTo">heredibus</rs>
-                        eius. et <rs key="#heirTo">heredes</rs>
+                        <persName><name ref="Gillus Normannus">gilii qui cognominabatur
+                                normannus</name></persName>. et <persName><name ref="Petrus Mons"
+                                >Petrum montem</name></persName> cum <rs key="#heirTo"
+                            >heredibus</rs> eius. et <persName><name ref="Tanso"
+                            >tansonem</name></persName> cum <rs key="#heirTo">heredibus</rs> eius.
+                        et <rs key="#heirTo">heredes</rs>
                         <persName><name ref="Petrus Bagensis">Petri bagensis</name></persName>. ad
                         persolvendum et faciendum ipsos et <rs key="#childOf">filios</rs> et <rs
                             key="#heirTo">heredes</rs> eorum prephato monasterio et domino <persName
@@ -123,15 +124,17 @@
                             Laurentii</orgName> Levite et martiris christi aversani nec non et
                         monasterii sancti laurentii nostre capuane Civitatis. eiusque successoribus.
                             <rs key="#Census">Censum</rs> et <rs key="#Datium">dationes</rs>. <rs
-                            key="#Public_exactions">pubblicalia. et scaditiones</rs> et alia omnia
+                            key="#Public_exactions">pubblicalia</rs>. et <rs
+                            key="#Property_of_persons_without_heirs">scaditiones</rs> et alia omnia
                         que parti pubblice. facere et persolvere . . . . . . aut debuerint. Item
                         concedimus et confirmamus prescripto monasterio. Omnes <rs
                             key="#Coloni/tenants">homines</rs> quos nunc possidet et dominat. et
-                        omnes <rs key="#Coloni/tenants">curtisanos</rs> quos in <rs key="#Curtes"
-                            >curte</rs> et terris nostris habitant. et quos in antea ad abitandum et
-                        residendum venerint qui non habent tunc propriam hereditatem ut quietos
-                        illos absque omni contrarietatem habeat. et dominet et quicquid ipsos et
-                        filios et heredes eorum parti pubblice facere et persolvituri sunt prephato
+                        omnes <rs key="#Coloni/tenants">curtisanos</rs> quos in <rs
+                            key="#Curtes #Fiscal_property #Textual_occurrence #Mention">curte</rs>
+                        et terris nostris habitant. et quos in antea ad abitandum et residendum
+                        venerint qui non habent tunc propriam hereditatem ut quietos illos absque
+                        omni contrarietatem habeat. et dominet et quicquid ipsos et filios et
+                        heredes eorum parti pubblice facere et persolvituri sunt prephato
                         monasterio. et predicto domino Matheo. venerabili abbati eiusque
                         successoribus faciant et persolvant. <rs key="#Immunity #Districtio"
                             >Concedimus quoque et confirmamus prephato monasterio. ut amodo et
@@ -141,22 +144,22 @@
                             causa. pro qualibet culpa vel forisfacto. audeat aliquam molestiam
                             facere. donec ad predictum abbatem vel ad alium custodem. suprascripti
                             monasterii tertiam vel quartam vicem proclamationem faciat. et rectam
-                            vel concordiam ei facere deneget</rs>. et Si quis ex hominibus
-                        suprascripti monasterii alicuy aliquam culpam faceret. non cogatur exinde
-                        facere rectum. nisi incuria prephati monasterii. Hec omnia predicta prephato
-                        monasterio et domino Matheo venerabili abbati eiusque successoribus.
-                        Concedimus et confirmamus. ad habendum et possidendum in perpetuum. Remota
-                        omni inquietudine contrarietate et molestia. principum successorum nostrorum
-                        vel viceprincipum Comitum vel vicecomitum Sculdaorum. Castaldorum.
-                        aliorumque omnium mortalium persone. Quod si quis huius nostre concessionis
-                        et confirmationis pagine contemptor aut violator extiterit. <rs
+                            vel concordiam ei facere deneget. et Si quis ex hominibus suprascripti
+                            monasterii alicuy aliquam culpam faceret. non cogatur exinde facere
+                            rectum. nisi incuria prephati monasterii</rs>. Hec omnia predicta
+                        prephato monasterio et domino Matheo venerabili abbati eiusque
+                        successoribus. Concedimus et confirmamus. ad habendum et possidendum in
+                        perpetuum. Remota omni inquietudine contrarietate et molestia. principum
+                        successorum nostrorum vel viceprincipum Comitum vel vicecomitum Sculdaorum.
+                        Castaldorum. aliorumque omnium mortalium persone. Quod si quis huius nostre
+                        concessionis et confirmationis pagine contemptor aut violator extiterit. <rs
                             key="#Penalty">Viginti libras auri purissimi</rs> persolvat. medium
                         nostro palatio. et medium prephato. monasterio et predicto domino Matheo
                         abbati eiusque successoribus. Solutaque pena librarum hec nostra concessio
                         firma. atque inviolabilis permaneat in perpetuum. Ut autem hoc principale
                         scriptum firmius credatur. et diligentius ab omnibus observetur. sigillo
                         nostro iussimus sigillari. et manu propria subscribens illud corroboravimus.
-                        (M) Ex jussione prephate potestis scripsi EGO <persName key="#Judge"
+                        (M) Ex jussione prephate potestis scripsi EGO <persName key="#Writer #Judge"
                             ref="#people/3037">PHILIPPUS</persName>
                         <rs key="#Judge">PALATINUS JUDEX</rs> in anno dominice incarnationis. M.°
                         C.° XX.° primo et primo anno principatus prephati Jordani <rs
