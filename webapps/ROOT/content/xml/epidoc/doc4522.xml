@@ -32,7 +32,7 @@
                             <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Edition</rs>
                             <rs type="document_tradition" ref="#">Copy</rs>
-                            <rs type="fiscal_property">No</rs>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -40,8 +40,8 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate when="1112-04">
-                                <note type="displayed_date">1112 April</note>
+                            <origDate notBefore="1112-04-01" notAfter="1112-04-30">
+                                <note type="displayed_date">1112 April 1 - 1112 April 30</note>
                                 <note type="dating_elements"/>
                                 <note type="topical_date">Capua (Caserta)</note>
                                 <note type="redaction_date"/>
@@ -88,38 +88,39 @@
                         nostri Capuae et <persName key="#Intercessory #Viscount" ref="#people/3027"
                             >Sikonis</persName>
                         <rs key="#Viscount">vicecomitis</rs>
-                        <placeName ref="#places/3444" key="#Fortress">matalonis</placeName>. ac
-                            <persName key="#Intercessory #Judge" ref="#people/3028"
-                            >Crispini</persName>
-                        <rs key="#Judge">iudicis</rs>. nostrorum dilectorum fidelium. tibi
-                                <persName><name ref="Iohannes Mazzota">iohanni cognomento
-                                mazzota</name></persName>. quondam <persName><name ref="Silvester"
-                                >silvestri</name></persName>. habitatori iam nominati nostri <rs
-                            key="#Fortress">Castelli</rs> matalonis. et tuis <rs key="#heirTo"
-                            >heredibus</rs> inperpetuum. per hoc videlicet principale scriptum
-                        Concedimus ac Confirmamus. integram <rs
+                        <placeName ref="#places/3444" key="#Fortress"><geogName
+                                key="#Village/castle_territory" ref="#estates/3002"
+                                >matalonis</geogName></placeName>. ac <persName
+                            key="#Intercessory #Judge" ref="#people/3028">Crispini</persName>
+                        <rs key="#Judge">iudicis</rs>. nostrorum dilectorum <rs key="#fidelisOf"
+                            >fidelium</rs>. tibi <persName><name ref="Iohannes Mazzota">iohanni
+                                cognomento mazzota</name></persName>. quondam <persName><name
+                                ref="Silvester">silvestri</name></persName>. habitatori iam nominati
+                        nostri <rs key="#Fortress">Castelli</rs> matalonis. et tuis <rs
+                            key="#heirTo">heredibus</rs> inperpetuum. per hoc videlicet principale
+                        scriptum Concedimus ac Confirmamus. integram <rs
                             key="#Petiae #Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Iure_proprietatis/pleno_iure"
-                            >unam petiam</rs> de terra quae est in territorio ipsius castelli. in
-                        loco qui dicitur <placeName ref="#places/4054">Casorbici</placeName>. et hos
+                            >unam petiam</rs> de terra quae est in <rs
+                            key="#Village/castle_territory">territorio</rs> ipsius castelli. in loco
+                        qui dicitur <placeName ref="#places/4054">Casorbici</placeName>. et hos
                         subscriptos habet <rs key="#Fines">fines</rs>. ab uno latere quod est a
-                        parte orientis. est finis via publica. sunt inde per longitudinem passus
-                        Centum. et novem. Ab alio vero latere quod est ab occidente. est finis terra
-                        heredum quondam martini caractanu. et finis terra martini sabbatini. et
-                        finis terra heredum quondam Martini. ramphi. sunt inde passus Centum et
-                        duodecim. Ab uno capite quod est a parte meridiei est finis terra petri de
-                        ysa. et finis terra martini scaccatu. sunt inde passus Centum. ab alio vero
-                        capite quod est a septentrione. est finis via publica. sunt inde per
-                        trasversum passus. nonaginta. Hec autem predicta petia de terra per
-                        predictos fines et passus. mensurata scilicet ad passum <persName
-                            key="#Gastaldus/vicegastaldus" ref="#people/3024">landonis
-                            senioris</persName>
-                        <rs key="#Gastaldus/vicegastaldus">gastaldei</rs>. una cum omnibus
-                        inferioribus ac superioribus eius. et cum viis in ea intrandi et exeundi. et
-                        cum sepibus et limitibus et universis pertinentiis eius. et qualiter tibi
-                        pertinere dinoscitur per <rs key="#Cartula">cartulam</rs> quam olim tibi
-                        inde fecit <persName key="#marriage"><name ref="Purpura"
-                            >purpura</name></persName> filia quondam . . . . . . . . . . et <rs
-                            key="#marriage">uxor</rs> quondam <persName><name
+                        parte orientis. est finis <rs
+                            key="#Fiscal_property #Textual_occurrence #Mention #Roads">via
+                            publica</rs>. sunt inde per longitudinem passus Centum. et novem. Ab
+                        alio vero latere quod est ab occidente. est finis terra heredum quondam
+                        martini caractanu. et finis terra martini sabbatini. et finis terra heredum
+                        quondam Martini. ramphi. sunt inde passus Centum et duodecim. Ab uno capite
+                        quod est a parte meridiei est finis terra petri de ysa. et finis terra
+                        martini scaccatu. sunt inde passus Centum. ab alio vero capite quod est a
+                        septentrione. est finis via publica. sunt inde per trasversum passus.
+                        nonaginta. Hec autem predicta petia de terra per predictos fines et passus.
+                        mensurata scilicet ad passum landonis senioris gastaldei. una cum omnibus
+                        inferioribus ac superioribus eius. et cum <rs key="#Roads">viis</rs> in ea
+                        intrandi et exeundi. et cum sepibus et limitibus et universis pertinentiis
+                        eius. et qualiter tibi pertinere dinoscitur per <rs key="#Cartula"
+                            >cartulam</rs> quam olim tibi inde fecit <persName key="#marriage"><name
+                                ref="Purpura">purpura</name></persName> filia quondam . . . . . . .
+                        . . . et <rs key="#marriage">uxor</rs> quondam <persName><name
                                 ref="Iohannes Monte Sarclese">iohannis monte
                             sarclese</name></persName>. scilicet. in anno dominice incarnationis M.
                         centesimo quarto. et vicesimo quarto anno principatus domini <persName
