@@ -32,7 +32,7 @@
                             <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Edition</rs>
                             <rs type="document_tradition" ref="#">Copy</rs>
-                            <rs type="fiscal_property">No</rs>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -40,8 +40,8 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate when="1109-05">
-                                <note type="displayed_date">1109 May</note>
+                            <origDate notBefore="1109-05-01" notAfter="1109-05-31">
+                                <note type="displayed_date">1109 May 1 - 1109 May 31</note>
                                 <note type="dating_elements"/>
                                 <note type="topical_date">Capua (Caserta)</note>
                                 <note type="redaction_date"/>
@@ -85,27 +85,29 @@
                             >Iordanus</persName>
                         <rs key="#siblingOf">frater</rs> dilectissimus noster. et <persName
                             key="#Intercessory #siblingOf #fidelisOf #homoOf"><name
-                                ref="Anschetinus">anskitinus</name></persName> frater quondam
-                            <persName key="#Chaplain" ref="#people/3018">Gerbaldi</persName>
+                                ref="Anschetinus">anskitinus</name></persName>
+                        <rs key="#siblingOf">frater</rs> quondam <persName key="#Chaplain"
+                            ref="#people/3018">Gerbaldi</persName>
                         <rs key="#Chaplain">cappellanii</rs>. <rs key="#homoOf">homo</rs> ipsius
-                        Iordani. nec non noster <rs key="#fidelisOf">fidelis</rs>. nostram
-                        exoraverunt clementiam. quatenus. <orgName key="#Monasteries"
-                            ref="#juridical_persons/3000">Beato Laurentio</orgName>. suoque <rs
-                            key="#Monasteries">monasterio</rs>. Constructo scilicet propae nostram
-                            <placeName key="#Cities" ref="#places/4000">aversanam</placeName>
+                        Iordani. nec non noster <rs key="#fidelisOf">fidelis</rs>. <rs
+                            key="#Intercessory">nostram exoraverunt clementiam</rs>. quatenus.
+                            <orgName key="#Monasteries" ref="#juridical_persons/3000">Beato
+                            Laurentio</orgName>. suoque <rs key="#Monasteries">monasterio</rs>.
+                        Constructo scilicet propae nostram <placeName key="#Cities"
+                            ref="#places/4000">aversanam</placeName>
                         <rs key="#Cities">urbem</rs>. Cui dominus. <persName
                             key="#Abbots #Personal_rank" ref="#people/3023">Albero</persName>. <rs
                             key="#Personal_rank">venerabilis</rs>
                         <rs key="#Abbots">abbas</rs> prehest. per principalem scriptum Concederemus.
                             <rs key="#Petiae">Novem. petias</rs> terrae. in <placeName
                             key="#Petiae #Fines" ref="#places/3444"><geogName key="#Petiae"
-                                ref="#estates/3002">finibus matalonis</geogName></placeName> in
-                        subscriptis locis. quas predictus anskitinus cum consensu ipsius Iordani
-                        domini sui. in eodem monasterio pro salute animae suae dedit atque optulit.
-                        et Continent in se. <rs key="#Size">Viginti modios</rs> terrae. per fines et
-                        passus. Quorum petitio feliciter a nobis exaudita. Nos igitur <persName
-                            ref="#people/3019"
-                            key="#Princeps #Vir_magnificus #Vir_gloriosus/vir_sublimis #siblingOf"
+                                ref="#estates/3002"><rs key="#Fines">finibus</rs>
+                                matalonis</geogName></placeName> in subscriptis locis. quas
+                        predictus anskitinus cum consensu ipsius Iordani domini sui. in eodem
+                        monasterio pro salute animae suae dedit atque optulit. et Continent in se.
+                            <rs key="#Size">Viginti modios</rs> terrae. per fines et passus. Quorum
+                        petitio feliciter a nobis exaudita. Nos igitur <persName ref="#people/3019"
+                            key="#Princeps #Vir_magnificus #Vir_gloriosus/vir_sublimis"
                             >Robbertus</persName>. Capuanus <rs key="#Princeps">princeps</rs>.
                         illorum <rs key="#Intercessory">interventu</rs>. prephato sancto monasterio
                         per hoc principale scriptum. in perpetuum. Concedimus. ac Confirmamus.
@@ -173,8 +175,13 @@
                         finis terra nostra publica. sunt inde per longitudinem. passus sexaginta. et
                         sex. Ab alio vero latere. est finis terra iamdicti monasterii. sunt inde
                         passus sexaginta. et septem. Ab uno capite quod est a parte septentrionis.
-                        est starza nostra. quae a nobis retinet Robbertus comes. Ab alio vero Capite
-                        est. finis alia terra nostra. sunt per unumquodque caput. passus viginti et
+                        est <rs
+                            key="#Petiae #Fiscal_property #Textual_occurrence #Mention #Function #Redistributive #Outflow #Allocation_to_individuals"
+                            >starza</rs> nostra. quae a nobis retinet <persName key="#Count"
+                            ref="#people/2422">Robbertus</persName>
+                        <rs key="#Count">comes</rs>. Ab alio vero Capite est. finis <rs
+                            key="#Landed_possessions #Fiscal_property #Textual_occurrence #Mention"
+                            >alia terra nostra</rs>. sunt per unumquodque caput. passus viginti et
                         septem. <rs key="#Petiae">Octava namque petia</rs>. est in locum ubi dicitur
                         ad <placeName ref="#places/4051">centum palumbi</placeName>. et hos
                         subscriptos habet <rs key="#Fines">fines</rs>. Ab uno latere a parte
@@ -183,44 +190,44 @@
                         terra landonis de lu presbytero. et terra malfridi de marino. sunt inde
                         passus Centum. Ab uno capite ab oriente. est finis terra predicti
                         monasterii. sunt inde passus viginti et octo. Ab alio vero Capite. est finis
-                        via publica. sunt inde passus viginti quinque et medium.<rs key="#Petiae">
-                            Nona vero petia</rs>. est ad predictum locum qui dicitur ad li russi. et
-                        hos subscriptos habet <rs key="#Fines">fines</rs>. Ab uno latere quod est a
-                        parte meridiei. est finis terra quae fuit Iohannis cennami. quam modo
-                        residet predictus anskitinus. sunt per longitudinem passus quatraginta et
-                        sex et medium. et qualiter vadit abinde iuxta terram iohannis oltremontani.
-                        sunt inde passus quattuor. et qualiter abinde vadit directe fine terra
-                        ipsius iohannis oltremontani sunt inde passus quattuordecim. Ab alio vero
-                        latere. est finis terra petri dardani. sunt inde passus per longitudinem.
-                        quinquaginta et septem. minus pedem unum et plantam unam. Ab uno Capite quod
-                        est ab oriente. est finis terra iohannis cognomine tirellus. sunt inde per
-                        latitudinem passus tredecim. et due partes de passo. Ab alio vero Capite est
-                        terra petri cesari laborani. sunt inde passus decem. novemque. Cunctas et
-                        integras predictas petias terrae. per prescriptos fines et mensuras.
-                        mensuratas scilicet ad passum <persName key="#Gastaldus/vicegastaldus"
-                            ref="#people/3024">landonis senioris</persName>
-                        <rs key="#Gastaldus/vicegastaldus">gastaldei</rs>. Una cum omnibus
-                        inferioribus ac superioribus earum et cum viis suis. in ipsis intrandi et
-                        exeundi. et cum sepibus et limitibus et universis pertinentiis illarum. Nos
-                        prenotatus Robbertus Capuanus. princeps. per hoc principale scriptum in
-                        perpetuum. in prephato venerabili et sancto monasterio sancti Laurentii.
-                        Concedimus ac Confirmamus. ad possessionem et potestatem et dominationem
-                        suam. et predicti domini Alberonis venerabilis abbatis suorumque omnium
-                        successorum. faciendo exinde utilitatem ipsius monasterii saecundum iure
-                        illorum. Remota omni inquietudine. Contrarietate et molestia omnium
-                        principum successorum nostrorum vel viceprincipum. Comitum vel vicecomitum.
-                        Iudicum. sculdahorum. Gastaldeorum. aliorumque omnium mortalium personae.
-                        Quod siquis huius nostrae Concessionis et confirmationis paginam Conteptor
-                        aut violator extiterit. <rs key="#Penalty">Quinquaginta libras auri
-                            purissimi</rs> persolvat. Medietatem nostro sacro palatio. et
-                        medietatem. ipsi venerabili et sancto monasterio. et prephato domino
-                        Alberoni. venerabili abbati. suisque successoribus et soluta paena. hoc
-                        principale scriptum. firmum. munitum. atque inviolabile maneat in perpetuum.
-                        et ut firmius credatur. et diligentius ab omnibus observetur. Manu propria
-                        illud corroboravimus. et nostri sigilli inpressione iussimus illud insigniri
-                        +. SIGNUM DOMINI ROBBERTI (M) GLORIOSISSIMI AC <rs key="#Vir_magnificus"
-                            >MAGNIFICI</rs> PRINCIPIS. + Ego prephatus <persName key="#Witness"
-                            ref="#people/3022">Iordanus</persName> + Ego <persName
+                            <rs key="#Fiscal_property #Textual_occurrence #Mention #Roads">via
+                            publica</rs>. sunt inde passus viginti quinque et medium.<rs
+                            key="#Petiae"> Nona vero petia</rs>. est ad predictum locum qui dicitur
+                        ad li russi. et hos subscriptos habet <rs key="#Fines">fines</rs>. Ab uno
+                        latere quod est a parte meridiei. est finis terra quae fuit Iohannis
+                        cennami. quam modo residet predictus anskitinus. sunt per longitudinem
+                        passus quatraginta et sex et medium. et qualiter vadit abinde iuxta terram
+                        iohannis oltremontani. sunt inde passus quattuor. et qualiter abinde vadit
+                        directe fine terra ipsius iohannis oltremontani sunt inde passus
+                        quattuordecim. Ab alio vero latere. est finis terra petri dardani. sunt inde
+                        passus per longitudinem. quinquaginta et septem. minus pedem unum et plantam
+                        unam. Ab uno Capite quod est ab oriente. est finis terra iohannis cognomine
+                        tirellus. sunt inde per latitudinem passus tredecim. et due partes de passo.
+                        Ab alio vero Capite est terra petri cesari laborani. sunt inde passus decem.
+                        novemque. Cunctas et integras predictas petias terrae. per prescriptos fines
+                        et mensuras. mensuratas scilicet ad passum landonis senioris gastaldei. Una
+                        cum omnibus inferioribus ac superioribus earum et cum <rs key="#Roads"
+                            >viis</rs> suis. in ipsis intrandi et exeundi. et cum sepibus et
+                        limitibus et universis pertinentiis illarum. Nos prenotatus Robbertus
+                        Capuanus. princeps. per hoc principale scriptum in perpetuum. in prephato
+                        venerabili et sancto monasterio sancti Laurentii. Concedimus ac Confirmamus.
+                        ad possessionem et potestatem et dominationem suam. et predicti domini
+                        Alberonis venerabilis abbatis suorumque omnium successorum. faciendo exinde
+                        utilitatem ipsius monasterii saecundum iure illorum. Remota omni
+                        inquietudine. Contrarietate et molestia omnium principum successorum
+                        nostrorum vel viceprincipum. Comitum vel vicecomitum. Iudicum. sculdahorum.
+                        Gastaldeorum. aliorumque omnium mortalium personae. Quod siquis huius
+                        nostrae Concessionis et confirmationis paginam Conteptor aut violator
+                        extiterit. <rs key="#Penalty">Quinquaginta libras auri purissimi</rs>
+                        persolvat. Medietatem nostro sacro palatio. et medietatem. ipsi venerabili
+                        et sancto monasterio. et prephato domino Alberoni. venerabili abbati.
+                        suisque successoribus et soluta paena. hoc principale scriptum. firmum.
+                        munitum. atque inviolabile maneat in perpetuum. et ut firmius credatur. et
+                        diligentius ab omnibus observetur. Manu propria illud corroboravimus. et
+                        nostri sigilli inpressione iussimus illud insigniri +. SIGNUM DOMINI
+                        ROBBERTI (M) GLORIOSISSIMI AC <rs key="#Vir_magnificus">MAGNIFICI</rs>
+                        PRINCIPIS. + Ego prephatus <persName key="#Witness" ref="#people/3022"
+                            >Iordanus</persName> + Ego <persName
                             key="#Witness #Other_palatine_officer" ref="#people/3025"
                             >Goffridus</persName>
                         <rs key="#Other_palatine_officer">comes stabuli</rs>. Ex iussione prephate
@@ -228,9 +235,10 @@
                             ref="#people/3012">QUIRIACUS</persName>
                         <rs key="#Judge">PALATINUS IUDEX</rs>. In anno dominice Incarnationis. M.°
                         C.° VIIII.° et. saecundo. anno principatus ipsius domini Robberti principis
-                            <rs key="#Vir_gloriosus/vir_sublimis">gloriosi</rs> Capuanae Civitatis.
-                        DATUM <placeName key="#Cities" ref="#places/173">Capue</placeName>. Mense
-                        Magio: per Indictionem secundam +</ab>
+                            <rs key="#Vir_gloriosus/vir_sublimis">gloriosi</rs> Capuanae <rs
+                            key="#Cities">Civitatis</rs>. DATUM <placeName key="#Cities"
+                            ref="#places/173">Capue</placeName>. Mense Magio: per Indictionem
+                        secundam +</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
