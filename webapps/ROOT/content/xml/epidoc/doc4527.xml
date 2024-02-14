@@ -40,8 +40,8 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate when="1123-05">
-                                <note type="displayed_date">1123 May</note>
+                            <origDate notBefore="1123-05-01" notAfter="1123-05-31">
+                                <note type="displayed_date">1123 May 1 - 1123 May 31</note>
                                 <note type="dating_elements"/>
                                 <note type="topical_date">Capua (Caserta)</note>
                                 <note type="redaction_date"/>
@@ -81,10 +81,10 @@
             <div type="edition">
                 <div type="textpart">
                     <ab>+ IN NOMINE DOMINI SALVATORIS NOSTRI DEI ETERNI <persName
-                            key="#Princeps #Vir_gloriosus/vir_sublimis #siblingOf"
-                            ref="#people/3022">JORDANUS</persName> DIVINA ORDINANTE CLEMENTIA
-                        CAPUANORUM <rs key="#Princeps">PRINCEPS</rs> PETITIONI SUORUM DILECTORUM
-                        FIDELIUM BENIGNE AC CLEMENTER FAVET. Igitur fidelium nostrorum presentium ac
+                            key="#Princeps #Vir_gloriosus/vir_sublimis" ref="#people/3022"
+                            >JORDANUS</persName> DIVINA ORDINANTE CLEMENTIA CAPUANORUM <rs
+                            key="#Princeps">PRINCEPS</rs> PETITIONI SUORUM DILECTORUM FIDELIUM
+                        BENIGNE AC CLEMENTER FAVET. Igitur fidelium nostrorum presentium ac
                         futurorum noverit multitudo. Quoniam <rs key="#Intercessory">per
                             interventum</rs>
                         <persName key="#Intercessory" ref="#people/3032">Aymonis cognomento de
@@ -92,13 +92,15 @@
                             key="#Intercessory #Other_palatine_officer">Ugonis cognomento de
                             labolita</persName> nostri <rs key="#Other_palatine_officer"
                             >economi</rs>. atque <persName key="#Intercessory" ref="#people/4205"
-                            >Ugonis Sorelli</persName>. et <persName key="#Intercessory"><name
-                                ref="Guitmundus de Mune Crossa">Guimundi cognominato de mune
-                                crossa</name></persName> nostrorum dilectorum fidelium ac baronum
-                        tibi <persName key="#Notary #childOf" ref="#people/3041">Eustasi</persName>
-                        nostri palatii <rs key="#Notary">notarie</rs> fidelis <rs key="#childOf"
-                            >fili</rs> quondam <persName><name ref="Bisantius"
-                            >bisantii</name></persName> habitator hujus nostre <placeName
+                            >Ugonis Sorelli</persName>. et <persName key="#Intercessory #fidelisOf"
+                                ><name ref="Guitmundus de Mune Crossa">Guimundi cognominato de mune
+                                crossa</name></persName> nostrorum dilectorum <rs key="#fidelisOf"
+                            >fidelium</rs> ac baronum tibi <persName
+                            key="#Notary #childOf #fidelisOf" ref="#people/3041">Eustasi</persName>
+                        nostri palatii <rs key="#Notary">notarie</rs>
+                        <rs key="#fidelisOf">fidelis</rs>
+                        <rs key="#childOf">fili</rs> quondam <persName><name ref="Bisantius"
+                                >bisantii</name></persName> habitator hujus nostre <placeName
                             key="#Cities" ref="#places/173">capuane</placeName>
                         <rs key="#Cities">civitatis</rs> prope <rs key="#Churches">ecclesiam</rs>
                         <orgName key="#Churches" ref="#juridical_persons/3031">sancti benedicti
@@ -112,23 +114,27 @@
                             > et possessionibus illorum et illarum</rs>. ut ipsi et eorum earumque
                         heredes faciant et prosolvant tibi tuis heredibus semper <rs key="#Census"
                             >censum</rs> et <rs key="#Datium">dationes</rs> publia et <rs
-                            key="#Public_exactions">scaditiones</rs> et alia omnia que parti publice
-                        facere vel persolvere debent aut debuerint. aut soliti vel solite sunt
-                        facere Nomina quorum et quarum hec sunt. <persName key="#childOf"><name
-                                ref="Iohannes Amorosa">Iohannes</name></persName>. et <persName
-                            key="#childOf"><name ref="Simeon Amorosa">Simeon</name></persName>.
-                        amorosa <rs key="#childOf">filios</rs> quondam <persName><name
-                                ref="Cantius Borrandus">canzi cognomento borrandi</name></persName>.
-                                <persName><name ref="Iohhannes Mannozza">Iohannes cognomento
-                                mannocza</name></persName>. <persName><name
+                            key="#Property_of_persons_without_heirs">scaditiones</rs> et alia omnia
+                        que parti publice facere vel persolvere debent aut debuerint. aut soliti vel
+                        solite sunt facere Nomina quorum et quarum hec sunt. <persName
+                            key="#Coloni/tenants #childOf"><name ref="Iohannes Amorosa"
+                                >Iohannes</name></persName>. et <persName
+                            key="#Coloni/tenants #childOf"><name ref="Simeon Amorosa"
+                            >Simeon</name></persName>. amorosa <rs key="#childOf">filios</rs>
+                        quondam <persName><name ref="Cantius Borrandi">canzi cognomento
+                                borrandi</name></persName>. <persName key="#Coloni/tenants"><name
+                                ref="Iohhannes Mannozza">Iohannes cognomento
+                            mannocza</name></persName>. <persName key="#Coloni/tenants"><name
                                 ref="Pandulfus fil. Petri Bassi">Pandulfus filius quondam petri
-                                bassi</name></persName>. <persName><name ref="Iohannes Forgnanu"
-                                >Iohannes cognomento forgnanu</name></persName>. <persName><name
+                                bassi</name></persName>. <persName key="#Coloni/tenants"><name
+                                ref="Iohannes Forgnanu">Iohannes cognomento
+                            forgnanu</name></persName>. <persName key="#Coloni/tenants"><name
                                 ref="Stabilis Mazzota">Stabilis cognomento
-                        maczota</name></persName>. <persName><name ref="Cioffus fil. Iacobi Mazzota"
-                                >Cioffus filius quondam Iacobi maczota</name></persName> et omnes
-                            <rs key="#Property_of_persons_without_heirs">res et Sustias </rs>que
-                        fuerunt quondam<persName key="#Property_of_persons_without_heirs"><name
+                        maczota</name></persName>. <persName key="#Coloni/tenants"><name
+                                ref="Cioffus fil. Iacobi Mazzota">Cioffus filius quondam Iacobi
+                                maczota</name></persName> et omnes <rs
+                            key="#Property_of_persons_without_heirs">res et Sustias </rs>que fuerunt
+                            quondam<persName key="#Property_of_persons_without_heirs"><name
                                 ref="Iohannes Mullica"> Iohannis mullike</name></persName>. et <rs
                             key="#childOf">filias</rs> quondam <persName key="#parentOf"><name
                                 ref="Petrus Caiacianus">petri caiaciani</name></persName>. videlicet
@@ -136,37 +142,41 @@
                             >munda</name></persName> et <persName key="#childOf #siblingOf"><name
                                 ref="Cruda">cruda</name></persName> et <persName
                             key="#childOf #siblingOf"><name ref="Letitia">letitia</name></persName>
-                        <rs key="#siblingOf">sorores</rs> et mulier nomine <persName><name
-                                ref="Capuana">capuana</name></persName> que est habitator prope <rs
-                            key="#Churches">ecclesiam</rs> sancti biti de loco pal . . . ta <rs
-                            key="#childOf">filius</rs> quondam <persName><name ref="Iaquintus"
-                                >iaquiti</name></persName> et <persName key="#childOf"><name
-                                ref="Constabilis">Custabilis</name></persName>
+                        <rs key="#siblingOf">sorores</rs> et mulier nomine <persName
+                            key="#Coloni/tenants"><name ref="Capuana">capuana</name></persName> que
+                        est habitator prope <rs key="#Churches">ecclesiam</rs> sancti biti de loco
+                        pal . . . ta <rs key="#childOf">filius</rs> quondam <persName><name
+                                ref="Iaquintus">iaquiti</name></persName> et <persName
+                            key="#Coloni/tenants #childOf"><name ref="Constabilis"
+                            >Custabilis</name></persName>
                         <rs key="#childOf">filia</rs> quondam <persName><name ref="Petrus Calvensis"
                                 >petri calvensis</name></persName> qui est habitator in <rs
                             key="#Curtes">curte</rs> tua de loco <placeName key="#Curtes"
                             ref="#places/4056"><geogName key="#Curtes" ref="#estates/3013"
-                                >pasqualitu</geogName></placeName>. et <persName key="#childOf"
-                                ><name ref="Iohannes Papa">Iohannes cognomento
-                            papa</name></persName>
+                                >pasqualitu</geogName></placeName>. et <persName
+                            key="#Coloni/tenants #childOf"><name ref="Iohannes Papa">Iohannes
+                                cognomento papa</name></persName>
                         <rs key="#childOf">filius</rs> quondam <persName><name ref="Iohannes"
                                 >Iohannis</name></persName> qui est abitator in <rs key="#Curtes"
                             >curte</rs> tua que videtur esse in loco <placeName key="#Curtes"
-                            ref="#places/2308 #places/4057">punticelli</placeName> et
-                                <persName><name ref="Robertus fil. Pauli">Robbertus filius quondam
-                                Pauli</name></persName> qui est habitator in supradicto loco
-                        punticelli et <persName key="#childOf"><name ref="Martinus"
-                            >Martinus</name></persName>
+                            ref="#places/4057">punticelli</placeName> et <persName
+                            key="#Coloni/tenants"><name ref="Robertus fil. Pauli">Robbertus filius
+                                quondam Pauli</name></persName> qui est habitator in supradicto loco
+                        punticelli et <persName key="#Coloni/tenants #childOf"><name ref="Martinus"
+                                >Martinus</name></persName>
                         <rs key="#childOf">filius</rs> naturalis quondam <persName><name
                                 ref="Iohannes Cotuneus">Iohannis cotunei</name></persName>. et
-                                <persName><name ref="Bonomus fil. Simeonis">bonus homo filius
-                                quondam Simeonis</name></persName>. <persName><name ref="Raulus"
-                                >Raulus</name></persName> filius quondam . . . . . . . . . . . .
-                        Quin etiam per hoc idem principale scriptum in perpetuum. nos prenominatus
-                        secundus Iordanus dei gratia Capuanorum princeps tibi prescripte Eustasi et
-                        tuis heredibus Damus tradimus concedimus ac Confirmamus. ea omnia que
-                            <persName key="#Princeps #siblingOf" ref="#people/3010">secundus
-                            Richardus</persName> aut <persName key="#Princeps #siblingOf"
+                            <persName key="#Coloni/tenants"><name ref="Bonomus fil. Simeonis">bonus
+                                homo filius quondam Simeonis</name></persName>. <persName
+                            key="#Coloni/tenants #childOf"><name ref="Raulus"
+                            >Raulus</name></persName>
+                        <rs key="#childOf">filius</rs> quondam . . . . . . . . . . . . Quin etiam
+                        per hoc idem principale scriptum in perpetuum. nos prenominatus secundus
+                        Iordanus dei gratia Capuanorum princeps tibi prescripte Eustasi et tuis
+                        heredibus Damus tradimus concedimus ac Confirmamus. ea <rs
+                            key="#Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Iure_proprietatis/pleno_iure"
+                            >omnia</rs> que <persName key="#Princeps #siblingOf" ref="#people/3010"
+                            >secundus Richardus</persName> aut <persName key="#Princeps #siblingOf"
                             ref="#people/3019">Robbertus</persName>
                         <rs key="#Princeps">principes</rs>
                         <rs key="#siblingOf">fratres</rs> nostri tibi donaverunt aut concesserunt.
