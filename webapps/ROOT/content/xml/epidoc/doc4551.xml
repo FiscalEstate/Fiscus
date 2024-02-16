@@ -32,7 +32,7 @@
                             <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Edition</rs>
                             <rs type="document_tradition" ref="#">Copy</rs>
-                            <rs type="fiscal_property">No</rs>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -99,8 +99,10 @@
                         <rs key="#Cities">urbis</rs>, in quo domna <persName key="#Abbesses"
                             ref="#people/3083">Alberada</persName> religiosa <rs key="#Abbesses"
                             >abbatissa</rs> preesse videtur, videlicet: <rs key="#Size">viginti
-                            modios</rs> terre in territorio <placeName key="#Villages/settlements"
-                            ref="#places/3444">Matalonis</placeName>, scilicet in loco qui vocatur
+                            modios</rs> terre in <rs key="#Village/castle_territory">territorio</rs>
+                        <placeName key="#Villages/settlements" ref="#places/3444"><geogName
+                                key="#Village/castle_territory" ref="#estates/3002"
+                                >Matalonis</geogName></placeName>, scilicet in loco qui vocatur
                             <placeName key="#Villages/settlements" ref="#places/4097"
                             >Figloli</placeName>. Hec sunt <rs key="#Fines">fines</rs> predictorum
                         modiorum terrarum, que est una <rs key="#Petiae">petia</rs>, nominatim: ab
@@ -108,41 +110,40 @@
                         Martini fratris eius et Iohannis Acini; ab alio vero latere, quod est a
                         parte occidentis, est finis terra Landonis Girardi, et finis terra predicti
                         Landonis bagensis, et finis terra Petri Sparani; ab uno capite, quod est a
-                        parte meridiei, est finis via puplica; ab alio latere, quod est a parte
-                        septentrionis, est finis via carraria. Hec autem predicta petia de terra,
-                        per predictos fines et mensuras, que continet in se viginti modios terre,
-                        mensurata ad passum scilicet <persName key="#Gastaldus/vicegastaldus"
-                            ref="#people/3024">Landonis</persName>
-                        <rs key="#Gastaldus/vicegastaldus">gastaldei</rs>, una cum omnibus
-                        inferioribus ac superioribus eius, quam et cum <rs key="#Roads">viis</rs> in
-                        ea intrandi et exeundi, cum sepibus et limitibus et universis pertinentiis
-                        eius, nos prenotatus secundus Richardus, Capuanus princeps, in prephato
-                        monasterio Dei et Beati Blasii martiris Christi, per interventum predicti
-                        Landonis bagensis, propter datione[m] quam in predicto monasterio inde
-                        fecerat pro <rs key="#childOf">filia</rs> sua que <rs
-                            key="#Nuns/sanctimoniales">monacha</rs> ibi constituit, damus, tradimus,
-                        concedimus atque confirmamus, per hoc scilicet principale scriptum,
-                        imperpetuum, ad possessionem et potestatem et dominationem predicti
-                        monasterii et prephate domne Alberade religiose abbatisse eiusque
-                        successorum, faciendo exinde regulariter quicquid eis placuerit, remota omni
-                        inquietitudine, contrarietate et molestia omnium principum successorum
-                        nostrorum, vel viceprincipum, comitum vel vicecomitum , iudicum,
-                        sculdaborum, castaldeorum aliorumque hominum mortalium persona. Quod si quis
-                        huius nostre dationis, traditionis, concessionis ac confirmationis paginam
-                        contemptor aut violator in aliquo esse presumpserit, <rs key="#Penalty"
-                            >quinquaginta libras auri purissimi</rs> persolvat, medietatem predicto
-                        monasterio et medietatem nostro sacro palatio. Solutaque pena librarum, hoc
-                        principale scriptum, cum omnibus que continet, firmum, munitum atque
-                        inviolabile maneat imperpetuum. Et, ut hoc firmius credatur et diligentius
-                        ab omnibus observetur, manu propria illud corroboravimus, et nostri sigilli
-                        impressione iussimus insigniri. (M) Ex iussione prephate serenissime
-                        potestatis, scripsi ego <persName key="#Writer #Judge" ref="#people/3012"
-                            >Quiriacus</persName>, <rs key="#Judge">palatinus iudex</rs>, in anno
-                        dominice incarnationis millesimo centesimo quarto, et vicesimo quinto anno
-                        principatus domni secundi Richardi <rs key="#Vir_gloriosus/vir_sublimis"
-                            >gloriosi</rs> principis Capue. Datum <placeName key="#Cities"
-                            ref="#places/173">Capuam</placeName>, mense ianuario, per indictionem
-                        decimam tertiam.</ab>
+                        parte meridiei, est finis <rs
+                            key="#Fiscal_property #Textual_occurrence #Mention #Roads">via
+                            puplica</rs>; ab alio latere, quod est a parte septentrionis, est finis
+                        via carraria. Hec autem predicta petia de terra, per predictos fines et
+                        mensuras, que continet in se viginti modios terre, mensurata ad passum
+                        scilicet Landonis gastaldei, una cum omnibus inferioribus ac superioribus
+                        eius, quam et cum <rs key="#Roads">viis</rs> in ea intrandi et exeundi, cum
+                        sepibus et limitibus et universis pertinentiis eius, nos prenotatus secundus
+                        Richardus, Capuanus princeps, in prephato monasterio Dei et Beati Blasii
+                        martiris Christi, per interventum predicti Landonis bagensis, propter
+                        datione[m] quam in predicto monasterio inde fecerat pro <rs key="#childOf"
+                            >filia</rs> sua que <rs key="#Nuns/sanctimoniales">monacha</rs> ibi
+                        constituit, damus, tradimus, concedimus atque confirmamus, per hoc scilicet
+                        principale scriptum, imperpetuum, ad possessionem et potestatem et
+                        dominationem predicti monasterii et prephate domne Alberade religiose
+                        abbatisse eiusque successorum, faciendo exinde regulariter quicquid eis
+                        placuerit, remota omni inquietitudine, contrarietate et molestia omnium
+                        principum successorum nostrorum, vel viceprincipum, comitum vel vicecomitum
+                        , iudicum, sculdaborum, castaldeorum aliorumque hominum mortalium persona.
+                        Quod si quis huius nostre dationis, traditionis, concessionis ac
+                        confirmationis paginam contemptor aut violator in aliquo esse presumpserit,
+                            <rs key="#Penalty">quinquaginta libras auri purissimi</rs> persolvat,
+                        medietatem predicto monasterio et medietatem nostro sacro palatio. Solutaque
+                        pena librarum, hoc principale scriptum, cum omnibus que continet, firmum,
+                        munitum atque inviolabile maneat imperpetuum. Et, ut hoc firmius credatur et
+                        diligentius ab omnibus observetur, manu propria illud corroboravimus, et
+                        nostri sigilli impressione iussimus insigniri. (M) Ex iussione prephate
+                        serenissime potestatis, scripsi ego <persName key="#Writer #Judge"
+                            ref="#people/3012">Quiriacus</persName>, <rs key="#Judge">palatinus
+                            iudex</rs>, in anno dominice incarnationis millesimo centesimo quarto,
+                        et vicesimo quinto anno principatus domni secundi Richardi <rs
+                            key="#Vir_gloriosus/vir_sublimis">gloriosi</rs> principis Capue. Datum
+                            <placeName key="#Cities" ref="#places/173">Capuam</placeName>, mense
+                        ianuario, per indictionem decimam tertiam.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
