@@ -85,52 +85,62 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>Karolus divina favente clementia <rs>imperator</rs>
-                        augustus anno imperii eius quinto, atque filio eius
-                            Lodovico similiter quinto, die sesto mensis
-                        octuber, indictione quarta, <rs>monasterio</rs>
-                        <orgName>sanctorum omninum apostolorum et Christi confessoris
-                            Silvestri</orgName> siti <rs>territorio</rs>
-                        <placeName>Motinensi</placeName> loco qui vocatur
-                            <placeName>Nonantulas</placeName>, in quo domnus
-                            <persName>Theodoricus</persName> vir venerabilis <rs>monachus</rs>
-                        <rs>presbiter</rs> et <rs>abbas</rs> preesse videtur, ego quidem
-                            <persName>Litefredus</persName> gloriosissimus <rs>comes</rs> de
-                            <rs>comitatu</rs>
-                        <placeName><geogName>Cremonensis</geogName></placeName> filius bone memorie
-                            <persName>Liutefrido</persName> comitis pro remedio anime mee seu omnium
-                        parentorum meorum dono, trado et offero in eodem monasterio nominative
-                            <rs>pecias</rs> quindecim de terra iuris mei proprietatis, que esse
-                        videtur in loco et fundo qui dicitur <placeName>Bulgari</placeName> et
-                            <placeName>Nocetulo</placeName> atque <placeName>Sablone</placeName> qui
-                        no(minatur) prope strata Papiense. Prima pecia in loco
-                            <placeName>Ardole</placeName> est pro mensura iusta iugerum unum, in
-                        alio loco insimul una petia iugera tria; alia in Nocetulo iugera due et alia
-                        in eodem Nocetulo iugera similiter duo, alia iugerum unum, alia ibi prope
-                        iugerum unum, alia in Sablone est perticas triginta, alia ibi prope perticas
-                        quatuor, alia perticas octo, alia pecia in loco Bulgari perticas quatuor,
-                        alia ibi prope pertica una, alia in eodem fundo perticas duo, alia ibi prope
-                        perticas duo, alia … perticas tres, alia perticas octo; similiter dono et
-                        offero in eodem monasterio peciam unam de terra foris <rs>civitate</rs>
-                        <placeName>Cremona</placeName>, que est in loco qui
-                            <placeName>Predario</placeName> dicitur et est pro mensura iuxta iuges
-                        tres, perticas quatuor, coeret ei finis a mane heredes quondam
-                            <persName>Adelberti</persName> comitis et <rs>ecclesia</rs>
-                        <orgName>Sancte Marie</orgName>, a meridie fossatum, a mane Sancte Marie et
-                        aliquid Sancti Silvestri, a sera ipsius Sacnti Silvestri; similiter dono et
-                        offero in eodem monasterio pecias de terra sex in locis et fundis qui
-                            <placeName>Septemcani</placeName> et <placeName>Pipia</placeName>. Prima
-                        pecia est pro mensura iusta iuges … sesta pecia in Pipia est pro mensura
-                        iuxta iuges sex. … Ego Litefridus manu mea subscripsi. Signum manibus
-                                <persName><name>Arnulfo</name></persName> et
-                                <persName><name>Giselberto</name></persName> germanis seu
-                                <persName><name>Bosio</name></persName> et
-                                <persName><name>Teperto</name></persName> … atque
-                                <persName><name>Pascale</name></persName> de civitate Cremona qui
-                            <rs>testes</rs> rogatis … Ego
-                            <persName><name>Rodevertus</name></persName>
-                        <rs>notarius</rs> sacri palacii <rs>scripsi</rs>, post tradita complevi et
-                        dedi.</ab>
+                    <ab>Karolus divina favente clementia <rs key="#Emperor/king">imperator</rs>
+                        augustus anno imperii eius quinto, atque filio eius Lodovico similiter
+                        quinto, die sesto mensis octuber, indictione quarta, <rs key="#Monasteries"
+                            >monasterio</rs>
+                        <orgName key="#Monasteries" ref="#juridical_persons/47">sanctorum omninum
+                            apostolorum et Christi confessoris Silvestri</orgName> siti <rs
+                            key="#City_territory">territorio</rs>
+                        <placeName ref="#places/38" key="#City_territory">Motinensi</placeName> loco
+                        qui vocatur <placeName key="#Monasteries" ref="#places/15"
+                            >Nonantulas</placeName>, in quo domnus <persName key="#Priests #Abbots #Monks" ref="#people/1242"
+                            >Theodoricus</persName> vir venerabilis <rs key="#Monks">monachus</rs>
+                        <rs key="#Priests">presbiter</rs> et <rs key="#Abbots">abbas</rs> preesse
+                        videtur, ego quidem <persName key="#Count" ref="#people/"
+                                ><name>Litefredus</name></persName> gloriosissimus <rs key="#Count"
+                            >comes</rs> de <rs key="#Comitatus">comitatu</rs>
+                        <placeName key="#Cities #Comitatus" ref="#places/58"><geogName
+                                key="#Comitatus" ref="#estates/271"
+                            >Cremonensis</geogName></placeName> filius bone memorie <persName
+                            key="#Count" ref="#people/"><name>Liutefrido</name></persName> comitis
+                        pro remedio anime mee seu omnium parentorum meorum dono, trado et offero in
+                        eodem monasterio nominative <rs key="#Petiae">pecias</rs> quindecim de terra
+                        iuris mei proprietatis, que esse videtur in loco et fundo qui dicitur
+                            <placeName key="#Petiae" ref="#places/15">Bulgari</placeName> et
+                            <placeName key="#Petiae" ref="#places/3682">Nocetulo</placeName> atque
+                            <placeName key="#Petiae #Roads" ref="#places/15">Sablone</placeName> qui
+                        no(minatur) prope <rs key="#Roads">strata</rs> Papiense. Prima pecia in loco
+                            <placeName key="#Petiae" ref="#places/15">Ardole</placeName> est pro
+                        mensura iusta iugerum unum, in alio loco insimul una petia iugera tria; alia
+                        in Nocetulo iugera due et alia in eodem Nocetulo iugera similiter duo, alia
+                        iugerum unum, alia ibi prope iugerum unum, alia in Sablone est perticas
+                        triginta, alia ibi prope perticas quatuor, alia perticas octo, alia pecia in
+                        loco Bulgari perticas quatuor, alia ibi prope pertica una, alia in eodem
+                        fundo perticas duo, alia ibi prope perticas duo, alia … perticas tres, alia
+                        perticas octo; similiter dono et offero in eodem monasterio peciam unam de
+                        terra foris <rs key="#Cities">civitate</rs> Cremona, que est in loco qui
+                            <placeName key="#Petiae">Predario</placeName> dicitur et est pro mensura
+                        iuxta iuges tres, perticas quatuor, coeret ei finis a mane heredes quondam
+                            <persName key="#Count" ref="#people/">Adelberti</persName> comitis et
+                            <rs key="#Churches">ecclesia</rs>
+                        <orgName key="#Churches" ref="#juridical_persons/224">Sancte
+                        Marie</orgName>, a meridie fossatum, a mane Sancte Marie et aliquid Sancti
+                        Silvestri, a sera ipsius Sacnti Silvestri; similiter dono et offero in eodem
+                        monasterio pecias de terra sex in locis et fundis qui <placeName
+                            key="#Petiae" ref="#places/15">Septemcani</placeName> et <placeName
+                            key="#Petiae" ref="#places/15">Pipia</placeName>. Prima pecia est pro
+                        mensura iusta iuges … sesta pecia in Pipia est pro mensura iuxta iuges sex.
+                        … Ego Litefridus manu mea subscripsi. Signum manibus <persName
+                            key="#Witness"><name>Arnulfo</name></persName> et <persName
+                            key="#Witness"><name>Giselberto</name></persName> germanis seu <persName
+                            key="#Witness"><name>Bosio</name></persName> et <persName key="#Witness"
+                                ><name>Teperto</name></persName> … atque <persName key="#Witness"
+                                ><name>Pascale</name></persName> de civitate Cremona qui <rs
+                            key="#Witness">testes</rs> rogatis … Ego <persName key="#Writer #Notary"
+                                ><name>Rodevertus</name></persName>
+                        <rs key="#Notary">notarius</rs> sacri palacii <rs key="#Writer"
+                        >scripsi</rs>, post tradita complevi et dedi.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
