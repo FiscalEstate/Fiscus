@@ -266,7 +266,7 @@
                             Le successive conferme riguardano solo il luogo senza che vi sia
                             riferimento alla curtis.</note>
                         <link type="places" corresp="#places/51" subtype="correspondsTo"/>
-                        <link type="people" corresp="#people/32" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/32" subtype="isGrantedBy" cert="low"/>
                         <link type="juridical_persons" corresp="#juridical_persons/81"
                             subtype="isGrantedTo"/>
                     </place>
@@ -418,6 +418,8 @@
                             subtype="isConfirmedTo"/>
                         <link type="people" corresp="#people/77" subtype="isConfirmedBy"/>
                         <link type="people" corresp="#people/124" subtype="isConfirmedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1498"
+                            subtype="isConfirmedTo"/>
                     </place>
                     <place>
                         <geogName><foreign>Franciana</foreign>; <foreign>curtis</foreign></geogName>
@@ -1767,7 +1769,7 @@
                         <link type="people" corresp="#people/7" subtype="isGrantedBy" cert="low"/>
                         <link type="people" corresp="#people/171" subtype="isOwnedBy" cert="low"/>
                         <link type="juridical_persons" corresp="#juridical_persons/81"
-                            subtype="isOwnedBy"/>
+                            subtype="isOwnedBy" cert="low"/>
                         <link type="places" corresp="#places/436" subtype="proximity"/>
                         <link type="people" corresp="#people/261" subtype="isGrantedBy"/>
                         <link type="juridical_persons" corresp="#juridical_persons/107"
@@ -5329,6 +5331,8 @@
                         <link type="juridical_persons" corresp="#juridical_persons/3046"
                             subtype="isConfirmedTo"/>
                         <link type="people" corresp="#people/3019" subtype="isConfirmedBy"/>
+                        <link type="estates" corresp="#estates/3034" subtype="correspondsTo"
+                            cert="low"/>
                     </place>
                     <place>
                         <geogName><foreign>ad Castaneam Cupam</foreign>;
@@ -5336,7 +5340,8 @@
                         <geogName type="other"/>
                         <idno>estates/3034</idno>
                         <note/>
-                        <link type="estates" corresp="#estates/3033" subtype="correspondsTo"/>
+                        <link type="estates" corresp="#estates/3033" subtype="correspondsTo"
+                            cert="low"/>
                         <link type="juridical_persons" corresp="#juridical_persons/3046"
                             subtype="isConfirmedTo"/>
                         <link type="people" corresp="#people/3019" subtype="isConfirmedBy"/>
@@ -12427,14 +12432,13 @@
                         <link type="places" corresp="#places/4902" subtype="correspondsTo"/>
                     </place>
                     <place>
-                        <geogName>Parzano; <foreign>curtis</foreign></geogName>
-                        <geogName type="other"><foreign>Spargingum</foreign></geogName>
+                        <geogName><foreign>Sparcingum</foreign>; <foreign>curtis</foreign></geogName>
+                        <geogName type="other"></geogName>
                         <idno>estates/4003</idno>
                         <note/>
                         <link type="people" corresp="#people/7" subtype="isGrantedBy"/>
                         <link type="juridical_persons" corresp="#juridical_persons/1423"
                             subtype="isGrantedTo"/>
-                        <link type="places" corresp="#places/4903" subtype="correspondsTo"/>
                     </place>
                     <place>
                         <geogName><foreign>in Tauxa</foreign>;
@@ -12529,30 +12533,25 @@
                             subtype="isConfirmedTo"/>
                      </place>
                     <place>
-                        <geogName><foreign>Villa</foreign>; <foreign>curtis</foreign>
-                            (Alessandria?)</geogName>
+                        <geogName><foreign>Villa</foreign>; <foreign>curtis</foreign></geogName>
                         <geogName type="other"/>
                         <idno>estates/4013</idno>
-                        <note>Per una possibile localizzazione vedi Cartario Alessandrino, III, p.
-                            66.</note>
+                        <note></note>
                         <link type="people" corresp="#people/7" subtype="isConfirmedBy"/>
                         <link type="juridical_persons" corresp="#juridical_persons/1423"
                             subtype="isConfirmedTo"/>
                     </place>
                     <place>
-                        <geogName><foreign>Monte (de)</foreign>; <foreign>curtis</foreign>
-                            (Alessandria?)</geogName>
+                        <geogName><foreign>Monte (de)</foreign>; <foreign>curtis</foreign></geogName>
                         <geogName type="other"/>
                         <idno>estates/4014</idno>
-                        <note>Per una possibile localizzazione vedi Cartario Alessandrino, III, p.
-                            66.</note>
+                        <note></note>
                         <link type="people" corresp="#people/7" subtype="isConfirmedBy"/>
                         <link type="juridical_persons" corresp="#juridical_persons/1423"
                             subtype="isConfirmedTo"/>
                     </place>
                     <place>
-                        <geogName><foreign>Curtis nova</foreign>; <foreign>curtis</foreign>
-                            (Pavia?)</geogName>
+                        <geogName><foreign>Curtis nova</foreign>; <foreign>curtis</foreign></geogName>
                         <geogName type="other"/>
                         <idno>estates/4015</idno>
                         <note/>
@@ -12589,6 +12588,7 @@
                             subtype="isConfirmedTo"/>
                         <link type="people" corresp="#people/7" subtype="isConfirmedBy"/>
                         <link type="estates" corresp="#estates/83" subtype="isWithin"/>
+                        <link type="places" corresp="#places/4915" subtype="correspondsTo"/>
                     </place>
                     <place>
                         <geogName><foreign>Granianum</foreign>; <foreign>curtis</foreign></geogName>
@@ -15254,6 +15254,9 @@
                         <link type="people" corresp="#people/77" subtype="isConfirmedBy"/>
                         <link type="juridical_persons" corresp="#juridical_persons/1460"
                             subtype="isConfirmedTo"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1498"
+                            subtype="isConfirmedTo"/>
+                        <link type="people" corresp="#people/124" subtype="isConfirmedBy"/>
                     </place>
                     <place>
                         <geogName>Tassinum; <foreign>fundus</foreign></geogName>
@@ -15445,6 +15448,8 @@
                         <link type="juridical_persons" corresp="#juridical_persons/1460"
                             subtype="isConfirmedTo"/>
                         <link type="people" corresp="#people/124" subtype="isConfirmedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1498"
+                            subtype="isConfirmedTo"/>
                     </place>
                     <place>
                         <geogName>Curte Conca; <foreign>curtis</foreign></geogName>
@@ -15516,9 +15521,13 @@
                         <link type="places" corresp="#places/3520" subtype="bordersOn"/>
                         <link type="estates" corresp="#estates/2494" subtype="bordersOn"/>
                         <link type="people" corresp="#people/77" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/124" subtype="isConfirmedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1498"
+                            subtype="isConfirmedTo"/>
                     </place>
                     <place>
-                        <geogName>Tidini; <foreign>piscaria</foreign> (Ferrara)</geogName>
+                        <geogName>Tidini; <foreign>piscaria</foreign>/<foreign>fossa</foreign>
+                            (Ferrara)</geogName>
                         <geogName type="other"/>
                         <idno>estates/2455</idno>
                         <note>Fa parte della <foreign>massa</foreign> di Lagosanto.</note>
@@ -15530,6 +15539,9 @@
                         <link type="places" corresp="#places/3559" subtype="proximity"/>
                         <link type="people" corresp="#people/237" subtype="isConfirmedBy"/>
                         <link type="people" corresp="#people/77" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/124" subtype="isConfirmedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1498"
+                            subtype="isConfirmedTo"/>
                     </place>
                     <place>
                         <geogName>Falce; <foreign>piscaria</foreign></geogName>
@@ -15691,6 +15703,8 @@
                             subtype="isGrantedBy"/>
                         <link type="people" corresp="#people/77" subtype="isConfirmedBy"/>
                         <link type="people" corresp="#people/124" subtype="isConfirmedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1498"
+                            subtype="isConfirmedBy"/>
                     </place>
                     <place>
                         <geogName>Perupto; <foreign>fundus</foreign> (Ferrara)</geogName>
@@ -15900,6 +15914,8 @@
                         <link type="people" corresp="#people/130" subtype="isConfirmedBy"/>
                         <link type="people" corresp="#people/77" subtype="isConfirmedBy"/>
                         <link type="people" corresp="#people/124" subtype="isConfirmedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/1498"
+                            subtype="isConfirmedTo"/>
                     </place>
                     <place>
                         <geogName>Forlimpopoli; <foreign>comitatus</foreign></geogName>
