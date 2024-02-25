@@ -45,6 +45,9 @@
                         <link type="people" corresp="#people/7" subtype="isGrantedBy" cert="low"/>
                         <link type="juridical_persons" corresp="#juridical_persons/81"
                             subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/124" subtype="isGrantedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/111"
+                            subtype="isGrantedTo"/>
                     </place>
                     <place>
                         <placeName>Lucca</placeName>
@@ -2401,8 +2404,10 @@
                         <link type="juridical_persons" corresp="#juridical_persons/81"
                             subtype="isGrantedTo"/>
                         <link type="juridical_persons" corresp="#juridical_persons/111"
-                            subtype="isClaimedBy"/>
+                            subtype="isGrantedTo"/>
                         <link type="estates" corresp="#estates/130" subtype="dependsOn"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/111"
+                            subtype="isClaimedBy"/>
                     </place>
                     <place>
                         <placeName>Penizzo (Reggio Emilia)</placeName>
@@ -8612,6 +8617,7 @@
                         <link type="people" corresp="#people/124" subtype="isGrantedBy"/>
                         <link type="juridical_persons" corresp="#juridical_persons/111"
                             subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/79" subtype="isGrantedBy"/>
                     </place>
                     <place>
                         <placeName>Sartirana Lomellina (Pavia)</placeName>
@@ -8792,6 +8798,9 @@
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/410"
                             subtype="isManagedBy"/>
+                        <link type="people" corresp="#people/77" subtype="isGrantedBy" cert="low"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/406"
+                            subtype="isGrantedTo" cert="low"/>
                     </place>
                     <place>
                         <placeName>Pettenasco (Novara)</placeName>
@@ -8881,9 +8890,9 @@
                         <note>Oggetto di confisca da parte di Corrado II e donata alla chiesa di
                             Novara. Confermata poi da Enrico IV. </note>
                         <link type="people" corresp="#people/261" subtype="isGrantedBy"/>
-                        <link type="people" corresp="#people/77" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/77" subtype="isGrantedBy" cert="low"/>
                         <link type="juridical_persons" corresp="#juridical_persons/406"
-                            subtype="isGrantedTo"/>
+                            subtype="isGrantedTo" cert="low"/>
                     </place>
                     <place>
                         <placeName>Cerro Maggiore (Milano)</placeName>
@@ -8902,9 +8911,9 @@
                         <idno>places/846</idno>
                         <note/>
                         <link type="people" corresp="#people/261" subtype="isGrantedBy"/>
-                        <link type="people" corresp="#people/77" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/77" subtype="isGrantedBy" cert="low"/>
                         <link type="juridical_persons" corresp="#juridical_persons/406"
-                            subtype="isConfirmedBy"/>
+                            subtype="isConfirmedBy" cert="low"/>
                     </place>
                     <place>
                         <placeName>Sizzano (Novara)</placeName>
@@ -12652,9 +12661,14 @@
                         <placeName type="other"/>
                         <geogName type="coord"><geo/></geogName>
                         <idno>places/4558</idno>
-                        <note/>
+                        <note>Microtoponomastica: <foreign>plescus Alferii</foreign>;
+                                <foreign>plescum de Ruta</foreign>; <foreign>plescum Longum qui
+                                dicitur de la Guardia</foreign>; fossa
+                            <foreign>Lama</foreign></note>
                         <link type="places" corresp="#places/4550" subtype="proximity"/>
                         <link type="juridical_persons" corresp="#juridical_persons/3046"
+                            subtype="rendersCollectedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3050"
                             subtype="rendersCollectedBy"/>
                     </place>
                     <place>
