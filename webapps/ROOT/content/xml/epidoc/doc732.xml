@@ -33,7 +33,7 @@
                             <rs type="text_type" ref="#">-Placitum/iudicatum</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Original</rs>
-                            <rs type="fiscal_property"/>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -85,40 +85,66 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>Dum in Dei nomine civitate Verona, ad casa qui fuit bone memorie <persName
-                        key="#Count">Vualfredi</persName> comiti, hubi domnus Berengarius
-                        gloriosissimus rex preerat, in <rs key="#Laubia/topia">laubia</rs> sale
-                        ipsius curtis in iudicio resideret Ingelfredus comes ipsius comitatu huna
-                        simul cum Odelricus vassus et missus idem domni regis ad singulas
-                        deliberandas intenciones, resedentibus cum eis Vualpertus, Petrus,
-                        Sichardus, <persName key="#Witness #Judge">Gariardus</persName>, <persName
-                            key="#Witness #Judge">Giselbertus </persName>iudices idem domni regis,
-                        <persName key="#Other_palatine_officer #vassusOf">Adelbertus</persName>
-                        et <persName key="#Witness #vassusOf">Guntari</persName> vassi idem domni
-                        regis, Ildebertus et Petrus scavinis ipsius comitatu, <persName
-                            key="#Witness #Other_palatine_officer #Notary">Anselmus</persName>,
-                        <persName key="#Witness #Other_palatine_officer #Notary"
-                            >Lanfrancus</persName>, <persName
-                                key="#Witness #Other_palatine_officer #Notary">Liutefredus</persName> et
-                        <persName key="#Other_palatine_officer #Notary">Autecherius</persName>
-                        notariis sacri palacii, Fontegius, Flambertus, Gummericus vassi suprascripto
-                        Ingelfredi comiti, Gisemundus monetarius, <persName key="#Notary">Ansprandus
-                            qui et Azo</persName>, Amelbertus, <persName key="#Notary"
-                                >Traseri</persName>, Ropertus notarii et reliqui multis. Ibique eorum
-                        veniens presencia Ragimfredus prcsbiter et Ingelbertus diaconus monachi
-                        monasterio sancti Silvestri sita Nonantolas huna cum <persName
+                    <ab>Dum in Dei nomine <rs>civitate</rs>
+                        <placeName>Verona</placeName>, ad casa qui fuit bone memorie <persName
+                            key="#Count">Vualfredi</persName> comiti, hubi domnus
+                            <persName>Berengarius</persName> gloriosissimus <rs>rex</rs> preerat, in
+                            <rs key="#Laubia/topia">laubia</rs> sale ipsius curtis in
+                            <rs>iudicio</rs> resideret <persName>Ingelfredus</persName>
+                        <rs>comes</rs> ipsius <rs><geogName>comitatu</geogName></rs> huna simul cum
+                            <persName>Odelricus</persName>
+                        <rs>vassus</rs> et <rs>missus</rs> idem domni regis ad singulas deliberandas
+                        intenciones, resedentibus cum eis
+                            <persName><name>Vualpertus</name></persName>, <persName><name
+                                ref="Petrus">Petrus</name></persName>,
+                                <persName><name>Sichardus</name></persName>, <persName
+                            key="#Witness #Judge"><name>Gariardus</name></persName>, <persName
+                            key="#Witness #Judge"><name>Giselbertus</name>
+                        </persName><rs>iudices</rs> idem domni regis, <persName
+                            key="#Other_palatine_officer #vassusOf"
+                            ><name>Adelbertus</name></persName> et <persName
+                            key="#Witness #vassusOf"><name>Guntari</name></persName> vassi idem
+                        domni regis, <persName><name>Ildebertus</name></persName> et <persName><name
+                                ref="Petrus">Petrus</name></persName>
+                        <rs>scavinis</rs> ipsius comitatu, <persName
+                            key="#Witness #Other_palatine_officer #Notary"><name ref="Anselmus"
+                                >Anselmus</name></persName>, <persName
+                            key="#Witness #Other_palatine_officer #Notary"><name ref="Lanfrancus"
+                                >Lanfrancus</name></persName>, <persName
+                            key="#Witness #Other_palatine_officer #Notary"
+                            ><name>Liutefredus</name></persName> et <persName
+                            key="#Other_palatine_officer #Notary"
+                            ><name>Autecherius</name></persName>
+                        <rs>notariis</rs> sacri palacii,
+                        <persName><name>Fontegius</name></persName>,
+                                <persName><name>Flambertus</name></persName>,
+                                <persName><name>Gummericus</name></persName> vassi suprascripto
+                        Ingelfredi comiti, <persName><name>Gisemundus</name></persName>
+                        <rs>monetarius</rs>, <persName key="#Notary"><name>Ansprandus qui et
+                                Azo</name></persName>, <persName><name>Amelbertus</name></persName>,
+                            <persName key="#Notary"><name>Traseri</name></persName>,
+                                <persName><name>Ropertus</name></persName> notarii et reliqui
+                        multis. Ibique eorum veniens presencia <persName>Ragimfredus</persName>
+                        <rs>prcsbiter</rs> et <persName>Ingelbertus</persName>
+                        <rs>diaconus</rs>
+                        <rs>monachi</rs>
+                        <rs>monasterio</rs>
+                        <orgName>sancti Silvestri</orgName> sita <placeName>Nonantolas</placeName>
+                        huna cum <persName
                             key="#Witness #Other_palatine_officer #Notary #Advocatus_of_other_public_authorities"
                             >Petrus</persName> notarius sacri palacii advocatus idem monasteri
                         sancti Silvestri et retullerunt eo quod: 'Bone memorie <persName
                             key="#Imperial/royal_diploma #Castle #Deacons">Audibertus</persName>
-                        diaconus sancte Veronensis Ecclesie emisit cartula huna <rs
-                            key="#Offersio/donatio">donacionis</rs> in bone memorie Anselmus comes
-                        de medietatem de castrum hunum qui est edificatum in loco qui dicitur ad
-                        Nogarias, et ipse quondam Anselmus comes per cartulam ordinacionis
-                        offerserat et donaverat ipsum castrum in ipsum monasterium sancti Silvestri
-                        pro anima sua, et hecce cartula ipsa, qualiter ipse Audibertus diaconus idem
-                        quondam Anselmi comes exinde emisit, ic pre manibus abemus, eo ostensa et ab
-                        ordine relecta, continente in ea ab ordine sicut ic subter legitur: </ab>
+                        diaconus <orgName>sancte Veronensis Ecclesie</orgName> emisit cartula huna
+                            <rs key="#Offersio/donatio">donacionis</rs> in bone memorie
+                            <persName>Anselmus</persName> comes de medietatem de <rs>castrum</rs>
+                        hunum qui est edificatum in loco qui dicitur <placeName>ad
+                            Nogarias</placeName>, et ipse quondam Anselmus comes per cartulam
+                        ordinacionis offerserat et donaverat ipsum castrum in ipsum monasterium
+                        sancti Silvestri pro anima sua, et hecce cartula ipsa, qualiter ipse
+                        Audibertus diaconus idem quondam Anselmi comes exinde emisit, ic pre manibus
+                        abemus, eo ostensa et ab ordine relecta, continente in ea ab ordine sicut ic
+                        subter legitur: </ab>
                     <ab>«In nomine domini nostri Iesu Christi, regnante domino nostro Berengario
                         regem ic in Italia anno vicesimoprimo, sub die pridie kalendas setember,
                         indictione undecima, feliciter. Domino Anselmo gloriosissimo comiti et
