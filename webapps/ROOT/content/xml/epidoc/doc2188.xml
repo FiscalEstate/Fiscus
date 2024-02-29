@@ -4,7 +4,8 @@
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
-                <title>Siena, Archivio di Stato (MGH DD H II, pp. 156-157, n. 130)</title>
+                <title>Siena, Archivio di Stato, Diplomatico S. Salvatore Monte Amiata (MGH DD H II,
+                    pp. 156-157, n. 130)</title>
             </titleStmt>
             <editionStmt>
                 <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
@@ -47,7 +48,8 @@
                                 <note type="topical_date">Regensburg (DE)</note>
                                 <note type="redaction_date"/>
                             </origDate>
-                            <origPlace/>
+                            <origPlace>Sanctus Salvator; monasterium (Abbadia San Salvatore; Monte
+                                Amiata; Siena)</origPlace>
                         </origin>
                         <provenance>
                             <location>
@@ -74,6 +76,7 @@
         <revisionDesc>
             <listChange>
                 <change when="2021-02-08" who="cstedile">creation of record</change>
+                <change when="2024-02-28" who="ltabarrini">minor changes</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -121,28 +124,39 @@
                             key="#Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches"
                             ref="#estates/2312">Rotam cardosam, quae nunc <placeName
                                 key="#Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches"
-                                >Burgoricho</placeName> nuncupatur</geogName>, et medietatem curte
-                            <geogName
+                                ref="#places/1972">Burgoricho</placeName> nuncupatur</geogName>, et
+                        medietatem curte <geogName
                             key="#Curtes #Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches"
                             ref="#estates/2313"><placeName
                                 key="#Curtes #Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches"
-                                >sancti Sebastiani</placeName></geogName> et <rs key="#Burgi"
-                            >burgo</rs> de <placeName key="#Burgi">Uultiole</placeName> et <rs
-                            key="#Curtes">curte</rs> de <geogName
+                                ref="#places/1973">sancti Sebastiani</placeName></geogName> et <rs
+                            key="#Burgi">burgo</rs> de <placeName
+                            key="#Burgi #Fiscal_property #Textual_occurrence #Object #Function #Exceptive #Fiscal_reserve #Outflow #Allocation_to_churches"
+                            ref="#places/1975">Uultiole</placeName> et <rs key="#Curtes">curte</rs>
+                        de <geogName
                             key="#Curtes #Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches"
                             ref="#estates/2314"><placeName
                                 key="#Curtes #Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches"
-                                >Climintiano</placeName></geogName> et <rs key="#Castle">Rocka</rs>
-                        de <placeName key="#Castle" ref="#places/2733">Senzano</placeName> cum suis
-                        pertinentiis, <rs key="#Curtes">curte</rs> de <geogName
+                                ref="#places/83 #places/1974">Climintiano</placeName></geogName> et
+                            <rs key="#Castle">Rocka</rs> de <placeName ref="#places/1978"
+                            key="#Fiscal_property #Textual_occurrence #Object #Function #Exceptive #Fiscal_reserve #Outflow #Allocation_to_churches #Castle"
+                            >Senzano</placeName> cum suis pertinentiis, <rs key="#Curtes">curte</rs>
+                        de <geogName
                             key="#Curtes #Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches"
                             ref="#estates/2315"><placeName
                                 key="#Curtes #Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches"
                                 ref="#places/761">Fereniano</placeName></geogName>, curte in
-                            <geogName key="#Curtes" ref="#estates/2316"><placeName key="#Curtes"
-                                >Corsiniano</placeName></geogName>, <rs key="#Houses">casis</rs> et
-                            <rs key="#Landed_possessions">terris domnicatis</rs> in <placeName
-                            key="#Houses #Landed_possessions">Cingona</placeName> et iuxta <rs
+                            <geogName
+                            key="#Curtes #Fiscal_property #Function #Exceptive #Fiscal_reserve #Outflow #Allocation_to_churches"
+                            ref="#estates/2316"><placeName
+                                key="#Curtes #Fiscal_property #Textual_occurrence #Object #Function #Exceptive #Fiscal_reserve #Outflow #Allocation_to_churches"
+                                ref="#places/2733">Corsiniano</placeName></geogName>, <rs
+                            key="#Houses">casis</rs> et <rs key="#Demesnes">terris domnicatis</rs>
+                        in <placeName
+                            key="#Houses #Demesnes #Landed_possessions #Fiscal_property #Textual_occurrence #Function #Exceptive #Fiscal_reserve #Outflow #Allocation_to_churches"
+                            ref="#places/1976"><geogName
+                                key="#Houses #Demesnes #Landed_possessions #Fiscal_property #Textual_occurrence #Function #Exceptive #Fiscal_reserve #Outflow #Allocation_to_churches"
+                                ref="#estates/1540">Cingona</geogName></placeName> et iuxta <rs
                             key="#Rivers">flumen qui vocatur Urcea</rs>, et curte in <geogName
                             key="#Curtes #Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches"
                             ref="#estates/335"><placeName
@@ -158,17 +172,18 @@
                                 key="#Curtes #Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches"
                                 ref="#places/2734">Campagnatico</placeName></geogName>, <rs
                             key="#Cells/hermitages">cella</rs> et <rs key="#Curtes">curte</rs> in
-                            <placeName key="#Curtes #Wine #Cells/hermitages"><orgName
-                                key="#Curtes #Wine #Cells/hermitages" ref="#juridical_persons/1511">
-                                <geogName key="#Curtes #Wine #Cells/hermitages"
-                                >Garmarita</geogName></orgName></placeName> cum suis <rs key="#Wine"
-                            >vineis</rs> qui vocatur <placeName key="#Wine" ref="#places/2735"
-                            >Poppae in Cornito</placeName>, <rs key="#Curtes">curte</rs>
+                            <placeName key="#Curtes #Wine #Cells/hermitages" ref="#places/1944"
+                                ><orgName key="#Curtes #Wine #Cells/hermitages"
+                                ref="#juridical_persons/1511"> </orgName></placeName> cum suis <rs
+                            key="#Wine">vineis</rs> qui vocatur <placeName key="#Wine"
+                            ref="#places/2735">Poppae in Cornito</placeName>, <rs key="#Curtes"
+                            >curte</rs>
                         <orgName
                             key="#Curtes #Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches"
                             ref="#juridical_persons/1515">sanctae Mariae in Ualeriano</orgName> cum
-                        ipsis rebus de Cortitiano cum omnibus adiacentiis et pertinentiis earum, <rs
-                            key="#Cells/hermitages">cella</rs>
+                        ipsis rebus de <geogName ref="#estates/2346"><placeName ref="#places/1964"
+                                >Cortitiano</placeName></geogName> cum omnibus adiacentiis et
+                        pertinentiis earum, <rs key="#Cells/hermitages">cella</rs>
                         <orgName
                             key="#Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches #Cells/hermitages"
                             ref="#juridical_persons/1454">sancti Sauini</orgName> nec non et
@@ -178,13 +193,11 @@
                             key="#Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches #Cells/hermitages"
                             ref="#juridical_persons/1452">sanctae Restitutae in <placeName
                                 ref="#places/430">Terquino</placeName></orgName>, seu etiam curte
-                            <geogName
+                            <placeName
                             key="#Curtes #Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches"
-                                ><placeName
-                                key="#Curtes #Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches"
-                                ref="#places/1950"><orgName ref="#juridical_persons/1513">sancti
-                                    Seueri super lacum</orgName></placeName></geogName> cum ipsa <rs
-                            key="#Curtes">corticella</rs> de <geogName
+                            ref="#places/1950"><orgName ref="#juridical_persons/1513">sancti Seueri
+                                super lacum</orgName></placeName> cum ipsa <rs key="#Curtes"
+                            >corticella</rs> de <geogName
                             key="#Curtes #Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches"
                             ref="#estates/333"><placeName
                                 key="#Curtes #Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches"
@@ -201,11 +214,14 @@
                             ref="#estates/2311"><placeName
                                 key="#Curtes #Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches"
                                 ref="#places/1970">sancti Petri in Ceruaria</placeName></geogName>
-                        cum <rs key="#Curtes">corticella</rs> in <placeName key="#Curtes"><geogName
-                                key="#Curtes">Capago</geogName></placeName> cum omnibus rebus et
-                        familiis ad eas in integrum pertinentibus vel respicientibus. Denique etiam
-                        concedimus ad predictum coenobium omnia <rs key="#Decima">decima</rs> frea
-                        et iudiciaria et omnem compositionem et <rs key="#Public_exactions"
+                        cum corticella in <placeName
+                            key="#Curtes #Fiscal_property #Textual_occurrence #Object #Function #Exceptive #Fiscal_reserve #Outflow #Allocation_to_churches"
+                            ref="#places/1977"><geogName
+                                key="#Curtes #Fiscal_property #Textual_occurrence #Function #Exceptive #Fiscal_reserve #Outflow #Allocation_to_churches"
+                                ref="#estates/1541">Capago</geogName></placeName> cum omnibus rebus
+                        et familiis ad eas in integrum pertinentibus vel respicientibus. Denique
+                        etiam concedimus ad predictum coenobium omnia <rs key="#Decima">decima</rs>
+                        frea et iudiciaria et omnem compositionem et <rs key="#Public_exactions"
                             >exibitionem</rs> pu[b]licam ex omnibus manentibus predicti monasterii
                         ob remedium a[ni]marum nostrarum in usum peregrinorum ad portam monasterii
                         clamantium. Precepimus etiam et statuimus, ut deinceps in futurum haec
