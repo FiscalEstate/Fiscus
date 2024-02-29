@@ -90,7 +90,7 @@
           <h3>Filters</h3>
           <h4>Document details</h4>
           <div class="section-container accordion" data-section="accordion">
-            <xsl:apply-templates select="/aggregation/response/lst[@name='facet_counts']/lst[@name='facet_fields']/lst[@name='author' or @name='ancient_document_type' or @name='record_source' or @name='document_tradition' or @name='fiscal_property' or @name='provenance' or @name='topical_date' or @name='redaction_date']" mode="search-results" />
+            <xsl:apply-templates select="/aggregation/response/lst[@name='facet_counts']/lst[@name='facet_fields']/lst[@name='author' or @name='area' or @name='ancient_document_type' or @name='record_source' or @name='document_tradition' or @name='fiscal_property' or @name='provenance' or @name='topical_date' or @name='redaction_date']" mode="search-results" />
           </div>
           <h4>Mentioned elements</h4>
           <div class="section-container accordion" data-section="accordion">

@@ -46,6 +46,17 @@
     </field>
   </xsl:template>
   
+  <xsl:template match="tei:listChange/tei:change[1]" mode="facet_area">  
+    <field name="area">
+      <xsl:choose>
+        <xsl:when test="lower-case(@who)=('ncerretani', 'cciccopiedi', 'ecinello', 'edelmercato', 'bferretti', 'tlazzari', 'emanarini', 'lmotta', 'fribani', 'cstedile', 'ltabarrini', 'gvignodelli')">1. North</xsl:when>
+        <xsl:when test="lower-case(@who)=('langeli', 'scollavini', 'mcortese', 'agiacomelli', 'dinternullo', 'ptomei', 'mviti')">2. Centre</xsl:when>
+        <xsl:when test="lower-case(@who)=('vdeangelis', 'vlore', 'pmassa', 'vriveramagos', 'atagliente', 'gzornetta')">3. South</xsl:when>
+        <xsl:otherwise>4. Other</xsl:otherwise> <!-- lbelluscio, ecirelli, fdefalco, mdellipizzi, adimuro, aredeghieri, isommariva, mvallerani, other... -->
+      </xsl:choose>
+    </field>
+  </xsl:template>
+  
   <xsl:template match="tei:summary/tei:rs[@type='record_source']" mode="facet_record_source">
     <field name="record_source">
       <xsl:choose>
@@ -369,6 +380,7 @@
   <xsl:template name="extra_fields">
     <xsl:call-template name="field_ancient_document_type"/>
     <xsl:call-template name="field_fiscal_property"/>
+    <xsl:call-template name="field_area"/>
     <xsl:call-template name="field_record_source"/>
     <xsl:call-template name="field_document_tradition" />
     <xsl:call-template name="field_topical_date"/>
@@ -396,6 +408,9 @@
   </xsl:template>
   <xsl:template name="field_fiscal_property">
     <xsl:apply-templates mode="facet_fiscal_property" select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msContents/tei:summary/tei:rs[@type='fiscal_property']" />
+  </xsl:template>
+  <xsl:template name="field_area">
+    <xsl:apply-templates mode="facet_area" select="/tei:TEI/tei:teiHeader/tei:revisionDesc/tei:listChange/tei:change[1]" />
   </xsl:template>
   <xsl:template name="field_record_source">
     <xsl:apply-templates mode="facet_record_source" select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msContents/tei:summary/tei:rs[@type='record_source']"/>
