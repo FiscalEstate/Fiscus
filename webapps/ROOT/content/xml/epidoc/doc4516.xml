@@ -32,7 +32,7 @@
                             <rs type="text_type" ref="#">--Marquis’/ducal/princely diploma</rs>
                             <rs type="record_source" ref="#">Edition</rs>
                             <rs type="document_tradition" ref="#">Copy</rs>
-                            <rs type="fiscal_property">Yes</rs>
+                            <rs type="fiscal_property">No</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -40,8 +40,8 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate when="1103-06">
-                                <note type="displayed_date">1103 June</note>
+                            <origDate notBefore="1103-06-01" notAfter="1103-06-30">
+                                <note type="displayed_date">1103 June 1 - 1103 June 30</note>
                                 <note type="dating_elements"/>
                                 <note type="topical_date">Capua (Caserta)</note>
                                 <note type="redaction_date"/>
@@ -101,15 +101,14 @@
                             <placeName key="#Cities" ref="#places/4000">aversanam</placeName>
                         <rs key="#Cities">urbem</rs>. per hoc principale scriptum in perpetuum. hos
                         subscriptos <rs key="#Coloni/tenants">quinque homines</rs>. cum <rs
-                            key="#childOf">filiis filiabus</rs>
-                        <rs
-                            key="#Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Iure_proprietatis/pleno_iure #Feudum"
-                            >et domibus et possessionibus</rs>. et universis pertinentiis eorum
-                            videlicet<persName key="#Coloni/tenants"><name ref="Iohannes Goditanus">
-                                iohannes goditanus</name></persName>. et <persName
-                            key="#Coloni/tenants #siblingOf"><name ref="Petrus"
-                            >petrus</name></persName> et <persName key="#Coloni/tenants #siblingOf"
-                                ><name ref="Amalfredus">malfridus</name></persName>
+                            key="#childOf">filiis filiabus</rs> et <rs key="#Houses">domibus</rs> et
+                            <rs key="#Public_exactions">possessionibus. et universis
+                            pertinentiis</rs> eorum videlicet<persName key="#Coloni/tenants"><name
+                                ref="Iohannes Goditanus"> iohannes goditanus</name></persName>. et
+                            <persName key="#Coloni/tenants #siblingOf"><name ref="Petrus"
+                                >petrus</name></persName> et <persName
+                            key="#Coloni/tenants #siblingOf"><name ref="Amalfredus"
+                            >malfridus</name></persName>
                         <rs key="#siblingOf">fratres</rs> ipsius iohannis et <persName
                             key="#Coloni/tenants"><name ref="Canius">Canius</name></persName> et
                             <persName key="#Coloni/tenants #siblingOf"><name ref="Iohannes"
