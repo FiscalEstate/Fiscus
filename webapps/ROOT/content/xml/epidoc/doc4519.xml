@@ -80,14 +80,13 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>+ Ego <persName key="#Princeps #childOf" ref="#people/3019"
-                            >Robbertus</persName>
+                    <ab>+ Ego <persName key="#childOf" ref="#people/3019">Robbertus</persName>
                         <rs key="#childOf">filius</rs> bone memorie <persName
                             key="#Princeps #parentOf" ref="#people/3002">Iordanis</persName>
-                        <rs key="#Princeps">principis</rs>
-                        <rs key="#Princeps">procurator</rs> scilicet principatus <placeName
-                            key="#Cities" ref="#places/173">Capuae</placeName> cum subscriptis
-                        baronibus et ceteris aliis <rs key="#Intercessory">per interventum</rs>
+                        <rs key="#Princeps">principis</rs> procurator scilicet principatus
+                            <placeName key="#Cities" ref="#places/173">Capuae</placeName> cum
+                        subscriptis baronibus et ceteris aliis <rs key="#Intercessory">per
+                            interventum</rs>
                         <persName key="#Intercessory" ref="#people/3021">Goffridi de
                             medania</persName>. Concedo et Confirmo. in <rs key="#Monasteries"
                             >Monasterio</rs>
@@ -109,12 +108,14 @@
                         locis. ad passum Landonis senioris gastaldei set ad mensuram de passo
                         aversanae urbis. sunt <rs key="#Size">modios triginta et septem</rs>.
                         Videlicet ad fossas figulorum <rs key="#Size">modium unum</rs>. et ad
-                        anglonem iuxta <placeName ref="#places/2865">laneum</placeName>
+                        anglonem iuxta <placeName ref="#places/2865" key="#Rivers"
+                            >laneum</placeName>
                         <rs key="#Size">modios septem</rs>. Ad locum qui vocatur frigidus. <rs
                             key="#Size">modios sex. et quartas septem</rs>. Ad fossatellum. <rs
                             key="#Size">modii duo. et quarte tres</rs>. Ad frascaritum vero <rs
                             key="#Size">modios viginti</rs>. Etiam et in territorio <placeName
-                            key="#Villages/settlements" ref="#places/3444">matalonis</placeName>
+                            key="#Villages/settlements #Village/castle_territory" ref="#places/3444"
+                            >matalonis</placeName>
                         <rs
                             key="#Petiae #Fiscal_property #Textual_occurrence #Object #Function #Redistributive #Outflow #Iure_proprietatis/pleno_iure"
                             >duas petias</rs> terrarum in subscriptis locis et per subscriptos <rs
@@ -122,13 +123,16 @@
                             ref="#people/3021">Goffridus de medania</persName> pro anima <persName
                             ref="#people/3020">Robberti de medania</persName> aliorumque parentum
                         suorum in prephato monasterio dedit et optulit meo concessu. <rs
-                            key="#Petiae">Prima ex ipsis petiis</rs> terrarum. est in territorio
-                            <placeName ref="#places/3444" key="#Villages/settlements"
-                            >matalone</placeName> in loco scilicet qui dicitur <placeName
-                            ref="#places/4047">alicicini</placeName> et hos habet <rs key="#Fines"
-                            >fines</rs>. Ab uno latere quod est a parte orientis. est finis terra
-                        ardoyni de matalone. et finis terra iohannis limatano. et finis Stephani
-                        malfridi et finis <rs
+                            key="#Petiae">Prima ex ipsis petiis</rs> terrarum. est in <rs
+                            key="#Village/castle_territory">territorio</rs>
+                        <placeName ref="#places/3444"
+                            key="#Villages/settlements #Village/castle_territory"><geogName
+                                key="#Village/castle_territory" ref="#estates/3002"
+                                >matalone</geogName></placeName> in loco scilicet qui dicitur
+                            <placeName ref="#places/4047" key="#Villages/settlements #Petiae"
+                            >alicicini</placeName> et hos habet <rs key="#Fines">fines</rs>. Ab uno
+                        latere quod est a parte orientis. est finis terra ardoyni de matalone. et
+                        finis terra iohannis limatano. et finis Stephani malfridi et finis <rs
                             key="#Fiscal_property #Textual_occurrence #Mention #Roads">via
                             publica</rs>. sunt inde per longitudinem. passus ducentos et sexaginta
                         et quinque. Ab alio vero latere est finis terra predicti Ioffridi. sunt inde
@@ -171,7 +175,7 @@
                                 >Anseri</name></persName>. + Ego <persName
                             key="#Witness #Other_palatine_officer" ref="#people/4254">Iuo</persName>
                         <rs key="#Other_palatine_officer">economus</rs>. + Ego <persName
-                            key="#Witness"><name ref="Rodulfus fil. Rahelis">Rodulfus filius
+                            key="#Witness"><name ref="Rodulfus f. Raelis">Rodulfus filius
                                 Rahelis.</name></persName> + Ego <persName key="#Witness"
                             ref="#people/3076">Willelmus de pirolo</persName>. + Ego Guarinus. + Ego
                             <persName key="#Witness #Abbots"><name ref="Robertus"
@@ -204,6 +208,11 @@
                     cui andò perduta la documentazione più antica dell’Archivio di Stato di Napoli e
                     di tutto il Mezzogiorno. I testi sono stati poi tradotti in italiano da Giacinto
                     Libertini e ripubblicati dall'Istituto di Studi Atellani nel 2011.</p>
+                <p>Si noti come Roberto I nel 1106 non si definisca ancora
+                        <foreign>princeps</foreign>, bensì <foreign>procurator</foreign>
+                    ("reggente"): la sua successione al trono fu più tribolata del previsto, ed egli
+                    non potè fregiarsi formalmente del titolo di principe se non dopo alcuni mesi
+                    dalla morte del padre. </p>
             </div>
             <div type="commentary"/>
         </body>
