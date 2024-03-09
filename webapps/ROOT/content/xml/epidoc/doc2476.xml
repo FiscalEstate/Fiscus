@@ -30,8 +30,8 @@
                     <msContents>
                         <summary>
                             <rs type="text_type" ref="#"/>
-                            <rs type="record_source" ref="#"/>
-                            <rs type="document_tradition" ref="#"/>
+                            <rs type="record_source" ref="#">Original document</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
                             <rs type="fiscal_property"/>
                         </summary>
                         <msItem xml:id="msItem1">
@@ -80,30 +80,31 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab><persName key="#Popes">Alexander</persName> episcopus, servus servorum Dei,
-                        dilectis filiis <persName><name ref="Montanus">Montanino</name></persName>
-                        magistro <orgName key="#Hospitals" ref="#juridical_persons/3206"><rs
-                                key="#Hospitals">hospitalis</rs> de <placeName key="#Hospitals"
-                                ref="#places/3207">Altepascio</placeName></orgName> eiusque
-                        fratribus tam presentibus quam futuris regularem vitam professis in
-                        perpetuum. Quoniam xenodochium vestrum tam divitibus quam egenis multa
-                        caritatis obsequia subministrat, et studium et intentio vestra tota versatur
-                        ut omnibus transeuntibus in necessitatibus suis ardenti desiderio
-                        subveniatis, ad amorem vestrum et incrementum ipsius hospitalis, sicut
-                        dignum est, ferventer inducimur, et vos in tam pio tam sancto laudabili
-                        proposito exhortari, fovere ac corroborare desideramus. Quapropter, dilecti
-                        in domino filii, vestris desideriis gratanti animo annuentes prescriptum
-                        hospitale una cum ecclesia Sancti Iacobi et cum omnibus adiacentiis et his
-                        que ad iam dictum hospitale pertinent, sive sint campi, vinee, silve, prata,
-                        pascua, nemora atque piscationes iuxta idem hospitale aut alibi constituta,
-                        sub beati Petri ac nostra protectione suscipimus et presentis scripti
-                        privilegio communimus, statuentes ut quascumque possessiones, quecumque bona
-                        prescriptum hospitale in presentiarum iuste et canonice possidet aut in
-                        futurum, concessione pontificum, largitione regum vel principum, oblatione
-                        fidelium seu aliis iustis modis prestrante domino poterit adipisci, firma
-                        vobis vestrisque successoribus et illibata permaneant. In quibus hec
-                        propriis (…)nus exprimenda vocabulis. <rs key="#Decima">Decimas</rs> quas
-                        bone memorie <persName key="#Bishops">Anselmus</persName>
+                    <ab><persName key="#Popes" ref="#people/2423">Alexander</persName> episcopus,
+                        servus servorum Dei, dilectis filiis <persName><name ref="Montanus"
+                                >Montanino</name></persName> magistro <orgName key="#Hospitals"
+                            ref="#juridical_persons/3206"><rs key="#Hospitals">hospitalis</rs> de
+                                <placeName key="#Hospitals" ref="#places/3207"
+                                >Altepascio</placeName></orgName> eiusque fratribus tam presentibus
+                        quam futuris regularem vitam professis in perpetuum. Quoniam xenodochium
+                        vestrum tam divitibus quam egenis multa caritatis obsequia subministrat, et
+                        studium et intentio vestra tota versatur ut omnibus transeuntibus in
+                        necessitatibus suis ardenti desiderio subveniatis, ad amorem vestrum et
+                        incrementum ipsius hospitalis, sicut dignum est, ferventer inducimur, et vos
+                        in tam pio tam sancto laudabili proposito exhortari, fovere ac corroborare
+                        desideramus. Quapropter, dilecti in domino filii, vestris desideriis
+                        gratanti animo annuentes prescriptum hospitale una cum ecclesia Sancti
+                        Iacobi et cum omnibus adiacentiis et his que ad iam dictum hospitale
+                        pertinent, sive sint campi, vinee, silve, prata, pascua, nemora atque
+                        piscationes iuxta idem hospitale aut alibi constituta, sub beati Petri ac
+                        nostra protectione suscipimus et presentis scripti privilegio communimus,
+                        statuentes ut quascumque possessiones, quecumque bona prescriptum hospitale
+                        in presentiarum iuste et canonice possidet aut in futurum, concessione
+                        pontificum, largitione regum vel principum, oblatione fidelium seu aliis
+                        iustis modis prestrante domino poterit adipisci, firma vobis vestrisque
+                        successoribus et illibata permaneant. In quibus hec propriis (…)nus
+                        exprimenda vocabulis. <rs key="#Decima">Decimas</rs> quas bone memorie
+                            <persName key="#Bishops">Anselmus</persName>
                         <placeName ref="#places/4" key="#Bishops">Lucensis</placeName>
                         <rs key="#Bishops">episcopus</rs> eidem hospitali concessit; <rs
                             key="#Landed_possessions">terras et possessiones</rs> de <placeName
@@ -163,11 +164,12 @@
                         eidem loco iusta servantibus sit pa(…) nostri Iehsu Christi, quatinus et hic
                         fructum bone actionis percipiant. Et apud districtum iudicati premia eterne
                         pacis inveniant. Amen, amen, amen. (…) Dat. <placeName ref="#places/110"
-                            >Benevento</placeName> per manum <persName><name ref="Gratianus"
-                                >Gratiani</name></persName>, Sancte Romane ecclesie subdiaconi et
-                        notarii, VIII kl. maii, indictione secunda, incarnationis dominice anno
-                        millesimo centesimo sexagesimo nono, pontificatus vero domni Alexandri <rs
-                            key="#Popes">pape</rs> III anno decimo.</ab>
+                            >Benevento</placeName> per manum <persName key="#Notary #Subdeacons"
+                                ><name ref="Gratianus">Gratiani</name></persName>, Sancte Romane
+                        ecclesie <rs key="#Subdeacons">subdiaconi</rs> et <rs key="#Notary"
+                            >notarii</rs>, VIII kl. maii, indictione secunda, incarnationis dominice
+                        anno millesimo centesimo sexagesimo nono, pontificatus vero domni Alexandri
+                            <rs key="#Popes">pape</rs> III anno decimo.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
