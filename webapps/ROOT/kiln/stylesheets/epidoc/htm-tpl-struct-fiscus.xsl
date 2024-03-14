@@ -72,7 +72,7 @@
         <button class="persName" id="toggle_persName">people</button>
         <button class="orgName" id="toggle_orgName">juridical persons</button>
         <button class="geogName" id="toggle_geogName">estates</button>
-        <button class="date" id="toggle_date">dates</button>
+        <!--<button class="date" id="toggle_date">dates</button>-->
         <button class="rs" id="toggle_rs">keywords</button>
         <button class="links" id="toggle_links">links</button>
       </p>

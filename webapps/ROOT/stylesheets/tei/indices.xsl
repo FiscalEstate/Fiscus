@@ -46,15 +46,17 @@
         <button type="button" class="expander toggle_all" onclick="$('.level2, .level3, .level4, .level5').removeClass('hidden'); $('.plus:not(.minus)').addClass('hidden'); $('.minus').removeClass('hidden');">Expand all</button><xsl:text> </xsl:text>
         <button type="button" class="expander toggle_all" onclick="$('.level2, .level3, .level4, .level5').addClass('hidden'); $('.plus:not(.minus)').removeClass('hidden'); $('.minus').addClass('hidden');">Collapse all</button><xsl:text> </xsl:text>
       </xsl:if>
+      <xsl:if test="not(doc[str[@name='index_thesaurus_hierarchy']])">
       <button type="button" class="expander toggle_all" onclick="$('.expanded').removeClass('hidden'); $('.expander:not(.plus):not(.toggle_all)').text($('.expander:not(.plus):not(.toggle_all)').next().hasClass('hidden') ? 'Show' : 'Hide');">Show all linked items</button><xsl:text> </xsl:text>
       <button type="button" class="expander toggle_all" onclick="$('.expanded').addClass('hidden'); $('.expander:not(.plus):not(.toggle_all)').text($('.expander:not(.plus):not(.toggle_all)').next().hasClass('hidden') ? 'Show' : 'Hide');">Hide all linked items</button>
+      </xsl:if>
       
       <xsl:if test="doc[str[@name='index_item_name']][not(str[@name='index_thesaurus_hierarchy'])]">
-        <a class="expander" href="#main">Go to main list</a>
+        <a class="go-to-list" href="#main">Go to main list</a>
         <xsl:if test="doc[str[@name='index_item_name'][starts-with(., '#')]]">
-          <a class="expander" href="#normalized">Go to normalized names list</a>
+          <a class="go-to-list" href="#normalized">Go to normalized names list</a>
         </xsl:if>
-        <a class="expander" href="#not-normalized">Go to not normalized names list</a>
+        <a class="go-to-list" href="#not-normalized">Go to the list of unstandardised names</a>
       </xsl:if>
     </div>
     </xsl:if>
@@ -125,8 +127,12 @@
           <button type="button" class="expander plus minus hidden" onclick="$(this).parent().nextUntil('.level4, .level3, .level2, .level1', '.level5').addClass('hidden'); $(this).addClass('hidden'); $(this).prev().removeClass('hidden');">–</button><xsl:text> </xsl:text>
         </xsl:when>
       </xsl:choose>
-      <h3 class="index_item_name inline"><a target="_blank" href="{str[@name='index_external_resource']}"><xsl:value-of select="str[@name='index_item_name']" /></a></h3>
-        <xsl:if test="arr[@name='index_instance_location']">
+      <h3 class="index_item_name inline">
+        <!--<a target="_blank" href="{str[@name='index_external_resource']}">-->
+          <xsl:value-of select="str[@name='index_item_name']" />
+        <!--</a>-->
+      </h3>
+        <!--<xsl:if test="arr[@name='index_instance_location']">
           <xsl:text> </xsl:text><button type="button" class="expander" onclick="$(this).next().toggleClass('hidden'); $(this).text($(this).next().hasClass('hidden') ? 'Show' : 'Hide');">Show</button>
           <div class="expanded hidden linked_elements">
             <h4 class="inline"><xsl:text>Linked documents by date (total occurrences: </xsl:text><xsl:value-of select="count(arr[@name='index_instance_location']/str)"/><xsl:text>)</xsl:text></h4>
@@ -136,7 +142,7 @@
               </xsl:apply-templates>
             </ul>
       </div>
-        </xsl:if>
+        </xsl:if>-->
         
     </div>
   </xsl:template>

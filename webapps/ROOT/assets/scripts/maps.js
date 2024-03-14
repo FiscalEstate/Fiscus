@@ -150,6 +150,16 @@
                       feature.openPopup();
                   }
               });
+              toggle_polygons.eachLayer(function(feature){
+                  if (feature.feature.properties.id === id){
+                      feature.openPopup();
+                  }
+              });
+              toggle_lines.eachLayer(function(feature){
+                  if (feature.feature.properties.id === id){
+                      feature.openPopup();
+                  }
+              });
             }
     
             function displayById(id){ 

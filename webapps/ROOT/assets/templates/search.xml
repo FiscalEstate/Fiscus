@@ -94,7 +94,7 @@
           </div>
           <h4>Mentioned elements</h4>
           <div class="section-container accordion" data-section="accordion">
-            <xsl:apply-templates select="/aggregation/response/lst[@name='facet_counts']/lst[@name='facet_fields']/lst[@name='places' or @name='estates' or @name='people' or @name='juridical_persons' or @name='dates']" mode="search-results" />
+            <xsl:apply-templates select="/aggregation/response/lst[@name='facet_counts']/lst[@name='facet_fields']/lst[@name='places' or @name='estates' or @name='people' or @name='juridical_persons']" mode="search-results" /> <!--  or @name='dates' -->
           </div>
           
           <h4>Keywords</h4>

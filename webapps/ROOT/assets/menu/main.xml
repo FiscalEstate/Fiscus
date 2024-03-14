@@ -2,18 +2,20 @@
 <?oxygen RNGSchema="../schema/menu/menu.rng" type="xml"?>
 <root xmlns="http://www.kcl.ac.uk/artshums/depts/ddh/kiln/ns/1.0"
       xmlns:i18n="http://apache.org/cocoon/i18n/2.1">
-  <menu label="Team" match="local-tei-display-html" params="team"/>
+  <menu label="Research team" match="local-tei-display-html" params="team"/>
+  <menu label="About Fiscus" match="local-tei-display-html" params="about"/>
   <menu label="Documents" match="local-epidoc-index-display" />
   <menu label="Places" match="local-index-display-html" params="places"/> <!-- removed 'epidoc' param to remove it from URIs; cf. main.xmap -->
   <menu label="Estates" match="local-index-display-html" params="estates"/> <!-- // -->
   <menu label="People" match="local-index-display-html" params="people"/> <!-- // -->
   <menu label="Juridical persons" match="local-index-display-html" params="juridical_persons"/> <!-- // -->
   <menu label="Keywords" match="local-index-display-html" params="keywords"/> <!-- // -->
-  <menu label="Maps and graphs">
+  <menu label="Maps">
     <menu label="Map" match="local-tei-display-html" params="map"/> <!-- // -->
     <menu label="People graph" match="local-tei-display-html" params="people_graph"/> <!-- // -->
     <menu label="Relation graph" match="local-tei-display-html" params="relation_graph"/> <!-- // -->
   </menu>
   <menu label="Search" match="local-search"/>
+  <menu label="Bibliography" match="local-tei-display-html" params="bibliography"/>
   <!--<menu label="Admin" language="" match="local-admin-home-page"/>-->
 </root>

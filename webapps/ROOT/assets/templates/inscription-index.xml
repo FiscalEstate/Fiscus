@@ -32,7 +32,7 @@
       <div class="row">
         <div class="large-12 columns">
           <p>Total items: <xsl:value-of select="count(collection(concat('file:',system-property('user.dir'),'/webapps/ROOT/content/xml/epidoc/?select=*.xml;recurse=yes')))"/></p>
-          <p>The source EpiDoc XML for all of the listed documents are available in a <a href="{kiln:url-for-match('local-epidoc-zip', ($language), 0)}">ZIP archive</a>.</p>
+          <!--<p>The source EpiDoc XML for all of the listed documents are available in a <a href="{kiln:url-for-match('local-epidoc-zip', ($language), 0)}">ZIP archive</a>.</p>-->
 
           <xsl:apply-templates mode="text-index"
             select="/aggregation/response/result" />
