@@ -29,9 +29,9 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="#"/>
-                            <rs type="record_source" ref="#"/>
-                            <rs type="document_tradition" ref="#"/>
+                            <rs type="text_type" ref="#">-Papal concession</rs>
+                            <rs type="record_source" ref="#">Original document</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
                             <rs type="fiscal_property"/>
                         </summary>
                         <msItem xml:id="msItem1">
@@ -81,62 +81,68 @@
             <div type="edition">
                 <div type="textpart">
                     <ab><persName key="#Popes" ref="#people/4312">Adrianus</persName> episcopus
-                        servus servorum dei dilectis filiis <persName>Andree</persName>
-                        <rs>abbati</rs>
+                        servus servorum Dei dilectis filiis <persName key="#Abbots"><name
+                                ref="Andreas">Andree</name></persName>
+                        <rs key="#Abbots">abbati</rs>
                         <orgName key="#Monasteries"><rs key="#Monasteries">monasterii</rs> beatorum
                             apostolorum Petri e Pauli</orgName> iuxta <rs key="#Bridges/pontoons"
                             >ponte marmoreum</rs>
-                        <placeName ref="#places/1806">Ariminensi</placeName> civitatis siti eiusque
-                        fratribus tam presentibus quam futuris regularem vitam professis, in
-                        perpetuum. Quoniam sine vere cultu religionis nec caritatis unitas potest
-                        subsistere nec deo gratum exhiberi servitium, expedit apostolice auctoritati
-                        religiosas personas diligere et eorum loca sedis apostolice patrocinio
-                        communire. Quocirca, dilecti in domino filii, vestris iustis postulationibus
-                        gratum impertientes assensum prefatum monasterium quod beati Petri iuris
-                        exsistit et in quo divino mancipati estis obsequio ad exemplar predecessoris
-                        nostri bone memorie pape Innocentii sub beati Petri et nostra protectione
-                        suscipimus et presentis scripti privilegio communimus, statuentes ut
-                        quascumque possessiones, quecumque bona idem monasterium in presentiarum
-                        iuste et legitime possidet aut in futurum, concessione pontificum,
-                        largitione regum vel principum, oblatione fidelium seu aliis iustis modis
-                        deo propitio poterit adipisci, firma vobis vestrisque successoribus et
-                        illibata permaneant. In quibus hec propriis duximus exprimenda vocabulis
-                            <orgName key="#Baptismal_churches"><rs key="#Baptismal_churches"
-                                >plebem</rs> Sancti Martini de <placeName key="#Baptismal_churches"
-                                >Burdunclo</placeName></orgName> cum capella sua et terris, silvis
-                        et omnibus pertinentiis suis, <geogName><rs>curtem</rs> Sancti
-                            Paterniani</geogName> in eadem plebe cum omnibus suis appendetiis, tres
-                        arcus de ponte marmoreo cum terris, casis et turribus, terram quoque Sancte
-                        Romane ecclesie que est posita iuxta ipsum pontem et habet a primo latere
-                        pontem ipsum, a secundo latere montem de Furca, a tertio mare, a quarto
-                        terram Artinacam cum flumine quod inde currere consuevit; ecclesiam Sancte
-                        Marie in curte cum mansis et mansionibus que posita est in posterula ducum,
-                        decimas quoque omnium terrarum vestrarum sicut a predecessoribus nostris
-                        vobis concesse sunt et scriptis eorum firmate. Obeunte vero te nunc eiusdem
-                        loci abbate vel tuorum quolibet successorum, nullus ibi qualibet
-                        surreptionis astutia seu violentia preponatur, nisi quem fratres communi
-                        consensu vel pars consilii sanioris secundum dei timorem et beati Benedicti
-                        regulam providerint eligendum. Decernimus ergo ut nulli omnino hominum nec
-                        episcopo liceat locum ipsum temere perturbare, gravare aut bona sive
-                        possessiones ipsius auferre vel ablatas retinere, minuere seu quibuslibet
-                        indebitis exactionibus vel molestiis fatigare, set omnia integra
-                        conserventur eorum pro quorum gubernatione et sustentatione concessa sunt,
-                        usibus omnimodis (…). Ad indicium autem quod idem locus beati Petri iuris
-                        exsistat, duodecim denarios luccensis monete nobis nostrisque successoribus
-                        annis singulis persolvetis. Si qua igitur in futurum ecclesiastica
-                        secularisve persona, hanc nostre constitutionis paginam sciens, contra eam
-                        temere venire temptaverit, secundo tertiove commonita si non satisfactione
-                        congrua emendaverit potestatis honorisque sui dignitate careat, reamque se
-                        divino iudicio exsistere de perpetrata iniquitate cognoscat, et a
-                        sacratissimo corpore ac sanguine dei et domni redemptoris nostri Iehsu
-                        Christi aliena fiat, atque in extremo examine districte ultioni subiaceat.
-                        Cunctis autem eidem loco iusta servantibus sit pax domni nostri Iehsu
-                        Christi, quatinus et hic fructum bone actionis percipiant et apud districtum
-                        iudicem premia eterne pacis inveniant. Amen, amen, amen. (…) Dat. Laterano
-                        per manum <persName>Rolandi</persName>, Sancte Romane ecclesie presbiteri,
-                        cardinalis et cancellarii, kl. martii, indictione V, incarnationis dominice
-                        anno millesimo centesimo quinquagesimo sexto, pontificatus vero domni
-                        Adriani <rs key="#Popes">pape</rs> IIII (…).</ab>
+                        <placeName ref="#places/1806" key="#Cities #Bridges/pontoons #Monasteries"
+                            >Ariminensi</placeName>
+                        <rs key="#Cities">civitatis</rs> siti eiusque fratribus tam presentibus quam
+                        futuris regularem vitam professis, in perpetuum. Quoniam sine vere cultu
+                        religionis nec caritatis unitas potest subsistere nec Deo gratum exhiberi
+                        servitium, expedit apostolice auctoritati religiosas personas diligere et
+                        eorum loca sedis apostolice patrocinio communire. Quocirca, dilecti in
+                        domino filii, vestris iustis postulationibus gratum impertientes assensum
+                        prefatum monasterium quod beati Petri iuris exsistit et in quo divino
+                        mancipati estis obsequio ad exemplar predecessoris nostri bone memorie <rs
+                            key="#Popes">pape</rs>
+                        <persName ref="#people/51" key="#Popes">Innocentii</persName> sub beati
+                        Petri et nostra protectione suscipimus et presentis scripti privilegio
+                        communimus, statuentes ut quascumque possessiones, quecumque bona idem
+                        monasterium in presentiarum iuste et legitime possidet aut in futurum,
+                        concessione pontificum, largitione regum vel principum, oblatione fidelium
+                        seu aliis iustis modis deo propitio poterit adipisci, firma vobis vestrisque
+                        successoribus et illibata permaneant. In quibus hec propriis duximus
+                        exprimenda vocabulis <orgName key="#Baptismal_churches"><rs
+                                key="#Baptismal_churches">plebem</rs> Sancti Martini de <placeName
+                                key="#Baptismal_churches">Burdunclo</placeName></orgName> cum
+                        capella sua et terris, silvis et omnibus pertinentiis suis,
+                                <geogName><rs>curtem</rs> Sancti Paterniani</geogName> in eadem
+                        plebe cum omnibus suis appendetiis, tres arcus de ponte marmoreo cum terris,
+                        casis et turribus, terram quoque Sancte Romane ecclesie que est posita iuxta
+                        ipsum pontem et habet a primo latere pontem ipsum, a secundo latere montem
+                        de Furca, a tertio mare, a quarto terram Artinacam cum flumine quod inde
+                        currere consuevit; ecclesiam Sancte Marie in curte cum mansis et mansionibus
+                        que posita est in posterula ducum, decimas quoque omnium terrarum vestrarum
+                        sicut a predecessoribus nostris vobis concesse sunt et scriptis eorum
+                        firmate. Obeunte vero te nunc eiusdem loci abbate vel tuorum quolibet
+                        successorum, nullus ibi qualibet surreptionis astutia seu violentia
+                        preponatur, nisi quem fratres communi consensu vel pars consilii sanioris
+                        secundum dei timorem et beati Benedicti regulam providerint eligendum.
+                        Decernimus ergo ut nulli omnino hominum nec episcopo liceat locum ipsum
+                        temere perturbare, gravare aut bona sive possessiones ipsius auferre vel
+                        ablatas retinere, minuere seu quibuslibet indebitis exactionibus vel
+                        molestiis fatigare, set omnia integra conserventur eorum pro quorum
+                        gubernatione et sustentatione concessa sunt, usibus omnimodis (…). Ad
+                        indicium autem quod idem locus beati Petri iuris exsistat, duodecim denarios
+                        luccensis monete nobis nostrisque successoribus annis singulis persolvetis.
+                        Si qua igitur in futurum ecclesiastica secularisve persona, hanc nostre
+                        constitutionis paginam sciens, contra eam temere venire temptaverit, secundo
+                        tertiove commonita si non satisfactione congrua emendaverit potestatis
+                        honorisque sui dignitate careat, reamque se divino iudicio exsistere de
+                        perpetrata iniquitate cognoscat, et a sacratissimo corpore ac sanguine dei
+                        et domni redemptoris nostri Iehsu Christi aliena fiat, atque in extremo
+                        examine districte ultioni subiaceat. Cunctis autem eidem loco iusta
+                        servantibus sit pax domni nostri Iehsu Christi, quatinus et hic fructum bone
+                        actionis percipiant et apud districtum iudicem premia eterne pacis
+                        inveniant. Amen, amen, amen. (…) Dat. Laterano per manum
+                            <persName>Rolandi</persName>, Sancte Romane ecclesie
+                        <rs>presbiteri</rs>, <rs>cardinalis</rs> et <rs>cancellarii</rs>, kl.
+                        martii, indictione V, incarnationis dominice anno millesimo centesimo
+                        quinquagesimo sexto, pontificatus vero domni Adriani <rs key="#Popes"
+                            >pape</rs> IIII (…).</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
