@@ -1969,10 +1969,15 @@
                     <orgName>Sanctus Michael Archangelus in Cipriano; ecclesia (Lucca)</orgName>
                     <orgName type="other">San Micheletto di Lucca</orgName>
                     <idno>juridical_persons/235</idno>
-                    <note/>
+                    <note>Per l'identificazione della chiesa lucchese di San Michele menzionata nel
+                            privilegio di Anastasio IV a Polirone (CDP II n. 70 = doc5192) con
+                            questa San Michele, vd. Pescaglini Monti 2012 p. 44.</note>
                     <link type="places" subtype="isWithin" corresp="#places/4"/>
                     <link type="juridical_persons" corresp="#juridical_persons/68"
                             subtype="dependsOn"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/2001"
+                            subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/3712" subtype="isConfirmedBy"/>
                 </org>
                 <org>
                     <orgName>Sanctus Michael; ecclesia (Pugnano; San Giuliano Terme; Pisa)</orgName>
@@ -5572,6 +5577,9 @@
                         <link type="people" corresp="#people/127" subtype="isConfirmedBy"/>
                         <link type="people" corresp="#people/3579" subtype="isConfirmedBy"/>
                         <link type="people" corresp="#people/51" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/3712" subtype="isConfirmedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/2001"
+                            subtype="rendersCollectedBy"/>
                     </org>
                     <org>
                         <orgName>Sanctus Blasius; ecclesia (Gorgo; San Benedetto Po;
@@ -5863,8 +5871,9 @@
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/2001"
                             subtype="dependsOn"/>
-                        <link type="places" corresp="#places/2400" subtype="correspondsTo"/>
+                        <link type="places" corresp="#places/2400" subtype="isWithin"/>
                         <link type="people" corresp="#people/52" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/3712" subtype="isConfirmedBy"/>
                     </org>
                     <org>
                         <orgName>Sancta Maria; plebs (Valverde; San Benedetto Po; Mantova)</orgName>
@@ -6863,6 +6872,16 @@
                         <idno>juridical_persons/2488</idno>
                         <note>Collocazione ignota, nel territorio di Lazise (Vr).</note>
                         <link type="places" corresp="#places/258" subtype="proximity"/>
+                    </org>
+                    <org>
+                        <orgName>Sanctus Paulus; ecclesia (San Benedetto Po; Mantova)</orgName>
+                        <orgName type="other"/>
+                        <idno>juridical_persons/2489</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/2001"
+                            subtype="dependsOn"/>
+                        <link type="places" corresp="#places/2400" subtype="isWithin"/>
+                        <link type="people" corresp="#people/3712" subtype="isConfirmedBy"/>
                     </org>
                 </listOrg>
                 <listOrg n="Giacomelli Alessandro">
@@ -11342,6 +11361,9 @@
                         <link type="people" corresp="#people/51" subtype="isGrantedBy"/>
                         <link type="people" corresp="#people/3578" subtype="isConfirmedBy"/>
                         <link type="people" corresp="#people/125" subtype="isGrantedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/2001"
+                            subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/3517" subtype="isGrantedBy"/>
                     </org>
                     <org>
                         <orgName>Celavinnium; plebs (Pavia)</orgName>
