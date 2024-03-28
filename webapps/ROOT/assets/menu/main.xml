@@ -2,8 +2,11 @@
 <?oxygen RNGSchema="../schema/menu/menu.rng" type="xml"?>
 <root xmlns="http://www.kcl.ac.uk/artshums/depts/ddh/kiln/ns/1.0"
       xmlns:i18n="http://apache.org/cocoon/i18n/2.1">
-  <menu label="Research Team" match="local-tei-display-html" params="team"/>
-  <menu label="About Fiscus" match="local-tei-display-html" params="about"/>
+  
+  <menu label="About Fiscus">
+    <menu label="Research Team" match="local-tei-display-html" params="team"/>
+    <menu label="About" match="local-tei-display-html" params="about"/>
+  </menu>
   <menu label="Documents" match="local-epidoc-index-display" />
   <menu label="Places" match="local-index-display-html" params="places"/> <!-- removed 'epidoc' param to remove it from URIs; cf. main.xmap -->
   <menu label="Estates" match="local-index-display-html" params="estates"/> <!-- // -->
