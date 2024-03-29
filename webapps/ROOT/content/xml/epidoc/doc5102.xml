@@ -4,7 +4,8 @@
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
-                <title/>
+                <title>Milano, Archivio di Stato, Pergamene per fondi, Mantova, San Benedetto di
+                    Polirone, car. 205, n. 20</title>
             </titleStmt>
             <editionStmt>
                 <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
@@ -13,7 +14,7 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>Fiscus - DiSCi UniBo</publisher>
-                <idno type="filename"/>
+                <idno type="filename">doc5102</idno>
                 <availability xml:lang="en" status="free">
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
                         texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</licence>
@@ -29,9 +30,9 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <rs type="text_type" ref="#"/>
-                            <rs type="record_source" ref="#"/>
-                            <rs type="document_tradition" ref="#"/>
+                            <rs type="text_type" ref="#">--Judicial breve</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
                             <rs type="fiscal_property"/>
                         </summary>
                         <msItem xml:id="msItem1">
@@ -40,13 +41,14 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate>
-                                <note type="displayed_date"/>
+                            <origDate when="1121-04-04">
+                                <note type="displayed_date">1121 April 4</note>
                                 <note type="dating_elements"/>
-                                <note type="topical_date"/>
+                                <note type="topical_date">Brescia</note>
                                 <note type="redaction_date"/>
                             </origDate>
-                            <origPlace></origPlace>
+                            <origPlace>Sanctus Benedictus in Pado Lironi; monasterium (San Benedetto
+                                Po; Mantova)</origPlace>
                         </origin>
                         <provenance>
                             <location>
@@ -72,7 +74,7 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2022-02-03" who="other">creation of record</change>
+                <change when="2022-02-03" who="bferretti">creation of record</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -80,11 +82,47 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab/>
+                    <ab>(S.) Pridie lune qui est de mense aprilis. In presencia <rs key="Boni_viri/Boni_homines">bo[norum
+                            hom]inum</rs> quorum nomina subter leguntur. Per lingnum quod in suis
+                        tenebat manibus <persName key="#Judicial_breve #siblingOf #childOf"><name ref="Gandulfus/de Gusiago">Gandulfus</name></persName> et
+                        <persName key="#Judicial_breve #siblingOf #childOf"><name ref="Ardicionus/de Gusiago">Ardizionus</name></persName>
+                        <rs key="#siblingOf">fratres</rs>
+                        <rs key="#childOf">filii</rs>
+                        <persName key="parentOf"><name ref="Maginfredus">Maifredi</name></persName> de loco <placeName ref="#places/4438">Gusiago</placeName>
+                        fecerunt <rs key="#Judicial_breve">finem et refutacionem</rs> pro XX sollidos Mediolanensis adversus domnum
+                        <persName key="#Monks #Monasteries #Judicial_breve"><name ref="Martinus/monacus Padolinorensis">Martinum</name></persName> 
+                        et <persName key="#Monks #Monasteries #Judicial_breve"><name ref="Heinricus/monacus Padolinorensis">Einricum</name></persName>
+                        <rs key="#Monks">monagos</rs>
+                        <rs key="#Monasteries">monasterii</rs>
+                        <orgName key="#Monks #Monasteries #Judicial_breve" ref="#juridical_persons/2001">Sancti Benedicti</orgName> morantes in <rs key="#Cells/hermitages">cellula</rs>
+                        <orgName key="#Cells/hermitages" ref="#juridical_persons/2066">Sancti Vitis</orgName> que sita est in loco
+                        <placeName key="#Cells/hermitages" ref="#places/2475">Methule</placeName>, de <rs key="Albergaria/gifori">albergaria</rs> et de omni
+                        condicione seu eciam de ipsa terra quam pater supradictorum fratrum dedit
+                        suprascripte ecclesie Sancti Vitis in comutacionis nomine; eo videlicet modo
+                        ut ipsi suprascripti fratres neque illorum heredes aut aliqua hab heis
+                        aposita persona non habeant potestatem agendi vel causandi aut per placitum
+                        [ ... ] gandi suprascriptos monagos vel in locum illorum sucesores eidem
+                        ecclesie Sancti Vitis fruentes aut quibus ipsi dederint de albergaria et de
+                        qualibet [co]nditione seu de ipsa terra. Quod si hoc fecerint tunc
+                        supradicti fratres tam per se quam per suos heredes suprascriptis monagis
+                        suisque suctesoribus <rs key="#Penalty">penam C solidorum</rs> promiserunt et tacitos
+                        permanere. Actum est hoc in <rs key="Collegiate_churches">calonica</rs> <orgName key="#Mother_churches #Dioecesis Collegiate_churches" ref="#juridical_persons/1425">Sancte Marie 
+                            <placeName key="#Mother_churches #Dioecesis Collegiate_churches" ref="#places/9">Brixiensis</placeName>
+                        <rs key="#Mother_churches #Dioecesis">ecclesie</rs></orgName>. <rs key="#Witness">Ibi fuerunt</rs>:
+                        <persName key="Boni_viri/Boni_homines #Witness #Judicial_breve"><name ref="Milo/de Musculina">Milo</name></persName> 
+                        et <persName key="Boni_viri/Boni_homines #Witness #Judicial_breve"><name ref="Hugo/de Musculina">Ugo</name></persName>
+                        de <placeName ref="#places/4439">Musculina</placeName> [e]t <persName key="Boni_viri/Boni_homines #Witness #Judicial_breve"><name ref="Artusius/de Calcinato">Artusius</name></persName> 
+                            et <persName key="Boni_viri/Boni_homines #Witness #Judicial_breve"><name ref="Leo/de Calcinato">Leo</name></persName> de <placeName ref="#places/4440">Calcinato</placeName>
+                        et <persName key="Boni_viri/Boni_homines #Witness #Judicial_breve"><name ref="Gherardus/Fustignum/de Medole">Girardus Fustignum</name></persName> de
+                        Methole et <persName key="Boni_viri/Boni_homines #Witness #Judicial_breve"><name ref="Gherardus/de Calcaria">Girardus</name></persName> 
+                                de Calcaria et <persName key="Boni_viri/Boni_homines #Witness #Judicial_breve"><name ref="Hugo/de Saloto">Ugo</name></persName> de <placeName ref="#places/4441">Saloto</placeName>. Ab incarnacione domini
+                        nostri Iesu Christi milesimo centesimo vigesimo primo. (S.) Ego
+                        <persName key="#Judge #Writer #Judicial_breve"><name ref="Gebizo/iudex">Gebizo</name></persName>
+                        <rs key="#Judge">iudex</rs> rogatus <rs key="#Writer">scripsi</rs>. </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p/>
+                <p>CDP I n. 101, pp. 304-305.</p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p/>
