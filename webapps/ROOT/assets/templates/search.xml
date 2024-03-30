@@ -42,6 +42,10 @@
 
     <kiln:block name="content">
       <div class="row">
+        <div class="large-12 columns">
+          <p>The ‘Search’ function allows the reader to make a full-text research into all the texts that have been uploaded. It is also possible to refine the research by selecting specific keywords, second-level records, metadata and other items. Please note that, by clicking on the ‘See Results on Map’ button, the points that will appear on the map will correspond to the places that are mentioned in the documents to which the filter has been applied; they will <i>not</i> originate from the links between second-level records (as is the case, instead, with the ‘See on Map’ button in the lists of Places, Estates, People and Juridical Persons).</p>
+        </div>
+        
         <div class="large-4 columns">
           <p><strong>Total documents</strong>: <xsl:value-of select="count(collection(concat('file:',system-property('user.dir'),'/webapps/ROOT/content/xml/epidoc/?select=*.xml;recurse=yes')))"/></p>
           

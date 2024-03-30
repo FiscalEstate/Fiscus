@@ -37,37 +37,45 @@
       document.documentElement.scrollTop = 0;
       }
     </script>
-
+    
     <!-- items counter -->
     <xsl:if test="doc/str[@name='index_total_items']">
-    <div>
+    <div>  
       <p>Total items: <xsl:value-of select="doc/str[@name='index_total_items']" /></p>
-      <xsl:if test="doc[str[@name='index_thesaurus_hierarchy']]">
-        <button type="button" class="expander toggle_all" onclick="$('.level2, .level3, .level4, .level5').removeClass('hidden'); $('.plus:not(.minus)').addClass('hidden'); $('.minus').removeClass('hidden');">Expand all</button><xsl:text> </xsl:text>
-        <button type="button" class="expander toggle_all" onclick="$('.level2, .level3, .level4, .level5').addClass('hidden'); $('.plus:not(.minus)').removeClass('hidden'); $('.minus').addClass('hidden');">Collapse all</button><xsl:text> </xsl:text>
-      </xsl:if>
-      <xsl:if test="not(doc[str[@name='index_thesaurus_hierarchy']])">
-      <button type="button" class="expander toggle_all" onclick="$('.expanded').removeClass('hidden'); $('.expander:not(.plus):not(.toggle_all)').text($('.expander:not(.plus):not(.toggle_all)').next().hasClass('hidden') ? 'Show' : 'Hide');">Show all linked items</button><xsl:text> </xsl:text>
-      <button type="button" class="expander toggle_all" onclick="$('.expanded').addClass('hidden'); $('.expander:not(.plus):not(.toggle_all)').text($('.expander:not(.plus):not(.toggle_all)').next().hasClass('hidden') ? 'Show' : 'Hide');">Hide all linked items</button>
-      </xsl:if>
-      
-      <xsl:if test="doc[str[@name='index_item_name']][not(str[@name='index_thesaurus_hierarchy'])]">
-        <a class="go-to-list" href="#main">Go to main list</a>
-        <xsl:if test="doc[str[@name='index_item_name'][starts-with(., '#')]]">
-          <a class="go-to-list" href="#normalized">Go to normalized names list</a>
-        </xsl:if>
-        <a class="go-to-list" href="#not-normalized">Go to the list of unstandardised names</a>
-      </xsl:if>
     </div>
     </xsl:if>
 
     <!-- LISTS -->
     <xsl:if test="doc[str[@name='index_item_name']][not(str[@name='index_thesaurus_hierarchy'])]">
-      <xsl:if test="doc[str[@name='index_coordinates']]">
-      <div>
-        <p id="disclaimer">The places listed below are mere geographic references; all the types of transactions or legal actions linked to them are referred to the keywords enumerated at the beginning of each entry.</p>
+      <!-- intro texts -->
+      <div id="intro-text">
+        <xsl:choose>
+          <xsl:when test="doc[str[@name='index_item_number' and starts-with(., 'places')]]">
+          <p>The places listed below are mere geographic references, which have been employed in order to locate on the map the second-level records and the keywords. All the types of transactions or legal actions linked to them are referred to the keywords enumerated at the beginning of each entry. One will find two different lists in this section: 1) the list containing all the places which correspond to an individual item (expressed as places/<i>number</i>); this item has been marked up in at least one document; 2) the list of all the places whose names have not been standardised, and which do not correspond to an individual item. Please note that it may be necessary to zoom in on the map in order to see more clearly the place that one intends to visualise. Please click on ‘Show all Linked Items’ in order to display all the links between the items of this section and the second-level records that have been created. Please note that by clicking on the ‘See on Map’ button you will display all the places linked to the item you have selected.</p>
+        </xsl:when>
+          <xsl:when test="doc[str[@name='index_item_number' and starts-with(., 'juridical_persons')]]">
+            <p>This section includes religious and ecclesiastical institutions, as well as political collective bodies (urban communes in particular). One will find two different lists in this section: 1) the list containing all the juridical persons which correspond to an individual item (expressed as juridical_persons/<i>number</i>); this item has been marked up in at least one document; 2) the list of all the juridical persons whose names have not been standardised, and which do not correspond to an individual item. Please click on ‘Show all Linked Items’ in order to display all the links between the items of this section and the second-level records that have been created. Please note that by clicking on the ‘See on Map’ button you will display all the places linked to the item you have selected.</p>
+          </xsl:when>
+          <xsl:when test="doc[str[@name='index_item_number' and starts-with(., 'estates')]]">
+            <p>This section lists the landed estates and the jurisdictional ambits within which fiscal lands and/or the exertion of public rights are recorded. One will find two different lists in this section: 1) the list containing all the estates which correspond to an individual item (expressed as estates/<i>number</i>); this item has been marked up in at least one document; 2) the list of all the estates whose names have not been standardised, and which do not correspond to an individual item. Please click on ‘Show all Linked Items’ in order to display all the links between the items of this section and the second-level records that have been created. Please note that by clicking on the ‘See on Map’ button you will display all the places linked to the item you have selected.</p>
+          </xsl:when>
+          <xsl:when test="doc[str[@name='index_item_number' and starts-with(., 'people')]]">
+            <p>People’s names have been standardised according to the critical edition of the so-called <i>Liber vitae</i> from the abbey of S. Salvatore/S. Giulia di Brescia (Brescia, Biblioteca Civica Queriniana, G. VI. 7), which was redacted after the middle of the ninth century and updated until the fourteenth century with a high number of names (including lists of oblates and obituaries). The years following each person’s name can indicate birth-death dates, period(s) in office, or attestation(s). One will find three different lists in this section: 1) the list containing all the names which have been standardised, and which correspond to an individual item (expressed as people/<i>number</i>); this item has been marked up in at least one document; 2) the list of all the names that have been standardised, but do not correspond to an individual item; 3) the list of the names that have not been standardised, and do not correspond to an individual item. Please click on ‘Show all Linked Items’ in order to display all the links between the items of this section and the second-level records that have been created. Please note that by clicking on the ‘See on Map’ button you will display all the places linked to the item you have selected.</p>
+          </xsl:when>
+      </xsl:choose>
       </div>
-      </xsl:if>
+      
+      <!-- buttons -->
+      <div id="buttons">
+          <button type="button" class="expander toggle_all" onclick="$('.expanded').removeClass('hidden'); $('.expander:not(.plus):not(.toggle_all)').text($('.expander:not(.plus):not(.toggle_all)').next().hasClass('hidden') ? 'Show' : 'Hide');">Show all linked items</button><xsl:text> </xsl:text>
+          <button type="button" class="expander toggle_all" onclick="$('.expanded').addClass('hidden'); $('.expander:not(.plus):not(.toggle_all)').text($('.expander:not(.plus):not(.toggle_all)').next().hasClass('hidden') ? 'Show' : 'Hide');">Hide all linked items</button>
+        <a class="go-to-list" href="#main">Go to main list</a>
+        <xsl:if test="doc[str[@name='index_item_name'][starts-with(., '#')]]">
+          <a class="go-to-list" href="#normalized">Go to normalized names list</a>
+        </xsl:if>
+        <a class="go-to-list" href="#not-normalized">Go to the list of unstandardised names</a>
+      </div>
+      
       <div id="main">
         <xsl:apply-templates select="doc[str[@name='index_item_name'][not(starts-with(., '~'))][not(starts-with(., '#'))]]">
           <xsl:sort select="lower-case(replace(replace(., 'italicsstart', ''), 'italicsend', ''))"/>
@@ -97,6 +105,19 @@
     
     <!-- THESAURUS HIERARCHICAL LIST  -->
     <xsl:if test="doc[str[@name='index_thesaurus_hierarchy']]">
+        <!-- intro - keywords --> 
+      <div id="intro-text">
+          <p>The semantic markup makes it possible to frame the data that can be extracted from a primary source by resorting to a controlled vocabulary, in which specific words, expressions and concepts are lemmatised and placed in a hierarchical relationship.</p>
+          <p>We abide by the definition of controlled vocabulary as it has been formulated in the ERC project <i>Patrimonium. Geography and Economy of the Imperial Properties in the Roman World</i> (<a href="https://patrimonium.huma-num.fr/" target="_blank">https://patrimonium.huma-num.fr/</a>), available in the thesaurus manager of AusoHNum (<a href="https://ausohnum.huma-num.fr/" target="_blank">https://ausohnum.huma-num.fr/</a>). Its framework, based on the division into eight main sections, was left unchanged. However, some changes were needed because of the chronological shift that <i>FISCUS</i> required.</p>
+          <p>The changes were mainly directed towards the core of the project – that is, the keywords grouped in the subsection ‘Fiscal Property’, placed in turn under the category ‘Economy’. Whenever a place has been marked at least once as a ‘Fiscal Property’, the point on the Map is displayed as a golden one (it is violet, instead, when the keyword ‘Fiscal Property’ has not been selected). The category ‘Textual Occurrence’ is intended to specify whether one fiscal estate appears as a marginal element in the document – e.g. when it is mentioned in the list of land borders or as a topical date – or whether it constitutes the main object of a legal transaction. The category ‘Function’ refers to the management forms of the fiscal estates, and to the uses that owners and beneficiaries could make of them. The categories ‘Inflow’ and ‘Outflow’ describe synthetically the dynamics of the fiscal redistribution circuit (on which. cf. Bougard, F., and V. Loré, eds, <i>Biens publics, biens du roi. Les bases économiques des pouvoirs royaux dans le haut Moyen Âge / Beni pubblici, beni del re. Le basi economiche dei poteri regi nell’alto Medioevo</i>. Turnhout: Brepols, 2019).</p>
+      </div>
+      
+      <!-- buttons -->
+      <div id="buttons">
+        <button type="button" class="expander toggle_all" onclick="$('.level2, .level3, .level4, .level5').removeClass('hidden'); $('.plus:not(.minus)').addClass('hidden'); $('.minus').removeClass('hidden');">Expand all</button><xsl:text> </xsl:text>
+      <button type="button" class="expander toggle_all" onclick="$('.level2, .level3, .level4, .level5').addClass('hidden'); $('.plus:not(.minus)').removeClass('hidden'); $('.minus').addClass('hidden');">Collapse all</button><xsl:text> </xsl:text>
+      </div>
+      
       <div id="thesaurus_hierarchy">
         <xsl:apply-templates select="doc[str[@name='index_thesaurus_hierarchy']]">
           <xsl:sort select="lower-case(str[@name='index_thesaurus_hierarchy'])"/> <!-- or index_item_name -->

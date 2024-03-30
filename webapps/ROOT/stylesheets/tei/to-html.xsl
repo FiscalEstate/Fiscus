@@ -14,6 +14,14 @@
   <xsl:output method="html"/>
   <xsl:import href="../../kiln/stylesheets/tei/to-html.xsl" />
   
+  <xsl:template match="tei:bibl">
+    <p><xsl:apply-templates/></p>
+  </xsl:template>
+  
+  <xsl:template match="tei:addSpan[@type='expand-collapse-button']">
+    <button class="expander expand-about" onclick="$(this).prev().toggleClass('hidden'); $(this).text($(this).prev().hasClass('hidden') ? 'Expand' : 'Collapse');">Expand</button>
+  </xsl:template>
+  
   <xsl:template match="tei:addSpan[@xml:id='map']">
       <div class="row map_box">
         <div id="mapid" class="map"></div>

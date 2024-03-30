@@ -157,12 +157,18 @@ div.list_item {
     padding-top: 2.5em;
 }
 
-#team_members h3 {
-    font-size: 26px;
+#team_members h3, #about h3 {
+    font-size: 24px;
     color: #3A2A4C;
     padding-top: 30px;
     padding-bottom: 10px;
-    font-variant: small-caps;
+}
+
+#bibliography p.head {
+    font-size: 24px;
+    color: #3A2A4C;
+    padding-top: 30px;
+    font-weight: bold;
 }
 
 .expander,
@@ -197,6 +203,14 @@ div.list_item {
 }
 .expand-map-in-search {
     margin: 0 !important;
+}
+
+.expand-about {
+    margin-left: 0 !important;
+}
+
+.hidden {
+    display: none;
 }
 .not-visible {
     visibility: hidden;
@@ -293,11 +307,6 @@ div#hidden {
 .level5 {
     margin-left: 6.5em;
     background-color: #f6faea;
-}
-
-#disclaimer {
-    padding-top: 1.5em;
-    padding-bottom: 1em;
 }
 
 /* Back to top arrow */

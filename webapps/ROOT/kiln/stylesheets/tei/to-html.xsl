@@ -135,8 +135,10 @@
     </b>
   </xsl:template>
 
-  <xsl:template match="tei:foreign">
-    <xsl:call-template name="tei-make-span" />
+  <xsl:template match="tei:foreign|tei:title">
+    <i>
+      <xsl:apply-templates />
+    </i>
   </xsl:template>
 
   <xsl:template match="tei:name[@key]|tei:rs[@key]">
