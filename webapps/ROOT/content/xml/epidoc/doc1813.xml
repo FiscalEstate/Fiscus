@@ -4,7 +4,7 @@
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
-                <title>Vercelli, Archivio Comunale (MGH DD H IV, doc. 214)</title>
+                <title>Vercelli, Archivio Comunale (MGH DD H IV, n. 214)</title>
             </titleStmt>
             <editionStmt>
                 <edition>Digital edition encoded for <ref target="http://fiscus.unibo.it">Fiscus Project</ref>
@@ -45,7 +45,6 @@
                                 <note type="displayed_date">1069 January 3</note>
                                 <note type="dating_elements"/>
                                 <note type="topical_date">Goslar (DE)</note>
-                                <note type="redaction_date">1069 January 3</note>
                              </origDate>
                             <origPlace/>
                         </origin>
@@ -82,23 +81,23 @@
             <div type="edition">
                 <div type="textpart">
                     <ab>In nomine sancte et individue eiusdemque substantie trinitatis. <persName
-                            key="#Emperor/king" ref="#people/77">Heinricus</persName> quartus dei
+                        key="#Emperor/king #childOf #Imperial/royal_diploma" ref="#people/77">Heinricus</persName> quartus dei
                         gratia atque constitutione <rs key="#Emperor/king">rex</rs>. Omnibus dei
                         servis nostrisque fidelibus tam futuris quam presentibus notum esse volumus,
                         quod nos, sic terrenum tenentes regnum ut non tradentes oblivioni perpetuum,
                         id impresentiarum facere regali decentia curamus, quod ad perpetuam salutem
-                        anime domni <persName ref="#people/237" key="#Emperor/king"
-                            >Henrici</persName> digne memorie patris nostri nec non et venerabilis
-                            <persName key="#Queen" ref="#people/365">Agnetis</persName> nostre
+                        anime domni <persName key="#Emperor/king #parentOf" ref="#people/237"
+                            >Henrici</persName> digne memorie <rs key="#parentOf">patris</rs> nostri nec non et venerabilis
+                        <persName key="#Queen #parentOf" ref="#people/365">Agnetis</persName> nostre
                         matris nec minus et nostre prosit divinitus. Sancto etenim <orgName
-                            key="#Mother_churches" ref="#juridical_persons/81">Eusebio</orgName>
+                            key="#Mother_churches #Imperial/royal_diploma #Intercessory" ref="#juridical_persons/81">Eusebio</orgName>
                         <placeName ref="#places/106" key="#Mother_churches"
                             >Uercellensium</placeName> patrono, qui piissimus interpretatur, ut suis
-                        nobis succurrat piissimis precibus, interventu quoque <persName
-                            key="#Bishops" ref="#people/395">Herimanni</persName> nobis dilectissimi
-                        Pauenbergensis <rs key="#Bishops">episcopi</rs> nec non et
-                            <persName>Hebradi</persName>
-                        <rs key="#Count">comitis</rs> nobis fidelissimi <placeName ref="#places/707"
+                        nobis succurrat piissimis <rs key="#Intercessory">precibus, interventu</rs> quoque <persName
+                            key="#Bishops #fidelisOf #Intercessory #Imperial/royal_diploma" ref="#people/395">Herimanni</persName> nobis dilectissimi
+                        <placeName key="#Bishops" ref="#places/1927">Pauenbergensis</placeName> <rs key="#Bishops">episcopi</rs> nec non et
+                        <persName key="#Count #fidelisOf #Intercessory #Imperial/royal_diploma" ref="#people/4092">Hebradi</persName>
+                        <rs key="#Count">comitis</rs> nobis <rs key="#fidelisOf">fidelissimi</rs> <placeName ref="#places/707"
                             key="#Rivers #Landed_possessions #Forests #Fisheries #Wine #Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches #Fluvial_transport #Teloneum #Rights_of_use_on_woods/pastures/waters #Districtio"
                             >Mirabellum</placeName> et <placeName ref="#places/708"
                             key="#Rivers #Landed_possessions #Forests #Fisheries #Wine #Fiscal_property #Textual_occurrence #Object #Outflow #Allocation_to_churches #Fluvial_transport #Teloneum #Rights_of_use_on_woods/pastures/waters #Districtio"
@@ -111,42 +110,38 @@
                             >forestis</rs> cum omnibus eorum et <rs key="#Districtio"
                             >districtis</rs> et finibus regali benignitate <rs
                             key="#Imperial/royal_diploma">damus</rs>, propter carissimum etiam
-                        servicium, quod nobis fecit <persName key="#Bishops" ref="#people/366"
+                        servicium, quod nobis fecit <persName key="#Bishops #Chancellor #fidelisOf #Imperial/royal_diploma" ref="#people/366"
                             >Gregorius</persName> eiusdem sancti Evsebii vicarius sueque sedis
                         episcopus nosterque fidelissimus <rs key="#Chancellor">cancellarius</rs>, et
                         sub precepti traditione nunc et in perpetuum concedimus, eo scilicet modo et
-                        ratione ut nullus <rs key="#Archbishops">archiepiscopus</rs>, nullus
-                        episcopus, nullus <rs key="#Marquis/duke">dux</rs>, nullus marchio, nullus
-                        comes, nulla magna parvaque persona audeat, presumat predictum sanctum, eius
-                            <rs key="#Mother_churches">ecclesiam</rs>, eius vicarium et episcopum de
-                        omni predicto beneficio divestire molestare aut aliquid invadendo
-                        subtrahere. Quod si, quod minime credimus, aliquis fuerit, qui huius
-                        precepti nostri paginam violare presumpserit, se C libras auri compositurum
-                        noverit, medietatem nostre camere et medietatem predicto sancto et eius
-                        episcopo. Quod ut verius credatur cautiusque ab omnibus custodiatur, manu
-                        propria corroborantes hanc precepti nostri paginam sigillo nostro teutonico
+                        ratione ut nullus archiepiscopus, nullus episcopus, nullus dux, nullus
+                        marchio, nullus comes, nulla magna parvaque persona audeat, presumat
+                        predictum sanctum, eius ecclesiam, eius vicarium et episcopum de omni
+                        predicto beneficio divestire molestare aut aliquid invadendo subtrahere.
+                        Quod si, quod minime credimus, aliquis fuerit, qui huius precepti nostri
+                        paginam violare presumpserit, se <rs key="#Penalty">C libras auri</rs> compositurum noverit,
+                        medietatem <rs key="#Camera_regis">nostre camere</rs> et medietatem predicto sancto et eius episcopo.
+                        Quod ut verius credatur cautiusque ab omnibus custodiatur, manu propria
+                        corroborantes hanc precepti nostri paginam sigillo nostro teutonico
                         sigillari infra iussimus. Signum domni Heinrici quarti (M.) invictissimi
                         regis. (SI. D.) Data est III non. ian. anno ab incarnatione domini nostri
                         Iesu Christi millesimo LXVIIII, indictione VI, anno quoque ordinationis
                         domni Heinrici quarti regis invictissimi XVI, regni vero eiusdem XIII; actum
-                        in Goslario; feliciter. In nomine sancte et individue trinitatis. Notum sit
+                        in <placeName key="#Imperial/royal_diploma" ref="#places/4145">Goslario</placeName>; feliciter. In nomine sancte et individue trinitatis. Notum sit
                         omnium fidelium tam futurorum quam presentium noticie, qualiter deo mediante
-                        finita est seditio, quam inter <persName key="#Archbishops"><name
-                                ref="Sigefredus archiepiscopus Mogontinum"
-                            >Sigefridum</name></persName> archiepiscopum Mogontinum et <persName
-                            key="#Abbots"><name ref="Widerardo abbas Fuldensem"
-                            >Wideradum</name></persName>
-                        <rs key="#Abbots">abbatem</rs> Fuldensem decimarum peperit inquisitio. </ab>
+                        finita est seditio, quam inter <persName key="#Archbishops" ref="#people/4090">Sigefridum</persName> archiepiscopum Mogontinum et <persName
+                            key="#Abbots" ref="#people/4091">Wideradum</persName>
+                        <rs key="#Abbots">abbatem</rs> <orgName key="#Abbots" ref="#juridical_persons/2478">Fuldensem</orgName> decimarum peperit inquisitio. </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p>MGH DD H IV, D. 214</p>
+                <p>MGH DD H IV, n. 214, pp. 272-273.</p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p/>
             </div>
             <div type="bibliography" subtype="links">
-                <p/>
+                <p><ref>https://www.dmgh.de/mgh_dd_h_iv_1/index.htm#page/272/mode/1up</ref>.</p>
             </div>
             <div type="commentary">
                 <p/>
