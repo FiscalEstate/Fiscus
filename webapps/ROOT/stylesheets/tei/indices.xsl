@@ -71,7 +71,7 @@
           <button type="button" class="expander toggle_all" onclick="$('.expanded').addClass('hidden'); $('.expander:not(.plus):not(.toggle_all)').text($('.expander:not(.plus):not(.toggle_all)').next().hasClass('hidden') ? 'Show' : 'Hide');">Hide all linked items</button>
         <a class="go-to-list" href="#main">Go to main list</a>
         <xsl:if test="doc[str[@name='index_item_name'][starts-with(., '#')]]">
-          <a class="go-to-list" href="#normalized">Go to normalized names list</a>
+          <a class="go-to-list" href="#normalized">Go to the list of standardised names</a>
         </xsl:if>
         <a class="go-to-list" href="#not-normalized">Go to the list of unstandardised names</a>
       </div>
