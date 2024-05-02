@@ -8,6 +8,18 @@
   <!-- Called from htm-tpl-structure.xsl -->
 
   <xsl:template name="fiscus-body-structure">
+    <xsl:variable name="displayed-text">
+      <xsl:variable name="number" select="number(substring-after(//t:idno[@type = 'filename'][1], 'doc'))"/>
+      <!--<xsl:choose>
+        <xsl:when test="($number ge 5632 and $number le 5640) or ($number ge 5642 and $number le 5828)">
+          <xsl:value-of select="false()"/>
+        </xsl:when>
+        <xsl:otherwise>-->
+          <xsl:value-of select="true()"/>
+        <!--</xsl:otherwise>
+      </xsl:choose>-->
+    </xsl:variable>
+    
     <div id="metadata">
       <p>
         <b>Title: </b>
@@ -67,65 +79,70 @@
           <xsl:apply-templates select="//t:origin/t:origDate/t:note[@type = 'redaction_date']/node()"/></xsl:if>
       </p>
 
-      <p id="toggle_buttons"><b>Show/hide in the text: </b>
-        <button class="placeName" id="toggle_placeName">places</button>
-        <button class="persName" id="toggle_persName">people</button>
-        <button class="orgName" id="toggle_orgName">juridical persons</button>
-        <button class="geogName" id="toggle_geogName">estates</button>
-        <!--<button class="date" id="toggle_date">dates</button>-->
-        <button class="rs" id="toggle_rs">keywords</button>
-        <button class="links" id="toggle_links">links</button>
-      </p>
-      <script>
-         $(document).ready(function(){
-         $("#toggle_persName").click(function(){
-         $(".persName").toggleClass("_persName");
-         });
-         });
-         
-         $(document).ready(function(){
-         $("#toggle_placeName").click(function(){
-         $(".placeName").toggleClass("_placeName");
-         });
-         });
-         
-         $(document).ready(function(){
-         $("#toggle_orgName").click(function(){
-         $(".orgName").toggleClass("_orgName");
-         });
-         });
-         
-         $(document).ready(function(){
-         $("#toggle_geogName").click(function(){
-         $(".geogName").toggleClass("_geogName");
-         });
-         });
-         
-         $(document).ready(function(){
-         $("#toggle_date").click(function(){
-         $(".date").toggleClass("_date");
-         });
-         });
-         
-         $(document).ready(function(){
-         $("#toggle_rs").click(function(){
-         $(".rs").toggleClass("_rs");
-         });
-         });
-         
-         $(document).ready(function(){
-         $("#toggle_links").click(function(){
-         $(".links").toggleClass("_links");
-         });
-         });
-       </script>
+      <xsl:if test="$displayed-text=true()">
+        <p id="toggle_buttons"><b>Show/hide in the text: </b>
+          <button class="placeName" id="toggle_placeName">places</button>
+          <button class="persName" id="toggle_persName">people</button>
+          <button class="orgName" id="toggle_orgName">juridical persons</button>
+          <button class="geogName" id="toggle_geogName">estates</button>
+          <!--<button class="date" id="toggle_date">dates</button>-->
+          <button class="rs" id="toggle_rs">keywords</button>
+          <button class="links" id="toggle_links">links</button>
+        </p>
+        <script>
+          $(document).ready(function(){
+          $("#toggle_persName").click(function(){
+          $(".persName").toggleClass("_persName");
+          });
+          });
+          
+          $(document).ready(function(){
+          $("#toggle_placeName").click(function(){
+          $(".placeName").toggleClass("_placeName");
+          });
+          });
+          
+          $(document).ready(function(){
+          $("#toggle_orgName").click(function(){
+          $(".orgName").toggleClass("_orgName");
+          });
+          });
+          
+          $(document).ready(function(){
+          $("#toggle_geogName").click(function(){
+          $(".geogName").toggleClass("_geogName");
+          });
+          });
+          
+          $(document).ready(function(){
+          $("#toggle_date").click(function(){
+          $(".date").toggleClass("_date");
+          });
+          });
+          
+          $(document).ready(function(){
+          $("#toggle_rs").click(function(){
+          $(".rs").toggleClass("_rs");
+          });
+          });
+          
+          $(document).ready(function(){
+          $("#toggle_links").click(function(){
+          $(".links").toggleClass("_links");
+          });
+          });
+        </script>
+      </xsl:if>
     </div>
 
-    <div class="content" id="edition" data-section-content="data-section-content">
+    
+      <div class="content" id="edition" data-section-content="data-section-content">
       <xsl:variable name="edtxt">
-        <xsl:apply-templates select="//t:div[@type = 'edition']">
+        <xsl:if test="$displayed-text=true()">
+          <xsl:apply-templates select="//t:div[@type = 'edition']">
           <xsl:with-param name="parm-edition-type" select="'interpretive'" tunnel="yes"/>
         </xsl:apply-templates>
+        </xsl:if>
       </xsl:variable>
       <xsl:apply-templates select="$edtxt" mode="sqbrackets"/>
     </div>
