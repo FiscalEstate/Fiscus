@@ -10,14 +10,14 @@
   <xsl:template name="fiscus-body-structure">
     <xsl:variable name="displayed-text">
       <xsl:variable name="number" select="number(substring-after(//t:idno[@type = 'filename'][1], 'doc'))"/>
-      <!--<xsl:choose>
+      <xsl:choose>
         <xsl:when test="($number ge 5632 and $number le 5640) or ($number ge 5642 and $number le 5828)">
           <xsl:value-of select="false()"/>
         </xsl:when>
-        <xsl:otherwise>-->
+        <xsl:otherwise>
           <xsl:value-of select="true()"/>
-        <!--</xsl:otherwise>
-      </xsl:choose>-->
+        </xsl:otherwise>
+      </xsl:choose>
     </xsl:variable>
     
     <div id="metadata">
