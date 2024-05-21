@@ -4,9 +4,12 @@ Fiscus: DOCUMENTAZIONE TECNICA
 
 - GitHub repository: https://github.com/FiscalEstate/Fiscus
 - EFES documentation: https://github.com/EpiDoc/EFES/wiki
-- Sito: https://fiscus.unibo.it/ (credenziali: [...])
+- Sito ufficiale: https://fiscus.unibo.it/ (credenziali: [...])
+- Sito interno di lavoro: https://fiscuslive.unibo.it/ (credenziali: [...])
 - AusoHNum thesaurus: https://ausohnum.huma-num.fr/concept/c25660 (credenziali: [...])
-- Accesso al server: ssh xxx@personale.dir.unibo.it@fiscus.unibo.it (credenziali unibo, previa autorizzazione e uso di VPN)
+- Accesso al server (fiscus.unibo.it): ssh PERSONALE^xxx@fiscus.unibo.it (credenziali unibo, previa autorizzazione, private+public key e uso di VPN)
+- Accesso al server (fiscuslive.unibo.it): ssh xxx@personale.dir.unibo.it@fiscuslive.unibo.it (credenziali unibo, previa autorizzazione, private+public key e uso di VPN)
+
 - FortiClient VPN: Unibo VPN, -, vpn.unibo.it, 443, None, Save login; credenziali unibo
 
 - NB: dopo che si modificano file .xsl occorre spegnere e riavviare EFES sul server
@@ -35,7 +38,7 @@ Paste an authentication token: (inserire un token associato ad un account di Git
 
 3) È stato modificato `sudo visudo` aggiungendo $USER ALL=(ALL) NOPASSWD: ALL alla fine per poter eseguire `sudo` senza password
 
-4) È stato configurato crontab per sincronizzare le modifiche da GitHub in automatico ogni 5 minuti con `sudo git pull` e per fare 'harvest all' e 'index all' su EFES una volta al giorno all'1.01 di notte (con `sudo crontab -e`):
+4) È stato configurato crontab per sincronizzare le modifiche da GitHub in automatico ogni 5 minuti con `sudo git pull` e per fare 'harvest all' e 'index all' su EFES una volta al giorno all'1.01 di notte (con `sudo crontab -e`) [NB: solo su fiscuslive.unibo.it; fiscus.unibo.it viene aggiornato manualmente]:
 */5 * * * * cd /var/www/html/Fiscus && sudo git pull (ogni 5’)
-1 1 * * * curl https://admin:PASSWORD@fiscus.unibo.it/admin/rdf/harvest/all.html (all’1:01)
-9 1 * * * curl https://admin:PASSWORD@fiscus.unibo.it/admin/solr/index/all.html (all’1:09)
+1 1 * * * curl https://admin:PASSWORD@fiscuslive.unibo.it/admin/rdf/harvest/all.html (all’1:01)
+9 1 * * * curl https://admin:PASSWORD@fiscuslive.unibo.it/admin/solr/index/all.html (all’1:09)
