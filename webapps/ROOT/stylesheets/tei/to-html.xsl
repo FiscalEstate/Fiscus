@@ -18,7 +18,11 @@
     <p><xsl:apply-templates/></p>
   </xsl:template>
   
-  <xsl:template match="tei:addSpan[@type='expand-collapse-button']">
+  <xsl:template match="tei:listBibl[@type]">
+    <div class="{@type}"><xsl:apply-templates/></div>
+  </xsl:template>
+  
+  <xsl:template match="tei:anchor[@type='expand-collapse-button']">
     <button class="expander expand-about" onclick="$(this).prev().toggleClass('hidden'); $(this).text($(this).prev().hasClass('hidden') ? 'Expand' : 'Collapse');">Expand</button>
   </xsl:template>
   
