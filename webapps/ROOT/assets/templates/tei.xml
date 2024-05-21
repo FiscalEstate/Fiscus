@@ -28,6 +28,31 @@
           <xsl:apply-templates select="/aggregation/tei:TEI/tei:text/tei:body" />
         </div>
       </div>
+      <button type="button" onclick="topFunction()" id="scroll" title="Go to top">⬆  </button>
+      <script type="text/javascript">
+        mybutton = document.getElementById("scroll");
+        window.onscroll = function() {scrollFunction()};
+        function scrollFunction() {
+        if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) { mybutton.style.display = "block"; }
+        else { mybutton.style.display = "none"; }
+        }
+        function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+        }
+      </script><button type="button" onclick="topFunction()" id="scroll" title="Go to top">⬆  </button>
+      <script type="text/javascript">
+        mybutton = document.getElementById("scroll");
+        window.onscroll = function() {scrollFunction()};
+        function scrollFunction() {
+        if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) { mybutton.style.display = "block"; }
+        else { mybutton.style.display = "none"; }
+        }
+        function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+        }
+      </script>
     </kiln:block>
   </kiln:child>
 
