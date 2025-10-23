@@ -33,7 +33,7 @@
                             <rs type="text_type" ref="#">--Testamentum</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Copy</rs>
-                            <rs type="fiscal_property">No</rs>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -73,7 +73,7 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2025-09-26" who="other">creation of record</change>
+                <change when="2025-09-26" who="ilonghin">creation of record</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -81,89 +81,121 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>In nomine Domini nostri Iesu Christi. Imperante Domino nostro Berengario
-                        magno imperatore anno de mense augusti, inditione decima feliciter. Cum
-                        evangelica vox unumquemque christianum... commoneat, et de ęterna solicita
-                        meditatione cogitare compellat, maxime tamen episcopos et.…. de perpetua
-                        firmitate, quę est vita ęterna considerare. Quare ego Iohannes episcopus
-                        sanctę ticinensis Ecclesię de die iuditii cogitans, et ne me sors ultima
-                        imparatum reperiat, omnes res meas mobiles et immobiles quas Domino
-                        largiente acquisivi, per iudicatum sicut inferius dessignavero statuere et
-                        ordinare curavi. Primo omnium igitur ego pręscriptus Iohannes episcopus volo
-                        atque statuo et ordino in nomine Patris et Filii et Spiritus Sancti ut casa
-                        habitationis meę solariata infra castrum veronense non longe a fontana
-                        posita, simul cum oratorio beati Syri confessoris Christi, quod ego indignus
-                        et maximus peccator Deo adiuvante in proprio me fundavi et domini Notkerii
-                        reverendissimi sancte veronensis Ecclesię episcopi auctoritate cum clero tuę
-                        Ecclesię de. dicavi, sit presentialiter sanctum et venerabile Xenodochium in
-                        elemosina et sustentatione pauperum Deoque famulantium sub potestate et
-                        ordinatione mea qualiter hic inferius dessi. gnavero. Loco igitur dotis
-                        offero eidem oratorio inter arcovo-lutos et arcovalos numero septem nec non
-                        et hortum in eodem castro positum, quod dudum a quodam Ildeberto libero
-                        homine comparavi seu et unum campum arabilem positum inuxta castrum Montis
-                        Aurei loco ubi dicitur Cararia inter duas calles quę olim a quodam Rodemario
-                        vasso Gumeritij sculdasionis per cartulas venditionis acquisivi, seu omnem
-                        decimam illam frugum quas Dominus annuę dederit, et in mea mansione
-                        in-traverit de curticella mea suisque pertinentiis posita in valle Fontensis
-                        loco ubi dicitur Mareliano, quem ego ante hos dies per cartulam venditionis
-                        ab Adelone subdiacono sanctę ticinensis Ecclesię filio q. Amelberti
+                    <ab>In nomine Domini nostri Iesu Christi. Imperante Domino nostro <persName
+                            ref="#people/3310">Berengario</persName> magno <rs>imperatore</rs> anno
+                        de mense augusti, inditione decima feliciter. Cum evangelica vox unumquemque
+                        christianum... commoneat, et de ęterna solicita meditatione cogitare
+                        compellat, maxime tamen <rs key="#Bishops">episcopos</rs> et.…. de perpetua
+                        firmitate, quę est vita ęterna considerare. Quare ego <persName
+                            ref="#people/369" key="#Bishops">Iohannes</persName> episcopus <orgName
+                            ref="#juridical_persons/220">sanctę ticinensis Ecclesię</orgName> de die
+                        iuditii cogitans, et ne me sors ultima imparatum reperiat, omnes res meas
+                        mobiles et immobiles quas Domino largiente acquisivi, per iudicatum sicut
+                        inferius dessignavero statuere et ordinare curavi. Primo omnium igitur ego
+                        pręscriptus Iohannes episcopus volo atque statuo et ordino in nomine Patris
+                        et Filii et Spiritus Sancti ut <rs key="#Houses">casa</rs> habitationis meę
+                        solariata infra <geogName ref="#estates/522"><rs key="#Castle">castrum</rs>
+                            <placeName ref="#places/59">veronense</placeName></geogName> non longe a
+                            <rs key="#Fountains">fontana</rs> posita, simul cum<orgName
+                            ref="#juridical_persons/3927"> oratorio beati Syri</orgName> confessoris
+                        Christi, quod ego indignus et maximus peccator Deo adiuvante in proprio me
+                        fundavi et domini <persName ref="#people/1200" key="#Bishops"
+                            >Notkerii</persName> reverendissimi <orgName
+                            ref="#juridical_persons/503">sancte veronensis Ecclesię
+                        </orgName>episcopi auctoritate cum clero tuę Ecclesię dedicavi, sit
+                        presentialiter sanctum et venerabile <rs key="#Hospitals">Xenodochium</rs>
+                        in elemosina et sustentatione pauperum Deoque famulantium sub potestate et
+                        ordinatione mea qualiter hic inferius dessignavero. Loco igitur dotis offero
+                        eidem oratorio inter arcovolutos et arcovalos numero septem nec non et
+                        hortum in eodem castro positum, quod dudum a quodam <persName><name
+                                ref="Ildebertus">Ildeberto</name></persName>
+                        <rs key="#Freeborn">libero</rs> homine comparavi seu et unum <rs
+                            key="#Cereals">campum arabilem</rs> positum inuxta castrum
+                            <placeName>Montis Aurei</placeName> loco ubi dicitur
+                            <placeName>Cararia</placeName> inter duas calles quę olim a quodam
+                            <persName key="#vassusOf"><name ref="Rotemarius"
+                            >Rodemario</name></persName>
+                        <rs key="#vassusOf">vasso</rs>
+                        <persName key="#Sculdahis"><name ref="Gummericus"
+                            >Gumeritij</name></persName>
+                        <rs key="#Sculdahis">sculdasionis</rs> per cartulas venditionis acquisivi,
+                        seu omnem <rs key="#Decima">decimam</rs> illam frugum quas Dominus annuę
+                        dederit, et in mea mansione intraverit de curticella mea suisque
+                        pertinentiis posita in <placeName>valle Fontensis </placeName>loco ubi
+                        dicitur <placeName>Mareliano</placeName>, quem ego ante hos dies per <rs
+                            key="#Venditio">cartulam venditionis</rs> ab <persName key="#Subdeacons"
+                                ><name ref="Adelo">Adelone</name></persName>
+                        <rs key="#Subdeacons">subdiacono</rs> sanctę ticinensis Ecclesię filio q.
+                                <persName><name ref="Amalbertus">Amelberti</name></persName>
                         acquisivi; seu et arcovalos et arcovolutos positos propre ipsum oratorium
                         nostrum quatuor sicut unitim existunt ab ingressu communi usque ad tribunal
-                        ipsius oraculi quatenus hęc omnia pręsbiteri qui pro tempore ibi
-                        militaverint ad usum suę substentationis possideant. Cui etiam xenodochio
-                        meo offero cocquinam meam solariatam et stabulum meum nec non et terrulam
-                        iuxta se positam et inter arcovalos et arcovolutos numero novem quos mihi
-                        meus senior dominus Berengarius imperator per preceptorum paginas con-tulit,
-                        sicut in eisdem pręceptis declaratur, seu et hortos meos qui iuxta mansionem
-                        et prefatum oraculum constat. Trado etiam et mancipo atque offero
+                        ipsius oraculi quatenus hęc omnia <rs key="#Priests">pręsbiteri</rs> qui pro
+                        tempore ibi militaverint ad usum suę substentationis possideant. Cui etiam
+                        xenodochio meo offero cocquinam meam solariatam et stabulum meum nec non et
+                        terrulam iuxta se positam et inter arcovalos et arcovolutos numero novem
+                        quos mihi meus senior dominus Berengarius imperator per preceptorum paginas
+                        contulit, sicut in eisdem pręceptis declaratur, seu et hortos meos qui iuxta
+                        mansionem et prefatum oraculum constat. Trado etiam et mancipo atque offero
                         pręnominatam corticellam meam Mareliano sub integritate in xenodochio meo
-                        cum duobus mas-saritiis exinde pertinentibus positis in Mareliano aliisque
-                        suis omnibus pertinentiis sicut dudum ex successione parentum prę nominatus
-                        Adelo subdiaconus jamdictę ticinensis Ecclesię ean-dem corticellam et sua
-                        pertinentia possedit et ego per cartulam venditionis ab ipso acquisivi simul
-                        cum eo ariale molendini exinde pertinente cum casis videlicet et terris
-                        campis vineis pratis pascuis silvis salectis sanctionibus acquis aquarumque
-                        decursibus molendinis pinsionibus montibus vallibus planitiebus omnibusque
-                        ad se iuste et legaliter pertinentibus. Igitur dones superna pietas me
-                        miserum et peccatorem in hoc seculo esse permiserit omnia in mea resservo
-                        potestate ad providen-dum et ordinandum ac disponendum. Post vero meum
-                        discessum volo atque statuo ut Audibertus et Gauso nepotes mei mihi
-                        fideliter servientes habeant presentialiter sub usufructu corticellam meam
-                        de Mareliano cum sua domo cubili sicut ibi unitę consistit. De frugibus
-                        autem quas ibi Dominus annuatim attulerit decerno et volo ut Giselberga et
-                        Maria bonę feminę habitatrices in prędicto castro medietatem recipiant
-                        singulis annis absque retractatione et occasione nepotum meorum. Duo vero
-                        mansa in Mareliano posita ex integro sicut de ipsa curticella pertinentia,
-                        et post diem hobitus mei habeant usufruc-tuario eadem Giselberga et Maria.
-                        Casam vero solariatam habitationis meę cum curticella et coquina simul sibi
-                        cohe-rentia et duos hortos meos ibidem coherentes cum tribus arcu-voltis
-                        ibidem constructis et tres arcovalos cum superioribus et inferioribus
-                        positos inter duos eggressus communes a mane et sero et ab aquilone via cum
-                        terrula ante se posita sub usu-fructu a presenti die et hora hobitus mei
-                        concedo et dono eidem Giselberghę et Marię. Stabulum vero meum et terram ibi
-                        inhe-rentem, quam per pręceptum acquisivi usufructuario volo et statuo ut
-                        habeant presentialiter post meum discessum prędicti nepotes mei Audibertus
-                        et Gauso. Hęc omnia vicissim volo et statuo ut sibi succedant et si
-                        Giselberga et Maria supervixerint nepotes meos prenominatos omnia in
-                        earundem veniant pote-statem usufructuario. Et si Audibertus et Gauso
-                        nepotes mei in Giselbergam et Mariam supervixerint, sint omnia in eorum
-                        potestate solumodo sub usufructuario. Statuo etiam ut si Iohan-nes pronepos
-                        meus filius videlicet Gausoni nepotis mei has prenominatas personas
-                        supervixerit, ipsum xenodochium cum omnibus ad se pertinentibus, si ad
-                        honorem clericatus Deo annuente pervenerit usufructuario habeat, remota et
-                        contradicta auctoritate donandi vendendi alienandi sed solumodo fruendi
-                        quousque advixerit: exceptis his quę loco dotis ad pręsbiteros pręfati
-                        oratii presentialiter dedi et obtuli. Volo etiam et constituo ut in singulis
-                        kalendis pascantur a preno-minatis personis pro anima mea et parentum meorum
-                        pauperes tres ad satietatem. Et inde anniversari mei decerno et
-                        perpetualiter statuo ut refficiantur sacerdotes duodecim et dentur illis
-                        duodecim denarii. Et in Assumptione S. Marię semper virginis, quę venit in
-                        medio mense Augusti dentur a jamdictis personis insimul cerei duo habentes
-                        cerę denariatam unam qualis pro tempore fuerit monasterio beatę et
-                        intemeratę vir-ginis Marię quod dicitur Organum. Nam ipsum xenodochium et
+                        cum duobus <rs key="#Casae/cassinae_massaricie">massaritiis </rs>exinde
+                        pertinentibus positis in Mareliano aliisque suis omnibus pertinentiis sicut
+                        dudum ex successione parentum prę nominatus Adelo subdiaconus jamdictę
+                        ticinensis Ecclesię eandem corticellam et sua pertinentia possedit et ego
+                        per cartulam venditionis ab ipso acquisivi simul cum eo ariale <rs
+                            key="#Mills">molendini</rs> exinde pertinente cum casis videlicet et
+                        terris campis <rs key="#Wine">vineis</rs>
+                        <rs key="#Hay/fodder">pratis pascuis</rs>
+                        <rs key="#Forests">silvis</rs> salectis sanctionibus <rs key="#Rivers"
+                            >acquis aquarumque decursibus</rs> molendinis <rs key="#Fisheries"
+                            >pinsionibus</rs>
+                        <rs key="#Mountains">montibus</rs> vallibus planitiebus omnibusque ad se
+                        iuste et legaliter pertinentibus. Igitur dones superna pietas me miserum et
+                        peccatorem in hoc seculo esse permiserit omnia in mea resservo potestate ad
+                        providendum et ordinandum ac disponendum. Post vero meum discessum volo
+                        atque statuo ut <persName key="#nephew/nieceOf"><name ref="Audebertus"
+                                >Audibertus</name></persName> et <persName key="#nephew/nieceOf"
+                                ><name ref="Gausus">Gauso</name></persName>
+                        <rs key="#nephew/nieceOf">nepotes</rs> mei mihi fideliter servientes habeant
+                        presentialiter sub usufructu corticellam meam de Mareliano cum sua domo
+                        cubili sicut ibi unitę consistit. De <rs key="#Rent_in_kind">frugibus</rs>
+                        autem quas ibi Dominus annuatim attulerit decerno et volo ut <persName
+                            ref="#people/4826">Giselberga</persName> et <persName ref="#people/4827"
+                            >Maria</persName> bonę feminę habitatrices in prędicto castro medietatem
+                        recipiant singulis annis absque retractatione et occasione nepotum meorum.
+                        Duo vero <rs key="#Mansi">mansa</rs> in Mareliano posita ex integro sicut de
+                        ipsa curticella pertinentia, et post diem hobitus mei habeant usufructuario
+                        eadem Giselberga et Maria. Casam vero solariatam habitationis meę cum
+                        curticella et coquina simul sibi coherentia et duos hortos meos ibidem
+                        coherentes cum tribus arcuvoltis ibidem constructis et tres arcovalos cum
+                        superioribus et inferioribus positos inter duos eggressus communes a mane et
+                        sero et ab aquilone via cum terrula ante se posita sub usufructu a presenti
+                        die et hora hobitus mei concedo et dono eidem Giselberghę et Marię. Stabulum
+                        vero meum et terram ibi inherentem, quam per pręceptum acquisivi
+                        usufructuario volo et statuo ut habeant presentialiter post meum discessum
+                        prędicti nepotes mei Audibertus et Gauso. Hęc omnia vicissim volo et statuo
+                        ut sibi succedant et si Giselberga et Maria supervixerint nepotes meos
+                        prenominatos omnia in earundem veniant potestatem usufructuario. Et si
+                        Audibertus et Gauso nepotes mei in Giselbergam et Mariam supervixerint, sint
+                        omnia in eorum potestate solumodo sub usufructuario. Statuo etiam ut si
+                            <persName key="#nephew/nieceOf"><name ref="Iohannes"
+                            >Iohannes</name></persName> pronepos meus filius videlicet Gausoni
+                        nepotis mei has prenominatas personas supervixerit, ipsum xenodochium cum
+                        omnibus ad se pertinentibus, si ad honorem clericatus Deo annuente
+                        pervenerit usufructuario habeat, remota et contradicta auctoritate donandi
+                        vendendi alienandi sed solumodo fruendi quousque advixerit: exceptis his quę
+                        loco dotis ad pręsbiteros pręfati oratii presentialiter dedi et obtuli. Volo
+                        etiam et constituo ut in singulis kalendis pascantur a prenominatis personis
+                        pro anima mea et parentum meorum pauperes tres ad satietatem. Et inde
+                        anniversari mei decerno et perpetualiter statuo ut refficiantur sacerdotes
+                        duodecim et dentur illis duodecim denarii. Et in Assumptione S. Marię semper
+                        virginis, quę venit in medio mense Augusti dentur a jamdictis personis
+                        insimul cerei duo habentes cerę denariatam unam qualis pro tempore fuerit
+                            <rs key="#Monasteries">monasterio</rs>
+                        <orgName ref="#juridical_persons/137" key="#Monasteries">beatę et intemeratę
+                            virginis Marię quod dicitur Organum</orgName>. Nam ipsum xenodochium et
                         ipsum oraculum et omnes res proprietatis meę quas hodie habere videor infra
                         et extra civitatem Veronę eidem monasterio eidemque sancto loco post meum
-                        obitum et prędictarum perso-narum decessum iure proprietario trado e mancipo
+                        obitum et prędictarum personarum decessum iure proprietario trado e mancipo
                         et per hoc meum testamentum ad habendum et tenendum et monachica censura et
                         regula faciendum usque in perpetuum confirmo et in potestate et providentia
                         et solicitudine ac cura abbatis qui pro tempore fuerit secundum Deum et
@@ -177,46 +209,59 @@
                         prędictum xenodochio inventa fuerint et mihi legibus pertinuerint, vascula
                         silicet lignea vel lapidea erea, ferrea, stannea, argentea, pannos lineos et
                         laneos, cabal-los, boves, asinos, pecora, capras, porcos et quodcumque de
-                        meo habere inventa fuerint volo et ordino ut duę partes ven-dantur et dentur
+                        meo habere inventa fuerint volo et ordino ut duę partes vendantur et dentur
                         pro anima mea a iamdictis personis pariter et communiter; tertia vero pars
-                        remaneat in ipso xenodochio ad eorum utilitatem. Si vero patriarca aut abbas
-                        qui in tempore fuerin ipsum xenodochium a me peccatore ędificatum et
-                        ordi-natum in benefitium alicui dederit aut in commutatione contu-lerit, aut
-                        emphitensim idest precariam de eodem xenodochio fecerint, vel dotes ipsius
-                        oraculi quas presentiali in mea vita pręsbiteris contuli obtulerint aut
-                        aliter nisi sicut statui et volui atque iudicavi peregerint presentialiter
-                        veniat ipsum xenodochium cum omnibus ad se pertinentibus in potestatem et
-                        regi-men in schola sacerdotum sanctę veronensis Ecclesię et sit ibi
-                        subiectum ea videlicet ratione sicut superius statui et ordinavi. Igitur si
-                        alicuius offitii vel dignitatis magna parvaque persona omnis aliquo in
-                        tempore surrexerit, et hanc meam institutio-nem vel ordinationem infringere
-                        aut in aliquo violare tenta-verit cum perfecta trinitate et inseparabili
-                        unitate coram eius omnipotentia in die iuditii mecum cogatur habere rationem
-                        et cum Iuda traditore in ęterna damnatione habeat portionem. Ego enim
-                        omnipotenti Domino me et omnia mea committo cui cuncta subiecta sunt nuda et
-                        aperta. Et hanc paginam judicati seu et ordinationis omnique tempore firma
-                        stabilis inconvulsa et inrevocabilis permaneat cum stipulatione subnixa.
-                        Acta in castro veronensi feliciter. Ego Iohannes humilis episcopus in huius
-                        institutionis testa-mento a me facto subscripsi. Signum + manibus Sigiverto
-                        de castro veronensi filius q. Petroni et Iohannes de ipso loco filius q.
-                        Garimberti et Roperto filio q. Grauseverto qui legge romana vivere visi sunt
-                        testes. Signum + manibus Sigivertus f. q. Zenonis de prędicto castro, et
-                        Leoni de Argasta testes. Signum + manibus Argiverto f. q. Gundilberto de
-                        foris porta S. Stepham et Iohannes f. q. Fradeverto testes. Ego Grauso
-                        clericus notarius rogatus qui hanc paginam scripsi atque post traditam
-                        complevi. L. S. D. N. Ego Eddo notarius authenticum hunc exemplavi vidi
-                        legi, ut in eo continebatur sicut instrumento litteras per litteras plus
-                        minusve, et propria manu subscripsi. Concordat cum alio simili in forma
+                        remaneat in ipso xenodochio ad eorum utilitatem. Si vero <rs
+                            key="#Patriarchs">patriarca</rs> aut abbas qui in tempore fuerin ipsum
+                        xenodochium a me peccatore ędificatum et ordinatum in benefitium alicui
+                        dederit aut in commutatione contulerit, aut <rs
+                            key="#Libellus/precaria/emphyteusis">emphitensim idest precariam</rs> de
+                        eodem xenodochio fecerint, vel dotes ipsius oraculi quas presentiali in mea
+                        vita pręsbiteris contuli obtulerint aut aliter nisi sicut statui et volui
+                        atque iudicavi peregerint presentialiter veniat ipsum xenodochium cum
+                        omnibus ad se pertinentibus in potestatem et regimen in <orgName
+                            ref="#juridical_persons/514"><rs key="#Canons">schola sacerdotum</rs>
+                            sanctę veronensis Ecclesię</orgName> et sit ibi subiectum ea videlicet
+                        ratione sicut superius statui et ordinavi. Igitur si alicuius offitii vel
+                        dignitatis magna parvaque persona omnis aliquo in tempore surrexerit, et
+                        hanc meam institutionem vel ordinationem infringere aut in aliquo violare
+                        tentaverit cum perfecta trinitate et inseparabili unitate coram eius
+                        omnipotentia in die iuditii mecum cogatur habere rationem et cum Iuda
+                        traditore in ęterna damnatione habeat portionem. Ego enim omnipotenti Domino
+                        me et omnia mea committo cui cuncta subiecta sunt nuda et aperta. Et hanc
+                        paginam judicati seu et ordinationis omnique tempore firma stabilis
+                        inconvulsa et inrevocabilis permaneat cum stipulatione subnixa. Acta in
+                        castro veronensi feliciter. Ego Iohannes humilis episcopus in huius
+                        institutionis testamento a me facto subscripsi. Signum + manibus <persName
+                            key="#Witness"><name ref="Sigebertus">Sigiverto</name></persName> de
+                        castro veronensi filius q. <persName><name ref="Petrus">Petroni</name></persName> et <persName
+                            key="#Witness"><name ref="Iohannes">Iohannes</name></persName> de ipso loco filius q.
+                        <persName><name ref="Garibertus">Garimberti</name></persName> et <persName
+                            key="#Witness"><name ref="Robertus">Roperto</name></persName> filio q. <persName><name ref="Grasepertus">Grauseverto</name></persName> qui legge <rs key="#Roman"
+                            >romana</rs> vivere visi sunt <rs key="#Witness">testes</rs>. Signum +
+                        manibus <persName
+                            key="#Witness"><name ref="Sigebertus">Sigivertus</name></persName> f. q. <persName><name ref="Zenus">Zenonis</name></persName> de prędicto castro, et <persName
+                                key="#Witness"><name ref="Leo de Argasta">Leoni de Argasta</name></persName>
+                        testes. Signum + manibus <persName
+                            key="#Witness"><name ref="Argivertus">Argiverto</name></persName> f. q. <persName><name ref="Gumbertus">Gundilberto</name></persName> de foris porta S.
+                        Stepham et <persName
+                            key="#Witness"><name ref="Iohannes">Iohannes</name></persName> f. q. <persName><name ref="Fridibertus">Fradeverto</name></persName> testes. Ego <persName
+                                key="#Other_clerics #Notary"><name ref="Grausus">Grauso</name></persName> <rs
+                            key="#Other_clerics">clericus</rs>
+                        <rs key="#Notary">notarius</rs> rogatus qui hanc paginam scripsi atque post
+                        traditam complevi. L. S. D. N. Ego Eddo notarius authenticum hunc exemplavi
+                        vidi legi, ut in eo continebatur sicut instrumento litteras per litteras
+                        plus minusve, et propria manu subscripsi. Concordat cum alio simili in forma
                         authentica in rotulo pergameno existente in Archivio ven. monasterii S.te
                         Marię in Organis in calto primo mazzo tertio ad n.m 7 sub signo et nomine
                         suprascripti Addonis notarii testor in fidem. (S. T.) Go Jo. Ant. Norinelli
-                        not. coll. Ve-ronę hac die 31 mensis augusti 1776 indictione nona. Nos
-                        Daniel Delphino Primus pro sereniss. ducali dominio Venetiarum Veronę
-                        prefectus ac vice prętor universis et. fidem facimus et attestamur
-                        suprascriptum dominum Jo. Antonium Norinelli esse revera notarium publicum
-                        solem qualem supra se subscripsit et signauit fideque dignum hic et ubique.
-                        In q. f. et. Ex Cancellaria pretoria civili Verone hac die 31 augusti 1776.
-                        Bartholomeus Rosa Co.</ab>
+                        not. coll. Veronę hac die 31 mensis augusti 1776 indictione nona. Nos Daniel
+                        Delphino Primus pro sereniss. ducali dominio Venetiarum Veronę prefectus ac
+                        vice prętor universis et. fidem facimus et attestamur suprascriptum dominum
+                        Jo. Antonium Norinelli esse revera notarium publicum solem qualem supra se
+                        subscripsit et signauit fideque dignum hic et ubique. In q. f. et. Ex
+                        Cancellaria pretoria civili Verone hac die 31 augusti 1776. Bartholomeus
+                        Rosa Co.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">

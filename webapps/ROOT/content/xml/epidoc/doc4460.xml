@@ -31,7 +31,7 @@
                         <summary>
                             <rs type="text_type" ref="#">--Offersio/donatio</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
-                            <rs type="document_tradition" ref="#">Copy</rs>
+                            <rs type="document_tradition" ref="#">Original</rs>
                             <rs type="fiscal_property">No</rs>
                         </summary>
                         <msItem xml:id="msItem1">
@@ -40,8 +40,8 @@
                     </msContents>
                     <history>
                         <origin>
-                            <origDate notBefore="0999-01-01" notAfter="0999-01-31">
-                                <note type="displayed_date">999 January</note>
+                            <origDate notBefore="1000-04-01" notAfter="1000-04-30">
+                                <note type="displayed_date">1000 April</note>
                                 <note type="dating_elements"/>
                                 <note type="topical_date">Genova</note>
                                 <note type="redaction_date"/>
@@ -72,7 +72,7 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2025-09-22" who="ilonghin">creation of record</change>
+                <change when="2025-10-22" who="ilonghin">creation of record</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -80,52 +80,89 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>(S.T.) In nomine domini Dei et salvatoris nostri Iesu Christi. Inperante
-                        domno nostro tercio Otto in Italia anno tercio, mense genuarius, indicione
-                        duodecima. Tibi Andreas, abbas monesterio Sancti Stefani proto Christi
-                        martiris, sito foris et prope anc urbem Ianuense, ego Lituardus, filius quon
-                        dam Fulcerdi, et Alexander, pater et filio, qui professi sumus ex nacione
-                        nostra lege vivere Romana, ofertor et donator tuus, p(resentes)
-                        p(resentibus) diximus: quisquis in sanctis ac venerabilibus locis ex suis
-                        aliquit contulerit rebus iusta Auctoris vocem in oc &lt;sec>ulo centuplum
-                        accipiat, insuper, quod melius est, vitam posidebit eternam. Ideoque nos iam
-                        dictus pater et filio donamus et oferimus tibi qui supra Andreas abbas et
-                        ceteris omnibus monahis, qui nunc in eodem monasterio ordinati sunt vel in
-                        futuro ordinati esse debent, donamus et oferimus per an cartulam ofercionis
-                        in usu et suntum vel subsidium vestrorum abendum confirmamus, pro anime
-                        nostre mercede, ohc est vinea et omnibus rebus nostris proprietariis, quibus
-                        sunt poxitis in loco et fundo Caliniano vel in eius territario, omnia plenum
-                        et vacuum ex integrum quantum fuerunt iuris quondam Bette, filia quondam
-                        Leoni, qui fuit ussor mea, antepoxito vinea et omnibus rebus illis in
-                        predicto loco Caliniano, que hego qui supra Lituardus, simul cum
-                        suprascripta Betta, qui fuit ussor mea, per cartula datam abemus at
-                        Iohannes, filius quondam item Ioani, nam aliis rebus nostris in prenominato
-                        loco per anc cartulam offersionis donamus et &lt;o>ferimus tibi qui supra
-                        Andrea abbas tuisque subcepsoribus proprietario iuri. Que autem
-                        suprascriptis rebus supe rius nominatis, una cum accepsione et ingreso suo
-                        seu superioribus, inferio ribus suis in integrum ab ac die tibi qui supra
-                        Andreas abbas et ceteris mo nahis qui nunc in prefato monasterio ordinati
-                        sunt vel deinces ordinati esse debent et per anc cartulam ofercionis, ut
-                        dissi, in usu et sumptum vel sub sidium vestrorum proprietario nomine
-                        abendum confirmamus per anime nostre mercede. Et si forsitan nos qui supra
-                        pater et filio vel nostris eredi bus de suprascripta vinea et omnibus rebus
-                        agere aut causare quexierimus vel ab omni omine defensare non potuerimus,
-                        tunc in dublum iam dictis rebus ut supra legitur vobis restituamus sicut pro
-                        tempore fuerit meliorata aut valuerit sub estimacione in consimile loco. Et
-                        nec nobis liceat ullo tempo re nolle cot volumus, sed quod a nobis semel
-                        factum vel conscritum est sub iusiurandum inviolabiliter conservare
-                        promitimus cum stipulacione subnixa. Actum in suprascripto monesterio,
-                        feli[citer]. Signum + manibus Liutuardi, qui anc cartulam ofercionis fieri
-                        rogavi et ei relecta est et a suprascripto filio suo consensit. Alexander
-                        cartula ofersionis a me facta supsissi. Signa ... manibus Leo et Tomas lege
-                        viventes g testes. (S.) Daniel rogatus subscripsi. Alexander rogatus
-                        subscripsi. (S.T.) Teatefredus iudex rogatus subscripsi. (S.T.) Ego
-                        Fulcoinus notarius, scriptor ui&lt;u>s cartula ofercionis, post tradita
-                        complevi et dedi.</ab>
+                    <ab>(S.T.) In nomine domini Dei et salvatori nostri Iesu Christi. Tercius
+                            <persName ref="#people/7" key="#Emperor/king">Otto</persName>, gratia
+                        Dei <rs key="#Emperor/king">imperator</rs> augustus, anno imperii eius Deo
+                        propicio hic in Italia quarto, mense aprelis, indicione tercia decima. Vobis
+                            <persName key="#Priests"><name ref="Ambrosius/Risus"
+                            >Ambrosius</name></persName> [qui et Ri]zo seu <persName key="#Priests"
+                                ><name ref="Petrus">Petrus</name></persName>
+                        <rs key="#Priests">presbiteri</rs> et ceteri presbiteri, qui nunc in <rs
+                            key="#Churches">eclesia</rs><orgName key="#Churches"
+                            ref="#juridical_persons/3933"> Sancti Siri</orgName> ordinati sunt [vel
+                        in] futuro ordinati [esse debent, nos <persName key="#Roman #marriage"
+                            ref="#people/4841">Godo</persName>, filius quondam <persName><name
+                                ref="Lambertus">Lamberti</name></persName>], et <persName
+                            ref="#people/4842" key="#Roman #marriage">Ildeza</persName>, <rs
+                            key="#marriage">iugalibus</rs>, et item <persName><name ref="Lambertus"
+                                >Lambertus</name></persName>, <rs key="#childOf">filius</rs> eorum
+                        iugalibus, [ipso]namque Godonem eorum coniugi et filio suo consenciente et
+                        subter confirmante, qui professi sumus ex nacione nostra lege vivere <rs
+                            key="#Roman">Romana</rs>, donatores et ofertores vestri, p(resentes)
+                        p(resentibus) diximus: quisquis in sanctis hac venerabilibus locis vel at
+                        sanctis Dei sacerdotibus ex suis aliquit contulerit rebus, iusta Auctoris
+                        vocem in hoc seculo centuplum accipiet et quod melius est in futuro vitam
+                        possidebit eternam. Ideoque nos quibus supra genitores et filio vobis qui
+                        supra presbiteri vestrisque sucessoribus, post meum qui supra Godoni
+                        decessum, donamus et oferimus in sumtu et subsidium vestrorum, pro animabus
+                        nostras vel parentum nostrorum mercedem, hoc est <rs
+                            key="#Casae/cassinae_massaricie">massaricio</rs> uno cum omnibus rebus
+                        at se pertinentibus iuris nostro, qui positus est in loco et [<rs
+                            key="#Fundi">fun]do</rs>
+                        <geogName key="#Fundi" ref="#estates/4139">Belenia</geogName>, sicut actenus
+                        rectum et laboratum fuit [per <persName><name ref="Thomas"
+                            >Thoma</name></persName>] <rs key="#Agricultural_workers">massario</rs>,
+                        preter anteponimus <rs key="#Landed_possessions">sorticellam</rs> unam quam
+                        aquisivimus de <persName><name ref="Ademarius">Ademario</name></persName>,
+                        que in nostra reservamus potestate, nam aliis rebus omnibus at suprascripto
+                        massaricio pertinentibus, tam <rs key="#Houses">casis</rs>, <rs key="#Wine"
+                            >vineis</rs>, <rs key="#Chestnuts">castanetis</rs>, <rs
+                            key="#Fruits/vegetables">pometis</rs>, <rs key="#Forests">silvis</rs>,
+                            <rs key="#Cereals">campis</rs> et <rs key="#Hay/fodder">pascuis</rs>,
+                        una cum <rs key="#Canals">acessione</rs> et ingresso vel exito suo, seu cum
+                        superioribus et inferioribus suis, i[n] integrum, ab hac die vobis qui supra
+                        presbiteri vestrisque sucessoribus donamus et [per] hanc cartulam ofersionis
+                        abendam confirmamus, faciendum exinde, [sicut] dixi, post meum qui supra
+                        Godoni decessum, vos et sucessoribus vestris in sumt[um] et subsidium
+                        vestrorum quiquit volueritis, sine omni nostra et heredum nostrorum
+                        contradicione, pro animabus nostras mercedem, ita ut non abeatis potestatem
+                        ipsa res at quempiam hominem alienare. Et si <rs key="#Bishops"
+                            >episcopus</rs> uius loci res ipsa vobis tollere quesierit, tunc ipsa
+                        res in [nostra] vel propincorum nostrorum revertatur potestate, quia sic in
+                        omnibus nostra decrevit ofersio. Quidem et spondimus [atque promitimus] nos
+                        qui supra genitores et filio, una cum nostros heredes, vobis qui supra
+                        [Ambro]sius et Petrus presbiteri vestrisque sucessoribus suprascripto
+                        massaricio et re[bus], qualiter superius legitur, in integrum ab omni homine
+                        defensa[re], qui si defendere non potuerimus aut si vobis exinde aliquit
+                        percovis ingenium subtraere quesierimus, exepto usufructario quod ego Godo
+                        diebus vite mee abere debeo, tunc<rs key="#Penalty"> in dublum</rs> iam
+                        dictis rebus vobis restituamus, sicut pro tempore fuerint melioratis aut
+                        valuerint sub estimacione in consimili loco. Et nec nobis licead ullo
+                        tempore nolle quod volumus, set quod a nobis semel factum vel conscribtum
+                        est sub iusiurandum inviolabiliter, ut supra legitur, conservare promitimus
+                        cum stipulacione subnixa. Hanc enim cartula ofersionis paginam <persName
+                            key="#Notary #Judge"><name ref="Petrus">Petri</name></persName>, <rs
+                            key="#Notary">notario</rs> et <rs key="#Judge">iudici</rs> sacri
+                        palacii, tradidimus et scribere rogavimus, in qua subter confirmavimus
+                        [testiumque] obtulimus roborandum. Actum in <rs key="#Cities">civitate</rs>
+                        <placeName ref="#places/626" key="#Cities">Ianua</placeName>, feliciter.
+                        Signum manus eidem Ildeze, qui hanc cartula ofersionis fieri rogavit et ei
+                        relecta est. Godo in ac cartula ofersionis a me facta subscripsi et consensi
+                        ut supra. Lambertus in ac cartula ofersionis a me facta subscripsi. Signum
+                        manibus <persName
+                            key="#Roman #Witness"><name ref="Bruningus">Broningi</name></persName> et <persName
+                                key="#Roman #Witness"><name ref="Iohannes">Iohanni</name></persName> et item <persName
+                                    key="#Roman #Witness"><name ref="Iohannes">Iohanni</name></persName> seu <persName
+                                        key="#Roman #Witness"><name ref="Andreas">Andrei</name></persName>, omnes lege viventes
+                            <rs key="#Roman">Romana</rs>, <rs key="#Witness">testes</rs>. (S.T.) Ego
+                        qui supra Petrus, notarius et iudex sacri palacii, <rs key="#Writer"
+                            >scribtor</rs> uius cartule ofersionis, postradita complevi et
+                        dedi.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p>B</p>
+                <p>Belgrano, n. 33, pp. 54-6; Calleri 1997, n. 9, pp. 15-7 (source of the text
+                    reproduced here).</p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p/>
