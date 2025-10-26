@@ -30,9 +30,9 @@
                     <msContents>
                         <summary>
                             <rs type="text_type" ref="#">--Libellus/precaria/emphyteusis</rs>
-                            <rs type="record_source" ref="#">Edition</rs>
+                            <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Copy</rs>
-                            <rs type="fiscal_property">No</rs>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -80,56 +80,83 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>Ϯ In nomine Domini, regnante domnus Berengarius gratia Dei imperator hic in
-                        Italia anno secundo, die sesto decimo de mense martio, per indictione
-                        quinta. Placuit adque convenit inter domnus Rodulfo comes et Vuiburga
-                        iugalibus ex genus francorum nec non set eciam ex alia parte inter Martino
-                        filius quondam Vitali et Urso filius quondam Rimperti liberis ominibus, ut
-                        in Dei nomine firmare et firmasti vos suprascripti iugalibus nos
-                        suprascripti libellarii vel nostris heredes in peciole tres de terra
-                        aratoria, prima peciola de terra cum casa super se abente que reiace infra
-                        castellum nostrum qui vocatur Sablone, est per mensura, firmaste me Martino
-                        vel tuis heredes esinde in tabula una et quarta parte de tabula et me Urso
-                        vel meis heredes esinde in tres partes de tabula, sunt fini: da mane parte
-                        caput in Sala vestra domnica tenente, de meridie Boso abente, de sera Vido
-                        et de supto casa domnica teniente, alie peciole foris castello, ubi ego
-                        ...... paliatecta edificata abemus, est per mensura tabula una et duo partis
-                        de tabula, tercia peciola, ubi ego Urso tria paliatecta edificata est tabula
-                        una et duo partis de tabula ad perticas leitima de pedis duodecim mensurata,
-                        in tale vero racione dedisti vos ipsi iugalibus nos ipsi libellarii vel ad
-                        nostris heredes ut nos ispi libellarii vel nostris heredes aut nostro
-                        omnibus qualiter nobis melius providerimus in ipsa casa, qui in ipsum
-                        castellum edificata est, abere et continuere debeamus et ipsam teniman de
-                        ipsum castellum restaurare et continuere et fossata scavare et spaciade et
-                        vuidata facere debeatis alia esinde una cum introito et esito suo ad ipsa
-                        casa ambulandum et revertendum et ad omnes vestra utilitatem faciendum
-                        tantum quantum in vestra ditione convenit ad faciendum et una cum comuni et
-                        licito et inde in nobilis pascula in circuitu abere debemus sine omnia
-                        calomnia aut aliqua contradiccione da odie usque ad annos viginti et nove et
-                        exinde de suprascripte peciole de terra ct omnia quitquit intus abuerimus
-                        dare et consinare debeamus, idest per uno quoque anno omnis mense augustus
-                        nomine in argento bono et spendevile denarii sex tantum vobis ipsis
-                        iugalibus vel ad vestris heredibus aut vestris misso et nullo aliquo censum
-                        nec tributum non super imponamus, nisi qual iter superius legitur, quia sic
-                        inter nobis conveni et anni expleti si esire volueritis esiatis exinde foras
-                        cum omnis movilias vestra et nostra causa quiquit vites abuerimus nisi casis
-                        tenetores, qui ibidem edificatum abemus, quia sic inter nobis conveni. Pena
-                        quidem inter nos posuimus et sic oblicavimus, ut si quas pars ad pars partis
-                        menime compleverimus ad dandum vel persolvendum vel si esire aut menare
-                        voluerimus, aut amplius censum vel tributum super imponere voluerimus, aut
-                        nos menime fecerimus ad dandum vel persolvendum et non permanserimus in
-                        omnia qualiter superius legitur, tune componamus pars ad pars parti fidem
-                        servanti unus de nos vel nostris heredibus desuper quem culpa inventa
-                        fuerit, idest pena numero in argento solidi viginti et pos pena soluta os
-                        Iibellum in sua permaneat firmitatem. Actum in curte Sablone. Signo Ϯ Ϯ
-                        manibus Martini et Ursoni qui fieri rogavi. Signo Ϯ Ϯ Ϯ manibus Golfermi et
-                        Teodulfi et Uberti ex genus francorum rogatis testis. Signo Ϯ Ϯ Ϯ Ϯ manibus
-                        Petroni et Leoni et Leoprandi et Bosoni rogatis testes. Ϯ Scripto libello
-                        per manum Martini notarii rogatus postradita complevi et dedi. </ab>
+                    <ab>Ϯ In nomine Domini, regnante domnus <persName ref="#people/233"
+                            key="#Emperor/king">Berengarius</persName> gratia Dei <rs
+                            key="#Emperor/king">imperator</rs> hic in Italia anno secundo, die sesto
+                        decimo de mense martio, per indictione quinta. Placuit adque convenit inter
+                        domnus <persName ref="#people/4763" key="#Count #Salian #marriage"
+                            >Rodulfo</persName>
+                        <rs key="#Count">comes</rs> et <persName ref="#people/4845"
+                            key="#Salian #marriage">Vuiburga</persName>
+                        <rs key="#marriage">iugalibus</rs> ex genus <rs key="#Salian">francorum</rs>
+                        nec non set eciam ex alia parte inter <persName><name ref="Martinus"
+                                >Martino</name></persName> filius quondam <persName><name ref="Vitalis"
+                                        >Vitali</name></persName> et <persName><name ref="Ursus"
+                                                >Urso</name></persName> filius
+                        quondam <persName><name ref="Rainbertus"
+                                >Rimperti</name></persName> <rs key="#Freeborn">liberis</rs> ominibus, ut in Dei nomine
+                        firmare et firmasti vos suprascripti iugalibus nos suprascripti libellarii
+                        vel nostris heredes in <rs key="#Petiae">peciole</rs> tres de <rs
+                            key="#Cereals">terra aratoria</rs>, prima peciola de terra cum <rs
+                            key="#Houses">casa</rs> super se abente que reiace infra <rs
+                            key="#Castle">castellum</rs> nostrum qui vocatur <geogName key="#Castle"
+                            ref="#estates/4145">Sablone</geogName>, est per mensura, firmaste me
+                        Martino vel tuis heredes esinde in <rs key="#Size">tabula una et quarta
+                            parte de tabula</rs> et me Urso vel meis heredes esinde in tres partes
+                        de tabula, sunt fini: da mane parte caput in Sala vestra domnica tenente, de
+                        meridie <persName key="#Confinia"><name ref="Boso">Boso</name></persName>
+                        abente, de sera <persName key="Confinia"><name ref="Wido"
+                                >Vido</name></persName> et de supto casa domnica teniente, alie peciole foris
+                        castello, ubi ego ...... paliatecta edificata abemus, est per mensura tabula
+                        una et duo partis de tabula, tercia peciola, ubi ego Urso tria paliatecta
+                        edificata est tabula una et duo partis de tabula ad perticas leitima de
+                        pedis duodecim mensurata, in tale vero racione dedisti vos ipsi iugalibus
+                        nos ipsi libellarii vel ad nostris heredes ut nos ispi libellarii vel
+                        nostris heredes aut nostro omnibus qualiter nobis melius providerimus in
+                        ipsa casa, qui in ipsum castellum edificata est, <rs key="#Operae">abere et
+                            continuere debeamus et ipsam teniman de ipsum castellum restaurare et
+                            continuere et fossata scavare</rs> et spaciade et vuidata facere
+                        debeatis alia esinde una cum introito et esito suo ad ipsa casa ambulandum
+                        et revertendum et ad omnes vestra utilitatem faciendum tantum quantum in
+                        vestra ditione convenit ad faciendum et una cum comuni et licito et inde in
+                        nobilis pascula in circuitu abere debemus sine omnia calomnia aut aliqua
+                        contradiccione da odie usque ad annos viginti et nove et exinde de
+                        suprascripte peciole de terra ct omnia quitquit intus abuerimus dare et
+                        consinare debeamus, idest per uno quoque anno omnis mense augustus nomine in
+                            <rs key="#Rent_in_money">argento bono et spendevile denarii sex</rs>
+                        tantum vobis ipsis iugalibus vel ad vestris heredibus aut vestris <rs
+                            key="#Missus">misso</rs> et nullo aliquo censum nec tributum non super
+                        imponamus, nisi qualiter superius legitur, quia sic inter nobis conveni et
+                        anni expleti si esire volueritis esiatis exinde foras cum omnis movilias
+                        vestra et nostra causa quiquit vites abuerimus nisi casis tenetores, qui
+                        ibidem edificatum abemus, quia sic inter nobis conveni. Pena quidem inter
+                        nos posuimus et sic oblicavimus, ut si quas pars ad pars partis menime
+                        compleverimus ad dandum vel persolvendum vel si esire aut menare voluerimus,
+                        aut amplius censum vel tributum super imponere voluerimus, aut nos menime
+                        fecerimus ad dandum vel persolvendum et non permanserimus in omnia qualiter
+                        superius legitur, tunc componamus pars ad pars parti fidem servanti unus de
+                        nos vel nostris heredibus desuper quem culpa inventa fuerit, idest pena
+                        numero in <rs key="#Penalty">argento solidi viginti</rs> et pos pena soluta
+                        os Iibellum in sua permaneat firmitatem. Actum in <rs key="#Curtes"
+                            >curte</rs>
+                        <geogName ref="#estates/2396" key="#Curtes">Sablone</geogName>. Signo Ϯ Ϯ
+                        manibus Martini et Ursoni qui fieri rogavi. Signo Ϯ Ϯ Ϯ manibus <persName key="Witness"><name ref="Golfermus"
+                                >Golfermi</name></persName> et
+                        <persName key="Witness"><name ref="Theodulfus"
+                                >Teodulfi</name></persName> et <persName key="#Witness #Salian"><name ref="Hubertus"
+                                        >Uberti</name></persName> ex genus francorum rogatis <rs key="#Witness"
+                                            >testis</rs>. Signo Ϯ Ϯ Ϯ Ϯ manibus <persName key="Witness"><name ref="Petrus"
+                                                    >Petroni</name></persName> et <persName key="Witness"><name ref="Leo"
+                                                            >Leoni</name></persName> et <persName key="Witness"><name ref="Leoprandus"
+                                                                    >Leoprandi</name></persName> et <persName key="Witness"><name ref="Boso"
+                                                                            >Bosoni</name></persName>
+                        rogatis testes. Ϯ Scripto libello per manum <persName key="Notary"><name ref="Martinus"
+                                >Martini</name></persName> <rs key="#Notary"
+                            >notarii</rs> rogatus postradita complevi et dedi. </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p>Drei, Le carte, I, n. 14, pp. 63-5.</p>
+                <p>Drei, <foreign>Le carte,</foreign> I, n. 14, pp. 63-5.</p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p/>

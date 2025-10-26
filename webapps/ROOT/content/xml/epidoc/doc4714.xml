@@ -32,7 +32,7 @@
                             <rs type="text_type" ref="#">--Offersio/donatio</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Original</rs>
-                            <rs type="fiscal_property">No</rs>
+                            <rs type="fiscal_property">Uncertain</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -81,156 +81,241 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>(S.T.) In nomine domini Dei et salvatoris nostri Iesu Christi, tercius Hotto
-                        gracia Dei imperator augustus, anno imperii eius Deo propicio quinto, sesto
-                        die mensis septembe[r indictione...]. Canonica et senedochio sancte
-                        Parmensis ecclesie adque prepositus ipsius senedochio et canonice ipsius....
-                        [preesse vide]tur, ego Ferlinda cometissa filia quondam Bertari, que
-                        professa sum ex nacione mea lege vivere Langobardorum consenciente mihi et
-                        subter confirmante Richardus qui et Rike[zo]...... donatrice ipsiius
+                    <ab>(S.T.) In nomine domini Dei et salvatoris nostri Iesu Christi, tercius
+                            <persName ref="#people/7" key="#Emperor/king">Hotto</persName> gracia
+                        Dei <rs key="#Emperor/king">imperator</rs> augustus, anno imperii eius Deo
+                        propicio quinto, sesto die mensis septembe[r indictione...]. <rs
+                            key="#Churches">Canonica</rs> et <rs key="#Hospitals">senedochio</rs>
+                        sancte Parmensis ecclesie adque prepositus ipsius <orgName
+                            ref="#juridical_persons/1506" key="#Hospitals">senedochio</orgName> et
+                            <orgName key="#Canons" ref="#juridical_persons/1410">canonice</orgName>
+                        ipsius.... [preesse vide]tur, ego <persName ref="#people/4679"
+                            key="#Countess #Lombard">Ferlinda</persName>
+                        <rs key="#Countess">cometissa</rs> filia quondam <persName><name
+                                ref="Bertarius">Bertari</name></persName>, que professa sum ex
+                        nacione mea lege vivere <rs key="#Lombard">Langobardorum</rs> consenciente
+                        mihi et subter confirmante <persName><name
+                                ref="Richardus/Rikezo">Richardus</name></persName> qui et Rike[zo]...... donatrice ipsiius
                         canonice et senedochio presens presentibus dixi: quisquis in sanctis ac
                         venerabilius locis et suis aliquit contulerit rebus iusta octorisvocem in oc
                         seculo centuplum accipiat insuper [quod melius est vitam] possidebit
                         eternam, ideoque ego que supra Ferlinda dono et offero in eadem canonica et
                         senedochio sancte Parmensis ecclesie eo tamen ordine ut subter legitur
-                        permanendum hoc est meam porcionem.... domui coltilem iuris mei quam abere
-                        visa sum super fluvio Padi in comitatu Parmense in loco et fundo Palaxione
-                        cum porcione castroe et capella inibi constructas et est ipsa capella
-                        edificata in on[ore]... cum casis et masariciis universisque rebus tam in
-                        ipso loco quamque in locas et fundas Canterudi, Nautexi, Pagacini, Biulci,
-                        Braida, Campania, Vico Pesato et ubi casa de Corni dicitur, Argene, alio
-                        Palaxione... [ub]i dicitur Luculi et in loco ubi Sancto Quirico dicitur,
-                        Viariolo, Vicoferdulfi, Galo et in loco ubi Insula dicitur, que nominatur
-                        Caput de Taro, vel per reliquis locis et vocabolis reiacentibus ad ipsam
-                        m[eam] porcionem pertinentibus et.... ipsam meam porcio de predictam cortem
-                        cum predictis casis et masariciis et omnibus rebus ad eadem porcio
-                        [pert]inentibus... per totis per mensura iusta inter sedimina castri et area
-                        capella seu aliis sediminibus et vineis cum areis suarum seu terris arabilis
-                        pratis gerbis pascuis silvis maioribus ac stalareis cum areis suarum iuges
-                        legitimas tria milia. Et si amplius de meo iuris rebus ad ipsam cortem et
-                        castro seucapella pertinentibus inventas fuerint, quam ut supra mensura
-                        legitur, per hanc cartula offersionis in iure ipsius canonice et senedochio
-                        sit potestatem, eo tamen ordine, ut subter legitur. Simulque dono et offero
-                        ego que supra Ferlinda in prefata canonica et senedochio per eadem cartula
-                        offersionis in eo vero ordi[ne], ut subter legitur, id sunt servos et
-                        ancillas numerum quinquaginta item iuris meis, nomina eorum: Martinus,
-                        Cristina iugalibus cum duos filios et dues filies suorum, Ioannes, Maria
-                        similique iogalibus, Gariverga filia suorum, Vualterius et Ingeza iugalibus
-                        cum duos filios et dues filies suorum, Gariverto et Amiza iugalibus,
-                        Adelbertus, et Adelberga iugalibus cum filiam suorum maiore, Dominicus et
-                        Maria iugalibus de Casale Martinus et Bonucia iugalibus, Ioannes filio
-                        suorum, Adelbertus et Adelberga iogalibus de Prata cum Lamperga filia
-                        suorum, Petrus et Marta iugalibus, Amiza filia suorum, Petrus, Gariverga
-                        iugalibus, Ioannes filio suorum, Ioannes et Rolinda iugalibus cum Cristofalo
-                        filio suorum, Ioannes et Maria iugalibus cum filio suorum maiore, Martinus
-                        et Adelberga iugalibus cum filia suorum maiore, Martinus et Maria iugalibus
-                        cum dues filie suorum, nacione eorum et earum Italie, abitamtibus in ipsa
-                        cortem Palaxione, reliquis serves et ancilles, aldiones et aldianas in ipsa
-                        corte Palaxione abitantibus vel inde pertinentibus ego ipsa Ferlinda in meam
-                        reservo potestatem proprietario iuri. Que autem suprascriptam meam porcio de
+                        permanendum hoc est meam porcionem.... <rs key="#Domuscultae">domui coltilem
+                        </rs>iuris mei quam abere visa sum super <rs key="#Rivers">fluvio</rs>
+                        <placeName ref="#places/4196" key="#Rivers">Padi</placeName> in <rs
+                            key="#Comitatus">comitatu</rs>
+                        <geogName ref="#estates/161" key="#Comitatus">Parmense</geogName> in loco et
+                            <rs key="#Fundi">fundo</rs>
+                        <geogName key="#Curtes" ref="#estates/4150">Palaxione</geogName> cum
+                        porcione <rs key="#Castle">castroe</rs> et capella inibi constructas et est
+                        ipsa capella edificata in on[ore]... cum <rs key="#Houses">casis</rs> et <rs
+                            key="#Casae/cassinae_massaricie">masariciis</rs> universisque rebus tam
+                        in ipso loco quamque in locas et fundas <geogName>Canterudi</geogName>,
+                            <geogName>Nautexi</geogName>, <geogName>Pagacini</geogName>,
+                        <geogName>Biulci</geogName>, <geogName>Braida</geogName>,
+                        <geogName>Campania</geogName>, <geogName>Vico Pesato</geogName> et
+                        ubi casa de Corni dicitur, <geogName>Argene</geogName>, alio
+                        <geogName>Palaxione</geogName>... [ub]i dicitur Luculi et in loco
+                        ubi<geogName> Sancto Quirico</geogName> dicitur,
+                        <geogName>Viariolo</geogName>, <geogName>Vicoferdulfi</geogName>,
+                        <geogName>Galo</geogName> et in loco ubi Insula dicitur, que nominatur
+                        <geogName>Caput de Taro</geogName>, vel per reliquis locis et
+                        vocabolis reiacentibus ad ipsam m[eam] porcionem pertinentibus et.... ipsam
+                        meam porcio de predictam <rs key="#Curtes">cortem</rs> cum predictis casis
+                        et masariciis et omnibus rebus ad eadem porcio [pert]inentibus... per totis
+                        per mensura iusta inter sedimina castri et area capella seu aliis
+                        sediminibus et <rs key="#Wine">vineis</rs> cum areis suarum seu <rs
+                            key="#Cereals">terris arabilis</rs>
+                        <rs key="#Hay/fodder">pratis</rs> gerbis pascuis <rs key="#Forests"
+                            >silvis</rs> maioribus ac stalareis cum areis suarum <rs key="#Size"
+                            >iuges legitimas tria milia</rs>. Et si amplius de meo iuris rebus ad
+                        ipsam cortem et castro seucapella pertinentibus inventas fuerint, quam ut
+                        supra mensura legitur, per hanc cartula offersionis in iure ipsius canonice
+                        et senedochio sit potestatem, eo tamen ordine, ut subter legitur. Simulque
+                        dono et offero ego que supra Ferlinda in prefata canonica et senedochio per
+                        eadem cartula offersionis in eo vero ordi[ne], ut subter legitur, id sunt
+                            <rs key="#Slave_labour">servos et ancillas </rs>numerum quinquaginta
+                        item iuris meis, nomina eorum: <persName><name
+                                ref="Martinus">Martinus</name></persName>, <persName><name
+                                        ref="Christina">Cristina</name></persName> <rs key="#marriage"
+                                            >iugalibus</rs> cum duos filios et dues filies suorum, <persName><name
+                                                    ref="Iohannes">Ioannes</name></persName>, <persName><name
+                                                            ref="Maria">Maria</name></persName>
+                        similique iogalibus, <persName><name
+                                ref="Gariberga">Gariverga</name></persName> filia suorum, <persName><name
+                                        ref="Walterius">Vualterius</name></persName> et <persName><name
+                                                ref="Ingitia">Ingeza</name></persName> iugalibus
+                        cum duos filios et dues filies suorum, <persName><name
+                                ref="Garibertus">Gariverto</name></persName> et <persName><name
+                                        ref="Amiza">Amiza</name></persName> iugalibus,
+                        <persName><name
+                                ref="Adalbertus">Adelbertus</name></persName>, et <persName><name
+                                        ref="Adalberga">Adelberga</name></persName> iugalibus cum filiam suorum maiore, <persName><name
+                                                ref="Dominicus">Dominicus</name></persName> et
+                        <persName><name
+                                ref="Maria">Maria</name></persName> iugalibus de <placeName>Casale</placeName> <persName><name
+                                        ref="Martinus">Martinus</name></persName> et <persName><name
+                                                ref="Bonuccia">Bonucia</name></persName>
+                        iugalibus, <persName><name
+                                ref="Iohannes">Ioannes</name></persName> filio suorum, <persName><name
+                                        ref="Adalbertus">Adelbertus</name></persName> et <persName><name
+                                                ref="Adalberga">Adelberga</name></persName> iogalibus de Prata
+                        cum <persName><name
+                                ref="Lamperga">Lamperga</name></persName> filia suorum, <persName><name
+                                        ref="Petrus">Petrus</name></persName> et <persName><name
+                                                ref="Marta">Marta</name></persName> iugalibus, <persName><name
+                                                        ref="Amiza">Amiza</name></persName> filia suorum,
+                        <persName><name
+                                ref="Petrus">Petrus</name></persName>, <persName><name
+                                        ref="Gariberga">Gariverga</name></persName> iugalibus, <persName><name
+                                                ref="Iohannes">Ioannes</name></persName> filio suorum, <persName><name
+                                                        ref="Iohannes">Ioannes</name></persName> et <persName><name
+                                                                ref="Rodelinda">Rolinda</name></persName>
+                        iugalibus cum <persName><name
+                                ref="Christofalus">Cristofalo</name></persName> filio suorum, <persName><name
+                                        ref="Iohannes">Ioannes</name></persName> et <persName><name
+                                                ref="Maria">Maria</name></persName> iugalibus cum filio
+                        suorum maiore, <persName><name
+                                ref="Martinus">Martinus</name></persName> et <persName><name
+                                        ref="Adalberga">Adelberga</name></persName> iugalibus cum filia suorum maiore,
+                        <persName><name
+                                ref="Martinus">Martinus</name></persName> et <persName><name
+                                        ref="Maria">Maria</name></persName> iugalibus cum dues filie suorum, nacione eorum et earum
+                        Italie, abitamtibus in ipsa cortem Palaxione, reliquis serves et ancilles,
+                            <rs key="#Aldius">aldiones et aldianas</rs> in ipsa corte Palaxione
+                        abitantibus vel inde pertinentibus ego ipsa Ferlinda in meam reservo
+                        potestatem proprietario iuri. Que autem suprascriptam meam porcio de
                         predicta cortem domui coltilem cum predictis casis castro capella adque
                         rebus omnibus ad eadem porcio pertinentibus iuris mei superius dictis una
-                        cum accessionibus et ingressoras seu superius dictis una cum accessionibus
-                        et ingressoras seu superioribus et inferioribus earum rerum, qualiter
-                        superius legitur, una cum predictos servos et ancillas, sicut supra legitur,
-                        preter quod superius anteposuit in integrum ab hac die in eadem canonica et
-                        senedochio ipsius sancte Parmensis ecclesie de ipsam meam porcio de eadem
-                        cortem Palasione et castro seu capella adque casis et masariciis et omnibus
-                        rebus ad eam pertinentibus sive de predicta familia hanc facio offersione,
-                        eo tamen ordine, ut si vos quem supra domnus Guntardus diaconus et
-                        prepositus vestrisque successoribus vel pars ipsius canonice et senedochio
-                        me quem supra Ferlinda diebus vite mee abere premiseritis precario et
-                        enthintheothario nomine, hoc sunt cortes duas domui coltiles iuris ipsius
-                        canonice et senedochio quibus sunt positas in suprascripto comitatu
-                        Parmense, una super fluvio Taro in loco et fundo alio Palasione cum castroet
-                        capella inibi fundatas et est ipsa capella edificata in onore Sancti
-                        Laurencii cum casis masariciis ripis rupinis ac palutibus, molendinis,
-                        piscacionibus cum omnibus rebus ad eadem pertinentibus tam in ipso loco
-                        Palasione quamque in locas et fundas Sixa, Barcule, Casale Fuskini, Sala,
-                        Toriano, Rivario, Cautari, Runco Cuniverti, Ciliano, Sclavi et in Taro
-                        Morto, alia cortem domui coltilem in loco et fundo Baloni cum capella una
-                        inibi constructa in onore Sancti Alexandro cum casis masariciis et omnibus
-                        rebus ad eam pertinentibus tam in ipso loco Baloni quamque in locas et
-                        fundas Burbulla, Bellasiola, Braida in loco ubi Ie...a dicitur et in Agna
-                        vel per ceteris locis et vocabolis reiacentibus ad ipsas cortes Palasione et
-                        Baloni pertinentibus adque casis masariciis et rebus illis quod sunt mansas
-                        treginta sim’ilique iuris ipsius canonice et senedochio, quibus sunt positas
-                        in locas et fundas Carzago quod sunt masaricias quatuor, in Carubio
-                        masaricias quinque, Casule masaricias tres, in Cerliano masaricias sex, in
-                        Magritule masaricias quatuor, Blanconisi masaricias quatuor, Viariolo
-                        masaricias duas. Iam dictam cortem in predicto loco Palasione cum omnibus
-                        rebus ad eam pertinentibus sunt per mensura iusta inter sediminas et area
-                        capella seu sediminas et vineis cum areis suarum adque terris arabilis
-                        gerbis pratis pascuis silvis maioribus ac stalareis cum areissuarum iuges
-                        legitimas quinquecenti. Iam nominate corte in predicto loco Baloni cum
-                        predictis casis masariciis et omnibus rebus ad eam pertinentibus sunt per
-                        mensura iusta inter sediminas et area capella seu vineis cum areis suarum
-                        terris arabilis, gerbis, pratis, pascuis, silvis ac stalareis super totis
-                        insimul iuges legitimas mille. Iam fatis rebus in pradictas locas Carzago,
-                        Carrobio, Casule, Cerliano, Magritule, Blanconisi, Viariolo, Munticello sunt
-                        super totis insimul per mensura iusta inter sediminas et areis ubi vites
-                        estant, seu terris arabilis adque gerbis et silvis cum areis suarum iuges
-                        legitimas trescenti, ita ut facio ego quem supra ferlinda diebus vite mee de
-                        fruges et retditum seu censum quod de ipsis omnibus rebus esierit sive de
-                        opera et servicio de ipsa familia quas parti ipsius canonice et senedochio
-                        offersi quamque ex illis quas vobis inde abere petivi quod voluero, ita ut
-                        exinde persol[v]unt annualiter per omni mense genuarii a parte ipsius
-                        canonice et senedochio argentum denarios bonos Papiensis solidos decem dati
-                        ipsi denarii infra civitate Parma consignati ipsi denarii eidem Guntardi
-                        prepositus eiusque successores vel ad vestro misso aut super altario ipsius
-                        matre ecclesie ponamus per me ipsa Ferlinda aut meo misso et post meum cui
-                        supra Ferlinde decesso rebus illis omnibus sive predicta familia quas parti
-                        ipsius canonice et scnedochio offersi quamque ex illis inde abere petivi
-                        veniant et sint in potestatem eidem canonice et senedochio eo tinore de
-                        ipsis meis casis et omnibus rebus in iamdictas locas et fundas ut supra
-                        denominatas sunt sive de iam dicta familia hanc facio offersione, ut si vos
-                        quem supra domnus Guntardus prepositus vestrisque successoribus vel pars
-                        ipsius canonice et senedochio me quem supra Ferlinda de ipsas cortes et
-                        castro capelles atque casis et omnibus rebus fruges et censum quod exinde
-                        esierit pacifice et quiete abere et detinere non permanseritis et daruerit,
-                        tunc statim veniant ipsis casis et omnibus rebus sive ex predicta familia in
-                        iure et potestatem mea cui supra Ferlinda, faciendum exinde in antea a
-                        presenti die quod voluero sine omni eidem Guntardi prepositus eiusque
-                        successores, vel pars ipsius canonice et senedochio contradictione; nam si
-                        vos quem supra domnus Guntardus diaconus et prepositus vestrisque
+                        cum <rs key="#Canals">accessionibus</rs> et ingressoras seu superius dictis
+                        una cum accessionibus et ingressoras seu superioribus et inferioribus earum
+                        rerum, qualiter superius legitur, una cum predictos servos et ancillas,
+                        sicut supra legitur, preter quod superius anteposuit in integrum ab hac die
+                        in eadem canonica et senedochio ipsius sancte Parmensis ecclesie de ipsam
+                        meam porcio de eadem cortem Palasione et castro seu capella adque casis et
+                        masariciis et omnibus rebus ad eam pertinentibus sive de predicta familia
+                        hanc facio offersione, eo tamen ordine, ut si vos quem supra domnus
+                        <persName key="Deacons"><name
+                                ref="Gunthardus">Guntardus</name></persName> <rs key="#Deacons">diaconus</rs> et prepositus vestrisque
                         successoribus vel pars ipsius canonice et senedochio me quem supra Ferlinda
-                        iam dictas cortes casis capelles adque rebus illis omnibus sive fruges et
-                        censum quod exinde esierit pacifice abere et detinere premiserunt, tunc post
-                        meum cui supra Ferlinde decessum veniant ipsis casis et omnibus rebus sive
-                        et predicta familia quas ibi offerere videor quamque ex illis abere petivi
-                        in iure et potestatem ipsius canonice et senedochio, faciendum exinde in
-                        antea pars ipsius canonice et senedochio proprietario nomine quicquid
-                        voluerit, ut qui dum ipse domnus Guntardus diaconus et prepositus ipsius
-                        canonice et senedochio ab eadem Ferlinda taliter audiset postulacione per
-                        ferula quem suam tenebat manum iam dicta Ferlinda de suprascriptis omnibus
-                        rebus sive de iam dicta familia quas parti ipsius canonice et senedochio
-                        offersi quamque ex illis abere petivi precario et enthintheothario nomine ei
-                        tradidit, eo videlicet ordine, ut ipsa Ferlinda ipsis casis et omnibus rebus
-                        sive et iam dicta familia diebus vite sue abere debeat et faciat ex frugibus
-                        e(r)arum rerum vel censum, quod exinde annue Dominus dederit, quod voluerit
-                        sine omni eidem Guntardi diaconus et prepositus suique successores vel pars
-                        ipsius canonice et senedochio contradicione eodem censum annualiter a parte
-                        ipsius canonice et senedochio persolvat, sicut supra legitur. Si vos quem
-                        supra domnus Guntardus diaconus et prepositus vestrisque successores vel
-                        pars ipsius, canonice et senedochio hoc observaverit, sicut supra legitur et
-                        oblicaverunt ipse domnus Guntardus diaconus et prepositus et Ferlinda ut
-                        ipsi vel successores eidem prepositi minime adimpleverit, qualiter ut supra
-                        legitur, tunc componant pars ille que se subtraxerit ad partem fidem
-                        servandi pena auro obtimo libras decem, quia taliter ut supra legitur inter
-                        eis stetit et convenit, unde pro ambarum parcium due cartule precarie et
-                        enthintheothario nomine tradicionis adque offersionis uno tinore scripte
-                        sunt. Actum infra castro Portitari766, feliciter. Signum Ϯ manus
+                        diebus vite mee abere premiseritis<rs key="#Libellus/precaria/emphyteusis">
+                            precario et enthintheothario nomine, </rs>hoc sunt cortes duas domui
+                        coltiles iuris ipsius canonice et senedochio quibus sunt positas in
+                        suprascripto comitatu Parmense, una super fluvio <placeName
+                            ref="#places/4432">Taro</placeName> in loco et fundo alio Palasione cum
+                        castro et capella inibi fundatas et est ipsa capella edificata in onore
+                        Sancti Laurencii cum casis masariciis ripis rupinis ac <rs
+                            key="#Marshes/lagoons/tombolos">palutibus</rs>, <rs key="#Mills"
+                            >molendinis</rs>, <rs key="#Fisheries">piscacionibus</rs> cum omnibus
+                        rebus ad eadem pertinentibus tam in ipso loco Palasione quamque in locas et
+                        fundas <geogName>Sixa</geogName>, <geogName>Barcule</geogName>,
+                        <geogName>Casale Fuskini</geogName>, <geogName>Sala</geogName>,
+                        <geogName>Toriano</geogName>, <geogName>Rivario</geogName>,
+                        <geogName>Cautari</geogName>, <geogName>Runco Cuniverti</geogName>,
+                        <geogName>Ciliano</geogName>, <geogName>Sclavi</geogName> et in
+                        <geogName>Taro Morto</geogName>, alia cortem domui coltilem in loco et
+                        fundo <geogName>Baloni</geogName> cum capella una inibi constructa in
+                        onore Sancti Alexandro cum casis masariciis et omnibus rebus ad eam
+                        pertinentibus tam in ipso loco Baloni quamque in locas et fundas
+                        <geogName>Burbulla</geogName>, <geogName>Bellasiola</geogName>,
+                        <geogName>Braida</geogName> in loco ubi Ie...a dicitur et in
+                        <geogName>Agna</geogName> vel per ceteris locis et vocabolis
+                        reiacentibus ad ipsas cortes Palasione et Baloni pertinentibus adque casis
+                        masariciis et rebus illis quod sunt mansas treginta similique iuris ipsius
+                        canonice et senedochio, quibus sunt positas in locas et fundas
+                        <geogName>Carzago</geogName> quod sunt masaricias quatuor, in
+                            <geogName>Carubio</geogName> masaricias quinque,
+                            <geogName>Casule</geogName> masaricias tres, in
+                            <geogName>Cerliano</geogName> masaricias sex, in
+                            <geogName>Magritule</geogName> masaricias quatuor,
+                            <geogName>Blanconisi</geogName> masaricias quatuor,
+                            <geogName>Viariolo</geogName> masaricias duas. Iam dictam cortem in
+                        predicto loco Palasione cum omnibus rebus ad eam pertinentibus sunt per
+                        mensura iusta inter sediminas et area capella seu sediminas et vineis cum
+                        areis suarum adque terris arabilis gerbis pratis pascuis silvis maioribus ac
+                        stalareis cum areissuarum iuges legitimas quinquecenti. Iam nominate corte
+                        in predicto loco Baloni cum predictis casis masariciis et omnibus rebus ad
+                        eam pertinentibus sunt per mensura iusta inter sediminas et area capella seu
+                        vineis cum areis suarum terris barabilis, gerbis, pratis, pascuis, silvis ac
+                        stalareis super totis insimul iuges legitimas mille. Iam fatis rebus in
+                        pradictas locas Carzago, Carrobio, Casule, Cerliano, Magritule, Blanconisi,
+                        Viariolo, Munticello sunt super totis insimul per mensura iusta inter
+                        sediminas et areis ubi vites estant, seu terris arabilis adque gerbis et
+                        silvis cum areis suarum iuges legitimas trescenti, ita ut facio ego quem
+                        supra ferlinda diebus vite mee de <rs key="#Rent_in_kind">fruges</rs> et
+                        retditum seu <rs key="#Census">censum</rs> quod de ipsis omnibus rebus
+                        esierit sive de <rs key="#Operae">opera</rs> et servicio de ipsa familia
+                        quas parti ipsius canonice et senedochio offersi quamque ex illis quas vobis
+                        inde abere petivi quod voluero, ita ut exinde persol[v]unt annualiter per
+                        omni mense genuarii a parte ipsius canonice et senedochio <rs
+                            key="#Rent_in_money">argentum denarios bonos Papiensis solidos decem
+                        </rs>dati ipsi denarii infra civitate Parma consignati ipsi denarii eidem
+                        Guntardi prepositus eiusque successores vel ad vestro <rs key="#Missus"
+                            >misso</rs> aut super <rs key="#Altars">altario</rs> ipsius <rs
+                            key="#Mother_churches">matre ecclesie</rs> ponamus per me ipsa Ferlinda
+                        aut meo misso et post meum cui supra Ferlinde decesso rebus illis omnibus
+                        sive predicta familia quas parti ipsius canonice et scnedochio offersi
+                        quamque ex illis inde abere petivi veniant et sint in potestatem eidem
+                        canonice et senedochio eo tinore de ipsis meis casis et omnibus rebus in
+                        iamdictas locas et fundas ut supra denominatas sunt sive de iam dicta
+                        familia hanc facio offersione, ut si vos quem supra domnus Guntardus
+                        prepositus vestrisque successoribus vel pars ipsius canonice et senedochio
+                        me quem supra Ferlinda de ipsas cortes et castro capelles atque casis et
+                        omnibus rebus fruges et censum quod exinde esierit pacifice et quiete abere
+                        et detinere non permanseritis et daruerit, tunc statim veniant ipsis casis
+                        et omnibus rebus sive ex predicta familia in iure et potestatem mea cui
+                        supra Ferlinda, faciendum exinde in antea a presenti die quod voluero sine
+                        omni eidem Guntardi prepositus eiusque successores, vel pars ipsius canonice
+                        et senedochio contradictione; nam si vos quem supra domnus Guntardus
+                        diaconus et prepositus vestrisque successoribus vel pars ipsius canonice et
+                        senedochio me quem supra Ferlinda iam dictas cortes casis capelles adque
+                        rebus illis omnibus sive fruges et censum quod exinde esierit pacifice abere
+                        et detinere premiserunt, tunc post meum cui supra Ferlinde decessum veniant
+                        ipsis casis et omnibus rebus sive et predicta familia quas ibi offerere
+                        videor quamque ex illis abere petivi in iure et potestatem ipsius canonice
+                        et senedochio, faciendum exinde in antea pars ipsius canonice et senedochio
+                        proprietario nomine quicquid voluerit, ut qui dum ipse domnus Guntardus
+                        diaconus et prepositus ipsius canonice et senedochio ab eadem Ferlinda
+                        taliter audiset postulacione per ferula quem suam tenebat manum iam dicta
+                        Ferlinda de suprascriptis omnibus rebus sive de iam dicta familia quas parti
+                        ipsius canonice et senedochio offersi quamque ex illis abere petivi precario
+                        et enthintheothario nomine ei tradidit, eo videlicet ordine, ut ipsa
+                        Ferlinda ipsis casis et omnibus rebus sive et iam dicta familia diebus vite
+                        sue abere debeat et faciat ex frugibus e(r)arum rerum vel censum, quod
+                        exinde annue Dominus dederit, quod voluerit sine omni eidem Guntardi
+                        diaconus et prepositus suique successores vel pars ipsius canonice et
+                        senedochio contradicione eodem censum annualiter a parte ipsius canonice et
+                        senedochio persolvat, sicut supra legitur. Si vos quem supra domnus
+                        Guntardus diaconus et prepositus vestrisque successores vel pars ipsius,
+                        canonice et senedochio hoc observaverit, sicut supra legitur et oblicaverunt
+                        ipse domnus Guntardus diaconus et prepositus et Ferlinda ut ipsi vel
+                        successores eidem prepositi minime adimpleverit, qualiter ut supra legitur,
+                        tunc componant pars ille que se subtraxerit ad partem fidem servandi pena<rs
+                            key="#Penalty"> auro obtimo libras decem</rs>, quia taliter ut supra
+                        legitur inter eis stetit et convenit, unde pro ambarum parcium due cartule
+                        precarie et enthintheothario nomine tradicionis adque offersionis uno tinore
+                        scripte sunt. Actum infra <placeName>castro Portitari</placeName>, feliciter. Signum Ϯ manus
                         suprascripte Ferlinde qui hanc cartula precaria fieri rogavi et ei relecta
-                        est. Ϯ Richardus consensi ut supra et subscripsi. Ϯ Radaldus notarius sacri
-                        palacii rogatus sllbscripsi. Ϯ Arnaldus notarius sacri palacii rogatus
-                        subscrpsi. Ϯ Rikezo notarius sacri palacii rogatus subscripsi.767 Ϯ
-                        Ermenulfus rogatus subscripsi. Signum Ϯ manus Domini768 fili quondam
-                        Albizoni teste. Ϯ Erlembaldus rogatus subscripsi. (S.T.) Ego Bonizo notarius
-                        sacri palacii scriptor huius cartule precarie post tradite complevi et dedi. </ab>
+                        est. Ϯ Richardus consensi ut supra et subscripsi. Ϯ <persName key="Notary"><name
+                                ref="Radaldus">Radaldus</name></persName> <rs
+                            key="#Notary">notarius</rs> sacri palacii rogatus subscripsi. Ϯ
+                        <persName key="Notary"><name
+                                ref="Arnaldus">Arnaldus</name></persName> notarius sacri palacii rogatus subscrpsi. Ϯ <persName key="Notary"><name
+                                        ref="Rigerius">Rikezo</name></persName> notarius sacri
+                        palacii rogatus subscripsi. Ϯ <persName><name
+                                ref="Ermenulfus">Ermenulfus</name></persName> rogatus subscripsi. Signum Ϯ manus
+                        <persName key="Witness"><name
+                                ref="Dominus">Domini</name></persName> fili quondam <persName><name
+                                        ref="Albitius">Albizoni</name></persName> <rs key="#Witness">teste</rs>. Ϯ <persName><name
+                                                ref="Erlebaldus">Erlembaldus</name></persName>
+                        rogatus subscripsi. (S.T.) Ego <persName key="Notary"><name
+                                ref="Bonitius">Bonizo</name></persName> notarius sacri palacii scriptor huius
+                        cartule precarie post tradite complevi et dedi. </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p>Drei, Le carte, I, n. 90, pp. 266-71.</p>
+                <p>Drei, <foreign>Le carte</foreign>, I, n. 90, pp. 266-71.</p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p/>

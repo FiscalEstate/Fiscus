@@ -32,7 +32,7 @@
                             <rs type="text_type" ref="#">--Libellus/precaria/emphyteusis</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Original</rs>
-                            <rs type="fiscal_property">No</rs>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -80,47 +80,74 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>Ϯ In nomine domini, regnante dominus Berengarius gratia Dei rex hic in
-                        Italia anno vigiximo septimo, die quarto de mense febroarius, per indicione
-                        tercia. Placuit adque convenit inter dominus Rodulfo comes et Vuiburga ex
-                        genus Francorurn et inter Petrus filius quondam Ralimpaldi liber homo ut in
-                        Dei nomine firmare et firmastis vos suprascripti iugalibus me Petrus vel
-                        meis heredes in terra et casa, vinea. prado seo silva iures illa in proprio
-                        vestro in Castellani, qui pertinet de curte vestra Sablone, qui ante os dies
-                        per te ipso per libello erecte fue et sunt iuges sex, in ea vero racionem
-                        dedisti mihi ut ego Petrus vel meis heredes super ipse res et in ipsa casa
-                        resedere et laborare et excollere debeamus puriter et fideliter sine fraude
-                        vel nelicto da odie usque ad annos viginti et nove et exinde reditum
-                        persolvere debeamus pro uno quemque anni de omnis genere grano, que super
-                        ipsa terra seminato fuerit et Dominus dederit, modio quarto, vino medietatem
-                        abeamus exinde antepoxito prado, orto, rabe, [li]no, vicia, facioli unde non
-                        redamus etsenio in anno dare debeamus in natale Domini pullo uno, hoves
-                        quinque et in pascha Domini dinarii dui, operes in anno facere debeamus
-                        duodecim, medietatem cum bovis et medietatem manualis hic in curte Sablone
-                        cum anona domnica angarias in anno facere debeamus quantum vos exinde
-                        comtingiet per tempus messis et vindimie misso domnico super adstante et eis
-                        susceptas facere debeamus et pinnerati et districti esse debeamus usque ad
-                        lex et iusticiam faciemus et soprascriptum reditum quem rederimus .grano et
-                        vino seo etsenio vegere et consignare debeamus hic in suprascripta curte
-                        vestra Sablone et anni expleti si esire voluerimus exiamus exinde foras cum
-                        duos porciones des omnes movillas nostra et tercia parte demitamus in loco
-                        cispite in ipsa casa. Pena vero ambes partis inter nos posuimus ut si quas
-                        pars ad pars partis menime compleverimus ad redendum vel persolvendum, ut si
-                        exire aut menare voluerimus aut amplius super imponere voluerimus et non
-                        permanserimus in omnia qualiter superius legitur, tunc componamus pars ad
-                        pars parti fidem servanti unus de nos vel de nostris heredibus desuper quem
-                        culpa inventa fuerit idest pena vero in argento solidi viginti. Unde duos
-                        libelli conscripti sunt ad ambes partis ad omnia suprascripta. Actum in
-                        villa Sablone. Signo Ϯ manus Petroni qui unc libellum fieri rogavi. Ϯ Ego
-                        Gisevertus notarius et scavino rogatus me testis subscripsi. Signo Ϯ Ϯ Ϯ Ϯ
-                        manibus Vuifredi et Conradi et Ugoni et Andreverti, qui Fabro vocatur, ex
-                        genere Francorum rogatis testis. Signo Ϯ Ϯ manibus Marini et Teosperti
-                        rogatis testis. Ϯ Scripto libello per manum141 Marini notarii rogatus
-                        prostradita complevi et dedi. </ab>
+                    <ab>Ϯ In nomine domini, regnante dominus <persName ref="#people/233"
+                            key="#Emperor/king">Berengarius</persName> gratia Dei <rs
+                            key="#Emperor/king">rex</rs> hic in Italia anno vigiximo septimo, die
+                        quarto de mense febroarius, per indicione tercia. Placuit adque convenit
+                        inter dominus <persName ref="#people/4763" key="#Count #Salian #marriage"
+                            >Rodulfo</persName>
+                        <rs key="#Count">comes</rs> et <persName ref="#people/4845"
+                            key="#Salian #marriage">Vuiburga</persName> ex genus <rs key="#Salian"
+                            >Francorum</rs> et inter <persName><name ref="Petrus"
+                            >Petrus</name></persName> filius quondam <persName><name
+                                ref="Ralimpaldo">Ralimpaldi</name></persName>
+                        <rs key="#Freeborn">liber</rs> homo ut in Dei nomine firmare et firmastis
+                        vos suprascripti <rs key="#marriage">iugalibus</rs> me Petrus vel meis
+                        heredes in <rs key="#Landed_possessions">terra</rs> et <rs key="#Houses"
+                            >casa</rs>, <rs key="#Wine">vinea</rs>. <rs key="#Hay/fodder">prado</rs>
+                        seo <rs key="#Forests">silva</rs> iures illa in proprio vestro in
+                            <placeName>Castellani</placeName>, qui pertinet de <rs key="#Curtes"
+                            >curte</rs> vestra <geogName key="#Curtes" ref="#estates/2396"
+                            >Sablone</geogName>, qui ante os dies per te ipso per libello erecte fue
+                        et sunt <rs key="#Size">iuges sex,</rs> in ea vero racionem dedisti mihi ut
+                        ego Petrus vel meis heredes super ipse res et in ipsa casa resedere et
+                        laborare et excollere debeamus puriter et fideliter sine fraude vel nelicto
+                        da odie usque ad annos viginti et nove et exinde reditum persolvere debeamus
+                        pro uno quemque anni de omnis genere <rs key="#Rent_in_kind">grano, que
+                            super ipsa terra seminato fuerit et Dominus dederit, modio quarto, vino
+                            medietatem</rs>, abeamus exinde antepoxito prado, <rs key="#Hay/fodder"
+                            >orto</rs>, rabe, [<rs key="#Linen">li]no</rs>, vicia, <rs
+                            key="#Legumes">facioli</rs> unde non redamus <rs key="#Exenia"
+                            >etsenio</rs> in anno dare debeamus in natale Domini <rs key="#Poultry"
+                            >pullo</rs> uno, <rs key="#Eggs">hoves</rs> quinque et in pascha Domini
+                            <rs key="#Rent_in_money">dinarii dui</rs>, <rs key="#Operae">operes</rs>
+                        in anno facere debeamus duodecim, medietatem cum <rs key="#Cows">bovis</rs>
+                        et medietatem manualis hic in curte Sablone cum anona domnica <rs
+                            key="#Angaria">angarias</rs> in anno facere debeamus quantum vos exinde
+                        comtingiet per tempus messis et vindimie <rs key="#Missus">misso</rs>
+                        domnico super adstante et eis susceptas facere debeamus et pinnerati et
+                        districti esse debeamus usque ad lex et iusticiam faciemus et soprascriptum
+                        reditum quem rederimus grano et vino seo etsenio vegere et consignare
+                        debeamus hic in suprascripta curte vestra Sablone et anni expleti si esire
+                        voluerimus exiamus exinde foras cum duos porciones des omnes movillas nostra
+                        et tercia parte demitamus in loco cispite in ipsa casa. Pena vero ambes
+                        partis inter nos posuimus ut si quas pars ad pars partis menime
+                        compleverimus ad redendum vel persolvendum, ut si exire aut menare
+                        voluerimus aut amplius super imponere voluerimus et non permanserimus in
+                        omnia qualiter superius legitur, tunc componamus pars ad pars parti fidem
+                        servanti unus de nos vel de nostris heredibus desuper quem culpa inventa
+                        fuerit idest pena vero in<rs key="#Penalty"> argento solidi viginti</rs>.
+                        Unde duos libelli conscripti sunt ad ambes partis ad omnia suprascripta.
+                        Actum in <rs key="#Villas">villa</rs> Sablone. Signo Ϯ manus Petroni qui unc
+                        libellum fieri rogavi. Ϯ Ego <persName key="#Notary #Scabini"><name
+                                ref="Gisbertus">Gisevertus</name></persName>
+                        <rs key="#Notary">notarius</rs> et <rs key="#Scabini">scavino</rs> rogatus
+                        me <rs key="#Witness">testis</rs> subscripsi. Signo Ϯ Ϯ Ϯ Ϯ manibus <persName key="#Witness"><name
+                                ref="Wifredus">Vuifredi</name></persName>
+                        et <persName key="#Witness"><name
+                                ref="Cuneradus">Conradi</name></persName> et <persName key="#Witness"><name
+                                        ref="Hugo">Ugoni</name></persName> et <persName key="#Witness #Salian"><name
+                                                ref="Andrepertus Fabro">Andreverti</name></persName>, qui Fabro vocatur, ex genere Francorum
+                        rogatis testis. Signo Ϯ Ϯ manibus <persName key="#Witness"><name
+                                ref="Marinus">Marini</name></persName> et <persName key="#Witness"><name
+                                        ref="Teudebertus">Teosperti</name></persName> rogatis testis. Ϯ
+                        Scripto libello per manum <persName key="#Notary"><name
+                                ref="Marinus">Marini</name></persName> notarii rogatus prostradita complevi et
+                        dedi. </ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p>Drei, Le carte, I, n. 12, pp. 60-1.</p>
+                <p>Drei, <foreign>Le carte</foreign>, I, n. 12, pp. 60-1.</p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p/>

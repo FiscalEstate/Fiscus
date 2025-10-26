@@ -32,7 +32,7 @@
                             <rs type="text_type" ref="#">--Libellus/precaria/emphyteusis</rs>
                             <rs type="record_source" ref="#">Critical edition</rs>
                             <rs type="document_tradition" ref="#">Original</rs>
-                            <rs type="fiscal_property">No</rs>
+                            <rs type="fiscal_property">Yes</rs>
                         </summary>
                         <msItem xml:id="msItem1">
                             <textLang mainLang="" otherLangs=""/>
@@ -80,27 +80,44 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab> Ϯ In nomine Domini, regnante domnus Berengarius gratia Dei rex hic in
-                        Italia anno vigiximo septimo, die quarto de mense febroarius, per indictione
-                        tercia. Placuit adque convenit inter domnus Rodulfo comes et Vuiburga
-                        iugalibus ex genus Francorum et inter Lubo filius quondam Martini et alio
-                        Lupus filius quondam Ursoni liberis ominibus ut in Dei nomine firmare et
+                    <ab> Ϯ In nomine Domini, regnante domnus <persName ref="#people/233"
+                            key="#Emperor/king">Berengarius</persName> gratia Dei <rs
+                            key="#Emperor/king">rex</rs> hic in Italia anno vigiximo septimo, die
+                        quarto de mense febroarius, per indictione tercia. Placuit adque convenit
+                        inter domnus <persName ref="#people/4763" key="#Count #Salian #marriage"
+                            >Rodulfo</persName>
+                        <rs key="#Emperor/king">comes</rs> et <persName ref="#people/4845"
+                            key="#Salian #marriage">Vuiburga</persName>
+                        <rs key="#marriage">iugalibus</rs> ex genus <rs key="#Salian">Francorum</rs>
+                        et inter <persName><name ref="Lupus">Lubo</name></persName> filius quondam
+                                <persName><name ref="Martinus">Martini</name></persName> et alio
+                                <persName><name ref="Lupus">Lupus</name></persName> filius quondam
+                                <persName><name ref="Ursus">Ursoni</name></persName>
+                        <rs key="#Freeborn">liberis</rs> ominibus ut in Dei nomine firmare et
                         firrnastis vos suprascripti iugalibus nos suprascripti libellaris vel nostri
-                        heredibus in terra et casa, vinea, prado seo silva iurex illa in proprio
-                        vestro in loco Castellani, qui perline de curte vestra Sablone, qui ante os
-                        dies per te ipso Lubo per livello erec[te] fue, oc sunt iuges duodecim, in
-                        ea vero racione dedistis nobis ut nos suprascripti libellarii vel nostris
-                        heredes .super ipses rex et in ipsa casa resedere et laborare et escollere
-                        debeamus puriter136 et fideliter sine fraudo vel nelicto da odie usque ad
-                        annos viginti et nove et exinde reditum peresolvere debeamus per uno quemque
-                        anni de omnis genere grano, que super ipsa terra seminata fuerit et Dominus
-                        dederit, modio quarto, vino medietatem abeamus exinde antepoxito prado,
-                        orto, rabe, lino, vicia, facioli, unde non redamus etsenio in anno dare
-                        debeamus i[n] natale Domini, pullo uno, hoves quinque et in pasca Domini
-                        dinarii quatuor, operes in anno facere debeamus omnis mense opere due,
-                        medietatem cum bovis et medietatem manoalis hic in suprascripta curte vestra
-                        Sablone cum anona domnica angarias in anno facere debeamus quantum nos
-                        exinde contangi et per tempus messis et vindimie misso domnico super
+                        heredibus in <rs key="#Landed_possessions">terra</rs> et <rs key="#Houses"
+                            >casa</rs>, <rs key="#Wine">vinea</rs>, <rs key="#Hay/fodder">prado</rs>
+                        seo <rs key="#Forests">silva</rs> iurex illa in proprio vestro in loco
+                            <placeName>Castellani</placeName>, qui perline de <rs key="#Curtes"
+                            >curte</rs> vestra <geogName key="#Curtes" ref="#estates/2396"
+                            >Sablone</geogName>, qui ante os dies per te ipso Lubo per livello
+                        erec[te] fue, oc sunt<rs key="#Size"> iuges duodecim,</rs> in ea vero
+                        racione dedistis nobis ut nos suprascripti libellarii vel nostris heredes
+                        super ipses rex et in ipsa casa resedere et laborare et escollere debeamus
+                        puriter et fideliter sine fraudo vel nelicto da odie usque ad annos viginti
+                        et nove et exinde reditum peresolvere debeamus per uno quemque anni de omnis
+                            genere<rs key="#Rent_in_kind"> grano, que super ipsa terra seminata
+                            fuerit et Dominus dederit, modio quarto, vino medietatem </rs>abeamus
+                        exinde antepoxito prado, <rs key="#Fruits/vegetables">orto</rs>, rabe, <rs
+                            key="#Linen">lino</rs>, vicia, <rs key="#Legumes">facioli</rs>, unde non
+                        redamus <rs key="#Exenia">etsenio</rs> in anno dare debeamus i[n] natale
+                        Domini, <rs key="#Poultry">pullo</rs> uno, <rs key="#Eggs">hoves</rs>
+                        quinque et in pasca Domini <rs key="#Rent_in_money">dinarii quatuor</rs>,
+                            <rs key="#Operae">operes</rs> in anno facere debeamus omnis mense opere
+                        due, medietatem cum <rs key="#Cows">bovis</rs> et medietatem manoalis hic in
+                        suprascripta curte vestra Sablone cum anona domnica <rs key="#Angaria"
+                            >angarias</rs> in anno facere debeamus quantum nos exinde contangi et
+                        per tempus messis et vindimie <rs key="#Missus">misso</rs> domnico super
                         adstante et pinnerati et distrinti esse debeamus usque ad lex et iusticiam
                         faciemus et suprascripto reditum quem rederimus grano vino seo etsenio
                         vegere et consinnare debearnus hic in suprascripta curte vestra Sablone et
@@ -111,16 +128,26 @@
                         menare voluerimus, aut amplius super inponere voluerimus et non
                         permanserimus in omnia qualiter superius legitur, tunc componamus pars ad
                         pars parti fidem servanti unus de nos vel de nostris heredibus de super quem
-                        culpa inventa fuerit, id est pena numero in argento solidi viginti. Unde
-                        duos libelli conscriti sunt ad ambes partis ad omnia suprascripta. Actum in
-                        curte Sablone. Signa Ϯ Ϯ manibus Luboni140 et alio Lubo, qui unc libellum
-                        fieri rogavi. Signa Ϯ Ϯ Ϯ Ϯ manibus Vuifredi et Ugoni et Auradi et Araldi ex
-                        genus Francorurn rogatis testis. Signa Ϯ Ϯ Ϯ manibus Marini et Teosperti et
-                        Petroni rogatis testis. Ϯ Scripto libello per manum Marini notarii.</ab>
+                        culpa inventa fuerit, id est pena numero in <rs key="#Penalty">argento
+                            solidi viginti. </rs>Unde duos libelli conscriti sunt ad ambes partis ad
+                        omnia suprascripta. Actum in curte Sablone. Signa Ϯ Ϯ manibus Luboni et alio
+                        Lubo, qui unc libellum fieri rogavi. Signa Ϯ Ϯ Ϯ Ϯ manibus <persName
+                            key="#Witness #Salian"><name ref="Wifredus">Vuifredi</name></persName>
+                        et <persName key="#Witness #Salian"><name ref="Hugo">Ugoni</name></persName>
+                        et <persName key="#Witness #Salian"><name ref="Auradus"
+                            >Auradi</name></persName> et <persName key="#Witness #Salian"><name
+                                ref="Araldus">Araldi</name></persName> ex genus Francorurn rogatis
+                            <rs key="#Witness">testis</rs>. Signa Ϯ Ϯ Ϯ manibus <persName
+                            key="#Witness"><name ref="Marinus">Marini</name></persName> et <persName
+                            key="#Witness"><name ref="Teudebertus">Teosperti</name></persName> et
+                            <persName key="#Witness"><name ref="Petrus">Petroni</name></persName>
+                        rogatis testis. Ϯ Scripto libello per manum <persName key="#Notary"><name
+                                ref="Marinus">Marini</name></persName>
+                        <rs key="#Notary">notarii</rs>.</ab>
                 </div>
             </div>
             <div type="bibliography" subtype="editions">
-                <p>Drei, Le carte, I, n. 11, pp. 58-9.</p>
+                <p>Drei, <foreign>Le carte,</foreign> I, n. 11, pp. 58-9.</p>
             </div>
             <div type="bibliography" subtype="additional">
                 <p/>
