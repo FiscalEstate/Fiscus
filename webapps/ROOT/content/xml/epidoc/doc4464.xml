@@ -80,12 +80,14 @@
         <body>
             <div type="edition">
                 <div type="textpart">
-                    <ab>(ST) In Christi nomine. <persName ref="#people/233">Berengarius</persName>
-                        et <persName ref="#people/234">Adelbertus</persName> filius eius gracia Dei
-                            <rs key="#Emperor/king">reges</rs>, anno regni eorum nono, mense magius,
+                    <ab>(ST) In Christi nomine. <persName ref="#people/233" key="#Emperor/king"
+                            >Berengarius</persName> et <persName ref="#people/234"
+                            key="#Emperor/king">Adelbertus</persName> filius eius gracia Dei <rs
+                            key="#Emperor/king">reges</rs>, anno regni eorum nono, mense magius,
                         indicione secunda. Constat me <persName key="#siblingOf"><name
                                 ref="Ragibertus">Regimbertus</name></persName> qui et Reginzo
-                        quondam Ursoni de <rs key="#Cities">civitate</rs>
+                        quondam <persName><name ref="Ursus">Ursoni</name></persName> de <rs
+                            key="#Cities">civitate</rs>
                         <placeName ref="#places/10">Bergamo</placeName> accepisem sicuti et in
                         presenciam testium accepi ad te <persName ref="#people/4670"
                             key="#siblingOf">Adremperga</persName>
@@ -95,38 +97,50 @@
                             >teritoris</rs> iuris mei que abere viso sum infra eadem civitatem
                         Bergamo seu foris adque in <rs key="#Vici">vicis</rs> et <rs key="#Fundi"
                             >fundis</rs>
-                        <placeName key="#Vici #Fundi"><name ref="Presezzo"
-                            >Presidio</name></placeName>, <placeName key="#Vici #Fundi"><name
-                                ref="Anteniano">Anteniano</name></placeName>, <placeName
-                            key="#Vici #Fundi"><name ref="Pricorio">Pricorio</name></placeName>,
-                            <placeName key="#Vici #Fundi"><name ref="Manica"
-                            >Manica</name></placeName>, <placeName key="#Vici #Fundi"><name
-                                ref="Pranzanica">Pranzanica</name></placeName>, <placeName
-                            key="#Vici #Fundi"><name ref="Sauniano">Sauniano</name></placeName>,
-                            <placeName key="#Vici #Fundi"><name ref="Gandino"
-                            >Gandino</name></placeName>, per aliis singulis locis; ut dictum est,
-                        tam casis cum aliis edificiis, cum sediminibus seu terris, curteficiis, <rs
-                            key="#Cereals">campis</rs>, <rs key="#Hay/fodder">pratis, passcuis</rs>,
-                            <rs key="#Wine">vineis</rs>, <rs key="#Forests">silvis</rs> ac
-                        stellareis, <rs key="#Fruits/vegetables">arboribus</rs>, ripis, ripinis,
-                        cultis et incultis, divisis et indivisis, usibus <rs key="#Rivers">aquarum
-                            aquarumque ductibus</rs> seo in concillibas locas, omnia et omnibus
-                        sicut mihi qui supra vinditori per qualecumque ingenio legibus pertinet aut
-                        pertinuit vel pertinere debentur in integrum. Que autem suprascriptis casis
-                        et omnibus rebus, qualiter supe-rius legitur, cum superioribus et
-                        inferioribus, cum ingresso et accessione sua presenti die in tua qui supra
-                        emtrice mea et cui tu dederis vestrisque eredibus persistat potestatem, iure
-                        proprietario nomine abendum et faciendum exinde quitquit volueritis sine
-                        omni mea et eredibus meis contradicionem. Quidem et spondeo adque promito me
-                        ego qui supra vinditor cum meis eredibus tibi qui supra emtrice mea et cui
-                        tu dederis vestrisque eredibus suprascriptam vind(icionem) adinplere et ab
-                        omni contradicione hominem defensare. Quod si defendere non potuerimus aut
-                        contra ac cartola agere quesierimus, tunc<rs key="#Penalty"> in dublum</rs>
-                        vobis predicta vind(ita) restituamus, melioratis quam in tempore fuerint aut
+                        <placeName key="#Vici #Fundi">
+                            <geogName
+                                key="#Cereals #Forests #Hay/fodder #Wine #Fruits/vegetables #Fundi #Petiae"
+                                ref="#estates/4192">Presidio</geogName></placeName>, <placeName
+                            key="#Vici #Fundi"><geogName
+                                key="#Cereals #Forests #Hay/fodder #Wine #Fruits/vegetables #Fundi #Petiae"
+                                ref="#estates/4193">Anteniano</geogName></placeName>, <placeName
+                            key="#Vici #Fundi"><geogName
+                                key="#Cereals #Forests #Hay/fodder #Wine #Fruits/vegetables #Fundi #Petiae"
+                                ref="#estates/4194">Pricorio</geogName></placeName>, <placeName
+                            key="#Vici #Fundi"><geogName
+                                key="#Cereals #Forests #Hay/fodder #Wine #Fruits/vegetables #Fundi #Petiae"
+                                ref="#estates/4195">Manica</geogName></placeName>, <placeName
+                            key="#Vici #Fundi"><geogName
+                                key="#Cereals #Forests #Hay/fodder #Wine #Fruits/vegetables #Fundi #Petiae"
+                                ref="#estates/4196">Pranzanica</geogName></placeName>, <placeName
+                            key="#Vici #Fundi"><geogName
+                                key="#Cereals #Forests #Hay/fodder #Wine #Fruits/vegetables #Fundi #Petiae"
+                                ref="#estates/4197">Sauniano</geogName></placeName>, <placeName
+                            key="#Vici #Fundi"><geogName
+                                key="#Cereals #Forests #Hay/fodder #Wine #Fruits/vegetables #Fundi #Petiae"
+                                ref="#estates/4198">Gandino</geogName></placeName>, per aliis
+                        singulis locis; ut dictum est, tam casis cum aliis edificiis, cum
+                        sediminibus seu terris, curteficiis, <rs key="#Cereals">campis</rs>, <rs
+                            key="#Hay/fodder">pratis, passcuis</rs>, <rs key="#Wine">vineis</rs>,
+                            <rs key="#Forests">silvis</rs> ac stellareis, <rs
+                            key="#Fruits/vegetables">arboribus</rs>, ripis, ripinis, cultis et
+                        incultis, divisis et indivisis, usibus <rs key="#Rivers">aquarum aquarumque
+                            ductibus</rs> seo in concillibas locas, omnia et omnibus sicut mihi qui
+                        supra vinditori per qualecumque ingenio legibus pertinet aut pertinuit vel
+                        pertinere debentur in integrum. Que autem suprascriptis casis et omnibus
+                        rebus, qualiter supe-rius legitur, cum superioribus et inferioribus, cum
+                        ingresso et accessione sua presenti die in tua qui supra emtrice mea et cui
+                        tu dederis vestrisque eredibus persistat potestatem, iure proprietario
+                        nomine abendum et faciendum exinde quitquit volueritis sine omni mea et
+                        eredibus meis contradicionem. Quidem et spondeo adque promito me ego qui
+                        supra vinditor cum meis eredibus tibi qui supra emtrice mea et cui tu
+                        dederis vestrisque eredibus suprascriptam vind(icionem) adinplere et ab omni
+                        contradicione hominem defensare. Quod si defendere non potuerimus aut contra
+                        ac cartola agere quesierimus, tunc<rs key="#Penalty"> in dublum</rs> vobis
+                        predicta vind(ita) restituamus, melioratis quam in tempore fuerint aut
                         valuerint sub estimacione in eodem loco; quia sic inter nobis convenit. Acto
-                                <placeName><name ref="Tresolzio (Brembate Sopra)"
-                            >Trasalcio</name></placeName>. Signum manus suprascripto Regimberti qui
-                        ac cartola fieri rogavi et ei relecta est. Signum manibus <persName
+                            <placeName>Trasalcio</placeName>. Signum manus suprascripto Regimberti
+                        qui ac cartola fieri rogavi et ei relecta est. Signum manibus <persName
                             key="#Witness #siblingOf"><name ref="Petrus">Petri</name></persName> et
                             <persName key="#Witness #siblingOf"><name ref="Agibrandus"
                                 >Ageprandi</name></persName> germanis de vico Trasalcio, <persName

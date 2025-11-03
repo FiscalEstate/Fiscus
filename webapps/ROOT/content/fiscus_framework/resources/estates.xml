@@ -9516,7 +9516,7 @@
                         <idno>estates/4105</idno>
                         <note/>
                         <link type="places" corresp="#places/5304" subtype="correspondsTo"/>
-                        <link type="people" corresp="#people/4678" subtype="link"/>
+                        <link type="people" corresp="#people/4678" subtype="rectorOf"/>
                         <link type="people" corresp="#people/4679" subtype="link"/>
                     </place>
                     <place>
@@ -9526,8 +9526,8 @@
                         <note/>
                         <link type="places" corresp="#places/5304" subtype="correspondsTo"/>
                         <link type="estates" corresp="#estates/4105" subtype="link"/>
-                        <link type="people" corresp="#people/4679" subtype="rectorOf"/>
-                        <link type="people" corresp="#people/4678" subtype="link"/>
+                        <link type="people" corresp="#people/4679" subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/4678" subtype="isGrantedTo"/>
                     </place>
                     <place>
                         <geogName><foreign>Munterioni</foreign>; <rs>castrum</rs></geogName>
@@ -9538,7 +9538,8 @@
                         <link type="people" corresp="#people/4720" subtype="link"/>
                     </place>
                     <place>
-                        <geogName><foreign>Musiliano</foreign>; <foreign>fundus</foreign></geogName>
+                        <geogName><foreign>Musiliano</foreign>; <foreign>fundus</foreign>
+                            (Bologna)</geogName>
                         <geogName type="other"/>
                         <idno>estates/4108</idno>
                         <note/>
@@ -9565,7 +9566,7 @@
                         <note/>
                     </place>
                     <place>
-                        <geogName>Galliera; <foreign>castrum</foreign></geogName>
+                        <geogName>Galliera; <foreign>castrum</foreign> (Bologna)</geogName>
                         <geogName type="other"><foreign>Galeria</foreign></geogName>
                         <idno>estates/4111</idno>
                         <note/>
@@ -9761,20 +9762,34 @@
                         <geogName type="other"/>
                         <idno>estates/4133</idno>
                         <note/>
+                        <link type="people" corresp="#people/4678" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/4679" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/4695" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/4696" subtype="link"/>
+                        <link type="people" corresp="#people/4697" subtype="isGrantedBy"/>
                     </place>
                     <place>
-                        <geogName>Palosco; <foreign>fundus</foreign></geogName>
+                        <geogName>Palosco; <foreign>fundus</foreign> (Bergamo)</geogName>
                         <geogName type="other"/>
                         <idno>estates/4134</idno>
                         <note/>
                         <link type="juridical_persons" corresp="#juridical_persons/189"
                             subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/4668" subtype="isManagedBy"/>
+                        <link type="people" corresp="#people/4669" subtype="link"/>
+                        <link type="people" corresp="#people/4678" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/4679" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/4695" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/4696" subtype="link"/>
+                        <link type="people" corresp="#people/4697" subtype="isGrantedBy"/>
                     </place>
                     <place>
-                        <geogName><foreign>Glariola</foreign>; <foreign>fundus</foreign></geogName>
+                        <geogName><foreign>Glariola</foreign>; <foreign>fundus</foreign>
+                            (Brescia)</geogName>
                         <geogName type="other"/>
                         <idno>estates/4135</idno>
-                        <note>Collocazione non identificata, nei pressi di Brescia.</note>
+                        <note/>
+                        <link type="people" corresp="#people/673" subtype="isGrantedTo"/>
                     </place>
                     <place>
                         <geogName><foreign>Cloza</foreign>; <foreign>fundus</foreign></geogName>
@@ -9787,7 +9802,8 @@
                             subtype="isGrantedTo"/>
                     </place>
                     <place>
-                        <geogName><foreign>Vinti</foreign>; <foreign>fundus</foreign></geogName>
+                        <geogName><foreign>Vinti</foreign>; <foreign>fundus</foreign>
+                            (Bologna)</geogName>
                         <geogName type="other"/>
                         <idno>estates/4137</idno>
                         <note/>
@@ -9818,7 +9834,8 @@
                             subtype="isGrantedTo"/>
                     </place>
                     <place>
-                        <geogName><foreign>Cignaulo</foreign>; <foreign>fundus</foreign></geogName>
+                        <geogName><foreign>Cignaulo</foreign>; <foreign>fundus</foreign>
+                            (Bologna)</geogName>
                         <geogName type="other"/>
                         <idno>estates/4140</idno>
                         <note>Forse identificabile con Cignano, nei pressi di Pianoro (Cencetti,
@@ -9829,7 +9846,8 @@
                             subtype="isGrantedTo"/>
                     </place>
                     <place>
-                        <geogName><foreign>Lupolito</foreign>; <foreign>fundus</foreign></geogName>
+                        <geogName><foreign>Lupolito</foreign>; <foreign>fundus</foreign>
+                            (Bologna)</geogName>
                         <geogName type="other"><foreign>Lopolito</foreign></geogName>
                         <idno>estates/4141</idno>
                         <note/>
@@ -9839,7 +9857,8 @@
                             subtype="isGrantedTo"/>
                     </place>
                     <place>
-                        <geogName><foreign>Linare</foreign>; <foreign>curtis</foreign></geogName>
+                        <geogName><foreign>Linare</foreign>; <foreign>curtis</foreign>
+                            (Bologna)</geogName>
                         <geogName type="other"/>
                         <idno>estates/4142</idno>
                         <note>Situato nella pieve di S. Marino/Lovoleto (Cencetti, <foreign>Le
@@ -9864,7 +9883,7 @@
                         <geogName><foreign>Aguilla</foreign>; <foreign>villa</foreign></geogName>
                         <geogName type="other"/>
                         <idno>estates/4144</idno>
-                        <note/>
+                        <note>Situata probabilmente nei pressi di Modena.</note>
                         <link type="juridical_persons" corresp="#juridical_persons/47"
                             subtype="link"/>
                     </place>
@@ -9883,8 +9902,8 @@
                         <geogName type="other"/>
                         <idno>estates/4146</idno>
                         <note/>
-                        <link type="people" corresp="#people/4763" subtype="isGrantedBy"/>
-                        <link type="people" corresp="#people/4845" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/4763" subtype="isOwnedBy"/>
+                        <link type="people" corresp="#people/4845" subtype="isOwnedBy"/>
                     </place>
                     <place>
                         <geogName><foreign>Pariola</foreign>; <foreign>curtis</foreign></geogName>
@@ -9993,6 +10012,9 @@
                         <link type="people" corresp="#people/4626" subtype="isGrantedBy"/>
                         <link type="people" corresp="#people/1308" subtype="isGrantedTo"/>
                         <link type="people" corresp="#people/4629" subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/4640" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/4641" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/4642" subtype="isGrantedTo"/>
                     </place>
                     <place>
                         <geogName>Mosezzo; <foreign>fundus</foreign> (Novara)</geogName>
@@ -10039,6 +10061,1045 @@
                         <link type="people" corresp="#people/4630" subtype="link"/>
                         <link type="juridical_persons" corresp="#juridical_persons/114"
                             subtype="isGrantedTo"/>
+                    </place>
+                    <place>
+                        <geogName><foreign>A Cerreto</foreign>; <foreign>petia</foreign>
+                            (Novara)</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/4164</idno>
+                        <note/>
+                        <link type="people" corresp="#people/4632" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/4633" subtype="isGrantedBy"/>
+                        <link type="estates" corresp="#estates/4158" subtype="proximity"/>
+                    </place>
+                    <place>
+                        <geogName>Vespolate; <foreign>fundus</foreign></geogName>
+                        <geogName type="other"/>
+                        <idno>estates/4165</idno>
+                        <note/>
+                        <link type="places" corresp="#places/838" subtype="correspondsTo"/>
+                        <link type="estates" corresp="#estates/403" subtype="isWithin"/>
+                        <link type="people" corresp="#people/4639" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/4635" subtype="isGrantedBy"/>
+                    </place>
+                    <place>
+                        <geogName><foreign>Stodegarda</foreign>; <foreign>fundus</foreign>
+                            (Novara)</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/4166</idno>
+                        <note/>
+                        <link type="people" corresp="#people/4639" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/4635" subtype="isGrantedBy"/>
+                    </place>
+                    <place>
+                        <geogName><foreign>Ad Paliate</foreign>; <foreign>petia</foreign>
+                            (Novara)</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/4167</idno>
+                        <note/>
+                        <link type="estates" corresp="#estates/4158" subtype="isWithin"/>
+                        <link type="people" corresp="#people/4638" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/4637" subtype="isGrantedBy"/>
+                    </place>
+                    <place>
+                        <geogName><foreign>Gudi</foreign>; <foreign>fundus</foreign>
+                            (Alessandria)</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/4168</idno>
+                        <note/>
+                        <link type="people" corresp="#people/4643" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/4644" subtype="isGrantedBy"/>
+                    </place>
+                    <place>
+                        <geogName>Pezzana; <foreign>fundus</foreign> (Vercelli)</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/4169</idno>
+                        <note/>
+                        <link type="people" corresp="#people/4645" subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/4646" subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/4647" subtype="isGrantedTo"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/111"
+                            subtype="isGrantedTo"/>
+                    </place>
+                    <place>
+                        <geogName>Rivarolo; <foreign>fundus</foreign> (Genova)</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/4170</idno>
+                        <note/>
+                        <link type="people" corresp="#people/4648" subtype="isGrantedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3902"
+                            subtype="isGrantedTo"/>
+                    </place>
+                    <place>
+                        <geogName><foreign>Mauriade</foreign>; <foreign>fundus</foreign>
+                            (Genova)</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/4171</idno>
+                        <note/>
+                        <link type="people" corresp="#people/4648" subtype="isGrantedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3902"
+                            subtype="isGrantedTo"/>
+                    </place>
+                    <place>
+                        <geogName>Campofregoso; <foreign>fundus</foreign> (Genova)</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/4172</idno>
+                        <note/>
+                        <link type="people" corresp="#people/4648" subtype="isGrantedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3902"
+                            subtype="isGrantedTo"/>
+                    </place>
+                    <place>
+                        <geogName>Cella; <foreign>fundus</foreign> (Genova)</geogName>
+                        <geogName type="other">Domocolta</geogName>
+                        <idno>estates/4173</idno>
+                        <note/>
+                        <link type="people" corresp="#people/4648" subtype="isGrantedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3902"
+                            subtype="isGrantedTo"/>
+                    </place>
+                    <place>
+                        <geogName>Granarolo; <foreign>fundus</foreign> (Genova)</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/4174</idno>
+                        <note/>
+                        <link type="people" corresp="#people/4648" subtype="isGrantedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3902"
+                            subtype="isGrantedTo"/>
+                    </place>
+                    <place>
+                        <geogName>ad Gallaneto; <foreign>petia</foreign> (Genova)</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/4175</idno>
+                        <note>Terreno situato nella Valle Porcevera.</note>
+                        <link type="people" corresp="#people/4750" subtype="isGrantedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3902"
+                            subtype="isGrantedTo"/>
+                    </place>
+                    <place>
+                        <geogName>Ad Albaro; <foreign>petia</foreign> (Genova)</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/4176</idno>
+                        <note>Terreno situato nella Val Bisagno.</note>
+                        <link type="people" corresp="#people/4750" subtype="isGrantedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3902"
+                            subtype="isGrantedTo"/>
+                    </place>
+                    <place>
+                        <geogName>Dova; <foreign>fundus</foreign></geogName>
+                        <geogName type="other"/>
+                        <idno>estates/4177</idno>
+                        <note/>
+                        <link type="people" corresp="#people/4651" subtype="isGrantedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3903"
+                            subtype="isGrantedTo"/>
+                        <link type="estates" corresp="#estates/306" subtype="isWithin"/>
+                    </place>
+                    <place>
+                        <geogName>Casal Bozone; <foreign>fundus</foreign></geogName>
+                        <geogName type="other"/>
+                        <idno>estates/4178</idno>
+                        <note/>
+                        <link type="people" corresp="#people/4651" subtype="isGrantedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3903"
+                            subtype="isGrantedTo"/>
+                        <link type="estates" corresp="#estates/306" subtype="isWithin"/>
+                    </place>
+                    <place>
+                        <geogName>Agnero; <foreign>fundus</foreign></geogName>
+                        <geogName type="other"/>
+                        <idno>estates/4179</idno>
+                        <note/>
+                        <link type="people" corresp="#people/4651" subtype="isGrantedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3903"
+                            subtype="isGrantedTo"/>
+                        <link type="estates" corresp="#estates/306" subtype="isWithin"/>
+                    </place>
+                    <place>
+                        <geogName><foreign>ad Sanctum Martinum</foreign>;
+                            <foreign>petia</foreign></geogName>
+                        <geogName type="other"/>
+                        <idno>estates/4180</idno>
+                        <note/>
+                        <link type="people" corresp="#people/4653" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/4652" subtype="link"/>
+                        <link type="places" corresp="#places/626" subtype="proximity"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3902"
+                            subtype="isGrantedTo"/>
+                    </place>
+                    <place>
+                        <geogName>Carignano; <foreign>fundus</foreign></geogName>
+                        <geogName type="other"/>
+                        <idno>estates/4181</idno>
+                        <note/>
+                        <link type="people" corresp="#people/4652" subtype="link"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3902"
+                            subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/4659" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/4658" subtype="isGrantedBy"/>
+                    </place>
+                    <place>
+                        <geogName>Calepio; <foreign>fundus</foreign> (Bergamo)</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/4182</idno>
+                        <note/>
+                        <link type="people" corresp="#people/4660" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/4661" subtype="link"/>
+                    </place>
+                    <place>
+                        <geogName>Solarolo; <foreign>fundus</foreign> (Bergamo)</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/4183</idno>
+                        <note/>
+                        <link type="people" corresp="#people/4660" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/4661" subtype="link"/>
+                    </place>
+                    <place>
+                        <geogName><foreign>Utgone</foreign>; <foreign>fundus</foreign></geogName>
+                        <geogName type="other"/>
+                        <idno>estates/4184</idno>
+                        <note/>
+                        <link type="people" corresp="#people/4662" subtype="isGrantedBy"/>
+                    </place>
+                    <place>
+                        <geogName><foreign>Villa</foreign>; <foreign>fundus</foreign>
+                            (Bergamo)</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/4185</idno>
+                        <note/>
+                        <link type="people" corresp="#people/4663" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/4664" subtype="link"/>
+                    </place>
+                    <place>
+                        <geogName><foreign>Idule</foreign>; <foreign>fundus</foreign>
+                            (Bergamo)</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/4186</idno>
+                        <note/>
+                        <link type="places" corresp="#places/1827" subtype="isWithin"/>
+                        <link type="people" corresp="#people/4663" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/4664" subtype="link"/>
+                    </place>
+                    <place>
+                        <geogName>Bonate di Sopra; <foreign>fundus</foreign> (Bergamo)</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/4187</idno>
+                        <note/>
+                        <link type="people" corresp="#people/4665" subtype="isGrantedBy"/>
+                    </place>
+                    <place>
+                        <geogName><foreign>a Quisa</foreign>; <foreign>petia</foreign></geogName>
+                        <geogName type="other"/>
+                        <idno>estates/4188</idno>
+                        <note/>
+                        <link type="people" corresp="#people/4666" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/4667" subtype="link"/>
+                    </place>
+                    <place>
+                        <geogName>Torre; <foreign>fundus</foreign> (Bergamo)</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/4189</idno>
+                        <note/>
+                        <link type="people" corresp="#people/4669" subtype="link"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/189"
+                            subtype="isGrantedTo"/>
+                    </place>
+                    <place>
+                        <geogName>Treviglio; <foreign>fundus</foreign> (Bergamo)</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/4190</idno>
+                        <note/>
+                        <link type="people" corresp="#people/4669" subtype="link"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/189"
+                            subtype="isGrantedTo"/>
+                    </place>
+                    <place>
+                        <geogName>Zandobbio; <foreign>fundus</foreign> (Bergamo)</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/4191</idno>
+                        <note/>
+                        <link type="people" corresp="#people/4669" subtype="link"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/189"
+                            subtype="isGrantedTo"/>
+                    </place>
+                    <place>
+                        <geogName>Presezzo; <foreign>fundus</foreign> (Bergamo)</geogName>
+                        <geogName type="other"><foreign>Presidio</foreign></geogName>
+                        <idno>estates/4192</idno>
+                        <note/>
+                        <link type="people" corresp="#people/4670" subtype="isGrantedTo"/>
+                    </place>
+                    <place>
+                        <geogName><foreign>Anteniano</foreign>; <foreign>fundus</foreign>
+                            (Bergamo)</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/4193</idno>
+                        <note/>
+                        <link type="people" corresp="#people/4670" subtype="isGrantedTo"/>
+                    </place>
+                    <place>
+                        <geogName><foreign>Pricorio</foreign>; <foreign>fundus</foreign>
+                            (Bergamo)</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/4194</idno>
+                        <note/>
+                        <link type="people" corresp="#people/4670" subtype="isGrantedTo"/>
+                    </place>
+                    <place>
+                        <geogName><foreign>Manica</foreign>; <foreign>fundus</foreign>
+                            (Bergamo)</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/4195</idno>
+                        <note/>
+                        <link type="people" corresp="#people/4670" subtype="isGrantedTo"/>
+                    </place>
+                    <place>
+                        <geogName><foreign>Pranzanica</foreign>; <foreign>fundus</foreign>
+                            (Bergamo)</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/4196</idno>
+                        <note/>
+                        <link type="people" corresp="#people/4670" subtype="isGrantedTo"/>
+                    </place>
+                    <place>
+                        <geogName><foreign>Sauniano</foreign>; <foreign>fundus</foreign>
+                            (Bergamo)</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/4197</idno>
+                        <note/>
+                        <link type="people" corresp="#people/4670" subtype="isGrantedTo"/>
+                    </place>
+                    <place>
+                        <geogName>Gandino; fundus (Bergamo)</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/4198</idno>
+                        <note/>
+                        <link type="people" corresp="#people/4670" subtype="isGrantedTo"/>
+                    </place>
+                    <place>
+                        <geogName><foreign>Isione</foreign>; <foreign>fundus</foreign>
+                            (Bergamo)</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/4199</idno>
+                        <note/>
+                        <link type="people" corresp="#people/4671" subtype="isGrantedBy"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/188"
+                            subtype="isGrantedTo"/>
+                    </place>
+                    <place>
+                        <geogName><foreign>a Medolacum</foreign>; <foreign>petia</foreign>
+                            (Bergamo)</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/4200</idno>
+                        <note/>
+                        <link type="people" corresp="#people/4672" subtype="isGrantedTo"/>
+                    </place>
+                    <place>
+                        <geogName><foreign>ad Albariolo</foreign>; <foreign>petia</foreign>
+                            (Bergamo)</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/4201</idno>
+                        <note/>
+                        <link type="people" corresp="#people/9673" subtype="isGrantedTo"/>
+                    </place>
+                    <place>
+                        <geogName><foreign>a Petrorium</foreign>; <foreign>petia</foreign>
+                            (Bergamo)</geogName>
+                        <geogName type="other"><foreign>Predorio</foreign></geogName>
+                        <idno>estates/4202</idno>
+                        <note/>
+                        <link type="people" corresp="#people/4674" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/4675" subtype="link"/>
+                    </place>
+                    <place>
+                        <geogName>Calcinate; <foreign>fundus</foreign> (Bergamo)</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/4203</idno>
+                        <note/>
+                        <link type="people" corresp="#people/4677" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/4676" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/4696" subtype="link"/>
+                        <link type="people" corresp="#people/4697" subtype="isGrantedBy"/>
+                    </place>
+                    <place>
+                        <geogName>Ceredello; <foreign>fundus</foreign> (Bergamo)</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/4204</idno>
+                        <note/>
+                        <link type="people" corresp="#people/4678" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/4679" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/4696" subtype="link"/>
+                        <link type="people" corresp="#people/4697" subtype="isGrantedBy"/>
+                    </place>
+                    <place>
+                        <geogName>Cassenago; <foreign>fundus</foreign> (Bergamo)</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/4205</idno>
+                        <note/>
+                        <link type="people" corresp="#people/4678" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/4679" subtype="isGrantedBy"/>
+                    </place>
+                    <place>
+                        <geogName>Cassenatello; <foreign>fundus</foreign> (Bergamo)</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/4206</idno>
+                        <note/>
+                        <link type="people" corresp="#people/4678" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/4679" subtype="isGrantedBy"/>
+                    </place>
+                    <place>
+                        <geogName>Rudelliano; <foreign>fundus</foreign> (Bergamo)</geogName>
+                        <geogName type="other"><foreign>Rudiliano</foreign></geogName>
+                        <idno>estates/4207</idno>
+                        <note/>
+                        <link type="people" corresp="#people/4678" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/4679" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/4696" subtype="link"/>
+                        <link type="people" corresp="#people/4697" subtype="isGrantedBy"/>
+                    </place>
+                    <place>
+                        <geogName>Malago; <foreign>fundus</foreign> (Bergamo)</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/4208</idno>
+                        <note/>
+                        <link type="people" corresp="#people/4678" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/4679" subtype="isGrantedBy"/>
+                    </place>
+                    <place>
+                        <geogName>Adrevigo; <foreign>fundus</foreign> (Bergamo)</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/4209</idno>
+                        <note/>
+                        <link type="people" corresp="#people/4678" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/4679" subtype="isGrantedBy"/>
+                    </place>
+                    <place>
+                        <geogName>Cisano; <foreign>fundus</foreign> (Bergamo)</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/4210</idno>
+                        <note/>
+                        <link type="people" corresp="#people/4678" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/4679" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/4695" subtype="link"/>
+                        <link type="people" corresp="#people/4696" subtype="link"/>
+                        <link type="people" corresp="#people/4697" subtype="isGrantedBy"/>
+                    </place>
+                    <place>
+                        <geogName>Brivio; <foreign>fundus</foreign> (Bergamo)</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/4211</idno>
+                        <note/>
+                        <link type="people" corresp="#people/4678" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/4679" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/4695" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/4696" subtype="link"/>
+                        <link type="people" corresp="#people/4697" subtype="isGrantedBy"/>
+                    </place>
+                    <place>
+                        <geogName><foreign>a Ravariolo</foreign>; <foreign>petia</foreign>
+                            (Bergamo)</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/4212</idno>
+                        <note/>
+                        <link type="people" corresp="#people/4680" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/4681" subtype="isGrantedBy"/>
+                    </place>
+                    <place>
+                        <geogName><foreign>a Tusilio</foreign>; <foreign>petia</foreign>
+                            (Bergamo)</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/4213</idno>
+                        <note/>
+                        <link type="people" corresp="#people/4680" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/4681" subtype="isGrantedBy"/>
+                    </place>
+                    <place>
+                        <geogName>Lavate; <foreign>fundus</foreign> (Bergamo)</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/4214</idno>
+                        <note/>
+                        <link type="people" corresp="#people/4683" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/4684" subtype="link"/>
+                    </place>
+                    <place>
+                        <geogName>Verdello; <foreign>fundus</foreign> (Bergamo)</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/4215</idno>
+                        <note/>
+                        <link type="people" corresp="#people/4683" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/4684" subtype="link"/>
+                    </place>
+                    <place>
+                        <geogName>Dalmine; <foreign>fundus</foreign> (Bergamo)</geogName>
+                        <geogName type="other"><foreign>Almine</foreign></geogName>
+                        <idno>estates/4216</idno>
+                        <note/>
+                        <link type="people" corresp="#people/4683" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/4684" subtype="link"/>
+                    </place>
+                    <place>
+                        <geogName>Stezzano; <foreign>fundus</foreign> (Bergamo)</geogName>
+                        <geogName type="other"><foreign>Stegiano</foreign></geogName>
+                        <idno>estates/4217</idno>
+                        <note/>
+                        <link type="people" corresp="#people/4683" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/4684" subtype="link"/>
+                    </place>
+                    <place>
+                        <geogName>Caravaggio; <foreign>fundus</foreign> (Bergamo)</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/4218</idno>
+                        <note/>
+                        <link type="people" corresp="#people/4683" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/4684" subtype="link"/>
+                    </place>
+                    <place>
+                        <geogName>Villongo; <foreign>fundus</foreign> (Bergamo)</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/4219</idno>
+                        <note/>
+                        <link type="people" corresp="#people/4683" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/4684" subtype="link"/>
+                    </place>
+                    <place>
+                        <geogName>Paratico; <foreign>fundus</foreign> (Bergamo)</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/4220</idno>
+                        <note/>
+                        <link type="people" corresp="#people/4683" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/4684" subtype="link"/>
+                    </place>
+                    <place>
+                        <geogName><foreign>Permenugo</foreign>; <foreign>fundus</foreign>
+                            (Bergamo)</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/4221</idno>
+                        <note/>
+                        <link type="people" corresp="#people/4683" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/4684" subtype="link"/>
+                    </place>
+                    <place>
+                        <geogName>Calvenzano; fundus (Bergamo)</geogName>
+                        <geogName type="other"><foreign>Calvenciano</foreign></geogName>
+                        <idno>estates/4222</idno>
+                        <note/>
+                        <link type="people" corresp="#people/4685" subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/4686" subtype="isGrantedBy"/>
+                    </place>
+                    <place>
+                        <geogName>Curnasco; <foreign>fundus</foreign> (Bergamo)</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/4223</idno>
+                        <note/>
+                        <link type="people" corresp="#people/4686" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/4685" subtype="isGrantedTo"/>
+                    </place>
+                    <place>
+                        <geogName><foreign>ad Isione</foreign>; <foreign>petia</foreign>
+                            (Bergamo)</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/4224</idno>
+                        <note/>
+                        <link type="people" corresp="#people/4686" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/4687" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/4692" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/4693" subtype="isGrantedBy"/>
+                    </place>
+                    <place>
+                        <geogName>Cortenova; <foreign>fundus</foreign> (Bergamo)</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/4225</idno>
+                        <note/>
+                        <link type="people" corresp="#people/4688" subtype="link"/>
+                        <link type="people" corresp="#people/4689" subtype="isOwnedBy"/>
+                    </place>
+                    <place>
+                        <geogName>Romano; <foreign>fundus</foreign> (Bergamo)</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/4226</idno>
+                        <note/>
+                        <link type="people" corresp="#people/4688" subtype="link"/>
+                        <link type="people" corresp="#people/4689" subtype="isOwnedBy"/>
+                    </place>
+                    <place>
+                        <geogName>Leffe; <foreign>fundus</foreign> (Bergamo)</geogName>
+                        <geogName type="other"><foreign>Leufo</foreign></geogName>
+                        <idno>estates/4227</idno>
+                        <note/>
+                        <link type="people" corresp="#people/4689" subtype="isOwnedBy"/>
+                        <link type="people" corresp="#people/4690" subtype="link"/>
+                        <link type="people" corresp="#people/4691" subtype="link"/>
+                    </place>
+                    <place>
+                        <geogName>Barzizza; <foreign>fundus</foreign> (Bergamo)</geogName>
+                        <geogName type="other"><foreign>Bargegia</foreign></geogName>
+                        <idno>estates/4228</idno>
+                        <note/>
+                        <link type="people" corresp="#people/4689" subtype="isOwnedBy"/>
+                        <link type="people" corresp="#people/4690" subtype="link"/>
+                        <link type="people" corresp="#people/4691" subtype="link"/>
+                    </place>
+                    <place>
+                        <geogName>Colzate; <foreign>fundus</foreign> (Bergamo)</geogName>
+                        <geogName type="other"><foreign>Coligiate</foreign></geogName>
+                        <idno>estates/4229</idno>
+                        <note/>
+                        <link type="people" corresp="#people/4689" subtype="isOwnedBy"/>
+                        <link type="people" corresp="#people/4690" subtype="link"/>
+                        <link type="people" corresp="#people/4691" subtype="link"/>
+                    </place>
+                    <place>
+                        <geogName>Bondo; <foreign>fundus</foreign> (Bergamo)</geogName>
+                        <geogName type="other"><foreign>Bundo</foreign></geogName>
+                        <idno>estates/4230</idno>
+                        <note/>
+                        <link type="people" corresp="#people/4689" subtype="isOwnedBy"/>
+                        <link type="people" corresp="#people/4690" subtype="link"/>
+                        <link type="people" corresp="#people/4691" subtype="link"/>
+                    </place>
+                    <place>
+                        <geogName>Albano; <foreign>fundus</foreign> (Bergamo)</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/4231</idno>
+                        <note/>
+                        <link type="people" corresp="#people/4689" subtype="isOwnedBy"/>
+                        <link type="people" corresp="#people/4690" subtype="link"/>
+                        <link type="people" corresp="#people/4691" subtype="link"/>
+                    </place>
+                    <place>
+                        <geogName><foreign>a Sussiaco</foreign>; <foreign>petia</foreign>
+                            (Bergamo)</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/4232</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/188"
+                            subtype="isOwnedBy"/>
+                        <link type="people" corresp="#people/4694" subtype="link"/>
+                        <link type="estates" corresp="#estates/4233" subtype="isWithin"/>
+                    </place>
+                    <place>
+                        <geogName>Sosciaco; <foreign>fundus</foreign> (Bergamo)</geogName>
+                        <geogName type="other"><foreign>Sexago</foreign></geogName>
+                        <idno>estates/4233</idno>
+                        <note/>
+                        <link type="people" corresp="#people/4697" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/4696" subtype="link"/>
+                    </place>
+                    <place>
+                        <geogName><foreign>Orrea</foreign>; <foreign>curtis</foreign>
+                            (Brescia)</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/4234</idno>
+                        <note/>
+                        <link type="people" corresp="#people/4698" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/4699" subtype="isGrantedTo"/>
+                    </place>
+                    <place>
+                        <geogName><foreign>Ragine</foreign>; <foreign>fundus</foreign>
+                            (Brescia)</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/4235</idno>
+                        <note/>
+                        <link type="people" corresp="#people/4698" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/4699" subtype="isGrantedTo"/>
+                    </place>
+                    <place>
+                        <geogName><foreign>Callionivico</foreign>; <foreign>fundus</foreign>
+                            (Brescia)</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/4236</idno>
+                        <note/>
+                        <link type="people" corresp="#people/4698" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/4699" subtype="isGrantedTo"/>
+                    </place>
+                    <place>
+                        <geogName><foreign>Marmore</foreign>; <foreign>fundus</foreign>
+                            (Brescia)</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/4237</idno>
+                        <note/>
+                        <link type="people" corresp="#people/4698" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/4699" subtype="isGrantedTo"/>
+                    </place>
+                    <place>
+                        <geogName><foreign>Vallesurda</foreign>; <foreign>petia</foreign>
+                            (Cremona)</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/4238</idno>
+                        <note/>
+                        <link type="people" corresp="#people/4813" subtype="isGrantedBy"/>
+                    </place>
+                    <place>
+                        <geogName>San Donato; <foreign>petia</foreign> (Cremona)</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/4239</idno>
+                        <note/>
+                        <link type="people" corresp="#people/4813" subtype="isGrantedBy"/>
+                    </place>
+                    <place>
+                        <geogName><foreign>Cabriate</foreign>; <foreign>petia</foreign>
+                            (Cremona)</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/4240</idno>
+                        <note/>
+                        <link type="people" corresp="#people/4813" subtype="isGrantedTo"/>
+                    </place>
+                    <place>
+                        <geogName><foreign>Anteniate</foreign>; <foreign>petia</foreign>
+                            (Cremona)</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/4241</idno>
+                        <note/>
+                        <link type="people" corresp="#people/4813" subtype="isGrantedTo"/>
+                    </place>
+                    <place>
+                        <geogName><foreign>Gavagiolo</foreign>; <foreign>petia</foreign>
+                            (Cremona)</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/4242</idno>
+                        <note/>
+                        <link type="people" corresp="#people/4813" subtype="isGrantedTo"/>
+                    </place>
+                    <place>
+                        <geogName><foreign>Noxedolo</foreign>; <foreign>petia</foreign>
+                            (Cremona)</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/4243</idno>
+                        <note/>
+                        <link type="people" corresp="#people/4813" subtype="isGrantedTo"/>
+                    </place>
+                    <place>
+                        <geogName><foreign>Lasano</foreign>; <foreign>petiae</foreign>
+                            (Cremona)</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/4244</idno>
+                        <note/>
+                        <link type="people" corresp="#people/673" subtype="isGrantedBy"/>
+                    </place>
+                    <place>
+                        <geogName><foreign>Maleo</foreign>; <foreign>petiae</foreign>
+                            (Lodi)</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/4245</idno>
+                        <note/>
+                        <link type="people" corresp="#people/4816" subtype="isGrantedBy"/>
+                    </place>
+                    <place>
+                        <geogName><foreign>Morario</foreign>; <foreign>petia</foreign>
+                            (Lodi)</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/4246</idno>
+                        <note/>
+                        <link type="people" corresp="#people/4816" subtype="isGrantedBy"/>
+                    </place>
+                    <place>
+                        <geogName><foreign>Pratobisio</foreign>; <foreign>petia</foreign>
+                            (Cremona)</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/4247</idno>
+                        <note/>
+                        <link type="people" corresp="#people/4701" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/4702" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/4700" subtype="isGrantedTo"/>
+                    </place>
+                    <place>
+                        <geogName>Casalmorano; <foreign>petia</foreign> (Cremona)</geogName>
+                        <geogName type="other"><foreign>Casale Maurani</foreign></geogName>
+                        <idno>estates/4248</idno>
+                        <note/>
+                        <link type="people" corresp="#people/4701" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/4702" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/4700" subtype="isGrantedTo"/>
+                    </place>
+                    <place>
+                        <geogName><foreign>Luciriano</foreign>; <foreign>fundus</foreign>
+                            (Bergamo)</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/4249</idno>
+                        <note>Il toponimo è soltanto ipotizzato perché la pergamena è
+                            corrotta.</note>
+                        <link type="people" corresp="#people/4721" subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/4722" subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/1294" subtype="isGrantedBy"/>
+                    </place>
+                    <place>
+                        <geogName>Villola; <foreign>fundus</foreign> (Bologna)</geogName>
+                        <geogName type="other"><foreign>Villula</foreign></geogName>
+                        <idno>estates/4250</idno>
+                        <note/>
+                        <link type="people" corresp="#people/1294" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/4721" subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/4722" subtype="isGrantedTo"/>
+                    </place>
+                    <place>
+                        <geogName><foreign>apud fluvio Savena</foreign>; <foreign>petia</foreign>
+                            (Bologna)</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/4251</idno>
+                        <note/>
+                        <link type="people" corresp="#people/4723" subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/4724" subtype="isGrantedTo"/>
+                    </place>
+                    <place>
+                        <geogName><foreign>in castello de Panicale</foreign>;
+                                <foreign>petia</foreign> (Bologna)</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/4252</idno>
+                        <note/>
+                        <link type="juridical_persons" corresp="#juridical_persons/3905"
+                            subtype="link"/>
+                        <link type="people" corresp="#people/4725" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/4726" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/4727" subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/4728" subtype="isGrantedTo"/>
+                    </place>
+                    <place>
+                        <geogName><foreign>Tosinilano</foreign>; <foreign>fundus</foreign>
+                            (Bologna)</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/4253</idno>
+                        <note/>
+                        <link type="people" corresp="#people/4729" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/4730" subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/4731" subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/4732" subtype="link"/>
+                    </place>
+                    <place>
+                        <geogName><foreign>Laurito</foreign>; <foreign>fundus</foreign>
+                            (Bologna)</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/4254</idno>
+                        <note/>
+                        <link type="people" corresp="#people/4729" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/4730" subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/4731" subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/4732" subtype="link"/>
+                    </place>
+                    <place>
+                        <geogName><foreign>in burgo fori castro de Galiera</foreign>;
+                                <foreign>petia</foreign> (Bologna)</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/4255</idno>
+                        <note/>
+                        <link type="people" corresp="#people/4747" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/4748" subtype="isGrantedBy"/>
+                    </place>
+                    <place>
+                        <geogName><foreign>ad Santum Dalmatium</foreign>; <foreign>petia</foreign>
+                            (Bologna)</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/4256</idno>
+                        <note/>
+                        <link type="people" corresp="#people/4749" subtype="isGrantedTo"/>
+                        <link type="people" corresp="#people/4750" subtype="isGrantedTo"/>
+                    </place>
+                    <place>
+                        <geogName><foreign>Besorso</foreign>; <foreign>fundus</foreign>
+                            (Bologna)</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/4257</idno>
+                        <note/>
+                        <link type="people" corresp="#people/4753" subtype="isGrantedBy"/>
+                    </place>
+                    <place>
+                        <geogName><foreign>in Baioaria</foreign>; <foreign>petia</foreign>
+                            (Modena)</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/4758</idno>
+                        <note/>
+                        <link type="places" corresp="#places/2493" subtype="correspondsTo"/>
+                        <link type="people" corresp="#people/1287" subtype="link"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/96"
+                            subtype="isOwnedBy"/>
+                        <link type="people" corresp="#people/4715" subtype="link"/>
+                        <link type="people" corresp="#people/4716" subtype="link"/>
+                        <link type="people" corresp="#people/1287" subtype="link"/>
+                    </place>
+                    <place>
+                        <geogName><foreign>in Cornaleto</foreign>; <foreign>petia</foreign>
+                            (Modena)</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/4259</idno>
+                        <note/>
+                        <link type="places" corresp="#places/1587" subtype="dependsOn"/>
+                        <link type="people" corresp="#people/1287" subtype="link"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/96"
+                            subtype="isOwnedBy"/>
+                    </place>
+                    <place>
+                        <geogName><foreign>in Ruvereto</foreign>; <foreign>petia</foreign>
+                            (Modena)</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/4260</idno>
+                        <note/>
+                        <link type="places" corresp="#places/3649" subtype="correspondsTo"/>
+                    </place>
+                    <place>
+                        <geogName><foreign>in Curtiule</foreign>; <foreign>petia</foreign>
+                            (Modena)</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/4261</idno>
+                        <note/>
+                        <link type="places" corresp="#places/3650" subtype="correspondsTo"/>
+                    </place>
+                    <place>
+                        <geogName><foreign>in Lupaciana</foreign>; <foreign>petia</foreign>
+                            (Modena)</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/4262</idno>
+                        <note/>
+                        <link type="places" corresp="#places/3635" subtype="correspondsTo"/>
+                        <link type="people" corresp="#people/4711" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/287" subtype="isGrantedTo"/>
+                    </place>
+                    <place>
+                        <geogName><foreign>in Cavedrani</foreign>; <foreign>petia</foreign>
+                            (Modena)</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/4263</idno>
+                        <note/>
+                        <link type="places" corresp="#places/3638" subtype="correspondsTo"/>
+                        <link type="people" corresp="#people/4711" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/287" subtype="isGrantedTo"/>
+                    </place>
+                    <place>
+                        <geogName><foreign>Uliana</foreign>; <foreign>villa</foreign>
+                            (Modena)</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/4264</idno>
+                        <note/>
+                        <link type="places" corresp="#places/1533" subtype="correspondsTo"/>
+                        <link type="people" corresp="#people/4711" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/287" subtype="isGrantedTo"/>
+                    </place>
+                    <place>
+                        <geogName><foreign>in Marzana</foreign>; <foreign>petia</foreign>
+                            (Modena)</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/4265</idno>
+                        <note/>
+                        <link type="places" corresp="#places/3637" subtype="correspondsTo"/>
+                        <link type="people" corresp="#people/4711" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/287" subtype="isGrantedTo"/>
+                    </place>
+                    <place>
+                        <geogName><foreign>in Porcile</foreign>; <foreign>petia</foreign>
+                            (Modena)</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/4266</idno>
+                        <note/>
+                        <link type="people" corresp="#people/287" subtype="link"/>
+                        <link type="people" corresp="#people/4713" subtype="link"/>
+                        <link type="people" corresp="#people/4714" subtype="link"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/96"
+                            subtype="isOwnedBy"/>
+                        <link type="places" corresp="#places/3641" subtype="correspondsTo"/>
+                    </place>
+                    <place>
+                        <geogName><foreign>in Liorico</foreign>; <foreign>petia</foreign>
+                            (Modena)</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/4267</idno>
+                        <note/>
+                        <link type="people" corresp="#people/287" subtype="link"/>
+                        <link type="people" corresp="#people/4713" subtype="link"/>
+                        <link type="people" corresp="#people/4714" subtype="link"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/96"
+                            subtype="isOwnedBy"/>
+                        <link type="places" corresp="#places/3642" subtype="correspondsTo"/>
+                    </place>
+                    <place>
+                        <geogName><foreign>Persiceto</foreign>; <foreign>fundus</foreign>
+                            (Bologna)</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/4268</idno>
+                        <note/>
+                        <link type="people" corresp="#people/287" subtype="link"/>
+                        <link type="people" corresp="#people/4713" subtype="link"/>
+                        <link type="people" corresp="#people/4714" subtype="link"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/96"
+                            subtype="isOwnedBy"/>
+                        <link type="places" corresp="#places/27" subtype="correspondsTo"/>
+                    </place>
+                    <place>
+                        <geogName><foreign>in Formidine</foreign>; <foreign>petia</foreign>
+                            (Modena)</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/4269</idno>
+                        <note/>
+                        <link type="places" corresp="#places/2495" subtype="correspondsTo"/>
+                        <link type="people" corresp="#people/1287" subtype="link"/>
+                        <link type="people" corresp="#people/4715" subtype="link"/>
+                        <link type="people" corresp="#people/4716" subtype="link"/>
+                        <link type="juridical_persons" corresp="#juridical_persons/96"
+                            subtype="isOwnedBy"/>
+                        <link type="people" corresp="#people/1287" subtype="link"/>
+                        <link type="people" corresp="#people/4718" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/4719" subtype="isGrantedBy"/>
+                    </place>
+                    <place>
+                        <geogName><foreign>in Saliceto</foreign>; <foreign>petia</foreign>
+                            (Modena)</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/4270</idno>
+                        <note/>
+                        <link type="places" corresp="#places/1509" subtype="correspondsTo"/>
+                        <link type="people" corresp="#people/4717" subtype="isGrantedTo"/>
+                    </place>
+                    <place>
+                        <geogName><foreign>Panicale</foreign>; <foreign>fundus</foreign>
+                            (Bologna)</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/4271</idno>
+                        <note/>
+                        <link type="people" corresp="#people/4754" subtype="isOwnedBy"/>
+                        <link type="people" corresp="#people/4755" subtype="link"/>
+                        <link type="people" corresp="#people/4756" subtype="link"/>
+                    </place>
+                    <place>
+                        <geogName><foreign>Marcanticus</foreign>; <foreign>fundus</foreign>
+                            (Bologna?)</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/4272</idno>
+                        <note/>
+                        <link type="people" corresp="#people/4763" subtype="isOwnedBy"/>
+                        <link type="people" corresp="#people/4783" subtype="link"/>
+                        <link type="people" corresp="#people/4784" subtype="link"/>
+                    </place>
+                    <place>
+                        <geogName><foreign>Platea Calderaria</foreign>; <foreign>fundus</foreign>
+                            (Parma)</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/4273</idno>
+                        <note/>
+                        <link type="people" corresp="#people/4759" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/4760" subtype="isGrantedBy"/>
+                    </place>
+                    <place>
+                        <geogName><foreign>Purporano</foreign>; <foreign>fundus</foreign>
+                            (Parma)</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/4274</idno>
+                        <note/>
+                        <link type="people" corresp="#people/4759" subtype="isGrantedBy"/>
+                        <link type="people" corresp="#people/4760" subtype="isGrantedBy"/>
+                    </place>
+                    <place>
+                        <geogName><foreign>Cirliano</foreign>; <foreign>fundus</foreign>
+                            (Parma)</geogName>
+                        <geogName type="other"/>
+                        <idno>estates/4275</idno>
+                        <note/>
+                        <link type="people" corresp="#people/4759" subtype="isGrantedBy"/>
+                    </place>
+                    <place>
+                        <geogName><foreign>in civitate Parmense</foreign>;
+                            <foreign>terrae</foreign></geogName>
+                        <geogName type="other"/>
+                        <idno>estates/4276</idno>
+                        <note/>
+                        <link type="people" corresp="#people/4760" subtype="isGrantedBy"/>
+                        <link type="places" corresp="#places/53" subtype="correspondsTo"/>
                     </place>
                 </listPlace>
                 <listPlace n="Loré Vito">
@@ -16015,6 +17076,8 @@
                             subtype="link"/>
                         <link type="people" corresp="#people/4763" subtype="isOwnedBy"/>
                         <link type="people" corresp="#people/4845" subtype="isOwnedBy"/>
+                        <link type="people" corresp="#people/4761" subtype="link"/>
+                        <link type="people" corresp="#people/4762" subtype="link"/>
                     </place>
                     <place>
                         <geogName>Marzaglia; <foreign>curtis</foreign></geogName>
@@ -16575,6 +17638,8 @@
                             subtype="isConfirmedTo"/>
                         <link type="people" corresp="#people/77" subtype="isConfirmedBy"/>
                         <link type="people" corresp="#people/124" subtype="isConfirmedBy"/>
+                        <link type="people" corresp="#people/4752" subtype="link"/>
+                        <link type="people" corresp="#people/4751" subtype="link"/>
                     </place>
                     <place>
                         <geogName><foreign>Scatianum</foreign>; <foreign>fundus</foreign>
