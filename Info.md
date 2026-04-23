@@ -1,14 +1,12 @@
-********************************************************************************
-Fiscus: DOCUMENTAZIONE TECNICA
-********************************************************************************
+## DOCUMENTAZIONE TECNICA
 
 - GitHub repository: https://github.com/FiscalEstate/Fiscus
 - EFES documentation: https://github.com/EpiDoc/EFES/wiki
 - Sito ufficiale: https://fiscus.unibo.it/ (credenziali: [...])
 - Sito interno di lavoro: https://fiscuslive.unibo.it/ (credenziali: [...])
 - AusoHNum thesaurus: https://ausohnum.huma-num.fr/concept/c25660 (credenziali: [...])
-- Accesso al server (fiscus.unibo.it): ssh PERSONALE^xxx@fiscus.unibo.it (credenziali unibo, previa autorizzazione, private+public key e uso di VPN)
-- Accesso al server (fiscuslive.unibo.it): ssh xxx@personale.dir.unibo.it@fiscuslive.unibo.it (credenziali unibo, previa autorizzazione, private+public key e uso di VPN)
+- Accesso al server (fiscus.unibo.it): `ssh PERSONALE^xxx@fiscus.unibo.it` (credenziali unibo, previa autorizzazione, private+public key e uso di VPN)
+- Accesso al server (fiscuslive.unibo.it): `ssh xxx@personale.dir.unibo.it@fiscuslive.unibo.it` (credenziali unibo, previa autorizzazione, private+public key e uso di VPN)
 
 - FortiClient VPN: Unibo VPN, -, vpn.unibo.it, 443, None, Save login; credenziali unibo
 
@@ -17,28 +15,39 @@ Fiscus: DOCUMENTAZIONE TECNICA
 - Apache config file: /etc/apache2/sites-available/Fiscus.conf
 
 (RI)AVVIARE IL SITO SUL SERVER
+
 Per avviare EFES (o riavviare dopo il riavvio della macchina virtuale):
+
 [per non interrompere alla chiusura del terminale il processo che esegue EFES viene usato screen; se è attiva una sessione screen a cui si ha accesso, accedervi con `screen -r`, altrimenti chiudere tutte le sessioni attive con `killall screen` e riaprirne una nuova con `screen`; per uscire senza chiudere la sessione screen, digitare ctrl+A ctrl+D]
+```
 cd /var/www/html/Fiscus
 sudo sh build.sh
+```
 
 Per spegnere EFES [sull'uso di screen vedi sopra]:
+```
 cd /var/www/html/Fiscus
 ctrl+C
+```
 
 AGGIORNAMENTO AUTOMATICO DEL SITO DA GITHUB
+
 1) è stata installata la CLI di GitHub:
+```
 sudo apt install curl
 curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg
 sudo snap install gh
 sudo gh auth login	(selezionare GitHub.com, poi HTTPS, poi Y)
-Paste an authentication token: (inserire un token associato ad un account di GitHub che abbia accesso al repository; i token sono generabili da qui https://github.com/settings/tokens)
+Paste an authentication token: (inserire un token associato ad un account di GitHub che abbia accesso al repository; i token sono generabili da qui https://github.com/settings/tokens
+```
 
-2) l'intera cartella 'Fiscus' è stata clonata da GitHub: gh repo clone FiscalEstate/Fiscus
+1) l'intera cartella 'Fiscus' è stata clonata da GitHub: gh repo clone FiscalEstate/Fiscus
 
-3) È stato modificato `sudo visudo` aggiungendo $USER ALL=(ALL) NOPASSWD: ALL alla fine per poter eseguire `sudo` senza password
+2) È stato modificato `sudo visudo` aggiungendo `$USER ALL=(ALL) NOPASSWD: ALL` alla fine per poter eseguire `sudo` senza password
 
-4) È stato configurato crontab per sincronizzare le modifiche da GitHub in automatico ogni 5 minuti con `sudo git pull` e per fare 'harvest all' e 'index all' su EFES una volta al giorno all'1.01 di notte (con `sudo crontab -e`) [NB: solo su fiscuslive.unibo.it; fiscus.unibo.it viene aggiornato manualmente]:
+3) È stato configurato crontab per sincronizzare le modifiche da GitHub in automatico ogni 5 minuti con `sudo git pull` e per fare 'harvest all' e 'index all' su EFES una volta al giorno all'1.01 di notte (con `sudo crontab -e`) [NB: solo su fiscuslive.unibo.it; fiscus.unibo.it viene aggiornato manualmente]:
+```
 */5 * * * * cd /var/www/html/Fiscus && sudo git pull (ogni 5’)
 1 1 * * * curl https://admin:PASSWORD@fiscuslive.unibo.it/admin/rdf/harvest/all.html (all’1:01)
 9 1 * * * curl https://admin:PASSWORD@fiscuslive.unibo.it/admin/solr/index/all.html (all’1:09)
+```
