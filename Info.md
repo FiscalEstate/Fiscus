@@ -9,6 +9,7 @@
 - Accesso al server (fiscuslive.unibo.it): `ssh xxx@personale.dir.unibo.it@fiscuslive.unibo.it` (credenziali unibo, previa autorizzazione, private+public key e uso di VPN)
 
 - FortiClient VPN: Unibo VPN, -, vpn.unibo.it, 443, None, Save login; credenziali unibo
+- VM: 12GB RAM (fiscus), 10GB RAM (fiscuslive)
 
 - NB: dopo che si modificano file .xsl occorre spegnere e riavviare EFES sul server
 - NB: se l'aggiornamento automatico non funziona più, ri-associare un account di GitHub (che abbia accesso al repository) con `sudo gh auth login`
@@ -50,4 +51,9 @@ Paste an authentication token: (inserire un token associato ad un account di Git
 */5 * * * * cd /var/www/html/Fiscus && sudo git pull (ogni 5’)
 1 1 * * * curl https://admin:PASSWORD@fiscuslive.unibo.it/admin/rdf/harvest/all.html (all’1:01)
 9 1 * * * curl https://admin:PASSWORD@fiscuslive.unibo.it/admin/solr/index/all.html (all’1:09)
+```
+4) In 'sw/jetty/logs' e 'webapps/openrdf-sesame/app_dir/openrdf-sesame/logs' vengono conservati solo gli ultimi 7 log, eliminando gli altri una volta al giorno tramite crontab:
+```
+30 23 * * * cd /var/www/html/Fiscus/sw/jetty/logs/ && ls -tp *.log *.log.* 2>/dev/null | grep -v '/$' | tail -n +8 | xargs -r rm --
+30 23 * * * cd /var/www/html/Fiscus/webapps/openrdf-sesame/app_dir/openrdf-sesame/logs/ && ls -tp *.log *.log.* 2>/dev/null | grep -v '/$' | tail -n +8 | xargs -r rm --
 ```
