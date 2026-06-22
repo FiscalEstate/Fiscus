@@ -337,7 +337,7 @@
         <a href="{@corresp}" target="_blank"><xsl:apply-templates/></a>
       </xsl:when>
       <xsl:when test="not(@corresp) and starts-with(., 'http')">
-        <a href="{.}" target="_ blank"><xsl:apply-templates/></a>
+        <a href="{.}" target="_blank"><xsl:apply-templates/></a>
       </xsl:when>
       <xsl:otherwise>
         <xsl:apply-templates/>
