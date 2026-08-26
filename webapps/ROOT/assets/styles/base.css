@@ -101,6 +101,14 @@ nav.top-bar ul.left * {
     padding-bottom: 1em;
 }
 
+.title-area {
+    line-height: 0;
+}
+
+.top-bar-section ul {
+    line-height: 0.5;
+}
+
 
 /* homepage */
 #home-text {
@@ -200,6 +208,8 @@ div.list_item {
     font-size: 12px;
     padding: 9px 9px 7px 9px;
     margin: 0 5px 10px 5px;
+    display: inline-block;
+
 }
 .expand-map-in-search {
     margin: 0 !important;
@@ -494,9 +504,18 @@ a:active.button {
     display: inline;
 }
 
-.popup_box:hover .popup {
-    display: block;
-    z-index: 9;
+@media (hover: hover) {
+    .popup_box:hover .popup {
+        display: block;
+        z-index: 9;
+    }
+}
+
+@media (hover: none) {
+    .popup_box.popup_box_active .popup {
+        display: block;
+        z-index: 9;
+    }
 }
 
 .popup {

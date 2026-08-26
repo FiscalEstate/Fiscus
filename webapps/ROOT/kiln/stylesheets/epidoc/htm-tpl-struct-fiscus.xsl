@@ -131,6 +131,24 @@
           $(".links").toggleClass("_links");
           });
           });
+
+          $(document).ready(function(){
+          $(document).on("click", ".popup_box &gt; span:first-child", function(e){
+          var $box = $(this).closest(".popup_box");
+          var wasActive = $box.hasClass("popup_box_active");
+          $(".popup_box_active").removeClass("popup_box_active");
+          if(!wasActive){
+          $box.addClass("popup_box_active");
+          }
+          e.stopPropagation();
+          });
+          $(document).on("click", function(){
+          $(".popup_box_active").removeClass("popup_box_active");
+          });
+          $(".popup_box .popup").click(function(e){
+          e.stopPropagation();
+          });
+          });
         </script>
       </xsl:if>
     </div>
