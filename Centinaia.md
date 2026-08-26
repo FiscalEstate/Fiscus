@@ -1,0 +1,225 @@
+A ciascun collaboratore è assegnato un range di numeri (un centinaio) da utilizzare per la numerazione delle proprie schede di I livello (schede documento) e di II livello (schede Places, People, Estates, Juridical Persons).
+
+## Distribuzione numeri schede di I livello
+- 100 Lazzari
+- 200 Belluscio
+- 300 Vignodelli
+- 400 Cortese
+- 500 Tomei
+- 600 Tomei
+- 700 Manarini
+- 800 Tabarrini
+- 900 Del Mercato 
+- 1000 Cinello
+- 1100 Stedile
+- 1200 Tagliente
+- 1300 Massa
+- 1400 Collavini
+- 1500 Internullo
+- 1600 Loré
+- 1700 Motta
+- 1800 Ciccopiedi
+- 1900 Rivera Magos
+- 2000 Zornetta
+- 2100 Stedile (proseguimento)
+- 2200 Stedile (proseguimento)
+- 2300 Angeli
+- 2400 Giacomelli
+- 2500-3200 Manarini
+- 3300 Viti
+- 3400 Di Muro
+- 3500 Massa (proseguimento)
+- 3600 Cerretani
+- 3700 Zornetta (proseguimento)
+- 3800 Sommariva
+- 3900 Delli Pizzi
+- 4000 Collavini/Tomei (Lucca)
+- 4100 Collavini/Tomei (Lucca)
+- 4200 Giacomelli (proseguimento)
+- 4300 Redeghieri
+- 4400 Longhin
+- 4500 De Angelis
+- 4600 De Angelis (proseguimento)
+- 4700 Longhin (proseguimento)
+- 5000 Ferretti
+- 5100 Ferretti (proseguimento)
+- 5300 Ribani
+- 5400 Stedile (proseguimento)
+- 5500 Massa (proseguimento)
+- 5600 Stedile (proseguimento)
+- 5700 Stedile (proseguimento)
+- 5800 Stedile (proseguimento)
+- 6000 Studenti esercitazione Bologna nov/dic 2021
+
+## Distribuzione numeri schede di II livello: Places
+- 800 Ciccopiedi
+- 900 Cinello
+- 1000 Collavini
+- 1100 Di Muro
+- 1200 Internullo
+- 1300 Lazzari
+- 1400 Loré
+- 1500 Manarini
+- 1600 Motta
+- 1700 Rivera Magos
+- 1800 Stedile
+- 1900 Tabarrini
+- 2000 Tagliente
+- 2100 Tomei
+- 2200 Vignodelli
+- 2300 Zornetta
+- 2400 Ferretti
+- 2500 Belluscio
+- 2600 Cortese
+- 2700 Stedile (proseguimento)
+- 2800 Zornetta (proseguimento)
+- 2900 Ferretti (proseguimento)
+- 3000 Del Mercato
+- 3100 Angeli
+- 3200 Giacomelli
+- 3300 Viti
+- 3400 Massa
+- 3500 Stedile (proseguimento)
+- 3600 Manarini (proseguimento)
+- 3700 Ciccopiedi (proseguimento)
+- 3800 Sommariva
+- 3900 Delli Pizzi
+- 4000 De Angelis
+- 4100 Ferretti (proseguimento)
+- 4200 Redeghieri
+- 4300 Ribani
+- 4400 Ferretti (proseguimento)
+- 4500 De Angelis (proseguimento)
+- 4600 Stedile (proseguimento)
+- 4700 Massa (proseguimento)
+- 4800 Stedile (proseguimento)
+- 4900 Ribani (proseguimento)
+- 5000 Massa (proseguimento)
+- 5100 De Angelis (proseguimento)
+- 5200 Manarini (proseguimento)
+- 5300 Longhin
+
+## Distribuzione numeri schede di II livello: People
+- 500 Ciccopiedi
+- 600 Cinello
+- 700 Collavini
+- 800 Manarini (proseguimento)
+- 900 Internullo
+- 1000 Lazzari
+- 1100 Loré
+- 1200 Manarini
+- 1300 Motta
+- 1400 Rivera Magos
+- 1500 Stedile
+- 1600 Tabarrini
+- 1700 Tagliente
+- 1800 Tomei
+- 1900 Vignodelli
+- 2000 Zornetta
+- 2100 Ferretti
+- 2200 Belluscio
+- 2300 Cortese
+- 2400 Zornetta (proseguimento)
+- 2500 Del Mercato
+- 2600 Cerretani
+- 2700 Sommariva
+- 2800 Delli Pizzi
+- 2900 Zornetta (proseguimento)
+- 3000 De Angelis
+- 3100 Angeli
+- 3200 Giacomelli
+- 3300 Viti
+- 3400 Massa
+- 3500 Ferretti (proseguimento)
+- 3600 Massa (proseguimento)
+- 3700 Ferretti (proseguimento)
+- 3800 Redeghieri
+- 3900 Ribani
+- 4000 Ferretti (proseguimento)
+- 4100 Massa (proseguimento)
+- 4200 De Angelis (proseguimento)
+- 4300 Stedile (proseguimento)
+- 4400 Massa (proseguimento)
+- 4500 De Angelis (proseguimento)
+- 4600 Longhin
+- 4700 Longhin (proseguimento)
+- 4800 Longhin (proseguimento)
+
+## Distribuzione numeri schede di II livello: Estates
+- 400 Ciccopiedi
+- 500 Cinello
+- 600 Collavini
+- 700 Di Muro
+- 800+900 Internullo
+- 1000 Loré
+- 1100 Manarini
+- 1200 Motta
+- 1300 Rivera Magos
+- 1400 Stedile
+- 1500 Tabarrini
+- 1600 Tagliente
+- 1700 Tomei
+- 1800 Vignodelli
+- 1900 Zornetta
+- 2000 Ferretti
+- 2100 Belluscio
+- 2200 Cortese
+- 2300 Stedile (proseguimento)
+- 2400 Stedile (proseguimento)
+- 2500 Del Mercato
+- 2600 Lazzari
+- 2700 Cerretani
+- 2800 Sommariva
+- 2900 Delli Pizzi
+- 3000 De Angelis
+- 3100 ​​Angeli
+- 3200 Giacomelli
+- 3300 Viti
+- 3400 Massa
+- 3500 Redeghieri
+- 3600 Ribani
+- 3700 Ferretti (proseguimento)
+- 3800 Ribani (proseguimento)
+- 3900 Stedile (proseguimento)
+- 4000 Ribani (proseguimento)
+- 4100 Longhin
+- 4200 Longhin (proseguimento)
+- 4300 Longhin (proseguimento)
+
+## Distribuzione numeri schede di II livello: Juridical persons
+- 400 Ciccopiedi
+- 500 Cinello
+- 600 Collavini
+- 700 Di Muro
+- 800 Internullo
+- 900 Lazzari
+- 1000 Loré
+- 1100 Manarini
+- 1200 Motta
+- 1300 Rivera Magos
+- 1400 Stedile
+- 1500 Tabarrini
+- 1600 Tagliente
+- 1700 Tomei
+- 1800 Vignodelli
+- 1900 Zornetta
+- 2000 Ferretti
+- 2100 Belluscio
+- 2200 Cortese
+- 2300 Zornetta (proseguimento)
+- 2400 Ferretti (proseguimento)
+- 2500 Del Mercato
+- 2600 Cerretani
+- 2700 Sommariva
+- 2800 Delli Pizzi
+- 2900 Redeghieri
+- 3000 De Angelis
+- 3100 Angeli
+- 3200 Giacomelli
+- 3300 Viti
+- 3400 Massa
+- 3500 Ribani
+- 3600 Stedile (proseguimento)
+- 3700 Massa (proseguimento)
+- 3800 De Angelis (proseguimento)
+- 3900 Longhin
