@@ -2,13 +2,9 @@
 
 This database, built with [EFES](https://github.com/EpiDoc/EFES), is the main output of the research project *FISCUS. Fiscal Estate in Medieval Italy: Continuity and Change (9th-12th Centuries)*. The project focused on the fiscal assets and the revenues managed by royal officials and ecclesiastical elites in the early and high Middle Ages.
 
-----
-
 EFES is licensed under the Apache 2.0 open software license,
 and is copyright the University of London, King's College London,
 and all [listed individual contributors](https://github.com/EpiDoc/EFES/wiki/About-the-project).
-
-----
 
 ## Configurazione iniziale
 1. Creare un account su GitHub https://github.com/ e inviare al proprio referente il proprio username per essere aggiunti come editor; nella email che arriverà, cliccare su ‘accetta invito’
@@ -26,14 +22,14 @@ and all [listed individual contributors](https://github.com/EpiDoc/EFES/wiki/Abo
 - webapps/ROOT/content/fiscus_framework/resources: places.xml, people.xml, estates.xml, juridical_persons.xml ('schede di II livello')
 - webapps/ROOT/content/xml/epidoc: schede documento ('schede di I livello')
 
-1. Per creare una scheda di I livello, creare una copia del template e salvarla in webapps/ROOT/content/xml/epidoc, rinominandola con il numero del documento che si sta creando (a ciascun collaboratore è assegnato un range di numeri da utilizzare per la numerazione delle proprie schede, indicato [qui](https://docs.google.com/document/d/17_lKbWBAqnTlzafvdUV0CYfxk4nb7GXKj95enWb6yp8); NB: nel nome del file non devono esserci spazi)
+1. Per creare una scheda di I livello, creare una copia del template e salvarla in webapps/ROOT/content/xml/epidoc, rinominandola con il numero del documento che si sta creando (a ciascun collaboratore è assegnato un range di numeri da utilizzare per la numerazione delle proprie schede, indicato [qui](https://github.com/FiscalEstate/Fiscus/blob/master/Centinaia.md); NB: nel nome del file non devono esserci spazi)
 2. Per creare una scheda di II livello, aprire il corrispondente file xml contenuto in webapps/ROOT/content/fiscus_framework/resources e crearla all'interno della propria sezione (a ciascun collaboratore è assegnata una sezione della lista, con il proprio nome nell'intestazione)
 3. Per sincronizzare le proprie modifiche con la cartella online: https://github.com/FiscalEstate/Fiscus/blob/master/GitHub.md
 4. Per visualizzare le proprie schede: https://fiscuslive.unibo.it/ (sito ad uso interno, contenente anche le schede in corso di lavorazione); https://fiscus.unibo.it/ (sito pubblico, contenente solo le schede ufficialmente pubblicate)
 
 ## Aggiunta di nuovi collaboratori
 1. Aggiungere lo username in https://github.com/FiscalEstate/Fiscus/settings/access cliccando su 'Add people', assegnando il ruolo 'Write' (per poterlo fare è necessario avere il ruolo 'Admin' in GitHub: IV/LT)
-2. Assegnare le centinaia (x5: documenti, places, people, estates, juridical persons) [qui](https://docs.google.com/document/d/17_lKbWBAqnTlzafvdUV0CYfxk4nb7GXKj95enWb6yp8)
+2. Assegnare le centinaia (x5: documenti, places, people, estates, juridical persons) [qui](https://github.com/FiscalEstate/Fiscus/blob/master/Centinaia.md)
 3. Aggiungere il nome del nuovo collaboratore in team.xml e fiscus.css e creare le sottoliste nelle schede di II livello (usando la modalità Text, non Author):
 
    3a. In webapps/ROOT/content/xml/tei/team.xml aggiungere 
