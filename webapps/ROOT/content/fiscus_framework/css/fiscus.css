@@ -109,7 +109,7 @@
     
     body listPlace place geo:after {
         content: "Coordinates (Lat, Long): "
-        oxy_htmlContent(content, "<span style='font:11px'>[<a href='../resources/map.html'>Open map</a>]</span>") 
+        oxy_htmlContent(content, "<span style='font:11px'>[<a href='https://fiscuslive.unibo.it/map.html'>Open map</a>]</span>") 
         /*https://www.gps-coordinates.net/*/      /*oxy_browser( href, '../resources/map.html', width, 100%, height, 400px)*/
         oxy_editor(type, text, edit, "#text" columns, 40)
         oxy_checkbox(edit, "@style", values, "line", uncheckedValues, "", labels, "Line");
